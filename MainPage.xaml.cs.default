@@ -1,0 +1,125 @@
+﻿using com.codename1.ui;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
+
+namespace YourApp
+{
+   
+    public sealed partial class MainPage : Page
+    {
+        public static String BUILD_KEY = "Generated build key here";
+        public static String PACKAGE_NAME = "com.company.yourpackage";
+        public static String BUILT_BY_USER = "youremail@yourcompany.com";
+        public static String APP_NAME = "YourAppName";
+        public static String APP_VERSION = "1.0";
+        private Main instance;
+     
+        public MainPage()
+        {
+         
+            this.InitializeComponent();
+            this.NavigationCacheMode = NavigationCacheMode.Enabled;  
+
+             Loaded += delegate {
+                if (instance == null) {
+                    com.codename1.impl.SilverlightImplementation.setCanvas(this, LayoutRoot);
+                    com.codename1.ui.Display.init(null);
+                    com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
+                    disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("package_name"), global::com.codename1.impl.SilverlightImplementation.toJava(PACKAGE_NAME));
+                    disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("built_by_user"), global::com.codename1.impl.SilverlightImplementation.toJava(BUILT_BY_USER));
+                    disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("build_key"), global::com.codename1.impl.SilverlightImplementation.toJava(BUILD_KEY));
+                    disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("AppName"), global::com.codename1.impl.SilverlightImplementation.toJava(APP_NAME));
+                    disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("AppVersion"), global::com.codename1.impl.SilverlightImplementation.toJava(APP_VERSION));
+                    Window.Current.Closed += Current_Closed;
+                    Window.Current.Activated += Current_Activated;
+                   // Window.Current.VisibilityChanged += Current_VisibilityChanged;
+                   // Window.Current.SizeChanged += Current_SizeChanged;
+                    
+
+                    bool firstTime =  com.codename1.io.Preferences.get(global::com.codename1.impl.SilverlightImplementation.toJava("cn1_first_time_req"), true);
+                    if (firstTime)
+                    {
+                        com.codename1.io.Preferences.set(global::com.codename1.impl.SilverlightImplementation.toJava("cn1_first_time_req"), false);
+                        Request r = new Request();
+                        r.setPost(false);
+                        r.setFailSilently(true);
+        public static int width;
+                        r.setUrl(global::com.codename1.impl.SilverlightImplementation.toJava("https://codename-one.appspot.com/registerDeviceServlet"));
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("a"), 
+                            global::com.codename1.impl.SilverlightImplementation.toJava("YourApp"));
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("b"),
+                            global::com.codename1.impl.SilverlightImplementation.toJava(BUILD_KEY));
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("by"),
+                            global::com.codename1.impl.SilverlightImplementation.toJava(BUILT_BY_USER));
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("p"),
+                            global::com.codename1.impl.SilverlightImplementation.toJava(PACKAGE_NAME));
+                        java.lang.String ver = (java.lang.String)disp.getProperty(
+                            com.codename1.impl.SilverlightImplementation.toJava("AppVersion"),
+                            com.codename1.impl.SilverlightImplementation.toJava("4.1"));
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("v"), ver);
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("pl"), (java.lang.String)disp.getPlatformName());
+                        r.addArgument(global::com.codename1.impl.SilverlightImplementation.toJava("u"), global::com.codename1.impl.SilverlightImplementation.toJava(""));
+                        com.codename1.io.NetworkManager n = (com.codename1.io.NetworkManager)com.codename1.io.NetworkManager.getInstance();
+                        //global::System.Diagnostics.Debug.WriteLine(r.ToString());
+                        n.addToQueue(r);
+                    }
+                }
+            };
+        public static int width;
+        }
+
+        private void Current_Closed(object sender, Windows.UI.Core.CoreWindowEventArgs e)
+        {
+            if (instance != null)
+            {
+                instance.stop();
+            }
+        }
+        void Current_Activated(object sender, Windows.UI.Core.WindowActivatedEventArgs e)
+        {
+            if (instance == null)
+            {
+                instance = new Main();
+            }
+            if (!com.codename1.impl.SilverlightImplementation.exitLock) {
+                instance.start();
+            }
+        }
+
+        protected override void OnNavigatedFrom(NavigationEventArgs e) {
+            instance.stop();
+        }
+
+    }
+    public class Request : com.codename1.io.ConnectionRequest
+    {
+        public Request()
+        {
+            @this();
+        }
+
+        public override void readResponse(global::java.io.InputStream n1)
+        {
+            java.io.DataInputStream di = new java.io.DataInputStream();
+            di.@this(n1);
+            long l = di.readLong();
+            com.codename1.io.Preferences.set(global::com.codename1.impl.SilverlightImplementation.toJava("DeviceId__$"), l);
+        }
+
+    }
+}
