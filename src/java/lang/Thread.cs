@@ -979,7 +979,7 @@ public static global::System.Object currentThread(){
     if (!threadMap.ContainsKey(global::System.Environment.CurrentManagedThreadId))
     {
         Thread t = new Thread();
-        threadMap.TryAdd(t.internalThread.Id, t);
+        threadMap.TryAdd(global::System.Environment.CurrentManagedThreadId, t);
         //  global::System.Diagnostics.Debug.WriteLine("ADD : " + t.internalThread.Id + " ff " + t._fthreadId);
         return t;
     }
@@ -2410,7 +2410,7 @@ private static readonly global::System.Collections.Concurrent.ConcurrentDictiona
 private void runImplInternal()
 {
     //currentThreadInstance = this;
-      threadMap.TryAdd(internalThread.Id, this);
+    threadMap.TryAdd(global::System.Environment.CurrentManagedThreadId, this);
       run();
 }
 public virtual void start0()

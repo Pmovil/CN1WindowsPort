@@ -136,7 +136,11 @@ namespace PumpopNati.src.com.codename1.impl
 
         internal virtual void drawString(string str, int x, int y)
         {
-            graphics.DrawText(str, x, y, c);
+            //graphics.DrawText(str, x, y, c, font);
+            //font.VerticalAlignment = CanvasVerticalAlignment.Center;
+            CanvasTextLayout l = new CanvasTextLayout(graphics, str, font, 0.0f, 0.0f);
+            //graphics.DrawRectangle(x, y, (float)l.DrawBounds.Width, (float)l.DrawBounds.Height, Colors.Red);
+            graphics.DrawTextLayout(l, x, y, c);
         }
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y)

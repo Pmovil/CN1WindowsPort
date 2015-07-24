@@ -39,6 +39,10 @@ using PumpopNati.src.com.codename1.impl;
 using System.Net.Http;
 using Windows.UI;
 using Microsoft.Graphics.Canvas.UI;
+using Windows.Graphics.Imaging;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.Graphics.Display;
+using Windows.UI.Text;
 
 
 namespace com.codename1.impl
@@ -164,42 +168,49 @@ namespace com.codename1.impl
                  screen.PointerReleased += LayoutRoot_PointerReleased;
                 _sensor = SimpleOrientationSensor.GetDefault();
                 _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
+                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(1);
+                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
             }).AsTask().GetAwaiter();
         }
 
-         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
+        void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
-            switch (e.Orientation)
-            {
-                case SimpleOrientation.NotRotated:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                case SimpleOrientation.Rotated90DegreesCounterclockwise:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                case SimpleOrientation.Rotated180DegreesCounterclockwise:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                case SimpleOrientation.Rotated270DegreesCounterclockwise:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                case SimpleOrientation.Faceup:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                case SimpleOrientation.Facedown:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-                default:
-                    rotation();
-                    sizeChanged(displayWidth, displayHeight);
-                    break;
-            }
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+         {
+             screen.Width = Convert.ToInt32(cl.ActualWidth * scaleFactor);
+             screen.Height = Convert.ToInt32(cl.ActualHeight * scaleFactor);
+             switch (e.Orientation)
+             {
+                 case SimpleOrientation.NotRotated:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 case SimpleOrientation.Rotated90DegreesCounterclockwise:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 case SimpleOrientation.Rotated180DegreesCounterclockwise:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 case SimpleOrientation.Rotated270DegreesCounterclockwise:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 case SimpleOrientation.Faceup:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 case SimpleOrientation.Facedown:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+                 default:
+                     rotation();
+                     sizeChanged(displayWidth, displayHeight);
+                     break;
+             }
+         }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             repaint2();
         }
       
@@ -211,22 +222,31 @@ namespace com.codename1.impl
            
             if (cmp != null)
             {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(30))).ConfigureAwait(false).GetAwaiter().GetResult();
+                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(60))).ConfigureAwait(false).GetAwaiter().GetResult();
                 repaint(cmp);
             }
                       
         }
         private void rotation()
         {         
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                screen.Width = Convert.ToInt32(cl.ActualWidth * scaleFactor);
-                screen.Height = Convert.ToInt32(cl.ActualHeight * scaleFactor);
-                displayWidth = Convert.ToInt32(cl.ActualWidth * scaleFactor);
-                displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
-                screen.Width = displayWidth;
-                screen.Height = displayHeight;
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            //dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            //{
+                try
+                {
+                    
+                    displayWidth = Convert.ToInt32(cl.ActualWidth * scaleFactor);
+                    displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
+                    screen.Width = displayWidth;
+                    screen.Height = displayHeight;
+                    sizeChanged(displayWidth, displayHeight);
+                }
+                catch (Exception)
+                {
+                    
+                    throw;
+                }
+              
+            //}).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
         public override bool canForceOrientation()
@@ -590,7 +610,7 @@ namespace com.codename1.impl
                     textInputInstance.Height = (currentlyEditing.getHeight() / scaleFactor) - 15;
                     textInputInstance.Width = (currentlyEditing.getWidth() / scaleFactor) - 5;
                     textInputInstance.BorderThickness = new Thickness(0);
-                    textInputInstance.FontSize = font.height / scaleFactor;
+                    textInputInstance.FontSize = font.font.FontSize;
                     textInputInstance.Margin = new Thickness(0);
                     textInputInstance.Padding = new Thickness(0);
                     textInputInstance.Clip = null;
@@ -607,7 +627,7 @@ namespace com.codename1.impl
                     cl.Children.Remove(textInputInstance);
                     textInputInstance = null;
                     // cl.Focus;
-                }).AsTask().GetAwaiter(); ;
+                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             lockEditing = false;
         }
@@ -929,8 +949,8 @@ namespace com.codename1.impl
             public override void scanBarCode(codescan.ScanResult n1)
             {
                 result = n1;
-                MediaCapture captureTask = new MediaCapture();
-                captureTask.PhotoConfirmationCaptured += captureTask_Completed;
+                MediaCapture capture = new MediaCapture();
+                capture.PhotoConfirmationCaptured += captureTask_Completed;
                
             }
 
@@ -1334,8 +1354,16 @@ namespace com.codename1.impl
 
         public override void setNativeFont(java.lang.Object graphics, java.lang.Object font)
         {
-            ((NativeGraphics)graphics).font = (NativeFont)font;
-            // TODO - set native font in WindowsGraphics
+            NativeFont f;
+            if (font == null)
+            {
+                f = (NativeFont)getDefaultFont();
+            }
+            else
+            {
+                f = (NativeFont)font;
+            }
+            ((NativeGraphics)graphics).font = f;
         }
 
         public override int getClipX(java.lang.Object graphics)
@@ -1502,8 +1530,6 @@ namespace com.codename1.impl
             return  stringWidth(n1, s);
         }
 
-        private  Dictionary<StringFontPair, Int32> stringWidthCache = new Dictionary<StringFontPair, Int32>();
-
         public override int stringWidth(java.lang.Object n1, java.lang.String n2)
         {
             NativeFont font =  f(n1);
@@ -1519,33 +1545,46 @@ namespace com.codename1.impl
         {
             object x = f(n1);
             NativeFont s = (NativeFont)x;
-            return s.systemFace;
-            // return f(n1).systemFace;
+            return s.face;
+            // return f(n1).face;
         }
 
         public override int getSize(global::java.lang.Object n1)
         {
             object x = f(n1);
             NativeFont s = (NativeFont)x;
-            return s.systemSize;
-          //  return f(n1).systemSize;
+            return s.size;
+          //  return f(n1).size;
         }
 
         public override int getStyle(global::java.lang.Object n1)
         {
             object x = f(n1);
             NativeFont s = (NativeFont)x;
-            return s.systemStyle;
-           // return f(n1).systemStyle;
+            return s.style;
+           // return f(n1).style;
         }
 
         public override int getHeight(java.lang.Object n1)
         {
             object x = f(n1);
             NativeFont s = (NativeFont)x;
-            return s.actualHeight;
+            return s.height;
             //return f(n1).actualHeight;
         }
+
+        //public override bool isTrueTypeSupported()
+        //{
+        //    return true;
+        //}
+
+        //public override object loadTrueTypeFont(java.lang.String fontName, java.lang.String fileName)
+        //{
+
+        //    //NativeFont f = new NativeFont();
+        //    return null;
+        //}
+
         public override object getDefaultFont()
         {
             if (defaultFont == null)
@@ -1555,58 +1594,56 @@ namespace com.codename1.impl
             }
             return defaultFont;
         }
-        private Dictionary<int, object> fontCache = new Dictionary<int, object>();
       
         public override object createFont(int face, int style, int size)
         {
-            if (fontCache.ContainsKey(face | style | size))
-            {
-                return fontCache[face | style | size];
-            }
+            //int a = defaultFontPixelHeight;
+            //int diff = a / 3;
+            //switch (size)
+            //{
+            //    case 8: //com.codename1.ui.Font._fSIZE_1SMALL:
+            //        a -= diff;
+            //        break;
+            //    case 16: //com.codename1.ui.Font._fSIZE_1LARGE:
+            //        a += diff;
+            //        break;
+            //}
 
-            int a = 24;
-            switch (size)
-            {
-                case 8: //com.codename1.ui.Font._fSIZE_1SMALL:
-                    a = 15;
-                    break;
-                case 16: //com.codename1.ui.Font._fSIZE_1LARGE:
-                    a = 56;
-                    break;
-            }
-
-            NativeFont nf = new NativeFont();
-            nf.height = a;
-            nf.systemFace = face;
-            nf.systemSize = size;
-            nf.systemStyle = style;
+            NativeFont nf = new NativeFont(face, style, size, new CanvasTextFormat());
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
                  dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    TextBlock tb = new TextBlock();
-                    tb.FontSize = nf.height;
-                    tb.Text = "Xp";
-                    tb.Measure(new Size(1000000, 1000000));
-                    nf.actualHeight = (int)tb.ActualHeight;
+                    switch (size)
+                    {
+                        case 8: //com.codename1.ui.Font._fSIZE_1SMALL:
+                            nf.font.FontSize = nf.font.FontSize * 2 / 3;
+                            break;
+                        case 16: //com.codename1.ui.Font._fSIZE_1LARGE:
+                            nf.font.FontSize = nf.font.FontSize * 4 / 3;
+                            break;
+                    }
+                    //Debug.WriteLine("height 1: " + nf.height);
+                    if ((style & 2) != 0) // com.codename1.ui.Font._fSTYLE_1ITALIC
+                    {
+                        nf.font.FontStyle = FontStyle.Italic;
+                    }
+                    if ((style & 1) != 0) // com.codename1.ui.Font._fSTYLE_1BOLD
+                    {
+                        nf.font.FontWeight = FontWeights.Bold;
+                    }
+                    nf.font.WordWrapping = CanvasWordWrapping.NoWrap;
+                    //Debug.WriteLine("height 2: " + nf.height);
+                    // _fSTYLE_1UNDERLINED = 4;
+                    // nf.font.FontFamily = "zzz";
                     are.Set();
                 }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
             }
-
-            if ((style & com.codename1.ui.Font._fSTYLE_1BOLD) == com.codename1.ui.Font._fSTYLE_1BOLD)
-            {
-                nf.bold = true;
-            }
-            if ((style & com.codename1.ui.Font._fSTYLE_1ITALIC) == com.codename1.ui.Font._fSTYLE_1ITALIC)
-            {
-                nf.italic = true;
-            }
-
-            fontCache[face | style | size] = nf;
             return nf;
         }
 
+      
         public virtual NativeFont f(java.lang.Object fnt)
         {
             object getDefaul = getDefaultFont();
@@ -1639,10 +1676,7 @@ namespace com.codename1.impl
            
             NetworkOperation n = new NetworkOperation();
             string s = toCSharp(n1);
-            //Debug.WriteLine("connect :" +s);
             n.request = (HttpWebRequest)WebRequest.Create(new Uri(s));
-            //n.request.AllowAutoRedirect = false;
-           
             return n;
         }
 
@@ -1741,14 +1775,12 @@ namespace com.codename1.impl
             {
                 n.request.Method = "GET";
             }
-            //Debug.WriteLine("setPostRequest  " + n.request.Method);
         }
         public override int getResponseCode(global::java.lang.Object n1)
         {
             NetworkOperation n = (NetworkOperation)n1;
             int i = 0;
             HttpWebResponse res = n.response;
-            //Debug.WriteLine("getResponseCode: "+res.Headers.AllKeys.Length +"  "+ res.ContentType);
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -1758,7 +1790,6 @@ namespace com.codename1.impl
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();
             }
-            //Debug.WriteLine("getResponseCode:"+i);
             return i;
         }
         public override global::System.Object getResponseMessage(global::java.lang.Object n1)
@@ -1998,7 +2029,6 @@ namespace com.codename1.impl
 
         public async override void rename(java.lang.String file, java.lang.String newName)
         {
-           // IsolatedStorageFile store = IsolatedStorageFile.GetUserStoreForApplication();
            await  store.RenameAsync(nativePath(newName), NameCollisionOption.ReplaceExisting );
         }
 
@@ -2047,7 +2077,7 @@ namespace com.codename1.impl
         private SilverlightImageIO imageIO;
         private SimpleOrientationSensor _sensor;
         private static WindowsAsyncView myView;
-        private static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
+        public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
         private NativeGraphics globalGraphics;
         public override object getImageIO()
         {
@@ -2097,7 +2127,6 @@ namespace com.codename1.impl
     public class NativeGraphics : global::java.lang.Object
     {
         public WindowsGraphics destination;
-        public NativeFont font;
         private int clipX, clipY, clipW, clipH;
         private Rectangle actualClip;
         public Rectangle clip
@@ -2112,6 +2141,16 @@ namespace com.codename1.impl
                 clipH = actualClip.getHeight();
             }
             get { return actualClip; }
+        }
+        private NativeFont actualFont;
+        public NativeFont font 
+        {
+            set
+            {
+                actualFont = value;
+                destination.setFont(value.font);
+            }
+            get { return actualFont; }
         }
 
         public void resetClip()
@@ -2194,32 +2233,80 @@ namespace com.codename1.impl
 
     public class NativeFont : global::java.lang.Object
     {
-        CanvasTextFormat font = new CanvasTextFormat();
-        public int height;
-        public int systemSize;
-        public int systemFace;
-        public int systemStyle;
+        public int face;
+        public int style;
+        public int size;
+        public CanvasTextFormat font = new CanvasTextFormat();
+        string fileName;
+        private int actualHeight = -1;
+        public int height
+        {
+            get
+            {
+                if (actualHeight < 0)
+                {
+                    //CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, "Mg", font, 0.0f, 0.0f);
+                    //actualHeight = SilverlightImplementation.screen.ConvertDipsToPixels((float)Math.Ceiling(fontLayout.DrawBounds.Height));
+                    //Debug.WriteLine("height (dips): " + fontLayout.DrawBounds.Height);
+                    //Debug.WriteLine("height (pixels): " + actualHeight);
+
+                    using (AutoResetEvent are = new AutoResetEvent(false))
+                    {
+                        SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                        {
+                            TextBlock tb = new TextBlock();
+                            tb.FontSize = font.FontSize;
+                            tb.Text = "Mg";
+                            tb.Measure(new Size(1000000, 1000000));
+                            actualHeight = Convert.ToInt32(Math.Ceiling(tb.ActualHeight));
+                            //Debug.WriteLine("height (tb): " + tb.ActualHeight);
+                            are.Set();
+                        }).AsTask().ConfigureAwait(false).GetAwaiter();
+                        are.WaitOne();
+                    }
+                }
+                return actualHeight;
+            }
+            set
+            {
+                actualHeight = value;
+            }
+        }
         public bool bold;
         public bool italic;
-        public int actualHeight;
-      //  java.lang.String fileName;
-       // int weight;
+        int weight;
+
+        public NativeFont(int face, int style, int size, CanvasTextFormat font, String fileName, int height, int weight)
+            : this(face, style, size, font)
+        {
+            this.fileName = fileName;
+            this.height = height;
+            this.weight = weight;
+        }
+
+        public NativeFont(int face, int style, int size, CanvasTextFormat font)
+        {
+            this.face = face;
+            this.style = style;
+            this.size = size;
+            this.font = font;
+        }
 
         public override bool Equals(object o)
         {
             NativeFont f = (NativeFont)o;
-            return f.height == height && f.systemFace == systemFace && f.systemSize == systemSize && f.systemStyle == systemStyle;
+            return f.height == height && f.face == face && f.size == size && f.style == style;
         }
 
         public override int GetHashCode()
         {
-            return height;
+            return face | style | size;
         }
 
         internal int getStringWidth(string str)
         {
-            CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, (float)SilverlightImplementation.screen.Size.Width, (float)SilverlightImplementation.screen.Size.Height);
-            return (int)fontLayout.DrawBounds.Width;
+            CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, 0.0f, 0.0f);
+            return Convert.ToInt32(Math.Ceiling(fontLayout.DrawBounds.Width));
         }
     }
 
@@ -2534,6 +2621,8 @@ namespace com.codename1.impl
     {
         public FrameworkElement element;
         private bool lightweightMode;
+        public WebView webview;
+        private object peerImage;
         public SilverlightPeer(FrameworkElement element)
         {
             this.element = element;
@@ -2611,13 +2700,14 @@ namespace com.codename1.impl
 
         public override void deinitialize()
         {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => 
+            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 if (SilverlightImplementation.cl.Children.Contains(element))
                 {
+                   // peerImage = generatePeerImage();
                     SilverlightImplementation.cl.Children.Remove(element);
                 }
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult() ;
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
         public override void setLightweightMode(bool n1)
         {
@@ -2639,11 +2729,27 @@ namespace com.codename1.impl
             }
         }
 
+        private async void loadWebViewToStream(WebView webview, IRandomAccessStream stream)
+        {
+            
+                    await Task.Delay(TimeSpan.FromTicks(2).Duration());
+                    //await Task.Delay(TimeSpan.FromMilliseconds(20));
+                    await webview.CapturePreviewToStreamAsync(stream);
+                    await stream.FlushAsync();
+                    stream.Seek(0);
+           
+        }
+        public static byte[] ReadFully(Stream input)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                input.CopyTo(ms);
+                return ms.ToArray();
+            }
+        }
+
         public override object generatePeerImage()
         {
-            CodenameOneImage img = new CodenameOneImage();
-            img.@this();
-            img.name = "PeerImage: " + element.ToString();
             int width = getWidth();
             int height = getHeight();
             if (width <= 0 || height <= 0)
@@ -2651,30 +2757,71 @@ namespace com.codename1.impl
                 width = getPreferredW();
                 height = getPreferredH();
             }
-           
-            //using (AutoResetEvent are = new AutoResetEvent(false))
-            //{
-            //    SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            //    {
-            //        element.Width = width;
-            //        element.Height = height;
-            //        CanvasControl control = new CanvasControl();
-            //        IRandomAccessStream elemente = (IRandomAccessStream)element.;
-            //        CanvasBitmap cb = CanvasRenderTarget.LoadAsync(control, elemente).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //        img.image = new CanvasRenderTarget(control, (float)cb.Size.Width, (float)cb.Size.Height, cb.Dpi);
-            //        control.Invalidate();
-            //        img.graphics.destination.drawImage(cb, 0, 0);
-            //        are.Set();
-            //    }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //    are.WaitOne();
-            //}
-            return com.codename1.ui.Image.createImage(width, height);
-            //return com.codename1.ui.Image.createImage(img);
+            if (element.Parent == null)
+            {
+                if (peerImage != null)
+                {
+                    return peerImage;
+                }
+                return com.codename1.ui.Image.createImage(width, height);
+            }
+            CodenameOneImage img = new CodenameOneImage();
+            img.@this();
+            img.name = "PeerImage: " + element.ToString();
+            IRandomAccessStream stream = new InMemoryRandomAccessStream();
+            CanvasBitmap cb = null;
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+              {
+                  if (element is WebView)
+                  {
+                      try
+                      {
+                           Task.Delay(TimeSpan.FromTicks(4).Duration()).ConfigureAwait(false).GetAwaiter().GetResult();
+                           ((WebView)element).CapturePreviewToStreamAsync(stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                           stream.FlushAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); 
+                           stream.Seek(0);
+                           Task.Delay(TimeSpan.FromMilliseconds(10)).ConfigureAwait(false).GetAwaiter().GetResult();
+                           cb = CanvasBitmap.LoadAsync(SilverlightImplementation.screen, stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                      }
+                      catch (Exception)
+                      {
+                          
+                          throw;
+                      }
+                      // https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.media.imaging.rendertargetbitmap.aspx
+                      // For Windows Phone Store apps: the contents of a WebView control can't be rendered into a RenderTargetBitmap
+                       
+                      //  loadWebViewToStream(((WebView)element), stream);
+                         //byte[] buf = ReadFully(stream.AsStreamForRead());      
+                         
+                        //cb = CanvasBitmap.CreateFromBytes(SilverlightImplementation.screen, buf, width, height, SilverlightImplementation.pixelFormat, SilverlightImplementation.screen.Dpi);
+                      
+                  }
+                  else
+                  {
+                      RenderTargetBitmap renderTargetBitmap = new RenderTargetBitmap();
+                      renderTargetBitmap.RenderAsync(element).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                      byte[] buf = renderTargetBitmap.GetPixelsAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().ToArray();
+                      cb = CanvasBitmap.CreateFromBytes(SilverlightImplementation.screen, buf, width, height, SilverlightImplementation.pixelFormat, SilverlightImplementation.screen.Dpi);
+                  }
+                  img.image = new CanvasRenderTarget(SilverlightImplementation.screen, cb.ConvertPixelsToDips(width), cb.ConvertPixelsToDips(height), cb.Dpi);
+                  img.graphics.destination.drawImage(cb, 0, 0);
+                  img.graphics.destination.dispose();
+                  are.Set();
+              }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                  are.WaitOne();
+            }
+            return com.codename1.ui.Image.createImage(img);
+            
+            // return com.codename1.ui.Image.createImage(width, height);
         }
-
+    
         public override bool shouldRenderPeerImage()
         {
             return lightweightMode || !isInitialized();
+            
         }
     }
 
@@ -2896,10 +3043,9 @@ namespace com.codename1.impl
 
     public class LocationManager : com.codename1.location.LocationManager
     {
-        //private GeoCoordinateWatcher watcher;
-        private Geolocator watcher;
-        //private GeoPosition<GeoCoordinate> lastPosition;
-        private Geocoordinate lastPosition;
+       
+        private  Geolocator watcher;
+        private Geoposition lastPosition;
 
         public LocationManager()
         {
@@ -2908,26 +3054,66 @@ namespace com.codename1.impl
 
         public override void bindListener()
         {
+            if (this.watcher != null)
+            {
+                return;
+            }
+ 
             if (watcher == null)
             {
-                // watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High); // High = GPS;
-                watcher = new Geolocator(); // High = GPS;
-                watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
-                watcher.PositionChanged += new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
-               // watcher.Start();
+                
+                watcher = new Geolocator();
+                this.watcher.DesiredAccuracy = PositionAccuracy.High;
+                //watcher.DesiredAccuracyInMeters = 100;
+                this.watcher.ReportInterval = (uint)TimeSpan.FromSeconds(10).TotalMilliseconds;
+              
+                this.watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
+                this.watcher.PositionChanged += new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
             }
         }
 
+        void watcher_StatusChanged(Geolocator sender, StatusChangedEventArgs eventArgs)
+        {
+            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                switch (eventArgs.Status)
+                {
+                    case PositionStatus.Disabled:
+                        setStatus(_fOUT_1OF_1SERVICE);
+                        break;
+                    case PositionStatus.Initializing:
+                    case PositionStatus.NoData:
+                        setStatus(_fTEMPORARILY_1UNAVAILABLE);
+                        break;
+                    case PositionStatus.Ready:
+                        setStatus(_fAVAILABLE);
+                        break;
+                }
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+        }
+
+        void watcher_PositionChanged(Geolocator sender, PositionChangedEventArgs eventArgs)
+        {
+
+            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+        {
+            lastPosition = watcher.GetGeopositionAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            if (getLocationListener() != null && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
+            {
+                ((com.codename1.location.LocationListener)getLocationListener()).locationUpdated(convert(lastPosition));
+            }
+        }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+        }   
         public override void clearListener()
         {
             if (watcher != null)
             {
-                watcher.StatusChanged -= watcher_StatusChanged;
-                watcher.PositionChanged -= watcher_PositionChanged;
+                watcher.StatusChanged -= new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
+                watcher.PositionChanged -= new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
                 //  watcher.Stop();
             }
         }
-
+      
         public override object getCurrentLocation()
         {
             if (lastPosition != null)
@@ -2946,43 +3132,20 @@ namespace com.codename1.impl
             return null;
         }
 
-        void watcher_StatusChanged(object sender, StatusChangedEventArgs e)
-        {
-            switch (e.Status)
-            {
-                case PositionStatus.Disabled:
-                    setStatus(_fOUT_1OF_1SERVICE);
-                    break;
-                case PositionStatus.Initializing:
-                case PositionStatus.NoData:
-                    setStatus(_fTEMPORARILY_1UNAVAILABLE);
-                    break;
-                case PositionStatus.Ready:
-                    setStatus(_fAVAILABLE);
-                    break;
-            }
-        }
+      
 
-        void watcher_PositionChanged(object sender, PositionChangedEventArgs e)
-        {
-            lastPosition = e.Position.Coordinate;
-            if (getLocationListener() != null && !lastPosition.Heading.HasValue)
-            {
-                ((com.codename1.location.LocationListener)getLocationListener()).locationUpdated(convert(e.Position.Coordinate));
-            }
-        }
-
-        private com.codename1.location.Location convert(Geocoordinate position)
+      
+        private com.codename1.location.Location convert(Geoposition position)
         {
             com.codename1.location.Location location = new com.codename1.location.Location();
             location.@this();
-            location.setTimeStamp(position.Timestamp.UtcTicks / 10000);
-            location.setLatitude(position.Point.Position.Latitude);
-            location.setLongitude(position.Point.Position.Longitude);
-            location.setAltitude(position.Point.Position.Altitude);
-            location.setDirection((float)position.Heading);
-            location.setVelocity((float)position.Speed);
-            location.setAccuracy((float)position.AltitudeAccuracy);
+            location.setTimeStamp(position.Coordinate.Timestamp.UtcTicks / 10000);
+            location.setLatitude(position.Coordinate.Point.Position.Latitude);
+            location.setLongitude(position.Coordinate.Point.Position.Longitude);
+            location.setAltitude((float)position.Coordinate.Point.Position.Altitude);
+            location.setDirection((float)position.Coordinate.Heading);
+            location.setVelocity((float)position.Coordinate.Speed);
+            location.setAccuracy((float)position.Coordinate.AltitudeAccuracy);
             location.setStatus(getStatus());
             return location;
         }
