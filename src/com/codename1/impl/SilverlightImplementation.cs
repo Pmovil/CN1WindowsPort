@@ -47,7 +47,7 @@ using Windows.UI.Text;
 
 namespace com.codename1.impl
 {
-    public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation
+    public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation, IFileOpenPickerContinuable
     {
         private LocationManager locationManager;
         private static Object PAINT_LOCK = new Object();
@@ -62,10 +62,14 @@ namespace com.codename1.impl
         public static double scaleFactor = 1;
         public static CoreDispatcher dispatcher;
         public static StorageFolder store;
-          
+        private static Windows.UI.Xaml.Controls.Image imagePreveiw = new Windows.UI.Xaml.Controls.Image();
+        private static CaptureElement captureElement  = new CaptureElement();
+        private MediaCapture mediaCapture = new MediaCapture();
+        public static IList<PointerPoint> points;
+        public static int[] x , y ;
       
         public static void setCanvas(Page page, Canvas LayoutRoot)
-        {
+        {          
             store = ApplicationData.Current.LocalFolder;
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
@@ -158,62 +162,56 @@ namespace com.codename1.impl
         public override void init(java.lang.Object n1)
         {
             instance = this;
-           
-             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                HardwareButtons.BackPressed += page_BackKeyPress;
-                // Touch is way different
-                screen.PointerMoved += LayoutRoot_PointerMoved;
-                screen.PointerPressed += LayoutRoot_PointerPressed;
-                 screen.PointerReleased += LayoutRoot_PointerReleased;
-                _sensor = SimpleOrientationSensor.GetDefault();
-                _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(1);
-                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
-            }).AsTask().GetAwaiter();
+            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>{
+               HardwareButtons.BackPressed += page_BackKeyPress;
+               // Touch is way different
+               screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
+               screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
+               screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
+               cl.ManipulationMode = ManipulationModes.All;
+               _sensor = SimpleOrientationSensor.GetDefault();
+               _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
+               ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(1);
+               ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+           }).AsTask().GetAwaiter();
         }
 
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+          
+            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
          {
-             screen.Width = Convert.ToInt32(cl.ActualWidth * scaleFactor);
-             screen.Height = Convert.ToInt32(cl.ActualHeight * scaleFactor);
+            
              switch (e.Orientation)
              {
                  case SimpleOrientation.NotRotated:
-                     rotation();
-                     sizeChanged(displayWidth, displayHeight);
+                     sizeChanged(displayWidth,displayHeight);
                      break;
                  case SimpleOrientation.Rotated90DegreesCounterclockwise:
-                     rotation();
-                     sizeChanged(displayWidth, displayHeight);
+                     screen.Width = displayHeight;
+                     screen.Height = displayWidth;
+                     sizeChanged(displayHeight, displayWidth);
                      break;
                  case SimpleOrientation.Rotated180DegreesCounterclockwise:
-                     rotation();
                      sizeChanged(displayWidth, displayHeight);
                      break;
                  case SimpleOrientation.Rotated270DegreesCounterclockwise:
-                     rotation();
-                     sizeChanged(displayWidth, displayHeight);
+                     sizeChanged(displayHeight, displayWidth);
                      break;
                  case SimpleOrientation.Faceup:
-                     rotation();
-                     sizeChanged(displayWidth, displayHeight);
                      break;
                  case SimpleOrientation.Facedown:
-                     rotation();
-                     sizeChanged(displayWidth, displayHeight);
                      break;
                  default:
-                     rotation();
                      sizeChanged(displayWidth, displayHeight);
                      break;
              }
+             
+             repaint2();
+             screen.Invalidate();
          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            repaint2();
-        }
-      
+
+        }   
         private void repaint2()
         {
             Animation cmp;
@@ -221,39 +219,15 @@ namespace com.codename1.impl
             cmp = f;
            
             if (cmp != null)
-            {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(60))).ConfigureAwait(false).GetAwaiter().GetResult();
+            {        
                 repaint(cmp);
             }
-                      
+           
         }
-        private void rotation()
-        {         
-            //dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            //{
-                try
-                {
-                    
-                    displayWidth = Convert.ToInt32(cl.ActualWidth * scaleFactor);
-                    displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
-                    screen.Width = displayWidth;
-                    screen.Height = displayHeight;
-                    sizeChanged(displayWidth, displayHeight);
-                }
-                catch (Exception)
-                {
-                    
-                    throw;
-                }
-              
-            //}).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
         public override bool canForceOrientation()
         {
             return true;
         }
-
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
             
@@ -279,20 +253,16 @@ namespace com.codename1.impl
             
             return base.getProperty(n1, n2);
         }
-
-
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
             Application.Current.Exit(); // TODO - suspending handler
             return true;
         }
-
         public override void exitApplication()
         {
             Application.Current.Exit();
         }
-
         private async static Task<StorageFile> GetFile(string name)
         {
             var folder = ApplicationData.Current.LocalFolder;
@@ -319,7 +289,6 @@ namespace com.codename1.impl
         /*public virtual global::System.Object createMediaRecorder(global::java.lang.String n1, global::java.lang.String n2)
         {
         }*/
-
         public override void lockOrientation(bool n1)
         {/*
             System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
@@ -334,7 +303,6 @@ namespace com.codename1.impl
                 }
             });*/
         }
-
         public override void unlockOrientation()
         {/*
             System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
@@ -342,12 +310,10 @@ namespace com.codename1.impl
                 app.SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
             });*/
         }
-
         public override bool hasNativeTheme()
         {
             return true;
         }
-
         public override void installNativeTheme()
         {
             com.codename1.ui.util.Resources r = (com.codename1.ui.util.Resources)com.codename1.ui.util.Resources.open(toJava("/winTheme.res"));
@@ -357,49 +323,53 @@ namespace com.codename1.impl
             com.codename1.ui.plaf.DefaultLookAndFeel dl = (com.codename1.ui.plaf.DefaultLookAndFeel)uim.getLookAndFeel();
             dl.setDefaultEndsWith3Points(false);
         }
-
+  
         private void LayoutRoot_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
-            IList<PointerPoint> points = e.GetIntermediatePoints(cl);
-            int[] x = new int[points.Count];
-            int[] y = new int[x.Length];
-            for (int iter = 0; iter < points.Count; iter++)
-            {
-                x[iter] = (int)(points[iter].Position.X * scaleFactor);
-                y[iter] = (int)(points[iter].Position.Y * scaleFactor);
-                //Debug.WriteLine("Pointer moved : " + x[iter] + "-" + y[iter]);
-            }
-            if (points.Count == 1)
-            {
-                if (instance.currentlyEditing != null)
+             //  points = e.GetIntermediatePoints(cl);  
+            var point = e.GetCurrentPoint(cl).Position;
+                if (points.Count == 1)
                 {
-                    com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                    if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
+                    if (instance.currentlyEditing != null)
                     {
-                        return;
+                        com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                        if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
+                        {
+                            return;
+                        }
                     }
+                    pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
+
                 }
-                pointerDragged(x[0], y[0]);
-            }
-            else
-            {
-                _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
-                _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
-                pointerDragged(xarr, yarr);
-            }
+                else
+                {
+                    x = new int[points.Count];
+                    y = new int[x.Length];
+                    for (int iter = 0; iter < points.Count; iter++)
+                    {
+                        x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
+                        y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
+                    }
+                    _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
+                    _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
+                    pointerDragged(xarr, yarr);
+                }
+                e.Handled = true;
         }
 
         private void LayoutRoot_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            IList<PointerPoint> points = e.GetIntermediatePoints(cl);
-            int[] x = new int[points.Count];
-            int[] y = new int[x.Length];
-            for (int iter = 0; iter < points.Count; iter++)
-            {
-                x[iter] = (int)(points[iter].Position.X * scaleFactor);
-                y[iter] = (int)(points[iter].Position.Y * scaleFactor);
-                //Debug.WriteLine("Pointer pressed: " + x[iter] + "-" + y[iter]);
-            }
+          
+             points = e.GetIntermediatePoints(cl);
+             x = new int[points.Count];
+             y = new int[x.Length];
+             for (int iter = 0; iter < points.Count; iter++)
+             {
+                 x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
+                 y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
+
+             }
+       
             if (points.Count == 1)
             {
                 if (instance.currentlyEditing != null)
@@ -410,7 +380,7 @@ namespace com.codename1.impl
                         return;
                     }
                 }
-                pointerPressed(x[0], y[0]);
+                pointerPressed(x[0],y[0]);
             }
             else
             {
@@ -418,38 +388,40 @@ namespace com.codename1.impl
                 _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
                 pointerPressed(xarr, yarr);
             }
+            e.Handled = true;
         }
 
         private void LayoutRoot_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            IList<PointerPoint> points = e.GetIntermediatePoints(cl);
-            int[] x = new int[points.Count];
-            int[] y = new int[x.Length];
-            for (int iter = 0; iter < points.Count; iter++)
-            {
-                x[iter] = (int)(points[iter].Position.X * scaleFactor);
-                y[iter] = (int)(points[iter].Position.Y * scaleFactor);
-                //Debug.WriteLine("Pointer released: " + x[iter] + "-" + y[iter]);
-            }
-            if (points.Count == 1)
-            {
-                if (instance.currentlyEditing != null)
-                {
-                    com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                    if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
-                    {
-                        return;
-                    }
-                    commitEditing();
-                }
-                pointerReleased(x[0], y[0]);
-            }
-            else
-            {
-                _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
-                _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
-                pointerReleased(xarr, yarr);
-            }
+          points = e.GetIntermediatePoints(cl);        
+          if (points.Count == 1)
+          {
+              if (instance.currentlyEditing != null)
+              {
+                  com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                  if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
+                  {
+                      return;
+                  }
+                  commitEditing();
+              }
+              pointerReleased(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor));
+          }
+          else
+          {
+              x = new int[points.Count];
+              y = new int[x.Length];
+              for (int iter = 0; iter < points.Count; iter++)
+              {
+                  x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
+                  y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
+
+              }
+              _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
+              _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
+              pointerReleased(xarr, yarr);
+          }
+            screen.ReleasePointerCapture(e.Pointer);
         }
 
         public override int getDisplayWidth()
@@ -605,10 +577,10 @@ namespace com.codename1.impl
                     NativeFont font = (NativeFont)x;
                     
                     // workaround forsome weird unspecified margin that appears around the text box
-                    Canvas.SetTop(textInputInstance, (currentlyEditing.getAbsoluteY() / scaleFactor) + 15);
-                    Canvas.SetLeft(textInputInstance, (currentlyEditing.getAbsoluteX() / scaleFactor) + 5);
-                    textInputInstance.Height = (currentlyEditing.getHeight() / scaleFactor) - 15;
-                    textInputInstance.Width = (currentlyEditing.getWidth() / scaleFactor) - 5;
+                    Canvas.SetTop(textInputInstance, (currentlyEditing.getAbsoluteY() / scaleFactor) + 14);
+                    Canvas.SetLeft(textInputInstance, (currentlyEditing.getAbsoluteX() / scaleFactor) + 4);
+                    textInputInstance.Height = (currentlyEditing.getHeight() / scaleFactor) - 14;
+                    textInputInstance.Width = (currentlyEditing.getWidth() / scaleFactor) - 4;
                     textInputInstance.BorderThickness = new Thickness(0);
                     textInputInstance.FontSize = font.font.FontSize;
                     textInputInstance.Margin = new Thickness(0);
@@ -754,7 +726,6 @@ namespace com.codename1.impl
                 }).AsTask().GetAwaiter().GetResult();
             //    are.WaitOne();
             //}
-          
         }
 
         public override void systemOut(global::java.lang.String n1)
@@ -882,14 +853,51 @@ namespace com.codename1.impl
         public static bool exitLock;
         private global::com.codename1.ui.events.ActionListener pendingCaptureCallback;
 
-        public async override void capturePhoto(global::com.codename1.ui.events.ActionListener n1)
+        public override void capturePhoto(global::com.codename1.ui.events.ActionListener n1)
         {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>{
             exitLock = true;
             pendingCaptureCallback = n1;
-            MediaCapture mediaCapture = new MediaCapture(); 
-             ImageEncodingProperties imgFormat = ImageEncodingProperties.CreateJpeg();
-             var file = await KnownFolders.CameraRoll.CreateFileAsync("foto.jpeg", CreationCollisionOption.GenerateUniqueName);
-             await mediaCapture.CapturePhotoToStorageFileAsync(imgFormat, file);  
+            try
+            {
+                mediaCapture.InitializeAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                mediaCapture.SetPreviewRotation(VideoRotation.Clockwise90Degrees);
+                VideoRotation previewRotation = mediaCapture.GetPreviewRotation();
+                captureElement.HorizontalAlignment = HorizontalAlignment.Left;
+                captureElement.VerticalAlignment = VerticalAlignment.Top;
+                captureElement.Stretch = Stretch.UniformToFill;
+                captureElement.Source = mediaCapture;
+                cl.Children.Add(captureElement);
+                mediaCapture.StartPreviewAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                
+                mediaCapture.PhotoConfirmationCaptured += mediaCapture_PhotoConfirmationCaptured;
+            }
+            catch (UnauthorizedAccessException)
+            {
+                
+                throw;
+            }
+          
+            
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+        }
+
+        void mediaCapture_PhotoConfirmationCaptured(MediaCapture sender, PhotoConfirmationCapturedEventArgs e)
+        {
+            if (e.CaptureTimeOffset != null)
+            {
+                ImageEncodingProperties imgFormat = ImageEncodingProperties.CreateJpeg();
+                var file = KnownFolders.CameraRoll.CreateFileAsync("foto.jpeg", CreationCollisionOption.GenerateUniqueName).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                sender.CapturePhotoToStorageFileAsync(imgFormat, file).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                
+                com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
+                ac.@this(toJava("file:/" + file));
+                fireCapture(ac);
+            }
+            else
+            {
+                fireCapture(null);
+            }
         }
 
         private void fireCapture(com.codename1.ui.events.ActionEvent ev)
@@ -902,39 +910,43 @@ namespace com.codename1.impl
             exitLock = false;
         }
 
-         void t_Completed(object sender, PhotoConfirmationCapturedEventArgs e)
-        {
-            // if (e.OriginalFileName != null)
-            //{
-              
-            //    //IsolatedStorageFile store = IsolatedStorageFile.GetUserStoreForApplication();
-            //    // string file = e.OriginalFileName.Substring(e.OriginalFileName.LastIndexOf('\\') + 1);
-            //    //e.ChosenPhoto.CopyTo(store.OpenFile(file, FileMode.OpenOrCreate, FileAccess.Write, FileShare.ReadWrite));
-            //    com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
-            //    ac.@this(toJava("file:/" + file));
-            //    fireCapture(ac);
-            //}
-            //else
-            //{
-            //    fireCapture(null);
-            //}
-            }
+       
 
         public override void openImageGallery(ui.events.ActionListener n1)
         {
+              dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>{
             exitLock = true;
             pendingCaptureCallback = n1;
             FileOpenPicker openPicker = new FileOpenPicker();
             openPicker.ViewMode = PickerViewMode.Thumbnail;
+            openPicker.SuggestedStartLocation = PickerLocationId.VideosLibrary;
             openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
             openPicker.FileTypeFilter.Add(".jpg");
             openPicker.FileTypeFilter.Add(".jpeg");
             openPicker.FileTypeFilter.Add(".png");
             // Launch file open picker and caller app is suspended and may be terminated if required 
             openPicker.PickSingleFileAndContinue();
-          
+              }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
+     
+        public  void ContinueFileOpenPicker(Windows.ApplicationModel.Activation.FileOpenPickerContinuationEventArgs args)
+        {
+           
+            if (args.Files.Count > 0)
+            {
 
+                var stream = args.Files[0].OpenAsync(FileAccessMode.Read).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                var bitmapImage = new BitmapImage();
+                bitmapImage.SetSourceAsync(stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                imagePreveiw.Source = bitmapImage;
+
+            }
+            else
+            {
+
+
+            }
+        }
         public override object getCodeScanner()
         {
             ZxingCN1 z = new ZxingCN1();
@@ -1337,7 +1349,17 @@ namespace com.codename1.impl
         public override void setColor(java.lang.Object graphics, int RGB)
         {
            // Debug.WriteLine("setColor " + RGB);
-            ((NativeGraphics)graphics).destination.setColor((int)(getColor(graphics) & 0xff000000) | RGB);
+            try
+            {
+
+                ((NativeGraphics)graphics).destination.setColor(RGB);
+            }
+            catch (Exception)
+            {
+
+                ((NativeGraphics)graphics).destination.setColor((int)(getColor(graphics) & 0xff000000) | RGB);
+            }
+           
         }
 
         public override void setAlpha(java.lang.Object graphics, int alpha)
@@ -1720,7 +1742,7 @@ namespace com.codename1.impl
         public override int getContentLength(global::java.lang.Object n1)
         {
             NetworkOperation n =  (NetworkOperation)n1;
-            return (int)n.response.ContentLength;
+            return Convert.ToInt32(n.response.ContentLength);
         }
 
         public override global::System.Object openOutputStream(global::java.lang.Object connection)
@@ -1785,7 +1807,7 @@ namespace com.codename1.impl
             {
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    i = (int)res.StatusCode;
+                    i = Convert.ToInt32(res.StatusCode);
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();
@@ -1859,7 +1881,7 @@ namespace com.codename1.impl
             Stream st = Task.Run(() => s.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult();
             long size = st.Length;
             st.Dispose();
-            return (int)size;
+            return Convert.ToInt32(size);
         }
         public override global::System.Object createStorageOutputStream(global::java.lang.String name)
         {
@@ -2079,6 +2101,7 @@ namespace com.codename1.impl
         private static WindowsAsyncView myView;
         public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
         private NativeGraphics globalGraphics;
+
         public override object getImageIO()
         {
             if (imageIO == null)
@@ -2196,8 +2219,8 @@ namespace com.codename1.impl
             {
                 
                     actualImage = value;
-                    width = (int)value.SizeInPixels.Width;
-                    height = (int)value.SizeInPixels.Height;
+                    width = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Width));
+                    height = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Height));
                     graphics.destination = new WindowsGraphics(value.CreateDrawingSession());
     
             }
@@ -2215,8 +2238,8 @@ namespace com.codename1.impl
 
         public void setSize(int w, int h)
         {
-            width = w;
-            height = h;
+            width = Convert.ToInt32(Math.Ceiling((double)w));
+            height = Convert.ToInt32(Math.Ceiling((double)h));
         }
 
         public int getImageWidth()
@@ -2647,8 +2670,8 @@ namespace com.codename1.impl
                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => 
                {
                     element.Measure(new Size(1000000, 1000000));
-                    w = (int)(element.DesiredSize.Width * SilverlightImplementation.scaleFactor);
-                    h = (int)(element.DesiredSize.Height * SilverlightImplementation.scaleFactor);
+                    w = Convert.ToInt32(element.DesiredSize.Width * SilverlightImplementation.scaleFactor);
+                    h = Convert.ToInt32(element.DesiredSize.Height * SilverlightImplementation.scaleFactor);
                     are.Set();
                }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
@@ -2931,7 +2954,7 @@ namespace com.codename1.impl
             {
                 SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    v = (int)elem.Position.TotalMilliseconds;
+                    v = Convert.ToInt32(elem.Position.TotalMilliseconds);
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();
@@ -2954,7 +2977,7 @@ namespace com.codename1.impl
             {
                 SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    v = (int)elem.NaturalDuration.TimeSpan.TotalMilliseconds;
+                    v = Convert.ToInt32(elem.NaturalDuration.TimeSpan.TotalMilliseconds);
                     are.Set();
                 }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
@@ -2977,7 +3000,7 @@ namespace com.codename1.impl
             {
                 SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    v = (int)(elem.Volume * 100.0);
+                    v = Convert.ToInt32(elem.Volume * 100.0);
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();
