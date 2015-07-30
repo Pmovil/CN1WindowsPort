@@ -1595,6 +1595,63 @@ namespace com.codename1.impl
             //return f(n1).actualHeight;
         }
 
+        public override bool isLookupFontSupported()
+        {
+            return true;
+        }
+
+        public override object loadNativeFont(java.lang.String lookupStr)
+        {
+            string lookup = toCSharp(lookupStr);
+            string[] fonts = lookup.Split(new Char[] { ';' });
+            foreach (string f in fonts)
+            {
+                try
+                {
+                    string[] split = f.Split(new Char[] { '-' });
+                    String familyName = split[0];
+                    String style = split[1];
+                    String size = split[2];
+
+                    NativeFont nf = new NativeFont(0, 0, 0, new CanvasTextFormat());
+                    using (AutoResetEvent are = new AutoResetEvent(false))
+                    {
+                        dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                        {
+                            nf.font.FontFamily = familyName;
+                            
+                            if (style.Equals("bolditalic"))
+                            {
+                                nf.font.FontWeight = FontWeights.Bold;
+                                nf.font.FontStyle = FontStyle.Italic;
+                                nf.style = 2 & 1;
+                            }
+                            else if (style.Equals("italic"))
+                            {
+                                nf.font.FontStyle = FontStyle.Italic;
+                                nf.style = 2;
+                            }
+                            else if (style.Equals("bold"))
+                            {
+                                nf.font.FontWeight = FontWeights.Bold;
+                                nf.style = 1;
+                            }
+                            nf.font.FontSize = Convert.ToInt32(size);
+                            nf.font.WordWrapping = CanvasWordWrapping.NoWrap;
+                            are.Set();
+                        }).AsTask().GetAwaiter().GetResult();
+                        are.WaitOne();
+                    }
+
+                    return nf;
+                }
+                catch (Exception err)
+                {
+                }
+            }
+            return null;
+        }
+
         //public override bool isTrueTypeSupported()
         //{
         //    return true;
@@ -1619,18 +1676,6 @@ namespace com.codename1.impl
       
         public override object createFont(int face, int style, int size)
         {
-            //int a = defaultFontPixelHeight;
-            //int diff = a / 3;
-            //switch (size)
-            //{
-            //    case 8: //com.codename1.ui.Font._fSIZE_1SMALL:
-            //        a -= diff;
-            //        break;
-            //    case 16: //com.codename1.ui.Font._fSIZE_1LARGE:
-            //        a += diff;
-            //        break;
-            //}
-
             NativeFont nf = new NativeFont(face, style, size, new CanvasTextFormat());
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
