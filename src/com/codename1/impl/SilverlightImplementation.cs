@@ -1652,17 +1652,55 @@ namespace com.codename1.impl
             return null;
         }
 
-        //public override bool isTrueTypeSupported()
-        //{
-        //    return true;
-        //}
+        public override bool isTrueTypeSupported()
+        {
+            return true;
+        }
 
-        //public override object loadTrueTypeFont(java.lang.String fontName, java.lang.String fileName)
-        //{
+        public override object loadTrueTypeFont(java.lang.String fontName, java.lang.String fileName)
+        {
 
-        //    //NativeFont f = new NativeFont();
-        //    return null;
-        //}
+            NativeFont nf = new NativeFont(0, 0, 0, new CanvasTextFormat());
+            string file = toCSharp(fileName);
+            string family = toCSharp(fontName);
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                {
+                    nf.font.FontFamily = @"res\" + file + "#" + family;
+                    nf.font.WordWrapping = CanvasWordWrapping.NoWrap;
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
+            return nf;
+        }
+
+        public override object deriveTrueTypeFont(java.lang.Object font, float size, int weight)
+        {
+            NativeFont fnt = (NativeFont)font;
+            NativeFont n = new NativeFont(0, 0, 0, new CanvasTextFormat());
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                {
+                    n.font.FontFamily = fnt.font.FontFamily;
+                    n.font.FontSize = size;
+                    if ((weight & 1) != 0) // bold
+                    {
+                        n.font.FontWeight = FontWeights.Bold;
+                    }
+                    if ((weight & 2) != 0) // italic
+                    {
+                        n.font.FontStyle = FontStyle.Italic;
+                    }
+                    n.font.WordWrapping = CanvasWordWrapping.NoWrap;
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
+            return n;
+        }
 
         public override object getDefaultFont()
         {
