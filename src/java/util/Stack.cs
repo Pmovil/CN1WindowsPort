@@ -7,9 +7,7 @@ private static long _fserialVersionUID = 1224463164541339165L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.Vector) _r0_o).@this();
     return;
@@ -19,10 +17,7 @@ public void @this(){
 public virtual bool empty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: boolean empty()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Stack) _r1_o).isEmpty() ? 1 : 0;
     return _r0.i!=0;
@@ -31,13 +26,9 @@ public virtual bool empty(){
 
 public virtual global::System.Object peek(){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: java.lang.Object peek()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -95,11 +86,8 @@ public virtual global::System.Object pop(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -156,11 +144,8 @@ public virtual global::System.Object pop(){
 
 public virtual global::System.Object push(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: java.lang.Object push(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Stack) _r0_o).addElement((global::java.lang.Object) _r1_o);
@@ -173,14 +158,10 @@ public virtual int search(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;

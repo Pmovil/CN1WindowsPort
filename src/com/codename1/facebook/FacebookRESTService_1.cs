@@ -7,11 +7,8 @@ public global::com.codename1.facebook.FacebookRESTService _fthis_20;
 
 public void @this(global::com.codename1.facebook.FacebookRESTService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService$1: void <init>(com.codename1.facebook.FacebookRESTService)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FacebookRESTService_21) _r0_o)._fthis_20 = (global::com.codename1.facebook.FacebookRESTService) _r1_o;
@@ -22,15 +19,12 @@ public void @this(global::com.codename1.facebook.FacebookRESTService n1){
 
 public override void addElement(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService$1: void addElement(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;

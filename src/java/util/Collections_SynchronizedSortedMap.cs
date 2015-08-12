@@ -9,11 +9,8 @@ private global::java.util.SortedMap _fsm;
 
 public void @this(global::java.util.SortedMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: void <init>(java.util.SortedMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2SynchronizedMap) _r0_o).@this((global::java.util.Map) _r1_o);
@@ -24,13 +21,9 @@ public void @this(global::java.util.SortedMap n1){
 
 public void @this(global::java.util.SortedMap n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: void <init>(java.util.SortedMap, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -42,11 +35,8 @@ public void @this(global::java.util.SortedMap n1, global::java.lang.Object n2){
 
 public virtual global::System.Object comparator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.util.Comparator comparator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -88,11 +78,8 @@ public virtual global::System.Object comparator(){
 
 public virtual global::System.Object firstKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.lang.Object firstKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -134,17 +121,11 @@ public virtual global::System.Object firstKey(){
 
 public virtual global::System.Object headMap(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.util.SortedMap headMap(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -190,11 +171,8 @@ public virtual global::System.Object headMap(global::java.lang.Object n1){
 
 public virtual global::System.Object lastKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.lang.Object lastKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -236,19 +214,12 @@ public virtual global::System.Object lastKey(){
 
 public virtual global::System.Object subMap(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.util.SortedMap subMap(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -295,17 +266,11 @@ public virtual global::System.Object subMap(global::java.lang.Object n1, global:
 
 public virtual global::System.Object tailMap(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: java.util.SortedMap tailMap(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -351,13 +316,9 @@ public virtual global::System.Object tailMap(global::java.lang.Object n1){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSortedMap: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

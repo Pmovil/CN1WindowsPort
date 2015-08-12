@@ -9,11 +9,8 @@ public global::java.lang.Throwable _fnested;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::javax.xml.stream.XMLStreamException) _r1_o).@this((global::java.lang.String) _r0_o, (global::javax.xml.stream.Location) _r0_o, (global::java.lang.Throwable) _r0_o);
@@ -23,13 +20,9 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -40,13 +33,9 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -57,15 +46,10 @@ public void @this(global::java.lang.Throwable n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>(java.lang.String, java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -77,15 +61,10 @@ public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 
 public void @this(global::java.lang.String n1, global::javax.xml.stream.Location n2, global::java.lang.Throwable n3){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>(java.lang.String, javax.xml.stream.Location, java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -99,15 +78,10 @@ public void @this(global::java.lang.String n1, global::javax.xml.stream.Location
 
 public void @this(global::java.lang.String n1, global::javax.xml.stream.Location n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: void <init>(java.lang.String, javax.xml.stream.Location)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -119,11 +93,8 @@ public void @this(global::java.lang.String n1, global::javax.xml.stream.Location
 
 public virtual global::System.Object getNestedException(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: java.lang.Throwable getNestedException()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.XMLStreamException) _r1_o)._fnested;
     return (global::java.lang.Throwable) _r0_o;
@@ -132,11 +103,8 @@ public virtual global::System.Object getNestedException(){
 
 public virtual global::System.Object getLocation(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.XMLStreamException: javax.xml.stream.Location getLocation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.XMLStreamException) _r1_o)._flocation;
     return (global::javax.xml.stream.Location) _r0_o;

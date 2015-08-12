@@ -17,11 +17,8 @@ private global::com.codename1.ui.util.UITimer_2Internal _fi;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::com.codename1.ui.util.UITimer_2Internal();
@@ -33,13 +30,9 @@ public void @this(){
 
 public void @this(global::java.lang.Runnable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void <init>(java.lang.Runnable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -55,17 +48,10 @@ public virtual void schedule(int n1, bool n2, global::com.codename1.ui.Form n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void schedule(int, boolean, com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2 ? 1 : 0;
@@ -83,13 +69,9 @@ public virtual void schedule(int n1, bool n2, global::com.codename1.ui.Form n3){
 
 public virtual void cancel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void cancel()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.util.UITimer) _r2_o)._fbound;
     _r1_o = ((global::com.codename1.ui.util.UITimer) _r2_o)._fi;
@@ -101,20 +83,11 @@ public virtual void cancel(){
 public virtual void testEllapse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void testEllapse()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0.l = global::java.lang.System.currentTimeMillis();
     _r2.l = ((global::com.codename1.ui.util.UITimer) _r6_o)._flastEllapse;
@@ -140,11 +113,8 @@ public virtual void testEllapse(){
 
 public static global::System.Object access_2000(global::com.codename1.ui.util.UITimer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: java.lang.Runnable access$000(com.codename1.ui.util.UITimer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.util.UITimer) _r1_o)._finternalRunnable;
     return (global::java.lang.Runnable) _r0_o;

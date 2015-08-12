@@ -23,21 +23,13 @@ private void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: void <init>(com.codename1.ui.layouts.GroupLayout, com.codename1.ui.Component, int, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -70,12 +62,8 @@ private void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.
 public override int calculateMinimumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int calculateMinimumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o).isLinked((int) _r2.i) ? 1 : 0;
@@ -93,18 +81,11 @@ public override int calculateMinimumSize(int n1){
 public override int calculatePreferredSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int calculatePreferredSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r4_o).isLinked((int) _r5.i) ? 1 : 0;
@@ -126,14 +107,9 @@ public override int calculatePreferredSize(int n1){
 public override int calculateMaximumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int calculateMaximumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o).isLinked((int) _r3.i) ? 1 : 0;
@@ -154,11 +130,8 @@ public virtual bool isVisible(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: boolean isVisible()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o)._fthis_20;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o).getComponent();
@@ -173,12 +146,8 @@ public virtual int calculateNonlinkedMinimumSize(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o).isVisible() ? 1 : 0;
@@ -209,11 +178,8 @@ public virtual int calculateNonlinkedPreferredSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int calculateNonlinkedPreferredSize(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o).isVisible() ? 1 : 0;
@@ -239,12 +205,8 @@ public virtual int calculateNonlinkedMaximumSize(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o).isVisible() ? 1 : 0;
@@ -274,14 +236,9 @@ public virtual int calculateNonlinkedMaximumSize(int n1){
 private int getSizeAlongAxis(int n1, global::com.codename1.ui.geom.Dimension n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int getSizeAlongAxis(int, com.codename1.ui.geom.Dimension)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -298,19 +255,13 @@ private int getSizeAlongAxis(int n1, global::com.codename1.ui.geom.Dimension n2)
 
 private int getLinkSize(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int getLinkSize(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -331,16 +282,10 @@ private int getLinkSize(int n1, int n2){
 public override void setSize(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: void setSize(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -359,10 +304,7 @@ public override void setSize(int n1, int n2, int n3){
 public virtual int getOrigin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int getOrigin()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o)._forigin;
     return _r0.i;
@@ -371,11 +313,8 @@ public virtual int getOrigin(){
 
 public virtual void setComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: void setComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o)._fcomponent = (global::com.codename1.ui.Component) _r1_o;
@@ -385,11 +324,8 @@ public virtual void setComponent(global::com.codename1.ui.Component n1){
 
 public virtual global::System.Object getComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: com.codename1.ui.Component getComponent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o)._fcomponent;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -399,18 +335,13 @@ public virtual global::System.Object getComponent(){
 public override int getBaseline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int getBaseline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r5_o)._fbaseline;
     _r4.i = -1;
@@ -438,9 +369,7 @@ public override int getBaselineResizeBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: int getBaselineResizeBehavior()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o).getComponent();
     _r0.i = ((global::com.codename1.ui.Component) _r0_o).getBaselineResizeBehavior();
@@ -452,13 +381,9 @@ private bool isLinked(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: boolean isLinked(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r2_o)._fthis_20;
@@ -475,11 +400,8 @@ public virtual void installIfNecessary(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1.i = 1;
@@ -505,12 +427,8 @@ public virtual void installIfNecessary(int n1){
 public override bool willHaveZeroSize(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: boolean willHaveZeroSize(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o).isVisible() ? 1 : 0;
@@ -526,21 +444,13 @@ public override bool willHaveZeroSize(bool n1){
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.codename1.ui.Component n2, int n3, int n4, int n5, global::com.codename1.ui.layouts.GroupLayout_21 n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: void <init>(com.codename1.ui.layouts.GroupLayout, com.codename1.ui.Component, int, int, int, com.codename1.ui.layouts.GroupLayout$1)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

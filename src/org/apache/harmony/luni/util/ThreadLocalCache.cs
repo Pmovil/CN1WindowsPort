@@ -20,9 +20,7 @@ public static global::org.apache.harmony.luni.util.ThreadLocalCache _fcharBuffer
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.apache.harmony.luni.util.ThreadLocalCache_21();
     ((global::org.apache.harmony.luni.util.ThreadLocalCache_21) _r0_o).@this();
     global::org.apache.harmony.luni.util.ThreadLocalCache._futf8Decoder = (global::org.apache.harmony.luni.util.ThreadLocalCache) _r0_o;
@@ -41,13 +39,9 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::java.lang.@ref.SoftReference();
@@ -60,13 +54,9 @@ public void @this(){
 
 private global::System.Object getThreadLocal(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: java.lang.ThreadLocal getThreadLocal()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r2_o)._fstorage;
     _r0_o = ((global::java.lang.@ref.SoftReference) _r0_o).get();
@@ -84,11 +74,8 @@ private global::System.Object getThreadLocal(){
 
 public virtual global::System.Object initialValue(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: java.lang.Object initialValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.Object) _r0_o;
@@ -97,11 +84,8 @@ public virtual global::System.Object initialValue(){
 
 public virtual global::System.Object get(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: java.lang.Object get()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r1_o).getThreadLocal();
     _r0_o = ((global::java.lang.ThreadLocal) _r0_o).get();
@@ -111,13 +95,9 @@ public virtual global::System.Object get(){
 
 public virtual void set(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void set(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r1_o).getThreadLocal();
@@ -128,11 +108,8 @@ public virtual void set(global::java.lang.Object n1){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r1_o)._fstorage;
     ((global::java.lang.@ref.SoftReference) _r0_o).clear();

@@ -15,13 +15,9 @@ private global::java.lang.String _fpostId;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Button) _r1_o).@this();
@@ -48,11 +44,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Button) _r1_o).@this();
     // Value=132970916828080
@@ -86,15 +79,11 @@ public void @this(){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void actionPerformed(com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -147,11 +136,8 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual global::System.Object getPostId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String getPostId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.ui.LikeButton) _r1_o)._fpostId;
     return (global::java.lang.String) _r0_o;
@@ -160,11 +146,8 @@ public virtual global::System.Object getPostId(){
 
 public virtual void setPostId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void setPostId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.ui.LikeButton) _r0_o)._fpostId = (global::java.lang.String) _r1_o;
@@ -177,12 +160,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 5;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -221,15 +200,10 @@ public override global::System.Object getPropertyTypes(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
@@ -259,14 +233,9 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=String
     _r3_o = new global::java.lang.String();
@@ -306,11 +275,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=appId
@@ -363,15 +329,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -435,11 +396,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public virtual global::System.Object getAppId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String getAppId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.ui.LikeButton) _r1_o)._fappId;
     return (global::java.lang.String) _r0_o;
@@ -448,11 +406,8 @@ public virtual global::System.Object getAppId(){
 
 public virtual void setAppId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void setAppId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.ui.LikeButton) _r0_o)._fappId = (global::java.lang.String) _r1_o;
@@ -462,11 +417,8 @@ public virtual void setAppId(global::java.lang.String n1){
 
 public virtual global::System.Object getRedirectURI(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String getRedirectURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.ui.LikeButton) _r1_o)._fredirectURI;
     return (global::java.lang.String) _r0_o;
@@ -475,11 +427,8 @@ public virtual global::System.Object getRedirectURI(){
 
 public virtual void setRedirectURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void setRedirectURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.ui.LikeButton) _r0_o)._fredirectURI = (global::java.lang.String) _r1_o;
@@ -489,11 +438,8 @@ public virtual void setRedirectURI(global::java.lang.String n1){
 
 public virtual global::System.Object getClientSecret(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String getClientSecret()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.ui.LikeButton) _r1_o)._fclientSecret;
     return (global::java.lang.String) _r0_o;
@@ -502,11 +448,8 @@ public virtual global::System.Object getClientSecret(){
 
 public virtual void setClientSecret(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void setClientSecret(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.ui.LikeButton) _r0_o)._fclientSecret = (global::java.lang.String) _r1_o;
@@ -516,11 +459,8 @@ public virtual void setClientSecret(global::java.lang.String n1){
 
 public virtual global::System.Object getPermissions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: java.lang.String[] getPermissions()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.ui.LikeButton) _r1_o)._fpermissions;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -529,11 +469,8 @@ public virtual global::System.Object getPermissions(){
 
 public virtual void setPermissions(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void setPermissions(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.ui.LikeButton) _r0_o)._fpermissions = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;

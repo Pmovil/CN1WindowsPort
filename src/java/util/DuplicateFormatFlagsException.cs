@@ -9,13 +9,9 @@ private global::java.lang.String _fflags;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.DuplicateFormatFlagsException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.IllegalFormatException) _r1_o).@this();
@@ -31,11 +27,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getFlags(){
 //XMLVM_BEGIN_WRAPPER[java.util.DuplicateFormatFlagsException: java.lang.String getFlags()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.DuplicateFormatFlagsException) _r1_o)._fflags;
     return (global::java.lang.String) _r0_o;
@@ -44,13 +37,9 @@ public virtual global::System.Object getFlags(){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.util.DuplicateFormatFlagsException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

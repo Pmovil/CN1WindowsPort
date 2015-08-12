@@ -5,9 +5,7 @@ namespace javax.xml.parsers {
 public abstract class SAXParser: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,17 +14,11 @@ public void @this(){
 
 public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.HandlerBase n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.InputStream, org.xml.sax.HandlerBase)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -47,19 +39,12 @@ public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.Ha
 
 public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.HandlerBase n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.InputStream, org.xml.sax.HandlerBase, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -82,17 +67,11 @@ public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.Ha
 
 public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.helpers.DefaultHandler n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.InputStream, org.xml.sax.helpers.DefaultHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -113,19 +92,12 @@ public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.he
 
 public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.helpers.DefaultHandler n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.InputStream, org.xml.sax.helpers.DefaultHandler, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -148,17 +120,11 @@ public virtual void parse(global::java.io.InputStream n1, global::org.xml.sax.he
 
 public virtual void parse(global::java.lang.String n1, global::org.xml.sax.HandlerBase n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.lang.String, org.xml.sax.HandlerBase)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -179,17 +145,11 @@ public virtual void parse(global::java.lang.String n1, global::org.xml.sax.Handl
 
 public virtual void parse(global::java.lang.String n1, global::org.xml.sax.helpers.DefaultHandler n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.lang.String, org.xml.sax.helpers.DefaultHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -210,17 +170,11 @@ public virtual void parse(global::java.lang.String n1, global::org.xml.sax.helpe
 
 public virtual void parse(global::java.io.File n1, global::org.xml.sax.HandlerBase n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.File, org.xml.sax.HandlerBase)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -246,17 +200,11 @@ public virtual void parse(global::java.io.File n1, global::org.xml.sax.HandlerBa
 
 public virtual void parse(global::java.io.File n1, global::org.xml.sax.helpers.DefaultHandler n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(java.io.File, org.xml.sax.helpers.DefaultHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -282,17 +230,11 @@ public virtual void parse(global::java.io.File n1, global::org.xml.sax.helpers.D
 
 public virtual void parse(global::org.xml.sax.InputSource n1, global::org.xml.sax.HandlerBase n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(org.xml.sax.InputSource, org.xml.sax.HandlerBase)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -316,17 +258,11 @@ public virtual void parse(global::org.xml.sax.InputSource n1, global::org.xml.sa
 
 public virtual void parse(global::org.xml.sax.InputSource n1, global::org.xml.sax.helpers.DefaultHandler n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void parse(org.xml.sax.InputSource, org.xml.sax.helpers.DefaultHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -362,9 +298,7 @@ public abstract global::System.Object getProperty(global::java.lang.String n1);
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[javax.xml.parsers.SAXParser: void reset()]
@@ -372,11 +306,8 @@ public virtual void reset(){
 
 public virtual global::System.Object getSchema(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: java.lang.Object getSchema()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.Object) _r0_o;
@@ -386,10 +317,7 @@ public virtual global::System.Object getSchema(){
 public virtual bool isXIncludeAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: boolean isXIncludeAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;

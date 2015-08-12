@@ -5,9 +5,7 @@ namespace java.util {
 public abstract class AbstractQueue: global::java.util.AbstractCollection,global::java.util.Queue {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.AbstractCollection) _r0_o).@this();
     return;
@@ -18,11 +16,8 @@ public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -45,11 +40,8 @@ public override bool addAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: boolean addAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -69,11 +61,8 @@ public override bool addAll(global::java.util.Collection n1){
 
 public virtual global::System.Object remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: java.lang.Object remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractQueue) _r1_o).poll();
     if (_r0_o != null) goto label12;
@@ -87,11 +76,8 @@ public virtual global::System.Object remove(){
 
 public virtual global::System.Object element(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: java.lang.Object element()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractQueue) _r1_o).peek();
     if (_r0_o != null) goto label12;
@@ -105,11 +91,8 @@ public virtual global::System.Object element(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractQueue: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     label0:;
     _r0_o = ((global::java.util.AbstractQueue) _r1_o).poll();

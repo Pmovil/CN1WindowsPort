@@ -9,11 +9,8 @@ public global::java.util.regex.AbstractCharClass _fnegValue;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCharClass: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::java.lang.Object) _r1_o).@this();
@@ -25,15 +22,10 @@ public void @this(){
 
 public virtual global::System.Object getValue(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCharClass: java.util.regex.AbstractCharClass getValue(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     if (_r3.i != 0) goto label17;

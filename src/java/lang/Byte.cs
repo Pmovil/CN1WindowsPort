@@ -26,7 +26,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r0.i]);
     _r0_o = ((global::java.lang.Object) _r0_o).getClass();
@@ -41,11 +40,8 @@ public static void @static(){
 
 public void @this(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: void <init>(byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.lang.Number) _r0_o).@this();
@@ -57,12 +53,8 @@ public void @this(sbyte n1){
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::java.lang.Byte.parseByte((global::java.lang.String) _r2_o);
@@ -74,10 +66,7 @@ public void @this(global::java.lang.String n1){
 public override sbyte byteValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: byte byteValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     return (sbyte) _r0.i;
@@ -87,14 +76,9 @@ public override sbyte byteValue(){
 public virtual int compareTo(global::java.lang.Byte n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: int compareTo(java.lang.Byte)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.lang.Byte) _r2_o)._fvalue;
@@ -120,10 +104,7 @@ public static global::System.Object decode(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::java.lang.Integer.decode((global::java.lang.String) _r2_o);
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
@@ -141,12 +122,7 @@ public static global::System.Object decode(global::java.lang.String n1){
 public override double doubleValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: double doubleValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.lang.Byte) _r2_o)._fvalue;
     _r0.d = (double) _r0.i;
@@ -157,14 +133,9 @@ public override double doubleValue(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == _r2_o) goto label16;
@@ -187,10 +158,7 @@ public override bool equals(global::java.lang.Object n1){
 public override float floatValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: float floatValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     _r0.f = (float) _r0.i;
@@ -201,10 +169,7 @@ public override float floatValue(){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     return _r0.i;
@@ -214,10 +179,7 @@ public override int hashCode(){
 public override int intValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: int intValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     return _r0.i;
@@ -227,12 +189,7 @@ public override int intValue(){
 public override long longValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: long longValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.lang.Byte) _r2_o)._fvalue;
     _r0.l = (long) _r0.i;
@@ -245,10 +202,7 @@ public static sbyte parseByte(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o);
     _r1.i = (_r0.i << 24) >> 24;
@@ -266,12 +220,8 @@ public static sbyte parseByte(global::java.lang.String n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o, (int) _r3.i);
@@ -288,10 +238,7 @@ public static sbyte parseByte(global::java.lang.String n1, int n2){
 public override short shortValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: short shortValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     return (short) _r0.i;
@@ -302,9 +249,7 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Byte) _r1_o)._fvalue;
     _r0_o = global::java.lang.Integer.toString((int) _r0.i);
@@ -314,11 +259,8 @@ public override global::System.Object toString(){
 
 public static global::System.Object toString(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: java.lang.String toString(byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::java.lang.Integer.toString((int) _r1.i);
     return (global::java.lang.String) _r0_o;
@@ -329,9 +271,7 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: java.lang.Byte valueOf(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = global::java.lang.Byte.parseByte((global::java.lang.String) _r1_o);
     _r0_o = global::java.lang.Byte.valueOf((sbyte) _r0.i);
@@ -343,11 +283,8 @@ public static global::System.Object valueOf(global::java.lang.String n1, int n2)
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: java.lang.Byte valueOf(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0.i = global::java.lang.Byte.parseByte((global::java.lang.String) _r1_o, (int) _r2.i);
@@ -358,16 +295,12 @@ public static global::System.Object valueOf(global::java.lang.String n1, int n2)
 
 public static global::System.Object valueOf(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: java.lang.Byte valueOf(byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r0_o = global::java.lang.Byte._fCACHE;
@@ -443,12 +376,8 @@ public static global::System.Object valueOf(sbyte n1){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

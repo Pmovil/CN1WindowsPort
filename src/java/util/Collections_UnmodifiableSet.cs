@@ -7,11 +7,8 @@ private static long _fserialVersionUID = -9215047833775013803L;
 
 public void @this(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSet: void <init>(java.util.Set)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2UnmodifiableCollection) _r0_o).@this((global::java.util.Collection) _r1_o);
@@ -23,11 +20,8 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSet: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableSet) _r1_o)._fc;
@@ -40,9 +34,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSet: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableSet) _r1_o)._fc;
     _r0.i = ((global::java.util.Collection) _r0_o).hashCode();

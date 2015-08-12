@@ -51,9 +51,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 1;
@@ -80,11 +78,8 @@ public abstract void create(bool n1);
 
 public virtual global::System.Object getFileDescriptor(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: java.io.FileDescriptor getFileDescriptor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.SocketImpl) _r1_o)._ffd;
     return (global::java.io.FileDescriptor) _r0_o;
@@ -93,11 +88,8 @@ public virtual global::System.Object getFileDescriptor(){
 
 public virtual global::System.Object getInetAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: java.net.InetAddress getInetAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.SocketImpl) _r1_o)._faddress;
     return (global::java.net.InetAddress) _r0_o;
@@ -109,10 +101,7 @@ public abstract global::System.Object getInputStream();
 public virtual int getLocalPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: int getLocalPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.SocketImpl) _r1_o)._flocalport;
     return _r0.i;
@@ -126,10 +115,7 @@ public abstract global::System.Object getOutputStream();
 public virtual int getPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: int getPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.SocketImpl) _r1_o)._fport;
     return _r0.i;
@@ -142,13 +128,10 @@ public abstract void setOption(int n1, global::java.lang.Object n2);
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1.i = 100;
@@ -184,27 +167,16 @@ public virtual int write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: int write(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -231,13 +203,9 @@ public virtual int write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 
 public virtual void shutdownInput(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: void shutdownInput()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.io.IOException();
     // Value=luni.72
@@ -251,13 +219,9 @@ public virtual void shutdownInput(){
 
 public virtual void shutdownOutput(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: void shutdownOutput()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.io.IOException();
     // Value=luni.72
@@ -274,10 +238,7 @@ public abstract void connect(global::java.net.SocketAddress n1, int n2);
 public virtual bool supportsUrgentData(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: boolean supportsUrgentData()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -288,15 +249,10 @@ public abstract void sendUrgentData(int n1);
 
 public virtual void setPerformancePreferences(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: void setPerformancePreferences(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;

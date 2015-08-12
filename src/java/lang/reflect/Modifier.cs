@@ -39,9 +39,7 @@ public static int _fENUM = 16384;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -51,10 +49,7 @@ public void @this(){
 public static bool isAbstract(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isAbstract(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 1024;
     if (_r0.i == 0) goto label6;
@@ -70,10 +65,7 @@ public static bool isAbstract(int n1){
 public static bool isFinal(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isFinal(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 16;
     if (_r0.i == 0) goto label6;
@@ -89,10 +81,7 @@ public static bool isFinal(int n1){
 public static bool isInterface(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isInterface(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 512;
     if (_r0.i == 0) goto label6;
@@ -108,10 +97,7 @@ public static bool isInterface(int n1){
 public static bool isNative(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isNative(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 256;
     if (_r0.i == 0) goto label6;
@@ -127,10 +113,7 @@ public static bool isNative(int n1){
 public static bool isPrivate(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isPrivate(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 2;
     if (_r0.i == 0) goto label6;
@@ -146,10 +129,7 @@ public static bool isPrivate(int n1){
 public static bool isProtected(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isProtected(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 4;
     if (_r0.i == 0) goto label6;
@@ -165,10 +145,7 @@ public static bool isProtected(int n1){
 public static bool isPublic(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isPublic(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 1;
     if (_r0.i == 0) goto label6;
@@ -184,10 +161,7 @@ public static bool isPublic(int n1){
 public static bool isStatic(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isStatic(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 8;
     if (_r0.i == 0) goto label6;
@@ -203,10 +177,7 @@ public static bool isStatic(int n1){
 public static bool isStrict(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isStrict(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 2048;
     if (_r0.i == 0) goto label6;
@@ -222,10 +193,7 @@ public static bool isStrict(int n1){
 public static bool isSynchronized(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isSynchronized(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 32;
     if (_r0.i == 0) goto label6;
@@ -241,10 +209,7 @@ public static bool isSynchronized(int n1){
 public static bool isTransient(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isTransient(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 128;
     if (_r0.i == 0) goto label6;
@@ -260,10 +225,7 @@ public static bool isTransient(int n1){
 public static bool isVolatile(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: boolean isVolatile(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = _r1.i & 64;
     if (_r0.i == 0) goto label6;
@@ -278,15 +240,11 @@ public static bool isVolatile(int n1){
 
 public static global::System.Object toString(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: java.lang.String toString(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

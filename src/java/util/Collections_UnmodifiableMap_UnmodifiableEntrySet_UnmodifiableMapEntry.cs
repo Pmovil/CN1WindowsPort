@@ -7,11 +7,8 @@ public global::java.util.Map_2Entry _fmapEntry;
 
 public void @this(global::java.util.Map_2Entry n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: void <init>(java.util.Map$Entry)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -24,11 +21,8 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r1_o)._fmapEntry;
@@ -39,11 +33,8 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object getKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: java.lang.Object getKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r1_o)._fmapEntry;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
@@ -53,11 +44,8 @@ public virtual global::System.Object getKey(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: java.lang.Object getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r1_o)._fmapEntry;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
@@ -69,9 +57,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r1_o)._fmapEntry;
     _r0.i = ((global::java.util.Map_2Entry) _r0_o).hashCode();
@@ -81,13 +67,9 @@ public override int hashCode(){
 
 public virtual global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -98,11 +80,8 @@ public virtual global::System.Object setValue(global::java.lang.Object n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableMapEntry: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r1_o)._fmapEntry;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();

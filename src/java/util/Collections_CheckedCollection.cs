@@ -11,15 +11,10 @@ public global::java.lang.Class _ftype;
 
 public void @this(global::java.util.Collection n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: void <init>(java.util.Collection, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -41,9 +36,7 @@ public virtual int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
     _r0.i = ((global::java.util.Collection) _r0_o).size();
@@ -55,9 +48,7 @@ public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
     _r0.i = ((global::java.util.Collection) _r0_o).isEmpty() ? 1 : 0;
@@ -69,11 +60,8 @@ public virtual bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -84,15 +72,11 @@ public virtual bool contains(global::java.lang.Object n1){
 
 public virtual global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r3_o)._fc;
     _r0_o = ((global::java.util.Collection) _r0_o).iterator();
@@ -110,11 +94,8 @@ public virtual global::System.Object iterator(){
 
 public virtual global::System.Object toArray(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: java.lang.Object[] toArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
     _r0_o = ((global::java.util.Collection) _r0_o).toArray();
@@ -124,13 +105,9 @@ public virtual global::System.Object toArray(){
 
 public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: java.lang.Object[] toArray(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -143,13 +120,9 @@ public virtual bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r2_o)._fc;
@@ -164,11 +137,8 @@ public virtual bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -181,11 +151,8 @@ public virtual bool containsAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean containsAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -201,16 +168,10 @@ public virtual bool addAll(global::java.util.Collection n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = ((global::java.util.Collection) _r6_o).toArray();
@@ -235,11 +196,8 @@ public virtual bool removeAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean removeAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -252,11 +210,8 @@ public virtual bool retainAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: boolean retainAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
@@ -267,11 +222,8 @@ public virtual bool retainAll(global::java.util.Collection n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
     ((global::java.util.Collection) _r0_o).clear();
@@ -281,11 +233,8 @@ public virtual void clear(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedCollection: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedCollection) _r1_o)._fc;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();

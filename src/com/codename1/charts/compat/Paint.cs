@@ -30,12 +30,8 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.f = (float)1.0D;
     _r1.i = 0;
@@ -58,23 +54,15 @@ public void @this(){
 
 public virtual void getTextWidths(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<float> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void getTextWidths(java.lang.String, float[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -107,35 +95,22 @@ public virtual void getTextWidths(global::java.lang.String n1, global::org.xmlvm
 
 public virtual int breakText(global::java.lang.String n1, bool n2, float n3, global::org.xmlvm._nArrayAdapter<float> n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: int breakText(java.lang.String, boolean, float, float[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.i = n2 ? 1 : 0;
@@ -205,23 +180,14 @@ public virtual int breakText(global::java.lang.String n1, bool n2, float n3, glo
 
 public virtual void getTextBounds(global::java.lang.String n1, int n2, int n3, global::com.codename1.ui.geom.Rectangle2D n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void getTextBounds(java.lang.String, int, int, com.codename1.ui.geom.Rectangle2D)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -243,41 +209,19 @@ public virtual void getTextBounds(global::java.lang.String n1, int n2, int n3, g
 
 public virtual void getCN1TextBounds(global::java.lang.String n1, int n2, int n3, global::com.codename1.ui.geom.Rectangle2D n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void getCN1TextBounds(java.lang.String, int, int, com.codename1.ui.geom.Rectangle2D)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r14.i = n2;
@@ -300,27 +244,17 @@ public virtual void getCN1TextBounds(global::java.lang.String n1, int n2, int n3
 
 public virtual float measureTextHeight(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: float measureTextHeight(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -359,14 +293,9 @@ public virtual float measureText(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.lang.String) _r4_o).toCharArray();
@@ -379,25 +308,16 @@ public virtual float measureText(global::java.lang.String n1){
 
 public virtual float measureText(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: float measureText(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -431,11 +351,8 @@ public virtual float measureText(global::org.xmlvm._nArrayAdapter<char> n1, int 
 
 public virtual void setAntiAlias(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setAntiAlias(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fantiAlias = 0!=_r1.i;
@@ -445,11 +362,8 @@ public virtual void setAntiAlias(bool n1){
 
 public virtual global::System.Object getTypeface(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: com.codename1.ui.Font getTypeface()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.compat.Paint) _r1_o)._ftypeface;
     return (global::com.codename1.ui.Font) _r0_o;
@@ -458,11 +372,8 @@ public virtual global::System.Object getTypeface(){
 
 public virtual void setTypeface(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setTypeface(com.codename1.ui.Font)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._ftypeface = (global::com.codename1.ui.Font) _r1_o;
@@ -473,10 +384,7 @@ public virtual void setTypeface(global::com.codename1.ui.Font n1){
 public virtual int getStrokeCap(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: int getStrokeCap()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.compat.Paint) _r1_o)._fstrokeCap;
     return _r0.i;
@@ -486,10 +394,7 @@ public virtual int getStrokeCap(){
 public virtual int getStrokeJoin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: int getStrokeJoin()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.compat.Paint) _r1_o)._fstrokeJoin;
     return _r0.i;
@@ -499,10 +404,7 @@ public virtual int getStrokeJoin(){
 public virtual float getStrokeMiter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: float getStrokeMiter()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.compat.Paint) _r1_o)._fstrokeMiter;
     return _r0.f;
@@ -511,11 +413,8 @@ public virtual float getStrokeMiter(){
 
 public virtual global::System.Object getStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: com.codename1.charts.compat.Paint$Style getStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.compat.Paint) _r1_o)._fstyle;
     return (global::com.codename1.charts.compat.Paint_2Style) _r0_o;
@@ -524,11 +423,8 @@ public virtual global::System.Object getStyle(){
 
 public virtual void setStrokeCap(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setStrokeCap(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fstrokeCap = _r1.i;
@@ -538,11 +434,8 @@ public virtual void setStrokeCap(int n1){
 
 public virtual void setStrokeJoin(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setStrokeJoin(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fstrokeJoin = _r1.i;
@@ -552,11 +445,8 @@ public virtual void setStrokeJoin(int n1){
 
 public virtual void setStrokeMiter(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setStrokeMiter(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fstrokeMiter = _r1.f;
@@ -567,10 +457,7 @@ public virtual void setStrokeMiter(float n1){
 public virtual float getStrokeWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: float getStrokeWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.compat.Paint) _r1_o)._fstrokeWidth;
     return _r0.f;
@@ -579,11 +466,8 @@ public virtual float getStrokeWidth(){
 
 public virtual void setStrokeWidth(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setStrokeWidth(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fstrokeWidth = _r1.f;
@@ -594,10 +478,7 @@ public virtual void setStrokeWidth(float n1){
 public virtual int getColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: int getColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.compat.Paint) _r1_o)._fcolor;
     return _r0.i;
@@ -606,11 +487,8 @@ public virtual int getColor(){
 
 public virtual void setColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fcolor = _r1.i;
@@ -620,11 +498,8 @@ public virtual void setColor(int n1){
 
 public virtual void setStyle(global::com.codename1.charts.compat.Paint_2Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setStyle(com.codename1.charts.compat.Paint$Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._fstyle = (global::com.codename1.charts.compat.Paint_2Style) _r1_o;
@@ -634,11 +509,8 @@ public virtual void setStyle(global::com.codename1.charts.compat.Paint_2Style n1
 
 public virtual void setTextAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setTextAlign(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.compat.Paint) _r0_o)._falign = _r1.i;
@@ -649,10 +521,7 @@ public virtual void setTextAlign(int n1){
 public virtual int getTextAlign(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: int getTextAlign()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.compat.Paint) _r1_o)._falign;
     return _r0.i;
@@ -661,15 +530,10 @@ public virtual int getTextAlign(){
 
 public virtual void setTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: void setTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.f = n1;
     ((global::com.codename1.charts.compat.Paint) _r2_o)._ftextSize = _r3.f;
@@ -687,10 +551,7 @@ public virtual void setTextSize(float n1){
 public virtual float getTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: float getTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.compat.Paint) _r1_o)._ftextSize;
     return _r0.f;
@@ -699,13 +560,10 @@ public virtual float getTextSize(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

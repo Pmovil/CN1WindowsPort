@@ -5,9 +5,7 @@ namespace org.apache.harmony.luni.util {
 public class SneakyThrow: global::java.lang.Object {
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.SneakyThrow: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,9 +14,7 @@ private void @this(){
 
 public static void sneakyThrow(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.SneakyThrow: void sneakyThrow(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::org.apache.harmony.luni.util.SneakyThrow.sneakyThrow2((global::java.lang.Throwable) _r0_o);
     return;
@@ -27,9 +23,7 @@ public static void sneakyThrow(global::java.lang.Throwable n1){
 
 private static void sneakyThrow2(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.SneakyThrow: void sneakyThrow2(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.Throwable) _r0_o);
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.SneakyThrow: void sneakyThrow2(java.lang.Throwable)]

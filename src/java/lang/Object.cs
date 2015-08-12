@@ -16,9 +16,7 @@ private static void initNativeLayer(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.Object: void <init>()]
@@ -72,13 +70,10 @@ public virtual void notifyAll(){
 
 public virtual global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -115,7 +110,6 @@ public virtual void wait(long n1, int n2){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: void <clinit>()]
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::java.lang.Object.initNativeLayer();
     return;
 //XMLVM_END_WRAPPER[java.lang.Object: void <clinit>()]

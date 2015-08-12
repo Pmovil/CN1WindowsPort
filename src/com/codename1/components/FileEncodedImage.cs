@@ -11,17 +11,11 @@ private global::org.xmlvm._nArrayAdapter<sbyte> _fdata;
 
 private void @this(global::java.lang.String n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImage: void <init>(java.lang.String, int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -36,17 +30,12 @@ private void @this(global::java.lang.String n1, int n2, int n3, bool n4){
 
 public override global::System.Object getImageData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImage: byte[] getImageData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -117,17 +106,11 @@ public override global::System.Object getImageData(){
 
 public static global::System.Object create(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImage: com.codename1.components.FileEncodedImage create(java.lang.String, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -140,23 +123,15 @@ public static global::System.Object create(global::java.lang.String n1, int n2, 
 
 public static global::System.Object create(global::java.lang.String n1, global::java.io.InputStream n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImage: com.codename1.components.FileEncodedImage create(java.lang.String, java.io.InputStream, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6.i = n3;
@@ -178,17 +153,11 @@ public static global::System.Object create(global::java.lang.String n1, global::
 
 public static global::System.Object create(global::java.lang.String n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImage: com.codename1.components.FileEncodedImage create(java.lang.String, int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r3.i = n3;

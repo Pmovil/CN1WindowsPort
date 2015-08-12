@@ -9,11 +9,8 @@ private global::java.util.Map _fm;
 
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: void <init>(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -24,11 +21,8 @@ public void @this(global::java.util.Map n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();
@@ -40,11 +34,8 @@ public virtual bool containsKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: boolean containsKey(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
@@ -57,11 +48,8 @@ public virtual bool containsValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: boolean containsValue(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
@@ -72,13 +60,9 @@ public virtual bool containsValue(global::java.lang.Object n1){
 
 public virtual global::System.Object entrySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.util.Set entrySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet();
     _r1_o = ((global::java.util.Collections_2UnmodifiableMap) _r2_o)._fm;
@@ -92,11 +76,8 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
@@ -107,13 +88,9 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object get(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.lang.Object get(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
@@ -126,9 +103,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
     _r0.i = ((global::java.util.Map) _r0_o).hashCode();
@@ -140,9 +115,7 @@ public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
     _r0.i = ((global::java.util.Map) _r0_o).isEmpty() ? 1 : 0;
@@ -152,13 +125,9 @@ public virtual bool isEmpty(){
 
 public virtual global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.util.Set keySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Collections_2UnmodifiableSet();
     _r1_o = ((global::java.util.Collections_2UnmodifiableMap) _r2_o)._fm;
@@ -170,15 +139,10 @@ public virtual global::System.Object keySet(){
 
 public virtual global::System.Object put(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.lang.Object put(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -190,13 +154,9 @@ public virtual global::System.Object put(global::java.lang.Object n1, global::ja
 
 public virtual void putAll(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: void putAll(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -207,13 +167,9 @@ public virtual void putAll(global::java.util.Map n1){
 
 public virtual global::System.Object remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.lang.Object remove(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -226,9 +182,7 @@ public virtual int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
     _r0.i = ((global::java.util.Map) _r0_o).size();
@@ -238,13 +192,9 @@ public virtual int size(){
 
 public virtual global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.util.Collection values()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Collections_2UnmodifiableCollection();
     _r1_o = ((global::java.util.Collections_2UnmodifiableMap) _r2_o)._fm;
@@ -256,11 +206,8 @@ public virtual global::System.Object values(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap) _r1_o)._fm;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();

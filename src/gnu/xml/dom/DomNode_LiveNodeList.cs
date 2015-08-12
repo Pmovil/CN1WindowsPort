@@ -54,18 +54,11 @@ public void @this(global::gnu.xml.dom.DomNode n1, global::java.lang.String n2, g
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -102,15 +95,10 @@ public void @this(global::gnu.xml.dom.DomNode n1, global::java.lang.String n2, g
 
 public virtual void detach(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$LiveNodeList: void detach()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0_o = ((global::gnu.xml.dom.DomNode_2LiveNodeList) _r3_o)._fcurrent;
@@ -138,15 +126,10 @@ public virtual short acceptNode(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$LiveNodeList: short acceptNode(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 3;
@@ -192,15 +175,10 @@ public virtual short acceptNode(global::org.w3c.dom.Node n1){
 
 private global::System.Object createIterator(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$LiveNodeList: gnu.xml.dom.DomIterator createIterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0_o = new global::gnu.xml.dom.DomIterator();
@@ -212,17 +190,13 @@ private global::System.Object createIterator(){
 
 public virtual void handleEvent(global::org.w3c.dom.events.Event n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$LiveNodeList: void handleEvent(org.w3c.dom.events.Event)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r4_o = _r4_o;
@@ -256,13 +230,9 @@ public virtual global::System.Object item(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2_o = null;
@@ -313,14 +283,9 @@ public virtual global::System.Object item(int n1){
 public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$LiveNodeList: int getLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 0;
     _r1_o = ((global::gnu.xml.dom.DomNode_2LiveNodeList) _r3_o).createIterator();

@@ -5,31 +5,18 @@ namespace java.util {
 public class TreeMap_2DescendingSubMap_2DescendingSubMapValuesCollection_2DescendingValueIterator: global::java.util.TreeMap_2BoundedMapIterator,global::java.util.Iterator {
 public void @this(global::java.util.TreeMap_2Node n1, int n2, global::java.util.TreeMap_2DescendingSubMap n3, global::java.util.TreeMap_2Node n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap$DescendingSubMapValuesCollection$DescendingValueIterator: void <init>(java.util.TreeMap$Node, int, java.util.TreeMap$DescendingSubMap, java.util.TreeMap$Node, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -56,10 +43,7 @@ public virtual global::System.Object next(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::java.util.TreeMap_2DescendingSubMap_2DescendingSubMapValuesCollection_2DescendingValueIterator) _r3_o).hasNext() ? 1 : 0;

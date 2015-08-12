@@ -21,13 +21,9 @@ public static int _fDERIVATION_1LIST = org.w3c.dom._iTypeInfo._fDERIVATION_1LIST
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: void <init>(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -40,11 +36,8 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public virtual global::System.Object getTypeName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: java.lang.String getTypeName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -53,11 +46,8 @@ public virtual global::System.Object getTypeName(){
 
 public virtual global::System.Object getTypeNamespace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: java.lang.String getTypeNamespace()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=http://www.w3.org/TR/REC-xml
     _r0_o = new global::java.lang.String();
@@ -69,16 +59,10 @@ public virtual global::System.Object getTypeNamespace(){
 public virtual bool isDerivedFrom(global::java.lang.String n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: boolean isDerivedFrom(java.lang.String, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -90,13 +74,9 @@ public virtual bool isDerivedFrom(global::java.lang.String n1, global::java.lang
 
 public virtual global::System.Object getAttributeTypeInfo(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: gnu.xml.dom.DTDAttributeTypeInfo getAttributeTypeInfo(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.DTDElementTypeInfo) _r1_o)._fattributes;
@@ -117,15 +97,10 @@ public virtual void setAttributeTypeInfo(global::java.lang.String n1, global::gn
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: void setAttributeTypeInfo(java.lang.String, gnu.xml.dom.DTDAttributeTypeInfo)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -151,11 +126,8 @@ public virtual void setAttributeTypeInfo(global::java.lang.String n1, global::gn
 
 public virtual global::System.Object attributes(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: java.util.Iterator attributes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DTDElementTypeInfo) _r1_o)._fattributes;
     if (_r0_o != null) goto label6;

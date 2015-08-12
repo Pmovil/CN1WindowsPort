@@ -9,13 +9,9 @@ public global::java.util.ListResourceBundle _fthis_20;
 
 public void @this(global::java.util.ListResourceBundle n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle$2: void <init>(java.util.ListResourceBundle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.ListResourceBundle_22) _r1_o)._fthis_20 = (global::java.util.ListResourceBundle) _r2_o;
@@ -32,9 +28,7 @@ public virtual bool hasMoreElements(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle$2: boolean hasMoreElements()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.ListResourceBundle_22) _r1_o)._fit;
     _r0.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
@@ -44,11 +38,8 @@ public virtual bool hasMoreElements(){
 
 public virtual global::System.Object nextElement(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle$2: java.lang.String nextElement()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.ListResourceBundle_22) _r1_o)._fit;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();

@@ -9,13 +9,9 @@ private global::java.util.SortedSet _fss;
 
 public void @this(global::java.util.SortedSet n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: void <init>(java.util.SortedSet, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -27,11 +23,8 @@ public void @this(global::java.util.SortedSet n1, global::java.lang.Class n2){
 
 public virtual global::System.Object comparator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.util.Comparator comparator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedSortedSet) _r1_o)._fss;
     _r0_o = ((global::java.util.SortedSet) _r0_o).comparator();
@@ -41,19 +34,12 @@ public virtual global::System.Object comparator(){
 
 public virtual global::System.Object subSet(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.util.SortedSet subSet(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -68,17 +54,11 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, global:
 
 public virtual global::System.Object headSet(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.util.SortedSet headSet(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.util.Collections_2CheckedSortedSet();
@@ -92,17 +72,11 @@ public virtual global::System.Object headSet(global::java.lang.Object n1){
 
 public virtual global::System.Object tailSet(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.util.SortedSet tailSet(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.util.Collections_2CheckedSortedSet();
@@ -116,11 +90,8 @@ public virtual global::System.Object tailSet(global::java.lang.Object n1){
 
 public virtual global::System.Object first(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.lang.Object first()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedSortedSet) _r1_o)._fss;
     _r0_o = ((global::java.util.SortedSet) _r0_o).first();
@@ -130,11 +101,8 @@ public virtual global::System.Object first(){
 
 public virtual global::System.Object last(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSortedSet: java.lang.Object last()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedSortedSet) _r1_o)._fss;
     _r0_o = ((global::java.util.SortedSet) _r0_o).last();

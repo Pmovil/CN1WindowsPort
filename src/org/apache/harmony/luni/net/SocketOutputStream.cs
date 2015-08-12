@@ -7,11 +7,8 @@ private global::org.apache.harmony.luni.net.PlainSocketImpl _fsocket;
 
 public void @this(global::java.net.SocketImpl n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.SocketOutputStream: void <init>(java.net.SocketImpl)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.OutputStream) _r0_o).@this();
@@ -23,11 +20,8 @@ public void @this(global::java.net.SocketImpl n1){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.SocketOutputStream: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.SocketOutputStream) _r1_o)._fsocket;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r0_o).close();
@@ -37,17 +31,11 @@ public override void close(){
 
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.SocketOutputStream: void write(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::org.apache.harmony.luni.net.SocketOutputStream) _r3_o)._fsocket;
@@ -62,17 +50,11 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.SocketOutputStream: void write(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -109,19 +91,13 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.SocketOutputStream: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 1;

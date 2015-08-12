@@ -60,9 +60,7 @@ private static void initNativeLayer(){
 
 public static void setIn(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void setIn(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::java.lang.System._fin = (global::java.io.InputStream) _r0_o;
     return;
@@ -71,9 +69,7 @@ public static void setIn(global::java.io.InputStream n1){
 
 public static void setOut(global::java.io.PrintStream n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void setOut(java.io.PrintStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::java.lang.System._fout = (global::java.io.PrintStream) _r0_o;
     return;
@@ -82,9 +78,7 @@ public static void setOut(global::java.io.PrintStream n1){
 
 public static void setErr(global::java.io.PrintStream n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void setErr(java.io.PrintStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::java.lang.System._ferr = (global::java.io.PrintStream) _r0_o;
     return;
@@ -93,9 +87,7 @@ public static void setErr(global::java.io.PrintStream n1){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -104,27 +96,17 @@ private void @this(){
 
 public static void arraycopy(global::java.lang.Object n1, int n2, global::java.lang.Object n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(java.lang.Object, int, java.lang.Object, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6.i = n2;
     _r7_o = n3;
@@ -241,22 +223,15 @@ public static void arraycopy(global::java.lang.Object n1, int n2, global::java.l
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(java.lang.Object[], int, java.lang.Object[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -308,22 +283,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<global::System.Ob
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<int> n1, int n2, global::org.xmlvm._nArrayAdapter<int> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(int[], int, int[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -375,22 +342,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<int> n1, int n2, 
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, global::org.xmlvm._nArrayAdapter<sbyte> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(byte[], int, byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -442,22 +401,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<short> n1, int n2, global::org.xmlvm._nArrayAdapter<short> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(short[], int, short[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -509,24 +460,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<short> n1, int n2
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<long> n1, int n2, global::org.xmlvm._nArrayAdapter<long> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(long[], int, long[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6_o = n3;
@@ -578,22 +519,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<long> n1, int n2,
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<char> n1, int n2, global::org.xmlvm._nArrayAdapter<char> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(char[], int, char[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -645,22 +578,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<char> n1, int n2,
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<bool> n1, int n2, global::org.xmlvm._nArrayAdapter<bool> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(boolean[], int, boolean[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -712,24 +637,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<bool> n1, int n2,
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<double> n1, int n2, global::org.xmlvm._nArrayAdapter<double> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(double[], int, double[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6_o = n3;
@@ -781,22 +696,14 @@ private static void arraycopy(global::org.xmlvm._nArrayAdapter<double> n1, int n
 private static void arraycopy(global::org.xmlvm._nArrayAdapter<float> n1, int n2, global::org.xmlvm._nArrayAdapter<float> n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void arraycopy(float[], int, float[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -860,35 +767,22 @@ public static long nanoTime(){
 
 private static void ensureProperties(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void ensureProperties()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12.i = 1;
     // Value=console.encoding
     _r13_o = new global::java.lang.String();
@@ -1018,8 +912,6 @@ private static void ensureProperties(){
 public static void exit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void exit(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::java.lang.System.nativeExit((int) _r0.i);
     return;
@@ -1035,17 +927,11 @@ public static void gc(){
 
 public static global::System.Object getenv(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.String getenv(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     if (_r4_o != null) goto label8;
     _r1_o = new global::java.lang.NullPointerException();
@@ -1074,13 +960,9 @@ public static global::System.Object getenv(global::java.lang.String n1){
 
 public static global::System.Object getenv(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.util.Map getenv()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label16;
     _r1_o = new global::java.lang.RuntimePermission();
@@ -1098,9 +980,7 @@ public static global::System.Object getenv(){
 
 public static global::System.Object inheritedChannel(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.nio.channels.Channel inheritedChannel()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
 // Red class access removed: java.nio.channels.spi.SelectorProvider provider
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: java.nio.channels.spi.SelectorProvider provider");
 // Red class access removed: java.nio.channels.spi.SelectorProvider inheritedChannel
@@ -1111,11 +991,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public static global::System.Object getProperties(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.util.Properties getProperties()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label9;
     ((global::java.lang.SecurityManager) _r0_o).checkPropertiesAccess();
@@ -1127,9 +1004,7 @@ public static global::System.Object getProperties(){
 
 public static global::System.Object internalGetProperties(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.util.Properties internalGetProperties()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System._fsystemProperties;
     return (global::java.util.Properties) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.System: java.util.Properties internalGetProperties()]
@@ -1137,11 +1012,8 @@ public static global::System.Object internalGetProperties(){
 
 public static global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.String getProperty(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = null;
     _r0_o = global::java.lang.System.getProperty((global::java.lang.String) _r1_o, (global::java.lang.String) _r0_o);
@@ -1151,15 +1023,11 @@ public static global::System.Object getProperty(global::java.lang.String n1){
 
 public static global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.String getProperty(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r1.i = ((global::java.lang.String) _r2_o).length();
@@ -1217,17 +1085,12 @@ public static global::System.Object getProperty(global::java.lang.String n1, glo
 
 public static global::System.Object setProperty(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.String setProperty(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = ((global::java.lang.String) _r3_o).length();
@@ -1254,15 +1117,11 @@ public static global::System.Object setProperty(global::java.lang.String n1, glo
 
 public static global::System.Object clearProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.String clearProperty(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     if (_r3_o != null) goto label8;
     _r1_o = new global::java.lang.NullPointerException();
@@ -1305,9 +1164,7 @@ private static global::System.Object getEncoding(int n1){
 
 public static global::System.Object getSecurityManager(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: java.lang.SecurityManager getSecurityManager()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System._fsecurity;
     return (global::java.lang.SecurityManager) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.System: java.lang.SecurityManager getSecurityManager()]
@@ -1321,15 +1178,10 @@ public static int identityHashCode(global::java.lang.Object n1){
 
 public static void loadLibrary(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void loadLibrary(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = new global::java.lang.IllegalArgumentException();
     _r1_o = new global::java.lang.StringBuilder();
@@ -1347,9 +1199,7 @@ public static void loadLibrary(global::java.lang.String n1){
 
 public static void runFinalization(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void runFinalization()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System._fRUNTIME;
     ((global::java.lang.Runtime) _r0_o).runFinalization();
     return;
@@ -1359,8 +1209,6 @@ public static void runFinalization(){
 public static void runFinalizersOnExit(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void runFinalizersOnExit(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::java.lang.Runtime.runFinalizersOnExit(0!=_r0.i);
     return;
@@ -1369,11 +1217,8 @@ public static void runFinalizersOnExit(bool n1){
 
 public static void setProperties(global::java.util.Properties n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void setProperties(java.util.Properties)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label9;
@@ -1391,9 +1236,7 @@ public static void setProperties(global::java.util.Properties n1){
 
 public static void setSecurityManager(global::java.lang.SecurityManager n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void setSecurityManager(java.lang.SecurityManager)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::java.lang.System._fsecurity = (global::java.lang.SecurityManager) _r0_o;
     return;
@@ -1402,9 +1245,7 @@ public static void setSecurityManager(global::java.lang.SecurityManager n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.lang.System._fin = (global::java.io.InputStream) _r0_o;
     global::java.lang.System._fout = (global::java.io.PrintStream) _r0_o;

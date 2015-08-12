@@ -24,9 +24,7 @@ public bool _finCheck;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -35,19 +33,13 @@ public void @this(){
 
 public virtual void checkAccept(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkAccept(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -75,11 +67,8 @@ public virtual void checkAccept(global::java.lang.String n1, int n2){
 
 public virtual void checkAccess(global::java.lang.Thread n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkAccess(java.lang.Thread)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -88,11 +77,8 @@ public virtual void checkAccess(global::java.lang.Thread n1){
 
 public virtual void checkAccess(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -101,19 +87,13 @@ public virtual void checkAccess(global::java.lang.ThreadGroup n1){
 
 public virtual void checkConnect(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkConnect(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -151,21 +131,14 @@ public virtual void checkConnect(global::java.lang.String n1, int n2){
 
 public virtual void checkConnect(global::java.lang.String n1, int n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkConnect(java.lang.String, int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -199,9 +172,7 @@ public virtual void checkConnect(global::java.lang.String n1, int n2, global::ja
 
 public virtual void checkCreateClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkCreateClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.SecurityManager: void checkCreateClassLoader()]
@@ -209,15 +180,10 @@ public virtual void checkCreateClassLoader(){
 
 public virtual void checkDelete(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkDelete(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.io.FilePermission();
@@ -232,17 +198,12 @@ public virtual void checkDelete(global::java.lang.String n1){
 
 public virtual void checkExec(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkExec(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.io.FilePermission();
@@ -268,11 +229,8 @@ public virtual void checkExec(global::java.lang.String n1){
 
 public virtual void checkExit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkExit(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -281,17 +239,11 @@ public virtual void checkExit(int n1){
 
 public virtual void checkLink(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkLink(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     if (_r4_o != null) goto label8;
@@ -316,19 +268,12 @@ public virtual void checkLink(global::java.lang.String n1){
 
 public virtual void checkListen(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkListen(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     // Value=listen
@@ -367,17 +312,11 @@ public virtual void checkListen(int n1){
 
 public virtual void checkMemberAccess(global::java.lang.Class n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkMemberAccess(java.lang.Class, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -402,17 +341,11 @@ public virtual void checkMemberAccess(global::java.lang.Class n1, int n2){
 
 public virtual void checkMulticast(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkMulticast(java.net.InetAddress)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.net.SocketPermission();
@@ -428,19 +361,12 @@ public virtual void checkMulticast(global::java.net.InetAddress n1){
 
 public virtual void checkMulticast(global::java.net.InetAddress n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkMulticast(java.net.InetAddress, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -459,15 +385,10 @@ public virtual void checkPackageAccess(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPackageAccess(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     if (_r4_o != null) goto label8;
@@ -500,15 +421,10 @@ public virtual void checkPackageDefinition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     if (_r4_o != null) goto label8;
@@ -539,33 +455,20 @@ public virtual void checkPackageDefinition(global::java.lang.String n1){
 
 private static bool checkPackageProperty(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: boolean checkPackageProperty(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12_o = n2;
     _r10.i = 46;
@@ -625,11 +528,8 @@ private static bool checkPackageProperty(global::java.lang.String n1, global::ja
 
 public virtual void checkPropertiesAccess(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPropertiesAccess()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.SecurityManager._fREAD_1WRITE_1ALL_1PROPERTIES_1PERMISSION;
     ((global::java.lang.SecurityManager) _r1_o).checkPermission((global::java.security.Permission) _r0_o);
@@ -639,15 +539,10 @@ public virtual void checkPropertiesAccess(){
 
 public virtual void checkPropertyAccess(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPropertyAccess(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.util.PropertyPermission();
@@ -662,13 +557,9 @@ public virtual void checkPropertyAccess(global::java.lang.String n1){
 
 public virtual void checkRead(global::java.io.FileDescriptor n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkRead(java.io.FileDescriptor)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -682,15 +573,10 @@ public virtual void checkRead(global::java.io.FileDescriptor n1){
 
 public virtual void checkRead(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkRead(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.io.FilePermission();
@@ -705,17 +591,11 @@ public virtual void checkRead(global::java.lang.String n1){
 
 public virtual void checkRead(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkRead(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -731,13 +611,9 @@ public virtual void checkRead(global::java.lang.String n1, global::java.lang.Obj
 
 public virtual void checkSecurityAccess(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkSecurityAccess(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
 // Red class access removed: java.security.SecurityPermission new-instance
@@ -751,9 +627,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public virtual void checkSetFactory(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkSetFactory()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.SecurityManager: void checkSetFactory()]
@@ -761,27 +635,17 @@ public virtual void checkSetFactory(){
 
 public virtual bool checkTopLevelWindow(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: boolean checkTopLevelWindow(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
@@ -879,19 +743,13 @@ public virtual bool checkTopLevelWindow(global::java.lang.Object n1){
 
 public virtual void checkSystemClipboardAccess(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkSystemClipboardAccess()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -971,19 +829,13 @@ public virtual void checkSystemClipboardAccess(){
 
 public virtual void checkAwtEventQueueAccess(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkAwtEventQueueAccess()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -1063,9 +915,7 @@ public virtual void checkAwtEventQueueAccess(){
 
 public virtual void checkPrintJobAccess(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPrintJobAccess()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.SecurityManager: void checkPrintJobAccess()]
@@ -1073,13 +923,9 @@ public virtual void checkPrintJobAccess(){
 
 public virtual void checkWrite(global::java.io.FileDescriptor n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkWrite(java.io.FileDescriptor)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -1093,15 +939,10 @@ public virtual void checkWrite(global::java.io.FileDescriptor n1){
 
 public virtual void checkWrite(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkWrite(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.io.FilePermission();
@@ -1117,10 +958,7 @@ public virtual void checkWrite(global::java.lang.String n1){
 public virtual bool getInCheck(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: boolean getInCheck()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.SecurityManager) _r1_o)._finCheck ? 1 : 0;
     return _r0.i!=0;
@@ -1131,9 +969,7 @@ public virtual global::System.Object getClassContext(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: java.lang.Class[] getClassContext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1143,11 +979,8 @@ public virtual global::System.Object getClassContext(){
 
 public virtual global::System.Object currentClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: java.lang.ClassLoader currentClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.ClassLoader) _r0_o;
@@ -1157,10 +990,7 @@ public virtual global::System.Object currentClassLoader(){
 public virtual int classLoaderDepth(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: int classLoaderDepth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     return _r0.i;
@@ -1169,11 +999,8 @@ public virtual int classLoaderDepth(){
 
 public virtual global::System.Object currentLoadedClass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: java.lang.Class currentLoadedClass()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.Class) _r0_o;
@@ -1183,12 +1010,8 @@ public virtual global::System.Object currentLoadedClass(){
 public virtual int classDepth(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: int classDepth(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = -1;
@@ -1199,14 +1022,9 @@ public virtual int classDepth(global::java.lang.String n1){
 public virtual bool inClass(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: boolean inClass(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.lang.SecurityManager) _r2_o).classDepth((global::java.lang.String) _r3_o);
@@ -1225,9 +1043,7 @@ public virtual bool inClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: boolean inClassLoader()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.SecurityManager) _r1_o).currentClassLoader();
     if (_r0_o == null) goto label8;
@@ -1242,11 +1058,8 @@ public virtual bool inClassLoader(){
 
 public virtual global::System.Object getThreadGroup(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: java.lang.ThreadGroup getThreadGroup()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.Thread.currentThread();
     _r0_o = ((global::java.lang.Thread) _r0_o).getThreadGroup();
@@ -1256,11 +1069,8 @@ public virtual global::System.Object getThreadGroup(){
 
 public virtual global::System.Object getSecurityContext(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: java.lang.Object getSecurityContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.security.AccessController.getContext();
     return (global::java.lang.Object) _r0_o;
@@ -1269,11 +1079,8 @@ public virtual global::System.Object getSecurityContext(){
 
 public virtual void checkPermission(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPermission(java.security.Permission)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1282,13 +1089,9 @@ public virtual void checkPermission(global::java.security.Permission n1){
 
 public virtual void checkPermission(global::java.security.Permission n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void checkPermission(java.security.Permission, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1298,13 +1101,9 @@ public virtual void checkPermission(global::java.security.Permission n1, global:
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.PropertyPermission();
     // Value=*
     _r1_o = new global::java.lang.String();

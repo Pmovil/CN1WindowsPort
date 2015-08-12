@@ -5,15 +5,10 @@ namespace com.codename1.share {
 public class EmailShare: global::com.codename1.share.ShareService {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     // Value=Email
     _r0_o = new global::java.lang.String();
@@ -32,29 +27,17 @@ public override void share(global::java.lang.String n1, global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: void share(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -99,13 +82,9 @@ public override void share(global::java.lang.String n1, global::java.lang.String
 
 public override void share(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: void share(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -116,13 +95,9 @@ public override void share(global::java.lang.String n1){
 
 private global::System.Object createRendererMultiButton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: com.codename1.components.MultiButton createRendererMultiButton()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.components.MultiButton();
     ((global::com.codename1.components.MultiButton) _r0_o).@this();
@@ -148,15 +123,10 @@ private global::System.Object createRendererMultiButton(){
 
 private global::System.Object createListRenderer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: com.codename1.ui.list.ListCellRenderer createListRenderer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.share.EmailShare) _r3_o).createRendererMultiButton();
     _r1_o = ((global::com.codename1.share.EmailShare) _r3_o).createRendererMultiButton();
@@ -169,10 +139,7 @@ private global::System.Object createListRenderer(){
 public override bool canShareImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: boolean canShareImage()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -181,11 +148,8 @@ public override bool canShareImage(){
 
 public static global::System.Object access_2000(global::com.codename1.share.EmailShare n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare: com.codename1.ui.list.ListCellRenderer access$000(com.codename1.share.EmailShare)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.share.EmailShare) _r1_o).createListRenderer();
     return (global::com.codename1.ui.list.ListCellRenderer) _r0_o;

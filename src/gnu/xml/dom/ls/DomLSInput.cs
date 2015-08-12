@@ -17,9 +17,7 @@ private bool _fcertifiedText;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -28,13 +26,9 @@ public void @this(){
 
 public virtual global::System.Object getCharacterStream(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.io.Reader getCharacterStream()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.io.InputStreamReader();
     _r1_o = ((global::gnu.xml.dom.ls.DomLSInput) _r2_o)._fin;
@@ -45,13 +39,9 @@ public virtual global::System.Object getCharacterStream(){
 
 public virtual void setCharacterStream(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setCharacterStream(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::gnu.xml.dom.ls.ReaderInputStream();
@@ -63,11 +53,8 @@ public virtual void setCharacterStream(global::java.io.Reader n1){
 
 public virtual global::System.Object getByteStream(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.io.InputStream getByteStream()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fin;
     return (global::java.io.InputStream) _r0_o;
@@ -76,11 +63,8 @@ public virtual global::System.Object getByteStream(){
 
 public virtual void setByteStream(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setByteStream(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fin = (global::java.io.InputStream) _r1_o;
@@ -90,17 +74,12 @@ public virtual void setByteStream(global::java.io.InputStream n1){
 
 public virtual global::System.Object getStringData(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.lang.String getStringData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -153,15 +132,10 @@ public virtual global::System.Object getStringData(){
 
 public virtual void setStringData(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setStringData(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::gnu.xml.dom.ls.ReaderInputStream();
@@ -175,11 +149,8 @@ public virtual void setStringData(global::java.lang.String n1){
 
 public virtual global::System.Object getSystemId(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.lang.String getSystemId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fsystemId;
     return (global::java.lang.String) _r0_o;
@@ -188,11 +159,8 @@ public virtual global::System.Object getSystemId(){
 
 public virtual void setSystemId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setSystemId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fsystemId = (global::java.lang.String) _r1_o;
@@ -202,11 +170,8 @@ public virtual void setSystemId(global::java.lang.String n1){
 
 public virtual global::System.Object getPublicId(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.lang.String getPublicId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fpublicId;
     return (global::java.lang.String) _r0_o;
@@ -215,11 +180,8 @@ public virtual global::System.Object getPublicId(){
 
 public virtual void setPublicId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setPublicId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fpublicId = (global::java.lang.String) _r1_o;
@@ -229,11 +191,8 @@ public virtual void setPublicId(global::java.lang.String n1){
 
 public virtual global::System.Object getBaseURI(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.lang.String getBaseURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fbaseURI;
     return (global::java.lang.String) _r0_o;
@@ -242,11 +201,8 @@ public virtual global::System.Object getBaseURI(){
 
 public virtual void setBaseURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setBaseURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fbaseURI = (global::java.lang.String) _r1_o;
@@ -256,11 +212,8 @@ public virtual void setBaseURI(global::java.lang.String n1){
 
 public virtual global::System.Object getEncoding(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: java.lang.String getEncoding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fencoding;
     return (global::java.lang.String) _r0_o;
@@ -269,11 +222,8 @@ public virtual global::System.Object getEncoding(){
 
 public virtual void setEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setEncoding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fencoding = (global::java.lang.String) _r1_o;
@@ -284,10 +234,7 @@ public virtual void setEncoding(global::java.lang.String n1){
 public virtual bool getCertifiedText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: boolean getCertifiedText()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.ls.DomLSInput) _r1_o)._fcertifiedText ? 1 : 0;
     return _r0.i!=0;
@@ -296,11 +243,8 @@ public virtual bool getCertifiedText(){
 
 public virtual void setCertifiedText(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSInput: void setCertifiedText(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o)._fcertifiedText = 0!=_r1.i;

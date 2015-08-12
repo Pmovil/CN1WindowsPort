@@ -7,9 +7,7 @@ public global::java.lang.Object _fobj;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,9 +16,7 @@ public void @this(){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.ref.Reference: void clear()]
@@ -29,10 +25,7 @@ public virtual void clear(){
 public virtual bool enqueue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: boolean enqueue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -41,11 +34,8 @@ public virtual bool enqueue(){
 
 public virtual global::System.Object get(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: java.lang.Object get()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.@ref.Reference) _r1_o)._fobj;
     return (global::java.lang.Object) _r0_o;
@@ -55,10 +45,7 @@ public virtual global::System.Object get(){
 public virtual bool isEnqueued(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: boolean isEnqueued()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -67,11 +54,8 @@ public virtual bool isEnqueued(){
 
 public virtual void initReference(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void initReference(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.@ref.Reference) _r0_o)._fobj = (global::java.lang.Object) _r1_o;
@@ -81,13 +65,9 @@ public virtual void initReference(global::java.lang.Object n1){
 
 public virtual void initReference(global::java.lang.Object n1, global::java.lang.@ref.ReferenceQueue n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void initReference(java.lang.Object, java.lang.ref.ReferenceQueue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -99,10 +79,7 @@ public virtual void initReference(global::java.lang.Object n1, global::java.lang
 public virtual bool enqueueImpl(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: boolean enqueueImpl()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -111,9 +88,7 @@ public virtual bool enqueueImpl(){
 
 public virtual void dequeue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void dequeue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.ref.Reference: void dequeue()]

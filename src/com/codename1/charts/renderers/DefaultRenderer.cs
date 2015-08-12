@@ -95,14 +95,9 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 15395562;
     _r2.i = 1;
@@ -163,11 +158,8 @@ public void @this(){
 
 public virtual global::System.Object getChartTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: java.lang.String getChartTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmChartTitle;
     return (global::java.lang.String) _r0_o;
@@ -176,11 +168,8 @@ public virtual global::System.Object getChartTitle(){
 
 public virtual void setChartTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setChartTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmChartTitle = (global::java.lang.String) _r1_o;
@@ -191,10 +180,7 @@ public virtual void setChartTitle(global::java.lang.String n1){
 public virtual float getChartTitleTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getChartTitleTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmChartTitleTextSize;
     return _r0.f;
@@ -203,11 +189,8 @@ public virtual float getChartTitleTextSize(){
 
 public virtual void setChartTitleTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setChartTitleTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmChartTitleTextSize = _r1.f;
@@ -218,12 +201,8 @@ public virtual void setChartTitleTextSize(float n1){
 public virtual void setChartTitleTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setChartTitleTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -235,13 +214,9 @@ public virtual void setChartTitleTextFont(global::com.codename1.ui.Font n1){
 
 public virtual void addSeriesRenderer(global::com.codename1.charts.renderers.SimpleSeriesRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void addSeriesRenderer(com.codename1.charts.renderers.SimpleSeriesRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
@@ -252,15 +227,10 @@ public virtual void addSeriesRenderer(global::com.codename1.charts.renderers.Sim
 
 public virtual void addSeriesRenderer(int n1, global::com.codename1.charts.renderers.SimpleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void addSeriesRenderer(int, com.codename1.charts.renderers.SimpleSeriesRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -272,13 +242,9 @@ public virtual void addSeriesRenderer(int n1, global::com.codename1.charts.rende
 
 public virtual void removeSeriesRenderer(global::com.codename1.charts.renderers.SimpleSeriesRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void removeSeriesRenderer(com.codename1.charts.renderers.SimpleSeriesRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
@@ -289,11 +255,8 @@ public virtual void removeSeriesRenderer(global::com.codename1.charts.renderers.
 
 public virtual void removeAllRenderers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void removeAllRenderers()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
     ((global::java.util.List) _r0_o).clear();
@@ -303,13 +266,9 @@ public virtual void removeAllRenderers(){
 
 public virtual global::System.Object getSeriesRendererAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: com.codename1.charts.renderers.SimpleSeriesRenderer getSeriesRendererAt(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
@@ -323,9 +282,7 @@ public virtual int getSeriesRendererCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getSeriesRendererCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -335,13 +292,10 @@ public virtual int getSeriesRendererCount(){
 
 public virtual global::System.Object getSeriesRenderers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: com.codename1.charts.renderers.SimpleSeriesRenderer[] getSeriesRenderers()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r2_o)._fmRenderers;
     _r1.i = ((global::java.util.List) _r1_o).size();
@@ -356,10 +310,7 @@ public virtual global::System.Object getSeriesRenderers(){
 public virtual int getBackgroundColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getBackgroundColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmBackgroundColor;
     return _r0.i;
@@ -368,11 +319,8 @@ public virtual int getBackgroundColor(){
 
 public virtual void setBackgroundColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setBackgroundColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmBackgroundColor = _r1.i;
@@ -383,10 +331,7 @@ public virtual void setBackgroundColor(int n1){
 public virtual bool isApplyBackgroundColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isApplyBackgroundColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmApplyBackgroundColor ? 1 : 0;
     return _r0.i!=0;
@@ -395,11 +340,8 @@ public virtual bool isApplyBackgroundColor(){
 
 public virtual void setApplyBackgroundColor(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setApplyBackgroundColor(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmApplyBackgroundColor = 0!=_r1.i;
@@ -410,12 +352,8 @@ public virtual void setApplyBackgroundColor(bool n1){
 public virtual int getAxesColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getAxesColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r2_o)._fmXAxisColor;
     _r1.i = 15395562;
@@ -431,11 +369,8 @@ public virtual int getAxesColor(){
 
 public virtual void setAxesColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setAxesColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o).setXAxisColor((int) _r1.i);
@@ -447,10 +382,7 @@ public virtual void setAxesColor(int n1){
 public virtual int getYAxisColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getYAxisColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmYAxisColor;
     return _r0.i;
@@ -459,11 +391,8 @@ public virtual int getYAxisColor(){
 
 public virtual void setYAxisColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setYAxisColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmYAxisColor = _r1.i;
@@ -474,10 +403,7 @@ public virtual void setYAxisColor(int n1){
 public virtual int getXAxisColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getXAxisColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmXAxisColor;
     return _r0.i;
@@ -486,11 +412,8 @@ public virtual int getXAxisColor(){
 
 public virtual void setXAxisColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setXAxisColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmXAxisColor = _r1.i;
@@ -501,10 +424,7 @@ public virtual void setXAxisColor(int n1){
 public virtual int getLabelsColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getLabelsColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmLabelsColor;
     return _r0.i;
@@ -513,11 +433,8 @@ public virtual int getLabelsColor(){
 
 public virtual void setLabelsColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLabelsColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmLabelsColor = _r1.i;
@@ -528,10 +445,7 @@ public virtual void setLabelsColor(int n1){
 public virtual float getLabelsTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getLabelsTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmLabelsTextSize;
     return _r0.f;
@@ -540,11 +454,8 @@ public virtual float getLabelsTextSize(){
 
 public virtual void setLabelsTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLabelsTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmLabelsTextSize = _r1.f;
@@ -555,12 +466,8 @@ public virtual void setLabelsTextSize(float n1){
 public virtual void setLabelsTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLabelsTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -573,10 +480,7 @@ public virtual void setLabelsTextFont(global::com.codename1.ui.Font n1){
 public virtual bool isShowAxes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowAxes()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowAxes ? 1 : 0;
     return _r0.i!=0;
@@ -585,11 +489,8 @@ public virtual bool isShowAxes(){
 
 public virtual void setShowAxes(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowAxes(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowAxes = 0!=_r1.i;
@@ -600,10 +501,7 @@ public virtual void setShowAxes(bool n1){
 public virtual bool isShowLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowLabels()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowLabels ? 1 : 0;
     return _r0.i!=0;
@@ -612,11 +510,8 @@ public virtual bool isShowLabels(){
 
 public virtual void setShowLabels(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowLabels(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowLabels = 0!=_r1.i;
@@ -627,10 +522,7 @@ public virtual void setShowLabels(bool n1){
 public virtual bool isShowTickMarks(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowTickMarks()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowTickMarks ? 1 : 0;
     return _r0.i!=0;
@@ -639,11 +531,8 @@ public virtual bool isShowTickMarks(){
 
 public virtual void setShowTickMarks(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowTickMarks(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowTickMarks = 0!=_r1.i;
@@ -654,10 +543,7 @@ public virtual void setShowTickMarks(bool n1){
 public virtual bool isShowGridX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowGridX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowGridX ? 1 : 0;
     return _r0.i!=0;
@@ -667,10 +553,7 @@ public virtual bool isShowGridX(){
 public virtual bool isShowGridY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowGridY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowGridY ? 1 : 0;
     return _r0.i!=0;
@@ -679,11 +562,8 @@ public virtual bool isShowGridY(){
 
 public virtual void setShowGridX(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowGridX(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowGridX = 0!=_r1.i;
@@ -693,11 +573,8 @@ public virtual void setShowGridX(bool n1){
 
 public virtual void setShowGridY(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowGridY(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowGridY = 0!=_r1.i;
@@ -707,11 +584,8 @@ public virtual void setShowGridY(bool n1){
 
 public virtual void setShowGrid(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowGrid(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o).setShowGridX(0!=_r1.i);
@@ -723,10 +597,7 @@ public virtual void setShowGrid(bool n1){
 public virtual bool isShowCustomTextGridX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowCustomTextGridX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowCustomTextGridX ? 1 : 0;
     return _r0.i!=0;
@@ -736,10 +607,7 @@ public virtual bool isShowCustomTextGridX(){
 public virtual bool isShowCustomTextGridY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowCustomTextGridY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowCustomTextGridY ? 1 : 0;
     return _r0.i!=0;
@@ -748,11 +616,8 @@ public virtual bool isShowCustomTextGridY(){
 
 public virtual void setShowCustomTextGridX(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowCustomTextGridX(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowCustomTextGridX = 0!=_r1.i;
@@ -762,11 +627,8 @@ public virtual void setShowCustomTextGridX(bool n1){
 
 public virtual void setShowCustomTextGridY(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowCustomTextGridY(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowCustomTextGridY = 0!=_r1.i;
@@ -776,11 +638,8 @@ public virtual void setShowCustomTextGridY(bool n1){
 
 public virtual void setShowCustomTextGrid(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowCustomTextGrid(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o).setShowCustomTextGridX(0!=_r1.i);
@@ -792,10 +651,7 @@ public virtual void setShowCustomTextGrid(bool n1){
 public virtual bool isShowLegend(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isShowLegend()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmShowLegend ? 1 : 0;
     return _r0.i!=0;
@@ -804,11 +660,8 @@ public virtual bool isShowLegend(){
 
 public virtual void setShowLegend(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setShowLegend(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmShowLegend = 0!=_r1.i;
@@ -819,10 +672,7 @@ public virtual void setShowLegend(bool n1){
 public virtual bool isFitLegend(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isFitLegend()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmFitLegend ? 1 : 0;
     return _r0.i!=0;
@@ -831,11 +681,8 @@ public virtual bool isFitLegend(){
 
 public virtual void setFitLegend(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setFitLegend(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmFitLegend = 0!=_r1.i;
@@ -846,10 +693,7 @@ public virtual void setFitLegend(bool n1){
 public virtual int getTextTypefaceName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getTextTypefaceName()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmTextTypefaceName;
     return _r0.i;
@@ -859,10 +703,7 @@ public virtual int getTextTypefaceName(){
 public virtual int getTextTypefaceStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getTextTypefaceStyle()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmTextTypefaceStyle;
     return _r0.i;
@@ -871,11 +712,8 @@ public virtual int getTextTypefaceStyle(){
 
 public virtual global::System.Object getTextTypeface(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: com.codename1.ui.Font getTextTypeface()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmTextTypeface;
     return (global::com.codename1.ui.Font) _r0_o;
@@ -885,10 +723,7 @@ public virtual global::System.Object getTextTypeface(){
 public virtual float getLegendTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getLegendTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmLegendTextSize;
     return _r0.f;
@@ -897,11 +732,8 @@ public virtual float getLegendTextSize(){
 
 public virtual void setLegendTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLegendTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmLegendTextSize = _r1.f;
@@ -912,12 +744,8 @@ public virtual void setLegendTextSize(float n1){
 public virtual void setLegendTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLegendTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -929,13 +757,9 @@ public virtual void setLegendTextFont(global::com.codename1.ui.Font n1){
 
 public virtual void setTextTypeface(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setTextTypeface(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -947,11 +771,8 @@ public virtual void setTextTypeface(int n1, int n2){
 
 public virtual void setTextTypeface(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setTextTypeface(com.codename1.ui.Font)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmTextTypeface = (global::com.codename1.ui.Font) _r1_o;
@@ -962,10 +783,7 @@ public virtual void setTextTypeface(global::com.codename1.ui.Font n1){
 public virtual bool isAntialiasing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isAntialiasing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmAntialiasing ? 1 : 0;
     return _r0.i!=0;
@@ -974,11 +792,8 @@ public virtual bool isAntialiasing(){
 
 public virtual void setAntialiasing(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setAntialiasing(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmAntialiasing = 0!=_r1.i;
@@ -989,10 +804,7 @@ public virtual void setAntialiasing(bool n1){
 public virtual float getScale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getScale()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmScale;
     return _r0.f;
@@ -1002,10 +814,7 @@ public virtual float getScale(){
 public virtual float getOriginalScale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getOriginalScale()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmOriginalScale;
     return _r0.f;
@@ -1014,11 +823,8 @@ public virtual float getOriginalScale(){
 
 public virtual void setScale(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setScale(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmScale = _r1.f;
@@ -1029,10 +835,7 @@ public virtual void setScale(float n1){
 public virtual bool isZoomEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isZoomEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmZoomEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1041,11 +844,8 @@ public virtual bool isZoomEnabled(){
 
 public virtual void setZoomEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setZoomEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmZoomEnabled = 0!=_r1.i;
@@ -1056,10 +856,7 @@ public virtual void setZoomEnabled(bool n1){
 public virtual bool isZoomButtonsVisible(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isZoomButtonsVisible()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmZoomButtonsVisible ? 1 : 0;
     return _r0.i!=0;
@@ -1068,11 +865,8 @@ public virtual bool isZoomButtonsVisible(){
 
 public virtual void setZoomButtonsVisible(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setZoomButtonsVisible(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmZoomButtonsVisible = 0!=_r1.i;
@@ -1083,10 +877,7 @@ public virtual void setZoomButtonsVisible(bool n1){
 public virtual bool isExternalZoomEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isExternalZoomEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmExternalZoomEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1095,11 +886,8 @@ public virtual bool isExternalZoomEnabled(){
 
 public virtual void setExternalZoomEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setExternalZoomEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmExternalZoomEnabled = 0!=_r1.i;
@@ -1110,10 +898,7 @@ public virtual void setExternalZoomEnabled(bool n1){
 public virtual float getZoomRate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getZoomRate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmZoomRate;
     return _r0.f;
@@ -1123,10 +908,7 @@ public virtual float getZoomRate(){
 public virtual bool isPanEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isPanEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmPanEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1135,11 +917,8 @@ public virtual bool isPanEnabled(){
 
 public virtual void setPanEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setPanEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmPanEnabled = 0!=_r1.i;
@@ -1149,11 +928,8 @@ public virtual void setPanEnabled(bool n1){
 
 public virtual void setZoomRate(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setZoomRate(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmZoomRate = _r1.f;
@@ -1164,10 +940,7 @@ public virtual void setZoomRate(float n1){
 public virtual bool isClickEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isClickEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmClickEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1176,11 +949,8 @@ public virtual bool isClickEnabled(){
 
 public virtual void setClickEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setClickEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmClickEnabled = 0!=_r1.i;
@@ -1191,10 +961,7 @@ public virtual void setClickEnabled(bool n1){
 public virtual int getSelectableBuffer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getSelectableBuffer()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fselectableBuffer;
     return _r0.i;
@@ -1203,11 +970,8 @@ public virtual int getSelectableBuffer(){
 
 public virtual void setSelectableBuffer(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setSelectableBuffer(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fselectableBuffer = _r1.i;
@@ -1218,10 +982,7 @@ public virtual void setSelectableBuffer(int n1){
 public virtual int getLegendHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int getLegendHeight()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmLegendHeight;
     return _r0.i;
@@ -1230,11 +991,8 @@ public virtual int getLegendHeight(){
 
 public virtual void setLegendHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setLegendHeight(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmLegendHeight = _r1.i;
@@ -1244,11 +1002,8 @@ public virtual void setLegendHeight(int n1){
 
 public virtual global::System.Object getMargins(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: int[] getMargins()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmMargins;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -1257,11 +1012,8 @@ public virtual global::System.Object getMargins(){
 
 public virtual void setMargins(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setMargins(int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmMargins = (global::org.xmlvm._nArrayAdapter<int>) _r1_o;
@@ -1272,10 +1024,7 @@ public virtual void setMargins(global::org.xmlvm._nArrayAdapter<int> n1){
 public virtual bool isInScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isInScroll()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmInScroll ? 1 : 0;
     return _r0.i!=0;
@@ -1284,11 +1033,8 @@ public virtual bool isInScroll(){
 
 public virtual void setInScroll(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setInScroll(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmInScroll = 0!=_r1.i;
@@ -1299,10 +1045,7 @@ public virtual void setInScroll(bool n1){
 public virtual float getStartAngle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: float getStartAngle()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmStartAngle;
     return _r0.f;
@@ -1312,12 +1055,8 @@ public virtual float getStartAngle(){
 public virtual void setStartAngle(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setStartAngle(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     label0:;
@@ -1336,10 +1075,7 @@ public virtual void setStartAngle(float n1){
 public virtual bool isDisplayValues(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: boolean isDisplayValues()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmDisplayValues ? 1 : 0;
     return _r0.i!=0;
@@ -1348,11 +1084,8 @@ public virtual bool isDisplayValues(){
 
 public virtual void setDisplayValues(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void setDisplayValues(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r0_o)._fmDisplayValues = 0!=_r1.i;
@@ -1365,8 +1098,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 0;
     _r0.i = 8;
     _r0_o = global::com.codename1.ui.Font.createSystemFont((int) _r1.i, (int) _r1.i, (int) _r0.i);

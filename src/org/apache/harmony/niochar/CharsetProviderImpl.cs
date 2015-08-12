@@ -25,8 +25,6 @@ public global::java.lang.String _fpackageName;
 public static bool hasLoadedNatives(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: boolean hasLoadedNatives()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.apache.harmony.niochar.CharsetProviderImpl._fHAS_1LOADED_1NATIVES ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: boolean hasLoadedNatives()]
@@ -35,18 +33,12 @@ public static bool hasLoadedNatives(){
 private static global::System.Object toUpperCase(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.lang.String toUpperCase(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r2.i = ((global::java.lang.String) _r5_o).length();
     _r3_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r2.i]);
@@ -84,10 +76,7 @@ private static global::System.Object toUpperCase(global::java.lang.String n1){
 private static bool passthru(char n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: boolean passthru(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 65;
     if (_r1.i < _r0.i) goto label8;
@@ -119,23 +108,16 @@ private static bool passthru(char n1){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     ((global::java.nio.charset.spi.CharsetProvider) _r7_o).@this();
     _r4_o = new global::java.util.HashMap();
@@ -182,16 +164,11 @@ public void @this(){
 public override global::System.Object charsets(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.util.Iterator charsets()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r1_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r1_o).@this();
@@ -220,31 +197,18 @@ public override global::System.Object charsets(){
 
 public override global::System.Object charsetForName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.nio.charset.Charset charsetForName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = 2;
@@ -296,23 +260,15 @@ public override global::System.Object charsetForName(global::java.lang.String n1
 
 public virtual void putCharsets(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: void putCharsets(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r1_o = ((global::org.apache.harmony.niochar.CharsetProviderImpl) _r6_o).getCharsetsInfo();
@@ -340,11 +296,8 @@ public virtual void putCharsets(global::java.util.Map n1){
 
 public virtual global::System.Object getPackageName(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.lang.String getPackageName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=org.apache.harmony.niochar.charset
     _r0_o = new global::java.lang.String();
@@ -355,7 +308,6 @@ public virtual global::System.Object getPackageName(){
 
 public virtual global::System.Object getCharsetsInfo(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.lang.Object[][] getCharsetsInfo()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -365,21 +317,13 @@ public virtual global::System.Object getCharsetsInfo(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10_o = null;
     _r9.i = 3;

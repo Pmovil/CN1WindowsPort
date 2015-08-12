@@ -16,10 +16,8 @@ public bool _finterrupted;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.nio.channels.spi.AbstractInterruptibleChannel._fsetInterruptAction = (global::java.lang.reflect.Method) _r0_o;
@@ -54,10 +52,7 @@ public static void @static(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.lang.Object) _r1_o).@this();
@@ -71,7 +66,6 @@ public virtual bool isOpen(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: boolean isOpen()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -108,7 +102,6 @@ public virtual void close(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: void close()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -178,17 +171,12 @@ public virtual void close(){
 
 public virtual void begin(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: void begin()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -229,14 +217,11 @@ public virtual void end(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel: void end(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;

@@ -22,10 +22,7 @@ private bool _fxIncludeAware;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 1;
@@ -36,9 +33,7 @@ public void @this(){
 
 public static global::System.Object newInstance(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::gnu.xml.dom.DomDocumentBuilderFactory();
     ((global::gnu.xml.dom.DomDocumentBuilderFactory) _r0_o).@this();
     return (global::javax.xml.parsers.DocumentBuilderFactory) _r0_o;
@@ -49,11 +44,8 @@ public abstract global::System.Object newDocumentBuilder();
 
 public virtual void setNamespaceAware(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setNamespaceAware(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fnamespaceAware = 0!=_r1.i;
@@ -63,11 +55,8 @@ public virtual void setNamespaceAware(bool n1){
 
 public virtual void setValidating(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setValidating(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fvalidating = 0!=_r1.i;
@@ -77,11 +66,8 @@ public virtual void setValidating(bool n1){
 
 public virtual void setIgnoringElementContentWhitespace(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setIgnoringElementContentWhitespace(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fignoringElementContentWhitespace = 0!=_r1.i;
@@ -91,11 +77,8 @@ public virtual void setIgnoringElementContentWhitespace(bool n1){
 
 public virtual void setExpandEntityReferences(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setExpandEntityReferences(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fexpandEntityReferences = 0!=_r1.i;
@@ -105,11 +88,8 @@ public virtual void setExpandEntityReferences(bool n1){
 
 public virtual void setIgnoringComments(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setIgnoringComments(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fignoringComments = 0!=_r1.i;
@@ -119,11 +99,8 @@ public virtual void setIgnoringComments(bool n1){
 
 public virtual void setCoalescing(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setCoalescing(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fcoalescing = 0!=_r1.i;
@@ -134,10 +111,7 @@ public virtual void setCoalescing(bool n1){
 public virtual bool isNamespaceAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isNamespaceAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fnamespaceAware ? 1 : 0;
     return _r0.i!=0;
@@ -147,10 +121,7 @@ public virtual bool isNamespaceAware(){
 public virtual bool isValidating(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isValidating()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fvalidating ? 1 : 0;
     return _r0.i!=0;
@@ -160,10 +131,7 @@ public virtual bool isValidating(){
 public virtual bool isIgnoringElementContentWhitespace(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isIgnoringElementContentWhitespace()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fignoringElementContentWhitespace ? 1 : 0;
     return _r0.i!=0;
@@ -173,10 +141,7 @@ public virtual bool isIgnoringElementContentWhitespace(){
 public virtual bool isExpandEntityReferences(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isExpandEntityReferences()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fexpandEntityReferences ? 1 : 0;
     return _r0.i!=0;
@@ -186,10 +151,7 @@ public virtual bool isExpandEntityReferences(){
 public virtual bool isIgnoringComments(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isIgnoringComments()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fignoringComments ? 1 : 0;
     return _r0.i!=0;
@@ -199,10 +161,7 @@ public virtual bool isIgnoringComments(){
 public virtual bool isCoalescing(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isCoalescing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fcoalescing ? 1 : 0;
     return _r0.i!=0;
@@ -215,11 +174,8 @@ public abstract global::System.Object getAttribute(global::java.lang.String n1);
 
 public virtual global::System.Object getSchema(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: java.lang.Object getSchema()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fschema;
     return (global::java.lang.Object) _r0_o;
@@ -228,11 +184,8 @@ public virtual global::System.Object getSchema(){
 
 public virtual void setSchema(global::org.xmlvm.runtime.RedTypeMarker n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setSchema(javax.xml.validation.Schema)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fschema = (global::org.xmlvm.runtime.RedTypeMarker) _r1_o;
@@ -243,10 +196,7 @@ public virtual void setSchema(global::org.xmlvm.runtime.RedTypeMarker n1){
 public virtual bool isXIncludeAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: boolean isXIncludeAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.DocumentBuilderFactory) _r1_o)._fxIncludeAware ? 1 : 0;
     return _r0.i!=0;
@@ -255,11 +205,8 @@ public virtual bool isXIncludeAware(){
 
 public virtual void setXIncludeAware(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void setXIncludeAware(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.DocumentBuilderFactory) _r0_o)._fxIncludeAware = 0!=_r1.i;

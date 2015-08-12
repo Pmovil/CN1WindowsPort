@@ -7,11 +7,8 @@ private global::java.util.HashMap _fassociatedMap;
 
 public void @this(global::java.util.HashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: void <init>(java.util.HashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractSet) _r0_o).@this();
@@ -22,11 +19,8 @@ public void @this(global::java.util.HashMap n1){
 
 public virtual global::System.Object hashMap(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: java.util.HashMap hashMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashMap_2HashMapEntrySet) _r1_o)._fassociatedMap;
     return (global::java.util.HashMap) _r0_o;
@@ -37,9 +31,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashMap_2HashMapEntrySet) _r1_o)._fassociatedMap;
     _r0.i = ((global::java.util.HashMap) _r0_o)._felementCount;
@@ -49,11 +41,8 @@ public override int size(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashMap_2HashMapEntrySet) _r1_o)._fassociatedMap;
     ((global::java.util.HashMap) _r0_o).clear();
@@ -67,11 +56,8 @@ public override bool remove(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Map_2Entry)) ? 1 : 0;
@@ -97,13 +83,9 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Map_2Entry)) ? 1 : 0;
@@ -125,13 +107,9 @@ private static bool valuesEq(global::java.util.HashMap_2Entry n1, global::java.u
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: boolean valuesEq(java.util.HashMap$Entry, java.util.Map$Entry)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     if (_r2_o == null) goto label26;
@@ -156,13 +134,9 @@ private static bool valuesEq(global::java.util.HashMap_2Entry n1, global::java.u
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$HashMapEntrySet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.HashMap_2EntryIterator();
     _r1_o = ((global::java.util.HashMap_2HashMapEntrySet) _r2_o)._fassociatedMap;

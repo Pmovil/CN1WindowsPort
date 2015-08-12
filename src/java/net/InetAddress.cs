@@ -49,11 +49,8 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::java.net.InetAddress_2WaitReachable();
@@ -70,13 +67,9 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void <init>(byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -95,15 +88,10 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void <init>(byte[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -122,11 +110,8 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.
 
 public virtual global::System.Object cacheElement(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress$CacheElement cacheElement()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.net.InetAddress_2CacheElement();
     ((global::java.net.InetAddress_2CacheElement) _r0_o).@this((global::java.net.InetAddress) _r1_o);
@@ -137,20 +122,14 @@ public virtual global::System.Object cacheElement(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -188,11 +167,8 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object getAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: byte[] getAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetAddress) _r1_o)._fipaddress;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o).clone();
@@ -204,28 +180,18 @@ public virtual global::System.Object getAddress(){
 public static global::System.Object getAllByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r9.i = 1;
     _r8.i = 0;
@@ -353,13 +319,10 @@ public static global::System.Object getAllByName(global::java.lang.String n1){
 
 public static global::System.Object getByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     if (_r2_o == null) goto label8;
     _r1.i = ((global::java.lang.String) _r2_o).length();
@@ -397,10 +360,7 @@ public virtual global::System.Object getHostAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.InetAddress) _r2_o)._fipaddress;
     _r1.i = 0;
@@ -413,18 +373,13 @@ public virtual global::System.Object getHostAddress(){
 public virtual global::System.Object getHostName(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.String getHostName()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -539,18 +494,12 @@ public virtual global::System.Object getHostName(){
 public virtual global::System.Object getCanonicalHostName(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.String getCanonicalHostName()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -642,11 +591,8 @@ public virtual global::System.Object getCanonicalHostName(){
 
 public static global::System.Object getLocalHost(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getLocalHost()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -684,10 +630,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.InetAddress) _r2_o)._fipaddress;
     _r1.i = 0;
@@ -701,12 +644,8 @@ public virtual bool isMulticastAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.net.InetAddress) _r3_o)._fipaddress;
@@ -726,29 +665,17 @@ public virtual bool isMulticastAddress(){
 
 public static global::System.Object lookupHostByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress lookupHostByName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
@@ -946,9 +873,7 @@ public static int inetAddr(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: int inetAddr(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=255.255.255.255
     _r0_o = new global::java.lang.String();
@@ -990,15 +915,11 @@ public static global::System.Object getHostNameImpl(){
 
 public static global::System.Object getHostNameInternal(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.String getHostNameInternal(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     if (_r2_o == null) goto label8;
@@ -1029,13 +950,9 @@ public static global::System.Object getHostNameInternal(global::java.lang.String
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -1063,10 +980,7 @@ public override global::System.Object toString(){
 private static bool isHostName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isHostName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = global::org.apache.harmony.luni.util.Inet6Util.isValidIPV4Address((global::java.lang.String) _r1_o) ? 1 : 0;
     if (_r0.i != 0) goto label14;
@@ -1084,10 +998,7 @@ private static bool isHostName(global::java.lang.String n1){
 public virtual bool isLoopbackAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isLoopbackAddress()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1097,10 +1008,7 @@ public virtual bool isLoopbackAddress(){
 public virtual bool isLinkLocalAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isLinkLocalAddress()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1110,10 +1018,7 @@ public virtual bool isLinkLocalAddress(){
 public virtual bool isSiteLocalAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isSiteLocalAddress()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1123,10 +1028,7 @@ public virtual bool isSiteLocalAddress(){
 public virtual bool isMCGlobal(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isMCGlobal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1136,10 +1038,7 @@ public virtual bool isMCGlobal(){
 public virtual bool isMCNodeLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isMCNodeLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1149,10 +1048,7 @@ public virtual bool isMCNodeLocal(){
 public virtual bool isMCLinkLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isMCLinkLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1162,10 +1058,7 @@ public virtual bool isMCLinkLocal(){
 public virtual bool isMCSiteLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isMCSiteLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1175,10 +1068,7 @@ public virtual bool isMCSiteLocal(){
 public virtual bool isMCOrgLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isMCOrgLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1188,10 +1078,7 @@ public virtual bool isMCOrgLocal(){
 public virtual bool isAnyLocalAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isAnyLocalAddress()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -1203,12 +1090,8 @@ public virtual bool isReachable(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = null;
@@ -1221,20 +1104,13 @@ public virtual bool isReachable(int n1){
 public virtual bool isReachable(global::java.net.NetworkInterface n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isReachable(java.net.NetworkInterface, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -1281,33 +1157,19 @@ private bool isReachableByMultiThread(global::java.net.NetworkInterface n1, int 
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
@@ -1420,16 +1282,10 @@ private bool isReachableByMultiThread(global::java.net.NetworkInterface n1, int 
 private bool isReachableByICMPUseMultiThread(global::java.net.NetworkInterface n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isReachableByICMPUseMultiThread(java.net.NetworkInterface, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -1443,16 +1299,10 @@ private bool isReachableByICMPUseMultiThread(global::java.net.NetworkInterface n
 private bool isReachableByTCPUseMultiThread(global::java.net.NetworkInterface n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isReachableByTCPUseMultiThread(java.net.NetworkInterface, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -1467,28 +1317,18 @@ private bool isReachableByTCP(global::java.net.InetAddress n1, global::java.net.
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isReachableByTCP(java.net.InetAddress, java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
@@ -1557,9 +1397,7 @@ public static global::System.Object getByAddress(global::org.xmlvm._nArrayAdapte
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getByAddress(byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     _r0_o = global::java.net.InetAddress.getByAddress((global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o, (int) _r0.i);
@@ -1569,21 +1407,15 @@ public static global::System.Object getByAddress(global::org.xmlvm._nArrayAdapte
 
 public static global::System.Object getByAddress(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getByAddress(byte[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6.i = n2;
     _r4.i = 4;
@@ -1643,18 +1475,11 @@ public static global::System.Object getByAddress(global::org.xmlvm._nArrayAdapte
 private static bool isIPv4MappedAddress(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean isIPv4MappedAddress(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 10;
     _r3.i = 0;
@@ -1689,11 +1514,8 @@ public static global::System.Object getByAddress(global::java.lang.String n1, gl
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getByAddress(java.lang.String, byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = 0;
@@ -1704,23 +1526,16 @@ public static global::System.Object getByAddress(global::java.lang.String n1, gl
 
 public static global::System.Object getByAddressInternal(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.net.InetAddress getByAddressInternal(java.lang.String, byte[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7.i = n3;
@@ -1788,16 +1603,10 @@ public static global::System.Object getByAddressInternal(global::java.lang.Strin
 public static void intToBytes(int n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void intToBytes(int, byte[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3_o = n2;
     _r4.i = n3;
@@ -1826,16 +1635,10 @@ public static void intToBytes(int n1, global::org.xmlvm._nArrayAdapter<sbyte> n2
 public static int bytesToInt(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: int bytesToInt(byte[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r1.i = _r4.i + 3;
@@ -1875,15 +1678,10 @@ public static global::System.Object createHostNameFromIPAddress(global::java.lan
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
@@ -2225,8 +2023,6 @@ public static global::System.Object createHostNameFromIPAddress(global::java.lan
 public static bool preferIPv6Addresses(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean preferIPv6Addresses()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.apache.harmony.luni.net.NetUtil.preferIPv6Addresses() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.InetAddress: boolean preferIPv6Addresses()]
@@ -2234,19 +2030,14 @@ public static bool preferIPv6Addresses(){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2.i = 0;
@@ -2287,18 +2078,13 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void readObject(java.io.ObjectInputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -2331,15 +2117,10 @@ private void readObject(global::java.io.ObjectInputStream n1){
 
 private global::System.Object readResolve(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.Object readResolve()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.net.Inet4Address();
     _r1_o = ((global::java.net.InetAddress) _r3_o)._fipaddress;
@@ -2351,9 +2132,7 @@ private global::System.Object readResolve(){
 
 public static global::System.Object access_2100(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: org.apache.harmony.luni.platform.INetworkSystem access$100()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.net.InetAddress._fNETIMPL;
     return (global::org.apache.harmony.luni.platform.INetworkSystem) _r0_o;
 //XMLVM_END_WRAPPER[java.net.InetAddress: org.apache.harmony.luni.platform.INetworkSystem access$100()]
@@ -2362,16 +2141,10 @@ public static global::System.Object access_2100(){
 public static bool access_2200(global::java.net.InetAddress n1, global::java.net.InetAddress n2, global::java.net.InetAddress n3, int n4){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean access$200(java.net.InetAddress, java.net.InetAddress, java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -2383,11 +2156,8 @@ public static bool access_2200(global::java.net.InetAddress n1, global::java.net
 
 public static global::System.Object access_2300(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: java.lang.Object access$300(java.net.InetAddress)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.InetAddress) _r1_o)._fwaitReachable;
     return (global::java.lang.Object) _r0_o;
@@ -2396,11 +2166,8 @@ public static global::System.Object access_2300(global::java.net.InetAddress n1)
 
 public static bool access_2402(global::java.net.InetAddress n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: boolean access$402(java.net.InetAddress, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::java.net.InetAddress) _r0_o)._freached = 0!=_r1.i;
@@ -2411,12 +2178,8 @@ public static bool access_2402(global::java.net.InetAddress n1, bool n2){
 public static int access_2510(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: int access$510(java.net.InetAddress)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = ((global::java.net.InetAddress) _r2_o)._faddrCount;
     _r1.i = 1;
@@ -2429,10 +2192,7 @@ public static int access_2510(global::java.net.InetAddress n1){
 public static int access_2500(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: int access$500(java.net.InetAddress)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.net.InetAddress) _r1_o)._faddrCount;
     return _r0.i;
@@ -2445,15 +2205,10 @@ public static void @static(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 4;
     _r5.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r1.i]);

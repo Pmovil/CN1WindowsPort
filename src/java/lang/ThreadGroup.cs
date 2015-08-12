@@ -29,11 +29,8 @@ private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     ((global::java.lang.Object) _r2_o).@this();
@@ -61,13 +58,9 @@ private void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.lang.Thread.currentThread();
@@ -81,15 +74,10 @@ public void @this(global::java.lang.ThreadGroup n1, global::java.lang.String n2)
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void <init>(java.lang.ThreadGroup, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -136,13 +124,9 @@ public void @this(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void <init>(java.lang.ThreadGroup)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = null;
@@ -173,14 +157,10 @@ public void @this(global::java.lang.ThreadGroup n1){
 public virtual int activeCount(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int activeCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -244,14 +224,10 @@ public virtual int activeCount(){
 public virtual int activeGroupCount(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int activeGroupCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -315,21 +291,14 @@ public virtual int activeGroupCount(){
 
 public virtual void add(global::java.lang.Thread n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void add(java.lang.Thread)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -435,21 +404,14 @@ public virtual void add(global::java.lang.Thread n1){
 
 private void add(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void add(java.lang.ThreadGroup)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -556,12 +518,8 @@ private void add(global::java.lang.ThreadGroup n1){
 public virtual bool allowThreadSuspension(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean allowThreadSuspension(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = 1;
@@ -571,11 +529,8 @@ public virtual bool allowThreadSuspension(bool n1){
 
 public virtual void checkAccess(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void checkAccess()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label9;
@@ -588,18 +543,12 @@ public virtual void checkAccess(){
 public virtual void destroy(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void destroy()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -743,13 +692,11 @@ public virtual void destroy(){
 
 private void destroyIfEmptyDaemon(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void destroyIfEmptyDaemon()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -864,12 +811,8 @@ private void destroyIfEmptyDaemon(){
 public virtual int enumerate(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int enumerate(java.lang.Thread[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -881,16 +824,10 @@ public virtual int enumerate(global::org.xmlvm._nArrayAdapter<global::System.Obj
 public virtual int enumerate(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int enumerate(java.lang.Thread[], boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -904,27 +841,18 @@ public virtual int enumerate(global::org.xmlvm._nArrayAdapter<global::System.Obj
 private int enumerateGeneric(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, bool n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int enumerateGeneric(java.lang.Object[], boolean, int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
@@ -1164,10 +1092,7 @@ private int enumerateGeneric(global::org.xmlvm._nArrayAdapter<global::System.Obj
 public virtual int getMaxPriority(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: int getMaxPriority()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.ThreadGroup) _r1_o)._fmaxPriority;
     return _r0.i;
@@ -1176,11 +1101,8 @@ public virtual int getMaxPriority(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.ThreadGroup) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -1189,11 +1111,8 @@ public virtual global::System.Object getName(){
 
 public virtual global::System.Object getParent(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: java.lang.ThreadGroup getParent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.ThreadGroup) _r1_o)._fparent;
     if (_r0_o == null) goto label9;
@@ -1207,9 +1126,7 @@ public virtual global::System.Object getParent(){
 
 public virtual void interrupt(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void interrupt()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.ThreadGroup: void interrupt()]
@@ -1218,10 +1135,7 @@ public virtual void interrupt(){
 public virtual bool isDaemon(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean isDaemon()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.ThreadGroup) _r1_o)._fisDaemon ? 1 : 0;
     return _r0.i!=0;
@@ -1231,10 +1145,7 @@ public virtual bool isDaemon(){
 public virtual bool isDestroyed(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean isDestroyed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.ThreadGroup) _r1_o)._fisDestroyed ? 1 : 0;
     return _r0.i!=0;
@@ -1245,9 +1156,7 @@ public virtual void list(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void list()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.System._fout;
     ((global::java.io.PrintStream) _r0_o).println();
@@ -1260,19 +1169,14 @@ public virtual void list(){
 private void list(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void list(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
@@ -1437,12 +1341,8 @@ private void list(int n1){
 public virtual bool parentOf(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean parentOf(java.lang.ThreadGroup)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     label0:;
@@ -1463,20 +1363,13 @@ public virtual bool parentOf(global::java.lang.ThreadGroup n1){
 public virtual void remove(global::java.lang.Thread n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void remove(java.lang.Thread)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -1556,20 +1449,13 @@ public virtual void remove(global::java.lang.Thread n1){
 private void remove(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -1649,12 +1535,9 @@ private void remove(global::java.lang.ThreadGroup n1){
 public virtual void resume(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void resume()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1767,11 +1650,8 @@ public virtual void resume(){
 
 public virtual void setDaemon(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void setDaemon(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::java.lang.ThreadGroup) _r0_o).checkAccess();
@@ -1783,17 +1663,13 @@ public virtual void setDaemon(bool n1){
 public virtual void setMaxPriority(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void setMaxPriority(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
@@ -1889,11 +1765,8 @@ public virtual void setMaxPriority(int n1){
 
 private void setParent(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void setParent(java.lang.ThreadGroup)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     if (_r1_o == null) goto label5;
@@ -1908,9 +1781,7 @@ public virtual void stop(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void stop()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.ThreadGroup) _r1_o).stopHelper() ? 1 : 0;
     if (_r0.i == 0) goto label13;
@@ -1923,17 +1794,12 @@ public virtual void stop(){
 
 private bool stopHelper(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean stopHelper()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -2091,9 +1957,7 @@ public virtual void suspend(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void suspend()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.ThreadGroup) _r1_o).suspendHelper() ? 1 : 0;
     if (_r0.i == 0) goto label13;
@@ -2106,17 +1970,12 @@ public virtual void suspend(){
 
 private bool suspendHelper(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: boolean suspendHelper()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -2272,13 +2131,10 @@ private bool suspendHelper(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -2310,13 +2166,9 @@ public virtual void uncaughtException(global::java.lang.Thread n1, global::java.
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void uncaughtException(java.lang.Thread, java.lang.Throwable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

@@ -12,12 +12,8 @@ public global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLCo
 public void @this(global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: void <init>(org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r1_o)._fthis_20 = (global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r2_o;
@@ -34,12 +30,8 @@ public override void close(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r3_o)._fatEnd ? 1 : 0;
@@ -72,12 +64,9 @@ public override void close(){
 public override int available(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: int available()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r2_o)._fthis_20;
     _r1_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl.access_2300((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o);
@@ -96,16 +85,11 @@ public override int available(){
 private void readChunkSize(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: void readChunkSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r4_o)._fatEnd ? 1 : 0;
     if (_r2.i == 0) goto label5;
@@ -144,14 +128,10 @@ private void readChunkSize(){
 public override int read(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: int read()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r3_o)._fbytesRemaining;
     if (_r1.i > 0) goto label7;
@@ -191,20 +171,14 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: int read(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -276,20 +250,11 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 public virtual long skip(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$ChunkedInputStream: long skip(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r2.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2ChunkedInputStream) _r5_o)._fatEnd ? 1 : 0;

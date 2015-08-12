@@ -26,18 +26,11 @@ private float _fmiterLimit;
 public void @this(float n1, int n2, int n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void <init>(float, int, int, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.i = n2;
@@ -62,10 +55,7 @@ public void @this(float n1, int n2, int n3, float n4){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.lang.Object) _r1_o).@this();
@@ -82,10 +72,7 @@ public void @this(){
 public virtual int getJoinStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: int getJoinStyle()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Stroke) _r1_o)._fjoinStyle;
     return _r0.i;
@@ -94,11 +81,8 @@ public virtual int getJoinStyle(){
 
 public virtual void setJoinStyle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void setJoinStyle(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Stroke) _r0_o)._fjoinStyle = _r1.i;
@@ -109,10 +93,7 @@ public virtual void setJoinStyle(int n1){
 public virtual int getCapStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: int getCapStyle()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Stroke) _r1_o)._fcapStyle;
     return _r0.i;
@@ -121,11 +102,8 @@ public virtual int getCapStyle(){
 
 public virtual void setCapStyle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void setCapStyle(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Stroke) _r0_o)._fcapStyle = _r1.i;
@@ -136,10 +114,7 @@ public virtual void setCapStyle(int n1){
 public virtual float getLineWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: float getLineWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Stroke) _r1_o)._flineWidth;
     return _r0.f;
@@ -148,11 +123,8 @@ public virtual float getLineWidth(){
 
 public virtual void setLineWidth(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void setLineWidth(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.ui.Stroke) _r0_o)._flineWidth = _r1.f;
@@ -163,10 +135,7 @@ public virtual void setLineWidth(float n1){
 public virtual float getMiterLimit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: float getMiterLimit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Stroke) _r1_o)._fmiterLimit;
     return _r0.f;
@@ -175,11 +144,8 @@ public virtual float getMiterLimit(){
 
 public virtual void setMiterLimit(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void setMiterLimit(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.ui.Stroke) _r0_o)._fmiterLimit = _r1.f;
@@ -189,21 +155,13 @@ public virtual void setMiterLimit(float n1){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -241,14 +199,9 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 7;
     _r1.i = _r0.i * 59;

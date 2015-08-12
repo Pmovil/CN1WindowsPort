@@ -13,11 +13,8 @@ public global::com.codename1.location.LocationManager _fthis_20;
 
 public void @this(global::com.codename1.location.LocationManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager$LL: void <init>(com.codename1.location.LocationManager)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.location.LocationManager_2LL) _r0_o)._fthis_20 = (global::com.codename1.location.LocationManager) _r1_o;
@@ -28,11 +25,8 @@ public void @this(global::com.codename1.location.LocationManager n1){
 
 public virtual void bind(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager$LL: void bind()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.location.LocationManager_2LL) _r1_o)._fthis_20;
     ((global::com.codename1.location.LocationManager) _r0_o).setLocationListener((global::com.codename1.location.LocationListener) _r1_o);
@@ -46,13 +40,9 @@ public virtual void locationUpdated(global::com.codename1.location.Location n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager$LL: void locationUpdated(com.codename1.location.Location)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.location.LocationManager_2LL) _r2_o)._fresult = (global::com.codename1.location.Location) _r3_o;
@@ -67,16 +57,12 @@ public virtual void locationUpdated(global::com.codename1.location.Location n1){
 
 public virtual void providerStateChanged(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager$LL: void providerStateChanged(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
@@ -118,18 +104,9 @@ public virtual void providerStateChanged(int n1){
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager$LL: void run()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;

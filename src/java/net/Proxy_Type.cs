@@ -20,15 +20,10 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy$Type: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = 2;
     _r3.i = 1;
     _r2.i = 0;
@@ -65,13 +60,9 @@ public static void @static(){
 
 private void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy$Type: void <init>(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -82,15 +73,10 @@ private void @this(global::java.lang.String n1, int n2){
 
 public static global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy$Type: java.net.Proxy$Type[] values()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 0;
     _r0_o = global::java.net.Proxy_2Type._fENUM_2VALUES;
     _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -102,11 +88,8 @@ public static global::System.Object values(){
 
 public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy$Type: java.net.Proxy$Type valueOf(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.net.Proxy_2Type));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);

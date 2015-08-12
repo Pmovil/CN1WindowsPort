@@ -13,9 +13,7 @@ private static global::java.lang.Runtime _fruntime;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -24,13 +22,9 @@ private void @this(){
 
 public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -40,15 +34,10 @@ public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<globa
 
 public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String[], java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -59,17 +48,11 @@ public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<globa
 
 public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.io.File n3){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String[], java.lang.String[], java.io.File)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -81,13 +64,9 @@ public virtual global::System.Object exec(global::org.xmlvm._nArrayAdapter<globa
 
 public virtual global::System.Object exec(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -97,15 +76,10 @@ public virtual global::System.Object exec(global::java.lang.String n1){
 
 public virtual global::System.Object exec(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String, java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -116,17 +90,11 @@ public virtual global::System.Object exec(global::java.lang.String n1, global::o
 
 public virtual global::System.Object exec(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.io.File n3){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Process exec(java.lang.String, java.lang.String[], java.io.File)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -138,11 +106,8 @@ public virtual global::System.Object exec(global::java.lang.String n1, global::o
 
 public virtual void exit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void exit(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -161,9 +126,7 @@ public virtual void gc(){
 
 public static global::System.Object getRuntime(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.lang.Runtime getRuntime()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.Runtime._fruntime;
     return (global::java.lang.Runtime) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.Runtime: java.lang.Runtime getRuntime()]
@@ -171,11 +134,8 @@ public static global::System.Object getRuntime(){
 
 public virtual void load(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void load(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -184,11 +144,8 @@ public virtual void load(global::java.lang.String n1){
 
 public virtual void loadLibrary(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void loadLibrary(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -197,9 +154,7 @@ public virtual void loadLibrary(global::java.lang.String n1){
 
 public virtual void runFinalization(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void runFinalization()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.Runtime: void runFinalization()]
@@ -208,8 +163,6 @@ public virtual void runFinalization(){
 public static void runFinalizersOnExit(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void runFinalizersOnExit(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     return;
 //XMLVM_END_WRAPPER[java.lang.Runtime: void runFinalizersOnExit(boolean)]
@@ -222,11 +175,8 @@ public virtual long totalMemory(){
 
 public virtual void traceInstructions(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void traceInstructions(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     return;
@@ -235,11 +185,8 @@ public virtual void traceInstructions(bool n1){
 
 public virtual void traceMethodCalls(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void traceMethodCalls(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     return;
@@ -248,13 +195,9 @@ public virtual void traceMethodCalls(bool n1){
 
 public virtual global::System.Object getLocalizedInputStream(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.io.InputStream getLocalizedInputStream(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -264,13 +207,9 @@ public virtual global::System.Object getLocalizedInputStream(global::java.io.Inp
 
 public virtual global::System.Object getLocalizedOutputStream(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: java.io.OutputStream getLocalizedOutputStream(java.io.OutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -280,15 +219,10 @@ public virtual global::System.Object getLocalizedOutputStream(global::java.io.Ou
 
 public virtual void addShutdownHook(global::java.lang.Thread n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void addShutdownHook(java.lang.Thread)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -307,13 +241,9 @@ public virtual bool removeShutdownHook(global::java.lang.Thread n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: boolean removeShutdownHook(java.lang.Thread)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -331,11 +261,8 @@ public virtual bool removeShutdownHook(global::java.lang.Thread n1){
 
 public virtual void halt(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void halt(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -345,10 +272,7 @@ public virtual void halt(int n1){
 public virtual int availableProcessors(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: int availableProcessors()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i;
@@ -358,12 +282,7 @@ public virtual int availableProcessors(){
 public virtual long maxMemory(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: long maxMemory()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = 0L;
     return _r0.l;
@@ -372,9 +291,7 @@ public virtual long maxMemory(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.lang.Runtime();
     ((global::java.lang.Runtime) _r0_o).@this();
     global::java.lang.Runtime._fruntime = (global::java.lang.Runtime) _r0_o;

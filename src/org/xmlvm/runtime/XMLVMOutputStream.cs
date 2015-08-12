@@ -5,9 +5,7 @@ namespace org.xmlvm.runtime {
 public class XMLVMOutputStream: global::java.io.OutputStream {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.XMLVMOutputStream: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.io.OutputStream) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.XMLVMOutputStream: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::org.xmlvm.runtime.XMLVMOutputStream.nativeWrite((int) _r1.i);

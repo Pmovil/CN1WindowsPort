@@ -5,9 +5,7 @@ namespace com.codename1.io.tar {
 public class TarUtils: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,16 +15,8 @@ public void @this(){
 public static long calculateTarSize(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long calculateTarSize(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r0.l = global::com.codename1.io.tar.TarUtils.tarSize((global::java.lang.String) _r4_o);
     _r2.l = 1024L;
@@ -37,29 +27,15 @@ public static long calculateTarSize(global::java.lang.String n1){
 
 private static long tarSize(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long tarSize(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r5.l = 0L;
     _r2_o = global::com.codename1.io.FileSystemStorage.getInstance();
@@ -104,26 +80,10 @@ private static long tarSize(global::java.lang.String n1){
 private static long entrySize(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long entrySize(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.l = n1;
     _r6.l = 512L;
     _r2.l = 0L;

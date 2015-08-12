@@ -12,10 +12,7 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::com.codename1.ui.Container) _r2_o).@this();
     _r0.i = 10;
@@ -32,15 +29,10 @@ public void @this(){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     ((global::com.codename1.ui.InfiniteContainer) _r2_o).@this();
@@ -59,9 +51,7 @@ public void @this(int n1){
 
 public override void resetScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: void resetScroll()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.InfiniteContainer: void resetScroll()]
@@ -69,11 +59,8 @@ public override void resetScroll(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: void initComponent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.initComponent();
     ((global::com.codename1.ui.InfiniteContainer) _r1_o).createInfiniteScroll();
@@ -86,11 +73,8 @@ public override void initComponent(){
 
 private void createInfiniteScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: void createInfiniteScroll()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.InfiniteContainer_22();
     ((global::com.codename1.ui.InfiniteContainer_22) _r0_o).@this((global::com.codename1.ui.InfiniteContainer) _r1_o);
@@ -103,11 +87,8 @@ public abstract global::System.Object fetchComponents(int n1, int n2);
 
 public static bool access_2002(global::com.codename1.ui.InfiniteContainer n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: boolean access$002(com.codename1.ui.InfiniteContainer, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.InfiniteContainer) _r0_o)._frequestingResults = 0!=_r1.i;
@@ -118,10 +99,7 @@ public static bool access_2002(global::com.codename1.ui.InfiniteContainer n1, bo
 public static int access_2100(global::com.codename1.ui.InfiniteContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: int access$100(com.codename1.ui.InfiniteContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.InfiniteContainer) _r1_o)._famount;
     return _r0.i;
@@ -131,10 +109,7 @@ public static int access_2100(global::com.codename1.ui.InfiniteContainer n1){
 public static bool access_2000(global::com.codename1.ui.InfiniteContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer: boolean access$000(com.codename1.ui.InfiniteContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.InfiniteContainer) _r1_o)._frequestingResults ? 1 : 0;
     return _r0.i!=0;

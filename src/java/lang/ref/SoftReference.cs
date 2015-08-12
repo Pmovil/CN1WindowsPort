@@ -5,11 +5,8 @@ namespace java.lang.@ref {
 public class SoftReference: global::java.lang.@ref.Reference {
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.SoftReference: void <init>(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.@ref.Reference) _r0_o).@this();
@@ -20,13 +17,9 @@ public void @this(global::java.lang.Object n1){
 
 public void @this(global::java.lang.Object n1, global::java.lang.@ref.ReferenceQueue n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.SoftReference: void <init>(java.lang.Object, java.lang.ref.ReferenceQueue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -38,11 +31,8 @@ public void @this(global::java.lang.Object n1, global::java.lang.@ref.ReferenceQ
 
 public override global::System.Object get(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.SoftReference: java.lang.Object get()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.get();
     return (global::java.lang.Object) _r0_o;

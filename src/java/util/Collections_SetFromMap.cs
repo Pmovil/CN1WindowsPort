@@ -11,13 +11,9 @@ private global::java.util.Set _fbackingSet;
 
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: void <init>(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.AbstractSet) _r1_o).@this();
@@ -32,11 +28,8 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
@@ -49,9 +42,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
     _r0.i = ((global::java.util.Set) _r0_o).hashCode();
@@ -63,13 +54,9 @@ public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r2_o)._fm;
@@ -87,11 +74,8 @@ public override bool add(global::java.lang.Object n1){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fm;
     ((global::java.util.Map) _r0_o).clear();
@@ -101,11 +85,8 @@ public override void clear(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();
@@ -117,11 +98,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
@@ -134,11 +112,8 @@ public override bool containsAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean containsAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
@@ -151,9 +126,7 @@ public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fm;
     _r0.i = ((global::java.util.Map) _r0_o).isEmpty() ? 1 : 0;
@@ -165,11 +138,8 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fm;
@@ -188,11 +158,8 @@ public override bool retainAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: boolean retainAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
@@ -203,11 +170,8 @@ public override bool retainAll(global::java.util.Collection n1){
 
 public override global::System.Object toArray(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: java.lang.Object[] toArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
     _r0_o = ((global::java.util.Set) _r0_o).toArray();
@@ -217,13 +181,9 @@ public override global::System.Object toArray(){
 
 public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: java.lang.Object[] toArray(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
@@ -234,11 +194,8 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fbackingSet;
     _r0_o = ((global::java.util.Set) _r0_o).iterator();
@@ -250,9 +207,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2SetFromMap) _r1_o)._fm;
     _r0.i = ((global::java.util.Map) _r0_o).size();
@@ -262,13 +217,9 @@ public override int size(){
 
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.ObjectInputStream) _r2_o).defaultReadObject();

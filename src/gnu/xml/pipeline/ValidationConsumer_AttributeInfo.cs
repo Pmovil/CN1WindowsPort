@@ -11,9 +11,7 @@ public global::java.lang.String _fvalue;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$AttributeInfo: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -22,11 +20,8 @@ private void @this(){
 
 public void @this(global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$AttributeInfo: void <init>(gnu.xml.pipeline.ValidationConsumer$AttributeInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo) _r0_o).@this();

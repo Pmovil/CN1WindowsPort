@@ -15,9 +15,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 4;
@@ -33,11 +31,8 @@ public void @this(global::org.bouncycastle.crypto.digests.GeneralDigest n1){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void <init>(org.bouncycastle.crypto.digests.GeneralDigest)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -54,17 +49,12 @@ public virtual void copyIn(global::org.bouncycastle.crypto.digests.GeneralDigest
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void copyIn(org.bouncycastle.crypto.digests.GeneralDigest)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -88,14 +78,9 @@ public virtual void update(sbyte n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 0;
@@ -124,21 +109,12 @@ public virtual void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void update(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2;
@@ -185,18 +161,9 @@ public virtual void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 public virtual void finish(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void finish()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r2.l = ((global::org.bouncycastle.crypto.digests.GeneralDigest) _r5_o)._fbyteCount;
     _r4.i = 3;
@@ -219,16 +186,10 @@ public virtual void finish(){
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void reset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.l = 0L;
@@ -251,10 +212,7 @@ public virtual void reset(){
 public virtual int getByteLength(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: int getByteLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 64;
     return _r0.i;

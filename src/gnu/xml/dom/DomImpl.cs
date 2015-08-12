@@ -9,9 +9,7 @@ public static short _fMODE_1ASYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS.
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -25,24 +23,14 @@ public virtual bool hasFeature(global::java.lang.String n1, global::java.lang.St
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -276,25 +264,15 @@ public virtual global::System.Object createDocumentType(global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.DocumentType createDocumentType(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -314,25 +292,17 @@ public virtual global::System.Object createDocumentType(global::java.lang.String
 
 public virtual global::System.Object createDocument(global::java.lang.String n1, global::java.lang.String n2, global::org.w3c.dom.DocumentType n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.Document createDocument(java.lang.String, java.lang.String, org.w3c.dom.DocumentType)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -369,11 +339,8 @@ public virtual global::System.Object createDocument(global::java.lang.String n1,
 
 public virtual global::System.Object createDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.Document createDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::gnu.xml.dom.DomDocument();
     ((global::gnu.xml.dom.DomDocument) _r0_o).@this((global::org.w3c.dom.DOMImplementation) _r1_o);
@@ -385,13 +352,9 @@ public virtual global::System.Object getFeature(global::java.lang.String n1, glo
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: java.lang.Object getFeature(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -423,15 +386,10 @@ public virtual global::System.Object getFeature(global::java.lang.String n1, glo
 
 public virtual global::System.Object createLSParser(short n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.ls.LSParser createLSParser(short, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -443,11 +401,8 @@ public virtual global::System.Object createLSParser(short n1, global::java.lang.
 
 public virtual global::System.Object createLSSerializer(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.ls.LSSerializer createLSSerializer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::gnu.xml.dom.ls.DomLSSerializer();
     ((global::gnu.xml.dom.ls.DomLSSerializer) _r0_o).@this();
@@ -457,11 +412,8 @@ public virtual global::System.Object createLSSerializer(){
 
 public virtual global::System.Object createLSInput(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.ls.LSInput createLSInput()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::gnu.xml.dom.ls.DomLSInput();
     ((global::gnu.xml.dom.ls.DomLSInput) _r0_o).@this();
@@ -471,11 +423,8 @@ public virtual global::System.Object createLSInput(){
 
 public virtual global::System.Object createLSOutput(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: org.w3c.dom.ls.LSOutput createLSOutput()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::gnu.xml.dom.ls.DomLSOutput();
     ((global::gnu.xml.dom.ls.DomLSOutput) _r0_o).@this();

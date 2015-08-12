@@ -11,13 +11,9 @@ private int _fordinal;
 
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: void <init>(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -30,11 +26,8 @@ public void @this(global::java.lang.String n1, int n2){
 
 public virtual global::System.Object name(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.String name()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Enum) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -44,10 +37,7 @@ public virtual global::System.Object name(){
 public virtual int ordinal(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: int ordinal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Enum) _r1_o)._fordinal;
     return _r0.i;
@@ -56,11 +46,8 @@ public virtual int ordinal(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Enum) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -70,12 +57,8 @@ public override global::System.Object toString(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r1_o != _r2_o) goto label4;
@@ -91,12 +74,9 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.lang.Enum) _r2_o)._fordinal;
     _r1_o = ((global::java.lang.Enum) _r2_o)._fname;
@@ -114,13 +94,9 @@ public override int hashCode(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.CloneNotSupportedException();
     // Value=luni.4C
@@ -135,14 +111,9 @@ public override global::System.Object clone(){
 public virtual int compareTo(global::java.lang.Enum n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: int compareTo(java.lang.Enum)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.lang.Enum) _r2_o)._fordinal;
@@ -154,15 +125,10 @@ public virtual int compareTo(global::java.lang.Enum n1){
 
 public virtual global::System.Object getDeclaringClass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.Class getDeclaringClass()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.lang.Object) _r3_o).getClass();
     _r1_o = ((global::java.lang.Class) _r0_o).getSuperclass();
@@ -178,21 +144,15 @@ public virtual global::System.Object getDeclaringClass(){
 
 public static global::System.Object valueOf(global::java.lang.Class n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.Enum valueOf(java.lang.Class, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     if (_r5_o == null) goto label4;
@@ -241,13 +201,9 @@ public static global::System.Object valueOf(global::java.lang.Class n1, global::
 
 public static global::System.Object getValues(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: java.lang.Enum[] getValues(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
@@ -283,9 +239,7 @@ public static global::System.Object getValues(global::java.lang.Class n1){
 
 public override void @finally(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: void finalize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.lang.Enum: void finalize()]
@@ -294,12 +248,8 @@ public override void @finally(){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Enum: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

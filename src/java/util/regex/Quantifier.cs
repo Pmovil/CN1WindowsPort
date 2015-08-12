@@ -12,12 +12,8 @@ private int _fcounter;
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: void <init>(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.util.regex.SpecialToken) _r1_o).@this();
@@ -32,14 +28,9 @@ public void @this(int n1){
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: void <init>(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -55,10 +46,7 @@ public void @this(int n1, int n2){
 public virtual void resetCounter(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: void resetCounter()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.util.regex.Quantifier) _r1_o)._fcounter = _r0.i;
@@ -69,10 +57,7 @@ public virtual void resetCounter(){
 public virtual int getCounter(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: int getCounter()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.Quantifier) _r1_o)._fcounter;
     return _r0.i;
@@ -81,11 +66,8 @@ public virtual int getCounter(){
 
 public virtual void setCounter(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: void setCounter(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.regex.Quantifier) _r0_o)._fcounter = _r1.i;
@@ -96,10 +78,7 @@ public virtual void setCounter(int n1){
 public virtual int min(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: int min()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.Quantifier) _r1_o)._fmin;
     return _r0.i;
@@ -109,10 +88,7 @@ public virtual int min(){
 public virtual int max(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: int max()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.Quantifier) _r1_o)._fmax;
     return _r0.i;
@@ -121,15 +97,11 @@ public virtual int max(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=\173
@@ -168,10 +140,7 @@ public override global::System.Object toString(){
 public override int getType(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: int getType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 2;
     return _r0.i;
@@ -180,15 +149,10 @@ public override int getType(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Quantifier: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.regex.Quantifier();
     _r1.i = ((global::java.util.regex.Quantifier) _r3_o)._fmin;

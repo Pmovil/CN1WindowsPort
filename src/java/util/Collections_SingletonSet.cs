@@ -9,11 +9,8 @@ public global::java.lang.Object _felement;
 
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonSet: void <init>(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractSet) _r0_o).@this();
@@ -26,11 +23,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonSet: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2SingletonSet) _r1_o)._felement;
@@ -52,10 +46,7 @@ public override bool contains(global::java.lang.Object n1){
 public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonSet: int size()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i;
@@ -64,11 +55,8 @@ public override int size(){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonSet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.Collections_2SingletonSet_21();
     ((global::java.util.Collections_2SingletonSet_21) _r0_o).@this((global::java.util.Collections_2SingletonSet) _r1_o);

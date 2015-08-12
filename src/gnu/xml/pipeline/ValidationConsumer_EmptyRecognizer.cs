@@ -5,11 +5,8 @@ namespace gnu.xml.pipeline {
 public class ValidationConsumer_2EmptyRecognizer: global::gnu.xml.pipeline.ValidationConsumer_2Recognizer {
 public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$EmptyRecognizer: void <init>(gnu.xml.pipeline.ValidationConsumer$ElementInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r0_o).@this((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r1_o);
@@ -20,10 +17,7 @@ public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
 public override bool acceptCharacters(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$EmptyRecognizer: boolean acceptCharacters()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -32,13 +26,9 @@ public override bool acceptCharacters(){
 
 public override global::System.Object acceptElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$EmptyRecognizer: gnu.xml.pipeline.ValidationConsumer$Recognizer acceptElement(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;

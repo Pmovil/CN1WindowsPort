@@ -70,11 +70,8 @@ private global::java.util.ArrayList _flisteners;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.maps.providers.OpenStreetMapProvider();
     ((global::com.codename1.maps.providers.OpenStreetMapProvider) _r0_o).@this();
@@ -85,17 +82,11 @@ public void @this(){
 
 public void @this(global::com.codename1.maps.providers.MapProvider n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>(com.codename1.maps.providers.MapProvider)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = null;
@@ -110,16 +101,10 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1){
 public void @this(global::com.codename1.maps.providers.MapProvider n1, global::com.codename1.location.Location n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>(com.codename1.maps.providers.MapProvider, com.codename1.location.Location, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -132,27 +117,14 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1, global::c
 
 public void @this(global::com.codename1.maps.providers.MapProvider n1, global::com.codename1.location.Location n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>(com.codename1.maps.providers.MapProvider, com.codename1.location.Location, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -170,16 +142,10 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1, global::c
 public void @this(global::com.codename1.maps.providers.MapProvider n1, global::com.codename1.maps.Coord n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>(com.codename1.maps.providers.MapProvider, com.codename1.maps.Coord, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -197,34 +163,18 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1, global::c
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -389,30 +339,17 @@ public override void paintBackground(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     base.paintBackground((global::com.codename1.ui.Graphics) _r15_o);
@@ -566,9 +503,7 @@ public override void laidOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void laidOut()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     base.laidOut();
@@ -583,10 +518,7 @@ public override void laidOut(){
 public override bool shouldBlockSideSwipe(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean shouldBlockSideSwipe()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -595,15 +527,12 @@ public override bool shouldBlockSideSwipe(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.ui.geom.Dimension calcPreferredSize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.ui.geom.Dimension();
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -618,10 +547,7 @@ public override global::System.Object calcPreferredSize(){
 public override void focusGained(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void focusGained()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.maps.MapComponent) _r1_o).setHandlesInput(0!=_r0.i);
@@ -631,31 +557,18 @@ public override void focusGained(){
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void pointerDragged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.i = n1;
     _r11.i = n2;
@@ -713,16 +626,9 @@ public override void pointerDragged(int n1, int n2){
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -740,34 +646,16 @@ public override void pointerPressed(int n1, int n2){
 public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void pointerDragged(int[], int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -852,24 +740,14 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
 private double distance(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: double distance(int[], int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -892,19 +770,13 @@ private double distance(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xm
 
 public virtual void pointerTapped(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void pointerTapped(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -932,52 +804,27 @@ public override void pointerReleased(int n1, int n2){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
-    global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
@@ -986,20 +833,11 @@ public override void pointerReleased(int n1, int n2){
     global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
-    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
-    global::System.Object _r32_o = null;
-    global::org.xmlvm._nElement _r33;
-    global::System.Object _r33_o = null;
-    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
     global::org.xmlvm._nElement _r35;
-    global::System.Object _r35_o = null;
     global::org.xmlvm._nElement _r36;
-    global::System.Object _r36_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r34_o = this;
     _r35.i = n1;
     _r36.i = n2;
@@ -1382,19 +1220,13 @@ public override void pointerReleased(int n1, int n2){
 
 public virtual global::System.Object getCoordFromPosition(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.Coord getCoordFromPosition(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -1418,11 +1250,8 @@ public virtual global::System.Object getPointFromCoord(global::com.codename1.map
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.ui.geom.Point getPointFromCoord(com.codename1.maps.Coord)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.maps.Coord) _r2_o).isProjected() ? 1 : 0;
@@ -1439,19 +1268,13 @@ public virtual global::System.Object getPointFromCoord(global::com.codename1.map
 
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void keyPressed(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r1.i = ((global::com.codename1.maps.MapComponent) _r4_o)._f_1zoom;
@@ -1515,12 +1338,8 @@ private void paintmap(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r2_o).getX();
@@ -1553,27 +1372,18 @@ private void paintmap(global::com.codename1.ui.Graphics n1){
 
 private global::System.Object screenTile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.Tile screenTile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r1_o = new global::com.codename1.ui.geom.Dimension();
     _r4.i = ((global::com.codename1.maps.MapComponent) _r9_o).getWidth();
@@ -1608,15 +1418,10 @@ private global::System.Object screenTile(){
 
 private void getTiles(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void getTiles()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
@@ -1625,12 +1430,8 @@ private void getTiles(){
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r5_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r5_o).@this();
@@ -1700,9 +1501,7 @@ private void getTiles(){
 
 private void drawTiles(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void drawTiles(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1710,11 +1509,8 @@ private void drawTiles(global::com.codename1.ui.Graphics n1){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r2_o = ((global::com.codename1.maps.MapComponent) _r5_o)._f_1delta;
@@ -1760,23 +1556,15 @@ private void drawTiles(global::com.codename1.ui.Graphics n1){
 
 private void drawAttribution(global::com.codename1.ui.Graphics n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void drawAttribution(com.codename1.ui.Graphics, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1805,21 +1593,14 @@ private void drawAttribution(global::com.codename1.ui.Graphics n1, global::java.
 
 private void drawLayers(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void drawLayers(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r5_o)._f_1layers;
@@ -1849,26 +1630,15 @@ private void drawPointer(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r9_o)._fdrawMapPointer ? 1 : 0;
@@ -1895,8 +1665,6 @@ private void drawPointer(global::com.codename1.ui.Graphics n1){
 private void drawDebug(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void drawDebug(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1905,12 +1673,8 @@ private void drawDebug(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3.i = 0;
@@ -1972,14 +1736,10 @@ private void drawDebug(global::com.codename1.ui.Graphics n1){
 public virtual void addLayer(global::com.codename1.maps.layers.Layer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void addLayer(com.codename1.maps.layers.Layer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -1994,17 +1754,11 @@ public virtual void addLayer(global::com.codename1.maps.layers.Layer n1, int n2,
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void addLayer(com.codename1.maps.layers.Layer, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -2023,16 +1777,11 @@ public virtual void addLayer(global::com.codename1.maps.layers.Layer n1, int n2,
 public virtual void removeLayer(global::com.codename1.maps.layers.Layer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void removeLayer(com.codename1.maps.layers.Layer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.maps.MapComponent) _r3_o)._f_1layers;
@@ -2062,9 +1811,7 @@ public virtual void removeAllLayers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void removeAllLayers()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1layers;
     ((global::java.util.Vector) _r0_o).removeAllElements();
@@ -2079,9 +1826,7 @@ public virtual int getLayersConut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int getLayersConut()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1layers;
     _r0.i = ((global::java.util.Vector) _r0_o).size();
@@ -2091,15 +1836,10 @@ public virtual int getLayersConut(){
 
 public virtual global::System.Object getLayerAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.layers.Layer getLayerAt(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1layers;
@@ -2112,11 +1852,8 @@ public virtual global::System.Object getLayerAt(int n1){
 
 public virtual global::System.Object getProvider(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.providers.MapProvider getProvider()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1map;
     return (global::com.codename1.maps.providers.MapProvider) _r0_o;
@@ -2126,10 +1863,7 @@ public virtual global::System.Object getProvider(){
 public override void repaint(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void repaint()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.maps.MapComponent) _r1_o)._frefreshLayers = 0!=_r0.i;
@@ -2142,24 +1876,13 @@ public override void repaint(){
 public virtual void moveLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void moveLeft()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1map;
     _r4.i = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1zoom;
@@ -2186,24 +1909,13 @@ public virtual void moveLeft(){
 public virtual void moveRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void moveRight()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1map;
     _r4.i = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1zoom;
@@ -2229,24 +1941,13 @@ public virtual void moveRight(){
 public virtual void moveUp(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void moveUp()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1map;
     _r4.i = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1zoom;
@@ -2272,24 +1973,13 @@ public virtual void moveUp(){
 public virtual void moveDown(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void moveDown()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1map;
     _r4.i = ((global::com.codename1.maps.MapComponent) _r8_o)._f_1zoom;
@@ -2316,12 +2006,9 @@ public virtual void moveDown(){
 public virtual void zoomIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void zoomIn()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1zoom;
     _r1_o = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1map;
@@ -2340,14 +2027,10 @@ public virtual void zoomIn(){
 public virtual void zoomOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void zoomOut()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r3_o)._f_1zoom;
@@ -2365,21 +2048,15 @@ public virtual void zoomOut(){
 
 public virtual void zoomTo(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void zoomTo(com.codename1.maps.BoundingBox)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = ((global::com.codename1.maps.BoundingBox) _r6_o).projected() ? 1 : 0;
@@ -2433,15 +2110,10 @@ public virtual void zoomTo(global::com.codename1.maps.Coord n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void zoomTo(com.codename1.maps.Coord, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -2468,19 +2140,13 @@ public virtual void zoomTo(global::com.codename1.maps.Coord n1, int n2){
 
 public virtual void zoomToLayers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void zoomToLayers()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = null;
     _r4_o = ((global::com.codename1.maps.MapComponent) _r5_o)._f_1layers;
@@ -2517,13 +2183,9 @@ public virtual void zoomToLayers(){
 
 public virtual global::System.Object getCenter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.Coord getCenter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1map;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r0_o).projection();
@@ -2536,10 +2198,7 @@ public virtual global::System.Object getCenter(){
 public virtual int getZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int getZoomLevel()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1zoom;
     return _r0.i;
@@ -2550,13 +2209,9 @@ public virtual void setZoomLevel(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void setZoomLevel(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r2_o).getMaxZoomLevel();
@@ -2583,9 +2238,7 @@ public virtual int getMaxZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int getMaxZoomLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1map;
     _r0.i = ((global::com.codename1.maps.providers.MapProvider) _r0_o).maxZoomLevel();
@@ -2597,9 +2250,7 @@ public virtual int getMinZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int getMinZoomLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._f_1map;
     _r0.i = ((global::com.codename1.maps.providers.MapProvider) _r0_o).minZoomLevel();
@@ -2609,13 +2260,9 @@ public virtual int getMinZoomLevel(){
 
 public virtual global::System.Object center(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.Coord center()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1map;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r0_o).projection();
@@ -2628,14 +2275,10 @@ public virtual global::System.Object center(){
 public virtual bool isLeftKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isLeftKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -2654,14 +2297,10 @@ public virtual bool isLeftKey(int n1){
 public virtual bool isRightKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isRightKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -2680,14 +2319,10 @@ public virtual bool isRightKey(int n1){
 public virtual bool isDownKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isDownKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -2706,16 +2341,11 @@ public virtual bool isDownKey(int n1){
 public virtual bool isUpKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isUpKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 1;
@@ -2734,12 +2364,8 @@ public virtual bool isUpKey(int n1){
 public virtual bool isZoomInKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isZoomInKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 49;
@@ -2756,12 +2382,8 @@ public virtual bool isZoomInKey(int n1){
 public virtual bool isZoomOutKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isZoomOutKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 51;
@@ -2778,12 +2400,8 @@ public virtual bool isZoomOutKey(int n1){
 public virtual bool isZoomToLayersKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean isZoomToLayersKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 53;
@@ -2800,30 +2418,11 @@ public virtual bool isZoomToLayersKey(int n1){
 public static long distance(double n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: long distance(double, double, double, double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r6.d = n2;
     _r8.d = n3;
@@ -2864,16 +2463,8 @@ public static long distance(double n1, double n2, double n3, double n4){
 private void setLatitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void setLatitude(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     ((global::com.codename1.maps.MapComponent) _r2_o)._flatitude = _r3.d;
@@ -2886,16 +2477,8 @@ private void setLatitude(double n1){
 private void setLongitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void setLongitude(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     ((global::com.codename1.maps.MapComponent) _r2_o)._flongitude = _r3.d;
@@ -2909,19 +2492,10 @@ private void setCoord(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void setCoord(double, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.d = n2;
@@ -2945,17 +2519,12 @@ private void setCoord(double n1, double n2){
 
 private void fireMapListenerEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void fireMapListenerEvent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = ((global::com.codename1.maps.MapComponent) _r4_o)._flisteners;
     if (_r2_o == null) goto label32;
@@ -2977,13 +2546,9 @@ private void fireMapListenerEvent(){
 
 public virtual void addMapListener(global::com.codename1.maps.MapListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void addMapListener(com.codename1.maps.MapListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._flisteners;
@@ -3000,13 +2565,9 @@ public virtual void addMapListener(global::com.codename1.maps.MapListener n1){
 
 public virtual void removeMapListener(global::com.codename1.maps.MapListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void removeMapListener(com.codename1.maps.MapListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.maps.MapComponent) _r1_o)._flisteners;
@@ -3025,12 +2586,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 3;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -3058,14 +2615,9 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Double));
     _r0.i = 3;
@@ -3089,13 +2641,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=latitude
@@ -3140,17 +2687,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -3196,9 +2736,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public static void access_2000(global::com.codename1.maps.MapComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void access$000(com.codename1.maps.MapComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.maps.MapComponent) _r0_o).fireMapListenerEvent();
     return;
@@ -3208,10 +2746,7 @@ public static void access_2000(global::com.codename1.maps.MapComponent n1){
 public static int access_2100(global::com.codename1.maps.MapComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int access$100(com.codename1.maps.MapComponent)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.maps.MapComponent) _r1_o)._ftapCount;
     return _r0.i;
@@ -3220,11 +2755,8 @@ public static int access_2100(global::com.codename1.maps.MapComponent n1){
 
 public static int access_2102(global::com.codename1.maps.MapComponent n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: int access$102(com.codename1.maps.MapComponent, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.maps.MapComponent) _r0_o)._ftapCount = _r1.i;
@@ -3234,11 +2766,8 @@ public static int access_2102(global::com.codename1.maps.MapComponent n1, int n2
 
 public static bool access_2202(global::com.codename1.maps.MapComponent n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: boolean access$202(com.codename1.maps.MapComponent, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.maps.MapComponent) _r0_o)._frefreshLayers = 0!=_r1.i;
@@ -3251,10 +2780,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 64;
     _r1.i = 2;
     _r2.i = 8;

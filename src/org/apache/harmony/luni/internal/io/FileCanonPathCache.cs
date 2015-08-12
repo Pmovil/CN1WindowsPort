@@ -23,8 +23,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.HashMap();
     _r1.i = 256;
     ((global::java.util.HashMap) _r0_o).@this((int) _r1.i);
@@ -43,9 +41,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -58,15 +54,9 @@ public static global::System.Object get(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
@@ -202,15 +192,11 @@ public static void put(global::java.lang.String n1, global::java.lang.String n2)
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: void put(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -278,9 +264,7 @@ public static void put(global::java.lang.String n1, global::java.lang.String n2)
 
 public static void clear(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._flock;
@@ -324,10 +308,6 @@ public static void clear(){
 public static long getTimeout(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: long getTimeout()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.l = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._ftimeout;
     return _r0.l;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: long getTimeout()]
@@ -336,10 +316,6 @@ public static long getTimeout(){
 public static void setTimeout(long n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.io.FileCanonPathCache: void setTimeout(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.l = n1;
     global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._ftimeout = _r0.l;
     return;

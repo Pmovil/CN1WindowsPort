@@ -23,11 +23,8 @@ private static void initNativeLayer(){
 
 private void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: void <init>(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object)_r0_o).@this();
@@ -46,11 +43,8 @@ public static global::System.Object forName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.Class forName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = 1;
     _r1_o = null;
@@ -103,10 +97,7 @@ public virtual global::System.Object getCanonicalName(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.lang.Class) _r3_o).isAnonymousClass() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -151,11 +142,8 @@ public virtual global::System.Object getCanonicalName(){
 
 public virtual global::System.Object getClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.ClassLoader getClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.Class._fclassLoader;
     return (global::java.lang.ClassLoader)_r0_o;
@@ -164,11 +152,8 @@ public virtual global::System.Object getClassLoader(){
 
 public virtual global::System.Object getClassLoaderImpl(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.ClassLoader getClassLoaderImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.Class._fclassLoader;
     return (global::java.lang.ClassLoader)_r0_o;
@@ -183,13 +168,9 @@ public virtual global::System.Object getComponentType(){
 
 public virtual global::System.Object getConstructor(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Constructor getConstructor(java.lang.Class[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.lang.Class) _r1_o).getDeclaredConstructor((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
@@ -240,21 +221,14 @@ public virtual global::System.Object getDeclaredClasses(){
 
 public virtual global::System.Object getDeclaredConstructor(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = ((global::java.lang.Class) _r5_o).getDeclaredConstructors();
@@ -290,20 +264,14 @@ public virtual global::System.Object getDeclaredConstructor(global::org.xmlvm._n
 private static bool arrayEqual(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: boolean arrayEqual(java.lang.Object[], java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r4.i = 1;
@@ -424,24 +392,15 @@ public virtual global::System.Object getDeclaredFields(){
 public virtual global::System.Object getDeclaredMethod(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -509,9 +468,7 @@ public virtual global::System.Object getDeclaringClass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.Class getDeclaringClass()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Class) _r1_o).isArray() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -592,13 +549,9 @@ public virtual global::System.Object getFields(){
 
 public virtual global::System.Object getGenericInterfaces(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Type[] getGenericInterfaces()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser();
     _r1_o = null;
@@ -613,13 +566,9 @@ public virtual global::System.Object getGenericInterfaces(){
 
 public virtual global::System.Object getGenericSuperclass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Type getGenericSuperclass()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser();
     _r1_o = null;
@@ -641,24 +590,15 @@ public virtual global::System.Object getInterfaces(){
 public virtual global::System.Object getMethod(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -697,23 +637,15 @@ public virtual global::System.Object getMethod(global::java.lang.String n1, glob
 
 public virtual global::System.Object getMethods(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.Method[] getMethods()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 0;
     _r3_o = ((global::java.lang.Class) _r7_o).getDeclaredMethods();
@@ -771,12 +703,8 @@ public virtual global::System.Object getPDImpl(){
 public virtual global::System.Object getResource(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.net.URL getResource(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -784,11 +712,8 @@ public virtual global::System.Object getResource(global::java.lang.String n1){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
@@ -878,15 +803,10 @@ public virtual global::System.Object getResource(global::java.lang.String n1){
 
 public virtual global::System.Object getResourceAsStream(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -935,11 +855,8 @@ public virtual global::System.Object getSuperclass(){
 
 public virtual global::System.Object getTypeParameters(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.reflect.TypeVariable[] getTypeParameters()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1103,11 +1020,8 @@ public override global::System.Object toString(){
 
 public virtual global::System.Object getPackage(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.Package getPackage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Class)_r1_o).getPackageString();
     _r0_o = global::java.lang.Package.getPackage((global::java.lang.String)_r0_o);
@@ -1137,11 +1051,8 @@ public virtual global::System.Object cast(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: java.lang.Object cast(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o == null) goto label12;
@@ -1165,9 +1076,7 @@ private global::System.Object getSignatureAttribute(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.xmlvm.runtime.XMLVMClassLoader();
     ((global::org.xmlvm.runtime.XMLVMClassLoader)_r0_o).@this();
     global::java.lang.Class._fclassLoader = (global::java.lang.ClassLoader)_r0_o;

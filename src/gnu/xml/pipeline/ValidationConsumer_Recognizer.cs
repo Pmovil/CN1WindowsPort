@@ -7,11 +7,8 @@ public global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo _ftype;
 
 public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$Recognizer: void <init>(gnu.xml.pipeline.ValidationConsumer$ElementInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -23,10 +20,7 @@ public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
 public virtual bool acceptCharacters(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$Recognizer: boolean acceptCharacters()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -35,11 +29,8 @@ public virtual bool acceptCharacters(){
 
 public virtual global::System.Object acceptElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$Recognizer: gnu.xml.pipeline.ValidationConsumer$Recognizer acceptElement(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return (global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r0_o;
@@ -49,10 +40,7 @@ public virtual global::System.Object acceptElement(global::java.lang.String n1){
 public virtual bool completed(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$Recognizer: boolean completed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -61,11 +49,8 @@ public virtual bool completed(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$Recognizer: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r1_o)._ftype;
     if (_r0_o != null) goto label7;

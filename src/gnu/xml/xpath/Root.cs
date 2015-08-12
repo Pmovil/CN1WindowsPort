@@ -5,9 +5,7 @@ namespace gnu.xml.xpath {
 public class Root: global::gnu.xml.xpath.Path {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::gnu.xml.xpath.Path) _r0_o).@this();
     return;
@@ -17,14 +15,9 @@ public void @this(){
 public override bool matches(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: boolean matches(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::org.w3c.dom.Node) _r3_o).getNodeType();
@@ -41,17 +34,11 @@ public override bool matches(global::org.w3c.dom.Node n1){
 
 public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -66,13 +53,9 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, glob
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: java.util.Collection evaluate(org.w3c.dom.Node, java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -90,13 +73,9 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, glob
 
 public override global::System.Object clone(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: gnu.xml.xpath.Expr clone(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::gnu.xml.xpath.Root();
@@ -108,12 +87,8 @@ public override global::System.Object clone(global::java.lang.Object n1){
 public override bool references(global::javax.xml.@namespace.QName n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: boolean references(javax.xml.namespace.QName)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -123,11 +98,8 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=/
     _r0_o = new global::java.lang.String();

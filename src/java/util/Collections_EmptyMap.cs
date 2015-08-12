@@ -7,9 +7,7 @@ private static long _fserialVersionUID = 6428348081105594320L;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.AbstractMap) _r0_o).@this();
     return;
@@ -19,12 +17,8 @@ private void @this(){
 public override bool containsKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: boolean containsKey(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -35,12 +29,8 @@ public override bool containsKey(global::java.lang.Object n1){
 public override bool containsValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: boolean containsValue(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -50,11 +40,8 @@ public override bool containsValue(global::java.lang.Object n1){
 
 public override global::System.Object entrySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: java.util.Set entrySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Collections._fEMPTY_1SET;
     return (global::java.util.Set) _r0_o;
@@ -63,13 +50,9 @@ public override global::System.Object entrySet(){
 
 public override global::System.Object get(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: java.lang.Object get(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -79,11 +62,8 @@ public override global::System.Object get(global::java.lang.Object n1){
 
 public override global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: java.util.Set keySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Collections._fEMPTY_1SET;
     return (global::java.util.Set) _r0_o;
@@ -92,11 +72,8 @@ public override global::System.Object keySet(){
 
 public override global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: java.util.Collection values()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Collections._fEMPTY_1LIST;
     return (global::java.util.Collection) _r0_o;
@@ -105,11 +82,8 @@ public override global::System.Object values(){
 
 private global::System.Object readResolve(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: java.lang.Object readResolve()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Collections._fEMPTY_1MAP;
     return (global::java.lang.Object) _r0_o;
@@ -118,11 +92,8 @@ private global::System.Object readResolve(){
 
 public void @this(global::java.util.Collections_2EmptyMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: void <init>(java.util.Collections$EmptyMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2EmptyMap) _r0_o).@this();

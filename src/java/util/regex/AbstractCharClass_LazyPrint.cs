@@ -5,9 +5,7 @@ namespace java.util.regex {
 public class AbstractCharClass_2LazyPrint: global::java.util.regex.AbstractCharClass_2LazyGraph {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyPrint: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.regex.AbstractCharClass_2LazyGraph) _r0_o).@this();
     return;
@@ -18,9 +16,7 @@ public override global::System.Object computeValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyPrint: java.util.regex.AbstractCharClass computeValue()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = base.computeValue();
     _r1_o = _r1_o;

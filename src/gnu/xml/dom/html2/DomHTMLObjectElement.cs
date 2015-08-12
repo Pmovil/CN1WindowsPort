@@ -41,15 +41,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -61,11 +56,8 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 
 public virtual global::System.Object getForm(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: org.w3c.dom.html2.HTMLFormElement getForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=form
     _r0_o = new global::java.lang.String();
@@ -78,11 +70,8 @@ public virtual global::System.Object getForm(){
 
 public virtual global::System.Object getCode(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=code
     _r0_o = new global::java.lang.String();
@@ -94,13 +83,9 @@ public virtual global::System.Object getCode(){
 
 public virtual void setCode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setCode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=code
@@ -113,11 +98,8 @@ public virtual void setCode(global::java.lang.String n1){
 
 public virtual global::System.Object getJavaCode(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getJavaCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=java_code
     _r0_o = new global::java.lang.String();
@@ -129,13 +111,9 @@ public virtual global::System.Object getJavaCode(){
 
 public virtual void setJavaCode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setJavaCode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=java_code
@@ -148,11 +126,8 @@ public virtual void setJavaCode(global::java.lang.String n1){
 
 public virtual global::System.Object getObject(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getObject()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=object
     _r0_o = new global::java.lang.String();
@@ -164,13 +139,9 @@ public virtual global::System.Object getObject(){
 
 public virtual void setObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=object
@@ -183,11 +154,8 @@ public virtual void setObject(global::java.lang.String n1){
 
 public virtual global::System.Object getJavaObject(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getJavaObject()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=java_object
     _r0_o = new global::java.lang.String();
@@ -199,13 +167,9 @@ public virtual global::System.Object getJavaObject(){
 
 public virtual void setJavaObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setJavaObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=java_object
@@ -218,11 +182,8 @@ public virtual void setJavaObject(global::java.lang.String n1){
 
 public virtual global::System.Object getAlign(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getAlign()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=align
     _r0_o = new global::java.lang.String();
@@ -234,13 +195,9 @@ public virtual global::System.Object getAlign(){
 
 public virtual void setAlign(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setAlign(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=align
@@ -253,11 +210,8 @@ public virtual void setAlign(global::java.lang.String n1){
 
 public virtual global::System.Object getArchive(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getArchive()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=archive
     _r0_o = new global::java.lang.String();
@@ -269,13 +223,9 @@ public virtual global::System.Object getArchive(){
 
 public virtual void setArchive(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setArchive(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=archive
@@ -288,11 +238,8 @@ public virtual void setArchive(global::java.lang.String n1){
 
 public virtual global::System.Object getJavaArchive(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getJavaArchive()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=java_archive
     _r0_o = new global::java.lang.String();
@@ -304,13 +251,9 @@ public virtual global::System.Object getJavaArchive(){
 
 public virtual void setJavaArchive(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setJavaArchive(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=java_archive
@@ -323,11 +266,8 @@ public virtual void setJavaArchive(global::java.lang.String n1){
 
 public virtual global::System.Object getBorder(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getBorder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=border
     _r0_o = new global::java.lang.String();
@@ -339,13 +279,9 @@ public virtual global::System.Object getBorder(){
 
 public virtual void setBorder(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setBorder(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=border
@@ -358,11 +294,8 @@ public virtual void setBorder(global::java.lang.String n1){
 
 public virtual global::System.Object getCodeBase(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getCodeBase()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=codebase
     _r0_o = new global::java.lang.String();
@@ -374,13 +307,9 @@ public virtual global::System.Object getCodeBase(){
 
 public virtual void setCodeBase(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setCodeBase(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=codebase
@@ -393,11 +322,8 @@ public virtual void setCodeBase(global::java.lang.String n1){
 
 public virtual global::System.Object getJavaCodeBase(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getJavaCodeBase()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=java_codebase
     _r0_o = new global::java.lang.String();
@@ -409,13 +335,9 @@ public virtual global::System.Object getJavaCodeBase(){
 
 public virtual void setJavaCodeBase(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setJavaCodeBase(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=java_codebase
@@ -428,11 +350,8 @@ public virtual void setJavaCodeBase(global::java.lang.String n1){
 
 public virtual global::System.Object getCodeType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getCodeType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=codetype
     _r0_o = new global::java.lang.String();
@@ -444,13 +363,9 @@ public virtual global::System.Object getCodeType(){
 
 public virtual void setCodeType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setCodeType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=codetype
@@ -463,11 +378,8 @@ public virtual void setCodeType(global::java.lang.String n1){
 
 public virtual global::System.Object getData(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=data
     _r0_o = new global::java.lang.String();
@@ -479,13 +391,9 @@ public virtual global::System.Object getData(){
 
 public virtual void setData(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setData(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=data
@@ -500,9 +408,7 @@ public virtual bool getDeclare(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: boolean getDeclare()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=declare
     _r0_o = new global::java.lang.String();
@@ -514,13 +420,9 @@ public virtual bool getDeclare(){
 
 public virtual void setDeclare(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setDeclare(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=declare
@@ -533,11 +435,8 @@ public virtual void setDeclare(bool n1){
 
 public virtual global::System.Object getHeight(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getHeight()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=height
     _r0_o = new global::java.lang.String();
@@ -549,13 +448,9 @@ public virtual global::System.Object getHeight(){
 
 public virtual void setHeight(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setHeight(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=height
@@ -570,9 +465,7 @@ public virtual int getHspace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: int getHspace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=hspace
     _r0_o = new global::java.lang.String();
@@ -584,13 +477,9 @@ public virtual int getHspace(){
 
 public virtual void setHspace(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setHspace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=hspace
@@ -603,11 +492,8 @@ public virtual void setHspace(int n1){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=name
     _r0_o = new global::java.lang.String();
@@ -619,13 +505,9 @@ public virtual global::System.Object getName(){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=name
@@ -638,11 +520,8 @@ public virtual void setName(global::java.lang.String n1){
 
 public virtual global::System.Object getStandby(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getStandby()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=standby
     _r0_o = new global::java.lang.String();
@@ -654,13 +533,9 @@ public virtual global::System.Object getStandby(){
 
 public virtual void setStandby(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setStandby(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=standby
@@ -675,9 +550,7 @@ public virtual int getTabIndex(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: int getTabIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=tabindex
     _r0_o = new global::java.lang.String();
@@ -689,13 +562,9 @@ public virtual int getTabIndex(){
 
 public virtual void setTabIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setTabIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=tabindex
@@ -708,11 +577,8 @@ public virtual void setTabIndex(int n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=type
     _r0_o = new global::java.lang.String();
@@ -724,13 +590,9 @@ public virtual global::System.Object getType(){
 
 public virtual void setType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=type
@@ -743,11 +605,8 @@ public virtual void setType(global::java.lang.String n1){
 
 public virtual global::System.Object getJavaType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getJavaType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=java_type
     _r0_o = new global::java.lang.String();
@@ -759,13 +618,9 @@ public virtual global::System.Object getJavaType(){
 
 public virtual void setJavaType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setJavaType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=java_type
@@ -778,11 +633,8 @@ public virtual void setJavaType(global::java.lang.String n1){
 
 public virtual global::System.Object getUseMap(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getUseMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=usemap
     _r0_o = new global::java.lang.String();
@@ -794,13 +646,9 @@ public virtual global::System.Object getUseMap(){
 
 public virtual void setUseMap(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setUseMap(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=usemap
@@ -815,9 +663,7 @@ public virtual int getVspace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: int getVspace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=vspace
     _r0_o = new global::java.lang.String();
@@ -829,13 +675,9 @@ public virtual int getVspace(){
 
 public virtual void setVspace(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setVspace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=vspace
@@ -848,11 +690,8 @@ public virtual void setVspace(int n1){
 
 public virtual global::System.Object getWidth(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getWidth()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=width
     _r0_o = new global::java.lang.String();
@@ -864,13 +703,9 @@ public virtual global::System.Object getWidth(){
 
 public virtual void setWidth(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setWidth(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=width
@@ -883,11 +718,8 @@ public virtual void setWidth(global::java.lang.String n1){
 
 public virtual global::System.Object getContentDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: org.w3c.dom.Document getContentDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::org.w3c.dom.Document) _r0_o;
@@ -896,13 +728,9 @@ public virtual global::System.Object getContentDocument(){
 
 public virtual void setMayscript(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setMayscript(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=mayscript
@@ -915,11 +743,8 @@ public virtual void setMayscript(global::java.lang.String n1){
 
 public virtual global::System.Object getMayscript(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getMayscript()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=mayscript
     _r0_o = new global::java.lang.String();
@@ -931,13 +756,9 @@ public virtual global::System.Object getMayscript(){
 
 public virtual void setScriptable(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: void setScriptable(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=scriptable
@@ -950,11 +771,8 @@ public virtual void setScriptable(global::java.lang.String n1){
 
 public virtual global::System.Object getScriptable(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLObjectElement: java.lang.String getScriptable()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=scriptable
     _r0_o = new global::java.lang.String();

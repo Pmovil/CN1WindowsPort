@@ -75,14 +75,10 @@ private bool _finInternalPaint;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -90,16 +86,10 @@ public void @this(){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r9.i = 1;
     _r8.i = 0;
@@ -209,10 +199,7 @@ public void @this(){
 public static int getInvisibleAreaUnderVKB(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getInvisibleAreaUnderVKB(com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label4;
     _r0.i = 0;
@@ -228,9 +215,7 @@ public virtual int getInvisibleAreaUnderVKB(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getInvisibleAreaUnderVKB()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Form) _r1_o)._fbottomPaddingMode ? 1 : 0;
     if (_r0.i == 0) goto label6;
@@ -247,11 +232,8 @@ public virtual int getInvisibleAreaUnderVKB(){
 
 public virtual void setFormBottomPaddingEditingMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setFormBottomPaddingEditingMode(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Form) _r0_o)._fbottomPaddingMode = 0!=_r1.i;
@@ -262,10 +244,7 @@ public virtual void setFormBottomPaddingEditingMode(bool n1){
 public virtual bool isFormBottomPaddingEditingMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isFormBottomPaddingEditingMode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Form) _r1_o)._fbottomPaddingMode ? 1 : 0;
     return _r0.i!=0;
@@ -274,21 +253,14 @@ public virtual bool isFormBottomPaddingEditingMode(){
 
 public virtual void initAdPadding(global::com.codename1.ui.Display n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void initAdPadding(com.codename1.ui.Display)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=adPaddingBottom
@@ -323,23 +295,15 @@ public virtual void initAdPadding(global::com.codename1.ui.Display n1){
 
 public virtual void initTitleBarStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void initTitleBarStatus()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r4.i = 1;
     // Value=StatusBar
@@ -401,21 +365,14 @@ public virtual void initTitleBarStatus(){
 
 public virtual global::System.Object findScrollableChild(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findScrollableChild(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = ((global::com.codename1.ui.Container) _r6_o).isScrollableY() ? 1 : 0;
@@ -454,9 +411,7 @@ public override bool isAlwaysTensile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isAlwaysTensile()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).isAlwaysTensile() ? 1 : 0;
@@ -466,13 +421,9 @@ public override bool isAlwaysTensile(){
 
 public override void setAlwaysTensile(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setAlwaysTensile(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
@@ -483,11 +434,8 @@ public override void setAlwaysTensile(bool n1){
 
 public virtual global::System.Object getTitleArea(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getTitleArea()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftoolbar;
     if (_r0_o == null) goto label15;
@@ -505,11 +453,8 @@ public virtual global::System.Object getTitleArea(){
 
 public override global::System.Object getUIManager(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.plaf.UIManager getUIManager()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fuiManager;
     if (_r0_o == null) goto label7;
@@ -525,12 +470,8 @@ public override global::System.Object getUIManager(){
 public override void setUIManager(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setUIManager(com.codename1.ui.plaf.UIManager)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Form) _r1_o)._fuiManager = (global::com.codename1.ui.plaf.UIManager) _r2_o;
@@ -542,13 +483,9 @@ public override void setUIManager(global::com.codename1.ui.plaf.UIManager n1){
 
 public virtual void addShowListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addShowListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fshowListener;
@@ -565,13 +502,9 @@ public virtual void addShowListener(global::com.codename1.ui.events.ActionListen
 
 public virtual void removeShowListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeShowListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fshowListener;
@@ -587,11 +520,8 @@ public virtual void removeShowListener(global::com.codename1.ui.events.ActionLis
 
 public virtual void removeAllShowListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeAllShowListeners()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fshowListener;
     if (_r0_o == null) goto label16;
@@ -607,13 +537,9 @@ public virtual void removeAllShowListeners(){
 
 public virtual void addOrientationListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addOrientationListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._forientationListener;
@@ -630,13 +556,9 @@ public virtual void addOrientationListener(global::com.codename1.ui.events.Actio
 
 public virtual void removeOrientationListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeOrientationListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._forientationListener;
@@ -652,13 +574,9 @@ public virtual void removeOrientationListener(global::com.codename1.ui.events.Ac
 
 public virtual void addSizeChangedListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addSizeChangedListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fsizeChangedListener;
@@ -675,13 +593,9 @@ public virtual void addSizeChangedListener(global::com.codename1.ui.events.Actio
 
 public virtual void removeSizeChangedListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeSizeChangedListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fsizeChangedListener;
@@ -698,10 +612,7 @@ public virtual void removeSizeChangedListener(global::com.codename1.ui.events.Ac
 public virtual void hideNotify(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void hideNotify()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.Form) _r1_o).setVisible(0!=_r0.i);
@@ -712,10 +623,7 @@ public virtual void hideNotify(){
 public virtual void showNotify(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void showNotify()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Form) _r1_o).setVisible(0!=_r0.i);
@@ -725,13 +633,9 @@ public virtual void showNotify(){
 
 public virtual void sizeChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void sizeChanged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -741,29 +645,19 @@ public virtual void sizeChanged(int n1, int n2){
 
 public virtual void sizeChangedInternal(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void sizeChangedInternal(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -822,11 +716,8 @@ public virtual void sizeChangedInternal(int n1, int n2){
 
 public virtual void setGlassPane(global::com.codename1.ui.Painter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setGlassPane(com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._fglassPane = (global::com.codename1.ui.Painter) _r1_o;
@@ -837,21 +728,14 @@ public virtual void setGlassPane(global::com.codename1.ui.Painter n1){
 
 public override bool isDragRegion(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isDragRegion(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -878,23 +762,15 @@ public override bool isDragRegion(int n1, int n2){
 
 public override int getDragRegionStatus(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getDragRegionStatus(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -925,23 +801,16 @@ public override int getDragRegionStatus(int n1, int n2){
 
 public override void paintGlassImpl(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void paintGlassImpl(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 0;
@@ -982,11 +851,8 @@ public override void paintGlassImpl(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object getGlassPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Painter getGlassPane()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fglassPane;
     return (global::com.codename1.ui.Painter) _r0_o;
@@ -995,13 +861,9 @@ public virtual global::System.Object getGlassPane(){
 
 public virtual void setTitleStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTitleStyle(com.codename1.ui.plaf.Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftitle;
@@ -1012,11 +874,8 @@ public virtual void setTitleStyle(global::com.codename1.ui.plaf.Style n1){
 
 public virtual global::System.Object getTitleComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Label getTitleComponent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftitle;
     return (global::com.codename1.ui.Label) _r0_o;
@@ -1025,17 +884,11 @@ public virtual global::System.Object getTitleComponent(){
 
 public virtual void setTitleComponent(global::com.codename1.ui.Label n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTitleComponent(com.codename1.ui.Label)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r3_o)._ftitleArea;
@@ -1049,17 +902,11 @@ public virtual void setTitleComponent(global::com.codename1.ui.Label n1){
 
 public virtual void setTitleComponent(global::com.codename1.ui.Label n1, global::com.codename1.ui.animations.Transition n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTitleComponent(com.codename1.ui.Label, com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1073,15 +920,10 @@ public virtual void setTitleComponent(global::com.codename1.ui.Label n1, global:
 
 public virtual void addKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addKeyListener(int, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1099,15 +941,10 @@ public virtual void addKeyListener(int n1, global::com.codename1.ui.events.Actio
 
 public virtual void removeKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeKeyListener(int, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1124,15 +961,10 @@ public virtual void removeKeyListener(int n1, global::com.codename1.ui.events.Ac
 
 public virtual void removeGameKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeGameKeyListener(int, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1149,21 +981,13 @@ public virtual void removeGameKeyListener(int n1, global::com.codename1.ui.event
 
 private void addKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2, global::java.util.HashMap n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addKeyListener(int, com.codename1.ui.events.ActionListener, java.util.HashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -1193,21 +1017,13 @@ private void addKeyListener(int n1, global::com.codename1.ui.events.ActionListen
 
 private void removeKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2, global::java.util.HashMap n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeKeyListener(int, com.codename1.ui.events.ActionListener, java.util.HashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -1231,15 +1047,10 @@ private void removeKeyListener(int n1, global::com.codename1.ui.events.ActionLis
 
 public virtual void addGameKeyListener(int n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addGameKeyListener(int, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1259,9 +1070,7 @@ public virtual int getSoftButtonCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getSoftButtonCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0_o = ((global::com.codename1.ui.MenuBar) _r0_o).getSoftButtons();
@@ -1272,13 +1081,9 @@ public virtual int getSoftButtonCount(){
 
 public virtual global::System.Object getSoftButton(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Button getSoftButton(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -1290,11 +1095,8 @@ public virtual global::System.Object getSoftButton(int n1){
 
 public virtual global::System.Object getMenuStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.plaf.Style getMenuStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0_o = ((global::com.codename1.ui.MenuBar) _r0_o).getMenuStyle();
@@ -1304,11 +1106,8 @@ public virtual global::System.Object getMenuStyle(){
 
 public virtual global::System.Object getTitleStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.plaf.Style getTitleStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftitle;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getStyle();
@@ -1318,11 +1117,8 @@ public virtual global::System.Object getTitleStyle(){
 
 public virtual global::System.Object getPreviousForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Form getPreviousForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fpreviousForm;
     return (global::com.codename1.ui.Form) _r0_o;
@@ -1331,17 +1127,12 @@ public virtual global::System.Object getPreviousForm(){
 
 public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void initLaf(com.codename1.ui.plaf.UIManager)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -1400,11 +1191,8 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 
 public virtual void setDraggedComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setDraggedComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._fdragged = (global::com.codename1.ui.Component) _r1_o;
@@ -1415,28 +1203,16 @@ public virtual void setDraggedComponent(global::com.codename1.ui.Component n1){
 private bool isInSameColumn(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isInSameColumn(com.codename1.ui.Component, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -1456,28 +1232,16 @@ private bool isInSameColumn(global::com.codename1.ui.Component n1, global::com.c
 private bool isInSameRow(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isInSameRow(com.codename1.ui.Component, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -1496,13 +1260,9 @@ private bool isInSameRow(global::com.codename1.ui.Component n1, global::com.code
 
 public virtual void setDefaultCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setDefaultCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -1513,11 +1273,8 @@ public virtual void setDefaultCommand(global::com.codename1.ui.Command n1){
 
 public virtual global::System.Object getDefaultCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Command getDefaultCommand()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0_o = ((global::com.codename1.ui.MenuBar) _r0_o).getDefaultCommand();
@@ -1527,13 +1284,9 @@ public virtual global::System.Object getDefaultCommand(){
 
 public virtual void setClearCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setClearCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -1544,11 +1297,8 @@ public virtual void setClearCommand(global::com.codename1.ui.Command n1){
 
 public virtual global::System.Object getClearCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Command getClearCommand()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0_o = ((global::com.codename1.ui.MenuBar) _r0_o).getClearCommand();
@@ -1558,13 +1308,9 @@ public virtual global::System.Object getClearCommand(){
 
 public virtual void setBackCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setBackCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -1575,11 +1321,8 @@ public virtual void setBackCommand(global::com.codename1.ui.Command n1){
 
 public virtual global::System.Object getBackCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Command getBackCommand()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0_o = ((global::com.codename1.ui.MenuBar) _r0_o).getBackCommand();
@@ -1589,11 +1332,8 @@ public virtual global::System.Object getBackCommand(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o).@this();
@@ -1604,11 +1344,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getContentPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getContentPane()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -1617,15 +1354,10 @@ public virtual global::System.Object getContentPane(){
 
 public virtual global::System.Object getLayeredPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPane()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.Form) _r3_o)._flayeredPane;
     if (_r1_o != null) goto label49;
@@ -1657,11 +1389,8 @@ public virtual global::System.Object getLayeredPane(){
 
 public virtual global::System.Object getActualPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getActualPane()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._flayeredPane;
     if (_r0_o == null) goto label11;
@@ -1677,11 +1406,8 @@ public virtual global::System.Object getActualPane(){
 
 public override void removeAll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeAll()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
     ((global::com.codename1.ui.Container) _r0_o).removeAll();
@@ -1691,13 +1417,9 @@ public override void removeAll(){
 
 public virtual void setBgImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setBgImage(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getStyle();
@@ -1710,11 +1432,8 @@ public override void setLayout(global::com.codename1.ui.layouts.Layout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setLayout(com.codename1.ui.layouts.Layout)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
@@ -1731,16 +1450,11 @@ public override void setLayout(global::com.codename1.ui.layouts.Layout n1){
 public virtual void updateIcsIconCommandBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void updateIcsIconCommandBehavior()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r3_o).getCommandBehavior();
@@ -1768,20 +1482,13 @@ public virtual void updateIcsIconCommandBehavior(){
 public virtual void setTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTitle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
@@ -1845,11 +1552,8 @@ public virtual void setTitle(global::java.lang.String n1){
 
 public virtual global::System.Object getTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: java.lang.String getTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftitle;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -1859,13 +1563,9 @@ public virtual global::System.Object getTitle(){
 
 public override void addComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
@@ -1876,15 +1576,10 @@ public override void addComponent(global::com.codename1.ui.Component n1){
 
 public override void addComponent(global::java.lang.Object n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addComponent(java.lang.Object, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1896,17 +1591,11 @@ public override void addComponent(global::java.lang.Object n1, global::com.coden
 
 public override void addComponent(int n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addComponent(int, java.lang.Object, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1919,15 +1608,10 @@ public override void addComponent(int n1, global::java.lang.Object n2, global::c
 
 public override void addComponent(int n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addComponent(int, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -1939,17 +1623,11 @@ public override void addComponent(int n1, global::com.codename1.ui.Component n2)
 
 public override void replace(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.animations.Transition n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void replace(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1962,17 +1640,11 @@ public override void replace(global::com.codename1.ui.Component n1, global::com.
 
 public override void replaceAndWait(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.animations.Transition n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void replaceAndWait(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1985,13 +1657,9 @@ public override void replaceAndWait(global::com.codename1.ui.Component n1, globa
 
 public override void removeComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
@@ -2002,13 +1670,9 @@ public override void removeComponent(global::com.codename1.ui.Component n1){
 
 public virtual void addComponentToForm(global::java.lang.Object n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addComponentToForm(java.lang.Object, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -2019,11 +1683,8 @@ public virtual void addComponentToForm(global::java.lang.Object n1, global::com.
 
 public virtual void removeComponentFromForm(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeComponentFromForm(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.removeComponent((global::com.codename1.ui.Component) _r1_o);
@@ -2035,11 +1696,8 @@ public virtual void registerMediaComponent(global::com.codename1.ui.Component n1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void registerMediaComponent(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmediaComponents;
@@ -2062,9 +1720,7 @@ public virtual bool hasMedia(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean hasMedia()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmediaComponents;
     if (_r0_o == null) goto label14;
@@ -2082,13 +1738,9 @@ public virtual bool hasMedia(){
 
 public virtual void deregisterMediaComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void deregisterMediaComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmediaComponents;
@@ -2101,11 +1753,8 @@ public virtual void registerAnimated(global::com.codename1.ui.animations.Animati
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void registerAnimated(com.codename1.ui.animations.Animation)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimatableComponents;
@@ -2130,11 +1779,8 @@ public virtual void registerAnimatedInternal(global::com.codename1.ui.animations
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void registerAnimatedInternal(com.codename1.ui.animations.Animation)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._finternalAnimatableComponents;
@@ -2157,13 +1803,9 @@ public virtual void registerAnimatedInternal(global::com.codename1.ui.animations
 
 public virtual void deregisterAnimatedInternal(global::com.codename1.ui.animations.Animation n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void deregisterAnimatedInternal(com.codename1.ui.animations.Animation)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._finternalAnimatableComponents;
@@ -2177,13 +1819,9 @@ public virtual void deregisterAnimatedInternal(global::com.codename1.ui.animatio
 
 public virtual void deregisterAnimated(global::com.codename1.ui.animations.Animation n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void deregisterAnimated(com.codename1.ui.animations.Animation)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimatableComponents;
@@ -2199,9 +1837,7 @@ public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean animate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getParent();
     if (_r0_o == null) goto label9;
@@ -2214,13 +1850,9 @@ public override bool animate(){
 
 public virtual void repaintAnimations(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void repaintAnimations()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fanimatableComponents;
     if (_r0_o == null) goto label10;
@@ -2240,31 +1872,19 @@ public virtual void repaintAnimations(){
 
 private void loopAnimations(global::java.util.ArrayList n1, global::java.util.ArrayList n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void loopAnimations(java.util.ArrayList, java.util.ArrayList)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -2317,9 +1937,7 @@ public virtual bool hasAnimations(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean hasAnimations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimatableComponents;
     if (_r0_o == null) goto label12;
@@ -2344,19 +1962,13 @@ public virtual bool hasAnimations(){
 
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void refreshTheme(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1 ? 1 : 0;
     _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fmenuBar;
@@ -2411,11 +2023,8 @@ public override void refreshTheme(bool n1){
 
 public override void paintBackground(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void paintBackground(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.paintBackground((global::com.codename1.ui.Graphics) _r1_o);
@@ -2425,11 +2034,8 @@ public override void paintBackground(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object getTransitionInAnimator(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.animations.Transition getTransitionInAnimator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftransitionInAnimator;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -2438,11 +2044,8 @@ public virtual global::System.Object getTransitionInAnimator(){
 
 public virtual void setTransitionInAnimator(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTransitionInAnimator(com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._ftransitionInAnimator = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -2452,11 +2055,8 @@ public virtual void setTransitionInAnimator(global::com.codename1.ui.animations.
 
 public virtual global::System.Object getTransitionOutAnimator(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.animations.Transition getTransitionOutAnimator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftransitionOutAnimator;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -2465,11 +2065,8 @@ public virtual global::System.Object getTransitionOutAnimator(){
 
 public virtual void setTransitionOutAnimator(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTransitionOutAnimator(com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._ftransitionOutAnimator = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -2479,13 +2076,9 @@ public virtual void setTransitionOutAnimator(global::com.codename1.ui.animations
 
 public virtual void addCommandListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addCommandListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcommandListener;
@@ -2502,13 +2095,9 @@ public virtual void addCommandListener(global::com.codename1.ui.events.ActionLis
 
 public virtual void removeCommandListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeCommandListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcommandListener;
@@ -2519,11 +2108,8 @@ public virtual void removeCommandListener(global::com.codename1.ui.events.Action
 
 public virtual void actionCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void actionCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -2533,14 +2119,9 @@ public virtual void actionCommand(global::com.codename1.ui.Command n1){
 public virtual void dispatchCommand(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void dispatchCommand(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2555,13 +2136,9 @@ public virtual void dispatchCommand(global::com.codename1.ui.Command n1, global:
 
 public virtual void actionCommandImpl(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void actionCommandImpl(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.events.ActionEvent();
@@ -2573,17 +2150,12 @@ public virtual void actionCommandImpl(global::com.codename1.ui.Command n1){
 
 public virtual void actionCommandImpl(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void actionCommandImpl(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -2628,13 +2200,9 @@ public virtual void actionCommandImplNoRecurseComponent(global::com.codename1.ui
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void actionCommandImplNoRecurseComponent(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2669,9 +2237,7 @@ public virtual void initFocused(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void initFocused()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     if (_r0_o != null) goto label25;
@@ -2693,9 +2259,7 @@ public virtual void show(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void show()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -2709,10 +2273,7 @@ public virtual void show(){
 public virtual void showBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void showBack()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Form) _r1_o).show(0!=_r0.i);
@@ -2724,11 +2285,8 @@ private void show(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void show(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftransitionOutAnimator;
@@ -2756,11 +2314,8 @@ private void show(bool n1){
 
 public override void deinitializeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void deinitializeImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     base.deinitializeImpl();
@@ -2774,11 +2329,8 @@ public override void initComponentImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void initComponentImpl()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initComponentImpl();
     _r0_o = null;
@@ -2804,13 +2356,9 @@ public override void initComponentImpl(){
 
 public override void setSmoothScrolling(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setSmoothScrolling(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
@@ -2826,9 +2374,7 @@ public override bool isSmoothScrolling(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isSmoothScrolling()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).isSmoothScrolling() ? 1 : 0;
@@ -2840,9 +2386,7 @@ public override int getScrollAnimationSpeed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getScrollAnimationSpeed()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).getScrollAnimationSpeed();
@@ -2852,13 +2396,9 @@ public override int getScrollAnimationSpeed(){
 
 public override void setScrollAnimationSpeed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setScrollAnimationSpeed(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
@@ -2869,9 +2409,7 @@ public override void setScrollAnimationSpeed(int n1){
 
 public virtual void onShow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void onShow()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void onShow()]
@@ -2879,9 +2417,7 @@ public virtual void onShow(){
 
 public virtual void onShowCompleted(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void onShowCompleted()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void onShowCompleted()]
@@ -2891,11 +2427,8 @@ public virtual void onShowCompletedImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void onShowCompletedImpl()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.Form) _r2_o).setLightweightMode(0!=_r0.i);
@@ -2913,47 +2446,30 @@ public virtual void onShowCompletedImpl(){
 
 public virtual void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6, bool n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void showModal(int, int, int, int, boolean, boolean, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r14.i = n2;
@@ -3143,12 +2659,8 @@ public virtual void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6, 
 public virtual void showModal(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void showModal(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = 1;
@@ -3162,30 +2674,18 @@ public virtual void showDialog(bool n1, bool n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.i = n1 ? 1 : 0;
     _r12.i = n2 ? 1 : 0;
@@ -3217,9 +2717,7 @@ public virtual void showDialog(bool n1, bool n2){
 
 public virtual void dispose(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void dispose()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.Form) _r0_o).disposeImpl();
     return;
@@ -3229,10 +2727,7 @@ public virtual void dispose(){
 public virtual bool isDisposed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isDisposed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -3242,16 +2737,11 @@ public virtual bool isDisposed(){
 public virtual void disposeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void disposeImpl()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
@@ -3294,10 +2784,7 @@ public virtual void disposeImpl(){
 public virtual bool isMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isMenu()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -3308,11 +2795,8 @@ public override void repaint(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void repaint(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getParent();
@@ -3331,11 +2815,8 @@ public override void repaint(global::com.codename1.ui.Component n1){
 
 public override global::System.Object getComponentForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Form getComponentForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getParent();
     if (_r0_o == null) goto label11;
@@ -3350,11 +2831,8 @@ public override global::System.Object getComponentForm(){
 
 public virtual void hideMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void hideMenu()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     ((global::com.codename1.ui.MenuBar) _r0_o).unInstallMenuBar();
@@ -3364,11 +2842,8 @@ public virtual void hideMenu(){
 
 public virtual void restoreMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void restoreMenu()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     ((global::com.codename1.ui.MenuBar) _r0_o).installMenuBar();
@@ -3378,11 +2853,8 @@ public virtual void restoreMenu(){
 
 public virtual void setFocusedInternal(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setFocusedInternal(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._ffocused = (global::com.codename1.ui.Component) _r1_o;
@@ -3392,21 +2864,14 @@ public virtual void setFocusedInternal(global::com.codename1.ui.Component n1){
 
 public virtual void setFocused(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setFocused(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -3452,37 +2917,23 @@ public virtual void setFocused(global::com.codename1.ui.Component n1){
 
 private bool changeFocusState(global::com.codename1.ui.Component n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean changeFocusState(com.codename1.ui.Component, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r14.i = n2 ? 1 : 0;
@@ -3566,11 +3017,8 @@ private bool changeFocusState(global::com.codename1.ui.Component n1, bool n2){
 
 public virtual global::System.Object getFocused(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component getFocused()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -3579,13 +3027,9 @@ public virtual global::System.Object getFocused(){
 
 public override void longKeyPress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void longKeyPress(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
@@ -3602,17 +3046,12 @@ public override void longKeyPress(int n1){
 
 public override void longPointerPress(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void longPointerPress(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -3652,10 +3091,7 @@ public override void longPointerPress(int n1, int n2){
 public virtual bool shouldSendPointerReleaseToOtherForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean shouldSendPointerReleaseToOtherForm()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -3665,16 +3101,11 @@ public virtual bool shouldSendPointerReleaseToOtherForm(){
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void keyPressed(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -3724,11 +3155,8 @@ public override void keyPressed(int n1){
 
 public override global::System.Object getLayout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.layouts.Layout getLayout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fcontentPane;
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getLayout();
@@ -3740,9 +3168,7 @@ public virtual bool isMinimizeOnBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isMinimizeOnBack()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0.i = ((global::com.codename1.ui.MenuBar) _r0_o).isMinimizeOnBack() ? 1 : 0;
@@ -3752,13 +3178,9 @@ public virtual bool isMinimizeOnBack(){
 
 public virtual void setMinimizeOnBack(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setMinimizeOnBack(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -3769,17 +3191,12 @@ public virtual void setMinimizeOnBack(bool n1){
 
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void keyReleased(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2_o = global::com.codename1.ui.Display.getInstance();
@@ -3822,21 +3239,14 @@ public override void keyReleased(int n1){
 
 private void fireKeyEvent(global::java.util.HashMap n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void fireKeyEvent(java.util.HashMap, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2;
@@ -3868,14 +3278,10 @@ private void fireKeyEvent(global::java.util.HashMap n1, int n2){
 public override void keyRepeated(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void keyRepeated(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = ((global::com.codename1.ui.Form) _r2_o)._ffocused;
@@ -3918,16 +3324,10 @@ private void tactileTouchVibe(int n1, int n2, global::com.codename1.ui.Component
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -3946,27 +3346,17 @@ private void tactileTouchVibe(int n1, int n2, global::com.codename1.ui.Component
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerPressed(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -4063,15 +3453,11 @@ public override void pointerPressed(int n1, int n2){
 
 private bool isCurrentlyScrolling(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isCurrentlyScrolling(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getParent();
@@ -4096,37 +3482,22 @@ private bool isCurrentlyScrolling(global::com.codename1.ui.Component n1){
 
 private void autoRelease(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void autoRelease(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r14.i = n2;
@@ -4193,21 +3564,14 @@ private void autoRelease(int n1, int n2){
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerDragged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -4257,27 +3621,18 @@ public override void pointerDragged(int n1, int n2){
 
 public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerDragged(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -4337,21 +3692,14 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
 
 public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerHoverReleased(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4384,21 +3732,13 @@ public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> 
 
 public override void pointerHoverPressed(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerHoverPressed(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4423,21 +3763,14 @@ public override void pointerHoverPressed(global::org.xmlvm._nArrayAdapter<int> n
 
 public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void pointerHover(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4471,12 +3804,8 @@ public virtual bool isSingleFocusMode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r1.i = 0;
@@ -4494,21 +3823,13 @@ public virtual bool isSingleFocusMode(){
 
 private int isSingleFocusMode(int n1, global::com.codename1.ui.Container n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int isSingleFocusMode(int, com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -4550,48 +3871,27 @@ public override void pointerReleased(int n1, int n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21.i = n1;
     _r22.i = n2;
@@ -4877,13 +4177,9 @@ public override void pointerReleased(int n1, int n2){
 
 public override void setScrollableY(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setScrollableY(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
@@ -4894,13 +4190,9 @@ public override void setScrollableY(bool n1){
 
 public override void setScrollableX(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setScrollableX(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
@@ -4913,11 +4205,8 @@ public override int getComponentIndex(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getComponentIndex(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
@@ -4928,15 +4217,10 @@ public override int getComponentIndex(global::com.codename1.ui.Component n1){
 
 public virtual void addCommand(global::com.codename1.ui.Command n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addCommand(com.codename1.ui.Command, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -4950,9 +4234,7 @@ public virtual int getCommandCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getCommandCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     _r0.i = ((global::com.codename1.ui.MenuBar) _r0_o).getCommandCount();
@@ -4962,13 +4244,9 @@ public virtual int getCommandCount(){
 
 public virtual global::System.Object getCommand(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Command getCommand(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -4980,12 +4258,8 @@ public virtual global::System.Object getCommand(int n1){
 public virtual void addCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void addCommand(com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -4996,13 +4270,9 @@ public virtual void addCommand(global::com.codename1.ui.Command n1){
 
 public virtual void removeCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -5013,11 +4283,8 @@ public virtual void removeCommand(global::com.codename1.ui.Command n1){
 
 public virtual void setCyclicFocus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setCyclicFocus(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Form) _r0_o)._fcyclicFocus = 0!=_r1.i;
@@ -5027,31 +4294,19 @@ public virtual void setCyclicFocus(bool n1){
 
 private global::System.Object findNextFocusHorizontal(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Container n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusHorizontal(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Container, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -5104,33 +4359,20 @@ private global::System.Object findNextFocusHorizontal(global::com.codename1.ui.C
 
 private global::System.Object findNextFocusVertical(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Container n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusVertical(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Container, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -5205,27 +4447,17 @@ private global::System.Object findNextFocusVertical(global::com.codename1.ui.Com
 
 public virtual global::System.Object findNextFocusVertical(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusVertical(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1 ? 1 : 0;
     _r7.i = 1;
@@ -5279,27 +4511,17 @@ public virtual global::System.Object findNextFocusVertical(bool n1){
 
 public virtual global::System.Object findNextFocusHorizontal(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusHorizontal(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1 ? 1 : 0;
     _r7.i = 1;
@@ -5355,9 +4577,7 @@ public virtual global::System.Object findNextFocusDown(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusDown()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     if (_r0_o == null) goto label25;
@@ -5382,9 +4602,7 @@ public virtual global::System.Object findNextFocusUp(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusUp()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     if (_r0_o == null) goto label25;
@@ -5409,9 +4627,7 @@ public virtual global::System.Object findNextFocusRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusRight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     if (_r0_o == null) goto label25;
@@ -5436,9 +4652,7 @@ public virtual global::System.Object findNextFocusLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Component findNextFocusLeft()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ffocused;
     if (_r0_o == null) goto label25;
@@ -5462,10 +4676,7 @@ public virtual global::System.Object findNextFocusLeft(){
 public virtual bool isCyclicFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isCyclicFocus()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Form) _r1_o)._fcyclicFocus ? 1 : 0;
     return _r0.i!=0;
@@ -5474,23 +4685,14 @@ public virtual bool isCyclicFocus(){
 
 private void updateFocus(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void updateFocus(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r1_o = ((global::com.codename1.ui.Form) _r6_o).getFocused();
@@ -5540,21 +4742,14 @@ private void updateFocus(int n1){
 
 public override bool moveScrollTowards(int n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean moveScrollTowards(int, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -5593,15 +4788,11 @@ public override bool moveScrollTowards(int n1, global::com.codename1.ui.Componen
 
 public override void scrollComponentToVisible(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void scrollComponentToVisible(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.Form) _r2_o).initFocused();
@@ -5629,13 +4820,9 @@ public override void scrollComponentToVisible(global::com.codename1.ui.Component
 
 public virtual void setMenuCellRenderer(global::com.codename1.ui.list.ListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setMenuCellRenderer(com.codename1.ui.list.ListCellRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
@@ -5646,11 +4833,8 @@ public virtual void setMenuCellRenderer(global::com.codename1.ui.list.ListCellRe
 
 public virtual void removeAllCommands(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void removeAllCommands()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     ((global::com.codename1.ui.MenuBar) _r0_o).removeAllCommands();
@@ -5661,12 +4845,8 @@ public virtual void removeAllCommands(){
 public virtual void requestFocus(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void requestFocus(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
@@ -5682,13 +4862,9 @@ public virtual void requestFocus(global::com.codename1.ui.Component n1){
 
 public override void setRTL(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setRTL(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     base.setRTL(0!=_r2.i);
@@ -5703,20 +4879,12 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r1.i = 0;
@@ -5746,14 +4914,9 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 public override void internalPaintImpl(global::com.codename1.ui.Graphics n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void internalPaintImpl(com.codename1.ui.Graphics, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -5768,13 +4931,9 @@ public override void internalPaintImpl(global::com.codename1.ui.Graphics n1, boo
 
 public override void setScrollable(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setScrollable(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
@@ -5787,9 +4946,7 @@ public override bool isScrollable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isScrollable()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).isScrollable() ? 1 : 0;
@@ -5800,18 +4957,11 @@ public override bool isScrollable(){
 public override void setVisible(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setVisible(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1 ? 1 : 0;
     base.setVisible(0!=_r5.i);
@@ -5836,10 +4986,7 @@ public override void setVisible(bool n1){
 public virtual int getTintColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: int getTintColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Form) _r1_o)._ftintColor;
     return _r0.i;
@@ -5848,11 +4995,8 @@ public virtual int getTintColor(){
 
 public virtual void setTintColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setTintColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Form) _r0_o)._ftintColor = _r1.i;
@@ -5862,15 +5006,10 @@ public virtual void setTintColor(int n1){
 
 public virtual void setMenuTransitions(global::com.codename1.ui.animations.Transition n1, global::com.codename1.ui.animations.Transition n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setMenuTransitions(com.codename1.ui.animations.Transition, com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -5882,13 +5021,10 @@ public virtual void setMenuTransitions(global::com.codename1.ui.animations.Trans
 
 public override global::System.Object paramString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: java.lang.String paramString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -5913,11 +5049,8 @@ public override global::System.Object paramString(){
 
 public virtual global::System.Object getMenuBar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.MenuBar getMenuBar()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fmenuBar;
     return (global::com.codename1.ui.MenuBar) _r0_o;
@@ -5926,11 +5059,8 @@ public virtual global::System.Object getMenuBar(){
 
 public virtual void setMenuBar(global::com.codename1.ui.MenuBar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setMenuBar(com.codename1.ui.MenuBar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Form) _r0_o)._fmenuBar = (global::com.codename1.ui.MenuBar) _r1_o;
@@ -5941,13 +5071,9 @@ public virtual void setMenuBar(global::com.codename1.ui.MenuBar n1){
 
 public virtual void setToolBar(global::com.codename1.ui.Toolbar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setToolBar(com.codename1.ui.Toolbar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Form) _r1_o)._ftoolbar = (global::com.codename1.ui.Toolbar) _r2_o;
@@ -5959,11 +5085,8 @@ public virtual void setToolBar(global::com.codename1.ui.Toolbar n1){
 
 public virtual global::System.Object getToolbar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Toolbar getToolbar()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._ftoolbar;
     return (global::com.codename1.ui.Toolbar) _r0_o;
@@ -5973,10 +5096,7 @@ public virtual global::System.Object getToolbar(){
 public virtual bool isFocusScrolling(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean isFocusScrolling()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Form) _r1_o)._ffocusScrolling ? 1 : 0;
     return _r0.i!=0;
@@ -5985,11 +5105,8 @@ public virtual bool isFocusScrolling(){
 
 public virtual void setFocusScrolling(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setFocusScrolling(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Form) _r0_o)._ffocusScrolling = 0!=_r1.i;
@@ -6002,12 +5119,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -6030,14 +5143,9 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r0.i = 2;
@@ -6057,14 +5165,9 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=String
     _r3_o = new global::java.lang.String();
@@ -6089,11 +5192,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=titleUIID
@@ -6128,15 +5228,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

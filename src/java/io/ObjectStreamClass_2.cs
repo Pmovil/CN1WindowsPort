@@ -5,9 +5,7 @@ namespace java.io {
 public class ObjectStreamClass_22: global::java.lang.Object,global::java.util.Comparator {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass$2: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,15 +16,10 @@ public virtual int compare(global::java.lang.reflect.Field n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass$2: int compare(java.lang.reflect.Field, java.lang.reflect.Field)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -40,14 +33,9 @@ public virtual int compare(global::java.lang.reflect.Field n1, global::java.lang
 public virtual int compare(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass$2: int compare(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

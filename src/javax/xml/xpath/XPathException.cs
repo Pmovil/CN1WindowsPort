@@ -9,11 +9,8 @@ public global::java.lang.Throwable _fcause;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Exception) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -23,11 +20,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void <init>(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Exception) _r0_o).@this((global::java.lang.Throwable) _r1_o);
@@ -38,11 +32,8 @@ public void @this(global::java.lang.Throwable n1){
 
 public override global::System.Object getCause(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: java.lang.Throwable getCause()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.xpath.XPathException) _r1_o)._fcause;
     return (global::java.lang.Throwable) _r0_o;
@@ -51,9 +42,7 @@ public override global::System.Object getCause(){
 
 public override void printStackTrace(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void printStackTrace()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.printStackTrace();
     return;
@@ -62,11 +51,8 @@ public override void printStackTrace(){
 
 public override void printStackTrace(global::java.io.PrintStream n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void printStackTrace(java.io.PrintStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.printStackTrace((global::java.io.PrintStream) _r1_o);
@@ -76,11 +62,8 @@ public override void printStackTrace(global::java.io.PrintStream n1){
 
 public override void printStackTrace(global::java.io.PrintWriter n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void printStackTrace(java.io.PrintWriter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.printStackTrace((global::java.io.PrintWriter) _r1_o);

@@ -43,15 +43,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -63,11 +58,8 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 
 public virtual global::System.Object getForm(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: org.w3c.dom.html2.HTMLFormElement getForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=form
     _r0_o = new global::java.lang.String();
@@ -82,9 +74,7 @@ public virtual bool getDefaultSelected(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: boolean getDefaultSelected()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=selected
     _r0_o = new global::java.lang.String();
@@ -96,13 +86,9 @@ public virtual bool getDefaultSelected(){
 
 public virtual void setDefaultSelected(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void setDefaultSelected(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=selected
@@ -115,11 +101,8 @@ public virtual void setDefaultSelected(bool n1){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLOptionElement) _r1_o).getTextContent();
     return (global::java.lang.String) _r0_o;
@@ -129,10 +112,7 @@ public virtual global::System.Object getText(){
 public override int getIndex(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: int getIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = base.getIndex();
     return _r0.i;
@@ -143,9 +123,7 @@ public virtual bool getDisabled(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: boolean getDisabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=disabled
     _r0_o = new global::java.lang.String();
@@ -157,13 +135,9 @@ public virtual bool getDisabled(){
 
 public virtual void setDisabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void setDisabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=disabled
@@ -176,11 +150,8 @@ public virtual void setDisabled(bool n1){
 
 public virtual global::System.Object getLabel(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: java.lang.String getLabel()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=label
     _r0_o = new global::java.lang.String();
@@ -192,13 +163,9 @@ public virtual global::System.Object getLabel(){
 
 public virtual void setLabel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void setLabel(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=label
@@ -213,9 +180,7 @@ public virtual bool getSelected(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: boolean getSelected()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLOptionElement) _r1_o)._fselected;
     if (_r0_o != null) goto label14;
@@ -231,13 +196,9 @@ public virtual bool getSelected(){
 
 public virtual void setSelected(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void setSelected(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = global::java.lang.Boolean.valueOf(0!=_r2.i);
@@ -248,11 +209,8 @@ public virtual void setSelected(bool n1){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: java.lang.String getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=value
     _r0_o = new global::java.lang.String();
@@ -264,13 +222,9 @@ public virtual global::System.Object getValue(){
 
 public virtual void setValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLOptionElement: void setValue(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=value

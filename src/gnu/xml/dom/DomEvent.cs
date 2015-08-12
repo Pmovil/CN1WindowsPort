@@ -29,11 +29,8 @@ public static short _fBUBBLING_1PHASE = org.w3c.dom.events._iEvent._fBUBBLING_1P
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent) _r1_o)._ftype;
     return (global::java.lang.String) _r0_o;
@@ -42,11 +39,8 @@ public virtual global::System.Object getType(){
 
 public virtual global::System.Object getTarget(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: org.w3c.dom.events.EventTarget getTarget()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent) _r1_o)._ftarget;
     return (global::org.w3c.dom.events.EventTarget) _r0_o;
@@ -55,11 +49,8 @@ public virtual global::System.Object getTarget(){
 
 public virtual global::System.Object getCurrentTarget(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: org.w3c.dom.events.EventTarget getCurrentTarget()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent) _r1_o)._fcurrentNode;
     return (global::org.w3c.dom.events.EventTarget) _r0_o;
@@ -69,10 +60,7 @@ public virtual global::System.Object getCurrentTarget(){
 public virtual short getEventPhase(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: short getEventPhase()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomEvent) _r1_o)._feventPhase;
     return (short) _r0.i;
@@ -82,10 +70,7 @@ public virtual short getEventPhase(){
 public virtual bool getBubbles(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: boolean getBubbles()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomEvent) _r1_o)._fbubbles ? 1 : 0;
     return _r0.i!=0;
@@ -95,10 +80,7 @@ public virtual bool getBubbles(){
 public virtual bool getCancelable(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: boolean getCancelable()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomEvent) _r1_o)._fcancelable ? 1 : 0;
     return _r0.i!=0;
@@ -108,12 +90,7 @@ public virtual bool getCancelable(){
 public virtual long getTimeStamp(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: long getTimeStamp()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::gnu.xml.dom.DomEvent) _r2_o)._ftimeStamp;
     return _r0.l;
@@ -123,10 +100,7 @@ public virtual long getTimeStamp(){
 public virtual void stopPropagation(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: void stopPropagation()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::gnu.xml.dom.DomEvent) _r1_o)._fstop = 0!=_r0.i;
@@ -137,10 +111,7 @@ public virtual void stopPropagation(){
 public virtual void preventDefault(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: void preventDefault()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::gnu.xml.dom.DomEvent) _r1_o)._fdoDefault = 0!=_r0.i;
@@ -151,18 +122,10 @@ public virtual void preventDefault(){
 public virtual void initEvent(global::java.lang.String n1, bool n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: void initEvent(java.lang.String, boolean, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -180,11 +143,8 @@ public virtual void initEvent(global::java.lang.String n1, bool n2, bool n3){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -195,15 +155,11 @@ public void @this(global::java.lang.String n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
     // Value=[Event 

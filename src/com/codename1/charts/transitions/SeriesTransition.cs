@@ -24,14 +24,9 @@ private bool _ffinished;
 public void @this(global::com.codename1.charts.ChartComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void <init>(com.codename1.charts.ChartComponent)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 1;
@@ -44,14 +39,9 @@ public void @this(global::com.codename1.charts.ChartComponent n1){
 public void @this(global::com.codename1.charts.ChartComponent n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void <init>(com.codename1.charts.ChartComponent, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -64,16 +54,10 @@ public void @this(global::com.codename1.charts.ChartComponent n1, int n2){
 public void @this(global::com.codename1.charts.ChartComponent n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void <init>(com.codename1.charts.ChartComponent, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -93,12 +77,8 @@ public virtual void initTransition(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 100;
     _r1.i = 0;
@@ -140,9 +120,7 @@ public virtual void initTransition(){
 
 public virtual void cleanup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void cleanup()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void cleanup()]
@@ -155,10 +133,7 @@ public virtual bool animate(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0.i = ((global::com.codename1.charts.transitions.SeriesTransition) _r2_o)._ffinished ? 1 : 0;
@@ -186,13 +161,9 @@ public virtual bool animate(){
 
 public virtual void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o).getChart();
@@ -203,11 +174,8 @@ public virtual void paint(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object getChart(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: com.codename1.charts.ChartComponent getChart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o)._fchart;
     return (global::com.codename1.charts.ChartComponent) _r0_o;
@@ -216,11 +184,8 @@ public virtual global::System.Object getChart(){
 
 public virtual void setChart(global::com.codename1.charts.ChartComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void setChart(com.codename1.charts.ChartComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.transitions.SeriesTransition) _r0_o)._fchart = (global::com.codename1.charts.ChartComponent) _r1_o;
@@ -231,10 +196,7 @@ public virtual void setChart(global::com.codename1.charts.ChartComponent n1){
 public virtual int getDuration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: int getDuration()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o)._fduration;
     return _r0.i;
@@ -243,11 +205,8 @@ public virtual int getDuration(){
 
 public virtual void setDuration(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void setDuration(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.transitions.SeriesTransition) _r0_o)._fduration = _r1.i;
@@ -258,10 +217,7 @@ public virtual void setDuration(int n1){
 public virtual int getEasing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: int getEasing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o)._feasing;
     return _r0.i;
@@ -270,11 +226,8 @@ public virtual int getEasing(){
 
 public virtual void setEasing(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void setEasing(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.transitions.SeriesTransition) _r0_o)._feasing = _r1.i;
@@ -284,11 +237,8 @@ public virtual void setEasing(int n1){
 
 public virtual void animateChart(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void animateChart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o).initTransition();
     _r0_o = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o)._fchart;
@@ -300,11 +250,8 @@ public virtual void animateChart(){
 
 public virtual void updateChart(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void updateChart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.transitions.SeriesTransition) _r1_o)._fchart;
     ((global::com.codename1.charts.ChartComponent) _r0_o).repaint();

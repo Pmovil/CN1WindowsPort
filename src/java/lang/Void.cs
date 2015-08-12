@@ -17,9 +17,7 @@ private static void initVoid(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Void: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -28,9 +26,7 @@ private void @this(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Void: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.lang.Void._fTYPE = (global::java.lang.Class) _r0_o;
     global::java.lang.Void.initVoid();

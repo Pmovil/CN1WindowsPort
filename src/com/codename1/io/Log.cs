@@ -40,11 +40,8 @@ private int _freporting;
 
 public static void setReportingLevel(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setReportingLevel(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o)._freporting = _r1.i;
@@ -56,7 +53,6 @@ public static int getReportingLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: int getReportingLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     _r0.i = ((global::com.codename1.io.Log) _r0_o)._freporting;
     return _r0.i;
@@ -67,11 +63,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0.i = 1;
@@ -90,31 +82,18 @@ public void @this(){
 
 public static long getUniqueDeviceId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: long getUniqueDeviceId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.l = 0L;
     _r9.l = -1L;
     // Value=UDeviceId__$
@@ -257,26 +236,16 @@ public static long getUniqueDeviceId(){
 public static void sendLog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void sendLog()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=
@@ -462,9 +431,7 @@ public static void sendLog(){
 
 public static void install(global::com.codename1.io.Log n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void install(com.codename1.io.Log)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.Log._finstance = (global::com.codename1.io.Log) _r0_o;
     return;
@@ -474,10 +441,7 @@ public static void install(global::com.codename1.io.Log n1){
 public static void p(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void p(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 1;
     global::com.codename1.io.Log.p((global::java.lang.String) _r1_o, (int) _r0.i);
@@ -487,13 +451,9 @@ public static void p(global::java.lang.String n1){
 
 public static void p(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void p(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = global::com.codename1.io.Log._finstance;
@@ -504,11 +464,8 @@ public static void p(global::java.lang.String n1, int n2){
 
 public static void e(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void e(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o).logThrowable((global::java.lang.Throwable) _r1_o);
@@ -518,23 +475,15 @@ public static void e(global::java.lang.Throwable n1){
 
 public virtual void logThrowable(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void logThrowable(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -649,20 +598,14 @@ public virtual void logThrowable(global::java.lang.Throwable n1){
 
 public virtual void print(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void print(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
@@ -760,19 +703,14 @@ public virtual void print(global::java.lang.String n1, int n2){
 
 public virtual global::System.Object createWriter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer createWriter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -869,11 +807,8 @@ public virtual global::System.Object createWriter(){
 
 private global::System.Object getWriter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer getWriter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._foutput;
     if (_r0_o != null) goto label10;
@@ -888,36 +823,15 @@ private global::System.Object getWriter(){
 public virtual global::System.Object getThreadAndTimeStamp(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getThreadAndTimeStamp()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r10.l = global::java.lang.System.currentTimeMillis();
     _r12.l = ((global::com.codename1.io.Log) _r14_o)._fzeroTime;
@@ -972,11 +886,8 @@ public virtual global::System.Object getThreadAndTimeStamp(){
 
 public static void setLevel(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setLevel(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o)._flevel = _r1.i;
@@ -988,7 +899,6 @@ public static int getLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: int getLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     _r0.i = ((global::com.codename1.io.Log) _r0_o)._flevel;
     return _r0.i;
@@ -997,24 +907,17 @@ public static int getLevel(){
 
 public static global::System.Object getLogContent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getLogContent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
     // Value=
@@ -1130,22 +1033,15 @@ public static global::System.Object getLogContent(){
 
 public static void showLog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void showLog()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
     _r5_o = global::com.codename1.io.Log.getLogContent();
@@ -1200,9 +1096,7 @@ public static void showLog(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: com.codename1.io.Log getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     return (global::com.codename1.io.Log) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Log: com.codename1.io.Log getInstance()]
@@ -1211,10 +1105,7 @@ public static global::System.Object getInstance(){
 public virtual bool isFileWriteEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: boolean isFileWriteEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Log) _r1_o)._ffileWriteEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1223,11 +1114,8 @@ public virtual bool isFileWriteEnabled(){
 
 public virtual void setFileWriteEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setFileWriteEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.Log) _r0_o)._ffileWriteEnabled = 0!=_r1.i;
@@ -1237,11 +1125,8 @@ public virtual void setFileWriteEnabled(bool n1){
 
 public virtual global::System.Object getFileURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getFileURL()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._ffileURL;
     return (global::java.lang.String) _r0_o;
@@ -1250,11 +1135,8 @@ public virtual global::System.Object getFileURL(){
 
 public virtual void setFileURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setFileURL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Log) _r0_o)._ffileURL = (global::java.lang.String) _r1_o;
@@ -1264,13 +1146,9 @@ public virtual void setFileURL(global::java.lang.String n1){
 
 public virtual void trackFileSystem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void trackFileSystem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r1_o = new global::com.codename1.io.Log_23();
@@ -1282,11 +1160,8 @@ public virtual void trackFileSystem(){
 
 public static global::System.Object access_2000(global::com.codename1.io.Log n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer access$000(com.codename1.io.Log)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._foutput;
     return (global::java.io.Writer) _r0_o;
@@ -1297,7 +1172,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.io.Log();
     ((global::com.codename1.io.Log) _r0_o).@this();
     global::com.codename1.io.Log._finstance = (global::com.codename1.io.Log) _r0_o;

@@ -50,10 +50,7 @@ private void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = -1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -75,12 +72,8 @@ private void @this(){
 public virtual bool isPrecisionSet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: boolean isPrecisionSet()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r2_o)._fprecision;
     _r1.i = -1;
@@ -97,12 +90,8 @@ public virtual bool isPrecisionSet(){
 public virtual bool isWidthSet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: boolean isWidthSet()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r2_o)._fwidth;
     _r1.i = -1;
@@ -119,12 +108,8 @@ public virtual bool isWidthSet(){
 public virtual bool isFlagSet(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: boolean isFlagSet(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fflags;
@@ -142,10 +127,7 @@ public virtual bool isFlagSet(int n1){
 public virtual int getArgIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: int getArgIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fargIndex;
     return _r0.i;
@@ -154,11 +136,8 @@ public virtual int getArgIndex(){
 
 public virtual void setArgIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setArgIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fargIndex = _r1.i;
@@ -168,11 +147,8 @@ public virtual void setArgIndex(int n1){
 
 public virtual global::System.Object getPlainText(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: java.lang.String getPlainText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Formatter_2FormatToken) _r1_o)._fplainText;
     return (global::java.lang.String) _r0_o;
@@ -181,11 +157,8 @@ public virtual global::System.Object getPlainText(){
 
 public virtual void setPlainText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setPlainText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fplainText = (global::java.lang.String) _r1_o;
@@ -196,10 +169,7 @@ public virtual void setPlainText(global::java.lang.String n1){
 public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: int getWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fwidth;
     return _r0.i;
@@ -208,11 +178,8 @@ public virtual int getWidth(){
 
 public virtual void setWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setWidth(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fwidth = _r1.i;
@@ -223,10 +190,7 @@ public virtual void setWidth(int n1){
 public virtual int getPrecision(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: int getPrecision()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fprecision;
     return _r0.i;
@@ -235,11 +199,8 @@ public virtual int getPrecision(){
 
 public virtual void setPrecision(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setPrecision(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fprecision = _r1.i;
@@ -249,11 +210,8 @@ public virtual void setPrecision(int n1){
 
 public virtual global::System.Object getStrFlags(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: java.lang.String getStrFlags()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Formatter_2FormatToken) _r1_o)._fstrFlags;
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
@@ -264,10 +222,7 @@ public virtual global::System.Object getStrFlags(){
 public virtual int getFlags(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: int getFlags()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fflags;
     return _r0.i;
@@ -276,11 +231,8 @@ public virtual int getFlags(){
 
 public virtual void setFlags(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setFlags(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fflags = _r1.i;
@@ -295,12 +247,8 @@ public virtual bool setFlag(char n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 1;
@@ -359,10 +307,7 @@ public virtual bool setFlag(char n1){
 public virtual int getFormatStringStartIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: int getFormatStringStartIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fformatStringStartIndex;
     return _r0.i;
@@ -371,11 +316,8 @@ public virtual int getFormatStringStartIndex(){
 
 public virtual void setFormatStringStartIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setFormatStringStartIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fformatStringStartIndex = _r1.i;
@@ -386,10 +328,7 @@ public virtual void setFormatStringStartIndex(int n1){
 public virtual char getConversionType(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: char getConversionType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fconversionType;
     return (char) _r0.i;
@@ -398,11 +337,8 @@ public virtual char getConversionType(){
 
 public virtual void setConversionType(char n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setConversionType(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fconversionType = (char) _r1.i;
@@ -413,10 +349,7 @@ public virtual void setConversionType(char n1){
 public virtual char getDateSuffix(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: char getDateSuffix()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r1_o)._fdateSuffix;
     return (char) _r0.i;
@@ -425,11 +358,8 @@ public virtual char getDateSuffix(){
 
 public virtual void setDateSuffix(char n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void setDateSuffix(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o)._fdateSuffix = (char) _r1.i;
@@ -440,12 +370,8 @@ public virtual void setDateSuffix(char n1){
 public virtual bool requireArgument(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: boolean requireArgument()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r2_o)._fconversionType;
     _r1.i = 37;
@@ -464,11 +390,8 @@ public virtual bool requireArgument(){
 
 public void @this(global::java.util.Formatter_2FormatToken n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void <init>(java.util.Formatter$FormatToken)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Formatter_2FormatToken) _r0_o).@this();

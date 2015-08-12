@@ -7,11 +7,8 @@ public global::java.util.Hashtable _fthis_20;
 
 public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: void <init>(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Hashtable_26) _r0_o)._fthis_20 = (global::java.util.Hashtable) _r1_o;
@@ -24,11 +21,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Hashtable_26) _r1_o)._fthis_20;
@@ -41,9 +35,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Hashtable_26) _r1_o)._fthis_20;
     _r0.i = ((global::java.util.Hashtable) _r0_o)._felementCount;
@@ -53,11 +45,8 @@ public override int size(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Hashtable_26) _r1_o)._fthis_20;
     ((global::java.util.Hashtable) _r0_o).clear();
@@ -69,11 +58,8 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Hashtable_26) _r1_o)._fthis_20;
@@ -94,13 +80,9 @@ public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$6: java.util.Iterator iterator()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.util.Hashtable_26) _r3_o).size();
     if (_r0.i != 0) goto label11;

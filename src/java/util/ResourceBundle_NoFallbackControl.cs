@@ -16,11 +16,8 @@ public static global::java.util.ResourceBundle_2Control _fNOFALLBACK_1FORMAT_1DE
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$NoFallbackControl: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.ResourceBundle_2NoFallbackControl();
     _r1_o = global::java.util.ResourceBundle_2NoFallbackControl._fJAVAPROPERTIES;
     ((global::java.util.ResourceBundle_2NoFallbackControl) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -39,13 +36,9 @@ public static void @static(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$NoFallbackControl: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.ResourceBundle_2Control) _r1_o).@this();
@@ -63,11 +56,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$NoFallbackControl: void <init>(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.ResourceBundle_2Control) _r0_o).@this();
@@ -78,15 +68,10 @@ public void @this(global::java.util.List n1){
 
 public override global::System.Object getFallbackLocale(global::java.lang.String n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$NoFallbackControl: java.util.Locale getFallbackLocale(java.lang.String, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

@@ -5,9 +5,7 @@ namespace com.codename1.codescan {
 public abstract class CodeScanner: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.codescan.CodeScanner: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,9 +14,7 @@ public void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.codescan.CodeScanner: com.codename1.codescan.CodeScanner getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getCodeScanner();
     return (global::com.codename1.codescan.CodeScanner) _r0_o;

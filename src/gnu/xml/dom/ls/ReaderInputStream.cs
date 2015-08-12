@@ -17,13 +17,9 @@ private int _fpos_1marked;
 
 public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: void <init>(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.InputStream) _r1_o).@this();
@@ -38,11 +34,8 @@ public void @this(global::java.io.Reader n1){
 
 public virtual void setEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: void setEncoding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.ReaderInputStream) _r0_o)._fencoding = (global::java.lang.String) _r1_o;
@@ -58,9 +51,7 @@ public override int read(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.ReaderInputStream) _r3_o)._fextra;
     if (_r0_o == null) goto label27;
@@ -88,14 +79,9 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: int read(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -113,19 +99,12 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -191,11 +170,8 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.ReaderInputStream) _r1_o)._freader;
     ((global::java.io.Reader) _r0_o).close();
@@ -207,9 +183,7 @@ public override bool markSupported(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: boolean markSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.ReaderInputStream) _r1_o)._freader;
     _r0.i = ((global::java.io.Reader) _r0_o).markSupported() ? 1 : 0;
@@ -221,16 +195,12 @@ public override void mark(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: void mark(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
@@ -280,9 +250,7 @@ public override void reset(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: void reset()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.ReaderInputStream) _r1_o)._fextra_1marked;
     ((global::gnu.xml.dom.ls.ReaderInputStream) _r1_o)._fextra = (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -301,22 +269,14 @@ public override long skip(long n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.l = n1;
     _r4.l = 0L;
@@ -366,9 +326,7 @@ public override int available(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.ReaderInputStream) _r2_o)._fextra;
     if (_r0_o == null) goto label11;
@@ -392,13 +350,9 @@ public override int available(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.ReaderInputStream: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1_o = ((global::java.lang.Object) _r2_o).getClass();

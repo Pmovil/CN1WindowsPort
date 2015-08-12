@@ -5,9 +5,7 @@ namespace org.apache.harmony.luni.net {
 public class NetUtil: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,10 +15,7 @@ public void @this(){
 public static bool usingSocks(global::java.net.Proxy n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: boolean usingSocks(java.net.Proxy)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     return _r0.i!=0;
@@ -30,8 +25,6 @@ public static bool usingSocks(global::java.net.Proxy n1){
 public static bool preferIPv6Addresses(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: boolean preferIPv6Addresses()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.net.NetUtil: boolean preferIPv6Addresses()]
@@ -40,8 +33,6 @@ public static bool preferIPv6Addresses(){
 public static bool preferIPv4Stack(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: boolean preferIPv4Stack()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.net.NetUtil: boolean preferIPv4Stack()]
@@ -49,11 +40,8 @@ public static bool preferIPv4Stack(){
 
 public static global::System.Object getProxyList(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: java.util.List getProxyList(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = null;
     return (global::java.util.List) _r0_o;
@@ -63,16 +51,10 @@ public static global::System.Object getProxyList(global::java.net.URI n1){
 public static void intToBytes(int n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: void intToBytes(int, byte[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3_o = n2;
     _r4.i = n3;
@@ -101,16 +83,10 @@ public static void intToBytes(int n1, global::org.xmlvm._nArrayAdapter<sbyte> n2
 public static int bytesToInt(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.NetUtil: int bytesToInt(byte[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r1.i = _r4.i + 3;

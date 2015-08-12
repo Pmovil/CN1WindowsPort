@@ -5,9 +5,7 @@ namespace java.util.regex {
 public class AbstractLineTerminator_21: global::java.util.regex.AbstractLineTerminator {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractLineTerminator$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.regex.AbstractLineTerminator) _r0_o).@this();
     return;
@@ -17,12 +15,8 @@ public void @this(){
 public override bool isLineTerminator(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractLineTerminator$1: boolean isLineTerminator(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 10;
@@ -39,14 +33,9 @@ public override bool isLineTerminator(int n1){
 public override bool isAfterLineTerminator(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractLineTerminator$1: boolean isAfterLineTerminator(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;

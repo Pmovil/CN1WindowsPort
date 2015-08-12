@@ -9,15 +9,10 @@ public global::java.lang.String _fmethod;
 
 public void @this(global::com.codename1.javascript.JSObject n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptEvent: void <init>(com.codename1.javascript.JSObject, java.lang.String, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -31,11 +26,8 @@ public void @this(global::com.codename1.javascript.JSObject n1, global::java.lan
 
 public virtual global::System.Object getArgs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptEvent: java.lang.Object[] getArgs()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.javascript.JavascriptEvent) _r1_o)._fargs;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -44,11 +36,8 @@ public virtual global::System.Object getArgs(){
 
 public virtual global::System.Object getMethod(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptEvent: java.lang.String getMethod()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.javascript.JavascriptEvent) _r1_o)._fmethod;
     return (global::java.lang.String) _r0_o;
@@ -57,9 +46,7 @@ public virtual global::System.Object getMethod(){
 
 public virtual global::System.Object getSelf(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptEvent: com.codename1.javascript.JSObject getSelf()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.javascript.JavascriptEvent) _r0_o).getSource();
     _r0_o = _r0_o;

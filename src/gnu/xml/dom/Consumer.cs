@@ -5,11 +5,8 @@ namespace gnu.xml.dom {
 public class Consumer: global::gnu.xml.pipeline.DomConsumer {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.Consumer: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::gnu.xml.dom.DomDocument));
     ((global::gnu.xml.pipeline.DomConsumer) _r1_o).@this((global::java.lang.Class) _r0_o);
@@ -22,13 +19,9 @@ public void @this(){
 
 public void @this(global::gnu.xml.pipeline.EventConsumer n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.Consumer: void <init>(gnu.xml.pipeline.EventConsumer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::gnu.xml.dom.DomDocument));

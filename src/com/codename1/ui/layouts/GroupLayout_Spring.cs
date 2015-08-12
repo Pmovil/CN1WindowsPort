@@ -20,12 +20,8 @@ public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o)._fthis_20 = (global::com.codename1.ui.layouts.GroupLayout) _r2_o;
@@ -46,11 +42,8 @@ public abstract int calculateMaximumSize(int n1);
 
 public virtual void setParent(global::com.codename1.ui.layouts.GroupLayout_2Spring n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: void setParent(com.codename1.ui.layouts.GroupLayout$Spring)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o)._fparent = (global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o;
@@ -60,11 +53,8 @@ public virtual void setParent(global::com.codename1.ui.layouts.GroupLayout_2Spri
 
 public virtual global::System.Object getParent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: com.codename1.ui.layouts.GroupLayout$Spring getParent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o)._fparent;
     return (global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o;
@@ -73,11 +63,8 @@ public virtual global::System.Object getParent(){
 
 public virtual void setAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: void setAlignment(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o)._falignment = _r1.i;
@@ -88,10 +75,7 @@ public virtual void setAlignment(int n1){
 public virtual int getAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getAlignment()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o)._falignment;
     return _r0.i;
@@ -101,14 +85,9 @@ public virtual int getAlignment(){
 public virtual int getMinimumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getMinimumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o)._fmin;
@@ -126,14 +105,9 @@ public virtual int getMinimumSize(int n1){
 public virtual int getPreferredSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getPreferredSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o)._fpref;
@@ -151,14 +125,9 @@ public virtual int getPreferredSize(int n1){
 public virtual int getMaximumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getMaximumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o)._fmax;
@@ -176,10 +145,7 @@ public virtual int getMaximumSize(int n1){
 public virtual void unset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: void unset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -2147483648;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o)._fmax = _r0.i;
@@ -193,16 +159,10 @@ public virtual void unset(){
 public virtual void setSize(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: void setSize(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -219,10 +179,7 @@ public virtual void setSize(int n1, int n2, int n3){
 public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o)._fsize;
     return _r0.i;
@@ -232,12 +189,8 @@ public virtual int getSize(){
 public virtual int constrain(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int constrain(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 32767;
@@ -249,10 +202,7 @@ public virtual int constrain(int n1){
 public virtual int getBaseline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getBaseline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     return _r0.i;
@@ -262,10 +212,7 @@ public virtual int getBaseline(){
 public virtual int getBaselineResizeBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: int getBaselineResizeBehavior()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 4;
     return _r0.i;
@@ -275,16 +222,10 @@ public virtual int getBaselineResizeBehavior(){
 public virtual bool isResizable(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Spring: boolean isResizable(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r3_o).getMinimumSize((int) _r4.i);

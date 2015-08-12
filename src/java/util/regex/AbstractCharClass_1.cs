@@ -9,13 +9,9 @@ private global::java.util.BitSet _fval_2lHS;
 
 public void @this(global::java.util.regex.AbstractCharClass n1, global::java.util.BitSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$1: void <init>(java.util.regex.AbstractCharClass, java.util.BitSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,16 +25,10 @@ public void @this(global::java.util.regex.AbstractCharClass n1, global::java.uti
 public override bool contains(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$1: boolean contains(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = 55296;

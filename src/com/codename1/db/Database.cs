@@ -5,9 +5,7 @@ namespace com.codename1.db {
 public abstract class Database: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.db.Database: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public static global::System.Object openOrCreate(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.db.Database: com.codename1.db.Database openOrCreate(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).openOrCreate((global::java.lang.String) _r1_o);
@@ -32,9 +27,7 @@ public static bool exists(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.db.Database: boolean exists(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).exists((global::java.lang.String) _r1_o) ? 1 : 0;
@@ -44,11 +37,8 @@ public static bool exists(global::java.lang.String n1){
 
 public static void delete(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.db.Database: void delete(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     ((global::com.codename1.ui.Display) _r0_o).delete((global::java.lang.String) _r1_o);
@@ -58,11 +48,8 @@ public static void delete(global::java.lang.String n1){
 
 public static global::System.Object getDatabasePath(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.db.Database: java.lang.String getDatabasePath(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getDatabasePath((global::java.lang.String) _r1_o);

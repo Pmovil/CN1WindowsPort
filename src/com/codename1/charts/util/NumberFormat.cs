@@ -12,9 +12,7 @@ public static global::com.codename1.charts.util.NumberFormat _finstance;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -23,11 +21,8 @@ public void @this(){
 
 private global::System.Object l10n(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: com.codename1.l10n.L10NManager l10n()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getLocalizationManager();
@@ -37,9 +32,7 @@ private global::System.Object l10n(){
 
 public static global::System.Object getNumberInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: com.codename1.charts.util.NumberFormat getNumberInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.charts.util.NumberFormat._finstance;
     return (global::com.codename1.charts.util.NumberFormat) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.util.NumberFormat: com.codename1.charts.util.NumberFormat getNumberInstance()]
@@ -47,15 +40,9 @@ public static global::System.Object getNumberInstance(){
 
 public virtual global::System.Object format(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: java.lang.String format(double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0_o = ((global::com.codename1.charts.util.NumberFormat) _r1_o).l10n();
@@ -66,11 +53,8 @@ public virtual global::System.Object format(double n1){
 
 public virtual void setMaximumFractionDigits(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: void setMaximumFractionDigits(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -81,13 +65,9 @@ public virtual double parseDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: double parseDouble(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=,
@@ -104,9 +84,7 @@ public virtual double parseDouble(global::java.lang.String n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.charts.util.NumberFormat();
     ((global::com.codename1.charts.util.NumberFormat) _r0_o).@this();
     global::com.codename1.charts.util.NumberFormat._finstance = (global::com.codename1.charts.util.NumberFormat) _r0_o;

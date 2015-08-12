@@ -120,17 +120,11 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r3.i = 0;
@@ -194,14 +188,9 @@ public virtual void setInputType(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 1;
@@ -241,21 +230,15 @@ public virtual void setInputType(int n1){
 
 public virtual void setTextField(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setTextField(com.codename1.ui.TextArea)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -327,13 +310,9 @@ public virtual void setTextField(global::com.codename1.ui.TextArea n1){
 
 public override void show(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void show()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=South
     _r0_o = new global::java.lang.String();
@@ -348,13 +327,9 @@ public override void autoAdjust(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void autoAdjust(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -370,17 +345,12 @@ public override void autoAdjust(int n1, int n2){
 
 public virtual void initModes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void initModes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=ABC
     _r2_o = new global::java.lang.String();
@@ -424,11 +394,8 @@ public virtual void initModes(){
 
 public virtual void setCurrentMode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setCurrentMode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.VirtualKeyboard) _r0_o)._fcurrentMode = (global::java.lang.String) _r1_o;
@@ -438,11 +405,8 @@ public virtual void setCurrentMode(global::java.lang.String n1){
 
 public virtual global::System.Object getCurrentMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String getCurrentMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._fcurrentMode;
     return (global::java.lang.String) _r0_o;
@@ -456,66 +420,38 @@ private void initInputButtons(bool n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
-    global::System.Object _r29_o = null;
-    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r30_o = this;
     _r31.i = n1 ? 1 : 0;
     _r0_o = _r30_o;
@@ -832,19 +768,13 @@ private void initInputButtons(bool n1){
 
 private global::System.Object createInputButton(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.Button createInputButton(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -865,15 +795,10 @@ private global::System.Object createInputButton(global::java.lang.String n1, int
 
 private global::System.Object createButton(global::com.codename1.ui.Command n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.Button createButton(com.codename1.ui.Command, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -887,21 +812,14 @@ private global::System.Object createButton(global::com.codename1.ui.Command n1, 
 
 private global::System.Object createButton(global::com.codename1.ui.Command n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.Button createButton(com.codename1.ui.Command, int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -933,13 +851,9 @@ private global::System.Object createButton(global::com.codename1.ui.Command n1, 
 
 public static void addDefaultInputMode(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void addDefaultInputMode(java.lang.String, java.lang.String[][])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.ui.VirtualKeyboard._fdefaultInputModes;
@@ -956,15 +870,10 @@ public static void addDefaultInputMode(global::java.lang.String n1, global::org.
 
 public virtual void addInputMode(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void addInputMode(java.lang.String, java.lang.String[][])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -977,14 +886,9 @@ public virtual void addInputMode(global::java.lang.String n1, global::org.xmlvm.
 public virtual void addSpecialButton(global::java.lang.String n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void addSpecialButton(java.lang.String, com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -996,21 +900,13 @@ public virtual void addSpecialButton(global::java.lang.String n1, global::com.co
 
 public virtual void addSpecialButton(global::java.lang.String n1, global::com.codename1.ui.Command n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void addSpecialButton(java.lang.String, com.codename1.ui.Command, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1032,18 +928,12 @@ public virtual void addSpecialButton(global::java.lang.String n1, global::com.co
 private global::System.Object getNextMode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String getNextMode(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -1075,17 +965,12 @@ private global::System.Object getNextMode(global::java.lang.String n1){
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void pointerPressed(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1111,17 +996,12 @@ public override void pointerPressed(int n1, int n2){
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void pointerDragged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1149,13 +1029,9 @@ public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1171,23 +1047,15 @@ public override void pointerReleased(int n1, int n2){
 
 public virtual void initSpecialButtons(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void initSpecialButtons()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r4.i = 15;
     // Value=T9
@@ -1262,11 +1130,8 @@ public virtual void initSpecialButtons(){
 
 public virtual global::System.Object getInputModeOrder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String[] getInputModeOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._finputModeOrder;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -1277,11 +1142,8 @@ public virtual void setInputModeOrder(global::org.xmlvm._nArrayAdapter<global::S
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setInputModeOrder(java.lang.String[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._finputModeOrder = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
@@ -1294,9 +1156,7 @@ public virtual void setInputModeOrder(global::org.xmlvm._nArrayAdapter<global::S
 
 public static global::System.Object getDefaultInputModeOrder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String[] getDefaultInputModeOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.VirtualKeyboard._fdefaultInputModeOrder;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String[] getDefaultInputModeOrder()]
@@ -1304,9 +1164,7 @@ public static global::System.Object getDefaultInputModeOrder(){
 
 public static void setDefaultInputModeOrder(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setDefaultInputModeOrder(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.VirtualKeyboard._fdefaultInputModeOrder = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
@@ -1318,12 +1176,8 @@ private void updateText(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ffield;
@@ -1353,9 +1207,7 @@ private void updateText(global::java.lang.String n1){
 
 public override void actionCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void actionCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1365,15 +1217,10 @@ public override void actionCommand(global::com.codename1.ui.Command n1){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r4.i = 0;
@@ -1507,9 +1354,7 @@ public override void dispose(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ffield;
     if (_r0_o == null) goto label50;
@@ -1548,11 +1393,8 @@ public override void dispose(){
 
 public override void onShow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void onShow()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.onShow();
     _r0_o = global::com.codename1.ui.VirtualKeyboard._ftransitionOut;
@@ -1563,11 +1405,8 @@ public override void onShow(){
 
 public virtual global::System.Object getInputField(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.TextField getInputField()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._finputField;
     return (global::com.codename1.ui.TextField) _r0_o;
@@ -1576,15 +1415,10 @@ public virtual global::System.Object getInputField(){
 
 public static void setCommitOnDispose(global::com.codename1.ui.TextField n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setCommitOnDispose(com.codename1.ui.TextField, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     // Value=$VKB_COM$
@@ -1599,13 +1433,9 @@ public static void setCommitOnDispose(global::com.codename1.ui.TextField n1, boo
 
 public static void bindVirtualKeyboard(global::com.codename1.ui.TextArea n1, global::com.codename1.ui.VirtualKeyboard n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void bindVirtualKeyboard(com.codename1.ui.TextArea, com.codename1.ui.VirtualKeyboard)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     // Value=$VKB$
@@ -1618,11 +1448,8 @@ public static void bindVirtualKeyboard(global::com.codename1.ui.TextArea n1, glo
 
 public static global::System.Object getVirtualKeyboard(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.VirtualKeyboard getVirtualKeyboard(com.codename1.ui.TextArea)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=$VKB$
     _r0_o = new global::java.lang.String();
@@ -1635,13 +1462,10 @@ public static global::System.Object getVirtualKeyboard(global::com.codename1.ui.
 
 public static bool isCommitOnDispose(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: boolean isCommitOnDispose(com.codename1.ui.TextArea)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     // Value=$VKB_COM$
     _r1_o = new global::java.lang.String();
@@ -1662,15 +1486,10 @@ public static bool isCommitOnDispose(global::com.codename1.ui.TextArea n1){
 
 public static void setVKBTint(global::com.codename1.ui.TextField n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setVKBTint(com.codename1.ui.TextField, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     // Value=$VKB_TINT$
@@ -1685,15 +1504,11 @@ public static void setVKBTint(global::com.codename1.ui.TextField n1, int n2){
 
 public static int getVKBTint(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: int getVKBTint(com.codename1.ui.TextArea)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     // Value=$VKB_TINT$
     _r2_o = new global::java.lang.String();
@@ -1717,8 +1532,6 @@ public static int getVKBTint(global::com.codename1.ui.TextArea n1){
 public static bool isShowTooltips(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: boolean isShowTooltips()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.VirtualKeyboard._fshowTooltips ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: boolean isShowTooltips()]
@@ -1727,8 +1540,6 @@ public static bool isShowTooltips(){
 public static void setShowTooltips(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setShowTooltips(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.VirtualKeyboard._fshowTooltips = 0!=_r0.i;
     return;
@@ -1737,9 +1548,7 @@ public static void setShowTooltips(bool n1){
 
 public static global::System.Object getTransitionIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.animations.Transition getTransitionIn()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.VirtualKeyboard._ftransitionIn;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.animations.Transition getTransitionIn()]
@@ -1747,9 +1556,7 @@ public static global::System.Object getTransitionIn(){
 
 public static void setTransitionIn(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setTransitionIn(com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.VirtualKeyboard._ftransitionIn = (global::com.codename1.ui.animations.Transition) _r0_o;
     return;
@@ -1758,9 +1565,7 @@ public static void setTransitionIn(global::com.codename1.ui.animations.Transitio
 
 public static global::System.Object getTransitionOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.animations.Transition getTransitionOut()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.VirtualKeyboard._ftransitionOut;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.animations.Transition getTransitionOut()]
@@ -1768,9 +1573,7 @@ public static global::System.Object getTransitionOut(){
 
 public static void setTransitionOut(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setTransitionOut(com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.VirtualKeyboard._ftransitionOut = (global::com.codename1.ui.animations.Transition) _r0_o;
     return;
@@ -1779,29 +1582,18 @@ public static void setTransitionOut(global::com.codename1.ui.animations.Transiti
 
 public virtual void showKeyboard(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void showKeyboard(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.VirtualKeyboard) _r9_o)._fisShowing = 0!=_r10.i;
@@ -1868,9 +1660,7 @@ public virtual void showKeyboard(bool n1){
 
 public static void setDefaultVirtualKeyboardClass(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void setDefaultVirtualKeyboardClass(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.VirtualKeyboard._fvkbClass = (global::java.lang.Class) _r0_o;
     return;
@@ -1879,11 +1669,8 @@ public static void setDefaultVirtualKeyboardClass(global::java.lang.Class n1){
 
 private global::System.Object createVirtualKeyboard(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.VirtualKeyboard createVirtualKeyboard()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1945,11 +1732,8 @@ private global::System.Object createVirtualKeyboard(){
 
 public virtual global::System.Object getVirtualKeyboardName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String getVirtualKeyboardName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=CodenameOne_VirtualKeyboard
     _r0_o = new global::java.lang.String();
@@ -1961,10 +1745,7 @@ public virtual global::System.Object getVirtualKeyboardName(){
 public virtual bool isVirtualKeyboardShowing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: boolean isVirtualKeyboardShowing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._fisShowing ? 1 : 0;
     return _r0.i!=0;
@@ -1973,11 +1754,8 @@ public virtual bool isVirtualKeyboardShowing(){
 
 public static global::System.Object access_2002(global::com.codename1.ui.VirtualKeyboard n1, global::com.codename1.ui.Button n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.Button access$002(com.codename1.ui.VirtualKeyboard, com.codename1.ui.Button)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.VirtualKeyboard) _r0_o)._fcurrentButton = (global::com.codename1.ui.Button) _r1_o;
@@ -1988,10 +1766,7 @@ public static global::System.Object access_2002(global::com.codename1.ui.Virtual
 public static bool access_2200(global::com.codename1.ui.VirtualKeyboard n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: boolean access$200(com.codename1.ui.VirtualKeyboard)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._fupperCase ? 1 : 0;
     return _r0.i!=0;
@@ -2000,11 +1775,8 @@ public static bool access_2200(global::com.codename1.ui.VirtualKeyboard n1){
 
 public static void access_2300(global::com.codename1.ui.VirtualKeyboard n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: void access$300(com.codename1.ui.VirtualKeyboard, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.VirtualKeyboard) _r0_o).initInputButtons(0!=_r1.i);
@@ -2014,11 +1786,8 @@ public static void access_2300(global::com.codename1.ui.VirtualKeyboard n1, bool
 
 public static global::System.Object access_2400(global::com.codename1.ui.VirtualKeyboard n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String access$400(com.codename1.ui.VirtualKeyboard)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._fcurrentMode;
     return (global::java.lang.String) _r0_o;
@@ -2027,13 +1796,9 @@ public static global::System.Object access_2400(global::com.codename1.ui.Virtual
 
 public static global::System.Object access_2500(global::com.codename1.ui.VirtualKeyboard n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: java.lang.String access$500(com.codename1.ui.VirtualKeyboard, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o).getNextMode((global::java.lang.String) _r2_o);
@@ -2043,11 +1808,8 @@ public static global::System.Object access_2500(global::com.codename1.ui.Virtual
 
 public static global::System.Object access_2000(global::com.codename1.ui.VirtualKeyboard n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.Button access$000(com.codename1.ui.VirtualKeyboard)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r1_o)._fcurrentButton;
     return (global::com.codename1.ui.Button) _r0_o;
@@ -2062,19 +1824,12 @@ public static void @static(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.i = 4;
     _r7.i = 3;
     _r6.i = 2;

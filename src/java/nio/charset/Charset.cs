@@ -41,7 +41,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.nio.charset.Charset._f_1builtInProvider = (global::org.apache.harmony.niochar.CharsetProviderImpl) _r0_o;
     global::java.nio.charset.Charset._f_1builtInCharsets = (global::java.util.TreeMap) _r0_o;
@@ -65,15 +64,10 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -109,10 +103,7 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
 private static bool isSpecial(char n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean isSpecial(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 45;
     if (_r0.i == _r1.i) goto label18;
@@ -134,10 +125,7 @@ private static bool isSpecial(char n1){
 private static bool isLetter(char n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean isLetter(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 97;
     if (_r0.i > _r1.i) goto label8;
@@ -161,10 +149,7 @@ private static bool isLetter(char n1){
 private static bool isDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean isDigit(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 48;
     if (_r0.i > _r1.i) goto label10;
@@ -184,14 +169,9 @@ private static void checkCharsetName(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r0.i = ((global::java.lang.String) _r4_o).length();
     if (_r0.i != 0) goto label12;
@@ -223,11 +203,8 @@ private static void checkCharsetName(global::java.lang.String n1){
 
 private static global::System.Object getContextClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.lang.ClassLoader getContextClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.Thread.currentThread();
     _r1_o = new global::java.nio.charset.Charset_22();
     ((global::java.nio.charset.Charset_22) _r1_o).@this((global::java.lang.Thread) _r0_o);
@@ -239,9 +216,7 @@ private static global::System.Object getContextClassLoader(){
 
 private static void getSystemClassLoader(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: void getSystemClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.nio.charset.Charset._fsystemClassLoader;
     if (_r0_o != null) goto label17;
     _r0_o = new global::java.nio.charset.Charset_23();
@@ -256,15 +231,11 @@ private static void getSystemClassLoader(){
 
 private static void addCharsets(global::java.nio.charset.spi.CharsetProvider n1, global::java.util.TreeMap n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: void addCharsets(java.nio.charset.spi.CharsetProvider, java.util.TreeMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::java.nio.charset.spi.CharsetProvider) _r2_o).charsets();
@@ -289,10 +260,7 @@ private static global::System.Object trimClassName(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     // Value=#
     _r0_o = new global::java.lang.String();
@@ -313,23 +281,15 @@ private static global::System.Object trimClassName(global::java.lang.String n1){
 
 private static void loadConfiguredCharsets(global::java.net.URL n1, global::java.lang.ClassLoader n2, global::java.util.TreeMap n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: void loadConfiguredCharsets(java.net.URL, java.lang.ClassLoader, java.util.TreeMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
@@ -588,13 +548,10 @@ private static void loadConfiguredCharsets(global::java.net.URL n1, global::java
 
 public static global::System.Object availableCharsets(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.util.SortedMap availableCharsets()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=META-INF/services/java.nio.charset.spi.CharsetProvider
@@ -737,21 +694,14 @@ public static global::System.Object availableCharsets(){
 
 private static global::System.Object searchConfiguredCharsets(global::java.lang.String n1, global::java.lang.ClassLoader n2, global::java.net.URL n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.charset.Charset searchConfiguredCharsets(java.lang.String, java.lang.ClassLoader, java.net.URL)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
@@ -1051,15 +1001,11 @@ private static global::System.Object forNameInternal(global::java.lang.String n1
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.charset.Charset forNameInternal(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
@@ -1339,11 +1285,8 @@ private static void cacheCharset(global::java.nio.charset.Charset n1, global::ja
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::java.nio.charset.Charset) _r2_o).name();
@@ -1367,11 +1310,8 @@ private static void cacheCharset(global::java.nio.charset.Charset n1, global::ja
 
 public static global::System.Object forName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.charset.Charset forName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::java.nio.charset.Charset.forNameInternal((global::java.lang.String) _r1_o);
     if (_r0_o != null) goto label12;
@@ -1387,13 +1327,9 @@ public static bool isSupported(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean isSupported(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -1523,11 +1459,8 @@ public abstract global::System.Object newDecoder();
 
 public virtual global::System.Object name(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.lang.String name()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.Charset) _r1_o)._fcanonicalName;
     return (global::java.lang.String) _r0_o;
@@ -1536,11 +1469,8 @@ public virtual global::System.Object name(){
 
 public virtual global::System.Object aliases(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.util.Set aliases()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.Charset) _r1_o)._faliasesSet;
     _r0_o = global::java.util.Collections.unmodifiableSet((global::java.util.Set) _r0_o);
@@ -1550,11 +1480,8 @@ public virtual global::System.Object aliases(){
 
 public virtual global::System.Object displayName(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.lang.String displayName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.Charset) _r1_o)._fcanonicalName;
     return (global::java.lang.String) _r0_o;
@@ -1563,13 +1490,9 @@ public virtual global::System.Object displayName(){
 
 public virtual global::System.Object displayName(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.lang.String displayName(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.nio.charset.Charset) _r1_o)._fcanonicalName;
@@ -1581,11 +1504,8 @@ public virtual bool isRegistered(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean isRegistered()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.charset.Charset) _r2_o)._fcanonicalName;
     // Value=x-
@@ -1611,10 +1531,7 @@ public virtual bool isRegistered(){
 public virtual bool canEncode(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean canEncode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -1623,15 +1540,10 @@ public virtual bool canEncode(){
 
 public virtual global::System.Object encode(global::java.nio.CharBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.ByteBuffer encode(java.nio.CharBuffer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1666,13 +1578,9 @@ public virtual global::System.Object encode(global::java.nio.CharBuffer n1){
 
 public virtual global::System.Object encode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.ByteBuffer encode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.nio.CharBuffer.wrap((global::java.lang.CharSequence) _r2_o);
@@ -1683,15 +1591,10 @@ public virtual global::System.Object encode(global::java.lang.String n1){
 
 public virtual global::System.Object decode(global::java.nio.ByteBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.CharBuffer decode(java.nio.ByteBuffer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1728,13 +1631,9 @@ public virtual int compareTo(global::java.nio.charset.Charset n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: int compareTo(java.nio.charset.Charset)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.nio.charset.Charset) _r2_o)._fcanonicalName;
@@ -1748,13 +1647,9 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.nio.charset.Charset)) ? 1 : 0;
@@ -1775,9 +1670,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.Charset) _r1_o)._fcanonicalName;
     _r0.i = ((global::java.lang.String) _r0_o).hashCode();
@@ -1787,13 +1680,9 @@ public override int hashCode(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=Charset[
@@ -1813,7 +1702,6 @@ public override global::System.Object toString(){
 
 public static global::System.Object defaultCharset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: java.nio.charset.Charset defaultCharset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.nio.charset.Charset_24();
@@ -1848,12 +1736,8 @@ public static global::System.Object defaultCharset(){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

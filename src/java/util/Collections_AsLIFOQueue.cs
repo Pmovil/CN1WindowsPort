@@ -9,11 +9,8 @@ private global::java.util.Deque _fq;
 
 public void @this(global::java.util.Deque n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: void <init>(java.util.Deque)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractQueue) _r0_o).@this();
@@ -24,11 +21,8 @@ public void @this(global::java.util.Deque n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).iterator();
@@ -40,9 +34,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0.i = ((global::java.util.Deque) _r0_o).size();
@@ -54,11 +46,8 @@ public override bool offer(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean offer(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -69,11 +58,8 @@ public override bool offer(global::java.lang.Object n1){
 
 public override global::System.Object peek(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object peek()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).peekFirst();
@@ -83,11 +69,8 @@ public override global::System.Object peek(){
 
 public override global::System.Object poll(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object poll()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).pollFirst();
@@ -99,11 +82,8 @@ public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -115,11 +95,8 @@ public override bool add(global::java.lang.Object n1){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     ((global::java.util.Deque) _r0_o).clear();
@@ -129,11 +106,8 @@ public override void clear(){
 
 public override global::System.Object element(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object element()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).getFirst();
@@ -143,11 +117,8 @@ public override global::System.Object element(){
 
 public override global::System.Object remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).pop();
@@ -159,11 +130,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -176,11 +144,8 @@ public override bool containsAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean containsAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -193,9 +158,7 @@ public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0.i = ((global::java.util.Deque) _r0_o).isEmpty() ? 1 : 0;
@@ -207,11 +170,8 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -224,11 +184,8 @@ public override bool removeAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean removeAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -241,11 +198,8 @@ public override bool retainAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: boolean retainAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -256,11 +210,8 @@ public override bool retainAll(global::java.util.Collection n1){
 
 public override global::System.Object toArray(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object[] toArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.util.Deque) _r0_o).toArray();
@@ -270,13 +221,9 @@ public override global::System.Object toArray(){
 
 public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.Object[] toArray(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
@@ -287,11 +234,8 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$AsLIFOQueue: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2AsLIFOQueue) _r1_o)._fq;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();

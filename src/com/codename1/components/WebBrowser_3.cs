@@ -7,11 +7,8 @@ public global::com.codename1.components.WebBrowser _fthis_20;
 
 public void @this(global::com.codename1.components.WebBrowser n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$3: void <init>(com.codename1.components.WebBrowser)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.WebBrowser_23) _r0_o)._fthis_20 = (global::com.codename1.components.WebBrowser) _r1_o;
@@ -22,15 +19,10 @@ public void @this(global::com.codename1.components.WebBrowser n1){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$3: void actionPerformed(com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.components.WebBrowser_23) _r2_o)._fthis_20;

@@ -24,16 +24,8 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r5_o).@this();
     _r0_o = new global::java.util.Date();
@@ -67,19 +59,11 @@ public override void initSpinner(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 13;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._fdate;
@@ -147,11 +131,8 @@ public override void initSpinner(){
 
 public override void addComponents(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void addComponents()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fdate;
     if (_r0_o == null) goto label19;
@@ -167,11 +148,8 @@ public override void addComponents(){
 
 public virtual global::System.Object getCurrentDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: java.util.Date getCurrentDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fdate;
     if (_r0_o == null) goto label14;
@@ -189,13 +167,9 @@ public virtual global::System.Object getCurrentDate(){
 
 public virtual void setCurrentDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void setCurrentDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fcurrentDate = (global::java.util.Date) _r2_o;
@@ -210,11 +184,8 @@ public virtual void setCurrentDate(global::java.util.Date n1){
 
 public virtual global::System.Object getStartDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: java.util.Date getStartDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fstartDate;
     return (global::java.util.Date) _r0_o;
@@ -223,31 +194,16 @@ public virtual global::System.Object getStartDate(){
 
 public virtual void setStartDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void setStartDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r10_o)._fstartDate = (global::java.util.Date) _r11_o;
@@ -278,11 +234,8 @@ public virtual void setStartDate(global::java.util.Date n1){
 
 public virtual global::System.Object getEndDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: java.util.Date getEndDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fendDate;
     return (global::java.util.Date) _r0_o;
@@ -291,31 +244,16 @@ public virtual global::System.Object getEndDate(){
 
 public virtual void setEndDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void setEndDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r10_o)._fendDate = (global::java.util.Date) _r11_o;
@@ -347,10 +285,7 @@ public virtual void setEndDate(global::java.util.Date n1){
 public virtual bool isMarkToday(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: boolean isMarkToday()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fmarkToday ? 1 : 0;
     return _r0.i!=0;
@@ -359,21 +294,12 @@ public virtual bool isMarkToday(){
 
 public virtual void setMarkToday(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void setMarkToday(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r5_o)._fmarkToday = 0!=_r6.i;
@@ -396,10 +322,7 @@ public virtual void setMarkToday(bool n1){
 public virtual bool isIncludeYear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: boolean isIncludeYear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fincludeYear ? 1 : 0;
     return _r0.i!=0;
@@ -408,15 +331,11 @@ public virtual bool isIncludeYear(){
 
 public virtual void setIncludeYear(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void setIncludeYear(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o)._fincludeYear = 0!=_r3.i;
@@ -455,12 +374,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 10;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -523,18 +438,11 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.util.Date));
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Integer));
@@ -580,12 +488,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=currentDate
@@ -642,15 +546,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

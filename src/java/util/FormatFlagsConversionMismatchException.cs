@@ -11,15 +11,10 @@ private char _fc;
 
 public void @this(global::java.lang.String n1, char n2){
 //XMLVM_BEGIN_WRAPPER[java.util.FormatFlagsConversionMismatchException: void <init>(java.lang.String, char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -37,11 +32,8 @@ public void @this(global::java.lang.String n1, char n2){
 
 public virtual global::System.Object getFlags(){
 //XMLVM_BEGIN_WRAPPER[java.util.FormatFlagsConversionMismatchException: java.lang.String getFlags()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.FormatFlagsConversionMismatchException) _r1_o)._ff;
     return (global::java.lang.String) _r0_o;
@@ -51,10 +43,7 @@ public virtual global::System.Object getFlags(){
 public virtual char getConversion(){
 //XMLVM_BEGIN_WRAPPER[java.util.FormatFlagsConversionMismatchException: char getConversion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.FormatFlagsConversionMismatchException) _r1_o)._fc;
     return (char) _r0.i;
@@ -63,13 +52,10 @@ public virtual char getConversion(){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.util.FormatFlagsConversionMismatchException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

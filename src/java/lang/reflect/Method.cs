@@ -29,9 +29,7 @@ public static int _fDECLARED = java.lang.reflect._iMember._fDECLARED;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.reflect.AccessibleObject) _r0_o).@this();
     return;
@@ -40,29 +38,17 @@ private void @this(){
 
 private void @this(global::java.lang.String n1, global::java.lang.Class n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, global::org.xmlvm._nArrayAdapter<global::System.Object> n4, int n5, global::java.lang.Object n6, int n7, global::java.lang.String n8, global::org.xmlvm._nArrayAdapter<sbyte> n9, global::org.xmlvm._nArrayAdapter<sbyte> n10){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: void <init>(java.lang.String, java.lang.Class, java.lang.Class[], java.lang.Class[], int, java.lang.Object, int, java.lang.String, byte[], byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -170,10 +156,7 @@ public virtual global::System.Object getExceptionTypes(){
 public override int getModifiers(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: int getModifiers()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.reflect.Method) _r1_o)._fmodifiers;
     return _r0.i;
@@ -188,11 +171,8 @@ public virtual global::System.Object getName(){
 
 public virtual global::System.Object getParameterTypes(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: java.lang.Class[] getParameterTypes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.reflect.Method) _r1_o)._fparameterTypes;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -201,15 +181,10 @@ public virtual global::System.Object getParameterTypes(){
 
 public virtual global::System.Object getReturnType(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: java.lang.Class getReturnType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser();
     _r1_o = null;

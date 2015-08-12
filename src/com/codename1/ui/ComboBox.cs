@@ -19,8 +19,6 @@ private bool _fincludeSelectCancel;
 public static bool isDefaultActAsSpinnerDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: boolean isDefaultActAsSpinnerDialog()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.ComboBox._fdefaultActAsSpinnerDialog ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: boolean isDefaultActAsSpinnerDialog()]
@@ -29,8 +27,6 @@ public static bool isDefaultActAsSpinnerDialog(){
 public static void setDefaultActAsSpinnerDialog(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setDefaultActAsSpinnerDialog(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.ComboBox._fdefaultActAsSpinnerDialog = 0!=_r0.i;
     return;
@@ -39,13 +35,9 @@ public static void setDefaultActAsSpinnerDialog(bool n1){
 
 public void @this(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.util.Vector)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
@@ -57,13 +49,9 @@ public void @this(global::java.util.Vector n1){
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
@@ -75,11 +63,8 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this();
@@ -90,19 +75,13 @@ public void @this(){
 
 public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(com.codename1.ui.list.ListModel)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -146,19 +125,13 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
 
 public override void setUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setUIID(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     base.setUIID((global::java.lang.String) _r5_o);
@@ -196,25 +169,17 @@ public override void setUIID(global::java.lang.String n1){
 
 public override int getBaseline(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: int getBaseline(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -255,9 +220,7 @@ public override int getBaseline(int n1, int n2){
 
 public override void laidOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void laidOut()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void laidOut()]
@@ -265,17 +228,11 @@ public override void laidOut(){
 
 public override global::System.Object getSelectedRect(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: com.codename1.ui.geom.Rectangle getSelectedRect()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::com.codename1.ui.geom.Rectangle();
     _r1.i = ((global::com.codename1.ui.ComboBox) _r4_o).getAbsoluteX();
@@ -289,11 +246,8 @@ public override global::System.Object getSelectedRect(){
 
 public override global::System.Object getVisibleBounds(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: com.codename1.ui.geom.Rectangle getVisibleBounds()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r1_o).getBounds();
     return (global::com.codename1.ui.geom.Rectangle) _r0_o;
@@ -303,12 +257,8 @@ public override global::System.Object getVisibleBounds(){
 public override void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setSelectedIndex(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -320,14 +270,9 @@ public override void setSelectedIndex(int n1){
 public override void setSelectedIndex(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setSelectedIndex(int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -339,13 +284,9 @@ public override void setSelectedIndex(int n1, bool n2){
 
 public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void pointerHover(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -355,13 +296,9 @@ public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, glob
 
 public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void pointerHoverReleased(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -371,21 +308,14 @@ public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> 
 
 public virtual global::System.Object createPopupDialog(global::com.codename1.ui.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: com.codename1.ui.Dialog createPopupDialog(com.codename1.ui.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -442,7 +372,6 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.Di
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -450,46 +379,25 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.Di
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r23_o = this;
     _r24_o = n1;
     _r25_o = n2;
@@ -779,25 +687,16 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.Di
 
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void fireClicked()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 0;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r8_o).createPopupList();
@@ -827,19 +726,13 @@ public override void fireClicked(){
 
 public virtual global::System.Object createPopupList(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: com.codename1.ui.List createPopupList()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = new global::com.codename1.ui.List();
     _r2_o = ((global::com.codename1.ui.ComboBox) _r5_o).getModel();
@@ -885,14 +778,10 @@ public virtual global::System.Object createPopupList(){
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -910,11 +799,8 @@ public override void keyReleased(int n1){
 
 public override void selectElement(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void selectElement(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -923,13 +809,9 @@ public override void selectElement(int n1){
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void pointerPressed(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -939,13 +821,9 @@ public override void pointerPressed(int n1, int n2){
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void pointerDragged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -956,14 +834,9 @@ public override void pointerDragged(int n1, int n2){
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -977,13 +850,9 @@ public override void pointerReleased(int n1, int n2){
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r1_o).getUIManager();
@@ -995,11 +864,8 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: com.codename1.ui.geom.Dimension calcPreferredSize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r1_o).getUIManager();
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
@@ -1011,10 +877,7 @@ public override global::System.Object calcPreferredSize(){
 public override int getOrientation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: int getOrientation()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 2;
     return _r0.i;
@@ -1024,10 +887,7 @@ public override int getOrientation(){
 public virtual bool isIncludeSelectCancel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: boolean isIncludeSelectCancel()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.ComboBox) _r1_o)._fincludeSelectCancel ? 1 : 0;
     return _r0.i!=0;
@@ -1036,11 +896,8 @@ public virtual bool isIncludeSelectCancel(){
 
 public virtual void setIncludeSelectCancel(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setIncludeSelectCancel(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.ComboBox) _r0_o)._fincludeSelectCancel = 0!=_r1.i;
@@ -1051,8 +908,6 @@ public virtual void setIncludeSelectCancel(bool n1){
 public static bool isDefaultIncludeSelectCancel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: boolean isDefaultIncludeSelectCancel()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.ComboBox._fdefaultIncludeSelectCancel ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: boolean isDefaultIncludeSelectCancel()]
@@ -1061,8 +916,6 @@ public static bool isDefaultIncludeSelectCancel(){
 public static void setDefaultIncludeSelectCancel(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setDefaultIncludeSelectCancel(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.ComboBox._fdefaultIncludeSelectCancel = 0!=_r0.i;
     return;
@@ -1072,10 +925,7 @@ public static void setDefaultIncludeSelectCancel(bool n1){
 public virtual bool isActAsSpinnerDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: boolean isActAsSpinnerDialog()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.ComboBox) _r1_o)._factAsSpinnerDialog ? 1 : 0;
     return _r0.i!=0;
@@ -1084,11 +934,8 @@ public virtual bool isActAsSpinnerDialog(){
 
 public virtual void setActAsSpinnerDialog(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void setActAsSpinnerDialog(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.ComboBox) _r0_o)._factAsSpinnerDialog = 0!=_r1.i;
@@ -1099,8 +946,6 @@ public virtual void setActAsSpinnerDialog(bool n1){
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.ui.ComboBox._fdefaultIncludeSelectCancel = 0!=_r0.i;
     return;

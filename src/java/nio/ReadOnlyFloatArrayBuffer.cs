@@ -5,19 +5,12 @@ namespace java.nio {
 public class ReadOnlyFloatArrayBuffer: global::java.nio.FloatArrayBuffer {
 public static global::System.Object copy(global::java.nio.FloatArrayBuffer n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.ReadOnlyFloatArrayBuffer copy(java.nio.FloatArrayBuffer, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r0_o = new global::java.nio.ReadOnlyFloatArrayBuffer();
@@ -36,15 +29,10 @@ public static global::System.Object copy(global::java.nio.FloatArrayBuffer n1, i
 
 public void @this(int n1, global::org.xmlvm._nArrayAdapter<float> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: void <init>(int, float[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -56,11 +44,8 @@ public void @this(int n1, global::org.xmlvm._nArrayAdapter<float> n2, int n3){
 
 public override global::System.Object asReadOnlyBuffer(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer asReadOnlyBuffer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.ReadOnlyFloatArrayBuffer) _r1_o).duplicate();
     return (global::java.nio.FloatBuffer) _r0_o;
@@ -69,11 +54,8 @@ public override global::System.Object asReadOnlyBuffer(){
 
 public override global::System.Object compact(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer compact()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.nio.ReadOnlyBufferException();
     ((global::java.nio.ReadOnlyBufferException) _r0_o).@this();
@@ -85,9 +67,7 @@ public override global::System.Object duplicate(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer duplicate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.ReadOnlyFloatArrayBuffer) _r1_o)._fmark;
     _r0_o = global::java.nio.ReadOnlyFloatArrayBuffer.copy((global::java.nio.FloatArrayBuffer) _r1_o, (int) _r0.i);
@@ -98,10 +78,7 @@ public override global::System.Object duplicate(){
 public override bool isReadOnly(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: boolean isReadOnly()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -110,11 +87,8 @@ public override bool isReadOnly(){
 
 public override global::System.Object protectedArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: float[] protectedArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.nio.ReadOnlyBufferException();
     ((global::java.nio.ReadOnlyBufferException) _r0_o).@this();
@@ -124,11 +98,8 @@ public override global::System.Object protectedArray(){
 
 public override int protectedArrayOffset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: int protectedArrayOffset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.nio.ReadOnlyBufferException();
     ((global::java.nio.ReadOnlyBufferException) _r0_o).@this();
@@ -139,10 +110,7 @@ public override int protectedArrayOffset(){
 public override bool protectedHasArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: boolean protectedHasArray()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -151,13 +119,9 @@ public override bool protectedHasArray(){
 
 public override global::System.Object put(float n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer put(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0_o = new global::java.nio.ReadOnlyBufferException();
@@ -168,15 +132,10 @@ public override global::System.Object put(float n1){
 
 public override global::System.Object put(int n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer put(int, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.f = n2;
@@ -188,13 +147,9 @@ public override global::System.Object put(int n1, float n2){
 
 public override global::System.Object put(global::java.nio.FloatBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer put(java.nio.FloatBuffer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.nio.ReadOnlyBufferException();
@@ -205,17 +160,11 @@ public override global::System.Object put(global::java.nio.FloatBuffer n1){
 
 public override global::System.Object put(global::org.xmlvm._nArrayAdapter<float> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer put(float[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -228,19 +177,12 @@ public override global::System.Object put(global::org.xmlvm._nArrayAdapter<float
 
 public override global::System.Object slice(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyFloatArrayBuffer: java.nio.FloatBuffer slice()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = new global::java.nio.ReadOnlyFloatArrayBuffer();
     _r1.i = ((global::java.nio.ReadOnlyFloatArrayBuffer) _r5_o).remaining();

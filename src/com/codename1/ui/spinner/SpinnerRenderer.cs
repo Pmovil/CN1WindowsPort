@@ -27,10 +27,7 @@ public static bool _fiOS7Mode;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).@this(0!=_r0.i);
@@ -40,33 +37,20 @@ public void @this(){
 
 public override global::System.Object getCellRendererComponent(global::com.codename1.ui.Component n1, global::java.lang.Object n2, global::java.lang.Object n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: com.codename1.ui.Component getCellRendererComponent(com.codename1.ui.Component, java.lang.Object, java.lang.Object, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -126,21 +110,14 @@ public override global::System.Object getCellRendererComponent(global::com.coden
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r1.i = global::com.codename1.ui.spinner.SpinnerRenderer._fiOS7Mode ? 1 : 0;
@@ -172,18 +149,12 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 private int drawCharPerspectivePosition(global::com.codename1.ui.Graphics n1, char n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: int drawCharPerspectivePosition(com.codename1.ui.Graphics, char, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
@@ -191,18 +162,11 @@ private int drawCharPerspectivePosition(global::com.codename1.ui.Graphics n1, ch
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -269,28 +233,16 @@ private int drawCharPerspectivePosition(global::com.codename1.ui.Graphics n1, ch
 private void drawStringPerspectivePosition(global::com.codename1.ui.Graphics n1, global::java.lang.String n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: void drawStringPerspectivePosition(com.codename1.ui.Graphics, java.lang.String, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -321,11 +273,8 @@ private void drawStringPerspectivePosition(global::com.codename1.ui.Graphics n1,
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 9;
     _r0_o = new global::org.xmlvm._nArrayAdapter<float>(new float[_r1.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<float>(new float[]{(float)0.5D, (float)0.5D, (float)0.8D, (float)0.95D, (float)1.0D, (float)1.0D, (float)1.0D, (float)1.0D, (float)1.0D});

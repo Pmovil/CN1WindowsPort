@@ -7,15 +7,10 @@ public global::java.util.Collections_2SingletonMap_21_21 _fthis_23;
 
 public void @this(global::java.util.Collections_2SingletonMap_21_21 n1, global::java.lang.Object n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1$1: void <init>(java.util.Collections$SingletonMap$1$1, java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,13 +23,9 @@ public void @this(global::java.util.Collections_2SingletonMap_21_21 n1, global::
 
 public override global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1$1: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();

@@ -5,9 +5,7 @@ namespace org.xml.sax.ext {
 public class DefaultHandler2: global::org.xml.sax.helpers.DefaultHandler,global::org.xml.sax.ext.LexicalHandler,global::org.xml.sax.ext.DeclHandler,global::org.xml.sax.ext.EntityResolver2 {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::org.xml.sax.helpers.DefaultHandler) _r0_o).@this();
     return;
@@ -16,9 +14,7 @@ public void @this(){
 
 public virtual void startCDATA(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void startCDATA()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[org.xml.sax.ext.DefaultHandler2: void startCDATA()]
@@ -26,9 +22,7 @@ public virtual void startCDATA(){
 
 public virtual void endCDATA(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void endCDATA()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[org.xml.sax.ext.DefaultHandler2: void endCDATA()]
@@ -36,15 +30,10 @@ public virtual void endCDATA(){
 
 public virtual void startDTD(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void startDTD(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -55,9 +44,7 @@ public virtual void startDTD(global::java.lang.String n1, global::java.lang.Stri
 
 public virtual void endDTD(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void endDTD()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[org.xml.sax.ext.DefaultHandler2: void endDTD()]
@@ -65,11 +52,8 @@ public virtual void endDTD(){
 
 public virtual void startEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void startEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -78,11 +62,8 @@ public virtual void startEntity(global::java.lang.String n1){
 
 public virtual void endEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void endEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -91,15 +72,10 @@ public virtual void endEntity(global::java.lang.String n1){
 
 public virtual void comment(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void comment(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -110,19 +86,12 @@ public virtual void comment(global::org.xmlvm._nArrayAdapter<char> n1, int n2, i
 
 public virtual void attributeDecl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void attributeDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -135,13 +104,9 @@ public virtual void attributeDecl(global::java.lang.String n1, global::java.lang
 
 public virtual void elementDecl(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void elementDecl(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -151,15 +116,10 @@ public virtual void elementDecl(global::java.lang.String n1, global::java.lang.S
 
 public virtual void externalEntityDecl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void externalEntityDecl(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -170,13 +130,9 @@ public virtual void externalEntityDecl(global::java.lang.String n1, global::java
 
 public virtual void internalEntityDecl(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void internalEntityDecl(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -186,15 +142,10 @@ public virtual void internalEntityDecl(global::java.lang.String n1, global::java
 
 public virtual global::System.Object getExternalSubset(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: org.xml.sax.InputSource getExternalSubset(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -205,19 +156,12 @@ public virtual global::System.Object getExternalSubset(global::java.lang.String 
 
 public virtual global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -230,15 +174,10 @@ public virtual global::System.Object resolveEntity(global::java.lang.String n1, 
 
 public override global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

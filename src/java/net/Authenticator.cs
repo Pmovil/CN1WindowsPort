@@ -32,11 +32,8 @@ private global::java.net.Authenticator_2RequestorType _frt;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.net.NetPermission();
     // Value=requestPasswordAuthentication
     _r1_o = new global::java.lang.String();
@@ -55,9 +52,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -66,11 +61,8 @@ public void @this(){
 
 public virtual global::System.Object getPasswordAuthentication(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.PasswordAuthentication getPasswordAuthentication()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.net.PasswordAuthentication) _r0_o;
@@ -80,10 +72,7 @@ public virtual global::System.Object getPasswordAuthentication(){
 public virtual int getRequestingPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: int getRequestingPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.Authenticator) _r1_o)._fport;
     return _r0.i;
@@ -92,11 +81,8 @@ public virtual int getRequestingPort(){
 
 public virtual global::System.Object getRequestingSite(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.InetAddress getRequestingSite()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._faddr;
     return (global::java.net.InetAddress) _r0_o;
@@ -105,11 +91,8 @@ public virtual global::System.Object getRequestingSite(){
 
 public virtual global::System.Object getRequestingPrompt(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.lang.String getRequestingPrompt()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._fprompt;
     return (global::java.lang.String) _r0_o;
@@ -118,11 +101,8 @@ public virtual global::System.Object getRequestingPrompt(){
 
 public virtual global::System.Object getRequestingProtocol(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.lang.String getRequestingProtocol()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._fprotocol;
     return (global::java.lang.String) _r0_o;
@@ -131,11 +111,8 @@ public virtual global::System.Object getRequestingProtocol(){
 
 public virtual global::System.Object getRequestingScheme(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.lang.String getRequestingScheme()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._fscheme;
     return (global::java.lang.String) _r0_o;
@@ -144,21 +121,13 @@ public virtual global::System.Object getRequestingScheme(){
 
 public static global::System.Object requestPasswordAuthentication(global::java.net.InetAddress n1, int n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.PasswordAuthentication requestPasswordAuthentication(java.net.InetAddress, int, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
@@ -239,13 +208,9 @@ public static global::System.Object requestPasswordAuthentication(global::java.n
 
 public static void setDefault(global::java.net.Authenticator n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: void setDefault(java.net.Authenticator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label11;
@@ -259,23 +224,14 @@ public static void setDefault(global::java.net.Authenticator n1){
 
 public static global::System.Object requestPasswordAuthentication(global::java.lang.String n1, global::java.net.InetAddress n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.PasswordAuthentication requestPasswordAuthentication(java.lang.String, java.net.InetAddress, int, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
@@ -359,11 +315,8 @@ public static global::System.Object requestPasswordAuthentication(global::java.l
 
 public virtual global::System.Object getRequestingHost(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.lang.String getRequestingHost()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._fhost;
     return (global::java.lang.String) _r0_o;
@@ -372,27 +325,16 @@ public virtual global::System.Object getRequestingHost(){
 
 public static global::System.Object requestPasswordAuthentication(global::java.lang.String n1, global::java.net.InetAddress n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.net.URL n7, global::java.net.Authenticator_2RequestorType n8){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.PasswordAuthentication requestPasswordAuthentication(java.lang.String, java.net.InetAddress, int, java.lang.String, java.lang.String, java.lang.String, java.net.URL, java.net.Authenticator$RequestorType)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3;
@@ -436,11 +378,8 @@ public static global::System.Object requestPasswordAuthentication(global::java.l
 
 public virtual global::System.Object getRequestingURL(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.URL getRequestingURL()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._furl;
     return (global::java.net.URL) _r0_o;
@@ -449,11 +388,8 @@ public virtual global::System.Object getRequestingURL(){
 
 public virtual global::System.Object getRequestorType(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator: java.net.Authenticator$RequestorType getRequestorType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Authenticator) _r1_o)._frt;
     return (global::java.net.Authenticator_2RequestorType) _r0_o;

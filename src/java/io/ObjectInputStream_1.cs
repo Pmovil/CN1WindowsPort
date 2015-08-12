@@ -11,15 +11,10 @@ private global::java.lang.Class _fval_2thisClass;
 
 public void @this(global::java.io.ObjectInputStream n1, global::java.lang.Class n2, global::java.lang.Class n3){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectInputStream$1: void <init>(java.io.ObjectInputStream, java.lang.Class, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -34,13 +29,9 @@ public void @this(global::java.io.ObjectInputStream n1, global::java.lang.Class 
 
 public virtual global::System.Object run(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectInputStream$1: java.lang.Boolean run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;

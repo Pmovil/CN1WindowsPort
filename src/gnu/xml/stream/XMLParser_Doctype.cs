@@ -35,17 +35,11 @@ public void @this(global::gnu.xml.stream.XMLParser n1, global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void <init>(gnu.xml.stream.XMLParser, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -95,17 +89,11 @@ public virtual void addElementDecl(global::java.lang.String n1, global::java.lan
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -146,23 +134,15 @@ public virtual void addElementDecl(global::java.lang.String n1, global::java.lan
 
 public virtual void addAttributeDecl(global::java.lang.String n1, global::java.lang.String n2, global::gnu.xml.stream.XMLParser_2AttributeDecl n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addAttributeDecl(java.lang.String, java.lang.String, gnu.xml.stream.XMLParser$AttributeDecl)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -203,19 +183,12 @@ public virtual void addEntityDecl(global::java.lang.String n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addEntityDecl(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -249,19 +222,12 @@ public virtual void addEntityDecl(global::java.lang.String n1, global::gnu.xml.s
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addEntityDecl(java.lang.String, gnu.xml.stream.XMLParser$ExternalIds, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -295,19 +261,12 @@ public virtual void addNotationDecl(global::java.lang.String n1, global::gnu.xml
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addNotationDecl(java.lang.String, gnu.xml.stream.XMLParser$ExternalIds, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -339,19 +298,14 @@ public virtual void addNotationDecl(global::java.lang.String n1, global::gnu.xml
 
 public virtual void addComment(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addComment(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r1.i = ((global::gnu.xml.stream.XMLParser_2Doctype) _r4_o)._fanon;
@@ -376,7 +330,6 @@ public virtual void addComment(global::java.lang.String n1){
 
 public virtual void addPI(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: void addPI(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -384,13 +337,9 @@ public virtual void addPI(global::java.lang.String n1, global::java.lang.String 
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -422,13 +371,9 @@ public virtual void addPI(global::java.lang.String n1, global::java.lang.String 
 
 public virtual global::System.Object getElementModel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$ContentModel getElementModel(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._felements;
@@ -440,17 +385,11 @@ public virtual global::System.Object getElementModel(global::java.lang.String n1
 
 public virtual global::System.Object getAttributeDecl(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$AttributeDecl getAttributeDecl(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -471,17 +410,12 @@ public virtual global::System.Object getAttributeDecl(global::java.lang.String n
 
 public virtual bool isAttributeDeclared(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: boolean isAttributeDeclared(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -500,15 +434,10 @@ public virtual bool isAttributeDeclared(global::java.lang.String n1, global::jav
 
 public virtual global::System.Object attlistIterator(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.util.Iterator attlistIterator(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r2_o)._fattlists;
@@ -528,13 +457,9 @@ public virtual global::System.Object attlistIterator(global::java.lang.String n1
 
 public virtual global::System.Object getEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.lang.Object getEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fentities;
@@ -547,11 +472,8 @@ public virtual bool isEntityExternal(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: boolean isEntityExternal(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fexternalEntities;
@@ -562,11 +484,8 @@ public virtual bool isEntityExternal(global::java.lang.String n1){
 
 public virtual global::System.Object entityIterator(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.util.Iterator entityIterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fentities;
     _r0_o = ((global::java.util.LinkedHashMap) _r0_o).entrySet();
@@ -577,13 +496,9 @@ public virtual global::System.Object entityIterator(){
 
 public virtual global::System.Object getNotation(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$ExternalIds getNotation(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fnotations;
@@ -597,11 +512,8 @@ public virtual bool isNotationExternal(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: boolean isNotationExternal(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fexternalNotations;
@@ -612,13 +524,9 @@ public virtual bool isNotationExternal(global::java.lang.String n1){
 
 public virtual global::System.Object getComment(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.lang.String getComment(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fcomments;
@@ -630,13 +538,9 @@ public virtual global::System.Object getComment(global::java.lang.String n1){
 
 public virtual global::System.Object getPI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.lang.String[] getPI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fpis;
@@ -649,11 +553,8 @@ public virtual global::System.Object getPI(global::java.lang.String n1){
 
 public virtual global::System.Object entryIterator(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.util.Iterator entryIterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fentries;
     _r0_o = ((global::java.util.LinkedList) _r0_o).iterator();

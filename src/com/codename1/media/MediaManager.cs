@@ -5,9 +5,7 @@ namespace com.codename1.media {
 public class MediaManager: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,13 +14,9 @@ public void @this(){
 
 public static global::System.Object createMedia(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMedia(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     _r0_o = null;
@@ -33,13 +27,9 @@ public static global::System.Object createMedia(global::java.lang.String n1, boo
 
 public static global::System.Object createMedia(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMedia(java.io.InputStream, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = null;
@@ -50,15 +40,10 @@ public static global::System.Object createMedia(global::java.io.InputStream n1, 
 
 public static global::System.Object createMedia(global::java.lang.String n1, bool n2, global::java.lang.Runnable n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMedia(java.lang.String, boolean, java.lang.Runnable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     _r3_o = n3;
@@ -70,15 +55,10 @@ public static global::System.Object createMedia(global::java.lang.String n1, boo
 
 public static global::System.Object createMedia(global::java.io.InputStream n1, global::java.lang.String n2, global::java.lang.Runnable n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMedia(java.io.InputStream, java.lang.String, java.lang.Runnable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -90,13 +70,9 @@ public static global::System.Object createMedia(global::java.io.InputStream n1, 
 
 public static global::System.Object createMediaRecorder(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMediaRecorder(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::com.codename1.media.MediaManager.getAvailableRecordingMimeTypes();
     _r1.i = 0;
@@ -108,9 +84,7 @@ public static global::System.Object createMediaRecorder(global::java.lang.String
 
 public static global::System.Object getMediaRecorderingMimeType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: java.lang.String getMediaRecorderingMimeType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getMediaRecorderingMimeType();
     return (global::java.lang.String) _r0_o;
@@ -119,9 +93,7 @@ public static global::System.Object getMediaRecorderingMimeType(){
 
 public static global::System.Object getAvailableRecordingMimeTypes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: java.lang.String[] getAvailableRecordingMimeTypes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getAvailableRecordingMimeTypes();
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -131,24 +103,15 @@ public static global::System.Object getAvailableRecordingMimeTypes(){
 public static global::System.Object createMediaRecorder(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.media.MediaManager: com.codename1.media.Media createMediaRecorder(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r3.i = 0;

@@ -10,12 +10,8 @@ public global::java.util.Collections_2SingletonMap_21 _fthis_22;
 public void @this(global::java.util.Collections_2SingletonMap_21 n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1: void <init>(java.util.Collections$SingletonMap$1)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.Collections_2SingletonMap_21_21) _r1_o)._fthis_22 = (global::java.util.Collections_2SingletonMap_21) _r2_o;
@@ -29,10 +25,7 @@ public void @this(global::java.util.Collections_2SingletonMap_21 n1){
 public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Collections_2SingletonMap_21_21) _r1_o)._fhasNext ? 1 : 0;
     return _r0.i!=0;
@@ -43,13 +36,9 @@ public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1: java.util.Map$Entry next()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.util.Collections_2SingletonMap_21_21) _r3_o)._fhasNext ? 1 : 0;
     if (_r0.i != 0) goto label10;
@@ -73,11 +62,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SingletonMap$1$1: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();

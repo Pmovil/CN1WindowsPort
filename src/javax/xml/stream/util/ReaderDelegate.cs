@@ -37,9 +37,7 @@ public static int _fENTITY_1DECLARATION = javax.xml.stream._iXMLStreamConstants.
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -48,11 +46,8 @@ public void @this(){
 
 public void @this(global::javax.xml.stream.XMLStreamReader n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void <init>(javax.xml.stream.XMLStreamReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -63,11 +58,8 @@ public void @this(global::javax.xml.stream.XMLStreamReader n1){
 
 public virtual void setParent(global::javax.xml.stream.XMLStreamReader n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void setParent(javax.xml.stream.XMLStreamReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::javax.xml.stream.util.ReaderDelegate) _r0_o)._fparent = (global::javax.xml.stream.XMLStreamReader) _r1_o;
@@ -77,11 +69,8 @@ public virtual void setParent(global::javax.xml.stream.XMLStreamReader n1){
 
 public virtual global::System.Object getParent(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: javax.xml.stream.XMLStreamReader getParent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     return (global::javax.xml.stream.XMLStreamReader) _r0_o;
@@ -92,9 +81,7 @@ public virtual int next(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int next()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -112,9 +99,7 @@ public virtual int nextTag(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int nextTag()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -130,11 +115,8 @@ public virtual int nextTag(){
 
 public virtual global::System.Object getElementText(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getElementText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -150,17 +132,11 @@ public virtual global::System.Object getElementText(){
 
 public virtual void require(int n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void require(int, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -178,9 +154,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -196,11 +170,8 @@ public virtual bool hasNext(){
 
 public virtual void close(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label9;
@@ -213,13 +184,9 @@ public virtual void close(){
 
 public virtual global::System.Object getNamespaceURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getNamespaceURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -236,11 +203,8 @@ public virtual global::System.Object getNamespaceURI(global::java.lang.String n1
 
 public virtual global::System.Object getNamespaceContext(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: javax.xml.namespace.NamespaceContext getNamespaceContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -258,9 +222,7 @@ public virtual bool isStartElement(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isStartElement()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -278,9 +240,7 @@ public virtual bool isEndElement(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isEndElement()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -298,9 +258,7 @@ public virtual bool isCharacters(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isCharacters()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -318,9 +276,7 @@ public virtual bool isWhiteSpace(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isWhiteSpace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -336,15 +292,10 @@ public virtual bool isWhiteSpace(){
 
 public virtual global::System.Object getAttributeValue(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributeValue(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -364,9 +315,7 @@ public virtual int getAttributeCount(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getAttributeCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -382,13 +331,9 @@ public virtual int getAttributeCount(){
 
 public virtual global::System.Object getAttributeName(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: javax.xml.namespace.QName getAttributeName(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -405,13 +350,9 @@ public virtual global::System.Object getAttributeName(int n1){
 
 public virtual global::System.Object getAttributePrefix(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributePrefix(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -428,13 +369,9 @@ public virtual global::System.Object getAttributePrefix(int n1){
 
 public virtual global::System.Object getAttributeNamespace(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributeNamespace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -451,13 +388,9 @@ public virtual global::System.Object getAttributeNamespace(int n1){
 
 public virtual global::System.Object getAttributeLocalName(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributeLocalName(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -474,13 +407,9 @@ public virtual global::System.Object getAttributeLocalName(int n1){
 
 public virtual global::System.Object getAttributeType(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributeType(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -497,13 +426,9 @@ public virtual global::System.Object getAttributeType(int n1){
 
 public virtual global::System.Object getAttributeValue(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getAttributeValue(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -522,11 +447,8 @@ public virtual bool isAttributeSpecified(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isAttributeSpecified(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -545,9 +467,7 @@ public virtual int getNamespaceCount(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getNamespaceCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -563,13 +483,9 @@ public virtual int getNamespaceCount(){
 
 public virtual global::System.Object getNamespacePrefix(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getNamespacePrefix(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -586,13 +502,9 @@ public virtual global::System.Object getNamespacePrefix(int n1){
 
 public virtual global::System.Object getNamespaceURI(int n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getNamespaceURI(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
@@ -611,9 +523,7 @@ public virtual int getEventType(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getEventType()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -629,11 +539,8 @@ public virtual int getEventType(){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -651,17 +558,11 @@ public virtual int getTextCharacters(int n1, global::org.xmlvm._nArrayAdapter<ch
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getTextCharacters(int, char[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -681,11 +582,8 @@ public virtual int getTextCharacters(int n1, global::org.xmlvm._nArrayAdapter<ch
 
 public virtual global::System.Object getTextCharacters(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: char[] getTextCharacters()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -703,9 +601,7 @@ public virtual int getTextStart(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getTextStart()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -723,9 +619,7 @@ public virtual int getTextLength(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: int getTextLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -741,11 +635,8 @@ public virtual int getTextLength(){
 
 public virtual global::System.Object getEncoding(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getEncoding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -763,9 +654,7 @@ public virtual bool hasText(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean hasText()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -781,11 +670,8 @@ public virtual bool hasText(){
 
 public virtual global::System.Object getLocation(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: javax.xml.stream.Location getLocation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -801,11 +687,8 @@ public virtual global::System.Object getLocation(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: javax.xml.namespace.QName getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -821,11 +704,8 @@ public virtual global::System.Object getName(){
 
 public virtual global::System.Object getLocalName(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getLocalName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -843,9 +723,7 @@ public virtual bool hasName(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean hasName()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -861,11 +739,8 @@ public virtual bool hasName(){
 
 public virtual global::System.Object getNamespaceURI(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getNamespaceURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -881,11 +756,8 @@ public virtual global::System.Object getNamespaceURI(){
 
 public virtual global::System.Object getPrefix(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getPrefix()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -901,11 +773,8 @@ public virtual global::System.Object getPrefix(){
 
 public virtual global::System.Object getVersion(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getVersion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -923,9 +792,7 @@ public virtual bool isStandalone(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean isStandalone()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -943,9 +810,7 @@ public virtual bool standaloneSet(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: boolean standaloneSet()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -961,11 +826,8 @@ public virtual bool standaloneSet(){
 
 public virtual global::System.Object getCharacterEncodingScheme(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getCharacterEncodingScheme()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -981,11 +843,8 @@ public virtual global::System.Object getCharacterEncodingScheme(){
 
 public virtual global::System.Object getPITarget(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getPITarget()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -1001,11 +860,8 @@ public virtual global::System.Object getPITarget(){
 
 public virtual global::System.Object getPIData(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.String getPIData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;
     if (_r0_o == null) goto label11;
@@ -1021,13 +877,9 @@ public virtual global::System.Object getPIData(){
 
 public virtual global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: java.lang.Object getProperty(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::javax.xml.stream.util.ReaderDelegate) _r1_o)._fparent;

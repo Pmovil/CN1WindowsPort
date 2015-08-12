@@ -43,13 +43,9 @@ public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=
@@ -81,11 +77,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getContent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: java.lang.String getContent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.messaging.Message) _r1_o)._fcontent;
     return (global::java.lang.String) _r0_o;
@@ -94,11 +87,8 @@ public virtual global::System.Object getContent(){
 
 public virtual void setAttachment(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void setAttachment(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.messaging.Message) _r0_o)._ffileUri = (global::java.lang.String) _r1_o;
@@ -110,13 +100,9 @@ public virtual global::System.Object getAttachments(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: java.util.Map getAttachments()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.messaging.Message) _r3_o)._fattachments;
     if (_r0_o != null) goto label11;
@@ -150,11 +136,8 @@ public virtual global::System.Object getAttachments(){
 
 public virtual void setMimeType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void setMimeType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.messaging.Message) _r0_o)._fmimeType = (global::java.lang.String) _r1_o;
@@ -164,11 +147,8 @@ public virtual void setMimeType(global::java.lang.String n1){
 
 public virtual global::System.Object getMimeType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: java.lang.String getMimeType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.messaging.Message) _r1_o)._fmimeType;
     return (global::java.lang.String) _r0_o;
@@ -177,11 +157,8 @@ public virtual global::System.Object getMimeType(){
 
 public virtual void setAttachmentMimeType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void setAttachmentMimeType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.messaging.Message) _r0_o)._fattachmentMimeType = (global::java.lang.String) _r1_o;
@@ -191,11 +168,8 @@ public virtual void setAttachmentMimeType(global::java.lang.String n1){
 
 public virtual global::System.Object getAttachmentMimeType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: java.lang.String getAttachmentMimeType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.messaging.Message) _r1_o)._fattachmentMimeType;
     return (global::java.lang.String) _r0_o;
@@ -204,11 +178,8 @@ public virtual global::System.Object getAttachmentMimeType(){
 
 public virtual global::System.Object getAttachment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: java.lang.String getAttachment()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.messaging.Message) _r1_o)._ffileUri;
     return (global::java.lang.String) _r0_o;
@@ -217,15 +188,10 @@ public virtual global::System.Object getAttachment(){
 
 public static void sendMessage(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::java.lang.String n2, global::com.codename1.messaging.Message n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void sendMessage(java.lang.String[], java.lang.String, com.codename1.messaging.Message)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -237,23 +203,14 @@ public static void sendMessage(global::org.xmlvm._nArrayAdapter<global::System.O
 
 public virtual void sendMessageViaCloud(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void sendMessageViaCloud(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -269,27 +226,17 @@ public virtual void sendMessageViaCloud(global::java.lang.String n1, global::jav
 
 public virtual bool sendMessageViaCloudSync(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: boolean sendMessageViaCloudSync(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -315,31 +262,19 @@ public virtual bool sendMessageViaCloudSync(global::java.lang.String n1, global:
 
 private global::System.Object createMessage(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: com.codename1.io.ConnectionRequest createMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -430,10 +365,7 @@ private global::System.Object createMessage(global::java.lang.String n1, global:
 public virtual bool isCloudMessageFailSilently(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: boolean isCloudMessageFailSilently()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.messaging.Message) _r1_o)._fcloudMessageFailSilently ? 1 : 0;
     return _r0.i!=0;
@@ -442,11 +374,8 @@ public virtual bool isCloudMessageFailSilently(){
 
 public virtual void setCloudMessageFailSilently(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.messaging.Message: void setCloudMessageFailSilently(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.messaging.Message) _r0_o)._fcloudMessageFailSilently = 0!=_r1.i;

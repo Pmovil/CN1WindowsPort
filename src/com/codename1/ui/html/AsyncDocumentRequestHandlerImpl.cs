@@ -12,9 +12,7 @@ public static global::java.lang.Object _fLOCK;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.html.DefaultDocumentRequestHandler) _r0_o).@this();
     return;
@@ -23,17 +21,12 @@ public void @this(){
 
 public override void resourceRequestedAsync(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: void resourceRequestedAsync(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -66,13 +59,9 @@ public override void resourceRequestedAsync(global::com.codename1.ui.html.Docume
 
 public override global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: java.io.InputStream resourceRequested(com.codename1.ui.html.DocumentInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -82,31 +71,19 @@ public override global::System.Object resourceRequested(global::com.codename1.ui
 
 private global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: java.io.InputStream resourceRequested(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
@@ -311,17 +288,11 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
 
 public virtual global::System.Object createConnectionRequest(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: com.codename1.io.ConnectionRequest createConnectionRequest(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -334,9 +305,7 @@ public virtual global::System.Object createConnectionRequest(global::com.codenam
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.lang.Object();
     ((global::java.lang.Object) _r0_o).@this();
     global::com.codename1.ui.html.AsyncDocumentRequestHandlerImpl._fLOCK = (global::java.lang.Object) _r0_o;

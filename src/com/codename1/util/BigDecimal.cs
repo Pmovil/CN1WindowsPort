@@ -18,15 +18,10 @@ private int _fscale;
 
 public static global::System.Object getInstance(global::com.codename1.util.BigInteger n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal getInstance(com.codename1.util.BigInteger, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -38,17 +33,11 @@ public static global::System.Object getInstance(global::com.codename1.util.BigIn
 
 public void @this(global::com.codename1.util.BigInteger n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: void <init>(com.codename1.util.BigInteger, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -71,11 +60,8 @@ private void @this(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: void <init>(com.codename1.util.BigDecimal)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -93,11 +79,8 @@ private void checkScale(global::com.codename1.util.BigDecimal n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.util.BigDecimal) _r2_o)._fscale;
@@ -118,15 +101,10 @@ public virtual global::System.Object adjustScale(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal adjustScale(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i >= 0) goto label10;
@@ -156,17 +134,12 @@ public virtual global::System.Object adjustScale(int n1){
 
 public virtual global::System.Object add(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal add(com.codename1.util.BigDecimal)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::com.codename1.util.BigDecimal) _r3_o).checkScale((global::com.codename1.util.BigDecimal) _r4_o);
@@ -182,17 +155,12 @@ public virtual global::System.Object add(global::com.codename1.util.BigDecimal n
 
 public virtual global::System.Object add(global::com.codename1.util.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal add(com.codename1.util.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -208,15 +176,10 @@ public virtual global::System.Object add(global::com.codename1.util.BigInteger n
 
 public virtual global::System.Object negate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal negate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.util.BigDecimal();
     _r1_o = ((global::com.codename1.util.BigDecimal) _r3_o)._fbigInt;
@@ -229,13 +192,9 @@ public virtual global::System.Object negate(){
 
 public virtual global::System.Object subtract(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal subtract(com.codename1.util.BigDecimal)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r2_o).negate();
@@ -246,17 +205,12 @@ public virtual global::System.Object subtract(global::com.codename1.util.BigDeci
 
 public virtual global::System.Object subtract(global::com.codename1.util.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal subtract(com.codename1.util.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -272,19 +226,13 @@ public virtual global::System.Object subtract(global::com.codename1.util.BigInte
 
 public virtual global::System.Object multiply(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal multiply(com.codename1.util.BigDecimal)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     ((global::com.codename1.util.BigDecimal) _r4_o).checkScale((global::com.codename1.util.BigDecimal) _r5_o);
@@ -302,17 +250,11 @@ public virtual global::System.Object multiply(global::com.codename1.util.BigDeci
 
 public virtual global::System.Object multiply(global::com.codename1.util.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal multiply(com.codename1.util.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -326,19 +268,13 @@ public virtual global::System.Object multiply(global::com.codename1.util.BigInte
 
 public virtual global::System.Object divide(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal divide(com.codename1.util.BigDecimal)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     ((global::com.codename1.util.BigDecimal) _r4_o).checkScale((global::com.codename1.util.BigDecimal) _r5_o);
@@ -356,17 +292,11 @@ public virtual global::System.Object divide(global::com.codename1.util.BigDecima
 
 public virtual global::System.Object divide(global::com.codename1.util.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal divide(com.codename1.util.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -380,17 +310,11 @@ public virtual global::System.Object divide(global::com.codename1.util.BigIntege
 
 public virtual global::System.Object shiftLeft(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigDecimal shiftLeft(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = new global::com.codename1.util.BigDecimal();
@@ -406,13 +330,9 @@ public virtual int compareTo(global::com.codename1.util.BigDecimal n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: int compareTo(com.codename1.util.BigDecimal)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.util.BigDecimal) _r2_o).checkScale((global::com.codename1.util.BigDecimal) _r3_o);
@@ -429,11 +349,8 @@ public virtual int compareTo(global::com.codename1.util.BigInteger n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r2_o)._fbigInt;
@@ -446,13 +363,9 @@ public virtual int compareTo(global::com.codename1.util.BigInteger n1){
 
 public virtual global::System.Object floor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigInteger floor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r2_o)._fbigInt;
     _r1.i = ((global::com.codename1.util.BigDecimal) _r2_o)._fscale;
@@ -463,15 +376,11 @@ public virtual global::System.Object floor(){
 
 public virtual global::System.Object round(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: com.codename1.util.BigInteger round()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.util.BigDecimal();
     _r1_o = global::com.codename1.util.BigDecimal._fONE;
@@ -489,9 +398,7 @@ public virtual int intValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: int intValue()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r1_o).floor();
     _r0.i = ((global::com.codename1.util.BigInteger) _r0_o).intValue();
@@ -503,11 +410,7 @@ public virtual long longValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: long longValue()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r2_o).floor();
     _r0.l = ((global::com.codename1.util.BigInteger) _r0_o).longValue();
@@ -518,10 +421,7 @@ public virtual long longValue(){
 public virtual int getScale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: int getScale()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.util.BigDecimal) _r1_o)._fscale;
     return _r0.i;
@@ -530,37 +430,23 @@ public virtual int getScale(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r13.i = -1;
     _r11.i = ((global::com.codename1.util.BigDecimal) _r14_o)._fscale;
@@ -632,23 +518,16 @@ public override global::System.Object toString(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -686,10 +565,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.util.BigDecimal) _r2_o)._fbigInt;
     _r0.i = ((global::com.codename1.util.BigInteger) _r0_o).hashCode();
@@ -703,9 +579,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.l = 0L;
     _r0_o = global::com.codename1.util.BigInteger.valueOf((long) _r0.l);
     global::com.codename1.util.BigDecimal._fZERO = (global::com.codename1.util.BigInteger) _r0_o;

@@ -9,9 +9,7 @@ private bool _freadOnly;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.security.PermissionCollection: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,10 +25,7 @@ public abstract bool implies(global::java.security.Permission n1);
 public virtual bool isReadOnly(){
 //XMLVM_BEGIN_WRAPPER[java.security.PermissionCollection: boolean isReadOnly()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.security.PermissionCollection) _r1_o)._freadOnly ? 1 : 0;
     return _r0.i!=0;
@@ -40,10 +35,7 @@ public virtual bool isReadOnly(){
 public virtual void setReadOnly(){
 //XMLVM_BEGIN_WRAPPER[java.security.PermissionCollection: void setReadOnly()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::java.security.PermissionCollection) _r1_o)._freadOnly = 0!=_r0.i;
@@ -53,21 +45,17 @@ public virtual void setReadOnly(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.security.PermissionCollection: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0_o = new global::java.util.ArrayList();
     _r1.i = 100;

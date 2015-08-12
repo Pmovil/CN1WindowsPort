@@ -14,18 +14,11 @@ public global::java.util.WeakHashMap_2Entry _fnext;
 public void @this(global::java.lang.Object n1, global::java.lang.Object n2, global::java.lang.@ref.ReferenceQueue n3){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: void <init>(java.lang.Object, java.lang.Object, java.lang.ref.ReferenceQueue)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -54,11 +47,8 @@ public void @this(global::java.lang.Object n1, global::java.lang.Object n2, glob
 
 public virtual global::System.Object getKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: java.lang.Object getKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.get();
     return (global::java.lang.Object) _r0_o;
@@ -67,11 +57,8 @@ public virtual global::System.Object getKey(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: java.lang.Object getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.WeakHashMap_2Entry) _r1_o)._fvalue;
     return (global::java.lang.Object) _r0_o;
@@ -80,13 +67,9 @@ public virtual global::System.Object getValue(){
 
 public virtual global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.WeakHashMap_2Entry) _r1_o)._fvalue;
@@ -99,15 +82,10 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -150,12 +128,9 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.WeakHashMap_2Entry) _r2_o)._fhash;
     _r1_o = ((global::java.util.WeakHashMap_2Entry) _r2_o)._fvalue;
@@ -173,13 +148,9 @@ public override int hashCode(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$Entry: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

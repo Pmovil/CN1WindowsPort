@@ -35,9 +35,7 @@ private static global::java.util.Random _frandom;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -47,18 +45,8 @@ private void @this(){
 public static double abs(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double abs(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r0.l = global::java.lang.Double.doubleToLongBits((double) _r4.d);
     _r2.l = 9223372036854775807L;
@@ -71,12 +59,8 @@ public static double abs(double n1){
 public static float abs(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float abs(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r0.i = global::java.lang.Float.floatToIntBits((float) _r2.f);
     _r1.i = 2147483647;
@@ -89,10 +73,7 @@ public static float abs(float n1){
 public static int abs(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: int abs(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     if (_r1.i < 0) goto label4;
     _r0.i = _r1.i;
@@ -107,14 +88,7 @@ public static int abs(int n1){
 public static long abs(long n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: long abs(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.l = n1;
     _r0.l = 0L;
     _r0.i = _r2.l > _r0.l ? 1 : (_r2.l == _r0.l ? 0 : -1);
@@ -293,14 +267,7 @@ public static double rint(double n1){
 public static long round(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: long round(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.d = n1;
     _r0.i = _r2.d > _r2.d ? 1 : (_r2.d == _r2.d ? 0 : -1);
     if (_r0.i == 0) goto label7;
@@ -319,12 +286,7 @@ public static long round(double n1){
 public static int round(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: int round(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r0.i = _r2.f > _r2.f ? 1 : (_r2.f == _r2.f ? 0 : -1);
     if (_r0.i == 0) goto label6;
@@ -344,14 +306,7 @@ public static int round(float n1){
 public static double signum(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double signum(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.d = n1;
     _r0.d = global::java.lang.StrictMath.signum((double) _r2.d);
     return _r0.d;
@@ -361,10 +316,7 @@ public static double signum(double n1){
 public static float signum(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float signum(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.f = n1;
     _r0.f = global::java.lang.StrictMath.signum((float) _r1.f);
     return _r0.f;
@@ -405,9 +357,6 @@ public static double random(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double random()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.Math._frandom;
     if (_r0_o != null) goto label11;
     _r0_o = new global::java.util.Random();
@@ -423,18 +372,8 @@ public static double random(){
 public static double toRadians(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double toRadians(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r0.d = 180.0D;
     _r0.d = _r4.d / _r0.d;
@@ -447,18 +386,8 @@ public static double toRadians(double n1){
 public static double toDegrees(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double toDegrees(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r0.d = 180.0D;
     _r0.d = _r0.d * _r4.d;
@@ -471,18 +400,8 @@ public static double toDegrees(double n1){
 public static double ulp(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double ulp(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r2.d = 1.7976931348623157E308D;
     _r0.i = global::java.lang.Double.isInfinite((double) _r4.d) ? 1 : 0;
@@ -512,16 +431,9 @@ public static double ulp(double n1){
 public static float ulp(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float ulp(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.f = n1;
     _r1.f = (float)3.4028235E38D;
     _r0.i = global::java.lang.Float.isNaN((float) _r4.f) ? 1 : 0;
@@ -569,26 +481,10 @@ private static float nextafterf(float n1, float n2){
 public static double copySign(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double copySign(double, double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r0.l = global::java.lang.Double.doubleToRawLongBits((double) _r6.d);
@@ -606,16 +502,10 @@ public static double copySign(double n1, double n2){
 public static float copySign(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float copySign(float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.f = n1;
     _r4.f = n2;
     _r0.i = global::java.lang.Float.floatToRawIntBits((float) _r3.f);
@@ -633,12 +523,8 @@ public static float copySign(float n1, float n2){
 public static int getExponent(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: int getExponent(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r0.i = global::java.lang.Float.floatToRawIntBits((float) _r2.f);
     _r1.i = 2139095040;
@@ -653,18 +539,9 @@ public static int getExponent(float n1){
 public static int getExponent(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: int getExponent(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r0.l = global::java.lang.Double.doubleToRawLongBits((double) _r4.d);
     _r2.l = 9218868437227405312L;
@@ -681,20 +558,9 @@ public static int getExponent(double n1){
 public static double nextAfter(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double nextAfter(double, double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.d = n1;
     _r5.d = n2;
     _r1.d = 0.0D;
@@ -716,24 +582,13 @@ public static float nextAfter(float n1, double n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.f = n1;
     _r8.d = n2;
     _r6.f = (float)3.4028235E38D;
@@ -865,24 +720,10 @@ public static float nextAfter(float n1, double n2){
 public static double nextUp(double n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double nextUp(double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.d = n1;
     _r5.l = 1L;
     _r3.d = global::System.Double.PositiveInfinity;
@@ -920,14 +761,9 @@ public static double nextUp(double n1){
 public static float nextUp(float n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float nextUp(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.f = n1;
     _r2.f = global::System.Single.PositiveInfinity;
     _r1.f = (float)0.0D;
@@ -965,28 +801,11 @@ public static float nextUp(float n1){
 public static double scalb(double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: double scalb(double, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.d = n1;
     _r10.i = n2;
     _r0.i = global::java.lang.Double.isNaN((double) _r8.d) ? 1 : 0;
@@ -1091,30 +910,17 @@ public static double scalb(double n1, int n2){
 public static float scalb(float n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: float scalb(float, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10.f = n1;
     _r11.i = n2;
     _r8.i = 127;
@@ -1210,20 +1016,12 @@ public static float scalb(float n1, int n2){
 private static int shiftIntBits(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: int shiftIntBits(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r6.i = n2;
     _r3.i = 0;
@@ -1275,34 +1073,12 @@ private static int shiftIntBits(int n1, int n2){
 private static long shiftLongBits(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: long shiftLongBits(long, long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10.l = n1;
     _r12.l = n2;
     _r6.l = 0L;

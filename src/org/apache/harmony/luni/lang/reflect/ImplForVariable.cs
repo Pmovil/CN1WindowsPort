@@ -15,21 +15,14 @@ private global::org.apache.harmony.luni.lang.reflect.ListOfTypes _fbounds;
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -64,9 +57,7 @@ public override int hashCode(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r2_o).getName();
     _r0.i = ((global::java.lang.String) _r0_o).hashCode();
@@ -80,17 +71,11 @@ public override int hashCode(){
 
 public void @this(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2, global::org.apache.harmony.luni.lang.reflect.ListOfTypes n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: void <init>(java.lang.reflect.GenericDeclaration, java.lang.String, org.apache.harmony.luni.lang.reflect.ListOfTypes)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -108,13 +93,9 @@ public void @this(global::java.lang.reflect.GenericDeclaration n1, global::java.
 
 public void @this(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: void <init>(java.lang.reflect.GenericDeclaration, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -127,23 +108,15 @@ public void @this(global::java.lang.reflect.GenericDeclaration n1, global::java.
 
 public static global::System.Object findFormalVar(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.reflect.TypeVariable findFormalVar(java.lang.reflect.GenericDeclaration, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r1_o = ((global::java.lang.reflect.GenericDeclaration) _r6_o).getTypeParameters();
@@ -170,19 +143,13 @@ public static global::System.Object findFormalVar(global::java.lang.reflect.Gene
 
 public static global::System.Object nextLayer(global::java.lang.reflect.GenericDeclaration n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.reflect.GenericDeclaration nextLayer(java.lang.reflect.GenericDeclaration)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.Class)) ? 1 : 0;
     if (_r2.i == 0) goto label29;
@@ -232,15 +199,10 @@ public static global::System.Object nextLayer(global::java.lang.reflect.GenericD
 
 public virtual void resolve(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: void resolve()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r3_o)._fformalVar;
     if (_r2_o != null) goto label31;
@@ -270,11 +232,8 @@ public virtual void resolve(){
 
 public virtual global::System.Object getBounds(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.reflect.Type[] getBounds()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o).resolve();
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o)._fbounds;
@@ -287,11 +246,8 @@ public virtual global::System.Object getBounds(){
 
 public virtual global::System.Object getGenericDeclaration(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.reflect.GenericDeclaration getGenericDeclaration()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o).resolve();
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o)._fgenericDeclaration;
@@ -301,11 +257,8 @@ public virtual global::System.Object getGenericDeclaration(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -314,11 +267,8 @@ public virtual global::System.Object getName(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;

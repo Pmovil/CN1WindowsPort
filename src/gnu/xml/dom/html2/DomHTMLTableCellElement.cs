@@ -41,15 +41,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -62,10 +57,7 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 public virtual int getCellIndex(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: int getCellIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.html2.DomHTMLTableCellElement) _r1_o).getIndex();
     return _r0.i;
@@ -74,11 +66,8 @@ public virtual int getCellIndex(){
 
 public virtual global::System.Object getAbbr(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getAbbr()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=abbr
     _r0_o = new global::java.lang.String();
@@ -90,13 +79,9 @@ public virtual global::System.Object getAbbr(){
 
 public virtual void setAbbr(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setAbbr(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=abbr
@@ -109,11 +94,8 @@ public virtual void setAbbr(global::java.lang.String n1){
 
 public virtual global::System.Object getAlign(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getAlign()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=align
     _r0_o = new global::java.lang.String();
@@ -125,13 +107,9 @@ public virtual global::System.Object getAlign(){
 
 public virtual void setAlign(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setAlign(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=align
@@ -144,11 +122,8 @@ public virtual void setAlign(global::java.lang.String n1){
 
 public virtual global::System.Object getAxis(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getAxis()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=axis
     _r0_o = new global::java.lang.String();
@@ -160,13 +135,9 @@ public virtual global::System.Object getAxis(){
 
 public virtual void setAxis(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setAxis(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=axis
@@ -179,11 +150,8 @@ public virtual void setAxis(global::java.lang.String n1){
 
 public virtual global::System.Object getBgColor(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getBgColor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=bgcolor
     _r0_o = new global::java.lang.String();
@@ -195,13 +163,9 @@ public virtual global::System.Object getBgColor(){
 
 public virtual void setBgColor(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setBgColor(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=bgcolor
@@ -214,11 +178,8 @@ public virtual void setBgColor(global::java.lang.String n1){
 
 public virtual global::System.Object getCh(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getCh()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=char
     _r0_o = new global::java.lang.String();
@@ -230,13 +191,9 @@ public virtual global::System.Object getCh(){
 
 public virtual void setCh(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setCh(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=char
@@ -249,11 +206,8 @@ public virtual void setCh(global::java.lang.String n1){
 
 public virtual global::System.Object getChOff(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getChOff()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=charoff
     _r0_o = new global::java.lang.String();
@@ -265,13 +219,9 @@ public virtual global::System.Object getChOff(){
 
 public virtual void setChOff(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setChOff(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=charoff
@@ -286,9 +236,7 @@ public virtual int getColSpan(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: int getColSpan()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=colspan
     _r0_o = new global::java.lang.String();
@@ -300,13 +248,9 @@ public virtual int getColSpan(){
 
 public virtual void setColSpan(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setColSpan(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=colspan
@@ -319,11 +263,8 @@ public virtual void setColSpan(int n1){
 
 public virtual global::System.Object getHeaders(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getHeaders()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=headers
     _r0_o = new global::java.lang.String();
@@ -335,13 +276,9 @@ public virtual global::System.Object getHeaders(){
 
 public virtual void setHeaders(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setHeaders(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=headers
@@ -354,11 +291,8 @@ public virtual void setHeaders(global::java.lang.String n1){
 
 public virtual global::System.Object getHeight(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getHeight()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=height
     _r0_o = new global::java.lang.String();
@@ -370,13 +304,9 @@ public virtual global::System.Object getHeight(){
 
 public virtual void setHeight(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setHeight(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=height
@@ -391,9 +321,7 @@ public virtual bool getNoWrap(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: boolean getNoWrap()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=nowrap
     _r0_o = new global::java.lang.String();
@@ -405,13 +333,9 @@ public virtual bool getNoWrap(){
 
 public virtual void setNoWrap(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setNoWrap(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=nowrap
@@ -426,9 +350,7 @@ public virtual int getRowSpan(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: int getRowSpan()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=rowspan
     _r0_o = new global::java.lang.String();
@@ -440,13 +362,9 @@ public virtual int getRowSpan(){
 
 public virtual void setRowSpan(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setRowSpan(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=rowspan
@@ -459,11 +377,8 @@ public virtual void setRowSpan(int n1){
 
 public virtual global::System.Object getScope(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getScope()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=scope
     _r0_o = new global::java.lang.String();
@@ -475,13 +390,9 @@ public virtual global::System.Object getScope(){
 
 public virtual void setScope(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setScope(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=scope
@@ -494,11 +405,8 @@ public virtual void setScope(global::java.lang.String n1){
 
 public virtual global::System.Object getVAlign(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getVAlign()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=valign
     _r0_o = new global::java.lang.String();
@@ -510,13 +418,9 @@ public virtual global::System.Object getVAlign(){
 
 public virtual void setVAlign(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setVAlign(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=valign
@@ -529,11 +433,8 @@ public virtual void setVAlign(global::java.lang.String n1){
 
 public virtual global::System.Object getWidth(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: java.lang.String getWidth()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=width
     _r0_o = new global::java.lang.String();
@@ -545,13 +446,9 @@ public virtual global::System.Object getWidth(){
 
 public virtual void setWidth(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTableCellElement: void setWidth(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=width

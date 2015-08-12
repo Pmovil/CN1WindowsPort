@@ -9,11 +9,8 @@ private int _finputLength;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.UnmappableCharacterException: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.nio.charset.CharacterCodingException) _r0_o).@this();
@@ -25,10 +22,7 @@ public void @this(int n1){
 public virtual int getInputLength(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.UnmappableCharacterException: int getInputLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.charset.UnmappableCharacterException) _r1_o)._finputLength;
     return _r0.i;
@@ -37,13 +31,9 @@ public virtual int getInputLength(){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.UnmappableCharacterException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=niochar.0A
     _r0_o = new global::java.lang.String();

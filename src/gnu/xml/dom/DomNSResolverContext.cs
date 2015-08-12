@@ -7,11 +7,8 @@ public global::org.w3c.dom.xpath.XPathNSResolver _fresolver;
 
 public void @this(global::org.w3c.dom.xpath.XPathNSResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: void <init>(org.w3c.dom.xpath.XPathNSResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -22,13 +19,9 @@ public void @this(global::org.w3c.dom.xpath.XPathNSResolver n1){
 
 public virtual global::System.Object getNamespaceURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: java.lang.String getNamespaceURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomNSResolverContext) _r1_o)._fresolver;
@@ -39,13 +32,9 @@ public virtual global::System.Object getNamespaceURI(global::java.lang.String n1
 
 public virtual global::System.Object getPrefix(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: java.lang.String getPrefix(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -55,11 +44,8 @@ public virtual global::System.Object getPrefix(global::java.lang.String n1){
 
 public virtual global::System.Object getPrefixes(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: java.util.Iterator getPrefixes(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return (global::java.util.Iterator) _r0_o;
@@ -69,10 +55,7 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
 public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -81,11 +64,8 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.Object) _r0_o;
@@ -94,11 +74,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNSResolverContext: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();

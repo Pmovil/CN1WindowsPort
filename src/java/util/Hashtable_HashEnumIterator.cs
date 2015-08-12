@@ -14,14 +14,9 @@ public global::java.util.Hashtable _fthis_20;
 public void @this(global::java.util.Hashtable n1, global::java.util.MapEntry_2Type n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: void <init>(java.util.Hashtable, java.util.MapEntry$Type)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -36,16 +31,10 @@ public void @this(global::java.util.Hashtable n1, global::java.util.MapEntry_2Ty
 public void @this(global::java.util.Hashtable n1, global::java.util.MapEntry_2Type n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: void <init>(java.util.Hashtable, java.util.MapEntry$Type, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -69,10 +58,7 @@ public virtual bool hasMoreElements(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::java.util.Hashtable_2HashEnumIterator) _r3_o)._fisEnumeration ? 1 : 0;
@@ -113,10 +99,7 @@ public virtual bool hasMoreElements(){
 public override bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Hashtable_2HashEnumIterator) _r1_o)._fisEnumeration ? 1 : 0;
     if (_r0.i == 0) goto label9;
@@ -135,9 +118,7 @@ public override global::System.Object next(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Hashtable_2HashEnumIterator) _r2_o)._fisEnumeration ? 1 : 0;
     if (_r0.i == 0) goto label23;
@@ -162,11 +143,8 @@ public virtual global::System.Object nextElement(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: java.lang.Object nextElement()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Hashtable_2HashEnumIterator) _r2_o)._fisEnumeration ? 1 : 0;
     if (_r0.i == 0) goto label31;
@@ -194,9 +172,7 @@ public override void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: void remove()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Hashtable_2HashEnumIterator) _r1_o)._fisEnumeration ? 1 : 0;
     if (_r0.i == 0) goto label10;

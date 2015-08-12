@@ -9,11 +9,8 @@ private global::com.codename1.processing.StructuredContent _fparent;
 
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -24,19 +21,12 @@ public void @this(global::java.util.Map n1){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=UTF-8
@@ -60,15 +50,10 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::com.codename1.io.JSONParser();
@@ -83,13 +68,9 @@ public void @this(global::java.io.InputStream n1){
 
 public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.io.JSONParser();
@@ -102,13 +83,9 @@ public void @this(global::java.io.Reader n1){
 
 public void @this(global::java.lang.Object n1, global::com.codename1.processing.StructuredContent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.lang.Object, com.codename1.processing.StructuredContent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -123,13 +100,9 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     // Value=ROOT
     _r2_o = new global::java.lang.String();
@@ -178,9 +151,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._froot;
     _r0.i = ((global::java.lang.Object) _r0_o).hashCode();
@@ -193,12 +164,8 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
@@ -216,19 +183,13 @@ public override bool equals(global::java.lang.Object n1){
 
 private global::System.Object _1asStructuredContentArray(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List _asStructuredContentArray(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     if (_r5_o != null) goto label4;
@@ -272,27 +233,17 @@ private global::System.Object _1asStructuredContentArray(global::java.util.List 
 
 public virtual global::System.Object getChildren(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List getChildren(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r6_o = ((global::com.codename1.processing.MapContent) _r8_o)._froot;
@@ -404,23 +355,15 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
 
 public virtual global::System.Object getChild(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: com.codename1.processing.StructuredContent getChild(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r4_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
@@ -462,15 +405,11 @@ public virtual global::System.Object getChild(int n1){
 
 public virtual global::System.Object getDescendants(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List getDescendants(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
@@ -509,20 +448,12 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
 private void _1findByName(global::java.util.List n1, global::java.util.List n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void _findByName(java.util.List, java.util.List, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -552,23 +483,15 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
 
 private void _1findByName(global::java.util.List n1, global::java.util.Map n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void _findByName(java.util.List, java.util.Map, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -612,13 +535,9 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
 
 public virtual global::System.Object getAttribute(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String getAttribute(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -628,11 +547,8 @@ public virtual global::System.Object getAttribute(global::java.lang.String n1){
 
 public virtual global::System.Object getAttributes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.Map getAttributes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.util.Map) _r0_o;
@@ -641,11 +557,8 @@ public virtual global::System.Object getAttributes(){
 
 public virtual global::System.Object getParent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: com.codename1.processing.StructuredContent getParent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._fparent;
     if (_r0_o != null) goto label6;
@@ -660,13 +573,10 @@ public virtual global::System.Object getParent(){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
@@ -698,11 +608,8 @@ public virtual global::System.Object getText(){
 
 public virtual global::System.Object getNativeRoot(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.Object getNativeRoot()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._froot;
     return (global::java.lang.Object) _r0_o;

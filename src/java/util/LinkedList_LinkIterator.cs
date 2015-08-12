@@ -18,14 +18,9 @@ public void @this(global::java.util.LinkedList n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -89,13 +84,9 @@ public virtual void add(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r3_o)._fexpectedModCount;
@@ -139,11 +130,8 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$LinkIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._flink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fnext;
@@ -163,11 +151,8 @@ public virtual bool hasPrevious(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$LinkIterator: boolean hasPrevious()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._flink;
     _r1_o = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._flist;
@@ -188,9 +173,7 @@ public virtual global::System.Object next(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._flist;
@@ -223,10 +206,7 @@ public virtual global::System.Object next(){
 public virtual int nextIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$LinkIterator: int nextIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r1_o)._fpos;
     _r0.i = _r0.i + 1;
@@ -240,9 +220,7 @@ public virtual global::System.Object previous(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._flist;
@@ -278,10 +256,7 @@ public virtual global::System.Object previous(){
 public virtual int previousIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$LinkIterator: int previousIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r1_o)._fpos;
     return _r0.i;
@@ -294,13 +269,9 @@ public virtual void remove(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r4_o)._fexpectedModCount;
@@ -354,11 +325,8 @@ public virtual void set(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.util.LinkedList_2LinkIterator) _r2_o)._fexpectedModCount;

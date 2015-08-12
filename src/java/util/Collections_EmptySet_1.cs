@@ -7,11 +7,8 @@ public global::java.util.Collections_2EmptySet _fthis_21;
 
 public void @this(global::java.util.Collections_2EmptySet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptySet$1: void <init>(java.util.Collections$EmptySet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2EmptySet_21) _r0_o)._fthis_21 = (global::java.util.Collections_2EmptySet) _r1_o;
@@ -23,10 +20,7 @@ public void @this(global::java.util.Collections_2EmptySet n1){
 public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptySet$1: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -35,11 +29,8 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptySet$1: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.NoSuchElementException();
     ((global::java.util.NoSuchElementException) _r0_o).@this();
@@ -49,11 +40,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptySet$1: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();

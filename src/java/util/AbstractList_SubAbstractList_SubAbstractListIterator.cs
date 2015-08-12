@@ -14,18 +14,11 @@ private int _fend;
 public void @this(global::java.util.ListIterator n1, global::java.util.AbstractList_2SubAbstractList n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SubAbstractList$SubAbstractListIterator: void <init>(java.util.ListIterator, java.util.AbstractList$SubAbstractList, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -47,12 +40,8 @@ public virtual void add(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
@@ -72,10 +61,7 @@ public virtual bool hasNext(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).nextIndex();
@@ -95,10 +81,7 @@ public virtual bool hasPrevious(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).previousIndex();
@@ -118,10 +101,7 @@ public virtual global::System.Object next(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).nextIndex();
@@ -142,10 +122,7 @@ public virtual int nextIndex(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).nextIndex();
@@ -160,10 +137,7 @@ public virtual global::System.Object previous(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).previousIndex();
@@ -184,10 +158,7 @@ public virtual int previousIndex(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).previousIndex();
@@ -208,10 +179,7 @@ public virtual void remove(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r2_o)._fiterator;
     ((global::java.util.ListIterator) _r0_o).remove();
@@ -228,13 +196,9 @@ public virtual void remove(){
 
 public virtual void set(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SubAbstractList$SubAbstractListIterator: void set(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.AbstractList_2SubAbstractList_2SubAbstractListIterator) _r1_o)._fiterator;

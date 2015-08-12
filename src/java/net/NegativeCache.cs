@@ -13,15 +13,10 @@ private static float _fLOADING = (float)0.75D;
 
 public void @this(int n1, float n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: void <init>(int, float, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.f = n2;
@@ -34,14 +29,9 @@ public void @this(int n1, float n2, bool n3){
 public override bool removeEldestEntry(global::java.util.Map_2Entry n1){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: boolean removeEldestEntry(java.util.Map$Entry)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.net.NegativeCache) _r2_o).size();
@@ -58,15 +48,10 @@ public override bool removeEldestEntry(global::java.util.Map_2Entry n1){
 
 public static void put(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: void put(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
@@ -101,23 +86,14 @@ public static void put(global::java.lang.String n1, global::java.lang.String n2)
 
 public static global::System.Object getFailedMessage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: java.lang.String getFailedMessage(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
@@ -243,16 +219,11 @@ public static global::System.Object getFailedMessage(global::java.lang.String n1
 
 public static void checkCacheExists(){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: void checkCacheExists()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.net.NegativeCache));
     global::System.Threading.Monitor.Enter(_r0_o);

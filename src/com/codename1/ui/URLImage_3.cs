@@ -5,9 +5,7 @@ namespace com.codename1.ui {
 public class URLImage_23: global::java.lang.Object,global::com.codename1.ui.URLImage_2ImageAdapter {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$3: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,39 +14,25 @@ public void @this(){
 
 public virtual global::System.Object adaptImage(global::com.codename1.ui.EncodedImage n1, global::com.codename1.ui.EncodedImage n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$3: com.codename1.ui.EncodedImage adaptImage(com.codename1.ui.EncodedImage, com.codename1.ui.EncodedImage)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15_o = n2;
@@ -107,10 +91,7 @@ public virtual global::System.Object adaptImage(global::com.codename1.ui.Encoded
 public virtual bool isAsyncAdapter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$3: boolean isAsyncAdapter()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;

@@ -5,9 +5,7 @@ namespace java.lang.reflect {
 public class Array: global::java.lang.Object {
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Array: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

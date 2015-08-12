@@ -5,9 +5,7 @@ namespace java.util {
 public class Hashtable_22: global::java.lang.Object,global::java.util.Iterator {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$2: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,10 +15,7 @@ public void @this(){
 public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$2: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -29,11 +24,8 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$2: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.NoSuchElementException();
     ((global::java.util.NoSuchElementException) _r0_o).@this();
@@ -43,11 +35,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$2: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.IllegalStateException();
     ((global::java.lang.IllegalStateException) _r0_o).@this();

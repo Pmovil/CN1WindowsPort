@@ -16,13 +16,9 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fresolvedTypes;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -35,23 +31,14 @@ public void @this(int n1){
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: void <init>(java.lang.reflect.Type[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     ((global::java.lang.Object) _r6_o).@this();
@@ -76,15 +63,10 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 
 public virtual void add(global::java.lang.reflect.Type n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: void add(java.lang.reflect.Type)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -105,9 +87,7 @@ public virtual int length(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: int length()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r1_o)._ftypes;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
@@ -117,13 +97,9 @@ public virtual int length(){
 
 public virtual global::System.Object getResolvedTypes(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: java.lang.reflect.Type[] getResolvedTypes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r2_o)._fresolvedTypes;
     if (_r0_o == null) goto label6;
@@ -140,21 +116,14 @@ public virtual global::System.Object getResolvedTypes(){
 
 private global::System.Object resolveTypes(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: java.lang.reflect.Type[] resolveTypes(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -200,14 +169,10 @@ private global::System.Object resolveTypes(global::java.util.List n1){
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r1_o).@this();
@@ -235,11 +200,8 @@ public override global::System.Object toString(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.ListOfTypes();
     _r1.i = 0;
     ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).@this((int) _r1.i);

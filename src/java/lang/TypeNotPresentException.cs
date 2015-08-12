@@ -9,17 +9,11 @@ private global::java.lang.String _ftypeName;
 
 public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.TypeNotPresentException: void <init>(java.lang.String, java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -42,11 +36,8 @@ public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 
 public virtual global::System.Object typeName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.TypeNotPresentException: java.lang.String typeName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.TypeNotPresentException) _r1_o)._ftypeName;
     return (global::java.lang.String) _r0_o;

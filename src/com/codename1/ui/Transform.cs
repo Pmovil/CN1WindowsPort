@@ -35,11 +35,9 @@ private static global::com.codename1.ui.Transform _f_1IDENTITY;
 
 public static global::System.Object IDENTITY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform IDENTITY()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Transform._f_1IDENTITY;
     if (_r0_o != null) goto label28;
     _r0_o = new global::com.codename1.ui.Transform_2ImmutableTransform();
@@ -62,14 +60,9 @@ private void @this(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.f = (float)1.0D;
@@ -95,11 +88,8 @@ private void @this(global::java.lang.Object n1){
 
 private global::System.Object impl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.impl.CodenameOneImplementation impl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Transform) _r1_o)._fimpl;
     if (_r0_o != null) goto label14;
@@ -114,19 +104,14 @@ private global::System.Object impl(){
 
 private void initNativeTransform(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void initNativeTransform()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r1_o = ((global::com.codename1.ui.Transform) _r5_o)._fnativeTransform;
     if (_r1_o != null) goto label56;
@@ -197,11 +182,9 @@ private void initNativeTransform(){
 
 public static global::System.Object makeIdentity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeIdentity()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.Transform();
     _r1_o = null;
     ((global::com.codename1.ui.Transform) _r0_o).@this((global::java.lang.Object) _r1_o);
@@ -216,10 +199,7 @@ public virtual bool isIdentity(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0.i = ((global::com.codename1.ui.Transform) _r2_o)._ftype;
@@ -243,12 +223,8 @@ public virtual bool isIdentity(){
 public virtual bool isTranslation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: boolean isTranslation()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0.i = ((global::com.codename1.ui.Transform) _r2_o)._ftype;
@@ -265,10 +241,7 @@ public virtual bool isTranslation(){
 public virtual float getScaleX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getScaleX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._fscaleX;
     return _r0.f;
@@ -278,10 +251,7 @@ public virtual float getScaleX(){
 public virtual float getScaleY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getScaleY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._fscaleY;
     return _r0.f;
@@ -291,10 +261,7 @@ public virtual float getScaleY(){
 public virtual float getScaleZ(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getScaleZ()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._fscaleZ;
     return _r0.f;
@@ -304,10 +271,7 @@ public virtual float getScaleZ(){
 public virtual float getTranslateX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getTranslateX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._ftranslateX;
     return _r0.f;
@@ -317,10 +281,7 @@ public virtual float getTranslateX(){
 public virtual float getTranslateY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getTranslateY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._ftranslateY;
     return _r0.f;
@@ -330,10 +291,7 @@ public virtual float getTranslateY(){
 public virtual float getTranslateZ(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float getTranslateZ()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.Transform) _r1_o)._ftranslateZ;
     return _r0.f;
@@ -343,12 +301,8 @@ public virtual float getTranslateZ(){
 public virtual bool isScale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: boolean isScale()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Transform) _r2_o)._ftype;
     _r1.i = 2;
@@ -364,21 +318,13 @@ public virtual bool isScale(){
 
 public static global::System.Object makeRotation(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeRotation(float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.f = n1;
     _r4.f = n2;
     _r5.f = n3;
@@ -394,21 +340,13 @@ public static global::System.Object makeRotation(float n1, float n2, float n3, f
 
 public static global::System.Object makeRotation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeRotation(float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.f = n1;
     _r5.f = n2;
     _r6.f = n3;
@@ -425,17 +363,12 @@ public static global::System.Object makeRotation(float n1, float n2, float n3){
 
 public static global::System.Object makeTranslation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeTranslation(float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r3.f = n2;
     _r4.f = n3;
@@ -456,10 +389,7 @@ public static global::System.Object makeTranslation(float n1, float n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.f = n1;
     _r2.f = n2;
     _r0.f = (float)0.0D;
@@ -470,17 +400,12 @@ public static global::System.Object makeTranslation(float n1, float n2){
 
 public static global::System.Object makeScale(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeScale(float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r3.f = n2;
     _r4.f = n3;
@@ -501,10 +426,7 @@ public static global::System.Object makeScale(float n1, float n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.f = n1;
     _r2.f = n2;
     _r0.f = (float)1.0D;
@@ -515,21 +437,13 @@ public static global::System.Object makeScale(float n1, float n2){
 
 public static global::System.Object makePerspective(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makePerspective(float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.f = n1;
     _r4.f = n2;
     _r5.f = n3;
@@ -545,37 +459,21 @@ public static global::System.Object makePerspective(float n1, float n2, float n3
 
 public static global::System.Object makeOrtho(float n1, float n2, float n3, float n4, float n5, float n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeOrtho(float, float, float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9.f = n1;
     _r10.f = n2;
     _r11.f = n3;
@@ -599,45 +497,27 @@ public static global::System.Object makeOrtho(float n1, float n2, float n3, floa
 
 public static global::System.Object makeCamera(float n1, float n2, float n3, float n4, float n5, float n6, float n7, float n8, float n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform makeCamera(float, float, float, float, float, float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10.f = n1;
     _r11.f = n2;
     _r12.f = n3;
@@ -669,27 +549,16 @@ public virtual void rotate(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void rotate(float, float, float, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.f = n1;
     _r8.f = n2;
@@ -713,20 +582,12 @@ public virtual void rotate(float n1, float n2, float n3, float n4){
 public virtual void rotate(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void rotate(float, float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.f = n2;
@@ -746,17 +607,11 @@ public virtual void setRotation(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setRotation(float, float, float, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -775,15 +630,10 @@ public virtual void setRotation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setRotation(float, float, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -800,14 +650,9 @@ public virtual void setRotation(float n1, float n2, float n3){
 public virtual void setIdentity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setIdentity()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.f = (float)1.0D;
     _r1.f = (float)0.0D;
@@ -827,13 +672,9 @@ public virtual void setIdentity(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::com.codename1.ui.Transform) _r2_o).getNativeTransform();
     _r0_o = new global::java.lang.StringBuilder();
@@ -856,16 +697,10 @@ public virtual void translate(float n1, float n2, float n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.f = n2;
@@ -916,14 +751,9 @@ public virtual void translate(float n1, float n2, float n3){
 public virtual void translate(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void translate(float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -936,20 +766,12 @@ public virtual void translate(float n1, float n2){
 public virtual void setTranslation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setTranslation(float, float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.f = n2;
@@ -983,14 +805,9 @@ public virtual void setTranslation(float n1, float n2, float n3){
 public virtual void setTranslation(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setTranslation(float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -1007,16 +824,10 @@ public virtual void scale(float n1, float n2, float n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.f = n2;
@@ -1068,14 +879,9 @@ public virtual void scale(float n1, float n2, float n3){
 public virtual void scale(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void scale(float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -1087,21 +893,15 @@ public virtual void scale(float n1, float n2){
 
 public virtual global::System.Object getInverse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform getInverse()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.f = (float)1.0D;
     _r2.i = ((global::com.codename1.ui.Transform) _r6_o)._ftype;
@@ -1149,15 +949,10 @@ public virtual void setTransform(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setTransform(com.codename1.ui.Transform)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::com.codename1.ui.Transform) _r4_o)._ftype;
@@ -1200,15 +995,10 @@ public virtual void concatenate(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void concatenate(com.codename1.ui.Transform)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.Transform) _r3_o)._fimpl;
@@ -1223,19 +1013,12 @@ public virtual void concatenate(global::com.codename1.ui.Transform n1){
 
 public virtual void setPerspective(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setPerspective(float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -1249,23 +1032,14 @@ public virtual void setPerspective(float n1, float n2, float n3, float n4){
 
 public virtual void setOrtho(float n1, float n2, float n3, float n4, float n5, float n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setOrtho(float, float, float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -1281,29 +1055,17 @@ public virtual void setOrtho(float n1, float n2, float n3, float n4, float n5, f
 
 public virtual void setCamera(float n1, float n2, float n3, float n4, float n5, float n6, float n7, float n8, float n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void setCamera(float, float, float, float, float, float, float, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3.f = n2;
@@ -1322,15 +1084,10 @@ public virtual void setCamera(float n1, float n2, float n3, float n4, float n5, 
 
 public virtual global::System.Object transformPoint(global::org.xmlvm._nArrayAdapter<float> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: float[] transformPoint(float[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 3;
@@ -1343,28 +1100,18 @@ public virtual global::System.Object transformPoint(global::org.xmlvm._nArrayAda
 public virtual void transformPoint(global::org.xmlvm._nArrayAdapter<float> n1, global::org.xmlvm._nArrayAdapter<float> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void transformPoint(float[], float[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -1437,9 +1184,7 @@ public virtual global::System.Object getNativeTransform(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: java.lang.Object getNativeTransform()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Transform) _r1_o)._fdirty ? 1 : 0;
     if (_r0.i == 0) goto label7;
@@ -1452,13 +1197,9 @@ public virtual global::System.Object getNativeTransform(){
 
 public virtual global::System.Object copy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform copy()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.ui.Transform();
     _r1_o = null;
@@ -1472,7 +1213,6 @@ public static bool isSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: boolean isSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isTransformSupported() ? 1 : 0;
@@ -1484,7 +1224,6 @@ public static bool isPerspectiveSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: boolean isPerspectiveSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isPerspectiveTransformSupported() ? 1 : 0;
@@ -1495,14 +1234,10 @@ public static bool isPerspectiveSupported(){
 public virtual bool equals(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: boolean equals(com.codename1.ui.Transform)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = ((global::com.codename1.ui.Transform) _r2_o)._ftype;
@@ -1522,13 +1257,9 @@ public virtual bool equals(global::com.codename1.ui.Transform n1){
 
 public void @this(global::java.lang.Object n1, global::com.codename1.ui.Transform_21 n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform: void <init>(java.lang.Object, com.codename1.ui.Transform$1)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

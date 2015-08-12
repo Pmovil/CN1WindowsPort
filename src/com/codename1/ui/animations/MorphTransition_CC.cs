@@ -26,28 +26,17 @@ public global::com.codename1.ui.animations.MorphTransition _fthis_20;
 public void @this(global::com.codename1.ui.animations.MorphTransition n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.Form n4, global::com.codename1.ui.Form n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.MorphTransition$CC: void <init>(com.codename1.ui.animations.MorphTransition, com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Form, com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;

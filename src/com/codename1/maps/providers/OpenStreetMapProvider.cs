@@ -5,17 +5,11 @@ namespace com.codename1.maps.providers {
 public class OpenStreetMapProvider: global::com.codename1.maps.providers.TiledProvider {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.OpenStreetMapProvider: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 256;
     // Value=http://tile.openstreetmap.org
@@ -32,11 +26,8 @@ public void @this(){
 
 public override global::System.Object attribution(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.OpenStreetMapProvider: java.lang.String attribution()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=(c) OpenStreetMap (and) contributors, CC-BY-SA
     _r0_o = new global::java.lang.String();
@@ -48,10 +39,7 @@ public override global::System.Object attribution(){
 public override int maxZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.OpenStreetMapProvider: int maxZoomLevel()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 18;
     return _r0.i;

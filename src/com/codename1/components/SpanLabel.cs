@@ -9,11 +9,8 @@ private global::com.codename1.ui.TextArea _ftext;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -25,17 +22,11 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -85,13 +76,9 @@ public void @this(global::java.lang.String n1){
 
 public virtual void setTextUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setTextUIID(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
@@ -102,11 +89,8 @@ public virtual void setTextUIID(global::java.lang.String n1){
 
 public virtual global::System.Object getTextUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.String getTextUIID()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
     _r0_o = ((global::com.codename1.ui.TextArea) _r0_o).getUIID();
@@ -116,11 +100,8 @@ public virtual global::System.Object getTextUIID(){
 
 public virtual global::System.Object getTextUnselectedStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: com.codename1.ui.plaf.Style getTextUnselectedStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
     _r0_o = ((global::com.codename1.ui.TextArea) _r0_o).getUnselectedStyle();
@@ -130,13 +111,9 @@ public virtual global::System.Object getTextUnselectedStyle(){
 
 public virtual void setTextUnselectedStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setTextUnselectedStyle(com.codename1.ui.plaf.Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
@@ -147,11 +124,8 @@ public virtual void setTextUnselectedStyle(global::com.codename1.ui.plaf.Style n
 
 public virtual global::System.Object getTextSelectedStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: com.codename1.ui.plaf.Style getTextSelectedStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
     _r0_o = ((global::com.codename1.ui.TextArea) _r0_o).getSelectedStyle();
@@ -161,13 +135,9 @@ public virtual global::System.Object getTextSelectedStyle(){
 
 public virtual void setTextSelectedStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setTextSelectedStyle(com.codename1.ui.plaf.Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
@@ -178,13 +148,9 @@ public virtual void setTextSelectedStyle(global::com.codename1.ui.plaf.Style n1)
 
 public virtual void setIconUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setIconUIID(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ficon;
@@ -195,11 +161,8 @@ public virtual void setIconUIID(global::java.lang.String n1){
 
 public virtual global::System.Object getIconUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.String getIconUIID()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -209,15 +172,10 @@ public virtual global::System.Object getIconUIID(){
 
 public virtual void setText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r2_o)._ftext;
@@ -230,13 +188,9 @@ public virtual void setText(global::java.lang.String n1){
 
 public virtual void setIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setIcon(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ficon;
@@ -247,11 +201,8 @@ public virtual void setIcon(global::com.codename1.ui.Image n1){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
     _r0_o = ((global::com.codename1.ui.TextArea) _r0_o).getText();
@@ -261,15 +212,10 @@ public virtual global::System.Object getText(){
 
 public virtual void setTextBlockAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setTextBlockAlign(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     switch (_r3.i) {
@@ -304,9 +250,7 @@ public virtual int getTextBlockAlign(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: int getTextBlockAlign()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ftext;
     _r0_o = ((global::com.codename1.ui.TextArea) _r0_o).getParent();
@@ -326,15 +270,10 @@ public virtual int getTextBlockAlign(){
 
 private void wrapText(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void wrapText(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = ((global::com.codename1.components.SpanLabel) _r2_o)._ftext;
@@ -364,11 +303,8 @@ private void wrapText(int n1){
 
 public virtual global::System.Object getIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: com.codename1.ui.Image getIcon()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getIcon();
@@ -378,13 +314,9 @@ public virtual global::System.Object getIcon(){
 
 public virtual void setIconPosition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: void setIconPosition(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r1_o)._ficon;
@@ -398,13 +330,9 @@ public virtual void setIconPosition(global::java.lang.String n1){
 
 public virtual global::System.Object getIconPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.String getIconPosition()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r2_o).getLayout();
     _r1_o = ((global::com.codename1.components.SpanLabel) _r2_o)._ficon;
@@ -419,12 +347,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 5;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -462,14 +386,9 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r0.i = 5;
@@ -498,14 +417,9 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=String
     _r3_o = new global::java.lang.String();
@@ -545,11 +459,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=text
@@ -602,15 +513,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanLabel: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

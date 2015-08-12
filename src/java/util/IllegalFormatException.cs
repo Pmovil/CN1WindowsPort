@@ -7,9 +7,7 @@ private static long _fserialVersionUID = 18830826L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatException: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.IllegalArgumentException) _r0_o).@this();
     return;

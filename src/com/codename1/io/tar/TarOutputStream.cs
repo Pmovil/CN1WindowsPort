@@ -12,14 +12,8 @@ private global::com.codename1.io.tar.TarEntry _fcurrentEntry;
 public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void <init>(java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.l = 0L;
@@ -34,9 +28,7 @@ public override void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void close()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.io.tar.TarOutputStream) _r1_o).closeCurrentEntry();
     _r0.i = 1024;
@@ -51,17 +43,9 @@ public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void write(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r2.l = 1L;
@@ -83,25 +67,14 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void write(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -167,15 +140,10 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 
 public virtual void putNextEntry(global::com.codename1.io.tar.TarEntry n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void putNextEntry(com.codename1.io.tar.TarEntry)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.io.tar.TarOutputStream) _r2_o).closeCurrentEntry();
@@ -192,15 +160,10 @@ public virtual void closeCurrentEntry(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void closeCurrentEntry()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarOutputStream) _r4_o)._fcurrentEntry;
     if (_r0_o == null) goto label79;
@@ -247,18 +210,10 @@ public virtual void closeCurrentEntry(){
 public virtual void pad(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void pad()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r1.l = ((global::com.codename1.io.tar.TarOutputStream) _r5_o)._fbytesWritten;
     _r3.l = 0L;

@@ -34,14 +34,9 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 4;
     _r2.f = (float)10.0D;
@@ -74,9 +69,7 @@ public virtual bool isFillBelowLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: boolean isFillBelowLine()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmFillBelowLine;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -92,17 +85,11 @@ public virtual bool isFillBelowLine(){
 
 public virtual void setFillBelowLine(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setFillBelowLine(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r3_o)._fmFillBelowLine;
@@ -127,13 +114,10 @@ public virtual void setFillBelowLine(bool n1){
 
 public virtual global::System.Object getFillOutsideLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine[] getFillOutsideLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r2_o)._fmFillBelowLine;
     _r1.i = ((global::java.util.List) _r1_o).size();
@@ -147,13 +131,9 @@ public virtual global::System.Object getFillOutsideLine(){
 
 public virtual void addFillOutsideLine(global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void addFillOutsideLine(com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmFillBelowLine;
@@ -165,10 +145,7 @@ public virtual void addFillOutsideLine(global::com.codename1.charts.renderers.XY
 public virtual bool isFillPoints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: boolean isFillPoints()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmFillPoints ? 1 : 0;
     return _r0.i!=0;
@@ -177,11 +154,8 @@ public virtual bool isFillPoints(){
 
 public virtual void setFillPoints(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setFillPoints(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmFillPoints = 0!=_r1.i;
@@ -194,12 +168,8 @@ public virtual void setFillBelowLineColor(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r2_o)._fmFillBelowLine;
@@ -217,11 +187,8 @@ public virtual void setFillBelowLineColor(int n1){
 
 public virtual global::System.Object getPointStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: com.codename1.charts.views.PointStyle getPointStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmPointStyle;
     return (global::com.codename1.charts.views.PointStyle) _r0_o;
@@ -230,11 +197,8 @@ public virtual global::System.Object getPointStyle(){
 
 public virtual void setPointStyle(global::com.codename1.charts.views.PointStyle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setPointStyle(com.codename1.charts.views.PointStyle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmPointStyle = (global::com.codename1.charts.views.PointStyle) _r1_o;
@@ -245,10 +209,7 @@ public virtual void setPointStyle(global::com.codename1.charts.views.PointStyle 
 public virtual float getPointStrokeWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: float getPointStrokeWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmPointStrokeWidth;
     return _r0.f;
@@ -257,11 +218,8 @@ public virtual float getPointStrokeWidth(){
 
 public virtual void setPointStrokeWidth(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setPointStrokeWidth(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmPointStrokeWidth = _r1.f;
@@ -272,10 +230,7 @@ public virtual void setPointStrokeWidth(float n1){
 public virtual float getLineWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: float getLineWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmLineWidth;
     return _r0.f;
@@ -284,11 +239,8 @@ public virtual float getLineWidth(){
 
 public virtual void setLineWidth(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setLineWidth(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmLineWidth = _r1.f;
@@ -299,10 +251,7 @@ public virtual void setLineWidth(float n1){
 public virtual bool isDisplayChartValues(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: boolean isDisplayChartValues()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmDisplayChartValues ? 1 : 0;
     return _r0.i!=0;
@@ -311,11 +260,8 @@ public virtual bool isDisplayChartValues(){
 
 public virtual void setDisplayChartValues(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setDisplayChartValues(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmDisplayChartValues = 0!=_r1.i;
@@ -326,10 +272,7 @@ public virtual void setDisplayChartValues(bool n1){
 public virtual int getDisplayChartValuesDistance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: int getDisplayChartValuesDistance()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmDisplayChartValuesDistance;
     return _r0.i;
@@ -338,11 +281,8 @@ public virtual int getDisplayChartValuesDistance(){
 
 public virtual void setDisplayChartValuesDistance(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setDisplayChartValuesDistance(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmDisplayChartValuesDistance = _r1.i;
@@ -353,10 +293,7 @@ public virtual void setDisplayChartValuesDistance(int n1){
 public virtual float getChartValuesTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: float getChartValuesTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmChartValuesTextSize;
     return _r0.f;
@@ -365,11 +302,8 @@ public virtual float getChartValuesTextSize(){
 
 public virtual void setChartValuesTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setChartValuesTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmChartValuesTextSize = _r1.f;
@@ -380,12 +314,8 @@ public virtual void setChartValuesTextSize(float n1){
 public virtual void setChartValuesTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setChartValuesTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -398,10 +328,7 @@ public virtual void setChartValuesTextFont(global::com.codename1.ui.Font n1){
 public virtual int getChartValuesTextAlign(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: int getChartValuesTextAlign()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmChartValuesTextAlign;
     return _r0.i;
@@ -410,11 +337,8 @@ public virtual int getChartValuesTextAlign(){
 
 public virtual void setChartValuesTextAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setChartValuesTextAlign(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmChartValuesTextAlign = _r1.i;
@@ -425,10 +349,7 @@ public virtual void setChartValuesTextAlign(int n1){
 public virtual float getChartValuesSpacing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: float getChartValuesSpacing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmChartValuesSpacing;
     return _r0.f;
@@ -437,11 +358,8 @@ public virtual float getChartValuesSpacing(){
 
 public virtual void setChartValuesSpacing(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setChartValuesSpacing(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmChartValuesSpacing = _r1.f;
@@ -452,10 +370,7 @@ public virtual void setChartValuesSpacing(float n1){
 public virtual float getAnnotationsTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: float getAnnotationsTextSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmAnnotationsTextSize;
     return _r0.f;
@@ -464,11 +379,8 @@ public virtual float getAnnotationsTextSize(){
 
 public virtual void setAnnotationsTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setAnnotationsTextSize(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmAnnotationsTextSize = _r1.f;
@@ -479,12 +391,8 @@ public virtual void setAnnotationsTextSize(float n1){
 public virtual void setAnnotationsTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setAnnotationsTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -497,10 +405,7 @@ public virtual void setAnnotationsTextFont(global::com.codename1.ui.Font n1){
 public virtual int getAnnotationsTextAlign(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: int getAnnotationsTextAlign()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmAnnotationsTextAlign;
     return _r0.i;
@@ -509,11 +414,8 @@ public virtual int getAnnotationsTextAlign(){
 
 public virtual void setAnnotationsTextAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setAnnotationsTextAlign(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmAnnotationsTextAlign = _r1.i;
@@ -524,10 +426,7 @@ public virtual void setAnnotationsTextAlign(int n1){
 public virtual int getAnnotationsColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: int getAnnotationsColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r1_o)._fmAnnotationsColor;
     return _r0.i;
@@ -536,11 +435,8 @@ public virtual int getAnnotationsColor(){
 
 public virtual void setAnnotationsColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void setAnnotationsColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r0_o)._fmAnnotationsColor = _r1.i;

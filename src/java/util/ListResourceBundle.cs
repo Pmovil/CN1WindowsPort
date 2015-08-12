@@ -7,9 +7,7 @@ public global::java.util.HashMap _ftable;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.ResourceBundle) _r0_o).@this();
     return;
@@ -20,11 +18,8 @@ public abstract global::System.Object getContents();
 
 public override global::System.Object getKeys(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: java.util.Enumeration getKeys()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.ListResourceBundle) _r1_o).initializeTable();
     _r0_o = ((global::java.util.ListResourceBundle) _r1_o)._fparent;
@@ -42,13 +37,9 @@ public override global::System.Object getKeys(){
 
 public override global::System.Object handleGetObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: java.lang.Object handleGetObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.ListResourceBundle) _r1_o).initializeTable();
@@ -67,19 +58,12 @@ private void initializeTable(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: void initializeTable()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -178,11 +162,8 @@ private void initializeTable(){
 
 public override global::System.Object handleKeySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: java.util.Set handleKeySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.ListResourceBundle) _r1_o).initializeTable();
     _r0_o = ((global::java.util.ListResourceBundle) _r1_o)._ftable;

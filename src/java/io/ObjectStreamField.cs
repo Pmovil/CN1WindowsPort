@@ -25,17 +25,9 @@ public virtual long getFieldID(global::org.xmlvm.runtime.RedTypeMarker n1, globa
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: long getFieldID(org.apache.harmony.misc.accessors.ObjectAccessor, java.lang.Class)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -80,15 +72,9 @@ public void @this(global::java.lang.String n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: void <init>(java.lang.String, java.lang.Class)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -114,17 +100,10 @@ public void @this(global::java.lang.String n1, global::java.lang.Class n2, bool 
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: void <init>(java.lang.String, java.lang.Class, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -159,14 +138,9 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -197,11 +171,8 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r3_o = _r3_o;
@@ -226,12 +197,8 @@ public virtual int compareTo(global::java.lang.Object n1){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.io.ObjectStreamField)) ? 1 : 0;
@@ -251,9 +218,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r1_o).getName();
     _r0.i = ((global::java.lang.String) _r0_o).hashCode();
@@ -263,11 +228,8 @@ public override int hashCode(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -277,10 +239,7 @@ public virtual global::System.Object getName(){
 public virtual int getOffset(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: int getOffset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.io.ObjectStreamField) _r1_o)._foffset;
     return _r0.i;
@@ -291,9 +250,7 @@ private global::System.Object getTypeInternal(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: java.lang.Class getTypeInternal()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r1_o)._ftype;
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.@ref.WeakReference)) ? 1 : 0;
@@ -315,13 +272,9 @@ private global::System.Object getTypeInternal(){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: java.lang.Class getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r2_o).getTypeInternal();
     _r1.i = ((global::java.io.ObjectStreamField) _r2_o)._fisDeserialized ? 1 : 0;
@@ -338,11 +291,8 @@ public virtual char getTypeCode(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: char getTypeCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r2_o).getTypeInternal();
     _r1_o = global::java.lang.Integer._fTYPE;
@@ -405,10 +355,7 @@ public virtual global::System.Object getTypeString(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::java.io.ObjectStreamField) _r4_o).isPrimitive() ? 1 : 0;
     if (_r0.i == 0) goto label8;
@@ -450,9 +397,7 @@ public virtual bool isPrimitive(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: boolean isPrimitive()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.ObjectStreamField) _r1_o).getTypeInternal();
     if (_r0_o == null) goto label14;
@@ -469,11 +414,8 @@ public virtual bool isPrimitive(){
 
 public virtual void setOffset(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: void setOffset(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.io.ObjectStreamField) _r0_o)._foffset = _r1.i;
@@ -483,13 +425,10 @@ public virtual void setOffset(int n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1_o = ((global::java.lang.Object) _r2_o).getClass();
@@ -516,10 +455,7 @@ public static void sortFields(global::org.xmlvm._nArrayAdapter<global::System.Ob
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
     _r1.i = 1;
@@ -539,14 +475,9 @@ public virtual void resolve(global::java.lang.ClassLoader n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -646,10 +577,7 @@ public virtual void resolve(global::java.lang.ClassLoader n1){
 public virtual bool isUnshared(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: boolean isUnshared()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.io.ObjectStreamField) _r1_o)._funshared ? 1 : 0;
     return _r0.i!=0;
@@ -658,11 +586,8 @@ public virtual bool isUnshared(){
 
 public virtual void setUnshared(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamField: void setUnshared(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::java.io.ObjectStreamField) _r0_o)._funshared = 0!=_r1.i;
@@ -675,12 +600,8 @@ private bool defaultResolve(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r1.i = 1;

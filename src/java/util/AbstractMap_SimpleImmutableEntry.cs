@@ -11,13 +11,9 @@ private global::java.lang.Object _fvalue;
 
 public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: void <init>(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -30,13 +26,9 @@ public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 
 public void @this(global::java.util.Map_2Entry n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: void <init>(java.util.Map$Entry)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -50,11 +42,8 @@ public void @this(global::java.util.Map_2Entry n1){
 
 public virtual global::System.Object getKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: java.lang.Object getKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_2SimpleImmutableEntry) _r1_o)._fkey;
     return (global::java.lang.Object) _r0_o;
@@ -63,11 +52,8 @@ public virtual global::System.Object getKey(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: java.lang.Object getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_2SimpleImmutableEntry) _r1_o)._fvalue;
     return (global::java.lang.Object) _r0_o;
@@ -76,13 +62,9 @@ public virtual global::System.Object getValue(){
 
 public virtual global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -95,17 +77,11 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -157,10 +133,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.util.AbstractMap_2SimpleImmutableEntry) _r3_o)._fkey;
@@ -186,13 +159,9 @@ public override int hashCode(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$SimpleImmutableEntry: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

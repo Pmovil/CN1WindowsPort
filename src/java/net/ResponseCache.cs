@@ -16,11 +16,8 @@ private static global::java.net.NetPermission _fsetResponseCachepermission;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.net.ResponseCache._f_1defaultResponseCache = (global::java.net.ResponseCache) _r0_o;
     _r0_o = new global::java.net.NetPermission();
@@ -41,11 +38,8 @@ public static void @static(){
 
 private static void checkGetResponseCachePermission(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void checkGetResponseCachePermission()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label11;
     _r1_o = global::java.net.ResponseCache._fgetResponseCachepermission;
@@ -57,11 +51,8 @@ private static void checkGetResponseCachePermission(){
 
 private static void checkSetResponseCachePermission(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void checkSetResponseCachePermission()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label11;
     _r1_o = global::java.net.ResponseCache._fsetResponseCachepermission;
@@ -73,9 +64,7 @@ private static void checkSetResponseCachePermission(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -84,9 +73,7 @@ public void @this(){
 
 public static global::System.Object getDefault(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: java.net.ResponseCache getDefault()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::java.net.ResponseCache.checkGetResponseCachePermission();
     _r0_o = global::java.net.ResponseCache._f_1defaultResponseCache;
     return (global::java.net.ResponseCache) _r0_o;
@@ -95,9 +82,7 @@ public static global::System.Object getDefault(){
 
 public static void setDefault(global::java.net.ResponseCache n1){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void setDefault(java.net.ResponseCache)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::java.net.ResponseCache.checkSetResponseCachePermission();
     global::java.net.ResponseCache._f_1defaultResponseCache = (global::java.net.ResponseCache) _r0_o;

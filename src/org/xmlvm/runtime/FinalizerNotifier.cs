@@ -20,9 +20,7 @@ private static bool _fgcEnabled;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -31,9 +29,7 @@ public void @this(){
 
 private static global::System.Object startFinalizerThread(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: java.lang.Thread startFinalizerThread()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -103,10 +99,7 @@ private static global::System.Object startFinalizerThread(){
 private static void setGCActive(bool n1){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void setGCActive(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     _r0.i = global::org.xmlvm.runtime.FinalizerNotifier._fgcEnabled ? 1 : 0;
     if (_r0.i == _r1.i) goto label12;
@@ -126,10 +119,7 @@ private static void setGCActive(bool n1){
 private static bool invokeAllFinalizers(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean invokeAllFinalizers()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     _r1.i = 1;
     global::org.xmlvm.runtime.FinalizerNotifier._ffinalizerThreadInvokingFinalizers = 0!=_r1.i;
@@ -164,7 +154,6 @@ private static void finalizerNotifier(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void finalizerNotifier()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm.runtime.FinalizerNotifier._ffinalizerThread;
     _r0.i = global::org.xmlvm.runtime.FinalizerNotifier.currentThreadIsFinalizerThread((global::java.lang.Thread) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
@@ -200,9 +189,7 @@ private static int invokeFinalizers(){
 
 public static global::System.Object access_2000(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: org.xmlvm.runtime.Mutex access$000()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm.runtime.FinalizerNotifier._ffinalizerMutex;
     return (global::org.xmlvm.runtime.Mutex) _r0_o;
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: org.xmlvm.runtime.Mutex access$000()]
@@ -211,8 +198,6 @@ public static global::System.Object access_2000(){
 public static bool access_2100(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean access$100()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.xmlvm.runtime.FinalizerNotifier.shouldInvokeFinalizers() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean access$100()]
@@ -221,8 +206,6 @@ public static bool access_2100(){
 public static void access_2200(bool n1){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void access$200(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::org.xmlvm.runtime.FinalizerNotifier.setGCActive(0!=_r0.i);
     return;
@@ -231,9 +214,7 @@ public static void access_2200(bool n1){
 
 public static global::System.Object access_2300(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: org.xmlvm.runtime.Condition access$300()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm.runtime.FinalizerNotifier._ffinalizerCondition;
     return (global::org.xmlvm.runtime.Condition) _r0_o;
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: org.xmlvm.runtime.Condition access$300()]
@@ -242,8 +223,6 @@ public static global::System.Object access_2300(){
 public static bool access_2400(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean access$400()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.xmlvm.runtime.FinalizerNotifier.invokeAllFinalizers() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean access$400()]
@@ -253,9 +232,7 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.xmlvm.runtime.Mutex();
     ((global::org.xmlvm.runtime.Mutex) _r0_o).@this();
     global::org.xmlvm.runtime.FinalizerNotifier._ffinalizerMutex = (global::org.xmlvm.runtime.Mutex) _r0_o;

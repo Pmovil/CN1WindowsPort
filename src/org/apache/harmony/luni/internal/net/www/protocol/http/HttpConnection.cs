@@ -28,9 +28,7 @@ private static global::java.lang.Class _fSOCKET_1TIMEOUT_1CLASS;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection.SocketTimeoutExceptionClass();
     global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection._fSOCKET_1TIMEOUT_1CLASS = (global::java.lang.Class) _r0_o;
     return;
@@ -42,20 +40,12 @@ public void @this(global::org.apache.harmony.luni.@internal.net.www.protocol.htt
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -92,9 +82,7 @@ public virtual void closeSocketAndStreams(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: void closeSocketAndStreams()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -233,13 +221,9 @@ public virtual void closeSocketAndStreams(){
 
 public virtual void setSoTimeout(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: void setSoTimeout(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r1_o)._fsocket;
@@ -252,9 +236,7 @@ public virtual global::System.Object getOutputStream(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: java.io.OutputStream getOutputStream()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r1_o)._fusingSecureSocket ? 1 : 0;
     if (_r0.i == 0) goto label19;
@@ -284,9 +266,7 @@ public virtual global::System.Object getInputStream(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: java.io.InputStream getInputStream()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r1_o)._fusingSecureSocket ? 1 : 0;
     if (_r0.i == 0) goto label19;
@@ -314,11 +294,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public virtual global::System.Object getHttpConfiguration(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration getHttpConfiguration()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r1_o)._fconfig;
     return (global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r0_o;
@@ -329,19 +306,12 @@ public virtual global::System.Object getSecureSocket(global::org.xmlvm.runtime.R
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: java.lang.Object getSecureSocket(javax.net.ssl.SSLSocketFactory, javax.net.ssl.HostnameVerifier)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -387,11 +357,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public virtual global::System.Object getSocket(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: java.net.Socket getSocket()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r1_o)._fsocket;
     return (global::java.net.Socket) _r0_o;
@@ -409,10 +376,7 @@ public virtual bool isStale(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -546,9 +510,7 @@ public static bool isSocketTimeoutException(global::java.io.InterruptedIOExcepti
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: boolean isSocketTimeoutException(java.io.InterruptedIOException)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection._fSOCKET_1TIMEOUT_1CLASS;
     if (_r0_o == null) goto label11;
@@ -564,7 +526,6 @@ public static bool isSocketTimeoutException(global::java.io.InterruptedIOExcepti
 
 private static global::System.Object SocketTimeoutExceptionClass(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: java.lang.Class SocketTimeoutExceptionClass()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {

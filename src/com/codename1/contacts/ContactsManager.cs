@@ -5,9 +5,7 @@ namespace com.codename1.contacts {
 public class ContactsManager: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public static global::System.Object getAllContacts(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: java.lang.String[] getAllContacts()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r1.i = 0;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getAllContacts(0!=_r1.i);
@@ -30,11 +25,8 @@ public static global::System.Object getAllContacts(){
 
 public static global::System.Object getAllContactsWithNumbers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: java.lang.String[] getAllContactsWithNumbers()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r1.i = 1;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getAllContacts(0!=_r1.i);
@@ -44,11 +36,8 @@ public static global::System.Object getAllContactsWithNumbers(){
 
 public static global::System.Object getContactById(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: com.codename1.contacts.Contact getContactById(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getContactById((global::java.lang.String) _r1_o);
@@ -58,33 +47,19 @@ public static global::System.Object getContactById(global::java.lang.String n1){
 
 public static global::System.Object getContactById(global::java.lang.String n1, bool n2, bool n3, bool n4, bool n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: com.codename1.contacts.Contact getContactById(java.lang.String, boolean, boolean, boolean, boolean, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
     _r9.i = n3 ? 1 : 0;
@@ -105,33 +80,19 @@ public static global::System.Object getContactById(global::java.lang.String n1, 
 
 public static global::System.Object createContact(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: java.lang.String createContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9_o = n3;
@@ -154,9 +115,7 @@ public static bool deleteContact(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: boolean deleteContact(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).deleteContact((global::java.lang.String) _r1_o) ? 1 : 0;
@@ -166,35 +125,20 @@ public static bool deleteContact(global::java.lang.String n1){
 
 public virtual global::System.Object getAllContacts(bool n1, bool n2, bool n3, bool n4, bool n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: com.codename1.contacts.Contact[] getAllContacts(boolean, boolean, boolean, boolean, boolean, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1 ? 1 : 0;
     _r9.i = n2 ? 1 : 0;
@@ -218,9 +162,7 @@ public virtual bool isGetAllContactsFast(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsManager: boolean isGetAllContactsFast()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).isGetAllContactsFast() ? 1 : 0;

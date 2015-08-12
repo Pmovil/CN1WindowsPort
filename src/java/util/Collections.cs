@@ -16,11 +16,8 @@ public static global::java.util.Map _fEMPTY_1MAP;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = null;
     _r0_o = new global::java.util.Collections_2EmptyList();
     ((global::java.util.Collections_2EmptyList) _r0_o).@this((global::java.util.Collections_2EmptyList) _r1_o);
@@ -37,9 +34,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -53,20 +48,12 @@ public static int binarySearch(global::java.util.List n1, global::java.lang.Obje
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r3.i = -1;
@@ -156,20 +143,12 @@ public static int binarySearch(global::java.util.List n1, global::java.lang.Obje
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9_o = n3;
@@ -254,11 +233,8 @@ public static void copy(global::java.util.List n1, global::java.util.List n2){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -316,11 +292,8 @@ public static void copy(global::java.util.List n1, global::java.util.List n2){
 
 public static global::System.Object enumeration(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Enumeration enumeration(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.util.Collections_21();
     ((global::java.util.Collections_21) _r0_o).@this((global::java.util.Collection) _r1_o);
@@ -330,15 +303,10 @@ public static global::System.Object enumeration(global::java.util.Collection n1)
 
 public static void fill(global::java.util.List n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void fill(java.util.List, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::java.util.List) _r2_o).listIterator();
@@ -355,19 +323,13 @@ public static void fill(global::java.util.List n1, global::java.lang.Object n2){
 
 public static global::System.Object max(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.lang.Object max(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r2_o = ((global::java.util.Collection) _r5_o).iterator();
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
@@ -389,19 +351,13 @@ public static global::System.Object max(global::java.util.Collection n1){
 
 public static global::System.Object max(global::java.util.Collection n1, global::java.util.Comparator n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.lang.Object max(java.util.Collection, java.util.Comparator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     if (_r5_o != null) goto label7;
@@ -427,19 +383,13 @@ public static global::System.Object max(global::java.util.Collection n1, global:
 
 public static global::System.Object min(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.lang.Object min(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r2_o = ((global::java.util.Collection) _r5_o).iterator();
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
@@ -461,19 +411,13 @@ public static global::System.Object min(global::java.util.Collection n1){
 
 public static global::System.Object min(global::java.util.Collection n1, global::java.util.Comparator n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.lang.Object min(java.util.Collection, java.util.Comparator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     if (_r5_o != null) goto label7;
@@ -499,13 +443,9 @@ public static global::System.Object min(global::java.util.Collection n1, global:
 
 public static global::System.Object nCopies(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List nCopies(int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2_o = n2;
     _r0_o = new global::java.util.Collections_2CopiesList();
@@ -517,20 +457,13 @@ public static global::System.Object nCopies(int n1, global::java.lang.Object n2)
 public static void reverse(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void reverse(java.util.List)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r0.i = ((global::java.util.List) _r6_o).size();
     _r1_o = ((global::java.util.List) _r6_o).listIterator();
@@ -552,9 +485,7 @@ public static void reverse(global::java.util.List n1){
 
 public static global::System.Object reverseOrder(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Comparator reverseOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Collections_2ReverseComparator.access_20();
     return (global::java.util.Comparator) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections: java.util.Comparator reverseOrder()]
@@ -564,9 +495,7 @@ public static global::System.Object reverseOrder(global::java.util.Comparator n1
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Comparator reverseOrder(java.util.Comparator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label7;
     _r0_o = global::java.util.Collections.reverseOrder();
@@ -587,11 +516,8 @@ public static global::System.Object reverseOrder(global::java.util.Comparator n1
 
 public static void shuffle(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void shuffle(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.util.Random();
     ((global::java.util.Random) _r0_o).@this();
@@ -610,13 +536,9 @@ public static void shuffle(global::java.util.List n1, global::java.util.Random n
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r2.i = 1;
@@ -667,11 +589,8 @@ public static void shuffle(global::java.util.List n1, global::java.util.Random n
 
 public static global::System.Object singleton(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set singleton(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.util.Collections_2SingletonSet();
     ((global::java.util.Collections_2SingletonSet) _r0_o).@this((global::java.lang.Object) _r1_o);
@@ -681,11 +600,8 @@ public static global::System.Object singleton(global::java.lang.Object n1){
 
 public static global::System.Object singletonList(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List singletonList(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.util.Collections_2SingletonList();
     ((global::java.util.Collections_2SingletonList) _r0_o).@this((global::java.lang.Object) _r1_o);
@@ -695,13 +611,9 @@ public static global::System.Object singletonList(global::java.lang.Object n1){
 
 public static global::System.Object singletonMap(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Map singletonMap(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::java.util.Collections_2SingletonMap();
@@ -712,17 +624,11 @@ public static global::System.Object singletonMap(global::java.lang.Object n1, gl
 
 public static void sort(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void sort(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r0_o = ((global::java.util.List) _r4_o).toArray();
     global::java.util.Arrays.sort((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
@@ -749,15 +655,10 @@ public static void sort(global::java.util.List n1, global::java.util.Comparator 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r0.i = ((global::java.util.List) _r4_o).size();
@@ -784,13 +685,9 @@ public static void swap(global::java.util.List n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: void swap(java.util.List, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r3.i = n3;
@@ -823,18 +720,11 @@ public static void swap(global::java.util.List n1, int n2, int n3){
 public static bool replaceAll(global::java.util.List n1, global::java.lang.Object n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: boolean replaceAll(java.util.List, java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -856,20 +746,14 @@ public static void rotate(global::java.util.List n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7.i = n2;
     _r3.i = 0;
@@ -922,13 +806,9 @@ public static void rotate(global::java.util.List n1, int n2){
 public static int indexOfSubList(global::java.util.List n1, global::java.util.List n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: int indexOfSubList(java.util.List, java.util.List)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -938,16 +818,10 @@ public static int indexOfSubList(global::java.util.List n1, global::java.util.Li
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12_o = n2;
     _r10.i = 1;
@@ -1021,30 +895,22 @@ public static int indexOfSubList(global::java.util.List n1, global::java.util.Li
 public static int lastIndexOfSubList(global::java.util.List n1, global::java.util.List n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: int lastIndexOfSubList(java.util.List, java.util.List)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r9.i = 1;
@@ -1118,13 +984,10 @@ public static int lastIndexOfSubList(global::java.util.List n1, global::java.uti
 
 public static global::System.Object list(global::java.util.Enumeration n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.ArrayList list(java.util.Enumeration)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r0_o).@this();
@@ -1141,11 +1004,8 @@ public static global::System.Object list(global::java.util.Enumeration n1){
 
 public static global::System.Object synchronizedCollection(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Collection synchronizedCollection(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1162,9 +1022,7 @@ public static global::System.Object synchronizedList(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List synchronizedList(java.util.List)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1186,11 +1044,8 @@ public static global::System.Object synchronizedList(global::java.util.List n1){
 
 public static global::System.Object synchronizedMap(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Map synchronizedMap(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1205,11 +1060,8 @@ public static global::System.Object synchronizedMap(global::java.util.Map n1){
 
 public static global::System.Object synchronizedSet(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set synchronizedSet(java.util.Set)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1224,11 +1076,8 @@ public static global::System.Object synchronizedSet(global::java.util.Set n1){
 
 public static global::System.Object synchronizedSortedMap(global::java.util.SortedMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedMap synchronizedSortedMap(java.util.SortedMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1243,11 +1092,8 @@ public static global::System.Object synchronizedSortedMap(global::java.util.Sort
 
 public static global::System.Object synchronizedSortedSet(global::java.util.SortedSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedSet synchronizedSortedSet(java.util.SortedSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1262,11 +1108,8 @@ public static global::System.Object synchronizedSortedSet(global::java.util.Sort
 
 public static global::System.Object unmodifiableCollection(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Collection unmodifiableCollection(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1283,9 +1126,7 @@ public static global::System.Object unmodifiableList(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List unmodifiableList(java.util.List)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1307,11 +1148,8 @@ public static global::System.Object unmodifiableList(global::java.util.List n1){
 
 public static global::System.Object unmodifiableMap(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Map unmodifiableMap(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1326,11 +1164,8 @@ public static global::System.Object unmodifiableMap(global::java.util.Map n1){
 
 public static global::System.Object unmodifiableSet(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set unmodifiableSet(java.util.Set)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1345,11 +1180,8 @@ public static global::System.Object unmodifiableSet(global::java.util.Set n1){
 
 public static global::System.Object unmodifiableSortedMap(global::java.util.SortedMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedMap unmodifiableSortedMap(java.util.SortedMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1364,11 +1196,8 @@ public static global::System.Object unmodifiableSortedMap(global::java.util.Sort
 
 public static global::System.Object unmodifiableSortedSet(global::java.util.SortedSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedSet unmodifiableSortedSet(java.util.SortedSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1386,14 +1215,10 @@ public static int frequency(global::java.util.Collection n1, global::java.lang.O
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = 0;
@@ -1430,9 +1255,7 @@ public static int frequency(global::java.util.Collection n1, global::java.lang.O
 
 public static global::System.Object emptyList(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List emptyList()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Collections._fEMPTY_1LIST;
     return (global::java.util.List) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections: java.util.List emptyList()]
@@ -1440,9 +1263,7 @@ public static global::System.Object emptyList(){
 
 public static global::System.Object emptySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set emptySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Collections._fEMPTY_1SET;
     return (global::java.util.Set) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections: java.util.Set emptySet()]
@@ -1450,9 +1271,7 @@ public static global::System.Object emptySet(){
 
 public static global::System.Object emptyMap(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Map emptyMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Collections._fEMPTY_1MAP;
     return (global::java.util.Map) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections: java.util.Map emptyMap()]
@@ -1460,13 +1279,9 @@ public static global::System.Object emptyMap(){
 
 public static global::System.Object checkedCollection(global::java.util.Collection n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Collection checkedCollection(java.util.Collection, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::java.util.Collections_2CheckedCollection();
@@ -1477,25 +1292,15 @@ public static global::System.Object checkedCollection(global::java.util.Collecti
 
 public static global::System.Object checkedMap(global::java.util.Map n1, global::java.lang.Class n2, global::java.lang.Class n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Map checkedMap(java.util.Map, java.lang.Class, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8_o = n3;
@@ -1514,11 +1319,8 @@ public static global::System.Object checkedList(global::java.util.List n1, globa
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.List checkedList(java.util.List, java.lang.Class)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = ((_r1_o != null) && (_r1_o is global::java.util.RandomAccess)) ? 1 : 0;
@@ -1536,13 +1338,9 @@ public static global::System.Object checkedList(global::java.util.List n1, globa
 
 public static global::System.Object checkedSet(global::java.util.Set n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set checkedSet(java.util.Set, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::java.util.Collections_2CheckedSet();
@@ -1553,15 +1351,10 @@ public static global::System.Object checkedSet(global::java.util.Set n1, global:
 
 public static global::System.Object checkedSortedMap(global::java.util.SortedMap n1, global::java.lang.Class n2, global::java.lang.Class n3){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedMap checkedSortedMap(java.util.SortedMap, java.lang.Class, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -1573,13 +1366,9 @@ public static global::System.Object checkedSortedMap(global::java.util.SortedMap
 
 public static global::System.Object checkedSortedSet(global::java.util.SortedSet n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.SortedSet checkedSortedSet(java.util.SortedSet, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::java.util.Collections_2CheckedSortedSet();
@@ -1591,16 +1380,11 @@ public static global::System.Object checkedSortedSet(global::java.util.SortedSet
 public static bool addAll(global::java.util.Collection n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: boolean addAll(java.util.Collection, java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r0.i = 0;
@@ -1626,11 +1410,8 @@ public static bool disjoint(global::java.util.Collection n1, global::java.util.C
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Set)) ? 1 : 0;
@@ -1669,15 +1450,10 @@ public static global::System.Object checkType(global::java.lang.Object n1, globa
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.lang.Object checkType(java.lang.Object, java.lang.Class)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     if (_r3_o == null) goto label24;
@@ -1700,9 +1476,7 @@ public static global::System.Object newSetFromMap(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Set newSetFromMap(java.util.Map)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.util.Map) _r1_o).isEmpty() ? 1 : 0;
     if (_r0.i == 0) goto label12;
@@ -1718,11 +1492,8 @@ public static global::System.Object newSetFromMap(global::java.util.Map n1){
 
 public static global::System.Object asLifoQueue(global::java.util.Deque n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections: java.util.Queue asLifoQueue(java.util.Deque)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.util.Collections_2AsLIFOQueue();
     ((global::java.util.Collections_2AsLIFOQueue) _r0_o).@this((global::java.util.Deque) _r1_o);

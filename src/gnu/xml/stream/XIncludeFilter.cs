@@ -90,19 +90,12 @@ public void @this(global::javax.xml.stream.XMLStreamReader n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: void <init>(javax.xml.stream.XMLStreamReader, java.lang.String, boolean, boolean, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -129,9 +122,7 @@ public override int getAttributeCount(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: int getAttributeCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label19;
@@ -152,13 +143,9 @@ public override int getAttributeCount(){
 
 public override global::System.Object getAttributeLocalName(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributeLocalName(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -181,13 +168,9 @@ public override global::System.Object getAttributeLocalName(int n1){
 
 public override global::System.Object getAttributeNamespace(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributeNamespace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -210,13 +193,9 @@ public override global::System.Object getAttributeNamespace(int n1){
 
 public override global::System.Object getAttributePrefix(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributePrefix(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -239,19 +218,12 @@ public override global::System.Object getAttributePrefix(int n1){
 
 public override global::System.Object getAttributeName(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: javax.xml.namespace.QName getAttributeName(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r4_o)._fcurrent;
@@ -279,13 +251,9 @@ public override global::System.Object getAttributeName(int n1){
 
 public override global::System.Object getAttributeType(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributeType(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -318,11 +286,8 @@ public override bool isAttributeSpecified(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: boolean isAttributeSpecified(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -346,13 +311,9 @@ public override bool isAttributeSpecified(int n1){
 
 public override global::System.Object getAttributeValue(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributeValue(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
@@ -375,17 +336,11 @@ public override global::System.Object getAttributeValue(int n1){
 
 public override global::System.Object getAttributeValue(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getAttributeValue(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -414,11 +369,8 @@ public override global::System.Object getAttributeValue(global::java.lang.String
 
 public override global::System.Object getElementText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getElementText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label11;
@@ -435,10 +387,7 @@ public override global::System.Object getElementText(){
 public override int getEventType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: int getEventType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fevent;
     return _r0.i;
@@ -447,11 +396,8 @@ public override int getEventType(){
 
 public override global::System.Object getLocalName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getLocalName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label11;
@@ -467,17 +413,11 @@ public override global::System.Object getLocalName(){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: javax.xml.namespace.QName getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r4_o)._fcurrent;
     if (_r0_o == null) goto label29;
@@ -500,11 +440,8 @@ public override global::System.Object getName(){
 
 public override global::System.Object getNamespaceURI(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getNamespaceURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label11;
@@ -520,11 +457,8 @@ public override global::System.Object getNamespaceURI(){
 
 public override global::System.Object getPIData(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getPIData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label13;
@@ -541,11 +475,8 @@ public override global::System.Object getPIData(){
 
 public override global::System.Object getPITarget(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getPITarget()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label13;
@@ -562,11 +493,8 @@ public override global::System.Object getPITarget(){
 
 public override global::System.Object getPrefix(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getPrefix()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label11;
@@ -582,17 +510,11 @@ public override global::System.Object getPrefix(){
 
 public override global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r4_o)._fcurrent;
     if (_r0_o == null) goto label11;
@@ -627,9 +549,7 @@ public override global::System.Object getTextCharacters(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: char[] getTextCharacters()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label21;
@@ -656,19 +576,12 @@ public override int getTextCharacters(int n1, global::org.xmlvm._nArrayAdapter<c
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: int getTextCharacters(int, char[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -704,9 +617,7 @@ public override int getTextLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: int getTextLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label21;
@@ -733,9 +644,7 @@ public override int getTextStart(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: int getTextStart()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label21;
@@ -763,10 +672,7 @@ public override bool hasNext(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -819,13 +725,9 @@ public override int next(){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
@@ -1339,22 +1241,13 @@ public override int next(){
 public virtual bool isSpace(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: boolean isSpace(char[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -1385,13 +1278,9 @@ public virtual bool isSpace(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 
 public virtual global::System.Object getBaseURI(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.lang.String getBaseURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r2_o).getParent();
     // Value=gnu.xml.stream.baseURI
@@ -1422,19 +1311,12 @@ public virtual bool includeResource(global::java.lang.String n1, global::java.la
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -2189,21 +2071,14 @@ public virtual bool includeResource(global::java.lang.String n1, global::java.la
 
 public virtual global::System.Object getURLConnection(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: java.net.URLConnection getURLConnection(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -2239,12 +2114,8 @@ public virtual global::System.Object getDocument(global::org.w3c.dom.Node n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::org.w3c.dom.Node) _r3_o).getNodeType();
@@ -2262,13 +2133,10 @@ public virtual global::System.Object getDocument(global::org.w3c.dom.Node n1){
 
 public virtual global::System.Object getDocumentBuilder(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: javax.xml.parsers.DocumentBuilder getDocumentBuilder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -2314,15 +2182,10 @@ public virtual global::System.Object getDocumentTraversal(global::org.w3c.dom.Do
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: org.w3c.dom.traversal.DocumentTraversal getDocumentTraversal(org.w3c.dom.Document)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::org.w3c.dom.Document) _r4_o).getImplementation();
@@ -2350,15 +2213,10 @@ public virtual global::System.Object getXPathEvaluator(global::org.w3c.dom.Docum
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: org.w3c.dom.xpath.XPathEvaluator getXPathEvaluator(org.w3c.dom.Document)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::org.w3c.dom.Document) _r4_o).getImplementation();
@@ -2389,22 +2247,14 @@ public static global::System.Object getParameter(global::java.lang.String n1, gl
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r7.i = 39;

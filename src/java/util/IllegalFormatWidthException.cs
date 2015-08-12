@@ -9,11 +9,8 @@ private int _fw;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatWidthException: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.IllegalFormatException) _r0_o).@this();
@@ -25,10 +22,7 @@ public void @this(int n1){
 public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatWidthException: int getWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.IllegalFormatWidthException) _r1_o)._fw;
     return _r0.i;
@@ -39,9 +33,7 @@ public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatWidthException: java.lang.String getMessage()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.IllegalFormatWidthException) _r1_o)._fw;
     _r0_o = global::java.lang.String.valueOf((int) _r0.i);

@@ -9,13 +9,9 @@ public global::com.codename1.io.gzip.Inflate _fthis_20;
 
 public void @this(global::com.codename1.io.gzip.Inflate n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Inflate$Return: void <init>(com.codename1.io.gzip.Inflate, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;

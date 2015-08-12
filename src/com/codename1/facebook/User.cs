@@ -39,9 +39,7 @@ private global::com.codename1.facebook.FBObject _fhometown;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.facebook.FBObject) _r0_o).@this();
     return;
@@ -50,11 +48,8 @@ public void @this(){
 
 public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: void <init>(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FBObject) _r0_o).@this((global::java.util.Hashtable) _r1_o);
@@ -65,11 +60,8 @@ public void @this(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getFirst_1name(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getFirst_name()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._ffirst_1name;
     return (global::java.lang.String) _r0_o;
@@ -78,11 +70,8 @@ public virtual global::System.Object getFirst_1name(){
 
 public virtual global::System.Object getLast_1name(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getLast_name()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._flast_1name;
     return (global::java.lang.String) _r0_o;
@@ -91,11 +80,8 @@ public virtual global::System.Object getLast_1name(){
 
 public virtual global::System.Object getLink(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getLink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._flink;
     return (global::java.lang.String) _r0_o;
@@ -104,11 +90,8 @@ public virtual global::System.Object getLink(){
 
 public virtual global::System.Object getAbout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getAbout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fabout;
     return (global::java.lang.String) _r0_o;
@@ -117,11 +100,8 @@ public virtual global::System.Object getAbout(){
 
 public virtual global::System.Object getBirthday(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getBirthday()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fbirthday;
     return (global::java.lang.String) _r0_o;
@@ -130,11 +110,8 @@ public virtual global::System.Object getBirthday(){
 
 public virtual global::System.Object getEmail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getEmail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._femail;
     return (global::java.lang.String) _r0_o;
@@ -143,11 +120,8 @@ public virtual global::System.Object getEmail(){
 
 public virtual global::System.Object getWebsite(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getWebsite()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fwebsite;
     return (global::java.lang.String) _r0_o;
@@ -156,11 +130,8 @@ public virtual global::System.Object getWebsite(){
 
 public virtual global::System.Object getBio(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getBio()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fbio;
     return (global::java.lang.String) _r0_o;
@@ -169,11 +140,8 @@ public virtual global::System.Object getBio(){
 
 public virtual global::System.Object getQuotes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getQuotes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fquotes;
     return (global::java.lang.String) _r0_o;
@@ -182,11 +150,8 @@ public virtual global::System.Object getQuotes(){
 
 public virtual global::System.Object getGender(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getGender()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fgender;
     return (global::java.lang.String) _r0_o;
@@ -195,11 +160,8 @@ public virtual global::System.Object getGender(){
 
 public virtual global::System.Object getRelationship_1status(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getRelationship_status()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._frelationship_1status;
     return (global::java.lang.String) _r0_o;
@@ -209,12 +171,7 @@ public virtual global::System.Object getRelationship_1status(){
 public virtual long getTimezone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: long getTimezone()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.facebook.User) _r2_o)._ftimezone;
     return _r0.l;
@@ -223,11 +180,8 @@ public virtual long getTimezone(){
 
 public virtual global::System.Object getLast_1updated(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getLast_updated()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._flast_1updated;
     return (global::java.lang.String) _r0_o;
@@ -236,11 +190,8 @@ public virtual global::System.Object getLast_1updated(){
 
 public virtual global::System.Object getLocale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getLocale()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._flocale;
     return (global::java.lang.String) _r0_o;
@@ -249,11 +200,8 @@ public virtual global::System.Object getLocale(){
 
 public virtual global::System.Object getUsername(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: java.lang.String getUsername()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fusername;
     return (global::java.lang.String) _r0_o;
@@ -262,11 +210,8 @@ public virtual global::System.Object getUsername(){
 
 public virtual global::System.Object getLocation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: com.codename1.facebook.FBObject getLocation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._flocation;
     return (global::com.codename1.facebook.FBObject) _r0_o;
@@ -275,11 +220,8 @@ public virtual global::System.Object getLocation(){
 
 public virtual global::System.Object getHometown(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: com.codename1.facebook.FBObject getHometown()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.User) _r1_o)._fhometown;
     return (global::com.codename1.facebook.FBObject) _r0_o;
@@ -288,11 +230,8 @@ public virtual global::System.Object getHometown(){
 
 public override void copy(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: void copy(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.copy((global::java.util.Hashtable) _r1_o);
@@ -303,17 +242,11 @@ public override void copy(global::java.util.Hashtable n1){
 
 private void init(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.User: void init(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     base.copy((global::java.util.Hashtable) _r4_o);

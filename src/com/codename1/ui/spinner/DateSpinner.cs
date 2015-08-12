@@ -27,15 +27,11 @@ private global::java.lang.String _fmonthRenderingPrototype;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     ((global::com.codename1.ui.spinner.BaseSpinner) _r3_o).@this();
@@ -66,19 +62,14 @@ public void @this(){
 
 public override void initSpinner(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void initSpinner()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r1_o = ((global::com.codename1.ui.spinner.DateSpinner) _r5_o)._fmonth;
@@ -115,9 +106,7 @@ private void addComponents(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void addComponents()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fyear;
     if (_r0_o == null) goto label37;
@@ -153,10 +142,7 @@ private void addComponents(){
 public virtual int getStartYear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getStartYear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fstartYear;
     return _r0.i;
@@ -165,21 +151,13 @@ public virtual int getStartYear(){
 
 public virtual void setStartYear(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setStartYear(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.spinner.DateSpinner) _r5_o)._fstartYear = _r6.i;
@@ -200,10 +178,7 @@ public virtual void setStartYear(int n1){
 public virtual int getEndYear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getEndYear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fendYear;
     return _r0.i;
@@ -212,21 +187,13 @@ public virtual int getEndYear(){
 
 public virtual void setEndYear(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setEndYear(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.spinner.DateSpinner) _r5_o)._fendYear = _r6.i;
@@ -248,9 +215,7 @@ public virtual int getCurrentYear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getCurrentYear()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fyear;
     if (_r0_o == null) goto label17;
@@ -268,21 +233,13 @@ public virtual int getCurrentYear(){
 
 public virtual void setCurrentYear(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setCurrentYear(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.spinner.DateSpinner) _r5_o)._fcurrentYear = _r6.i;
@@ -304,9 +261,7 @@ public virtual int getCurrentDay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getCurrentDay()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fday;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
@@ -318,19 +273,12 @@ public virtual int getCurrentDay(){
 
 public virtual void setCurrentDay(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setCurrentDay(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 1;
@@ -351,9 +299,7 @@ public virtual int getCurrentMonth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getCurrentMonth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fmonth;
     if (_r0_o == null) goto label17;
@@ -371,19 +317,12 @@ public virtual int getCurrentMonth(){
 
 public virtual void setCurrentMonth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setCurrentMonth(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 1;
@@ -403,10 +342,7 @@ public virtual void setCurrentMonth(int n1){
 public virtual bool isMonthDayYear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: boolean isMonthDayYear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fmonthDayYear ? 1 : 0;
     return _r0.i!=0;
@@ -415,11 +351,8 @@ public virtual bool isMonthDayYear(){
 
 public virtual void setMonthDayYear(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setMonthDayYear(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateSpinner) _r0_o)._fmonthDayYear = 0!=_r1.i;
@@ -432,10 +365,7 @@ public virtual void setMonthDayYear(bool n1){
 public virtual bool isNumericMonths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: boolean isNumericMonths()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fnumericMonths ? 1 : 0;
     return _r0.i!=0;
@@ -444,13 +374,9 @@ public virtual bool isNumericMonths(){
 
 public virtual void setNumericMonths(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setNumericMonths(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fnumericMonths = 0!=_r2.i;
@@ -468,12 +394,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 7;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -521,16 +443,10 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Integer));
@@ -572,12 +488,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=startYear
@@ -660,15 +572,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -758,11 +665,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public virtual void setMonthRenderingPrototype(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: void setMonthRenderingPrototype(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.DateSpinner) _r0_o)._fmonthRenderingPrototype = (global::java.lang.String) _r1_o;
@@ -773,10 +677,7 @@ public virtual void setMonthRenderingPrototype(global::java.lang.String n1){
 public static bool access_2000(global::com.codename1.ui.spinner.DateSpinner n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.DateSpinner: boolean access$000(com.codename1.ui.spinner.DateSpinner)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fnumericMonths ? 1 : 0;
     return _r0.i!=0;

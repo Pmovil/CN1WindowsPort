@@ -55,10 +55,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 10;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;
@@ -122,14 +119,9 @@ public void @this(short n1, global::java.lang.String n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -161,9 +153,7 @@ public void @this(short n1, global::java.lang.String n2){
 
 public virtual global::System.Object getDomConfig(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.DOMConfiguration getDomConfig()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::org.w3c.dom.DOMConfiguration) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.DOMConfiguration getDomConfig()]
@@ -171,11 +161,8 @@ public virtual global::System.Object getDomConfig(){
 
 public virtual global::System.Object getFilter(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.ls.LSParserFilter getFilter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._ffilter;
     return (global::org.w3c.dom.ls.LSParserFilter) _r0_o;
@@ -184,11 +171,8 @@ public virtual global::System.Object getFilter(){
 
 public virtual void setFilter(global::org.w3c.dom.ls.LSParserFilter n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void setFilter(org.w3c.dom.ls.LSParserFilter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSParser) _r0_o)._ffilter = (global::org.w3c.dom.ls.LSParserFilter) _r1_o;
@@ -199,10 +183,7 @@ public virtual void setFilter(global::org.w3c.dom.ls.LSParserFilter n1){
 public virtual bool getAsync(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: boolean getAsync()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._fasync ? 1 : 0;
     return _r0.i!=0;
@@ -213,9 +194,7 @@ public virtual bool getBusy(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: boolean getBusy()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._feventSink;
     if (_r0_o == null) goto label6;
@@ -232,9 +211,7 @@ public virtual global::System.Object parse(global::org.w3c.dom.ls.LSInput n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.Document parse(org.w3c.dom.ls.LSInput)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -281,13 +258,9 @@ public virtual global::System.Object parse(global::org.w3c.dom.ls.LSInput n1){
 
 public virtual global::System.Object parseURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.Document parseURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::gnu.xml.dom.ls.DomLSInput();
@@ -300,23 +273,16 @@ public virtual global::System.Object parseURI(global::java.lang.String n1){
 
 public virtual global::System.Object parseWithContext(global::org.w3c.dom.ls.LSInput n1, global::org.w3c.dom.Node n2, short n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.Node parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -388,11 +354,8 @@ public virtual global::System.Object parseWithContext(global::org.w3c.dom.ls.LSI
 
 public virtual void abort(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void abort()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._feventSink;
     if (_r0_o == null) goto label9;
@@ -405,23 +368,17 @@ public virtual void abort(){
 
 private global::System.Object doParse(global::org.w3c.dom.ls.LSInput n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.Document doParse(org.w3c.dom.ls.LSInput)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -675,13 +632,10 @@ private global::System.Object doParse(global::org.w3c.dom.ls.LSInput n1){
 
 private global::System.Object getXMLReader(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.xml.sax.XMLReader getXMLReader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -736,19 +690,13 @@ private global::System.Object getXMLReader(){
 
 private global::System.Object getInputSource(global::org.w3c.dom.ls.LSInput n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.xml.sax.InputSource getInputSource(org.w3c.dom.ls.LSInput)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -922,16 +870,10 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -1070,11 +1012,8 @@ public virtual global::System.Object getParameter(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.lang.String) _r3_o).toLowerCase();
@@ -1209,14 +1148,9 @@ public virtual global::System.Object getParameter(global::java.lang.String n1){
 public virtual bool canSetParameter(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: boolean canSetParameter(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1227,9 +1161,7 @@ public virtual bool canSetParameter(global::java.lang.String n1, global::java.la
 
 public virtual global::System.Object getParameterNames(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.DOMStringList getParameterNames()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::org.w3c.dom.DOMStringList) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.DOMStringList getParameterNames()]
@@ -1237,13 +1169,9 @@ public virtual global::System.Object getParameterNames(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: java.lang.String item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSParser._fSUPPORTED_1PARAMETERS;
@@ -1257,9 +1185,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::gnu.xml.dom.ls.DomLSParser._fSUPPORTED_1PARAMETERS;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -1271,11 +1197,8 @@ public virtual bool contains(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: boolean contains(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSParser._fSUPPORTED_1PARAMETERS;
@@ -1286,13 +1209,9 @@ public virtual bool contains(global::java.lang.String n1){
 
 public virtual void warning(global::org.xml.sax.SAXParseException n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void warning(org.xml.sax.SAXParseException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._ferrorHandler;
@@ -1306,13 +1225,9 @@ public virtual void warning(global::org.xml.sax.SAXParseException n1){
 
 public virtual void error(global::org.xml.sax.SAXParseException n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void error(org.xml.sax.SAXParseException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._ferrorHandler;
@@ -1326,13 +1241,9 @@ public virtual void error(global::org.xml.sax.SAXParseException n1){
 
 public virtual void fatalError(global::org.xml.sax.SAXParseException n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void fatalError(org.xml.sax.SAXParseException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSParser) _r1_o)._ferrorHandler;

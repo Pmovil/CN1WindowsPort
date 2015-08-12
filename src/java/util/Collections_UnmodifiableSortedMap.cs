@@ -9,11 +9,8 @@ private global::java.util.SortedMap _fsm;
 
 public void @this(global::java.util.SortedMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: void <init>(java.util.SortedMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2UnmodifiableMap) _r0_o).@this((global::java.util.Map) _r1_o);
@@ -24,11 +21,8 @@ public void @this(global::java.util.SortedMap n1){
 
 public virtual global::System.Object comparator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.util.Comparator comparator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableSortedMap) _r1_o)._fsm;
     _r0_o = ((global::java.util.SortedMap) _r0_o).comparator();
@@ -38,11 +32,8 @@ public virtual global::System.Object comparator(){
 
 public virtual global::System.Object firstKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.lang.Object firstKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableSortedMap) _r1_o)._fsm;
     _r0_o = ((global::java.util.SortedMap) _r0_o).firstKey();
@@ -52,15 +43,10 @@ public virtual global::System.Object firstKey(){
 
 public virtual global::System.Object headMap(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.util.SortedMap headMap(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.util.Collections_2UnmodifiableSortedMap();
@@ -73,11 +59,8 @@ public virtual global::System.Object headMap(global::java.lang.Object n1){
 
 public virtual global::System.Object lastKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.lang.Object lastKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableSortedMap) _r1_o)._fsm;
     _r0_o = ((global::java.util.SortedMap) _r0_o).lastKey();
@@ -87,17 +70,11 @@ public virtual global::System.Object lastKey(){
 
 public virtual global::System.Object subMap(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.util.SortedMap subMap(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -111,15 +88,10 @@ public virtual global::System.Object subMap(global::java.lang.Object n1, global:
 
 public virtual global::System.Object tailMap(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSortedMap: java.util.SortedMap tailMap(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.util.Collections_2UnmodifiableSortedMap();

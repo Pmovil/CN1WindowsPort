@@ -9,13 +9,9 @@ private global::java.util.BitSet _fval_2bs;
 
 public void @this(global::java.util.regex.CharClass n1, global::java.util.BitSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CharClass$18: void <init>(java.util.regex.CharClass, java.util.BitSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,14 +25,10 @@ public void @this(global::java.util.regex.CharClass n1, global::java.util.BitSet
 public override bool contains(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CharClass$18: boolean contains(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::java.util.regex.CharClass_218) _r2_o)._falt ? 1 : 0;
@@ -49,15 +41,12 @@ public override bool contains(int n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CharClass$18: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

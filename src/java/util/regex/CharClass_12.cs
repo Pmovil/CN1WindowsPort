@@ -9,13 +9,9 @@ private global::java.util.regex.AbstractCharClass _fval_2clazz;
 
 public void @this(global::java.util.regex.CharClass n1, global::java.util.regex.AbstractCharClass n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CharClass$12: void <init>(java.util.regex.CharClass, java.util.regex.AbstractCharClass)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -30,11 +26,8 @@ public override bool contains(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CharClass$12: boolean contains(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::java.util.regex.CharClass_212) _r1_o)._fval_2clazz;

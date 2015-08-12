@@ -9,13 +9,9 @@ private global::java.lang.String _fcharsetName;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.IllegalCharsetNameException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=niochar.0F
@@ -30,11 +26,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getCharsetName(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.IllegalCharsetNameException: java.lang.String getCharsetName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.IllegalCharsetNameException) _r1_o)._fcharsetName;
     return (global::java.lang.String) _r0_o;

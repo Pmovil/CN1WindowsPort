@@ -25,11 +25,7 @@ private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.Image) _r2_o).@this((global::java.lang.Object) _r0_o);
@@ -46,12 +42,9 @@ private void @this(){
 public override void @lock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void lock()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.animations.Timeline) _r2_o)._fanimations;
     if (_r1_o == null) goto label20;
@@ -73,12 +66,9 @@ public override void @lock(){
 public override void unlock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void unlock()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.animations.Timeline) _r2_o)._fanimations;
     if (_r1_o == null) goto label20;
@@ -99,21 +89,15 @@ public override void unlock(){
 
 public override global::System.Object getRGB(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int[] getRGB()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 0;
     _r1.i = ((global::com.codename1.ui.animations.Timeline) _r6_o).getWidth();
@@ -132,11 +116,8 @@ public override global::System.Object getRGB(){
 
 public override global::System.Object getRGBCached(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int[] getRGBCached()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o).getRGB();
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -145,21 +126,13 @@ public override global::System.Object getRGBCached(){
 
 public static global::System.Object createTimeline(int n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.ui.geom.Dimension n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: com.codename1.ui.animations.Timeline createTimeline(int, com.codename1.ui.animations.AnimationObject[], com.codename1.ui.geom.Dimension)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -187,19 +160,14 @@ public static global::System.Object createTimeline(int n1, global::org.xmlvm._nA
 
 public virtual void addAnimation(global::com.codename1.ui.animations.AnimationObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void addAnimation(com.codename1.ui.animations.AnimationObject)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -222,14 +190,8 @@ public virtual void addAnimation(global::com.codename1.ui.animations.AnimationOb
 public virtual void setTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void setTime(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r2_o)._fpause ? 1 : 0;
@@ -248,10 +210,7 @@ public virtual void setTime(int n1){
 public virtual int getTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getTime()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r1_o)._ftime;
     return _r0.i;
@@ -261,10 +220,7 @@ public virtual int getTime(){
 public override bool isAnimation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: boolean isAnimation()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -274,26 +230,12 @@ public override bool isAnimation(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: boolean animate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r8.i = 1;
     _r7.i = 0;
@@ -344,13 +286,9 @@ public override bool animate(){
 
 public virtual void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -362,20 +300,14 @@ public virtual void paint(global::com.codename1.ui.Graphics n1){
 public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -405,26 +337,16 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
 private void paintScaled(global::com.codename1.ui.Graphics n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void paintScaled(com.codename1.ui.Graphics, float, float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.f = n2;
@@ -468,10 +390,7 @@ private void paintScaled(global::com.codename1.ui.Graphics n1, float n2, float n
 public virtual int getAnimationDelay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getAnimationDelay()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fanimationDelay;
     return _r0.i;
@@ -480,11 +399,8 @@ public virtual int getAnimationDelay(){
 
 public virtual void setAnimationDelay(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void setAnimationDelay(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.animations.Timeline) _r0_o)._fanimationDelay = _r1.i;
@@ -495,24 +411,16 @@ public virtual void setAnimationDelay(int n1){
 public override void drawImage(global::com.codename1.ui.Graphics n1, global::java.lang.Object n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void drawImage(com.codename1.ui.Graphics, java.lang.Object, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -551,9 +459,7 @@ public override int getWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getWidth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fscaledTo;
     if (_r0_o == null) goto label11;
@@ -572,9 +478,7 @@ public override int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fscaledTo;
     if (_r0_o == null) goto label11;
@@ -591,19 +495,12 @@ public override int getHeight(){
 
 public override global::System.Object scaled(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: com.codename1.ui.Image scaled(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -631,10 +528,7 @@ public override global::System.Object scaled(int n1, int n2){
 public virtual bool isPause(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: boolean isPause()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fpause ? 1 : 0;
     return _r0.i!=0;
@@ -643,11 +537,8 @@ public virtual bool isPause(){
 
 public virtual void setPause(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void setPause(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.animations.Timeline) _r0_o)._fpause = 0!=_r1.i;
@@ -658,10 +549,7 @@ public virtual void setPause(bool n1){
 public virtual int getDuration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getDuration()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fduration;
     return _r0.i;
@@ -670,11 +558,8 @@ public virtual int getDuration(){
 
 public virtual global::System.Object getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: com.codename1.ui.geom.Dimension getSize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fsize;
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -685,9 +570,7 @@ public virtual int getAnimationCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: int getAnimationCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fanimations;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -697,13 +580,9 @@ public virtual int getAnimationCount(){
 
 public virtual global::System.Object getAnimation(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: com.codename1.ui.animations.AnimationObject getAnimation(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.animations.Timeline) _r1_o)._fanimations;
@@ -715,42 +594,25 @@ public virtual global::System.Object getAnimation(int n1){
 public virtual global::System.Object getAnimationAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: com.codename1.ui.animations.AnimationObject getAnimationAt(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     _r16.i = n1;
     _r17.i = n2;
@@ -840,10 +702,7 @@ public virtual global::System.Object getAnimationAt(int n1, int n2){
 public virtual bool isLoop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: boolean isLoop()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.Timeline) _r1_o)._floop ? 1 : 0;
     return _r0.i!=0;
@@ -852,11 +711,8 @@ public virtual bool isLoop(){
 
 public virtual void setLoop(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void setLoop(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.animations.Timeline) _r0_o)._floop = 0!=_r1.i;

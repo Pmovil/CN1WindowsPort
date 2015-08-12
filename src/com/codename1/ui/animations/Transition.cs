@@ -9,9 +9,7 @@ private global::com.codename1.ui.Component _fdestination;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -21,14 +19,9 @@ public void @this(){
 public virtual void init(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void init(com.codename1.ui.Component, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -52,9 +45,7 @@ public virtual void init(global::com.codename1.ui.Component n1, global::com.code
 
 public virtual void initTransition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void initTransition()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Transition: void initTransition()]
@@ -62,11 +53,8 @@ public virtual void initTransition(){
 
 public virtual global::System.Object getDestination(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: com.codename1.ui.Component getDestination()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Transition) _r1_o)._fdestination;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -75,11 +63,8 @@ public virtual global::System.Object getDestination(){
 
 public virtual global::System.Object getSource(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: com.codename1.ui.Component getSource()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.Transition) _r1_o)._fsource;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -88,11 +73,8 @@ public virtual global::System.Object getSource(){
 
 public virtual void cleanup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void cleanup()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.animations.Transition) _r1_o)._fsource = (global::com.codename1.ui.Component) _r0_o;
@@ -103,11 +85,8 @@ public virtual void cleanup(){
 
 public virtual global::System.Object copy(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: com.codename1.ui.animations.Transition copy(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -116,11 +95,8 @@ public virtual global::System.Object copy(bool n1){
 
 public virtual void cleanSource(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void cleanSource()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.animations.Transition) _r1_o)._fsource = (global::com.codename1.ui.Component) _r0_o;

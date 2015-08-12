@@ -16,10 +16,7 @@ private int _fbufferOffset;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 44;
     ((global::com.codename1.io.CSVParser) _r1_o).@this((char) _r0.i);
@@ -31,11 +28,8 @@ public void @this(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: void <init>(char)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -51,13 +45,9 @@ public void @this(char n1){
 
 public virtual global::System.Object parse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: java.lang.String[][] parse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.io.InputStreamReader();
@@ -69,15 +59,10 @@ public virtual global::System.Object parse(global::java.io.InputStream n1){
 
 public virtual global::System.Object parse(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: java.lang.String[][] parse(java.io.InputStream, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -91,12 +76,8 @@ public virtual global::System.Object parse(global::java.io.InputStream n1, globa
 private int nextChar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: int nextChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.io.CSVParser) _r2_o).peekNextChar();
     _r1.i = ((global::com.codename1.io.CSVParser) _r2_o)._fbufferOffset;
@@ -109,16 +90,12 @@ private int nextChar(){
 private int peekNextChar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: int peekNextChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = -1;
     _r1.i = ((global::com.codename1.io.CSVParser) _r4_o)._fbufferOffset;
@@ -147,33 +124,20 @@ private int peekNextChar(){
 
 public virtual global::System.Object parse(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CSVParser: java.lang.String[][] parse(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     ((global::com.codename1.io.CSVParser) _r11_o)._fcurrentReader = (global::java.io.Reader) _r12_o;

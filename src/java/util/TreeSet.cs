@@ -11,11 +11,8 @@ private global::java.util.NavigableSet _fdescendingSet;
 
 public void @this(global::java.util.NavigableMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void <init>(java.util.NavigableMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractSet) _r0_o).@this();
@@ -26,11 +23,8 @@ public void @this(global::java.util.NavigableMap n1){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.AbstractSet) _r1_o).@this();
     _r0_o = new global::java.util.TreeMap();
@@ -42,11 +36,8 @@ public void @this(){
 
 public void @this(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void <init>(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.TreeSet) _r0_o).@this();
@@ -57,13 +48,9 @@ public void @this(global::java.util.Collection n1){
 
 public void @this(global::java.util.Comparator n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void <init>(java.util.Comparator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.AbstractSet) _r1_o).@this();
@@ -76,15 +63,11 @@ public void @this(global::java.util.Comparator n1){
 
 public void @this(global::java.util.SortedSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void <init>(java.util.SortedSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.SortedSet) _r3_o).comparator();
@@ -105,13 +88,9 @@ public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r2_o)._fbackingMap;
@@ -130,12 +109,8 @@ public override bool add(global::java.lang.Object n1){
 public override bool addAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: boolean addAll(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = base.addAll((global::java.util.Collection) _r2_o) ? 1 : 0;
@@ -145,11 +120,8 @@ public override bool addAll(global::java.util.Collection n1){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     ((global::java.util.NavigableMap) _r0_o).clear();
@@ -159,13 +131,10 @@ public override void clear(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -230,11 +199,8 @@ public override global::System.Object clone(){
 
 public virtual global::System.Object comparator(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.Comparator comparator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).comparator();
@@ -246,11 +212,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -263,9 +226,7 @@ public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0.i = ((global::java.util.NavigableMap) _r0_o).isEmpty() ? 1 : 0;
@@ -275,11 +236,8 @@ public override bool isEmpty(){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).keySet();
@@ -290,11 +248,8 @@ public override global::System.Object iterator(){
 
 public virtual global::System.Object descendingIterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.Iterator descendingIterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o).descendingSet();
     _r0_o = ((global::java.util.NavigableSet) _r0_o).iterator();
@@ -306,11 +261,8 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -329,9 +281,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0.i = ((global::java.util.NavigableMap) _r0_o).size();
@@ -341,11 +291,8 @@ public override int size(){
 
 public virtual global::System.Object first(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object first()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).firstKey();
@@ -355,11 +302,8 @@ public virtual global::System.Object first(){
 
 public virtual global::System.Object last(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object last()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).lastKey();
@@ -369,11 +313,8 @@ public virtual global::System.Object last(){
 
 public virtual global::System.Object pollFirst(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object pollFirst()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).pollFirstEntry();
@@ -389,11 +330,8 @@ public virtual global::System.Object pollFirst(){
 
 public virtual global::System.Object pollLast(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object pollLast()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.NavigableMap) _r0_o).pollLastEntry();
@@ -409,13 +347,9 @@ public virtual global::System.Object pollLast(){
 
 public virtual global::System.Object higher(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object higher(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -426,13 +360,9 @@ public virtual global::System.Object higher(global::java.lang.Object n1){
 
 public virtual global::System.Object lower(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object lower(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -443,13 +373,9 @@ public virtual global::System.Object lower(global::java.lang.Object n1){
 
 public virtual global::System.Object ceiling(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object ceiling(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -460,13 +386,9 @@ public virtual global::System.Object ceiling(global::java.lang.Object n1){
 
 public virtual global::System.Object floor(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.lang.Object floor(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.TreeSet) _r1_o)._fbackingMap;
@@ -477,13 +399,9 @@ public virtual global::System.Object floor(global::java.lang.Object n1){
 
 public virtual global::System.Object descendingSet(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.NavigableSet descendingSet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.TreeSet) _r2_o)._fdescendingSet;
     if (_r0_o == null) goto label7;
@@ -502,23 +420,15 @@ public virtual global::System.Object descendingSet(){
 
 public virtual global::System.Object subSet(global::java.lang.Object n1, bool n2, global::java.lang.Object n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.NavigableSet subSet(java.lang.Object, boolean, java.lang.Object, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -550,19 +460,12 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, bool n2
 
 public virtual global::System.Object headSet(global::java.lang.Object n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.NavigableSet headSet(java.lang.Object, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -587,19 +490,12 @@ public virtual global::System.Object headSet(global::java.lang.Object n1, bool n
 
 public virtual global::System.Object tailSet(global::java.lang.Object n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.NavigableSet tailSet(java.lang.Object, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -627,14 +523,9 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, global:
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -649,11 +540,8 @@ public virtual global::System.Object headSet(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.SortedSet headSet(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -666,11 +554,8 @@ public virtual global::System.Object tailSet(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: java.util.SortedSet tailSet(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -685,11 +570,8 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.io.ObjectOutputStream) _r3_o).defaultWriteObject();
@@ -719,23 +601,16 @@ private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeSet: void readObject(java.io.ObjectInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     ((global::java.io.ObjectInputStream) _r8_o).defaultReadObject();

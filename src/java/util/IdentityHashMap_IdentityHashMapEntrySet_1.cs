@@ -7,11 +7,8 @@ public global::java.util.IdentityHashMap_2IdentityHashMapEntrySet _fthis_21;
 
 public void @this(global::java.util.IdentityHashMap_2IdentityHashMapEntrySet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet$1: void <init>(java.util.IdentityHashMap$IdentityHashMapEntrySet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet_21) _r0_o)._fthis_21 = (global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r1_o;
@@ -22,11 +19,8 @@ public void @this(global::java.util.IdentityHashMap_2IdentityHashMapEntrySet n1)
 
 public virtual global::System.Object get(global::java.util.MapEntry n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet$1: java.util.Map$Entry get(java.util.MapEntry)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return (global::java.util.Map_2Entry) _r1_o;

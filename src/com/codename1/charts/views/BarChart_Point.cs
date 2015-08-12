@@ -11,11 +11,8 @@ public global::com.codename1.charts.views.BarChart _fthis_20;
 
 private void @this(global::com.codename1.charts.views.BarChart n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BarChart$Point: void <init>(com.codename1.charts.views.BarChart)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.views.BarChart_2Point) _r0_o)._fthis_20 = (global::com.codename1.charts.views.BarChart) _r1_o;
@@ -26,13 +23,9 @@ private void @this(global::com.codename1.charts.views.BarChart n1){
 
 public void @this(global::com.codename1.charts.views.BarChart n1, global::com.codename1.charts.views.BarChart_21 n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BarChart$Point: void <init>(com.codename1.charts.views.BarChart, com.codename1.charts.views.BarChart$1)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

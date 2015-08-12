@@ -19,7 +19,6 @@ public void @this(){
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     ((global::java.lang.Throwable) _r0_o)._fcause = (global::java.lang.Throwable) _r0_o;
@@ -42,7 +41,6 @@ public void @this(global::java.lang.String n1){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Throwable) _r0_o).@this();
@@ -71,7 +69,6 @@ public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
     _r2.f = 0;
     _r2.d = 0;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -102,7 +99,6 @@ public void @this(global::java.lang.Throwable n1){
     _r2.f = 0;
     _r2.d = 0;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Throwable) _r1_o).@this();
@@ -138,7 +134,6 @@ public virtual global::System.Object getMessage(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o)._fdetailMessage;
     return (global::java.lang.String) _r0_o;
@@ -159,7 +154,6 @@ public virtual global::System.Object getLocalizedMessage(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o).getMessage();
     return (global::java.lang.String) _r0_o;
@@ -186,7 +180,6 @@ public virtual global::System.Object getStackTrace(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o).getInternalStackTrace();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
@@ -208,13 +201,11 @@ public virtual void setStackTrace(global::org.xmlvm._nArrayAdapter<global::Syste
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     _r2.i = 0;
     _r2.l = 0;
     _r2.f = 0;
     _r2.d = 0;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     _r3.i = 0;
     _r3.l = 0;
@@ -233,7 +224,6 @@ public virtual void setStackTrace(global::org.xmlvm._nArrayAdapter<global::Syste
     _r5.f = 0;
     _r5.d = 0;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o).clone();
@@ -270,7 +260,6 @@ public virtual void printStackTrace(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.lang.System._ferr;
     ((global::java.lang.Throwable) _r1_o).printStackTrace((global::java.io.PrintStream) _r0_o);
@@ -285,19 +274,16 @@ private static int countDuplicates(global::org.xmlvm._nArrayAdapter<global::Syst
     _r0.l = 0;
     _r0.f = 0;
     _r0.d = 0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     _r1.i = 0;
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     _r2.i = 0;
     _r2.l = 0;
     _r2.f = 0;
     _r2.d = 0;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     _r3.i = 0;
     _r3.l = 0;
@@ -315,7 +301,6 @@ private static int countDuplicates(global::org.xmlvm._nArrayAdapter<global::Syst
     _r5.l = 0;
     _r5.f = 0;
     _r5.d = 0;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     _r6.i = 0;
     _r6.l = 0;
@@ -328,7 +313,6 @@ private static int countDuplicates(global::org.xmlvm._nArrayAdapter<global::Syst
     _r7.f = 0;
     _r7.d = 0;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r0.i = 0;
@@ -368,7 +352,6 @@ private global::System.Object getInternalStackTrace(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o)._fstackTrace;
     if (_r0_o != null) goto label10;
@@ -428,7 +411,6 @@ public virtual void printStackTrace(global::java.io.PrintWriter n1){
     _r6.l = 0;
     _r6.f = 0;
     _r6.d = 0;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     _r7.i = 0;
     _r7.l = 0;
@@ -453,7 +435,6 @@ public virtual void printStackTrace(global::java.io.PrintWriter n1){
     _r10.f = 0;
     _r10.d = 0;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r6.i = 0;
@@ -556,20 +537,17 @@ public override global::System.Object toString(){
     _r3.l = 0;
     _r3.f = 0;
     _r3.d = 0;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     _r4.i = 0;
     _r4.l = 0;
     _r4.f = 0;
     _r4.d = 0;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     _r5.i = 0;
     _r5.l = 0;
     _r5.f = 0;
     _r5.d = 0;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = ((global::java.lang.Throwable) _r5_o).getLocalizedMessage();
     _r1_o = ((global::java.lang.Object) _r5_o).getClass();
@@ -698,7 +676,6 @@ public virtual global::System.Object getCause(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o)._fcause;
     if (_r0_o != _r1_o) goto label6;
@@ -725,7 +702,6 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Throwable) _r0_o).getInternalStackTrace();

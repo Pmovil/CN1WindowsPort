@@ -33,11 +33,8 @@ public int _fpos;
 
 public void @this(global::java.lang.ClassLoader n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void <init>(java.lang.ClassLoader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -50,13 +47,9 @@ public virtual void setInput(global::java.lang.reflect.GenericDeclaration n1, gl
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void setInput(java.lang.reflect.GenericDeclaration, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -78,21 +71,14 @@ public virtual void setInput(global::java.lang.reflect.GenericDeclaration n1, gl
 
 public virtual void parseForClass(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void parseForClass(java.lang.reflect.GenericDeclaration, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -130,23 +116,15 @@ public virtual void parseForClass(global::java.lang.reflect.GenericDeclaration n
 
 public virtual void parseForMethod(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void parseForMethod(java.lang.reflect.GenericDeclaration, java.lang.String, java.lang.Class[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -191,23 +169,15 @@ public virtual void parseForMethod(global::java.lang.reflect.GenericDeclaration 
 
 public virtual void parseForConstructor(global::java.lang.reflect.GenericDeclaration n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void parseForConstructor(java.lang.reflect.GenericDeclaration, java.lang.String, java.lang.Class[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -250,13 +220,9 @@ public virtual void parseForField(global::java.lang.reflect.GenericDeclaration n
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void parseForField(java.lang.reflect.GenericDeclaration, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -276,9 +242,7 @@ public virtual void parseClassSignature(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o).parseOptFormalTypeParameters();
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o).parseClassTypeSignature();
@@ -301,17 +265,12 @@ public virtual void parseClassSignature(){
 
 public virtual void parseOptFormalTypeParameters(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void parseOptFormalTypeParameters()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 62;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.ListOfVariables();
@@ -341,19 +300,14 @@ public virtual void parseOptFormalTypeParameters(){
 
 public virtual global::System.Object parseFormalTypeParameter(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: org.apache.harmony.luni.lang.reflect.ImplForVariable parseFormalTypeParameter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 58;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r5_o).scanIdentifier();
@@ -394,11 +348,8 @@ public virtual global::System.Object parseFieldTypeSignature(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseFieldTypeSignature()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o)._fsymbol;
     switch (_r0.i) {
@@ -428,23 +379,16 @@ public virtual global::System.Object parseFieldTypeSignature(){
 
 public virtual global::System.Object parseClassTypeSignature(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseClassTypeSignature()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r4.i = 76;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r7_o).expect((char) _r4.i);
@@ -501,17 +445,12 @@ public virtual global::System.Object parseClassTypeSignature(){
 
 public virtual global::System.Object parseOptTypeArguments(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: org.apache.harmony.luni.lang.reflect.ListOfTypes parseOptTypeArguments()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 62;
     _r0_o = new global::org.apache.harmony.luni.lang.reflect.ListOfTypes();
@@ -540,19 +479,13 @@ public virtual global::System.Object parseOptTypeArguments(){
 
 public virtual global::System.Object parseTypeArgument(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseTypeArgument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r2.i = 1;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Object));
@@ -602,13 +535,9 @@ public virtual global::System.Object parseTypeVariableSignature(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: org.apache.harmony.luni.lang.reflect.ImplForVariable parseTypeVariableSignature()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 84;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r3_o).expect((char) _r0.i);
@@ -627,9 +556,7 @@ public virtual global::System.Object parseTypeSignature(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseTypeSignature()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r1_o)._fsymbol;
     switch (_r0.i) {
@@ -688,14 +615,9 @@ public virtual void parseMethodTypeSignature(global::org.xmlvm._nArrayAdapter<gl
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 94;
@@ -764,10 +686,7 @@ public virtual global::System.Object parseReturnType(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o)._fsymbol;
     _r1.i = 86;
@@ -788,9 +707,7 @@ public virtual void scanSymbol(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o)._feof ? 1 : 0;
     if (_r0.i != 0) goto label33;
@@ -824,11 +741,8 @@ public virtual void expect(char n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void expect(char)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r1_o)._fsymbol;
@@ -845,12 +759,8 @@ public virtual void expect(char n1){
 public virtual bool isStopSymbol(char n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: boolean isStopSymbol(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     switch (_r2.i) {
@@ -873,20 +783,14 @@ public virtual bool isStopSymbol(char n1){
 public virtual void scanIdentifier(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: void scanIdentifier()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;

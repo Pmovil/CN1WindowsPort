@@ -7,11 +7,8 @@ private global::com.codename1.maps.BoundingBox _fextent;
 
 public void @this(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Projection: void <init>(com.codename1.maps.BoundingBox)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -22,11 +19,8 @@ public void @this(global::com.codename1.maps.BoundingBox n1){
 
 public virtual global::System.Object extent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Projection: com.codename1.maps.BoundingBox extent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.Projection) _r1_o)._fextent;
     return (global::com.codename1.maps.BoundingBox) _r0_o;
@@ -40,18 +34,12 @@ public abstract global::System.Object toWGS84(global::com.codename1.maps.Coord n
 public virtual global::System.Object fromWGS84(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Projection: com.codename1.maps.Coord[] fromWGS84(com.codename1.maps.Coord[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
@@ -72,17 +60,11 @@ public virtual global::System.Object fromWGS84(global::org.xmlvm._nArrayAdapter<
 
 public virtual global::System.Object fromWGS84(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Projection: com.codename1.maps.BoundingBox fromWGS84(com.codename1.maps.BoundingBox)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.maps.BoundingBox();
@@ -97,17 +79,11 @@ public virtual global::System.Object fromWGS84(global::com.codename1.maps.Boundi
 
 public virtual global::System.Object toWGS84(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Projection: com.codename1.maps.BoundingBox toWGS84(com.codename1.maps.BoundingBox)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.maps.BoundingBox();

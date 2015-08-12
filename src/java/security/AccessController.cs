@@ -10,9 +10,7 @@ static AccessController() {
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -21,9 +19,7 @@ private void @this(){
 
 public static void checkPermission(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void checkPermission(java.security.Permission)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     return;
 //XMLVM_END_WRAPPER[java.security.AccessController: void checkPermission(java.security.Permission)]
@@ -31,9 +27,7 @@ public static void checkPermission(global::java.security.Permission n1){
 
 private static void keepalive(global::org.xmlvm.runtime.RedTypeMarker n1){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void keepalive(java.security.AccessControlContext)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     return;
 //XMLVM_END_WRAPPER[java.security.AccessController: void keepalive(java.security.AccessControlContext)]
@@ -41,9 +35,7 @@ private static void keepalive(global::org.xmlvm.runtime.RedTypeMarker n1){
 
 public static global::System.Object getContext(){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: java.lang.Object getContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.security.AccessController: java.lang.Object getContext()]
@@ -51,11 +43,8 @@ public static global::System.Object getContext(){
 
 public static global::System.Object doPrivileged(global::java.security.PrivilegedAction n1){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.security.PrivilegedAction) _r1_o).run();
     return (global::java.lang.Object) _r0_o;
@@ -64,13 +53,9 @@ public static global::System.Object doPrivileged(global::java.security.Privilege
 
 public static global::System.Object doPrivileged(global::java.security.PrivilegedAction n1, global::org.xmlvm.runtime.RedTypeMarker n2){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction, java.security.AccessControlContext)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = ((global::java.security.PrivilegedAction) _r1_o).run();
@@ -81,11 +66,8 @@ public static global::System.Object doPrivileged(global::java.security.Privilege
 
 public static global::System.Object doPrivileged(global::java.security.PrivilegedExceptionAction n1){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedExceptionAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -121,15 +103,10 @@ public static global::System.Object doPrivileged(global::java.security.Privilege
 
 public static global::System.Object doPrivileged(global::java.security.PrivilegedExceptionAction n1, global::org.xmlvm.runtime.RedTypeMarker n2){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedExceptionAction, java.security.AccessControlContext)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
@@ -169,7 +146,6 @@ public static global::System.Object doPrivileged(global::java.security.Privilege
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void <clinit>()]
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     return;
 //XMLVM_END_WRAPPER[java.security.AccessController: void <clinit>()]
 }

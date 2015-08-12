@@ -70,12 +70,8 @@ private int _fhash;
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = -1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -91,15 +87,10 @@ public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -122,19 +113,12 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -189,28 +173,16 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -348,33 +320,19 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -399,23 +357,14 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -500,15 +449,10 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 private global::System.Object quoteComponent(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String quoteComponent(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -544,14 +488,9 @@ public virtual int compareTo(global::java.net.URI n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -723,11 +662,8 @@ public virtual int compareTo(global::java.net.URI n1){
 
 public static global::System.Object create(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.net.URI create(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -757,13 +693,10 @@ public static global::System.Object create(global::java.lang.String n1){
 
 private global::System.Object duplicate(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.net.URI duplicate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.net.URI();
     ((global::java.net.URI) _r0_o).@this();
@@ -797,23 +730,15 @@ private global::System.Object duplicate(){
 
 private global::System.Object convertHexToLowerCase(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String convertHexToLowerCase(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 37;
@@ -858,18 +783,11 @@ private bool equalsHexCaseInsensitive(global::java.lang.String n1, global::java.
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -925,14 +843,9 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -1123,11 +1036,8 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object getAuthority(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getAuthority()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fauthority;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1137,11 +1047,8 @@ public virtual global::System.Object getAuthority(){
 
 public virtual global::System.Object getFragment(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getFragment()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._ffragment;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1151,11 +1058,8 @@ public virtual global::System.Object getFragment(){
 
 public virtual global::System.Object getHost(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getHost()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fhost;
     return (global::java.lang.String) _r0_o;
@@ -1164,11 +1068,8 @@ public virtual global::System.Object getHost(){
 
 public virtual global::System.Object getPath(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getPath()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fpath;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1179,10 +1080,7 @@ public virtual global::System.Object getPath(){
 public virtual int getPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: int getPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.URI) _r1_o)._fport;
     return _r0.i;
@@ -1191,11 +1089,8 @@ public virtual int getPort(){
 
 public virtual global::System.Object getQuery(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getQuery()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fquery;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1205,11 +1100,8 @@ public virtual global::System.Object getQuery(){
 
 public virtual global::System.Object getRawAuthority(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawAuthority()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fauthority;
     return (global::java.lang.String) _r0_o;
@@ -1218,11 +1110,8 @@ public virtual global::System.Object getRawAuthority(){
 
 public virtual global::System.Object getRawFragment(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawFragment()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._ffragment;
     return (global::java.lang.String) _r0_o;
@@ -1231,11 +1120,8 @@ public virtual global::System.Object getRawFragment(){
 
 public virtual global::System.Object getRawPath(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawPath()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fpath;
     return (global::java.lang.String) _r0_o;
@@ -1244,11 +1130,8 @@ public virtual global::System.Object getRawPath(){
 
 public virtual global::System.Object getRawQuery(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawQuery()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fquery;
     return (global::java.lang.String) _r0_o;
@@ -1257,11 +1140,8 @@ public virtual global::System.Object getRawQuery(){
 
 public virtual global::System.Object getRawSchemeSpecificPart(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawSchemeSpecificPart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fschemespecificpart;
     return (global::java.lang.String) _r0_o;
@@ -1270,11 +1150,8 @@ public virtual global::System.Object getRawSchemeSpecificPart(){
 
 public virtual global::System.Object getRawUserInfo(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getRawUserInfo()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fuserinfo;
     return (global::java.lang.String) _r0_o;
@@ -1283,11 +1160,8 @@ public virtual global::System.Object getRawUserInfo(){
 
 public virtual global::System.Object getScheme(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getScheme()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fscheme;
     return (global::java.lang.String) _r0_o;
@@ -1296,11 +1170,8 @@ public virtual global::System.Object getScheme(){
 
 public virtual global::System.Object getSchemeSpecificPart(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getSchemeSpecificPart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fschemespecificpart;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1310,11 +1181,8 @@ public virtual global::System.Object getSchemeSpecificPart(){
 
 public virtual global::System.Object getUserInfo(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getUserInfo()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o)._fuserinfo;
     _r0_o = ((global::java.net.URI) _r1_o).decode((global::java.lang.String) _r0_o);
@@ -1327,10 +1195,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.net.URI) _r2_o)._fhash;
     _r1.i = -1;
@@ -1347,10 +1212,7 @@ public override int hashCode(){
 public virtual bool isAbsolute(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: boolean isAbsolute()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.URI) _r1_o)._fabsolute ? 1 : 0;
     return _r0.i!=0;
@@ -1360,10 +1222,7 @@ public virtual bool isAbsolute(){
 public virtual bool isOpaque(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: boolean isOpaque()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.URI) _r1_o)._fopaque ? 1 : 0;
     return _r0.i!=0;
@@ -1387,20 +1246,12 @@ private global::System.Object normalize(global::java.lang.String n1){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r10.i = 1;
@@ -1565,9 +1416,7 @@ public virtual global::System.Object normalize(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.net.URI) _r2_o)._fopaque ? 1 : 0;
     if (_r0.i == 0) goto label6;
@@ -1597,9 +1446,7 @@ public virtual global::System.Object parseServerAuthority(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.net.URI) _r2_o)._fserverAuthority ? 1 : 0;
     if (_r0.i != 0) goto label14;
@@ -1617,17 +1464,12 @@ public virtual global::System.Object relativize(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.net.URI relativize(java.net.URI)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::java.net.URI) _r5_o)._fopaque ? 1 : 0;
@@ -1711,15 +1553,10 @@ public virtual global::System.Object resolve(global::java.net.URI n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0.i = ((global::java.net.URI) _r6_o)._fabsolute ? 1 : 0;
@@ -1797,15 +1634,10 @@ public virtual global::System.Object resolve(global::java.net.URI n1){
 
 private void setSchemeSpecificPart(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void setSchemeSpecificPart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -1848,13 +1680,9 @@ private void setSchemeSpecificPart(){
 
 public virtual global::System.Object resolve(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.net.URI resolve(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.net.URI.create((global::java.lang.String) _r2_o);
@@ -1865,13 +1693,9 @@ public virtual global::System.Object resolve(global::java.lang.String n1){
 
 private global::System.Object encodeOthers(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String encodeOthers(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1901,13 +1725,9 @@ private global::System.Object encodeOthers(global::java.lang.String n1){
 
 private global::System.Object decode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String decode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1942,11 +1762,8 @@ private global::System.Object decode(global::java.lang.String n1){
 
 public virtual global::System.Object toASCIIString(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String toASCIIString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.URI) _r1_o).toString();
     _r0_o = ((global::java.net.URI) _r1_o).encodeOthers((global::java.lang.String) _r0_o);
@@ -1956,13 +1773,10 @@ public virtual global::System.Object toASCIIString(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.URI) _r2_o)._fstring;
     if (_r0_o != null) goto label52;
@@ -2019,15 +1833,12 @@ public override global::System.Object toString(){
 
 private global::System.Object getHashString(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String getHashString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -2115,13 +1926,9 @@ public virtual global::System.Object toURL(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.net.URL toURL()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.net.URI) _r3_o)._fabsolute ? 1 : 0;
     if (_r0.i != 0) goto label43;
@@ -2152,15 +1959,10 @@ public virtual global::System.Object toURL(){
 
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void readObject(java.io.ObjectInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -2196,11 +1998,8 @@ private void readObject(global::java.io.ObjectInputStream n1){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.net.URI) _r0_o).toString();
@@ -2212,12 +2011,8 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;
@@ -2228,11 +2023,8 @@ public virtual int compareTo(global::java.lang.Object n1){
 
 public static void access_21(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$1(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fstring = (global::java.lang.String) _r1_o;
@@ -2242,11 +2034,8 @@ public static void access_21(global::java.net.URI n1, global::java.lang.String n
 
 public static void access_22(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$2(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._ffragment = (global::java.lang.String) _r1_o;
@@ -2256,11 +2045,8 @@ public static void access_22(global::java.net.URI n1, global::java.lang.String n
 
 public static global::System.Object access_23(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$3(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._ffragment;
     return (global::java.lang.String) _r0_o;
@@ -2269,11 +2055,8 @@ public static global::System.Object access_23(global::java.net.URI n1){
 
 public static void access_24(global::java.net.URI n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$4(java.net.URI, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::java.net.URI) _r0_o)._fabsolute = 0!=_r1.i;
@@ -2283,11 +2066,8 @@ public static void access_24(global::java.net.URI n1, bool n2){
 
 public static void access_25(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$5(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fscheme = (global::java.lang.String) _r1_o;
@@ -2297,11 +2077,8 @@ public static void access_25(global::java.net.URI n1, global::java.lang.String n
 
 public static global::System.Object access_26(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$6(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._fscheme;
     return (global::java.lang.String) _r0_o;
@@ -2310,11 +2087,8 @@ public static global::System.Object access_26(global::java.net.URI n1){
 
 public static void access_27(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$7(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fschemespecificpart = (global::java.lang.String) _r1_o;
@@ -2324,11 +2098,8 @@ public static void access_27(global::java.net.URI n1, global::java.lang.String n
 
 public static global::System.Object access_28(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$8(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._fschemespecificpart;
     return (global::java.lang.String) _r0_o;
@@ -2337,11 +2108,8 @@ public static global::System.Object access_28(global::java.net.URI n1){
 
 public static void access_29(global::java.net.URI n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$9(java.net.URI, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::java.net.URI) _r0_o)._fopaque = 0!=_r1.i;
@@ -2351,11 +2119,8 @@ public static void access_29(global::java.net.URI n1, bool n2){
 
 public static void access_210(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$10(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fquery = (global::java.lang.String) _r1_o;
@@ -2365,11 +2130,8 @@ public static void access_210(global::java.net.URI n1, global::java.lang.String 
 
 public static global::System.Object access_211(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$11(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._fquery;
     return (global::java.lang.String) _r0_o;
@@ -2378,11 +2140,8 @@ public static global::System.Object access_211(global::java.net.URI n1){
 
 public static void access_212(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$12(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fauthority = (global::java.lang.String) _r1_o;
@@ -2392,11 +2151,8 @@ public static void access_212(global::java.net.URI n1, global::java.lang.String 
 
 public static void access_213(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$13(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fpath = (global::java.lang.String) _r1_o;
@@ -2406,11 +2162,8 @@ public static void access_213(global::java.net.URI n1, global::java.lang.String 
 
 public static global::System.Object access_214(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$14(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._fauthority;
     return (global::java.lang.String) _r0_o;
@@ -2419,11 +2172,8 @@ public static global::System.Object access_214(global::java.net.URI n1){
 
 public static global::System.Object access_215(global::java.net.URI n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: java.lang.String access$15(java.net.URI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.net.URI) _r1_o)._fpath;
     return (global::java.lang.String) _r0_o;
@@ -2432,11 +2182,8 @@ public static global::System.Object access_215(global::java.net.URI n1){
 
 public static void access_216(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$16(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fuserinfo = (global::java.lang.String) _r1_o;
@@ -2446,11 +2193,8 @@ public static void access_216(global::java.net.URI n1, global::java.lang.String 
 
 public static void access_217(global::java.net.URI n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$17(java.net.URI, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.net.URI) _r0_o)._fhost = (global::java.lang.String) _r1_o;
@@ -2460,11 +2204,8 @@ public static void access_217(global::java.net.URI n1, global::java.lang.String 
 
 public static void access_218(global::java.net.URI n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$18(java.net.URI, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::java.net.URI) _r0_o)._fport = _r1.i;
@@ -2474,11 +2215,8 @@ public static void access_218(global::java.net.URI n1, int n2){
 
 public static void access_219(global::java.net.URI n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void access$19(java.net.URI, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::java.net.URI) _r0_o)._fserverAuthority = 0!=_r1.i;

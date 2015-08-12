@@ -7,15 +7,10 @@ private int _ferrorCode;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudException: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -34,17 +29,11 @@ public void @this(int n1){
 
 public void @this(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudException: void <init>(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -65,10 +54,7 @@ public void @this(int n1, global::java.lang.String n2){
 public virtual int getErrorCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudException: int getErrorCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.cloud.CloudException) _r1_o)._ferrorCode;
     return _r0.i;

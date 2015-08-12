@@ -9,13 +9,9 @@ private global::java.lang.String _fencoding;
 
 public void @this(global::java.io.Writer n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void <init>(java.io.Writer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.OutputStream) _r1_o).@this();
@@ -30,11 +26,8 @@ public void @this(global::java.io.Writer n1){
 
 public virtual void setEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void setEncoding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.WriterOutputStream) _r0_o)._fencoding = (global::java.lang.String) _r1_o;
@@ -44,13 +37,9 @@ public virtual void setEncoding(global::java.lang.String n1){
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.dom.ls.WriterOutputStream) _r1_o)._fwriter;
@@ -62,14 +51,9 @@ public override void write(int n1){
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void write(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -81,21 +65,13 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void write(byte[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -111,11 +87,8 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.WriterOutputStream) _r1_o)._fwriter;
     ((global::java.io.Writer) _r0_o).close();
@@ -125,11 +98,8 @@ public override void close(){
 
 public override void flush(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.WriterOutputStream: void flush()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.WriterOutputStream) _r1_o)._fwriter;
     ((global::java.io.Writer) _r0_o).flush();

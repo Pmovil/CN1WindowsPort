@@ -17,10 +17,7 @@ private static global::java.lang.Class _fservice;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.io.ConnectionRequest) _r1_o).@this();
     _r0.i = 0;
@@ -32,12 +29,8 @@ public void @this(){
 public virtual void initialize(global::com.codename1.components.Ads n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void initialize(com.codename1.components.Ads)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ads.AdsService) _r1_o)._finitialized ? 1 : 0;
@@ -54,11 +47,8 @@ public abstract void initService(global::com.codename1.components.Ads n1);
 
 public static global::System.Object createAdsService(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: com.codename1.ads.AdsService createAdsService()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
@@ -101,9 +91,7 @@ public static global::System.Object createAdsService(){
 
 public static void setAdsProvider(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void setAdsProvider(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ads.AdsService._fservice = (global::java.lang.Class) _r0_o;
     return;
@@ -112,11 +100,8 @@ public static void setAdsProvider(global::java.lang.Class n1){
 
 public virtual global::System.Object getCurrentAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: java.lang.String getCurrentAd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ads.AdsService) _r1_o)._fcurrentAd;
     return (global::java.lang.String) _r0_o;
@@ -125,11 +110,8 @@ public virtual global::System.Object getCurrentAd(){
 
 public virtual void requestAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void requestAd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.NetworkManager.getInstance();
     ((global::com.codename1.io.NetworkManager) _r0_o).addToQueue((global::com.codename1.io.ConnectionRequest) _r1_o);
@@ -139,27 +121,17 @@ public virtual void requestAd(){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 0;
@@ -194,11 +166,8 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public virtual void onAdDisplay(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void onAdDisplay(com.codename1.ui.html.HTMLComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -207,19 +176,12 @@ public virtual void onAdDisplay(global::com.codename1.ui.html.HTMLComponent n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void handleErrorResponseCode(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -244,11 +206,8 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void handleRuntimeException(global::java.lang.RuntimeException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void handleRuntimeException(java.lang.RuntimeException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.RuntimeException) _r1_o).printStackTrace();
@@ -258,11 +217,8 @@ public override void handleRuntimeException(global::java.lang.RuntimeException n
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void handleException(java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Exception) _r1_o).printStackTrace();
@@ -272,9 +228,7 @@ public override void handleException(global::java.lang.Exception n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ads.InnerActive));
     global::com.codename1.ads.AdsService._fservice = (global::java.lang.Class) _r0_o;
     return;

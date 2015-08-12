@@ -9,9 +9,7 @@ private double _fheight;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -21,14 +19,8 @@ public void @this(){
 public void @this(global::com.codename1.ui.geom.Dimension2D n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void <init>(com.codename1.ui.geom.Dimension2D)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -42,17 +34,9 @@ public void @this(global::com.codename1.ui.geom.Dimension2D n1){
 
 public void @this(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void <init>(double, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.d = n2;
@@ -65,13 +49,8 @@ public void @this(double n1, double n2){
 
 public virtual void setWidth(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void setWidth(double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.ui.geom.Dimension2D) _r0_o)._fwidth = _r1.d;
@@ -81,13 +60,8 @@ public virtual void setWidth(double n1){
 
 public virtual void setHeight(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void setHeight(double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.ui.geom.Dimension2D) _r0_o)._fheight = _r1.d;
@@ -98,12 +72,7 @@ public virtual void setHeight(double n1){
 public virtual double getWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: double getWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.ui.geom.Dimension2D) _r2_o)._fwidth;
     return _r0.d;
@@ -113,12 +82,7 @@ public virtual double getWidth(){
 public virtual double getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: double getHeight()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.ui.geom.Dimension2D) _r2_o)._fheight;
     return _r0.d;
@@ -127,15 +91,10 @@ public virtual double getHeight(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

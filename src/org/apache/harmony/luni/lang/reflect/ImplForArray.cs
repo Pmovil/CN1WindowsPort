@@ -7,11 +7,8 @@ private global::java.lang.reflect.Type _fcomponentType;
 
 public void @this(global::java.lang.reflect.Type n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForArray: void <init>(java.lang.reflect.Type)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -22,11 +19,8 @@ public void @this(global::java.lang.reflect.Type n1){
 
 public virtual global::System.Object getGenericComponentType(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForArray: java.lang.reflect.Type getGenericComponentType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -57,13 +51,9 @@ public virtual global::System.Object getGenericComponentType(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForArray: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

@@ -15,9 +15,7 @@ private global::java.io.Reader _fcharacterStream;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -26,11 +24,8 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -41,11 +36,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void <init>(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -56,11 +48,8 @@ public void @this(global::java.io.InputStream n1){
 
 public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void <init>(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -71,11 +60,8 @@ public void @this(global::java.io.Reader n1){
 
 public virtual void setPublicId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void setPublicId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.xml.sax.InputSource) _r0_o)._fpublicId = (global::java.lang.String) _r1_o;
@@ -85,11 +71,8 @@ public virtual void setPublicId(global::java.lang.String n1){
 
 public virtual global::System.Object getPublicId(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: java.lang.String getPublicId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.InputSource) _r1_o)._fpublicId;
     return (global::java.lang.String) _r0_o;
@@ -98,11 +81,8 @@ public virtual global::System.Object getPublicId(){
 
 public virtual void setSystemId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void setSystemId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.xml.sax.InputSource) _r0_o)._fsystemId = (global::java.lang.String) _r1_o;
@@ -112,11 +92,8 @@ public virtual void setSystemId(global::java.lang.String n1){
 
 public virtual global::System.Object getSystemId(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: java.lang.String getSystemId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.InputSource) _r1_o)._fsystemId;
     return (global::java.lang.String) _r0_o;
@@ -125,11 +102,8 @@ public virtual global::System.Object getSystemId(){
 
 public virtual void setByteStream(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void setByteStream(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.xml.sax.InputSource) _r0_o)._fbyteStream = (global::java.io.InputStream) _r1_o;
@@ -139,11 +113,8 @@ public virtual void setByteStream(global::java.io.InputStream n1){
 
 public virtual global::System.Object getByteStream(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: java.io.InputStream getByteStream()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.InputSource) _r1_o)._fbyteStream;
     return (global::java.io.InputStream) _r0_o;
@@ -152,11 +123,8 @@ public virtual global::System.Object getByteStream(){
 
 public virtual void setEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void setEncoding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.xml.sax.InputSource) _r0_o)._fencoding = (global::java.lang.String) _r1_o;
@@ -166,11 +134,8 @@ public virtual void setEncoding(global::java.lang.String n1){
 
 public virtual global::System.Object getEncoding(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: java.lang.String getEncoding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.InputSource) _r1_o)._fencoding;
     return (global::java.lang.String) _r0_o;
@@ -179,11 +144,8 @@ public virtual global::System.Object getEncoding(){
 
 public virtual void setCharacterStream(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void setCharacterStream(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.xml.sax.InputSource) _r0_o)._fcharacterStream = (global::java.io.Reader) _r1_o;
@@ -193,11 +155,8 @@ public virtual void setCharacterStream(global::java.io.Reader n1){
 
 public virtual global::System.Object getCharacterStream(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: java.io.Reader getCharacterStream()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.InputSource) _r1_o)._fcharacterStream;
     return (global::java.io.Reader) _r0_o;

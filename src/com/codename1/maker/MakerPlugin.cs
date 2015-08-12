@@ -13,9 +13,7 @@ private global::java.util.Hashtable _fdata;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -30,11 +28,8 @@ public abstract global::System.Object getPluginName();
 
 public virtual global::System.Object getTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: java.lang.String getTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maker.MakerPlugin) _r1_o)._ftitle;
     return (global::java.lang.String) _r0_o;
@@ -43,11 +38,8 @@ public virtual global::System.Object getTitle(){
 
 public virtual void setTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void setTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maker.MakerPlugin) _r0_o)._ftitle = (global::java.lang.String) _r1_o;
@@ -57,11 +49,8 @@ public virtual void setTitle(global::java.lang.String n1){
 
 public virtual global::System.Object getDescription(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: java.lang.String getDescription()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maker.MakerPlugin) _r1_o)._fdescription;
     return (global::java.lang.String) _r0_o;
@@ -70,11 +59,8 @@ public virtual global::System.Object getDescription(){
 
 public virtual void setDescription(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void setDescription(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maker.MakerPlugin) _r0_o)._fdescription = (global::java.lang.String) _r1_o;
@@ -84,11 +70,8 @@ public virtual void setDescription(global::java.lang.String n1){
 
 public virtual global::System.Object getIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: com.codename1.ui.EncodedImage getIcon()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maker.MakerPlugin) _r1_o)._ficon;
     return (global::com.codename1.ui.EncodedImage) _r0_o;
@@ -97,11 +80,8 @@ public virtual global::System.Object getIcon(){
 
 public virtual void setIcon(global::com.codename1.ui.EncodedImage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void setIcon(com.codename1.ui.EncodedImage)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maker.MakerPlugin) _r0_o)._ficon = (global::com.codename1.ui.EncodedImage) _r1_o;
@@ -111,11 +91,8 @@ public virtual void setIcon(global::com.codename1.ui.EncodedImage n1){
 
 public virtual void setMetaData(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void setMetaData(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maker.MakerPlugin) _r0_o)._fdata = (global::java.util.Hashtable) _r1_o;
@@ -125,11 +102,8 @@ public virtual void setMetaData(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getMetaData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: java.util.Hashtable getMetaData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maker.MakerPlugin) _r1_o)._fdata;
     return (global::java.util.Hashtable) _r0_o;
@@ -140,15 +114,11 @@ public abstract global::System.Object createEmbeddedUI();
 
 public virtual global::System.Object createStandaloneUI(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: com.codename1.ui.Form createStandaloneUI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.ui.Form();
     _r1_o = ((global::com.codename1.maker.MakerPlugin) _r3_o).getTitle();

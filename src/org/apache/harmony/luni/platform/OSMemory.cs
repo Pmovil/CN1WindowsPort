@@ -24,7 +24,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.apache.harmony.luni.platform.OSMemory();
     ((global::org.apache.harmony.luni.platform.OSMemory) _r0_o).@this();
     global::org.apache.harmony.luni.platform.OSMemory._fsingleton = (global::org.apache.harmony.luni.platform.OSMemory) _r0_o;
@@ -45,9 +44,7 @@ public static void @static(){
 
 public static global::System.Object getOSMemory(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: org.apache.harmony.luni.platform.OSMemory getOSMemory()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.platform.OSMemory._fsingleton;
     return (global::org.apache.harmony.luni.platform.OSMemory) _r0_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.OSMemory: org.apache.harmony.luni.platform.OSMemory getOSMemory()]
@@ -61,9 +58,7 @@ private static bool isLittleEndianImpl(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -74,11 +69,8 @@ public virtual bool isLittleEndian(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: boolean isLittleEndian()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::org.apache.harmony.luni.platform.OSMemory._fNATIVE_1ORDER;
     _r1_o = global::org.apache.harmony.luni.platform.Endianness._fLITTLE_1ENDIAN;
@@ -94,11 +86,8 @@ public virtual bool isLittleEndian(){
 
 public virtual global::System.Object getNativeOrder(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: org.apache.harmony.luni.platform.Endianness getNativeOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::org.apache.harmony.luni.platform.OSMemory._fNATIVE_1ORDER;
     return (global::org.apache.harmony.luni.platform.Endianness) _r0_o;
@@ -114,10 +103,7 @@ private static int getPointerSizeImpl(){
 public virtual int getPointerSize(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: int getPointerSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = global::org.apache.harmony.luni.platform.OSMemory._fPOINTER_1SIZE;
     return _r0.i;
@@ -182,15 +168,9 @@ public virtual short getShort(long n1, global::org.apache.harmony.luni.platform.
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: short getShort(long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4_o = n2;
@@ -216,17 +196,10 @@ public virtual void setShort(long n1, short n2, global::org.apache.harmony.luni.
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void setShort(long, short, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4.i = n2;
@@ -253,15 +226,9 @@ public virtual int getInt(long n1, global::org.apache.harmony.luni.platform.Endi
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: int getInt(long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4_o = n2;
@@ -287,17 +254,10 @@ public virtual void setInt(long n1, int n2, global::org.apache.harmony.luni.plat
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void setInt(long, int, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4.i = n2;
@@ -324,17 +284,9 @@ public virtual long getLong(long n1, global::org.apache.harmony.luni.platform.En
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: long getLong(long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5_o = n2;
@@ -360,21 +312,10 @@ public virtual void setLong(long n1, long n2, global::org.apache.harmony.luni.pl
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void setLong(long, long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.l = n2;
@@ -401,15 +342,9 @@ public virtual float getFloat(long n1, global::org.apache.harmony.luni.platform.
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: float getFloat(long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4_o = n2;
@@ -436,17 +371,10 @@ public virtual void setFloat(long n1, float n2, global::org.apache.harmony.luni.
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void setFloat(long, float, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r4.f = n2;
@@ -474,17 +402,9 @@ public virtual double getDouble(long n1, global::org.apache.harmony.luni.platfor
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: double getDouble(long, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5_o = n2;
@@ -511,21 +431,10 @@ public virtual void setDouble(long n1, double n2, global::org.apache.harmony.lun
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void setDouble(long, double, org.apache.harmony.luni.platform.Endianness)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.d = n2;
@@ -564,26 +473,11 @@ private long mmapImpl(long n1, long n2, long n3, int n4){
 public virtual long mmap(long n1, long n2, long n3, int n4){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: long mmap(long, long, long, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.l = n2;
@@ -602,17 +496,9 @@ private void unmapImpl(long n1, long n2){
 
 public virtual void unmap(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void unmap(long, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     _r3.l = n2;
@@ -623,17 +509,9 @@ public virtual void unmap(long n1, long n2){
 
 public virtual void load(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void load(long, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     _r3.l = n2;
@@ -651,20 +529,9 @@ private int loadImpl(long n1, long n2){
 public virtual bool isLoaded(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: boolean isLoaded(long, long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.l = n2;
@@ -688,17 +555,9 @@ private bool isLoadedImpl(long n1, long n2){
 
 public virtual void flush(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void flush(long, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     _r3.l = n2;
@@ -716,14 +575,9 @@ private int flushImpl(long n1, long n2){
 private short swap(short n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: short swap(short)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = _r3.i << (0x1f & 8);
@@ -738,16 +592,10 @@ private short swap(short n1){
 private int swap(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: int swap(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = _r4.i >> (0x1f & 16);
@@ -766,26 +614,11 @@ private int swap(int n1){
 private long swap(long n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: long swap(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.l = n1;
     _r3.i = 32;

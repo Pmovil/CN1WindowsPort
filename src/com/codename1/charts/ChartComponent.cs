@@ -31,15 +31,10 @@ public void @this(global::com.codename1.charts.views.AbstractChart n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void <init>(com.codename1.charts.views.AbstractChart)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -68,11 +63,8 @@ public void @this(global::com.codename1.charts.views.AbstractChart n1){
 
 public virtual global::System.Object getChart(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.charts.views.AbstractChart getChart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.ChartComponent) _r1_o)._fchart;
     return (global::com.codename1.charts.views.AbstractChart) _r0_o;
@@ -81,19 +73,14 @@ public virtual global::System.Object getChart(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.ui.geom.Dimension calcPreferredSize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 100;
     _r0_o = new global::com.codename1.ui.geom.Dimension();
@@ -110,11 +97,8 @@ public override global::System.Object calcPreferredSize(){
 
 public virtual void setChart(global::com.codename1.charts.views.AbstractChart n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void setChart(com.codename1.charts.views.AbstractChart)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.ChartComponent) _r0_o)._fchart = (global::com.codename1.charts.views.AbstractChart) _r1_o;
@@ -130,21 +114,13 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     base.paint((global::com.codename1.ui.Graphics) _r9_o);
@@ -196,27 +172,17 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object screenToChartCoord(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.charts.models.Point screenToChartCoord(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -255,27 +221,18 @@ public virtual global::System.Object screenToChartCoord(int n1, int n2){
 
 public virtual global::System.Object chartToScreenCoord(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.charts.models.Point chartToScreenCoord(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -313,19 +270,13 @@ public virtual global::System.Object chartToScreenCoord(int n1, int n2){
 
 public virtual global::System.Object screenToChartShape(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.ui.geom.Shape screenToChartShape(com.codename1.ui.geom.Shape)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = new global::com.codename1.ui.geom.GeneralPath();
@@ -353,19 +304,13 @@ public virtual global::System.Object screenToChartShape(global::com.codename1.ui
 
 public virtual global::System.Object chartToScreenShape(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.ui.geom.Shape chartToScreenShape(com.codename1.ui.geom.Shape)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r1_o = new global::com.codename1.ui.geom.GeneralPath();
@@ -390,12 +335,8 @@ public virtual global::System.Object chartToScreenShape(global::com.codename1.ui
 public virtual void zoomToShapeInChartCoords(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void zoomToShapeInChartCoords(com.codename1.ui.geom.Shape)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -406,15 +347,10 @@ public virtual void zoomToShapeInChartCoords(global::com.codename1.ui.geom.Shape
 
 public virtual void zoomToShapeInChartCoords(global::com.codename1.ui.geom.Shape n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void zoomToShapeInChartCoords(com.codename1.ui.geom.Shape, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -426,19 +362,12 @@ public virtual void zoomToShapeInChartCoords(global::com.codename1.ui.geom.Shape
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void pointerPressed(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -457,11 +386,8 @@ public override void pointerPressed(int n1, int n2){
 
 public virtual void seriesPressed(global::com.codename1.charts.models.SeriesSelection n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void seriesPressed(com.codename1.charts.models.SeriesSelection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -470,23 +396,14 @@ public virtual void seriesPressed(global::com.codename1.charts.models.SeriesSele
 
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void pointerReleased(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -512,11 +429,8 @@ public override void pointerReleased(int n1, int n2){
 
 public virtual void seriesReleased(global::com.codename1.charts.models.SeriesSelection n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void seriesReleased(com.codename1.charts.models.SeriesSelection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -525,11 +439,8 @@ public virtual void seriesReleased(global::com.codename1.charts.models.SeriesSel
 
 public virtual global::System.Object getTransform(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.ui.Transform getTransform()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.ChartComponent) _r1_o)._ftransform;
     return (global::com.codename1.ui.Transform) _r0_o;
@@ -538,11 +449,8 @@ public virtual global::System.Object getTransform(){
 
 public virtual void setTransform(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void setTransform(com.codename1.ui.Transform)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.ChartComponent) _r0_o)._ftransform = (global::com.codename1.ui.Transform) _r1_o;
@@ -553,13 +461,8 @@ public virtual void setTransform(global::com.codename1.ui.Transform n1){
 public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void pointerDragged(int[], int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -569,16 +472,10 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -729,10 +626,7 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
 public virtual bool isPanEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: boolean isPanEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.ChartComponent) _r1_o)._fpanEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -741,11 +635,8 @@ public virtual bool isPanEnabled(){
 
 public virtual void setPanEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void setPanEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.ChartComponent) _r0_o)._fpanEnabled = 0!=_r1.i;
@@ -756,10 +647,7 @@ public virtual void setPanEnabled(bool n1){
 public virtual bool isZoomEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: boolean isZoomEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.ChartComponent) _r1_o)._fzoomEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -768,11 +656,8 @@ public virtual bool isZoomEnabled(){
 
 public virtual void setZoomEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void setZoomEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.ChartComponent) _r0_o)._fzoomEnabled = 0!=_r1.i;
@@ -783,38 +668,22 @@ public virtual void setZoomEnabled(bool n1){
 private void zoomTransition(global::com.codename1.ui.geom.Rectangle n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: void zoomTransition(com.codename1.ui.geom.Rectangle, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -865,11 +734,8 @@ private void zoomTransition(global::com.codename1.ui.geom.Rectangle n1, int n2){
 
 public static global::System.Object access_2000(global::com.codename1.charts.ChartComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: com.codename1.ui.Transform access$000(com.codename1.charts.ChartComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.charts.ChartComponent) _r1_o)._ftransform;
     return (global::com.codename1.ui.Transform) _r0_o;
@@ -878,11 +744,8 @@ public static global::System.Object access_2000(global::com.codename1.charts.Cha
 
 public static global::System.Object access_2100(global::com.codename1.charts.ChartComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartComponent: java.util.Queue access$100(com.codename1.charts.ChartComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.charts.ChartComponent) _r1_o)._fanimations;
     return (global::java.util.Queue) _r0_o;

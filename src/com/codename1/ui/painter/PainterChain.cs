@@ -7,11 +7,8 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fchain;
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: void <init>(com.codename1.ui.Painter[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -25,12 +22,8 @@ public void @this(global::com.codename1.ui.Painter n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -45,19 +38,14 @@ public void @this(global::com.codename1.ui.Painter n1){
 
 public virtual global::System.Object addPainter(global::com.codename1.ui.Painter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: com.codename1.ui.painter.PainterChain addPainter(com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -91,21 +79,15 @@ public virtual global::System.Object addPainter(global::com.codename1.ui.Painter
 
 public virtual global::System.Object prependPainter(global::com.codename1.ui.Painter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: com.codename1.ui.painter.PainterChain prependPainter(com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -128,16 +110,11 @@ public virtual global::System.Object prependPainter(global::com.codename1.ui.Pai
 public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -158,19 +135,13 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
 
 public static void installGlassPane(global::com.codename1.ui.Form n1, global::com.codename1.ui.Painter n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: void installGlassPane(com.codename1.ui.Form, com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r0_o = ((global::com.codename1.ui.Form) _r4_o).getGlassPane();
@@ -201,11 +172,8 @@ public static void installGlassPane(global::com.codename1.ui.Form n1, global::co
 
 public virtual global::System.Object getChain(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: com.codename1.ui.Painter[] getChain()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.painter.PainterChain) _r1_o)._fchain;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -214,29 +182,18 @@ public virtual global::System.Object getChain(){
 
 public static void removeGlassPane(global::com.codename1.ui.Form n1, global::com.codename1.ui.Painter n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.painter.PainterChain: void removeGlassPane(com.codename1.ui.Form, com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r8_o = null;

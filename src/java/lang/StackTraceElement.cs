@@ -15,19 +15,12 @@ public int _flineNumber;
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, int n4){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: void <init>(java.lang.String, java.lang.String, java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -51,9 +44,7 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -67,12 +58,8 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -131,11 +118,8 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object getClassName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: java.lang.String getClassName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.StackTraceElement) _r1_o)._fdeclaringClass;
     if (_r0_o != null) goto label7;
@@ -152,11 +136,8 @@ public virtual global::System.Object getClassName(){
 
 public virtual global::System.Object getFileName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: java.lang.String getFileName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.StackTraceElement) _r1_o)._ffileName;
     return (global::java.lang.String) _r0_o;
@@ -166,10 +147,7 @@ public virtual global::System.Object getFileName(){
 public virtual int getLineNumber(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: int getLineNumber()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.StackTraceElement) _r1_o)._flineNumber;
     return _r0.i;
@@ -178,11 +156,8 @@ public virtual int getLineNumber(){
 
 public virtual global::System.Object getMethodName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: java.lang.String getMethodName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.StackTraceElement) _r1_o)._fmethodName;
     if (_r0_o != null) goto label7;
@@ -203,9 +178,7 @@ public override int hashCode(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.lang.StackTraceElement) _r2_o)._fmethodName;
     if (_r0_o != null) goto label6;
@@ -225,12 +198,8 @@ public override int hashCode(){
 public virtual bool isNativeMethod(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: boolean isNativeMethod()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.lang.StackTraceElement) _r2_o)._flineNumber;
     _r1.i = -2;
@@ -246,17 +215,12 @@ public virtual bool isNativeMethod(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1.i = 80;

@@ -30,9 +30,7 @@ private bool _fnamespaceDeclUris;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r0_o).@this();
     _r0_o = ((global::java.util.Vector) _r0_o).elements();
@@ -43,9 +41,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     ((global::org.xml.sax.helpers.NamespaceSupport) _r0_o).reset();
@@ -59,11 +55,8 @@ public virtual void reset(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1.i = 0;
     _r0.i = 32;
@@ -98,10 +91,7 @@ public virtual void pushContext(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r4_o)._fcontexts;
@@ -154,10 +144,7 @@ public virtual void popContext(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r2_o)._fcontexts;
     _r1.i = ((global::org.xml.sax.helpers.NamespaceSupport) _r2_o)._fcontextPos;
@@ -185,13 +172,9 @@ public virtual bool declarePrefix(global::java.lang.String n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: boolean declarePrefix(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -219,25 +202,15 @@ public virtual bool declarePrefix(global::java.lang.String n1, global::java.lang
 
 public virtual global::System.Object processName(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.lang.String[] processName(java.lang.String, java.lang.String[], boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -265,13 +238,9 @@ public virtual global::System.Object processName(global::java.lang.String n1, gl
 
 public virtual global::System.Object getURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.lang.String getURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fcurrentContext;
@@ -282,11 +251,8 @@ public virtual global::System.Object getURI(global::java.lang.String n1){
 
 public virtual global::System.Object getPrefixes(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.util.Enumeration getPrefixes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fcurrentContext;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r0_o).getPrefixes();
@@ -296,13 +262,9 @@ public virtual global::System.Object getPrefixes(){
 
 public virtual global::System.Object getPrefix(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.lang.String getPrefix(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fcurrentContext;
@@ -315,17 +277,12 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.util.Enumeration getPrefixes(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r1_o = new global::java.util.Vector();
@@ -349,11 +306,8 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
 
 public virtual global::System.Object getDeclaredPrefixes(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.util.Enumeration getDeclaredPrefixes()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fcurrentContext;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r0_o).getDeclaredPrefixes();
@@ -367,13 +321,9 @@ public virtual void setNamespaceDeclUris(bool n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r0.i = ((global::org.xml.sax.helpers.NamespaceSupport) _r3_o)._fcontextPos;
@@ -420,10 +370,7 @@ public virtual void setNamespaceDeclUris(bool n1){
 public virtual bool isNamespaceDeclUris(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: boolean isNamespaceDeclUris()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fnamespaceDeclUris ? 1 : 0;
     return _r0.i!=0;
@@ -433,10 +380,7 @@ public virtual bool isNamespaceDeclUris(){
 public static bool access_20(global::org.xml.sax.helpers.NamespaceSupport n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: boolean access$0(org.xml.sax.helpers.NamespaceSupport)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::org.xml.sax.helpers.NamespaceSupport) _r1_o)._fnamespaceDeclUris ? 1 : 0;
     return _r0.i!=0;
@@ -445,9 +389,7 @@ public static bool access_20(global::org.xml.sax.helpers.NamespaceSupport n1){
 
 public static global::System.Object access_21(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.util.Enumeration access$1()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xml.sax.helpers.NamespaceSupport._fEMPTY_1ENUMERATION;
     return (global::java.util.Enumeration) _r0_o;
 //XMLVM_END_WRAPPER[org.xml.sax.helpers.NamespaceSupport: java.util.Enumeration access$1()]

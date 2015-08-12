@@ -18,13 +18,9 @@ private global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConn
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager_2ConnectionPool();
@@ -37,9 +33,7 @@ public void @this(){
 
 public static global::System.Object getDefault(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager getDefault()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager._fdefaultConnectionManager;
     if (_r0_o != null) goto label11;
     _r0_o = new global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager();
@@ -53,17 +47,11 @@ public static global::System.Object getDefault(){
 
 public virtual global::System.Object getConnection(global::java.net.URI n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection getConnection(java.net.URI, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -78,19 +66,12 @@ public virtual global::System.Object getConnection(global::java.net.URI n1, int 
 
 public virtual global::System.Object getConnection(global::java.net.URI n1, global::java.net.Proxy n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection getConnection(java.net.URI, java.net.Proxy, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -106,13 +87,9 @@ public virtual global::System.Object getConnection(global::java.net.URI n1, glob
 
 public virtual void returnConnectionToPool(global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: void returnConnectionToPool(org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager) _r1_o).checkSystemProperties();
@@ -126,9 +103,7 @@ public virtual int numFreeConnections(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: int numFreeConnections()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager) _r1_o)._fpool;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager_2ConnectionPool) _r0_o).numFreeConnections();
@@ -138,15 +113,11 @@ public virtual int numFreeConnections(){
 
 private void checkSystemProperties(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: void checkSystemProperties()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = null;
     _r0_o = null;
@@ -168,11 +139,8 @@ private void checkSystemProperties(){
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager) _r1_o)._fpool;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager_2ConnectionPool) _r0_o).clear();
@@ -183,8 +151,6 @@ public virtual void reset(){
 public static bool access_2100(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: boolean access$100()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager._fkeepAlive ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: boolean access$100()]
@@ -193,8 +159,6 @@ public static bool access_2100(){
 public static int access_2200(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: int access$200()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager._fmaxConnections;
     return _r0.i;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: int access$200()]
@@ -203,8 +167,6 @@ public static int access_2200(){
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 5;
     global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager._fmaxConnections = _r0.i;
     _r0.i = 1;

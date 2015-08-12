@@ -7,11 +7,8 @@ public global::java.util.WeakHashMap _fthis_20;
 
 public void @this(global::java.util.WeakHashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$3: void <init>(java.util.WeakHashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.WeakHashMap_23) _r0_o)._fthis_20 = (global::java.util.WeakHashMap) _r1_o;
@@ -24,9 +21,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$3: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.WeakHashMap_23) _r1_o)._fthis_20;
     _r0.i = ((global::java.util.WeakHashMap) _r0_o).size();
@@ -36,11 +31,8 @@ public override int size(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$3: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.WeakHashMap_23) _r1_o)._fthis_20;
     ((global::java.util.WeakHashMap) _r0_o).clear();
@@ -52,11 +44,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$3: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.WeakHashMap_23) _r1_o)._fthis_20;
@@ -67,15 +56,10 @@ public override bool contains(global::java.lang.Object n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap$3: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.WeakHashMap_2HashIterator();
     _r1_o = ((global::java.util.WeakHashMap_23) _r3_o)._fthis_20;

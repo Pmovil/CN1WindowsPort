@@ -16,10 +16,7 @@ private int _fstatus;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 2;
@@ -30,9 +27,7 @@ public void @this(){
 
 public static global::System.Object getLocationManager(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: com.codename1.location.LocationManager getLocationManager()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getLocationManager();
     return (global::com.codename1.location.LocationManager) _r0_o;
@@ -42,10 +37,7 @@ public static global::System.Object getLocationManager(){
 public virtual int getStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: int getStatus()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.location.LocationManager) _r1_o)._fstatus;
     return _r0.i;
@@ -54,11 +46,8 @@ public virtual int getStatus(){
 
 public virtual void setStatus(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: void setStatus(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.location.LocationManager) _r0_o)._fstatus = _r1.i;
@@ -72,11 +61,7 @@ public virtual global::System.Object getCurrentLocationSync(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: com.codename1.location.Location getCurrentLocationSync()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = -1L;
     _r0_o = ((global::com.codename1.location.LocationManager) _r2_o).getCurrentLocationSync((long) _r0.l);
@@ -86,18 +71,12 @@ public virtual global::System.Object getCurrentLocationSync(){
 
 public virtual global::System.Object getCurrentLocationSync(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: com.codename1.location.Location getCurrentLocationSync(long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.l = n1;
@@ -160,11 +139,8 @@ public abstract global::System.Object getLastKnownLocation();
 
 public virtual void setLocationListener(global::com.codename1.location.LocationListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: void setLocationListener(com.codename1.location.LocationListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -248,11 +224,8 @@ public virtual void setLocationListener(global::com.codename1.location.LocationL
 
 public virtual global::System.Object getLocationListener(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: com.codename1.location.LocationListener getLocationListener()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.location.LocationManager._flistener;
     return (global::com.codename1.location.LocationListener) _r0_o;
@@ -266,10 +239,7 @@ public abstract void clearListener();
 public virtual bool isGPSDetectionSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: boolean isGPSDetectionSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -278,13 +248,9 @@ public virtual bool isGPSDetectionSupported(){
 
 public virtual bool isGPSEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: boolean isGPSEnabled()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=GPS Detection is not supported

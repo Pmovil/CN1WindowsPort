@@ -17,11 +17,8 @@ public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -47,10 +44,7 @@ public abstract int arrayOffset();
 public virtual int capacity(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: int capacity()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.Buffer) _r1_o)._fcapacity;
     return _r0.i;
@@ -60,10 +54,7 @@ public virtual int capacity(){
 public virtual global::System.Object clear(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: java.nio.Buffer clear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.nio.Buffer) _r1_o)._fposition = _r0.i;
@@ -78,10 +69,7 @@ public virtual global::System.Object clear(){
 public virtual global::System.Object flip(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: java.nio.Buffer flip()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.Buffer) _r1_o)._fposition;
     ((global::java.nio.Buffer) _r1_o)._flimit = _r0.i;
@@ -98,12 +86,8 @@ public abstract bool hasArray();
 public virtual bool hasRemaining(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: boolean hasRemaining()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.Buffer) _r2_o)._fposition;
     _r1.i = ((global::java.nio.Buffer) _r2_o)._flimit;
@@ -124,10 +108,7 @@ public abstract bool isReadOnly();
 public virtual int limit(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: int limit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.Buffer) _r1_o)._flimit;
     return _r0.i;
@@ -139,12 +120,8 @@ public virtual global::System.Object limit(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1.i = -1;
@@ -174,10 +151,7 @@ public virtual global::System.Object limit(int n1){
 public virtual global::System.Object mark(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: java.nio.Buffer mark()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.Buffer) _r1_o)._fposition;
     ((global::java.nio.Buffer) _r1_o)._fmark = _r0.i;
@@ -188,10 +162,7 @@ public virtual global::System.Object mark(){
 public virtual int position(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: int position()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.Buffer) _r1_o)._fposition;
     return _r0.i;
@@ -203,14 +174,9 @@ public virtual global::System.Object position(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = -1;
@@ -237,12 +203,8 @@ public virtual global::System.Object position(int n1){
 public virtual int remaining(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: int remaining()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.Buffer) _r2_o)._flimit;
     _r1.i = ((global::java.nio.Buffer) _r2_o)._fposition;
@@ -254,12 +216,8 @@ public virtual int remaining(){
 public virtual global::System.Object reset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: java.nio.Buffer reset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.Buffer) _r2_o)._fmark;
     _r1.i = -1;
@@ -279,10 +237,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public virtual global::System.Object rewind(){
 //XMLVM_BEGIN_WRAPPER[java.nio.Buffer: java.nio.Buffer rewind()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.nio.Buffer) _r1_o)._fposition = _r0.i;

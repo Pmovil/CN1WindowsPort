@@ -5,15 +5,10 @@ namespace gnu.xml.dom.ls {
 public class DomLSException: global::org.w3c.dom.ls.LSException {
 public void @this(short n1, global::java.lang.Exception n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSException: void <init>(short, java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;

@@ -9,13 +9,9 @@ private global::java.lang.Class _ftype;
 
 public void @this(global::java.util.ListIterator n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: void <init>(java.util.ListIterator, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -30,9 +26,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0.i = ((global::java.util.ListIterator) _r0_o).hasNext() ? 1 : 0;
@@ -42,11 +36,8 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0_o = ((global::java.util.ListIterator) _r0_o).next();
@@ -56,11 +47,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     ((global::java.util.ListIterator) _r0_o).remove();
@@ -72,9 +60,7 @@ public virtual bool hasPrevious(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: boolean hasPrevious()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0.i = ((global::java.util.ListIterator) _r0_o).hasPrevious() ? 1 : 0;
@@ -84,11 +70,8 @@ public virtual bool hasPrevious(){
 
 public virtual global::System.Object previous(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: java.lang.Object previous()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0_o = ((global::java.util.ListIterator) _r0_o).previous();
@@ -100,9 +83,7 @@ public virtual int nextIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: int nextIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0.i = ((global::java.util.ListIterator) _r0_o).nextIndex();
@@ -114,9 +95,7 @@ public virtual int previousIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: int previousIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r1_o)._fi;
     _r0.i = ((global::java.util.ListIterator) _r0_o).previousIndex();
@@ -126,15 +105,10 @@ public virtual int previousIndex(){
 
 public virtual void set(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: void set(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r2_o)._fi;
@@ -147,15 +121,10 @@ public virtual void set(global::java.lang.Object n1){
 
 public virtual void add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedListIterator: void add(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedListIterator) _r2_o)._fi;

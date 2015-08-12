@@ -17,11 +17,8 @@ public abstract bool implies(global::java.security.Permission n1);
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.security.Permission: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -32,11 +29,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.security.Permission: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.security.Permission) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -45,13 +39,9 @@ public virtual global::System.Object getName(){
 
 public virtual void checkGuard(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.security.Permission: void checkGuard(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.lang.System.getSecurityManager();
@@ -64,11 +54,8 @@ public virtual void checkGuard(global::java.lang.Object n1){
 
 public virtual global::System.Object newPermissionCollection(){
 //XMLVM_BEGIN_WRAPPER[java.security.Permission: java.security.PermissionCollection newPermissionCollection()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.security.PermissionCollection) _r0_o;
@@ -79,15 +66,10 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.security.Permission: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value= 
     _r3_o = new global::java.lang.String();

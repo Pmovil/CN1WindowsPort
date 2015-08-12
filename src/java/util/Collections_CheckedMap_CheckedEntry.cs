@@ -9,15 +9,10 @@ public global::java.lang.Class _fvalueType;
 
 public void @this(global::java.util.Map_2Entry n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: void <init>(java.util.Map$Entry, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -35,11 +30,8 @@ public void @this(global::java.util.Map_2Entry n1, global::java.lang.Class n2){
 
 public virtual global::System.Object getKey(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: java.lang.Object getKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r1_o)._fe;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
@@ -49,11 +41,8 @@ public virtual global::System.Object getKey(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: java.lang.Object getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r1_o)._fe;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
@@ -63,15 +52,10 @@ public virtual global::System.Object getValue(){
 
 public virtual global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r2_o)._fe;
@@ -86,11 +70,8 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r1_o)._fe;
@@ -103,9 +84,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedMap$CheckedEntry: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r1_o)._fe;
     _r0.i = ((global::java.util.Map_2Entry) _r0_o).hashCode();

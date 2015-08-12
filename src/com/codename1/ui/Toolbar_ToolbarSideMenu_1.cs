@@ -7,11 +7,8 @@ public global::com.codename1.ui.Toolbar_2ToolbarSideMenu _fthis_21;
 
 public void @this(global::com.codename1.ui.Toolbar_2ToolbarSideMenu n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu$1: void <init>(com.codename1.ui.Toolbar$ToolbarSideMenu)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_21) _r0_o)._fthis_21 = (global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o;
@@ -25,10 +22,7 @@ public virtual void run(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_21) _r2_o)._fthis_21;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;

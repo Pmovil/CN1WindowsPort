@@ -9,13 +9,9 @@ public global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet _fth
 
 public void @this(global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: void <init>(java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21) _r1_o)._fthis_22 = (global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet) _r2_o;
@@ -31,9 +27,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21) _r1_o)._fiterator;
     _r0.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
@@ -43,13 +37,9 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: java.util.Map$Entry next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry();
     _r1_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21) _r2_o)._fiterator;
@@ -62,11 +52,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();

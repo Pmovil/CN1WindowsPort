@@ -9,11 +9,8 @@ private global::org.xml.sax.helpers.XMLReaderAdapter _fparser;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::javax.xml.parsers.SAXParser) _r1_o).@this();
     _r0_o = new global::gnu.xml.aelfred2.XmlReader();
@@ -27,15 +24,10 @@ public void @this(){
 
 public override void setProperty(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: void setProperty(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -47,13 +39,9 @@ public override void setProperty(global::java.lang.String n1, global::java.lang.
 
 public override global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: java.lang.Object getProperty(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.aelfred2.JAXPFactory_2JaxpParser) _r1_o)._fae2;
@@ -64,13 +52,9 @@ public override global::System.Object getProperty(global::java.lang.String n1){
 
 public override global::System.Object getParser(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: org.xml.sax.Parser getParser()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.JAXPFactory_2JaxpParser) _r2_o)._fparser;
     if (_r0_o != null) goto label13;
@@ -86,11 +70,8 @@ public override global::System.Object getParser(){
 
 public override global::System.Object getXMLReader(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: org.xml.sax.XMLReader getXMLReader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.JAXPFactory_2JaxpParser) _r1_o)._fae2;
     return (global::org.xml.sax.XMLReader) _r0_o;
@@ -101,9 +82,7 @@ public override bool isNamespaceAware(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: boolean isNamespaceAware()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -137,9 +116,7 @@ public override bool isValidating(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: boolean isValidating()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

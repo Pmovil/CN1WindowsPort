@@ -11,19 +11,12 @@ public global::org.w3c.dom.xpath.XPathNSResolver _fresolver;
 
 public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n2, global::org.w3c.dom.xpath.XPathNSResolver n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomXPathExpression: void <init>(gnu.xml.dom.DomDocument, java.lang.String, org.w3c.dom.xpath.XPathNSResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -67,21 +60,14 @@ public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n
 
 public virtual global::System.Object evaluate(global::org.w3c.dom.Node n1, short n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomXPathExpression: java.lang.Object evaluate(org.w3c.dom.Node, short, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -252,13 +238,9 @@ public virtual global::System.Object evaluate(global::org.w3c.dom.Node n1, short
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomXPathExpression: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1_o = ((global::java.lang.Object) _r2_o).getClass();

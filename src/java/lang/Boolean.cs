@@ -20,13 +20,9 @@ public static global::java.lang.Boolean _fFALSE;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<bool>(new bool[_r2.i]);
     _r0_o = ((global::java.lang.Object) _r0_o).getClass();
@@ -46,12 +42,8 @@ public static void @static(){
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::java.lang.Boolean.parseBoolean((global::java.lang.String) _r2_o) ? 1 : 0;
@@ -62,11 +54,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: void <init>(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::java.lang.Object) _r0_o).@this();
@@ -78,10 +67,7 @@ public void @this(bool n1){
 public virtual bool booleanValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: boolean booleanValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Boolean) _r1_o)._fvalue ? 1 : 0;
     return _r0.i!=0;
@@ -91,14 +77,9 @@ public virtual bool booleanValue(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == _r2_o) goto label16;
@@ -123,12 +104,8 @@ public virtual int compareTo(global::java.lang.Boolean n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label8;
@@ -156,10 +133,7 @@ public virtual int compareTo(global::java.lang.Boolean n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Boolean) _r1_o)._fvalue ? 1 : 0;
     if (_r0.i == 0) goto label7;
@@ -176,9 +150,7 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Boolean) _r1_o)._fvalue ? 1 : 0;
     _r0_o = global::java.lang.String.valueOf(0!=_r0.i);
@@ -190,9 +162,7 @@ public static bool getBoolean(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: boolean getBoolean(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o == null) goto label8;
     _r0.i = ((global::java.lang.String) _r1_o).length();
@@ -212,9 +182,7 @@ public static bool parseBoolean(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: boolean parseBoolean(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=true
     _r0_o = new global::java.lang.String();
@@ -226,11 +194,8 @@ public static bool parseBoolean(global::java.lang.String n1){
 
 public static global::System.Object toString(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: java.lang.String toString(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     _r0_o = global::java.lang.String.valueOf(0!=_r1.i);
     return (global::java.lang.String) _r0_o;
@@ -241,9 +206,7 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = global::java.lang.Boolean.parseBoolean((global::java.lang.String) _r1_o) ? 1 : 0;
     if (_r0.i == 0) goto label9;
@@ -258,11 +221,8 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 
 public static global::System.Object valueOf(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: java.lang.Boolean valueOf(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     if (_r1.i == 0) goto label5;
     _r0_o = global::java.lang.Boolean._fTRUE;
@@ -277,12 +237,8 @@ public static global::System.Object valueOf(bool n1){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

@@ -10,12 +10,8 @@ public global::java.util.Vector _fthis_20;
 public void @this(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Vector$1: void <init>(java.util.Vector)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.Vector_21) _r1_o)._fthis_20 = (global::java.util.Vector) _r2_o;
@@ -29,12 +25,9 @@ public void @this(global::java.util.Vector n1){
 public virtual bool hasMoreElements(){
 //XMLVM_BEGIN_WRAPPER[java.util.Vector$1: boolean hasMoreElements()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Vector_21) _r2_o)._fpos;
     _r1_o = ((global::java.util.Vector_21) _r2_o)._fthis_20;
@@ -51,15 +44,12 @@ public virtual bool hasMoreElements(){
 
 public virtual global::System.Object nextElement(){
 //XMLVM_BEGIN_WRAPPER[java.util.Vector$1: java.lang.Object nextElement()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;

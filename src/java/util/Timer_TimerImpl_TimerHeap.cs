@@ -16,10 +16,7 @@ private void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     ((global::java.lang.Object) _r2_o).@this();
@@ -36,13 +33,9 @@ private void @this(){
 
 public virtual global::System.Object minimum(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: java.util.TimerTask minimum()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r2_o)._ftimers;
     _r1.i = 0;
@@ -54,10 +47,7 @@ public virtual global::System.Object minimum(){
 public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r1_o)._fsize;
     if (_r0.i != 0) goto label6;
@@ -77,14 +67,9 @@ public virtual void insert(global::java.util.TimerTask n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -119,12 +104,8 @@ public virtual void delete(int n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     if (_r5.i < 0) goto label30;
@@ -151,24 +132,16 @@ public virtual void delete(int n1){
 private void upHeap(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void upHeap()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r6.i = 1;
     _r0.i = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r8_o)._fsize;
@@ -209,7 +182,6 @@ private void upHeap(){
 private void downHeap(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void downHeap(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -218,15 +190,9 @@ private void downHeap(int n1){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r0.i = _r8.i * 2;
@@ -283,9 +249,7 @@ public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void reset()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r1_o)._fDEFAULT_1HEAP_1SIZE;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -299,10 +263,7 @@ public virtual void reset(){
 public virtual void adjustMinimum(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void adjustMinimum()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r1_o).downHeap((int) _r0.i);
@@ -313,12 +274,9 @@ public virtual void adjustMinimum(){
 public virtual void deleteIfCancelled(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void deleteIfCancelled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     label1:;
@@ -344,14 +302,10 @@ public virtual void deleteIfCancelled(){
 private int getTask(global::java.util.TimerTask n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: int getTask(java.util.TimerTask)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -373,11 +327,8 @@ private int getTask(global::java.util.TimerTask n1){
 
 public void @this(global::java.util.Timer_2TimerImpl_2TimerHeap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void <init>(java.util.Timer$TimerImpl$TimerHeap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r0_o).@this();
@@ -388,12 +339,8 @@ public void @this(global::java.util.Timer_2TimerImpl_2TimerHeap n1){
 public static int access_21(global::java.util.Timer_2TimerImpl_2TimerHeap n1, global::java.util.TimerTask n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: int access$1(java.util.Timer$TimerImpl$TimerHeap, java.util.TimerTask)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r1_o).getTask((global::java.util.TimerTask) _r2_o);
@@ -403,11 +350,8 @@ public static int access_21(global::java.util.Timer_2TimerImpl_2TimerHeap n1, gl
 
 public static void access_22(global::java.util.Timer_2TimerImpl_2TimerHeap n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void access$2(java.util.Timer$TimerImpl$TimerHeap, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r0_o)._fdeletedCancelledNumber = _r1.i;
@@ -418,10 +362,7 @@ public static void access_22(global::java.util.Timer_2TimerImpl_2TimerHeap n1, i
 public static int access_23(global::java.util.Timer_2TimerImpl_2TimerHeap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: int access$3(java.util.Timer$TimerImpl$TimerHeap)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.util.Timer_2TimerImpl_2TimerHeap) _r1_o)._fdeletedCancelledNumber;
     return _r0.i;

@@ -12,10 +12,7 @@ public bool _fdefaulted;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFields$ObjectSlot: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 1;
@@ -26,11 +23,8 @@ public void @this(){
 
 public virtual global::System.Object getField(){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFields$ObjectSlot: java.io.ObjectStreamField getField()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r1_o)._ffield;
     return (global::java.io.ObjectStreamField) _r0_o;
@@ -39,11 +33,8 @@ public virtual global::System.Object getField(){
 
 public virtual global::System.Object getFieldValue(){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFields$ObjectSlot: java.lang.Object getFieldValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r1_o)._ffieldValue;
     return (global::java.lang.Object) _r0_o;

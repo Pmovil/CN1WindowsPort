@@ -11,17 +11,11 @@ private global::java.util.Timer_2TimerImpl_2TimerHeap _ftasks;
 
 public void @this(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: void <init>(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -48,20 +42,10 @@ public override void run(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
@@ -569,13 +553,9 @@ public override void run(){
 
 private void insertTask(global::java.util.TimerTask n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: void insertTask(java.util.TimerTask)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Timer_2TimerImpl) _r1_o)._ftasks;
@@ -589,7 +569,6 @@ public virtual void cancel(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: void cancel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -625,10 +604,7 @@ public virtual int purge(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0_o = ((global::java.util.Timer_2TimerImpl) _r2_o)._ftasks;
@@ -650,11 +626,8 @@ public virtual int purge(){
 
 public static void access_20(global::java.util.Timer_2TimerImpl n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: void access$0(java.util.Timer$TimerImpl, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::java.util.Timer_2TimerImpl) _r0_o)._ffinished = 0!=_r1.i;
@@ -665,10 +638,7 @@ public static void access_20(global::java.util.Timer_2TimerImpl n1, bool n2){
 public static bool access_21(global::java.util.Timer_2TimerImpl n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: boolean access$1(java.util.Timer$TimerImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.util.Timer_2TimerImpl) _r1_o)._fcancelled ? 1 : 0;
     return _r0.i!=0;
@@ -677,11 +647,8 @@ public static bool access_21(global::java.util.Timer_2TimerImpl n1){
 
 public static void access_22(global::java.util.Timer_2TimerImpl n1, global::java.util.TimerTask n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl: void access$2(java.util.Timer$TimerImpl, java.util.TimerTask)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.util.Timer_2TimerImpl) _r0_o).insertTask((global::java.util.TimerTask) _r1_o);

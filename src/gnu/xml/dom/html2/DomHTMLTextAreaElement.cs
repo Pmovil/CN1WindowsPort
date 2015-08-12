@@ -43,15 +43,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -63,11 +58,8 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 
 public virtual global::System.Object getDefaultValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: java.lang.String getDefaultValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=value
     _r0_o = new global::java.lang.String();
@@ -79,13 +71,9 @@ public virtual global::System.Object getDefaultValue(){
 
 public virtual void setDefaultValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setDefaultValue(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=value
@@ -98,11 +86,8 @@ public virtual void setDefaultValue(global::java.lang.String n1){
 
 public virtual global::System.Object getForm(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: org.w3c.dom.html2.HTMLFormElement getForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=form
     _r0_o = new global::java.lang.String();
@@ -115,11 +100,8 @@ public virtual global::System.Object getForm(){
 
 public virtual global::System.Object getAccessKey(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: java.lang.String getAccessKey()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=accesskey
     _r0_o = new global::java.lang.String();
@@ -131,13 +113,9 @@ public virtual global::System.Object getAccessKey(){
 
 public virtual void setAccessKey(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setAccessKey(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=accesskey
@@ -152,9 +130,7 @@ public virtual int getCols(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: int getCols()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=cols
     _r0_o = new global::java.lang.String();
@@ -166,13 +142,9 @@ public virtual int getCols(){
 
 public virtual void setCols(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setCols(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=cols
@@ -187,9 +159,7 @@ public virtual bool getDisabled(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: boolean getDisabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=disabled
     _r0_o = new global::java.lang.String();
@@ -201,13 +171,9 @@ public virtual bool getDisabled(){
 
 public virtual void setDisabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setDisabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=disabled
@@ -220,11 +186,8 @@ public virtual void setDisabled(bool n1){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=name
     _r0_o = new global::java.lang.String();
@@ -236,13 +199,9 @@ public virtual global::System.Object getName(){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=name
@@ -257,9 +216,7 @@ public virtual bool getReadOnly(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: boolean getReadOnly()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=readOnly
     _r0_o = new global::java.lang.String();
@@ -271,13 +228,9 @@ public virtual bool getReadOnly(){
 
 public virtual void setReadOnly(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setReadOnly(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=readonly
@@ -292,9 +245,7 @@ public virtual int getRows(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: int getRows()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=rows
     _r0_o = new global::java.lang.String();
@@ -306,13 +257,9 @@ public virtual int getRows(){
 
 public virtual void setRows(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setRows(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=rows
@@ -327,9 +274,7 @@ public virtual int getTabIndex(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: int getTabIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=tabindex
     _r0_o = new global::java.lang.String();
@@ -341,13 +286,9 @@ public virtual int getTabIndex(){
 
 public virtual void setTabIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setTabIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=tabindex
@@ -360,11 +301,8 @@ public virtual void setTabIndex(int n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=textarea
     _r0_o = new global::java.lang.String();
@@ -375,11 +313,8 @@ public virtual global::System.Object getType(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: java.lang.String getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTextAreaElement) _r1_o)._fvalue;
     if (_r0_o != null) goto label10;
@@ -393,11 +328,8 @@ public virtual global::System.Object getValue(){
 
 public virtual void setValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void setValue(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.html2.DomHTMLTextAreaElement) _r0_o)._fvalue = (global::java.lang.String) _r1_o;
@@ -407,11 +339,8 @@ public virtual void setValue(global::java.lang.String n1){
 
 public virtual void blur(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void blur()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=blur
     _r0_o = new global::java.lang.String();
@@ -423,11 +352,8 @@ public virtual void blur(){
 
 public virtual void focus(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void focus()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=focus
     _r0_o = new global::java.lang.String();
@@ -439,11 +365,8 @@ public virtual void focus(){
 
 public virtual void select(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLTextAreaElement: void select()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=select
     _r0_o = new global::java.lang.String();

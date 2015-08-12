@@ -11,7 +11,6 @@ public void @this(){
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -32,7 +31,6 @@ public static global::System.Object newByteBuffer(global::org.xmlvm._nArrayAdapt
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteHeapByteBuffer();
     ((global::java.nio.ReadWriteHeapByteBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o);
@@ -53,8 +51,6 @@ public static global::System.Object newByteBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteHeapByteBuffer();
     ((global::java.nio.ReadWriteHeapByteBuffer) _r0_o).@this((int) _r1.i);
@@ -76,7 +72,6 @@ public static global::System.Object newCharBuffer(global::org.xmlvm._nArrayAdapt
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteCharArrayBuffer();
     ((global::java.nio.ReadWriteCharArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<char>) _r1_o);
@@ -103,8 +98,6 @@ public static global::System.Object newCharBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteCharArrayBuffer();
     ((global::java.nio.ReadWriteCharArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -125,8 +118,6 @@ public static global::System.Object newDirectByteBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteDirectByteBuffer();
     ((global::java.nio.ReadWriteDirectByteBuffer) _r0_o).@this((int) _r1.i);
@@ -148,7 +139,6 @@ public static global::System.Object newDoubleBuffer(global::org.xmlvm._nArrayAda
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteDoubleArrayBuffer();
     ((global::java.nio.ReadWriteDoubleArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<double>) _r1_o);
@@ -169,8 +159,6 @@ public static global::System.Object newDoubleBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteDoubleArrayBuffer();
     ((global::java.nio.ReadWriteDoubleArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -192,7 +180,6 @@ public static global::System.Object newFloatBuffer(global::org.xmlvm._nArrayAdap
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteFloatArrayBuffer();
     ((global::java.nio.ReadWriteFloatArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<float>) _r1_o);
@@ -213,8 +200,6 @@ public static global::System.Object newFloatBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteFloatArrayBuffer();
     ((global::java.nio.ReadWriteFloatArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -235,8 +220,6 @@ public static global::System.Object newIntBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteIntArrayBuffer();
     ((global::java.nio.ReadWriteIntArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -258,7 +241,6 @@ public static global::System.Object newIntBuffer(global::org.xmlvm._nArrayAdapte
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteIntArrayBuffer();
     ((global::java.nio.ReadWriteIntArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<int>) _r1_o);
@@ -279,8 +261,6 @@ public static global::System.Object newLongBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteLongArrayBuffer();
     ((global::java.nio.ReadWriteLongArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -302,7 +282,6 @@ public static global::System.Object newLongBuffer(global::org.xmlvm._nArrayAdapt
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteLongArrayBuffer();
     ((global::java.nio.ReadWriteLongArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<long>) _r1_o);
@@ -323,8 +302,6 @@ public static global::System.Object newShortBuffer(int n1){
     _r1.l = 0;
     _r1.f = 0;
     _r1.d = 0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::java.nio.ReadWriteShortArrayBuffer();
     ((global::java.nio.ReadWriteShortArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -346,7 +323,6 @@ public static global::System.Object newShortBuffer(global::org.xmlvm._nArrayAdap
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.nio.ReadWriteShortArrayBuffer();
     ((global::java.nio.ReadWriteShortArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<short>) _r1_o);

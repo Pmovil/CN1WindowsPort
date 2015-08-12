@@ -14,9 +14,7 @@ private static long _fserialVersionUID = 7207038068494060240L;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.Collections_2ReverseComparator();
     ((global::java.util.Collections_2ReverseComparator) _r0_o).@this();
     global::java.util.Collections_2ReverseComparator._fINSTANCE = (global::java.util.Collections_2ReverseComparator) _r0_o;
@@ -26,9 +24,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -38,14 +34,9 @@ private void @this(){
 public virtual int compare(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: int compare(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -57,11 +48,8 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
 
 private global::System.Object readResolve(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: java.lang.Object readResolve()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Collections_2ReverseComparator._fINSTANCE;
     return (global::java.lang.Object) _r0_o;
@@ -70,9 +58,7 @@ private global::System.Object readResolve(){
 
 public static global::System.Object access_20(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: java.util.Collections$ReverseComparator access$0()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Collections_2ReverseComparator._fINSTANCE;
     return (global::java.util.Collections_2ReverseComparator) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections$ReverseComparator: java.util.Collections$ReverseComparator access$0()]

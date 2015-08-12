@@ -12,15 +12,10 @@ private static global::java.util.HashMap _fhistoricalNames;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HistoricalNamesUtil: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=ISO2022CN
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 78))}));
@@ -1145,9 +1140,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HistoricalNamesUtil: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -1158,9 +1151,7 @@ public static global::System.Object getHistoricalName(global::java.lang.String n
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HistoricalNamesUtil: java.lang.String getHistoricalName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.apache.harmony.luni.util.HistoricalNamesUtil._fhistoricalNames;
     _r0.i = ((global::java.util.HashMap) _r0_o).containsKey((global::java.lang.Object) _r1_o) ? 1 : 0;

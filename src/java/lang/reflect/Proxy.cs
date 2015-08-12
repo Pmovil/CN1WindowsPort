@@ -25,8 +25,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 0;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.reflect.Proxy));
     _r0.i = ((global::java.lang.Class) _r0_o).desiredAssertionStatus() ? 1 : 0;
@@ -50,9 +48,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Proxy: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -61,11 +57,8 @@ private void @this(){
 
 public void @this(global::java.lang.reflect.InvocationHandler n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Proxy: void <init>(java.lang.reflect.InvocationHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -80,7 +73,6 @@ public static global::System.Object getProxyClass(global::java.lang.ClassLoader 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -91,16 +83,10 @@ public static global::System.Object getProxyClass(global::java.lang.ClassLoader 
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
@@ -523,19 +509,14 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public static global::System.Object newProxyInstance(global::java.lang.ClassLoader n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.lang.reflect.InvocationHandler n3){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -624,11 +605,9 @@ public static global::System.Object newProxyInstance(global::java.lang.ClassLoad
 
 public static bool isProxyClass(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Proxy: boolean isProxyClass(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -677,11 +656,8 @@ public static global::System.Object getInvocationHandler(global::java.lang.Objec
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Proxy: java.lang.reflect.InvocationHandler getInvocationHandler(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = ((global::java.lang.Object) _r2_o).getClass();
     _r0.i = global::java.lang.reflect.Proxy.isProxyClass((global::java.lang.Class) _r0_o) ? 1 : 0;

@@ -9,11 +9,8 @@ private global::java.lang.Throwable _ftarget;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.InvocationTargetException: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::java.lang.Exception) _r1_o).@this((global::java.lang.Throwable) _r0_o);
@@ -23,13 +20,9 @@ public void @this(){
 
 public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.InvocationTargetException: void <init>(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -41,13 +34,9 @@ public void @this(global::java.lang.Throwable n1){
 
 public void @this(global::java.lang.Throwable n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.InvocationTargetException: void <init>(java.lang.Throwable, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -59,11 +48,8 @@ public void @this(global::java.lang.Throwable n1, global::java.lang.String n2){
 
 public virtual global::System.Object getTargetException(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.InvocationTargetException: java.lang.Throwable getTargetException()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.reflect.InvocationTargetException) _r1_o)._ftarget;
     return (global::java.lang.Throwable) _r0_o;
@@ -72,11 +58,8 @@ public virtual global::System.Object getTargetException(){
 
 public override global::System.Object getCause(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.InvocationTargetException: java.lang.Throwable getCause()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.reflect.InvocationTargetException) _r1_o)._ftarget;
     return (global::java.lang.Throwable) _r0_o;

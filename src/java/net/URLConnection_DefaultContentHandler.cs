@@ -5,9 +5,7 @@ namespace java.net {
 public class URLConnection_2DefaultContentHandler: global::java.net.ContentHandler {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URLConnection$DefaultContentHandler: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.net.ContentHandler) _r0_o).@this();
     return;
@@ -16,13 +14,9 @@ public void @this(){
 
 public override global::System.Object getContent(global::java.net.URLConnection n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URLConnection$DefaultContentHandler: java.lang.Object getContent(java.net.URLConnection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.net.URLConnection) _r2_o).getInputStream();

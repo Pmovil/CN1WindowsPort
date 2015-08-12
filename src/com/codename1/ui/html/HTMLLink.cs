@@ -19,23 +19,14 @@ public bool _fisMap;
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.html.HTMLLink n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void <init>(java.lang.String, java.lang.String, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLLink, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -68,13 +59,9 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public override void setFocus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void setFocus(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.html.HTMLLink) _r1_o)._fparentLink;
@@ -94,11 +81,8 @@ public override void setFocus(bool n1){
 
 private void superSetFocus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void superSetFocus(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     base.setFocus(0!=_r1.i);
@@ -108,17 +92,12 @@ private void superSetFocus(bool n1){
 
 private void setChildrenFocused(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void setChildrenFocused(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r2_o = ((global::com.codename1.ui.html.HTMLLink) _r3_o)._fparentLink;
@@ -153,9 +132,7 @@ public virtual void setParentChangesOnFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void setParentChangesOnFocus()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLLink) _r1_o)._fparentLink;
     if (_r0_o != null) goto label7;
@@ -168,13 +145,9 @@ public virtual void setParentChangesOnFocus(){
 
 public virtual void addChildLink(global::com.codename1.ui.html.HTMLLink n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void addChildLink(com.codename1.ui.html.HTMLLink)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLLink) _r1_o)._fchildLinks;
@@ -198,12 +171,8 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::com.codename1.ui.html.HTMLLink) _r4_o)._fisMap ? 1 : 0;
@@ -246,19 +215,13 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public static void processLink(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLLink: void processLink(com.codename1.ui.html.HTMLComponent, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r1.i = 1;

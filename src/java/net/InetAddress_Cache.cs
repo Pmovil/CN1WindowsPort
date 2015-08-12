@@ -16,9 +16,7 @@ private static global::java.net.InetAddress_2CacheElement _fhead;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,7 +25,6 @@ public void @this(){
 
 public static void clear(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -61,15 +58,11 @@ public static void clear(){
 
 public static void add(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void add(java.net.InetAddress)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -134,17 +127,12 @@ public static void add(global::java.net.InetAddress n1){
 
 public static global::System.Object get(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: java.net.InetAddress$CacheElement get(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
@@ -233,16 +221,12 @@ public static global::System.Object get(global::java.lang.String n1){
 
 private static void deleteTail(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void deleteTail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.net.InetAddress_2Cache));
     global::System.Threading.Monitor.Enter(_r2_o);
@@ -335,13 +319,9 @@ private static void deleteTail(){
 
 private static void moveToHead(global::java.net.InetAddress_2CacheElement n1, global::java.net.InetAddress_2CacheElement n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void moveToHead(java.net.InetAddress$CacheElement, java.net.InetAddress$CacheElement)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -393,8 +373,6 @@ private static void moveToHead(global::java.net.InetAddress_2CacheElement n1, gl
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$Cache: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 5;
     global::java.net.InetAddress_2Cache._fmaxSize = _r0.i;
     _r0.i = 0;

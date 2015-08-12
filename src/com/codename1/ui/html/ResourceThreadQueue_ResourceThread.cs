@@ -25,21 +25,13 @@ public global::com.codename1.ui.html.ResourceThreadQueue _fthis_20;
 
 public void @this(global::com.codename1.ui.html.ResourceThreadQueue n1, global::java.lang.String n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.html.HTMLComponent n4, global::com.codename1.ui.html.ResourceThreadQueue n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void <init>(com.codename1.ui.html.ResourceThreadQueue, java.lang.String, com.codename1.ui.Component, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.ResourceThreadQueue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -60,19 +52,12 @@ public void @this(global::com.codename1.ui.html.ResourceThreadQueue n1, global::
 
 public void @this(global::com.codename1.ui.html.ResourceThreadQueue n1, global::com.codename1.ui.html.DocumentInfo n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.html.ResourceThreadQueue n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void <init>(com.codename1.ui.html.ResourceThreadQueue, com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.ResourceThreadQueue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -92,10 +77,7 @@ public void @this(global::com.codename1.ui.html.ResourceThreadQueue n1, global::
 public virtual void cancel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void cancel()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r1_o)._fcancelled = 0!=_r0.i;
@@ -105,13 +87,9 @@ public virtual void cancel(){
 
 public virtual void addLabel(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void addLabel(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r1_o)._flabels;
@@ -128,17 +106,12 @@ public virtual void addLabel(global::com.codename1.ui.Component n1){
 
 public virtual void go(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void go()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r4_o)._fhandler;
     _r1.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.html.AsyncDocumentRequestHandler)) ? 1 : 0;
@@ -173,19 +146,12 @@ public virtual void go(){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r2_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r5_o)._fcssDocInfo;
     if (_r2_o == null) goto label17;
@@ -212,33 +178,19 @@ public virtual void streamReady(global::java.io.InputStream n1, global::com.code
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
@@ -534,25 +486,15 @@ public virtual void streamReady(global::java.io.InputStream n1, global::com.code
 
 private void handleImage(global::com.codename1.ui.Image n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void handleImage(com.codename1.ui.Image, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -575,37 +517,24 @@ private void handleImage(global::com.codename1.ui.Image n1, global::com.codename
 
 public virtual void handleImage(global::com.codename1.ui.Image n1, global::com.codename1.ui.Component n2, bool n3, bool n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void handleImage(com.codename1.ui.Image, com.codename1.ui.Component, boolean, boolean, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -730,13 +659,9 @@ public virtual void handleImage(global::com.codename1.ui.Image n1, global::com.c
 
 public static void access_2000(global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Component n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue$ResourceThread: void access$000(com.codename1.ui.html.ResourceThreadQueue$ResourceThread, com.codename1.ui.Image, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;

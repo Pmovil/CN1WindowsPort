@@ -7,9 +7,7 @@ private bool _fconnected;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.SocketConnection: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -23,10 +21,7 @@ public abstract void connectionEstablished(global::java.io.InputStream n1, globa
 public virtual bool isConnected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.SocketConnection: boolean isConnected()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.SocketConnection) _r1_o)._fconnected ? 1 : 0;
     return _r0.i!=0;
@@ -35,11 +30,8 @@ public virtual bool isConnected(){
 
 public virtual void setConnected(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.SocketConnection: void setConnected(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.SocketConnection) _r0_o)._fconnected = 0!=_r1.i;

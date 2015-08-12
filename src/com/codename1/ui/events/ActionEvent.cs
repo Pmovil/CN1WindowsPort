@@ -18,12 +18,8 @@ private bool _flongEvent;
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = -1;
@@ -40,14 +36,9 @@ public void @this(global::java.lang.Object n1){
 public void @this(global::java.lang.Object n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -66,16 +57,10 @@ public void @this(global::java.lang.Object n1, int n2){
 public void @this(global::java.lang.Object n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -96,18 +81,11 @@ public void @this(global::java.lang.Object n1, int n2, bool n3){
 public void @this(global::java.lang.Object n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -130,16 +108,10 @@ public void @this(global::java.lang.Object n1, int n2, int n3, bool n4){
 public void @this(global::java.lang.Object n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -160,18 +132,11 @@ public void @this(global::java.lang.Object n1, int n2, int n3){
 public void @this(global::com.codename1.ui.Command n1, global::com.codename1.ui.Component n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Command, com.codename1.ui.Component, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -194,18 +159,11 @@ public void @this(global::com.codename1.ui.Command n1, global::com.codename1.ui.
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Component, com.codename1.ui.Component, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -227,11 +185,8 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 
 public virtual global::System.Object getSource(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: java.lang.Object getSource()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource;
     return (global::java.lang.Object) _r0_o;
@@ -241,10 +196,7 @@ public virtual global::System.Object getSource(){
 public virtual int getKeyEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: int getKeyEvent()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent;
     return _r0.i;
@@ -255,9 +207,7 @@ public virtual global::System.Object getCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Command getCommand()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Command)) ? 1 : 0;
@@ -277,9 +227,7 @@ public virtual global::System.Object getComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Component getComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent;
     if (_r0_o == null) goto label10;
@@ -305,10 +253,7 @@ public virtual global::System.Object getComponent(){
 public virtual void consume(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void consume()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fconsumed = 0!=_r0.i;
@@ -319,10 +264,7 @@ public virtual void consume(){
 public virtual bool isConsumed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: boolean isConsumed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fconsumed ? 1 : 0;
     return _r0.i!=0;
@@ -332,10 +274,7 @@ public virtual bool isConsumed(){
 public virtual int getX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: int getX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent;
     return _r0.i;
@@ -345,10 +284,7 @@ public virtual int getX(){
 public virtual int getY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: int getY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy;
     return _r0.i;
@@ -358,10 +294,7 @@ public virtual int getY(){
 public virtual bool isLongEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: boolean isLongEvent()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent ? 1 : 0;
     return _r0.i!=0;
@@ -370,9 +303,7 @@ public virtual bool isLongEvent(){
 
 public virtual global::System.Object getDraggedComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Component getDraggedComponent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r0_o)._fsource;
     _r0_o = _r0_o;
@@ -382,9 +313,7 @@ public virtual global::System.Object getDraggedComponent(){
 
 public virtual global::System.Object getDropTarget(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Component getDropTarget()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r0_o)._fsourceComponent;
     _r0_o = _r0_o;

@@ -9,19 +9,12 @@ private global::java.io.ObjectOutputStream _foos;
 
 public void @this(global::java.io.ObjectOutputStream n1, global::java.io.ObjectStreamClass n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void <init>(java.io.ObjectOutputStream, java.io.ObjectStreamClass)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -38,11 +31,8 @@ public void @this(global::java.io.ObjectOutputStream n1, global::java.io.ObjectS
 
 public virtual global::System.Object emulatedFields(){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: java.io.EmulatedFields emulatedFields()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.EmulatedFieldsForDumping) _r1_o)._femulatedFields;
     return (global::java.io.EmulatedFields) _r0_o;
@@ -51,15 +41,10 @@ public virtual global::System.Object emulatedFields(){
 
 public override void put(global::java.lang.String n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -71,15 +56,10 @@ public override void put(global::java.lang.String n1, sbyte n2){
 
 public override void put(global::java.lang.String n1, char n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -91,17 +71,10 @@ public override void put(global::java.lang.String n1, char n2){
 
 public override void put(global::java.lang.String n1, double n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.d = n2;
@@ -113,15 +86,10 @@ public override void put(global::java.lang.String n1, double n2){
 
 public override void put(global::java.lang.String n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.f = n2;
@@ -133,15 +101,10 @@ public override void put(global::java.lang.String n1, float n2){
 
 public override void put(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -153,17 +116,10 @@ public override void put(global::java.lang.String n1, int n2){
 
 public override void put(global::java.lang.String n1, long n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.l = n2;
@@ -175,15 +131,10 @@ public override void put(global::java.lang.String n1, long n2){
 
 public override void put(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -195,15 +146,10 @@ public override void put(global::java.lang.String n1, global::java.lang.Object n
 
 public override void put(global::java.lang.String n1, short n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -215,15 +161,10 @@ public override void put(global::java.lang.String n1, short n2){
 
 public override void put(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.io.EmulatedFieldsForDumping: void put(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -241,15 +182,10 @@ public override void write(global::java.io.ObjectOutput n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;

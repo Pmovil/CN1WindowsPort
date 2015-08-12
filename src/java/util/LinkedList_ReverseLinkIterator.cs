@@ -17,13 +17,9 @@ public void @this(global::java.util.LinkedList n1, global::java.util.LinkedList 
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$ReverseLinkIterator: void <init>(java.util.LinkedList, java.util.LinkedList)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -46,11 +42,8 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$ReverseLinkIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList_2ReverseLinkIterator) _r2_o)._flink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fprevious;
@@ -72,9 +65,7 @@ public virtual global::System.Object next(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.LinkedList_2ReverseLinkIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.LinkedList_2ReverseLinkIterator) _r2_o)._flist;
@@ -108,10 +99,7 @@ public virtual void remove(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.util.LinkedList_2ReverseLinkIterator) _r3_o)._fexpectedModCount;
     _r1_o = ((global::java.util.LinkedList_2ReverseLinkIterator) _r3_o)._flist;

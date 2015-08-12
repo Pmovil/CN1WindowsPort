@@ -15,11 +15,8 @@ public static short _fBUBBLING_1PHASE = org.w3c.dom.events._iEvent._fBUBBLING_1P
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomUIEvent: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.DomEvent) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -29,11 +26,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getView(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomUIEvent: java.lang.Object getView()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent_2DomUIEvent) _r1_o)._fview;
     return (global::java.lang.Object) _r0_o;
@@ -43,10 +37,7 @@ public virtual global::System.Object getView(){
 public virtual int getDetail(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomUIEvent: int getDetail()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomEvent_2DomUIEvent) _r1_o)._fdetail;
     return _r0.i;
@@ -55,19 +46,12 @@ public virtual int getDetail(){
 
 public virtual void initUIEvent(global::java.lang.String n1, bool n2, bool n3, global::org.xmlvm.runtime.RedTypeMarker n4, int n5){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomUIEvent: void initUIEvent(java.lang.String, boolean, boolean, org.w3c.dom.views.AbstractView, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
