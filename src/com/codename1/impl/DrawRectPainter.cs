@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PumpopNati.src.com.codename1.impl
+namespace com.codename1.impl
 {
     class DrawRectPainter : AsyncOp
     {

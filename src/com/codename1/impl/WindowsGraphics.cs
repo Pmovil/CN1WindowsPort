@@ -12,7 +12,7 @@ using System.Text;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace PumpopNati.src.com.codename1.impl
+namespace com.codename1.impl
 {
     public class WindowsGraphics
     {
