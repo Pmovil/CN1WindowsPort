@@ -172,7 +172,6 @@ public override global::System.Object getNodeValue(){
     _r2_o = ((global::gnu.xml.dom.DomNode) _r1_o).getNodeValue();
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r2_o);
     goto label33;
-    label44:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomAttr: java.lang.String getNodeValue()]
 }
 

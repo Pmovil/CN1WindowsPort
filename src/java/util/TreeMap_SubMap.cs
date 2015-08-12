@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2SubMap: global::java.util.AbstractMap,global::java.util.SortedMap,global::java.io.Serializable {
-private static long _fserialVersionUID = -6520786458950516097L;
 
 private global::java.util.TreeMap _fbackingMap;
 

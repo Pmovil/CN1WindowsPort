@@ -42,7 +42,6 @@ private static global::com.codename1.ui.animations.Transition _ftransitionIn;
 
 private static global::com.codename1.ui.animations.Transition _ftransitionOut;
 
-private int _finputType;
 
 public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fDEFAULT_1QWERTY;
 
@@ -762,7 +761,6 @@ private void initInputButtons(bool n1){
     _r1.i = _r25.i;
     ((global::com.codename1.ui.VirtualKeyboard) _r0_o).applyRTL(0!=_r1.i);
     goto label71;
-    label644:;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: void initInputButtons(boolean)]
 }
 
@@ -1344,7 +1342,6 @@ public override void actionCommand(global::com.codename1.ui.Command n1){
     _r6_o = ((global::com.codename1.ui.TextField) _r6_o).getText();
     ((global::com.codename1.ui.Display) _r2_o).editString((global::com.codename1.ui.Component) _r3_o, (int) _r4.i, (int) _r5.i, (global::java.lang.String) _r6_o);
     goto label190;
-    label226:;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: void actionCommand(com.codename1.ui.Command)]
 }
 

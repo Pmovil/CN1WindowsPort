@@ -152,7 +152,6 @@ public void @this(){
     _r0.f = (float)0.0D;
     ((global::com.codename1.charts.renderers.DefaultRenderer) _r4_o)._fmStartAngle = _r0.f;
     return;
-    label102:;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: void <init>()]
 }
 

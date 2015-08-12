@@ -19,7 +19,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[]{105, 31, 32, 33, 34, 35, 36, 37, 38, 73, 39, 40, 41, 42, 43, 44, 45, 106, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55});
     global::gnu.xml.xpath.XPathParser_2YyDgotoClass._fyyDgoto = (global::org.xmlvm._nArrayAdapter<short>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathParser$YyDgotoClass: void <clinit>()]
 }
 

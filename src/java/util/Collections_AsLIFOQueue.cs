@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2AsLIFOQueue: global::java.util.AbstractQueue,global::java.io.Serializable {
-private static long _fserialVersionUID = 1802017725587941708L;
 
 private global::java.util.Deque _fq;
 

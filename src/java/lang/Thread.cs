@@ -9,11 +9,8 @@ static Thread() {
     @static();
 }
 
-private global::java.lang.Object _fxmlvmExceptionEnv;
 
-private global::java.lang.Object _fxmlvmException;
 
-private global::java.lang.Object _fptBuffers;
 
 private static global::org.xmlvm.runtime.Mutex _fthreadSafetyMutex;
 

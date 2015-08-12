@@ -3,11 +3,8 @@
 using org.xmlvm;
 namespace com.codename1.ui.animations {
 public class FlipTransition: global::com.codename1.ui.animations.Transition {
-private static int _fSTATE_1MOVE_1AWAY = 1;
 
-private static int _fSTATE_1FLIP = 2;
 
-private static int _fSTATE_1MOVE_1CLOSER = 3;
 
 private bool _fperspectiveSupported;
 
@@ -284,7 +281,6 @@ public override bool animate(){
     label129:;
     _r5.i = _r9.i;
     goto label58;
-    label132:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.FlipTransition: boolean animate()]
 }
 

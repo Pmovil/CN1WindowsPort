@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace org.bouncycastle.crypto.digests {
 public abstract class GeneralDigest: global::java.lang.Object,global::org.bouncycastle.crypto.ExtendedDigest,global::org.bouncycastle.util.Memoable {
-private static int _fBYTE_1LENGTH = 64;
 
 private global::org.xmlvm._nArrayAdapter<sbyte> _fxBuf;
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class NetworkInterface: global::java.lang.Object {
-private static int _fCHECK_1CONNECT_1NO_1PORT = -1;
 
 public static int _fNO_1INTERFACE_1INDEX = 0;
 

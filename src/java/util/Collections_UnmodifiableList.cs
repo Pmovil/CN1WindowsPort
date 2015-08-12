@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2UnmodifiableList: global::java.util.Collections_2UnmodifiableCollection,global::java.util.List {
-private static long _fserialVersionUID = -283967356065247728L;
 
 public global::java.util.List _flist;
 

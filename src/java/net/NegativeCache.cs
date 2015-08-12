@@ -3,13 +3,10 @@
 using org.xmlvm;
 namespace java.net {
 public class NegativeCache: global::java.util.LinkedHashMap {
-private static long _fserialVersionUID = 1L;
 
 private static global::java.net.NegativeCache _fnegCache;
 
-private static int _fMAX_1NEGATIVE_1ENTRIES = 5;
 
-private static float _fLOADING = (float)0.75D;
 
 public void @this(int n1, float n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: void <init>(int, float, boolean)]

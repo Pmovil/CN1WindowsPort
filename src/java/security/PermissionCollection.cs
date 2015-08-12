@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.security {
 public abstract class PermissionCollection: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = -6727011328946861783L;
 
 private bool _freadOnly;
 

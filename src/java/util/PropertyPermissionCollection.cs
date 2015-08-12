@@ -8,7 +8,6 @@ static PropertyPermissionCollection() {
     @static();
 }
 
-private static long _fserialVersionUID = 7015263904581634791L;
 
 public global::java.util.Hashtable _fpermissions;
 

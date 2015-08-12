@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class NoSuchElementException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = 6769829250639411880L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.NoSuchElementException: void <init>()]

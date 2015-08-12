@@ -665,8 +665,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{9, 10, 12, 4, 13, 14, 17, 18});
     global::com.codename1.ui.html.HTMLInputFormat._fliteralConstraints = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label18:;
-    label30:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLInputFormat: void <clinit>()]
 }
 

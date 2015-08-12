@@ -23,7 +23,6 @@ public static global::java.net.InetAddress _fLOOPBACK;
 
 private static global::java.lang.String _fERRMSG_1CONNECTION_1REFUSED;
 
-private static long _fserialVersionUID = 3286316764910316507L;
 
 public global::java.lang.String _fhostName;
 
@@ -2258,8 +2257,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     global::java.net.InetAddress._fserialPersistentFields = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
-    label86:;
-    label92:;
 //XMLVM_END_WRAPPER[java.net.InetAddress: void <clinit>()]
 }
 

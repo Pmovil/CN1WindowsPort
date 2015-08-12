@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public class CoderMalfunctionError: global::java.lang.Error {
-private static long _fserialVersionUID = -1151412348057794301L;
 
 public void @this(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderMalfunctionError: void <init>(java.lang.Exception)]

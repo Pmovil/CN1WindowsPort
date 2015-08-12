@@ -710,7 +710,6 @@ public virtual int escape(){
     label275:;
     _r5.i = 1048575;
     goto label52;
-    label280:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: int escape()]
 }
 
@@ -1388,9 +1387,6 @@ public virtual int characterClass(){
     label1153:;
     _r18.i = _r16.i;
     goto label364;
-    label1158:;
-    label1172:;
-    label1182:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: int characterClass()]
 }
 
@@ -1504,8 +1500,6 @@ public virtual int atom(){
     ((global::com.codename1.util.regex.RECompiler) _r9_o).emit((char) _r5.i);
     _r3.i = _r3.i + 1;
     goto label11;
-    label144:;
-    label162:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: int atom()]
 }
 
@@ -1633,8 +1627,6 @@ public virtual int terminal(global::org.xmlvm._nArrayAdapter<int> n1){
     _r2.i = 35;
     _r2.i = ((global::com.codename1.util.regex.RECompiler) _r7_o).node((char) _r2.i, (int) _r0.i);
     goto label23;
-    label150:;
-    label208:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: int terminal(int[])]
 }
 
@@ -2052,9 +2044,6 @@ public virtual int closure(global::org.xmlvm._nArrayAdapter<int> n1){
     _r2.i = _r12.i;
     ((global::com.codename1.util.regex.RECompiler) _r0_o).setNextOfEnd((int) _r1.i, (int) _r2.i);
     goto label57;
-    label698:;
-    label716:;
-    label734:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: int closure(int[])]
 }
 

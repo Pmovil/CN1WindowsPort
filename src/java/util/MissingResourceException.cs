@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class MissingResourceException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -4876345176062000401L;
 
 public global::java.lang.String _fclassName;
 

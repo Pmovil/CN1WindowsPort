@@ -12,7 +12,6 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fprimeLi
 
 private static global::org.xmlvm._nArrayAdapter<int> _fprimeProducts;
 
-private static long _fIMASK = 4294967295L;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fZERO_1MAGNITUDE;
 
@@ -34,9 +33,7 @@ private int _fnBitLength;
 
 private long _fmQuote;
 
-private static int _fBITS_1PER_1BYTE = 8;
 
-private static int _fBYTES_1PER_1INT = 4;
 
 private static global::org.xmlvm._nArrayAdapter<sbyte> _frndMask;
 
@@ -5728,60 +5725,6 @@ public static void @static(){
     _r4_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[]{0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, 3, 4, 3, 4, 4, 5, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, 3, 4, 3, 4, 4, 5, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, 3, 4, 3, 4, 4, 5, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 3, 4, 4, 5, 4, 5, 5, 6, 4, 5, 5, 6, 5, 6, 6, 7, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, 3, 4, 3, 4, 4, 5, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 3, 4, 4, 5, 4, 5, 5, 6, 4, 5, 5, 6, 5, 6, 6, 7, 2, 3, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5, 4, 5, 5, 6, 3, 4, 4, 5, 4, 5, 5, 6, 4, 5, 5, 6, 5, 6, 6, 7, 3, 4, 4, 5, 4, 5, 5, 6, 4, 5, 5, 6, 5, 6, 6, 7, 4, 5, 5, 6, 5, 6, 6, 7, 5, 6, 6, 7, 6, 7, 7, 8});
     global::com.codename1.util.BigInteger._fbitCounts = (global::org.xmlvm._nArrayAdapter<sbyte>) _r4_o;
     return;
-    label584:;
-    label604:;
-    label618:;
-    label632:;
-    label644:;
-    label656:;
-    label668:;
-    label680:;
-    label692:;
-    label704:;
-    label716:;
-    label726:;
-    label736:;
-    label746:;
-    label756:;
-    label766:;
-    label776:;
-    label786:;
-    label796:;
-    label806:;
-    label816:;
-    label826:;
-    label836:;
-    label846:;
-    label856:;
-    label866:;
-    label876:;
-    label886:;
-    label896:;
-    label906:;
-    label916:;
-    label926:;
-    label936:;
-    label946:;
-    label956:;
-    label966:;
-    label976:;
-    label986:;
-    label996:;
-    label1006:;
-    label1016:;
-    label1026:;
-    label1036:;
-    label1046:;
-    label1056:;
-    label1066:;
-    label1076:;
-    label1086:;
-    label1096:;
-    label1106:;
-    label1116:;
-    label1126:;
-    label1136:;
-    label1144:;
 //XMLVM_END_WRAPPER[com.codename1.util.BigInteger: void <clinit>()]
 }
 

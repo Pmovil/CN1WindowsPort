@@ -382,7 +382,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2.i = _r16.i;
     ((global::java.util.Calendar) _r0_o).set((int) _r1.i, (int) _r2.i);
     goto label647;
-    label698:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

@@ -41,8 +41,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{-1, 128, 2048, 65536});
     global::org.apache.harmony.niochar.charset.UTF_18._flowerEncodingLimit = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label40:;
-    label300:;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: void <clinit>()]
 }
 

@@ -20,13 +20,9 @@ private static global::java.util.Properties _fsystemProperties;
 
 private static global::java.lang.SecurityManager _fsecurity;
 
-private static int _fInitLocale = 0;
 
-private static int _fPlatformEncoding = 1;
 
-private static int _fFileEncoding = 2;
 
-private static int _fOSEncoding = 3;
 
 private static void initNativeLayer(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void initNativeLayer()]

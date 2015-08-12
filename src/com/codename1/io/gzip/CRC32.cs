@@ -12,7 +12,6 @@ private int _fv;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fcrc_1table;
 
-private static int _fGF2_1DIM = 32;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void <init>()]

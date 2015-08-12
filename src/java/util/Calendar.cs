@@ -8,7 +8,6 @@ static Calendar() {
     @static();
 }
 
-private static long _fserialVersionUID = -1807547505821590642L;
 
 public bool _fareFieldsSet;
 
@@ -2233,7 +2232,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     label97:;
     _r0.i = _r6.i;
     goto label27;
-    label100:;
 //XMLVM_END_WRAPPER[java.util.Calendar: java.lang.String getDisplayName(int, int, java.util.Locale)]
 }
 
@@ -2523,9 +2521,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     label296:;
     _r2.i = _r2.i + 1;
     goto label267;
-    label300:;
-    label318:;
-    label328:;
 //XMLVM_END_WRAPPER[java.util.Calendar: java.util.Map getDisplayNames(int, int, java.util.Locale)]
 }
 

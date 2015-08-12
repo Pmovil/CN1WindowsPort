@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2ReverseComparatorWithComparator: global::java.lang.Object,global::java.util.Comparator,global::java.io.Serializable {
-private static long _fserialVersionUID = 4374092139857L;
 
 private global::java.util.Comparator _fcomparator;
 

@@ -12,7 +12,6 @@ private static global::java.util.List _fSUPPORTED_1PARAMETERS;
 
 private global::org.w3c.dom.ls.LSSerializerFilter _ffilter;
 
-private global::gnu.xml.transform.StreamSerializer _fserializer;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void <clinit>()]
@@ -383,8 +382,6 @@ public override void serialize(global::org.w3c.dom.Node n1, global::java.io.Outp
     if (_r0_o == null) goto label7;
     ((global::gnu.xml.dom.ls.DomLSSerializer) _r2_o).serialize((global::org.w3c.dom.Node) _r0_o, (global::java.io.OutputStream) _r4_o);
     goto label7;
-    label146:;
-    label174:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void serialize(org.w3c.dom.Node, java.io.OutputStream)]
 }
 

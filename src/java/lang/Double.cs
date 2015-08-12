@@ -8,7 +8,6 @@ static Double() {
     @static();
 }
 
-private static long _fserialVersionUID = -9172774392245257468L;
 
 private double _fvalue;
 

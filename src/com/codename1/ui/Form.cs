@@ -4736,7 +4736,6 @@ private void updateFocus(int n1){
     ((global::com.codename1.ui.Form) _r6_o).setFocused((global::com.codename1.ui.Component) _r1_o);
     ((global::com.codename1.ui.Form) _r6_o).scrollComponentToVisible((global::com.codename1.ui.Component) _r1_o);
     goto label7;
-    label68:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void updateFocus(int)]
 }
 

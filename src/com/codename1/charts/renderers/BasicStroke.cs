@@ -138,8 +138,6 @@ public static void @static(){
     ((global::com.codename1.charts.renderers.BasicStroke) _r0_o).@this((int) _r1.i, (int) _r2.i, (float) _r3.f, (global::org.xmlvm._nArrayAdapter<float>) _r4_o, (float) _r5.f);
     global::com.codename1.charts.renderers.BasicStroke._fDOTTED = (global::com.codename1.charts.renderers.BasicStroke) _r0_o;
     return;
-    label52:;
-    label60:;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.BasicStroke: void <clinit>()]
 }
 

@@ -83,7 +83,6 @@ public virtual void setType(int n1){
     if (_r0.i != 0) goto label6;
     ((global::com.codename1.ui.spinner.Picker) _r3_o).setTime((int) _r2.i);
     goto label6;
-    label50:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: void setType(int)]
 }
 
@@ -327,7 +326,6 @@ public virtual void updateValue(){
     _r4_o = ((global::com.codename1.l10n.L10NManager) _r5_o).formatDateTimeShort((global::java.util.Date) _r4_o);
     ((global::com.codename1.ui.spinner.Picker) _r7_o).setText((global::java.lang.String) _r4_o);
     goto label11;
-    label188:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: void updateValue()]
 }
 

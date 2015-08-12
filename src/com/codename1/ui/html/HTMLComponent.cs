@@ -22,67 +22,42 @@ public static bool _fSUPPORT_1INPUT_1FORMAT = 1!=0;
 
 public static bool _fSUPPORT_1CSS = 1!=0;
 
-private static bool _fCLEAN_1ON_1PAGE_1REQUEST = 1!=0;
 
-private static bool _fCJK_1SUPPORT = 1!=0;
 
 public static bool _fPROCESS_1HTML_1MP1_1ONLY = 0!=0;
 
-private static int _fINDENT_1BLOCKQUOTE = 20;
 
-private static int _fINDENT_1DD = 20;
 
 private static int _fINDENT_1OL;
 
 private static int _fINDENT_1UL;
 
-private static int _fMIN_1MULTI_1COMBOBOX_1ITEMS = 4;
 
-private static int _fMAX_1MULTI_1COMBOBOX_1ITEMS = 6;
 
-private static int _fDEFAULT_1TEXTFIELD_1SIZE = 12;
 
-private static int _fDEFAULT_1TEXTAREA_1COLS = 20;
 
-private static int _fDEFAULT_1TEXTAREA_1ROWS = 2;
 
 public static int _fJUSTIFY = 5;
 
-private static int _fHR_1THICKNESS = 3;
 
-private static int _fMARQUEE_1DELAY = 6000;
 
-private static bool _fMATCH_1EXACT_1FONTS_1ONLY = 0!=0;
 
-private static bool _fMATCH_1BITMAP_1FONTS_1ONLY = 1!=0;
 
-private static bool _fMATCH_1SAME_1FONT_1FAMILY_1ONLY = 1!=0;
 
 private static global::com.codename1.ui.html.HTMLFont _fDEFAULT_1FONT;
 
-private static int _fCOLOR_1VISITED_1LINKS = 10027161;
 
 public static global::java.util.Hashtable _ffonts;
 
-private static int _fINPUT_1CHECKBOX = 0;
 
-private static int _fINPUT_1HIDDEN = 1;
 
-private static int _fINPUT_1PASSWORD = 2;
 
-private static int _fINPUT_1RADIO = 3;
 
-private static int _fINPUT_1RESET = 4;
 
-private static int _fINPUT_1SUBMIT = 5;
 
-private static int _fINPUT_1TEXT = 6;
 
-private static int _fINPUT_1IMAGE = 7;
 
-private static int _fINPUT_1BUTTON = 8;
 
-private static int _fINPUT_1EMAIL = 9;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fINPUT_1TYPE_1STRINGS;
 
@@ -110,7 +85,6 @@ public static int _fDEFAULT_1BGCOLOR = 16777215;
 
 public static int _fDEFAULT_1TEXT_1COLOR = 0;
 
-private static int _fDEFAULT_1LINK_1COLOR = 255;
 
 private int _fbgColor;
 
@@ -2108,7 +2082,6 @@ private global::System.Object getCounterpartFont(int n1, global::com.codename1.u
     label17:;
     _r1_o = ((global::com.codename1.ui.html.HTMLComponent) _r2_o).getCounterpartFontByAttribute((int) _r0.i, (global::com.codename1.ui.html.HTMLFont) _r4_o);
     goto label8;
-    label22:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: com.codename1.ui.html.HTMLFont getCounterpartFont(int, com.codename1.ui.html.HTMLFont)]
 }
 
@@ -5088,7 +5061,6 @@ private void handleInput(global::com.codename1.ui.html.HTMLElement n1, int n2){
     _r1_o = _r28_o;
     ((global::com.codename1.ui.html.HTMLComponent) _r1_o)._ffirstFocusable = (global::com.codename1.ui.Component) _r0_o;
     goto label222;
-    label850:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: void handleInput(com.codename1.ui.html.HTMLElement, int)]
 }
 
@@ -8020,8 +7992,6 @@ private void processTag(global::com.codename1.ui.html.HTMLElement n1, int n2){
     _r6_o = _r0_o;
     ((global::com.codename1.ui.html.HTMLTableModel) _r6_o).endSegment();
     goto label93;
-    label4316:;
-    label4472:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: void processTag(com.codename1.ui.html.HTMLElement, int)]
 }
 
@@ -9336,7 +9306,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r2_o;
     global::com.codename1.ui.html.HTMLComponent._fCSS_1UL_1TYPES = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     return;
-    label292:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: void <clinit>()]
 }
 

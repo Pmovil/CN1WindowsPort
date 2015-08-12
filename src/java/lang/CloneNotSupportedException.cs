@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class CloneNotSupportedException: global::java.lang.Exception {
-private static long _fserialVersionUID = 5195511250079656443L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.CloneNotSupportedException: void <init>()]

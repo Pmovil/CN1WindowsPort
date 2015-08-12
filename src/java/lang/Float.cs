@@ -8,7 +8,6 @@ static Float() {
     @static();
 }
 
-private static long _fserialVersionUID = -2671257302660747028L;
 
 private float _fvalue;
 

@@ -9,13 +9,9 @@ private global::java.lang.Object _farg2;
 
 private int _faction;
 
-private static int _fGET_1SYSTEM_1PROPERTY = 1;
 
-private static int _fGET_1SECURITY_1POLICY = 2;
 
-private static int _fSET_1ACCESSIBLE = 3;
 
-private static int _fGET_1SECURITY_1PROPERTY = 4;
 
 public static global::System.Object getSecurityProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.PriviAction: java.security.PrivilegedAction getSecurityProperty(java.lang.String)]
@@ -145,7 +141,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r0.i = 1;
     ((global::java.lang.reflect.AccessibleObject) _r1_o).setAccessible(0!=_r0.i);
     goto label5;
-    label44:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.PriviAction: java.lang.Object run()]
 }
 

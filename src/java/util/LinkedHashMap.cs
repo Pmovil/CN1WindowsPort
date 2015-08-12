@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class LinkedHashMap: global::java.util.HashMap,global::java.util.Map {
-private static long _fserialVersionUID = 3801124242820219131L;
 
 private bool _faccessOrder;
 

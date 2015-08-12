@@ -16,7 +16,6 @@ public static global::java.math.MathContext _fDECIMAL64;
 
 public static global::java.math.MathContext _fUNLIMITED;
 
-private static long _fserialVersionUID = 5579720004786848255L;
 
 private int _fprecision;
 
@@ -61,8 +60,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[]{(char)114, (char)111, (char)117, (char)110, (char)100, (char)105, (char)110, (char)103, (char)77, (char)111, (char)100, (char)101, (char)61});
     global::java.math.MathContext._fchRoundingMode = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     return;
-    label62:;
-    label76:;
 //XMLVM_END_WRAPPER[java.math.MathContext: void <clinit>()]
 }
 

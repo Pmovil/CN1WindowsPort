@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NumberFormatException: global::java.lang.IllegalArgumentException {
-private static long _fserialVersionUID = -2848938806368998894L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NumberFormatException: void <init>()]

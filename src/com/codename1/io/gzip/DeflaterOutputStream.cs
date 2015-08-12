@@ -317,7 +317,6 @@ public virtual int deflate(int n1){
     ((global::java.io.OutputStream) _r2_o).write((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o, (int) _r5.i, (int) _r1.i);
     label50:;
     return _r0.i;
-    label52:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.DeflaterOutputStream: int deflate(int)]
 }
 

@@ -1061,7 +1061,6 @@ private void postCreateComponents(global::java.io.DataInputStream n1, global::co
     goto label38;
     label137:;
     return;
-    label138:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: void postCreateComponents(java.io.DataInputStream, com.codename1.ui.Container, com.codename1.ui.util.Resources)]
 }
 
@@ -1620,7 +1619,6 @@ private global::System.Object readObjectArrayForListModel(global::java.io.DataIn
     goto label109;
     label135:;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o;
-    label136:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.Object[] readObjectArrayForListModel(java.io.DataInputStream, com.codename1.ui.util.Resources)]
 }
 
@@ -3542,8 +3540,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     ((global::com.codename1.ui.util.UIBuilder) _r0_o).postCreateComponent((global::com.codename1.ui.Component) _r1_o);
     _r5_o = _r25_o;
     goto label96;
-    label2790:;
-    label3056:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component createComponent(java.io.DataInputStream, com.codename1.ui.Container, com.codename1.ui.Container, com.codename1.ui.util.Resources, java.util.Hashtable, com.codename1.ui.util.EmbeddedContainer)]
 }
 

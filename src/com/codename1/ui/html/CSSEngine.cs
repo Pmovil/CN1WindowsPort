@@ -27,109 +27,59 @@ public static int _fSTYLE_1SELECTED = 2;
 
 public static int _fSTYLE_1PRESSED = 4;
 
-private static int _fINDENT_1LIST_1STYLE_1POSITION = 15;
 
 public static global::java.lang.String _fCLIENT_1PROPERTY_1CSS_1CONTENT;
 
-private static int _fTEXT_1TRANSFORM_1NONE = 0;
 
-private static int _fTEXT_1TRANSFORM_1UPPERCASE = 1;
 
-private static int _fTEXT_1TRANSFORM_1LOWERCASE = 2;
 
-private static int _fTEXT_1TRANSFORM_1CAPITALIZE = 3;
 
-private static int _fTEXT_1DECOR_1UNDERLINE = 0;
 
-private static int _fTEXT_1DECOR_1LINETHROUGH = 1;
 
-private static int _fTEXT_1DECOR_1NONE = 2;
 
-private static int _fTEXT_1DECOR_1OVERLINE = 3;
 
-private static int _fINPUT_1REQUIRED_1TRUE = 0;
 
-private static int _fINPUT_1REQUIRED_1FALSE = 1;
 
-private static int _fBG_1ATTACHMENT_1FIXED = 0;
 
-private static int _fBG_1ATTACHMENT_1SCROLL = 1;
 
-private static int _fWHITE_1SPACE_1NORMAL = 0;
 
-private static int _fWHITE_1SPACE_1PRE = 1;
 
-private static int _fWHITE_1SPACE_1NOWRAP = 2;
 
-private static int _fDISPLAY_1INLINE = 0;
 
-private static int _fDISPLAY_1BLOCK = 1;
 
-private static int _fDISPLAY_1LIST_1ITEM = 2;
 
-private static int _fDISPLAY_1NONE = 3;
 
-private static int _fDISPLAY_1MARQUEE = 4;
 
-private static int _fFONT_1VARIANT_1NORMAL = 0;
 
-private static int _fFONT_1VARIANT_1SMALLCAPS = 1;
 
-private static int _fLIST_1STYLE_1POSITION_1INSIDE = 0;
 
-private static int _fLIST_1STYLE_1POSITION_1OUTSIDE = 1;
 
-private static int _fBORDER_1STYLE_1NONE = 0;
 
-private static int _fBORDER_1STYLE_1SOLID = 1;
 
-private static int _fBORDER_1STYLE_1DOTTED = 2;
 
-private static int _fBORDER_1STYLE_1DASHED = 3;
 
-private static int _fBORDER_1STYLE_1DOUBLE = 4;
 
-private static int _fBORDER_1STYLE_1GROOVE = 5;
 
-private static int _fBORDER_1STYLE_1RIDGE = 6;
 
-private static int _fBORDER_1STYLE_1INSET = 7;
 
-private static int _fBORDER_1STYLE_1OUTSET = 8;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fBORDER_1OUTLINE_1PROPERTIES;
 
-private static int _fBORDER = 0;
 
-private static int _fOUTLINE = 1;
 
-private static int _fWIDTH = 0;
 
-private static int _fSTYLE = 1;
 
-private static int _fCOLOR = 2;
 
-private static int _fVISIBILITY_1HIDDEN = 0;
 
-private static int _fVISIBILITY_1VISIBLE = 1;
 
-private static int _fVISIBILITY_1COLLAPSE = 2;
 
-private static int _fBORDER_1COLLAPSE_1COLLAPSE = 0;
 
-private static int _fBORDER_1COLLAPSE_1SEPARATE = 1;
 
-private static int _fEMPTY_1CELLS_1HIDE = 0;
 
-private static int _fEMPTY_1CELLS_1SHOW = 1;
 
-private static int _fCAPTION_1SIDE_1BOTTOM = 0;
 
-private static int _fCAPTION_1SIDE_1TOP = 1;
 
-private static int _fDIRECTION_1RTL = 0;
 
-private static int _fDIRECTION_1LTR = 1;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSEngine: void <init>()]
@@ -1123,7 +1073,6 @@ private void setTextTransformRecursive(global::com.codename1.ui.Component n1, in
     label123:;
     ((global::com.codename1.ui.Label) _r5_o).setText((global::java.lang.String) _r6_o);
     goto label36;
-    label128:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: void setTextTransformRecursive(com.codename1.ui.Component, int)]
 }
 
@@ -3382,9 +3331,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     label2722:;
     _r20.i = _r20.i + 1;
     goto label2622;
-    label2726:;
-    label2734:;
-    label2746:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: void applyStyleToUIElement(com.codename1.ui.Component, com.codename1.ui.html.CSSElement, com.codename1.ui.html.HTMLElement, com.codename1.ui.html.HTMLComponent)]
 }
 
@@ -3772,7 +3718,6 @@ public virtual global::System.Object createBorder(global::com.codename1.ui.html.
     label161:;
     _r0_o = global::com.codename1.ui.plaf.Border.createDashedBorder((int) _r3.i, (int) _r1.i);
     goto label96;
-    label166:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: com.codename1.ui.plaf.Border createBorder(com.codename1.ui.html.CSSElement, com.codename1.ui.Component, int, int, int)]
 }
 
@@ -4150,7 +4095,6 @@ private void setMatchingFont(global::com.codename1.ui.html.HTMLComponent n1, glo
     _r4.i = _r24.i;
     _r8_o = ((global::com.codename1.ui.html.HTMLComponent) _r0_o).getClosestFont((global::java.lang.String) _r1_o, (int) _r2.i, (int) _r3.i, (int) _r4.i);
     goto label383;
-    label448:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: void setMatchingFont(com.codename1.ui.html.HTMLComponent, com.codename1.ui.Component, java.lang.String, int, int, int, com.codename1.ui.html.CSSElement)]
 }
 
@@ -4851,9 +4795,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     global::com.codename1.ui.html.CSSEngine._fBORDER_1OUTLINE_1PROPERTIES = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
-    label36:;
-    label44:;
-    label54:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: void <clinit>()]
 }
 

@@ -9,15 +9,10 @@ public int _flistType;
 
 public static int _fLIST_1NUMERIC = 0;
 
-private static int _fLIST_1UPPERCASE = 1;
 
-private static int _fLIST_1LOWERCASE = 2;
 
-private static int _fLIST_1ROMAN_1UPPER = 3;
 
-private static int _fLIST_1ROMAN_1LOWER = 4;
 
-private static int _fLIST_1NONE = 5;
 
 public global::com.codename1.ui.html.HTMLComponent _fthis_20;
 
@@ -84,7 +79,6 @@ private global::System.Object getListIndexString(int n1, int n2){
     _r0_o = ((global::com.codename1.ui.html.HTMLComponent_2HTMLListIndex) _r3_o).getRomanIndexString((int) _r4.i);
     _r0_o = ((global::java.lang.String) _r0_o).toLowerCase();
     goto label23;
-    label78:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent$HTMLListIndex: java.lang.String getListIndexString(int, int)]
 }
 

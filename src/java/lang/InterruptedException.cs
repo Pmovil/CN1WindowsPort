@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class InterruptedException: global::java.lang.Exception {
-private static long _fserialVersionUID = 6700697376100628473L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.InterruptedException: void <init>()]

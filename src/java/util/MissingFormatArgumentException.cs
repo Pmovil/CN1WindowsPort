@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class MissingFormatArgumentException: global::java.util.IllegalFormatException {
-private static long _fserialVersionUID = 19190115L;
 
 private global::java.lang.String _fs;
 

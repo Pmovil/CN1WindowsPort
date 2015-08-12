@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class IllegalFormatWidthException: global::java.util.IllegalFormatException {
-private static long _fserialVersionUID = 16660902L;
 
 private int _fw;
 

@@ -8,7 +8,6 @@ static SimpleTimeZone() {
     @static();
 }
 
-private static long _fserialVersionUID = -403250971215465050L;
 
 private int _frawOffset;
 
@@ -34,13 +33,9 @@ private int _fstartMode;
 
 private int _fendMode;
 
-private static int _fDOM_1MODE = 1;
 
-private static int _fDOW_1IN_1MONTH_1MODE = 2;
 
-private static int _fDOW_1GE_1DOM_1MODE = 3;
 
-private static int _fDOW_1LE_1DOM_1MODE = 4;
 
 public static int _fUTC_1TIME = 2;
 

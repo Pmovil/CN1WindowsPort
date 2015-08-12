@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.testing {
 public abstract class DeviceRunner: global::java.lang.Object {
-private static int _fVERSION = 1;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.DeviceRunner: void <init>()]

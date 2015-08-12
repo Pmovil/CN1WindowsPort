@@ -975,7 +975,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     global::com.codename1.ui.html.HTMLUtils._fHTML_1BASIC_1CHAR_1ENTITY_1STRINGS = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
-    label608:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLUtils: void <clinit>()]
 }
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class LinkedList: global::java.util.AbstractSequentialList,global::java.util.List,global::java.util.Deque,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = 876323262645176354L;
 
 public int _fsize;
 

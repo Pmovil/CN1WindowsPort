@@ -466,7 +466,6 @@ public override global::System.Object getIconFromState(){
     if (_r0_o != null) goto label56;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getMaskedIcon();
     goto label56;
-    label90:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getIconFromState()]
 }
 
@@ -978,7 +977,6 @@ public override bool animate(){
     label94:;
     _r0.i = _r2.i;
     goto label93;
-    label96:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: boolean animate()]
 }
 

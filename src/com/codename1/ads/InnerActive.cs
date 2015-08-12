@@ -28,7 +28,6 @@ private static global::java.lang.String _fprotocolVersion;
 
 private global::java.lang.String _fhid;
 
-private global::java.lang.String _fcid;
 
 private bool _fbanner;
 

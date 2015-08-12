@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NoClassDefFoundError: global::java.lang.LinkageError {
-private static long _fserialVersionUID = 9095859863287012458L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoClassDefFoundError: void <init>()]

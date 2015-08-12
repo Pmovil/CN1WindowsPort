@@ -8,7 +8,6 @@ static RuntimePermission() {
     @static();
 }
 
-private static long _fserialVersionUID = 7399184964622342223L;
 
 public static global::java.lang.RuntimePermission _fpermissionToSetSecurityManager;
 

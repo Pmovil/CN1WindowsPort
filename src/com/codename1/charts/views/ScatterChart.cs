@@ -12,9 +12,7 @@ static ScatterChart() {
 
 public static global::java.lang.String _fTYPE;
 
-private static float _fSIZE = (float)3.0D;
 
-private static int _fSHAPE_1WIDTH = 10;
 
 private float _fsize;
 

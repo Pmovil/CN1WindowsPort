@@ -178,7 +178,6 @@ public virtual bool matches(global::org.w3c.dom.Node n1, int n2, int n3){
     label46:;
     _r0.i = _r0.i + 1;
     goto label25;
-    label50:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Selector: boolean matches(org.w3c.dom.Node, int, int)]
 }
 
@@ -499,7 +498,6 @@ public virtual void addCandidates(global::org.w3c.dom.Node n1, global::java.util
     label62:;
     ((global::java.util.Collection) _r5_o).add((global::java.lang.Object) _r4_o);
     goto label7;
-    label66:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Selector: void addCandidates(org.w3c.dom.Node, java.util.Collection)]
 }
 
@@ -1010,7 +1008,6 @@ public override global::System.Object toString(){
     ((global::gnu.java.lang.CPStringBuilder) _r1_o).append((global::java.lang.Object) _r2_o);
     _r0.i = _r0.i + 1;
     goto label172;
-    label188:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Selector: java.lang.String toString()]
 }
 

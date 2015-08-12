@@ -8,11 +8,8 @@ static DomNode() {
     @static();
 }
 
-private static int _fNKIDS_1DELTA = 8;
 
-private static int _fANCESTORS_1INIT = 20;
 
-private static int _fNOTIFICATIONS_1INIT = 10;
 
 public static bool _freportMutations = 1!=0;
 
@@ -401,11 +398,6 @@ private void checkMisc(global::gnu.xml.dom.DomNode n1){
     case 8: goto label122;
     }
     goto label73;
-    label140:;
-    label166:;
-    label184:;
-    label194:;
-    label214:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: void checkMisc(gnu.xml.dom.DomNode)]
 }
 
@@ -3192,7 +3184,6 @@ public virtual void normalize(){
     _r1.i = _r7.i + 1;
     _r7.i = _r1.i;
     goto label74;
-    label100:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: void normalize()]
 }
 
@@ -3453,7 +3444,6 @@ public virtual global::System.Object getTextContent(bool n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     _r1_o = _r2_o;
     goto label8;
-    label72:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: java.lang.String getTextContent(boolean)]
 }
 
@@ -3497,7 +3487,6 @@ public virtual void setTextContent(global::java.lang.String n1){
     label29:;
     ((global::gnu.xml.dom.DomNode) _r2_o).setNodeValue((global::java.lang.String) _r3_o);
     goto label5;
-    label34:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: void setTextContent(java.lang.String)]
 }
 
@@ -3721,7 +3710,6 @@ public virtual bool isEqualNode(global::org.w3c.dom.Node n1){
     label183:;
     _r0.i = _r5.i;
     goto label6;
-    label186:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: boolean isEqualNode(org.w3c.dom.Node)]
 }
 
@@ -4027,7 +4015,6 @@ public virtual global::System.Object nodeTypeToString(short n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69))}));
     goto label5;
-    label42:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNode: java.lang.String nodeTypeToString(short)]
 }
 

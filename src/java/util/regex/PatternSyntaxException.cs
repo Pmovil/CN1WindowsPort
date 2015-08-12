@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class PatternSyntaxException: global::java.lang.IllegalArgumentException {
-private static long _fserialVersionUID = -3864639126226059218L;
 
 private global::java.lang.String _fdesc;
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace javax.xml.xpath {
 public class XPathFunctionException: global::javax.xml.xpath.XPathExpressionException {
-private static long _fserialVersionUID = -1837080260374986980L;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.String)]

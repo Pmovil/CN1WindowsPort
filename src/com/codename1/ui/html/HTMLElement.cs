@@ -404,11 +404,8 @@ public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fALLOWED_
 
 public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fALLOWED_1TABLE_1RULES_1STRINGS;
 
-private static int _fDIGITS = 1;
 
-private static int _fHEX = 2;
 
-private static int _fABC = 4;
 
 public static int _fCOLOR_1AQUA = 65535;
 
@@ -625,7 +622,6 @@ public static int getColor(global::java.lang.String n1, int n2){
     _ex = null;
     _r9.i = _r10.i;
     goto label11;
-    label226:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: int getColor(java.lang.String, int)]
 }
 
@@ -1235,7 +1231,6 @@ private bool isValid(int n1, global::java.lang.String n2){
     _r0_o = _r6_o;
     _r0.i = ((global::com.codename1.ui.html.HTMLElement) _r0_o).verify((global::java.lang.String) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<char>) _r3_o, (int) _r4.i, (int) _r5.i) ? 1 : 0;
     goto label7;
-    label118:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: boolean isValid(int, java.lang.String)]
 }
 
@@ -4132,40 +4127,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{15792383, 16444375, 65535, 8388564, 15794175, 16119260, 16770244, 0, 16772045, 255, 9055202, 10824234, 14596231, 6266528, 8388352, 13789470, 16744272, 6591981, 16775388, 14423100, 65535, 139, 35723, 12092939, 11119017, 11119017, 25600, 12433259, 9109643, 5597999, 16747520, 10040012, 9109504, 15308410, 9419919, 4734347, 3100495, 3100495, 52945, 9699539, 16716947, 49151, 6908265, 6908265, 2003199, 11674146, 16775920, 2263842, 16711935, 14474460, 16316671, 16766720, 14329120, 8421504, 8421504, 32768, 11403055, 15794160, 16738740, 13458524, 4915330, 16777200, 15787660, 15132410, 16773365, 8190976, 16775885, 11393254, 15761536, 14745599, 16448210, 13882323, 13882323, 9498256, 16758465, 16752762, 2142890, 8900346, 7833753, 7833753, 11584734, 16777184, 65280, 3329330, 16445670, 16711935, 8388608, 6737322, 205, 12211667, 9662680, 3978097, 8087790, 64154, 4772300, 13047173, 1644912, 16121850, 16770273, 16770229, 16768685, 128, 16643558, 8421376, 7048739, 16753920, 16729344, 14315734, 15657130, 10025880, 11529966, 14184595, 16773077, 16767673, 13468991, 16761035, 14524637, 11591910, 8388736, 16711680, 12357519, 4286945, 9127187, 16416882, 16032864, 3050327, 16774638, 10506797, 12632256, 8900331, 6970061, 7372944, 7372944, 16775930, 65407, 4620980, 13808780, 32896, 14204888, 16737095, 4251856, 15631086, 16113331, 16777215, 16119285, 16776960, 10145074});
     global::com.codename1.ui.html.HTMLElement._fMORE_1COLOR_1VALS = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label2924:;
-    label2942:;
-    label2952:;
-    label2962:;
-    label2970:;
-    label2978:;
-    label2988:;
-    label3018:;
-    label3026:;
-    label3040:;
-    label3050:;
-    label3068:;
-    label3082:;
-    label3098:;
-    label3114:;
-    label3122:;
-    label3146:;
-    label3156:;
-    label3168:;
-    label3178:;
-    label3186:;
-    label3196:;
-    label3206:;
-    label3218:;
-    label3226:;
-    label3234:;
-    label3242:;
-    label3272:;
-    label3424:;
-    label3432:;
-    label3440:;
-    label3452:;
-    label3464:;
-    label3504:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: void <clinit>()]
 }
 

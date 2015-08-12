@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NoSuchFieldError: global::java.lang.IncompatibleClassChangeError {
-private static long _fserialVersionUID = -3456430195886129035L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoSuchFieldError: void <init>()]

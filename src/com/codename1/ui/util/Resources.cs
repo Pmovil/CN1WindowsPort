@@ -589,7 +589,6 @@ private void openFileImpl(global::java.io.InputStream n1){
     goto label121;
     label250:;
     return;
-    label252:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: void openFileImpl(java.io.InputStream)]
 }
 
@@ -1969,7 +1968,6 @@ private global::System.Object createImageBorder(global::org.xmlvm._nArrayAdapter
     _r8_o = null;
     _r0_o = global::com.codename1.ui.plaf.Border.createImageBorder((global::com.codename1.ui.Image) _r0_o, (global::com.codename1.ui.Image) _r1_o, (global::com.codename1.ui.Image) _r2_o, (global::com.codename1.ui.Image) _r3_o, (global::com.codename1.ui.Image) _r4_o, (global::com.codename1.ui.Image) _r5_o, (global::com.codename1.ui.Image) _r6_o, (global::com.codename1.ui.Image) _r7_o, (global::com.codename1.ui.Image) _r8_o);
     goto label37;
-    label230:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border createImageBorder(java.lang.String[])]
 }
 
@@ -2264,7 +2262,6 @@ public virtual global::System.Object createImage(global::java.io.DataInputStream
     _r14_o = ((global::com.codename1.ui.util.Resources) _r21_o).readTimeline((global::java.io.DataInputStream) _r22_o);
     _r17_o = _r14_o;
     goto label45;
-    label448:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image createImage(java.io.DataInputStream)]
 }
 
@@ -2758,7 +2755,6 @@ public virtual global::System.Object createTrueTypeFont(global::com.codename1.ui
     _r2.i = ((global::com.codename1.ui.Font) _r6_o).getStyle();
     _r1_o = ((global::com.codename1.ui.Font) _r1_o).derive((float) _r9.f, (int) _r2.i);
     goto label22;
-    label94:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font createTrueTypeFont(com.codename1.ui.Font, java.lang.String, java.lang.String, float, int)]
 }
 
@@ -3688,7 +3684,6 @@ public virtual global::System.Object loadTheme(global::java.lang.String n1, bool
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r3_o);
     label1641:;
     return (global::java.util.Hashtable) _r31_o;
-    label1642:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable loadTheme(java.lang.String, boolean)]
 }
 
@@ -3812,7 +3807,6 @@ private global::System.Object createBorder(global::java.io.DataInputStream n1, i
     label212:;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r5_o).readScaledImageBorder((global::java.io.DataInputStream) _r6_o);
     goto label4;
-    label218:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, int)]
 }
 
@@ -3924,7 +3918,6 @@ private global::System.Object createBorder(global::java.io.DataInputStream n1, b
     label202:;
     _r2_o = _r0_o;
     goto label8;
-    label206:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, boolean)]
 }
 

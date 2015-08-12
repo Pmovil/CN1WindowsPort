@@ -12,7 +12,6 @@ static BarChart() {
 
 public static global::java.lang.String _fTYPE;
 
-private static int _fSHAPE_1WIDTH = 12;
 
 public global::com.codename1.charts.views.BarChart_2Type _fmType;
 

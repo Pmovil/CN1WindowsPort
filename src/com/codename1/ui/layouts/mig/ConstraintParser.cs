@@ -1328,8 +1328,6 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     label1159:;
     _r9_o = _r4_o;
     goto label12;
-    label1162:;
-    label1170:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.LC parseLayoutConstraint(java.lang.String)]
 }
 
@@ -1787,9 +1785,6 @@ private static global::System.Object parseDimConstraint(global::java.lang.String
     goto label30;
     label349:;
     return (global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o;
-    label350:;
-    label358:;
-    label366:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.DimConstraint parseDimConstraint(java.lang.String, com.codename1.ui.layouts.mig.BoundSize, com.codename1.ui.layouts.mig.BoundSize, boolean)]
 }
 
@@ -4795,15 +4790,6 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     label2550:;
     _r11_o = _r2_o;
     goto label12;
-    label2554:;
-    label2562:;
-    label2570:;
-    label2578:;
-    label2590:;
-    label2598:;
-    label2606:;
-    label2614:;
-    label2626:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.CC parseComponentConstraint(java.lang.String)]
 }
 

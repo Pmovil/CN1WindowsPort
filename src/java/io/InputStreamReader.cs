@@ -5,7 +5,6 @@ namespace java.io {
 public class InputStreamReader: global::java.io.Reader {
 private global::java.io.InputStream _fin;
 
-private static int _fBUFFER_1SIZE = 8192;
 
 private bool _fendOfInput;
 

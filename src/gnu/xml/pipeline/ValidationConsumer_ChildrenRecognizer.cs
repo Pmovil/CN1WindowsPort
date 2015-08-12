@@ -534,7 +534,6 @@ private int populate(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
     _r4.i = _r2.i;
     _r2_o = _r8_o;
     goto label126;
-    label298:;
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: int populate(char[], int)]
 }
 

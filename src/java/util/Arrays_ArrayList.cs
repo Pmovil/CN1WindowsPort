@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Arrays_2ArrayList: global::java.util.AbstractList,global::java.util.List,global::java.io.Serializable,global::java.util.RandomAccess {
-private static long _fserialVersionUID = -2764017481108945198L;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _fa;
 

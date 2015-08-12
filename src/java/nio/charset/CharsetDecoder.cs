@@ -3,13 +3,9 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public abstract class CharsetDecoder: global::java.lang.Object {
-private static int _fINIT = 0;
 
-private static int _fONGOING = 1;
 
-private static int _fEND = 2;
 
-private static int _fFLUSH = 3;
 
 private float _faverChars;
 

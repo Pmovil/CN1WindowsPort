@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.io.tar {
 public class TarInputStream: global::com.codename1.io.BufferedInputStream {
-private static int _fSKIP_1BUFFER_1SIZE = 2048;
 
 private global::com.codename1.io.tar.TarEntry _fcurrentEntry;
 

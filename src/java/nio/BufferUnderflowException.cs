@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio {
 public class BufferUnderflowException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -1713313658691622206L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.BufferUnderflowException: void <init>()]

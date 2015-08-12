@@ -8,7 +8,6 @@ static Proxy() {
     @static();
 }
 
-private static long _fserialVersionUID = -2222568056686623797L;
 
 private static global::java.util.Map _floaderCache;
 

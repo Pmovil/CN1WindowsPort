@@ -114,7 +114,6 @@ public virtual void initTransition(){
     _r0_o = global::com.codename1.ui.animations.Motion.createEaseInOutMotion((int) _r1.i, (int) _r2.i, (int) _r0.i);
     ((global::com.codename1.charts.transitions.SeriesTransition) _r3_o)._fmotion = (global::com.codename1.ui.animations.Motion) _r0_o;
     goto label12;
-    label62:;
 //XMLVM_END_WRAPPER[com.codename1.charts.transitions.SeriesTransition: void initTransition()]
 }
 

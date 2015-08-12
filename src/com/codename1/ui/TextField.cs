@@ -3429,7 +3429,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     global::com.codename1.ui.TextField._fDEFAULT_1KEY_1CODES = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
-    label122:;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: void <clinit>()]
 }
 

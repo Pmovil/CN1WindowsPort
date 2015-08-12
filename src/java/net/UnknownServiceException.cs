@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class UnknownServiceException: global::java.io.IOException {
-private static long _fserialVersionUID = -4169033248853639508L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.UnknownServiceException: void <init>()]

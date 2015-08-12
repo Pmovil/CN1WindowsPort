@@ -275,7 +275,6 @@ private void drawGradientBackground(global::com.codename1.ui.plaf.Style n1, glob
     _r10.i = _r20.i;
     ((global::com.codename1.ui.Graphics) _r4_o).fillRectRadialGradient((int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i, (float) _r11.f, (float) _r12.f, (float) _r13.f);
     goto label34;
-    label294:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component$BGPainter: void drawGradientBackground(com.codename1.ui.plaf.Style, com.codename1.ui.Graphics, int, int, int, int)]
 }
 
@@ -901,7 +900,6 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     _r6_o = _r34_o;
     ((global::com.codename1.ui.Component_2BGPainter) _r4_o).drawGradientBackground((global::com.codename1.ui.plaf.Style) _r5_o, (global::com.codename1.ui.Graphics) _r6_o, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i);
     goto label25;
-    label1104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component$BGPainter: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
 }
 

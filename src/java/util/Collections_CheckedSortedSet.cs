@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedSortedSet: global::java.util.Collections_2CheckedSet,global::java.util.SortedSet {
-private static long _fserialVersionUID = 1599911165492914959L;
 
 private global::java.util.SortedSet _fss;
 

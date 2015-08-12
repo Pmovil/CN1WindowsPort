@@ -315,7 +315,6 @@ private void validateSize(){
     _r1.i = 0;
     global::java.util.Arrays.fill((global::org.xmlvm._nArrayAdapter<int>) _r0_o, (int) _r1.i);
     goto label243;
-    label262:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid$CompWrap: void validateSize()]
 }
 
@@ -423,7 +422,6 @@ private int getSize(global::com.codename1.ui.layouts.mig.BoundSize n1, int n2, b
     _r4.f = (float) _r4.i;
     _r1.f = _r4.f;
     goto label110;
-    label128:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid$CompWrap: int getSize(com.codename1.ui.layouts.mig.BoundSize, int, boolean, boolean, int)]
 }
 
@@ -900,7 +898,6 @@ private void mergeGapSizes(global::org.xmlvm._nArrayAdapter<int> n1, bool n2, bo
     _r2.i = global::java.lang.Math.min((int) _r2.i, (int) _r3.i);
     ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r6.i] = _r2.i;
     goto label24;
-    label76:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid$CompWrap: void mergeGapSizes(int[], boolean, boolean)]
 }
 

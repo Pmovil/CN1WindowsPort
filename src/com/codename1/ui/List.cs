@@ -14,7 +14,6 @@ public static int _fFIXED_1NONE_1CYCLIC = 1;
 
 public static int _fFIXED_1NONE_1ONE_1ELEMENT_1MARGIN_1FROM_1EDGE = 2;
 
-private static int _fFIXED_1NONE_1BOUNDRY = 9;
 
 public static int _fFIXED_1LEAD = 10;
 
@@ -1928,8 +1927,6 @@ private void calculateComponentPosition(int n1, int n2, global::com.codename1.ui
     _r4.i = _r21.i;
     _r19.i = ((global::com.codename1.ui.List) _r0_o).recalcOffset((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i);
     goto label451;
-    label654:;
-    label664:;
 //XMLVM_END_WRAPPER[com.codename1.ui.List: void calculateComponentPosition(int, int, com.codename1.ui.geom.Rectangle, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, boolean)]
 }
 

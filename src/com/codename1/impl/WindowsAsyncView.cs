@@ -9,7 +9,6 @@ using System.Diagnostics;
 using com.codename1.ui.geom;
 using System.Threading.Tasks;
 using Microsoft.Graphics.Canvas.UI;
-using Microsoft.Graphics.Canvas.UI.Xaml;
 using System;
 
 namespace com.codename1.impl
@@ -22,7 +21,6 @@ namespace com.codename1.impl
         private NativeGraphics _graphics;
         private static IList<AsyncOp> renderingOperations = new List<AsyncOp>();
         private static IList<AsyncOp> pendingRenderingOperations = new List<AsyncOp>();
-        private CanvasRenderTarget bitmap;
 
         public WindowsAsyncView(CanvasControl screen)
         {

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace javax.xml.@namespace {
 public class QName: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = 4418622981026545151L;
 
 private global::java.lang.String _fnamespaceURI;
 

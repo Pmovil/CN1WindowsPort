@@ -669,7 +669,6 @@ public static global::System.Object quoteReplacement(global::java.lang.String n1
     ((global::java.lang.StringBuilder) _r0_o).append((char) _r4.i);
     ((global::java.lang.StringBuilder) _r0_o).append((char) _r4.i);
     goto label51;
-    label68:;
 //XMLVM_END_WRAPPER[java.util.regex.Matcher: java.lang.String quoteReplacement(java.lang.String)]
 }
 

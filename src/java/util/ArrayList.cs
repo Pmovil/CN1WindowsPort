@@ -8,7 +8,6 @@ static ArrayList() {
     @static();
 }
 
-private static long _fserialVersionUID = 8683452581122892189L;
 
 private int _ffirstIndex;
 

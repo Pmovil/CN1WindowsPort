@@ -608,7 +608,6 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r2.i = _r6.i;
     _r31.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
     goto label447;
-    label674:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: void layoutContainer(com.codename1.ui.Container)]
 }
 

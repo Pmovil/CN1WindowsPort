@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class SocketException: global::java.io.IOException {
-private static long _fserialVersionUID = -5935874303556886934L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketException: void <init>()]

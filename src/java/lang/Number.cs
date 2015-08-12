@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public abstract class Number: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = -8742448824652078965L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Number: void <init>()]

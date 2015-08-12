@@ -205,7 +205,6 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     label188:;
     _r2.i = _r4.i;
     goto label50;
-    label192:;
 //XMLVM_END_WRAPPER[java.util.regex.DecomposedCharSet: int matches(int, java.lang.CharSequence, java.util.regex.MatchResultImpl)]
 }
 

@@ -3,9 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public class SerializablePermission: global::java.security.BasicPermission {
-private static long _fserialVersionUID = 8537212141160296410L;
 
-private global::java.lang.String _factions;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.SerializablePermission: void <init>(java.lang.String)]

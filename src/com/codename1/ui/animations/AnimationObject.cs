@@ -536,7 +536,6 @@ private global::System.Object createMotion(int n1, int n2, int n3, int n4, int n
     _r1.i = _r6.i + _r7.i;
     _r0_o = global::com.codename1.ui.animations.Motion.createSplineMotion((int) _r8.i, (int) _r9.i, (int) _r1.i);
     goto label34;
-    label46:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.AnimationObject: com.codename1.ui.animations.Motion createMotion(int, int, int, int, int)]
 }
 

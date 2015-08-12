@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class DuplicateFormatFlagsException: global::java.util.IllegalFormatException {
-private static long _fserialVersionUID = 18890531L;
 
 private global::java.lang.String _fflags;
 

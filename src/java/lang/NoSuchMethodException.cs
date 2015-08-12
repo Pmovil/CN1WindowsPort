@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NoSuchMethodException: global::java.lang.Exception {
-private static long _fserialVersionUID = 5034388446362600923L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoSuchMethodException: void <init>()]

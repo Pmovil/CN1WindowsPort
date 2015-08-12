@@ -176,7 +176,6 @@ private void initNativeTransform(){
     _r1_o = ((global::com.codename1.ui.Transform) _r5_o)._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).makeTransformIdentity();
     goto label62;
-    label108:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: void initNativeTransform()]
 }
 
@@ -987,7 +986,6 @@ public virtual void setTransform(global::com.codename1.ui.Transform n1){
     _r0.i = 1;
     ((global::com.codename1.ui.Transform) _r3_o)._fdirty = 0!=_r0.i;
     goto label48;
-    label54:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: void setTransform(com.codename1.ui.Transform)]
 }
 
@@ -1176,7 +1174,6 @@ public virtual void transformPoint(global::org.xmlvm._nArrayAdapter<float> n1, g
     if (_r1.i <= _r4.i) goto label20;
     ((global::org.xmlvm._nArrayAdapter<float>) _r10_o)[_r4.i] = _r7.f;
     goto label20;
-    label90:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: void transformPoint(float[], float[])]
 }
 

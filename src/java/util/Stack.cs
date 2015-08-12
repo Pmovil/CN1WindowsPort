@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Stack: global::java.util.Vector {
-private static long _fserialVersionUID = 1224463164541339165L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: void <init>()]

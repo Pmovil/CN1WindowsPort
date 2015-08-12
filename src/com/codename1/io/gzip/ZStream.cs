@@ -3,39 +3,22 @@
 using org.xmlvm;
 namespace com.codename1.io.gzip {
 public class ZStream: global::java.lang.Object {
-private static int _fMAX_1WBITS = 15;
 
-private static int _fDEF_1WBITS = 15;
 
-private static int _fZ_1NO_1FLUSH = 0;
 
-private static int _fZ_1PARTIAL_1FLUSH = 1;
 
-private static int _fZ_1SYNC_1FLUSH = 2;
 
-private static int _fZ_1FULL_1FLUSH = 3;
 
-private static int _fZ_1FINISH = 4;
 
-private static int _fMAX_1MEM_1LEVEL = 9;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
 public global::org.xmlvm._nArrayAdapter<sbyte> _fnext_1in;
 

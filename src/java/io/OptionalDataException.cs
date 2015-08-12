@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class OptionalDataException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = -8011121865681257820L;
 
 public bool _feof;
 

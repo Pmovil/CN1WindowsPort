@@ -326,7 +326,6 @@ public virtual void setChildSize(global::com.codename1.ui.layouts.GroupLayout_2S
     _r2.i = _r2.i + _r7.i;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r5_o).setSize((int) _r6.i, (int) _r2.i, (int) _r1.i);
     goto label30;
-    label48:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void setChildSize(com.codename1.ui.layouts.GroupLayout$Spring, int, int, int)]
 }
 

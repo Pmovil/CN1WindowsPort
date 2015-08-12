@@ -8,7 +8,6 @@ static Vector() {
     @static();
 }
 
-private static long _fserialVersionUID = -2767605614048989439L;
 
 public int _felementCount;
 
@@ -16,7 +15,6 @@ public global::org.xmlvm._nArrayAdapter<global::System.Object> _felementData;
 
 public int _fcapacityIncrement;
 
-private static int _fDEFAULT_1SIZE = 10;
 
 public static bool _f_2assertionsDisabled;
 

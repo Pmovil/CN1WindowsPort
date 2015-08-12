@@ -1333,7 +1333,6 @@ private bool isValidIP6Address(global::java.lang.String n1){
     _r5.i = _r6.i;
     _r6.i = _r7.i;
     goto label173;
-    label292:;
 //XMLVM_END_WRAPPER[java.net.URI$Helper: boolean isValidIP6Address(java.lang.String)]
 }
 

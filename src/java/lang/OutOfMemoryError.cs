@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class OutOfMemoryError: global::java.lang.VirtualMachineError {
-private static long _fserialVersionUID = 8228564086184010517L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.OutOfMemoryError: void <init>()]

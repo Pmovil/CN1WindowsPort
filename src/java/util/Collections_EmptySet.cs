@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2EmptySet: global::java.util.AbstractSet,global::java.io.Serializable {
-private static long _fserialVersionUID = 1582296315990362920L;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptySet: void <init>()]

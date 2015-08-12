@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public class MalformedInputException: global::java.nio.charset.CharacterCodingException {
-private static long _fserialVersionUID = -3438823399834806194L;
 
 private int _finputLength;
 

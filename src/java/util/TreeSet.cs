@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeSet: global::java.util.AbstractSet,global::java.util.NavigableSet,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = -2479143000061671589L;
 
 private global::java.util.NavigableMap _fbackingMap;
 

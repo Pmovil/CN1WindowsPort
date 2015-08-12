@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public abstract class SocketAddress: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = 5215720748342549866L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketAddress: void <init>()]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.util.regex {
 public class StringReader: global::java.io.Reader {
-private static char _fNEW_1LINE = (char)10;
 
 private global::java.lang.String _fstr;
 

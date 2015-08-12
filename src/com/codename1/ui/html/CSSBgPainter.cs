@@ -265,7 +265,6 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     ((global::com.codename1.ui.Graphics) _r15_o).drawImage((global::com.codename1.ui.Image) _r0_o, (int) _r5.i, (int) _r6.i);
     _r13.i = _r13.i + _r7.i;
     goto label202;
-    label218:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSBgPainter: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
 }
 

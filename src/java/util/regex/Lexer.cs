@@ -1208,13 +1208,6 @@ private void movePointer(){
     label771:;
     _r1.i = _r4.i;
     goto label161;
-    label774:;
-    label780:;
-    label1032:;
-    label1082:;
-    label1092:;
-    label1110:;
-    label1120:;
 //XMLVM_END_WRAPPER[java.util.regex.Lexer: void movePointer()]
 }
 
@@ -1515,7 +1508,6 @@ private global::System.Object processQuantifier(int n1){
     label232:;
     _r0.i = _r2.i;
     goto label120;
-    label234:;
 //XMLVM_END_WRAPPER[java.util.regex.Lexer: java.util.regex.Quantifier processQuantifier(int)]
 }
 
@@ -1803,7 +1795,6 @@ private int readOctals(){
     label78:;
     _r3.i = _r4.i;
     goto label26;
-    label80:;
 //XMLVM_END_WRAPPER[java.util.regex.Lexer: int readOctals()]
 }
 
@@ -1931,7 +1922,6 @@ private int readFlags(){
     ((global::java.util.regex.Lexer) _r6_o).nextIndex();
     _r0.i = _r0.i | 256;
     goto label125;
-    label132:;
 //XMLVM_END_WRAPPER[java.util.regex.Lexer: int readFlags()]
 }
 

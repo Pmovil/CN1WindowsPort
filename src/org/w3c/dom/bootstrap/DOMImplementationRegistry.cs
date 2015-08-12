@@ -12,7 +12,6 @@ static DOMImplementationRegistry() {
 
 public static global::java.lang.String _fPROPERTY;
 
-private static int _fDEFAULT_1LINE_1LENGTH = 80;
 
 private global::java.util.Vector _fsources;
 

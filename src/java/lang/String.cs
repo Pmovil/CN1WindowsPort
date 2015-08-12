@@ -8,7 +8,6 @@ static String() {
     @static();
 }
 
-private static long _fserialVersionUID = -6849794470754667710L;
 
 private global::org.apache.harmony.niochar.charset.UTF_18 _fcharset;
 

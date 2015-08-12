@@ -3,29 +3,17 @@
 using org.xmlvm;
 namespace java.lang {
 public class Math: global::java.lang.Object {
-private static int _fFLOAT_1EXPONENT_1BIAS = 127;
 
-private static int _fFLOAT_1EXPONENT_1MASK = 2139095040;
 
-private static int _fDOUBLE_1NON_1MANTISSA_1BITS = 12;
 
-private static int _fDOUBLE_1MANTISSA_1BITS = 52;
 
-private static int _fFLOAT_1NON_1MANTISSA_1BITS = 9;
 
-private static int _fFLOAT_1MANTISSA_1BITS = 23;
 
-private static int _fDOUBLE_1EXPONENT_1BIAS = 1023;
 
-private static long _fDOUBLE_1EXPONENT_1MASK = 9218868437227405312L;
 
-private static int _fFLOAT_1MANTISSA_1MASK = 8388607;
 
-private static int _fFLOAT_1SIGN_1MASK = -2147483648;
 
-private static long _fDOUBLE_1MANTISSA_1MASK = 4503599627370495L;
 
-private static long _fDOUBLE_1SIGN_1MASK = -9223372036854775808L;
 
 public static double _fE = 2.718281828459045D;
 

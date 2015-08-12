@@ -2615,8 +2615,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r5_o = _ex.getJavaException();
     _ex = null;
     goto label526;
-    label1724:;
-    label1774:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.SAXParser: void parse(org.xml.sax.InputSource)]
 }
 

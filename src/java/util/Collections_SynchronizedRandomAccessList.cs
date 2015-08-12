@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2SynchronizedRandomAccessList: global::java.util.Collections_2SynchronizedList,global::java.util.RandomAccess {
-private static long _fserialVersionUID = 1530674583602358482L;
 
 public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List)]

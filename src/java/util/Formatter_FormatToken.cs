@@ -25,7 +25,6 @@ public static int _fFLAG_1COMMA = 32;
 
 public static int _fFLAG_1PARENTHESIS = 64;
 
-private static int _fFLAGT_1TYPE_1COUNT = 6;
 
 private int _fformatStringStartIndex;
 
@@ -300,7 +299,6 @@ public virtual bool setFlag(char n1){
     ((global::java.lang.StringBuilder) _r0_o).append((char) _r4.i);
     _r0.i = _r2.i;
     goto label5;
-    label50:;
 //XMLVM_END_WRAPPER[java.util.Formatter$FormatToken: boolean setFlag(char)]
 }
 

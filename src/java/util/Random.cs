@@ -3,9 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class Random: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = 3905348978240129619L;
 
-private static long _fmultiplier = 25214903917L;
 
 private bool _fhaveNextNextGaussian;
 

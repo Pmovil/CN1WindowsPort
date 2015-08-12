@@ -992,7 +992,6 @@ public virtual void run(){
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest;
     _r9_o = ((global::com.codename1.io.ConnectionRequest) _r9_o).getDisposeOnCompletion();
     goto label831;
-    label906:;
 //XMLVM_END_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void run()]
 }
 

@@ -207,7 +207,6 @@ public override int getBaselineResizeBehavior(){
     label11:;
     _r0.i = 3;
     goto label6;
-    label14:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: int getBaselineResizeBehavior()]
 }
 

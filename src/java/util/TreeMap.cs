@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap: global::java.util.AbstractMap,global::java.util.NavigableMap,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = 919286545866124006L;
 
 public int _fsize;
 

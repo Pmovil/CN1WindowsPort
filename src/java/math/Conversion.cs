@@ -25,8 +25,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{-2147483648, 1162261467, 1073741824, 1220703125, 362797056, 1977326743, 1073741824, 387420489, 1000000000, 214358881, 429981696, 815730721, 1475789056, 170859375, 268435456, 410338673, 612220032, 893871739, 1280000000, 1801088541, 113379904, 148035889, 191102976, 244140625, 308915776, 387420489, 481890304, 594823321, 729000000, 887503681, 1073741824, 1291467969, 1544804416, 1838265625, 60466176});
     global::java.math.Conversion._fbigRadices = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label20:;
-    label98:;
 //XMLVM_END_WRAPPER[java.math.Conversion: void <clinit>()]
 }
 
@@ -629,7 +627,6 @@ public static global::System.Object toDecimalScaledString(global::java.math.BigI
     label547:;
     _r9.l = _r11.l;
     goto label109;
-    label550:;
 //XMLVM_END_WRAPPER[java.math.Conversion: java.lang.String toDecimalScaledString(java.math.BigInteger, int)]
 }
 
@@ -889,7 +886,6 @@ public static global::System.Object toDecimalScaledString(long n1, int n2){
     label324:;
     _r10.l = _r4.l;
     goto label87;
-    label328:;
 //XMLVM_END_WRAPPER[java.math.Conversion: java.lang.String toDecimalScaledString(long, int)]
 }
 

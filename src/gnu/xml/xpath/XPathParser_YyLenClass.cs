@@ -19,7 +19,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[]{2, 1, 1, 1, 1, 2, 2, 1, 3, 3, 1, 2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 3, 1, 3, 1, 1, 1, 3, 4, 1, 3, 1, 3, 1, 1, 3, 3, 1, 2, 1, 3, 1, 3, 1, 3, 3, 1, 3, 3, 3, 3, 1, 3, 3, 1, 3, 3, 3, 1, 2, 1, 2, 3, 2, 1, 2, 1, 3, 1, 1, 3, 1, 1, 1, 1});
     global::gnu.xml.xpath.XPathParser_2YyLenClass._fyyLen = (global::org.xmlvm._nArrayAdapter<short>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathParser$YyLenClass: void <clinit>()]
 }
 

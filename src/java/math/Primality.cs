@@ -243,15 +243,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label398;
-    label420:;
-    label768:;
-    label776:;
-    label784:;
-    label792:;
-    label800:;
-    label808:;
-    label816:;
-    label824:;
 //XMLVM_END_WRAPPER[java.math.Primality: void <clinit>()]
 }
 

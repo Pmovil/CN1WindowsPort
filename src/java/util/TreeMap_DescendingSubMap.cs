@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2DescendingSubMap: global::java.util.TreeMap_2NavigableSubMap,global::java.io.Serializable {
-private static long _fserialVersionUID = 912986545866120460L;
 
 private global::java.util.Comparator _freverseComparator;
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio {
 public class ReadOnlyBufferException: global::java.lang.UnsupportedOperationException {
-private static long _fserialVersionUID = -1210063976496234090L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyBufferException: void <init>()]

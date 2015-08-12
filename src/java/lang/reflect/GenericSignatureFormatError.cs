@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang.reflect {
 public class GenericSignatureFormatError: global::java.lang.ClassFormatError {
-private static long _fserialVersionUID = 6709919147137911034L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.GenericSignatureFormatError: void <init>()]

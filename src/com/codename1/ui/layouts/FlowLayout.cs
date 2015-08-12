@@ -696,8 +696,6 @@ private void moveComponents(global::com.codename1.ui.Container n1, int n2, int n
     goto label90;
     label211:;
     return;
-    label212:;
-    label220:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: void moveComponents(com.codename1.ui.Container, int, int, int, int, int, int, int)]
 }
 

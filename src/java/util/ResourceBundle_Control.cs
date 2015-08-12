@@ -150,7 +150,6 @@ public static global::System.Object getControl(global::java.util.List n1){
     if (_r0.i == 0) goto label7;
     _r0_o = global::java.util.ResourceBundle_2Control._fFORMAT_1DEFAULT_1CONTROL;
     goto label23;
-    label46:;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle$Control: java.util.ResourceBundle$Control getControl(java.util.List)]
 }
 
@@ -188,7 +187,6 @@ public static global::System.Object getNoFallbackControl(global::java.util.List 
     if (_r0.i == 0) goto label7;
     _r0_o = global::java.util.ResourceBundle_2NoFallbackControl._fNOFALLBACK_1FORMAT_1DEFAULT_1CONTROL;
     goto label23;
-    label46:;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle$Control: java.util.ResourceBundle$Control getNoFallbackControl(java.util.List)]
 }
 

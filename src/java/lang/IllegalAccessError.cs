@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class IllegalAccessError: global::java.lang.IncompatibleClassChangeError {
-private static long _fserialVersionUID = -8988904074992417891L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.IllegalAccessError: void <init>()]

@@ -376,7 +376,6 @@ public static global::System.Object encode(global::org.xmlvm._nArrayAdapter<sbyt
     label232:;
     _r3.i = _r4.i;
     goto label118;
-    label234:;
 //XMLVM_END_WRAPPER[com.codename1.util.Base64: java.lang.String encode(byte[])]
 }
 
@@ -519,7 +518,6 @@ public static global::System.Object encodeNoNewline(global::org.xmlvm._nArrayAda
     _r3.i = _r2.i + 1;
     ((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o)[_r2.i] = (sbyte)_r9.i;
     goto label110;
-    label214:;
 //XMLVM_END_WRAPPER[com.codename1.util.Base64: java.lang.String encodeNoNewline(byte[])]
 }
 
@@ -532,7 +530,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[]{65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 43, 47});
     global::com.codename1.util.Base64._fmap = (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[com.codename1.util.Base64: void <clinit>()]
 }
 

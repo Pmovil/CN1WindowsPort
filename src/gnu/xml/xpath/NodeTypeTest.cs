@@ -116,7 +116,6 @@ public override bool matches(global::org.w3c.dom.Node n1, int n2, int n3){
     label53:;
     _r0.i = _r3.i;
     goto label10;
-    label56:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.NodeTypeTest: boolean matches(org.w3c.dom.Node, int, int)]
 }
 
@@ -203,7 +202,6 @@ public override global::System.Object toString(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 41))}));
     goto label13;
-    label52:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.NodeTypeTest: java.lang.String toString()]
 }
 

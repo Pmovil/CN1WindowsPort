@@ -8,7 +8,6 @@ static Short() {
     @static();
 }
 
-private static long _fserialVersionUID = 7515723908773894738L;
 
 private short _fvalue;
 

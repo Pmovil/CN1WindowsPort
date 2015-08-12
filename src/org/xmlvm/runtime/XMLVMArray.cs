@@ -8,7 +8,6 @@ static XMLVMArray() {
     @static();
 }
 
-private static long _fserialVersionUID = -7775139464511217031L;
 
 private global::java.lang.Class _ftype;
 

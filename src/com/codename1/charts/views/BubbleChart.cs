@@ -12,11 +12,8 @@ static BubbleChart() {
 
 public static global::java.lang.String _fTYPE;
 
-private static int _fSHAPE_1WIDTH = 10;
 
-private static int _fMIN_1BUBBLE_1SIZE = 2;
 
-private static int _fMAX_1BUBBLE_1SIZE = 20;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>()]

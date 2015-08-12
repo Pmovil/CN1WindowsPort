@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class InvalidClassException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = -4333316296251054416L;
 
 public global::java.lang.String _fclassname;
 

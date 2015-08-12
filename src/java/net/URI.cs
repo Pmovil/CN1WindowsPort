@@ -25,7 +25,6 @@ static URI() {
     _fallLegal.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 33)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 126)), unchecked((char) unchecked((uint) 39)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 41)), unchecked((char) unchecked((uint) 42)), unchecked((char) unchecked((uint) 44)), unchecked((char) unchecked((uint) 59)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 38)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 61)), unchecked((char) unchecked((uint) 63)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 64))}));
 }
 
-private static long _fserialVersionUID = -6052424284110960213L;
 
 public static global::java.lang.String _funreserved;
 

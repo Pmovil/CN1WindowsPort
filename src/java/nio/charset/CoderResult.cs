@@ -8,13 +8,9 @@ static CoderResult() {
     @static();
 }
 
-private static int _fTYPE_1UNDERFLOW = 1;
 
-private static int _fTYPE_1OVERFLOW = 2;
 
-private static int _fTYPE_1MALFORMED_1INPUT = 3;
 
-private static int _fTYPE_1UNMAPPABLE_1CHAR = 4;
 
 public static global::java.nio.charset.CoderResult _fUNDERFLOW;
 
@@ -457,7 +453,6 @@ public virtual void throwException(){
     _r1.i = ((global::java.nio.charset.CoderResult) _r2_o)._flength;
     ((global::java.nio.charset.MalformedInputException) _r0_o).@this((int) _r1.i);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.nio.charset.MalformedInputException) _r0_o);
-    label40:;
 //XMLVM_END_WRAPPER[java.nio.charset.CoderResult: void throwException()]
 }
 
@@ -523,7 +518,6 @@ public override global::System.Object toString(){
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((int) _r1.i);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     goto label7;
-    label72:;
 //XMLVM_END_WRAPPER[java.nio.charset.CoderResult: java.lang.String toString()]
 }
 

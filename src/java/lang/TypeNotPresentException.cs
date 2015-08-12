@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class TypeNotPresentException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -5101214195716534496L;
 
 private global::java.lang.String _ftypeName;
 

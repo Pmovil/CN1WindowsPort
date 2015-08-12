@@ -1500,7 +1500,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     label1848:;
     _r6_o = _r8_o;
     goto label1345;
-    label1852:;
 //XMLVM_END_WRAPPER[gnu.xml.transform.StreamSerializer: void doSerialize(org.w3c.dom.Node, java.io.OutputStream, boolean)]
 }
 
@@ -2597,7 +2596,6 @@ public static global::System.Object getHTMLCharacterEntity(char n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)121)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108))}));
     goto label4;
-    label348:;
 //XMLVM_END_WRAPPER[gnu.xml.transform.StreamSerializer: java.lang.String getHTMLCharacterEntity(char)]
 }
 

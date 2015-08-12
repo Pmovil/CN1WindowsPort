@@ -7,9 +7,7 @@ private float _fzoom;
 
 private float _fcurrentZoom;
 
-private static int _fMIN_1ZOOM = 1;
 
-private static int _fMAX_1ZOOM = 10;
 
 private global::com.codename1.ui.Image _fimage;
 

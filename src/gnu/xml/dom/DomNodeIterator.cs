@@ -584,7 +584,6 @@ public virtual bool accept(global::org.w3c.dom.Node n1){
     label163:;
     _r0.i = _r3.i;
     goto label5;
-    label166:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomNodeIterator: boolean accept(org.w3c.dom.Node)]
 }
 

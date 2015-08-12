@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class SocketPermissionCollection: global::java.security.PermissionCollection {
-private static long _fserialVersionUID = 2787186408602843674L;
 
 private global::java.util.Vector _fpermissions;
 

@@ -219,7 +219,6 @@ public static global::System.Object intersection(global::com.codename1.ui.geom.R
     label273:;
     _r18_o = _r7_o;
     goto label272;
-    label276:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath$ShapeUtil: com.codename1.ui.geom.Shape intersection(com.codename1.ui.geom.Rectangle, com.codename1.ui.geom.Shape)]
 }
 
@@ -421,7 +420,6 @@ public static global::System.Object segmentShape(global::com.codename1.ui.geom.R
     goto label101;
     label253:;
     return (global::com.codename1.ui.geom.Shape) _r13_o;
-    label254:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath$ShapeUtil: com.codename1.ui.geom.Shape segmentShape(com.codename1.ui.geom.Rectangle, com.codename1.ui.geom.Shape)]
 }
 
@@ -1513,7 +1511,6 @@ public static int crossPath(global::com.codename1.ui.geom.PathIterator n1, doubl
     label225:;
     _r40.i = _r39.i;
     goto label44;
-    label230:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath$ShapeUtil: int crossPath(com.codename1.ui.geom.PathIterator, double, double)]
 }
 
@@ -2564,7 +2561,6 @@ public static int intersectPath(global::com.codename1.ui.geom.PathIterator n1, d
     label255:;
     _r51.i = _r53.i;
     goto label251;
-    label258:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath$ShapeUtil: int intersectPath(com.codename1.ui.geom.PathIterator, double, double, double, double)]
 }
 

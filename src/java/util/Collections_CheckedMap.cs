@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedMap: global::java.lang.Object,global::java.util.Map,global::java.io.Serializable {
-private static long _fserialVersionUID = 5742860141034234728L;
 
 public global::java.util.Map _fm;
 

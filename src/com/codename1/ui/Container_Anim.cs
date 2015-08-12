@@ -335,7 +335,6 @@ public virtual bool animate(){
         throw ex;
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r6_o);
-    label382:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container$Anim: boolean animate()]
 }
 

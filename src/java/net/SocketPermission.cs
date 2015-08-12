@@ -8,7 +8,6 @@ static SocketPermission() {
     @static();
 }
 
-private static long _fserialVersionUID = -7204263841984476862L;
 
 public static int _fSP_1CONNECT = 1;
 
@@ -24,9 +23,7 @@ private bool _fisPartialWild;
 
 private bool _fisWild;
 
-private static int _fHIGHEST_1PORT = 65535;
 
-private static int _fLOWEST_1PORT = 0;
 
 public global::java.lang.String _fhostName;
 

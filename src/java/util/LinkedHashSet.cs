@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class LinkedHashSet: global::java.util.HashSet,global::java.util.Set,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = -2851667679971038690L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashSet: void <init>()]

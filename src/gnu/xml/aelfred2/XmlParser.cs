@@ -8,7 +8,6 @@ static XmlParser() {
     @static();
 }
 
-private static bool _fUSE_1CHEATS = 1!=0;
 
 public static int _fCONTENT_1UNDECLARED = 0;
 
@@ -28,25 +27,15 @@ public static int _fENTITY_1NDATA = 2;
 
 public static int _fENTITY_1TEXT = 3;
 
-private static int _fENCODING_1EXTERNAL = 0;
 
-private static int _fENCODING_1UTF_18 = 1;
 
-private static int _fENCODING_1ISO_18859_11 = 2;
 
-private static int _fENCODING_1UCS_12_112 = 3;
 
-private static int _fENCODING_1UCS_12_121 = 4;
 
-private static int _fENCODING_1UCS_14_11234 = 5;
 
-private static int _fENCODING_1UCS_14_14321 = 6;
 
-private static int _fENCODING_1UCS_14_12143 = 7;
 
-private static int _fENCODING_1UCS_14_13412 = 8;
 
-private static int _fENCODING_1ASCII = 9;
 
 public static int _fATTRIBUTE_1DEFAULT_1UNDECLARED = 30;
 
@@ -58,31 +47,18 @@ public static int _fATTRIBUTE_1DEFAULT_1REQUIRED = 33;
 
 public static int _fATTRIBUTE_1DEFAULT_1FIXED = 34;
 
-private static int _fINPUT_1NONE = 0;
 
-private static int _fINPUT_1INTERNAL = 1;
 
-private static int _fINPUT_1STREAM = 3;
 
-private static int _fINPUT_1READER = 5;
 
-private static int _fLIT_1ENTITY_1REF = 2;
 
-private static int _fLIT_1NORMALIZE = 4;
 
-private static int _fLIT_1ATTRIBUTE = 8;
 
-private static int _fLIT_1DISABLE_1PE = 16;
 
-private static int _fLIT_1DISABLE_1CREF = 32;
 
-private static int _fLIT_1DISABLE_1EREF = 64;
 
-private static int _fLIT_1PUBID = 256;
 
-private static int _fCONTEXT_1NORMAL = 0;
 
-private static int _fCONTEXT_1LITERAL = 1;
 
 public static bool _furiWarnings;
 
@@ -116,7 +92,6 @@ private int _freadBufferLength;
 
 private int _freadBufferOverflow;
 
-private static int _fREAD_1BUFFER_1MAX = 16384;
 
 private global::org.xmlvm._nArrayAdapter<sbyte> _frawReadBuffer;
 
@@ -156,7 +131,6 @@ private bool _fpeIsError;
 
 private bool _fdoReport;
 
-private static int _fSYMBOL_1TABLE_1LENGTH = 2039;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _fsymbolTable;
 
@@ -168,9 +142,7 @@ private bool _fsawCR;
 
 private bool _finCDATA;
 
-private static int _fXML_110 = 0;
 
-private static int _fXML_111 = 1;
 
 private int _fxmlVersion;
 
@@ -228,11 +200,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[]{(char)93, (char)93, (char)62});
     global::gnu.xml.aelfred2.XmlParser._fendDelimCDATA = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     return;
-    label66:;
-    label74:;
-    label80:;
-    label86:;
-    label92:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void <clinit>()]
 }
 
@@ -1052,7 +1019,6 @@ private global::System.Object parseXMLDecl(bool n1){
     label185:;
     _r3_o = _r7_o;
     goto label94;
-    label188:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: java.lang.String parseXMLDecl(boolean)]
 }
 
@@ -1746,7 +1712,6 @@ private void parseElement(bool n1){
     _r0_o = ((global::gnu.xml.aelfred2.XmlParser) _r12_o)._fhandler;
     ((global::gnu.xml.aelfred2.SAXDriver) _r0_o).endElement((global::java.lang.String) _r10_o);
     goto label159;
-    label250:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseElement(boolean)]
 }
 
@@ -1963,9 +1928,6 @@ private void parseContent(){
     ((global::gnu.xml.aelfred2.XmlParser) _r5_o)._fisDirtyCurrentElement = 0!=_r3.i;
     ((global::gnu.xml.aelfred2.XmlParser) _r5_o).parseETag();
     return;
-    label116:;
-    label126:;
-    label140:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseContent()]
 }
 
@@ -2176,9 +2138,6 @@ private void parseElements(global::org.xmlvm._nArrayAdapter<char> n1){
     label113:;
     ((global::gnu.xml.aelfred2.XmlParser) _r6_o).dataBufferAppend((char) _r0.i);
     goto label28;
-    label118:;
-    label132:;
-    label146:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseElements(char[])]
 }
 
@@ -2212,7 +2171,6 @@ private void parseCp(){
     label36:;
     ((global::gnu.xml.aelfred2.XmlParser) _r2_o).dataBufferAppend((char) _r0.i);
     goto label16;
-    label40:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseCp()]
 }
 
@@ -2862,7 +2820,6 @@ private void parseConditionalSect(global::org.xmlvm._nArrayAdapter<char> n1){
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69))}));
     ((global::gnu.xml.aelfred2.XmlParser) _r4_o).error((global::java.lang.String) _r0_o);
     goto label44;
-    label122:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseConditionalSect(char[])]
 }
 
@@ -3242,7 +3199,6 @@ private void parseEntityRef(bool n1){
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46))}));
     ((global::gnu.xml.aelfred2.XmlParser) _r8_o).error((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (global::java.lang.String) _r4_o);
     goto label61;
-    label190:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseEntityRef(boolean)]
 }
 
@@ -3334,7 +3290,6 @@ private void parsePEReference(){
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)32))}));
     ((global::gnu.xml.aelfred2.XmlParser) _r9_o).pushString((global::java.lang.String) _r4_o, (global::java.lang.String) _r8_o);
     goto label37;
-    label130:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parsePEReference()]
 }
 
@@ -3653,7 +3608,6 @@ private void parseCharData(){
     _r0.i = _r7.i;
     _r1.i = _r7.i;
     goto label13;
-    label212:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void parseCharData()]
 }
 
@@ -3746,7 +3700,6 @@ private void skipWhitespace(){
     label63:;
     _r0.i = ((global::gnu.xml.aelfred2.XmlParser) _r5_o).readCh();
     goto label13;
-    label68:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void skipWhitespace()]
 }
 
@@ -4246,11 +4199,6 @@ private global::System.Object readNmtoken(bool n1){
     _r0_o = ((global::gnu.xml.aelfred2.XmlParser) _r9_o).intern((global::org.xmlvm._nArrayAdapter<char>) _r0_o, (int) _r5.i, (int) _r1.i);
     ((global::gnu.xml.aelfred2.XmlParser) _r9_o)._fnameBufferPos = _r5.i;
     goto label238;
-    label826:;
-    label908:;
-    label990:;
-    label1000:;
-    label1022:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: java.lang.String readNmtoken(boolean)]
 }
 
@@ -4586,7 +4534,6 @@ private global::System.Object readLiteral(int n1){
         throw ex;
     } // end catch
     goto label73;
-    label222:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: java.lang.String readLiteral(int)]
 }
 
@@ -5903,7 +5850,6 @@ private char readCh(){
     ((global::gnu.xml.aelfred2.XmlParser) _r4_o).parsePEReference();
     _r0.i = ((global::gnu.xml.aelfred2.XmlParser) _r4_o).readCh();
     goto label30;
-    label150:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: char readCh()]
 }
 
@@ -6792,7 +6738,6 @@ private void popInput(){
     _r0_o = ((global::gnu.xml.aelfred2.XmlParser_2Input) _r0_o)._freader;
     ((global::gnu.xml.aelfred2.XmlParser) _r2_o)._freader = (global::java.io.Reader) _r0_o;
     return;
-    label130:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void popInput()]
 }
 
@@ -7024,7 +6969,6 @@ private void prefetchASCIIEncodingDecl(){
     goto label33;
     label55:;
     return;
-    label56:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void prefetchASCIIEncodingDecl()]
 }
 
@@ -7192,7 +7136,6 @@ private void readDataChunk(){
     label189:;
     _r0.i = _r5.i;
     goto label105;
-    label192:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void readDataChunk()]
 }
 
@@ -7266,7 +7209,6 @@ private void filterCR(bool n1){
     _r2_o = ((global::gnu.xml.aelfred2.XmlParser) _r6_o)._freadBuffer;
     ((global::org.xmlvm._nArrayAdapter<char>) _r2_o)[_r1.i] = (char)_r4.i;
     goto label32;
-    label78:;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void filterCR(boolean)]
 }
 

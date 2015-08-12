@@ -491,7 +491,6 @@ public static global::System.Object quote(global::java.lang.String n1){
     ((global::java.lang.StringBuffer) _r4_o).append((char) _r9.i);
     _r6_o = ((global::java.lang.StringBuffer) _r4_o).toString();
     goto label14;
-    label164:;
 //XMLVM_END_WRAPPER[com.codename1.processing.PrettyPrinter: java.lang.String quote(java.lang.String)]
 }
 

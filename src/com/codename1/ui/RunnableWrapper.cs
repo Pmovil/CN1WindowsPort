@@ -447,7 +447,6 @@ public virtual void run(){
         throw ex;
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r4_o);
-    label202:;
 //XMLVM_END_WRAPPER[com.codename1.ui.RunnableWrapper: void run()]
 }
 

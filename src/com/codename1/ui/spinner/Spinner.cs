@@ -1226,10 +1226,6 @@ public override void keyReleased(int n1){
     label708:;
     _r8.i = _r8.i + 1;
     goto label618;
-    label712:;
-    label724:;
-    label736:;
-    label748:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void keyReleased(int)]
 }
 
@@ -1353,7 +1349,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     _r2.i = ((global::com.codename1.ui.spinner.Spinner) _r8_o).getX();
     ((global::com.codename1.ui.TextField) _r1_o).setX((int) _r2.i);
     goto label190;
-    label252:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void paint(com.codename1.ui.Graphics)]
 }
 

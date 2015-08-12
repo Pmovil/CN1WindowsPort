@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.security {
 public abstract class Permission: global::java.lang.Object,global::java.security.Guard,global::java.io.Serializable {
-private static long _fserialVersionUID = -5636570222231596674L;
 
 private global::java.lang.String _fname;
 

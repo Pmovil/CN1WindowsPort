@@ -8,7 +8,6 @@ static Byte() {
     @static();
 }
 
-private static long _fserialVersionUID = -7183698231559129828L;
 
 private sbyte _fvalue;
 

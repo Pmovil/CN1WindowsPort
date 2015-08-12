@@ -95,7 +95,6 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     _r0_o = ((global::java.util.regex.MultiLineEOLSet) _r4_o)._fnext;
     _r0.i = ((global::java.util.regex.AbstractSet) _r0_o).matches((int) _r5.i, (global::java.lang.CharSequence) _r6_o, (global::java.util.regex.MatchResultImpl) _r7_o);
     goto label25;
-    label104:;
 //XMLVM_END_WRAPPER[java.util.regex.MultiLineEOLSet: int matches(int, java.lang.CharSequence, java.util.regex.MatchResultImpl)]
 }
 

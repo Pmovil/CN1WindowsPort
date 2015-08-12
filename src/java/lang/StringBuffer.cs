@@ -8,7 +8,6 @@ static StringBuffer() {
     @static();
 }
 
-private static long _fserialVersionUID = 3388685877147921107L;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fserialPersistentFields;
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class ConcurrentModificationException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -3666751008965953603L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ConcurrentModificationException: void <init>()]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2SynchronizedSortedMap: global::java.util.Collections_2SynchronizedMap,global::java.util.SortedMap {
-private static long _fserialVersionUID = -8798146769416483793L;
 
 private global::java.util.SortedMap _fsm;
 

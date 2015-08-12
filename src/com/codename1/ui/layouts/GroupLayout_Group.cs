@@ -233,7 +233,6 @@ public virtual int getSpringSize(global::com.codename1.ui.layouts.GroupLayout_2S
     label15:;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o).getMaximumSize((int) _r3.i);
     goto label4;
-    label20:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$Group: int getSpringSize(com.codename1.ui.layouts.GroupLayout$Spring, int, int)]
 }
 

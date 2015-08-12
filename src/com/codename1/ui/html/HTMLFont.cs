@@ -36,7 +36,6 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fcounterpartFon
 
 private static global::org.xmlvm._nArrayAdapter<int> _fSPECIAL_1FONT_1TAGS_1ID;
 
-private static char _fTOKEN = (char)46;
 
 public static global::java.util.Vector _fSPECIAL_1FONT_1TAGS;
 
@@ -313,7 +312,6 @@ public virtual bool isCounterpart(int n1, global::com.codename1.ui.html.HTMLFont
     label20:;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o).isSmallCounterpart((global::com.codename1.ui.html.HTMLFont) _r3_o) ? 1 : 0;
     goto label4;
-    label26:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isCounterpart(int, com.codename1.ui.html.HTMLFont)]
 }
 
@@ -580,7 +578,6 @@ public virtual global::System.Object getCounterpartFont(int n1){
     label132:;
     _r0.i = _r3.i;
     goto label110;
-    label134:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: com.codename1.ui.html.HTMLFont getCounterpartFont(int)]
 }
 
@@ -708,7 +705,6 @@ public static void @static(){
     goto label17;
     label38:;
     return;
-    label40:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: void <clinit>()]
 }
 

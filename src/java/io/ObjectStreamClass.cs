@@ -17,7 +17,6 @@ static ObjectStreamClass() {
     @static();
 }
 
-private static long _fserialVersionUID = -6120832682080437368L;
 
 private static global::java.lang.String _fUID_1FIELD_1NAME;
 
@@ -45,7 +44,6 @@ public static global::java.lang.Class _fARRAY_1OF_1FIELDS;
 
 private static global::java.lang.String _fCLINIT_1NAME;
 
-private static int _fCLINIT_1MODIFIERS = 8;
 
 private static global::java.lang.String _fCLINIT_1SIGNATURE;
 
@@ -795,7 +793,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     label234:;
     _r0.i = _r0.i + 1;
     goto label3;
-    label238:;
     _r0_o = _ex.getJavaException();
     _ex = null;
     _r1_o = new global::java.lang.Error();

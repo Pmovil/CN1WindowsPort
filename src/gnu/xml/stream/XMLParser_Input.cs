@@ -701,16 +701,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{239, 187, 191});
     global::gnu.xml.stream.XMLParser_2Input._fSIGNATURE_1UTF_18_1BOM = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label74:;
-    label86:;
-    label98:;
-    label110:;
-    label122:;
-    label130:;
-    label138:;
-    label150:;
-    label162:;
-    label174:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Input: void <clinit>()]
 }
 

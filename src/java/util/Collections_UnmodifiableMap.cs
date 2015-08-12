@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2UnmodifiableMap: global::java.lang.Object,global::java.util.Map,global::java.io.Serializable {
-private static long _fserialVersionUID = -1034234728574286014L;
 
 private global::java.util.Map _fm;
 

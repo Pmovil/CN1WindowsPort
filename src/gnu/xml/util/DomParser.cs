@@ -1060,8 +1060,6 @@ private void walk(){
     _r3_o = _r2_o;
     _r2_o = _r11_o;
     goto label151;
-    label626:;
-    label650:;
 //XMLVM_END_WRAPPER[gnu.xml.util.DomParser: void walk()]
 }
 
@@ -1149,7 +1147,6 @@ private void callEnd(global::org.w3c.dom.Node n1){
     _r1_o = ((global::org.w3c.dom.Node) _r5_o).getNodeName();
     ((global::org.xml.sax.ext.LexicalHandler) _r0_o).endEntity((global::java.lang.String) _r1_o);
     goto label78;
-    label124:;
 //XMLVM_END_WRAPPER[gnu.xml.util.DomParser: void callEnd(org.w3c.dom.Node)]
 }
 

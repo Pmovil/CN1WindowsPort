@@ -87,7 +87,6 @@ public void @this(global::java.lang.Object n1, short n2){
     _r0_o = new global::java.lang.IllegalArgumentException();
     ((global::java.lang.IllegalArgumentException) _r0_o).@this();
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label66:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: void <init>(java.lang.Object, short)]
 }
 
@@ -204,7 +203,6 @@ public virtual global::System.Object getSingleNodeValue(){
     _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label30;
-    label44:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: org.w3c.dom.Node getSingleNodeValue()]
 }
 
@@ -235,7 +233,6 @@ public virtual int getSnapshotLength(){
     _r3_o = _r3_o;
     _r0.i = ((global::java.util.Collection) _r3_o).size();
     return _r0.i;
-    label28:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: int getSnapshotLength()]
 }
 
@@ -330,7 +327,6 @@ public virtual global::System.Object snapshotItem(int n1){
     ((global::java.util.Collection) _r3_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
     return (global::org.w3c.dom.Node) _r0_o;
-    label36:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: org.w3c.dom.Node snapshotItem(int)]
 }
 
@@ -428,7 +424,6 @@ private global::System.Object typeName(short n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)85)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 72)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 89)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 69))}));
     goto label5;
-    label30:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: java.lang.String typeName(short)]
 }
 

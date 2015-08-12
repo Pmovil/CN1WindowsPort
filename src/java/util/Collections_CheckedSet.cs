@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedSet: global::java.util.Collections_2CheckedCollection,global::java.util.Set {
-private static long _fserialVersionUID = 4694047833775013803L;
 
 public void @this(global::java.util.Set n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedSet: void <init>(java.util.Set, java.lang.Class)]

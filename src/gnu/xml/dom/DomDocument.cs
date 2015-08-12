@@ -778,8 +778,6 @@ public static void checkName(global::java.lang.String n1, bool n2){
     label470:;
     _r1.i = _r1.i + 1;
     goto label226;
-    label474:;
-    label498:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocument: void checkName(java.lang.String, boolean)]
 }
 
@@ -1726,7 +1724,6 @@ public virtual global::System.Object importNode(global::org.w3c.dom.Node n1, boo
     label350:;
     _r2_o = _r1_o;
     goto label26;
-    label354:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocument: org.w3c.dom.Node importNode(org.w3c.dom.Node, boolean)]
 }
 
@@ -2129,8 +2126,6 @@ public virtual global::System.Object adoptNode(global::org.w3c.dom.Node n1){
     label188:;
     _r0_o = _r4_o;
     goto label24;
-    label192:;
-    label210:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocument: org.w3c.dom.Node adoptNode(org.w3c.dom.Node)]
 }
 
@@ -2456,7 +2451,6 @@ public virtual void normalizeNode(global::gnu.xml.dom.DomNode n1){
     ((global::gnu.xml.dom.DomDocument) _r9_o).normalizeNode((global::gnu.xml.dom.DomNode) _r1_o);
     _r1_o = _r2_o;
     goto label18;
-    label242:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocument: void normalizeNode(gnu.xml.dom.DomNode)]
 }
 

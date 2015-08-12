@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2UnmodifiableSet: global::java.util.Collections_2UnmodifiableCollection,global::java.util.Set {
-private static long _fserialVersionUID = -9215047833775013803L;
 
 public void @this(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableSet: void <init>(java.util.Set)]

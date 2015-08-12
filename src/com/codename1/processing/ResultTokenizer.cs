@@ -226,7 +226,6 @@ public static bool isSubscript(char n1){
     label5:;
     _r0.i = 1;
     goto label4;
-    label8:;
 //XMLVM_END_WRAPPER[com.codename1.processing.ResultTokenizer: boolean isSubscript(char)]
 }
 

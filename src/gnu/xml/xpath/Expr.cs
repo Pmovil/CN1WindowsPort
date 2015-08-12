@@ -147,7 +147,6 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1, globa
     label155:;
     _r6_o = _r4_o;
     goto label30;
-    label158:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: java.lang.Object evaluate(java.lang.Object, javax.xml.namespace.QName)]
 }
 
@@ -436,7 +435,6 @@ public static global::System.Object _1name(global::org.w3c.dom.Node n1, global::
     label37:;
     _r2_o = _r1_o;
     goto label13;
-    label40:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: java.lang.String _name(org.w3c.dom.Node, java.util.Collection)]
 }
 
@@ -788,7 +786,6 @@ public static global::System.Object stringValue(global::org.w3c.dom.Node n1, boo
     if (_r4.i != 0) goto label7;
     _r2_o = ((global::org.w3c.dom.Node) _r3_o).getNodeValue();
     goto label9;
-    label52:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: java.lang.String stringValue(org.w3c.dom.Node, boolean)]
 }
 

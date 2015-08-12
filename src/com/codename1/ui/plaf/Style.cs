@@ -102,7 +102,6 @@ public static sbyte _fBACKGROUND_1IMAGE_1TILE_1VERTICAL = 3;
 
 public static sbyte _fBACKGROUND_1IMAGE_1TILE_1HORIZONTAL = 4;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGNED = 5;
 
 public static sbyte _fBACKGROUND_1IMAGE_1ALIGNED_1TOP = 20;
 
@@ -144,15 +143,10 @@ public static sbyte _fBACKGROUND_1GRADIENT_1LINEAR_1HORIZONTAL = 7;
 
 public static sbyte _fBACKGROUND_1GRADIENT_1RADIAL = 8;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1TOP = -95;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1BOTTOM = -94;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1LEFT = -93;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1RIGHT = -92;
 
-private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1CENTER = -91;
 
 public static sbyte _fTEXT_1DECORATION_1NONE = 0;
 
@@ -210,33 +204,19 @@ private int _ftextDecoration;
 
 private int _fmodifiedFlag;
 
-private static int _fFG_1COLOR_1MODIFIED = 1;
 
-private static int _fBG_1COLOR_1MODIFIED = 2;
 
-private static int _fFONT_1MODIFIED = 16;
 
-private static int _fBG_1IMAGE_1MODIFIED = 32;
 
-private static int _fTRANSPARENCY_1MODIFIED = 128;
 
-private static int _fPADDING_1MODIFIED = 256;
 
-private static int _fMARGIN_1MODIFIED = 512;
 
-private static int _fBORDER_1MODIFIED = 1024;
 
-private static int _fBACKGROUND_1TYPE_1MODIFIED = 2048;
 
-private static int _fBACKGROUND_1ALIGNMENT_1MODIFIED = 4096;
 
-private static int _fBACKGROUND_1GRADIENT_1MODIFIED = 8192;
 
-private static int _fALIGNMENT_1MODIFIED = 16384;
 
-private static int _fOPACITY_1MODIFIED = 32768;
 
-private static int _fTEXT_1DECORATION_1MODIFIED = 64;
 
 private global::com.codename1.ui.util.EventDispatcher _flisteners;
 
@@ -1619,7 +1599,6 @@ public virtual int getPaddingValue(bool n1, int n2){
     label42:;
     _r5.i = 1;
     goto label35;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingValue(boolean, int)]
 }
 
@@ -1706,7 +1685,6 @@ private int convertUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int 
     label66:;
     _r2.i = _r7.i;
     goto label11;
-    label68:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int convertUnit(byte[], int, int)]
 }
 
@@ -1803,7 +1781,6 @@ public virtual int getMarginValue(bool n1, int n2){
     label42:;
     _r5.i = 1;
     goto label35;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getMarginValue(boolean, int)]
 }
 

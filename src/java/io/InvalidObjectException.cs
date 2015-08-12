@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class InvalidObjectException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = 3233174318281839583L;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidObjectException: void <init>(java.lang.String)]

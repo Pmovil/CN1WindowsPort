@@ -215,7 +215,6 @@ public virtual global::System.Object getSize(int n1){
     label34:;
     _r0_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r3_o)._fmax;
     goto label30;
-    label38:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.BoundSize: com.codename1.ui.layouts.mig.UnitValue getSize(int)]
 }
 

@@ -3,23 +3,14 @@
 using org.xmlvm;
 namespace java.util {
 public class Formatter_2ParserStateMachine: global::java.lang.Object {
-private static char _fEOS = (char)65535;
 
-private static int _fEXIT_1STATE = 0;
 
-private static int _fENTRY_1STATE = 1;
 
-private static int _fSTART_1CONVERSION_1STATE = 2;
 
-private static int _fFLAGS_1STATE = 3;
 
-private static int _fWIDTH_1STATE = 4;
 
-private static int _fPRECISION_1STATE = 5;
 
-private static int _fCONVERSION_1TYPE_1STATE = 6;
 
-private static int _fSUFFIX_1STATE = 7;
 
 private global::java.util.Formatter_2FormatToken _ftoken;
 
@@ -134,7 +125,6 @@ public virtual global::System.Object getNextFormatToken(){
     label87:;
     ((global::java.util.Formatter_2ParserStateMachine) _r2_o).process_1SUFFIX_1STATE();
     goto label19;
-    label92:;
 //XMLVM_END_WRAPPER[java.util.Formatter$ParserStateMachine: java.util.Formatter$FormatToken getNextFormatToken()]
 }
 

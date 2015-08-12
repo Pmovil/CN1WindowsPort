@@ -46,7 +46,6 @@ public void @this(global::gnu.xml.xpath.Expr n1, global::gnu.xml.xpath.Expr n2, 
     label16:;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r1_o)._fop = _r4.i;
     return;
-    label20:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.ArithmeticExpr: void <init>(gnu.xml.xpath.Expr, gnu.xml.xpath.Expr, int)]
 }
 
@@ -177,7 +176,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     ((global::java.lang.Double) _r4_o).@this((double) _r0.d);
     _r0_o = _r4_o;
     goto label38;
-    label174:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.ArithmeticExpr: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
 }
 
@@ -277,7 +275,6 @@ public override global::System.Object toString(){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100))}));
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
     goto label20;
-    label64:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.ArithmeticExpr: java.lang.String toString()]
 }
 

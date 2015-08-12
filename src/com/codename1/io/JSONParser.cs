@@ -1150,9 +1150,6 @@ public static void parse(global::java.io.Reader n1, global::com.codename1.io.JSO
     label702:;
     _r0_o = _r7_o;
     goto label410;
-    label706:;
-    label716:;
-    label730:;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser: void parse(java.io.Reader, com.codename1.io.JSONParseCallback)]
 }
 

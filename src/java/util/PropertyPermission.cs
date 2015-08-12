@@ -8,7 +8,6 @@ static PropertyPermission() {
     @static();
 }
 
-private static long _fserialVersionUID = 885438825399942851L;
 
 private bool _fread;
 

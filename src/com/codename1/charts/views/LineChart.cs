@@ -12,7 +12,6 @@ static LineChart() {
 
 public static global::java.lang.String _fTYPE;
 
-private static int _fSHAPE_1WIDTH = 30;
 
 private global::com.codename1.charts.views.ScatterChart _fpointsChart;
 

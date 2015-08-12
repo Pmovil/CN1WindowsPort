@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class Exception: global::java.lang.Throwable {
-private static long _fserialVersionUID = -3387516993124229948L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Exception: void <init>()]

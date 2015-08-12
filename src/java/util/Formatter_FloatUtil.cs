@@ -84,7 +84,6 @@ public virtual void transform(global::java.util.Formatter_2FormatToken n1, globa
     label41:;
     ((global::java.util.Formatter_2FloatUtil) _r2_o).transform_1a();
     goto label32;
-    label46:;
 //XMLVM_END_WRAPPER[java.util.Formatter$FloatUtil: void transform(java.util.Formatter$FormatToken, java.lang.StringBuilder)]
 }
 

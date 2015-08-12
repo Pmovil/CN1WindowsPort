@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class URISyntaxException: global::java.lang.Exception {
-private static long _fserialVersionUID = 2137979680897488891L;
 
 private global::java.lang.String _finput;
 

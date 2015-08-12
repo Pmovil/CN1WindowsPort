@@ -3,11 +3,8 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class Tabs_2SwipeListener: global::java.lang.Object,global::com.codename1.ui.events.ActionListener {
-private static int _fPRESS = 0;
 
-private static int _fDRAG = 1;
 
-private static int _fRELEASE = 2;
 
 private int _ftype;
 
@@ -354,7 +351,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r12.i = _r12.i - _r13.i;
     global::com.codename1.ui.Tabs.access_2402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
     goto label529;
-    label662:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs$SwipeListener: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

@@ -14,9 +14,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fGROW_11
 
 private static global::com.codename1.ui.layouts.mig.DimConstraint _fDOCK_1DIM_1CONSTRAINT;
 
-private static int _fMAX_1GRID = 30000;
 
-private static int _fMAX_1DOCK_1GRID = 32767;
 
 private static global::com.codename1.ui.layouts.mig.ResizeConstraint _fGAP_1RC_1CONST;
 
@@ -1140,7 +1138,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     label1824:;
     _r5_o = null;
     goto label1799;
-    label1826:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: void <init>(com.codename1.ui.layouts.mig.ContainerWrapper, com.codename1.ui.layouts.mig.LC, com.codename1.ui.layouts.mig.AC, com.codename1.ui.layouts.mig.AC, java.util.Map, java.util.ArrayList)]
 }
 
@@ -2560,7 +2557,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     _r5.i = _r11.i;
     _r11.i = _r23.i;
     goto label145;
-    label470:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: void sortCellsByPlatform(java.util.Collection, com.codename1.ui.layouts.mig.ContainerWrapper)]
 }
 
@@ -5651,7 +5647,6 @@ private void addDockingCell(global::org.xmlvm._nArrayAdapter<int> n1, int n2, gl
     label138:;
     _r4.i = _r10.i;
     goto label82;
-    label140:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: void addDockingCell(int[], int, com.codename1.ui.layouts.mig.Grid$CompWrap)]
 }
 
@@ -6196,7 +6191,6 @@ private static global::System.Object getBaselineAboveBelow(global::java.util.Arr
     _r8.i = 1;
     ((global::org.xmlvm._nArrayAdapter<int>) _r7_o)[_r8.i] = _r6.i;
     goto label36;
-    label78:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: int[] getBaselineAboveBelow(java.util.ArrayList, int, boolean)]
 }
 

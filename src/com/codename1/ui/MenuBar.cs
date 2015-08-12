@@ -2005,7 +2005,6 @@ public virtual void synchronizeCommandsWithButtonsInBackbutton(){
     label422:;
     ((global::com.codename1.ui.MenuBar) _r15_o).addTwoTitleButtons((global::com.codename1.ui.Container) _r3_o, (global::com.codename1.ui.Container) _r7_o);
     goto label17;
-    label428:;
 //XMLVM_END_WRAPPER[com.codename1.ui.MenuBar: void synchronizeCommandsWithButtonsInBackbutton()]
 }
 

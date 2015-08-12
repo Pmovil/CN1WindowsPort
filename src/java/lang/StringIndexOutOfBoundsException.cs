@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class StringIndexOutOfBoundsException: global::java.lang.IndexOutOfBoundsException {
-private static long _fserialVersionUID = -6762910422159637258L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringIndexOutOfBoundsException: void <init>()]

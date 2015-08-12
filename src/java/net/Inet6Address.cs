@@ -8,7 +8,6 @@ static Inet6Address() {
     @static();
 }
 
-private static long _fserialVersionUID = 6880410070516793377L;
 
 public static global::org.xmlvm._nArrayAdapter<sbyte> _fany_1bytes;
 
@@ -852,8 +851,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     global::java.net.Inet6Address._fserialPersistentFields = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
-    label106:;
-    label118:;
 //XMLVM_END_WRAPPER[java.net.Inet6Address: void <clinit>()]
 }
 

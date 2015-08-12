@@ -8,11 +8,8 @@ static OSNetworkSystem() {
     @static();
 }
 
-private static int _fERRORCODE_1SOCKET_1TIMEOUT = -209;
 
-private static int _fERRORCODE_1SOCKET_1INTERRUPTED = -208;
 
-private static int _fINETADDR_1REACHABLE = 0;
 
 private static bool _fisNetworkInited;
 

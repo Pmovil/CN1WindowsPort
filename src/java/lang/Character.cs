@@ -29,7 +29,6 @@ static Character() {
     @static();
 }
 
-private static long _fserialVersionUID = 3786198910865385080L;
 
 private char _fvalue;
 
@@ -195,9 +194,7 @@ private static global::org.xmlvm._nArrayAdapter<char> _ftypeTags;
 
 private static global::org.xmlvm._nArrayAdapter<sbyte> _fDIRECTIONALITY;
 
-private static int _fISJAVASTART = 1;
 
-private static int _fISJAVAPART = 2;
 
 private static global::java.lang.String _ftitlecaseKeys;
 
@@ -207,7 +204,6 @@ private static global::java.lang.String _fnumericKeys;
 
 private static global::org.xmlvm._nArrayAdapter<char> _fnumericValues;
 
-private static int _fCACHE_1LEN = 512;
 
 public static bool _f_2assertionsDisabled;
 
@@ -2358,8 +2354,6 @@ public static void @static(){
     label4189:;
     _r0.i = 0;
     goto label16;
-    label4192:;
-    label5834:;
 //XMLVM_END_WRAPPER[java.lang.Character: void <clinit>()]
 }
 

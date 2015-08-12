@@ -7,7 +7,6 @@ private global::java.lang.String _flastTag;
 
 private global::java.util.Hashtable _fcurrent;
 
-private global::java.lang.String _furl;
 
 public global::com.codename1.io.services.RSSService _fthis_20;
 

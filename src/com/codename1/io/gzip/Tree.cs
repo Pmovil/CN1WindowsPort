@@ -8,19 +8,12 @@ static Tree() {
     @static();
 }
 
-private static int _fMAX_1BITS = 15;
 
-private static int _fBL_1CODES = 19;
 
-private static int _fD_1CODES = 30;
 
-private static int _fLITERALS = 256;
 
-private static int _fLENGTH_1CODES = 29;
 
-private static int _fL_1CODES = 286;
 
-private static int _fHEAP_1SIZE = 573;
 
 public static int _fMAX_1BL_1BITS = 7;
 
@@ -619,14 +612,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{0, 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256, 384, 512, 768, 1024, 1536, 2048, 3072, 4096, 6144, 8192, 12288, 16384, 24576});
     global::com.codename1.io.gzip.Tree._fbase_1dist = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label68:;
-    label130:;
-    label194:;
-    label236:;
-    label250:;
-    label510:;
-    label642:;
-    label704:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Tree: void <clinit>()]
 }
 

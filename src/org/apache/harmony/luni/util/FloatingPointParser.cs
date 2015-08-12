@@ -417,7 +417,6 @@ private static double parseDblName(global::java.lang.String n1, int n2){
     label72:;
     _r0.i = _r1.i;
     goto label47;
-    label74:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.FloatingPointParser: double parseDblName(java.lang.String, int)]
 }
 
@@ -537,7 +536,6 @@ private static float parseFltName(global::java.lang.String n1, int n2){
     label72:;
     _r0.i = _r1.i;
     goto label47;
-    label74:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.FloatingPointParser: float parseFltName(java.lang.String, int)]
 }
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class HashSet: global::java.util.AbstractSet,global::java.util.Set,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = -5024744406713321676L;
 
 public global::java.util.HashMap _fbackingMap;
 

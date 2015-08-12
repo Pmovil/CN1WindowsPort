@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedCollection: global::java.lang.Object,global::java.util.Collection,global::java.io.Serializable {
-private static long _fserialVersionUID = 1578914078182001775L;
 
 public global::java.util.Collection _fc;
 

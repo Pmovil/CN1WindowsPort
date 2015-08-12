@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class String_2CaseInsensitiveComparator: global::java.lang.Object,global::java.util.Comparator,global::java.io.Serializable {
-private static long _fserialVersionUID = 8575799808933029326L;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.String$CaseInsensitiveComparator: void <init>()]

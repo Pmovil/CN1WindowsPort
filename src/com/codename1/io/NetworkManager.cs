@@ -758,7 +758,6 @@ public virtual void addToQueue(global::com.codename1.io.ConnectionRequest n1, bo
         throw ex;
     } // end catch
     goto label154;
-    label208:;
 //XMLVM_END_WRAPPER[com.codename1.io.NetworkManager: void addToQueue(com.codename1.io.ConnectionRequest, boolean)]
 }
 

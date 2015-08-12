@@ -120,7 +120,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = ((global::com.codename1.components.SliderBridge_21) _r7_o)._fval_2s;
     ((global::com.codename1.ui.Slider) _r3_o).setInfinite(0!=_r6.i);
     goto label18;
-    label124:;
 //XMLVM_END_WRAPPER[com.codename1.components.SliderBridge$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

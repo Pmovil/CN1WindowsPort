@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class WeakHashMap: global::java.util.AbstractMap,global::java.util.Map {
-private static int _fDEFAULT_1SIZE = 16;
 
 private global::java.lang.@ref.ReferenceQueue _freferenceQueue;
 

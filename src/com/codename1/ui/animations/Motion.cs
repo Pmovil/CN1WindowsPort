@@ -11,11 +11,8 @@ public static int _fSPLINE = 1;
 
 public int _fmotionType;
 
-private static int _fFRICTION = 2;
 
-private static int _fDECELERATION = 3;
 
-private static int _fCUBIC = 4;
 
 private int _fsourceValue;
 
@@ -700,7 +697,6 @@ public virtual int getValue(){
     _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getRubber();
     ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
     goto label32;
-    label64:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getValue()]
 }
 

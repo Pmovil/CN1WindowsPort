@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedRandomAccessList: global::java.util.Collections_2CheckedList,global::java.util.RandomAccess {
-private static long _fserialVersionUID = 1638200125423088369L;
 
 public void @this(global::java.util.List n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedRandomAccessList: void <init>(java.util.List, java.lang.Class)]

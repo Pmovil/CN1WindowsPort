@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ClassNotFoundException: global::java.lang.Exception {
-private static long _fserialVersionUID = 9176873029745254542L;
 
 private global::java.lang.Throwable _fex;
 

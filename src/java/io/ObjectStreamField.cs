@@ -662,7 +662,6 @@ private bool defaultResolve(){
     ((global::java.io.ObjectStreamField) _r3_o)._ftype = (global::java.lang.Object) _r0_o;
     _r0.i = _r1.i;
     goto label16;
-    label66:;
 //XMLVM_END_WRAPPER[java.io.ObjectStreamField: boolean defaultResolve()]
 }
 

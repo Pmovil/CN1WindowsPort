@@ -411,7 +411,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r4_o = global::com.codename1.io.Util.readObject((global::java.io.DataInputStream) _r1_o);
     ((global::com.codename1.io.WebServiceProxyCall_2WSConnection) _r7_o)._freturnValue = (global::java.lang.Object) _r4_o;
     goto label51;
-    label534:;
 //XMLVM_END_WRAPPER[com.codename1.io.WebServiceProxyCall$WSConnection: void readResponse(java.io.InputStream)]
 }
 
@@ -902,7 +901,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     goto label74;
     label781:;
     return;
-    label782:;
 //XMLVM_END_WRAPPER[com.codename1.io.WebServiceProxyCall$WSConnection: void buildRequestBody(java.io.OutputStream)]
 }
 

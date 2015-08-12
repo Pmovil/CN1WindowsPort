@@ -14,9 +14,7 @@ public static int _fWIND_1EVEN_1ODD = 0;
 
 public static int _fWIND_1NON_1ZERO = 1;
 
-private static int _fBUFFER_1SIZE = 10;
 
-private static int _fBUFFER_1CAPACITY = 10;
 
 private global::org.xmlvm._nArrayAdapter<sbyte> _ftypes;
 
@@ -286,7 +284,6 @@ public override global::System.Object toString(){
     label298:;
     _r4_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     return (global::java.lang.String) _r4_o;
-    label304:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: java.lang.String toString()]
 }
 
@@ -1527,7 +1524,6 @@ public virtual void append(global::com.codename1.ui.geom.PathIterator n1, bool n
     label117:;
     ((global::com.codename1.ui.geom.GeneralPath) _r13_o)._fdirty = 0!=_r8.i;
     return;
-    label120:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void append(com.codename1.ui.geom.PathIterator, boolean)]
 }
 
@@ -1884,7 +1880,6 @@ public virtual bool isRectangle(){
     label220:;
     _r10.i = _r12.i;
     goto label35;
-    label224:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean isRectangle()]
 }
 
@@ -2078,7 +2073,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{2, 2, 4, 6, 0});
     global::com.codename1.ui.geom.GeneralPath._fpointShift = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void <clinit>()]
 }
 

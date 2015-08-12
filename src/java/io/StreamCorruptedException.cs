@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class StreamCorruptedException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = 8983558202217591746L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.StreamCorruptedException: void <init>()]

@@ -8,7 +8,6 @@ static IdentityHashMap() {
     @static();
 }
 
-private static long _fserialVersionUID = 8188218128353913216L;
 
 public global::org.xmlvm._nArrayAdapter<global::System.Object> _felementData;
 
@@ -16,9 +15,7 @@ public int _fsize;
 
 public int _fthreshold;
 
-private static int _fDEFAULT_1MAX_1SIZE = 21;
 
-private static int _floadFactor = 7500;
 
 public int _fmodCount;
 

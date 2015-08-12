@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class NotSerializableException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = 2906642554793891381L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.NotSerializableException: void <init>()]

@@ -8,7 +8,6 @@ static Hashtable() {
     @static();
 }
 
-private static long _fserialVersionUID = 1421746759512286392L;
 
 public int _felementCount;
 

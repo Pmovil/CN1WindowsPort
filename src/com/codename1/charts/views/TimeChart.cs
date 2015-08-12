@@ -10,9 +10,7 @@ static TimeChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
 }
 
-private static int _fMILLIS_1TO_1MINUTES = 60000;
 
-private static int _fERA = 0;
 
 public static global::java.lang.String _fTYPE;
 

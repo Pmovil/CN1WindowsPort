@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public class IllegalCharsetNameException: global::java.lang.IllegalArgumentException {
-private static long _fserialVersionUID = 1457525358470002989L;
 
 private global::java.lang.String _fcharsetName;
 

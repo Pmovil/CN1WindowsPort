@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NoSuchFieldException: global::java.lang.Exception {
-private static long _fserialVersionUID = -6143714805279938260L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoSuchFieldException: void <init>()]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public abstract class VirtualMachineError: global::java.lang.Error {
-private static long _fserialVersionUID = 4161983926571568670L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.VirtualMachineError: void <init>()]

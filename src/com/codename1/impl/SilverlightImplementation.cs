@@ -727,7 +727,6 @@ namespace com.codename1.impl
                 are.WaitOne();
             }
         }
-         private Purchase pur;
       
         //public Purchase getInAppPurchase() {
         //try {
@@ -2951,7 +2950,6 @@ namespace com.codename1.impl
         private SilverlightPeer peer;
         private bool video;
         private java.lang.Runnable onComplete;
-        private bool ready;
         private Canvas cl;
 
         public CN1Media(string uri, bool video, java.lang.Runnable onComplete, Canvas cl)

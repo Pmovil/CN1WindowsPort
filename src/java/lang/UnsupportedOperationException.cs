@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class UnsupportedOperationException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -1242599979055084673L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.UnsupportedOperationException: void <init>()]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class WriteAbortedException: global::java.io.ObjectStreamException {
-private static long _fserialVersionUID = -3326426625597282442L;
 
 public global::java.lang.Exception _fdetail;
 

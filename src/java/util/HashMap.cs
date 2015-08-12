@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class HashMap: global::java.util.AbstractMap,global::java.util.Map,global::java.lang.Cloneable,global::java.io.Serializable {
-private static long _fserialVersionUID = 362498820763181265L;
 
 public int _felementCount;
 
@@ -11,7 +10,6 @@ public global::org.xmlvm._nArrayAdapter<global::System.Object> _felementData;
 
 public int _fmodCount;
 
-private static int _fDEFAULT_1SIZE = 16;
 
 public float _floadFactor;
 

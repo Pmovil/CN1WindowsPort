@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class StringBuilder: global::java.lang.AbstractStringBuilder,global::java.lang.Appendable,global::java.lang.CharSequence,global::java.io.Serializable {
-private static long _fserialVersionUID = 4383685877147921099L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuilder: void <init>()]

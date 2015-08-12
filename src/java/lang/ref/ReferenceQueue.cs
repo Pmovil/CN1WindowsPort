@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang.@ref {
 public class ReferenceQueue: global::java.lang.Object {
-private static int _fDEFAULT_1QUEUE_1SIZE = 128;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _freferences;
 

@@ -8,13 +8,9 @@ static ProxySelectorImpl() {
     @static();
 }
 
-private static int _fHTTP_1PROXY_1PORT = 80;
 
-private static int _fHTTPS_1PROXY_1PORT = 443;
 
-private static int _fFTP_1PROXY_1PORT = 80;
 
-private static int _fSOCKS_1PROXY_1PORT = 1080;
 
 private static global::java.util.Properties _fnetProps;
 
@@ -423,7 +419,6 @@ private bool isNonProxyHost(global::java.lang.String n1, global::java.lang.Strin
     _r4_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     _r5.i = ((global::java.lang.String) _r7_o).matches((global::java.lang.String) _r4_o) ? 1 : 0;
     goto label5;
-    label56:;
 //XMLVM_END_WRAPPER[java.net.ProxySelectorImpl: boolean isNonProxyHost(java.lang.String, java.lang.String)]
 }
 

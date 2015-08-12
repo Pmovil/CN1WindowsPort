@@ -86,8 +86,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label37;
-    label104:;
-    label128:;
 //XMLVM_END_WRAPPER[java.math.Multiplication: void <clinit>()]
 }
 

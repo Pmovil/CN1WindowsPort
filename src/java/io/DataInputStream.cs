@@ -374,7 +374,6 @@ public virtual global::System.Object readLine(){
     _r2.i = _r2.i & 0xffff;
     ((global::java.lang.StringBuilder) _r0_o).append((char) _r2.i);
     goto label8;
-    label92:;
 //XMLVM_END_WRAPPER[java.io.DataInputStream: java.lang.String readLine()]
 }
 

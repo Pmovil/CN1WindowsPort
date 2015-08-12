@@ -1231,10 +1231,6 @@ public override int next(){
     label808:;
     _r0.i = ((global::gnu.xml.stream.XIncludeFilter) _r9_o)._fevent;
     goto label13;
-    label812:;
-    label834:;
-    label854:;
-    label862:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XIncludeFilter: int next()]
 }
 

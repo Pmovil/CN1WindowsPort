@@ -24,7 +24,6 @@ public int _fchunkLength;
 
 public int _ffixedContentLength;
 
-private static int _fDEFAULT_1CHUNK_1LENGTH = 1024;
 
 public static int _fHTTP_1ACCEPTED = 202;
 

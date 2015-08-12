@@ -369,7 +369,6 @@ public virtual global::System.Object growPrio(global::org.xmlvm._nArrayAdapter<i
     _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).growPrioX((int) _r0.i);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC growPrio(int[])]
 }
 
@@ -445,7 +444,6 @@ public virtual global::System.Object grow(global::org.xmlvm._nArrayAdapter<float
     _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).growX((float) _r0.f);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label58:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC grow(float[])]
 }
 
@@ -499,7 +497,6 @@ public virtual global::System.Object shrinkPrio(global::org.xmlvm._nArrayAdapter
     _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).shrinkPrioX((int) _r0.i);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC shrinkPrio(int[])]
 }
 
@@ -556,7 +553,6 @@ public virtual global::System.Object shrink(global::org.xmlvm._nArrayAdapter<flo
     _r0.f = ((global::org.xmlvm._nArrayAdapter<float>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).shrinkX((float) _r0.f);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC shrink(float[])]
 }
 
@@ -610,7 +606,6 @@ public virtual global::System.Object endGroup(global::org.xmlvm._nArrayAdapter<g
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).endGroupX((global::java.lang.String) _r0_o);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC endGroup(java.lang.String[])]
 }
 
@@ -664,7 +659,6 @@ public virtual global::System.Object sizeGroup(global::org.xmlvm._nArrayAdapter<
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).sizeGroupX((global::java.lang.String) _r0_o);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC sizeGroup(java.lang.String[])]
 }
 
@@ -926,7 +920,6 @@ public virtual global::System.Object cell(global::org.xmlvm._nArrayAdapter<int> 
     _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).setCellX((int) _r0.i);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label56:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC cell(int[])]
 }
 
@@ -1013,7 +1006,6 @@ public virtual global::System.Object gap(global::org.xmlvm._nArrayAdapter<global
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
     ((global::com.codename1.ui.layouts.mig.CC) _r3_o).gapLeft((global::java.lang.String) _r0_o);
     return (global::com.codename1.ui.layouts.mig.CC) _r3_o;
-    label56:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: com.codename1.ui.layouts.mig.CC gap(java.lang.String[])]
 }
 

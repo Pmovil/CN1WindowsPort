@@ -274,7 +274,6 @@ public static global::System.Object simplePatternToFullRegularExpression(global:
     label37:;
     _r3_o = ((global::java.lang.StringBuffer) _r0_o).toString();
     return (global::java.lang.String) _r3_o;
-    label42:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: java.lang.String simplePatternToFullRegularExpression(java.lang.String)]
 }
 
@@ -403,7 +402,6 @@ public virtual int getParenStart(int n1){
     label28:;
     _r0.i = -1;
     goto label18;
-    label30:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int getParenStart(int)]
 }
 
@@ -442,7 +440,6 @@ public virtual int getParenEnd(int n1){
     label28:;
     _r0.i = -1;
     goto label18;
-    label30:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int getParenEnd(int)]
 }
 
@@ -501,7 +498,6 @@ public virtual void setParenStart(int n1, int n2){
     label25:;
     ((global::com.codename1.util.regex.RE) _r1_o)._fstart2 = _r3.i;
     goto label18;
-    label28:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void setParenStart(int, int)]
 }
 
@@ -539,7 +535,6 @@ public virtual void setParenEnd(int n1, int n2){
     label25:;
     ((global::com.codename1.util.regex.RE) _r1_o)._fend2 = _r3.i;
     goto label18;
-    label28:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void setParenEnd(int, int)]
 }
 
@@ -1687,12 +1682,6 @@ public virtual int matchNodes(int n1, int n2, int n3){
     ((global::com.codename1.util.regex.RE) _r0_o).internalError((global::java.lang.String) _r1_o);
     _r28.i = -1;
     goto label105;
-    label1800:;
-    label1894:;
-    label1928:;
-    label1954:;
-    label2012:;
-    label2024:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int matchNodes(int, int, int)]
 }
 

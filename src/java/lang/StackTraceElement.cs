@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class StackTraceElement: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = 6992337162326171013L;
 
 public global::java.lang.String _fdeclaringClass;
 

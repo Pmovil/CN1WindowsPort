@@ -7544,7 +7544,6 @@ public virtual void paintHint(global::com.codename1.ui.Graphics n1){
     _r1.i = ((global::com.codename1.ui.Component) _r2_o).getY();
     ((global::com.codename1.ui.Label) _r0_o).setY((int) _r1.i);
     goto label33;
-    label66:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component: void paintHint(com.codename1.ui.Graphics)]
 }
 

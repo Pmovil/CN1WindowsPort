@@ -20,7 +20,6 @@ private static bool _fhadSuccessfulEdit;
 
 private int _flinesToScroll;
 
-private static char _fENTER_1KEY = (char)10;
 
 private global::java.lang.String _funsupportedChars;
 
@@ -2159,7 +2158,6 @@ public virtual int getAbsoluteAlignment(){
     label17:;
     _r1.i = 3;
     goto label14;
-    label20:;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextArea: int getAbsoluteAlignment()]
 }
 

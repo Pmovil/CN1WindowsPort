@@ -3,11 +3,8 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class Grid_2LinkedDimGroup: global::java.lang.Object {
-private static int _fTYPE_1SERIAL = 0;
 
-private static int _fTYPE_1PARALLEL = 1;
 
-private static int _fTYPE_1BASELINE = 2;
 
 private global::java.lang.String _flinkCtx;
 

@@ -798,7 +798,6 @@ private int anchorComponentSide(int n1, int n2, global::com.codename1.ui.layouts
     _r3.i = (int) _r3.f;
     _r3.i = _r3.i + _r7.i;
     goto label20;
-    label50:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int anchorComponentSide(int, int, com.codename1.ui.layouts.GridBagLayout$ComponentSide, int)]
 }
 
@@ -890,7 +889,6 @@ private void initHorCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Com
     label101:;
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstretch = 0!=_r5.i;
     goto label74;
-    label104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initHorCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
 }
 
@@ -982,7 +980,6 @@ private void initVertCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Co
     label101:;
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstretch = 0!=_r5.i;
     goto label73;
-    label104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initVertCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
 }
 
@@ -1074,7 +1071,6 @@ private int translateRelativeAnchor(int n1, bool n2){
     label59:;
     _r0.i = _r4.i;
     goto label58;
-    label62:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int translateRelativeAnchor(int, boolean)]
 }
 

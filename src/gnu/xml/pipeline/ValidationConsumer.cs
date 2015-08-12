@@ -11,7 +11,6 @@ static ValidationConsumer() {
     @static();
 }
 
-private static bool _fwarnNonDeterministic = 0!=0;
 
 private global::java.lang.String _frootName;
 
@@ -39,11 +38,8 @@ public static global::org.xmlvm._nArrayAdapter<global::System.Object> _ftypes;
 
 private static global::gnu.xml.pipeline.ValidationConsumer_2Recognizer _fANY;
 
-private static int _fF_1LOOPHEAD = 1;
 
-private static int _fF_1LOOPNEXT = 2;
 
-private static int _fnodeCount;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <clinit>()]

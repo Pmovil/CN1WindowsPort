@@ -3,13 +3,9 @@
 using org.xmlvm;
 namespace com.codename1.ui.html {
 public class HTMLComponent_2HTMLBullet: global::com.codename1.ui.html.HTMLListItem {
-private static int _fBULLET_1NONE = 0;
 
-private static int _fBULLET_1DISC = 1;
 
-private static int _fBULLET_1CIRCLE = 2;
 
-private static int _fBULLET_1SQUARE = 3;
 
 public int _flevel;
 

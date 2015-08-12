@@ -188,7 +188,6 @@ public virtual global::System.Object possibleContexts(global::gnu.xml.xpath.Patt
     label86:;
     _r0_o = global::java.util.Collections.emptySet();
     goto label18;
-    label92:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Steps: java.util.Collection possibleContexts(gnu.xml.xpath.Pattern, org.w3c.dom.Node)]
 }
 

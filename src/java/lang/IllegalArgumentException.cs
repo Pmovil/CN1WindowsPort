@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class IllegalArgumentException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -5365630128856068164L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.IllegalArgumentException: void <init>()]

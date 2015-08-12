@@ -356,7 +356,6 @@ public virtual void show(int n1, int n2, int n3, int n4){
     _r3_o = ((global::com.codename1.ui.Form) _r0_o).getLayeredPane();
     ((global::com.codename1.ui.Container) _r3_o).revalidate();
     goto label119;
-    label128:;
 //XMLVM_END_WRAPPER[com.codename1.components.InteractionDialog: void show(int, int, int, int)]
 }
 

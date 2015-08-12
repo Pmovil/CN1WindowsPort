@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class Throwable: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = -3042686055658047285L;
 
 private global::java.lang.String _fdetailMessage;
 

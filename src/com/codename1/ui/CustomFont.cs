@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class CustomFont: global::com.codename1.ui.Font {
-private static int _fCOLOR_1CACHE_1SIZE = 5;
 
 private global::java.util.Hashtable _fcolorCache;
 

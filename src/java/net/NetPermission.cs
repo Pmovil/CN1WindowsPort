@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class NetPermission: global::java.security.BasicPermission {
-private static long _fserialVersionUID = -8343910153355041693L;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.net.NetPermission: void <init>(java.lang.String)]

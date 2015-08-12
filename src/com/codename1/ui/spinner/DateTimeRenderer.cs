@@ -559,7 +559,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     _r23_o = ((global::java.lang.StringBuilder) _r18_o).toString();
     _r18_o = _r23_o;
     goto label243;
-    label846:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.DateTimeRenderer: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
 }
 

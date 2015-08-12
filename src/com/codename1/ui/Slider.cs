@@ -1222,7 +1222,6 @@ public override void keyPressed(int n1){
     if (_r1.i != _r2.i) goto label23;
     ((global::com.codename1.ui.Slider) _r6_o).fireClicked();
     goto label23;
-    label182:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Slider: void keyPressed(int)]
 }
 

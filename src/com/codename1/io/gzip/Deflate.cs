@@ -8,117 +8,63 @@ static Deflate() {
     @static();
 }
 
-private static int _fMAX_1MEM_1LEVEL = 9;
 
-private static int _fZ_1DEFAULT_1COMPRESSION = -1;
 
-private static int _fMAX_1WBITS = 15;
 
-private static int _fDEF_1MEM_1LEVEL = 8;
 
-private static int _fSTORED = 0;
 
-private static int _fFAST = 1;
 
-private static int _fSLOW = 2;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fconfig_1table;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fz_1errmsg;
 
-private static int _fNeedMore = 0;
 
-private static int _fBlockDone = 1;
 
-private static int _fFinishStarted = 2;
 
-private static int _fFinishDone = 3;
 
-private static int _fPRESET_1DICT = 32;
 
-private static int _fZ_1FILTERED = 1;
 
-private static int _fZ_1HUFFMAN_1ONLY = 2;
 
-private static int _fZ_1DEFAULT_1STRATEGY = 0;
 
-private static int _fZ_1NO_1FLUSH = 0;
 
-private static int _fZ_1PARTIAL_1FLUSH = 1;
 
-private static int _fZ_1SYNC_1FLUSH = 2;
 
-private static int _fZ_1FULL_1FLUSH = 3;
 
-private static int _fZ_1FINISH = 4;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
-private static int _fINIT_1STATE = 42;
 
-private static int _fBUSY_1STATE = 113;
 
-private static int _fFINISH_1STATE = 666;
 
-private static int _fZ_1DEFLATED = 8;
 
-private static int _fSTORED_1BLOCK = 0;
 
-private static int _fSTATIC_1TREES = 1;
 
-private static int _fDYN_1TREES = 2;
 
-private static int _fZ_1BINARY = 0;
 
-private static int _fZ_1ASCII = 1;
 
-private static int _fZ_1UNKNOWN = 2;
 
-private static int _fBuf_1size = 16;
 
-private static int _fREP_13_16 = 16;
 
-private static int _fREPZ_13_110 = 17;
 
-private static int _fREPZ_111_1138 = 18;
 
-private static int _fMIN_1MATCH = 3;
 
-private static int _fMAX_1MATCH = 258;
 
-private static int _fMIN_1LOOKAHEAD = 262;
 
-private static int _fMAX_1BITS = 15;
 
-private static int _fD_1CODES = 30;
 
-private static int _fBL_1CODES = 19;
 
-private static int _fLENGTH_1CODES = 29;
 
-private static int _fLITERALS = 256;
 
-private static int _fL_1CODES = 286;
 
-private static int _fHEAP_1SIZE = 573;
 
-private static int _fEND_1BLOCK = 256;
 
 public global::com.codename1.io.gzip.ZStream _fstrm;
 
@@ -3264,7 +3210,6 @@ public virtual int deflate(int n1){
     label543:;
     _r7.i = 1;
     goto label6;
-    label546:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Deflate: int deflate(int)]
 }
 

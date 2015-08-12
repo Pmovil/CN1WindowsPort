@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class MalformedURLException: global::java.io.IOException {
-private static long _fserialVersionUID = -182787522200415866L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.MalformedURLException: void <init>()]

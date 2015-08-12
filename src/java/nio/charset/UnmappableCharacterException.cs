@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public class UnmappableCharacterException: global::java.nio.charset.CharacterCodingException {
-private static long _fserialVersionUID = -7026962371537706123L;
 
 private int _finputLength;
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace org.xmlvm.runtime {
 public class Condition: global::java.lang.Object {
-private global::java.lang.Object _fpthreadCondT;
 
 private global::java.lang.Object _fsynchronizedObject;
 

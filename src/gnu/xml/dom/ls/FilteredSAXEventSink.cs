@@ -79,7 +79,6 @@ public override void endDocument(){
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._fctx = (global::org.w3c.dom.Node) _r2_o;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._fdoc = (global::gnu.xml.dom.DomDocument) _r2_o;
     goto label19;
-    label30:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void endDocument()]
 }
 
@@ -128,7 +127,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     label42:;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._finterrupted = 0!=_r3.i;
     goto label9;
-    label46:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes)]
 }
 
@@ -162,7 +160,6 @@ public override global::System.Object createAttr(global::org.xml.sax.Attributes 
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._finterrupted = 0!=_r0.i;
     _r0_o = _r2_o;
     goto label13;
-    label22:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: org.w3c.dom.Attr createAttr(org.xml.sax.Attributes, int)]
 }
 
@@ -239,8 +236,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     _r0.i = 1;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._finterrupted = 0!=_r0.i;
     goto label9;
-    label92:;
-    label100:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void endElement(java.lang.String, java.lang.String, java.lang.String)]
 }
 
@@ -281,7 +276,6 @@ public override void characters(global::org.xmlvm._nArrayAdapter<char> n1, int n
     _r0.i = 1;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r2_o)._finterrupted = 0!=_r0.i;
     goto label8;
-    label32:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void characters(char[], int, int)]
 }
 
@@ -322,7 +316,6 @@ public override void processingInstruction(global::java.lang.String n1, global::
     _r0.i = 1;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r2_o)._finterrupted = 0!=_r0.i;
     goto label12;
-    label36:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void processingInstruction(java.lang.String, java.lang.String)]
 }
 
@@ -396,7 +389,6 @@ public override void endDTD(){
     _r0.i = 1;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._finterrupted = 0!=_r0.i;
     goto label5;
-    label44:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void endDTD()]
 }
 
@@ -439,7 +431,6 @@ public override void comment(global::org.xmlvm._nArrayAdapter<char> n1, int n2, 
     _r0.i = 1;
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r2_o)._finterrupted = 0!=_r0.i;
     goto label12;
-    label36:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: void comment(char[], int, int)]
 }
 
@@ -605,7 +596,6 @@ public virtual short getDecision(global::org.w3c.dom.Node n1, bool n2){
     _r0_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._ffilter;
     _r0.i = ((global::org.w3c.dom.ls.LSParserFilter) _r0_o).acceptNode((global::org.w3c.dom.Node) _r5_o);
     goto label20;
-    label164:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.FilteredSAXEventSink: short getDecision(org.w3c.dom.Node, boolean)]
 }
 

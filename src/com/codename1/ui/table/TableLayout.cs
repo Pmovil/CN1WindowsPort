@@ -1060,9 +1060,6 @@ private void placeComponent(bool n1, global::com.codename1.ui.table.TableLayout_
     _r6.i = _r13.i - _r1.i;
     ((global::com.codename1.ui.Component) _r5_o).setHeight((int) _r6.i);
     goto label71;
-    label188:;
-    label198:;
-    label210:;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: void placeComponent(boolean, com.codename1.ui.table.TableLayout$Constraint, int, int, int, int)]
 }
 

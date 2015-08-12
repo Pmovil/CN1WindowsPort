@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class IncompatibleClassChangeError: global::java.lang.LinkageError {
-private static long _fserialVersionUID = -4914975503642802119L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.IncompatibleClassChangeError: void <init>()]

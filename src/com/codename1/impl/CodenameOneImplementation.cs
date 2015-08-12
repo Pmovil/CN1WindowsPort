@@ -8,9 +8,7 @@ static CodenameOneImplementation() {
     @static();
 }
 
-private static int _fRTL_1RANGE_1BEGIN = 1424;
 
-private static int _fRTL_1RANGE_1END = 1983;
 
 private global::java.lang.Object _flightweightClipboard;
 
@@ -2609,7 +2607,6 @@ public virtual bool hasDragStarted(int n1, int n2){
     label180:;
     _r3.i = _r6.i;
     goto label15;
-    label184:;
 //XMLVM_END_WRAPPER[com.codename1.impl.CodenameOneImplementation: boolean hasDragStarted(int, int)]
 }
 
@@ -5887,7 +5884,6 @@ public virtual int convertToPixels(int n1, bool n2){
     label23:;
     _r0.i = _r2.i * 20;
     goto label8;
-    label26:;
 //XMLVM_END_WRAPPER[com.codename1.impl.CodenameOneImplementation: int convertToPixels(int, boolean)]
 }
 

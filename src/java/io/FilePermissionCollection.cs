@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class FilePermissionCollection: global::java.security.PermissionCollection,global::java.io.Serializable {
-private static long _fserialVersionUID = 2202956749081564585L;
 
 public global::java.util.Vector _fpermissions;
 

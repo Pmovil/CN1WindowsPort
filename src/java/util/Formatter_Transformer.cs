@@ -167,7 +167,6 @@ public virtual global::System.Object transform(global::java.util.Formatter_2Form
     label98:;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r2_o).transformFromDateTime();
     goto label29;
-    label104:;
 //XMLVM_END_WRAPPER[java.util.Formatter$Transformer: java.lang.String transform(java.util.Formatter$FormatToken, java.lang.Object)]
 }
 

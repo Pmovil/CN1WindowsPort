@@ -8,13 +8,11 @@ static GregorianCalendar() {
     @static();
 }
 
-private static long _fserialVersionUID = -8125100834729963327L;
 
 public static int _fBC = 0;
 
 public static int _fAD = 1;
 
-private static long _fdefaultGregorianCutover = -12219292800000L;
 
 private long _fgregorianCutover;
 
@@ -148,9 +146,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{1, 292269054, 11, 50, 3, 28, 355, 7, 3, 1, 11, 23, 59, 59, 999, 50400000, 1200000});
     global::java.util.GregorianCalendar._fleastMaximums = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label118:;
-    label128:;
-    label166:;
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void <clinit>()]
 }
 
@@ -974,7 +969,6 @@ public override void add(int n1, int n2){
     label236:;
     _r0.i = _r11.i;
     goto label81;
-    label240:;
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void add(int, int)]
 }
 
@@ -4083,8 +4077,6 @@ public override int getActualMaximum(int n1){
     label164:;
     _r0.i = _r3.i;
     goto label27;
-    label168:;
-    label176:;
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: int getActualMaximum(int)]
 }
 
@@ -4998,7 +4990,6 @@ public override void roll(int n1, int n2){
     _r0.i = 10;
     ((global::java.util.GregorianCalendar) _r7_o)._flastTimeFieldSet = _r0.i;
     goto label28;
-    label396:;
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void roll(int, int)]
 }
 

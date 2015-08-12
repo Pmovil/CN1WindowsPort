@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2AscendingSubMap: global::java.util.TreeMap_2NavigableSubMap,global::java.io.Serializable {
-private static long _fserialVersionUID = 912986545866124060L;
 
 public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMap n3, global::java.lang.Object n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$AscendingSubMap: void <init>(java.lang.Object, boolean, java.util.TreeMap, java.lang.Object, boolean)]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2SingletonList: global::java.util.AbstractList,global::java.io.Serializable {
-private static long _fserialVersionUID = 3093736618740652951L;
 
 public global::java.lang.Object _felement;
 

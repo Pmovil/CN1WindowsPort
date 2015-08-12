@@ -177,7 +177,6 @@ public virtual void transform(global::java.util.Formatter_2FormatToken n1, globa
     label163:;
     ((global::java.util.Formatter_2DateTimeUtil) _r3_o).transform_1c();
     goto label49;
-    label168:;
 //XMLVM_END_WRAPPER[java.util.Formatter$DateTimeUtil: void transform(java.util.Formatter$FormatToken, java.util.Calendar, java.lang.StringBuilder)]
 }
 

@@ -13,7 +13,6 @@ static File() {
     @static();
 }
 
-private static long _fserialVersionUID = 301077366599181567L;
 
 private static global::java.lang.String _fEMPTY_1STRING;
 
@@ -2398,7 +2397,6 @@ public virtual bool createNewFile(){
     label59:;
     _r2.i = 0;
     goto label58;
-    label62:;
 //XMLVM_END_WRAPPER[java.io.File: boolean createNewFile()]
 }
 

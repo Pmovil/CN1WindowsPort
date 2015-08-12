@@ -664,38 +664,6 @@ public static void setPlatform(int n1){
     label1167:;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults.getPlatformDPI((int) _r6.i);
     goto label146;
-    label1174:;
-    label1184:;
-    label1196:;
-    label1208:;
-    label1220:;
-    label1232:;
-    label1244:;
-    label1256:;
-    label1268:;
-    label1280:;
-    label1292:;
-    label1304:;
-    label1316:;
-    label1328:;
-    label1340:;
-    label1352:;
-    label1364:;
-    label1376:;
-    label1388:;
-    label1400:;
-    label1412:;
-    label1424:;
-    label1436:;
-    label1448:;
-    label1460:;
-    label1472:;
-    label1484:;
-    label1496:;
-    label1508:;
-    label1520:;
-    label1532:;
-    label1544:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setPlatform(int)]
 }
 
@@ -763,7 +731,6 @@ public static int getPlatformDPI(int n1){
     label29:;
     _r0.i = 72;
     goto label14;
-    label32:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getPlatformDPI(int)]
 }
 
@@ -1323,7 +1290,6 @@ public static global::System.Object getTagForChar(char n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     goto label4;
-    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.String getTagForChar(char)]
 }
 

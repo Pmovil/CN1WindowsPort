@@ -2583,7 +2583,6 @@ public virtual bool moveScrollTowards(int n1, global::com.codename1.ui.Component
     label574:;
     _r2.i = 1;
     goto label74;
-    label578:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean moveScrollTowards(int, com.codename1.ui.Component)]
 }
 

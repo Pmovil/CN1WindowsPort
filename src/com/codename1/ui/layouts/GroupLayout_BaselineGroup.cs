@@ -286,7 +286,6 @@ private int calculateMaxSize(){
     _r8.i = _r2.i + _r3.i;
     _r8.i = global::java.lang.Math.max((int) _r4.i, (int) _r8.i);
     return _r8.i;
-    label96:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$BaselineGroup: int calculateMaxSize()]
 }
 
@@ -372,7 +371,6 @@ private int calculateMinSize(){
     _r8.i = _r2.i + _r3.i;
     _r8.i = global::java.lang.Math.max((int) _r4.i, (int) _r8.i);
     return _r8.i;
-    label124:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$BaselineGroup: int calculateMinSize()]
 }
 
@@ -464,7 +462,6 @@ private void baselineLayout(int n1, int n2){
     goto label62;
     label112:;
     return;
-    label114:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$BaselineGroup: void baselineLayout(int, int)]
 }
 

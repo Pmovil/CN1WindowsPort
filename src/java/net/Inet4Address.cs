@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class Inet4Address: global::java.net.InetAddress {
-private static long _fserialVersionUID = 3286316764910316507L;
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: void <init>(byte[])]

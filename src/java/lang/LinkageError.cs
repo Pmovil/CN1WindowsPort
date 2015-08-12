@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class LinkageError: global::java.lang.Error {
-private static long _fserialVersionUID = 3579600108157160122L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.LinkageError: void <init>()]

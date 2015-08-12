@@ -13,7 +13,6 @@ private long _fmax;
 
 private long _fcurrentValue;
 
-private static long _fDAY = 86400000L;
 
 public virtual void setValue(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerDateModel: void setValue(java.util.Date)]

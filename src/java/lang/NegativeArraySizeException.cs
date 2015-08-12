@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class NegativeArraySizeException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -8960118058596991861L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NegativeArraySizeException: void <init>()]

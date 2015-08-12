@@ -373,7 +373,6 @@ public virtual global::System.Object parseFieldTypeSignature(){
     label29:;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r2_o).parseTypeVariableSignature();
     goto label15;
-    label34:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseFieldTypeSignature()]
 }
 
@@ -604,7 +603,6 @@ public virtual global::System.Object parseTypeSignature(){
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r1_o).scanSymbol();
     _r0_o = global::java.lang.Boolean._fTYPE;
     goto label9;
-    label58:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: java.lang.reflect.Type parseTypeSignature()]
 }
 
@@ -776,7 +774,6 @@ public virtual bool isStopSymbol(char n1){
     label5:;
     _r0.i = 1;
     goto label4;
-    label8:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.GenericSignatureParser: boolean isStopSymbol(char)]
 }
 

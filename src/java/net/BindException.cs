@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class BindException: global::java.net.SocketException {
-private static long _fserialVersionUID = -5945005768251722951L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.BindException: void <init>()]

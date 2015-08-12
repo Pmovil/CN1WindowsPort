@@ -9,7 +9,6 @@ static Class() {
     @static();
 }
 
-private static long _fserialVersionUID = 3206093459760846163L;
 
 public global::java.lang.Object _ftib;
 

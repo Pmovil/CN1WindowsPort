@@ -10,43 +10,24 @@ static InfCodes() {
 
 private static global::org.xmlvm._nArrayAdapter<int> _finflate_1mask;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
-private static int _fSTART = 0;
 
-private static int _fLEN = 1;
 
-private static int _fLENEXT = 2;
 
-private static int _fDIST = 3;
 
-private static int _fDISTEXT = 4;
 
-private static int _fCOPY = 5;
 
-private static int _fLIT = 6;
 
-private static int _fWASH = 7;
 
-private static int _fEND = 8;
 
-private static int _fBADCODE = 9;
 
 public int _fmode;
 
@@ -1688,7 +1669,6 @@ public virtual int proc(int n1){
     label2490:;
     _r13.i = _r14.i;
     goto label1523;
-    label2494:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfCodes: int proc(int)]
 }
 
@@ -2357,7 +2337,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{0, 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023, 2047, 4095, 8191, 16383, 32767, 65535});
     global::com.codename1.io.gzip.InfCodes._finflate_1mask = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfCodes: void <clinit>()]
 }
 

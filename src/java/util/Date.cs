@@ -8,7 +8,6 @@ static Date() {
     @static();
 }
 
-private static long _fserialVersionUID = 7523967970034938905L;
 
 private static int _fcreationYear;
 

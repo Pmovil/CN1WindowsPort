@@ -8,7 +8,6 @@ static Locale() {
     @static();
 }
 
-private static long _fserialVersionUID = 9149081749638150636L;
 
 private static global::java.util.Locale _fdefaultLocale;
 

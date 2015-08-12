@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.maps {
 public class Mercator: global::com.codename1.maps.Projection {
-private static double _fSIZE = 2.003750834E7D;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Mercator: void <init>()]

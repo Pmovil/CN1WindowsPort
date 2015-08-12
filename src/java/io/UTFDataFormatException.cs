@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class UTFDataFormatException: global::java.io.IOException {
-private static long _fserialVersionUID = 420743449228280612L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.UTFDataFormatException: void <init>()]

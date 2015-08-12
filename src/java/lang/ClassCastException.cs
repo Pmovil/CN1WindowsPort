@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ClassCastException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -9223365651070458532L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassCastException: void <init>()]

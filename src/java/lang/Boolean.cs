@@ -8,7 +8,6 @@ static Boolean() {
     @static();
 }
 
-private static long _fserialVersionUID = -3665804199014368530L;
 
 private bool _fvalue;
 

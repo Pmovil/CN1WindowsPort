@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ArithmeticException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = 2256477558314496007L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ArithmeticException: void <init>()]

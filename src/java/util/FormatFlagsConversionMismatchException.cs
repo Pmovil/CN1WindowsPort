@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class FormatFlagsConversionMismatchException: global::java.util.IllegalFormatException,global::java.io.Serializable {
-private static long _fserialVersionUID = 19120414L;
 
 private global::java.lang.String _ff;
 

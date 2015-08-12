@@ -122,7 +122,6 @@ public override bool matches(global::org.w3c.dom.Node n1, int n2, int n3){
     _r1_o = global::gnu.xml.xpath.NameTest.getLocalName((global::org.w3c.dom.Node) _r6_o);
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     goto label12;
-    label96:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.NameTest: boolean matches(org.w3c.dom.Node, int, int)]
 }
 

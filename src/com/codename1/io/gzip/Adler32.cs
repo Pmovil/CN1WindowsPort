@@ -3,9 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.io.gzip {
 public class Adler32: global::java.lang.Object,global::com.codename1.io.gzip.Checksum {
-private static int _fBASE = 65521;
 
-private static int _fNMAX = 5552;
 
 private long _fs1;
 

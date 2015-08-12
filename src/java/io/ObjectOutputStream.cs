@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class ObjectOutputStream: global::java.io.OutputStream,global::java.io.ObjectOutput,global::java.io.ObjectStreamConstants {
-private static sbyte _fNOT_1SC_1BLOCK_1DATA = -9;
 
 private int _fnestedLevels;
 
@@ -1379,7 +1378,6 @@ throw new org.xmlvm._nNotYetImplementedException("Red class access removed: org.
         throw ex;
     } // end catch
     goto label72;
-    label180:;
 //XMLVM_END_WRAPPER[java.io.ObjectOutputStream: void writeFieldValues(java.lang.Object, java.io.ObjectStreamClass)]
 }
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang.reflect {
 public class InvocationTargetException: global::java.lang.Exception {
-private static long _fserialVersionUID = 4085088731926701167L;
 
 private global::java.lang.Throwable _ftarget;
 

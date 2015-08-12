@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class InterruptedIOException: global::java.io.IOException {
-private static long _fserialVersionUID = 4020568460727500567L;
 
 public int _fbytesTransferred;
 

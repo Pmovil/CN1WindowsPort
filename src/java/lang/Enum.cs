@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public abstract class Enum: global::java.lang.Object,global::java.io.Serializable,global::java.lang.Comparable {
-private static long _fserialVersionUID = -4300926546619394005L;
 
 private global::java.lang.String _fname;
 

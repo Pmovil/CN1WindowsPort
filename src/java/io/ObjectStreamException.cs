@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public abstract class ObjectStreamException: global::java.io.IOException {
-private static long _fserialVersionUID = 7260898174833392607L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamException: void <init>()]

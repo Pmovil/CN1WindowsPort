@@ -11,21 +11,15 @@ public static int _fSOUTH = 5;
 
 public static int _fWEST = 7;
 
-private static int _fMIN_1SIZE = 0;
 
-private static int _fPREF_1SIZE = 1;
 
-private static int _fMAX_1SIZE = 2;
 
-private static int _fSPECIFIC_1SIZE = 3;
 
-private static int _fUNSET = -2147483648;
 
 public static int _fHORIZONTAL = 1;
 
 public static int _fVERTICAL = 2;
 
-private static int _fNO_1ALIGNMENT = 0;
 
 public static int _fLEADING = 1;
 
@@ -1266,7 +1260,6 @@ private void calculateAutopadding(global::com.codename1.ui.layouts.GroupLayout_2
     label23:;
     _r5.i = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o).getMaximumSize((int) _r2.i);
     goto label6;
-    label28:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout: void calculateAutopadding(com.codename1.ui.layouts.GroupLayout$Group, int, int, int, int)]
 }
 

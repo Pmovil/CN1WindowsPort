@@ -85,7 +85,6 @@ public virtual void propertyChanged(global::com.codename1.ui.Component n1, globa
     _r1_o = ((global::com.codename1.cloud.CloudObject_21) _r3_o)._fthis_20;
     ((global::com.codename1.cloud.CloudStorage) _r0_o).save((global::com.codename1.cloud.CloudObject) _r1_o);
     goto label6;
-    label80:;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject$1: void propertyChanged(com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
 }
 

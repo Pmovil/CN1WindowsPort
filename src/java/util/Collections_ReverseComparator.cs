@@ -10,7 +10,6 @@ static Collections_2ReverseComparator() {
 
 private static global::java.util.Collections_2ReverseComparator _fINSTANCE;
 
-private static long _fserialVersionUID = 7207038068494060240L;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparator: void <clinit>()]

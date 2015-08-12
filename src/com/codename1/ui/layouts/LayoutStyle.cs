@@ -260,7 +260,6 @@ public virtual int flipDirection(int n1){
     label34:;
     _r0.i = 3;
     goto label29;
-    label36:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int flipDirection(int)]
 }
 
@@ -338,7 +337,6 @@ private int getInset(global::com.codename1.ui.Component n1, int n2){
     label70:;
     _r4.i = _r1.i;
     goto label65;
-    label72:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getInset(com.codename1.ui.Component, int)]
 }
 

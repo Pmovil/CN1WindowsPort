@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2SynchronizedSet: global::java.util.Collections_2SynchronizedCollection,global::java.util.Set {
-private static long _fserialVersionUID = 487447009682186044L;
 
 public void @this(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedSet: void <init>(java.util.Set)]

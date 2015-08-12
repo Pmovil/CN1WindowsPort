@@ -8,17 +8,11 @@ static StaticTree() {
     @static();
 }
 
-private static int _fMAX_1BITS = 15;
 
-private static int _fBL_1CODES = 19;
 
-private static int _fD_1CODES = 30;
 
-private static int _fLITERALS = 256;
 
-private static int _fLENGTH_1CODES = 29;
 
-private static int _fL_1CODES = 286;
 
 public static int _fMAX_1BL_1BITS = 7;
 
@@ -109,8 +103,6 @@ public static void @static(){
     ((global::com.codename1.io.gzip.StaticTree) _r0_o).@this((global::org.xmlvm._nArrayAdapter<short>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i);
     global::com.codename1.io.gzip.StaticTree._fstatic_1bl_1desc = (global::com.codename1.io.gzip.StaticTree) _r0_o;
     return;
-    label66:;
-    label646:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.StaticTree: void <clinit>()]
 }
 

@@ -191,7 +191,6 @@ public static global::System.Object valueOf(int n1){
     label36:;
     _r0_o = global::java.math.RoundingMode._fUP;
     goto label17;
-    label40:;
 //XMLVM_END_WRAPPER[java.math.RoundingMode: java.math.RoundingMode valueOf(int)]
 }
 

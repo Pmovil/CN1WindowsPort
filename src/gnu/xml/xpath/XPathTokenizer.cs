@@ -499,7 +499,6 @@ public virtual bool advance(){
     ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o).@this((int) _r3.i);
     ((global::gnu.xml.xpath.XPathTokenizer) _r4_o)._ftoken = (global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o;
     goto label32;
-    label444:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathTokenizer: boolean advance()]
 }
 
@@ -754,8 +753,6 @@ public virtual global::System.Object consume_1name(int n1){
     _r0_o = new global::gnu.xml.xpath.XPathTokenizer_2XPathToken();
     ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o).@this((int) _r4.i, (global::java.lang.String) _r1_o);
     goto label64;
-    label182:;
-    label228:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathTokenizer: gnu.xml.xpath.XPathTokenizer$XPathToken consume_name(int)]
 }
 

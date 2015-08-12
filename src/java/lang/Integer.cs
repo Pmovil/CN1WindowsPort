@@ -8,7 +8,6 @@ static Integer() {
     @static();
 }
 
-private static long _fserialVersionUID = 1360826667806852920L;
 
 private int _fvalue;
 
@@ -36,7 +35,6 @@ public static void @static(){
     _r0_o = ((global::java.lang.Class) _r0_o).getComponentType();
     global::java.lang.Integer._fTYPE = (global::java.lang.Class) _r0_o;
     return;
-    label24:;
 //XMLVM_END_WRAPPER[java.lang.Integer: void <clinit>()]
 }
 

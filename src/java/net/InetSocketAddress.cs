@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.net {
 public class InetSocketAddress: global::java.net.SocketAddress {
-private static long _fserialVersionUID = 5076001401234631237L;
 
 private global::java.lang.String _fhostname;
 

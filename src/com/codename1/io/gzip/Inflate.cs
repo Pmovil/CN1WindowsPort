@@ -8,9 +8,7 @@ static Inflate() {
     @static();
 }
 
-private static int _fMAX_1WBITS = 15;
 
-private static int _fPRESET_1DICT = 32;
 
 public static int _fZ_1NO_1FLUSH = 0;
 
@@ -22,73 +20,39 @@ public static int _fZ_1FULL_1FLUSH = 3;
 
 public static int _fZ_1FINISH = 4;
 
-private static int _fZ_1DEFLATED = 8;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
-private static int _fMETHOD = 0;
 
-private static int _fFLAG = 1;
 
-private static int _fDICT4 = 2;
 
-private static int _fDICT3 = 3;
 
-private static int _fDICT2 = 4;
 
-private static int _fDICT1 = 5;
 
-private static int _fDICT0 = 6;
 
-private static int _fBLOCKS = 7;
 
-private static int _fCHECK4 = 8;
 
-private static int _fCHECK3 = 9;
 
-private static int _fCHECK2 = 10;
 
-private static int _fCHECK1 = 11;
 
-private static int _fDONE = 12;
 
-private static int _fBAD = 13;
 
-private static int _fHEAD = 14;
 
-private static int _fLENGTH = 15;
 
-private static int _fTIME = 16;
 
-private static int _fOS = 17;
 
-private static int _fEXLEN = 18;
 
-private static int _fEXTRA = 19;
 
-private static int _fNAME = 20;
 
-private static int _fCOMMENT = 21;
 
-private static int _fHCRC = 22;
 
-private static int _fFLAGS = 23;
 
 public static int _fINFLATE_1ANY = 1073741824;
 
@@ -1393,7 +1357,6 @@ public virtual int inflate(int n1){
     _r5.i = 7;
     ((global::com.codename1.io.gzip.Inflate) _r11_o)._fmode = _r5.i;
     goto label30;
-    label1500:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Inflate: int inflate(int)]
 }
 
@@ -1900,7 +1863,6 @@ public virtual bool inParsingHeader(){
     label7:;
     _r0.i = 1;
     goto label6;
-    label10:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Inflate: boolean inParsingHeader()]
 }
 
@@ -1913,7 +1875,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[]{0, 0, -1, -1});
     global::com.codename1.io.gzip.Inflate._fmark = (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
     return;
-    label10:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Inflate: void <clinit>()]
 }
 

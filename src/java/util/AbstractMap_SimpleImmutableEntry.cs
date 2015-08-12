@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class AbstractMap_2SimpleImmutableEntry: global::java.lang.Object,global::java.util.Map_2Entry,global::java.io.Serializable {
-private static long _fserialVersionUID = 7138329143949025153L;
 
 private global::java.lang.Object _fkey;
 

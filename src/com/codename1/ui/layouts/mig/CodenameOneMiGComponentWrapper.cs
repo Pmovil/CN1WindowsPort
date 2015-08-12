@@ -206,7 +206,6 @@ public virtual float getPixelUnitFactor(bool n1){
     label77:;
     _r2.i = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper) _r3_o).getVerticalScreenDPI();
     goto label62;
-    label82:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper: float getPixelUnitFactor(boolean)]
 }
 

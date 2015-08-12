@@ -10,9 +10,7 @@ static SpinnerRenderer() {
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _fimageCache;
 
-private static int _fPERSPECTIVES = 9;
 
-private static int _fFRONT_1ANGLE = 4;
 
 private static global::org.xmlvm._nArrayAdapter<float> _fTOP_1SCALE;
 
@@ -286,9 +284,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<float>(new float[]{(float)0.5D, (float)0.5D, (float)0.8D, (float)0.9D, (float)1.0D, (float)0.9D, (float)0.8D, (float)0.5D, (float)0.5D});
     global::com.codename1.ui.spinner.SpinnerRenderer._fVERTICAL_1SHRINK = (global::org.xmlvm._nArrayAdapter<float>) _r0_o;
     return;
-    label24:;
-    label46:;
-    label68:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.SpinnerRenderer: void <clinit>()]
 }
 

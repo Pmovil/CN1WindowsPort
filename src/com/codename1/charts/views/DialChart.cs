@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace com.codename1.charts.views {
 public class DialChart: global::com.codename1.charts.views.RoundChart {
-private static int _fNEEDLE_1RADIUS = 10;
 
 private global::com.codename1.charts.renderers.DialRenderer _fmRenderer;
 

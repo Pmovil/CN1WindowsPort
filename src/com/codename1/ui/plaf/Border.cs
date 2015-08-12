@@ -10,45 +10,25 @@ static Border() {
 
 private static global::com.codename1.ui.plaf.Border _fdefaultBorder;
 
-private static int _fTYPE_1EMPTY = 0;
 
-private static int _fTYPE_1LINE = 1;
 
-private static int _fTYPE_1ROUNDED = 2;
 
-private static int _fTYPE_1ROUNDED_1PRESSED = 3;
 
-private static int _fTYPE_1ETCHED_1LOWERED = 4;
 
-private static int _fTYPE_1ETCHED_1RAISED = 5;
 
-private static int _fTYPE_1BEVEL_1RAISED = 6;
 
-private static int _fTYPE_1BEVEL_1LOWERED = 7;
 
-private static int _fTYPE_1IMAGE = 8;
 
-private static int _fTYPE_1COMPOUND = 9;
 
-private static int _fTYPE_1IMAGE_1HORIZONTAL = 10;
 
-private static int _fTYPE_1IMAGE_1VERTICAL = 11;
 
-private static int _fTYPE_1DASHED = 12;
 
-private static int _fTYPE_1DOTTED = 13;
 
-private static int _fTYPE_1DOUBLE = 14;
 
-private static int _fTYPE_1GROOVE = 15;
 
-private static int _fTYPE_1RIDGE = 16;
 
-private static int _fTYPE_1INSET = 17;
 
-private static int _fTYPE_1OUTSET = 18;
 
-private static int _fTYPE_1IMAGE_1SCALED = 19;
 
 public int _ftype;
 
@@ -88,9 +68,7 @@ public global::java.lang.String _fborderTitle;
 
 private bool _fpaintOuterBorderFirst;
 
-private static int _fTITLE_1MARGIN = 10;
 
-private static int _fTITLE_1SPACE = 5;
 
 private static global::com.codename1.ui.plaf.Border _fempty;
 
@@ -1605,7 +1583,6 @@ public virtual global::System.Object createPressedVersion(){
     ((global::com.codename1.ui.plaf.Border) _r0_o)._fthemeColors = 0!=_r1.i;
     _r1_o = _r0_o;
     goto label6;
-    label124:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createPressedVersion()]
 }
 
@@ -2714,7 +2691,6 @@ private void paintBorderBackground(global::com.codename1.ui.Graphics n1, int n2,
     label1727:;
     _r84.i = _r15.i;
     goto label38;
-    label1732:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Border: void paintBorderBackground(com.codename1.ui.Graphics, int, int, int, int, com.codename1.ui.Component)]
 }
 
@@ -4109,7 +4085,6 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, int n2, int n3, 
     _r2_o = _r15_o;
     ((global::com.codename1.ui.plaf.Border) _r0_o).restoreClip((global::com.codename1.ui.Graphics) _r1_o, (global::com.codename1.ui.geom.Rectangle) _r2_o);
     goto label30;
-    label2086:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Border: void paint(com.codename1.ui.Graphics, int, int, int, int, com.codename1.ui.Component)]
 }
 

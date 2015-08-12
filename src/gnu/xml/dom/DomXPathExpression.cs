@@ -231,8 +231,6 @@ public virtual global::System.Object evaluate(global::org.w3c.dom.Node n1, short
         throw ex;
     } // end catch
     goto label37;
-    label72:;
-    label94:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathExpression: java.lang.Object evaluate(org.w3c.dom.Node, short, java.lang.Object)]
 }
 

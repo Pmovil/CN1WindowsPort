@@ -8,7 +8,6 @@ static Arrays() {
     @static();
 }
 
-private static int _fSIMPLE_1LENGTH = 7;
 
 public static bool _f_2assertionsDisabled;
 

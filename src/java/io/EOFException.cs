@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class EOFException: global::java.io.IOException {
-private static long _fserialVersionUID = 6433858223774886977L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.EOFException: void <init>()]

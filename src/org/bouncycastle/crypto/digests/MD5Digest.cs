@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace org.bouncycastle.crypto.digests {
 public class MD5Digest: global::org.bouncycastle.crypto.digests.GeneralDigest {
-private static int _fDIGEST_1LENGTH = 16;
 
 private int _fH1;
 
@@ -17,37 +16,21 @@ private global::org.xmlvm._nArrayAdapter<int> _fX;
 
 private int _fxOff;
 
-private static int _fS11 = 7;
 
-private static int _fS12 = 12;
 
-private static int _fS13 = 17;
 
-private static int _fS14 = 22;
 
-private static int _fS21 = 5;
 
-private static int _fS22 = 9;
 
-private static int _fS23 = 14;
 
-private static int _fS24 = 20;
 
-private static int _fS31 = 4;
 
-private static int _fS32 = 11;
 
-private static int _fS33 = 16;
 
-private static int _fS34 = 23;
 
-private static int _fS41 = 6;
 
-private static int _fS42 = 10;
 
-private static int _fS43 = 15;
 
-private static int _fS44 = 21;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.MD5Digest: void <init>()]

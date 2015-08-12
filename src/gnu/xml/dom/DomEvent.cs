@@ -220,7 +220,6 @@ public override global::System.Object toString(){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 71))}));
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
     goto label22;
-    label74:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomEvent: java.lang.String toString()]
 }
 

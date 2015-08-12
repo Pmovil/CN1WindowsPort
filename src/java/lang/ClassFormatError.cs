@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ClassFormatError: global::java.lang.LinkageError {
-private static long _fserialVersionUID = -8420114879011949195L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassFormatError: void <init>()]

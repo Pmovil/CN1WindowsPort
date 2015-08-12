@@ -8,7 +8,6 @@ static FilePermission() {
     @static();
 }
 
-private static long _fserialVersionUID = 7930732926638008763L;
 
 private global::java.lang.String _fcanonPath;
 

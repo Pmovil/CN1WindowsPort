@@ -8,7 +8,6 @@ static URL() {
     @static();
 }
 
-private static long _fserialVersionUID = -7627629688361524110L;
 
 private static global::java.net.NetPermission _fspecifyStreamHandlerPermission;
 

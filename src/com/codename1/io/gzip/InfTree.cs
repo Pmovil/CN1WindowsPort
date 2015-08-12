@@ -8,25 +8,15 @@ static InfTree() {
     @static();
 }
 
-private static int _fMANY = 1440;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
 public static int _ffixed_1bl = 9;
 
@@ -957,12 +947,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13});
     global::com.codename1.io.gzip.InfTree._fcpdext = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label52:;
-    label3128:;
-    label3324:;
-    label3390:;
-    label3456:;
-    label3520:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfTree: void <clinit>()]
 }
 

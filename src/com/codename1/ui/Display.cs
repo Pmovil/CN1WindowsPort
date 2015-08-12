@@ -70,35 +70,20 @@ public static int _fGALLERY_1VIDEO = 1;
 
 public static int _fGALLERY_1ALL = 2;
 
-private static int _fPOINTER_1PRESSED = 1;
 
-private static int _fPOINTER_1RELEASED = 2;
 
-private static int _fPOINTER_1DRAGGED = 3;
 
-private static int _fPOINTER_1HOVER = 8;
 
-private static int _fPOINTER_1HOVER_1RELEASED = 11;
 
-private static int _fPOINTER_1HOVER_1PRESSED = 12;
 
-private static int _fKEY_1PRESSED = 4;
 
-private static int _fKEY_1RELEASED = 5;
 
-private static int _fKEY_1LONG_1PRESSED = 6;
 
-private static int _fSIZE_1CHANGED = 7;
 
-private static int _fHIDE_1NOTIFY = 9;
 
-private static int _fSHOW_1NOTIFY = 10;
 
-private static int _fPOINTER_1PRESSED_1MULTI = 21;
 
-private static int _fPOINTER_1RELEASED_1MULTI = 22;
 
-private static int _fPOINTER_1DRAGGED_1MULTI = 23;
 
 public static int _fDENSITY_1VERY_1LOW = 10;
 
@@ -2705,7 +2690,6 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
     _r4_o = global::com.codename1.ui.animations.CommonTransitions.createEmpty();
     ((global::com.codename1.ui.Display) _r11_o).initTransition((global::com.codename1.ui.animations.Transition) _r4_o, (global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Form) _r12_o);
     goto label39;
-    label384:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setCurrent(com.codename1.ui.Form, boolean)]
 }
 
@@ -4605,7 +4589,6 @@ private int handleEvent(int n1){
     label756:;
     ((global::com.codename1.ui.Form) _r8_o).showNotify();
     goto label28;
-    label762:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int handleEvent(int)]
 }
 

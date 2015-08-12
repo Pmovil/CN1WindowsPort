@@ -242,7 +242,6 @@ public virtual void setTextBlockAlign(int n1){
     label37:;
     ((global::com.codename1.components.SpanLabel) _r2_o).wrapText((int) _r3.i);
     goto label36;
-    label42:;
 //XMLVM_END_WRAPPER[com.codename1.components.SpanLabel: void setTextBlockAlign(int)]
 }
 

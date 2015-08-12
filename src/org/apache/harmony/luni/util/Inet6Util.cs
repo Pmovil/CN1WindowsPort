@@ -514,8 +514,6 @@ public static int getIntValue(char n1){
     label50:;
     _r0.i = 15;
     goto label12;
-    label54:;
-    label78:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.Inet6Util: int getIntValue(char)]
 }
 
@@ -937,7 +935,6 @@ public static bool isValidIP6Address(global::java.lang.String n1){
     _r6.i = _r7.i;
     _r7.i = _r8.i;
     goto label160;
-    label320:;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.Inet6Util: boolean isValidIP6Address(java.lang.String)]
 }
 

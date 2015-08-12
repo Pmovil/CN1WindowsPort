@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedSortedMap: global::java.util.Collections_2CheckedMap,global::java.util.SortedMap {
-private static long _fserialVersionUID = 1599671320688067438L;
 
 public global::java.util.SortedMap _fsm;
 

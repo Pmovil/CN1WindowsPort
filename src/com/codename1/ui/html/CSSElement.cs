@@ -17,17 +17,13 @@ static CSSElement() {
     @static();
 }
 
-private static int _fDPI = 72;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fCSS_1LENGTH_1SUFFIX;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fCSS_1LENGTH_1FACTORS;
 
-private static int _fLENGTH_1SUFFIX_1PX = 0;
 
-private static int _fLENGTH_1SUFFIX_1EM = 1;
 
-private static int _fLENGTH_1SUFFIX_1EX = 2;
 
 private static global::java.lang.String _fCENTER_1STR;
 
@@ -239,23 +235,15 @@ public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fCSS_1SHO
 
 public static global::org.xmlvm._nArrayAdapter<bool> _fCSS_1IS_1SHORTHAND_1ATTRIBUTE_1COLLATABLE;
 
-private static int _fCSS_1TOP = 0;
 
-private static int _fCSS_1RIGHT = 1;
 
-private static int _fCSS_1BOTTOM = 2;
 
-private static int _fCSS_1LEFT = 3;
 
 public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fCSS_1COLLATABLE_1ORDER;
 
-private static int _fCSS_1SHORTHAND_1BACKGROUND_1POSITION = 1;
 
-private static int _fCSS_1SHORTHAND_1BORDER_1WIDTH = 2;
 
-private static int _fCSS_1SHORTHAND_1BORDER_1STYLE = 3;
 
-private static int _fCSS_1SHORTHAND_1BORDER_1COLOR = 4;
 
 public static global::org.xmlvm._nArrayAdapter<global::System.Object> _fCSS_1SHORTHAND_1ATTRIBUTE_1INDEX;
 
@@ -691,7 +679,6 @@ public virtual bool matchAttributeSelections(global::com.codename1.ui.html.HTMLE
     label215:;
     _r6.i = _r10.i;
     goto label14;
-    label218:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: boolean matchAttributeSelections(com.codename1.ui.html.HTMLElement)]
 }
 
@@ -946,7 +933,6 @@ public virtual int addAttribute(int n1, global::java.lang.String n2){
     ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r0.i] = _r2.i;
     ((global::com.codename1.ui.html.CSSElement) _r7_o).fixBackgroundPositionDefaults((int) _r8.i);
     goto label73;
-    label96:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: int addAttribute(int, java.lang.String)]
 }
 
@@ -2845,37 +2831,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{1, 1, 2, 4, 8, 16, 32, 64});
     global::com.codename1.ui.html.CSSElement._fPSEUDO_1CLASSES_1VALS = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label2066:;
-    label2086:;
-    label2098:;
-    label2108:;
-    label2124:;
-    label2134:;
-    label2156:;
-    label2166:;
-    label2196:;
-    label2338:;
-    label2348:;
-    label2360:;
-    label2372:;
-    label2380:;
-    label2388:;
-    label2396:;
-    label2410:;
-    label2418:;
-    label2430:;
-    label2442:;
-    label2454:;
-    label2464:;
-    label2474:;
-    label2484:;
-    label2494:;
-    label2504:;
-    label2518:;
-    label2530:;
-    label2542:;
-    label2552:;
-    label2562:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: void <clinit>()]
 }
 

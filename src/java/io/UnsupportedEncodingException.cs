@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class UnsupportedEncodingException: global::java.io.IOException {
-private static long _fserialVersionUID = -4274276298326136670L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.UnsupportedEncodingException: void <init>()]

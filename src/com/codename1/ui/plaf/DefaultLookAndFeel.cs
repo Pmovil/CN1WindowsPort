@@ -1505,7 +1505,6 @@ public override void drawTextArea(global::com.codename1.ui.Graphics n1, global::
     label356:;
     if (_r23.i == 0) goto label352;
     goto label294;
-    label360:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void drawTextArea(com.codename1.ui.Graphics, com.codename1.ui.TextArea)]
 }
 
@@ -1788,8 +1787,6 @@ private global::System.Object getPreferredSize(global::com.codename1.ui.Label n1
     _r8.i = _r8.i + _r9.i;
     _r5.i = _r5.i + _r8.i;
     goto label166;
-    label314:;
-    label326:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Label, com.codename1.ui.Image[], com.codename1.ui.Image)]
 }
 
@@ -2349,7 +2346,6 @@ private int reverseAlignForBidi(global::com.codename1.ui.Component n1, int n2){
     label13:;
     _r0.i = 3;
     goto label10;
-    label16:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: int reverseAlignForBidi(com.codename1.ui.Component, int)]
 }
 
@@ -2933,10 +2929,6 @@ private void drawComponent(global::com.codename1.ui.Graphics n1, global::com.cod
     _r3.i = _r5.i;
     ((global::com.codename1.ui.Graphics) _r0_o).drawImage((global::com.codename1.ui.Image) _r1_o, (int) _r2.i, (int) _r3.i);
     goto label229;
-    label906:;
-    label918:;
-    label930:;
-    label942:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void drawComponent(com.codename1.ui.Graphics, com.codename1.ui.Label, com.codename1.ui.Image, com.codename1.ui.Image, int)]
 }
 
@@ -3009,7 +3001,6 @@ private int drawLabelStringValign(global::com.codename1.ui.Graphics n1, global::
     _r6.i = _r15.i;
     _r0.i = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o).drawLabelString((global::com.codename1.ui.Graphics) _r1_o, (global::com.codename1.ui.Label) _r2_o, (global::java.lang.String) _r3_o, (int) _r4.i, (int) _r5.i, (int) _r6.i);
     goto label19;
-    label50:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: int drawLabelStringValign(com.codename1.ui.Graphics, com.codename1.ui.Label, java.lang.String, int, int, int, int, int, int)]
 }
 
@@ -3794,7 +3785,6 @@ public override void drawTextField(global::com.codename1.ui.Graphics n1, global:
     label767:;
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r29_o).drawTextArea((global::com.codename1.ui.Graphics) _r30_o, (global::com.codename1.ui.TextArea) _r31_o);
     goto label391;
-    label772:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void drawTextField(com.codename1.ui.Graphics, com.codename1.ui.TextArea)]
 }
 
@@ -4115,7 +4105,6 @@ public override void drawTextFieldCursor(global::com.codename1.ui.Graphics n1, g
     _r1.i = _r15.i;
     ((global::com.codename1.ui.Graphics) _r0_o).setColor((int) _r1.i);
     goto label150;
-    label268:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void drawTextFieldCursor(com.codename1.ui.Graphics, com.codename1.ui.TextArea)]
 }
 

@@ -8,49 +8,29 @@ static InfBlocks() {
     @static();
 }
 
-private static int _fMANY = 1440;
 
 private static global::org.xmlvm._nArrayAdapter<int> _finflate_1mask;
 
 public static global::org.xmlvm._nArrayAdapter<int> _fborder;
 
-private static int _fZ_1OK = 0;
 
-private static int _fZ_1STREAM_1END = 1;
 
-private static int _fZ_1NEED_1DICT = 2;
 
-private static int _fZ_1ERRNO = -1;
 
-private static int _fZ_1STREAM_1ERROR = -2;
 
-private static int _fZ_1DATA_1ERROR = -3;
 
-private static int _fZ_1MEM_1ERROR = -4;
 
-private static int _fZ_1BUF_1ERROR = -5;
 
-private static int _fZ_1VERSION_1ERROR = -6;
 
-private static int _fTYPE = 0;
 
-private static int _fLENS = 1;
 
-private static int _fSTORED = 2;
 
-private static int _fTABLE = 3;
 
-private static int _fBTREE = 4;
 
-private static int _fDTREE = 5;
 
-private static int _fCODES = 6;
 
-private static int _fDRY = 7;
 
-private static int _fDONE = 8;
 
-private static int _fBAD = 9;
 
 public int _fmode;
 
@@ -1992,8 +1972,6 @@ public virtual int proc(int n1){
     label2892:;
     _r24.i = _r23.i;
     goto label140;
-    label2896:;
-    label2920:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfBlocks: int proc(int)]
 }
 
@@ -2174,8 +2152,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15});
     global::com.codename1.io.gzip.InfBlocks._fborder = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
-    label20:;
-    label58:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfBlocks: void <clinit>()]
 }
 

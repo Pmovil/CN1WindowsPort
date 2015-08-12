@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class CharConversionException: global::java.io.IOException {
-private static long _fserialVersionUID = -8680016352018427031L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.CharConversionException: void <init>()]

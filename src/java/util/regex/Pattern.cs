@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class Pattern: global::java.lang.Object,global::java.io.Serializable {
-private static long _fserialVersionUID = 5073258162644648461L;
 
 public static bool _f_1DEBUG_1 = 0!=0;
 
@@ -522,9 +521,6 @@ private global::System.Object processExpression(int n1, int n2, global::java.uti
     ((global::java.util.regex.SingleSet) _r1_o).@this((global::java.util.regex.AbstractSet) _r9_o, (global::java.util.regex.FSet) _r3_o);
     _r0_o = _r1_o;
     goto label145;
-    label314:;
-    label340:;
-    label366:;
 //XMLVM_END_WRAPPER[java.util.regex.Pattern: java.util.regex.AbstractSet processExpression(int, int, java.util.regex.AbstractSet)]
 }
 
@@ -1179,8 +1175,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     ((global::java.util.regex.ReluctantCompositeQuantifierSet) _r2_o).@this((global::java.util.regex.Quantifier) _r7_o, (global::java.util.regex.LeafSet) _r1_o, (global::java.util.regex.AbstractSet) _r8_o, (int) _r3.i);
     _r1_o = _r2_o;
     goto label19;
-    label386:;
-    label436:;
 //XMLVM_END_WRAPPER[java.util.regex.Pattern: java.util.regex.AbstractSet processQuantifier(java.util.regex.AbstractSet, java.util.regex.AbstractSet)]
 }
 
@@ -1544,7 +1538,6 @@ private global::System.Object processTerminal(global::java.util.regex.AbstractSe
     label642:;
     _r0.i = _r7.i;
     goto label143;
-    label646:;
 //XMLVM_END_WRAPPER[java.util.regex.Pattern: java.util.regex.AbstractSet processTerminal(java.util.regex.AbstractSet)]
 }
 
@@ -1891,7 +1884,6 @@ private global::System.Object processRangeExpression(bool n1){
     label473:;
     _r0.i = _r3.i;
     goto label129;
-    label476:;
 //XMLVM_END_WRAPPER[java.util.regex.Pattern: java.util.regex.CharClass processRangeExpression(boolean)]
 }
 

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ThreadDeath: global::java.lang.Error {
-private static long _fserialVersionUID = -4417128565033088268L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadDeath: void <init>()]

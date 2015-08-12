@@ -8,7 +8,6 @@ static TimeZone() {
     @static();
 }
 
-private static long _fserialVersionUID = 3581463369166924961L;
 
 public static int _fSHORT = 0;
 

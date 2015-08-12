@@ -269,7 +269,6 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
     if (_r0.i != _r2.i) goto label84;
     _r2.i = _r3.i;
     goto label39;
-    label110:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InflaterInputStream: int read(byte[], int, int)]
 }
 

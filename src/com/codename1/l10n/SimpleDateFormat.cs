@@ -13,67 +13,38 @@ static SimpleDateFormat() {
     _fGMT.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)71)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 84))}));
 }
 
-private static char _fERA_1LETTER = (char)71;
 
-private static char _fYEAR_1LETTER = (char)121;
 
-private static char _fMONTH_1LETTER = (char)77;
 
-private static char _fWEEK_1IN_1YEAR_1LETTER = (char)119;
 
-private static char _fWEEK_1IN_1MONTH_1LETTER = (char)87;
 
-private static char _fDAY_1IN_1YEAR_1LETTER = (char)68;
 
-private static char _fDAY_1LETTER = (char)100;
 
-private static char _fDOW_1IN_1MONTH_1LETTER = (char)70;
 
-private static char _fDAY_1OF_1WEEK_1LETTER = (char)69;
 
-private static char _fAMPM_1LETTER = (char)97;
 
-private static char _fHOUR_1LETTER = (char)72;
 
-private static char _fHOUR_11_1LETTER = (char)107;
 
-private static char _fHOUR12_1LETTER = (char)75;
 
-private static char _fHOUR12_11_1LETTER = (char)104;
 
-private static char _fMINUTE_1LETTER = (char)109;
 
-private static char _fSECOND_1LETTER = (char)115;
 
-private static char _fMILLISECOND_1LETTER = (char)83;
 
-private static char _fTIMEZONE_1LETTER = (char)122;
 
-private static char _fTIMEZONE822_1LETTER = (char)90;
 
-private static char _fLITERAL_1LETTER = (char)42;
 
-private static char _fEXPLICIT_1LITERAL = (char)39;
 
-private static char _fSIGN_1POSITIVE = (char)43;
 
-private static char _fSIGN_1NEGATIVE = (char)45;
 
-private static int _fMILLIS_1TO_1MINUTES = 60000;
 
 private static global::java.lang.String _fPATTERN_1LETTERS;
 
 private static global::java.lang.String _fGMT;
 
-private static int _fERA = 0;
 
-private static int _fWEEK_1OF_1MONTH = 4;
 
-private static int _fWEEK_1OF_1YEAR = 3;
 
-private static int _fDAY_1OF_1WEEK_1IN_1MONTH = 8;
 
-private static int _fDAY_1OF_1YEAR = 6;
 
 private global::com.codename1.l10n.DateFormatSymbols _fdateFormatSymbols;
 
@@ -486,7 +457,6 @@ public override global::System.Object format(global::java.util.Date n1, global::
     label492:;
     _r10_o = ((global::java.lang.StringBuffer) _r14_o).toString();
     goto label15;
-    label498:;
 //XMLVM_END_WRAPPER[com.codename1.l10n.SimpleDateFormat: java.lang.String format(java.util.Date, java.lang.StringBuffer)]
 }
 
@@ -967,7 +937,6 @@ public override global::System.Object parse(global::java.lang.String n1){
     label615:;
     _r5_o = ((global::java.util.Calendar) _r12_o).getTime();
     goto label11;
-    label622:;
 //XMLVM_END_WRAPPER[com.codename1.l10n.SimpleDateFormat: java.util.Date parse(java.lang.String)]
 }
 

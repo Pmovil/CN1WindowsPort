@@ -3,9 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class TimeZones: global::java.lang.Object {
-private static int _fHALF_1HOUR = 1800000;
 
-private static int _fONE_1HOUR = 3600000;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.TimeZones: void <init>()]

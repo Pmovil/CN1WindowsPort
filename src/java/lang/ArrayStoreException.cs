@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.lang {
 public class ArrayStoreException: global::java.lang.RuntimeException {
-private static long _fserialVersionUID = -4522193890499838241L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ArrayStoreException: void <init>()]

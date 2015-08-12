@@ -20,17 +20,11 @@ static HexStringParser() {
     @static();
 }
 
-private static int _fDOUBLE_1EXPONENT_1WIDTH = 11;
 
-private static int _fDOUBLE_1MANTISSA_1WIDTH = 52;
 
-private static int _fFLOAT_1EXPONENT_1WIDTH = 8;
 
-private static int _fFLOAT_1MANTISSA_1WIDTH = 23;
 
-private static int _fHEX_1RADIX = 16;
 
-private static int _fMAX_1SIGNIFICANT_1LENGTH = 15;
 
 private static global::java.lang.String _fHEX_1SIGNIFICANT;
 

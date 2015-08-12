@@ -3,15 +3,10 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public abstract class CharsetEncoder: global::java.lang.Object {
-private static int _fREADY = 0;
 
-private static int _fONGOING = 1;
 
-private static int _fEND = 2;
 
-private static int _fFLUSH = 3;
 
-private static int _fINIT = 4;
 
 private global::java.nio.charset.Charset _fcs;
 

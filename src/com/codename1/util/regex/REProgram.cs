@@ -176,7 +176,6 @@ public virtual void setInstructions(global::org.xmlvm._nArrayAdapter<char> n1, i
     ((global::com.codename1.util.regex.REProgram) _r9_o)._fflags = _r4.i;
     label100:;
     return;
-    label102:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.REProgram: void setInstructions(char[], int)]
 }
 

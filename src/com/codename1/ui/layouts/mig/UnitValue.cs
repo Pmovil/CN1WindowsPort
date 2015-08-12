@@ -78,7 +78,6 @@ public static int _fLOOKUP = 26;
 
 public static int _fLABEL_1ALIGN = 27;
 
-private static int _fIDENTITY = -1;
 
 public static global::com.codename1.ui.layouts.mig.UnitValue _fZERO;
 
@@ -841,8 +840,6 @@ public virtual float getPixelsExact(float n1, global::com.codename1.ui.layouts.m
     _r13.f = (float)0.5D;
     _r12.f = _r12.f * _r13.f;
     goto label4;
-    label662:;
-    label722:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.UnitValue: float getPixelsExact(float, com.codename1.ui.layouts.mig.ContainerWrapper, com.codename1.ui.layouts.mig.ComponentWrapper)]
 }
 
@@ -1170,7 +1167,6 @@ public virtual bool isAbsolute(){
     label46:;
     _r0.i = 0;
     goto label45;
-    label48:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.UnitValue: boolean isAbsolute()]
 }
 
@@ -1888,7 +1884,6 @@ public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<float>(new float[]{(float)25.4D, (float)2.54D, (float)1.0D, (float)0.0D, (float)72.0D});
     global::com.codename1.ui.layouts.mig.UnitValue._fSCALE = (global::org.xmlvm._nArrayAdapter<float>) _r0_o;
     return;
-    label454:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.UnitValue: void <clinit>()]
 }
 

@@ -30,9 +30,7 @@ public static int _fROUND_1HALF_1EVEN = 6;
 
 public static int _fROUND_1UNNECESSARY = 7;
 
-private static long _fserialVersionUID = 6108874887143696463L;
 
-private static double _fLOG10_12 = 0.3010299956639812D;
 
 private global::java.lang.String _ftoStringImage;
 
@@ -50,7 +48,6 @@ private static global::org.xmlvm._nArrayAdapter<int> _fLONG_1FIVE_1POW_1BIT_1LEN
 
 private static global::org.xmlvm._nArrayAdapter<int> _fLONG_1TEN_1POW_1BIT_1LENGTH;
 
-private static int _fBI_1SCALED_1BY_1ZERO_1LENGTH = 11;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fBI_1SCALED_1BY_1ZERO;
 
@@ -175,8 +172,6 @@ public static void @static(){
     ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r0.i] = _r2.i;
     _r0.i = _r0.i + 1;
     goto label93;
-    label170:;
-    label250:;
 //XMLVM_END_WRAPPER[java.math.BigDecimal: void <clinit>()]
 }
 
@@ -4557,7 +4552,6 @@ private static int roundingBehavior(int n1, int n2, global::java.math.RoundingMo
     if (_r0.i <= _r3.i) goto label15;
     _r0.i = global::java.lang.Integer.signum((int) _r5.i);
     goto label16;
-    label90:;
 //XMLVM_END_WRAPPER[java.math.BigDecimal: int roundingBehavior(int, int, java.math.RoundingMode)]
 }
 

@@ -56,7 +56,6 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
     _r0_o = ((global::com.codename1.ui.TextField_2CommandHandler) _r4_o)._fthis_20;
     ((global::com.codename1.ui.TextField) _r0_o).editString();
     goto label11;
-    label46:;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField$CommandHandler: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

@@ -14,23 +14,14 @@ private global::com.codename1.ui.animations.Motion _fmotion2;
 
 private global::com.codename1.util.LazyValue _flazyMotion;
 
-private static int _fTYPE_1EMPTY = 0;
 
-private static int _fTYPE_1SLIDE = 1;
 
-private static int _fTYPE_1FADE = 2;
 
-private static int _fTYPE_1FAST_1SLIDE = 3;
 
-private static int _fTYPE_1TIMELINE = 4;
 
-private static int _fTYPE_1SLIDE_1AND_1FADE = 5;
 
-private static int _fTYPE_1PULSATE_1DIALOG = 6;
 
-private static int _fTYPE_1COVER = 7;
 
-private static int _fTYPE_1UNCOVER = 8;
 
 public static int _fSLIDE_1HORIZONTAL = 0;
 
@@ -1470,7 +1461,6 @@ public override bool animate(){
     ((global::com.codename1.ui.animations.Motion) _r2_o).start();
     _r2.i = _r4.i;
     goto label15;
-    label102:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean animate()]
 }
 
@@ -2190,7 +2180,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
         throw ex;
     } // end catch
     goto label772;
-    label860:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paint(com.codename1.ui.Graphics)]
 }
 
@@ -3263,7 +3252,6 @@ public override global::System.Object copy(bool n1){
     label166:;
     _r1_o = global::com.codename1.ui.animations.CommonTransitions.createDialogPulsate();
     goto label8;
-    label172:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.Transition copy(boolean)]
 }
 

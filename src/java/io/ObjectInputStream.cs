@@ -338,7 +338,6 @@ private void checkReadPrimitiveTypes(){
     ((global::java.io.ByteArrayInputStream) _r0_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o);
     ((global::java.io.ObjectInputStream) _r3_o)._fprimitiveData = (global::java.io.InputStream) _r0_o;
     goto label15;
-    label72:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: void checkReadPrimitiveTypes()]
 }
 
@@ -685,7 +684,6 @@ private global::System.Object readClassDesc(){
     label67:;
     _r0_o = null;
     goto label30;
-    label70:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.io.ObjectStreamClass readClassDesc()]
 }
 
@@ -769,7 +767,6 @@ private global::System.Object readContent(sbyte n1){
     ((global::java.io.ObjectInputStream) _r3_o).resetState();
     _r0_o = _r1_o;
     goto label27;
-    label92:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Object readContent(byte)]
 }
 
@@ -875,7 +872,6 @@ private global::System.Object readNonPrimitiveContent(bool n1){
     _r1.i = 1;
     ((global::java.io.OptionalDataException) _r0_o)._feof = 0!=_r1.i;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.OptionalDataException) _r0_o);
-    label140:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Object readNonPrimitiveContent(boolean)]
 }
 
@@ -1592,7 +1588,6 @@ throw new org.xmlvm._nNotYetImplementedException("Red class access removed: org.
     _r0_o = _ex.getJavaException();
     _ex = null;
     goto label76;
-    label360:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: void readFieldValues(java.lang.Object, java.io.ObjectStreamClass)]
 }
 
@@ -2334,7 +2329,6 @@ private global::System.Object readEnumDesc(){
     label38:;
     _r0_o = null;
     goto label29;
-    label40:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.io.ObjectStreamClass readEnumDesc()]
 }
 
@@ -2442,7 +2436,6 @@ private global::System.Object readEnum(bool n1){
     _r0_o = ((global::java.io.ObjectInputStream) _r3_o).readNewString(0!=_r4.i);
     _r0_o = _r0_o;
     goto label50;
-    label70:;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Object readEnum(boolean)]
 }
 

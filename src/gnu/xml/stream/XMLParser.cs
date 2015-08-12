@@ -53,29 +53,17 @@ static XMLParser() {
     @static();
 }
 
-private static int _fINIT = 0;
 
-private static int _fPROLOG = 1;
 
-private static int _fCONTENT = 2;
 
-private static int _fEMPTY_1ELEMENT = 3;
 
-private static int _fMISC = 4;
 
-private static int _fLIT_1ENTITY_1REF = 2;
 
-private static int _fLIT_1NORMALIZE = 4;
 
-private static int _fLIT_1ATTRIBUTE = 8;
 
-private static int _fLIT_1DISABLE_1PE = 16;
 
-private static int _fLIT_1DISABLE_1CREF = 32;
 
-private static int _fLIT_1DISABLE_1EREF = 64;
 
-private static int _fLIT_1PUBID = 256;
 
 public static int _fATTRIBUTE_1DEFAULT_1UNDECLARED = 30;
 
@@ -1012,7 +1000,6 @@ public virtual global::System.Object getElementText(){
     label55:;
     _r2_o = ((global::gnu.java.lang.CPStringBuilder) _r1_o).toString();
     return (global::java.lang.String) _r2_o;
-    label60:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getElementText()]
 }
 
@@ -1083,7 +1070,6 @@ public virtual global::System.Object getLocalName(){
     _r3_o = ((global::java.lang.String) _r2_o).substring((int) _r3.i);
     _r1_o = _r3_o;
     goto label23;
-    label42:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getLocalName()]
 }
 
@@ -1162,7 +1148,6 @@ public virtual global::System.Object getName(){
     _r5_o = ((global::java.lang.String) _r4_o).substring((int) _r5.i, (int) _r0.i);
     _r3_o = _r5_o;
     goto label41;
-    label78:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: javax.xml.namespace.QName getName()]
 }
 
@@ -1198,7 +1183,6 @@ public virtual int getNamespaceCount(){
     _r0_o = _r0_o;
     _r1.i = ((global::java.util.LinkedHashMap) _r0_o).size();
     goto label14;
-    label36:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int getNamespaceCount()]
 }
 
@@ -1274,7 +1258,6 @@ public virtual global::System.Object getNamespaceURI(){
     _r1_o = ((global::java.lang.String) _r2_o).substring((int) _r3.i, (int) _r0.i);
     _r3_o = ((global::gnu.xml.stream.XMLParser) _r5_o).getNamespaceURI((global::java.lang.String) _r1_o);
     goto label7;
-    label36:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getNamespaceURI()]
 }
 
@@ -1385,7 +1368,6 @@ public virtual global::System.Object getPrefix(){
     _r3_o = ((global::java.lang.String) _r2_o).substring((int) _r3.i, (int) _r0.i);
     _r1_o = _r3_o;
     goto label30;
-    label52:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getPrefix()]
 }
 
@@ -1649,7 +1631,6 @@ public virtual bool hasName(){
     label7:;
     _r0.i = 1;
     goto label6;
-    label10:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: boolean hasName()]
 }
 
@@ -1669,7 +1650,6 @@ public virtual bool hasText(){
     label7:;
     _r0.i = 1;
     goto label6;
-    label10:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: boolean hasText()]
 }
 
@@ -1818,7 +1798,6 @@ public virtual int nextTag(){
     label44:;
     _r0.i = ((global::gnu.xml.stream.XMLParser) _r3_o)._fevent;
     return _r0.i;
-    label48:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int nextTag()]
 }
 
@@ -2640,7 +2619,6 @@ public virtual int next(){
         throw ex;
     } // end catch
     goto label143;
-    label636:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int next()]
 }
 
@@ -4293,7 +4271,6 @@ private void readMarkupdecl(bool n1){
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     ((global::gnu.xml.stream.XMLParser) _r7_o).error((global::java.lang.String) _r3_o);
     goto label32;
-    label236:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void readMarkupdecl(boolean)]
 }
 
@@ -4583,9 +4560,6 @@ private global::System.Object readElements(global::gnu.java.lang.CPStringBuilder
     ((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o)._fmin = _r4.i;
     ((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o)._fmax = _r5.i;
     goto label60;
-    label218:;
-    label232:;
-    label246:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: gnu.xml.stream.XMLParser$ElementContentModel readElements(gnu.java.lang.CPStringBuilder)]
 }
 
@@ -4648,7 +4622,6 @@ private global::System.Object readContentParticle(global::gnu.java.lang.CPString
     ((global::gnu.xml.stream.XMLParser_2ContentParticle) _r1_o)._fmin = _r4.i;
     ((global::gnu.xml.stream.XMLParser_2ContentParticle) _r1_o)._fmax = _r5.i;
     goto label25;
-    label80:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: gnu.xml.stream.XMLParser$ContentParticle readContentParticle(gnu.java.lang.CPStringBuilder)]
 }
 
@@ -6311,8 +6284,6 @@ private int readStartElement(){
     ((global::gnu.xml.stream.XMLParser) _r0_o).require((char) _r1.i);
     _r4.i = 3;
     goto label757;
-    label770:;
-    label778:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int readStartElement()]
 }
 
@@ -7494,8 +7465,6 @@ private int readCharData(global::java.lang.String n1){
     label785:;
     _r20.i = 4;
     goto label784;
-    label788:;
-    label818:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int readCharData(java.lang.String)]
 }
 
@@ -7925,7 +7894,6 @@ private global::System.Object readLiteral(int n1, bool n2){
     _r10_o = new global::java.io.EOFException();
     ((global::java.io.EOFException) _r10_o).@this();
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.EOFException) _r10_o);
-    label352:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String readLiteral(int, boolean)]
 }
 
@@ -8392,7 +8360,6 @@ private global::System.Object readNmtoken(bool n1, global::java.lang.StringBuffe
     _r1_o = global::java.lang.Character.toChars((int) _r0.i);
     ((global::java.lang.StringBuffer) _r8_o).append((global::org.xmlvm._nArrayAdapter<char>) _r1_o);
     goto label59;
-    label168:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String readNmtoken(boolean, java.lang.StringBuffer)]
 }
 
@@ -10492,7 +10459,6 @@ private void validateStartElement(global::java.lang.String n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));
     ((global::gnu.xml.stream.XMLParser) _r3_o).error((global::java.lang.String) _r2_o, (global::java.lang.Object) _r4_o);
     goto label19;
-    label62:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void validateStartElement(java.lang.String)]
 }
 
@@ -10532,7 +10498,6 @@ private void validateEndElement(){
     _r1_o = _r1_o;
     ((global::gnu.xml.stream.XMLParser) _r4_o).validateElementContent((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o, (global::java.util.LinkedList) _r0_o);
     goto label19;
-    label44:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void validateEndElement()]
 }
 
@@ -10601,7 +10566,6 @@ private void validatePCData(global::java.lang.String n1){
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     ((global::gnu.xml.stream.XMLParser) _r6_o).error((global::java.lang.String) _r4_o);
     goto label7;
-    label72:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void validatePCData(java.lang.String)]
 }
 
@@ -10843,7 +10807,6 @@ private static global::System.Object encodeText(global::java.lang.String n1){
     label43:;
     _r4_o = ((global::gnu.java.lang.CPStringBuilder) _r0_o).toString();
     return (global::java.lang.String) _r4_o;
-    label48:;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String encodeText(java.lang.String)]
 }
 

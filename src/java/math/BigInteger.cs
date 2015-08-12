@@ -8,7 +8,6 @@ static BigInteger() {
     @static();
 }
 
-private static long _fserialVersionUID = -8287574255936472291L;
 
 public global::org.xmlvm._nArrayAdapter<int> _fdigits;
 

@@ -369,7 +369,6 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     goto label226;
     label670:;
     return;
-    label672:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout: void layoutContainer(com.codename1.ui.Container)]
 }
 

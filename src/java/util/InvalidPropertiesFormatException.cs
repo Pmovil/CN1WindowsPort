@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class InvalidPropertiesFormatException: global::java.io.IOException {
-private static long _fserialVersionUID = 7763056076009360219L;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.InvalidPropertiesFormatException: void <init>(java.lang.String)]

@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.security {
 public class PrivilegedActionException: global::java.lang.Exception {
-private static long _fserialVersionUID = 4724086851538908602L;
 
 private global::java.lang.Exception _fexception;
 

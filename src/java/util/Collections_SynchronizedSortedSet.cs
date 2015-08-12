@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.util {
 public class Collections_2SynchronizedSortedSet: global::java.util.Collections_2SynchronizedSet,global::java.util.SortedSet {
-private static long _fserialVersionUID = 8695801310862127406L;
 
 private global::java.util.SortedSet _fss;
 

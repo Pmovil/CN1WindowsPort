@@ -147,7 +147,6 @@ public void @this(short n1, global::java.lang.String n2){
     _r0.i = 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r2_o)._fasync = 0!=_r0.i;
     goto label19;
-    label32:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSParser: void <init>(short, java.lang.String)]
 }
 
@@ -348,7 +347,6 @@ public virtual global::System.Object parseWithContext(global::org.w3c.dom.ls.LSI
     label106:;
     ((global::org.w3c.dom.Node) _r2_o).insertBefore((global::org.w3c.dom.Node) _r1_o, (global::org.w3c.dom.Node) _r3_o);
     goto label34;
-    label110:;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSParser: org.w3c.dom.Node parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short)]
 }
 

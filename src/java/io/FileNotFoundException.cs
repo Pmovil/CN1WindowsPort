@@ -3,7 +3,6 @@
 using org.xmlvm;
 namespace java.io {
 public class FileNotFoundException: global::java.io.IOException {
-private static long _fserialVersionUID = -897856973823710492L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileNotFoundException: void <init>()]

@@ -1790,8 +1790,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label1727:;
     _r4.i = _r6.i;
     goto label205;
-    label1730:;
-    label1900:;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathParser: java.lang.Object yyparse(gnu.xml.xpath.XPathParser$yyInput)]
 }
 
