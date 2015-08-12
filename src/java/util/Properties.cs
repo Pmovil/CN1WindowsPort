@@ -52,7 +52,6 @@ public void @this(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     ((java.util.Hashtable) _r1_o).@this();
-    _r0_o = null;
     return;
 //XMLVM_END_WRAPPER[java.util.Properties: void <init>()]
 }

@@ -697,40 +697,35 @@ namespace com.codename1.impl
 
         public override void flushGraphics(int x, int y, int width, int height)
         {
+            if (width <= 0 || height <= 0)
+            {
+                return;
+            }
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
-                //Debug.WriteLine("flushGraphics " + x + "/// " + y + "// " + width + "/// " + height);
-                if (width <= 0 || height <= 0)
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    flushGraphics();
-                }
-                else
-                {
-                    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                    {
-                        Rectangle rect = new Rectangle();
-                        rect.@this(x, y, width, height);
-                        myView.flushGraphics(rect);
-                        screen.Invalidate();
-                        are.Set();
-                    }).AsTask().GetAwaiter().GetResult();
-
-                }
+                    Rectangle rect = new Rectangle();
+                    rect.@this(x, y, width, height);
+                    myView.flushGraphics(rect);
+                    screen.Invalidate();
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
             }
         }
 
         public override void flushGraphics()
         {
-            //using (AutoResetEvent are = new AutoResetEvent(false))
-            //{
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            using (AutoResetEvent are = new AutoResetEvent(false))
             {
-                myView.flushGraphics();
-                //are.Set();
-            }).AsTask().GetAwaiter().GetResult();
-            //    are.WaitOne();
-            //}
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                {
+                    myView.flushGraphics();
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
         }
          private Purchase pur;
       
@@ -1663,8 +1658,9 @@ namespace com.codename1.impl
 
                     return nf;
                 }
-                catch (Exception err)
+                catch (Exception )
                 {
+                    Debug.WriteLine("loadNativeFont failed");
                 }
             }
             return null;
@@ -2009,7 +2005,7 @@ namespace com.codename1.impl
                 StorageFile file = store.GetFileAsync(uri).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 fileExists = file != null;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 fileExists = false;
             }

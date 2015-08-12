@@ -57,7 +57,6 @@ public virtual global::System.Object getDOMImplementation(global::java.lang.Stri
     _r7_o = n1;
     _r5_o = ((global::org.w3c.dom.bootstrap.DOMImplementationRegistry) _r6_o)._fsources;
     _r3.i = ((global::java.util.Vector) _r5_o).size();
-    _r2_o = null;
     _r0.i = 0;
     label8:;
     if (_r0.i >= _r3.i) goto label29;

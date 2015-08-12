@@ -50,10 +50,9 @@ namespace com.codename1.impl
                     //Debug.WriteLine("OnDraw - execute " + o);
                     o.executeWithClip(((AsyncGraphics)_graphics.destination).getInternal());
                 }
-                renderingOperations.Clear();
             }
             args.DrawingSession.Dispose();
-            
+            renderingOperations.Clear();
         }
 
         internal void flushGraphics(Rectangle rect)
@@ -64,13 +63,13 @@ namespace com.codename1.impl
                 try
                 {
                     global::System.Threading.Tasks.Task.Run(() => global::System.Threading.Tasks.Task.Delay(global::System.TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
- 
+
                     // don't let the EDT die here
                     counter++;
                     if (counter > 10)
                     {
-                        //Log.d(Display.getInstance().getProperty("AppName", "CodenameOne"), "Flush graphics timed out!!!");
-                         return;
+                        Debug.WriteLine("Flush graphics timed out!!!");
+                        return;
                     }
                 }
                 catch (System.Exception e)

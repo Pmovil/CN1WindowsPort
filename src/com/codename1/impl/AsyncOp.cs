@@ -18,9 +18,12 @@ namespace com.codename1.impl
 
         public void executeWithClip(WindowsGraphics underlying)
         {
-            underlying.setClip(clip);
-            execute(underlying);
-            underlying.removeClip();
+            if (clip.getWidth() > 0 && clip.getHeight() > 0)
+            {
+                underlying.setClip(clip);
+                execute(underlying);
+                underlying.removeClip();
+            }
         }
 
         public abstract void execute(WindowsGraphics underlying);
