@@ -2974,7 +2974,7 @@ namespace com.codename1.impl
 
         void elem_MediaOpened(object sender, RoutedEventArgs e)
         {
-            ready = true;
+            //ready = true;
         }
 
         public CN1Media(Stream s, string mime, java.lang.Runnable onComplete, Canvas cl)
