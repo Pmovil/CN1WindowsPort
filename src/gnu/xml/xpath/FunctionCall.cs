@@ -11,15 +11,10 @@ public global::java.util.List _fargs;
 
 public void @this(global::javax.xml.xpath.XPathFunctionResolver n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.FunctionCall: void <init>(javax.xml.xpath.XPathFunctionResolver, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -31,17 +26,11 @@ public void @this(global::javax.xml.xpath.XPathFunctionResolver n1, global::java
 
 public void @this(global::javax.xml.xpath.XPathFunctionResolver n1, global::java.lang.String n2, global::java.util.List n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.FunctionCall: void <init>(javax.xml.xpath.XPathFunctionResolver, java.lang.String, java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -62,26 +51,18 @@ public void @this(global::javax.xml.xpath.XPathFunctionResolver n1, global::java
 
 public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.FunctionCall: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
@@ -169,15 +150,11 @@ public override global::System.Object clone(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::gnu.xml.xpath.FunctionCall) _r4_o)._fargs;
@@ -215,12 +192,8 @@ public override bool references(global::javax.xml.@namespace.QName n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::gnu.xml.xpath.FunctionCall) _r2_o)._fargs;
@@ -243,17 +216,13 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.FunctionCall: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).@this();

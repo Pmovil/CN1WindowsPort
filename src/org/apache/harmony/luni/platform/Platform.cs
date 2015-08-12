@@ -16,9 +16,7 @@ public static global::org.apache.harmony.luni.platform.INetworkSystem _fNETWORK_
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,16 +25,13 @@ public void @this(){
 
 private static void accessCheck(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: void accessCheck()]
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     return;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.Platform: void accessCheck()]
 }
 
 public static global::System.Object getFileSystem(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: org.apache.harmony.luni.platform.IFileSystem getFileSystem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.apache.harmony.luni.platform.Platform.accessCheck();
     _r0_o = global::org.apache.harmony.luni.platform.Platform._fFILE_1SYSTEM;
     return (global::org.apache.harmony.luni.platform.IFileSystem) _r0_o;
@@ -45,9 +40,7 @@ public static global::System.Object getFileSystem(){
 
 public static global::System.Object getMemorySystem(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: org.apache.harmony.luni.platform.IMemorySystem getMemorySystem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.apache.harmony.luni.platform.Platform.accessCheck();
     _r0_o = global::org.apache.harmony.luni.platform.Platform._fMEMORY_1SYSTEM;
     return (global::org.apache.harmony.luni.platform.IMemorySystem) _r0_o;
@@ -56,9 +49,7 @@ public static global::System.Object getMemorySystem(){
 
 public static global::System.Object getNetworkSystem(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: org.apache.harmony.luni.platform.INetworkSystem getNetworkSystem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.apache.harmony.luni.platform.Platform.accessCheck();
     _r0_o = global::org.apache.harmony.luni.platform.Platform._fNETWORK_1SYSTEM;
     return (global::org.apache.harmony.luni.platform.INetworkSystem) _r0_o;
@@ -67,9 +58,7 @@ public static global::System.Object getNetworkSystem(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.platform.OSFileSystem.getOSFileSystem();
     global::org.apache.harmony.luni.platform.Platform._fFILE_1SYSTEM = (global::org.apache.harmony.luni.platform.IFileSystem) _r0_o;
     _r0_o = global::org.apache.harmony.luni.platform.OSMemory.getOSMemory();

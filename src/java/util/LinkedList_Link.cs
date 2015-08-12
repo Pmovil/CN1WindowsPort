@@ -11,15 +11,10 @@ public global::java.util.LinkedList_2Link _fnext;
 
 public void @this(global::java.lang.Object n1, global::java.util.LinkedList_2Link n2, global::java.util.LinkedList_2Link n3){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList$Link: void <init>(java.lang.Object, java.util.LinkedList$Link, java.util.LinkedList$Link)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

@@ -14,11 +14,8 @@ private global::java.lang.String _fpackageName;
 
 private void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -29,13 +26,9 @@ private void @this(global::java.lang.String n1){
 
 public virtual global::System.Object getAnnotation(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.annotation.Annotation getAnnotation(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -47,9 +40,7 @@ public virtual global::System.Object getAnnotations(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.annotation.Annotation[] getAnnotations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -61,9 +52,7 @@ public virtual global::System.Object getDeclaredAnnotations(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.annotation.Annotation[] getDeclaredAnnotations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -74,12 +63,8 @@ public virtual global::System.Object getDeclaredAnnotations(){
 public virtual bool isAnnotationPresent(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: boolean isAnnotationPresent(java.lang.Class)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -89,11 +74,8 @@ public virtual bool isAnnotationPresent(global::java.lang.Class n1){
 
 public virtual global::System.Object getImplementationTitle(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getImplementationTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -102,11 +84,8 @@ public virtual global::System.Object getImplementationTitle(){
 
 public virtual global::System.Object getImplementationVendor(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getImplementationVendor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -115,11 +94,8 @@ public virtual global::System.Object getImplementationVendor(){
 
 public virtual global::System.Object getImplementationVersion(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getImplementationVersion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -128,11 +104,8 @@ public virtual global::System.Object getImplementationVersion(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Package) _r1_o)._fpackageName;
     return (global::java.lang.String) _r0_o;
@@ -141,11 +114,8 @@ public virtual global::System.Object getName(){
 
 public static global::System.Object getPackage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.Package getPackage(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::java.lang.Package._fpackages;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
@@ -156,11 +126,9 @@ public static global::System.Object getPackage(global::java.lang.String n1){
 
 public static global::System.Object getPackages(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.Package[] getPackages()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.Package._fpackages;
     _r0_o = ((global::java.util.HashMap) _r0_o).values();
     _r1_o = global::java.lang.Package._fpackages;
@@ -174,11 +142,8 @@ public static global::System.Object getPackages(){
 
 public virtual global::System.Object getSpecificationTitle(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getSpecificationTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -187,11 +152,8 @@ public virtual global::System.Object getSpecificationTitle(){
 
 public virtual global::System.Object getSpecificationVendor(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getSpecificationVendor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -200,11 +162,8 @@ public virtual global::System.Object getSpecificationVendor(){
 
 public virtual global::System.Object getSpecificationVersion(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String getSpecificationVersion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -214,10 +173,7 @@ public virtual global::System.Object getSpecificationVersion(){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i;
@@ -227,12 +183,8 @@ public override int hashCode(){
 public virtual bool isCompatibleWith(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: boolean isCompatibleWith(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -243,10 +195,7 @@ public virtual bool isCompatibleWith(global::java.lang.String n1){
 public virtual bool isSealed(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: boolean isSealed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -256,12 +205,8 @@ public virtual bool isSealed(){
 public virtual bool isSealed(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: boolean isSealed(java.net.URL)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -271,11 +216,8 @@ public virtual bool isSealed(global::java.net.URL n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Package) _r1_o)._fpackageName;
     return (global::java.lang.String) _r0_o;
@@ -284,13 +226,9 @@ public override global::System.Object toString(){
 
 public static global::System.Object load(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: java.lang.Package load(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::java.lang.Package.getPackage((global::java.lang.String) _r2_o);
     if (_r0_o != null) goto label16;
@@ -305,9 +243,7 @@ public static global::System.Object load(global::java.lang.String n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.HashMap();
     ((global::java.util.HashMap) _r0_o).@this();
     global::java.lang.Package._fpackages = (global::java.util.HashMap) _r0_o;

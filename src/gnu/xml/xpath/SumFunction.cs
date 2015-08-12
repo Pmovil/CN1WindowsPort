@@ -9,11 +9,8 @@ public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: void <init>(java.util.List)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -26,11 +23,8 @@ public void @this(global::java.util.List n1){
 
 public void @this(global::gnu.xml.xpath.Expr n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: void <init>(gnu.xml.xpath.Expr)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.xpath.Expr) _r0_o).@this();
@@ -43,23 +37,14 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -90,15 +75,10 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
 
 public override global::System.Object clone(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: gnu.xml.xpath.Expr clone(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::gnu.xml.xpath.SumFunction();
@@ -113,11 +93,8 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: boolean references(javax.xml.namespace.QName)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.SumFunction) _r1_o)._farg;
@@ -128,13 +105,9 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.SumFunction: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=sum(

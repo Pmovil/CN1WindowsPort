@@ -60,9 +60,7 @@ public global::com.codename1.io.gzip.StaticTree _fstat_1desc;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Tree: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -74,10 +72,7 @@ public static int d_1code(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = 256;
     if (_r2.i >= _r0.i) goto label9;
@@ -98,49 +93,26 @@ public virtual void gen_1bitlen(global::com.codename1.io.gzip.Deflate n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Tree: void gen_bitlen(com.codename1.io.gzip.Deflate)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r0_o = _r20_o;
@@ -364,20 +336,12 @@ public virtual void gen_1bitlen(global::com.codename1.io.gzip.Deflate n1){
 public virtual void build_1tree(global::com.codename1.io.gzip.Deflate n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Tree: void build_tree(com.codename1.io.gzip.Deflate)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
@@ -386,16 +350,10 @@ public virtual void build_1tree(global::com.codename1.io.gzip.Deflate n1){
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r13.i = 2;
@@ -547,28 +505,16 @@ public virtual void build_1tree(global::com.codename1.io.gzip.Deflate n1){
 private static void gen_1codes(global::org.xmlvm._nArrayAdapter<short> n1, int n2, global::org.xmlvm._nArrayAdapter<short> n3, global::org.xmlvm._nArrayAdapter<short> n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Tree: void gen_codes(short[], int, short[], short[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8.i = n2;
     _r9_o = n3;
@@ -618,14 +564,9 @@ private static void gen_1codes(global::org.xmlvm._nArrayAdapter<short> n1, int n
 private static int bi_1reverse(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Tree: int bi_reverse(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = 0;
@@ -646,12 +587,8 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 30;
     _r2.i = 29;
     _r1.i = 19;

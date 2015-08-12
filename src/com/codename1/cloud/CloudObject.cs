@@ -58,9 +58,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.Hashtable();
@@ -78,13 +76,9 @@ public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -108,15 +102,10 @@ public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -142,11 +131,8 @@ public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -165,10 +151,7 @@ public void @this(int n1){
 public virtual int getStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: int getStatus()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.cloud.CloudObject) _r1_o)._fstatus;
     return _r0.i;
@@ -177,11 +160,8 @@ public virtual int getStatus(){
 
 public virtual void setStatus(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setStatus(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._fstatus = _r1.i;
@@ -191,11 +171,8 @@ public virtual void setStatus(int n1){
 
 public virtual void setValues(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setValues(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._fvalues = (global::java.util.Hashtable) _r1_o;
@@ -205,11 +182,8 @@ public virtual void setValues(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getValues(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.util.Hashtable getValues()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fvalues;
     return (global::java.util.Hashtable) _r0_o;
@@ -218,13 +192,9 @@ public virtual global::System.Object getValues(){
 
 public virtual void setType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=CN1Type
@@ -237,11 +207,8 @@ public virtual void setType(global::java.lang.String n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=CN1Type
     _r0_o = new global::java.lang.String();
@@ -255,17 +222,11 @@ public virtual void setIndexString(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setIndexString(int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -301,15 +262,10 @@ public virtual void setIndexString(int n1, global::java.lang.String n2){
 
 public virtual global::System.Object getIndexString(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getIndexString(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -329,19 +285,11 @@ public virtual void setIndexLong(int n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setIndexLong(int, long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.l = n2;
@@ -377,15 +325,10 @@ public virtual void setIndexLong(int n1, long n2){
 
 public virtual global::System.Object getIndexLong(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Long getIndexLong(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -405,19 +348,11 @@ public virtual void setIndexDouble(int n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setIndexDouble(int, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.d = n2;
@@ -453,15 +388,10 @@ public virtual void setIndexDouble(int n1, double n2){
 
 public virtual global::System.Object getIndexDouble(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Double getIndexDouble(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -480,10 +410,7 @@ public virtual global::System.Object getIndexDouble(int n1){
 public virtual bool isOwner(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: boolean isOwner()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.cloud.CloudObject) _r1_o)._fowner ? 1 : 0;
     return _r0.i!=0;
@@ -492,11 +419,8 @@ public virtual bool isOwner(){
 
 public virtual global::System.Object getCloudId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getCloudId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fcloudId;
     return (global::java.lang.String) _r0_o;
@@ -505,11 +429,8 @@ public virtual global::System.Object getCloudId(){
 
 public virtual void setCloudId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setCloudId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._fcloudId = (global::java.lang.String) _r1_o;
@@ -520,12 +441,7 @@ public virtual void setCloudId(global::java.lang.String n1){
 public virtual long getLastModified(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: long getLastModified()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.cloud.CloudObject) _r2_o)._flastModified;
     return _r0.l;
@@ -534,13 +450,8 @@ public virtual long getLastModified(){
 
 public virtual void setLastModified(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setLastModified(long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._flastModified = _r1.l;
@@ -550,17 +461,11 @@ public virtual void setLastModified(long n1){
 
 public virtual global::System.Object getObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Object getObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r3_o)._fvalues;
@@ -581,13 +486,9 @@ public virtual global::System.Object getObject(global::java.lang.String n1){
 
 public static void setCustomProperty(global::java.lang.String n1, global::com.codename1.cloud.CustomProperty n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setCustomProperty(java.lang.String, com.codename1.cloud.CustomProperty)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     if (_r2_o != null) goto label8;
@@ -608,13 +509,9 @@ public virtual void setString(global::java.lang.String n1, global::java.lang.Str
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -653,11 +550,8 @@ public virtual void setString(global::java.lang.String n1, global::java.lang.Str
 
 public virtual global::System.Object getString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
@@ -668,13 +562,9 @@ public virtual global::System.Object getString(global::java.lang.String n1){
 
 public virtual void remove(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void remove(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fvalues;
@@ -687,17 +577,10 @@ public virtual void setLong(global::java.lang.String n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setLong(java.lang.String, long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.l = n2;
@@ -724,15 +607,10 @@ public virtual void setLong(global::java.lang.String n1, global::java.lang.Long 
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setLong(java.lang.String, java.lang.Long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -755,19 +633,12 @@ public virtual void setLong(global::java.lang.String n1, global::java.lang.Long 
 
 public virtual global::System.Object getLong(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Long getLong(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r4_o).getObject((global::java.lang.String) _r5_o);
@@ -791,15 +662,10 @@ public virtual void setInteger(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setInteger(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -826,15 +692,10 @@ public virtual void setInteger(global::java.lang.String n1, global::java.lang.In
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setInteger(java.lang.String, java.lang.Integer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -857,19 +718,12 @@ public virtual void setInteger(global::java.lang.String n1, global::java.lang.In
 
 public virtual global::System.Object getInteger(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Integer getInteger(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r4_o).getObject((global::java.lang.String) _r5_o);
@@ -893,17 +747,10 @@ public virtual void setDouble(global::java.lang.String n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setDouble(java.lang.String, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.d = n2;
@@ -930,15 +777,10 @@ public virtual void setDouble(global::java.lang.String n1, global::java.lang.Dou
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setDouble(java.lang.String, java.lang.Double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -961,11 +803,8 @@ public virtual void setDouble(global::java.lang.String n1, global::java.lang.Dou
 
 public virtual global::System.Object getDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Double getDouble(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
@@ -978,15 +817,10 @@ public virtual void setFloat(global::java.lang.String n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setFloat(java.lang.String, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.f = n2;
@@ -1013,15 +847,10 @@ public virtual void setFloat(global::java.lang.String n1, global::java.lang.Floa
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setFloat(java.lang.String, java.lang.Float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1044,17 +873,12 @@ public virtual void setFloat(global::java.lang.String n1, global::java.lang.Floa
 
 public virtual global::System.Object getFloat(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Float getFloat(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r3_o).getObject((global::java.lang.String) _r4_o);
@@ -1077,15 +901,10 @@ public virtual void setBoolean(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setBoolean(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -1112,15 +931,10 @@ public virtual void setBoolean(global::java.lang.String n1, global::java.lang.Bo
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void setBoolean(java.lang.String, java.lang.Boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1143,11 +957,8 @@ public virtual void setBoolean(global::java.lang.String n1, global::java.lang.Bo
 
 public virtual global::System.Object getBoolean(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Boolean getBoolean(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
@@ -1159,10 +970,7 @@ public virtual global::System.Object getBoolean(global::java.lang.String n1){
 public virtual int getVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: int getVersion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i;
@@ -1173,13 +981,8 @@ public virtual void externalize(global::java.io.DataOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void externalize(java.io.DataOutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r2_o)._fcloudId;
@@ -1200,11 +1003,8 @@ public virtual void externalize(global::java.io.DataOutputStream n1){
 
 public virtual global::System.Object getObjectId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getObjectId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=CloudObject
     _r0_o = new global::java.lang.String();
@@ -1217,15 +1017,9 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void internalize(int, java.io.DataInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -1249,10 +1043,7 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 public virtual int getAccessPermissions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: int getAccessPermissions()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.cloud.CloudObject) _r1_o)._faccessPermissions;
     return _r0.i;
@@ -1261,19 +1052,14 @@ public virtual int getAccessPermissions(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -1314,9 +1100,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fcloudId;
     if (_r0_o == null) goto label11;
@@ -1334,29 +1118,17 @@ public virtual void bindTree(global::com.codename1.ui.Container n1, int n2, bool
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void bindTree(com.codename1.ui.Container, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -1392,23 +1164,14 @@ public virtual void bindTree(global::com.codename1.ui.Container n1, int n2, bool
 
 public virtual void unbindTree(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void unbindTree(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3.i = ((global::com.codename1.ui.Container) _r7_o).getComponentCount();
@@ -1439,29 +1202,19 @@ public virtual void unbindTree(global::com.codename1.ui.Container n1){
 
 public virtual void bindProperty(global::com.codename1.ui.Component n1, global::java.lang.String n2, global::java.lang.String n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void bindProperty(com.codename1.ui.Component, java.lang.String, java.lang.String, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1522,19 +1275,12 @@ public virtual void bindProperty(global::com.codename1.ui.Component n1, global::
 
 public virtual void unbindProperty(global::com.codename1.ui.Component n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void unbindProperty(com.codename1.ui.Component, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1555,17 +1301,12 @@ public virtual void unbindProperty(global::com.codename1.ui.Component n1, global
 
 public virtual void commitBinding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void commitBinding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r4_o)._fdeferedValues;
     if (_r2_o == null) goto label43;
@@ -1593,11 +1334,8 @@ public virtual void commitBinding(){
 
 public virtual void cancelBinding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void cancelBinding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.cloud.CloudObject) _r1_o)._fdeferedValues = (global::java.util.Hashtable) _r0_o;
@@ -1607,11 +1345,8 @@ public virtual void cancelBinding(){
 
 public static global::System.Object access_2000(global::com.codename1.cloud.CloudObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.util.Hashtable access$000(com.codename1.cloud.CloudObject)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fdeferedValues;
     return (global::java.util.Hashtable) _r0_o;
@@ -1620,11 +1355,8 @@ public static global::System.Object access_2000(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2002(global::com.codename1.cloud.CloudObject n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.util.Hashtable access$002(com.codename1.cloud.CloudObject, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._fdeferedValues = (global::java.util.Hashtable) _r1_o;
@@ -1634,11 +1366,8 @@ public static global::System.Object access_2002(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2100(global::com.codename1.cloud.CloudObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: java.util.Hashtable access$100(com.codename1.cloud.CloudObject)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o)._fvalues;
     return (global::java.util.Hashtable) _r0_o;
@@ -1647,11 +1376,8 @@ public static global::System.Object access_2100(global::com.codename1.cloud.Clou
 
 public static int access_2202(global::com.codename1.cloud.CloudObject n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: int access$202(com.codename1.cloud.CloudObject, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.cloud.CloudObject) _r0_o)._fstatus = _r1.i;
@@ -1661,9 +1387,7 @@ public static int access_2202(global::com.codename1.cloud.CloudObject n1, int n2
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
     global::com.codename1.cloud.CloudObject._fcustom = (global::java.util.Hashtable) _r0_o;

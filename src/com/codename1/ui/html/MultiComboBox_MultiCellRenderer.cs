@@ -16,16 +16,10 @@ public global::com.codename1.ui.html.MultiComboBox _fthis_20;
 public void @this(global::com.codename1.ui.html.MultiComboBox n1, global::com.codename1.ui.html.MultiComboBox_2MultiListModel n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiCellRenderer: void <init>(com.codename1.ui.html.MultiComboBox, com.codename1.ui.html.MultiComboBox$MultiListModel)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -42,11 +36,8 @@ public void @this(global::com.codename1.ui.html.MultiComboBox n1, global::com.co
 
 public virtual void setOptgroup(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiCellRenderer: void setOptgroup(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.html.MultiComboBox_2MultiCellRenderer) _r0_o)._foptgroup = 0!=_r1.i;
@@ -56,23 +47,15 @@ public virtual void setOptgroup(bool n1){
 
 public override global::System.Object getListCellRendererComponent(global::com.codename1.ui.List n1, global::java.lang.Object n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiCellRenderer: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -143,12 +126,8 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4.i = 1;

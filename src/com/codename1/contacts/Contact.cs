@@ -31,9 +31,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _furls;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -42,11 +40,8 @@ public void @this(){
 
 public virtual global::System.Object getAddresses(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.util.Hashtable getAddresses()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._faddresses;
     return (global::java.util.Hashtable) _r0_o;
@@ -56,12 +51,7 @@ public virtual global::System.Object getAddresses(){
 public virtual long getBirthday(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: long getBirthday()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.contacts.Contact) _r2_o)._fbirthday;
     return _r0.l;
@@ -70,11 +60,8 @@ public virtual long getBirthday(){
 
 public virtual global::System.Object getDisplayName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getDisplayName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fdisplayName;
     return (global::java.lang.String) _r0_o;
@@ -83,11 +70,8 @@ public virtual global::System.Object getDisplayName(){
 
 public virtual global::System.Object getEmails(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.util.Hashtable getEmails()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._femails;
     return (global::java.util.Hashtable) _r0_o;
@@ -96,11 +80,8 @@ public virtual global::System.Object getEmails(){
 
 public virtual global::System.Object getId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fid;
     return (global::java.lang.String) _r0_o;
@@ -109,11 +90,8 @@ public virtual global::System.Object getId(){
 
 public virtual global::System.Object getFirstName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getFirstName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._ffirstName;
     return (global::java.lang.String) _r0_o;
@@ -122,11 +100,8 @@ public virtual global::System.Object getFirstName(){
 
 public virtual global::System.Object getFamilyName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getFamilyName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._ffamilyName;
     return (global::java.lang.String) _r0_o;
@@ -135,11 +110,8 @@ public virtual global::System.Object getFamilyName(){
 
 public virtual global::System.Object getNote(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getNote()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fnote;
     return (global::java.lang.String) _r0_o;
@@ -148,11 +120,8 @@ public virtual global::System.Object getNote(){
 
 public virtual global::System.Object getPhoneNumbers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.util.Hashtable getPhoneNumbers()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fphoneNumbers;
     return (global::java.util.Hashtable) _r0_o;
@@ -161,11 +130,8 @@ public virtual global::System.Object getPhoneNumbers(){
 
 public virtual global::System.Object getPhoto(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: com.codename1.ui.Image getPhoto()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fphoto;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -174,13 +140,10 @@ public virtual global::System.Object getPhoto(){
 
 public virtual global::System.Object getPrimaryEmail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getPrimaryEmail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.contacts.Contact) _r2_o)._fprimaryEmail;
     if (_r1_o != null) goto label28;
@@ -202,11 +165,8 @@ public virtual global::System.Object getPrimaryEmail(){
 
 public virtual global::System.Object getPrimaryPhoneNumber(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String getPrimaryPhoneNumber()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._fprimaryPhoneNumber;
     return (global::java.lang.String) _r0_o;
@@ -215,11 +175,8 @@ public virtual global::System.Object getPrimaryPhoneNumber(){
 
 public virtual void setAddresses(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setAddresses(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._faddresses = (global::java.util.Hashtable) _r1_o;
@@ -229,13 +186,8 @@ public virtual void setAddresses(global::java.util.Hashtable n1){
 
 public virtual void setBirthday(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setBirthday(long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fbirthday = _r1.l;
@@ -245,11 +197,8 @@ public virtual void setBirthday(long n1){
 
 public virtual void setDisplayName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setDisplayName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fdisplayName = (global::java.lang.String) _r1_o;
@@ -259,11 +208,8 @@ public virtual void setDisplayName(global::java.lang.String n1){
 
 public virtual void setEmails(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setEmails(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._femails = (global::java.util.Hashtable) _r1_o;
@@ -273,11 +219,8 @@ public virtual void setEmails(global::java.util.Hashtable n1){
 
 public virtual void setId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fid = (global::java.lang.String) _r1_o;
@@ -287,11 +230,8 @@ public virtual void setId(global::java.lang.String n1){
 
 public virtual void setFirstName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setFirstName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._ffirstName = (global::java.lang.String) _r1_o;
@@ -301,11 +241,8 @@ public virtual void setFirstName(global::java.lang.String n1){
 
 public virtual void setFamilyName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setFamilyName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._ffamilyName = (global::java.lang.String) _r1_o;
@@ -315,11 +252,8 @@ public virtual void setFamilyName(global::java.lang.String n1){
 
 public virtual void setNote(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setNote(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fnote = (global::java.lang.String) _r1_o;
@@ -329,11 +263,8 @@ public virtual void setNote(global::java.lang.String n1){
 
 public virtual void setPhoneNumbers(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setPhoneNumbers(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fphoneNumbers = (global::java.util.Hashtable) _r1_o;
@@ -343,11 +274,8 @@ public virtual void setPhoneNumbers(global::java.util.Hashtable n1){
 
 public virtual void setPhoto(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setPhoto(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fphoto = (global::com.codename1.ui.Image) _r1_o;
@@ -357,11 +285,8 @@ public virtual void setPhoto(global::com.codename1.ui.Image n1){
 
 public virtual void setPrimaryEmail(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setPrimaryEmail(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fprimaryEmail = (global::java.lang.String) _r1_o;
@@ -371,11 +296,8 @@ public virtual void setPrimaryEmail(global::java.lang.String n1){
 
 public virtual void setPrimaryPhoneNumber(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setPrimaryPhoneNumber(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._fprimaryPhoneNumber = (global::java.lang.String) _r1_o;
@@ -385,11 +307,8 @@ public virtual void setPrimaryPhoneNumber(global::java.lang.String n1){
 
 public virtual global::System.Object getUrls(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: java.lang.String[] getUrls()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.contacts.Contact) _r1_o)._furls;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -398,11 +317,8 @@ public virtual global::System.Object getUrls(){
 
 public virtual void setUrls(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void setUrls(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.Contact) _r0_o)._furls = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;

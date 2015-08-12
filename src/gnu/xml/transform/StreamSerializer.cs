@@ -48,19 +48,12 @@ private bool _fhtmlEncoded;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=readonly
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 121))}));
@@ -291,12 +284,8 @@ public static void @static(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     _r0.i = 0;
@@ -308,14 +297,9 @@ public void @this(){
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -327,19 +311,12 @@ public void @this(global::java.lang.String n1){
 
 public void @this(int n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void <init>(int, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -391,11 +368,8 @@ public void @this(int n1, global::java.lang.String n2, global::java.lang.String 
 
 public virtual void setCdataSectionElements(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void setCdataSectionElements(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.transform.StreamSerializer) _r0_o)._fcdataSectionElements = (global::java.util.Collection) _r1_o;
@@ -406,14 +380,9 @@ public virtual void setCdataSectionElements(global::java.util.Collection n1){
 public virtual void serialize(global::org.w3c.dom.Node n1, global::java.io.OutputStream n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void serialize(org.w3c.dom.Node, java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -425,19 +394,12 @@ public virtual void serialize(global::org.w3c.dom.Node n1, global::java.io.Outpu
 
 public virtual void serialize(global::org.w3c.dom.Node n1, global::java.io.OutputStream n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void serialize(org.w3c.dom.Node, java.io.OutputStream, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -463,7 +425,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -479,14 +440,11 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
@@ -494,15 +452,11 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r19_o = this;
     _r20_o = n1;
     _r21_o = n2;
@@ -1554,19 +1508,12 @@ public virtual bool isHTMLElement(global::org.w3c.dom.Node n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: boolean isHTMLElement(org.w3c.dom.Node, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -1604,17 +1551,11 @@ public virtual bool isDefined(global::java.lang.String n1, global::java.lang.Str
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: boolean isDefined(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1671,13 +1612,9 @@ public virtual bool isDefined(global::java.lang.String n1, global::java.lang.Str
 
 public virtual void pushNamespaceContext(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void pushNamespaceContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.transform.StreamSerializer) _r2_o)._fnamespaces;
     _r1_o = new global::java.util.HashMap();
@@ -1693,13 +1630,9 @@ public virtual global::System.Object define(global::java.lang.String n1, global:
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1734,11 +1667,8 @@ public virtual global::System.Object define(global::java.lang.String n1, global:
 
 public virtual void popNamespaceContext(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: void popNamespaceContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.transform.StreamSerializer) _r1_o)._fnamespaces;
     ((global::java.util.LinkedList) _r0_o).removeFirst();
@@ -1755,20 +1685,14 @@ public virtual global::System.Object encodeText(global::java.lang.String n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 59;
@@ -1862,29 +1786,19 @@ public virtual global::System.Object encode(global::java.lang.String n1, bool n2
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.i = n2 ? 1 : 0;
@@ -2023,15 +1937,10 @@ public virtual global::System.Object encode(global::java.lang.String n1, bool n2
 
 public virtual global::System.Object toString(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: java.lang.String toString(org.w3c.dom.Node)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -2069,17 +1978,11 @@ public virtual bool isHTMLBoolean(global::org.w3c.dom.Attr n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: boolean isHTMLBoolean(org.w3c.dom.Attr, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -2110,11 +2013,8 @@ public virtual bool isHTMLBoolean(global::org.w3c.dom.Attr n1, global::java.lang
 
 public static global::System.Object getHTMLCharacterEntity(char n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.transform.StreamSerializer: java.lang.String getHTMLCharacterEntity(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     switch (_r1.i) {
     case 160: goto label5;

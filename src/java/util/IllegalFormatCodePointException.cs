@@ -9,11 +9,8 @@ private int _fc;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatCodePointException: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.IllegalFormatException) _r0_o).@this();
@@ -25,10 +22,7 @@ public void @this(int n1){
 public virtual int getCodePoint(){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatCodePointException: int getCodePoint()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.IllegalFormatCodePointException) _r1_o)._fc;
     return _r0.i;
@@ -37,17 +31,12 @@ public virtual int getCodePoint(){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.util.IllegalFormatCodePointException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

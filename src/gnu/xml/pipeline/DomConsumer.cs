@@ -23,11 +23,8 @@ public void @this(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void <init>(java.lang.Class)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -46,11 +43,8 @@ public void @this(global::java.lang.Class n1){
 
 public virtual void setHandler(global::gnu.xml.pipeline.DomConsumer_2Handler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setHandler(gnu.xml.pipeline.DomConsumer$Handler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._fhandler = (global::gnu.xml.pipeline.DomConsumer_2Handler) _r1_o;
@@ -60,15 +54,10 @@ public virtual void setHandler(global::gnu.xml.pipeline.DomConsumer_2Handler n1)
 
 private global::System.Object emptyDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.w3c.dom.Document emptyDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -124,13 +113,9 @@ private global::System.Object emptyDocument(){
 
 public void @this(global::java.lang.Class n1, global::gnu.xml.pipeline.EventConsumer n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void <init>(java.lang.Class, gnu.xml.pipeline.EventConsumer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -142,11 +127,8 @@ public void @this(global::java.lang.Class n1, global::gnu.xml.pipeline.EventCons
 
 public virtual global::System.Object getDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.w3c.dom.Document getDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhandler;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer_2Handler) _r0_o).clearDocument();
@@ -156,11 +138,8 @@ public virtual global::System.Object getDocument(){
 
 public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setErrorHandler(org.xml.sax.ErrorHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._ferrHandler = (global::org.xml.sax.ErrorHandler) _r1_o;
@@ -171,10 +150,7 @@ public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 public virtual bool isHidingReferences(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: boolean isHidingReferences()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhidingReferences ? 1 : 0;
     return _r0.i!=0;
@@ -183,11 +159,8 @@ public virtual bool isHidingReferences(){
 
 public virtual void setHidingReferences(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setHidingReferences(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._fhidingReferences = 0!=_r1.i;
@@ -198,10 +171,7 @@ public virtual void setHidingReferences(bool n1){
 public virtual bool isHidingComments(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: boolean isHidingComments()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhidingComments ? 1 : 0;
     return _r0.i!=0;
@@ -210,11 +180,8 @@ public virtual bool isHidingComments(){
 
 public virtual void setHidingComments(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setHidingComments(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._fhidingComments = 0!=_r1.i;
@@ -225,10 +192,7 @@ public virtual void setHidingComments(bool n1){
 public virtual bool isHidingWhitespace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: boolean isHidingWhitespace()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhidingWhitespace ? 1 : 0;
     return _r0.i!=0;
@@ -237,11 +201,8 @@ public virtual bool isHidingWhitespace(){
 
 public virtual void setHidingWhitespace(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setHidingWhitespace(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._fhidingWhitespace = 0!=_r1.i;
@@ -252,10 +213,7 @@ public virtual void setHidingWhitespace(bool n1){
 public virtual bool isHidingCDATA(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: boolean isHidingCDATA()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhidingCDATA ? 1 : 0;
     return _r0.i!=0;
@@ -264,11 +222,8 @@ public virtual bool isHidingCDATA(){
 
 public virtual void setHidingCDATA(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: void setHidingCDATA(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.pipeline.DomConsumer) _r0_o)._fhidingCDATA = 0!=_r1.i;
@@ -278,11 +233,8 @@ public virtual void setHidingCDATA(bool n1){
 
 public virtual global::System.Object getContentHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.xml.sax.ContentHandler getContentHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhandler;
     return (global::org.xml.sax.ContentHandler) _r0_o;
@@ -291,11 +243,8 @@ public virtual global::System.Object getContentHandler(){
 
 public virtual global::System.Object getDTDHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.xml.sax.DTDHandler getDTDHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fhandler;
     return (global::org.xml.sax.DTDHandler) _r0_o;
@@ -306,11 +255,8 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: java.lang.Object getProperty(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=http://xml.org/sax/properties/lexical-handler
@@ -338,11 +284,8 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
 
 public virtual global::System.Object getNext(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: gnu.xml.pipeline.EventConsumer getNext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._fnext;
     return (global::gnu.xml.pipeline.EventConsumer) _r0_o;
@@ -351,11 +294,8 @@ public virtual global::System.Object getNext(){
 
 public virtual global::System.Object getErrorHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.xml.sax.ErrorHandler getErrorHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o)._ferrHandler;
     return (global::org.xml.sax.ErrorHandler) _r0_o;
@@ -364,11 +304,8 @@ public virtual global::System.Object getErrorHandler(){
 
 public static global::System.Object access_20(global::gnu.xml.pipeline.DomConsumer n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.DomConsumer: org.w3c.dom.Document access$0(gnu.xml.pipeline.DomConsumer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r1_o).emptyDocument();
     return (global::org.w3c.dom.Document) _r0_o;

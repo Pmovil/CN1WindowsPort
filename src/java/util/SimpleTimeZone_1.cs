@@ -7,11 +7,8 @@ private global::java.lang.String _fval_2name;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.SimpleTimeZone$1: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.SimpleTimeZone_21) _r0_o)._fval_2name = (global::java.lang.String) _r1_o;
@@ -22,11 +19,8 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object run(){
 //XMLVM_BEGIN_WRAPPER[java.util.SimpleTimeZone$1: java.lang.Object run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.SimpleTimeZone_21) _r1_o)._fval_2name;
 // Red class access removed: com.ibm.icu.util.TimeZone getTimeZone

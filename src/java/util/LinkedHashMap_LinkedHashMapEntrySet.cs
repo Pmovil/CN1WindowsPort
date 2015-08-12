@@ -5,11 +5,8 @@ namespace java.util {
 public class LinkedHashMap_2LinkedHashMapEntrySet: global::java.util.HashMap_2HashMapEntrySet {
 public void @this(global::java.util.LinkedHashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$LinkedHashMapEntrySet: void <init>(java.util.LinkedHashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.HashMap_2HashMapEntrySet) _r0_o).@this((global::java.util.HashMap) _r1_o);
@@ -19,11 +16,8 @@ public void @this(global::java.util.LinkedHashMap n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$LinkedHashMapEntrySet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.LinkedHashMap_2EntryIterator();
     _r1_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntrySet) _r1_o).hashMap();

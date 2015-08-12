@@ -7,9 +7,7 @@ private static long _fserialVersionUID = -5484897634319144535L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.BufferOverflowException: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.RuntimeException) _r0_o).@this();
     return;

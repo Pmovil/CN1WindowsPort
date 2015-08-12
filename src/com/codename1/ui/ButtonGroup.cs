@@ -11,9 +11,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.Vector();
@@ -29,11 +27,8 @@ public virtual void add(global::com.codename1.ui.RadioButton n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: void add(com.codename1.ui.RadioButton)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label3;
@@ -60,11 +55,8 @@ public virtual void remove(global::com.codename1.ui.RadioButton n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: void remove(com.codename1.ui.RadioButton)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label3;
@@ -90,10 +82,7 @@ public virtual void clearSelection(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = -1;
     _r0.i = ((global::com.codename1.ui.ButtonGroup) _r3_o)._fselectedIndex;
@@ -119,9 +108,7 @@ public virtual int getButtonCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: int getButtonCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.ButtonGroup) _r1_o)._fbuttons;
     _r0.i = ((global::java.util.Vector) _r0_o).size();
@@ -132,12 +119,8 @@ public virtual int getButtonCount(){
 public virtual bool isSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: boolean isSelected()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.ButtonGroup) _r2_o)._fselectedIndex;
     _r1.i = -1;
@@ -154,10 +137,7 @@ public virtual bool isSelected(){
 public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.ButtonGroup) _r1_o)._fselectedIndex;
     return _r0.i;
@@ -168,11 +148,8 @@ public virtual global::System.Object getRadioButton(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: com.codename1.ui.RadioButton getRadioButton(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i < 0) goto label18;
@@ -193,14 +170,9 @@ public virtual global::System.Object getRadioButton(int n1){
 public virtual void setSelected(global::com.codename1.ui.RadioButton n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ButtonGroup: void setSelected(com.codename1.ui.RadioButton)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label23;
@@ -226,11 +198,8 @@ public virtual void setSelected(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label8;

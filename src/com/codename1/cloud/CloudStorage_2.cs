@@ -11,15 +11,10 @@ public global::com.codename1.cloud.CloudStorage _fthis_20;
 
 public void @this(global::com.codename1.cloud.CloudStorage n1, global::com.codename1.cloud.CloudResponse n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$2: void <init>(com.codename1.cloud.CloudStorage, com.codename1.cloud.CloudResponse, com.codename1.cloud.CloudObject[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -34,15 +29,10 @@ public void @this(global::com.codename1.cloud.CloudStorage n1, global::com.coden
 
 public virtual void onSuccess(global::java.lang.Integer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$2: void onSuccess(java.lang.Integer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudStorage_22) _r2_o)._fval_2response;
@@ -54,13 +44,9 @@ public virtual void onSuccess(global::java.lang.Integer n1){
 
 public virtual void onError(global::com.codename1.cloud.CloudException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$2: void onError(com.codename1.cloud.CloudException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudStorage_22) _r1_o)._fval_2response;
@@ -71,11 +57,8 @@ public virtual void onError(global::com.codename1.cloud.CloudException n1){
 
 public virtual void onSuccess(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$2: void onSuccess(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r1_o = _r1_o;

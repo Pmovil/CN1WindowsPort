@@ -18,11 +18,8 @@ private global::java.util.Vector _fsources;
 
 private void @this(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: void <init>(java.util.Vector)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -33,13 +30,9 @@ private void @this(global::java.util.Vector n1){
 
 public static global::System.Object newInstance(){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: org.w3c.dom.bootstrap.DOMImplementationRegistry newInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r1_o).@this();
     _r0_o = new global::gnu.xml.dom.ImplementationSource();
@@ -54,22 +47,12 @@ public static global::System.Object newInstance(){
 public virtual global::System.Object getDOMImplementation(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: org.w3c.dom.DOMImplementation getDOMImplementation(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5_o = ((global::org.w3c.dom.bootstrap.DOMImplementationRegistry) _r6_o)._fsources;
@@ -98,26 +81,16 @@ public virtual global::System.Object getDOMImplementation(global::java.lang.Stri
 public virtual global::System.Object getDOMImplementationList(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: org.w3c.dom.DOMImplementationList getDOMImplementationList(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r2_o = new global::java.util.Vector();
@@ -155,11 +128,8 @@ public virtual void addSource(global::org.w3c.dom.DOMImplementationSource n1){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: void addSource(org.w3c.dom.DOMImplementationSource)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -179,13 +149,9 @@ public virtual void addSource(global::org.w3c.dom.DOMImplementationSource n1){
 
 private static global::System.Object getClassLoader(){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.ClassLoader getClassLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::org.w3c.dom.bootstrap.DOMImplementationRegistry));
@@ -220,25 +186,17 @@ private static global::System.Object getClassLoader(){
 
 private static global::System.Object getServiceValue(global::java.lang.ClassLoader n1){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.String getServiceValue(java.lang.ClassLoader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
@@ -348,7 +306,6 @@ private static global::System.Object getServiceValue(global::java.lang.ClassLoad
 
 private static bool isJRE11(){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: boolean isJRE11()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -383,7 +340,6 @@ private static global::System.Object getContextClassLoader(){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.ClassLoader getContextClassLoader()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::org.w3c.dom.bootstrap.DOMImplementationRegistry.isJRE11() ? 1 : 0;
     if (_r0.i == 0) goto label8;
     _r0_o = null;
@@ -404,9 +360,7 @@ private static global::System.Object getSystemProperty(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.String getSystemProperty(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = global::org.w3c.dom.bootstrap.DOMImplementationRegistry.isJRE11() ? 1 : 0;
     if (_r0.i == 0) goto label11;
@@ -427,15 +381,11 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 private static global::System.Object getResourceAsStream(global::java.lang.ClassLoader n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.io.InputStream getResourceAsStream(java.lang.ClassLoader, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r1.i = global::org.w3c.dom.bootstrap.DOMImplementationRegistry.isJRE11() ? 1 : 0;

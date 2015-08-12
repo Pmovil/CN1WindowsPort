@@ -9,11 +9,8 @@ private global::java.lang.Throwable _fex;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::java.lang.Exception) _r1_o).@this((global::java.lang.Throwable) _r0_o);
@@ -23,13 +20,9 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -40,13 +33,9 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>(java.lang.String, java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -58,11 +47,8 @@ public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 
 public virtual global::System.Object getException(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: java.lang.Throwable getException()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.ClassNotFoundException) _r1_o)._fex;
     return (global::java.lang.Throwable) _r0_o;
@@ -71,11 +57,8 @@ public virtual global::System.Object getException(){
 
 public override global::System.Object getCause(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: java.lang.Throwable getCause()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.ClassNotFoundException) _r1_o)._fex;
     return (global::java.lang.Throwable) _r0_o;

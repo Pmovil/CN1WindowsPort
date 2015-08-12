@@ -14,7 +14,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyLenClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 87;
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[_r0.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[]{2, 1, 1, 1, 1, 2, 2, 1, 3, 3, 1, 2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 3, 1, 3, 1, 1, 1, 3, 4, 1, 3, 1, 3, 1, 1, 3, 3, 1, 2, 1, 3, 1, 3, 1, 3, 3, 1, 3, 3, 3, 3, 1, 3, 3, 1, 3, 3, 3, 1, 2, 1, 2, 3, 2, 1, 2, 1, 3, 1, 1, 3, 1, 1, 1, 1});
@@ -26,9 +25,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyLenClass: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

@@ -11,11 +11,8 @@ public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void <init>(java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.FilterOutputStream) _r1_o).@this((global::java.io.OutputStream) _r2_o);
@@ -28,17 +25,11 @@ public void @this(global::java.io.OutputStream n1){
 
 public void @this(global::java.io.OutputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void <init>(java.io.OutputStream, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -60,9 +51,7 @@ public void @this(global::java.io.OutputStream n1, int n2){
 
 public override void flush(){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void flush()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -98,15 +87,10 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
@@ -274,11 +258,8 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -353,18 +334,13 @@ public override void close(){
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
@@ -441,15 +417,10 @@ private void flushInternal(){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedOutputStream: void flushInternal()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r0.i = ((global::java.io.BufferedOutputStream) _r4_o)._fcount;

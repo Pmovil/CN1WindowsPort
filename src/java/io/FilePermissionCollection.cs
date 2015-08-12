@@ -9,11 +9,8 @@ public global::java.util.Vector _fpermissions;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermissionCollection: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.security.PermissionCollection) _r1_o).@this();
     _r0_o = new global::java.util.Vector();
@@ -27,13 +24,9 @@ public override void add(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermissionCollection: void add(java.security.Permission)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.io.FilePermissionCollection) _r2_o).isReadOnly() ? 1 : 0;
@@ -57,11 +50,8 @@ public override void add(global::java.security.Permission n1){
 
 public override global::System.Object elements(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermissionCollection: java.util.Enumeration elements()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.FilePermissionCollection) _r1_o)._fpermissions;
     _r0_o = ((global::java.util.Vector) _r0_o).elements();
@@ -71,25 +61,17 @@ public override global::System.Object elements(){
 
 public override bool implies(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermissionCollection: boolean implies(java.security.Permission)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 0;

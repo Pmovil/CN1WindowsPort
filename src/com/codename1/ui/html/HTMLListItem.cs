@@ -5,9 +5,7 @@ namespace com.codename1.ui.html {
 public abstract class HTMLListItem: global::com.codename1.ui.Label {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLListItem: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.Label) _r0_o).@this();
     return;

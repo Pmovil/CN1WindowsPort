@@ -16,9 +16,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fHTML_1B
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -29,11 +27,8 @@ public static global::System.Object convertXMLCharEntity(global::java.lang.Strin
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: java.lang.String convertXMLCharEntity(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = 0;
     _r1_o = null;
@@ -46,11 +41,8 @@ public static global::System.Object convertHTMLCharEntity(global::java.lang.Stri
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: java.lang.String convertHTMLCharEntity(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = 1;
     _r1_o = null;
@@ -62,18 +54,13 @@ public static global::System.Object convertHTMLCharEntity(global::java.lang.Stri
 public static global::System.Object convertCharEntity(global::java.lang.String n1, bool n2, global::java.util.Hashtable n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: java.lang.String convertCharEntity(java.lang.String, boolean, java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -162,23 +149,15 @@ public static global::System.Object convertCharEntity(global::java.lang.String n
 
 private static int getCharEntityCode(global::java.lang.String n1, bool n2, global::java.util.Hashtable n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: int getCharEntityCode(java.lang.String, boolean, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6.i = n2 ? 1 : 0;
     _r7_o = n3;
@@ -227,28 +206,18 @@ private static int getCharEntityCode(global::java.lang.String n1, bool n2, globa
 public static global::System.Object encodeString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: java.lang.String encodeString(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     // Value=%
     _r9_o = new global::java.lang.String();
@@ -405,12 +374,8 @@ public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._n
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = null;
@@ -423,14 +388,9 @@ public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._n
 public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: int getStringVal(java.lang.String, java.lang.String[], int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -444,13 +404,9 @@ public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._n
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: int getStringVal(java.lang.String, java.lang.String[], int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3;
@@ -463,18 +419,12 @@ public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._n
 public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<int> n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: int getStringVal(java.lang.String, java.lang.String[], int[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -509,19 +459,12 @@ public static void @static(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 3;
     _r6.i = 2;
     _r5.i = 1;

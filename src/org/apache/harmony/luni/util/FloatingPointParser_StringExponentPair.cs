@@ -11,15 +11,10 @@ public bool _fnegative;
 
 public void @this(global::java.lang.String n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.FloatingPointParser$StringExponentPair: void <init>(java.lang.String, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;

@@ -25,11 +25,8 @@ public void @this(global::java.util.TreeMap_2NavigableSubMap n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -67,13 +64,9 @@ public virtual void remove(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = null;
     _r0.i = ((global::java.util.TreeMap_2AbstractSubMapIterator) _r5_o)._fexpectedModCount;
@@ -185,9 +178,7 @@ public virtual void makeNext(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.TreeMap_2AbstractSubMapIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.TreeMap_2AbstractSubMapIterator) _r2_o)._fsubMap;
@@ -243,19 +234,12 @@ public virtual void makeNext(){
 
 public virtual global::System.Object createEntry(global::java.util.TreeMap_2Node n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$AbstractSubMapIterator: java.util.TreeMap$Entry createEntry(java.util.TreeMap$Node, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;

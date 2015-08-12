@@ -13,11 +13,8 @@ private global::com.codename1.ui.util.EventDispatcher _fdispatcher;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this();
@@ -28,13 +25,9 @@ public void @this(){
 
 public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void <init>(com.codename1.ui.list.ListModel)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Container) _r1_o).@this();
@@ -53,11 +46,8 @@ private void init(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void init(com.codename1.ui.list.ListModel)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.list.ContainerList) _r1_o).setModel((global::com.codename1.ui.list.ListModel) _r2_o);
@@ -73,15 +63,10 @@ private void init(global::com.codename1.ui.list.ListModel n1){
 
 public void @this(global::com.codename1.ui.layouts.Layout n1, global::com.codename1.ui.list.ListModel n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void <init>(com.codename1.ui.layouts.Layout, com.codename1.ui.list.ListModel)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -100,16 +85,11 @@ public void @this(global::com.codename1.ui.layouts.Layout n1, global::com.codena
 public virtual void setRenderer(global::com.codename1.ui.list.CellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void setRenderer(com.codename1.ui.list.CellRenderer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::com.codename1.ui.list.ContainerList) _r3_o)._frenderer = (global::com.codename1.ui.list.CellRenderer) _r4_o;
@@ -133,11 +113,8 @@ public virtual void setRenderer(global::com.codename1.ui.list.CellRenderer n1){
 
 public virtual global::System.Object getRenderer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.list.CellRenderer getRenderer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._frenderer;
     return (global::com.codename1.ui.list.CellRenderer) _r0_o;
@@ -147,20 +124,13 @@ public virtual global::System.Object getRenderer(){
 private void updateComponentCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void updateComponentCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0.i = ((global::com.codename1.ui.list.ContainerList) _r6_o).getComponentCount();
     _r4_o = ((global::com.codename1.ui.list.ContainerList) _r6_o)._fmodel;
@@ -195,11 +165,8 @@ private void updateComponentCount(){
 
 public virtual global::System.Object getModel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.list.ListModel getModel()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fmodel;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -208,13 +175,9 @@ public virtual global::System.Object getModel(){
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void addActionListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fdispatcher;
@@ -225,11 +188,8 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual global::System.Object getActionListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: java.util.Vector getActionListeners()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerVector();
@@ -239,11 +199,8 @@ public virtual global::System.Object getActionListeners(){
 
 public virtual global::System.Object getListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: java.util.Collection getListeners()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerCollection();
@@ -253,13 +210,9 @@ public virtual global::System.Object getListeners(){
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void removeActionListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fdispatcher;
@@ -271,12 +224,8 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void initComponent()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.list.ContainerList) _r2_o)._fmodel;
     if (_r1_o == null) goto label22;
@@ -294,13 +243,9 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void deinitialize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r2_o)._fmodel;
     if (_r0_o == null) goto label25;
@@ -323,13 +268,9 @@ public virtual void setModel(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void setModel(com.codename1.ui.list.ListModel)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r2_o)._fmodel;
@@ -364,13 +305,9 @@ public virtual void setModel(global::com.codename1.ui.list.ListModel n1){
 
 private void bindListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void bindListeners()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r2_o)._flistener;
     if (_r0_o != null) goto label26;
@@ -392,12 +329,9 @@ private void bindListeners(){
 public virtual global::System.Object getSelectedItem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: java.lang.Object getSelectedItem()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.list.ContainerList) _r2_o)._fmodel;
     _r0.i = ((global::com.codename1.ui.list.ListModel) _r1_o).getSelectedIndex();
@@ -417,9 +351,7 @@ public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fmodel;
     _r0.i = ((global::com.codename1.ui.list.ListModel) _r0_o).getSelectedIndex();
@@ -429,17 +361,11 @@ public virtual int getSelectedIndex(){
 
 public virtual void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void setSelectedIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i >= 0) goto label27;
@@ -467,11 +393,8 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void fireActionEvent(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.list.ContainerList) _r1_o).isEnabled() ? 1 : 0;
@@ -491,12 +414,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -519,12 +438,8 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -543,12 +458,8 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -569,16 +480,11 @@ public override global::System.Object getPropertyTypeNames(){
 public override global::System.Object getPropertyValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=ListItems
@@ -620,15 +526,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -664,13 +565,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public override global::System.Object getSelectedRect(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.geom.Rectangle getSelectedRect()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = ((global::com.codename1.ui.list.ContainerList) _r2_o).getSelectedIndex();
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r2_o).getComponentAt((int) _r1.i);
@@ -682,14 +580,9 @@ public override global::System.Object getSelectedRect(){
 public override int getDragRegionStatus(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: int getDragRegionStatus(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -716,11 +609,8 @@ public override int getDragRegionStatus(int n1, int n2){
 
 public static global::System.Object access_2100(global::com.codename1.ui.list.ContainerList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.list.ListModel access$100(com.codename1.ui.list.ContainerList)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._fmodel;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -729,11 +619,8 @@ public static global::System.Object access_2100(global::com.codename1.ui.list.Co
 
 public static global::System.Object access_2200(global::com.codename1.ui.list.ContainerList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.list.CellRenderer access$200(com.codename1.ui.list.ContainerList)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o)._frenderer;
     return (global::com.codename1.ui.list.CellRenderer) _r0_o;
@@ -742,9 +629,7 @@ public static global::System.Object access_2200(global::com.codename1.ui.list.Co
 
 public static void access_2300(global::com.codename1.ui.list.ContainerList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void access$300(com.codename1.ui.list.ContainerList)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.ui.list.ContainerList) _r0_o).updateComponentCount();
     return;

@@ -38,9 +38,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ads.AdsService) _r1_o).@this();
     // Value=http://m2m1.inner-active.com/simpleM2M/clientRequestHtmlAd
@@ -58,14 +56,9 @@ public void @this(){
 private static void addParam(global::com.codename1.io.ConnectionRequest n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void addParam(com.codename1.io.ConnectionRequest, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -80,11 +73,8 @@ private static void addParam(global::com.codename1.io.ConnectionRequest n1, glob
 
 public virtual void setBanner(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void setBanner(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ads.InnerActive) _r0_o)._fbanner = 0!=_r1.i;
@@ -95,8 +85,6 @@ public virtual void setBanner(bool n1){
 public static void setTestAds(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void setTestAds(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ads.InnerActive._ftestAds = 0!=_r0.i;
     return;
@@ -106,14 +94,9 @@ public static void setTestAds(bool n1){
 public override void initService(global::com.codename1.components.Ads n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void initService(com.codename1.components.Ads)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
@@ -121,17 +104,11 @@ public override void initService(global::com.codename1.components.Ads n1){
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r8_o = null;
@@ -382,29 +359,18 @@ public override void initService(global::com.codename1.components.Ads n1){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 0;
@@ -443,8 +409,6 @@ public override void readResponse(global::java.io.InputStream n1){
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.InnerActive: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.ads.InnerActive._ftestAds = 0!=_r0.i;
     return;

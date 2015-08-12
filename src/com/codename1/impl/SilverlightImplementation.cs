@@ -1663,7 +1663,6 @@ namespace com.codename1.impl
 
                     return nf;
                 }
-                catch (Exception err)
                 {
                 }
             }
@@ -2009,7 +2008,6 @@ namespace com.codename1.impl
                 StorageFile file = store.GetFileAsync(uri).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 fileExists = file != null;
             }
-            catch (Exception e)
             {
                 fileExists = false;
             }

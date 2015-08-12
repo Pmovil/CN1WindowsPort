@@ -10,10 +10,7 @@ private int _fheight;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     ((global::com.codename1.ui.layouts.Layout) _r1_o).@this();
@@ -25,13 +22,9 @@ public void @this(){
 
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: void <init>(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -45,14 +38,9 @@ public void @this(int n1, int n2){
 public void @this(global::com.codename1.ui.geom.Dimension n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: void <init>(com.codename1.ui.geom.Dimension)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.Dimension) _r3_o).getWidth();
@@ -64,29 +52,17 @@ public void @this(global::com.codename1.ui.geom.Dimension n1){
 
 public override void layoutContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: void layoutContainer(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r7.i = ((global::com.codename1.ui.layouts.CoordinateLayout) _r9_o)._fwidth;
@@ -126,25 +102,15 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
 
 public override global::System.Object getPreferredSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r3_o = new global::com.codename1.ui.geom.Dimension();
@@ -176,10 +142,7 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
 public override bool isOverlapSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.CoordinateLayout: boolean isOverlapSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;

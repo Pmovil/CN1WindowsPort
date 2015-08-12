@@ -7,9 +7,7 @@ private static long _fserialVersionUID = -4417128565033088268L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadDeath: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Error) _r0_o).@this();
     return;

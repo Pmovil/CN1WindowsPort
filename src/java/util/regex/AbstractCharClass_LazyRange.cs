@@ -9,13 +9,9 @@ public int _fend;
 
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyRange: void <init>(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -28,15 +24,10 @@ public void @this(int n1, int n2){
 
 public override global::System.Object computeValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyRange: java.util.regex.AbstractCharClass computeValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.regex.CharClass();
     ((global::java.util.regex.CharClass) _r0_o).@this();

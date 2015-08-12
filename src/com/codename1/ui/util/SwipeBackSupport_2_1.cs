@@ -11,15 +11,10 @@ public global::com.codename1.ui.util.SwipeBackSupport_22 _fthis_21;
 
 public void @this(global::com.codename1.ui.util.SwipeBackSupport_22 n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$2$1: void <init>(com.codename1.ui.util.SwipeBackSupport$2, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -34,19 +29,14 @@ public void @this(global::com.codename1.ui.util.SwipeBackSupport_22 n1, int n2, 
 
 public virtual bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$2$1: boolean animate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r1_o = ((global::com.codename1.ui.util.SwipeBackSupport_22_21) _r5_o)._fthis_21;
@@ -114,11 +104,8 @@ public virtual bool animate(){
 
 public virtual void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$2$1: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;

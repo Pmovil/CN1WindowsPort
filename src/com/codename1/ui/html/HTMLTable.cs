@@ -10,12 +10,8 @@ public static int _fINNER_1BORDERS_1GROUPS = 4;
 public void @this(global::com.codename1.ui.html.HTMLTableModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: void <init>(com.codename1.ui.html.HTMLTableModel)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -27,11 +23,8 @@ public void @this(global::com.codename1.ui.html.HTMLTableModel n1){
 
 public override global::System.Object getUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: java.lang.String getUIID()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=HTMLTable
     _r0_o = new global::java.lang.String();
@@ -42,23 +35,14 @@ public override global::System.Object getUIID(){
 
 public override global::System.Object createCell(global::java.lang.Object n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: com.codename1.ui.Component createCell(java.lang.Object, int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -82,21 +66,14 @@ public override global::System.Object createCell(global::java.lang.Object n1, in
 
 public override global::System.Object createCellConstraint(global::java.lang.Object n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: com.codename1.ui.table.TableLayout$Constraint createCellConstraint(java.lang.Object, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -131,12 +108,8 @@ public override global::System.Object createCellConstraint(global::java.lang.Obj
 public override bool shouldDrawInnerBorderAfterRow(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: boolean shouldDrawInnerBorderAfterRow(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.html.HTMLTable) _r1_o)._finnerBorderGroups ? 1 : 0;
@@ -155,12 +128,8 @@ public override bool shouldDrawInnerBorderAfterRow(int n1){
 public override void setInnerBorderMode(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTable: void setInnerBorderMode(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 4;

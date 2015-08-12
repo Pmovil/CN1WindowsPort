@@ -32,9 +32,7 @@ private static global::java.util.WeakHashMap _fcache;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.ResourceBundle_2MissingBundle();
     ((global::java.util.ResourceBundle_2MissingBundle) _r0_o).@this();
     global::java.util.ResourceBundle._fMISSING = (global::java.util.ResourceBundle) _r0_o;
@@ -51,12 +49,7 @@ public static void @static(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0.l = 0L;
@@ -67,13 +60,9 @@ public void @this(){
 
 public static global::System.Object getBundle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle getBundle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::java.util.Locale.getDefault();
 // Red class access removed: org.apache.harmony.kernel.vm.VM callerClassLoader
@@ -85,13 +74,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public static global::System.Object getBundle(global::java.lang.String n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
 // Red class access removed: org.apache.harmony.kernel.vm.VM callerClassLoader
@@ -107,17 +92,12 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -183,15 +163,10 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
 
 public static global::System.Object getBundle(global::java.lang.String n1, global::java.util.ResourceBundle_2Control n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle getBundle(java.lang.String, java.util.ResourceBundle$Control)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = global::java.util.Locale.getDefault();
@@ -203,15 +178,10 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
 
 public static global::System.Object getBundle(global::java.lang.String n1, global::java.util.Locale n2, global::java.util.ResourceBundle_2Control n3){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale, java.util.ResourceBundle$Control)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -223,9 +193,7 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
 
 private static global::System.Object getLoader(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.lang.ClassLoader getLoader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.ResourceBundle_21();
     ((global::java.util.ResourceBundle_21) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
@@ -242,29 +210,18 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
@@ -412,11 +369,8 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
 
 private static global::System.Object processGetBundle(global::java.lang.String n1, global::java.util.Locale n2, global::java.lang.ClassLoader n3, global::java.util.ResourceBundle_2Control n4, bool n5, global::java.util.ResourceBundle n6){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle processGetBundle(java.lang.String, java.util.Locale, java.lang.ClassLoader, java.util.ResourceBundle$Control, boolean, java.util.ResourceBundle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -424,41 +378,24 @@ private static global::System.Object processGetBundle(global::java.lang.String n
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r18_o = n1;
@@ -656,17 +593,12 @@ private static global::System.Object getBundleImpl(global::java.lang.String n1, 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -737,11 +669,8 @@ public abstract global::System.Object getKeys();
 
 public virtual global::System.Object getLocale(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.Locale getLocale()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.ResourceBundle) _r1_o)._flocale;
     return (global::java.util.Locale) _r0_o;
@@ -750,19 +679,12 @@ public virtual global::System.Object getLocale(){
 
 public virtual global::System.Object getObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.lang.Object getObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = _r4_o;
@@ -792,11 +714,8 @@ public virtual global::System.Object getObject(global::java.lang.String n1){
 
 public virtual global::System.Object getString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.lang.String getString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::java.util.ResourceBundle) _r0_o).getObject((global::java.lang.String) _r1_o);
@@ -807,11 +726,8 @@ public virtual global::System.Object getString(global::java.lang.String n1){
 
 public virtual global::System.Object getStringArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.lang.String[] getStringArray(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::java.util.ResourceBundle) _r0_o).getObject((global::java.lang.String) _r1_o);
@@ -824,27 +740,18 @@ private static global::System.Object handleGetBundle(global::java.lang.String n1
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.ResourceBundle handleGetBundle(java.lang.String, java.lang.String, boolean, java.lang.ClassLoader)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
@@ -1087,11 +994,8 @@ public abstract global::System.Object handleGetObject(global::java.lang.String n
 
 public virtual void setParent(global::java.util.ResourceBundle n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void setParent(java.util.ResourceBundle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.ResourceBundle) _r0_o)._fparent = (global::java.util.ResourceBundle) _r1_o;
@@ -1104,10 +1008,7 @@ private static global::System.Object strip(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = 95;
     _r0.i = ((global::java.lang.String) _r2_o).lastIndexOf((int) _r0.i);
@@ -1125,11 +1026,8 @@ private static global::System.Object strip(global::java.lang.String n1){
 
 private void setLocale(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void setLocale(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.ResourceBundle) _r0_o)._flocale = (global::java.util.Locale) _r1_o;
@@ -1148,18 +1046,11 @@ private void setLocale(global::java.lang.String n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r6.i = 95;
@@ -1229,11 +1120,8 @@ private void setLocale(global::java.lang.String n1){
 
 public static void clearCache(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void clearCache()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.ResourceBundle._fcache;
     _r1_o = global::java.lang.ClassLoader.getSystemClassLoader();
     ((global::java.util.WeakHashMap) _r0_o).remove((global::java.lang.Object) _r1_o);
@@ -1243,11 +1131,8 @@ public static void clearCache(){
 
 public static void clearCache(global::java.lang.ClassLoader n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void clearCache(java.lang.ClassLoader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label8;
     _r0_o = new global::java.lang.NullPointerException();
@@ -1264,11 +1149,8 @@ public virtual bool containsKey(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: boolean containsKey(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -1284,15 +1166,10 @@ public virtual bool containsKey(global::java.lang.String n1){
 
 public virtual global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.Set keySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.HashSet();
     ((global::java.util.HashSet) _r0_o).@this();
@@ -1313,15 +1190,10 @@ public virtual global::System.Object handleKeySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: java.util.Set handleKeySet()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.ResourceBundle) _r4_o).keySet();
     _r1_o = new global::java.util.HashSet();
@@ -1343,11 +1215,8 @@ public virtual global::System.Object handleKeySet(){
 
 public static void access_20(global::java.util.ResourceBundle n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void access$0(java.util.ResourceBundle, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::java.util.ResourceBundle) _r0_o).setLocale((global::java.util.Locale) _r1_o);

@@ -5,9 +5,7 @@ namespace com.codename1.testing {
 public abstract class AbstractTest: global::java.lang.Object,global::com.codename1.testing.UnitTest {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,9 +14,7 @@ public void @this(){
 
 public virtual void prepare(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void prepare()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.testing.AbstractTest: void prepare()]
@@ -26,9 +22,7 @@ public virtual void prepare(){
 
 public virtual void cleanup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void cleanup()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.testing.AbstractTest: void cleanup()]
@@ -37,10 +31,7 @@ public virtual void cleanup(){
 public virtual int getTimeoutMillis(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: int getTimeoutMillis()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 120000;
     return _r0.i;
@@ -50,10 +41,7 @@ public virtual int getTimeoutMillis(){
 public virtual bool shouldExecuteOnEDT(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: boolean shouldExecuteOnEDT()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -62,11 +50,8 @@ public virtual bool shouldExecuteOnEDT(){
 
 public virtual void assertBool(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertBool(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     global::com.codename1.testing.TestUtils.assertBool(0!=_r1.i);
@@ -76,13 +61,9 @@ public virtual void assertBool(bool n1){
 
 public virtual void assertBool(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertBool(boolean, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2_o = n2;
@@ -93,9 +74,7 @@ public virtual void assertBool(bool n1, global::java.lang.String n2){
 
 public virtual void fail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void fail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     global::com.codename1.testing.TestUtils.fail();
     return;
@@ -104,11 +83,8 @@ public virtual void fail(){
 
 public virtual void fail(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void fail(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.fail((global::java.lang.String) _r1_o);
@@ -118,11 +94,8 @@ public virtual void fail(global::java.lang.String n1){
 
 public virtual void assertTrue(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTrue(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     global::com.codename1.testing.TestUtils.assertTrue(0!=_r1.i);
@@ -132,13 +105,9 @@ public virtual void assertTrue(bool n1){
 
 public virtual void assertTrue(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTrue(boolean, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2_o = n2;
@@ -149,11 +118,8 @@ public virtual void assertTrue(bool n1, global::java.lang.String n2){
 
 public virtual void assertFalse(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertFalse(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     global::com.codename1.testing.TestUtils.assertFalse(0!=_r1.i);
@@ -163,13 +129,9 @@ public virtual void assertFalse(bool n1){
 
 public virtual void assertFalse(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertFalse(boolean, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2_o = n2;
@@ -180,11 +142,8 @@ public virtual void assertFalse(bool n1, global::java.lang.String n2){
 
 public virtual void assertNull(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNull(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.assertNull((global::java.lang.Object) _r1_o);
@@ -194,13 +153,9 @@ public virtual void assertNull(global::java.lang.Object n1){
 
 public virtual void assertNull(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNull(java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -211,11 +166,8 @@ public virtual void assertNull(global::java.lang.Object n1, global::java.lang.St
 
 public virtual void assertNotNull(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotNull(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.assertNotNull((global::java.lang.Object) _r1_o);
@@ -225,13 +177,9 @@ public virtual void assertNotNull(global::java.lang.Object n1){
 
 public virtual void assertNotNull(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotNull(java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -242,13 +190,9 @@ public virtual void assertNotNull(global::java.lang.Object n1, global::java.lang
 
 public virtual void assertSame(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertSame(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -259,15 +203,10 @@ public virtual void assertSame(global::java.lang.Object n1, global::java.lang.Ob
 
 public virtual void assertSame(global::java.lang.Object n1, global::java.lang.Object n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertSame(java.lang.Object, java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -279,13 +218,9 @@ public virtual void assertSame(global::java.lang.Object n1, global::java.lang.Ob
 
 public virtual void assertNotSame(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotSame(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -296,15 +231,10 @@ public virtual void assertNotSame(global::java.lang.Object n1, global::java.lang
 
 public virtual void assertNotSame(global::java.lang.Object n1, global::java.lang.Object n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotSame(java.lang.Object, java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -316,13 +246,9 @@ public virtual void assertNotSame(global::java.lang.Object n1, global::java.lang
 
 public virtual void assertEqual(sbyte n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(byte, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -333,15 +259,10 @@ public virtual void assertEqual(sbyte n1, sbyte n2){
 
 public virtual void assertEqual(sbyte n1, sbyte n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(byte, byte, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -353,13 +274,9 @@ public virtual void assertEqual(sbyte n1, sbyte n2, global::java.lang.String n3)
 
 public virtual void assertEqual(short n1, short n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(short, short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -370,15 +287,10 @@ public virtual void assertEqual(short n1, short n2){
 
 public virtual void assertEqual(short n1, short n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(short, short, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -390,13 +302,9 @@ public virtual void assertEqual(short n1, short n2, global::java.lang.String n3)
 
 public virtual void assertEqual(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -407,15 +315,10 @@ public virtual void assertEqual(int n1, int n2){
 
 public virtual void assertEqual(int n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(int, int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -427,17 +330,9 @@ public virtual void assertEqual(int n1, int n2, global::java.lang.String n3){
 
 public virtual void assertEqual(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(long, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     _r3.l = n2;
@@ -448,19 +343,10 @@ public virtual void assertEqual(long n1, long n2){
 
 public virtual void assertEqual(long n1, long n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(long, long, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     _r3.l = n2;
@@ -472,17 +358,10 @@ public virtual void assertEqual(long n1, long n2, global::java.lang.String n3){
 
 public virtual void assertEqual(float n1, float n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(float, float, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -494,19 +373,11 @@ public virtual void assertEqual(float n1, float n2, double n3){
 
 public virtual void assertEqual(float n1, float n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(float, float, double, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -519,21 +390,10 @@ public virtual void assertEqual(float n1, float n2, double n3, global::java.lang
 
 public virtual void assertEqual(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(double, double, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.d = n2;
@@ -545,23 +405,11 @@ public virtual void assertEqual(double n1, double n2, double n3){
 
 public virtual void assertEqual(double n1, double n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(double, double, double, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.d = n2;
@@ -574,13 +422,9 @@ public virtual void assertEqual(double n1, double n2, double n3, global::java.la
 
 public virtual void assertEqual(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -591,15 +435,10 @@ public virtual void assertEqual(global::java.lang.Object n1, global::java.lang.O
 
 public virtual void assertEqual(global::java.lang.Object n1, global::java.lang.Object n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertEqual(java.lang.Object, java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -611,13 +450,9 @@ public virtual void assertEqual(global::java.lang.Object n1, global::java.lang.O
 
 public virtual void assertNotEqual(sbyte n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(byte, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -628,15 +463,10 @@ public virtual void assertNotEqual(sbyte n1, sbyte n2){
 
 public virtual void assertNotEqual(sbyte n1, sbyte n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(byte, byte, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -648,13 +478,9 @@ public virtual void assertNotEqual(sbyte n1, sbyte n2, global::java.lang.String 
 
 public virtual void assertNotEqual(short n1, short n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(short, short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -665,15 +491,10 @@ public virtual void assertNotEqual(short n1, short n2){
 
 public virtual void assertNotEqual(short n1, short n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(short, short, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -685,13 +506,9 @@ public virtual void assertNotEqual(short n1, short n2, global::java.lang.String 
 
 public virtual void assertNotEqual(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -702,15 +519,10 @@ public virtual void assertNotEqual(int n1, int n2){
 
 public virtual void assertNotEqual(int n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(int, int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -722,21 +534,11 @@ public virtual void assertNotEqual(int n1, int n2, global::java.lang.String n3){
 
 public virtual void assertNotEqual(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(long, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.l = n2;
@@ -749,23 +551,12 @@ public virtual void assertNotEqual(long n1, long n2){
 
 public virtual void assertNotEqual(long n1, long n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(long, long, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r5.l = n2;
@@ -780,28 +571,12 @@ public virtual void assertNotEqual(long n1, long n2, global::java.lang.String n3
 public virtual void assertNotEqual(float n1, float n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(float, float, double)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.f = n1;
     _r8.f = n2;
@@ -817,32 +592,14 @@ public virtual void assertNotEqual(float n1, float n2, double n3){
 public virtual void assertNotEqual(float n1, float n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(float, float, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.f = n1;
     _r9.f = n2;
@@ -859,21 +616,10 @@ public virtual void assertNotEqual(float n1, float n2, double n3, global::java.l
 
 public virtual void assertNotEqual(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(double, double, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.d = n2;
@@ -885,23 +631,11 @@ public virtual void assertNotEqual(double n1, double n2, double n3){
 
 public virtual void assertNotEqual(double n1, double n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(double, double, double, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.d = n2;
@@ -914,13 +648,9 @@ public virtual void assertNotEqual(double n1, double n2, double n3, global::java
 
 public virtual void assertNotEqual(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -931,15 +661,10 @@ public virtual void assertNotEqual(global::java.lang.Object n1, global::java.lan
 
 public virtual void assertNotEqual(global::java.lang.Object n1, global::java.lang.Object n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertNotEqual(java.lang.Object, java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -951,13 +676,9 @@ public virtual void assertNotEqual(global::java.lang.Object n1, global::java.lan
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(byte[], byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -968,15 +689,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(byte[], byte[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -988,13 +704,9 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm._nArrayAdapter<short> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(short[], short[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1005,15 +717,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm._nArrayAdapter<short> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(short[], short[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1025,13 +732,9 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(int[], int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1042,15 +745,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, g
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(int[], int[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1063,20 +761,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, g
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, global::org.xmlvm._nArrayAdapter<long> n2, long n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(long[], long[], long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1090,22 +778,11 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, global::org.xmlvm._nArrayAdapter<long> n2, long n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(long[], long[], long, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1119,17 +796,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, 
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1, global::org.xmlvm._nArrayAdapter<float> n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(float[], float[], double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1141,19 +811,11 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1, global::org.xmlvm._nArrayAdapter<float> n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(float[], float[], double, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1166,17 +828,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1,
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1, global::org.xmlvm._nArrayAdapter<double> n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(double[], double[], double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1188,19 +843,11 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1, global::org.xmlvm._nArrayAdapter<double> n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(double[], double[], double, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1213,13 +860,9 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(java.lang.Object[], java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1230,15 +873,10 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::Sy
 
 public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertArrayEqual(java.lang.Object[], java.lang.Object[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1250,11 +888,8 @@ public virtual void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::Sy
 
 public virtual void waitFor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void waitFor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::com.codename1.testing.TestUtils.waitFor((int) _r1.i);
@@ -1264,13 +899,9 @@ public virtual void waitFor(int n1){
 
 public virtual global::System.Object findByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: com.codename1.ui.Component findByName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r2_o);
@@ -1280,13 +911,9 @@ public virtual global::System.Object findByName(global::java.lang.String n1){
 
 public virtual global::System.Object findLabelText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: com.codename1.ui.Label findLabelText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.testing.TestUtils.findLabelText((global::java.lang.String) _r2_o);
@@ -1296,11 +923,8 @@ public virtual global::System.Object findLabelText(global::java.lang.String n1){
 
 public virtual void clickButtonByLabel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void clickButtonByLabel(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.clickButtonByLabel((global::java.lang.String) _r1_o);
@@ -1310,11 +934,8 @@ public virtual void clickButtonByLabel(global::java.lang.String n1){
 
 public virtual void clickButtonByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void clickButtonByName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.clickButtonByName((global::java.lang.String) _r1_o);
@@ -1324,11 +945,8 @@ public virtual void clickButtonByName(global::java.lang.String n1){
 
 public virtual void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void clickButtonByPath(int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.clickButtonByPath((global::org.xmlvm._nArrayAdapter<int>) _r1_o);
@@ -1338,9 +956,7 @@ public virtual void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 
 public virtual void goBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void goBack()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     global::com.codename1.testing.TestUtils.goBack();
     return;
@@ -1349,11 +965,8 @@ public virtual void goBack(){
 
 public virtual void clickMenuItem(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void clickMenuItem(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.clickMenuItem((global::java.lang.String) _r1_o);
@@ -1363,11 +976,8 @@ public virtual void clickMenuItem(global::java.lang.String n1){
 
 public virtual void ensureVisible(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void ensureVisible(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.ensureVisible((global::com.codename1.ui.Component) _r1_o);
@@ -1377,11 +987,8 @@ public virtual void ensureVisible(global::com.codename1.ui.Component n1){
 
 public virtual void ensureVisible(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void ensureVisible(int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.ensureVisible((global::org.xmlvm._nArrayAdapter<int>) _r1_o);
@@ -1391,11 +998,8 @@ public virtual void ensureVisible(global::org.xmlvm._nArrayAdapter<int> n1){
 
 public virtual void ensureVisible(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void ensureVisible(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.ensureVisible((global::java.lang.String) _r1_o);
@@ -1405,11 +1009,8 @@ public virtual void ensureVisible(global::java.lang.String n1){
 
 public virtual void waitForFormTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void waitForFormTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.waitForFormTitle((global::java.lang.String) _r1_o);
@@ -1419,11 +1020,8 @@ public virtual void waitForFormTitle(global::java.lang.String n1){
 
 public virtual void waitForFormName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void waitForFormName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.waitForFormName((global::java.lang.String) _r1_o);
@@ -1433,11 +1031,8 @@ public virtual void waitForFormName(global::java.lang.String n1){
 
 public virtual void log(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void log(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
@@ -1447,11 +1042,8 @@ public virtual void log(global::java.lang.String n1){
 
 public virtual void log(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void log(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.log((global::java.lang.Throwable) _r1_o);
@@ -1462,12 +1054,8 @@ public virtual void log(global::java.lang.Throwable n1){
 public virtual bool screenshotTest(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: boolean screenshotTest(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils.screenshotTest((global::java.lang.String) _r2_o) ? 1 : 0;
@@ -1477,11 +1065,8 @@ public virtual bool screenshotTest(global::java.lang.String n1){
 
 public virtual void keyPress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void keyPress(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::com.codename1.testing.TestUtils.keyPress((int) _r1.i);
@@ -1491,11 +1076,8 @@ public virtual void keyPress(int n1){
 
 public virtual void keyRelease(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void keyRelease(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::com.codename1.testing.TestUtils.keyRelease((int) _r1.i);
@@ -1505,11 +1087,8 @@ public virtual void keyRelease(int n1){
 
 public virtual void gameKeyPress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void gameKeyPress(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::com.codename1.testing.TestUtils.gameKeyPress((int) _r1.i);
@@ -1519,11 +1098,8 @@ public virtual void gameKeyPress(int n1){
 
 public virtual void gameKeyRelease(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void gameKeyRelease(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     global::com.codename1.testing.TestUtils.gameKeyRelease((int) _r1.i);
@@ -1533,15 +1109,10 @@ public virtual void gameKeyRelease(int n1){
 
 public virtual void pointerPress(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerPress(float, float, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1553,15 +1124,10 @@ public virtual void pointerPress(float n1, float n2, global::java.lang.String n3
 
 public virtual void pointerRelease(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerRelease(float, float, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1573,15 +1139,10 @@ public virtual void pointerRelease(float n1, float n2, global::java.lang.String 
 
 public virtual void pointerDrag(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerDrag(float, float, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1593,15 +1154,10 @@ public virtual void pointerDrag(float n1, float n2, global::java.lang.String n3)
 
 public virtual void pointerPress(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerPress(float, float, int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1613,15 +1169,10 @@ public virtual void pointerPress(float n1, float n2, global::org.xmlvm._nArrayAd
 
 public virtual void pointerRelease(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerRelease(float, float, int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1633,15 +1184,10 @@ public virtual void pointerRelease(float n1, float n2, global::org.xmlvm._nArray
 
 public virtual void pointerDrag(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void pointerDrag(float, float, int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -1653,13 +1199,9 @@ public virtual void pointerDrag(float n1, float n2, global::org.xmlvm._nArrayAda
 
 public virtual global::System.Object getComponentByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: com.codename1.ui.Component getComponentByPath(int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r2_o);
@@ -1669,13 +1211,9 @@ public virtual global::System.Object getComponentByPath(global::org.xmlvm._nArra
 
 public virtual void setText(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void setText(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1686,13 +1224,9 @@ public virtual void setText(global::java.lang.String n1, global::java.lang.Strin
 
 public virtual void setText(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void setText(int[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1703,11 +1237,8 @@ public virtual void setText(global::org.xmlvm._nArrayAdapter<int> n1, global::ja
 
 public virtual void assertTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.assertTitle((global::java.lang.String) _r1_o);
@@ -1717,13 +1248,9 @@ public virtual void assertTitle(global::java.lang.String n1){
 
 public virtual void assertLabel(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertLabel(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1734,11 +1261,8 @@ public virtual void assertLabel(global::java.lang.String n1, global::java.lang.S
 
 public virtual void assertLabel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertLabel(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.assertLabel((global::java.lang.String) _r1_o);
@@ -1748,13 +1272,9 @@ public virtual void assertLabel(global::java.lang.String n1){
 
 public virtual void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertLabel(int[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1765,13 +1285,9 @@ public virtual void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global
 
 public virtual void assertTextArea(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTextArea(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1782,13 +1298,9 @@ public virtual void assertTextArea(global::java.lang.String n1, global::java.lan
 
 public virtual void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTextArea(int[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1799,11 +1311,8 @@ public virtual void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, glo
 
 public virtual void assertTextArea(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void assertTextArea(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.testing.TestUtils.assertTextArea((global::java.lang.String) _r1_o);
@@ -1813,13 +1322,9 @@ public virtual void assertTextArea(global::java.lang.String n1){
 
 public virtual global::System.Object findTextAreaText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: com.codename1.ui.TextArea findTextAreaText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.testing.TestUtils.findTextAreaText((global::java.lang.String) _r2_o);
@@ -1829,11 +1334,8 @@ public virtual global::System.Object findTextAreaText(global::java.lang.String n
 
 public virtual void setVerboseMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void setVerboseMode(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     global::com.codename1.testing.TestUtils.setVerboseMode(0!=_r1.i);
@@ -1843,13 +1345,9 @@ public virtual void setVerboseMode(bool n1){
 
 public virtual void selectInList(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void selectInList(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -1860,13 +1358,9 @@ public virtual void selectInList(global::java.lang.String n1, int n2){
 
 public virtual void selectInList(global::org.xmlvm._nArrayAdapter<int> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void selectInList(int[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;

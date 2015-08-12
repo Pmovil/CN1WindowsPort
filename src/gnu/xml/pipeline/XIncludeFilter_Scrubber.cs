@@ -7,17 +7,11 @@ public global::gnu.xml.pipeline.XIncludeFilter _fthis_20;
 
 public void @this(global::gnu.xml.pipeline.XIncludeFilter n1, global::gnu.xml.pipeline.EventFilter n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void <init>(gnu.xml.pipeline.XIncludeFilter, gnu.xml.pipeline.EventFilter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -40,13 +34,9 @@ public void @this(global::gnu.xml.pipeline.XIncludeFilter n1, global::gnu.xml.pi
 
 public override void setDocumentLocator(global::org.xml.sax.Locator n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void setDocumentLocator(org.xml.sax.Locator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter_2Scrubber) _r1_o)._fthis_20;
@@ -57,9 +47,7 @@ public override void setDocumentLocator(global::org.xml.sax.Locator n1){
 
 public override void startDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void startDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void startDocument()]
@@ -67,9 +55,7 @@ public override void startDocument(){
 
 public override void endDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void endDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void endDocument()]
@@ -77,17 +63,11 @@ public override void endDocument(){
 
 private void reject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void reject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter_2Scrubber) _r3_o)._fthis_20;
@@ -102,19 +82,12 @@ private void reject(global::java.lang.String n1){
 
 public override void startDTD(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void startDTD(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -133,11 +106,8 @@ public override void startDTD(global::java.lang.String n1, global::java.lang.Str
 
 public override void endDTD(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void endDTD()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=XIncluded DTD
     _r0_o = new global::java.lang.String();
@@ -149,15 +119,10 @@ public override void endDTD(){
 
 public override void skippedEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter$Scrubber: void skippedEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();

@@ -9,9 +9,7 @@ public global::javax.xml.xpath.XPathFunctionResolver _ffunctionResolver;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::javax.xml.xpath.XPathFactory) _r0_o).@this();
     return;
@@ -22,11 +20,8 @@ public override bool isObjectModelSupported(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: boolean isObjectModelSupported(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=http://java.sun.com/jaxp/xpath/dom
@@ -39,15 +34,10 @@ public override bool isObjectModelSupported(global::java.lang.String n1){
 
 public override void setFeature(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: void setFeature(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -59,13 +49,9 @@ public override void setFeature(global::java.lang.String n1, bool n2){
 
 public override bool getFeature(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: boolean getFeature(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::javax.xml.xpath.XPathFactoryConfigurationException();
@@ -76,11 +62,8 @@ public override bool getFeature(global::java.lang.String n1){
 
 public override void setXPathVariableResolver(global::javax.xml.xpath.XPathVariableResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: void setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.xpath.XPathFactoryImpl) _r0_o)._fvariableResolver = (global::javax.xml.xpath.XPathVariableResolver) _r1_o;
@@ -90,11 +73,8 @@ public override void setXPathVariableResolver(global::javax.xml.xpath.XPathVaria
 
 public override void setXPathFunctionResolver(global::javax.xml.xpath.XPathFunctionResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: void setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.xpath.XPathFactoryImpl) _r0_o)._ffunctionResolver = (global::javax.xml.xpath.XPathFunctionResolver) _r1_o;
@@ -104,17 +84,11 @@ public override void setXPathFunctionResolver(global::javax.xml.xpath.XPathFunct
 
 public override global::System.Object newXPath(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathFactoryImpl: javax.xml.xpath.XPath newXPath()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::gnu.xml.xpath.XPathImpl();
     _r1_o = null;

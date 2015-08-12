@@ -7,13 +7,9 @@ public global::com.codename1.ui.SideMenuBar _fthis_20;
 
 public void @this(global::com.codename1.ui.SideMenuBar n1, global::com.codename1.ui.layouts.Layout n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$10: void <init>(com.codename1.ui.SideMenuBar, com.codename1.ui.layouts.Layout)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -25,11 +21,8 @@ public void @this(global::com.codename1.ui.SideMenuBar n1, global::com.codename1
 
 public override void paintBackground(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$10: void paintBackground(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -38,11 +31,8 @@ public override void paintBackground(global::com.codename1.ui.Graphics n1){
 
 public override void paintBackgrounds(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$10: void paintBackgrounds(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -52,24 +42,15 @@ public override void paintBackgrounds(global::com.codename1.ui.Graphics n1){
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$10: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 1;

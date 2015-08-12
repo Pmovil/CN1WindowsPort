@@ -15,11 +15,8 @@ public void @this(global::java.util.LinkedHashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$AbstractMapIterator: void <init>(java.util.LinkedHashMap)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -36,9 +33,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$AbstractMapIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r1_o)._ffutureEntry;
     if (_r0_o == null) goto label6;
@@ -57,9 +52,7 @@ public virtual void checkConcurrentMod(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r2_o)._fassociatedMap;
@@ -77,9 +70,7 @@ public virtual void makeNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$AbstractMapIterator: void makeNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r1_o).checkConcurrentMod();
     _r0.i = ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r1_o).hasNext() ? 1 : 0;
@@ -101,15 +92,10 @@ public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedHashMap$AbstractMapIterator: void remove()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = null;
     ((global::java.util.LinkedHashMap_2AbstractMapIterator) _r4_o).checkConcurrentMod();

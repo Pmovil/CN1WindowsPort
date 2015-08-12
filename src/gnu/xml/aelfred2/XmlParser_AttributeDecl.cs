@@ -15,9 +15,7 @@ public global::java.lang.String _fdefaultValue;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlParser$AttributeDecl: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

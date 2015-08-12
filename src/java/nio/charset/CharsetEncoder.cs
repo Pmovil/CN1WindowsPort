@@ -36,18 +36,11 @@ public void @this(global::java.nio.charset.Charset n1, float n2, float n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.f = n2;
@@ -68,17 +61,11 @@ public void @this(global::java.nio.charset.Charset n1, float n2, float n3, globa
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.f = n2;
@@ -126,10 +113,7 @@ public void @this(global::java.nio.charset.Charset n1, float n2, float n3, globa
 public virtual float averageBytesPerChar(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: float averageBytesPerChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::java.nio.charset.CharsetEncoder) _r1_o)._faverBytes;
     return _r0.f;
@@ -141,12 +125,8 @@ public virtual bool canEncode(char n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 1;
@@ -168,10 +148,7 @@ private bool implCanEncode(global::java.nio.CharBuffer n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -232,11 +209,8 @@ public virtual bool canEncode(global::java.lang.CharSequence n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: boolean canEncode(java.lang.CharSequence)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.nio.CharBuffer)) ? 1 : 0;
@@ -254,11 +228,8 @@ public virtual bool canEncode(global::java.lang.CharSequence n1){
 
 public virtual global::System.Object charset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.Charset charset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.CharsetEncoder) _r1_o)._fcs;
     return (global::java.nio.charset.Charset) _r0_o;
@@ -274,14 +245,9 @@ public virtual global::System.Object encode(global::java.nio.CharBuffer n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -352,11 +318,8 @@ private void checkCoderResult(global::java.nio.charset.CoderResult n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.nio.charset.CharsetEncoder) _r2_o)._fmalformAction;
@@ -387,11 +350,8 @@ private global::System.Object allocateMore(global::java.nio.ByteBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.ByteBuffer allocateMore(java.nio.ByteBuffer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.nio.ByteBuffer) _r2_o).capacity();
@@ -419,17 +379,11 @@ public virtual global::System.Object encode(global::java.nio.CharBuffer n1, glob
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
@@ -547,11 +501,8 @@ public virtual global::System.Object flush(global::java.nio.ByteBuffer n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.nio.charset.CharsetEncoder) _r2_o)._fstatus;
@@ -575,13 +526,9 @@ public virtual global::System.Object flush(global::java.nio.ByteBuffer n1){
 
 public virtual global::System.Object implFlush(global::java.nio.ByteBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CoderResult implFlush(java.nio.ByteBuffer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.nio.charset.CoderResult._fUNDERFLOW;
@@ -591,11 +538,8 @@ public virtual global::System.Object implFlush(global::java.nio.ByteBuffer n1){
 
 public virtual void implOnMalformedInput(global::java.nio.charset.CodingErrorAction n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: void implOnMalformedInput(java.nio.charset.CodingErrorAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -604,11 +548,8 @@ public virtual void implOnMalformedInput(global::java.nio.charset.CodingErrorAct
 
 public virtual void implOnUnmappableCharacter(global::java.nio.charset.CodingErrorAction n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: void implOnUnmappableCharacter(java.nio.charset.CodingErrorAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -617,11 +558,8 @@ public virtual void implOnUnmappableCharacter(global::java.nio.charset.CodingErr
 
 public virtual void implReplaceWith(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: void implReplaceWith(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -630,9 +568,7 @@ public virtual void implReplaceWith(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public virtual void implReset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: void implReset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.nio.charset.CharsetEncoder: void implReset()]
@@ -642,21 +578,15 @@ public virtual bool isLegalReplacement(global::org.xmlvm._nArrayAdapter<sbyte> n
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: boolean isLegalReplacement(byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -703,11 +633,8 @@ public virtual bool isLegalReplacement(global::org.xmlvm._nArrayAdapter<sbyte> n
 
 public virtual global::System.Object malformedInputAction(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CodingErrorAction malformedInputAction()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.CharsetEncoder) _r1_o)._fmalformAction;
     return (global::java.nio.charset.CodingErrorAction) _r0_o;
@@ -717,10 +644,7 @@ public virtual global::System.Object malformedInputAction(){
 public virtual float maxBytesPerChar(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: float maxBytesPerChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::java.nio.charset.CharsetEncoder) _r1_o)._fmaxBytes;
     return _r0.f;
@@ -729,15 +653,10 @@ public virtual float maxBytesPerChar(){
 
 public virtual global::System.Object onMalformedInput(global::java.nio.charset.CodingErrorAction n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CharsetEncoder onMalformedInput(java.nio.charset.CodingErrorAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label14;
@@ -757,15 +676,10 @@ public virtual global::System.Object onMalformedInput(global::java.nio.charset.C
 
 public virtual global::System.Object onUnmappableCharacter(global::java.nio.charset.CodingErrorAction n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CharsetEncoder onUnmappableCharacter(java.nio.charset.CodingErrorAction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label14;
@@ -785,11 +699,8 @@ public virtual global::System.Object onUnmappableCharacter(global::java.nio.char
 
 public virtual global::System.Object replacement(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: byte[] replacement()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.CharsetEncoder) _r1_o)._freplace;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -802,11 +713,8 @@ public virtual global::System.Object replaceWith(global::org.xmlvm._nArrayAdapte
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label19;
@@ -837,10 +745,7 @@ public virtual global::System.Object replaceWith(global::org.xmlvm._nArrayAdapte
 public virtual global::System.Object reset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CharsetEncoder reset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 4;
     ((global::java.nio.charset.CharsetEncoder) _r1_o)._fstatus = _r0.i;
@@ -851,11 +756,8 @@ public virtual global::System.Object reset(){
 
 public virtual global::System.Object unmappableCharacterAction(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharsetEncoder: java.nio.charset.CodingErrorAction unmappableCharacterAction()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.charset.CharsetEncoder) _r1_o)._funmapAction;
     return (global::java.nio.charset.CodingErrorAction) _r0_o;

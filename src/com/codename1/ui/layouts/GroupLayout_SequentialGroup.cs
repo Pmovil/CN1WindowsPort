@@ -9,11 +9,8 @@ public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: void <init>(com.codename1.ui.layouts.GroupLayout)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2SequentialGroup) _r0_o)._fthis_20 = (global::com.codename1.ui.layouts.GroupLayout) _r1_o;
@@ -24,11 +21,8 @@ public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 
 public virtual global::System.Object add(global::com.codename1.ui.layouts.GroupLayout_2Group n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(com.codename1.ui.layouts.GroupLayout$Group)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2SequentialGroup) _r0_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o);
@@ -39,13 +33,9 @@ public virtual global::System.Object add(global::com.codename1.ui.layouts.GroupL
 
 public virtual global::System.Object add(bool n1, global::com.codename1.ui.layouts.GroupLayout_2Group n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(boolean, com.codename1.ui.layouts.GroupLayout$Group)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2_o = n2;
@@ -61,11 +51,8 @@ public virtual global::System.Object add(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = -1;
@@ -79,14 +66,9 @@ public virtual global::System.Object add(bool n1, global::com.codename1.ui.Compo
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4_o = n2;
@@ -105,31 +87,18 @@ public virtual global::System.Object add(bool n1, global::com.codename1.ui.Compo
 
 public virtual global::System.Object add(global::com.codename1.ui.Component n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(com.codename1.ui.Component, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -154,20 +123,12 @@ public virtual global::System.Object add(bool n1, global::com.codename1.ui.Compo
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4_o = n2;
@@ -189,13 +150,9 @@ public virtual global::System.Object add(bool n1, global::com.codename1.ui.Compo
 
 public virtual global::System.Object add(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2SequentialGroup) _r1_o).add((int) _r2.i, (int) _r2.i, (int) _r2.i);
@@ -205,19 +162,12 @@ public virtual global::System.Object add(int n1){
 
 public virtual global::System.Object add(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup add(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -235,15 +185,10 @@ public virtual global::System.Object addPreferredGap(global::com.codename1.ui.Co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup addPreferredGap(com.codename1.ui.Component, com.codename1.ui.Component, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -258,27 +203,16 @@ public virtual global::System.Object addPreferredGap(global::com.codename1.ui.Co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup addPreferredGap(com.codename1.ui.Component, com.codename1.ui.Component, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -323,11 +257,8 @@ public virtual global::System.Object addPreferredGap(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup addPreferredGap(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = -1;
@@ -343,16 +274,10 @@ public virtual global::System.Object addPreferredGap(int n1, int n2, int n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -403,9 +328,7 @@ public virtual global::System.Object addContainerGap(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: com.codename1.ui.layouts.GroupLayout$SequentialGroup addContainerGap()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2SequentialGroup) _r1_o).addContainerGap((int) _r0.i, (int) _r0.i);
@@ -419,13 +342,9 @@ public virtual global::System.Object addContainerGap(int n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -464,16 +383,10 @@ public virtual global::System.Object addContainerGap(int n1, int n2){
 public override int @operator(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: int operator(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -487,28 +400,17 @@ public override int @operator(int n1, int n2){
 public override void setValidSize(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: void setValidSize(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -556,48 +458,27 @@ private void setValidSizeNotPreferred(int n1, int n2, int n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r19_o = this;
     _r20.i = n1;
     _r21.i = n2;
@@ -743,37 +624,22 @@ private void setValidSizeNotPreferred(int n1, int n2, int n3){
 
 private global::System.Object buildResizableList(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: java.util.ArrayList buildResizableList(int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r14.i = n2 ? 1 : 0;
@@ -834,17 +700,12 @@ private global::System.Object buildResizableList(int n1, bool n2){
 
 private int indexOfNextNonZeroSpring(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: int indexOfNextNonZeroSpring(int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2 ? 1 : 0;
@@ -867,53 +728,32 @@ private int indexOfNextNonZeroSpring(int n1, bool n2){
 
 public override void insertAutopadding(int n1, global::java.util.ArrayList n2, global::java.util.ArrayList n3, global::java.util.ArrayList n4, global::java.util.ArrayList n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: void insertAutopadding(int, java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
     _r17.i = n1;
     _r18_o = n2;
@@ -1101,20 +941,13 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
 public override int getBaseline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: int getBaseline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5_o = ((global::com.codename1.ui.layouts.GroupLayout_2SequentialGroup) _r6_o)._fbaselineSpring;
     if (_r5_o == null) goto label42;
@@ -1148,28 +981,17 @@ public override int getBaseline(){
 public override int getBaselineResizeBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: int getBaselineResizeBehavior()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r9.i = 4;
     _r8.i = 1;

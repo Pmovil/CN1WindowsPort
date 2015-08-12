@@ -13,9 +13,7 @@ private bool _fxIncludeAware;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -24,9 +22,7 @@ public void @this(){
 
 public static global::System.Object newInstance(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: javax.xml.parsers.SAXParserFactory newInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::gnu.xml.stream.SAXParserFactory();
     ((global::gnu.xml.stream.SAXParserFactory) _r0_o).@this();
     return (global::javax.xml.parsers.SAXParserFactory) _r0_o;
@@ -37,11 +33,8 @@ public abstract global::System.Object newSAXParser();
 
 public virtual void setNamespaceAware(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: void setNamespaceAware(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.SAXParserFactory) _r0_o)._fnamespaceAware = 0!=_r1.i;
@@ -51,11 +44,8 @@ public virtual void setNamespaceAware(bool n1){
 
 public virtual void setValidating(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: void setValidating(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.SAXParserFactory) _r0_o)._fvalidating = 0!=_r1.i;
@@ -66,10 +56,7 @@ public virtual void setValidating(bool n1){
 public virtual bool isNamespaceAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: boolean isNamespaceAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.SAXParserFactory) _r1_o)._fnamespaceAware ? 1 : 0;
     return _r0.i!=0;
@@ -79,10 +66,7 @@ public virtual bool isNamespaceAware(){
 public virtual bool isValidating(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: boolean isValidating()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.SAXParserFactory) _r1_o)._fvalidating ? 1 : 0;
     return _r0.i!=0;
@@ -95,11 +79,8 @@ public abstract bool getFeature(global::java.lang.String n1);
 
 public virtual global::System.Object getSchema(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: java.lang.Object getSchema()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::javax.xml.parsers.SAXParserFactory) _r1_o)._fschema;
     return (global::java.lang.Object) _r0_o;
@@ -108,11 +89,8 @@ public virtual global::System.Object getSchema(){
 
 public virtual void setSchema(global::org.xmlvm.runtime.RedTypeMarker n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: void setSchema(javax.xml.validation.Schema)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::javax.xml.parsers.SAXParserFactory) _r0_o)._fschema = (global::org.xmlvm.runtime.RedTypeMarker) _r1_o;
@@ -123,10 +101,7 @@ public virtual void setSchema(global::org.xmlvm.runtime.RedTypeMarker n1){
 public virtual bool isXIncludeAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: boolean isXIncludeAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::javax.xml.parsers.SAXParserFactory) _r1_o)._fxIncludeAware ? 1 : 0;
     return _r0.i!=0;
@@ -135,11 +110,8 @@ public virtual bool isXIncludeAware(){
 
 public virtual void setXIncludeAware(bool n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParserFactory: void setXIncludeAware(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::javax.xml.parsers.SAXParserFactory) _r0_o)._fxIncludeAware = 0!=_r1.i;

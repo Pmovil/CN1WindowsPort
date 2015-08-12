@@ -15,9 +15,7 @@ private global::java.lang.String _fcurrentKey;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,8 +25,6 @@ public void @this(){
 public static bool isUseLongs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: boolean isUseLongs()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.JSONParser._fuseLongsDefault ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser: boolean isUseLongs()]
@@ -37,8 +33,6 @@ public static bool isUseLongs(){
 public static void setUseLongs(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void setUseLongs(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.JSONParser._fuseLongsDefault = 0!=_r0.i;
     return;
@@ -55,25 +49,16 @@ public static void parse(global::java.io.Reader n1, global::com.codename1.io.JSO
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
@@ -1175,11 +1160,8 @@ public virtual global::System.Object parseJSON(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: java.util.Map parseJSON(java.io.Reader)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -1202,11 +1184,8 @@ public virtual global::System.Object parse(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: java.util.Hashtable parse(java.io.Reader)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1233,10 +1212,7 @@ private bool isStackHash(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
     _r1_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1251,15 +1227,11 @@ private bool isStackHash(){
 
 private global::System.Object getStackHash(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: java.util.Map getStackHash()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
     _r1_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1274,15 +1246,11 @@ private global::System.Object getStackHash(){
 
 private global::System.Object getStackVec(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: java.util.List getStackVec()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
     _r1_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1297,17 +1265,12 @@ private global::System.Object getStackVec(){
 
 public virtual void startBlock(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void startBlock(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1348,17 +1311,12 @@ public virtual void startBlock(global::java.lang.String n1){
 
 public virtual void endBlock(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void endBlock(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1373,17 +1331,12 @@ public virtual void endBlock(global::java.lang.String n1){
 
 public virtual void startArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void startArray(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = ((global::com.codename1.io.JSONParser) _r3_o)._fmodern ? 1 : 0;
@@ -1426,17 +1379,12 @@ public virtual void startArray(global::java.lang.String n1){
 
 public virtual void endArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void endArray(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.io.JSONParser) _r3_o)._fparseStack;
@@ -1453,13 +1401,9 @@ public virtual void stringToken(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void stringToken(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.io.JSONParser) _r2_o).isStackHash() ? 1 : 0;
@@ -1489,17 +1433,10 @@ public virtual void numericToken(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void numericToken(double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.d = n1;
     _r0.i = ((global::com.codename1.io.JSONParser) _r3_o).isStackHash() ? 1 : 0;
@@ -1526,21 +1463,11 @@ public virtual void longToken(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void longToken(long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.l = n1;
     _r0.i = ((global::com.codename1.io.JSONParser) _r5_o).isStackHash() ? 1 : 0;
@@ -1566,13 +1493,9 @@ public virtual void longToken(long n1){
 
 public virtual void keyValue(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: void keyValue(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1583,10 +1506,7 @@ public virtual void keyValue(global::java.lang.String n1, global::java.lang.Stri
 public virtual bool isAlive(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser: boolean isAlive()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;

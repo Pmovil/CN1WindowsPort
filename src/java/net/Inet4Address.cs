@@ -7,11 +7,8 @@ private static long _fserialVersionUID = 3286316764910316507L;
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: void <init>(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.net.InetAddress) _r0_o).@this();
@@ -22,13 +19,9 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: void <init>(byte[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -44,12 +37,8 @@ public override bool isMulticastAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;
@@ -69,12 +58,9 @@ public override bool isMulticastAddress(){
 public override bool isAnyLocalAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: boolean isAnyLocalAddress()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     label1:;
@@ -101,12 +87,8 @@ public override bool isLoopbackAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;
@@ -128,14 +110,9 @@ public override bool isLinkLocalAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r2.i = 0;
@@ -163,14 +140,9 @@ public override bool isSiteLocalAddress(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r2.i = 0;
@@ -218,16 +190,11 @@ public override bool isSiteLocalAddress(){
 public override bool isMCGlobal(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: boolean isMCGlobal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.i = ((global::java.net.Inet4Address) _r4_o).isMulticastAddress() ? 1 : 0;
@@ -258,10 +225,7 @@ public override bool isMCGlobal(){
 public override bool isMCNodeLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: boolean isMCNodeLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -273,12 +237,8 @@ public override bool isMCLinkLocal(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;
@@ -300,12 +260,8 @@ public override bool isMCSiteLocal(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;
@@ -325,14 +281,10 @@ public override bool isMCSiteLocal(){
 public override bool isMCOrgLocal(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: boolean isMCOrgLocal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r1_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;
@@ -353,15 +305,11 @@ public override bool isMCOrgLocal(){
 
 public override global::System.Object getHostAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: java.lang.String getHostAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -391,10 +339,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.Inet4Address) _r2_o)._fipaddress;
     _r1.i = 0;
@@ -406,12 +351,8 @@ public override int hashCode(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = base.equals((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -421,15 +362,10 @@ public override bool equals(global::java.lang.Object n1){
 
 private global::System.Object writeReplace(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: java.lang.Object writeReplace()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.net.InetAddress();
     _r1_o = ((global::java.net.Inet4Address) _r3_o)._fipaddress;

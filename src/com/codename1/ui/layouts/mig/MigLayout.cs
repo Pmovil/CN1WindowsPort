@@ -41,13 +41,9 @@ private long _flastSize;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=
     _r1_o = new global::java.lang.String();
@@ -68,15 +64,10 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=
@@ -95,15 +86,10 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -119,21 +105,13 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -189,13 +167,9 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public void @this(global::com.codename1.ui.layouts.mig.LC n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(com.codename1.ui.layouts.mig.LC)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -206,15 +180,10 @@ public void @this(global::com.codename1.ui.layouts.mig.LC n1){
 
 public void @this(global::com.codename1.ui.layouts.mig.LC n1, global::com.codename1.ui.layouts.mig.AC n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(com.codename1.ui.layouts.mig.LC, com.codename1.ui.layouts.mig.AC)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -228,21 +197,13 @@ public void @this(global::com.codename1.ui.layouts.mig.LC n1, global::com.codena
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void <init>(com.codename1.ui.layouts.mig.LC, com.codename1.ui.layouts.mig.AC, com.codename1.ui.layouts.mig.AC)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -298,11 +259,8 @@ public void @this(global::com.codename1.ui.layouts.mig.LC n1, global::com.codena
 
 public virtual global::System.Object getLayoutConstraints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object getLayoutConstraints()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._flayoutConstraints;
     return (global::java.lang.Object) _r0_o;
@@ -311,19 +269,13 @@ public virtual global::System.Object getLayoutConstraints(){
 
 public virtual void setLayoutConstraints(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setLayoutConstraints(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     if (_r5_o == null) goto label6;
@@ -369,11 +321,8 @@ public virtual void setLayoutConstraints(global::java.lang.Object n1){
 
 public virtual global::System.Object getColumnConstraints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object getColumnConstraints()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._fcolConstraints;
     return (global::java.lang.Object) _r0_o;
@@ -382,19 +331,13 @@ public virtual global::System.Object getColumnConstraints(){
 
 public virtual void setColumnConstraints(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setColumnConstraints(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     if (_r5_o == null) goto label6;
@@ -440,11 +383,8 @@ public virtual void setColumnConstraints(global::java.lang.Object n1){
 
 public virtual global::System.Object getRowConstraints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object getRowConstraints()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._frowConstraints;
     return (global::java.lang.Object) _r0_o;
@@ -453,19 +393,13 @@ public virtual global::System.Object getRowConstraints(){
 
 public virtual void setRowConstraints(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setRowConstraints(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     if (_r5_o == null) goto label6;
@@ -511,13 +445,9 @@ public virtual void setRowConstraints(global::java.lang.Object n1){
 
 public virtual global::System.Object getConstraintMap(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.util.Map getConstraintMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.IdentityHashMap();
     _r1_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r2_o)._fscrConstrMap;
@@ -528,19 +458,13 @@ public virtual global::System.Object getConstraintMap(){
 
 public virtual void setConstraintMap(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setConstraintMap(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._fscrConstrMap;
@@ -565,13 +489,9 @@ public virtual void setConstraintMap(global::java.util.Map n1){
 
 public virtual global::System.Object getComponentConstraints(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object getComponentConstraints(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._fscrConstrMap;
@@ -583,14 +503,9 @@ public virtual global::System.Object getComponentConstraints(global::com.codenam
 public virtual void setComponentConstraints(global::com.codename1.ui.Component n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setComponentConstraints(com.codename1.ui.Component, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -602,29 +517,18 @@ public virtual void setComponentConstraints(global::com.codename1.ui.Component n
 
 private void setComponentConstraintsImpl(global::com.codename1.ui.Component n1, global::java.lang.Object n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setComponentConstraintsImpl(com.codename1.ui.Component, java.lang.Object, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -690,11 +594,8 @@ public virtual bool isManagingComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: boolean isManagingComponent(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._fscrConstrMap;
@@ -705,15 +606,10 @@ public virtual bool isManagingComponent(global::com.codename1.ui.Component n1){
 
 public virtual void addLayoutCallback(global::com.codename1.ui.layouts.mig.LayoutCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void addLayoutCallback(com.codename1.ui.layouts.mig.LayoutCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label8;
@@ -738,13 +634,9 @@ public virtual void addLayoutCallback(global::com.codename1.ui.layouts.mig.Layou
 
 public virtual void removeLayoutCallback(global::com.codename1.ui.layouts.mig.LayoutCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void removeLayoutCallback(com.codename1.ui.layouts.mig.LayoutCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._fcallbackList;
@@ -758,13 +650,9 @@ public virtual void removeLayoutCallback(global::com.codename1.ui.layouts.mig.La
 
 private void setDebug(global::com.codename1.ui.layouts.mig.ComponentWrapper n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void setDebug(com.codename1.ui.layouts.mig.ComponentWrapper, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
@@ -775,10 +663,7 @@ private void setDebug(global::com.codename1.ui.layouts.mig.ComponentWrapper n1, 
 private bool getDebug(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: boolean getDebug()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -788,12 +673,9 @@ private bool getDebug(){
 private int getDebugMillis(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: int getDebugMillis()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = global::com.codename1.ui.layouts.mig.LayoutUtil.getGlobalDebugMillis();
     if (_r0.i <= 0) goto label8;
@@ -813,35 +695,20 @@ private void checkCache(global::com.codename1.ui.Container n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     if (_r15_o != null) goto label3;
@@ -937,21 +804,14 @@ private void checkCache(global::com.codename1.ui.Container n1){
 
 private void cleanConstraintMaps(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void cleanConstraintMaps(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3_o = new global::java.util.HashSet();
@@ -990,15 +850,10 @@ private void cleanConstraintMaps(global::com.codename1.ui.Container n1){
 
 private void resetLastInvalidOnParent(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void resetLastInvalidOnParent(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     label0:;
@@ -1019,13 +874,9 @@ private void resetLastInvalidOnParent(global::com.codename1.ui.Container n1){
 
 private global::System.Object checkParent(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.layouts.mig.ContainerWrapper checkParent(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label4;
@@ -1050,9 +901,7 @@ private global::System.Object checkParent(global::com.codename1.ui.Container n1)
 
 public override void layoutContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void layoutContainer(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1061,16 +910,10 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7_o = null;
@@ -1123,11 +966,8 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
 
 private void adjustWindowSize(global::com.codename1.ui.layouts.mig.ContainerWrapper n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void adjustWindowSize(com.codename1.ui.layouts.mig.ContainerWrapper)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1136,13 +976,9 @@ private void adjustWindowSize(global::com.codename1.ui.layouts.mig.ContainerWrap
 
 private global::System.Object getPackable(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.Container getPackable(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -1153,12 +989,8 @@ private global::System.Object getPackable(global::com.codename1.ui.Component n1)
 public static global::System.Object findType(global::java.lang.Class n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object findType(java.lang.Class, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     label0:;
@@ -1175,22 +1007,13 @@ public static global::System.Object findType(global::java.lang.Class n1, global:
 private int constrain(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, int n2, int n3, global::com.codename1.ui.layouts.mig.BoundSize n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: int constrain(com.codename1.ui.layouts.mig.ContainerWrapper, int, int, com.codename1.ui.layouts.mig.BoundSize)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -1223,11 +1046,8 @@ public virtual global::System.Object minimumLayoutSize(global::com.codename1.ui.
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.geom.Dimension minimumLayoutSize(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1238,21 +1058,15 @@ public virtual global::System.Object minimumLayoutSize(global::com.codename1.ui.
 
 public virtual global::System.Object preferredLayoutSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.geom.Dimension preferredLayoutSize(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r2_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r5_o)._flastParentSize;
@@ -1292,15 +1106,10 @@ public virtual global::System.Object preferredLayoutSize(global::com.codename1.u
 
 public virtual global::System.Object maximumLayoutSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.geom.Dimension maximumLayoutSize(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 2147483647;
@@ -1313,24 +1122,15 @@ public virtual global::System.Object maximumLayoutSize(global::com.codename1.ui.
 private global::System.Object getSizeImpl(global::com.codename1.ui.Container n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.geom.Dimension getSizeImpl(com.codename1.ui.Container, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -1378,16 +1178,10 @@ public virtual float getLayoutAlignmentX(global::com.codename1.ui.Container n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._flc;
@@ -1415,16 +1209,10 @@ public virtual float getLayoutAlignmentY(global::com.codename1.ui.Container n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._flc;
@@ -1449,15 +1237,10 @@ public virtual float getLayoutAlignmentY(global::com.codename1.ui.Container n1){
 
 public override void addLayoutComponent(global::java.lang.Object n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Container n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void addLayoutComponent(java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -1471,14 +1254,9 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
 public virtual void addLayoutComponent(global::com.codename1.ui.Component n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void addLayoutComponent(com.codename1.ui.Component, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1491,10 +1269,7 @@ public virtual void addLayoutComponent(global::com.codename1.ui.Component n1, gl
 public override bool isConstraintTracking(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: boolean isConstraintTracking()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -1503,13 +1278,9 @@ public override bool isConstraintTracking(){
 
 public override global::System.Object getComponentConstraint(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: java.lang.Object getComponentConstraint(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o)._fscrConstrMap;
@@ -1520,15 +1291,10 @@ public override global::System.Object getComponentConstraint(global::com.codenam
 
 public override void removeLayoutComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void removeLayoutComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r2_o)._fscrConstrMap;
@@ -1546,12 +1312,8 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
 public virtual void invalidateLayout(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void invalidateLayout(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -1562,13 +1324,9 @@ public virtual void invalidateLayout(global::com.codename1.ui.Container n1){
 
 public override global::System.Object getPreferredSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r1_o).preferredLayoutSize((global::com.codename1.ui.Container) _r2_o);

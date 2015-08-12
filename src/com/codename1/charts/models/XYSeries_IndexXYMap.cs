@@ -13,11 +13,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.util.TreeMap) _r2_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -35,13 +31,9 @@ public override global::System.Object put(global::java.lang.Object n1, global::j
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: java.lang.Object put(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -59,15 +51,10 @@ public virtual global::System.Object put(int n1, global::java.lang.Object n2, gl
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: java.lang.Object put(int, java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -89,18 +76,11 @@ private void updateMaxXDifference(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 1;
     _r5.i = 2;
@@ -155,12 +135,7 @@ private void updateMaxXDifference(){
 public virtual double getMaxXDifference(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: double getMaxXDifference()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r2_o)._fmaxXDifference;
     return _r0.d;
@@ -169,11 +144,8 @@ public virtual double getMaxXDifference(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r1_o).updateMaxXDifference();
     base.clear();
@@ -185,13 +157,9 @@ public override void clear(){
 
 public virtual global::System.Object getXByIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: java.lang.Object getXByIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r1_o)._findexList;
@@ -202,15 +170,10 @@ public virtual global::System.Object getXByIndex(int n1){
 
 public virtual global::System.Object getYByIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: java.lang.Object getYByIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r2_o)._findexList;
@@ -222,17 +185,11 @@ public virtual global::System.Object getYByIndex(int n1){
 
 public virtual global::System.Object getByIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: com.codename1.charts.models.XYEntry getByIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r3_o)._findexList;
@@ -246,17 +203,11 @@ public virtual global::System.Object getByIndex(int n1){
 
 public virtual global::System.Object removeByIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: com.codename1.charts.models.XYEntry removeByIndex(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r3_o)._findexList;
@@ -271,16 +222,11 @@ public virtual global::System.Object removeByIndex(int n1){
 public virtual int getIndexForKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYSeries$IndexXYMap: int getIndexForKey(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;

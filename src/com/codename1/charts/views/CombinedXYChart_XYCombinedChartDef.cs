@@ -9,13 +9,9 @@ private global::org.xmlvm._nArrayAdapter<int> _fseriesIndex;
 
 public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CombinedXYChart$XYCombinedChartDef: void <init>(java.lang.String, int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,12 +25,8 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
 public virtual bool containsSeries(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CombinedXYChart$XYCombinedChartDef: boolean containsSeries(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.charts.views.CombinedXYChart_2XYCombinedChartDef) _r1_o).getChartSeriesIndex((int) _r2.i);
@@ -51,14 +43,10 @@ public virtual bool containsSeries(int n1){
 public virtual int getChartSeriesIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CombinedXYChart$XYCombinedChartDef: int getChartSeriesIndex(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 0;
@@ -83,11 +71,8 @@ public virtual int getChartSeriesIndex(int n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CombinedXYChart$XYCombinedChartDef: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.views.CombinedXYChart_2XYCombinedChartDef) _r1_o)._ftype;
     return (global::java.lang.String) _r0_o;
@@ -96,11 +81,8 @@ public virtual global::System.Object getType(){
 
 public virtual global::System.Object getSeriesIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CombinedXYChart$XYCombinedChartDef: int[] getSeriesIndex()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.views.CombinedXYChart_2XYCombinedChartDef) _r1_o)._fseriesIndex;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;

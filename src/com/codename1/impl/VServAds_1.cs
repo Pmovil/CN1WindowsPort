@@ -7,11 +7,8 @@ public global::com.codename1.impl.VServAds _fthis_20;
 
 public void @this(global::com.codename1.impl.VServAds n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$1: void <init>(com.codename1.impl.VServAds)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds_21) _r0_o)._fthis_20 = (global::com.codename1.impl.VServAds) _r1_o;
@@ -22,17 +19,11 @@ public void @this(global::com.codename1.impl.VServAds n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$1: void handleErrorResponseCode(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -45,15 +36,10 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$1: void handleException(java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.impl.VServAds_21) _r2_o)._fthis_20;
@@ -66,17 +52,12 @@ public override void handleException(global::java.lang.Exception n1){
 
 private global::System.Object getString(global::java.util.Hashtable n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$1: java.lang.String getString(java.util.Hashtable, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -103,33 +84,21 @@ private global::System.Object getString(global::java.util.Hashtable n1, global::
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$1: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r7.i = 0;

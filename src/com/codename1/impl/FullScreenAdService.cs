@@ -25,10 +25,7 @@ private static global::java.lang.Object _fLOCK;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 1;
@@ -57,27 +54,17 @@ public abstract bool failed();
 
 public virtual void showWelcomeAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void showWelcomeAd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r5_o = global::com.codename1.ui.plaf.UIManager.getInstance();
     _r5.i = ((global::com.codename1.ui.plaf.UIManager) _r5_o).wasThemeInstalled() ? 1 : 0;
@@ -134,27 +121,15 @@ public virtual void showWelcomeAd(){
 
 public virtual void bindTransitionAd(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void bindTransitionAd(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r6_o = new global::com.codename1.impl.FullScreenAdService_21();
@@ -179,10 +154,7 @@ public virtual void bindTransitionAd(int n1){
 public virtual bool isAllowWithoutNetwork(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: boolean isAllowWithoutNetwork()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._fallowWithoutNetwork ? 1 : 0;
     return _r0.i!=0;
@@ -191,11 +163,8 @@ public virtual bool isAllowWithoutNetwork(){
 
 public virtual void setAllowWithoutNetwork(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void setAllowWithoutNetwork(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.impl.FullScreenAdService) _r0_o)._fallowWithoutNetwork = 0!=_r1.i;
@@ -206,10 +175,7 @@ public virtual void setAllowWithoutNetwork(bool n1){
 public virtual int getTimeout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: int getTimeout()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._ftimeout;
     return _r0.i;
@@ -218,11 +184,8 @@ public virtual int getTimeout(){
 
 public virtual void setTimeout(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void setTimeout(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.impl.FullScreenAdService) _r0_o)._ftimeout = _r1.i;
@@ -233,10 +196,7 @@ public virtual void setTimeout(int n1){
 public virtual int getAdDisplayTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: int getAdDisplayTime()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._fadDisplayTime;
     return _r0.i;
@@ -245,11 +205,8 @@ public virtual int getAdDisplayTime(){
 
 public virtual void setAdDisplayTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void setAdDisplayTime(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.impl.FullScreenAdService) _r0_o)._fadDisplayTime = _r1.i;
@@ -260,10 +217,7 @@ public virtual void setAdDisplayTime(int n1){
 public virtual bool isScaleMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: boolean isScaleMode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._fscaleMode ? 1 : 0;
     return _r0.i!=0;
@@ -272,11 +226,8 @@ public virtual bool isScaleMode(){
 
 public virtual void setScaleMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void setScaleMode(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.impl.FullScreenAdService) _r0_o)._fscaleMode = 0!=_r1.i;
@@ -287,10 +238,7 @@ public virtual void setScaleMode(bool n1){
 public virtual bool isAllowSkipping(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: boolean isAllowSkipping()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._fallowSkipping ? 1 : 0;
     return _r0.i!=0;
@@ -299,11 +247,8 @@ public virtual bool isAllowSkipping(){
 
 public virtual void setAllowSkipping(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void setAllowSkipping(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.impl.FullScreenAdService) _r0_o)._fallowSkipping = 0!=_r1.i;
@@ -313,15 +258,11 @@ public virtual void setAllowSkipping(bool n1){
 
 public virtual void unlock(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void unlock(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -374,10 +315,7 @@ public virtual void unlock(global::com.codename1.ui.events.ActionListener n1){
 public static int access_2000(global::com.codename1.impl.FullScreenAdService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: int access$000(com.codename1.impl.FullScreenAdService)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._ftimeout;
     return _r0.i;
@@ -386,9 +324,7 @@ public static int access_2000(global::com.codename1.impl.FullScreenAdService n1)
 
 public static global::System.Object access_2100(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: java.lang.Object access$100()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.impl.FullScreenAdService._fLOCK;
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.impl.FullScreenAdService: java.lang.Object access$100()]
@@ -397,10 +333,7 @@ public static global::System.Object access_2100(){
 public static int access_2200(global::com.codename1.impl.FullScreenAdService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: int access$200(com.codename1.impl.FullScreenAdService)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.impl.FullScreenAdService) _r1_o)._fadDisplayTime;
     return _r0.i;
@@ -409,9 +342,7 @@ public static int access_2200(global::com.codename1.impl.FullScreenAdService n1)
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.lang.Object();
     ((global::java.lang.Object) _r0_o).@this();
     global::com.codename1.impl.FullScreenAdService._fLOCK = (global::java.lang.Object) _r0_o;

@@ -17,10 +17,7 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::com.codename1.xml.XMLParser) _r2_o).@this();
     // Value=bull
@@ -41,15 +38,10 @@ public void @this(){
 
 public virtual void setHTMLComponent(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: void setHTMLComponent(com.codename1.ui.html.HTMLComponent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label14;
@@ -69,23 +61,16 @@ public virtual void setHTMLComponent(global::com.codename1.ui.html.HTMLComponent
 
 public override void parseTagContent(global::com.codename1.xml.Element n1, global::java.io.Reader n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: void parseTagContent(com.codename1.xml.Element, java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -114,13 +99,9 @@ public override void parseTagContent(global::com.codename1.xml.Element n1, globa
 
 public override global::System.Object createNewElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: com.codename1.xml.Element createNewElement(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.html.HTMLElement();
@@ -131,15 +112,10 @@ public override global::System.Object createNewElement(global::java.lang.String 
 
 public override global::System.Object createNewTextElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: com.codename1.xml.Element createNewTextElement(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::com.codename1.ui.html.HTMLElement();
@@ -151,15 +127,11 @@ public override global::System.Object createNewTextElement(global::java.lang.Str
 
 public override global::System.Object convertCharEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: java.lang.String convertCharEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -191,16 +163,11 @@ public override global::System.Object convertCharEntity(global::java.lang.String
 public override bool isEmptyTag(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: boolean isEmptyTag(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = 0;
@@ -225,11 +192,8 @@ public override bool isEmptyTag(global::java.lang.String n1){
 
 public virtual global::System.Object parseHTML(global::java.io.InputStreamReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: com.codename1.ui.html.HTMLElement parseHTML(java.io.InputStreamReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = base.parse((global::java.io.Reader) _r1_o);
@@ -240,11 +204,8 @@ public virtual global::System.Object parseHTML(global::java.io.InputStreamReader
 
 public override global::System.Object getSupportedStandardName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: java.lang.String getSupportedStandardName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=XHTML-MP 1.0
     _r0_o = new global::java.lang.String();
@@ -256,14 +217,9 @@ public override global::System.Object getSupportedStandardName(){
 public override bool isSupported(global::com.codename1.xml.Element n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: boolean isSupported(com.codename1.xml.Element)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r3_o = _r3_o;
@@ -281,17 +237,13 @@ public override bool isSupported(global::com.codename1.xml.Element n1){
 
 public override bool shouldEvaluate(global::com.codename1.xml.Element n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: boolean shouldEvaluate(com.codename1.xml.Element)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = _r4_o;
@@ -321,10 +273,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 13;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;

@@ -9,11 +9,8 @@ private global::java.util.Comparator _fcomparator;
 
 public void @this(global::java.util.Comparator n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparatorWithComparator: void <init>(java.util.Comparator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -26,13 +23,9 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparatorWithComparator: int compare(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -46,13 +39,9 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparatorWithComparator: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Collections_2ReverseComparatorWithComparator)) ? 1 : 0;
@@ -75,9 +64,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparatorWithComparator: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2ReverseComparatorWithComparator) _r1_o)._fcomparator;
     _r0.i = ((global::java.lang.Object) _r0_o).hashCode();
@@ -88,11 +75,8 @@ public override int hashCode(){
 
 public static global::System.Object access_20(global::java.util.Collections_2ReverseComparatorWithComparator n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$ReverseComparatorWithComparator: java.util.Comparator access$0(java.util.Collections$ReverseComparatorWithComparator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.util.Collections_2ReverseComparatorWithComparator) _r1_o)._fcomparator;
     return (global::java.util.Comparator) _r0_o;

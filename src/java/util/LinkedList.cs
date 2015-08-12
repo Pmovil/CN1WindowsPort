@@ -13,11 +13,8 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     ((global::java.util.AbstractSequentialList) _r2_o).@this();
@@ -38,11 +35,8 @@ public void @this(){
 
 public void @this(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void <init>(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.LinkedList) _r0_o).@this();
@@ -57,17 +51,11 @@ public override void add(int n1, global::java.lang.Object n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -125,12 +113,8 @@ public override void add(int n1, global::java.lang.Object n2){
 public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).addLastImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -142,15 +126,10 @@ private bool addLastImpl(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean addLastImpl(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.util.LinkedList) _r3_o)._fvoidLink;
@@ -177,26 +156,18 @@ public override bool addAll(int n1, global::java.util.Collection n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10_o = n2;
@@ -281,20 +252,12 @@ public override bool addAll(global::java.util.Collection n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r1.i = ((global::java.util.Collection) _r7_o).size();
@@ -342,11 +305,8 @@ public override bool addAll(global::java.util.Collection n1){
 
 public virtual void addFirst(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void addFirst(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.LinkedList) _r0_o).addFirstImpl((global::java.lang.Object) _r1_o);
@@ -358,15 +318,10 @@ private bool addFirstImpl(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean addFirstImpl(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.util.LinkedList) _r3_o)._fvoidLink;
@@ -390,11 +345,8 @@ private bool addFirstImpl(global::java.lang.Object n1){
 
 public virtual void addLast(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void addLast(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.LinkedList) _r0_o).addLastImpl((global::java.lang.Object) _r1_o);
@@ -406,11 +358,8 @@ public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void clear()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.LinkedList) _r2_o)._fsize;
     if (_r0.i <= 0) goto label25;
@@ -432,19 +381,13 @@ public override void clear(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -494,12 +437,8 @@ public override bool contains(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 1;
@@ -543,12 +482,8 @@ public override global::System.Object get(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i < 0) goto label43;
@@ -594,11 +529,8 @@ public override global::System.Object get(int n1){
 
 public virtual global::System.Object getFirst(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object getFirst()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -607,13 +539,9 @@ public virtual global::System.Object getFirst(){
 
 private global::System.Object getFirstImpl(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object getFirstImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList) _r2_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fnext;
@@ -630,13 +558,9 @@ private global::System.Object getFirstImpl(){
 
 public virtual global::System.Object getLast(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object getLast()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList) _r2_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fprevious;
@@ -659,13 +583,9 @@ public override int indexOf(global::java.lang.Object n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -720,13 +640,9 @@ public override int lastIndexOf(global::java.lang.Object n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r4_o)._fsize;
@@ -775,13 +691,9 @@ public override int lastIndexOf(global::java.lang.Object n1){
 
 public override global::System.Object listIterator(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.util.ListIterator listIterator(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = new global::java.util.LinkedList_2LinkIterator();
@@ -799,12 +711,8 @@ public override global::System.Object remove(int n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     if (_r5.i < 0) goto label63;
@@ -862,12 +770,8 @@ public override global::System.Object remove(int n1){
 public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).removeFirstOccurrenceImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -877,11 +781,8 @@ public override bool remove(global::java.lang.Object n1){
 
 public virtual global::System.Object removeFirst(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object removeFirst()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -890,15 +791,12 @@ public virtual global::System.Object removeFirst(){
 
 private global::System.Object removeFirstImpl(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object removeFirstImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.LinkedList) _r3_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fnext;
@@ -927,11 +825,8 @@ private global::System.Object removeFirstImpl(){
 
 public virtual global::System.Object removeLast(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object removeLast()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeLastImpl();
     return (global::java.lang.Object) _r0_o;
@@ -940,15 +835,12 @@ public virtual global::System.Object removeLast(){
 
 private global::System.Object removeLastImpl(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object removeLastImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.LinkedList) _r3_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fprevious;
@@ -977,11 +869,8 @@ private global::System.Object removeLastImpl(){
 
 public virtual global::System.Object descendingIterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.util.Iterator descendingIterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.LinkedList_2ReverseLinkIterator();
     ((global::java.util.LinkedList_2ReverseLinkIterator) _r0_o).@this((global::java.util.LinkedList) _r1_o, (global::java.util.LinkedList) _r1_o);
@@ -992,12 +881,8 @@ public virtual global::System.Object descendingIterator(){
 public virtual bool offerFirst(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean offerFirst(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).addFirstImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1008,12 +893,8 @@ public virtual bool offerFirst(global::java.lang.Object n1){
 public virtual bool offerLast(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean offerLast(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).addLastImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1023,11 +904,8 @@ public virtual bool offerLast(global::java.lang.Object n1){
 
 public virtual global::System.Object peekFirst(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object peekFirst()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).peekFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -1036,13 +914,9 @@ public virtual global::System.Object peekFirst(){
 
 public virtual global::System.Object peekLast(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object peekLast()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList) _r2_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fprevious;
@@ -1061,9 +935,7 @@ public virtual global::System.Object pollFirst(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object pollFirst()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList) _r1_o)._fsize;
     if (_r0.i != 0) goto label6;
@@ -1080,9 +952,7 @@ public virtual global::System.Object pollLast(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object pollLast()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList) _r1_o)._fsize;
     if (_r0.i != 0) goto label6;
@@ -1097,11 +967,8 @@ public virtual global::System.Object pollLast(){
 
 public virtual global::System.Object pop(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object pop()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -1110,11 +977,8 @@ public virtual global::System.Object pop(){
 
 public virtual void push(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void push(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.LinkedList) _r0_o).addFirstImpl((global::java.lang.Object) _r1_o);
@@ -1125,12 +989,8 @@ public virtual void push(global::java.lang.Object n1){
 public virtual bool removeFirstOccurrence(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean removeFirstOccurrence(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).removeFirstOccurrenceImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1142,11 +1002,8 @@ public virtual bool removeLastOccurrence(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean removeLastOccurrence(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.util.LinkedList_2ReverseLinkIterator();
@@ -1161,12 +1018,8 @@ private bool removeFirstOccurrenceImpl(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.util.LinkedList_2LinkIterator();
@@ -1181,13 +1034,9 @@ private bool removeOneOccurrence(global::java.lang.Object n1, global::java.util.
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean removeOneOccurrence(java.lang.Object, java.util.Iterator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1219,14 +1068,9 @@ public override global::System.Object set(int n1, global::java.lang.Object n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -1275,10 +1119,7 @@ public override global::System.Object set(int n1, global::java.lang.Object n2){
 public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: int size()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList) _r1_o)._fsize;
     return _r0.i;
@@ -1288,12 +1129,8 @@ public override int size(){
 public virtual bool offer(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: boolean offer(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.LinkedList) _r1_o).addLastImpl((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1305,9 +1142,7 @@ public virtual global::System.Object poll(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object poll()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.LinkedList) _r1_o)._fsize;
     if (_r0.i != 0) goto label6;
@@ -1322,11 +1157,8 @@ public virtual global::System.Object poll(){
 
 public virtual global::System.Object remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -1335,11 +1167,8 @@ public virtual global::System.Object remove(){
 
 public virtual global::System.Object peek(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object peek()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).peekFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -1348,13 +1177,9 @@ public virtual global::System.Object peek(){
 
 private global::System.Object peekFirstImpl(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object peekFirstImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.LinkedList) _r2_o)._fvoidLink;
     _r0_o = ((global::java.util.LinkedList_2Link) _r0_o)._fnext;
@@ -1371,11 +1196,8 @@ private global::System.Object peekFirstImpl(){
 
 public virtual global::System.Object element(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: java.lang.Object element()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getFirstImpl();
     return (global::java.lang.Object) _r0_o;
@@ -1392,13 +1214,9 @@ public override global::System.Object toArray(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0.i = 0;
     _r1.i = ((global::java.util.LinkedList) _r6_o)._fsize;
@@ -1432,15 +1250,10 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r1.i = 0;
@@ -1486,11 +1299,8 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.io.ObjectOutputStream) _r3_o).defaultWriteObject();
@@ -1514,19 +1324,12 @@ private void readObject(global::java.io.ObjectInputStream n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4_o = null;

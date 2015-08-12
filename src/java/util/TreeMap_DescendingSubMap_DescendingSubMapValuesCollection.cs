@@ -7,11 +7,8 @@ public global::java.util.TreeMap_2DescendingSubMap _fsubMap;
 
 public void @this(global::java.util.TreeMap_2DescendingSubMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap$DescendingSubMapValuesCollection: void <init>(java.util.TreeMap$DescendingSubMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractCollection) _r0_o).@this();
@@ -24,9 +21,7 @@ public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap$DescendingSubMapValuesCollection: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMap_2DescendingSubMapValuesCollection) _r1_o)._fsubMap;
     _r0.i = ((global::java.util.TreeMap_2DescendingSubMap) _r0_o).isEmpty() ? 1 : 0;
@@ -36,23 +31,16 @@ public override bool isEmpty(){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap$DescendingSubMapValuesCollection: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 0;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMap_2DescendingSubMapValuesCollection) _r7_o)._fsubMap;
@@ -95,9 +83,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap$DescendingSubMapValuesCollection: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMap_2DescendingSubMapValuesCollection) _r1_o)._fsubMap;
     _r0.i = ((global::java.util.TreeMap_2DescendingSubMap) _r0_o).size();

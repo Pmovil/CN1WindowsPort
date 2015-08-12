@@ -9,13 +9,9 @@ private global::org.apache.harmony.luni.lang.reflect.ListOfTypes _fsuperBound;
 
 public void @this(global::org.apache.harmony.luni.lang.reflect.ListOfTypes n1, global::org.apache.harmony.luni.lang.reflect.ListOfTypes n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: void <init>(org.apache.harmony.luni.lang.reflect.ListOfTypes, org.apache.harmony.luni.lang.reflect.ListOfTypes)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,11 +24,8 @@ public void @this(global::org.apache.harmony.luni.lang.reflect.ListOfTypes n1, g
 
 public virtual global::System.Object getLowerBounds(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: java.lang.reflect.Type[] getLowerBounds()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r1_o)._fsuperBound;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
@@ -44,11 +37,8 @@ public virtual global::System.Object getLowerBounds(){
 
 public virtual global::System.Object getUpperBounds(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: java.lang.reflect.Type[] getUpperBounds()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r1_o)._fextendsBound;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
@@ -60,21 +50,14 @@ public virtual global::System.Object getUpperBounds(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -109,9 +92,7 @@ public override int hashCode(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r2_o).getLowerBounds();
     _r0.i = global::java.util.Arrays.hashCode((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
@@ -125,15 +106,11 @@ public override int hashCode(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=?

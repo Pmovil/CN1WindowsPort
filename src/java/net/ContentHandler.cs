@@ -5,9 +5,7 @@ namespace java.net {
 public abstract class ContentHandler: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.ContentHandler: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,19 +16,13 @@ public abstract global::System.Object getContent(global::java.net.URLConnection 
 
 public virtual global::System.Object getContent(global::java.net.URLConnection n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection, java.lang.Class[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;

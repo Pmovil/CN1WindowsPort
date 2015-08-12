@@ -97,10 +97,7 @@ private static global::com.codename1.ui.plaf.Border _fempty;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 0;
@@ -120,10 +117,7 @@ public virtual global::System.Object mirrorBorder(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Border) _r4_o)._ftype;
     _r1.i = 10;
@@ -154,26 +148,15 @@ public virtual void setImageBorderSpecialTile(global::com.codename1.ui.Image n1,
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -207,20 +190,12 @@ public virtual void setImageBorderSpecialTile(global::com.codename1.ui.Image n1,
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -245,11 +220,8 @@ public virtual void setImageBorderSpecialTile(global::com.codename1.ui.Image n1,
 
 public virtual void clearImageBorderSpecialTile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void clearImageBorderSpecialTile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.plaf.Border) _r1_o)._fspecialTile = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -260,11 +232,8 @@ public virtual void clearImageBorderSpecialTile(){
 
 public virtual void addOuterBorder(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void addOuterBorder(com.codename1.ui.plaf.Border)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Border) _r0_o)._fouterBorder = (global::com.codename1.ui.plaf.Border) _r1_o;
@@ -274,19 +243,14 @@ public virtual void addOuterBorder(global::com.codename1.ui.plaf.Border n1){
 
 public virtual int getMinimumHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: int getMinimumHeight()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3.i = 4;
     _r4.i = 0;
@@ -331,19 +295,14 @@ public virtual int getMinimumHeight(){
 
 public virtual int getMinimumWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: int getMinimumWidth()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3.i = 4;
     _r4.i = 0;
@@ -388,9 +347,7 @@ public virtual int getMinimumWidth(){
 
 public static global::System.Object getEmpty(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border getEmpty()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.plaf.Border._fempty;
     if (_r0_o != null) goto label11;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -404,9 +361,7 @@ public static global::System.Object getEmpty(){
 
 public static global::System.Object createEmpty(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createEmpty()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.Border();
     ((global::com.codename1.ui.plaf.Border) _r0_o).@this();
     return (global::com.codename1.ui.plaf.Border) _r0_o;
@@ -415,33 +370,20 @@ public static global::System.Object createEmpty(){
 
 public static global::System.Object createImageBorder(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3, global::com.codename1.ui.Image n4, global::com.codename1.ui.Image n5, global::com.codename1.ui.Image n6, global::com.codename1.ui.Image n7, global::com.codename1.ui.Image n8, global::com.codename1.ui.Image n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createImageBorder(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -481,31 +423,19 @@ public static global::System.Object createImageBorder(global::com.codename1.ui.I
 
 public static global::System.Object createImageScaledBorder(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3, global::com.codename1.ui.Image n4, global::com.codename1.ui.Image n5, global::com.codename1.ui.Image n6, global::com.codename1.ui.Image n7, global::com.codename1.ui.Image n8, global::com.codename1.ui.Image n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createImageScaledBorder(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -546,19 +476,13 @@ public static global::System.Object createImageScaledBorder(global::com.codename
 
 public static global::System.Object createHorizonalImageBorder(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createHorizonalImageBorder(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -581,19 +505,13 @@ public static global::System.Object createHorizonalImageBorder(global::com.coden
 
 public static global::System.Object createVerticalImageBorder(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createVerticalImageBorder(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -616,29 +534,18 @@ public static global::System.Object createVerticalImageBorder(global::com.codena
 
 public static global::System.Object createImageBorder(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createImageBorder(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10_o = n3;
@@ -681,13 +588,9 @@ public static global::System.Object createImageBorder(global::com.codename1.ui.I
 
 public static global::System.Object createLineBorder(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createLineBorder(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r1.i = 1;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -704,10 +607,7 @@ public static global::System.Object createDottedBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 13;
@@ -721,10 +621,7 @@ public static global::System.Object createDashedBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 12;
@@ -738,10 +635,7 @@ public static global::System.Object createDoubleBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 14;
@@ -755,8 +649,6 @@ public static global::System.Object createDottedBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 13;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -769,8 +661,6 @@ public static global::System.Object createDashedBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 12;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -783,8 +673,6 @@ public static global::System.Object createDoubleBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 14;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -797,8 +685,6 @@ public static global::System.Object createOutsetBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 18;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -811,10 +697,7 @@ public static global::System.Object createOutsetBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 18;
@@ -828,8 +711,6 @@ public static global::System.Object createInsetBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 17;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -842,10 +723,7 @@ public static global::System.Object createInsetBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 17;
@@ -859,8 +737,6 @@ public static global::System.Object createGrooveBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 15;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -873,10 +749,7 @@ public static global::System.Object createGrooveBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 15;
@@ -890,8 +763,6 @@ public static global::System.Object createRidgeBorder(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 16;
     _r0_o = global::com.codename1.ui.plaf.Border.createCSSBorder((int) _r0.i, (int) _r1.i);
@@ -904,10 +775,7 @@ public static global::System.Object createRidgeBorder(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = 16;
@@ -918,15 +786,10 @@ public static global::System.Object createRidgeBorder(int n1, int n2){
 
 private static global::System.Object createCSSBorder(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createCSSBorder(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -941,15 +804,10 @@ private static global::System.Object createCSSBorder(int n1, int n2){
 
 private static global::System.Object createCSSBorder(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createCSSBorder(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r3.i = n3;
@@ -964,15 +822,10 @@ private static global::System.Object createCSSBorder(int n1, int n2, int n3){
 
 public static global::System.Object createLineBorder(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createLineBorder(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3_o = n2;
     _r1.i = 1;
@@ -988,17 +841,11 @@ public static global::System.Object createLineBorder(int n1, global::java.lang.S
 
 public static global::System.Object createLineBorder(int n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createLineBorder(int, int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4_o = n3;
@@ -1017,15 +864,10 @@ public static global::System.Object createLineBorder(int n1, int n2, global::jav
 
 public static global::System.Object createLineBorder(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createLineBorder(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -1042,15 +884,10 @@ public static global::System.Object createLineBorder(int n1, int n2){
 
 public static global::System.Object createRoundBorder(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createRoundBorder(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -1067,15 +904,10 @@ public static global::System.Object createRoundBorder(int n1, int n2){
 
 public static global::System.Object createRoundBorder(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createRoundBorder(int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r3.i = n3 ? 1 : 0;
@@ -1087,17 +919,11 @@ public static global::System.Object createRoundBorder(int n1, int n2, bool n3){
 
 public static global::System.Object createRoundBorder(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createRoundBorder(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -1116,17 +942,11 @@ public static global::System.Object createRoundBorder(int n1, int n2, int n3){
 
 public static global::System.Object createRoundBorder(int n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createRoundBorder(int, int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r3.i = n3;
@@ -1139,11 +959,8 @@ public static global::System.Object createRoundBorder(int n1, int n2, int n3, bo
 
 public static global::System.Object createEtchedLowered(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createEtchedLowered()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.Border();
     ((global::com.codename1.ui.plaf.Border) _r0_o).@this();
     _r1.i = 4;
@@ -1156,15 +973,10 @@ public static global::System.Object createEtchedLowered(){
 
 public static global::System.Object createEtchedLowered(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createEtchedLowered(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -1181,11 +993,8 @@ public static global::System.Object createEtchedLowered(int n1, int n2){
 
 public static global::System.Object createEtchedRaised(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createEtchedRaised()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.Border();
     ((global::com.codename1.ui.plaf.Border) _r0_o).@this();
     _r1.i = 5;
@@ -1200,15 +1009,10 @@ public static global::System.Object createEtchedRaised(){
 
 public static global::System.Object createEtchedRaised(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createEtchedRaised(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.plaf.Border();
@@ -1227,31 +1031,20 @@ public static global::System.Object createEtchedRaised(int n1, int n2){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = 9;
@@ -1372,14 +1165,9 @@ public override bool equals(global::java.lang.Object n1){
 private static bool isSame(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: boolean isSame(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r1.i = 1;
@@ -1402,29 +1190,19 @@ private static bool isSame(global::java.lang.Object n1, global::java.lang.Object
 
 public static global::System.Object createCompoundBorder(global::com.codename1.ui.plaf.Border n1, global::com.codename1.ui.plaf.Border n2, global::com.codename1.ui.plaf.Border n3, global::com.codename1.ui.plaf.Border n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createCompoundBorder(com.codename1.ui.plaf.Border, com.codename1.ui.plaf.Border, com.codename1.ui.plaf.Border, com.codename1.ui.plaf.Border)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9_o = n3;
@@ -1506,12 +1284,8 @@ public static global::System.Object createCompoundBorder(global::com.codename1.u
 public virtual bool isBackgroundPainter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: boolean isBackgroundPainter()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Border) _r2_o)._ftype;
     _r1.i = 2;
@@ -1544,14 +1318,9 @@ public virtual bool isBackgroundPainter(){
 public virtual bool isRectangleType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: boolean isRectangleType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::com.codename1.ui.plaf.Border) _r3_o)._ftype;
@@ -1606,11 +1375,8 @@ public virtual bool isRectangleType(){
 
 public static global::System.Object createBevelLowered(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createBevelLowered()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.Border();
     ((global::com.codename1.ui.plaf.Border) _r0_o).@this();
     _r1.i = 7;
@@ -1625,19 +1391,12 @@ public static global::System.Object createBevelLowered(){
 
 public static global::System.Object createBevelLowered(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createBevelLowered(int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -1660,11 +1419,8 @@ public static global::System.Object createBevelLowered(int n1, int n2, int n3, i
 
 public static global::System.Object createBevelRaised(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createBevelRaised()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.Border();
     ((global::com.codename1.ui.plaf.Border) _r0_o).@this();
     _r1.i = 6;
@@ -1679,19 +1435,12 @@ public static global::System.Object createBevelRaised(){
 
 public static global::System.Object createBevelRaised(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createBevelRaised(int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -1714,11 +1463,8 @@ public static global::System.Object createBevelRaised(int n1, int n2, int n3, in
 
 public virtual void setPressedInstance(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setPressedInstance(com.codename1.ui.plaf.Border)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Border) _r0_o)._fpressedBorder = (global::com.codename1.ui.plaf.Border) _r1_o;
@@ -1728,11 +1474,8 @@ public virtual void setPressedInstance(global::com.codename1.ui.plaf.Border n1){
 
 public virtual void setFocusedInstance(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setFocusedInstance(com.codename1.ui.plaf.Border)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Border) _r0_o)._ffocusBorder = (global::com.codename1.ui.plaf.Border) _r1_o;
@@ -1742,11 +1485,8 @@ public virtual void setFocusedInstance(global::com.codename1.ui.plaf.Border n1){
 
 public virtual global::System.Object getFocusedInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border getFocusedInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Border) _r1_o)._ffocusBorder;
     if (_r0_o == null) goto label7;
@@ -1761,11 +1501,8 @@ public virtual global::System.Object getFocusedInstance(){
 
 public virtual global::System.Object getPressedInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border getPressedInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Border) _r1_o)._fpressedBorder;
     if (_r0_o == null) goto label7;
@@ -1780,19 +1517,13 @@ public virtual global::System.Object getPressedInstance(){
 
 public virtual global::System.Object createPressedVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border createPressedVersion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r1_o = ((global::com.codename1.ui.plaf.Border) _r5_o)._fpressedBorder;
     if (_r1_o == null) goto label7;
@@ -1882,25 +1613,15 @@ public virtual void paintBorderBackground(global::com.codename1.ui.Graphics n1, 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void paintBorderBackground(com.codename1.ui.Graphics, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -1960,24 +1681,14 @@ public virtual void paintBorderBackground(global::com.codename1.ui.Graphics n1, 
 private void setClipScaled(global::com.codename1.ui.Graphics n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setClipScaled(com.codename1.ui.Graphics, int, int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -2015,188 +1726,108 @@ private void paintBorderBackground(global::com.codename1.ui.Graphics n1, int n2,
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
-    global::System.Object _r29_o = null;
-    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
-    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
-    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
-    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
-    global::org.xmlvm._nElement _r36;
     global::System.Object _r36_o = null;
     global::org.xmlvm._nElement _r37;
-    global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
-    global::System.Object _r38_o = null;
     global::org.xmlvm._nElement _r39;
-    global::System.Object _r39_o = null;
-    global::org.xmlvm._nElement _r40;
     global::System.Object _r40_o = null;
     global::org.xmlvm._nElement _r41;
     global::System.Object _r41_o = null;
     global::org.xmlvm._nElement _r42;
     global::System.Object _r42_o = null;
-    global::org.xmlvm._nElement _r43;
     global::System.Object _r43_o = null;
-    global::org.xmlvm._nElement _r44;
     global::System.Object _r44_o = null;
-    global::org.xmlvm._nElement _r45;
     global::System.Object _r45_o = null;
     global::org.xmlvm._nElement _r46;
-    global::System.Object _r46_o = null;
     global::org.xmlvm._nElement _r47;
-    global::System.Object _r47_o = null;
     global::org.xmlvm._nElement _r48;
-    global::System.Object _r48_o = null;
-    global::org.xmlvm._nElement _r49;
     global::System.Object _r49_o = null;
     global::org.xmlvm._nElement _r50;
     global::System.Object _r50_o = null;
     global::org.xmlvm._nElement _r51;
     global::System.Object _r51_o = null;
-    global::org.xmlvm._nElement _r52;
     global::System.Object _r52_o = null;
-    global::org.xmlvm._nElement _r53;
     global::System.Object _r53_o = null;
-    global::org.xmlvm._nElement _r54;
     global::System.Object _r54_o = null;
     global::org.xmlvm._nElement _r55;
-    global::System.Object _r55_o = null;
     global::org.xmlvm._nElement _r56;
-    global::System.Object _r56_o = null;
     global::org.xmlvm._nElement _r57;
-    global::System.Object _r57_o = null;
-    global::org.xmlvm._nElement _r58;
     global::System.Object _r58_o = null;
     global::org.xmlvm._nElement _r59;
-    global::System.Object _r59_o = null;
     global::org.xmlvm._nElement _r60;
-    global::System.Object _r60_o = null;
     global::org.xmlvm._nElement _r61;
-    global::System.Object _r61_o = null;
     global::org.xmlvm._nElement _r62;
-    global::System.Object _r62_o = null;
-    global::org.xmlvm._nElement _r63;
     global::System.Object _r63_o = null;
     global::org.xmlvm._nElement _r64;
-    global::System.Object _r64_o = null;
     global::org.xmlvm._nElement _r65;
-    global::System.Object _r65_o = null;
     global::org.xmlvm._nElement _r66;
-    global::System.Object _r66_o = null;
     global::org.xmlvm._nElement _r67;
-    global::System.Object _r67_o = null;
     global::org.xmlvm._nElement _r68;
-    global::System.Object _r68_o = null;
     global::org.xmlvm._nElement _r69;
-    global::System.Object _r69_o = null;
-    global::org.xmlvm._nElement _r70;
     global::System.Object _r70_o = null;
-    global::org.xmlvm._nElement _r71;
     global::System.Object _r71_o = null;
-    global::org.xmlvm._nElement _r72;
     global::System.Object _r72_o = null;
     global::org.xmlvm._nElement _r73;
-    global::System.Object _r73_o = null;
     global::org.xmlvm._nElement _r74;
-    global::System.Object _r74_o = null;
-    global::org.xmlvm._nElement _r75;
     global::System.Object _r75_o = null;
     global::org.xmlvm._nElement _r76;
-    global::System.Object _r76_o = null;
-    global::org.xmlvm._nElement _r77;
     global::System.Object _r77_o = null;
-    global::org.xmlvm._nElement _r78;
     global::System.Object _r78_o = null;
     global::org.xmlvm._nElement _r79;
-    global::System.Object _r79_o = null;
     global::org.xmlvm._nElement _r80;
-    global::System.Object _r80_o = null;
     global::org.xmlvm._nElement _r81;
-    global::System.Object _r81_o = null;
     global::org.xmlvm._nElement _r82;
-    global::System.Object _r82_o = null;
-    global::org.xmlvm._nElement _r83;
     global::System.Object _r83_o = null;
     global::org.xmlvm._nElement _r84;
-    global::System.Object _r84_o = null;
     global::org.xmlvm._nElement _r85;
-    global::System.Object _r85_o = null;
     global::org.xmlvm._nElement _r86;
-    global::System.Object _r86_o = null;
-    global::org.xmlvm._nElement _r87;
     global::System.Object _r87_o = null;
-    global::org.xmlvm._nElement _r88;
     global::System.Object _r88_o = null;
     global::org.xmlvm._nElement _r89;
-    global::System.Object _r89_o = null;
     global::org.xmlvm._nElement _r90;
-    global::System.Object _r90_o = null;
     global::org.xmlvm._nElement _r91;
-    global::System.Object _r91_o = null;
     global::org.xmlvm._nElement _r92;
-    global::System.Object _r92_o = null;
-    global::org.xmlvm._nElement _r93;
     global::System.Object _r93_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r87_o = this;
     _r88_o = n1;
     _r89.i = n2;
@@ -3091,37 +2722,21 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void paint(com.codename1.ui.Graphics, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15_o = n2;
@@ -3191,80 +2806,45 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, int n2, int n3, 
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
-    global::System.Object _r26_o = null;
-    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
-    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
-    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
-    global::System.Object _r32_o = null;
-    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
-    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
     global::org.xmlvm._nElement _r35;
-    global::System.Object _r35_o = null;
     global::org.xmlvm._nElement _r36;
-    global::System.Object _r36_o = null;
     global::org.xmlvm._nElement _r37;
-    global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
-    global::System.Object _r38_o = null;
-    global::org.xmlvm._nElement _r39;
     global::System.Object _r39_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r33_o = this;
     _r34_o = n1;
     _r35.i = n2;
@@ -4535,21 +4115,13 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, int n2, int n3, 
 
 private global::System.Object saveClip(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.geom.Rectangle saveClip(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = new global::com.codename1.ui.geom.Rectangle();
@@ -4565,20 +4137,14 @@ private global::System.Object saveClip(global::com.codename1.ui.Graphics n1){
 private void restoreClip(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void restoreClip(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4597,11 +4163,8 @@ private int getBackgroundColor(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: int getBackgroundColor(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Component) _r2_o).getStyle();
@@ -4617,58 +4180,33 @@ private void drawImageBorderLine(global::com.codename1.ui.Graphics n1, global::c
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
-    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19_o = n2;
@@ -4770,58 +4308,33 @@ private void drawImageBorderColumn(global::com.codename1.ui.Graphics n1, global:
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
-    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19_o = n2;
@@ -4922,30 +4435,17 @@ private void drawImageBorderLineScale(global::com.codename1.ui.Graphics n1, glob
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -4979,30 +4479,17 @@ private void drawImageBorderColumnScale(global::com.codename1.ui.Graphics n1, gl
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -5031,9 +4518,7 @@ private void drawImageBorderColumnScale(global::com.codename1.ui.Graphics n1, gl
 
 public static void setDefaultBorder(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setDefaultBorder(com.codename1.ui.plaf.Border)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.plaf.Border._fdefaultBorder = (global::com.codename1.ui.plaf.Border) _r0_o;
     return;
@@ -5042,9 +4527,7 @@ public static void setDefaultBorder(global::com.codename1.ui.plaf.Border n1){
 
 public static global::System.Object getDefaultBorder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border getDefaultBorder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.plaf.Border._fdefaultBorder;
     return (global::com.codename1.ui.plaf.Border) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border getDefaultBorder()]
@@ -5053,10 +4536,7 @@ public static global::System.Object getDefaultBorder(){
 public virtual int getThickness(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: int getThickness()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Border) _r1_o)._fthickness;
     return _r0.i;
@@ -5065,11 +4545,8 @@ public virtual int getThickness(){
 
 public virtual void setThickness(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setThickness(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.Border) _r0_o)._fthickness = _r1.i;
@@ -5079,11 +4556,8 @@ public virtual void setThickness(int n1){
 
 public virtual void setPaintOuterBorderFirst(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void setPaintOuterBorderFirst(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.Border) _r0_o)._fpaintOuterBorderFirst = 0!=_r1.i;
@@ -5094,10 +4568,7 @@ public virtual void setPaintOuterBorderFirst(bool n1){
 public virtual bool isPaintOuterBorderFirst(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: boolean isPaintOuterBorderFirst()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Border) _r1_o)._fpaintOuterBorderFirst ? 1 : 0;
     return _r0.i!=0;
@@ -5106,11 +4577,8 @@ public virtual bool isPaintOuterBorderFirst(){
 
 public virtual global::System.Object getCompoundBorders(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: com.codename1.ui.plaf.Border[] getCompoundBorders()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Border) _r1_o)._fcompoundBorders;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -5120,12 +4588,9 @@ public virtual global::System.Object getCompoundBorders(){
 public virtual void @lock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void lock()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.plaf.Border) _r2_o)._fimages;
     if (_r1_o == null) goto label26;
@@ -5151,12 +4616,9 @@ public virtual void @lock(){
 public virtual void unlock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void unlock()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.plaf.Border) _r2_o)._fimages;
     if (_r1_o == null) goto label26;
@@ -5184,12 +4646,8 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=ThemeColors
@@ -5294,8 +4752,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 131586;
     _r1.i = 12303291;
     _r0_o = global::com.codename1.ui.plaf.Border.createEtchedRaised((int) _r0.i, (int) _r1.i);

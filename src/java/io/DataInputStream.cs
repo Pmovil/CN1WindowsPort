@@ -9,11 +9,8 @@ public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.FilterInputStream) _r1_o).@this((global::java.io.InputStream) _r2_o);
@@ -29,14 +26,9 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.io.DataInputStream) _r3_o)._fin;
@@ -51,15 +43,10 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: int read(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -74,9 +61,7 @@ public virtual bool readBoolean(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: boolean readBoolean()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.DataInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).read();
@@ -99,9 +84,7 @@ public virtual sbyte readByte(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: byte readByte()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.DataInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).read();
@@ -118,18 +101,13 @@ public virtual sbyte readByte(){
 private int readToBuff(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: int readToBuff(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0.i = 0;
@@ -159,10 +137,7 @@ public virtual char readChar(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0.i = ((global::java.io.DataInputStream) _r3_o).readToBuff((int) _r0.i);
@@ -189,12 +164,7 @@ public virtual char readChar(){
 public virtual double readDouble(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: double readDouble()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::java.io.DataInputStream) _r2_o).readLong();
     _r0.d = global::java.lang.Double.longBitsToDouble((long) _r0.l);
@@ -205,10 +175,7 @@ public virtual double readDouble(){
 public virtual float readFloat(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: float readFloat()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.io.DataInputStream) _r1_o).readInt();
     _r0.f = global::java.lang.Float.intBitsToFloat((int) _r0.i);
@@ -219,14 +186,9 @@ public virtual float readFloat(){
 public virtual void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: void readFully(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -244,15 +206,10 @@ public virtual void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -320,10 +277,7 @@ public virtual int readInt(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 4;
     _r0.i = ((global::java.io.DataInputStream) _r3_o).readToBuff((int) _r0.i);
@@ -360,17 +314,12 @@ public virtual int readInt(){
 
 public virtual global::System.Object readLine(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: java.lang.String readLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1.i = 80;
@@ -438,14 +387,8 @@ public virtual long readLong(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r4.l = 4294967295L;
     _r0.i = 8;
@@ -517,10 +460,7 @@ public virtual short readShort(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0.i = ((global::java.io.DataInputStream) _r3_o).readToBuff((int) _r0.i);
@@ -548,9 +488,7 @@ public virtual int readUnsignedByte(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: int readUnsignedByte()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.DataInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).read();
@@ -570,10 +508,7 @@ public virtual int readUnsignedShort(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0.i = ((global::java.io.DataInputStream) _r3_o).readToBuff((int) _r0.i);
@@ -601,9 +536,7 @@ public virtual global::System.Object readUTF(){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: java.lang.String readUTF()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.io.DataInputStream) _r1_o).readUnsignedShort();
     _r0_o = ((global::java.io.DataInputStream) _r1_o).decodeUTF((int) _r0.i);
@@ -613,13 +546,9 @@ public virtual global::System.Object readUTF(){
 
 public virtual global::System.Object decodeUTF(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: java.lang.String decodeUTF(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::java.io.DataInputStream.decodeUTF((int) _r2.i, (global::java.io.DataInput) _r1_o);
@@ -629,17 +558,11 @@ public virtual global::System.Object decodeUTF(int n1){
 
 private static global::System.Object decodeUTF(int n1, global::java.io.DataInput n2){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: java.lang.String decodeUTF(int, java.io.DataInput)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4_o = n2;
     _r2.i = 0;
@@ -655,9 +578,7 @@ public static global::System.Object readUTF(global::java.io.DataInput n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: java.lang.String readUTF(java.io.DataInput)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.io.DataInput) _r1_o).readUnsignedShort();
     _r0_o = global::java.io.DataInputStream.decodeUTF((int) _r0.i, (global::java.io.DataInput) _r1_o);
@@ -672,16 +593,9 @@ public virtual int skipBytes(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r0.i = 0;

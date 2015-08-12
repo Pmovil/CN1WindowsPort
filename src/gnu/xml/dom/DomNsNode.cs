@@ -49,17 +49,11 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(short n1, global::gnu.xml.dom.DomDocument n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: void <init>(short, gnu.xml.dom.DomDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -74,25 +68,15 @@ public void @this(short n1, global::gnu.xml.dom.DomDocument n2, global::java.lan
 
 public void @this(short n1, global::gnu.xml.dom.DomDocument n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: void <init>(short, gnu.xml.dom.DomDocument, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -125,11 +109,8 @@ public void @this(short n1, global::gnu.xml.dom.DomDocument n2, global::java.lan
 
 public override global::System.Object getNodeName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: java.lang.String getNodeName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNsNode) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -142,11 +123,8 @@ public virtual void setNodeName(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.lang.String) _r3_o).intern();
@@ -176,11 +154,8 @@ public virtual void setNodeName(global::java.lang.String n1){
 
 public override global::System.Object getNamespaceURI(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: java.lang.String getNamespaceURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNsNode) _r1_o)._fnamespace;
     return (global::java.lang.String) _r0_o;
@@ -191,13 +166,9 @@ public virtual void setNamespaceURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: void setNamespaceURI(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = null;
@@ -224,11 +195,8 @@ public virtual void setNamespaceURI(global::java.lang.String n1){
 
 public override global::System.Object getPrefix(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: java.lang.String getPrefix()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNsNode) _r1_o)._fprefix;
     return (global::java.lang.String) _r0_o;
@@ -244,16 +212,10 @@ public override void setPrefix(global::java.lang.String n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r2.i = 2;
@@ -371,11 +333,8 @@ public override void setPrefix(global::java.lang.String n1){
 
 public override global::System.Object getLocalName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNsNode: java.lang.String getLocalName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNsNode) _r1_o)._flocalName;
     return (global::java.lang.String) _r0_o;

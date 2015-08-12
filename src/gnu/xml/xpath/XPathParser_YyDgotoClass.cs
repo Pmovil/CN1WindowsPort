@@ -14,7 +14,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyDgotoClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 28;
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[_r0.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<short>(new short[]{105, 31, 32, 33, 34, 35, 36, 37, 38, 73, 39, 40, 41, 42, 43, 44, 45, 106, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55});
@@ -26,9 +25,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyDgotoClass: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

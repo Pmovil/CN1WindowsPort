@@ -18,9 +18,7 @@ private global::com.codename1.charts.views.ScatterChart _fpointsChart;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.charts.views.XYChart) _r0_o).@this();
     return;
@@ -29,15 +27,10 @@ public void @this(){
 
 public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -51,15 +44,10 @@ public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1
 
 public override void setDatasetRenderer(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: void setDatasetRenderer(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -79,69 +67,40 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
-    global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
-    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
-    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
-    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
-    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
     global::org.xmlvm._nElement _r33;
-    global::System.Object _r33_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r26_o = this;
     _r27_o = n1;
     _r28_o = n2;
@@ -533,51 +492,31 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
 
 public override global::System.Object clickableAreasForPoints(global::java.util.List n1, global::java.util.List n2, float n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: com.codename1.charts.views.ClickableArea[] clickableAreasForPoints(java.util.List, java.util.List, float, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
     _r17_o = n1;
     _r18_o = n2;
@@ -655,12 +594,8 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
 public override int getLegendShapeWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: int getLegendShapeWidth(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 30;
@@ -677,28 +612,17 @@ public override void drawLegendShape(global::com.codename1.charts.compat.Canvas 
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -734,13 +658,9 @@ public override bool isRenderPoints(global::com.codename1.charts.renderers.Simpl
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: boolean isRenderPoints(com.codename1.charts.renderers.SimpleSeriesRenderer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r3_o = _r3_o;
@@ -758,11 +678,8 @@ public override bool isRenderPoints(global::com.codename1.charts.renderers.Simpl
 
 public override global::System.Object getPointsChart(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: com.codename1.charts.views.ScatterChart getPointsChart()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.views.LineChart) _r1_o)._fpointsChart;
     return (global::com.codename1.charts.views.ScatterChart) _r0_o;
@@ -771,11 +688,8 @@ public override global::System.Object getPointsChart(){
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.LineChart: java.lang.String getChartType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=Line
     _r0_o = new global::java.lang.String();

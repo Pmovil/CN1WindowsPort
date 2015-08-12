@@ -5,9 +5,7 @@ namespace gnu.xml.dom {
 public class DomCharacterData_2EmptyNodeList: global::java.lang.Object,global::org.w3c.dom.NodeList {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomCharacterData$EmptyNodeList: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,10 +15,7 @@ public void @this(){
 public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomCharacterData$EmptyNodeList: int getLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i;
@@ -29,13 +24,9 @@ public virtual int getLength(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomCharacterData$EmptyNodeList: org.w3c.dom.Node item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = null;

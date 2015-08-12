@@ -29,10 +29,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 8;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;
@@ -84,10 +81,7 @@ public static void @static(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -103,7 +97,6 @@ public void @this(){
 
 public virtual void setParameter(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: void setParameter(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -111,17 +104,11 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -332,16 +319,10 @@ public virtual global::System.Object getParameter(global::java.lang.String n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = ((global::java.lang.String) _r6_o).toLowerCase();
@@ -515,16 +496,10 @@ public virtual bool canSetParameter(global::java.lang.String n1, global::java.la
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -614,9 +589,7 @@ public virtual bool canSetParameter(global::java.lang.String n1, global::java.la
 
 public virtual global::System.Object getParameterNames(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: org.w3c.dom.DOMStringList getParameterNames()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::org.w3c.dom.DOMStringList) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: org.w3c.dom.DOMStringList getParameterNames()]
@@ -624,12 +597,9 @@ public virtual global::System.Object getParameterNames(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: java.lang.String item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
@@ -662,9 +632,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::gnu.xml.dom.DomDocumentConfiguration._fSUPPORTED_1PARAMETERS;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -676,13 +644,9 @@ public virtual bool contains(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentConfiguration: boolean contains(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.lang.String) _r3_o).toLowerCase();

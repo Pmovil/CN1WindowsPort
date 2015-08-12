@@ -15,11 +15,8 @@ public void @this(global::gnu.xml.stream.XMLParser n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$ElementContentModel: void <init>(gnu.xml.stream.XMLParser)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o)._fthis_20 = (global::gnu.xml.stream.XMLParser) _r2_o;
@@ -34,13 +31,9 @@ public void @this(global::gnu.xml.stream.XMLParser n1){
 
 public virtual void addContentParticle(global::gnu.xml.stream.XMLParser_2ContentParticle n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$ElementContentModel: void addContentParticle(gnu.xml.stream.XMLParser$ContentParticle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o)._fcontentParticles;

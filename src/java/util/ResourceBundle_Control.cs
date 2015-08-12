@@ -38,11 +38,8 @@ public global::java.util.List _fformat;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r0_o).@this();
     global::java.util.ResourceBundle_2Control._flistDefault = (global::java.util.List) _r0_o;
@@ -98,13 +95,9 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -127,9 +120,7 @@ public static global::System.Object getControl(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.ResourceBundle$Control getControl(java.util.List)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.util.List) _r1_o).size();
     switch (_r0.i) {
@@ -167,9 +158,7 @@ public static global::System.Object getNoFallbackControl(global::java.util.List 
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.ResourceBundle$Control getNoFallbackControl(java.util.List)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.util.List) _r1_o).size();
     switch (_r0.i) {
@@ -205,9 +194,7 @@ public static global::System.Object getNoFallbackControl(global::java.util.List 
 
 public virtual global::System.Object getCandidateLocales(global::java.lang.String n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.List getCandidateLocales(java.lang.String, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -215,15 +202,10 @@ public virtual global::System.Object getCandidateLocales(global::java.lang.Strin
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -277,13 +259,9 @@ public virtual global::System.Object getCandidateLocales(global::java.lang.Strin
 
 public virtual global::System.Object getFormats(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.List getFormats(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -298,15 +276,10 @@ public virtual global::System.Object getFormats(global::java.lang.String n1){
 
 public virtual global::System.Object getFallbackLocale(global::java.lang.String n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.Locale getFallbackLocale(java.lang.String, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -330,26 +303,17 @@ public virtual global::System.Object getFallbackLocale(global::java.lang.String 
 
 public virtual global::System.Object newBundle(global::java.lang.String n1, global::java.util.Locale n2, global::java.lang.String n3, global::java.lang.ClassLoader n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.util.ResourceBundle newBundle(java.lang.String, java.util.Locale, java.lang.String, java.lang.ClassLoader, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
@@ -493,15 +457,9 @@ public virtual long getTimeToLive(global::java.lang.String n1, global::java.util
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: long getTimeToLive(java.lang.String, java.util.Locale)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -521,27 +479,15 @@ public virtual bool needsReload(global::java.lang.String n1, global::java.util.L
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: boolean needsReload(java.lang.String, java.util.Locale, java.lang.String, java.lang.ClassLoader, java.util.ResourceBundle, long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -590,25 +536,16 @@ public virtual bool needsReload(global::java.lang.String n1, global::java.util.L
 
 public virtual global::System.Object toBundleName(global::java.lang.String n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.lang.String toBundleName(java.lang.String, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -690,19 +627,13 @@ public virtual global::System.Object toBundleName(global::java.lang.String n1, g
 
 public virtual global::System.Object toResourceName(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: java.lang.String toResourceName(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;

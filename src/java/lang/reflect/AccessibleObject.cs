@@ -14,7 +14,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     global::java.lang.reflect.AccessibleObject._femptyArgs = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -24,11 +23,8 @@ public static void @static(){
 
 public static void setAccessible(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[], boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     return;
@@ -37,13 +33,9 @@ public static void setAccessible(global::org.xmlvm._nArrayAdapter<global::System
 
 public static global::System.Object marshallArguments(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: java.lang.Object[] marshallArguments(java.lang.Class[], java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = null;
@@ -65,9 +57,7 @@ public static global::System.Object getStackClass(int n1){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -107,10 +97,7 @@ public virtual bool checkAccessibility(global::java.lang.Class n1, global::java.
 public virtual bool isAccessible(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: boolean isAccessible()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -119,11 +106,8 @@ public virtual bool isAccessible(){
 
 public virtual void setAccessible(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: void setAccessible(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     return;
@@ -133,12 +117,8 @@ public virtual void setAccessible(bool n1){
 public virtual bool isAnnotationPresent(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: boolean isAnnotationPresent(java.lang.Class)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -150,9 +130,7 @@ public virtual global::System.Object getDeclaredAnnotations(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: java.lang.annotation.Annotation[] getDeclaredAnnotations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -164,9 +142,7 @@ public virtual global::System.Object getAnnotations(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: java.lang.annotation.Annotation[] getAnnotations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -176,13 +152,9 @@ public virtual global::System.Object getAnnotations(){
 
 public virtual global::System.Object getAnnotation(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: java.lang.annotation.Annotation getAnnotation(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -192,13 +164,9 @@ public virtual global::System.Object getAnnotation(global::java.lang.Class n1){
 
 public virtual void invokeV(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: void invokeV(java.lang.Object, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -208,15 +176,10 @@ public virtual void invokeV(global::java.lang.Object n1, global::org.xmlvm._nArr
 
 public virtual global::System.Object invokeL(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: java.lang.Object invokeL(java.lang.Object, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -228,14 +191,9 @@ public virtual global::System.Object invokeL(global::java.lang.Object n1, global
 public virtual int invokeI(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: int invokeI(java.lang.Object, java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -247,16 +205,9 @@ public virtual int invokeI(global::java.lang.Object n1, global::org.xmlvm._nArra
 public virtual long invokeJ(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: long invokeJ(java.lang.Object, java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -268,14 +219,9 @@ public virtual long invokeJ(global::java.lang.Object n1, global::org.xmlvm._nArr
 public virtual float invokeF(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: float invokeF(java.lang.Object, java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -287,16 +233,9 @@ public virtual float invokeF(global::java.lang.Object n1, global::org.xmlvm._nAr
 public virtual double invokeD(global::java.lang.Object n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.AccessibleObject: double invokeD(java.lang.Object, java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

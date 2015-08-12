@@ -5,9 +5,7 @@ namespace java.text {
 public abstract class Format: global::java.lang.Object,global::java.lang.Cloneable {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.text.Format: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

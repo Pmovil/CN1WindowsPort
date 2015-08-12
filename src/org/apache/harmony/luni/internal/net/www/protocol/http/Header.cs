@@ -11,13 +11,10 @@ private global::java.lang.String _fstatusLine;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -36,21 +33,13 @@ public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: void <init>(java.util.Map)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r6_o).@this();
@@ -90,15 +79,11 @@ public void @this(global::java.util.Map n1){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -175,17 +160,11 @@ public override global::System.Object clone(){
 
 public virtual void add(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: void add(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -217,16 +196,10 @@ public virtual void set(global::java.lang.String n1, global::java.lang.String n2
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -271,13 +244,9 @@ public virtual global::System.Object getFieldMap(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: java.util.Map getFieldMap()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = new global::java.util.HashMap();
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r3_o)._fkeyTable;
@@ -309,12 +278,8 @@ public virtual global::System.Object get(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label26;
@@ -341,12 +306,8 @@ public virtual global::System.Object getKey(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label24;
@@ -369,13 +330,9 @@ public virtual global::System.Object getKey(int n1){
 
 public virtual global::System.Object get(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: java.lang.String get(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r1_o)._fkeyTable;
@@ -397,9 +354,7 @@ public virtual int length(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: int length()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r1_o)._fprops;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
@@ -410,17 +365,11 @@ public virtual int length(){
 
 public virtual void setStatusLine(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: void setStatusLine(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r3_o)._fstatusLine = (global::java.lang.String) _r4_o;
@@ -437,11 +386,8 @@ public virtual void setStatusLine(global::java.lang.String n1){
 
 public virtual global::System.Object getStatusLine(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: java.lang.String getStatusLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r1_o)._fstatusLine;
     return (global::java.lang.String) _r0_o;

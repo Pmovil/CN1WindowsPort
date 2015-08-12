@@ -11,15 +11,10 @@ public global::org.w3c.dom.ls.LSParser _fparser;
 
 public void @this(global::org.w3c.dom.DOMImplementation n1, global::org.w3c.dom.ls.DOMImplementationLS n2, global::org.w3c.dom.ls.LSParser n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: void <init>(org.w3c.dom.DOMImplementation, org.w3c.dom.ls.DOMImplementationLS, org.w3c.dom.ls.LSParser)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -36,11 +31,8 @@ public override bool isNamespaceAware(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isNamespaceAware()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fparser;
     _r0_o = ((global::org.w3c.dom.ls.LSParser) _r0_o).getDomConfig();
@@ -58,11 +50,8 @@ public override bool isValidating(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isValidating()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fparser;
     _r0_o = ((global::org.w3c.dom.ls.LSParser) _r0_o).getDomConfig();
@@ -80,11 +69,8 @@ public override bool isXIncludeAware(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isXIncludeAware()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fparser;
     _r0_o = ((global::org.w3c.dom.ls.LSParser) _r0_o).getDomConfig();
@@ -100,15 +86,10 @@ public override bool isXIncludeAware(){
 
 public override void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: void setEntityResolver(org.xml.sax.EntityResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fparser;
@@ -123,15 +104,10 @@ public override void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 
 public override void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: void setErrorHandler(org.xml.sax.ErrorHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fparser;
@@ -146,11 +122,8 @@ public override void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 
 public override global::System.Object getDOMImplementation(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.DOMImplementation getDOMImplementation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r1_o)._fimpl;
     return (global::org.w3c.dom.DOMImplementation) _r0_o;
@@ -159,13 +132,9 @@ public override global::System.Object getDOMImplementation(){
 
 public override global::System.Object newDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.Document newDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilder) _r2_o)._fimpl;
@@ -176,13 +145,10 @@ public override global::System.Object newDocument(){
 
 public override global::System.Object parse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.Document parse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -219,15 +185,11 @@ public override global::System.Object parse(global::java.io.InputStream n1){
 
 public override global::System.Object parse(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.Document parse(java.io.InputStream, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -266,13 +228,9 @@ public override global::System.Object parse(global::java.io.InputStream n1, glob
 
 public override global::System.Object parse(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.Document parse(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -306,17 +264,12 @@ public override global::System.Object parse(global::java.lang.String n1){
 
 public override global::System.Object parse(global::org.xml.sax.InputSource n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDocumentBuilder: org.w3c.dom.Document parse(org.xml.sax.InputSource)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;

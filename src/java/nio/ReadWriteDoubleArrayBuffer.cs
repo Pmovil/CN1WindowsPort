@@ -5,19 +5,12 @@ namespace java.nio {
 public class ReadWriteDoubleArrayBuffer: global::java.nio.DoubleArrayBuffer {
 public static global::System.Object copy(global::java.nio.DoubleArrayBuffer n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: java.nio.ReadWriteDoubleArrayBuffer copy(java.nio.DoubleArrayBuffer, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r0_o = new global::java.nio.ReadWriteDoubleArrayBuffer();
@@ -36,11 +29,8 @@ public static global::System.Object copy(global::java.nio.DoubleArrayBuffer n1, 
 
 public void @this(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: void <init>(double[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.nio.DoubleArrayBuffer) _r0_o).@this((global::org.xmlvm._nArrayAdapter<double>) _r1_o);
@@ -50,11 +40,8 @@ public void @this(global::org.xmlvm._nArrayAdapter<double> n1){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.nio.DoubleArrayBuffer) _r0_o).@this((int) _r1.i);
@@ -64,15 +51,10 @@ public void @this(int n1){
 
 public void @this(int n1, global::org.xmlvm._nArrayAdapter<double> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: void <init>(int, double[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -86,9 +68,7 @@ public override global::System.Object asReadOnlyBuffer(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: java.nio.DoubleBuffer asReadOnlyBuffer()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r1_o)._fmark;
     _r0_o = global::java.nio.ReadOnlyDoubleArrayBuffer.copy((global::java.nio.DoubleArrayBuffer) _r1_o, (int) _r0.i);
@@ -101,16 +81,11 @@ public override global::System.Object compact(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r5_o)._fbackingArray;
     _r1.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r5_o)._fposition;
@@ -136,9 +111,7 @@ public override global::System.Object duplicate(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: java.nio.DoubleBuffer duplicate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r1_o)._fmark;
     _r0_o = global::java.nio.ReadWriteDoubleArrayBuffer.copy((global::java.nio.DoubleArrayBuffer) _r1_o, (int) _r0.i);
@@ -149,10 +122,7 @@ public override global::System.Object duplicate(){
 public override bool isReadOnly(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: boolean isReadOnly()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -161,11 +131,8 @@ public override bool isReadOnly(){
 
 public override global::System.Object protectedArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: double[] protectedArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r1_o)._fbackingArray;
     return (global::org.xmlvm._nArrayAdapter<double>) _r0_o;
@@ -175,10 +142,7 @@ public override global::System.Object protectedArray(){
 public override int protectedArrayOffset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: int protectedArrayOffset()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r1_o)._foffset;
     return _r0.i;
@@ -188,10 +152,7 @@ public override int protectedArrayOffset(){
 public override bool protectedHasArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: boolean protectedHasArray()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -203,18 +164,10 @@ public override global::System.Object put(double n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.d = n1;
     _r0.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r4_o)._fposition;
@@ -240,16 +193,9 @@ public override global::System.Object put(int n1, double n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.d = n2;
@@ -274,22 +220,12 @@ public override global::System.Object put(global::org.xmlvm._nArrayAdapter<doubl
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -328,19 +264,12 @@ public override global::System.Object put(global::org.xmlvm._nArrayAdapter<doubl
 
 public override global::System.Object slice(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteDoubleArrayBuffer: java.nio.DoubleBuffer slice()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = new global::java.nio.ReadWriteDoubleArrayBuffer();
     _r1.i = ((global::java.nio.ReadWriteDoubleArrayBuffer) _r5_o).remaining();

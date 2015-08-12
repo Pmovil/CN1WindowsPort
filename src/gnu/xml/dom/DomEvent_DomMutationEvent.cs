@@ -27,11 +27,8 @@ public static short _fREMOVAL = org.w3c.dom.events._iMutationEvent._fREMOVAL;
 
 public virtual global::System.Object getRelatedNode(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: org.w3c.dom.Node getRelatedNode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._frelatedNode;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -40,11 +37,8 @@ public virtual global::System.Object getRelatedNode(){
 
 public virtual global::System.Object getPrevValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: java.lang.String getPrevValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._fprevValue;
     return (global::java.lang.String) _r0_o;
@@ -53,11 +47,8 @@ public virtual global::System.Object getPrevValue(){
 
 public virtual global::System.Object getNewValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: java.lang.String getNewValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._fnewValue;
     return (global::java.lang.String) _r0_o;
@@ -66,11 +57,8 @@ public virtual global::System.Object getNewValue(){
 
 public virtual global::System.Object getAttrName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: java.lang.String getAttrName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._fattrName;
     return (global::java.lang.String) _r0_o;
@@ -80,10 +68,7 @@ public virtual global::System.Object getAttrName(){
 public virtual short getAttrChange(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: short getAttrChange()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._fattrChange;
     return (short) _r0.i;
@@ -93,28 +78,15 @@ public virtual short getAttrChange(){
 public virtual void initMutationEvent(global::java.lang.String n1, bool n2, bool n3, global::org.w3c.dom.Node n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, short n8){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: void initMutationEvent(java.lang.String, boolean, boolean, org.w3c.dom.Node, java.lang.String, java.lang.String, java.lang.String, short)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -142,11 +114,8 @@ public virtual void initMutationEvent(global::java.lang.String n1, bool n2, bool
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::gnu.xml.dom.DomEvent_2DomMutationEvent) _r1_o)._ftype = (global::java.lang.String) _r0_o;
@@ -162,11 +131,8 @@ public virtual void clear(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomMutationEvent: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.DomEvent) _r0_o).@this((global::java.lang.String) _r1_o);

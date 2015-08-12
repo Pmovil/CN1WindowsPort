@@ -19,14 +19,9 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;
@@ -52,13 +47,9 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.security.PermissionCollection) _r2_o).@this();
     _r0_o = new global::java.util.Hashtable();
@@ -73,15 +64,10 @@ public override void add(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: void add(java.security.Permission)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::java.util.PropertyPermissionCollection) _r3_o).isReadOnly() ? 1 : 0;
@@ -115,11 +101,8 @@ public override void add(global::java.security.Permission n1){
 
 public override global::System.Object elements(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: java.util.Enumeration elements()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.PropertyPermissionCollection) _r1_o)._fpermissions;
     _r0_o = ((global::java.util.Hashtable) _r0_o).elements();
@@ -131,17 +114,11 @@ public override bool implies(global::java.security.Permission n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: boolean implies(java.security.Permission)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -189,17 +166,12 @@ public override bool implies(global::java.security.Permission n1){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.io.ObjectOutputStream) _r4_o).putFields();
@@ -220,17 +192,11 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.io.ObjectInputStream) _r4_o).readFields();

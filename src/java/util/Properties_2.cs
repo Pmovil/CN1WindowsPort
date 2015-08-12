@@ -7,11 +7,8 @@ public global::java.util.Properties _fthis_20;
 
 public void @this(global::java.util.Properties n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Properties$2: void <init>(java.util.Properties)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Properties_22) _r0_o)._fthis_20 = (global::java.util.Properties) _r1_o;
@@ -24,19 +21,12 @@ public virtual global::System.Object resolveEntity(global::java.lang.String n1, 
 //XMLVM_BEGIN_WRAPPER[java.util.Properties$2: org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;

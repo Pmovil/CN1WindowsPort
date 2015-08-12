@@ -23,15 +23,10 @@ public static global::java.lang.String _fMETHOD_1TWEETS;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=1.1
@@ -45,15 +40,10 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: void <init>(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -67,21 +57,14 @@ public void @this(global::java.lang.String n1, bool n2){
 
 public static global::System.Object initToken(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.lang.String initToken(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r0_o = new global::com.codename1.io.services.TwitterRESTService_21();
@@ -135,9 +118,7 @@ public static global::System.Object initToken(global::java.lang.String n1, globa
 
 public static void setToken(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: void setToken(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.services.TwitterRESTService._fauthToken = (global::java.lang.String) _r0_o;
     return;
@@ -146,23 +127,14 @@ public static void setToken(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: void <init>(java.lang.String, java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -220,17 +192,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, bool
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.io.InputStreamReader();
@@ -252,11 +218,8 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public virtual global::System.Object getParseTree(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.util.Hashtable getParseTree()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.TwitterRESTService) _r1_o)._fparseTree;
     return (global::java.util.Hashtable) _r0_o;
@@ -265,15 +228,11 @@ public virtual global::System.Object getParseTree(){
 
 public virtual int getStatusesCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: int getStatusesCount()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.io.services.TwitterRESTService) _r3_o)._fparseTree;
     // Value=statuses
@@ -293,17 +252,11 @@ public virtual int getStatusesCount(){
 
 public virtual global::System.Object getStatus(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.util.Hashtable getStatus(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.io.services.TwitterRESTService) _r3_o)._fparseTree;
@@ -322,11 +275,8 @@ public virtual global::System.Object getIdStr(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.lang.String getIdStr()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.io.services.TwitterRESTService) _r2_o).getStatusesCount();
     if (_r0.i <= 0) goto label21;
@@ -348,9 +298,7 @@ public virtual global::System.Object getIdStr(){
 
 public static global::System.Object access_2002(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.lang.String access$002(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.services.TwitterRESTService._fauthToken = (global::java.lang.String) _r0_o;
     return (global::java.lang.String) _r0_o;
@@ -359,9 +307,7 @@ public static global::System.Object access_2002(global::java.lang.String n1){
 
 public static global::System.Object access_2000(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.TwitterRESTService: java.lang.String access$000()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.services.TwitterRESTService._fauthToken;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.services.TwitterRESTService: java.lang.String access$000()]

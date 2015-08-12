@@ -68,10 +68,7 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -110,12 +107,8 @@ private void reset(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2_o = null;
     _r1.i = 0;
@@ -141,13 +134,9 @@ public virtual void setLocale(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setLocale(java.util.Locale)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=en
@@ -169,13 +158,9 @@ public virtual void setLocale(global::java.util.Locale n1){
 
 public virtual global::System.Object getEntityResolver(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.EntityResolver getEntityResolver()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fentityResolver;
     _r1_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fbase;
@@ -191,15 +176,11 @@ public virtual global::System.Object getEntityResolver(){
 
 public virtual void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setEntityResolver(org.xml.sax.EntityResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = ((_r3_o != null) && (_r3_o is global::org.xml.sax.ext.EntityResolver2)) ? 1 : 0;
@@ -226,13 +207,9 @@ public virtual void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 
 public virtual global::System.Object getDTDHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.DTDHandler getDTDHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fdtdHandler;
     _r1_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fbase;
@@ -248,13 +225,9 @@ public virtual global::System.Object getDTDHandler(){
 
 public virtual void setDTDHandler(global::org.xml.sax.DTDHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setDTDHandler(org.xml.sax.DTDHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -272,11 +245,8 @@ public virtual void setDocumentHandler(global::org.xml.sax.DocumentHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setDocumentHandler(org.xml.sax.DocumentHandler)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::gnu.xml.aelfred2.SAXDriver_2Adapter();
@@ -290,13 +260,9 @@ public virtual void setDocumentHandler(global::org.xml.sax.DocumentHandler n1){
 
 public virtual global::System.Object getContentHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.ContentHandler getContentHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fcontentHandler;
     _r1_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fbase;
@@ -312,13 +278,9 @@ public virtual global::System.Object getContentHandler(){
 
 public virtual void setContentHandler(global::org.xml.sax.ContentHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setContentHandler(org.xml.sax.ContentHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -334,13 +296,9 @@ public virtual void setContentHandler(global::org.xml.sax.ContentHandler n1){
 
 public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setErrorHandler(org.xml.sax.ErrorHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -356,13 +314,9 @@ public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 
 public virtual global::System.Object getErrorHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.ErrorHandler getErrorHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._ferrorHandler;
     _r1_o = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fbase;
@@ -380,21 +334,13 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void parse(org.xml.sax.InputSource)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -603,13 +549,9 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
 
 public virtual void parse(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void parse(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::org.xml.sax.InputSource();
@@ -624,12 +566,8 @@ public virtual bool getFeature(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 1;
@@ -737,11 +675,8 @@ public virtual bool getFeature(global::java.lang.String n1){
 
 public virtual global::System.Object getDeclHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.ext.DeclHandler getDeclHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fdeclHandler;
     return (global::org.xml.sax.ext.DeclHandler) _r0_o;
@@ -751,10 +686,7 @@ public virtual global::System.Object getDeclHandler(){
 public virtual bool resolveURIs(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean resolveURIs()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fresolveAll ? 1 : 0;
     return _r0.i!=0;
@@ -765,15 +697,10 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.Object getProperty(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -818,13 +745,9 @@ public virtual void setFeature(global::java.lang.String n1, bool n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -907,13 +830,9 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void setProperty(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -967,11 +886,8 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
 
 public virtual void startDocument(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void startDocument()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fcontentHandler;
     ((global::org.xml.sax.ContentHandler) _r0_o).setDocumentLocator((global::org.xml.sax.Locator) _r1_o);
@@ -985,13 +901,9 @@ public virtual void startDocument(){
 
 public virtual void skippedEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void skippedEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fcontentHandler;
@@ -1004,13 +916,9 @@ public virtual global::System.Object getExternalSubset(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: org.xml.sax.InputSource getExternalSubset(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1037,23 +945,14 @@ public virtual global::System.Object resolveEntity(bool n1, global::java.lang.St
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1 ? 1 : 0;
     _r7_o = n2;
@@ -1120,18 +1019,12 @@ public virtual global::System.Object absolutize(global::java.lang.String n1, glo
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String absolutize(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
@@ -1227,17 +1120,11 @@ public virtual global::System.Object absolutize(global::java.lang.String n1, glo
 
 public virtual void startExternalEntity(global::java.lang.String n1, global::java.lang.String n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void startExternalEntity(java.lang.String, java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1256,11 +1143,8 @@ public virtual void endExternalEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endExternalEntity(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=[document]
@@ -1279,13 +1163,9 @@ public virtual void endExternalEntity(global::java.lang.String n1){
 
 public virtual void startInternalEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void startInternalEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler;
@@ -1296,13 +1176,9 @@ public virtual void startInternalEntity(global::java.lang.String n1){
 
 public virtual void endInternalEntity(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endInternalEntity(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler;
@@ -1313,17 +1189,11 @@ public virtual void endInternalEntity(global::java.lang.String n1){
 
 public virtual void doctypeDecl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void doctypeDecl(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1336,21 +1206,14 @@ public virtual void doctypeDecl(global::java.lang.String n1, global::java.lang.S
 
 public virtual void notationDecl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void notationDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1404,23 +1267,15 @@ public virtual void notationDecl(global::java.lang.String n1, global::java.lang.
 
 public virtual void unparsedEntityDecl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void unparsedEntityDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1474,11 +1329,8 @@ public virtual void unparsedEntityDecl(global::java.lang.String n1, global::java
 
 public virtual void endDoctype(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endDoctype()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler;
     ((global::org.xml.sax.ext.LexicalHandler) _r0_o).endDTD();
@@ -1492,15 +1344,10 @@ private void declarePrefix(global::java.lang.String n1, global::java.lang.String
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1584,23 +1431,14 @@ public virtual void attribute(global::java.lang.String n1, global::java.lang.Str
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1729,29 +1567,19 @@ public virtual void startElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void startElement(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r7.i = 1;
@@ -1889,17 +1717,11 @@ public virtual void endElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endElement(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -1946,11 +1768,8 @@ public virtual void endElement(global::java.lang.String n1){
 
 public virtual void startCDATA(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void startCDATA()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler;
     ((global::org.xml.sax.ext.LexicalHandler) _r0_o).startCDATA();
@@ -1960,17 +1779,11 @@ public virtual void startCDATA(){
 
 public virtual void charData(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void charData(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -1983,11 +1796,8 @@ public virtual void charData(global::org.xmlvm._nArrayAdapter<char> n1, int n2, 
 
 public virtual void endCDATA(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endCDATA()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler;
     ((global::org.xml.sax.ext.LexicalHandler) _r0_o).endCDATA();
@@ -1997,17 +1807,11 @@ public virtual void endCDATA(){
 
 public virtual void ignorableWhitespace(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void ignorableWhitespace(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -2020,15 +1824,10 @@ public virtual void ignorableWhitespace(global::org.xmlvm._nArrayAdapter<char> n
 
 public virtual void processingInstruction(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void processingInstruction(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2040,19 +1839,12 @@ public virtual void processingInstruction(global::java.lang.String n1, global::j
 
 public virtual void comment(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void comment(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -2069,15 +1861,10 @@ public virtual void comment(global::org.xmlvm._nArrayAdapter<char> n1, int n2, i
 
 public virtual void fatal(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void fatal(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::org.xml.sax.SAXParseException();
@@ -2090,15 +1877,10 @@ public virtual void fatal(global::java.lang.String n1){
 
 public virtual void verror(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void verror(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::org.xml.sax.SAXParseException();
@@ -2111,15 +1893,10 @@ public virtual void verror(global::java.lang.String n1){
 
 public virtual void warn(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: void warn(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::org.xml.sax.SAXParseException();
@@ -2134,9 +1911,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -2148,11 +1923,8 @@ public virtual global::System.Object getURI(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getURI(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i < 0) goto label10;
@@ -2180,11 +1952,8 @@ public virtual global::System.Object getLocalName(int n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i < 0) goto label10;
@@ -2233,11 +2002,8 @@ public virtual global::System.Object getQName(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getQName(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i < 0) goto label10;
@@ -2266,13 +2032,9 @@ public virtual global::System.Object getQName(int n1){
 
 public virtual global::System.Object getName(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getName(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o).getQName((int) _r2.i);
@@ -2284,15 +2046,10 @@ public virtual global::System.Object getType(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getType(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i < 0) goto label10;
@@ -2329,11 +2086,8 @@ public virtual global::System.Object getValue(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getValue(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i < 0) goto label10;
@@ -2356,18 +2110,12 @@ public virtual global::System.Object getValue(int n1){
 public virtual int getIndex(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: int getIndex(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -2397,16 +2145,11 @@ public virtual int getIndex(global::java.lang.String n1, global::java.lang.Strin
 public virtual int getIndex(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: int getIndex(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r3_o).getLength();
@@ -2432,13 +2175,9 @@ public virtual global::System.Object getType(global::java.lang.String n1, global
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getType(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2457,11 +2196,8 @@ public virtual global::System.Object getType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getType(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o).getIndex((global::java.lang.String) _r2_o);
@@ -2479,13 +2215,9 @@ public virtual global::System.Object getValue(global::java.lang.String n1, globa
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getValue(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2504,11 +2236,8 @@ public virtual global::System.Object getValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o).getIndex((global::java.lang.String) _r2_o);
@@ -2526,15 +2255,10 @@ public virtual bool isDeclared(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isDeclared(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i < 0) goto label6;
@@ -2563,13 +2287,9 @@ public virtual bool isDeclared(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isDeclared(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r2_o).getIndex((global::java.lang.String) _r3_o);
@@ -2594,14 +2314,9 @@ public virtual bool isDeclared(global::java.lang.String n1){
 public virtual bool isDeclared(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isDeclared(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2615,11 +2330,8 @@ public virtual bool isSpecified(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isSpecified(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
@@ -2633,14 +2345,9 @@ public virtual bool isSpecified(int n1){
 public virtual bool isSpecified(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isSpecified(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2653,12 +2360,8 @@ public virtual bool isSpecified(global::java.lang.String n1, global::java.lang.S
 public virtual bool isSpecified(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isSpecified(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o).getIndex((global::java.lang.String) _r2_o);
@@ -2669,11 +2372,8 @@ public virtual bool isSpecified(global::java.lang.String n1){
 
 public virtual global::System.Object getPublicId(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getPublicId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -2684,9 +2384,7 @@ public virtual global::System.Object getSystemId(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getSystemId()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fentityStack;
     _r0.i = ((global::java.util.Stack) _r0_o).empty() ? 1 : 0;
@@ -2707,9 +2405,7 @@ public virtual int getLineNumber(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: int getLineNumber()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fparser;
     _r0.i = ((global::gnu.xml.aelfred2.XmlParser) _r0_o).getLineNumber();
@@ -2721,9 +2417,7 @@ public virtual int getColumnNumber(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.SAXDriver: int getColumnNumber()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fparser;
     _r0.i = ((global::gnu.xml.aelfred2.XmlParser) _r0_o).getColumnNumber();

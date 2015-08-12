@@ -11,11 +11,8 @@ public global::java.lang.Object _fmutex;
 
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: void <init>(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -27,13 +24,9 @@ public void @this(global::java.util.Map n1){
 
 public void @this(global::java.util.Map n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: void <init>(java.util.Map, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -46,11 +39,8 @@ public void @this(global::java.util.Map n1, global::java.lang.Object n2){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -92,13 +82,10 @@ public virtual void clear(){
 
 public virtual bool containsKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: boolean containsKey(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -141,13 +128,10 @@ public virtual bool containsKey(global::java.lang.Object n1){
 
 public virtual bool containsValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: boolean containsValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -190,15 +174,10 @@ public virtual bool containsValue(global::java.lang.Object n1){
 
 public virtual global::System.Object entrySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.util.Set entrySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -243,13 +222,10 @@ public virtual global::System.Object entrySet(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -292,13 +268,9 @@ public override bool equals(global::java.lang.Object n1){
 
 public virtual global::System.Object get(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.lang.Object get(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -341,11 +313,9 @@ public virtual global::System.Object get(global::java.lang.Object n1){
 
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: int hashCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -387,11 +357,9 @@ public override int hashCode(){
 
 public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: boolean isEmpty()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -433,15 +401,10 @@ public virtual bool isEmpty(){
 
 public virtual global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.util.Set keySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -486,15 +449,10 @@ public virtual global::System.Object keySet(){
 
 public virtual global::System.Object put(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.lang.Object put(java.lang.Object, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -538,13 +496,9 @@ public virtual global::System.Object put(global::java.lang.Object n1, global::ja
 
 public virtual void putAll(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: void putAll(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -587,13 +541,9 @@ public virtual void putAll(global::java.util.Map n1){
 
 public virtual global::System.Object remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.lang.Object remove(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -636,11 +586,9 @@ public virtual global::System.Object remove(global::java.lang.Object n1){
 
 public virtual int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: int size()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -682,15 +630,10 @@ public virtual int size(){
 
 public virtual global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.util.Collection values()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -735,11 +678,8 @@ public virtual global::System.Object values(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -781,13 +721,9 @@ public override global::System.Object toString(){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedMap: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

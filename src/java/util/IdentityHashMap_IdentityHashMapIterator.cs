@@ -18,14 +18,9 @@ public bool _fcanRemove;
 public void @this(global::java.util.MapEntry_2Type n1, global::java.util.IdentityHashMap n2){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapIterator: void <init>(java.util.MapEntry$Type, java.util.IdentityHashMap)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -48,9 +43,7 @@ public virtual bool hasNext(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     label0:;
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r2_o)._fposition;
@@ -83,9 +76,7 @@ public virtual void checkConcurrentMod(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r2_o)._fexpectedModCount;
     _r1_o = ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r2_o)._fassociatedMap;
@@ -105,9 +96,7 @@ public virtual global::System.Object next(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r2_o).checkConcurrentMod();
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r2_o).hasNext() ? 1 : 0;
@@ -136,13 +125,9 @@ public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapIterator: void remove()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r3_o).checkConcurrentMod();
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapIterator) _r3_o)._fcanRemove ? 1 : 0;

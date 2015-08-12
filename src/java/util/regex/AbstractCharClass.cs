@@ -28,7 +28,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2048;
     global::java.util.regex.AbstractCharClass._fSURROGATE_1CARDINALITY = _r0.i;
     _r0_o = new global::java.util.regex.AbstractCharClass_2PredefinedCharacterClasses();
@@ -43,12 +42,8 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2_o = null;
     ((global::java.util.regex.SpecialToken) _r3_o).@this();
@@ -68,11 +63,8 @@ public abstract bool contains(int n1);
 
 public virtual global::System.Object getBits(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.BitSet getBits()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.util.BitSet) _r0_o;
@@ -81,11 +73,8 @@ public virtual global::System.Object getBits(){
 
 public virtual global::System.Object getLowHighSurrogates(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.BitSet getLowHighSurrogates()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.AbstractCharClass) _r1_o)._flowHighSurrogates;
     return (global::java.util.BitSet) _r0_o;
@@ -97,14 +86,9 @@ public virtual bool hasLowHighSurrogates(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r2.i = 0;
@@ -136,10 +120,7 @@ public virtual bool hasLowHighSurrogates(){
 public virtual bool mayContainSupplCodepoints(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean mayContainSupplCodepoints()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.AbstractCharClass) _r1_o)._fmayContainSupplCodepoints ? 1 : 0;
     return _r0.i!=0;
@@ -149,10 +130,7 @@ public virtual bool mayContainSupplCodepoints(){
 public override int getType(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: int getType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i;
@@ -161,9 +139,7 @@ public override int getType(){
 
 public virtual global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::java.util.regex.AbstractCharClass) _r0_o;
 //XMLVM_END_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getInstance()]
@@ -171,13 +147,10 @@ public virtual global::System.Object getInstance(){
 
 public virtual global::System.Object getSurrogates(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getSurrogates()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.regex.AbstractCharClass) _r2_o)._fcharClassWithSurrogates;
     if (_r0_o != null) goto label22;
@@ -196,13 +169,10 @@ public virtual global::System.Object getSurrogates(){
 
 public virtual global::System.Object getWithoutSurrogates(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getWithoutSurrogates()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.regex.AbstractCharClass) _r2_o)._fcharClassWithoutSurrogates;
     if (_r0_o != null) goto label30;
@@ -225,10 +195,7 @@ public virtual global::System.Object getWithoutSurrogates(){
 public virtual bool hasUCI(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean hasUCI()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -238,16 +205,10 @@ public virtual bool hasUCI(){
 public virtual global::System.Object setNegative(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass setNegative(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r2.i = 0;
@@ -283,10 +244,7 @@ public virtual global::System.Object setNegative(bool n1){
 public virtual bool isNegative(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean isNegative()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.AbstractCharClass) _r1_o)._falt ? 1 : 0;
     return _r0.i!=0;
@@ -296,12 +254,8 @@ public virtual bool isNegative(){
 public static bool intersects(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean intersects(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     if (_r1.i != _r2.i) goto label4;
@@ -317,12 +271,8 @@ public static bool intersects(int n1, int n2){
 public static bool intersects(global::java.util.regex.AbstractCharClass n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean intersects(java.util.regex.AbstractCharClass, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0.i = ((global::java.util.regex.AbstractCharClass) _r1_o).contains((int) _r2.i) ? 1 : 0;
@@ -334,13 +284,9 @@ public static bool intersects(global::java.util.regex.AbstractCharClass n1, glob
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: boolean intersects(java.util.regex.AbstractCharClass, java.util.regex.AbstractCharClass)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::java.util.regex.AbstractCharClass) _r2_o).getBits();
@@ -361,13 +307,9 @@ public static bool intersects(global::java.util.regex.AbstractCharClass n1, glob
 
 public static global::System.Object getPredefinedClass(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getPredefinedClass(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     _r0_o = global::java.util.regex.AbstractCharClass._fcharClasses;

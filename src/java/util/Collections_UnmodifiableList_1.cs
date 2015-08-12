@@ -9,15 +9,10 @@ public global::java.util.Collections_2UnmodifiableList _fthis_21;
 
 public void @this(global::java.util.Collections_2UnmodifiableList n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: void <init>(java.util.Collections$UnmodifiableList, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -32,13 +27,9 @@ public void @this(global::java.util.Collections_2UnmodifiableList n1, int n2){
 
 public virtual void add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: void add(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -51,9 +42,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).hasNext() ? 1 : 0;
@@ -65,9 +54,7 @@ public virtual bool hasPrevious(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: boolean hasPrevious()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).hasPrevious() ? 1 : 0;
@@ -77,11 +64,8 @@ public virtual bool hasPrevious(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0_o = ((global::java.util.ListIterator) _r0_o).next();
@@ -93,9 +77,7 @@ public virtual int nextIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: int nextIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).nextIndex();
@@ -105,11 +87,8 @@ public virtual int nextIndex(){
 
 public virtual global::System.Object previous(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: java.lang.Object previous()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0_o = ((global::java.util.ListIterator) _r0_o).previous();
@@ -121,9 +100,7 @@ public virtual int previousIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: int previousIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableList_21) _r1_o)._fiterator;
     _r0.i = ((global::java.util.ListIterator) _r0_o).previousIndex();
@@ -133,11 +110,8 @@ public virtual int previousIndex(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();
@@ -147,13 +121,9 @@ public virtual void remove(){
 
 public virtual void set(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableList$1: void set(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();

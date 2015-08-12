@@ -39,9 +39,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = global::com.codename1.ui.validation.Validator._fdefaultValidationFailureHighlightMode;
@@ -64,9 +62,7 @@ public void @this(){
 
 public static global::System.Object getDefaultValidationFailureHighlightMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator$HighlightMode getDefaultValidationFailureHighlightMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.validation.Validator._fdefaultValidationFailureHighlightMode;
     return (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator$HighlightMode getDefaultValidationFailureHighlightMode()]
@@ -74,9 +70,7 @@ public static global::System.Object getDefaultValidationFailureHighlightMode(){
 
 public static void setDefaultValidationFailureHighlightMode(global::com.codename1.ui.validation.Validator_2HighlightMode n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setDefaultValidationFailureHighlightMode(com.codename1.ui.validation.Validator$HighlightMode)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.validation.Validator._fdefaultValidationFailureHighlightMode = (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
     return;
@@ -85,9 +79,7 @@ public static void setDefaultValidationFailureHighlightMode(global::com.codename
 
 public static global::System.Object getDefaultValidationFailedEmblem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image getDefaultValidationFailedEmblem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.validation.Validator._fdefaultValidationFailedEmblem;
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image getDefaultValidationFailedEmblem()]
@@ -95,9 +87,7 @@ public static global::System.Object getDefaultValidationFailedEmblem(){
 
 public static void setDefaultValidationFailedEmblem(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setDefaultValidationFailedEmblem(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.validation.Validator._fdefaultValidationFailedEmblem = (global::com.codename1.ui.Image) _r0_o;
     return;
@@ -107,8 +97,6 @@ public static void setDefaultValidationFailedEmblem(global::com.codename1.ui.Ima
 public static float getDefaultValidationEmblemPositionX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float getDefaultValidationEmblemPositionX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.f = global::com.codename1.ui.validation.Validator._fdefaultValidationEmblemPositionX;
     return _r0.f;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float getDefaultValidationEmblemPositionX()]
@@ -117,8 +105,6 @@ public static float getDefaultValidationEmblemPositionX(){
 public static void setDefaultValidationEmblemPositionX(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setDefaultValidationEmblemPositionX(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.f = n1;
     global::com.codename1.ui.validation.Validator._fdefaultValidationEmblemPositionX = _r0.f;
     return;
@@ -128,8 +114,6 @@ public static void setDefaultValidationEmblemPositionX(float n1){
 public static float getDefaultValidationEmblemPositionY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float getDefaultValidationEmblemPositionY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.f = global::com.codename1.ui.validation.Validator._fdefaultValidationEmblemPositionY;
     return _r0.f;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float getDefaultValidationEmblemPositionY()]
@@ -138,8 +122,6 @@ public static float getDefaultValidationEmblemPositionY(){
 public static void setDefaultValidationEmblemPositionY(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setDefaultValidationEmblemPositionY(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.f = n1;
     global::com.codename1.ui.validation.Validator._fdefaultValidationEmblemPositionY = _r0.f;
     return;
@@ -149,8 +131,6 @@ public static void setDefaultValidationEmblemPositionY(float n1){
 public static bool isValidateOnEveryKey(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: boolean isValidateOnEveryKey()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.validation.Validator._fvalidateOnEveryKey ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: boolean isValidateOnEveryKey()]
@@ -159,8 +139,6 @@ public static bool isValidateOnEveryKey(){
 public static void setValidateOnEveryKey(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValidateOnEveryKey(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.validation.Validator._fvalidateOnEveryKey = 0!=_r0.i;
     return;
@@ -169,11 +147,8 @@ public static void setValidateOnEveryKey(bool n1){
 
 public virtual global::System.Object getValidationFailureHighlightMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator$HighlightMode getValidationFailureHighlightMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailureHighlightMode;
     return (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
@@ -182,11 +157,8 @@ public virtual global::System.Object getValidationFailureHighlightMode(){
 
 public virtual void setValidationFailureHighlightMode(global::com.codename1.ui.validation.Validator_2HighlightMode n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValidationFailureHighlightMode(com.codename1.ui.validation.Validator$HighlightMode)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.validation.Validator) _r0_o)._fvalidationFailureHighlightMode = (global::com.codename1.ui.validation.Validator_2HighlightMode) _r1_o;
@@ -196,11 +168,8 @@ public virtual void setValidationFailureHighlightMode(global::com.codename1.ui.v
 
 public virtual global::System.Object getValidationFailedEmblem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image getValidationFailedEmblem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailedEmblem;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -209,11 +178,8 @@ public virtual global::System.Object getValidationFailedEmblem(){
 
 public virtual void setValidationFailedEmblem(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValidationFailedEmblem(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.validation.Validator) _r0_o)._fvalidationFailedEmblem = (global::com.codename1.ui.Image) _r1_o;
@@ -224,10 +190,7 @@ public virtual void setValidationFailedEmblem(global::com.codename1.ui.Image n1)
 public virtual float getValidationEmblemPositionX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float getValidationEmblemPositionX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionX;
     return _r0.f;
@@ -236,11 +199,8 @@ public virtual float getValidationEmblemPositionX(){
 
 public virtual void setValidationEmblemPositionX(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValidationEmblemPositionX(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.ui.validation.Validator) _r0_o)._fvalidationEmblemPositionX = _r1.f;
@@ -251,10 +211,7 @@ public virtual void setValidationEmblemPositionX(float n1){
 public virtual float getValidationEmblemPositionY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float getValidationEmblemPositionY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionY;
     return _r0.f;
@@ -263,11 +220,8 @@ public virtual float getValidationEmblemPositionY(){
 
 public virtual void setValidationEmblemPositionY(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValidationEmblemPositionY(float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.ui.validation.Validator) _r0_o)._fvalidationEmblemPositionY = _r1.f;
@@ -281,13 +235,9 @@ public virtual global::System.Object addConstraint(global::com.codename1.ui.Comp
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -312,23 +262,14 @@ public virtual global::System.Object addConstraint(global::com.codename1.ui.Comp
 
 public virtual global::System.Object addSubmitButtons(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator addSubmitButtons(com.codename1.ui.Component[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3.i = ((global::com.codename1.ui.validation.Validator) _r6_o).isValid() ? 1 : 0;
@@ -352,11 +293,8 @@ public virtual global::System.Object getComponentValue(global::com.codename1.ui.
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.lang.Object getComponentValue(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
@@ -399,17 +337,12 @@ public virtual global::System.Object getComponentValue(global::com.codename1.ui.
 
 public virtual void bindDataListener(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void bindDataListener(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = global::com.codename1.ui.validation.Validator._fvalidateOnEveryKey ? 1 : 0;
@@ -462,15 +395,11 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
 
 public virtual bool isValid(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: boolean isValid()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2_o = ((global::com.codename1.ui.validation.Validator) _r3_o)._fconstraintList;
     _r2_o = ((global::java.util.HashMap) _r2_o).keySet();
@@ -493,15 +422,11 @@ public virtual bool isValid(){
 
 public virtual void validate(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void validate(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r2_o).getComponentValue((global::com.codename1.ui.Component) _r3_o);
@@ -516,17 +441,12 @@ public virtual void validate(global::com.codename1.ui.Component n1){
 
 public virtual bool isValid(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: boolean isValid(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=cn1$$VALID_MARKER
@@ -550,33 +470,21 @@ public virtual bool isValid(global::com.codename1.ui.Component n1){
 
 public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValid(com.codename1.ui.Component, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2 ? 1 : 0;
@@ -707,11 +615,8 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
 
 public static global::System.Object access_2000(global::com.codename1.ui.validation.Validator n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.util.HashMap access$000(com.codename1.ui.validation.Validator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fconstraintList;
     return (global::java.util.HashMap) _r0_o;
@@ -721,10 +626,7 @@ public static global::System.Object access_2000(global::com.codename1.ui.validat
 public static float access_2100(global::com.codename1.ui.validation.Validator n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$100(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionX;
     return _r0.f;
@@ -734,10 +636,7 @@ public static float access_2100(global::com.codename1.ui.validation.Validator n1
 public static float access_2200(global::com.codename1.ui.validation.Validator n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$200(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionY;
     return _r0.f;
@@ -746,11 +645,8 @@ public static float access_2200(global::com.codename1.ui.validation.Validator n1
 
 public static global::System.Object access_2300(global::com.codename1.ui.validation.Validator n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$300(com.codename1.ui.validation.Validator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailedEmblem;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -761,7 +657,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID;
     global::com.codename1.ui.validation.Validator._fdefaultValidationFailureHighlightMode = (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
     _r0_o = null;

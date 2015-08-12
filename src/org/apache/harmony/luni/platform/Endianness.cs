@@ -16,11 +16,8 @@ private global::java.lang.String _fdisplayName;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Endianness: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::org.apache.harmony.luni.platform.Endianness();
     // Value=BIG_ENDIAN
     _r1_o = new global::java.lang.String();
@@ -39,11 +36,8 @@ public static void @static(){
 
 private void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Endianness: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -54,11 +48,8 @@ private void @this(global::java.lang.String n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Endianness: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.platform.Endianness) _r1_o)._fdisplayName;
     return (global::java.lang.String) _r0_o;

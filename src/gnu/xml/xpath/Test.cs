@@ -5,9 +5,7 @@ namespace gnu.xml.xpath {
 public abstract class Test: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Test: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

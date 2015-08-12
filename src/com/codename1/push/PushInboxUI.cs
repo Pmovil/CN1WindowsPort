@@ -8,18 +8,12 @@ private global::java.lang.String _freplyEmail;
 public void @this(global::com.codename1.ui.EncodedImage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: void <init>(com.codename1.ui.EncodedImage)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     ((global::com.codename1.ui.Container) _r4_o).@this();
@@ -50,29 +44,18 @@ public void @this(global::com.codename1.ui.EncodedImage n1){
 
 private global::System.Object createMessageButton(int n1, global::com.codename1.ui.EncodedImage n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: com.codename1.components.MultiButton createMessageButton(int, com.codename1.ui.EncodedImage)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10_o = n2;
@@ -121,11 +104,8 @@ private global::System.Object createMessageButton(int n1, global::com.codename1.
 
 public virtual global::System.Object getReplyEmail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: java.lang.String getReplyEmail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.push.PushInboxUI) _r1_o)._freplyEmail;
     return (global::java.lang.String) _r0_o;
@@ -134,11 +114,8 @@ public virtual global::System.Object getReplyEmail(){
 
 public virtual void setReplyEmail(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: void setReplyEmail(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.push.PushInboxUI) _r0_o)._freplyEmail = (global::java.lang.String) _r1_o;
@@ -148,15 +125,10 @@ public virtual void setReplyEmail(global::java.lang.String n1){
 
 public static global::System.Object access_2000(global::com.codename1.push.PushInboxUI n1, int n2, global::com.codename1.ui.EncodedImage n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: com.codename1.components.MultiButton access$000(com.codename1.push.PushInboxUI, int, com.codename1.ui.EncodedImage)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r3_o = n3;
@@ -167,11 +139,8 @@ public static global::System.Object access_2000(global::com.codename1.push.PushI
 
 public static global::System.Object access_2100(global::com.codename1.push.PushInboxUI n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInboxUI: java.lang.String access$100(com.codename1.push.PushInboxUI)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.push.PushInboxUI) _r1_o)._freplyEmail;
     return (global::java.lang.String) _r0_o;

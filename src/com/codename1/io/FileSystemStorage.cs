@@ -18,9 +18,7 @@ public static int _fROOT_1TYPE_1UNKNOWN = 3;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -29,9 +27,7 @@ private void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: com.codename1.io.FileSystemStorage getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.FileSystemStorage._fINSTANCE;
     return (global::com.codename1.io.FileSystemStorage) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.FileSystemStorage: com.codename1.io.FileSystemStorage getInstance()]
@@ -39,11 +35,8 @@ public static global::System.Object getInstance(){
 
 public virtual global::System.Object getRoots(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.lang.String[] getRoots()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).listFilesystemRoots();
@@ -55,11 +48,8 @@ public virtual int getRootType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: int getRootType(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -70,13 +60,9 @@ public virtual int getRootType(global::java.lang.String n1){
 
 public virtual global::System.Object listFiles(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.lang.String[] listFiles(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -89,13 +75,8 @@ public virtual long getRootSizeBytes(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: long getRootSizeBytes(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -108,13 +89,8 @@ public virtual long getRootAvailableSpace(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: long getRootAvailableSpace(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -125,13 +101,9 @@ public virtual long getRootAvailableSpace(global::java.lang.String n1){
 
 public virtual void mkdir(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void mkdir(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -142,13 +114,9 @@ public virtual void mkdir(global::java.lang.String n1){
 
 public virtual void delete(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void delete(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -161,18 +129,11 @@ public virtual void deleteRetry(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void deleteRetry(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
@@ -215,11 +176,8 @@ public virtual bool exists(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: boolean exists(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -232,11 +190,8 @@ public virtual bool isHidden(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: boolean isHidden(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -247,15 +202,10 @@ public virtual bool isHidden(global::java.lang.String n1){
 
 public virtual void setHidden(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void setHidden(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -271,15 +221,10 @@ public virtual void rename(global::java.lang.String n1, global::java.lang.String
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -309,13 +254,8 @@ public virtual long getLength(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: long getLength(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -328,13 +268,8 @@ public virtual long getLastModified(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: long getLastModified(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -347,11 +282,8 @@ public virtual bool isDirectory(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: boolean isDirectory(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -364,9 +296,7 @@ public virtual char getFileSystemSeparator(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: char getFileSystemSeparator()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getFileSystemSeparator();
@@ -376,13 +306,9 @@ public virtual char getFileSystemSeparator(){
 
 public virtual global::System.Object openOutputStream(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.io.OutputStream openOutputStream(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -393,13 +319,9 @@ public virtual global::System.Object openOutputStream(global::java.lang.String n
 
 public virtual global::System.Object openInputStream(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.io.InputStream openInputStream(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -410,15 +332,10 @@ public virtual global::System.Object openInputStream(global::java.lang.String n1
 
 public virtual global::System.Object openOutputStream(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.io.OutputStream openOutputStream(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -430,11 +347,8 @@ public virtual global::System.Object openOutputStream(global::java.lang.String n
 
 public virtual global::System.Object getAppHomePath(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: java.lang.String getAppHomePath()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getAppHomePath();
@@ -444,9 +358,7 @@ public virtual global::System.Object getAppHomePath(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.io.FileSystemStorage();
     ((global::com.codename1.io.FileSystemStorage) _r0_o).@this();
     global::com.codename1.io.FileSystemStorage._fINSTANCE = (global::com.codename1.io.FileSystemStorage) _r0_o;

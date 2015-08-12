@@ -41,15 +41,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -61,11 +56,8 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 
 public virtual global::System.Object getALink(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getALink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=alink
     _r0_o = new global::java.lang.String();
@@ -77,13 +69,9 @@ public virtual global::System.Object getALink(){
 
 public virtual void setALink(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setALink(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=alink
@@ -96,11 +84,8 @@ public virtual void setALink(global::java.lang.String n1){
 
 public virtual global::System.Object getBackground(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getBackground()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=background
     _r0_o = new global::java.lang.String();
@@ -112,13 +97,9 @@ public virtual global::System.Object getBackground(){
 
 public virtual void setBackground(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setBackground(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=background
@@ -131,11 +112,8 @@ public virtual void setBackground(global::java.lang.String n1){
 
 public virtual global::System.Object getBgColor(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getBgColor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=bgcolor
     _r0_o = new global::java.lang.String();
@@ -147,13 +125,9 @@ public virtual global::System.Object getBgColor(){
 
 public virtual void setBgColor(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setBgColor(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=bgcolor
@@ -166,11 +140,8 @@ public virtual void setBgColor(global::java.lang.String n1){
 
 public virtual global::System.Object getLink(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getLink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=link
     _r0_o = new global::java.lang.String();
@@ -182,13 +153,9 @@ public virtual global::System.Object getLink(){
 
 public virtual void setLink(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setLink(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=link
@@ -201,11 +168,8 @@ public virtual void setLink(global::java.lang.String n1){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=text
     _r0_o = new global::java.lang.String();
@@ -217,13 +181,9 @@ public virtual global::System.Object getText(){
 
 public virtual void setText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=text
@@ -236,11 +196,8 @@ public virtual void setText(global::java.lang.String n1){
 
 public virtual global::System.Object getVLink(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: java.lang.String getVLink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=vlink
     _r0_o = new global::java.lang.String();
@@ -252,13 +209,9 @@ public virtual global::System.Object getVLink(){
 
 public virtual void setVLink(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLBodyElement: void setVLink(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=vlink

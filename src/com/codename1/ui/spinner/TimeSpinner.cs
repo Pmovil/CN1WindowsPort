@@ -28,12 +28,8 @@ private bool _fcurrentMeridiem;
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::com.codename1.ui.spinner.BaseSpinner) _r2_o).@this();
@@ -53,27 +49,18 @@ public void @this(){
 
 public override void initSpinner(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void initSpinner()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r7.i = 2;
     _r6.i = 1;
@@ -143,9 +130,7 @@ public virtual void addComponents(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void addComponents()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._famPM;
     if (_r0_o == null) goto label37;
@@ -171,12 +156,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 6;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -219,16 +200,10 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Integer));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
@@ -261,12 +236,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=durationMode
@@ -348,15 +319,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -436,10 +402,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 public virtual int getMinuteStep(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getMinuteStep()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminuteStep;
     return _r0.i;
@@ -448,21 +411,13 @@ public virtual int getMinuteStep(){
 
 public virtual void setMinuteStep(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setMinuteStep(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r5_o)._fminuteStep = _r6.i;
@@ -483,10 +438,7 @@ public virtual void setMinuteStep(int n1){
 public virtual bool isShowMeridiem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: boolean isShowMeridiem()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fshowMeridiem ? 1 : 0;
     if (_r0.i == 0) goto label10;
@@ -505,21 +457,13 @@ public virtual void setShowMeridiem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setShowMeridiem(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1 ? 1 : 0;
     _r5.i = 1;
@@ -564,9 +508,7 @@ public virtual int getCurrentHour(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getCurrentHour()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fhour;
     if (_r0_o == null) goto label17;
@@ -584,15 +526,10 @@ public virtual int getCurrentHour(){
 
 public virtual void setCurrentHour(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentHour(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fcurrentHour = _r3.i;
@@ -611,9 +548,7 @@ public virtual int getCurrentMinute(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getCurrentMinute()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminute;
     if (_r0_o == null) goto label17;
@@ -631,15 +566,10 @@ public virtual int getCurrentMinute(){
 
 public virtual void setCurrentMinute(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentMinute(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fcurrentMinute = _r3.i;
@@ -659,10 +589,7 @@ public virtual bool isCurrentMeridiem(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fdurationMode ? 1 : 0;
@@ -693,15 +620,10 @@ public virtual void setCurrentMeridiem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentMeridiem(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r3_o)._fdurationMode ? 1 : 0;
@@ -732,10 +654,7 @@ public virtual void setCurrentMeridiem(bool n1){
 public virtual bool isDurationMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: boolean isDurationMode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fdurationMode ? 1 : 0;
     return _r0.i!=0;
@@ -745,16 +664,10 @@ public virtual bool isDurationMode(){
 public virtual void setDurationMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setDurationMode(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r2.i = 24;

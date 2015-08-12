@@ -9,19 +9,12 @@ public global::com.codename1.ui.SideMenuBar _fthis_20;
 
 public void @this(global::com.codename1.ui.SideMenuBar n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: void <init>(com.codename1.ui.SideMenuBar, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -37,13 +30,9 @@ public void @this(global::com.codename1.ui.SideMenuBar n1, global::com.codename1
 
 public override global::System.Object getClientProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: java.lang.Object getClientProperty(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r1_o)._fcmd;
@@ -54,15 +43,10 @@ public override global::System.Object getClientProperty(global::java.lang.String
 
 public override void putClientProperty(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: void putClientProperty(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -76,9 +60,7 @@ public override bool isEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: boolean isEnabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r1_o)._fcmd;
     _r0.i = ((global::com.codename1.ui.Command) _r0_o).isEnabled() ? 1 : 0;
@@ -88,13 +70,9 @@ public override bool isEnabled(){
 
 public override void setEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: void setEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r1_o)._fcmd;
@@ -107,13 +85,9 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper: void actionPerformed(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r2_o)._fthis_20;

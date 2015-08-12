@@ -13,17 +13,11 @@ public global::com.codename1.components.WebBrowser_24 _fthis_21;
 
 public void @this(global::com.codename1.components.WebBrowser_24 n1, global::com.codename1.ui.html.DocumentInfo n2, global::com.codename1.ui.html.IOCallback n3, global::org.xmlvm._nArrayAdapter<global::System.Object> n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void <init>(com.codename1.components.WebBrowser$4, com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -40,21 +34,14 @@ public void @this(global::com.codename1.components.WebBrowser_24 n1, global::com
 
 public override void buildRequestBody(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void buildRequestBody(java.io.OutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = -1;
@@ -101,15 +88,10 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
 
 public override void handleIOException(global::java.io.IOException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void handleIOException(java.io.IOException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.components.WebBrowser_24_21) _r2_o)._fval_2callback;
@@ -127,9 +109,7 @@ public override bool shouldAutoCloseResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: boolean shouldAutoCloseResponse()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.WebBrowser_24_21) _r1_o)._fval_2callback;
     if (_r0_o == null) goto label6;
@@ -144,13 +124,10 @@ public override bool shouldAutoCloseResponse(){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -204,15 +181,10 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void handleErrorResponseCode(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -225,15 +197,10 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4$1: void handleException(java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::java.lang.System._fout;
@@ -260,12 +227,8 @@ public override bool onRedirect(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.components.WebBrowser_24_21) _r2_o)._fthis_21;

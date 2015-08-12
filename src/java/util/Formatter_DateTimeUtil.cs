@@ -13,11 +13,8 @@ private global::java.lang.Object _fdateFormatSymbols;
 
 public void @this(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void <init>(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -30,19 +27,13 @@ public virtual void transform(global::java.util.Formatter_2FormatToken n1, globa
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform(java.util.Formatter$FormatToken, java.util.Calendar, java.lang.StringBuilder)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -196,9 +187,7 @@ private void transform_1e(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fcalendar;
     _r1.i = 5;
@@ -216,12 +205,7 @@ private void transform_1d(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 5;
@@ -239,17 +223,10 @@ private void transform_1m(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_m()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 2;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r5_o)._fcalendar;
@@ -270,12 +247,7 @@ private void transform_1j(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 6;
@@ -296,12 +268,7 @@ private void transform_1y(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 1;
@@ -323,12 +290,7 @@ private void transform_1Y(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 1;
@@ -349,12 +311,7 @@ private void transform_1C(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 1;
@@ -375,11 +332,8 @@ private void transform_1a(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r3_o)._fcalendar;
     _r1.i = 7;
@@ -400,11 +354,8 @@ private void transform_1A(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r3_o)._fcalendar;
     _r1.i = 7;
@@ -425,11 +376,8 @@ private void transform_1b(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r3_o)._fcalendar;
     _r1.i = 2;
@@ -450,11 +398,8 @@ private void transform_1B(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r3_o)._fcalendar;
     _r1.i = 2;
@@ -473,13 +418,8 @@ private void transform_1Q(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_Q()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r3_o)._fcalendar;
     _r0.l = ((global::java.util.Calendar) _r0_o).getTimeInMillis();
@@ -493,15 +433,9 @@ private void transform_1s(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_s()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r0.l = ((global::java.util.Calendar) _r0_o).getTimeInMillis();
@@ -515,19 +449,13 @@ private void transform_1s(){
 
 private void transform_1Z(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_Z()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r5_o)._fcalendar;
     _r0_o = ((global::java.util.Calendar) _r0_o).getTimeZone();
@@ -550,12 +478,7 @@ private void transform_1z(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 15;
@@ -583,11 +506,8 @@ private void transform_1p(bool n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fcalendar;
@@ -612,14 +532,10 @@ private void transform_1N(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 14;
@@ -642,12 +558,7 @@ private void transform_1L(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 14;
@@ -668,12 +579,7 @@ private void transform_1S(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 13;
@@ -694,12 +600,7 @@ private void transform_1M(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 12;
@@ -719,9 +620,7 @@ private void transform_1l(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fcalendar;
     _r1.i = 10;
@@ -741,9 +640,7 @@ private void transform_1k(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fcalendar;
     _r1.i = 11;
@@ -761,12 +658,7 @@ private void transform_1I(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 10;
@@ -790,12 +682,7 @@ private void transform_1H(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r4_o)._fcalendar;
     _r1.i = 11;
@@ -811,13 +698,9 @@ private void transform_1H(){
 
 private void transform_1R(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_R()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1H();
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fresult;
@@ -830,13 +713,9 @@ private void transform_1R(){
 
 private void transform_1T(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_T()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 58;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1H();
@@ -855,10 +734,7 @@ private void transform_1r(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 58;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1I();
@@ -879,13 +755,9 @@ private void transform_1r(){
 
 private void transform_1D(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_D()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 47;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1m();
@@ -901,13 +773,9 @@ private void transform_1D(){
 
 private void transform_1F(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_F()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 45;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1Y();
@@ -923,13 +791,9 @@ private void transform_1F(){
 
 private void transform_1c(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: void transform_c()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 32;
     ((global::java.util.Formatter_2DateTimeUtil) _r2_o).transform_1a();
@@ -954,23 +818,14 @@ private void transform_1c(){
 
 private static global::System.Object paddingZeros(long n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: java.lang.String paddingZeros(long, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.l = n1;
     _r7.i = n2;
     _r0_o = new global::java.lang.StringBuilder();
@@ -1004,13 +859,9 @@ private static global::System.Object paddingZeros(long n1, int n2){
 
 private global::System.Object getDateFormatSymbols(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$DateTimeUtil: java.lang.Object getDateFormatSymbols()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2DateTimeUtil) _r2_o)._fdateFormatSymbols;
     if (_r0_o != null) goto label13;

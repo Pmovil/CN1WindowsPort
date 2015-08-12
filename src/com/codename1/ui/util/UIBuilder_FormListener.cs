@@ -15,11 +15,8 @@ public global::com.codename1.ui.util.UIBuilder _fthis_20;
 
 public void @this(global::com.codename1.ui.util.UIBuilder n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void <init>(com.codename1.ui.util.UIBuilder)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r0_o)._fthis_20 = (global::com.codename1.ui.util.UIBuilder) _r1_o;
@@ -30,15 +27,10 @@ public void @this(global::com.codename1.ui.util.UIBuilder n1){
 
 public void @this(global::com.codename1.ui.util.UIBuilder n1, global::com.codename1.ui.Form n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void <init>(com.codename1.ui.util.UIBuilder, com.codename1.ui.Form, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -53,17 +45,11 @@ public void @this(global::com.codename1.ui.util.UIBuilder n1, global::com.codena
 
 public void @this(global::com.codename1.ui.util.UIBuilder n1, global::com.codename1.ui.Command n2, global::com.codename1.ui.events.ActionEvent n3, global::com.codename1.ui.Form n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void <init>(com.codename1.ui.util.UIBuilder, com.codename1.ui.Command, com.codename1.ui.events.ActionEvent, com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -80,15 +66,10 @@ public void @this(global::com.codename1.ui.util.UIBuilder n1, global::com.codena
 
 private void waitForForm(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void waitForForm(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -125,17 +106,12 @@ private void waitForForm(global::com.codename1.ui.Form n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r4_o)._fcurrentAction;
     if (_r1_o == null) goto label39;
@@ -193,31 +169,20 @@ public virtual void run(){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder$FormListener: void actionPerformed(com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r8.i = 1;

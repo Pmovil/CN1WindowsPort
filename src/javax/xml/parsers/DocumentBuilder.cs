@@ -5,9 +5,7 @@ namespace javax.xml.parsers {
 public abstract class DocumentBuilder: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,15 +14,10 @@ public void @this(){
 
 public virtual global::System.Object parse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -44,17 +37,11 @@ public virtual global::System.Object parse(global::java.io.InputStream n1){
 
 public virtual global::System.Object parse(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.InputStream, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -76,15 +63,10 @@ public virtual global::System.Object parse(global::java.io.InputStream n1, globa
 
 public virtual global::System.Object parse(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -104,15 +86,10 @@ public virtual global::System.Object parse(global::java.lang.String n1){
 
 public virtual global::System.Object parse(global::java.io.File n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.File)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label10;
@@ -151,9 +128,7 @@ public abstract global::System.Object getDOMImplementation();
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[javax.xml.parsers.DocumentBuilder: void reset()]
@@ -161,11 +136,8 @@ public virtual void reset(){
 
 public virtual global::System.Object getSchema(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: java.lang.Object getSchema()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.Object) _r0_o;
@@ -175,10 +147,7 @@ public virtual global::System.Object getSchema(){
 public virtual bool isXIncludeAware(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilder: boolean isXIncludeAware()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;

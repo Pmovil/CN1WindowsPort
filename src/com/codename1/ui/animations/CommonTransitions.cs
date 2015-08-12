@@ -79,12 +79,8 @@ private bool _ffirstFinished;
 private void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void <init>(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.animations.Transition) _r1_o).@this();
@@ -98,14 +94,9 @@ private void @this(int n1){
 public virtual bool isHorizontalSlide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isHorizontalSlide()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r3_o)._ftransitionType;
@@ -128,14 +119,9 @@ public virtual bool isHorizontalSlide(){
 public virtual bool isVerticalSlide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isVerticalSlide()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r3_o)._ftransitionType;
@@ -158,12 +144,8 @@ public virtual bool isVerticalSlide(){
 public virtual bool isHorizontalCover(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isHorizontalCover()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r2_o)._ftransitionType;
     _r1.i = 7;
@@ -186,14 +168,9 @@ public virtual bool isHorizontalCover(){
 public virtual bool isVerticalCover(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isVerticalCover()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r3_o)._ftransitionType;
@@ -217,10 +194,7 @@ public virtual bool isVerticalCover(){
 public virtual bool isForwardSlide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isForwardSlide()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r1_o)._fforward ? 1 : 0;
     return _r0.i!=0;
@@ -230,10 +204,7 @@ public virtual bool isForwardSlide(){
 public virtual int getTransitionSpeed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: int getTransitionSpeed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r1_o)._fspeed;
     return _r0.i;
@@ -242,11 +213,8 @@ public virtual int getTransitionSpeed(){
 
 public static global::System.Object createEmpty(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createEmpty()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.animations.CommonTransitions();
     _r1.i = 0;
     ((global::com.codename1.ui.animations.CommonTransitions) _r0_o).@this((int) _r1.i);
@@ -256,15 +224,10 @@ public static global::System.Object createEmpty(){
 
 public static global::System.Object createSlideFadeTitle(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createSlideFadeTitle(boolean, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r3.i = n2;
     _r0_o = new global::com.codename1.ui.animations.CommonTransitions();
@@ -278,11 +241,8 @@ public static global::System.Object createSlideFadeTitle(bool n1, int n2){
 
 public static global::System.Object createDialogPulsate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createDialogPulsate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.animations.CommonTransitions();
     _r1.i = 6;
     ((global::com.codename1.ui.animations.CommonTransitions) _r0_o).@this((int) _r1.i);
@@ -295,12 +255,8 @@ public static global::System.Object createFastSlide(int n1, bool n2, int n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2 ? 1 : 0;
     _r3.i = n3;
@@ -322,12 +278,8 @@ public static global::System.Object createSlide(int n1, bool n2, int n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2 ? 1 : 0;
     _r3.i = n3;
@@ -339,19 +291,12 @@ public static global::System.Object createSlide(int n1, bool n2, int n3){
 
 public static global::System.Object createSlide(int n1, bool n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createSlide(int, boolean, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
     _r4.i = n3;
@@ -371,17 +316,11 @@ public static global::System.Object createSlide(int n1, bool n2, int n3, bool n4
 
 public static global::System.Object createCover(int n1, bool n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createCover(int, boolean, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
     _r4.i = n3;
@@ -399,17 +338,11 @@ public static global::System.Object createCover(int n1, bool n2, int n3){
 
 public static global::System.Object createUncover(int n1, bool n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createUncover(int, boolean, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
     _r4.i = n3;
@@ -427,19 +360,12 @@ public static global::System.Object createUncover(int n1, bool n2, int n3){
 
 public static global::System.Object createFastSlide(int n1, bool n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createFastSlide(int, boolean, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
     _r4.i = n3;
@@ -459,13 +385,9 @@ public static global::System.Object createFastSlide(int n1, bool n2, int n3, boo
 
 public static global::System.Object createFade(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createFade(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0_o = new global::com.codename1.ui.animations.CommonTransitions();
     _r1.i = 2;
@@ -477,13 +399,9 @@ public static global::System.Object createFade(int n1){
 
 public static global::System.Object createTimeline(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.CommonTransitions createTimeline(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r1.i = 4;
     _r0_o = new global::com.codename1.ui.animations.CommonTransitions();
@@ -496,13 +414,9 @@ public static global::System.Object createTimeline(global::com.codename1.ui.Imag
 
 private global::System.Object getDialogParent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.Container getDialogParent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;
@@ -520,9 +434,7 @@ public override void initTransition(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
@@ -534,36 +446,21 @@ public override void initTransition(){
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
     _r5.i = 0;
     _r0.i = _r5.i;
@@ -1425,19 +1322,13 @@ public override void initTransition(){
 
 private global::System.Object createMutableImage(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.Image createMutableImage(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -1458,18 +1349,11 @@ public virtual global::System.Object createMotion(int n1, int n2, int n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -1515,20 +1399,13 @@ public virtual global::System.Object createMotion(int n1, int n2, int n3){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean animate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 900;
     _r3.i = 0;
@@ -1608,7 +1485,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
@@ -1622,50 +1498,27 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
-    global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    global::System.Object _r28_o = null;
-    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
-    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
-    global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
-    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r32_o = this;
@@ -2344,30 +2197,17 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 private void paintShiftFadeHierarchy(global::com.codename1.ui.Container n1, int n2, global::com.codename1.ui.Graphics n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paintShiftFadeHierarchy(com.codename1.ui.Container, int, com.codename1.ui.Graphics, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -2406,31 +2246,19 @@ private void paintShiftFadeHierarchy(global::com.codename1.ui.Container n1, int 
 
 private global::System.Object getComponentShiftMotion(global::com.codename1.ui.Component n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.Motion getComponentShiftMotion(com.codename1.ui.Component, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.i = n2 ? 1 : 0;
@@ -2515,38 +2343,22 @@ private global::System.Object getComponentShiftMotion(global::com.codename1.ui.C
 private void paintAlpha(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paintAlpha(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r13.i = 255;
@@ -2626,23 +2438,15 @@ private void paintAlpha(global::com.codename1.ui.Graphics n1){
 
 private void removeConstant(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void removeConstant(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4_o = null;
@@ -2676,17 +2480,11 @@ private void removeConstant(global::com.codename1.ui.Container n1){
 
 public override void cleanup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void cleanup()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = null;
     _r1.i = ((global::com.codename1.ui.animations.CommonTransitions) _r4_o)._ftransitionType;
@@ -2715,35 +2513,21 @@ public override void cleanup(){
 
 private void paintSlideAtPosition(global::com.codename1.ui.Graphics n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paintSlideAtPosition(com.codename1.ui.Graphics, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -2847,35 +2631,21 @@ private void paintSlideAtPosition(global::com.codename1.ui.Graphics n1, int n2, 
 
 private void paintCoverAtPosition(global::com.codename1.ui.Graphics n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paintCoverAtPosition(com.codename1.ui.Graphics, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -3000,35 +2770,21 @@ private void paintCoverAtPosition(global::com.codename1.ui.Graphics n1, int n2, 
 
 private void paintFastSlideAtPosition(global::com.codename1.ui.Graphics n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paintFastSlideAtPosition(com.codename1.ui.Graphics, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -3133,12 +2889,8 @@ private void paintFastSlideAtPosition(global::com.codename1.ui.Graphics n1, int 
 private int getDialogTitleHeight(global::com.codename1.ui.Dialog n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: int getDialogTitleHeight(com.codename1.ui.Dialog)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -3148,25 +2900,17 @@ private int getDialogTitleHeight(global::com.codename1.ui.Dialog n1){
 
 private void drawDialogCmp(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.Dialog n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void drawDialogCmp(com.codename1.ui.Graphics, com.codename1.ui.Dialog)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -3210,29 +2954,17 @@ private void drawDialogCmp(global::com.codename1.ui.Graphics n1, global::com.cod
 
 private void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.Component n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void paint(com.codename1.ui.Graphics, com.codename1.ui.Component, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -3256,40 +2988,24 @@ private void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.u
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15_o = n2;
@@ -3385,11 +3101,8 @@ private void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.u
 
 public virtual global::System.Object getMotion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.Motion getMotion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r1_o)._fmotion;
     return (global::com.codename1.ui.animations.Motion) _r0_o;
@@ -3399,12 +3112,8 @@ public virtual global::System.Object getMotion(){
 public virtual void setMotion(global::com.codename1.ui.animations.Motion n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void setMotion(com.codename1.ui.animations.Motion)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -3417,12 +3126,8 @@ public virtual void setMotion(global::com.codename1.ui.animations.Motion n1){
 public virtual void setMotion(global::com.codename1.util.LazyValue n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void setMotion(com.codename1.util.LazyValue)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -3435,22 +3140,14 @@ public virtual void setMotion(global::com.codename1.util.LazyValue n1){
 public override global::System.Object copy(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.animations.Transition copy(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1 ? 1 : 0;
     _r4.i = 1;
@@ -3573,10 +3270,7 @@ public override global::System.Object copy(bool n1){
 public virtual bool isLinearMotion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isLinearMotion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r1_o)._flinearMotion ? 1 : 0;
     return _r0.i!=0;
@@ -3585,11 +3279,8 @@ public virtual bool isLinearMotion(){
 
 public virtual void setLinearMotion(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void setLinearMotion(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._flinearMotion = 0!=_r1.i;
@@ -3600,8 +3291,6 @@ public virtual void setLinearMotion(bool n1){
 public static bool isDefaultLinearMotion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isDefaultLinearMotion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.animations.CommonTransitions._fdefaultLinearMotion ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.CommonTransitions: boolean isDefaultLinearMotion()]
@@ -3610,8 +3299,6 @@ public static bool isDefaultLinearMotion(){
 public static void setDefaultLinearMotion(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void setDefaultLinearMotion(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.animations.CommonTransitions._fdefaultLinearMotion = 0!=_r0.i;
     return;
@@ -3621,8 +3308,6 @@ public static void setDefaultLinearMotion(bool n1){
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.CommonTransitions: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.ui.animations.CommonTransitions._fdefaultLinearMotion = 0!=_r0.i;
     return;

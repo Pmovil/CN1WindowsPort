@@ -7,15 +7,10 @@ public global::java.util.regex.AbstractSet _finnerSet;
 
 public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: void <init>(java.util.regex.AbstractSet, java.util.regex.AbstractSet, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,11 +24,8 @@ public void @this(global::java.util.regex.AbstractSet n1, global::java.util.rege
 
 public virtual global::System.Object getInnerSet(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: java.util.regex.AbstractSet getInnerSet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.QuantifierSet) _r1_o)._finnerSet;
     return (global::java.util.regex.AbstractSet) _r0_o;
@@ -42,11 +34,8 @@ public virtual global::System.Object getInnerSet(){
 
 public virtual void setInnerSet(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: void setInnerSet(java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.regex.QuantifierSet) _r0_o)._finnerSet = (global::java.util.regex.AbstractSet) _r1_o;
@@ -58,11 +47,8 @@ public override bool first(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: boolean first(java.util.regex.AbstractSet)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.regex.QuantifierSet) _r1_o)._finnerSet;
@@ -83,12 +69,8 @@ public override bool first(global::java.util.regex.AbstractSet n1){
 public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: boolean hasConsumed(java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -100,13 +82,9 @@ public override void processSecondPass(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.QuantifierSet: void processSecondPass()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     ((global::java.util.regex.QuantifierSet) _r3_o)._fisSecondPassVisited = 0!=_r2.i;

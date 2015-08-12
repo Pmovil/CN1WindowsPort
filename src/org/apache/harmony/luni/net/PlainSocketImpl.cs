@@ -64,10 +64,7 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::java.net.SocketImpl) _r2_o).@this();
@@ -89,12 +86,8 @@ public void @this(global::java.io.FileDescriptor n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 1;
@@ -112,11 +105,8 @@ public void @this(global::java.io.FileDescriptor n1){
 
 public void @this(global::java.net.Proxy n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void <init>(java.net.Proxy)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r0_o).@this();
@@ -130,18 +120,11 @@ public void @this(global::java.io.FileDescriptor n1, int n2, global::java.net.In
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -165,21 +148,16 @@ public void @this(global::java.io.FileDescriptor n1, int n2, global::java.net.In
 
 public override void accept(global::java.net.SocketImpl n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void accept(java.net.SocketImpl)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -313,13 +291,9 @@ public override void accept(global::java.net.SocketImpl n1){
 
 private global::System.Object getSocketImplField(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.lang.reflect.Field getSocketImplField(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::org.apache.harmony.luni.net.PlainSocketImpl_21();
@@ -334,9 +308,7 @@ public override int available(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: int available()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -386,17 +358,11 @@ public override void bind(global::java.net.InetAddress n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void bind(java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -420,13 +386,10 @@ public override void bind(global::java.net.InetAddress n1, int n2){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -523,17 +486,11 @@ public override void close(){
 
 public override void connect(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void connect(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -548,14 +505,9 @@ public override void connect(global::java.lang.String n1, int n2){
 public override void connect(global::java.net.InetAddress n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void connect(java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -569,24 +521,17 @@ private void connect(global::java.net.InetAddress n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void connect(java.net.InetAddress, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
@@ -702,17 +647,11 @@ private void connect(global::java.net.InetAddress n1, int n2, int n3){
 
 public override void create(bool n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void create(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r3_o)._fstreaming = 0!=_r4.i;
@@ -734,9 +673,7 @@ public override void create(bool n1){
 
 public override void @finally(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void finalize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r0_o).close();
     return;
@@ -747,9 +684,7 @@ public override global::System.Object getInputStream(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.io.InputStream getInputStream()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -805,11 +740,8 @@ public override global::System.Object getOption(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 4102;
@@ -844,9 +776,7 @@ public override global::System.Object getOutputStream(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.io.OutputStream getOutputStream()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -900,13 +830,9 @@ public override void listen(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void listen(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o)._fproxy;
@@ -924,19 +850,13 @@ public override void listen(int n1){
 
 public override void setOption(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void setOption(int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -994,9 +914,7 @@ private int socksGetServerPort(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: int socksGetServerPort()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o)._fproxy;
     _r1_o = ((global::java.net.Proxy) _r0_o).address();
@@ -1008,15 +926,10 @@ private int socksGetServerPort(){
 
 private global::System.Object socksGetServerAddress(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.net.InetAddress socksGetServerAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r3_o)._fproxy;
     _r0_o = ((global::java.net.Proxy) _r0_o).address();
@@ -1038,26 +951,18 @@ private global::System.Object socksGetServerAddress(){
 
 private void socksConnect(global::java.net.InetAddress n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void socksConnect(java.net.InetAddress, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
@@ -1126,14 +1031,9 @@ private void socksRequestConnection(global::java.net.InetAddress n1, int n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -1158,15 +1058,11 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public virtual void socksAccept(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void socksAccept()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r3_o).socksReadReply();
 // Red class access removed: org.apache.harmony.luni.net.Socks4Message getCommandOrResult
@@ -1189,11 +1085,8 @@ public override void shutdownInput(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void shutdownInput()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 1;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o)._fshutdownInput = 0!=_r0.i;
@@ -1206,13 +1099,9 @@ public override void shutdownInput(){
 
 public override void shutdownOutput(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void shutdownOutput()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o)._fnetImpl;
     _r1_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o)._ffd;
@@ -1232,8 +1121,6 @@ private void socksBind(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -1317,22 +1204,13 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 private void socksSendRequest(int n1, global::java.net.InetAddress n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void socksSendRequest(int, java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -1366,7 +1244,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 private global::System.Object socksReadReply(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.lang.Object socksReadReply()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -1375,12 +1252,8 @@ private global::System.Object socksReadReply(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 8;
 // Red class access removed: org.apache.harmony.luni.net.Socks4Message new-instance
@@ -1416,17 +1289,11 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public override void connect(global::java.net.SocketAddress n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void connect(java.net.SocketAddress, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -1442,11 +1309,8 @@ public override bool supportsUrgentData(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: boolean supportsUrgentData()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o)._fstreaming ? 1 : 0;
     if (_r0.i == 0) goto label16;
@@ -1465,17 +1329,11 @@ public override bool supportsUrgentData(){
 
 public override void sendUrgentData(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void sendUrgentData(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r3_o)._fnetImpl;
@@ -1488,11 +1346,8 @@ public override void sendUrgentData(int n1){
 
 public virtual global::System.Object getFD(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.io.FileDescriptor getFD()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o)._ffd;
     return (global::java.io.FileDescriptor) _r0_o;
@@ -1501,11 +1356,8 @@ public virtual global::System.Object getFD(){
 
 private void setLocalport(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void setLocalport(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r0_o)._flocalport = _r1.i;
@@ -1519,25 +1371,15 @@ public virtual int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -1572,27 +1414,16 @@ public override int write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, in
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: int write(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;

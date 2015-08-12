@@ -7,11 +7,8 @@ private global::java.util.regex.AbstractLineTerminator _flt;
 
 public void @this(global::java.util.regex.AbstractLineTerminator n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.MultiLineSOLSet: void <init>(java.util.regex.AbstractLineTerminator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.regex.AbstractSet) _r0_o).@this();
@@ -25,18 +22,11 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -70,12 +60,8 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.MultiLineSOLSet: boolean hasConsumed(java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -85,11 +71,8 @@ public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.MultiLineSOLSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=^
     _r0_o = new global::java.lang.String();

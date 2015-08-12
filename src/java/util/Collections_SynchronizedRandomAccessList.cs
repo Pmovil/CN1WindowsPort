@@ -7,11 +7,8 @@ private static long _fserialVersionUID = 1530674583602358482L;
 
 public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2SynchronizedList) _r0_o).@this((global::java.util.List) _r1_o);
@@ -21,13 +18,9 @@ public void @this(global::java.util.List n1){
 
 public void @this(global::java.util.List n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -38,20 +31,13 @@ public void @this(global::java.util.List n1, global::java.lang.Object n2){
 
 public override global::System.Object subList(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: java.util.List subList(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
@@ -97,13 +83,9 @@ public override global::System.Object subList(int n1, int n2){
 
 private global::System.Object writeReplace(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: java.lang.Object writeReplace()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Collections_2SynchronizedList();
     _r1_o = ((global::java.util.Collections_2SynchronizedRandomAccessList) _r2_o)._flist;

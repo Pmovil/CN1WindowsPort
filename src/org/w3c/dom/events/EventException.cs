@@ -9,13 +9,9 @@ public static short _fUNSPECIFIED_1EVENT_1TYPE_1ERR = 0;
 
 public void @this(short n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.events.EventException: void <init>(short, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;

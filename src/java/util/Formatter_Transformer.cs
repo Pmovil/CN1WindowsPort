@@ -21,15 +21,10 @@ private global::java.util.Formatter_2DateTimeUtil _fdateTimeUtil;
 
 public void @this(global::java.util.Formatter n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: void <init>(java.util.Formatter, java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -48,11 +43,8 @@ public void @this(global::java.util.Formatter n1, global::java.util.Locale n2){
 
 private global::System.Object getNumberFormat(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.Object getNumberFormat()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r1_o)._fnumberFormat;
     if (_r0_o != null) goto label12;
@@ -68,13 +60,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 private global::System.Object getDecimalFormatSymbols(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.Object getDecimalFormatSymbols()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r2_o)._fdecimalFormatSymbols;
     if (_r0_o != null) goto label13;
@@ -96,13 +84,9 @@ public virtual global::System.Object transform(global::java.util.Formatter_2Form
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -189,7 +173,6 @@ public virtual global::System.Object transform(global::java.util.Formatter_2Form
 
 private global::System.Object transformFromBoolean(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.String transformFromBoolean()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -198,10 +181,7 @@ private global::System.Object transformFromBoolean(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -265,7 +245,6 @@ private global::System.Object transformFromBoolean(){
 
 private global::System.Object transformFromHashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.String transformFromHashCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -274,10 +253,7 @@ private global::System.Object transformFromHashCode(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -344,9 +320,7 @@ private global::System.Object transformFromString(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r3.i = 1;
@@ -449,10 +423,7 @@ private global::System.Object transformFromCharacter(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -576,7 +547,6 @@ private global::System.Object transformFromCharacter(){
 
 private global::System.Object transformFromPercent(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.String transformFromPercent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -585,10 +555,7 @@ private global::System.Object transformFromPercent(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -648,9 +615,7 @@ private global::System.Object transformFromLineSeparator(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r2_o)._fformatToken;
     _r0.i = ((global::java.util.Formatter_2FormatToken) _r0_o).isPrecisionSet() ? 1 : 0;
@@ -705,14 +670,9 @@ private global::System.Object padding(global::java.lang.StringBuilder n1, int n2
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -786,29 +746,14 @@ private global::System.Object transformFromInteger(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r1.i = 0;
     _r2.i = 0;
@@ -1082,16 +1027,10 @@ private global::System.Object wrapParentheses(global::java.lang.StringBuilder n1
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 41;
@@ -1128,11 +1067,8 @@ private global::System.Object transformFromSpecialNumber(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = null;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r4_o)._farg;
@@ -1219,13 +1155,10 @@ private global::System.Object transformFromSpecialNumber(){
 
 private global::System.Object transformFromNull(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.String transformFromNull()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r2_o)._fformatToken;
     _r1_o = ((global::java.util.Formatter_2Transformer) _r2_o)._fformatToken;
@@ -1258,18 +1191,11 @@ private global::System.Object transformFromBigInteger(){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 32;
     _r9.i = 8;
@@ -1461,10 +1387,8 @@ private global::System.Object transformFromFloat(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$Transformer: java.lang.String transformFromFloat()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -1472,18 +1396,11 @@ private global::System.Object transformFromFloat(){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 4;
     _r9.i = 1;
@@ -1689,11 +1606,8 @@ private global::System.Object transformFromDateTime(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r1.i = 0;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._fformatToken;

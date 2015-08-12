@@ -9,13 +9,9 @@ private global::com.codename1.maps.Tile _f_1tile;
 
 public void @this(global::com.codename1.ui.geom.Point n1, global::com.codename1.maps.Tile n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.PositionedTile: void <init>(com.codename1.ui.geom.Point, com.codename1.maps.Tile)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,11 +24,8 @@ public void @this(global::com.codename1.ui.geom.Point n1, global::com.codename1.
 
 public virtual global::System.Object position(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.PositionedTile: com.codename1.ui.geom.Point position()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.PositionedTile) _r1_o)._f_1position;
     return (global::com.codename1.ui.geom.Point) _r0_o;
@@ -41,11 +34,8 @@ public virtual global::System.Object position(){
 
 public virtual global::System.Object tile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.PositionedTile: com.codename1.maps.Tile tile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.PositionedTile) _r1_o)._f_1tile;
     return (global::com.codename1.maps.Tile) _r0_o;

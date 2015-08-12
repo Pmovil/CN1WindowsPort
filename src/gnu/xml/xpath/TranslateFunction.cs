@@ -17,11 +17,8 @@ public void @this(global::java.util.List n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 0;
@@ -40,15 +37,10 @@ public void @this(global::java.util.List n1){
 
 public void @this(global::gnu.xml.xpath.Expr n1, global::gnu.xml.xpath.Expr n2, global::gnu.xml.xpath.Expr n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.TranslateFunction: void <init>(gnu.xml.xpath.Expr, gnu.xml.xpath.Expr, gnu.xml.xpath.Expr)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -63,49 +55,27 @@ public void @this(global::gnu.xml.xpath.Expr n1, global::gnu.xml.xpath.Expr n2, 
 
 public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.TranslateFunction: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19.i = n2;
@@ -183,19 +153,12 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
 
 public override global::System.Object clone(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.TranslateFunction: gnu.xml.xpath.Expr clone(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = new global::gnu.xml.xpath.TranslateFunction();
@@ -214,11 +177,8 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.TranslateFunction: boolean references(javax.xml.namespace.QName)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.TranslateFunction) _r1_o)._farg1;
@@ -241,15 +201,10 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.TranslateFunction: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     // Value=,
     _r2_o = new global::java.lang.String();

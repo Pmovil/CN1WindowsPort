@@ -5,11 +5,8 @@ namespace java.util {
 public class HashMap_2KeyIterator: global::java.util.HashMap_2AbstractMapIterator,global::java.util.Iterator {
 public void @this(global::java.util.HashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$KeyIterator: void <init>(java.util.HashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.HashMap_2AbstractMapIterator) _r0_o).@this((global::java.util.HashMap) _r1_o);
@@ -19,11 +16,8 @@ public void @this(global::java.util.HashMap n1){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$KeyIterator: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.HashMap_2KeyIterator) _r1_o).makeNext();
     _r0_o = ((global::java.util.HashMap_2KeyIterator) _r1_o)._fcurrentEntry;

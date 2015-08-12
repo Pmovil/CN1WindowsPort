@@ -15,17 +15,12 @@ private global::com.codename1.ui.Component _fendMarker;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     ((global::java.lang.Object) _r4_o).@this();
     _r2.i = -1;
@@ -49,13 +44,9 @@ private void @this(){
 
 public virtual void reachedEnd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void reachedEnd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.InfiniteScrollAdapter) _r2_o)._finfiniteContainer;
     _r1_o = ((global::com.codename1.components.InfiniteScrollAdapter) _r2_o)._fendMarker;
@@ -75,11 +66,8 @@ public static global::System.Object createInfiniteScroll(global::com.codename1.u
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: com.codename1.components.InfiniteScrollAdapter createInfiniteScroll(com.codename1.ui.Container, java.lang.Runnable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = 1;
@@ -90,19 +78,12 @@ public static global::System.Object createInfiniteScroll(global::com.codename1.u
 
 public static global::System.Object createInfiniteScroll(global::com.codename1.ui.Container n1, global::java.lang.Runnable n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: com.codename1.components.InfiniteScrollAdapter createInfiniteScroll(com.codename1.ui.Container, java.lang.Runnable, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.i = n3 ? 1 : 0;
@@ -131,17 +112,11 @@ public static global::System.Object createInfiniteScroll(global::com.codename1.u
 
 public static void addMoreComponents(global::com.codename1.ui.Container n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void addMoreComponents(com.codename1.ui.Container, com.codename1.ui.Component[], boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3 ? 1 : 0;
@@ -157,29 +132,19 @@ public static void addMoreComponents(global::com.codename1.ui.Container n1, glob
 
 public virtual void addMoreComponents(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void addMoreComponents(com.codename1.ui.Component[], boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2 ? 1 : 0;
@@ -235,10 +200,7 @@ public virtual void addMoreComponents(global::org.xmlvm._nArrayAdapter<global::S
 public virtual int getComponentLimit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: int getComponentLimit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.InfiniteScrollAdapter) _r1_o)._fcomponentLimit;
     return _r0.i;
@@ -247,11 +209,8 @@ public virtual int getComponentLimit(){
 
 public virtual void setComponentLimit(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void setComponentLimit(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.components.InfiniteScrollAdapter) _r0_o)._fcomponentLimit = _r1.i;

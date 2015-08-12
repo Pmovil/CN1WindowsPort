@@ -5,9 +5,7 @@ namespace gnu.xml.aelfred2 {
 public class XmlReader_2FatalErrorHandler: global::org.xml.sax.ext.DefaultHandler2 {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlReader$FatalErrorHandler: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::org.xml.sax.ext.DefaultHandler2) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public override void error(global::org.xml.sax.SAXParseException n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlReader$FatalErrorHandler: void error(org.xml.sax.SAXParseException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXParseException) _r1_o);

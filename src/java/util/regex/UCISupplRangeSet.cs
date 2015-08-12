@@ -5,13 +5,9 @@ namespace java.util.regex {
 public class UCISupplRangeSet: global::java.util.regex.SupplRangeSet {
 public void @this(global::java.util.regex.AbstractCharClass n1, global::java.util.regex.AbstractSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCISupplRangeSet: void <init>(java.util.regex.AbstractCharClass, java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -22,11 +18,8 @@ public void @this(global::java.util.regex.AbstractCharClass n1, global::java.uti
 
 public void @this(global::java.util.regex.AbstractCharClass n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCISupplRangeSet: void <init>(java.util.regex.AbstractCharClass)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.regex.SupplRangeSet) _r0_o).@this((global::java.util.regex.AbstractCharClass) _r1_o);
@@ -39,12 +32,8 @@ public override bool contains(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::java.util.regex.UCISupplRangeSet) _r2_o)._fchars;
@@ -57,13 +46,10 @@ public override bool contains(int n1){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCISupplRangeSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=UCI range:

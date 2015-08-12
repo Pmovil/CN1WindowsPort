@@ -37,16 +37,10 @@ public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _
 public void @this(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: void <init>(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -59,11 +53,8 @@ public void @this(int n1, int n2, int n3){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.toString();
     return (global::java.lang.String) _r0_o;
@@ -73,12 +64,8 @@ public override global::System.Object toString(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = base.equals((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -89,10 +76,7 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = base.hashCode();
     return _r0.i;
@@ -101,11 +85,8 @@ public override int hashCode(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: com.codename1.charts.util.ColorUtil$IColor clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.clone();
     return (global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o;
@@ -114,19 +95,12 @@ public override global::System.Object clone(){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = 192;
     _r2.i = 128;
     _r1.i = 64;

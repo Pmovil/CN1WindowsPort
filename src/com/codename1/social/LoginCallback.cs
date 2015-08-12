@@ -5,9 +5,7 @@ namespace com.codename1.social {
 public abstract class LoginCallback: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.LoginCallback: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,9 +14,7 @@ public void @this(){
 
 public virtual void loginSuccessful(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.LoginCallback: void loginSuccessful()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.social.LoginCallback: void loginSuccessful()]
@@ -26,11 +22,8 @@ public virtual void loginSuccessful(){
 
 public virtual void loginFailed(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.LoginCallback: void loginFailed(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;

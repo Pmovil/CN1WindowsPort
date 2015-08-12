@@ -17,11 +17,8 @@ private void copyIn(global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecogni
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: void copyIn(gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r2_o)._fcomponents;
@@ -38,17 +35,12 @@ private void copyIn(global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecogni
 
 public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1, global::gnu.xml.pipeline.ValidationConsumer n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: void <init>(gnu.xml.pipeline.ValidationConsumer$ElementInfo, gnu.xml.pipeline.ValidationConsumer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -67,13 +59,9 @@ public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1, g
 
 private void @this(global::gnu.xml.pipeline.ValidationConsumer n1, global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: void <init>(gnu.xml.pipeline.ValidationConsumer, gnu.xml.pipeline.ValidationConsumer$ElementInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -85,11 +73,8 @@ private void @this(global::gnu.xml.pipeline.ValidationConsumer n1, global::gnu.x
 
 private global::System.Object shallowClone(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer shallowClone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -121,13 +106,9 @@ private global::System.Object shallowClone(){
 
 private global::System.Object deepClone(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer deepClone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Hashtable();
     _r1.i = 37;
@@ -141,19 +122,13 @@ private global::System.Object deepClone(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer deepClone(java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=deepClone
@@ -247,19 +222,12 @@ private void patchNext(global::gnu.xml.pipeline.ValidationConsumer_2Recognizer n
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: void patchNext(gnu.xml.pipeline.ValidationConsumer$Recognizer, java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -371,25 +339,15 @@ private int populate(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -583,10 +541,7 @@ private int populate(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 public override bool acceptCharacters(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ChildrenRecognizer: boolean acceptCharacters()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -599,13 +554,9 @@ public override global::System.Object acceptElement(global::java.lang.String n1)
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -648,10 +599,7 @@ public override bool completed(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r3_o)._fname;

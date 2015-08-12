@@ -41,15 +41,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLUListElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -63,9 +58,7 @@ public virtual bool getCompact(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLUListElement: boolean getCompact()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=compact
     _r0_o = new global::java.lang.String();
@@ -77,13 +70,9 @@ public virtual bool getCompact(){
 
 public virtual void setCompact(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLUListElement: void setCompact(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=compact
@@ -96,11 +85,8 @@ public virtual void setCompact(bool n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLUListElement: java.lang.String getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=type
     _r0_o = new global::java.lang.String();
@@ -112,13 +98,9 @@ public virtual global::System.Object getType(){
 
 public virtual void setType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLUListElement: void setType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=type

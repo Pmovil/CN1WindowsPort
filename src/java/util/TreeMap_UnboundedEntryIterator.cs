@@ -5,15 +5,10 @@ namespace java.util {
 public class TreeMap_2UnboundedEntryIterator: global::java.util.TreeMap_2AbstractMapIterator,global::java.util.Iterator {
 public void @this(global::java.util.TreeMap n1, global::java.util.TreeMap_2Node n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: void <init>(java.util.TreeMap, java.util.TreeMap$Node, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -25,11 +20,8 @@ public void @this(global::java.util.TreeMap n1, global::java.util.TreeMap_2Node 
 
 public void @this(global::java.util.TreeMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: void <init>(java.util.TreeMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.TreeMap_2AbstractMapIterator) _r0_o).@this((global::java.util.TreeMap) _r1_o);
@@ -40,18 +32,11 @@ public void @this(global::java.util.TreeMap n1){
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: java.util.Map$Entry next()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     ((global::java.util.TreeMap_2UnboundedEntryIterator) _r5_o).makeNext();
     _r0.i = ((global::java.util.TreeMap_2UnboundedEntryIterator) _r5_o)._flastOffset;

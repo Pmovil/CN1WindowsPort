@@ -5,9 +5,7 @@ namespace java.util {
 public class ResourceBundle_2MissingBundle: global::java.util.ResourceBundle {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$MissingBundle: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.ResourceBundle) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public override global::System.Object getKeys(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$MissingBundle: java.util.Enumeration getKeys()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.util.Enumeration) _r0_o;
@@ -29,13 +24,9 @@ public override global::System.Object getKeys(){
 
 public override global::System.Object handleGetObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$MissingBundle: java.lang.Object handleGetObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;

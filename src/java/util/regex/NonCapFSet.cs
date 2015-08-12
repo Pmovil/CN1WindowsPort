@@ -5,11 +5,8 @@ namespace java.util.regex {
 public class NonCapFSet: global::java.util.regex.FSet {
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.NonCapFSet: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.util.regex.FSet) _r0_o).@this((int) _r1.i);
@@ -22,16 +19,10 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -48,11 +39,8 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.NonCapFSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=NonCapFSet
     _r0_o = new global::java.lang.String();
@@ -64,12 +52,8 @@ public override global::System.Object getName(){
 public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.NonCapFSet: boolean hasConsumed(java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;

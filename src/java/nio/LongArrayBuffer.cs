@@ -10,14 +10,9 @@ public int _foffset;
 public void @this(global::org.xmlvm._nArrayAdapter<long> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongArrayBuffer: void <init>(long[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
@@ -29,15 +24,10 @@ public void @this(global::org.xmlvm._nArrayAdapter<long> n1){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongArrayBuffer: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<long>(new long[_r3.i]);
@@ -49,15 +39,10 @@ public void @this(int n1){
 
 public void @this(int n1, global::org.xmlvm._nArrayAdapter<long> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongArrayBuffer: void <init>(int, long[], int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -74,14 +59,9 @@ public override long get(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::java.nio.LongArrayBuffer) _r4_o)._fposition;
     _r1.i = ((global::java.nio.LongArrayBuffer) _r4_o)._flimit;
@@ -106,12 +86,8 @@ public override long get(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label6;
@@ -135,22 +111,12 @@ public override global::System.Object get(global::org.xmlvm._nArrayAdapter<long>
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -190,10 +156,7 @@ public override global::System.Object get(global::org.xmlvm._nArrayAdapter<long>
 public override bool isDirect(){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongArrayBuffer: boolean isDirect()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -202,11 +165,8 @@ public override bool isDirect(){
 
 public override global::System.Object order(){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongArrayBuffer: java.nio.ByteOrder order()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.nio.ByteOrder.nativeOrder();
     return (global::java.nio.ByteOrder) _r0_o;

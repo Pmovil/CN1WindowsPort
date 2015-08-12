@@ -41,15 +41,10 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 
 public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void <init>(gnu.xml.dom.html2.DomHTMLDocument, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -61,11 +56,8 @@ public void @this(global::gnu.xml.dom.html2.DomHTMLDocument n1, global::java.lan
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=name
     _r0_o = new global::java.lang.String();
@@ -77,13 +69,9 @@ public virtual global::System.Object getName(){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setName(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=name
@@ -96,11 +84,8 @@ public virtual void setName(global::java.lang.String n1){
 
 public virtual global::System.Object getAlign(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getAlign()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=align
     _r0_o = new global::java.lang.String();
@@ -112,13 +97,9 @@ public virtual global::System.Object getAlign(){
 
 public virtual void setAlign(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setAlign(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=align
@@ -131,11 +112,8 @@ public virtual void setAlign(global::java.lang.String n1){
 
 public virtual global::System.Object getAlt(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getAlt()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=alt
     _r0_o = new global::java.lang.String();
@@ -147,13 +125,9 @@ public virtual global::System.Object getAlt(){
 
 public virtual void setAlt(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setAlt(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=alt
@@ -166,11 +140,8 @@ public virtual void setAlt(global::java.lang.String n1){
 
 public virtual global::System.Object getBorder(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getBorder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=border
     _r0_o = new global::java.lang.String();
@@ -182,13 +153,9 @@ public virtual global::System.Object getBorder(){
 
 public virtual void setBorder(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setBorder(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=border
@@ -203,9 +170,7 @@ public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=height
     _r0_o = new global::java.lang.String();
@@ -217,13 +182,9 @@ public virtual int getHeight(){
 
 public virtual void setHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setHeight(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=height
@@ -238,9 +199,7 @@ public virtual int getHspace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: int getHspace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=hspace
     _r0_o = new global::java.lang.String();
@@ -252,13 +211,9 @@ public virtual int getHspace(){
 
 public virtual void setHspace(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setHspace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=hspace
@@ -273,9 +228,7 @@ public virtual bool getIsMap(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: boolean getIsMap()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=ismap
     _r0_o = new global::java.lang.String();
@@ -287,13 +240,9 @@ public virtual bool getIsMap(){
 
 public virtual void setIsMap(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setIsMap(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     // Value=ismap
@@ -306,11 +255,8 @@ public virtual void setIsMap(bool n1){
 
 public virtual global::System.Object getLongDesc(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getLongDesc()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=longdesc
     _r0_o = new global::java.lang.String();
@@ -322,13 +268,9 @@ public virtual global::System.Object getLongDesc(){
 
 public virtual void setLongDesc(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setLongDesc(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=longdesc
@@ -341,11 +283,8 @@ public virtual void setLongDesc(global::java.lang.String n1){
 
 public virtual global::System.Object getSrc(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getSrc()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=src
     _r0_o = new global::java.lang.String();
@@ -357,13 +296,9 @@ public virtual global::System.Object getSrc(){
 
 public virtual void setSrc(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setSrc(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=src
@@ -376,11 +311,8 @@ public virtual void setSrc(global::java.lang.String n1){
 
 public virtual global::System.Object getUseMap(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: java.lang.String getUseMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=usemap
     _r0_o = new global::java.lang.String();
@@ -392,13 +324,9 @@ public virtual global::System.Object getUseMap(){
 
 public virtual void setUseMap(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setUseMap(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=usemap
@@ -413,9 +341,7 @@ public virtual int getVspace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: int getVspace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=vspace
     _r0_o = new global::java.lang.String();
@@ -427,13 +353,9 @@ public virtual int getVspace(){
 
 public virtual void setVspace(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setVspace(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=vspace
@@ -448,9 +370,7 @@ public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: int getWidth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=width
     _r0_o = new global::java.lang.String();
@@ -462,13 +382,9 @@ public virtual int getWidth(){
 
 public virtual void setWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImageElement: void setWidth(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=width

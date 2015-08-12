@@ -9,15 +9,10 @@ private global::org.xmlvm._nArrayAdapter<char> _fpassword;
 
 public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<char> n2){
 //XMLVM_BEGIN_WRAPPER[java.net.PasswordAuthentication: void <init>(java.lang.String, char[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -32,11 +27,8 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
 
 public virtual global::System.Object getPassword(){
 //XMLVM_BEGIN_WRAPPER[java.net.PasswordAuthentication: char[] getPassword()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.PasswordAuthentication) _r1_o)._fpassword;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<char>) _r0_o).clone();
@@ -47,11 +39,8 @@ public virtual global::System.Object getPassword(){
 
 public virtual global::System.Object getUserName(){
 //XMLVM_BEGIN_WRAPPER[java.net.PasswordAuthentication: java.lang.String getUserName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.PasswordAuthentication) _r1_o)._fuserName;
     return (global::java.lang.String) _r0_o;

@@ -252,13 +252,9 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     ((global::java.lang.Object) _r3_o).@this();
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -284,8 +280,6 @@ public void @this(){
 public static bool isBlockAnalytics(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isBlockAnalytics()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.util.UIBuilder._fblockAnalytics ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isBlockAnalytics()]
@@ -294,8 +288,6 @@ public static bool isBlockAnalytics(){
 public static void setBlockAnalytics(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setBlockAnalytics(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.util.UIBuilder._fblockAnalytics = 0!=_r0.i;
     return;
@@ -304,13 +296,9 @@ public static void setBlockAnalytics(bool n1){
 
 public static global::System.Object getComponentRegistry(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.util.Hashtable getComponentRegistry()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.util.UIBuilder._fcomponentRegistry;
     if (_r0_o != null) goto label146;
     _r0_o = new global::java.util.Hashtable();
@@ -414,13 +402,9 @@ public static global::System.Object getComponentRegistry(){
 
 public virtual void setBackCommandEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setBackCommandEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     if (_r2.i == 0) goto label14;
@@ -445,10 +429,7 @@ public virtual void popNavigationStack(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r3_o)._fbaseFormNavigationStack;
     if (_r0_o == null) goto label25;
@@ -468,19 +449,14 @@ public virtual void popNavigationStack(){
 
 public virtual void setBackDestination(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setBackDestination(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -517,11 +493,8 @@ public virtual void setBackDestination(global::java.lang.String n1){
 
 public virtual global::System.Object formNavigationStackDebug(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.String formNavigationStackDebug()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fbaseFormNavigationStack;
     if (_r0_o == null) goto label11;
@@ -539,21 +512,14 @@ public virtual global::System.Object formNavigationStackDebug(){
 
 private global::System.Object getFormNavigationStackForComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.util.Vector getFormNavigationStackForComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=$baseNav
@@ -600,9 +566,7 @@ public virtual bool isBackCommandEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isBackCommandEnabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fbaseFormNavigationStack;
     if (_r0_o == null) goto label6;
@@ -617,13 +581,9 @@ public virtual bool isBackCommandEnabled(){
 
 public static void registerCustomComponent(global::java.lang.String n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void registerCustomComponent(java.lang.String, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.ui.util.UIBuilder.getComponentRegistry();
@@ -635,14 +595,9 @@ public static void registerCustomComponent(global::java.lang.String n1, global::
 public virtual void analyticsCallback(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void analyticsCallback(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -660,13 +615,9 @@ public virtual global::System.Object createContainer(global::java.lang.String n1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container createContainer(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -688,15 +639,10 @@ public virtual global::System.Object createContainer(global::java.lang.String n1
 
 public virtual global::System.Object createContainer(global::com.codename1.ui.util.Resources n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container createContainer(com.codename1.ui.util.Resources, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -708,39 +654,23 @@ public virtual global::System.Object createContainer(global::com.codename1.ui.ut
 
 public virtual global::System.Object createContainer(global::com.codename1.ui.util.Resources n1, global::java.lang.String n2, global::com.codename1.ui.util.EmbeddedContainer n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container createContainer(com.codename1.ui.util.Resources, java.lang.String, com.codename1.ui.util.EmbeddedContainer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
@@ -870,53 +800,31 @@ private void readCommand(global::java.io.DataInputStream n1, global::com.codenam
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void readCommand(java.io.DataInputStream, com.codename1.ui.Component, com.codename1.ui.Container, com.codename1.ui.util.Resources, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r18_o = this;
     _r19_o = n1;
     _r20_o = n2;
@@ -1059,31 +967,18 @@ private void postCreateComponents(global::java.io.DataInputStream n1, global::co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postCreateComponents(java.io.DataInputStream, com.codename1.ui.Container, com.codename1.ui.util.Resources)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -1172,23 +1067,14 @@ private void postCreateComponents(global::java.io.DataInputStream n1, global::co
 
 public virtual global::System.Object findByName(global::java.lang.String n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component findByName(java.lang.String, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1224,23 +1110,14 @@ public virtual global::System.Object findByName(global::java.lang.String n1, glo
 
 public virtual global::System.Object findByName(global::java.lang.String n1, global::com.codename1.ui.Container n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component findByName(java.lang.String, com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1276,15 +1153,10 @@ public virtual global::System.Object findByName(global::java.lang.String n1, glo
 
 public virtual global::System.Object createComponentInstance(global::java.lang.String n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component createComponentInstance(java.lang.String, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1295,11 +1167,8 @@ public virtual global::System.Object createComponentInstance(global::java.lang.S
 
 public virtual void postCreateComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postCreateComponent(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1309,14 +1178,9 @@ public virtual void postCreateComponent(global::com.codename1.ui.Component n1){
 public virtual void bindListenerToComponent(global::com.codename1.ui.Component n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void bindListenerToComponent(com.codename1.ui.Component, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1399,11 +1263,8 @@ public virtual void bindListenerToComponent(global::com.codename1.ui.Component n
 
 public virtual void initBaseForm(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void initBaseForm(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1413,20 +1274,13 @@ public virtual void initBaseForm(global::java.lang.String n1){
 private global::System.Object findEmptyContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container findEmptyContainer(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0.i = ((global::com.codename1.ui.Container) _r6_o).getComponentCount();
@@ -1458,12 +1312,8 @@ private global::System.Object findEmptyContainer(global::com.codename1.ui.Contai
 public virtual bool setListModel(global::com.codename1.ui.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean setListModel(com.codename1.ui.List)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1474,12 +1324,8 @@ public virtual bool setListModel(global::com.codename1.ui.List n1){
 public virtual bool setListModel(global::com.codename1.ui.list.ContainerList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean setListModel(com.codename1.ui.list.ContainerList)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1493,53 +1339,30 @@ private void readCommands(global::java.io.DataInputStream n1, global::com.codena
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r22_o = n2;
@@ -1691,47 +1514,27 @@ private global::System.Object readObjectArrayForListModel(global::java.io.DataIn
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r19_o = this;
     _r20_o = n1;
     _r21_o = n2;
@@ -1823,35 +1626,21 @@ private global::System.Object readObjectArrayForListModel(global::java.io.DataIn
 
 private global::System.Object readRendererer(global::com.codename1.ui.util.Resources n1, global::java.io.DataInputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.list.GenericListCellRenderer readRendererer(com.codename1.ui.util.Resources, java.io.DataInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -1900,38 +1689,22 @@ private global::System.Object readRendererer(global::com.codename1.ui.util.Resou
 private global::System.Object readCustomPropertyValue(global::java.io.DataInputStream n1, global::java.lang.Class n2, global::java.lang.String n3, global::com.codename1.ui.util.Resources n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.Object readCustomPropertyValue(java.io.DataInputStream, java.lang.Class, java.lang.String, com.codename1.ui.util.Resources, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -2184,7 +1957,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -2192,117 +1964,61 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
-    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
-    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
-    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
-    global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
-    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
-    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
-    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
     global::org.xmlvm._nElement _r36;
-    global::System.Object _r36_o = null;
     global::org.xmlvm._nElement _r37;
-    global::System.Object _r37_o = null;
-    global::org.xmlvm._nElement _r38;
     global::System.Object _r38_o = null;
     global::org.xmlvm._nElement _r39;
-    global::System.Object _r39_o = null;
-    global::org.xmlvm._nElement _r40;
     global::System.Object _r40_o = null;
-    global::org.xmlvm._nElement _r41;
     global::System.Object _r41_o = null;
-    global::org.xmlvm._nElement _r42;
     global::System.Object _r42_o = null;
-    global::org.xmlvm._nElement _r43;
     global::System.Object _r43_o = null;
-    global::org.xmlvm._nElement _r44;
     global::System.Object _r44_o = null;
-    global::org.xmlvm._nElement _r45;
     global::System.Object _r45_o = null;
-    global::org.xmlvm._nElement _r46;
     global::System.Object _r46_o = null;
     global::org.xmlvm._nElement _r47;
-    global::System.Object _r47_o = null;
-    global::org.xmlvm._nElement _r48;
     global::System.Object _r48_o = null;
-    global::org.xmlvm._nElement _r49;
     global::System.Object _r49_o = null;
-    global::org.xmlvm._nElement _r50;
     global::System.Object _r50_o = null;
-    global::org.xmlvm._nElement _r51;
     global::System.Object _r51_o = null;
-    global::org.xmlvm._nElement _r52;
     global::System.Object _r52_o = null;
-    global::org.xmlvm._nElement _r53;
     global::System.Object _r53_o = null;
-    global::org.xmlvm._nElement _r54;
     global::System.Object _r54_o = null;
-    global::org.xmlvm._nElement _r55;
     global::System.Object _r55_o = null;
-    global::org.xmlvm._nElement _r56;
     global::System.Object _r56_o = null;
-    global::org.xmlvm._nElement _r57;
     global::System.Object _r57_o = null;
-    global::org.xmlvm._nElement _r58;
     global::System.Object _r58_o = null;
-    global::org.xmlvm._nElement _r59;
     global::System.Object _r59_o = null;
-    global::org.xmlvm._nElement _r60;
     global::System.Object _r60_o = null;
-    global::org.xmlvm._nElement _r61;
     global::System.Object _r61_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r55_o = this;
     _r56_o = n1;
     _r57_o = n2;
@@ -3833,23 +3549,15 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
 
 public virtual void setNextForm(global::com.codename1.ui.Component n1, global::java.lang.String n2, global::com.codename1.ui.util.Resources n3, global::com.codename1.ui.Container n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setNextForm(com.codename1.ui.Component, java.lang.String, com.codename1.ui.util.Resources, com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -3879,21 +3587,13 @@ public virtual void setNextForm(global::com.codename1.ui.Component n1, global::j
 
 public virtual global::System.Object createComponentType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component createComponentType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r2_o = global::com.codename1.ui.util.UIBuilder.getComponentRegistry();
@@ -3927,13 +3627,9 @@ public virtual global::System.Object createComponentType(global::java.lang.Strin
 
 public virtual void modifyingProperty(global::com.codename1.ui.Component n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void modifyingProperty(com.codename1.ui.Component, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -3943,13 +3639,9 @@ public virtual void modifyingProperty(global::com.codename1.ui.Component n1, int
 
 public virtual void modifyingCustomProperty(global::com.codename1.ui.Component n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void modifyingCustomProperty(com.codename1.ui.Component, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -3959,19 +3651,12 @@ public virtual void modifyingCustomProperty(global::com.codename1.ui.Component n
 
 public virtual global::System.Object createCommand(global::java.lang.String n1, global::com.codename1.ui.Image n2, int n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Command createCommand(java.lang.String, com.codename1.ui.Image, int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -3985,23 +3670,14 @@ public virtual global::System.Object createCommand(global::java.lang.String n1, 
 
 public virtual global::System.Object createCommandImpl(global::java.lang.String n1, global::com.codename1.ui.Image n2, int n3, global::java.lang.String n4, bool n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Command createCommandImpl(java.lang.String, com.codename1.ui.Image, int, java.lang.String, boolean, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -4016,17 +3692,12 @@ public virtual global::System.Object createCommandImpl(global::java.lang.String 
 
 public virtual global::System.Object fetchResourceFile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.util.Resources fetchResourceFile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -4107,11 +3778,8 @@ public virtual global::System.Object fetchResourceFile(){
 
 public virtual global::System.Object getResourceFilePath(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.String getResourceFilePath()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fresourceFilePath;
     return (global::java.lang.String) _r0_o;
@@ -4120,13 +3788,9 @@ public virtual global::System.Object getResourceFilePath(){
 
 public virtual void setResourceFilePath(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setResourceFilePath(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fresourceFilePath = (global::java.lang.String) _r2_o;
@@ -4142,11 +3806,8 @@ public virtual void setResourceFile(global::com.codename1.ui.util.Resources n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setResourceFile(com.codename1.ui.util.Resources)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fkeepResourcesInRam ? 1 : 0;
@@ -4162,13 +3823,9 @@ public virtual void setResourceFile(global::com.codename1.ui.util.Resources n1){
 
 public virtual void processCommand(global::com.codename1.ui.events.ActionEvent n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void processCommand(com.codename1.ui.events.ActionEvent, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -4178,21 +3835,14 @@ public virtual void processCommand(global::com.codename1.ui.events.ActionEvent n
 
 private void processCommandImpl(global::com.codename1.ui.events.ActionEvent n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void processCommandImpl(com.codename1.ui.events.ActionEvent, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4225,13 +3875,9 @@ private void processCommandImpl(global::com.codename1.ui.events.ActionEvent n1, 
 
 public virtual void addCommandListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void addCommandListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fglobalCommandListeners;
@@ -4248,13 +3894,9 @@ public virtual void addCommandListener(global::com.codename1.ui.events.ActionLis
 
 public virtual void removeCommandListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void removeCommandListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fglobalCommandListeners;
@@ -4270,23 +3912,15 @@ public virtual void removeCommandListener(global::com.codename1.ui.events.Action
 
 public virtual void addComponentListener(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void addComponentListener(java.lang.String, java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4337,23 +3971,15 @@ public virtual void addComponentListener(global::java.lang.String n1, global::ja
 
 public virtual void removeComponentListener(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void removeComponentListener(java.lang.String, java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4388,17 +4014,11 @@ public virtual void removeComponentListener(global::java.lang.String n1, global:
 
 public virtual void addCommandListener(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void addCommandListener(java.lang.String, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -4424,17 +4044,11 @@ public virtual void addCommandListener(global::java.lang.String n1, global::com.
 
 public virtual void removeCommandListener(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void removeCommandListener(java.lang.String, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -4454,13 +4068,9 @@ public virtual void removeCommandListener(global::java.lang.String n1, global::c
 
 public virtual void handleComponentAction(global::com.codename1.ui.Component n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void handleComponentAction(com.codename1.ui.Component, com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -4470,21 +4080,13 @@ public virtual void handleComponentAction(global::com.codename1.ui.Component n1,
 
 private global::System.Object getFormListenerInstance(global::com.codename1.ui.Component n1, global::com.codename1.ui.util.EmbeddedContainer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.util.UIBuilder$FormListener getFormListenerInstance(com.codename1.ui.Component, com.codename1.ui.util.EmbeddedContainer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -4539,13 +4141,9 @@ private global::System.Object getFormListenerInstance(global::com.codename1.ui.C
 
 public virtual void asyncCommandProcess(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void asyncCommandProcess(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -4555,13 +4153,9 @@ public virtual void asyncCommandProcess(global::com.codename1.ui.Command n1, glo
 
 public virtual void postAsyncCommand(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postAsyncCommand(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -4571,15 +4165,9 @@ public virtual void postAsyncCommand(global::com.codename1.ui.Command n1, global
 
 public virtual bool processBackground(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean processBackground(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -4610,23 +4198,15 @@ public virtual bool processBackground(global::com.codename1.ui.Form n1){
 
 public virtual global::System.Object getFormState(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.util.Hashtable getFormState(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r1_o = ((global::com.codename1.ui.Form) _r7_o).getFocused();
@@ -4677,29 +4257,17 @@ public virtual global::System.Object getFormState(global::com.codename1.ui.Form 
 
 public virtual void restoreComponentState(global::com.codename1.ui.Component n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void restoreComponentState(com.codename1.ui.Component, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -4746,14 +4314,9 @@ public virtual void restoreComponentState(global::com.codename1.ui.Component n1,
 public virtual void storeComponentState(global::com.codename1.ui.Component n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void storeComponentState(com.codename1.ui.Component, java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -4767,29 +4330,19 @@ public virtual void storeComponentState(global::com.codename1.ui.Component n1, g
 
 private void storeComponentStateImpl(global::com.codename1.ui.Component n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void storeComponentStateImpl(com.codename1.ui.Component, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -4852,10 +4405,7 @@ private void storeComponentStateImpl(global::com.codename1.ui.Component n1, glob
 public virtual bool shouldAutoStoreState(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean shouldAutoStoreState()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -4864,13 +4414,9 @@ public virtual bool shouldAutoStoreState(){
 
 public virtual void setFormState(global::com.codename1.ui.Form n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setFormState(com.codename1.ui.Form, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -4882,14 +4428,9 @@ public virtual void setFormState(global::com.codename1.ui.Form n1, global::java.
 private bool isParentOf(global::com.codename1.ui.Container n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isParentOf(com.codename1.ui.Container, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -4910,25 +4451,16 @@ private bool isParentOf(global::com.codename1.ui.Container n1, global::com.coden
 
 public virtual global::System.Object getContainerState(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.util.Hashtable getContainerState(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r1_o = null;
@@ -4983,21 +4515,14 @@ public virtual global::System.Object getContainerState(global::com.codename1.ui.
 
 private void setContainerStateImpl(global::com.codename1.ui.Container n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setContainerStateImpl(com.codename1.ui.Container, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -5032,13 +4557,9 @@ private void setContainerStateImpl(global::com.codename1.ui.Container n1, global
 
 public virtual void setContainerState(global::com.codename1.ui.Container n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setContainerState(com.codename1.ui.Container, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -5049,11 +4570,8 @@ public virtual void setContainerState(global::com.codename1.ui.Container n1, glo
 
 public virtual global::System.Object getHomeForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.String getHomeForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fhomeForm;
     return (global::java.lang.String) _r0_o;
@@ -5062,11 +4580,8 @@ public virtual global::System.Object getHomeForm(){
 
 public virtual void setHomeForm(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setHomeForm(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.UIBuilder) _r0_o)._fhomeForm = (global::java.lang.String) _r1_o;
@@ -5076,11 +4591,8 @@ public virtual void setHomeForm(global::java.lang.String n1){
 
 public virtual void back(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void back()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.util.UIBuilder) _r1_o).back((global::com.codename1.ui.Component) _r0_o);
@@ -5090,27 +4602,17 @@ public virtual void back(){
 
 public virtual void back(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void back(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r6.i = 1;
@@ -5164,19 +4666,13 @@ public virtual void back(global::com.codename1.ui.Component n1){
 
 public virtual global::System.Object getPreviousFormName(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.String getPreviousFormName(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o).getFormNavigationStackForComponent((global::com.codename1.ui.Component) _r5_o);
@@ -5206,17 +4702,11 @@ public virtual global::System.Object getBackCommandText(global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: java.lang.String getBackCommandText(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=Back
@@ -5262,14 +4752,9 @@ public virtual global::System.Object getBackCommandText(global::java.lang.String
 public virtual void setBackCommand(global::com.codename1.ui.Form n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setBackCommand(com.codename1.ui.Form, com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -5287,29 +4772,17 @@ private void initBackForm(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void initBackForm(com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r2_o = null;
@@ -5374,31 +4847,18 @@ private void initBackContainer(global::com.codename1.ui.Container n1, global::co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void initBackContainer(com.codename1.ui.Container, com.codename1.ui.Form, java.util.Vector)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -5460,15 +4920,10 @@ public virtual global::System.Object showContainer(global::java.lang.String n1, 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container showContainer(java.lang.String, com.codename1.ui.Command, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -5481,19 +4936,12 @@ public virtual global::System.Object showContainer(global::java.lang.String n1, 
 
 public virtual void reloadContainer(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void reloadContainer(com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o).fetchResourceFile();
@@ -5512,25 +4960,16 @@ public virtual void reloadContainer(global::com.codename1.ui.Component n1){
 
 public virtual void reloadForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void reloadForm()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r6_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = ((global::com.codename1.ui.Display) _r6_o).getCurrent();
@@ -5577,41 +5016,25 @@ public virtual void reloadForm(){
 
 private global::System.Object showContainerImpl(global::java.lang.String n1, global::com.codename1.ui.Command n2, global::com.codename1.ui.Component n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container showContainerImpl(java.lang.String, com.codename1.ui.Command, com.codename1.ui.Component, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r14_o = n2;
@@ -5759,21 +5182,14 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
 
 public virtual global::System.Object formToContainer(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container formToContainer(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -5821,29 +5237,18 @@ public virtual global::System.Object createBackLazyValue(global::com.codename1.u
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.util.LazyValue createBackLazyValue(com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r5.i = 1;
@@ -5900,33 +5305,19 @@ public virtual global::System.Object createForm(global::com.codename1.ui.Form n1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Form createForm(com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r2_o = null;
@@ -6016,43 +5407,26 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
     _r17_o = n1;
     _r18_o = n2;
@@ -6238,12 +5612,8 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
 public virtual bool allowBackTo(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean allowBackTo(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -6255,15 +5625,10 @@ public virtual bool isSameBackDestination(global::com.codename1.ui.Container n1,
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isSameBackDestination(com.codename1.ui.Container, com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -6287,17 +5652,11 @@ public virtual bool isSameBackDestination(global::com.codename1.ui.Container n1,
 
 public virtual global::System.Object showForm(global::java.lang.String n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Form showForm(java.lang.String, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -6312,11 +5671,8 @@ public virtual global::System.Object showForm(global::java.lang.String n1, globa
 
 public virtual void exitForm(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void exitForm(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6325,11 +5681,8 @@ public virtual void exitForm(global::com.codename1.ui.Form n1){
 
 public virtual void beforeShow(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void beforeShow(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6338,9 +5691,7 @@ public virtual void beforeShow(global::com.codename1.ui.Form n1){
 
 public virtual void onBackNavigation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void onBackNavigation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: void onBackNavigation()]
@@ -6348,15 +5699,10 @@ public virtual void onBackNavigation(){
 
 private void postShowImpl(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postShowImpl(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.util.UIBuilder) _r2_o).postShow((global::com.codename1.ui.Form) _r3_o);
@@ -6370,10 +5716,7 @@ private void postShowImpl(global::com.codename1.ui.Form n1){
 public virtual bool shouldAddBackCommandToMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean shouldAddBackCommandToMenu()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -6382,11 +5725,8 @@ public virtual bool shouldAddBackCommandToMenu(){
 
 public virtual void postShow(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postShow(com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6395,11 +5735,8 @@ public virtual void postShow(global::com.codename1.ui.Form n1){
 
 public virtual void beforeShowContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void beforeShowContainer(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6408,11 +5745,8 @@ public virtual void beforeShowContainer(global::com.codename1.ui.Container n1){
 
 public virtual void postShowContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void postShowContainer(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6421,11 +5755,8 @@ public virtual void postShowContainer(global::com.codename1.ui.Container n1){
 
 public virtual void onCreateRoot(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void onCreateRoot(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -6435,10 +5766,7 @@ public virtual void onCreateRoot(global::java.lang.String n1){
 public virtual bool isKeepResourcesInRam(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: boolean isKeepResourcesInRam()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.util.UIBuilder) _r1_o)._fkeepResourcesInRam ? 1 : 0;
     return _r0.i!=0;
@@ -6447,11 +5775,8 @@ public virtual bool isKeepResourcesInRam(){
 
 public virtual void setKeepResourcesInRam(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void setKeepResourcesInRam(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.util.UIBuilder) _r0_o)._fkeepResourcesInRam = 0!=_r1.i;
@@ -6463,11 +5788,8 @@ public virtual global::System.Object getRootAncestor(global::com.codename1.ui.Co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container getRootAncestor(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     label0:;
@@ -6493,11 +5815,8 @@ public virtual global::System.Object getRootAncestor(global::com.codename1.ui.Co
 
 public static void access_2000(global::com.codename1.ui.util.UIBuilder n1, global::com.codename1.ui.Form n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void access$000(com.codename1.ui.util.UIBuilder, com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.util.UIBuilder) _r0_o).postShowImpl((global::com.codename1.ui.Form) _r1_o);
@@ -6507,13 +5826,9 @@ public static void access_2000(global::com.codename1.ui.util.UIBuilder n1, globa
 
 public static void access_2100(global::com.codename1.ui.util.UIBuilder n1, global::com.codename1.ui.events.ActionEvent n2, global::com.codename1.ui.Command n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void access$100(com.codename1.ui.util.UIBuilder, com.codename1.ui.events.ActionEvent, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;

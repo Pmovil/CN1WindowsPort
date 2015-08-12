@@ -11,9 +11,7 @@ private global::java.util.Vector _fvisitedURLs;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -22,13 +20,9 @@ public void @this(){
 
 public virtual void resourceRequestedAsync(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: void resourceRequestedAsync(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -39,13 +33,9 @@ public virtual void resourceRequestedAsync(global::com.codename1.ui.html.Documen
 
 public virtual global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: java.io.InputStream resourceRequested(com.codename1.ui.html.DocumentInfo)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -57,11 +47,8 @@ public virtual void visitingURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: void visitingURL(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.html.DefaultDocumentRequestHandler) _r1_o)._ftrackVisitedURLs ? 1 : 0;
@@ -86,11 +73,8 @@ public virtual bool wasURLVisited(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: boolean wasURLVisited(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.DefaultDocumentRequestHandler) _r1_o)._fvisitedURLs;
@@ -109,33 +93,21 @@ public virtual bool wasURLVisited(global::java.lang.String n1){
 
 private global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: java.io.InputStream resourceRequested(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
@@ -272,9 +244,7 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
 
 public static global::System.Object getResFile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: com.codename1.ui.util.Resources getResFile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.html.DefaultDocumentRequestHandler._fresFile;
     return (global::com.codename1.ui.util.Resources) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: com.codename1.ui.util.Resources getResFile()]
@@ -282,9 +252,7 @@ public static global::System.Object getResFile(){
 
 public static void setResFile(global::com.codename1.ui.util.Resources n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: void setResFile(com.codename1.ui.util.Resources)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.html.DefaultDocumentRequestHandler._fresFile = (global::com.codename1.ui.util.Resources) _r0_o;
     return;
@@ -294,10 +262,7 @@ public static void setResFile(global::com.codename1.ui.util.Resources n1){
 public virtual bool isTrackVisitedURLs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: boolean isTrackVisitedURLs()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.DefaultDocumentRequestHandler) _r1_o)._ftrackVisitedURLs ? 1 : 0;
     return _r0.i!=0;
@@ -306,13 +271,9 @@ public virtual bool isTrackVisitedURLs(){
 
 public virtual void setTrackVisitedURLs(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultDocumentRequestHandler: void setTrackVisitedURLs(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.html.DefaultDocumentRequestHandler) _r1_o)._ftrackVisitedURLs = 0!=_r2.i;

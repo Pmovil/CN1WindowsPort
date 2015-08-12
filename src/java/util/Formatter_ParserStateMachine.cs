@@ -33,11 +33,8 @@ public void @this(global::java.nio.CharBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: void <init>(java.nio.CharBuffer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -56,9 +53,7 @@ public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: void reset()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 65535;
     ((global::java.util.Formatter_2ParserStateMachine) _r1_o)._fcurrentChar = (char) _r0.i;
@@ -76,9 +71,7 @@ public virtual global::System.Object getNextFormatToken(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Formatter_2FormatToken();
     _r1_o = null;
@@ -149,9 +142,7 @@ private char getNextFormatChar(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: char getNextFormatChar()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r1_o)._fformat;
     _r0.i = ((global::java.nio.CharBuffer) _r0_o).hasRemaining() ? 1 : 0;
@@ -170,13 +161,10 @@ private global::System.Object getFormatString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: java.lang.String getFormatString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r3_o)._fformat;
     _r0.i = ((global::java.nio.CharBuffer) _r0_o).position();
@@ -196,12 +184,8 @@ private global::System.Object getFormatString(){
 private void process_1ENTRY_1STATE(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: void process_ENTRY_STATE()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 65535;
     _r1.i = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._fcurrentChar;
@@ -231,14 +215,9 @@ private void process_1START_1CONVERSION_1STATE(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 3;
     _r5.i = 1;
@@ -322,10 +301,7 @@ private void process_1FlAGS_1STATE(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r3_o)._ftoken;
     _r1.i = ((global::java.util.Formatter_2ParserStateMachine) _r3_o)._fcurrentChar;
@@ -369,10 +345,7 @@ private void process_1WIDTH_1STATE(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 46;
     _r1.i = ((global::java.util.Formatter_2ParserStateMachine) _r3_o)._fcurrentChar;
@@ -400,9 +373,7 @@ private void process_1PRECISION_1STATE(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._fcurrentChar;
     _r0.i = global::java.lang.Character.isDigit((char) _r0.i) ? 1 : 0;
@@ -427,10 +398,7 @@ private void process_1CONVERSION_1TYPE_1STATE(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._ftoken;
     _r1.i = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._fcurrentChar;
@@ -458,10 +426,7 @@ private void process_1SUFFIX_1STATE(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._ftoken;
     _r1.i = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._fcurrentChar;
@@ -474,13 +439,9 @@ private void process_1SUFFIX_1STATE(){
 
 private void process_1EXIT_1STATE(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$ParserStateMachine: void process_EXIT_STATE()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.Formatter_2ParserStateMachine) _r2_o)._ftoken;
     _r1_o = ((global::java.util.Formatter_2ParserStateMachine) _r2_o).getFormatString();
@@ -494,14 +455,9 @@ private int parseInt(global::java.nio.CharBuffer n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;

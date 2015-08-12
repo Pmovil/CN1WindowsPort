@@ -7,9 +7,7 @@ private static long _fserialVersionUID = -8742448824652078965L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Number: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -19,10 +17,7 @@ public void @this(){
 public virtual sbyte byteValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Number: byte byteValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Number) _r1_o).intValue();
     _r0.i = (_r0.i << 24) >> 24;
@@ -41,10 +36,7 @@ public abstract long longValue();
 public virtual short shortValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Number: short shortValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Number) _r1_o).intValue();
     _r0.i = (_r0.i << 16) >> 16;

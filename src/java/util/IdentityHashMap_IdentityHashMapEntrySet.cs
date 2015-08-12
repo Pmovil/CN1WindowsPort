@@ -7,11 +7,8 @@ private global::java.util.IdentityHashMap _fassociatedMap;
 
 public void @this(global::java.util.IdentityHashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: void <init>(java.util.IdentityHashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractSet) _r0_o).@this();
@@ -22,11 +19,8 @@ public void @this(global::java.util.IdentityHashMap n1){
 
 public virtual global::System.Object hashMap(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: java.util.IdentityHashMap hashMap()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r1_o)._fassociatedMap;
     return (global::java.util.IdentityHashMap) _r0_o;
@@ -37,9 +31,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r1_o)._fassociatedMap;
     _r0.i = ((global::java.util.IdentityHashMap) _r0_o)._fsize;
@@ -49,11 +41,8 @@ public override int size(){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r1_o)._fassociatedMap;
     ((global::java.util.IdentityHashMap) _r0_o).clear();
@@ -65,13 +54,9 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r2_o).contains((global::java.lang.Object) _r3_o) ? 1 : 0;
@@ -91,19 +76,13 @@ public override bool remove(global::java.lang.Object n1){
 
 public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: boolean contains(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -132,15 +111,10 @@ public override bool contains(global::java.lang.Object n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntrySet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.IdentityHashMap_2IdentityHashMapIterator();
     _r1_o = new global::java.util.IdentityHashMap_2IdentityHashMapEntrySet_21();

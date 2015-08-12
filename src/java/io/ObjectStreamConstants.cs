@@ -10,11 +10,8 @@ static _iObjectStreamConstants() {
 
 static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamConstants: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.io.SerializablePermission();
     // Value=enableSubclassImplementation
     _r1_o = new global::java.lang.String();

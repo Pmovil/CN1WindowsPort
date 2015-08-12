@@ -15,13 +15,9 @@ private bool _fgotHostname;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = null;
@@ -34,13 +30,9 @@ public void @this(global::java.net.InetAddress n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: void <init>(java.net.InetAddress, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -73,14 +65,9 @@ public void @this(global::java.net.InetAddress n1, int n2){
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -94,14 +81,10 @@ public void @this(global::java.lang.String n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: void <init>(java.lang.String, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
@@ -151,15 +134,10 @@ public void @this(global::java.lang.String n1, int n2, bool n3){
 
 public static global::System.Object createUnresolved(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: java.net.InetSocketAddress createUnresolved(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r0_o = new global::java.net.InetSocketAddress();
@@ -172,10 +150,7 @@ public static global::System.Object createUnresolved(global::java.lang.String n1
 public virtual int getPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: int getPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.InetSocketAddress) _r1_o)._fport;
     return _r0.i;
@@ -184,11 +159,8 @@ public virtual int getPort(){
 
 public virtual global::System.Object getAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: java.net.InetAddress getAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetSocketAddress) _r1_o)._faddr;
     return (global::java.net.InetAddress) _r0_o;
@@ -199,9 +171,7 @@ public virtual global::System.Object getHostName(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: java.lang.String getHostName()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetSocketAddress) _r1_o)._faddr;
     if (_r0_o == null) goto label19;
@@ -222,9 +192,7 @@ public virtual bool isUnresolved(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: boolean isUnresolved()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetSocketAddress) _r1_o)._faddr;
     if (_r0_o != null) goto label6;
@@ -239,13 +207,10 @@ public virtual bool isUnresolved(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.InetSocketAddress) _r2_o)._faddr;
     if (_r0_o == null) goto label36;
@@ -276,12 +241,8 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -328,10 +289,7 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.net.InetSocketAddress) _r2_o)._faddr;
     if (_r0_o != null) goto label14;
@@ -352,11 +310,8 @@ public override int hashCode(){
 
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetSocketAddress: void readObject(java.io.ObjectInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.ObjectInputStream) _r1_o).defaultReadObject();

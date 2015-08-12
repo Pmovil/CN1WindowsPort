@@ -94,9 +94,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _feras;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -105,17 +103,12 @@ public void @this(){
 
 public virtual global::System.Object getAmPmStrings(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getAmPmStrings()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -223,11 +216,8 @@ public virtual void setAmPmStrings(global::org.xmlvm._nArrayAdapter<global::Syst
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
@@ -247,11 +237,8 @@ public virtual void setAmPmStrings(global::org.xmlvm._nArrayAdapter<global::Syst
 
 public virtual global::System.Object getResourceBundle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.util.Hashtable getResourceBundle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.l10n.DateFormatSymbols) _r1_o)._fresourceBundle;
     return (global::java.util.Hashtable) _r0_o;
@@ -260,17 +247,11 @@ public virtual global::System.Object getResourceBundle(){
 
 public virtual void setResourceBundle(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: void setResourceBundle(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -291,19 +272,13 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getLocalizedValue(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String getLocalizedValue(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -331,22 +306,15 @@ public virtual global::System.Object getLocalizedValue(global::java.lang.String 
 public virtual global::System.Object getZoneStrings(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[][] getZoneStrings()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
@@ -524,23 +492,16 @@ public virtual global::System.Object getZoneStrings(){
 
 public virtual void setZoneStrings(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: void setZoneStrings(java.lang.String[][])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     if (_r7_o == null) goto label24;
@@ -574,11 +535,8 @@ public virtual void setShortWeekdays(global::org.xmlvm._nArrayAdapter<global::Sy
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
@@ -599,26 +557,17 @@ public virtual void setShortWeekdays(global::org.xmlvm._nArrayAdapter<global::Sy
 public virtual global::System.Object createShortforms(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] createShortforms(java.lang.String[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -663,11 +612,8 @@ public virtual global::System.Object createShortforms(global::org.xmlvm._nArrayA
 
 public virtual global::System.Object getShortWeekdays(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getShortWeekdays()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -728,16 +674,11 @@ public virtual global::System.Object getShortWeekdays(){
 public virtual global::System.Object getWeekdays(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getWeekdays()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -873,11 +814,8 @@ public virtual void setWeekdays(global::org.xmlvm._nArrayAdapter<global::System.
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label14;
@@ -902,11 +840,8 @@ public virtual void setShortMonths(global::org.xmlvm._nArrayAdapter<global::Syst
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label15;
@@ -927,11 +862,8 @@ public virtual void setShortMonths(global::org.xmlvm._nArrayAdapter<global::Syst
 
 public virtual global::System.Object getShortMonths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getShortMonths()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -995,11 +927,8 @@ public virtual void setMonths(global::org.xmlvm._nArrayAdapter<global::System.Ob
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label15;
@@ -1021,16 +950,11 @@ public virtual void setMonths(global::org.xmlvm._nArrayAdapter<global::System.Ob
 public virtual global::System.Object getMonths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getMonths()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -1162,17 +1086,12 @@ public virtual global::System.Object getMonths(){
 
 public virtual global::System.Object getEras(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.String[] getEras()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -1276,11 +1195,8 @@ public virtual global::System.Object getEras(){
 
 public virtual void setEras(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: void setEras(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.l10n.DateFormatSymbols) _r0_o)._feras = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
@@ -1290,13 +1206,9 @@ public virtual void setEras(global::org.xmlvm._nArrayAdapter<global::System.Obje
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatSymbols: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.l10n.DateFormatSymbols();
     ((global::com.codename1.l10n.DateFormatSymbols) _r0_o).@this();
@@ -1326,19 +1238,12 @@ public static void @static(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 4;
     _r6.i = 3;
     _r5.i = 2;

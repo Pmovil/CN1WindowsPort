@@ -7,9 +7,7 @@ private static global::com.codename1.impl.CodenameOneImplementation _fimpl;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,9 +16,7 @@ public void @this(){
 
 public static void setImplementation(global::com.codename1.impl.CodenameOneImplementation n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: void setImplementation(com.codename1.impl.CodenameOneImplementation)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.util.StringUtil._fimpl = (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
     return;
@@ -30,22 +26,14 @@ public static void setImplementation(global::com.codename1.impl.CodenameOneImple
 public static global::System.Object replaceAll(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: java.lang.String replaceAll(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7_o = n3;
@@ -79,25 +67,16 @@ public static global::System.Object replaceAll(global::java.lang.String n1, glob
 
 public static global::System.Object tokenizeString(global::java.lang.String n1, char n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: java.util.Vector tokenizeString(java.lang.String, char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8.i = n2;
     _r5_o = new global::java.util.Vector();
@@ -142,25 +121,16 @@ public static global::System.Object tokenizeString(global::java.lang.String n1, 
 
 public static global::System.Object tokenizeString(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: java.util.Vector tokenizeString(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r5.i = ((global::java.lang.String) _r8_o).length();
@@ -209,15 +179,10 @@ public static global::System.Object tokenizeString(global::java.lang.String n1, 
 
 public static global::System.Object tokenize(global::java.lang.String n1, char n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: java.util.List tokenize(java.lang.String, char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r0_o = new global::java.util.ArrayList();
@@ -230,25 +195,16 @@ public static global::System.Object tokenize(global::java.lang.String n1, char n
 
 public static global::System.Object tokenize(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: java.util.List tokenize(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r5.i = ((global::java.lang.String) _r8_o).length();

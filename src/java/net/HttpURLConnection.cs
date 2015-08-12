@@ -101,8 +101,6 @@ public static int _fHTTP_1VERSION = 505;
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::java.net.HttpURLConnection._ffollowRedirects = 0!=_r0.i;
     return;
@@ -114,18 +112,11 @@ public void @this(global::java.net.URL n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = -1;
@@ -188,11 +179,8 @@ public abstract void disconnect();
 
 public virtual global::System.Object getErrorStream(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: java.io.InputStream getErrorStream()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.io.InputStream) _r0_o;
@@ -202,8 +190,6 @@ public virtual global::System.Object getErrorStream(){
 public static bool getFollowRedirects(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: boolean getFollowRedirects()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::java.net.HttpURLConnection._ffollowRedirects ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.HttpURLConnection: boolean getFollowRedirects()]
@@ -213,15 +199,10 @@ public override global::System.Object getPermission(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: java.security.Permission getPermission()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.net.HttpURLConnection) _r4_o)._furl;
     _r0.i = ((global::java.net.URL) _r0_o).getPort();
@@ -250,11 +231,8 @@ public override global::System.Object getPermission(){
 
 public virtual global::System.Object getRequestMethod(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: java.lang.String getRequestMethod()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.HttpURLConnection) _r1_o)._fmethod;
     return (global::java.lang.String) _r0_o;
@@ -268,12 +246,8 @@ public virtual int getResponseCode(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.i = -1;
     ((global::java.net.HttpURLConnection) _r4_o).getInputStream();
@@ -316,11 +290,8 @@ public virtual int getResponseCode(){
 
 public virtual global::System.Object getResponseMessage(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: java.lang.String getResponseMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.HttpURLConnection) _r1_o)._fresponseMessage;
     if (_r0_o == null) goto label7;
@@ -336,11 +307,8 @@ public virtual global::System.Object getResponseMessage(){
 
 public static void setFollowRedirects(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void setFollowRedirects(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     _r0_o = global::java.lang.System.getSecurityManager();
     if (_r0_o == null) goto label9;
@@ -357,11 +325,8 @@ public virtual void setRequestMethod(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.net.HttpURLConnection) _r2_o)._fconnected ? 1 : 0;
@@ -402,10 +367,7 @@ public abstract bool usingProxy();
 public virtual bool getInstanceFollowRedirects(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: boolean getInstanceFollowRedirects()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.net.HttpURLConnection) _r1_o)._finstanceFollowRedirects ? 1 : 0;
     return _r0.i!=0;
@@ -414,11 +376,8 @@ public virtual bool getInstanceFollowRedirects(){
 
 public virtual void setInstanceFollowRedirects(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::java.net.HttpURLConnection) _r0_o)._finstanceFollowRedirects = 0!=_r1.i;
@@ -429,18 +388,9 @@ public virtual void setInstanceFollowRedirects(bool n1){
 public override long getHeaderFieldDate(global::java.lang.String n1, long n2){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: long getHeaderFieldDate(java.lang.String, long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.l = n2;
@@ -453,13 +403,9 @@ public virtual void setFixedLengthStreamingMode(int n1){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::java.net.URLConnection) _r2_o)._fconnected ? 1 : 0;
@@ -500,13 +446,9 @@ public virtual void setChunkedStreamingMode(int n1){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void setChunkedStreamingMode(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::java.net.URLConnection) _r2_o)._fconnected ? 1 : 0;

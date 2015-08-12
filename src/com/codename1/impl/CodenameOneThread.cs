@@ -22,13 +22,9 @@ public void @this(global::java.lang.Runnable n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void <init>(java.lang.Runnable, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -47,10 +43,7 @@ public void @this(global::java.lang.Runnable n1, global::java.lang.String n2){
 public virtual bool hasStackFrame(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: boolean hasStackFrame()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.CodenameOneThread) _r1_o)._fstackPointer;
     if (_r0.i <= 0) goto label6;
@@ -68,12 +61,8 @@ public virtual void pushStack(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.impl.CodenameOneThread) _r2_o)._fstack;
@@ -89,12 +78,8 @@ public virtual void pushStack(int n1){
 public virtual void popStack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void popStack()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.impl.CodenameOneThread) _r2_o)._fstackPointer;
     _r1.i = 1;
@@ -106,19 +91,12 @@ public virtual void popStack(){
 
 public static void push(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void push(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r2_o = global::java.lang.Thread.currentThread();
     _r3_o = ((global::java.lang.Object) _r2_o).getClass();
@@ -135,17 +113,11 @@ public static void push(int n1){
 
 public static void pop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void pop()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = global::java.lang.Thread.currentThread();
     _r3_o = ((global::java.lang.Object) _r2_o).getClass();
     _r4_o = global::com.codename1.impl.CodenameOneThread._fCODE;
@@ -161,21 +133,14 @@ public static void pop(){
 
 public virtual void storeStackForException(global::java.lang.Throwable n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void storeStackForException(java.lang.Throwable, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2;
@@ -200,21 +165,13 @@ public virtual void storeStackForException(global::java.lang.Throwable n1, int n
 
 public static void storeStack(global::java.lang.Throwable n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void storeStack(java.lang.Throwable, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6.i = n2;
     _r2_o = global::java.lang.Thread.currentThread();
@@ -234,41 +191,25 @@ public virtual global::System.Object getStack(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: java.lang.String getStack(java.lang.Throwable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
@@ -530,11 +471,8 @@ public virtual global::System.Object getStack(global::java.lang.Throwable n1){
 
 public override void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -565,19 +503,13 @@ public override void run(){
 
 public static void handleException(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void handleException(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r3.i = 1;
     // Value=$CN1Uncaught
@@ -619,9 +551,7 @@ public static void handleException(global::java.lang.Throwable n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.impl.CodenameOneThread));
     global::com.codename1.impl.CodenameOneThread._fCODE = (global::java.lang.Class) _r0_o;
     return;

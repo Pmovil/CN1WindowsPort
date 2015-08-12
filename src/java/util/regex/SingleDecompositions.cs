@@ -12,9 +12,7 @@ private static global::java.util.regex.IntHash _ftable;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.SingleDecompositions: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.util.regex.SingleDecompositions._ftable = (global::java.util.regex.IntHash) _r0_o;
     return;
@@ -23,9 +21,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.SingleDecompositions: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -34,13 +30,9 @@ private void @this(){
 
 public static global::System.Object getHashSingleDecompositions(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.SingleDecompositions: java.util.regex.IntHash getHashSingleDecompositions()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = 0;
     _r0_o = global::java.util.regex.SingleDecompositions._ftable;
     if (_r0_o == null) goto label8;

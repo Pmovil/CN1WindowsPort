@@ -19,11 +19,8 @@ public int _fmodCount;
 
 private static global::System.Object newEntryArray(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: java.util.WeakHashMap$Entry[] newEntryArray(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -33,10 +30,7 @@ private static global::System.Object newEntryArray(int n1){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 16;
     ((global::java.util.WeakHashMap) _r1_o).@this((int) _r0.i);
@@ -48,11 +42,8 @@ public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.util.AbstractMap) _r1_o).@this();
@@ -85,13 +76,9 @@ public void @this(int n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void <init>(int, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.f = n2;
@@ -129,14 +116,9 @@ public void @this(int n1, float n2){
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void <init>(java.util.Map)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.util.Map) _r3_o).size();
@@ -158,11 +140,8 @@ public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void clear()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.util.WeakHashMap) _r2_o)._felementCount;
     if (_r0.i <= 0) goto label27;
@@ -187,15 +166,8 @@ private void computeMaxSize(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void computeMaxSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.WeakHashMap) _r4_o)._felementData;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -215,11 +187,8 @@ public override bool containsKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: boolean containsKey(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.WeakHashMap) _r1_o).getEntry((global::java.lang.Object) _r2_o);
@@ -235,11 +204,8 @@ public override bool containsKey(global::java.lang.Object n1){
 
 public override global::System.Object entrySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: java.util.Set entrySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.WeakHashMap) _r1_o).poll();
     _r0_o = new global::java.util.WeakHashMap_21();
@@ -250,11 +216,8 @@ public override global::System.Object entrySet(){
 
 public override global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: java.util.Set keySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.WeakHashMap) _r1_o).poll();
     _r0_o = ((global::java.util.WeakHashMap) _r1_o)._fkeySet;
@@ -270,11 +233,8 @@ public override global::System.Object keySet(){
 
 public override global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: java.util.Collection values()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.WeakHashMap) _r1_o).poll();
     _r0_o = ((global::java.util.WeakHashMap) _r1_o)._fvaluesCollection;
@@ -294,13 +254,9 @@ public override global::System.Object get(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -353,13 +309,9 @@ public virtual global::System.Object getEntry(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -404,17 +356,12 @@ public override bool containsValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: boolean containsValue(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -475,10 +422,7 @@ public override bool containsValue(global::java.lang.Object n1){
 public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.WeakHashMap) _r1_o).size();
     if (_r0.i != 0) goto label8;
@@ -493,11 +437,8 @@ public override bool isEmpty(){
 
 public virtual void poll(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void poll()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     label0:;
     _r0_o = ((global::java.util.WeakHashMap) _r1_o)._freferenceQueue;
@@ -520,14 +461,9 @@ public virtual void removeEntry(global::java.util.WeakHashMap_2Entry n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = null;
@@ -580,18 +516,11 @@ public override global::System.Object put(global::java.lang.Object n1, global::j
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -682,23 +611,16 @@ private void rehash(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void rehash()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 0;
     _r0_o = ((global::java.util.WeakHashMap) _r8_o)._felementData;
@@ -745,11 +667,8 @@ private void rehash(){
 
 public override void putAll(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void putAll(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.WeakHashMap) _r0_o).putAllImpl((global::java.util.Map) _r1_o);
@@ -767,15 +686,10 @@ public override global::System.Object remove(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4_o = null;
@@ -861,10 +775,7 @@ public override global::System.Object remove(global::java.lang.Object n1){
 public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: int size()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.util.WeakHashMap) _r1_o).poll();
     _r0.i = ((global::java.util.WeakHashMap) _r1_o)._felementCount;
@@ -874,13 +785,9 @@ public override int size(){
 
 private void putAllImpl(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[java.util.WeakHashMap: void putAllImpl(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Map) _r2_o).entrySet();

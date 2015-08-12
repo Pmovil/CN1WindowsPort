@@ -5,13 +5,9 @@ namespace org.apache.harmony.niochar.charset {
 public class ISO_18859_11: global::java.nio.charset.Charset {
 public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_1: void <init>(java.lang.String, java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -23,12 +19,8 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
 public override bool contains(global::java.nio.charset.Charset n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_1: boolean contains(java.nio.charset.Charset)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::org.apache.harmony.niochar.charset.ISO_18859_11)) ? 1 : 0;
@@ -46,13 +38,9 @@ public override bool contains(global::java.nio.charset.Charset n1){
 
 public override global::System.Object newDecoder(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_1: java.nio.charset.CharsetDecoder newDecoder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.niochar.charset.ISO_18859_11_2Decoder();
     _r1_o = null;
@@ -63,13 +51,9 @@ public override global::System.Object newDecoder(){
 
 public override global::System.Object newEncoder(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_1: java.nio.charset.CharsetEncoder newEncoder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.niochar.charset.ISO_18859_11_2Encoder();
     _r1_o = null;

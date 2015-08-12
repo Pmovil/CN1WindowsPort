@@ -5,15 +5,10 @@ namespace java.util.regex {
 public class AltGroupQuantifierSet: global::java.util.regex.GroupQuantifierSet {
 public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AltGroupQuantifierSet: void <init>(java.util.regex.AbstractSet, java.util.regex.AbstractSet, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -27,15 +22,10 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AltGroupQuantifierSet: int matches(int, java.lang.CharSequence, java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -59,13 +49,9 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 
 public override void setNext(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AltGroupQuantifierSet: void setNext(java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.setNext((global::java.util.regex.AbstractSet) _r2_o);

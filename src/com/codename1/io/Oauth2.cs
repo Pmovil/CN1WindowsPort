@@ -38,8 +38,6 @@ private static bool _fbackToParent;
 public static bool isBackToParent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: boolean isBackToParent()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.Oauth2._fbackToParent ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.Oauth2: boolean isBackToParent()]
@@ -48,8 +46,6 @@ public static bool isBackToParent(){
 public static void setBackToParent(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void setBackToParent(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.Oauth2._fbackToParent = 0!=_r0.i;
     return;
@@ -58,29 +54,17 @@ public static void setBackToParent(bool n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <init>(java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -99,31 +83,18 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -143,37 +114,21 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -196,9 +151,7 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public static global::System.Object getExpires(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String getExpires()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Oauth2._fexpires;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Oauth2: java.lang.String getExpires()]
@@ -206,23 +159,14 @@ public static global::System.Object getExpires(){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.util.Hashtable n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -245,27 +189,18 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public virtual global::System.Object authenticate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String authenticate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r4.i = 300;
     _r3_o = null;
@@ -318,13 +253,9 @@ public virtual global::System.Object authenticate(){
 
 public virtual global::System.Object createAuthComponent(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: com.codename1.ui.Component createAuthComponent(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -335,25 +266,16 @@ public virtual global::System.Object createAuthComponent(global::com.codename1.u
 
 public virtual void showAuthentication(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void showAuthentication(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r5_o = global::com.codename1.ui.Display.getInstance();
@@ -391,37 +313,22 @@ public virtual void showAuthentication(global::com.codename1.ui.events.ActionLis
 
 private global::System.Object createLoginComponent(global::com.codename1.ui.events.ActionListener n1, global::com.codename1.ui.Form n2, global::com.codename1.ui.Form n3, global::com.codename1.ui.Dialog n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: com.codename1.ui.Component createLoginComponent(com.codename1.ui.events.ActionListener, com.codename1.ui.Form, com.codename1.ui.Form, com.codename1.ui.Dialog)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -526,26 +433,17 @@ private global::System.Object createLoginComponent(global::com.codename1.ui.even
 private global::System.Object getParamsFromURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.util.Hashtable getParamsFromURL(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     // Value==
@@ -594,11 +492,8 @@ private global::System.Object getParamsFromURL(global::java.lang.String n1){
 
 public static global::System.Object access_2000(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$000(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._fredirectURI;
     return (global::java.lang.String) _r0_o;
@@ -607,11 +502,8 @@ public static global::System.Object access_2000(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2100(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: com.codename1.ui.Dialog access$100(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._flogin;
     return (global::com.codename1.ui.Dialog) _r0_o;
@@ -620,13 +512,9 @@ public static global::System.Object access_2100(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2200(global::com.codename1.io.Oauth2 n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.util.Hashtable access$200(com.codename1.io.Oauth2, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o).getParamsFromURL((global::java.lang.String) _r2_o);
@@ -636,11 +524,8 @@ public static global::System.Object access_2200(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2302(global::com.codename1.io.Oauth2 n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$302(com.codename1.io.Oauth2, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.io.Oauth2) _r0_o)._ftoken = (global::java.lang.String) _r1_o;
@@ -650,9 +535,7 @@ public static global::System.Object access_2302(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2402(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$402(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.Oauth2._fexpires = (global::java.lang.String) _r0_o;
     return (global::java.lang.String) _r0_o;
@@ -662,8 +545,6 @@ public static global::System.Object access_2402(global::java.lang.String n1){
 public static bool access_2500(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: boolean access$500()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.Oauth2._fbackToParent ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.Oauth2: boolean access$500()]
@@ -671,11 +552,8 @@ public static bool access_2500(){
 
 public static global::System.Object access_2300(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$300(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._ftoken;
     return (global::java.lang.String) _r0_o;
@@ -684,11 +562,8 @@ public static global::System.Object access_2300(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2600(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$600(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._ftokenRequestURL;
     return (global::java.lang.String) _r0_o;
@@ -697,11 +572,8 @@ public static global::System.Object access_2600(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2700(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$700(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._fclientId;
     return (global::java.lang.String) _r0_o;
@@ -710,11 +582,8 @@ public static global::System.Object access_2700(global::com.codename1.io.Oauth2 
 
 public static global::System.Object access_2800(global::com.codename1.io.Oauth2 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$800(com.codename1.io.Oauth2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2) _r1_o)._fclientSecret;
     return (global::java.lang.String) _r0_o;
@@ -724,8 +593,6 @@ public static global::System.Object access_2800(global::com.codename1.io.Oauth2 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.io.Oauth2._fbackToParent = 0!=_r0.i;
     return;

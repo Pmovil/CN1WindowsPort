@@ -14,12 +14,8 @@ public global::java.util.AbstractList _fthis_20;
 private void @this(global::java.util.AbstractList n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SimpleListIterator: void <init>(java.util.AbstractList)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.AbstractList_2SimpleListIterator) _r1_o)._fthis_20 = (global::java.util.AbstractList) _r2_o;
@@ -37,10 +33,7 @@ private void @this(global::java.util.AbstractList n1){
 public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SimpleListIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.AbstractList_2SimpleListIterator) _r1_o)._fnumLeft;
     if (_r0.i <= 0) goto label6;
@@ -60,8 +53,6 @@ public virtual global::System.Object next(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -112,10 +103,7 @@ public virtual void remove(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -186,13 +174,9 @@ public virtual void remove(){
 
 public void @this(global::java.util.AbstractList n1, global::java.util.AbstractList_2SimpleListIterator n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SimpleListIterator: void <init>(java.util.AbstractList, java.util.AbstractList$SimpleListIterator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -203,15 +187,10 @@ public void @this(global::java.util.AbstractList n1, global::java.util.AbstractL
 
 public void @this(global::java.util.AbstractList n1, global::java.util.AbstractList_2SimpleListIterator n2, global::java.util.AbstractList_2SimpleListIterator n3){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SimpleListIterator: void <init>(java.util.AbstractList, java.util.AbstractList$SimpleListIterator, java.util.AbstractList$SimpleListIterator)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

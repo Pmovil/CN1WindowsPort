@@ -51,14 +51,9 @@ public static void @static(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.i = 4;
     _r3.i = 3;
     _r2.i = 2;
@@ -149,16 +144,10 @@ public void @this(int n1, global::java.util.Random n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -221,15 +210,10 @@ public void @this(int n1, int n2, global::java.util.Random n3){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -263,12 +247,8 @@ public void @this(int n1, int n2, global::java.util.Random n3){
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 10;
@@ -281,15 +261,10 @@ public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -338,18 +313,11 @@ public void @this(int n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7_o = n2;
@@ -417,11 +385,8 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 0;
@@ -460,16 +425,10 @@ public void @this(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -491,16 +450,10 @@ public void @this(int n1, int n2){
 public void @this(int n1, int n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void <init>(int, int, int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -522,26 +475,13 @@ public void @this(int n1, long n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.l = n2;
@@ -584,16 +524,10 @@ public void @this(int n1, global::org.xmlvm._nArrayAdapter<int> n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -626,16 +560,8 @@ public static global::System.Object valueOf(long n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.l = n1;
     _r0.l = 0L;
     _r0.i = _r4.l > _r0.l ? 1 : (_r4.l == _r0.l ? 0 : -1);
@@ -673,26 +599,17 @@ public virtual global::System.Object toByteArray(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r4.i = 1;
     _r7.i = 4;
@@ -820,13 +737,10 @@ public virtual global::System.Object toByteArray(){
 private static void setFromString(global::java.math.BigInteger n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void setFromString(java.math.BigInteger, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -834,18 +748,11 @@ private static void setFromString(global::java.math.BigInteger n1, global::java.
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12.i = n3;
@@ -911,14 +818,9 @@ public virtual global::System.Object abs(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::java.math.BigInteger) _r4_o)._fsign;
     if (_r0.i >= 0) goto label15;
@@ -940,14 +842,9 @@ public virtual global::System.Object negate(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::java.math.BigInteger) _r4_o)._fsign;
     if (_r0.i != 0) goto label6;
@@ -967,13 +864,9 @@ public virtual global::System.Object negate(){
 
 public virtual global::System.Object add(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger add(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Elementary.add((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -983,13 +876,9 @@ public virtual global::System.Object add(global::java.math.BigInteger n1){
 
 public virtual global::System.Object subtract(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger subtract(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Elementary.subtract((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -1000,10 +889,7 @@ public virtual global::System.Object subtract(global::java.math.BigInteger n1){
 public virtual int signum(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int signum()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.math.BigInteger) _r1_o)._fsign;
     return _r0.i;
@@ -1014,11 +900,8 @@ public virtual global::System.Object shiftRight(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger shiftRight(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i == 0) goto label6;
@@ -1043,11 +926,8 @@ public virtual global::System.Object shiftLeft(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger shiftLeft(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     if (_r2.i == 0) goto label6;
@@ -1072,9 +952,7 @@ public virtual global::System.Object shiftLeftOneBit(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger shiftLeftOneBit()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.math.BigInteger) _r1_o)._fsign;
     if (_r0.i != 0) goto label6;
@@ -1090,10 +968,7 @@ public virtual global::System.Object shiftLeftOneBit(){
 public virtual int bitLength(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int bitLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = global::java.math.BitLevel.bitLength((global::java.math.BigInteger) _r1_o);
     return _r0.i;
@@ -1107,18 +982,11 @@ public virtual bool testBit(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 1;
@@ -1189,11 +1057,8 @@ public virtual global::System.Object setBit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger setBit(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::java.math.BigInteger) _r1_o).testBit((int) _r2.i) ? 1 : 0;
@@ -1211,11 +1076,8 @@ public virtual global::System.Object clearBit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger clearBit(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::java.math.BigInteger) _r1_o).testBit((int) _r2.i) ? 1 : 0;
@@ -1231,15 +1093,10 @@ public virtual global::System.Object clearBit(int n1){
 
 public virtual global::System.Object flipBit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger flipBit(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i >= 0) goto label14;
@@ -1259,14 +1116,9 @@ public virtual global::System.Object flipBit(int n1){
 public virtual int getLowestSetBit(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int getLowestSetBit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.math.BigInteger) _r3_o)._fsign;
     if (_r0.i != 0) goto label6;
@@ -1287,10 +1139,7 @@ public virtual int getLowestSetBit(){
 public virtual int bitCount(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int bitCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = global::java.math.BitLevel.bitCount((global::java.math.BigInteger) _r1_o);
     return _r0.i;
@@ -1299,11 +1148,8 @@ public virtual int bitCount(){
 
 public virtual global::System.Object not(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger not()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.math.Logical.not((global::java.math.BigInteger) _r1_o);
     return (global::java.math.BigInteger) _r0_o;
@@ -1312,13 +1158,9 @@ public virtual global::System.Object not(){
 
 public virtual global::System.Object and(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger and(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Logical.and((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -1328,13 +1170,9 @@ public virtual global::System.Object and(global::java.math.BigInteger n1){
 
 public virtual global::System.Object or(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger or(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Logical.or((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -1344,13 +1182,9 @@ public virtual global::System.Object or(global::java.math.BigInteger n1){
 
 public virtual global::System.Object xor(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger xor(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Logical.xor((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -1360,13 +1194,9 @@ public virtual global::System.Object xor(global::java.math.BigInteger n1){
 
 public virtual global::System.Object andNot(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger andNot(java.math.BigInteger)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::java.math.Logical.andNot((global::java.math.BigInteger) _r1_o, (global::java.math.BigInteger) _r2_o);
@@ -1377,14 +1207,10 @@ public virtual global::System.Object andNot(global::java.math.BigInteger n1){
 public override int intValue(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int intValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.math.BigInteger) _r3_o)._fsign;
     _r1_o = ((global::java.math.BigInteger) _r3_o)._fdigits;
@@ -1400,18 +1226,11 @@ public override long longValue(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r4.l = 4294967295L;
     _r1.i = 1;
@@ -1445,12 +1264,7 @@ public override long longValue(){
 public override float floatValue(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: float floatValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::java.math.BigInteger) _r2_o).doubleValue();
     _r0.f = (float) _r0.d;
@@ -1461,12 +1275,7 @@ public override float floatValue(){
 public override double doubleValue(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: double doubleValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = global::java.math.Conversion.bigInteger2Double((global::java.math.BigInteger) _r2_o);
     return _r0.d;
@@ -1476,18 +1285,12 @@ public override double doubleValue(){
 public virtual int compareTo(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int compareTo(java.math.BigInteger)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r4_o)._fsign;
@@ -1531,12 +1334,8 @@ public virtual global::System.Object min(global::java.math.BigInteger n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r2_o).compareTo((global::java.math.BigInteger) _r3_o);
@@ -1556,12 +1355,8 @@ public virtual global::System.Object max(global::java.math.BigInteger n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r2_o).compareTo((global::java.math.BigInteger) _r3_o);
@@ -1579,14 +1374,11 @@ public virtual global::System.Object max(global::java.math.BigInteger n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.math.BigInteger) _r3_o)._fhashCode;
     if (_r0.i == 0) goto label7;
@@ -1623,16 +1415,10 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -1668,18 +1454,12 @@ public override bool equals(global::java.lang.Object n1){
 public virtual bool equalsArrays(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: boolean equalsArrays(int[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -1709,9 +1489,7 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = global::java.math.Conversion.toDecimalScaledString((global::java.math.BigInteger) _r1_o, (int) _r0.i);
@@ -1721,13 +1499,9 @@ public override global::System.Object toString(){
 
 public virtual global::System.Object toString(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.lang.String toString(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::java.math.Conversion.bigInteger2String((global::java.math.BigInteger) _r1_o, (int) _r2.i);
@@ -1739,19 +1513,13 @@ public virtual global::System.Object gcd(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger gcd(java.math.BigInteger)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 2;
@@ -1799,11 +1567,8 @@ public virtual global::System.Object multiply(global::java.math.BigInteger n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger multiply(java.math.BigInteger)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r2_o)._fsign;
@@ -1828,11 +1593,8 @@ public virtual global::System.Object pow(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1.i = 1;
@@ -1889,29 +1651,18 @@ public virtual global::System.Object divideAndRemainder(global::java.math.BigInt
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r10.i = 2;
@@ -1990,22 +1741,12 @@ public virtual global::System.Object divide(global::java.math.BigInteger n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r9.l = 4294967295L;
@@ -2113,18 +1854,12 @@ public virtual global::System.Object remainder(global::java.math.BigInteger n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 1;
@@ -2190,13 +1925,9 @@ public virtual global::System.Object modInverse(global::java.math.BigInteger n1)
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = 0;
@@ -2260,16 +1991,10 @@ public virtual global::System.Object modPow(global::java.math.BigInteger n1, glo
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -2352,11 +2077,8 @@ public virtual global::System.Object mod(global::java.math.BigInteger n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r3_o)._fsign;
@@ -2382,11 +2104,8 @@ public virtual bool isProbablePrime(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: boolean isProbablePrime(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::java.math.BigInteger) _r1_o).abs();
@@ -2399,11 +2118,8 @@ public virtual global::System.Object nextProbablePrime(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger nextProbablePrime()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.math.BigInteger) _r2_o)._fsign;
     if (_r0.i >= 0) goto label16;
@@ -2422,15 +2138,10 @@ public virtual global::System.Object nextProbablePrime(){
 
 public static global::System.Object probablePrime(int n1, global::java.util.Random n2){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger probablePrime(int, java.util.Random)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3_o = n2;
     _r0_o = new global::java.math.BigInteger();
@@ -2445,12 +2156,8 @@ public virtual void cutOffLeadingZeroes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     label0:;
     _r0.i = ((global::java.math.BigInteger) _r3_o)._fnumberLength;
@@ -2481,12 +2188,8 @@ public virtual bool isOne(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r1.i = 1;
@@ -2507,9 +2210,7 @@ public virtual bool isOne(){
 private void putBytesPositiveToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void putBytesPositiveToIntegers(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
@@ -2517,16 +2218,10 @@ private void putBytesPositiveToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> 
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 0;
@@ -2593,7 +2288,6 @@ private void putBytesPositiveToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> 
 private void putBytesNegativeToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void putBytesNegativeToIntegers(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -2603,14 +2297,9 @@ private void putBytesNegativeToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> 
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r4.i = 1;
@@ -2754,12 +2443,9 @@ private void putBytesNegativeToIntegers(global::org.xmlvm._nArrayAdapter<sbyte> 
 public virtual int getFirstNonzeroDigit(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int getFirstNonzeroDigit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.math.BigInteger) _r2_o)._ffirstNonzeroDigit;
     _r1.i = -2;
@@ -2787,15 +2473,10 @@ public virtual global::System.Object copy(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: java.math.BigInteger copy()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r0.i = ((global::java.math.BigInteger) _r4_o)._fnumberLength;
@@ -2815,11 +2496,8 @@ private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void readObject(java.io.ObjectInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.ObjectInputStream) _r2_o).defaultReadObject();
@@ -2836,11 +2514,8 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void writeObject(java.io.ObjectOutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.math.BigInteger) _r1_o).signum();
@@ -2856,10 +2531,7 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 public virtual void unCache(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void unCache()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -2;
     ((global::java.math.BigInteger) _r1_o)._ffirstNonzeroDigit = _r0.i;
@@ -2876,10 +2548,7 @@ public static global::System.Object getPowerOfTwo(int n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 1;
     _r0_o = global::java.math.BigInteger._fTWO_1POWS;
@@ -2907,12 +2576,8 @@ public static global::System.Object getPowerOfTwo(int n1){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

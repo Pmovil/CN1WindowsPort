@@ -7,11 +7,8 @@ public global::java.io.InputStream _fin;
 
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: void <init>(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.InputStream) _r0_o).@this();
@@ -24,9 +21,7 @@ public override int available(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: int available()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.FilterInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).available();
@@ -36,11 +31,8 @@ public override int available(){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.FilterInputStream) _r1_o)._fin;
     ((global::java.io.InputStream) _r0_o).close();
@@ -50,12 +42,9 @@ public override void close(){
 
 public override void mark(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: void mark(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
@@ -87,9 +76,7 @@ public override bool markSupported(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: boolean markSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.FilterInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).markSupported() ? 1 : 0;
@@ -101,9 +88,7 @@ public override int read(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: int read()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.FilterInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).read();
@@ -114,14 +99,9 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: int read(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -135,15 +115,10 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: int read(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -156,9 +131,7 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 
 public override void reset(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -190,15 +163,8 @@ public override long skip(long n1){
 //XMLVM_BEGIN_WRAPPER[java.io.FilterInputStream: long skip(long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r0_o = ((global::java.io.FilterInputStream) _r2_o)._fin;

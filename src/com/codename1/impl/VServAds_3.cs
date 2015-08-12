@@ -7,11 +7,8 @@ public global::com.codename1.impl.VServAds _fthis_20;
 
 public void @this(global::com.codename1.impl.VServAds n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$3: void <init>(com.codename1.impl.VServAds)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds_23) _r0_o)._fthis_20 = (global::com.codename1.impl.VServAds) _r1_o;
@@ -24,13 +21,9 @@ public virtual bool shouldNavigate(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds$3: boolean shouldNavigate(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.impl.VServAds_23) _r2_o)._fthis_20;

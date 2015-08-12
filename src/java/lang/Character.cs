@@ -216,20 +216,12 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 27;
     _r6.i = 15;
     _r5.i = 6;
@@ -2373,11 +2365,8 @@ public static void @static(){
 
 public void @this(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: void <init>(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -2389,10 +2378,7 @@ public void @this(char n1){
 public virtual char charValue(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: char charValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Character) _r1_o)._fvalue;
     return (char) _r0.i;
@@ -2402,14 +2388,9 @@ public virtual char charValue(){
 public virtual int compareTo(global::java.lang.Character n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int compareTo(java.lang.Character)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.lang.Character) _r2_o)._fvalue;
@@ -2424,8 +2405,6 @@ public static global::System.Object valueOf(char n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 512;
     if (_r1.i < _r0.i) goto label10;
@@ -2443,10 +2422,7 @@ public static global::System.Object valueOf(char n1){
 public static bool isValidCodePoint(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isValidCodePoint(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     if (_r1.i < 0) goto label9;
     _r0.i = 1114111;
@@ -2463,10 +2439,7 @@ public static bool isValidCodePoint(int n1){
 public static bool isSupplementaryCodePoint(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isSupplementaryCodePoint(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 65536;
     if (_r0.i > _r1.i) goto label11;
@@ -2484,10 +2457,7 @@ public static bool isSupplementaryCodePoint(int n1){
 public static bool isHighSurrogate(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isHighSurrogate(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 55296;
     if (_r0.i > _r1.i) goto label12;
@@ -2505,10 +2475,7 @@ public static bool isHighSurrogate(char n1){
 public static bool isLowSurrogate(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLowSurrogate(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 56320;
     if (_r0.i > _r1.i) goto label12;
@@ -2526,12 +2493,8 @@ public static bool isLowSurrogate(char n1){
 public static bool isSurrogatePair(char n1, char n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isSurrogatePair(char, char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0.i = global::java.lang.Character.isHighSurrogate((char) _r1.i) ? 1 : 0;
@@ -2550,10 +2513,7 @@ public static bool isSurrogatePair(char n1, char n2){
 public static int charCount(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int charCount(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 65536;
     if (_r1.i < _r0.i) goto label6;
@@ -2569,14 +2529,9 @@ public static int charCount(int n1){
 public static int toCodePoint(char n1, char n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int toCodePoint(char, char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = _r2.i & 1023;
@@ -2594,14 +2549,9 @@ public static int codePointAt(global::java.lang.CharSequence n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     if (_r3_o != null) goto label8;
@@ -2640,14 +2590,9 @@ public static int codePointAt(global::org.xmlvm._nArrayAdapter<char> n1, int n2)
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     if (_r3_o != null) goto label8;
@@ -2686,16 +2631,10 @@ public static int codePointAt(global::org.xmlvm._nArrayAdapter<char> n1, int n2,
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5.i = n3;
@@ -2732,14 +2671,9 @@ public static int codePointBefore(global::java.lang.CharSequence n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     if (_r3_o != null) goto label8;
@@ -2780,14 +2714,9 @@ public static int codePointBefore(global::org.xmlvm._nArrayAdapter<char> n1, int
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     if (_r3_o != null) goto label8;
@@ -2828,16 +2757,10 @@ public static int codePointBefore(global::org.xmlvm._nArrayAdapter<char> n1, int
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5.i = n3;
@@ -2880,16 +2803,10 @@ public static int toChars(int n1, global::org.xmlvm._nArrayAdapter<char> n2, int
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4_o = n2;
     _r5.i = n3;
@@ -2952,16 +2869,11 @@ public static global::System.Object toChars(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r4.i = 1;
     _r3.i = 0;
@@ -3004,16 +2916,10 @@ public static int codePointCount(global::java.lang.CharSequence n1, int n2, int 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r5.i = n3;
@@ -3059,18 +2965,11 @@ public static int codePointCount(global::org.xmlvm._nArrayAdapter<char> n1, int 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
@@ -3117,18 +3016,11 @@ public static int offsetByCodePoints(global::java.lang.CharSequence n1, int n2, 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
@@ -3215,22 +3107,13 @@ public static int offsetByCodePoints(global::org.xmlvm._nArrayAdapter<char> n1, 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
@@ -3325,14 +3208,9 @@ public static int digit(char n1, int n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r5.i = n2;
     _r1.i = 48;
@@ -3401,12 +3279,8 @@ public static int digit(char n1, int n2){
 public static int digit(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int digit(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
 // Red class access removed: com.ibm.icu.lang.UCharacter digit
@@ -3418,14 +3292,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.lang.Character)) ? 1 : 0;
@@ -3446,14 +3315,9 @@ public override bool equals(global::java.lang.Object n1){
 public static char forDigit(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: char forDigit(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r1.i = 10;
@@ -3486,12 +3350,8 @@ public static int getNumericValue(char n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r1.i = 48;
     _r3.i = -1;
@@ -3556,10 +3416,7 @@ public static int getNumericValue(char n1){
 public static int getNumericValue(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int getNumericValue(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter getNumericValue
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter getNumericValue");
@@ -3574,10 +3431,7 @@ public static int getType(char n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r0.i = 1000;
     if (_r3.i >= _r0.i) goto label9;
@@ -3619,10 +3473,7 @@ public static int getType(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = 1000;
     if (_r2.i >= _r0.i) goto label11;
@@ -3648,12 +3499,8 @@ public static sbyte getDirectionality(char n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 1;
     // Value=\000\011\014\016\034\037!#&+/1:<A[a\173\177\205\207\240\242\246\252\254\260\262\264\267\271\273\300\327\331\367\371\1042\1120\1260\1271\1273\1302\1320\1322\1340\1345\1356\1400\1540\1564\1572\1576\1604\1606\1611\1614\1616\1643\1720\1732\2000\2203\2210\2214\2307\2313\2320\2370\2461\2531\2541\2611\2621\2643\2673\2676\2702\2720\2760\3014\3033\3037\3041\3100\3113\3140\3152\3154\3160\3162\3326\3345\3347\3351\3353\3360\3372\3400\3417\3421\3423\3460\3600\3646\4401\4403\4405\4474\4476\4501\4511\4515\4520\4522\4530\4542\4544\4601\4603\4605\4617\4623\4652\4662\4666\4674\4676\4701\4707\4713\4715\4727\4734\4737\4742\4746\4762\4764\5002\5005\5017\5023\5052\5062\5065\5070\5074\5076\5101\5107\5113\5131\5136\5146\5160\5162\5201\5203\5205\5215\5217\5223\5252\5262\5265\5274\5276\5301\5307\5311\5313\5315\5320\5340\5346\5401\5403\5405\5417\5423\5452\5462\5466\5474\5476\5502\5507\5513\5515\5526\5534\5537\5546\5602\5605\5616\5622\5631\5634\5636\5643\5650\5656\5667\5676\5700\5702\5706\5712\5715\5727\5747\6001\6005\6016\6022\6052\6065\6076\6101\6106\6112\6125\6140\6146\6202\6205\6216\6222\6252\6265\6276\6301\6306\6310\6312\6314\6325\6336\6340\6346\6402\6405\6416\6422\6452\6476\6501\6506\6512\6515\6527\6540\6546\6602\6605\6632\6663\6675\6700\6712\6717\6722\6726\6730\6762\7001\7061\7063\7065\7077\7101\7107\7117\7201\7204\7207\7212\7215\7224\7231\7241\7245\7247\7252\7255\7261\7263\7265\7273\7275\7300\7306\7310\7320\7334\7400\7430\7432\7465\7472\7476\7511\7561\7577\7601\7605\7607\7611\7620\7631\7676\7706\7710\7717\10000\10043\10051\10054\10056\10061\10066\10070\10100\10130\10240\10320\10373\10400\10537\10650\11000\11010\11110\11112\11120\11130\11132\11140\11210\11212\11220\11260\11262\11270\11300\11302\11310\11320\11330\11360\11420\11422\11430\11440\11510\11541\11640\12001\13200\13202\13233\13240\13600\13667\13676\13706\13710\13712\13724\13733\13740\14000\14013\14020\14040\14200\14251\17000\17240\17400\17430\17440\17510\17520\17531\17533\17535\17537\17600\17666\17675\17700\17702\17706\17715\17720\17726\17735\17740\17755\17762\17766\17775\20000\20013\20016\20020\20050\20052\20054\20056\20060\20065\20110\20152\20160\20164\20172\20174\20177\20201\20212\20214\20240\20320\20400\20402\20404\20407\20411\20413\20424\20427\20431\20436\20444\20453\20456\20460\20462\20464\20472\20523\20540\20620\21000\21022\21024\21400\21466\21573\21575\21625\21627\22000\22100\22140\22234\22352\22400\22640\23000\23031\23401\23406\23414\23451\23515\23517\23526\23530\23541\23566\23630\23661\24000\27200\27233\27400\27760\30000\30002\30005\30010\30041\30052\30060\30062\30066\30070\30076\30101\30231\30233\30235\30241\30373\30375\30405\30461\30620\31000\31040\31140\31177\31300\31320\31400\31573\31740\32000\47000\120000\122220\122244\122265\122302\122306\126000\154000\175400\175423\175435\175440\175451\175453\175470\175476\175500\175503\175506\175520\175723\176476\176520\176622\176760\177040\177060\177111\177120\177124\177127\177137\177141\177143\177145\177150\177152\177160\177164\177166\177377\177401\177403\177406\177413\177417\177421\177432\177434\177441\177473\177501\177533\177541\177546\177702\177712\177722\177732\177740\177742\177745\177750\177771\177774
@@ -3694,12 +3541,9 @@ public static sbyte getDirectionality(char n1){
 public static sbyte getDirectionality(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: byte getDirectionality(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r1.i = -1;
     _r0.i = global::java.lang.Character.getType((int) _r2.i);
@@ -3723,18 +3567,12 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isMirrored(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isMirrored(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r4.i = 1;
     _r3.i = 0;
@@ -3763,10 +3601,7 @@ public static bool isMirrored(char n1){
 public static bool isMirrored(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isMirrored(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isMirrored
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isMirrored");
@@ -3777,10 +3612,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Character) _r1_o)._fvalue;
     return _r0.i;
@@ -3790,10 +3622,7 @@ public override int hashCode(){
 public static bool isDefined(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isDefined(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.getType((char) _r1.i);
     if (_r0.i == 0) goto label8;
@@ -3809,10 +3638,7 @@ public static bool isDefined(char n1){
 public static bool isDefined(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isDefined(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isDefined
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isDefined");
@@ -3823,16 +3649,10 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isDigit(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 1;
     _r2.i = 0;
@@ -3863,10 +3683,7 @@ public static bool isDigit(char n1){
 public static bool isDigit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isDigit(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isDigit
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isDigit");
@@ -3877,12 +3694,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isIdentifierIgnorable(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isIdentifierIgnorable(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     if (_r2.i < 0) goto label6;
     _r0.i = 8;
@@ -3913,10 +3726,7 @@ public static bool isIdentifierIgnorable(char n1){
 public static bool isIdentifierIgnorable(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isIdentifierIgnorable(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isIdentifierIgnorable
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isIdentifierIgnorable");
@@ -3927,10 +3737,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isISOControl(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isISOControl(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.isISOControl((int) _r1.i) ? 1 : 0;
     return _r0.i!=0;
@@ -3940,10 +3747,7 @@ public static bool isISOControl(char n1){
 public static bool isISOControl(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isISOControl(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     if (_r1.i < 0) goto label6;
     _r0.i = 31;
@@ -3968,16 +3772,10 @@ public static bool isJavaIdentifierPart(char n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r4.i = 128;
     _r3.i = 0;
@@ -4029,14 +3827,9 @@ public static bool isJavaIdentifierPart(char n1){
 public static bool isJavaIdentifierPart(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isJavaIdentifierPart(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r0.i = global::java.lang.Character.getType((int) _r3.i);
@@ -4073,14 +3866,9 @@ public static bool isJavaIdentifierStart(char n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 0;
     _r2.i = 1;
@@ -4119,12 +3907,8 @@ public static bool isJavaIdentifierStart(char n1){
 public static bool isJavaIdentifierStart(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isJavaIdentifierStart(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::java.lang.Character.getType((int) _r2.i);
     _r1.i = global::java.lang.Character.isLetter((int) _r2.i) ? 1 : 0;
@@ -4147,10 +3931,7 @@ public static bool isJavaIdentifierStart(int n1){
 public static bool isJavaLetter(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isJavaLetter(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.isJavaIdentifierStart((char) _r1.i) ? 1 : 0;
     return _r0.i!=0;
@@ -4160,10 +3941,7 @@ public static bool isJavaLetter(char n1){
 public static bool isJavaLetterOrDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isJavaLetterOrDigit(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.isJavaIdentifierPart((char) _r1.i) ? 1 : 0;
     return _r0.i!=0;
@@ -4173,16 +3951,10 @@ public static bool isJavaLetterOrDigit(char n1){
 public static bool isLetter(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLetter(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 0;
     _r2.i = 1;
@@ -4220,10 +3992,7 @@ public static bool isLetter(char n1){
 public static bool isLetter(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLetter(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isLetter
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isLetter");
@@ -4234,14 +4003,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isLetterOrDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLetterOrDigit(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r0.i = global::java.lang.Character.getType((char) _r3.i);
@@ -4263,10 +4027,7 @@ public static bool isLetterOrDigit(char n1){
 public static bool isLetterOrDigit(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLetterOrDigit(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isLetterOrDigit
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isLetterOrDigit");
@@ -4277,16 +4038,10 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isLowerCase(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLowerCase(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r3.i = 1;
     _r2.i = 0;
@@ -4317,10 +4072,7 @@ public static bool isLowerCase(char n1){
 public static bool isLowerCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isLowerCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isLowerCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isLowerCase");
@@ -4331,10 +4083,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isSpace(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isSpace(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 10;
     if (_r1.i == _r0.i) goto label22;
@@ -4358,14 +4107,9 @@ public static bool isSpace(char n1){
 public static bool isSpaceChar(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isSpaceChar(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r1.i = 0;
@@ -4406,10 +4150,7 @@ public static bool isSpaceChar(char n1){
 public static bool isSpaceChar(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isSpaceChar(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isSpaceChar
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isSpaceChar");
@@ -4420,16 +4161,10 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isTitleCase(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isTitleCase(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r1.i = 8188;
     _r3.i = 1;
@@ -4482,10 +4217,7 @@ public static bool isTitleCase(char n1){
 public static bool isTitleCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isTitleCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isTitleCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isTitleCase");
@@ -4496,14 +4228,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isUnicodeIdentifierPart(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUnicodeIdentifierPart(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r0.i = global::java.lang.Character.getType((char) _r3.i);
@@ -4536,10 +4263,7 @@ public static bool isUnicodeIdentifierPart(char n1){
 public static bool isUnicodeIdentifierPart(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUnicodeIdentifierPart(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isUnicodeIdentifierPart
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isUnicodeIdentifierPart");
@@ -4550,14 +4274,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isUnicodeIdentifierStart(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUnicodeIdentifierStart(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r0.i = global::java.lang.Character.getType((char) _r3.i);
@@ -4579,10 +4298,7 @@ public static bool isUnicodeIdentifierStart(char n1){
 public static bool isUnicodeIdentifierStart(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUnicodeIdentifierStart(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isUnicodeIdentifierStart
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isUnicodeIdentifierStart");
@@ -4593,14 +4309,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isUpperCase(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUpperCase(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 0;
     _r1.i = 1;
@@ -4630,10 +4341,7 @@ public static bool isUpperCase(char n1){
 public static bool isUpperCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isUpperCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isUpperCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isUpperCase");
@@ -4644,14 +4352,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static bool isWhitespace(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isWhitespace(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 0;
     _r1.i = 1;
@@ -4701,10 +4404,7 @@ public static bool isWhitespace(char n1){
 public static bool isWhitespace(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: boolean isWhitespace(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter isWhitespace
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter isWhitespace");
@@ -4715,12 +4415,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public static char reverseBytes(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: char reverseBytes(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = _r2.i << (0x1f & 8);
     _r1.i = _r2.i >> (0x1f & 8);
@@ -4741,16 +4437,10 @@ public static char toLowerCase(char n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.i = n1;
     _r1.i = 192;
     _r6.i = 32768;
@@ -4827,10 +4517,7 @@ public static char toLowerCase(char n1){
 public static int toLowerCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int toLowerCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter toLowerCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter toLowerCase");
@@ -4842,9 +4529,7 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.lang.Character) _r1_o)._fvalue;
     _r0_o = global::java.lang.String.valueOf((char) _r0.i);
@@ -4854,11 +4539,8 @@ public override global::System.Object toString(){
 
 public static global::System.Object toString(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: java.lang.String toString(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::java.lang.String.valueOf((char) _r1.i);
     return (global::java.lang.String) _r0_o;
@@ -4869,11 +4551,8 @@ public static char toTitleCase(char n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: char toTitleCase(char)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::java.lang.Character.isTitleCase((char) _r2.i) ? 1 : 0;
     if (_r0.i == 0) goto label8;
@@ -4898,10 +4577,7 @@ public static char toTitleCase(char n1){
 public static int toTitleCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int toTitleCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter toTitleCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter toTitleCase");
@@ -4920,16 +4596,10 @@ public static char toUpperCase(char n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.i = n1;
     _r1.i = 181;
     _r6.i = 32768;
@@ -5007,10 +4677,7 @@ public static char toUpperCase(char n1){
 public static int toUpperCase(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int toUpperCase(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
 // Red class access removed: com.ibm.icu.lang.UCharacter toUpperCase
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: com.ibm.icu.lang.UCharacter toUpperCase");
@@ -5021,12 +4688,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = _r2_o;

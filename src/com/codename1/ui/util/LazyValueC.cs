@@ -13,17 +13,11 @@ private global::com.codename1.ui.util.UIBuilder _fparent;
 
 public void @this(global::com.codename1.ui.Form n1, global::java.util.Hashtable n2, global::com.codename1.ui.Command n3, global::com.codename1.ui.util.UIBuilder n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.LazyValueC: void <init>(com.codename1.ui.Form, java.util.Hashtable, com.codename1.ui.Command, com.codename1.ui.util.UIBuilder)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -40,23 +34,16 @@ public void @this(global::com.codename1.ui.Form n1, global::java.util.Hashtable 
 
 public virtual global::System.Object get(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.LazyValueC: com.codename1.ui.Form get(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3_o = ((global::com.codename1.ui.util.LazyValueC) _r6_o)._fparent;
@@ -95,11 +82,8 @@ public virtual global::System.Object get(global::org.xmlvm._nArrayAdapter<global
 
 public static global::System.Object access_2000(global::com.codename1.ui.util.LazyValueC n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.LazyValueC: com.codename1.ui.util.UIBuilder access$000(com.codename1.ui.util.LazyValueC)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.util.LazyValueC) _r1_o)._fparent;
     return (global::com.codename1.ui.util.UIBuilder) _r0_o;

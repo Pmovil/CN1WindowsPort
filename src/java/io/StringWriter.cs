@@ -7,13 +7,9 @@ private global::java.lang.StringBuffer _fbuf;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.io.Writer) _r2_o).@this();
     _r0_o = new global::java.lang.StringBuffer();
@@ -28,13 +24,9 @@ public void @this(){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.io.Writer) _r1_o).@this();
@@ -54,9 +46,7 @@ public void @this(int n1){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void close()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.io.StringWriter: void close()]
@@ -64,9 +54,7 @@ public override void close(){
 
 public override void flush(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void flush()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[java.io.StringWriter: void flush()]
@@ -74,11 +62,8 @@ public override void flush(){
 
 public virtual global::System.Object getBuffer(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: java.lang.StringBuffer getBuffer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.StringWriter) _r1_o)._fbuf;
     return (global::java.lang.StringBuffer) _r0_o;
@@ -87,11 +72,8 @@ public virtual global::System.Object getBuffer(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.StringWriter) _r1_o)._fbuf;
     _r0_o = ((global::java.lang.StringBuffer) _r0_o).toString();
@@ -103,15 +85,10 @@ public override void write(global::org.xmlvm._nArrayAdapter<char> n1, int n2, in
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void write(char[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -140,15 +117,10 @@ public override void write(global::org.xmlvm._nArrayAdapter<char> n1, int n2, in
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::java.io.StringWriter) _r2_o)._fbuf;
@@ -160,13 +132,9 @@ public override void write(int n1){
 
 public override void write(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void write(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.io.StringWriter) _r1_o)._fbuf;
@@ -179,17 +147,11 @@ public override void write(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void write(java.lang.String, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -204,11 +166,8 @@ public override void write(global::java.lang.String n1, int n2, int n3){
 
 public override global::System.Object append(char n1){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: java.io.StringWriter append(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.io.StringWriter) _r0_o).write((int) _r1.i);
@@ -218,13 +177,9 @@ public override global::System.Object append(char n1){
 
 public override global::System.Object append(global::java.lang.CharSequence n1){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: java.io.StringWriter append(java.lang.CharSequence)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label8;
@@ -243,21 +198,13 @@ public override global::System.Object append(global::java.lang.CharSequence n1){
 
 public override global::System.Object append(global::java.lang.CharSequence n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: java.io.StringWriter append(java.lang.CharSequence, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;

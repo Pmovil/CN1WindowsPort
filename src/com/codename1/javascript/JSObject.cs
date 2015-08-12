@@ -33,27 +33,17 @@ public static global::java.lang.String _fPROP_1REFCOUNT;
 
 public void @this(global::com.codename1.javascript.JavascriptContext n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void <init>(com.codename1.javascript.JavascriptContext, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
@@ -296,15 +286,10 @@ public virtual global::System.Object get(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.Object get(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value='
@@ -349,11 +334,8 @@ public virtual global::System.Object get(global::java.lang.String n1){
 
 public virtual global::System.Object getString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.String getString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((global::java.lang.String) _r1_o);
@@ -365,12 +347,8 @@ public virtual global::System.Object getString(global::java.lang.String n1){
 public virtual int getInt(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: int getInt(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((global::java.lang.String) _r2_o);
@@ -383,14 +361,8 @@ public virtual int getInt(global::java.lang.String n1){
 public virtual double getDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: double getDouble(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r2_o = ((global::com.codename1.javascript.JSObject) _r2_o).get((global::java.lang.String) _r3_o);
@@ -403,12 +375,8 @@ public virtual double getDouble(global::java.lang.String n1){
 public virtual bool getBoolean(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: boolean getBoolean(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((global::java.lang.String) _r2_o);
@@ -420,11 +388,8 @@ public virtual bool getBoolean(global::java.lang.String n1){
 
 public virtual global::System.Object getObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject getObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((global::java.lang.String) _r1_o);
@@ -435,17 +400,11 @@ public virtual global::System.Object getObject(global::java.lang.String n1){
 
 public virtual global::System.Object get(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.Object get(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r3_o)._fcontext;
@@ -470,11 +429,8 @@ public virtual global::System.Object get(int n1){
 
 public virtual global::System.Object getString(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.String getString(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((int) _r1.i);
@@ -486,12 +442,8 @@ public virtual global::System.Object getString(int n1){
 public virtual int getInt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: int getInt(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((int) _r2.i);
@@ -504,14 +456,8 @@ public virtual int getInt(int n1){
 public virtual double getDouble(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: double getDouble(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r2_o = ((global::com.codename1.javascript.JSObject) _r2_o).get((int) _r3.i);
@@ -524,12 +470,8 @@ public virtual double getDouble(int n1){
 public virtual bool getBoolean(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: boolean getBoolean(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((int) _r2.i);
@@ -541,11 +483,8 @@ public virtual bool getBoolean(int n1){
 
 public virtual global::System.Object getObject(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject getObject(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((int) _r1.i);
@@ -558,15 +497,10 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void set(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -617,19 +551,11 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
 
 public virtual void setInt(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setInt(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -643,17 +569,10 @@ public virtual void setInt(global::java.lang.String n1, int n2){
 
 public virtual void setDouble(global::java.lang.String n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setDouble(java.lang.String, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.d = n2;
@@ -666,15 +585,10 @@ public virtual void setDouble(global::java.lang.String n1, double n2){
 
 public virtual void setBoolean(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setBoolean(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -691,19 +605,12 @@ public virtual void setBoolean(global::java.lang.String n1, bool n2){
 
 public virtual void set(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void set(int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -729,19 +636,11 @@ public virtual void set(int n1, global::java.lang.Object n2){
 
 public virtual void setInt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setInt(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -755,17 +654,10 @@ public virtual void setInt(int n1, int n2){
 
 public virtual void setDouble(int n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setDouble(int, double)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.d = n2;
@@ -778,15 +670,10 @@ public virtual void setDouble(int n1, double n2){
 
 public virtual void setBoolean(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void setBoolean(int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -803,13 +690,10 @@ public virtual void setBoolean(int n1, bool n2){
 
 public virtual global::System.Object toJSPointer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.String toJSPointer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -833,13 +717,9 @@ public virtual global::System.Object toJSPointer(){
 
 private global::System.Object exec(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.String exec(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r1_o)._fcontext;
@@ -851,15 +731,10 @@ private global::System.Object exec(global::java.lang.String n1){
 
 public virtual void addCallback(global::java.lang.String n1, global::com.codename1.javascript.JSFunction n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void addCallback(java.lang.String, com.codename1.javascript.JSFunction)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -871,13 +746,9 @@ public virtual void addCallback(global::java.lang.String n1, global::com.codenam
 
 public virtual void removeCallback(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: void removeCallback(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r1_o)._fcontext;
@@ -888,19 +759,12 @@ public virtual void removeCallback(global::java.lang.String n1){
 
 public virtual global::System.Object call(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.Object call(java.lang.String, java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -924,11 +788,8 @@ public virtual global::System.Object call(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.Object call(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -940,15 +801,10 @@ public virtual global::System.Object call(global::java.lang.String n1){
 
 public virtual int callInt(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: int callInt(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r2_o).call((global::java.lang.String) _r3_o);
@@ -960,17 +816,10 @@ public virtual int callInt(global::java.lang.String n1){
 
 public virtual double callDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: double callDouble(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r3_o).call((global::java.lang.String) _r4_o);
@@ -982,11 +831,8 @@ public virtual double callDouble(global::java.lang.String n1){
 
 public virtual global::System.Object callString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.String callString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).call((global::java.lang.String) _r1_o);
@@ -997,11 +843,8 @@ public virtual global::System.Object callString(global::java.lang.String n1){
 
 public virtual global::System.Object callObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject callObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).call((global::java.lang.String) _r1_o);
@@ -1012,17 +855,11 @@ public virtual global::System.Object callObject(global::java.lang.String n1){
 
 public virtual global::System.Object call(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JSObject: java.lang.Object call(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r3_o)._fcontext;

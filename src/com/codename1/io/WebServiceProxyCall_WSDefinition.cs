@@ -13,9 +13,7 @@ public global::org.xmlvm._nArrayAdapter<int> _farguments;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall$WSDefinition: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

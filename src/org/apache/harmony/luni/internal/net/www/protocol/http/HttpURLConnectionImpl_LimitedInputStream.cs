@@ -9,13 +9,9 @@ public global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLCo
 
 public void @this(global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$LimitedInputStream: void <init>(org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -31,10 +27,7 @@ public override void close(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2LimitedInputStream) _r2_o)._fbytesRemaining;
@@ -65,12 +58,9 @@ public override void close(){
 public override int available(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$LimitedInputStream: int available()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2LimitedInputStream) _r2_o)._fthis_20;
     _r1_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl.access_2300((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o);
@@ -89,16 +79,11 @@ public override int available(){
 public override int read(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$LimitedInputStream: int read()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl_2LimitedInputStream) _r4_o)._fbytesRemaining;
@@ -139,20 +124,14 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$LimitedInputStream: int read(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -225,22 +204,12 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 public virtual long skip(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl$LimitedInputStream: long skip(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 0;

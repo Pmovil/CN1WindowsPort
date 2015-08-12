@@ -26,13 +26,10 @@ public static global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type: com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type[] values()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 0;
     _r0_o = global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine_2Type._f_2VALUES;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -47,11 +44,8 @@ public static global::System.Object values(){
 
 public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type: com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type valueOf(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine_2Type));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
@@ -62,13 +56,9 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 
 private void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type: void <init>(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -86,16 +76,10 @@ public static void @static(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 4;
     _r6.i = 3;
     _r5.i = 2;

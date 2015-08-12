@@ -7,11 +7,8 @@ public global::java.util.AbstractMap _fthis_20;
 
 public void @this(global::java.util.AbstractMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$1: void <init>(java.util.AbstractMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractMap_21) _r0_o)._fthis_20 = (global::java.util.AbstractMap) _r1_o;
@@ -24,11 +21,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$1: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.AbstractMap_21) _r1_o)._fthis_20;
@@ -41,9 +35,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$1: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_21) _r1_o)._fthis_20;
     _r0.i = ((global::java.util.AbstractMap) _r0_o).size();
@@ -53,11 +45,8 @@ public override int size(){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$1: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.AbstractMap_21_21();
     ((global::java.util.AbstractMap_21_21) _r0_o).@this((global::java.util.AbstractMap_21) _r1_o);
@@ -67,11 +56,8 @@ public override global::System.Object iterator(){
 
 public static global::System.Object access_20(global::java.util.AbstractMap_21 n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$1: java.util.AbstractMap access$0(java.util.AbstractMap$1)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.util.AbstractMap_21) _r1_o)._fthis_20;
     return (global::java.util.AbstractMap) _r0_o;

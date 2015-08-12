@@ -5,9 +5,7 @@ namespace gnu.xml.xpath {
 public abstract class Path: global::gnu.xml.xpath.Pattern {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Path: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::gnu.xml.xpath.Pattern) _r0_o).@this();
     return;

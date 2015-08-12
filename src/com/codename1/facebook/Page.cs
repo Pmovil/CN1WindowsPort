@@ -23,9 +23,7 @@ private global::java.lang.String _fcoverLink;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.facebook.FBObject) _r0_o).@this();
     return;
@@ -34,11 +32,8 @@ public void @this(){
 
 public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: void <init>(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FBObject) _r0_o).@this((global::java.util.Hashtable) _r1_o);
@@ -49,11 +44,8 @@ public void @this(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getAbout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getAbout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fabout;
     return (global::java.lang.String) _r0_o;
@@ -62,11 +54,8 @@ public virtual global::System.Object getAbout(){
 
 public virtual global::System.Object getCategory(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getCategory()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fcategory;
     return (global::java.lang.String) _r0_o;
@@ -75,11 +64,8 @@ public virtual global::System.Object getCategory(){
 
 public virtual global::System.Object getCoverId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getCoverId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fcoverId;
     return (global::java.lang.String) _r0_o;
@@ -88,11 +74,8 @@ public virtual global::System.Object getCoverId(){
 
 public virtual global::System.Object getCoverLink(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getCoverLink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fcoverLink;
     return (global::java.lang.String) _r0_o;
@@ -101,11 +84,8 @@ public virtual global::System.Object getCoverLink(){
 
 public virtual global::System.Object getFounded(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getFounded()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._ffounded;
     return (global::java.lang.String) _r0_o;
@@ -115,10 +95,7 @@ public virtual global::System.Object getFounded(){
 public virtual int getLikesCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: int getLikesCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.Page) _r1_o)._flikesCount;
     return _r0.i;
@@ -127,11 +104,8 @@ public virtual int getLikesCount(){
 
 public virtual global::System.Object getLink(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getLink()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._flink;
     return (global::java.lang.String) _r0_o;
@@ -140,11 +114,8 @@ public virtual global::System.Object getLink(){
 
 public virtual global::System.Object getUsername(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getUsername()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fusername;
     return (global::java.lang.String) _r0_o;
@@ -153,11 +124,8 @@ public virtual global::System.Object getUsername(){
 
 public virtual global::System.Object getWebsite(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: java.lang.String getWebsite()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Page) _r1_o)._fwebsite;
     return (global::java.lang.String) _r0_o;
@@ -166,11 +134,8 @@ public virtual global::System.Object getWebsite(){
 
 public override void copy(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: void copy(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.copy((global::java.util.Hashtable) _r1_o);
@@ -181,19 +146,13 @@ public override void copy(global::java.util.Hashtable n1){
 
 private void init(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Page: void init(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=about

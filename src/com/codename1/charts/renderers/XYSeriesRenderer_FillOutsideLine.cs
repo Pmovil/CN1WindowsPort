@@ -12,16 +12,10 @@ private global::org.xmlvm._nArrayAdapter<int> _fmFillRange;
 public void @this(global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine_2Type n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: void <init>(com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -38,10 +32,7 @@ public void @this(global::com.codename1.charts.renderers.XYSeriesRenderer_2FillO
 public virtual int getColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: int getColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r1_o)._fmColor;
     return _r0.i;
@@ -50,11 +41,8 @@ public virtual int getColor(){
 
 public virtual void setColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: void setColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r0_o)._fmColor = _r1.i;
@@ -64,11 +52,8 @@ public virtual void setColor(int n1){
 
 public virtual global::System.Object getType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine$Type getType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r1_o)._fmType;
     return (global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine_2Type) _r0_o;
@@ -77,11 +62,8 @@ public virtual global::System.Object getType(){
 
 public virtual global::System.Object getFillRange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: int[] getFillRange()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r1_o)._fmFillRange;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -90,11 +72,8 @@ public virtual global::System.Object getFillRange(){
 
 public virtual void setFillRange(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine: void setFillRange(int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r0_o)._fmFillRange = (global::org.xmlvm._nArrayAdapter<int>) _r1_o;

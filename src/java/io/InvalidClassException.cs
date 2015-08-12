@@ -9,11 +9,8 @@ public global::java.lang.String _fclassname;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidClassException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.ObjectStreamException) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -23,13 +20,9 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidClassException: void <init>(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -41,15 +34,10 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidClassException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = base.getMessage();
     _r1_o = ((global::java.io.InvalidClassException) _r3_o)._fclassname;

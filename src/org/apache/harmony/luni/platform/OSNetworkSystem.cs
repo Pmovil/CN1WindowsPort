@@ -29,8 +29,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 0;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::org.apache.harmony.luni.platform.OSNetworkSystem));
     _r0.i = ((global::java.lang.Class) _r0_o).desiredAssertionStatus() ? 1 : 0;
@@ -51,9 +49,7 @@ public static void @static(){
 
 public static global::System.Object getOSNetworkSystem(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: org.apache.harmony.luni.platform.OSNetworkSystem getOSNetworkSystem()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.luni.platform.OSNetworkSystem._fsingleton;
     return (global::org.apache.harmony.luni.platform.OSNetworkSystem) _r0_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: org.apache.harmony.luni.platform.OSNetworkSystem getOSNetworkSystem()]
@@ -61,9 +57,7 @@ public static global::System.Object getOSNetworkSystem(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -187,18 +181,11 @@ public virtual global::System.Object inheritedChannel(){
 public virtual bool isReachableByICMP(global::java.net.InetAddress n1, global::java.net.InetAddress n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: boolean isReachableByICMP(java.net.InetAddress, java.net.InetAddress, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -230,12 +217,8 @@ public virtual void listenStreamSocket(global::java.io.FileDescriptor n1, int n2
 public virtual void oneTimeInitialization(bool n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: void oneTimeInitialization(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = global::org.apache.harmony.luni.platform.OSNetworkSystem._fisNetworkInited ? 1 : 0;
@@ -308,35 +291,18 @@ public virtual bool select(global::org.xmlvm._nArrayAdapter<global::System.Objec
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -481,20 +447,13 @@ public virtual bool supportsUrgentData(global::java.io.FileDescriptor n1){
 private bool validateFDs(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: boolean validateFDs(java.io.FileDescriptor[], java.io.FileDescriptor[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -534,22 +493,14 @@ private bool validateFDs(global::org.xmlvm._nArrayAdapter<global::System.Object>
 private bool validateFDs(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: boolean validateFDs(java.io.FileDescriptor[], java.io.FileDescriptor[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;

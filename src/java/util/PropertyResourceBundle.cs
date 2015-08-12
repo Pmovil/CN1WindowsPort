@@ -7,13 +7,9 @@ public global::java.util.Properties _fresources;
 
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: void <init>(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.ResourceBundle) _r1_o).@this();
@@ -33,13 +29,9 @@ public void @this(global::java.io.InputStream n1){
 
 public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: void <init>(java.io.Reader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.ResourceBundle) _r1_o).@this();
@@ -54,11 +46,8 @@ public void @this(global::java.io.Reader n1){
 
 public override global::System.Object handleKeySet(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: java.util.Set handleKeySet()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.PropertyResourceBundle) _r1_o)._fresources;
     _r0_o = ((global::java.util.Properties) _r0_o).stringPropertyNames();
@@ -68,11 +57,8 @@ public override global::System.Object handleKeySet(){
 
 private global::System.Object getLocalKeys(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: java.util.Enumeration getLocalKeys()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.PropertyResourceBundle) _r1_o)._fresources;
     _r0_o = ((global::java.util.Properties) _r0_o).propertyNames();
@@ -82,11 +68,8 @@ private global::System.Object getLocalKeys(){
 
 public override global::System.Object getKeys(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: java.util.Enumeration getKeys()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.PropertyResourceBundle) _r1_o)._fparent;
     if (_r0_o != null) goto label9;
@@ -102,13 +85,9 @@ public override global::System.Object getKeys(){
 
 public override global::System.Object handleGetObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: java.lang.Object handleGetObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.PropertyResourceBundle) _r1_o)._fresources;
@@ -119,11 +98,8 @@ public override global::System.Object handleGetObject(global::java.lang.String n
 
 public static global::System.Object access_20(global::java.util.PropertyResourceBundle n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle: java.util.Enumeration access$0(java.util.PropertyResourceBundle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::java.util.PropertyResourceBundle) _r1_o).getLocalKeys();
     return (global::java.util.Enumeration) _r0_o;

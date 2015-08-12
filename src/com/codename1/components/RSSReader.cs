@@ -40,11 +40,8 @@ public void @this(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1.i = 1;
     ((global::com.codename1.ui.List) _r3_o).@this();
@@ -78,13 +75,9 @@ public void @this(){
 
 public static void setMoreDescription(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setMoreDescription(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::com.codename1.components.RSSReader._fMORE;
     // Value=description
@@ -97,13 +90,9 @@ public static void setMoreDescription(global::java.lang.String n1){
 
 public static void setMoreTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setMoreTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = global::com.codename1.components.RSSReader._fMORE;
     // Value=title
@@ -116,25 +105,16 @@ public static void setMoreTitle(global::java.lang.String n1){
 
 private global::System.Object createRendererContainer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.ui.Container createRendererContainer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 2;
     _r6.i = 0;
@@ -205,11 +185,8 @@ private global::System.Object createRendererContainer(){
 
 public virtual void setURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setURL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.RSSReader) _r0_o)._furl = (global::java.lang.String) _r1_o;
@@ -219,19 +196,13 @@ public virtual void setURL(global::java.lang.String n1){
 
 public virtual void sendRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void sendRequest()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r1_o = ((global::com.codename1.components.RSSReader) _r5_o)._fservice;
@@ -275,9 +246,7 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.initComponent();
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._fdesignMode ? 1 : 0;
@@ -296,11 +265,8 @@ public override void initComponent(){
 
 public virtual global::System.Object getURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.lang.String getURL()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._furl;
     return (global::java.lang.String) _r0_o;
@@ -309,11 +275,8 @@ public virtual global::System.Object getURL(){
 
 public virtual global::System.Object getIconPlaceholder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.ui.Image getIconPlaceholder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._ficonPlaceholder;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -322,17 +285,11 @@ public virtual global::System.Object getIconPlaceholder(){
 
 public virtual void setIconPlaceholder(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setIconPlaceholder(com.codename1.ui.Image)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::com.codename1.components.RSSReader) _r3_o)._ficonPlaceholder = (global::com.codename1.ui.Image) _r4_o;
@@ -353,28 +310,17 @@ public virtual void setIconPlaceholder(global::com.codename1.ui.Image n1){
 public virtual void updateComponentValues(global::com.codename1.ui.Container n1, global::java.util.Hashtable n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void updateComponentValues(com.codename1.ui.Container, java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -435,27 +381,17 @@ public virtual void updateComponentValues(global::com.codename1.ui.Container n1,
 
 public virtual void showRSSEntry(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void showRSSEntry(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     // Value=title
@@ -548,10 +484,7 @@ public virtual void showRSSEntry(global::java.util.Hashtable n1){
 public virtual int getLimit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: int getLimit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._flimit;
     return _r0.i;
@@ -560,11 +493,8 @@ public virtual int getLimit(){
 
 public virtual void setLimit(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setLimit(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.components.RSSReader) _r0_o)._flimit = _r1.i;
@@ -577,12 +507,8 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 6;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -625,16 +551,10 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
@@ -667,12 +587,8 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=limit
@@ -758,15 +674,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -854,10 +765,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 public virtual bool isBlockList(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: boolean isBlockList()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._fblockList ? 1 : 0;
     return _r0.i!=0;
@@ -866,11 +774,8 @@ public virtual bool isBlockList(){
 
 public virtual void setBlockList(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setBlockList(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.RSSReader) _r0_o)._fblockList = 0!=_r1.i;
@@ -880,11 +785,8 @@ public virtual void setBlockList(bool n1){
 
 public virtual global::System.Object getProgressTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.lang.String getProgressTitle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._fprogressTitle;
     return (global::java.lang.String) _r0_o;
@@ -893,11 +795,8 @@ public virtual global::System.Object getProgressTitle(){
 
 public virtual void setProgressTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setProgressTitle(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.RSSReader) _r0_o)._fprogressTitle = (global::java.lang.String) _r1_o;
@@ -907,11 +806,8 @@ public virtual void setProgressTitle(global::java.lang.String n1){
 
 public virtual global::System.Object getTargetContainer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.ui.Container getTargetContainer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._ftargetContainer;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -920,11 +816,8 @@ public virtual global::System.Object getTargetContainer(){
 
 public virtual void setTargetContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setTargetContainer(com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.RSSReader) _r0_o)._ftargetContainer = (global::com.codename1.ui.Container) _r1_o;
@@ -935,10 +828,7 @@ public virtual void setTargetContainer(global::com.codename1.ui.Container n1){
 public virtual bool isAddBackToTaget(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: boolean isAddBackToTaget()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._faddBackToTaget ? 1 : 0;
     return _r0.i!=0;
@@ -947,11 +837,8 @@ public virtual bool isAddBackToTaget(){
 
 public virtual void setAddBackToTaget(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void setAddBackToTaget(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.RSSReader) _r0_o)._faddBackToTaget = 0!=_r1.i;
@@ -961,11 +848,8 @@ public virtual void setAddBackToTaget(bool n1){
 
 public static global::System.Object access_2000(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.ui.Image access$000(com.codename1.components.RSSReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._ficonPlaceholder;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -974,11 +858,8 @@ public static global::System.Object access_2000(global::com.codename1.components
 
 public static bool access_2102(global::com.codename1.components.RSSReader n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: boolean access$102(com.codename1.components.RSSReader, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.RSSReader) _r0_o)._fwaitingForResponseLock = 0!=_r1.i;
@@ -988,11 +869,8 @@ public static bool access_2102(global::com.codename1.components.RSSReader n1, bo
 
 public static global::System.Object access_2200(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.util.Vector access$200(com.codename1.components.RSSReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._fexistingData;
     return (global::java.util.Vector) _r0_o;
@@ -1001,9 +879,7 @@ public static global::System.Object access_2200(global::com.codename1.components
 
 public static global::System.Object access_2300(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.util.Hashtable access$300()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.components.RSSReader._fMORE;
     return (global::java.util.Hashtable) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.components.RSSReader: java.util.Hashtable access$300()]
@@ -1011,11 +887,8 @@ public static global::System.Object access_2300(){
 
 public static global::System.Object access_2202(global::com.codename1.components.RSSReader n1, global::java.util.Vector n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.util.Vector access$202(com.codename1.components.RSSReader, java.util.Vector)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.components.RSSReader) _r0_o)._fexistingData = (global::java.util.Vector) _r1_o;
@@ -1026,10 +899,7 @@ public static global::System.Object access_2202(global::com.codename1.components
 public static bool access_2100(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: boolean access$100(com.codename1.components.RSSReader)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._fwaitingForResponseLock ? 1 : 0;
     return _r0.i!=0;
@@ -1038,11 +908,8 @@ public static bool access_2100(global::com.codename1.components.RSSReader n1){
 
 public static global::System.Object access_2402(global::com.codename1.components.RSSReader n1, global::com.codename1.io.services.RSSService n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.io.services.RSSService access$402(com.codename1.components.RSSReader, com.codename1.io.services.RSSService)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.components.RSSReader) _r0_o)._fservice = (global::com.codename1.io.services.RSSService) _r1_o;
@@ -1052,11 +919,8 @@ public static global::System.Object access_2402(global::com.codename1.components
 
 public static global::System.Object access_2500(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: java.lang.String access$500(com.codename1.components.RSSReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._furl;
     return (global::java.lang.String) _r0_o;
@@ -1066,10 +930,7 @@ public static global::System.Object access_2500(global::com.codename1.components
 public static int access_2600(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: int access$600(com.codename1.components.RSSReader)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._flimit;
     return _r0.i;
@@ -1078,11 +939,8 @@ public static int access_2600(global::com.codename1.components.RSSReader n1){
 
 public static global::System.Object access_2400(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: com.codename1.io.services.RSSService access$400(com.codename1.components.RSSReader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.RSSReader) _r1_o)._fservice;
     return (global::com.codename1.io.services.RSSService) _r0_o;
@@ -1092,10 +950,7 @@ public static global::System.Object access_2400(global::com.codename1.components
 public static bool access_2700(global::com.codename1.components.RSSReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: boolean access$700(com.codename1.components.RSSReader)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.components.RSSReader) _r1_o)._fdisplayProgressPercentage ? 1 : 0;
     return _r0.i!=0;
@@ -1104,13 +959,9 @@ public static bool access_2700(global::com.codename1.components.RSSReader n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.RSSReader: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
     global::com.codename1.components.RSSReader._fMORE = (global::java.util.Hashtable) _r0_o;

@@ -5,9 +5,7 @@ namespace java.util.regex {
 public class AbstractCharClass_2LazyNonWord: global::java.util.regex.AbstractCharClass_2LazyWord {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyNonWord: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.regex.AbstractCharClass_2LazyWord) _r0_o).@this();
     return;
@@ -16,13 +14,9 @@ public void @this(){
 
 public override global::System.Object computeValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyNonWord: java.util.regex.AbstractCharClass computeValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0_o = base.computeValue();

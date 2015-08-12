@@ -30,13 +30,9 @@ private int _flength;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = 0;
     _r0_o = new global::java.nio.charset.CoderResult();
     _r1.i = 1;
@@ -58,13 +54,9 @@ public static void @static(){
 
 private void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: void <init>(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -77,18 +69,13 @@ private void @this(int n1, int n2){
 
 public static global::System.Object malformedForLength(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: java.nio.charset.CoderResult malformedForLength(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r1_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.nio.charset.CoderResult));
@@ -199,18 +186,13 @@ public static global::System.Object malformedForLength(int n1){
 
 public static global::System.Object unmappableForLength(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: java.nio.charset.CoderResult unmappableForLength(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r1_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.nio.charset.CoderResult));
@@ -322,12 +304,8 @@ public static global::System.Object unmappableForLength(int n1){
 public virtual bool isUnderflow(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: boolean isUnderflow()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
@@ -344,12 +322,8 @@ public virtual bool isUnderflow(){
 public virtual bool isError(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: boolean isError()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     _r1.i = 3;
@@ -369,12 +343,8 @@ public virtual bool isError(){
 public virtual bool isMalformed(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: boolean isMalformed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     _r1.i = 3;
@@ -391,12 +361,8 @@ public virtual bool isMalformed(){
 public virtual bool isOverflow(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: boolean isOverflow()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     _r1.i = 2;
@@ -413,12 +379,8 @@ public virtual bool isOverflow(){
 public virtual bool isUnmappable(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: boolean isUnmappable()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     _r1.i = 4;
@@ -438,9 +400,7 @@ public virtual int length(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     _r1.i = 3;
@@ -467,10 +427,7 @@ public virtual void throwException(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r2_o)._ftype;
     switch (_r0.i) {
@@ -510,11 +467,8 @@ public override global::System.Object toString(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.nio.charset.CoderResult) _r3_o)._ftype;
     switch (_r0.i) {

@@ -9,21 +9,13 @@ public int _fsetCounter;
 
 public void @this(global::java.util.regex.Quantifier n1, global::java.util.regex.AbstractSet n2, global::java.util.regex.AbstractSet n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeGroupQuantifierSet: void <init>(java.util.regex.Quantifier, java.util.regex.AbstractSet, java.util.regex.AbstractSet, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -46,16 +38,10 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -108,11 +94,8 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeGroupQuantifierSet: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.CompositeGroupQuantifierSet) _r1_o)._fquantifier;
     ((global::java.util.regex.Quantifier) _r0_o).resetCounter();
@@ -122,11 +105,8 @@ public virtual void reset(){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeGroupQuantifierSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.CompositeGroupQuantifierSet) _r1_o)._fquantifier;
     _r0_o = ((global::java.util.regex.Quantifier) _r0_o).toString();
@@ -136,11 +116,8 @@ public override global::System.Object getName(){
 
 public virtual void setQuantifier(global::java.util.regex.Quantifier n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeGroupQuantifierSet: void setQuantifier(java.util.regex.Quantifier)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.regex.CompositeGroupQuantifierSet) _r0_o)._fquantifier = (global::java.util.regex.Quantifier) _r1_o;

@@ -76,9 +76,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.impl.FullScreenAdService) _r1_o).@this();
     // Value=6216
@@ -97,25 +95,17 @@ public void @this(){
 
 public override global::System.Object createAdRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: com.codename1.io.ConnectionRequest createAdRequest()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     // Value=uuid
     _r7_o = new global::java.lang.String();
@@ -293,9 +283,7 @@ public override bool hasPendingAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: boolean hasPendingAd()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._fimageURL;
     if (_r0_o == null) goto label6;
@@ -310,11 +298,8 @@ public override bool hasPendingAd(){
 
 public override void clearPendingAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void clearPendingAd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.impl.VServAds) _r1_o)._fimageURL = (global::java.lang.String) _r0_o;
@@ -325,23 +310,16 @@ public override void clearPendingAd(){
 
 public override global::System.Object getPendingAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: com.codename1.ui.Component getPendingAd()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r5_o = ((global::com.codename1.impl.VServAds) _r7_o)._fimageURL;
     if (_r5_o != null) goto label6;
@@ -411,13 +389,10 @@ public override global::System.Object getPendingAd(){
 
 public override global::System.Object getAdDestination(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String getAdDestination()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.impl.VServAds) _r2_o)._factionNotify;
     if (_r1_o == null) goto label37;
@@ -443,10 +418,7 @@ public override global::System.Object getAdDestination(){
 public override bool failed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: boolean failed()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.VServAds) _r1_o)._ffailed ? 1 : 0;
     return _r0.i!=0;
@@ -455,11 +427,8 @@ public override bool failed(){
 
 public virtual global::System.Object getCountryCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String getCountryCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._fcountryCode;
     return (global::java.lang.String) _r0_o;
@@ -468,11 +437,8 @@ public virtual global::System.Object getCountryCode(){
 
 public virtual void setCountryCode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void setCountryCode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds) _r0_o)._fcountryCode = (global::java.lang.String) _r1_o;
@@ -482,11 +448,8 @@ public virtual void setCountryCode(global::java.lang.String n1){
 
 public virtual global::System.Object getNetworkCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String getNetworkCode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._fnetworkCode;
     return (global::java.lang.String) _r0_o;
@@ -495,11 +458,8 @@ public virtual global::System.Object getNetworkCode(){
 
 public virtual void setNetworkCode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void setNetworkCode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds) _r0_o)._fnetworkCode = (global::java.lang.String) _r1_o;
@@ -509,11 +469,8 @@ public virtual void setNetworkCode(global::java.lang.String n1){
 
 public virtual global::System.Object getLocale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String getLocale()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._flocale;
     return (global::java.lang.String) _r0_o;
@@ -522,11 +479,8 @@ public virtual global::System.Object getLocale(){
 
 public virtual void setLocale(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void setLocale(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds) _r0_o)._flocale = (global::java.lang.String) _r1_o;
@@ -537,10 +491,7 @@ public virtual void setLocale(global::java.lang.String n1){
 public virtual int getCategory(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: int getCategory()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.impl.VServAds) _r1_o)._fcategory;
     return _r0.i;
@@ -549,11 +500,8 @@ public virtual int getCategory(){
 
 public virtual void setCategory(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void setCategory(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.impl.VServAds) _r0_o)._fcategory = _r1.i;
@@ -563,11 +511,8 @@ public virtual void setCategory(int n1){
 
 public virtual global::System.Object getZoneId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String getZoneId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._fzoneId;
     return (global::java.lang.String) _r0_o;
@@ -576,11 +521,8 @@ public virtual global::System.Object getZoneId(){
 
 public virtual void setZoneId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: void setZoneId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.impl.VServAds) _r0_o)._fzoneId = (global::java.lang.String) _r1_o;
@@ -591,10 +533,7 @@ public virtual void setZoneId(global::java.lang.String n1){
 public override bool isAllowSkipping(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: boolean isAllowSkipping()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -603,11 +542,8 @@ public override bool isAllowSkipping(){
 
 public static int access_2002(global::com.codename1.impl.VServAds n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: int access$002(com.codename1.impl.VServAds, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._fbackgroundColor = _r1.i;
@@ -617,11 +553,8 @@ public static int access_2002(global::com.codename1.impl.VServAds n1, int n2){
 
 public static global::System.Object access_2102(global::com.codename1.impl.VServAds n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$102(com.codename1.impl.VServAds, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._factionNotify = (global::java.lang.String) _r1_o;
@@ -631,11 +564,8 @@ public static global::System.Object access_2102(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2100(global::com.codename1.impl.VServAds n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$100(com.codename1.impl.VServAds)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._factionNotify;
     return (global::java.lang.String) _r0_o;
@@ -644,11 +574,8 @@ public static global::System.Object access_2100(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2202(global::com.codename1.impl.VServAds n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$202(com.codename1.impl.VServAds, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._fdestination = (global::java.lang.String) _r1_o;
@@ -658,11 +585,8 @@ public static global::System.Object access_2202(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2302(global::com.codename1.impl.VServAds n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$302(com.codename1.impl.VServAds, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._fcontentType = (global::java.lang.String) _r1_o;
@@ -672,11 +596,8 @@ public static global::System.Object access_2302(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2402(global::com.codename1.impl.VServAds n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$402(com.codename1.impl.VServAds, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._frenderNotify = (global::java.lang.String) _r1_o;
@@ -686,11 +607,8 @@ public static global::System.Object access_2402(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2400(global::com.codename1.impl.VServAds n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$400(com.codename1.impl.VServAds)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.impl.VServAds) _r1_o)._frenderNotify;
     return (global::java.lang.String) _r0_o;
@@ -699,11 +617,8 @@ public static global::System.Object access_2400(global::com.codename1.impl.VServ
 
 public static global::System.Object access_2502(global::com.codename1.impl.VServAds n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.VServAds: java.lang.String access$502(com.codename1.impl.VServAds, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.impl.VServAds) _r0_o)._fimageURL = (global::java.lang.String) _r1_o;

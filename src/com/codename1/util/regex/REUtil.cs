@@ -14,9 +14,7 @@ private static global::java.lang.String _fcomplexPrefix;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REUtil: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -29,13 +27,9 @@ public static global::System.Object createRE(global::java.lang.String n1, int n2
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     // Value=complex:
@@ -67,9 +61,7 @@ public static global::System.Object createRE(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REUtil: com.codename1.util.regex.RE createRE(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     _r0_o = global::com.codename1.util.regex.REUtil.createRE((global::java.lang.String) _r1_o, (int) _r0.i);

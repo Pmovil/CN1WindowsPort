@@ -9,13 +9,9 @@ private global::java.lang.String _fval_2fieldName;
 
 public void @this(global::org.apache.harmony.luni.net.PlainSocketImpl n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl$1: void <init>(org.apache.harmony.luni.net.PlainSocketImpl, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,11 +24,9 @@ public void @this(global::org.apache.harmony.luni.net.PlainSocketImpl n1, global
 
 public virtual global::System.Object run(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl$1: java.lang.reflect.Field run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

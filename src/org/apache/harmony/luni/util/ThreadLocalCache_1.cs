@@ -5,9 +5,7 @@ namespace org.apache.harmony.luni.util {
 public class ThreadLocalCache_21: global::org.apache.harmony.luni.util.ThreadLocalCache {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public override global::System.Object initialValue(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache$1: java.nio.charset.CharsetDecoder initialValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=UTF-8
     _r0_o = new global::java.lang.String();

@@ -16,7 +16,6 @@ public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.nio.ShortToByteBufferAdapter));
     _r0.i = ((global::java.lang.Class) _r0_o).desiredAssertionStatus() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -32,13 +31,9 @@ public static void @static(){
 
 public static global::System.Object wrap(global::java.nio.ByteBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.nio.ShortBuffer wrap(java.nio.ByteBuffer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::java.nio.ShortToByteBufferAdapter();
     _r1_o = ((global::java.nio.ByteBuffer) _r2_o).slice();
@@ -51,11 +46,8 @@ public void @this(global::java.nio.ByteBuffer n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: void <init>(java.nio.ByteBuffer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.nio.ByteBuffer) _r2_o).capacity();
@@ -72,11 +64,8 @@ public virtual int getByteCapacity(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: int getByteCapacity()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -103,11 +92,8 @@ public virtual global::System.Object getEffectiveAddress(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.lang.Object getEffectiveAddress()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -134,11 +120,8 @@ public virtual global::System.Object getBaseAddress(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.lang.Object getBaseAddress()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -165,11 +148,8 @@ public virtual bool isAddressValid(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: boolean isAddressValid()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -196,11 +176,8 @@ public virtual void addressValidityCheck(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: void addressValidityCheck()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -224,11 +201,8 @@ public virtual void free(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: void free()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
@@ -250,13 +224,10 @@ public virtual void free(){
 
 public override global::System.Object asReadOnlyBuffer(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.nio.ShortBuffer asReadOnlyBuffer()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.nio.ShortToByteBufferAdapter();
     _r1_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
@@ -277,10 +248,7 @@ public override global::System.Object compact(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r0.i = ((global::java.nio.ByteBuffer) _r0_o).isReadOnly() ? 1 : 0;
@@ -315,13 +283,10 @@ public override global::System.Object compact(){
 
 public override global::System.Object duplicate(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.nio.ShortBuffer duplicate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.nio.ShortToByteBufferAdapter();
     _r1_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
@@ -342,12 +307,8 @@ public override short get(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::java.nio.ShortToByteBufferAdapter) _r3_o)._fposition;
     _r1.i = ((global::java.nio.ShortToByteBufferAdapter) _r3_o)._flimit;
@@ -371,12 +332,8 @@ public override short get(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label6;
@@ -398,9 +355,7 @@ public override bool isDirect(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: boolean isDirect()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r1_o)._fbyteBuffer;
     _r0.i = ((global::java.nio.ByteBuffer) _r0_o).isDirect() ? 1 : 0;
@@ -412,9 +367,7 @@ public override bool isReadOnly(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: boolean isReadOnly()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r1_o)._fbyteBuffer;
     _r0.i = ((global::java.nio.ByteBuffer) _r0_o).isReadOnly() ? 1 : 0;
@@ -424,11 +377,8 @@ public override bool isReadOnly(){
 
 public override global::System.Object order(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.nio.ByteOrder order()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r1_o)._fbyteBuffer;
     _r0_o = ((global::java.nio.ByteBuffer) _r0_o).order();
@@ -438,11 +388,8 @@ public override global::System.Object order(){
 
 public override global::System.Object protectedArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: short[] protectedArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();
@@ -452,11 +399,8 @@ public override global::System.Object protectedArray(){
 
 public override int protectedArrayOffset(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: int protectedArrayOffset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.UnsupportedOperationException();
     ((global::java.lang.UnsupportedOperationException) _r0_o).@this();
@@ -467,10 +411,7 @@ public override int protectedArrayOffset(){
 public override bool protectedHasArray(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: boolean protectedHasArray()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -482,14 +423,9 @@ public override global::System.Object put(short n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = ((global::java.nio.ShortToByteBufferAdapter) _r3_o)._fposition;
@@ -514,14 +450,9 @@ public override global::System.Object put(int n1, short n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -542,13 +473,10 @@ public override global::System.Object put(int n1, short n2){
 
 public override global::System.Object slice(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ShortToByteBufferAdapter: java.nio.ShortBuffer slice()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._fbyteBuffer;
     _r1.i = ((global::java.nio.ShortToByteBufferAdapter) _r2_o)._flimit;

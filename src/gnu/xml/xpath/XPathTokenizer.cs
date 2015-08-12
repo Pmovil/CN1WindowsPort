@@ -18,15 +18,10 @@ public global::gnu.xml.xpath.XPathTokenizer_2XPathToken _flastToken;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.TreeMap();
     ((global::java.util.TreeMap) _r0_o).@this();
     global::gnu.xml.xpath.XPathTokenizer._fkeywords = (global::java.util.Map) _r0_o;
@@ -204,13 +199,9 @@ public static void @static(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.io.StringReader();
@@ -224,11 +215,8 @@ public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: void <init>(java.io.Reader)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -250,14 +238,9 @@ public virtual bool advance(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 256;
     _r1.i = 61;
@@ -524,9 +507,7 @@ public virtual int token(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: int token()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathTokenizer) _r1_o)._ftoken;
     _r0.i = ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o)._ftype;
@@ -536,11 +517,8 @@ public virtual int token(){
 
 public virtual global::System.Object value(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: java.lang.Object value()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathTokenizer) _r1_o)._ftoken;
     _r0_o = ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o)._fval;
@@ -550,17 +528,12 @@ public virtual global::System.Object value(){
 
 public virtual global::System.Object consume_1literal(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: gnu.xml.xpath.XPathTokenizer$XPathToken consume_literal(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
@@ -592,17 +565,12 @@ public virtual global::System.Object consume_1literal(int n1){
 
 public virtual global::System.Object consume_1digits(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: gnu.xml.xpath.XPathTokenizer$XPathToken consume_digits(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
@@ -642,20 +610,12 @@ public virtual global::System.Object consume_1name(int n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r7.i = 58;
@@ -802,12 +762,8 @@ public virtual global::System.Object consume_1name(int n1){
 public virtual bool isNameChar(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer: boolean isNameChar(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 95;

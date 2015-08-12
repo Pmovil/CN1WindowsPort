@@ -9,13 +9,9 @@ public global::java.util.AbstractMap_22 _fthis_21;
 
 public void @this(global::java.util.AbstractMap_22 n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$2$1: void <init>(java.util.AbstractMap$2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.AbstractMap_22_21) _r1_o)._fthis_21 = (global::java.util.AbstractMap_22) _r2_o;
@@ -32,9 +28,7 @@ public virtual bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$2$1: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_22_21) _r1_o)._fsetIterator;
     _r0.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
@@ -44,11 +38,8 @@ public virtual bool hasNext(){
 
 public virtual global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$2$1: java.lang.Object next()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_22_21) _r1_o)._fsetIterator;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
@@ -60,11 +51,8 @@ public virtual global::System.Object next(){
 
 public virtual void remove(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractMap$2$1: void remove()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_22_21) _r1_o)._fsetIterator;
     ((global::java.util.Iterator) _r0_o).remove();

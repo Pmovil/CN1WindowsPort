@@ -12,9 +12,7 @@ private static global::java.util.Comparator _fc;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.nio.charset.Charset_2IgnoreCaseComparator();
     ((global::java.nio.charset.Charset_2IgnoreCaseComparator) _r0_o).@this();
     global::java.nio.charset.Charset_2IgnoreCaseComparator._fc = (global::java.util.Comparator) _r0_o;
@@ -24,9 +22,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -35,9 +31,7 @@ private void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: java.util.Comparator getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.nio.charset.Charset_2IgnoreCaseComparator._fc;
     return (global::java.util.Comparator) _r0_o;
 //XMLVM_END_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: java.util.Comparator getInstance()]
@@ -46,14 +40,9 @@ public static global::System.Object getInstance(){
 public virtual int compare(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: int compare(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -65,14 +54,9 @@ public virtual int compare(global::java.lang.String n1, global::java.lang.String
 public virtual int compare(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: int compare(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

@@ -23,15 +23,10 @@ private global::java.lang.String _ferrorMessage;
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: void <init>(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -46,13 +41,9 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public static global::System.Object validEmail(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: com.codename1.ui.validation.Constraint validEmail(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.validation.RegexConstraint();
     // Value=^[a-zA-Z0-9.!#$%&'*+/=?^_`\173\174\175\176-]+@((\134[[0-9]\1731,3\175\134.[0-9]\1731,3\175\134.[0-9]\1731,3\175\134.[0-9]\1731,3\175\134])\174(([a-zA-Z\134-0-9]+\134.)+[a-zA-Z]\1732,\175))$
@@ -65,13 +56,9 @@ public static global::System.Object validEmail(global::java.lang.String n1){
 
 public static global::System.Object validEmail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: com.codename1.ui.validation.Constraint validEmail()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.validation.RegexConstraint();
     // Value=^[a-zA-Z0-9.!#$%&'*+/=?^_`\173\174\175\176-]+@((\134[[0-9]\1731,3\175\134.[0-9]\1731,3\175\134.[0-9]\1731,3\175\134.[0-9]\1731,3\175\134])\174(([a-zA-Z\134-0-9]+\134.)+[a-zA-Z]\1732,\175))$
     _r1_o = new global::java.lang.String();
@@ -86,13 +73,9 @@ public static global::System.Object validEmail(){
 
 public static global::System.Object validURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: com.codename1.ui.validation.Constraint validURL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.validation.RegexConstraint();
     // Value=^(https?\174ftp\174file)://[-a-zA-Z0-9+&@#/%?=\176_\174!:,.;]*[-a-zA-Z0-9+&@#/%=\176_\174]
@@ -105,13 +88,9 @@ public static global::System.Object validURL(global::java.lang.String n1){
 
 public static global::System.Object validURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: com.codename1.ui.validation.Constraint validURL()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.validation.RegexConstraint();
     // Value=^(https?\174ftp\174file)://[-a-zA-Z0-9+&@#/%?=\176_\174!:,.;]*[-a-zA-Z0-9+&@#/%=\176_\174]
     _r1_o = new global::java.lang.String();
@@ -128,13 +107,9 @@ public virtual bool isValid(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: boolean isValid(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label16;
@@ -153,11 +128,8 @@ public virtual bool isValid(global::java.lang.Object n1){
 
 public virtual global::System.Object getDefaultFailMessage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.RegexConstraint: java.lang.String getDefaultFailMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.validation.RegexConstraint) _r1_o)._ferrorMessage;
     return (global::java.lang.String) _r0_o;

@@ -20,13 +20,8 @@ public bool _freadOnly;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.io.FileDescriptor();
     ((global::java.io.FileDescriptor) _r0_o).@this();
     global::java.io.FileDescriptor._fin = (global::java.io.FileDescriptor) _r0_o;
@@ -59,12 +54,7 @@ private static void oneTimeInitialization(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0.l = -1L;
@@ -78,10 +68,7 @@ public void @this(){
 public virtual void sync(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: void sync()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.io.FileDescriptor) _r1_o)._freadOnly ? 1 : 0;
     if (_r0.i != 0) goto label7;
@@ -100,16 +87,8 @@ private void syncImpl(){
 public virtual bool valid(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: boolean valid()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.l = ((global::java.io.FileDescriptor) _r4_o)._fdescriptor;
     _r2.l = -1L;

@@ -9,13 +9,9 @@ private global::java.lang.String _ffailMessage;
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.GroupConstraint: void <init>(com.codename1.ui.validation.Constraint[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -28,21 +24,14 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 
 public virtual bool isValid(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.GroupConstraint: boolean isValid(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = ((global::com.codename1.ui.validation.GroupConstraint) _r5_o)._fgroup;
@@ -69,11 +58,8 @@ public virtual bool isValid(global::java.lang.Object n1){
 
 public virtual global::System.Object getDefaultFailMessage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.GroupConstraint: java.lang.String getDefaultFailMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.validation.GroupConstraint) _r1_o)._ffailMessage;
     return (global::java.lang.String) _r0_o;

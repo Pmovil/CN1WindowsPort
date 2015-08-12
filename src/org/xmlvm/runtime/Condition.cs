@@ -9,11 +9,8 @@ private global::java.lang.Object _fsynchronizedObject;
 
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.Condition: void <init>(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -31,11 +28,8 @@ private void initNativeConditionInstance(){
 
 public virtual global::System.Object getSynchronizedObject(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.Condition: java.lang.Object getSynchronizedObject()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.xmlvm.runtime.Condition) _r1_o)._fsynchronizedObject;
     return (global::java.lang.Object) _r0_o;

@@ -7,11 +7,8 @@ public global::com.codename1.io.Oauth2_22 _fthis_21;
 
 public void @this(global::com.codename1.io.Oauth2_22 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2$1: void <init>(com.codename1.io.Oauth2$2)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Oauth2_22_21) _r0_o)._fthis_21 = (global::com.codename1.io.Oauth2_22) _r1_o;
@@ -23,12 +20,8 @@ public void @this(global::com.codename1.io.Oauth2_22 n1){
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2$1: void readResponse(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -36,11 +29,8 @@ public override void readResponse(global::java.io.InputStream n1){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r3_o = global::com.codename1.io.Util.readInputStream((global::java.io.InputStream) _r8_o);
@@ -91,15 +81,10 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2$1: void handleException(java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.Oauth2_22_21) _r2_o)._fthis_21;
@@ -126,13 +111,9 @@ public override void postResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2$1: void postResponse()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = global::com.codename1.io.Oauth2.access_2500() ? 1 : 0;
     if (_r0.i == 0) goto label19;

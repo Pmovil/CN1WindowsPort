@@ -12,12 +12,8 @@ public global::com.codename1.cloud.CloudStorage _fthis_20;
 public void @this(global::com.codename1.cloud.CloudStorage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$StorageRequest: void <init>(com.codename1.cloud.CloudStorage)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.cloud.CloudStorage_2StorageRequest) _r1_o)._fthis_20 = (global::com.codename1.cloud.CloudStorage) _r2_o;
@@ -30,29 +26,18 @@ public void @this(global::com.codename1.cloud.CloudStorage n1){
 
 public override void buildRequestBody(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$StorageRequest: void buildRequestBody(java.io.OutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8_o = null;
@@ -126,27 +111,16 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$StorageRequest: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r2_o = new global::java.io.DataInputStream();
@@ -190,13 +164,9 @@ public override void postResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$StorageRequest: void postResponse()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.cloud.CloudStorage_2StorageRequest) _r3_o)._fresponse;
     if (_r0_o == null) goto label38;
@@ -224,10 +194,7 @@ public override void postResponse(){
 public virtual int getReturnCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$StorageRequest: int getReturnCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.cloud.CloudStorage_2StorageRequest) _r1_o)._freturnCode;
     return _r0.i;

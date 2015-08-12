@@ -48,13 +48,9 @@ public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void <init>(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -71,10 +67,7 @@ public void @this(int n1, int n2){
 public virtual int getRows(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getRows()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._frows;
     return _r0.i;
@@ -84,10 +77,7 @@ public virtual int getRows(){
 public virtual int getColumns(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getColumns()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcolumns;
     return _r0.i;
@@ -96,17 +86,11 @@ public virtual int getColumns(){
 
 public virtual global::System.Object getComponentAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: com.codename1.ui.Component getComponentAt(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -127,78 +111,45 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
-    global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
-    global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
-    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
-    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
-    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
-    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
-    global::System.Object _r32_o = null;
     global::org.xmlvm._nElement _r33;
-    global::System.Object _r33_o = null;
     global::org.xmlvm._nElement _r34;
-    global::System.Object _r34_o = null;
     global::org.xmlvm._nElement _r35;
-    global::System.Object _r35_o = null;
     global::org.xmlvm._nElement _r36;
-    global::System.Object _r36_o = null;
-    global::org.xmlvm._nElement _r37;
     global::System.Object _r37_o = null;
-    global::org.xmlvm._nElement _r38;
     global::System.Object _r38_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r37_o = this;
@@ -952,11 +903,8 @@ public virtual int getRowPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getRowPosition(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r1_o)._frowPositions;
@@ -978,11 +926,8 @@ public virtual int getColumnPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getColumnPosition(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcolumnPositions;
@@ -1003,34 +948,20 @@ public virtual int getColumnPosition(int n1){
 private void placeComponent(bool n1, global::com.codename1.ui.table.TableLayout_2Constraint n2, int n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void placeComponent(boolean, com.codename1.ui.table.TableLayout$Constraint, int, int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1 ? 1 : 0;
     _r9_o = n2;
@@ -1138,34 +1069,20 @@ private void placeComponent(bool n1, global::com.codename1.ui.table.TableLayout_
 private int getColumnWidthPixels(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getColumnWidthPixels(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.i = n1;
     _r12.i = n2;
@@ -1262,29 +1179,18 @@ private int getColumnWidthPixels(int n1, int n2, int n3){
 
 private int getRowHeightPixels(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getRowHeightPixels(int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -1342,30 +1248,18 @@ private int getRowHeightPixels(int n1, int n2, int n3){
 public override global::System.Object getPreferredSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = -1;
@@ -1413,10 +1307,7 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
 public virtual int getNextRow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getNextRow()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcurrentRow;
     return _r0.i;
@@ -1426,10 +1317,7 @@ public virtual int getNextRow(){
 public virtual int getNextColumn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getNextColumn()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcurrentColumn;
     return _r0.i;
@@ -1439,26 +1327,16 @@ public virtual int getNextColumn(){
 private void shiftCell(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void shiftCell(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -1544,17 +1422,13 @@ private void shiftCell(int n1, int n2){
 
 private void addRow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void addRow()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.i = ((global::com.codename1.ui.table.TableLayout) _r4_o)._frows;
@@ -1573,16 +1447,11 @@ private void addRow(){
 
 public override void addLayoutComponent(global::java.lang.Object n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Container n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void addLayoutComponent(java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Container)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
@@ -1590,18 +1459,11 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -1816,12 +1678,8 @@ private void updateRowColumn(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r3_o)._fcurrentRow;
     _r1.i = ((global::com.codename1.ui.table.TableLayout) _r3_o)._frows;
@@ -1860,14 +1718,9 @@ public virtual int getCellHorizontalSpan(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1886,14 +1739,9 @@ public virtual int getCellVerticalSpan(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1913,13 +1761,9 @@ public virtual bool isCellSpannedThroughVertically(int n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1953,13 +1797,9 @@ public virtual bool isCellSpannedThroughHorizontally(int n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1990,10 +1830,7 @@ public virtual bool isCellSpannedThroughHorizontally(int n1, int n2){
 public virtual bool hasVerticalSpanning(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: boolean hasVerticalSpanning()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fverticalSpanningExists ? 1 : 0;
     return _r0.i!=0;
@@ -2003,10 +1840,7 @@ public virtual bool hasVerticalSpanning(){
 public virtual bool hasHorizontalSpanning(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: boolean hasHorizontalSpanning()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fhorizontalSpanningExists ? 1 : 0;
     return _r0.i!=0;
@@ -2017,29 +1851,18 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void removeLayoutComponent(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = 0;
@@ -2124,18 +1947,12 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
 public override global::System.Object getComponentConstraint(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: java.lang.Object getComponentConstraint(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r1.i = 0;
@@ -2180,11 +1997,8 @@ public override global::System.Object getComponentConstraint(global::com.codenam
 
 public virtual global::System.Object createConstraint(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: com.codename1.ui.table.TableLayout$Constraint createConstraint()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.table.TableLayout_2Constraint();
     ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o).@this();
@@ -2194,15 +2008,10 @@ public virtual global::System.Object createConstraint(){
 
 public virtual global::System.Object createConstraint(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: com.codename1.ui.table.TableLayout$Constraint createConstraint(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -2216,8 +2025,6 @@ public virtual global::System.Object createConstraint(int n1, int n2){
 public static void setMinimumSizePerColumn(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void setMinimumSizePerColumn(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.table.TableLayout._fminimumSizePerColumn = _r0.i;
     return;
@@ -2227,8 +2034,6 @@ public static void setMinimumSizePerColumn(int n1){
 public static int getMinimumSizePerColumn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getMinimumSizePerColumn()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.table.TableLayout._fminimumSizePerColumn;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int getMinimumSizePerColumn()]
@@ -2237,8 +2042,6 @@ public static int getMinimumSizePerColumn(){
 public static void setDefaultColumnWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void setDefaultColumnWidth(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.table.TableLayout._fdefaultColumnWidth = _r0.i;
     return;
@@ -2248,8 +2051,6 @@ public static void setDefaultColumnWidth(int n1){
 public static int getDefaultColumnWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getDefaultColumnWidth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.table.TableLayout._fdefaultColumnWidth;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int getDefaultColumnWidth()]
@@ -2258,8 +2059,6 @@ public static int getDefaultColumnWidth(){
 public static void setDefaultRowHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void setDefaultRowHeight(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.table.TableLayout._fdefaultRowHeight = _r0.i;
     return;
@@ -2269,8 +2068,6 @@ public static void setDefaultRowHeight(int n1){
 public static int getDefaultRowHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int getDefaultRowHeight()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.table.TableLayout._fdefaultRowHeight;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int getDefaultRowHeight()]
@@ -2278,11 +2075,8 @@ public static int getDefaultRowHeight(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=TableLayout
     _r0_o = new global::java.lang.String();
@@ -2293,17 +2087,12 @@ public override global::System.Object toString(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = base.equals((global::java.lang.Object) _r4_o) ? 1 : 0;
@@ -2330,10 +2119,7 @@ public override bool equals(global::java.lang.Object n1){
 public override bool isConstraintTracking(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: boolean isConstraintTracking()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -2343,10 +2129,7 @@ public override bool isConstraintTracking(){
 public virtual bool isGrowHorizontally(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: boolean isGrowHorizontally()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r1_o)._fgrowHorizontally ? 1 : 0;
     return _r0.i!=0;
@@ -2355,11 +2138,8 @@ public virtual bool isGrowHorizontally(){
 
 public virtual void setGrowHorizontally(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void setGrowHorizontally(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.table.TableLayout) _r0_o)._fgrowHorizontally = 0!=_r1.i;
@@ -2370,8 +2150,6 @@ public virtual void setGrowHorizontally(bool n1){
 public static int access_2000(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int access$000()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.table.TableLayout._fdefaultColumnWidth;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int access$000()]
@@ -2380,8 +2158,6 @@ public static int access_2000(){
 public static int access_2100(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: int access$100()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.table.TableLayout._fdefaultRowHeight;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int access$100()]
@@ -2392,8 +2168,6 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = -1;
     _r0.i = 10;
     global::com.codename1.ui.table.TableLayout._fminimumSizePerColumn = _r0.i;

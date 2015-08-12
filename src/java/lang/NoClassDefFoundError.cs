@@ -7,9 +7,7 @@ private static long _fserialVersionUID = 9095859863287012458L;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoClassDefFoundError: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.LinkageError) _r0_o).@this();
     return;
@@ -18,11 +16,8 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.NoClassDefFoundError: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.LinkageError) _r0_o).@this((global::java.lang.String) _r1_o);

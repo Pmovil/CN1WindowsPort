@@ -9,11 +9,8 @@ public void @this(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr$ExprNodeSet: void <init>(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -35,9 +32,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr$ExprNodeSet: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.Expr_2ExprNodeSet) _r1_o)._flist;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
@@ -47,14 +42,10 @@ public virtual int getLength(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr$ExprNodeSet: org.w3c.dom.Node item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;

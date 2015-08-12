@@ -15,10 +15,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 95;
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r0.i]);
     _r1.i = 0;
@@ -305,12 +302,8 @@ public static void @static(){
 private void @this(global::java.nio.charset.Charset n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_7$Decoder: void <init>(java.nio.charset.Charset)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.f = (float)1.0D;
@@ -336,28 +329,17 @@ public override global::System.Object decodeLoop(global::java.nio.ByteBuffer n1,
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r14_o = n2;
@@ -501,13 +483,9 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public void @this(global::java.nio.charset.Charset n1, global::org.apache.harmony.niochar.charset.ISO_18859_17_2Decoder n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_7$Decoder: void <init>(java.nio.charset.Charset, org.apache.harmony.niochar.charset.ISO_8859_7$Decoder)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

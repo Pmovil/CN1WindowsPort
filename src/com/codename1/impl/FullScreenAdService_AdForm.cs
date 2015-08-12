@@ -11,27 +11,17 @@ public global::com.codename1.impl.FullScreenAdService _fthis_20;
 
 public void @this(global::com.codename1.impl.FullScreenAdService n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService$AdForm: void <init>(com.codename1.impl.FullScreenAdService, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -98,12 +88,7 @@ public void @this(global::com.codename1.impl.FullScreenAdService n1, global::com
 public override void onShow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService$AdForm: void onShow()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = global::java.lang.System.currentTimeMillis();
     ((global::com.codename1.impl.FullScreenAdService_2AdForm) _r2_o)._fshown = _r0.l;
@@ -113,13 +98,9 @@ public override void onShow(){
 
 public override void show(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService$AdForm: void show()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.showBack();
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -135,18 +116,10 @@ public override void show(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.FullScreenAdService$AdForm: boolean animate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r0.l = ((global::com.codename1.impl.FullScreenAdService_2AdForm) _r5_o)._fshown;

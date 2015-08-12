@@ -19,10 +19,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;
@@ -44,10 +41,7 @@ public static void @static(){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::gnu.xml.transform.StreamSerializer) _r1_o).@this();
     _r0.i = 1;
@@ -58,9 +52,7 @@ public void @this(){
 
 public virtual global::System.Object getDomConfig(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: org.w3c.dom.DOMConfiguration getDomConfig()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::org.w3c.dom.DOMConfiguration) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: org.w3c.dom.DOMConfiguration getDomConfig()]
@@ -68,11 +60,8 @@ public virtual global::System.Object getDomConfig(){
 
 public virtual global::System.Object getNewLine(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: java.lang.String getNewLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSSerializer) _r1_o)._feol;
     return (global::java.lang.String) _r0_o;
@@ -81,13 +70,9 @@ public virtual global::System.Object getNewLine(){
 
 public virtual void setNewLine(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void setNewLine(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label11;
@@ -106,11 +91,8 @@ public virtual void setNewLine(global::java.lang.String n1){
 
 public virtual global::System.Object getFilter(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: org.w3c.dom.ls.LSSerializerFilter getFilter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.ls.DomLSSerializer) _r1_o)._ffilter;
     return (global::org.w3c.dom.ls.LSSerializerFilter) _r0_o;
@@ -119,11 +101,8 @@ public virtual global::System.Object getFilter(){
 
 public virtual void setFilter(global::org.w3c.dom.ls.LSSerializerFilter n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void setFilter(org.w3c.dom.ls.LSSerializerFilter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.ls.DomLSSerializer) _r0_o)._ffilter = (global::org.w3c.dom.ls.LSSerializerFilter) _r1_o;
@@ -133,23 +112,16 @@ public virtual void setFilter(global::org.w3c.dom.ls.LSSerializerFilter n1){
 
 public virtual bool write(global::org.w3c.dom.Node n1, global::org.w3c.dom.ls.LSOutput n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: boolean write(org.w3c.dom.Node, org.w3c.dom.ls.LSOutput)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -265,13 +237,9 @@ public virtual bool writeToURI(global::org.w3c.dom.Node n1, global::java.lang.St
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: boolean writeToURI(org.w3c.dom.Node, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -285,15 +253,10 @@ public virtual bool writeToURI(global::org.w3c.dom.Node n1, global::java.lang.St
 
 public virtual global::System.Object writeToString(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: java.lang.String writeToString(org.w3c.dom.Node)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.io.StringWriter();
@@ -312,14 +275,9 @@ public override void serialize(global::org.w3c.dom.Node n1, global::java.io.Outp
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -436,13 +394,9 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -486,13 +440,9 @@ public virtual global::System.Object getParameter(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=true
@@ -550,14 +500,9 @@ public virtual global::System.Object getParameter(global::java.lang.String n1){
 public virtual bool canSetParameter(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: boolean canSetParameter(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -568,9 +513,7 @@ public virtual bool canSetParameter(global::java.lang.String n1, global::java.la
 
 public virtual global::System.Object getParameterNames(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: org.w3c.dom.DOMStringList getParameterNames()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::org.w3c.dom.DOMStringList) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: org.w3c.dom.DOMStringList getParameterNames()]
@@ -578,13 +521,9 @@ public virtual global::System.Object getParameterNames(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: java.lang.String item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSSerializer._fSUPPORTED_1PARAMETERS;
@@ -598,9 +537,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::gnu.xml.dom.ls.DomLSSerializer._fSUPPORTED_1PARAMETERS;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -612,11 +549,8 @@ public virtual bool contains(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: boolean contains(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSSerializer._fSUPPORTED_1PARAMETERS;

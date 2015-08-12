@@ -5,9 +5,7 @@ namespace com.codename1.system {
 public class DefaultCrashReporter_21: global::java.util.TimerTask {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.TimerTask) _r0_o).@this();
     return;
@@ -18,9 +16,7 @@ public override void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter$1: void run()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).isEdt() ? 1 : 0;

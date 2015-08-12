@@ -30,7 +30,6 @@ namespace org.xmlvm.runtime
             _r1.f = 0;
             _r1.d = 0;
             global::System.Object _r1_o = null;
-            global::org.xmlvm._nExceptionAdapter _ex = null;
             _r1_o = n1;
             _r0_o = global::org.xmlvm.runtime.Mutex._ffinalizableNativeMutexList;
             ((global::java.util.Queue)_r0_o).add((global::java.lang.Object)_r1_o);
@@ -53,7 +52,6 @@ namespace org.xmlvm.runtime
             _r1.f = 0;
             _r1.d = 0;
             global::System.Object _r1_o = null;
-            global::org.xmlvm._nExceptionAdapter _ex = null;
             _r0_o = null;
         label1: ;
             _r1_o = global::org.xmlvm.runtime.Mutex._ffinalizableNativeMutexList;
@@ -82,7 +80,6 @@ namespace org.xmlvm.runtime
             _r0.f = 0;
             _r0.d = 0;
             global::System.Object _r0_o = null;
-            global::org.xmlvm._nExceptionAdapter _ex = null;
             _r0_o = this;
             ((global::java.lang.Object)_r0_o).@this();
             ((global::org.xmlvm.runtime.Mutex)_r0_o).initNativeInstance();
@@ -122,7 +119,6 @@ namespace org.xmlvm.runtime
             _r0.f = 0;
             _r0.d = 0;
             global::System.Object _r0_o = null;
-            global::org.xmlvm._nExceptionAdapter _ex = null;
             _r0_o = new global::java.util.LinkedList();
             ((global::java.util.LinkedList)_r0_o).@this();
             global::org.xmlvm.runtime.Mutex._ffinalizableNativeMutexList = (global::java.util.Queue)_r0_o;

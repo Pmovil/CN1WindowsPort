@@ -11,13 +11,9 @@ public bool _fcontainsAllSurrogates;
 
 public void @this(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCategory: void <init>(int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2 ? 1 : 0;
@@ -30,15 +26,10 @@ public void @this(int n1, bool n2){
 
 public void @this(int n1, bool n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCategory: void <init>(int, boolean, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2 ? 1 : 0;
@@ -53,17 +44,12 @@ public void @this(int n1, bool n2, bool n3){
 
 public override global::System.Object computeValue(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCategory: java.util.regex.AbstractCharClass computeValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::java.util.regex.UnicodeCategory();
     _r1.i = ((global::java.util.regex.AbstractCharClass_2LazyCategory) _r4_o)._fcategory;

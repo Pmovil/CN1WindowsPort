@@ -15,9 +15,7 @@ private bool _ffetching;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,10 +25,7 @@ public void @this(){
 public virtual int getVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: int getVersion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i;
@@ -41,11 +36,8 @@ public virtual void externalize(global::java.io.DataOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void externalize(java.io.DataOutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.io.services.CachedData) _r1_o)._furl;
@@ -67,13 +59,9 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void internalize(int, java.io.DataInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -94,11 +82,8 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 
 public virtual global::System.Object getObjectId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: java.lang.String getObjectId()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=CachedData
     _r0_o = new global::java.lang.String();
@@ -109,11 +94,8 @@ public virtual global::System.Object getObjectId(){
 
 public virtual global::System.Object getData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: byte[] getData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.CachedData) _r1_o)._fdata;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -122,11 +104,8 @@ public virtual global::System.Object getData(){
 
 public virtual void setData(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void setData(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.CachedData) _r0_o)._fdata = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
@@ -136,11 +115,8 @@ public virtual void setData(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public virtual global::System.Object getUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: java.lang.String getUrl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.CachedData) _r1_o)._furl;
     return (global::java.lang.String) _r0_o;
@@ -149,11 +125,8 @@ public virtual global::System.Object getUrl(){
 
 public virtual void setUrl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void setUrl(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.CachedData) _r0_o)._furl = (global::java.lang.String) _r1_o;
@@ -163,11 +136,8 @@ public virtual void setUrl(global::java.lang.String n1){
 
 public virtual global::System.Object getEtag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: java.lang.String getEtag()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.CachedData) _r1_o)._fetag;
     return (global::java.lang.String) _r0_o;
@@ -176,11 +146,8 @@ public virtual global::System.Object getEtag(){
 
 public virtual void setEtag(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void setEtag(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.CachedData) _r0_o)._fetag = (global::java.lang.String) _r1_o;
@@ -190,11 +157,8 @@ public virtual void setEtag(global::java.lang.String n1){
 
 public virtual global::System.Object getModified(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: java.lang.String getModified()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.CachedData) _r1_o)._fmodified;
     return (global::java.lang.String) _r0_o;
@@ -203,11 +167,8 @@ public virtual global::System.Object getModified(){
 
 public virtual void setModified(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void setModified(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.CachedData) _r0_o)._fmodified = (global::java.lang.String) _r1_o;
@@ -218,10 +179,7 @@ public virtual void setModified(global::java.lang.String n1){
 public virtual bool isFetching(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: boolean isFetching()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.services.CachedData) _r1_o)._ffetching ? 1 : 0;
     return _r0.i!=0;
@@ -230,11 +188,8 @@ public virtual bool isFetching(){
 
 public virtual void setFetching(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void setFetching(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.services.CachedData) _r0_o)._ffetching = 0!=_r1.i;

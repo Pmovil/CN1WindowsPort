@@ -9,17 +9,11 @@ public int _findex;
 
 public void @this(global::java.lang.Object n1, global::java.lang.Object n2, global::java.util.TreeMap_2Node n3, int n4){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$TreeMapEntry: void <init>(java.lang.Object, java.lang.Object, java.util.TreeMap$Node, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -34,17 +28,11 @@ public void @this(global::java.lang.Object n1, global::java.lang.Object n2, glob
 
 public override global::System.Object setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$TreeMapEntry: java.lang.Object setValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.util.TreeMap_2TreeMapEntry) _r3_o)._fvalue;

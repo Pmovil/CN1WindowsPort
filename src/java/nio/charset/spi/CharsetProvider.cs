@@ -12,11 +12,8 @@ private static global::java.lang.RuntimePermission _fCONSTRUCT_1PERM;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.spi.CharsetProvider: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.lang.RuntimePermission();
     // Value=charsetProvider
     _r1_o = new global::java.lang.String();
@@ -29,13 +26,9 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.spi.CharsetProvider: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = global::java.lang.System.getSecurityManager();

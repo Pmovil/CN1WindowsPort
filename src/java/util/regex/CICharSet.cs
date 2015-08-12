@@ -10,12 +10,8 @@ private char _fsupplement;
 public void @this(char n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CICharSet: void <init>(char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.util.regex.LeafSet) _r1_o).@this();
@@ -29,16 +25,10 @@ public void @this(char n1){
 public override int accepts(int n1, global::java.lang.CharSequence n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CICharSet: int accepts(int, java.lang.CharSequence)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -60,13 +50,10 @@ public override int accepts(int n1, global::java.lang.CharSequence n2){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CICharSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=CI 
@@ -83,10 +70,7 @@ public override global::System.Object getName(){
 public virtual char getChar(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CICharSet: char getChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.CICharSet) _r1_o)._fch;
     return (char) _r0.i;

@@ -8,22 +8,15 @@ private global::java.util.Dictionary _fpubidMapping;
 public static void addDirectoryMapping(global::java.util.Dictionary n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.io.File n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.Resolver: void addDirectoryMapping(java.util.Dictionary, java.lang.String[][], java.io.File)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7_o = n3;
@@ -55,11 +48,8 @@ public static void addDirectoryMapping(global::java.util.Dictionary n1, global::
 
 public static global::System.Object fileNameToURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.Resolver: java.lang.String fileNameToURL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::java.io.File();
     ((global::java.io.File) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -76,11 +66,8 @@ public static global::System.Object fileToURL(global::java.io.File n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r2.i = 47;
     // Value=/
@@ -148,9 +135,7 @@ public static global::System.Object fileToURL(global::java.io.File n1){
 
 public static global::System.Object getURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.Resolver: java.lang.String getURL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
@@ -178,11 +163,8 @@ public static global::System.Object getURL(global::java.lang.String n1){
 
 public void @this(global::java.util.Dictionary n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.Resolver: void <init>(java.util.Dictionary)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -198,16 +180,10 @@ public static global::System.Object getEncoding(global::java.lang.String n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r5.i = 1;
     _r4.i = 0;
@@ -268,17 +244,11 @@ public static global::System.Object getEncoding(global::java.lang.String n1){
 
 public virtual global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.Resolver: org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

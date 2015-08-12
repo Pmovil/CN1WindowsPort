@@ -5,9 +5,7 @@ namespace java.util {
 public class ResourceBundle_21: global::java.lang.Object,global::java.security.PrivilegedAction {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,11 +14,8 @@ public void @this(){
 
 public virtual global::System.Object run(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$1: java.lang.ClassLoader run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.lang.Object) _r1_o).getClass();
     _r0_o = ((global::java.lang.Class) _r0_o).getClassLoader();

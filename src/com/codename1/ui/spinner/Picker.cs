@@ -17,9 +17,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Button) _r1_o).@this();
     _r0.i = 1;
@@ -43,15 +41,10 @@ public virtual void setType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setType(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 0;
@@ -97,10 +90,7 @@ public virtual void setType(int n1){
 public virtual int getType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: int getType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.Picker) _r1_o)._ftype;
     return _r0.i;
@@ -109,9 +99,7 @@ public virtual int getType(){
 
 public virtual global::System.Object getDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.util.Date getDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue;
     _r0_o = _r0_o;
@@ -121,11 +109,8 @@ public virtual global::System.Object getDate(){
 
 public virtual void setDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue = (global::java.lang.Object) _r1_o;
@@ -138,13 +123,9 @@ private global::System.Object twoDigits(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.String twoDigits(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 10;
@@ -175,16 +156,11 @@ private global::System.Object twoDigits(int n1){
 public virtual void setStrings(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setStrings(java.lang.String[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 0;
@@ -212,9 +188,7 @@ public virtual void setStrings(global::org.xmlvm._nArrayAdapter<global::System.O
 
 public virtual global::System.Object getStrings(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.String[] getStrings()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fmetaData;
     _r0_o = _r0_o;
@@ -225,11 +199,8 @@ public virtual global::System.Object getStrings(){
 
 public virtual void setSelectedString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setSelectedString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue = (global::java.lang.Object) _r1_o;
@@ -240,9 +211,7 @@ public virtual void setSelectedString(global::java.lang.String n1){
 
 public virtual global::System.Object getSelectedString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.String getSelectedString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue;
     _r0_o = _r0_o;
@@ -253,22 +222,15 @@ public virtual global::System.Object getSelectedString(){
 public virtual void updateValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void updateValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     // Value=:
     _r6_o = new global::java.lang.String();
@@ -371,13 +333,9 @@ public virtual void updateValue(){
 
 public virtual void setTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setTime(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = new global::java.lang.Integer();
@@ -391,14 +349,9 @@ public virtual void setTime(int n1){
 public virtual void setTime(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setTime(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -412,10 +365,7 @@ public virtual void setTime(int n1, int n2){
 public virtual int getTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: int getTime()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fvalue;
     _r1_o = _r1_o;
@@ -427,10 +377,7 @@ public virtual int getTime(){
 public virtual bool isShowMeridiem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: boolean isShowMeridiem()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fshowMeridiem ? 1 : 0;
     return _r0.i!=0;
@@ -439,11 +386,8 @@ public virtual bool isShowMeridiem(){
 
 public virtual void setShowMeridiem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setShowMeridiem(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.spinner.Picker) _r0_o)._fshowMeridiem = 0!=_r1.i;
@@ -454,11 +398,8 @@ public virtual void setShowMeridiem(bool n1){
 
 public virtual global::System.Object getRenderingPrototype(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.Object getRenderingPrototype()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._frenderingPrototype;
     return (global::java.lang.Object) _r0_o;
@@ -467,11 +408,8 @@ public virtual global::System.Object getRenderingPrototype(){
 
 public virtual void setRenderingPrototype(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: void setRenderingPrototype(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.Picker) _r0_o)._frenderingPrototype = (global::java.lang.Object) _r1_o;
@@ -482,10 +420,7 @@ public virtual void setRenderingPrototype(global::java.lang.Object n1){
 public static int access_2000(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: int access$000(com.codename1.ui.spinner.Picker)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.spinner.Picker) _r1_o)._ftype;
     return _r0.i;
@@ -494,11 +429,8 @@ public static int access_2000(global::com.codename1.ui.spinner.Picker n1){
 
 public static global::System.Object access_2100(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.Object access$100(com.codename1.ui.spinner.Picker)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fvalue;
     return (global::java.lang.Object) _r0_o;
@@ -507,11 +439,8 @@ public static global::System.Object access_2100(global::com.codename1.ui.spinner
 
 public static global::System.Object access_2200(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.Object access$200(com.codename1.ui.spinner.Picker)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fmetaData;
     return (global::java.lang.Object) _r0_o;
@@ -520,11 +449,8 @@ public static global::System.Object access_2200(global::com.codename1.ui.spinner
 
 public static global::System.Object access_2102(global::com.codename1.ui.spinner.Picker n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.Object access$102(com.codename1.ui.spinner.Picker, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue = (global::java.lang.Object) _r1_o;
@@ -534,11 +460,8 @@ public static global::System.Object access_2102(global::com.codename1.ui.spinner
 
 public static global::System.Object access_2300(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.Object access$300(com.codename1.ui.spinner.Picker)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._frenderingPrototype;
     return (global::java.lang.Object) _r0_o;
@@ -548,10 +471,7 @@ public static global::System.Object access_2300(global::com.codename1.ui.spinner
 public static bool access_2400(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker: boolean access$400(com.codename1.ui.spinner.Picker)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fshowMeridiem ? 1 : 0;
     return _r0.i!=0;

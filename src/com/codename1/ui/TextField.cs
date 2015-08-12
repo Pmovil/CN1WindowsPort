@@ -107,8 +107,6 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fDEFAULT
 public static bool isUseNativeTextInput(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isUseNativeTextInput()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._fuseNativeTextInput ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: boolean isUseNativeTextInput()]
@@ -117,8 +115,6 @@ public static bool isUseNativeTextInput(){
 public static void setUseNativeTextInput(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setUseNativeTextInput(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.TextField._fuseNativeTextInput = 0!=_r0.i;
     return;
@@ -127,9 +123,7 @@ public static void setUseNativeTextInput(bool n1){
 
 public static void setClearText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setClearText(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.TextField._fclearText = (global::java.lang.String) _r0_o;
     return;
@@ -138,9 +132,7 @@ public static void setClearText(global::java.lang.String n1){
 
 public static void setT9Text(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setT9Text(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.TextField._ft9Text = (global::java.lang.String) _r0_o;
     return;
@@ -150,10 +142,7 @@ public static void setT9Text(global::java.lang.String n1){
 public override bool isEnableInputScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isEnableInputScroll()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fenableInputScroll ? 1 : 0;
     return _r0.i!=0;
@@ -162,11 +151,8 @@ public override bool isEnableInputScroll(){
 
 public virtual void setEnableInputScroll(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setEnableInputScroll(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._fenableInputScroll = 0!=_r1.i;
@@ -178,17 +164,11 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 2;
     _r3.i = 0;
@@ -247,19 +227,12 @@ public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r4.i = 2;
@@ -318,19 +291,12 @@ public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 2;
@@ -389,24 +355,16 @@ public void @this(global::java.lang.String n1){
 public virtual void deleteChar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void deleteChar()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 1;
     _r6.i = 0;
@@ -454,21 +412,13 @@ public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -529,12 +479,8 @@ public static global::System.Object create(global::java.lang.String n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -557,7 +503,6 @@ public static global::System.Object create(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.TextArea create()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 20;
     _r0_o = global::com.codename1.ui.TextField.create((int) _r0.i);
     return (global::com.codename1.ui.TextArea) _r0_o;
@@ -566,11 +511,8 @@ public static global::System.Object create(){
 
 public static global::System.Object create(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.TextArea create(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -584,9 +526,7 @@ public static global::System.Object create(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.TextArea create(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 20;
     _r0_o = global::com.codename1.ui.TextField.create((global::java.lang.String) _r1_o, (int) _r0.i);
@@ -596,13 +536,9 @@ public static global::System.Object create(global::java.lang.String n1){
 
 public virtual void commitChange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void commitChange()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     ((global::com.codename1.ui.TextField) _r2_o)._fpendingCommit = 0!=_r1.i;
@@ -616,10 +552,7 @@ public virtual void commitChange(){
 public override bool isPendingCommit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isPendingCommit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fpendingCommit ? 1 : 0;
     return _r0.i!=0;
@@ -628,11 +561,8 @@ public override bool isPendingCommit(){
 
 public virtual void setCommitTimeout(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setCommitTimeout(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.TextField) _r0_o)._fcommitTimeout = _r1.i;
@@ -643,10 +573,7 @@ public virtual void setCommitTimeout(int n1){
 public virtual int getCommitTimeout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCommitTimeout()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fcommitTimeout;
     return _r0.i;
@@ -655,11 +582,8 @@ public virtual int getCommitTimeout(){
 
 public virtual void setInputMode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setInputMode(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.TextField) _r0_o)._finputMode = (global::java.lang.String) _r1_o;
@@ -670,11 +594,8 @@ public virtual void setInputMode(global::java.lang.String n1){
 
 public override global::System.Object getInputMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String getInputMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.TextField) _r1_o)._finputMode;
     return (global::java.lang.String) _r0_o;
@@ -684,12 +605,8 @@ public override global::System.Object getInputMode(){
 public virtual bool isChangeInputMode(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isChangeInputMode(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::com.codename1.ui.TextField._fdefaultChangeInputModeKey;
@@ -706,20 +623,14 @@ public virtual bool isChangeInputMode(int n1){
 private static void initInputModes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void initInputModes()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = global::com.codename1.ui.TextField._finputModes;
     if (_r4_o != null) goto label141;
     _r4_o = global::com.codename1.ui.TextField._ffirstUppercaseInputMode;
@@ -806,15 +717,10 @@ private static void initInputModes(){
 
 public static void addInputMode(global::java.lang.String n1, global::java.util.Hashtable n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void addInputMode(java.lang.String, java.util.Hashtable, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3 ? 1 : 0;
@@ -832,10 +738,7 @@ public static void addInputMode(global::java.lang.String n1, global::java.util.H
 public override bool showLightweightVKB(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean showLightweightVKB()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -844,11 +747,8 @@ public override bool showLightweightVKB(){
 
 public override global::System.Object getInputModeOrder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String[] getInputModeOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.TextField) _r1_o)._finputModeOrder;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -859,11 +759,8 @@ public virtual void setInputModeOrder(global::org.xmlvm._nArrayAdapter<global::S
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setInputModeOrder(java.lang.String[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.TextField) _r1_o)._finputModeOrder = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
@@ -876,9 +773,7 @@ public virtual void setInputModeOrder(global::org.xmlvm._nArrayAdapter<global::S
 
 public static global::System.Object getDefaultInputModeOrder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String[] getDefaultInputModeOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.TextField._fdefaultInputModeOrder;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: java.lang.String[] getDefaultInputModeOrder()]
@@ -886,9 +781,7 @@ public static global::System.Object getDefaultInputModeOrder(){
 
 public static void setDefaultInputModeOrder(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setDefaultInputModeOrder(java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.TextField._fdefaultInputModeOrder = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
@@ -898,18 +791,12 @@ public static void setDefaultInputModeOrder(global::org.xmlvm._nArrayAdapter<glo
 private global::System.Object pickLowerOrUpper(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String pickLowerOrUpper(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -950,11 +837,8 @@ private global::System.Object pickLowerOrUpper(global::java.lang.String n1){
 
 public virtual global::System.Object getLongClickInputMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String getLongClickInputMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=123
     _r0_o = new global::java.lang.String();
@@ -965,23 +849,15 @@ public virtual global::System.Object getLongClickInputMode(){
 
 public virtual char getCharPerKeyCode(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: char getCharPerKeyCode(int, int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -1021,9 +897,7 @@ public override void onClick(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void onClick()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = global::com.codename1.ui.TextField._fuseNativeTextInput ? 1 : 0;
     if (_r0.i == 0) goto label17;
@@ -1040,15 +914,10 @@ public virtual void setCursorPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setCursorPosition(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = -1;
@@ -1077,17 +946,11 @@ public virtual void setCursorPosition(int n1){
 
 private void increaseCursor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void increaseCursor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.i = ((global::com.codename1.ui.TextField) _r4_o)._fcursorX;
@@ -1134,14 +997,9 @@ private void decreaseCursor(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r2.i = 1;
@@ -1188,15 +1046,10 @@ private void decreaseCursor(){
 
 private void increaseCursorLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void increaseCursorLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1.i = ((global::com.codename1.ui.TextField) _r3_o)._fcursorY;
     _r1.i = _r1.i + 1;
@@ -1230,15 +1083,10 @@ private void increaseCursorLine(){
 
 private void decreaseCursorLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void decreaseCursorLine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r1.i = ((global::com.codename1.ui.TextField) _r3_o)._fcursorY;
@@ -1273,22 +1121,14 @@ private void decreaseCursorLine(){
 private void updateScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void updateScroll()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r4.i = ((global::com.codename1.ui.TextField) _r7_o).isSingleLineTextArea() ? 1 : 0;
     if (_r4.i != 0) goto label51;
@@ -1313,27 +1153,16 @@ private void updateScroll(){
 
 private void updateCursorLocation(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void updateCursorLocation(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r7.i = 1;
@@ -1396,9 +1225,7 @@ private global::System.Object getCurrentTextLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: java.lang.String getCurrentTextLine()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o).isSingleLineTextArea() ? 1 : 0;
     if (_r0.i == 0) goto label11;
@@ -1415,12 +1242,8 @@ private global::System.Object getCurrentTextLine(){
 private void moveCursor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void moveCursor(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o).handlesInput() ? 1 : 0;
@@ -1455,21 +1278,14 @@ private void moveCursor(int n1){
 
 public override int getCursorPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCursorPosition()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 0;
     _r3_o = ((global::com.codename1.ui.TextField) _r6_o).getText();
@@ -1530,10 +1346,7 @@ public override int getCursorPosition(){
 public override int getCursorY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCursorY()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fcursorY;
     return _r0.i;
@@ -1543,10 +1356,7 @@ public override int getCursorY(){
 public override int getCursorX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCursorX()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fcursorX;
     return _r0.i;
@@ -1556,16 +1366,10 @@ public override int getCursorX(){
 public override void setText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setText(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 2;
@@ -1595,11 +1399,8 @@ public override void setText(global::java.lang.String n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -1614,11 +1415,8 @@ private void longClick(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void longClick(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 1;
@@ -1634,12 +1432,8 @@ private void longClick(int n1){
 public virtual bool isClearKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isClearKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::com.codename1.ui.MenuBar._fclearSK;
@@ -1660,11 +1454,8 @@ public override void longKeyPress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void longKeyPress(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o).isClearKey((int) _r2.i) ? 1 : 0;
@@ -1681,14 +1472,10 @@ public override void longKeyPress(int n1){
 public override bool isQwertyInput(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isQwertyInput()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r1.i = ((global::com.codename1.ui.TextField) _r3_o)._fqwertyInitialized ? 1 : 0;
@@ -1724,11 +1511,8 @@ public override bool isQwertyInput(){
 
 public virtual void setQwertyInput(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setQwertyInput(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._fqwerty = 0!=_r1.i;
@@ -1740,11 +1524,8 @@ public virtual bool isImmediateInputMode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isImmediateInputMode(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=123
@@ -1758,14 +1539,9 @@ public virtual bool isImmediateInputMode(global::java.lang.String n1){
 private bool keyReleaseOrLongClick(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean keyReleaseOrLongClick(int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
@@ -1776,14 +1552,9 @@ private bool keyReleaseOrLongClick(int n1, bool n2){
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.i = n1;
     _r12.i = n2 ? 1 : 0;
@@ -1988,23 +1759,16 @@ private bool keyReleaseOrLongClick(int n1, bool n2){
 
 public virtual void insertChars(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void insertChars(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4.i = 0;
@@ -2068,22 +1832,13 @@ public virtual void insertChars(global::java.lang.String n1){
 public virtual bool validChar(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean validChar(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 43;
@@ -2141,21 +1896,14 @@ public virtual bool validChar(global::java.lang.String n1){
 
 public virtual void showSymbolDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void showSymbolDialog()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0_o = new global::com.codename1.ui.Command();
     _r2_o = ((global::com.codename1.ui.TextField) _r6_o).getUIManager();
@@ -2187,13 +1935,9 @@ public virtual void showSymbolDialog(){
 
 public virtual global::System.Object createSymbolTable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.Container createSymbolTable()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -2201,9 +1945,7 @@ public virtual global::System.Object createSymbolTable(){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r2_o = global::com.codename1.ui.TextField.getSymbolTable();
     _r3_o = new global::com.codename1.ui.Container();
@@ -2248,15 +1990,9 @@ public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 0;
@@ -2288,10 +2024,7 @@ public override void keyReleased(int n1){
 public virtual int getLongClickDuration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getLongClickDuration()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 800;
     return _r0.i;
@@ -2300,9 +2033,7 @@ public virtual int getLongClickDuration(){
 
 public static global::System.Object getSymbolTable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: char[] getSymbolTable()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.TextField._fsymbolTable;
     return (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: char[] getSymbolTable()]
@@ -2310,9 +2041,7 @@ public static global::System.Object getSymbolTable(){
 
 public static void setSymbolTable(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setSymbolTable(char[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.TextField._fsymbolTable = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     return;
@@ -2322,10 +2051,7 @@ public static void setSymbolTable(global::org.xmlvm._nArrayAdapter<char> n1){
 public virtual bool isCursorPositionCycle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isCursorPositionCycle()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -2335,12 +2061,8 @@ public virtual bool isCursorPositionCycle(){
 public virtual bool isSymbolDialogKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isSymbolDialogKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::com.codename1.ui.TextField._fdefaultSymbolDialogKey;
@@ -2356,19 +2078,13 @@ public virtual bool isSymbolDialogKey(int n1){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void deinitialize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r1_o = ((global::com.codename1.ui.TextField) _r5_o).getComponentForm();
@@ -2400,21 +2116,14 @@ public override void deinitialize(){
 
 public override void setEditable(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setEditable(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1 ? 1 : 0;
     _r4.i = 0;
@@ -2447,11 +2156,8 @@ public override void keyRepeated(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void keyRepeated(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::com.codename1.ui.TextField._fuseNativeTextInput ? 1 : 0;
@@ -2472,21 +2178,15 @@ public override void keyRepeated(int n1){
 
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void keyPressed(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r4.i = 0;
@@ -2583,25 +2283,16 @@ public override void keyPressed(int n1){
 
 public virtual global::System.Object installCommands(global::com.codename1.ui.Command n1, global::com.codename1.ui.Command n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.Command installCommands(com.codename1.ui.Command, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -2659,10 +2350,7 @@ public virtual global::System.Object installCommands(global::com.codename1.ui.Co
 public override bool isSelectableInteraction(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isSelectableInteraction()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -2671,17 +2359,13 @@ public override bool isSelectableInteraction(){
 
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void fireClicked()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.i = 0;
     _r1.i = global::com.codename1.ui.TextField._fuseNativeTextInput ? 1 : 0;
@@ -2744,23 +2428,15 @@ public override void fireClicked(){
 
 public virtual void removeCommands(global::com.codename1.ui.Command n1, global::com.codename1.ui.Command n2, global::com.codename1.ui.Command n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void removeCommands(com.codename1.ui.Command, com.codename1.ui.Command, com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -2803,19 +2479,13 @@ public virtual void removeCommands(global::com.codename1.ui.Command n1, global::
 
 public override void focusLostInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void focusLostInternal()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     ((global::com.codename1.ui.TextField) _r5_o).stopComponentLableTicker();
@@ -2870,14 +2540,8 @@ public override void focusLostInternal(){
 public override void focusGainedInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void focusGainedInternal()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     ((global::com.codename1.ui.TextField) _r3_o).startComponentLableTicker();
@@ -2892,24 +2556,15 @@ public override void focusGainedInternal(){
 public virtual bool isEditingTrigger(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isEditingTrigger(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r6.i = 8;
@@ -2968,24 +2623,15 @@ public virtual bool isEditingTrigger(int n1){
 public virtual bool isEditingEndTrigger(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isEditingEndTrigger(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r6.i = 6;
@@ -3047,15 +2693,11 @@ public virtual bool isEditingEndTrigger(int n1){
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = global::com.codename1.ui.TextField._fuseNativeTextInput ? 1 : 0;
@@ -3091,10 +2733,7 @@ public override global::System.Object calcPreferredSize(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r2_o).isSingleLineTextArea() ? 1 : 0;
     if (_r0.i == 0) goto label19;
@@ -3115,16 +2754,11 @@ public override global::System.Object calcPreferredSize(){
 public override void initComponentImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void initComponentImpl()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 5;
     _r2.i = 2;
@@ -3152,11 +2786,8 @@ public override void initComponentImpl(){
 
 public virtual void setCursorBlinkTimeOn(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setCursorBlinkTimeOn(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.TextField) _r0_o)._fblinkOnTime = _r1.i;
@@ -3166,11 +2797,8 @@ public virtual void setCursorBlinkTimeOn(int n1){
 
 public virtual void setCursorBlinkTimeOff(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setCursorBlinkTimeOff(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.TextField) _r0_o)._fblinkOffTime = _r1.i;
@@ -3181,10 +2809,7 @@ public virtual void setCursorBlinkTimeOff(int n1){
 public virtual int getCursorBlinkTimeOn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCursorBlinkTimeOn()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fblinkOnTime;
     return _r0.i;
@@ -3194,10 +2819,7 @@ public virtual int getCursorBlinkTimeOn(){
 public virtual int getCursorBlinkTimeOff(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getCursorBlinkTimeOff()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fblinkOffTime;
     return _r0.i;
@@ -3207,26 +2829,13 @@ public virtual int getCursorBlinkTimeOff(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean animate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r8.i = 1;
     _r7.i = 0;
@@ -3303,37 +2912,22 @@ public override bool animate(){
 
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void pointerReleased(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r14.i = n2;
@@ -3399,10 +2993,7 @@ public override void pointerReleased(int n1, int n2){
 public virtual bool isUseSoftkeys(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isUseSoftkeys()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fuseSoftkeys ? 1 : 0;
     return _r0.i!=0;
@@ -3411,11 +3002,8 @@ public virtual bool isUseSoftkeys(){
 
 public virtual void setUseSoftkeys(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setUseSoftkeys(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._fuseSoftkeys = 0!=_r1.i;
@@ -3425,11 +3013,8 @@ public virtual void setUseSoftkeys(bool n1){
 
 public virtual void setDoneListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setDoneListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.TextField) _r0_o)._fdoneListener = (global::com.codename1.ui.events.ActionListener) _r1_o;
@@ -3439,11 +3024,8 @@ public virtual void setDoneListener(global::com.codename1.ui.events.ActionListen
 
 public virtual global::System.Object getDoneListener(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: com.codename1.ui.events.ActionListener getDoneListener()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.TextField) _r1_o)._fdoneListener;
     return (global::com.codename1.ui.events.ActionListener) _r0_o;
@@ -3454,11 +3036,8 @@ public virtual void fireDoneEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void fireDoneEvent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.TextField) _r2_o)._fdoneListener;
     if (_r0_o == null) goto label26;
@@ -3482,13 +3061,9 @@ public virtual void fireDoneEvent(){
 
 public virtual void addDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void addDataChangeListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.TextField) _r1_o)._flisteners;
@@ -3499,13 +3074,9 @@ public virtual void addDataChangeListener(global::com.codename1.ui.events.DataCh
 
 public virtual void removeDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void removeDataChangeListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.TextField) _r1_o)._flisteners;
@@ -3516,15 +3087,10 @@ public virtual void removeDataChangeListener(global::com.codename1.ui.events.Dat
 
 public virtual void fireDataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void fireDataChanged(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -3540,12 +3106,8 @@ public virtual void fireDataChanged(int n1, int n2){
 public override void onEditComplete(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void onEditComplete(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.onEditComplete((global::java.lang.String) _r2_o);
@@ -3558,10 +3120,7 @@ public override void onEditComplete(global::java.lang.String n1){
 public virtual bool isReplaceMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isReplaceMenu()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._freplaceMenu ? 1 : 0;
     return _r0.i!=0;
@@ -3570,11 +3129,8 @@ public virtual bool isReplaceMenu(){
 
 public virtual void setReplaceMenu(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setReplaceMenu(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._freplaceMenu = 0!=_r1.i;
@@ -3585,8 +3141,6 @@ public virtual void setReplaceMenu(bool n1){
 public static bool isReplaceMenuDefault(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isReplaceMenuDefault()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._freplaceMenuDefault ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: boolean isReplaceMenuDefault()]
@@ -3595,8 +3149,6 @@ public static bool isReplaceMenuDefault(){
 public static void setReplaceMenuDefault(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setReplaceMenuDefault(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.TextField._freplaceMenuDefault = 0!=_r0.i;
     return;
@@ -3606,8 +3158,6 @@ public static void setReplaceMenuDefault(bool n1){
 public static void setQwertyAutoDetect(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setQwertyAutoDetect(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.TextField._fqwertyAutoDetect = 0!=_r0.i;
     return;
@@ -3617,8 +3167,6 @@ public static void setQwertyAutoDetect(bool n1){
 public static void setQwertyDevice(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setQwertyDevice(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.TextField._fqwertyDevice = 0!=_r0.i;
     return;
@@ -3628,8 +3176,6 @@ public static void setQwertyDevice(bool n1){
 public static bool isQwertyAutoDetect(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isQwertyAutoDetect()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._fqwertyAutoDetect ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: boolean isQwertyAutoDetect()]
@@ -3638,8 +3184,6 @@ public static bool isQwertyAutoDetect(){
 public static bool isQwertyDevice(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isQwertyDevice()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._fqwertyDevice ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: boolean isQwertyDevice()]
@@ -3648,8 +3192,6 @@ public static bool isQwertyDevice(){
 public static void setDefaultChangeInputModeKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setDefaultChangeInputModeKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.TextField._fdefaultChangeInputModeKey = _r0.i;
     return;
@@ -3659,8 +3201,6 @@ public static void setDefaultChangeInputModeKey(int n1){
 public static int getDefaultChangeInputModeKey(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getDefaultChangeInputModeKey()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._fdefaultChangeInputModeKey;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: int getDefaultChangeInputModeKey()]
@@ -3669,8 +3209,6 @@ public static int getDefaultChangeInputModeKey(){
 public static void setDefaultSymbolDialogKey(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setDefaultSymbolDialogKey(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.TextField._fdefaultSymbolDialogKey = _r0.i;
     return;
@@ -3680,8 +3218,6 @@ public static void setDefaultSymbolDialogKey(int n1){
 public static int getDefaultSymbolDialogKey(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: int getDefaultSymbolDialogKey()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.TextField._fdefaultSymbolDialogKey;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: int getDefaultSymbolDialogKey()]
@@ -3689,11 +3225,8 @@ public static int getDefaultSymbolDialogKey(){
 
 public virtual void setOverwriteMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setOverwriteMode(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._foverwriteMode = 0!=_r1.i;
@@ -3704,10 +3237,7 @@ public virtual void setOverwriteMode(bool n1){
 public virtual bool isOverwriteMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isOverwriteMode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._foverwriteMode ? 1 : 0;
     return _r0.i!=0;
@@ -3716,11 +3246,8 @@ public virtual bool isOverwriteMode(){
 
 public virtual void setLeftAndRightEditingTrigger(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setLeftAndRightEditingTrigger(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._fleftAndRightEditingTrigger = 0!=_r1.i;
@@ -3731,10 +3258,7 @@ public virtual void setLeftAndRightEditingTrigger(bool n1){
 public virtual bool isLeftAndRightEditingTrigger(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean isLeftAndRightEditingTrigger()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o)._fleftAndRightEditingTrigger ? 1 : 0;
     return _r0.i!=0;
@@ -3745,13 +3269,9 @@ public override void setAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void setAlignment(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 4;
@@ -3770,13 +3290,8 @@ public override void setAlignment(int n1){
 
 public static long access_2002(global::com.codename1.ui.TextField n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: long access$002(com.codename1.ui.TextField, long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.l = n2;
     ((global::com.codename1.ui.TextField) _r0_o)._freleaseTime = _r1.l;
@@ -3786,11 +3301,8 @@ public static long access_2002(global::com.codename1.ui.TextField n1, long n2){
 
 public static bool access_2102(global::com.codename1.ui.TextField n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean access$102(com.codename1.ui.TextField, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._fpressedAndNotReleased = 0!=_r1.i;
@@ -3800,11 +3312,8 @@ public static bool access_2102(global::com.codename1.ui.TextField n1, bool n2){
 
 public static bool access_2202(global::com.codename1.ui.TextField n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: boolean access$202(com.codename1.ui.TextField, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o)._flongClick = 0!=_r1.i;
@@ -3821,14 +3330,9 @@ public static void @static(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.i = 4;
     _r5.i = 3;
     _r4.i = 2;

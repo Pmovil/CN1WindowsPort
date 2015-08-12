@@ -9,17 +9,11 @@ public global::gnu.xml.dom.DomNode _fthis_20;
 
 public void @this(global::gnu.xml.dom.DomNode n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$ShadowList: void <init>(gnu.xml.dom.DomNode, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -35,11 +29,8 @@ public void @this(global::gnu.xml.dom.DomNode n1, global::java.lang.String n2, g
 
 public override void @finally(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$ShadowList: void finalize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNode_2ShadowList) _r1_o)._fliveList;
     ((global::gnu.xml.dom.DomNode_2LiveNodeList) _r0_o).detach();
@@ -51,13 +42,9 @@ public override void @finally(){
 
 public virtual global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$ShadowList: org.w3c.dom.Node item(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.dom.DomNode_2ShadowList) _r1_o)._fliveList;
@@ -70,9 +57,7 @@ public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$ShadowList: int getLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomNode_2ShadowList) _r1_o)._fliveList;
     _r0.i = ((global::gnu.xml.dom.DomNode_2LiveNodeList) _r0_o).getLength();

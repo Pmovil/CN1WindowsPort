@@ -24,9 +24,7 @@ private static global::java.lang.String _fignoreCharsWhenEncoding;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -35,9 +33,7 @@ public void @this(){
 
 public static void setIgnorCharsWhileEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void setIgnorCharsWhileEncoding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.Util._fignoreCharsWhenEncoding = (global::java.lang.String) _r0_o;
     return;
@@ -46,9 +42,7 @@ public static void setIgnorCharsWhileEncoding(global::java.lang.String n1){
 
 public static global::System.Object getIgnorCharsWhileEncoding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String getIgnorCharsWhileEncoding()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Util._fignoreCharsWhenEncoding;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Util: java.lang.String getIgnorCharsWhileEncoding()]
@@ -57,12 +51,8 @@ public static global::System.Object getIgnorCharsWhileEncoding(){
 public static void copy(global::java.io.InputStream n1, global::java.io.OutputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void copy(java.io.InputStream, java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = 8192;
@@ -73,20 +63,14 @@ public static void copy(global::java.io.InputStream n1, global::java.io.OutputSt
 
 public static void copy(global::java.io.InputStream n1, global::java.io.OutputStream n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void copy(java.io.InputStream, java.io.OutputStream, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
@@ -141,11 +125,8 @@ public static void copy(global::java.io.InputStream n1, global::java.io.OutputSt
 
 public static void cleanup(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void cleanup(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).cleanup((global::java.lang.Object) _r1_o);
@@ -155,11 +136,8 @@ public static void cleanup(global::java.lang.Object n1){
 
 public static global::System.Object readToString(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String readToString(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=UTF-8
     _r0_o = new global::java.lang.String();
@@ -171,19 +149,12 @@ public static global::System.Object readToString(global::java.io.InputStream n1)
 
 public static global::System.Object readToString(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String readToString(java.io.InputStream, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r0_o = global::com.codename1.io.Util.readInputStream((global::java.io.InputStream) _r4_o);
@@ -197,13 +168,9 @@ public static global::System.Object readToString(global::java.io.InputStream n1,
 
 public static global::System.Object readInputStream(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: byte[] readInputStream(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::java.io.ByteArrayOutputStream();
     ((global::java.io.ByteArrayOutputStream) _r0_o).@this();
@@ -215,15 +182,10 @@ public static global::System.Object readInputStream(global::java.io.InputStream 
 
 public static void register(global::com.codename1.io.Externalizable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void register(com.codename1.io.Externalizable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util._fexternalizables;
     _r1_o = ((global::com.codename1.io.Externalizable) _r3_o).getObjectId();
@@ -235,13 +197,9 @@ public static void register(global::com.codename1.io.Externalizable n1){
 
 public static void register(global::java.lang.String n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void register(java.lang.String, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.io.Util._fexternalizables;
@@ -252,37 +210,23 @@ public static void register(global::java.lang.String n1, global::java.lang.Class
 
 public static void writeObject(global::java.lang.Object n1, global::java.io.DataOutputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void writeObject(java.lang.Object, java.io.DataOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = n1;
     _r14_o = n2;
     _r12.i = 1;
@@ -694,9 +638,7 @@ public static bool instanceofObjArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofObjArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofObjArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -708,9 +650,7 @@ public static bool instanceofByteArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofByteArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofByteArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -722,9 +662,7 @@ public static bool instanceofShortArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofShortArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofShortArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -736,9 +674,7 @@ public static bool instanceofLongArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofLongArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofLongArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -750,9 +686,7 @@ public static bool instanceofIntArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofIntArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofIntArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -764,9 +698,7 @@ public static bool instanceofFloatArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofFloatArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofFloatArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -778,9 +710,7 @@ public static bool instanceofDoubleArray(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean instanceofDoubleArray(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).instanceofDoubleArray((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -790,37 +720,23 @@ public static bool instanceofDoubleArray(global::java.lang.Object n1){
 
 public static global::System.Object readObject(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.Object readObject(java.io.DataInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = n1;
@@ -1881,11 +1797,8 @@ public static global::System.Object readObject(global::java.io.DataInputStream n
 
 public static global::System.Object encodeUrl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeUrl(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=%20
     _r0_o = new global::java.lang.String();
@@ -1897,19 +1810,14 @@ public static global::System.Object encodeUrl(global::java.lang.String n1){
 
 public static global::System.Object toCharArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: char[] toCharArray(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r3.i = 0;
@@ -1939,13 +1847,9 @@ public static global::System.Object toCharArray(global::java.lang.String n1){
 
 private static global::System.Object encode(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encode(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     if (_r1_o != null) goto label4;
@@ -1961,23 +1865,14 @@ private static global::System.Object encode(global::java.lang.String n1, global:
 
 public static global::System.Object decode(global::java.lang.String n1, global::java.lang.String n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String decode(java.lang.String, java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
@@ -1985,12 +1880,9 @@ public static global::System.Object decode(global::java.lang.String n1, global::
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
     _r13_o = n2;
@@ -2196,20 +2088,13 @@ public static global::System.Object decode(global::java.lang.String n1, global::
 private static global::System.Object encode(global::org.xmlvm._nArrayAdapter<char> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encode(char[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r2_o = new global::java.lang.StringBuilder();
@@ -2279,11 +2164,8 @@ private static global::System.Object encode(global::org.xmlvm._nArrayAdapter<cha
 
 public static global::System.Object encodeBody(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeBody(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=+
     _r0_o = new global::java.lang.String();
@@ -2295,15 +2177,11 @@ public static global::System.Object encodeBody(global::java.lang.String n1){
 
 public static global::System.Object encodeUrl(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeUrl(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r2.i]);
@@ -2327,11 +2205,8 @@ public static global::System.Object encodeUrl(global::org.xmlvm._nArrayAdapter<s
 
 public static global::System.Object encodeUrl(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeUrl(char[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=%20
     _r0_o = new global::java.lang.String();
@@ -2343,11 +2218,8 @@ public static global::System.Object encodeUrl(global::org.xmlvm._nArrayAdapter<c
 
 public static global::System.Object encodeBody(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeBody(char[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     // Value=+
     _r0_o = new global::java.lang.String();
@@ -2359,15 +2231,11 @@ public static global::System.Object encodeBody(global::org.xmlvm._nArrayAdapter<
 
 public static global::System.Object encodeBody(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String encodeBody(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r2.i]);
@@ -2392,24 +2260,15 @@ public static global::System.Object encodeBody(global::org.xmlvm._nArrayAdapter<
 private static void appendHex(global::java.lang.StringBuilder n1, char n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void appendHex(java.lang.StringBuilder, char)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8.i = n2;
     // Value=%
@@ -2500,15 +2359,10 @@ public static global::System.Object relativeToAbsolute(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String relativeToAbsolute(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     // Value=://
@@ -2555,12 +2409,9 @@ public static global::System.Object relativeToAbsolute(global::java.lang.String 
 public static global::System.Object getURLProtocol(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String getURLProtocol(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     // Value=://
     _r1_o = new global::java.lang.String();
@@ -2581,16 +2432,11 @@ public static global::System.Object getURLProtocol(global::java.lang.String n1){
 public static global::System.Object getURLHost(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String getURLHost(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     // Value=://
     _r2_o = new global::java.lang.String();
@@ -2615,14 +2461,11 @@ public static global::System.Object getURLHost(global::java.lang.String n1){
 public static global::System.Object getURLPath(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String getURLPath(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r1.i = 47;
     // Value=://
@@ -2648,16 +2491,11 @@ public static global::System.Object getURLPath(global::java.lang.String n1){
 public static global::System.Object getURLBasePath(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String getURLBasePath(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r3.i = 47;
     // Value=://
@@ -2685,12 +2523,8 @@ public static global::System.Object getURLBasePath(global::java.lang.String n1){
 public static void writeUTF(global::java.lang.String n1, global::java.io.DataOutputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void writeUTF(java.lang.String, java.io.DataOutputStream)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     if (_r1_o != null) goto label7;
@@ -2710,9 +2544,7 @@ public static global::System.Object readUTF(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String readUTF(java.io.DataInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.io.DataInputStream) _r1_o).readBoolean() ? 1 : 0;
     if (_r0.i == 0) goto label11;
@@ -2728,14 +2560,9 @@ public static global::System.Object readUTF(global::java.io.DataInputStream n1){
 public static void readFully(global::java.io.InputStream n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void readFully(java.io.InputStream, byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = 0;
@@ -2748,22 +2575,14 @@ public static void readFully(global::java.io.InputStream n1, global::org.xmlvm._
 public static void readFully(global::java.io.InputStream n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void readFully(java.io.InputStream, byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6.i = n3;
@@ -2794,18 +2613,11 @@ public static void readFully(global::java.io.InputStream n1, global::org.xmlvm._
 public static int readAll(global::java.io.InputStream n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: int readAll(java.io.InputStream, byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r1.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
@@ -2826,20 +2638,13 @@ public static int readAll(global::java.io.InputStream n1, global::org.xmlvm._nAr
 public static global::System.Object split(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: java.lang.String[] split(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r2_o = new global::java.util.Vector();
@@ -2875,9 +2680,7 @@ public static global::System.Object split(global::java.lang.String n1, global::j
 
 public static void setImplementation(global::com.codename1.impl.CodenameOneImplementation n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void setImplementation(com.codename1.impl.CodenameOneImplementation)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.Util._fimplInstance = (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
     return;
@@ -2886,9 +2689,7 @@ public static void setImplementation(global::com.codename1.impl.CodenameOneImple
 
 public static global::System.Object getImplementation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: com.codename1.impl.CodenameOneImplementation getImplementation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Util._fimplInstance;
     return (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Util: com.codename1.impl.CodenameOneImplementation getImplementation()]
@@ -2897,18 +2698,11 @@ public static global::System.Object getImplementation(){
 public static void mergeArrays(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void mergeArrays(java.lang.Object[], java.lang.Object[], java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -2925,14 +2719,9 @@ public static void mergeArrays(global::org.xmlvm._nArrayAdapter<global::System.O
 public static void removeObjectAtOffset(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void removeObjectAtOffset(java.lang.Object[], java.lang.Object[], java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -2945,18 +2734,11 @@ public static void removeObjectAtOffset(global::org.xmlvm._nArrayAdapter<global:
 public static void removeObjectAtOffset(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void removeObjectAtOffset(java.lang.Object[], java.lang.Object[], int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.i = n3;
@@ -2975,20 +2757,12 @@ public static void removeObjectAtOffset(global::org.xmlvm._nArrayAdapter<global:
 public static void insertObjectAtOffset(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3, global::java.lang.Object n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void insertObjectAtOffset(java.lang.Object[], java.lang.Object[], int, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.i = n3;
@@ -3023,16 +2797,11 @@ public static void insertObjectAtOffset(global::org.xmlvm._nArrayAdapter<global:
 public static int indexOf(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: int indexOf(java.lang.Object[], java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
@@ -3057,23 +2826,14 @@ public static bool downloadUrlToStorage(global::java.lang.String n1, global::jav
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean downloadUrlToStorage(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8.i = n3 ? 1 : 0;
@@ -3092,23 +2852,14 @@ public static bool downloadUrlToFile(global::java.lang.String n1, global::java.l
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean downloadUrlToFile(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8.i = n3 ? 1 : 0;
@@ -3125,23 +2876,14 @@ public static bool downloadUrlToFile(global::java.lang.String n1, global::java.l
 
 public static void downloadUrlToStorageInBackground(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void downloadUrlToStorageInBackground(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r3.i = 1;
@@ -3157,23 +2899,14 @@ public static void downloadUrlToStorageInBackground(global::java.lang.String n1,
 
 public static void downloadUrlToFileSystemInBackground(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void downloadUrlToFileSystemInBackground(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r2.i = 0;
@@ -3189,25 +2922,15 @@ public static void downloadUrlToFileSystemInBackground(global::java.lang.String 
 
 public static void downloadUrlToStorageInBackground(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void downloadUrlToStorageInBackground(java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8_o = n3;
@@ -3224,25 +2947,15 @@ public static void downloadUrlToStorageInBackground(global::java.lang.String n1,
 
 public static void downloadUrlToFileSystemInBackground(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void downloadUrlToFileSystemInBackground(java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8_o = n3;
@@ -3259,33 +2972,20 @@ public static void downloadUrlToFileSystemInBackground(global::java.lang.String 
 
 private static bool downloadUrlTo(global::java.lang.String n1, global::java.lang.String n2, bool n3, bool n4, bool n5, global::com.codename1.ui.events.ActionListener n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: boolean downloadUrlTo(java.lang.String, java.lang.String, boolean, boolean, boolean, com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9.i = n3 ? 1 : 0;
@@ -3340,11 +3040,8 @@ private static bool downloadUrlTo(global::java.lang.String n1, global::java.lang
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
     global::com.codename1.io.Util._fexternalizables = (global::java.util.Hashtable) _r0_o;

@@ -9,11 +9,8 @@ public int _fmapMode;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.MappedByteBuffer: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::java.nio.ByteBuffer) _r0_o).@this((int) _r1.i);
@@ -24,10 +21,7 @@ public void @this(int n1){
 public virtual bool isLoaded(){
 //XMLVM_BEGIN_WRAPPER[java.nio.MappedByteBuffer: boolean isLoaded()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = ((global::java.nio.MappedByteBuffer) _r1_o)._faddress;
 // Red class access removed: org.apache.harmony.luni.platform.MappedPlatformAddress check-cast
@@ -40,11 +34,8 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public virtual global::System.Object load(){
 //XMLVM_BEGIN_WRAPPER[java.nio.MappedByteBuffer: java.nio.MappedByteBuffer load()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.nio.MappedByteBuffer) _r1_o)._faddress;
 // Red class access removed: org.apache.harmony.luni.platform.MappedPlatformAddress check-cast
@@ -60,10 +51,7 @@ public virtual global::System.Object force(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.nio.MappedByteBuffer) _r2_o)._fmapMode;
     _r1.i = 2;

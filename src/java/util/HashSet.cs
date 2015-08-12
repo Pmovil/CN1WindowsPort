@@ -9,11 +9,8 @@ public global::java.util.HashMap _fbackingMap;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.HashMap();
     ((global::java.util.HashMap) _r0_o).@this();
@@ -24,13 +21,9 @@ public void @this(){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = new global::java.util.HashMap();
@@ -42,15 +35,10 @@ public void @this(int n1){
 
 public void @this(int n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void <init>(int, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.f = n2;
@@ -68,12 +56,8 @@ public void @this(global::java.util.Collection n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.util.HashMap();
@@ -103,11 +87,8 @@ public void @this(global::java.util.Collection n1){
 
 public void @this(global::java.util.HashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void <init>(java.util.HashMap)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.AbstractSet) _r0_o).@this();
@@ -120,11 +101,8 @@ public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
@@ -141,11 +119,8 @@ public override bool add(global::java.lang.Object n1){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
     ((global::java.util.HashMap) _r0_o).clear();
@@ -155,11 +130,8 @@ public override void clear(){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -194,11 +166,8 @@ public override bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: boolean contains(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
@@ -211,9 +180,7 @@ public override bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
     _r0.i = ((global::java.util.HashMap) _r0_o).isEmpty() ? 1 : 0;
@@ -223,11 +190,8 @@ public override bool isEmpty(){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
     _r0_o = ((global::java.util.HashMap) _r0_o).keySet();
@@ -240,11 +204,8 @@ public override bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: boolean remove(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
@@ -263,9 +224,7 @@ public override int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.HashSet) _r1_o)._fbackingMap;
     _r0.i = ((global::java.util.HashMap) _r0_o).size();
@@ -277,15 +236,10 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void writeObject(java.io.ObjectOutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::java.io.ObjectOutputStream) _r4_o).defaultWriteObject();
@@ -325,13 +279,9 @@ private void readObject(global::java.io.ObjectInputStream n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     ((global::java.io.ObjectInputStream) _r4_o).defaultReadObject();
@@ -354,15 +304,10 @@ private void readObject(global::java.io.ObjectInputStream n1){
 
 public virtual global::System.Object createBackingMap(int n1, float n2){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: java.util.HashMap createBackingMap(int, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.f = n2;

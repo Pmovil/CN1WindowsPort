@@ -13,13 +13,9 @@ public global::java.util.PropertyResourceBundle _fthis_20;
 
 public void @this(global::java.util.PropertyResourceBundle n1){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle$1: void <init>(java.util.PropertyResourceBundle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.PropertyResourceBundle_21) _r1_o)._fthis_20 = (global::java.util.PropertyResourceBundle) _r2_o;
@@ -40,10 +36,7 @@ private bool findNext(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0_o = ((global::java.util.PropertyResourceBundle_21) _r3_o)._fnextElement;
@@ -75,9 +68,7 @@ public virtual bool hasMoreElements(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle$1: boolean hasMoreElements()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.PropertyResourceBundle_21) _r1_o)._flocal;
     _r0.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
@@ -95,11 +86,8 @@ public virtual global::System.Object nextElement(){
 //XMLVM_BEGIN_WRAPPER[java.util.PropertyResourceBundle$1: java.lang.String nextElement()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.PropertyResourceBundle_21) _r2_o)._flocal;
     _r0.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;

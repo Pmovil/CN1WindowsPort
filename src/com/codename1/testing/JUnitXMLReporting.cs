@@ -13,11 +13,8 @@ private int _ffailed;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.testing.TestReporting) _r1_o).@this();
     // Value=
@@ -30,15 +27,10 @@ public void @this(){
 
 public override void startingTestCase(global::com.codename1.testing.UnitTest n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void startingTestCase(com.codename1.testing.UnitTest)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -68,15 +60,10 @@ public override void startingTestCase(global::com.codename1.testing.UnitTest n1)
 
 public override void logMessage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void logMessage(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -96,15 +83,10 @@ public override void logMessage(global::java.lang.String n1){
 
 public override void logException(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void logException(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -138,19 +120,12 @@ public override void finishedTestCase(global::com.codename1.testing.UnitTest n1,
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void finishedTestCase(com.codename1.testing.UnitTest, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2 ? 1 : 0;
@@ -216,19 +191,14 @@ public override void finishedTestCase(global::com.codename1.testing.UnitTest n1,
 
 public override void writeReport(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void writeReport(java.io.OutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -283,9 +253,7 @@ public override void writeReport(global::java.io.OutputStream n1){
 
 public override void testExecutionFinished(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.JUnitXMLReporting: void testExecutionFinished()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.testing.JUnitXMLReporting: void testExecutionFinished()]

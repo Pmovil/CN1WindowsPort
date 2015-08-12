@@ -9,13 +9,9 @@ public global::java.lang.Exception _fdetail;
 
 public void @this(global::java.lang.String n1, global::java.lang.Exception n2){
 //XMLVM_BEGIN_WRAPPER[java.io.WriteAbortedException: void <init>(java.lang.String, java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,13 +24,9 @@ public void @this(global::java.lang.String n1, global::java.lang.Exception n2){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[java.io.WriteAbortedException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = base.getMessage();
     _r1_o = ((global::java.io.WriteAbortedException) _r2_o)._fdetail;
@@ -57,11 +49,8 @@ public override global::System.Object getMessage(){
 
 public override global::System.Object getCause(){
 //XMLVM_BEGIN_WRAPPER[java.io.WriteAbortedException: java.lang.Throwable getCause()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.io.WriteAbortedException) _r1_o)._fdetail;
     return (global::java.lang.Throwable) _r0_o;

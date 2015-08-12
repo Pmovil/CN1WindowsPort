@@ -5,9 +5,7 @@ namespace com.codename1.io {
 public class Log_21: global::com.codename1.io.ConnectionRequest {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.io.ConnectionRequest) _r0_o).@this();
     return;
@@ -16,19 +14,11 @@ public void @this(){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log$1: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = new global::java.io.DataInputStream();
@@ -44,19 +34,12 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log$1: void handleErrorResponseCode(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -81,11 +64,8 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log$1: void handleException(java.lang.Exception)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Exception) _r1_o).printStackTrace();

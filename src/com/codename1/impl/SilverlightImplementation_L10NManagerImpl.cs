@@ -25,7 +25,6 @@ public void @this(){
     _r2.f = 0;
     _r2.d = 0;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=en
     _r0_o = new global::java.lang.String();

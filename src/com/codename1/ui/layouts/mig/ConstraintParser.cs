@@ -5,9 +5,7 @@ namespace com.codename1.ui.layouts.mig {
 public class ConstraintParser: global::java.lang.Object {
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -24,11 +22,8 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -1342,9 +1337,7 @@ public static global::System.Object parseRowConstraints(global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseRowConstraints(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAxisConstraint((global::java.lang.String) _r1_o, 0!=_r0.i);
@@ -1356,9 +1349,7 @@ public static global::System.Object parseColumnConstraints(global::java.lang.Str
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseColumnConstraints(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 1;
     _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAxisConstraint((global::java.lang.String) _r1_o, 0!=_r0.i);
@@ -1368,31 +1359,20 @@ public static global::System.Object parseColumnConstraints(global::java.lang.Str
 
 private static global::System.Object parseAxisConstraint(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseAxisConstraint(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11.i = n2 ? 1 : 0;
     _r9.i = 1;
@@ -1461,21 +1441,13 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
 
 private static global::System.Object parseDimConstraint(global::java.lang.String n1, global::com.codename1.ui.layouts.mig.BoundSize n2, global::com.codename1.ui.layouts.mig.BoundSize n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.DimConstraint parseDimConstraint(java.lang.String, com.codename1.ui.layouts.mig.BoundSize, com.codename1.ui.layouts.mig.BoundSize, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
@@ -1484,15 +1456,10 @@ private static global::System.Object parseDimConstraint(global::java.lang.String
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
     _r13_o = n2;
@@ -1828,17 +1795,12 @@ private static global::System.Object parseDimConstraint(global::java.lang.String
 
 public static global::System.Object parseComponentConstraints(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.util.Map parseComponentConstraints(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r1_o = new global::java.util.HashMap();
     ((global::java.util.HashMap) _r1_o).@this();
@@ -1865,15 +1827,11 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -1881,9 +1839,7 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
@@ -4853,33 +4809,21 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
 
 public static global::System.Object parseInsets(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue[] parseInsets(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12.i = n2 ? 1 : 0;
     _r10.i = 1;
@@ -4977,14 +4921,10 @@ public static global::System.Object parseInsets(global::java.lang.String n1, boo
 
 private static global::System.Object parseGaps(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.BoundSize[] parseGaps(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -4992,16 +4932,10 @@ private static global::System.Object parseGaps(global::java.lang.String n1){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r10.i = 2;
     _r9.i = 3;
@@ -5179,10 +5113,7 @@ private static global::System.Object parseGaps(global::java.lang.String n1){
 private static int parseSpan(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int parseSpan(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.lang.String) _r1_o).length();
     if (_r0.i <= 0) goto label11;
@@ -5200,12 +5131,8 @@ private static global::System.Object parseFloat(global::java.lang.String n1, glo
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = ((global::java.lang.String) _r2_o).length();
@@ -5232,20 +5159,12 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
@@ -5253,7 +5172,6 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
     _r13.i = n2 ? 1 : 0;
     _r14.i = n3 ? 1 : 0;
@@ -5405,17 +5323,12 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
 
 public static global::System.Object parseUnitValueOrAlign(global::java.lang.String n1, bool n2, global::com.codename1.ui.layouts.mig.UnitValue n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue parseUnitValueOrAlign(java.lang.String, boolean, com.codename1.ui.layouts.mig.UnitValue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     _r4_o = n3;
@@ -5437,13 +5350,9 @@ public static global::System.Object parseUnitValueOrAlign(global::java.lang.Stri
 
 public static global::System.Object parseUnitValue(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue parseUnitValue(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     _r0_o = null;
@@ -5459,26 +5368,16 @@ private static global::System.Object parseUnitValue(global::java.lang.String n1,
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
@@ -5739,20 +5638,12 @@ public static global::System.Object parseAlignKeywords(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7.i = n2 ? 1 : 0;
     _r5.i = 5;
@@ -5842,11 +5733,8 @@ public static global::System.Object parseAlignKeywords(global::java.lang.String 
 private static global::System.Object getNumTextParts(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.lang.String[] getNumTextParts(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -5854,10 +5742,7 @@ private static global::System.Object getNumTextParts(global::java.lang.String n1
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r4.i = 2;
     _r6.i = 1;
@@ -5920,30 +5805,18 @@ private static global::System.Object getNumTextParts(global::java.lang.String n1
 private static int getOper(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int getOper(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r10.i = 100;
     _r9.i = 41;
@@ -6039,24 +5912,15 @@ private static int getOper(global::java.lang.String n1){
 private static int startsWithLenient(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<int> n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int startsWithLenient(java.lang.String, java.lang.String[], int[], boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7_o = n3;
@@ -6091,30 +5955,17 @@ private static int startsWithLenient(global::java.lang.String n1, global::org.xm
 private static int startsWithLenient(global::java.lang.String n1, global::java.lang.String n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int startsWithLenient(java.lang.String, java.lang.String, int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10.i = n3;
@@ -6198,26 +6049,17 @@ private static global::System.Object toTrimmedTokens(global::java.lang.String n1
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11.i = n2;
     _r3.i = 0;
@@ -6414,28 +6256,18 @@ private static global::System.Object toTrimmedTokens(global::java.lang.String n1
 private static global::System.Object getRowColAndGapsTrimmed(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.util.ArrayList getRowColAndGapsTrimmed(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     // Value=
     _r9_o = new global::java.lang.String();
@@ -6526,11 +6358,8 @@ private static global::System.Object getRowColAndGapsTrimmed(global::java.lang.S
 
 public static global::System.Object prepare(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.lang.String prepare(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o == null) goto label11;
     _r0_o = ((global::java.lang.String) _r1_o).trim();

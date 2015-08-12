@@ -14,11 +14,8 @@ public global::java.util.Map _ffeatures;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.util.HashSet();
     ((global::java.util.HashSet) _r0_o).@this();
     global::gnu.xml.stream.SAXParserFactory._fFEATURE_1NAMES = (global::java.util.Set) _r0_o;
@@ -43,11 +40,8 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::javax.xml.parsers.SAXParserFactory) _r1_o).@this();
     _r0_o = new global::java.util.HashMap();
@@ -64,12 +58,8 @@ public override global::System.Object newSAXParser(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::gnu.xml.stream.SAXParserFactory) _r4_o).isValidating() ? 1 : 0;
     _r1.i = ((global::gnu.xml.stream.SAXParserFactory) _r4_o).isNamespaceAware() ? 1 : 0;
@@ -100,15 +90,10 @@ public override void setFeature(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: void setFeature(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -135,11 +120,8 @@ public override bool getFeature(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: boolean getFeature(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::gnu.xml.stream.SAXParserFactory._fFEATURE_1NAMES;

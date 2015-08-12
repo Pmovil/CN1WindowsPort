@@ -15,19 +15,12 @@ public global::com.codename1.io.Oauth2 _fthis_20;
 
 public void @this(global::com.codename1.io.Oauth2 n1, global::com.codename1.ui.Dialog n2, global::com.codename1.ui.Form n3, global::com.codename1.ui.events.ActionListener n4, global::com.codename1.ui.Form n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2: void <init>(com.codename1.io.Oauth2, com.codename1.ui.Dialog, com.codename1.ui.Form, com.codename1.ui.events.ActionListener, com.codename1.ui.Form)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -46,19 +39,12 @@ public void @this(global::com.codename1.io.Oauth2 n1, global::com.codename1.ui.D
 
 public override void onStart(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2$2: void onStart(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -67,18 +53,11 @@ public override void onStart(global::java.lang.String n1){
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r10.i = 0;

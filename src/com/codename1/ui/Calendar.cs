@@ -42,15 +42,9 @@ private global::java.util.TimeZone _ftmz;
 
 public void @this(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void <init>(long)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r0_o = global::java.util.TimeZone.getDefault();
@@ -62,12 +56,7 @@ public void @this(long n1){
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = global::java.lang.System.currentTimeMillis();
     ((global::com.codename1.ui.Calendar) _r2_o).@this((long) _r0.l);
@@ -83,39 +72,21 @@ public void @this(long n1, global::java.util.TimeZone n2){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
@@ -123,15 +94,9 @@ public void @this(long n1, global::java.util.TimeZone n2){
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
-    global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r23_o = this;
     _r24.l = n1;
     _r26_o = n2;
@@ -513,11 +478,7 @@ public virtual long getSelectedDay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: long getSelectedDay()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Calendar) _r2_o)._fmv;
     _r0.l = global::com.codename1.ui.Calendar_2MonthView.access_2400((global::com.codename1.ui.Calendar_2MonthView) _r0_o);
@@ -527,23 +488,14 @@ public virtual long getSelectedDay(){
 
 private global::System.Object getLocalizedMonth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.lang.String getLocalizedMonth(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r4_o = ((global::com.codename1.ui.Calendar) _r6_o).getUIManager();
@@ -571,15 +523,12 @@ private global::System.Object getLocalizedMonth(int n1){
 
 public virtual void componentChanged(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void componentChanged()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.Calendar) _r3_o)._ftmz;
     _r0_o = global::java.util.Calendar.getInstance((global::java.util.TimeZone) _r1_o);
@@ -607,15 +556,10 @@ public virtual void componentChanged(){
 
 public virtual global::System.Object getDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.util.Date getDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.Date();
     _r1_o = ((global::com.codename1.ui.Calendar) _r3_o)._fmv;
@@ -627,19 +571,12 @@ public virtual global::System.Object getDate(){
 
 public virtual void setDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r4_o)._fmv;
@@ -658,24 +595,15 @@ public virtual void setDate(global::java.util.Date n1){
 public virtual void setYearRange(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setYearRange(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -723,17 +651,10 @@ public virtual void setYearRange(int n1, int n2){
 
 public virtual void setSelectedDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setSelectedDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r3_o)._fmv;
@@ -745,19 +666,11 @@ public virtual void setSelectedDate(global::java.util.Date n1){
 
 public virtual void setCurrentDate(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setCurrentDate(java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r4_o)._fmv;
@@ -771,15 +684,10 @@ public virtual void setCurrentDate(global::java.util.Date n1){
 
 public virtual global::System.Object getCurrentDate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.util.Date getCurrentDate()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.util.Date();
     _r1_o = ((global::com.codename1.ui.Calendar) _r3_o)._fmv;
@@ -791,11 +699,8 @@ public virtual global::System.Object getCurrentDate(){
 
 public virtual void setTimeZone(global::java.util.TimeZone n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setTimeZone(java.util.TimeZone)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Calendar) _r0_o)._ftmz = (global::java.util.TimeZone) _r1_o;
@@ -805,11 +710,8 @@ public virtual void setTimeZone(global::java.util.TimeZone n1){
 
 public virtual global::System.Object getTimeZone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.util.TimeZone getTimeZone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._ftmz;
     return (global::java.util.TimeZone) _r0_o;
@@ -818,13 +720,9 @@ public virtual global::System.Object getTimeZone(){
 
 public virtual void setMonthViewSelectedStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setMonthViewSelectedStyle(com.codename1.ui.plaf.Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -835,13 +733,9 @@ public virtual void setMonthViewSelectedStyle(global::com.codename1.ui.plaf.Styl
 
 public virtual void setMonthViewUnSelectedStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setMonthViewUnSelectedStyle(com.codename1.ui.plaf.Style)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -852,11 +746,8 @@ public virtual void setMonthViewUnSelectedStyle(global::com.codename1.ui.plaf.St
 
 public virtual global::System.Object getMonthViewSelectedStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.plaf.Style getMonthViewSelectedStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
     _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r0_o).getSelectedStyle();
@@ -866,11 +757,8 @@ public virtual global::System.Object getMonthViewSelectedStyle(){
 
 public virtual global::System.Object getMonthViewUnSelectedStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.plaf.Style getMonthViewUnSelectedStyle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
     _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r0_o).getUnselectedStyle();
@@ -880,13 +768,9 @@ public virtual global::System.Object getMonthViewUnSelectedStyle(){
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void addActionListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -897,13 +781,9 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void removeActionListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -914,13 +794,9 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 
 public virtual void addDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void addDataChangeListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -931,13 +807,9 @@ public virtual void addDataChangeListener(global::com.codename1.ui.events.DataCh
 
 public virtual void removeDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void removeDataChangeListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
@@ -948,11 +820,8 @@ public virtual void removeDataChangeListener(global::com.codename1.ui.events.Dat
 
 public virtual void setChangesSelectedDateEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void setChangesSelectedDateEnabled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Calendar) _r0_o)._fchangesSelectedDateEnabled = 0!=_r1.i;
@@ -963,10 +832,7 @@ public virtual void setChangesSelectedDateEnabled(bool n1){
 public virtual bool isChangesSelectedDateEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: boolean isChangesSelectedDateEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Calendar) _r1_o)._fchangesSelectedDateEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -975,15 +841,11 @@ public virtual bool isChangesSelectedDateEnabled(){
 
 public virtual global::System.Object createDay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.Button createDay()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = new global::com.codename1.ui.Button();
@@ -1002,23 +864,14 @@ public virtual global::System.Object createDay(){
 
 public virtual global::System.Object createDayTitle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.Label createDayTitle(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 0;
@@ -1049,17 +902,11 @@ public virtual global::System.Object createDayTitle(int n1){
 
 public virtual void updateButtonDayDate(global::com.codename1.ui.Button n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void updateButtonDayDate(com.codename1.ui.Button, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -1072,19 +919,12 @@ public virtual void updateButtonDayDate(global::com.codename1.ui.Button n1, int 
 
 public virtual void updateButtonDayDate(global::com.codename1.ui.Button n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void updateButtonDayDate(com.codename1.ui.Button, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -1104,11 +944,8 @@ public virtual void updateButtonDayDate(global::com.codename1.ui.Button n1, int 
 
 public static global::System.Object access_2000(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.Calendar$MonthView access$000(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmv;
     return (global::com.codename1.ui.Calendar_2MonthView) _r0_o;
@@ -1117,11 +954,8 @@ public static global::System.Object access_2000(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_2002(global::com.codename1.ui.Calendar n1, global::com.codename1.ui.Calendar_2MonthView n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.Calendar$MonthView access$002(com.codename1.ui.Calendar, com.codename1.ui.Calendar$MonthView)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.Calendar) _r0_o)._fmv = (global::com.codename1.ui.Calendar_2MonthView) _r1_o;
@@ -1131,13 +965,9 @@ public static global::System.Object access_2002(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_2200(global::com.codename1.ui.Calendar n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.lang.String access$200(com.codename1.ui.Calendar, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o).getLocalizedMonth((int) _r2.i);
@@ -1147,11 +977,8 @@ public static global::System.Object access_2200(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_2300(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.Label access$300(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fdateLabel;
     return (global::com.codename1.ui.Label) _r0_o;
@@ -1160,9 +987,7 @@ public static global::System.Object access_2300(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_2700(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.lang.String[] access$700()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Calendar._fDAYS;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Calendar: java.lang.String[] access$700()]
@@ -1170,11 +995,8 @@ public static global::System.Object access_2700(){
 
 public static global::System.Object access_2800(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.ComboBox access$800(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fyear;
     return (global::com.codename1.ui.ComboBox) _r0_o;
@@ -1183,11 +1005,8 @@ public static global::System.Object access_2800(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_2900(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: java.util.TimeZone access$900(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._ftmz;
     return (global::java.util.TimeZone) _r0_o;
@@ -1196,11 +1015,8 @@ public static global::System.Object access_2900(global::com.codename1.ui.Calenda
 
 public static global::System.Object access_21000(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.ComboBox access$1000(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fmonth;
     return (global::com.codename1.ui.ComboBox) _r0_o;
@@ -1209,11 +1025,8 @@ public static global::System.Object access_21000(global::com.codename1.ui.Calend
 
 public static global::System.Object access_21100(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: long[] access$1100(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fdates;
     return (global::org.xmlvm._nArrayAdapter<long>) _r0_o;
@@ -1222,11 +1035,8 @@ public static global::System.Object access_21100(global::com.codename1.ui.Calend
 
 public static global::System.Object access_21200(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.util.EventDispatcher access$1200(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fdispatcher;
     return (global::com.codename1.ui.util.EventDispatcher) _r0_o;
@@ -1235,11 +1045,8 @@ public static global::System.Object access_21200(global::com.codename1.ui.Calend
 
 public static global::System.Object access_21300(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: com.codename1.ui.util.EventDispatcher access$1300(com.codename1.ui.Calendar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Calendar) _r1_o)._fdataChangeListeners;
     return (global::com.codename1.ui.util.EventDispatcher) _r0_o;
@@ -1249,10 +1056,7 @@ public static global::System.Object access_21300(global::com.codename1.ui.Calend
 public static bool access_21400(global::com.codename1.ui.Calendar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: boolean access$1400(com.codename1.ui.Calendar)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Calendar) _r1_o)._fchangesSelectedDateEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1265,19 +1069,12 @@ public static void @static(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 4;
     _r6.i = 3;
     _r5.i = 2;

@@ -17,12 +17,8 @@ public static void @static(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 256;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     global::java.lang.Short_2valueOfCache._fCACHE = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -45,9 +41,7 @@ public static void @static(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Short$valueOfCache: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -56,9 +50,7 @@ public void @this(){
 
 public static global::System.Object access_20(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Short$valueOfCache: java.lang.Short[] access$0()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.lang.Short_2valueOfCache._fCACHE;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.Short$valueOfCache: java.lang.Short[] access$0()]

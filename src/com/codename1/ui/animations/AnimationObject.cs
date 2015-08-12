@@ -42,12 +42,8 @@ private int _fendTime;
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = -1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -62,13 +58,10 @@ private void @this(){
 
 public virtual global::System.Object copy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: com.codename1.ui.animations.AnimationObject copy()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.ui.animations.AnimationObject();
     ((global::com.codename1.ui.animations.AnimationObject) _r0_o).@this();
@@ -110,11 +103,8 @@ public virtual global::System.Object copy(){
 
 public virtual void @lock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void lock()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fimg;
     if (_r0_o == null) goto label9;
@@ -127,11 +117,8 @@ public virtual void @lock(){
 
 public virtual void unlock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void unlock()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fimg;
     if (_r0_o == null) goto label9;
@@ -144,23 +131,13 @@ public virtual void unlock(){
 
 public static global::System.Object createAnimationImage(global::com.codename1.ui.Image n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: com.codename1.ui.animations.AnimationObject createAnimationImage(com.codename1.ui.Image, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6.i = n2;
     _r7.i = n3;
@@ -184,16 +161,10 @@ public static global::System.Object createAnimationImage(global::com.codename1.u
 public virtual void defineFrames(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineFrames(int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -209,25 +180,14 @@ public virtual void defineFrames(int n1, int n2, int n3){
 
 public static global::System.Object createAnimationImage(global::java.lang.String n1, global::com.codename1.ui.util.Resources n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: com.codename1.ui.animations.AnimationObject createAnimationImage(java.lang.String, com.codename1.ui.util.Resources, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7.i = n3;
@@ -255,32 +215,19 @@ public virtual global::System.Object getImage(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r12_o = null;
     _r5.i = 1;
@@ -378,16 +325,9 @@ public virtual global::System.Object getImage(){
 private void setTimeNotNull(global::com.codename1.ui.animations.Motion n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void setTimeNotNull(com.codename1.ui.animations.Motion, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -401,17 +341,10 @@ private void setTimeNotNull(global::com.codename1.ui.animations.Motion n1, int n
 
 public virtual void setTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void setTime(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r3_o)._fmotionX;
@@ -434,21 +367,13 @@ public virtual void setTime(int n1){
 
 public virtual void defineMotionX(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineMotionX(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -463,21 +388,13 @@ public virtual void defineMotionX(int n1, int n2, int n3, int n4, int n5){
 
 public virtual void defineMotionY(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineMotionY(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -492,21 +409,13 @@ public virtual void defineMotionY(int n1, int n2, int n3, int n4, int n5){
 
 public virtual void defineOrientation(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineOrientation(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -521,21 +430,13 @@ public virtual void defineOrientation(int n1, int n2, int n3, int n4, int n5){
 
 public virtual void defineOpacity(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineOpacity(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -550,21 +451,13 @@ public virtual void defineOpacity(int n1, int n2, int n3, int n4, int n5){
 
 public virtual void defineWidth(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineWidth(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -579,21 +472,13 @@ public virtual void defineWidth(int n1, int n2, int n3, int n4, int n5){
 
 public virtual void defineHeight(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void defineHeight(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -608,27 +493,17 @@ public virtual void defineHeight(int n1, int n2, int n3, int n4, int n5){
 
 private global::System.Object createMotion(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: com.codename1.ui.animations.Motion createMotion(int, int, int, int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -669,9 +544,7 @@ public virtual int getX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getX()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fmotionX;
     _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o).getValue();
@@ -683,9 +556,7 @@ public virtual int getY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getY()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fmotionY;
     _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o).getValue();
@@ -697,9 +568,7 @@ public virtual int getOrientation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getOrientation()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._forientation;
     if (_r0_o != null) goto label6;
@@ -717,9 +586,7 @@ public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getWidth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fwidth;
     if (_r0_o != null) goto label22;
@@ -743,9 +610,7 @@ public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fheight;
     if (_r0_o != null) goto label22;
@@ -769,9 +634,7 @@ public virtual int getOpacity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getOpacity()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fopacity;
     if (_r0_o != null) goto label7;
@@ -787,33 +650,20 @@ public virtual int getOpacity(){
 
 public virtual void draw(global::com.codename1.ui.Graphics n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void draw(com.codename1.ui.Graphics, float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.f = n2;
@@ -863,10 +713,7 @@ public virtual void draw(global::com.codename1.ui.Graphics n1, float n2, float n
 public virtual int getStartTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getStartTime()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fstartTime;
     return _r0.i;
@@ -875,11 +722,8 @@ public virtual int getStartTime(){
 
 public virtual void setStartTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void setStartTime(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.animations.AnimationObject) _r0_o)._fstartTime = _r1.i;
@@ -890,10 +734,7 @@ public virtual void setStartTime(int n1){
 public virtual int getEndTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: int getEndTime()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.animations.AnimationObject) _r1_o)._fendTime;
     return _r0.i;
@@ -902,11 +743,8 @@ public virtual int getEndTime(){
 
 public virtual void setEndTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void setEndTime(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.animations.AnimationObject) _r0_o)._fendTime = _r1.i;

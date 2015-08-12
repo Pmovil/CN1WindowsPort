@@ -12,9 +12,7 @@ public static global::java.util.Comparator _fdocumentOrderComparator;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -23,31 +21,20 @@ public void @this(){
 
 public virtual global::System.Object evaluate(global::java.lang.Object n1, global::javax.xml.@namespace.QName n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.Object evaluate(java.lang.Object, javax.xml.namespace.QName)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -166,13 +153,9 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1, globa
 
 public virtual global::System.Object evaluate(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String evaluate(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::javax.xml.xpath.XPathConstants._fSTRING;
@@ -184,21 +167,13 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1){
 
 public virtual global::System.Object evaluate(global::org.xml.sax.InputSource n1, global::javax.xml.@namespace.QName n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.Object evaluate(org.xml.sax.InputSource, javax.xml.namespace.QName)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -255,13 +230,9 @@ public virtual global::System.Object evaluate(global::org.xml.sax.InputSource n1
 
 public virtual global::System.Object evaluate(global::org.xml.sax.InputSource n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String evaluate(org.xml.sax.InputSource)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::javax.xml.xpath.XPathConstants._fSTRING;
@@ -279,29 +250,18 @@ public abstract bool references(global::javax.xml.@namespace.QName n1);
 
 public static global::System.Object _1id(global::org.w3c.dom.Node n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.util.Collection _id(org.w3c.dom.Node, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r5_o = new global::java.util.HashSet();
@@ -354,19 +314,13 @@ public static global::System.Object _1id(global::org.w3c.dom.Node n1, global::ja
 
 public static global::System.Object _1local_1name(global::org.w3c.dom.Node n1, global::java.util.Collection n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String _local_name(org.w3c.dom.Node, java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     // Value=
@@ -399,19 +353,13 @@ public static global::System.Object _1local_1name(global::org.w3c.dom.Node n1, g
 
 public static global::System.Object _1namespace_1uri(global::org.w3c.dom.Node n1, global::java.util.Collection n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String _namespace_uri(org.w3c.dom.Node, java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     // Value=
@@ -444,19 +392,13 @@ public static global::System.Object _1namespace_1uri(global::org.w3c.dom.Node n1
 
 public static global::System.Object _1name(global::org.w3c.dom.Node n1, global::java.util.Collection n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String _name(org.w3c.dom.Node, java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     // Value=
@@ -500,13 +442,10 @@ public static global::System.Object _1name(global::org.w3c.dom.Node n1, global::
 
 public static global::System.Object firstNode(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: org.w3c.dom.Node firstNode(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r0_o).@this((global::java.util.Collection) _r2_o);
@@ -521,29 +460,18 @@ public static global::System.Object firstNode(global::java.util.Collection n1){
 
 public static global::System.Object _1string(global::org.w3c.dom.Node n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String _string(org.w3c.dom.Node, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r7.d = 0.0D;
@@ -635,27 +563,14 @@ public static global::System.Object _1string(global::org.w3c.dom.Node n1, global
 
 public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: boolean _boolean(org.w3c.dom.Node, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r7.i = 1;
@@ -716,23 +631,13 @@ public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Obje
 
 public static double _1number(global::org.w3c.dom.Node n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: double _number(org.w3c.dom.Node, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
@@ -800,15 +705,11 @@ public static double _1number(global::org.w3c.dom.Node n1, global::java.lang.Obj
 
 public static global::System.Object stringValue(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String stringValue(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).@this();
@@ -831,9 +732,7 @@ public static global::System.Object stringValue(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String stringValue(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     _r0_o = global::gnu.xml.xpath.Expr.stringValue((global::org.w3c.dom.Node) _r1_o, 0!=_r0.i);
@@ -843,17 +742,12 @@ public static global::System.Object stringValue(global::org.w3c.dom.Node n1){
 
 public static global::System.Object stringValue(global::org.w3c.dom.Node n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: java.lang.String stringValue(org.w3c.dom.Node, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
     _r2.i = ((global::org.w3c.dom.Node) _r3_o).getNodeType();
@@ -900,17 +794,11 @@ public static global::System.Object stringValue(global::org.w3c.dom.Node n1, boo
 
 public static int intValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: int intValue(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r2.i = ((_r4_o != null) && (_r4_o is global::java.lang.Double)) ? 1 : 0;
     if (_r2.i == 0) goto label21;
@@ -936,9 +824,7 @@ public static int intValue(global::java.lang.Object n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::gnu.xml.xpath.DocumentOrderComparator();
     ((global::gnu.xml.xpath.DocumentOrderComparator) _r0_o).@this();
     global::gnu.xml.xpath.Expr._fdocumentOrderComparator = (global::java.util.Comparator) _r0_o;

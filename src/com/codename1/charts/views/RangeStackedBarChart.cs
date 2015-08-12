@@ -14,11 +14,8 @@ public static global::java.lang.String _fTYPE;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeStackedBarChart: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.charts.views.BarChart_2Type._fSTACKED;
     ((global::com.codename1.charts.views.RangeBarChart) _r1_o).@this((global::com.codename1.charts.views.BarChart_2Type) _r0_o);
@@ -28,11 +25,8 @@ public void @this(){
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeStackedBarChart: java.lang.String getChartType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=RangeStackedBar
     _r0_o = new global::java.lang.String();

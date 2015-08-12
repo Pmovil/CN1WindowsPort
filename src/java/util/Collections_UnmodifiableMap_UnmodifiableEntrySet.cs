@@ -7,11 +7,8 @@ private static long _fserialVersionUID = 7854390611657943733L;
 
 public void @this(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: void <init>(java.util.Set)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.Collections_2UnmodifiableSet) _r0_o).@this((global::java.util.Set) _r1_o);
@@ -21,11 +18,8 @@ public void @this(global::java.util.Set n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21();
     ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21) _r0_o).@this((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet) _r1_o);
@@ -37,15 +31,10 @@ public override global::System.Object toArray(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet) _r4_o)._fc;
     _r0.i = ((global::java.util.Collection) _r0_o).size();
@@ -67,20 +56,13 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r0_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet) _r6_o)._fc;

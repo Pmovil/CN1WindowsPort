@@ -102,11 +102,9 @@ private static global::java.util.HashMap _fVISUAL_1BOUNDS;
 
 public static int getCurrentPlatform(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getCurrentPlatform()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=os.name
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
@@ -135,9 +133,7 @@ public static int getCurrentPlatform(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -154,13 +150,9 @@ public static void setPlatform(int n1){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.i = n1;
     _r4_o = null;
     _r3.i = 1;
@@ -709,13 +701,9 @@ public static void setPlatform(int n1){
 
 public static void setDefaultVisualPadding(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultVisualPadding(java.lang.String, int[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fVISUAL_1BOUNDS;
@@ -726,11 +714,8 @@ public static void setDefaultVisualPadding(global::java.lang.String n1, global::
 
 public static global::System.Object getDefaultVisualPadding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int[] getDefaultVisualPadding(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fVISUAL_1BOUNDS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
@@ -744,10 +729,7 @@ public static int getPlatformDPI(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r1.i = 96;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -788,8 +770,6 @@ public static int getPlatformDPI(int n1){
 public static int getPlatform(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getPlatform()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fCUR_1PLAF;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getPlatform()]
@@ -798,8 +778,6 @@ public static int getPlatform(){
 public static int getDefaultDPI(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultDPI()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fBASE_1DPI;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultDPI()]
@@ -808,10 +786,7 @@ public static int getDefaultDPI(){
 public static void setDefaultDPI(global::java.lang.Integer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultDPI(java.lang.Integer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o == null) goto label11;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
@@ -828,9 +803,7 @@ public static void setDefaultDPI(global::java.lang.Integer n1){
 
 public static global::System.Object getHorizontalScaleFactor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.Float getHorizontalScaleFactor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fhorScale;
     return (global::java.lang.Float) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.Float getHorizontalScaleFactor()]
@@ -840,9 +813,7 @@ public static void setHorizontalScaleFactor(global::java.lang.Float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setHorizontalScaleFactor(java.lang.Float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fhorScale;
     _r0.i = global::com.codename1.ui.layouts.mig.LayoutUtil.equals((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -858,9 +829,7 @@ public static void setHorizontalScaleFactor(global::java.lang.Float n1){
 
 public static global::System.Object getVerticalScaleFactor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.Float getVerticalScaleFactor()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fverScale;
     return (global::java.lang.Float) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.Float getVerticalScaleFactor()]
@@ -870,9 +839,7 @@ public static void setVerticalScaleFactor(global::java.lang.Float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setVerticalScaleFactor(java.lang.Float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fverScale;
     _r0.i = global::com.codename1.ui.layouts.mig.LayoutUtil.equals((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -889,8 +856,6 @@ public static void setVerticalScaleFactor(global::java.lang.Float n1){
 public static int getLogicalPixelBase(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getLogicalPixelBase()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fLP_1BASE;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getLogicalPixelBase()]
@@ -900,13 +865,9 @@ public static void setLogicalPixelBase(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setLogicalPixelBase(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fLP_1BASE;
     if (_r0.i == _r3.i) goto label45;
@@ -942,17 +903,11 @@ public static void setRelatedGap(global::com.codename1.ui.layouts.mig.UnitValue 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r3_o = null;
@@ -999,17 +954,11 @@ public static void setUnrelatedGap(global::com.codename1.ui.layouts.mig.UnitValu
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r3_o = null;
@@ -1055,14 +1004,9 @@ public static void setParagraphGap(global::com.codename1.ui.layouts.mig.UnitValu
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r0.i = 3;
@@ -1092,14 +1036,9 @@ public static void setIndentGap(global::com.codename1.ui.layouts.mig.UnitValue n
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r0.i = 3;
@@ -1128,13 +1067,9 @@ public static void setGridCellGap(global::com.codename1.ui.layouts.mig.UnitValue
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setGridCellGap(com.codename1.ui.layouts.mig.UnitValue, com.codename1.ui.layouts.mig.UnitValue)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r1_o = null;
@@ -1158,10 +1093,7 @@ public static void setGridCellGap(global::com.codename1.ui.layouts.mig.UnitValue
 public static void setMinimumButtonWidth(global::com.codename1.ui.layouts.mig.UnitValue n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setMinimumButtonWidth(com.codename1.ui.layouts.mig.UnitValue)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     global::com.codename1.ui.layouts.mig.PlatformDefaults._fBUTT_1WIDTH = (global::com.codename1.ui.layouts.mig.UnitValue) _r1_o;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fMOD_1COUNT;
@@ -1173,9 +1105,7 @@ public static void setMinimumButtonWidth(global::com.codename1.ui.layouts.mig.Un
 
 public static global::System.Object getMinimumButtonWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getMinimumButtonWidth()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fBUTT_1WIDTH;
     return (global::com.codename1.ui.layouts.mig.UnitValue) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getMinimumButtonWidth()]
@@ -1183,11 +1113,8 @@ public static global::System.Object getMinimumButtonWidth(){
 
 public static global::System.Object getUnitValueX(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getUnitValueX(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fHOR_1DEFS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
@@ -1198,11 +1125,8 @@ public static global::System.Object getUnitValueX(global::java.lang.String n1){
 
 public static global::System.Object getUnitValueY(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getUnitValueY(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fVER_1DEFS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
@@ -1213,25 +1137,16 @@ public static global::System.Object getUnitValueY(global::java.lang.String n1){
 
 public static void setUnitValue(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.ui.layouts.mig.UnitValue n2, global::com.codename1.ui.layouts.mig.UnitValue n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setUnitValue(java.lang.String[], com.codename1.ui.layouts.mig.UnitValue, com.codename1.ui.layouts.mig.UnitValue)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8_o = n3;
@@ -1263,23 +1178,15 @@ public static void setUnitValue(global::org.xmlvm._nArrayAdapter<global::System.
 
 public static int convertToPixels(float n1, global::java.lang.String n2, bool n3, float n4, global::com.codename1.ui.layouts.mig.ContainerWrapper n5, global::com.codename1.ui.layouts.mig.ComponentWrapper n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int convertToPixels(float, java.lang.String, boolean, float, com.codename1.ui.layouts.mig.ContainerWrapper, com.codename1.ui.layouts.mig.ComponentWrapper)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r3_o = n2;
     _r4.i = n3 ? 1 : 0;
@@ -1309,9 +1216,7 @@ public static int convertToPixels(float n1, global::java.lang.String n2, bool n3
 
 public static global::System.Object getButtonOrder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.String getButtonOrder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fBUTTON_1FORMAT;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.String getButtonOrder()]
@@ -1320,10 +1225,7 @@ public static global::System.Object getButtonOrder(){
 public static void setButtonOrder(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setButtonOrder(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     global::com.codename1.ui.layouts.mig.PlatformDefaults._fBUTTON_1FORMAT = (global::java.lang.String) _r1_o;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fMOD_1COUNT;
@@ -1335,11 +1237,8 @@ public static void setButtonOrder(global::java.lang.String n1){
 
 public static global::System.Object getTagForChar(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: java.lang.String getTagForChar(char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     switch (_r1.i) {
     case 97: goto label23;
@@ -1430,9 +1329,7 @@ public static global::System.Object getTagForChar(char n1){
 
 public static global::System.Object getGridGapX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.BoundSize getGridGapX()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fDEF_1HGAP;
     return (global::com.codename1.ui.layouts.mig.BoundSize) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.BoundSize getGridGapX()]
@@ -1440,9 +1337,7 @@ public static global::System.Object getGridGapX(){
 
 public static global::System.Object getGridGapY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.BoundSize getGridGapY()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fDEF_1VGAP;
     return (global::com.codename1.ui.layouts.mig.BoundSize) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.BoundSize getGridGapY()]
@@ -1450,11 +1345,8 @@ public static global::System.Object getGridGapY(){
 
 public static global::System.Object getDialogInsets(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getDialogInsets(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fDIALOG_1INS;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
@@ -1467,16 +1359,10 @@ public static void setDialogInsets(global::com.codename1.ui.layouts.mig.UnitValu
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -1510,11 +1396,8 @@ public static void setDialogInsets(global::com.codename1.ui.layouts.mig.UnitValu
 
 public static global::System.Object getPanelInsets(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getPanelInsets(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fPANEL_1INS;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
@@ -1527,16 +1410,10 @@ public static void setPanelInsets(global::com.codename1.ui.layouts.mig.UnitValue
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -1571,10 +1448,7 @@ public static void setPanelInsets(global::com.codename1.ui.layouts.mig.UnitValue
 public static float getLabelAlignPercentage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: float getLabelAlignPercentage()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fCUR_1PLAF;
     _r1.i = 1;
     if (_r0.i != _r1.i) goto label8;
@@ -1591,27 +1465,16 @@ public static global::System.Object getDefaultComponentGap(global::com.codename1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.BoundSize getDefaultComponentGap(com.codename1.ui.layouts.mig.ComponentWrapper, com.codename1.ui.layouts.mig.ComponentWrapper, int, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8.i = n3;
@@ -1648,9 +1511,7 @@ public static global::System.Object getDefaultComponentGap(global::com.codename1
 
 public static global::System.Object getGapProvider(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.InCellGapProvider getGapProvider()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fGAP_1PROVIDER;
     return (global::com.codename1.ui.layouts.mig.InCellGapProvider) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.InCellGapProvider getGapProvider()]
@@ -1658,9 +1519,7 @@ public static global::System.Object getGapProvider(){
 
 public static void setGapProvider(global::com.codename1.ui.layouts.mig.InCellGapProvider n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setGapProvider(com.codename1.ui.layouts.mig.InCellGapProvider)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.layouts.mig.PlatformDefaults._fGAP_1PROVIDER = (global::com.codename1.ui.layouts.mig.InCellGapProvider) _r0_o;
     return;
@@ -1670,8 +1529,6 @@ public static void setGapProvider(global::com.codename1.ui.layouts.mig.InCellGap
 public static int getModCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getModCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fMOD_1COUNT;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getModCount()]
@@ -1680,10 +1537,7 @@ public static int getModCount(){
 public virtual void invalidate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void invalidate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fMOD_1COUNT;
     _r0.i = _r0.i + 1;
@@ -1695,8 +1549,6 @@ public virtual void invalidate(){
 public static int getDefaultHorizontalUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultHorizontalUnit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fDEF_1H_1UNIT;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultHorizontalUnit()]
@@ -1706,13 +1558,9 @@ public static void setDefaultHorizontalUnit(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultHorizontalUnit(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     if (_r3.i < 0) goto label6;
     _r0.i = 27;
@@ -1744,8 +1592,6 @@ public static void setDefaultHorizontalUnit(int n1){
 public static int getDefaultVerticalUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultVerticalUnit()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fDEF_1V_1UNIT;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getDefaultVerticalUnit()]
@@ -1755,13 +1601,9 @@ public static void setDefaultVerticalUnit(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultVerticalUnit(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     if (_r3.i < 0) goto label6;
     _r0.i = 27;
@@ -1793,8 +1635,6 @@ public static void setDefaultVerticalUnit(int n1){
 public static bool getDefaultRowAlignmentBaseline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: boolean getDefaultRowAlignmentBaseline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.layouts.mig.PlatformDefaults._fdra ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: boolean getDefaultRowAlignmentBaseline()]
@@ -1803,8 +1643,6 @@ public static bool getDefaultRowAlignmentBaseline(){
 public static void setDefaultRowAlignmentBaseline(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultRowAlignmentBaseline(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.layouts.mig.PlatformDefaults._fdra = 0!=_r0.i;
     return;
@@ -1816,18 +1654,11 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = (float)6.0D;
     _r5.i = 0;
     _r4.i = 2;

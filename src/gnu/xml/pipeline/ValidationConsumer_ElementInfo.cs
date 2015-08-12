@@ -13,15 +13,10 @@ private global::gnu.xml.pipeline.ValidationConsumer_2Recognizer _frecognizer;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$ElementInfo: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -41,12 +36,8 @@ public virtual global::System.Object getRecognizer(global::gnu.xml.pipeline.Vali
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r3_o)._frecognizer;

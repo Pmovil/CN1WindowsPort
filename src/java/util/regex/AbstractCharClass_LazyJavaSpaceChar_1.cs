@@ -7,11 +7,8 @@ public global::java.util.regex.AbstractCharClass_2LazyJavaSpaceChar _fthis_21;
 
 public void @this(global::java.util.regex.AbstractCharClass_2LazyJavaSpaceChar n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyJavaSpaceChar$1: void <init>(java.util.regex.AbstractCharClass$LazyJavaSpaceChar)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.util.regex.AbstractCharClass_2LazyJavaSpaceChar_21) _r0_o)._fthis_21 = (global::java.util.regex.AbstractCharClass_2LazyJavaSpaceChar) _r1_o;
@@ -23,12 +20,8 @@ public void @this(global::java.util.regex.AbstractCharClass_2LazyJavaSpaceChar n
 public override bool contains(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyJavaSpaceChar$1: boolean contains(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::java.lang.Character.isSpaceChar((int) _r2.i) ? 1 : 0;

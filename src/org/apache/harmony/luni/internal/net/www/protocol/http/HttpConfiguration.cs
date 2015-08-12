@@ -17,11 +17,8 @@ public void @this(global::java.net.URI n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -56,17 +53,11 @@ public void @this(global::java.net.URI n1, global::java.net.Proxy n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -144,9 +135,7 @@ public virtual bool usesProxy(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: boolean usesProxy()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r1_o)._fproxy;
     if (_r0_o == null) goto label6;
@@ -161,11 +150,8 @@ public virtual bool usesProxy(){
 
 public virtual global::System.Object getProxy(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: java.net.Proxy getProxy()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r1_o)._fproxy;
     return (global::java.net.Proxy) _r0_o;
@@ -174,11 +160,8 @@ public virtual global::System.Object getProxy(){
 
 public virtual global::System.Object getHostName(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: java.lang.String getHostName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r1_o)._fhostName;
     return (global::java.lang.String) _r0_o;
@@ -188,10 +171,7 @@ public virtual global::System.Object getHostName(){
 public virtual int getHostPort(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: int getHostPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r1_o)._fhostPort;
     return _r0.i;
@@ -202,15 +182,10 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -250,9 +225,7 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConfiguration: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r1_o)._furi;
     _r0.i = ((global::java.net.URI) _r0_o).hashCode();

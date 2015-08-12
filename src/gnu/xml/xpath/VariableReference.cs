@@ -9,13 +9,9 @@ public global::javax.xml.@namespace.QName _fname;
 
 public void @this(global::javax.xml.xpath.XPathVariableResolver n1, global::javax.xml.@namespace.QName n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.VariableReference: void <init>(javax.xml.xpath.XPathVariableResolver, javax.xml.namespace.QName)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -30,17 +26,11 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.VariableReference: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -76,17 +66,12 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 
 public override global::System.Object clone(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.VariableReference: gnu.xml.xpath.Expr clone(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::gnu.xml.xpath.VariableReference) _r3_o)._fresolver;
@@ -106,11 +91,8 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.VariableReference: boolean references(javax.xml.namespace.QName)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.VariableReference) _r1_o)._fname;
@@ -121,15 +103,12 @@ public override bool references(global::javax.xml.@namespace.QName n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.VariableReference: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::gnu.java.lang.CPStringBuilder();
     // Value=$

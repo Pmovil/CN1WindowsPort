@@ -7,11 +7,8 @@ private static long _fserialVersionUID = -1837080260374986980L;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::javax.xml.xpath.XPathExpressionException) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -21,11 +18,8 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.Throwable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::javax.xml.xpath.XPathExpressionException) _r0_o).@this((global::java.lang.Throwable) _r1_o);

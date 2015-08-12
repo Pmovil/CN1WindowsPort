@@ -31,10 +31,7 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.math.MathContext();
     _r1.i = 34;
     _r2_o = global::java.math.RoundingMode._fHALF_1EVEN;
@@ -71,13 +68,9 @@ public static void @static(){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::java.math.RoundingMode._fHALF_1UP;
@@ -88,17 +81,11 @@ public void @this(int n1){
 
 public void @this(int n1, global::java.math.RoundingMode n2){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: void <init>(int, java.math.RoundingMode)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -129,7 +116,6 @@ public void @this(int n1, global::java.math.RoundingMode n2){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -139,17 +125,11 @@ public void @this(global::java.lang.String n1){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 10;
@@ -286,10 +266,7 @@ public void @this(global::java.lang.String n1){
 public virtual int getPrecision(){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: int getPrecision()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.math.MathContext) _r1_o)._fprecision;
     return _r0.i;
@@ -298,11 +275,8 @@ public virtual int getPrecision(){
 
 public virtual global::System.Object getRoundingMode(){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: java.math.RoundingMode getRoundingMode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.math.MathContext) _r1_o)._froundingMode;
     return (global::java.math.RoundingMode) _r0_o;
@@ -311,17 +285,13 @@ public virtual global::System.Object getRoundingMode(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = ((_r4_o != null) && (_r4_o is global::java.math.MathContext)) ? 1 : 0;
@@ -348,12 +318,9 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::java.math.MathContext) _r2_o)._fprecision;
     _r0.i = _r0.i << (0x1f & 3);
@@ -366,13 +333,10 @@ public override int hashCode(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     _r1.i = 45;
@@ -396,13 +360,9 @@ private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: void readObject(java.io.ObjectInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.io.ObjectInputStream) _r3_o).defaultReadObject();

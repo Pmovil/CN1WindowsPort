@@ -5,9 +5,7 @@ namespace java.net {
 public abstract class URLStreamHandler: global::java.lang.Object {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,17 +16,11 @@ public abstract global::System.Object openConnection(global::java.net.URL n1);
 
 public virtual global::System.Object openConnection(global::java.net.URL n1, global::java.net.Proxy n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: java.net.URLConnection openConnection(java.net.URL, java.net.Proxy)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -49,7 +41,6 @@ public virtual void parseURL(global::java.net.URL n1, global::java.lang.String n
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -79,21 +70,14 @@ public virtual void parseURL(global::java.net.URL n1, global::java.lang.String n
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
-    global::System.Object _r24_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
@@ -503,23 +487,14 @@ public virtual void parseURL(global::java.net.URL n1, global::java.lang.String n
 
 public virtual void setURL(global::java.net.URL n1, global::java.lang.String n2, global::java.lang.String n3, int n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: void setURL(java.net.URL, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -540,29 +515,17 @@ public virtual void setURL(global::java.net.URL n1, global::java.lang.String n2,
 
 public virtual void setURL(global::java.net.URL n1, global::java.lang.String n2, global::java.lang.String n3, int n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: void setURL(java.net.URL, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -586,17 +549,12 @@ public virtual void setURL(global::java.net.URL n1, global::java.lang.String n2,
 
 public virtual global::System.Object toExternalForm(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: java.lang.String toExternalForm(java.net.URL)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -635,17 +593,11 @@ public virtual bool equals(global::java.net.URL n1, global::java.net.URL n2){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: boolean equals(java.net.URL, java.net.URL)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -684,10 +636,7 @@ public virtual bool equals(global::java.net.URL n1, global::java.net.URL n2){
 public virtual int getDefaultPort(){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: int getDefaultPort()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     return _r0.i;
@@ -696,15 +645,10 @@ public virtual int getDefaultPort(){
 
 public virtual global::System.Object getHostAddress(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -777,11 +721,8 @@ public virtual int hashCode(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: int hashCode(java.net.URL)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.net.URLStreamHandler) _r1_o).toExternalForm((global::java.net.URL) _r2_o);
@@ -794,17 +735,11 @@ public virtual bool hostsEqual(global::java.net.URL n1, global::java.net.URL n2)
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: boolean hostsEqual(java.net.URL, java.net.URL)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -842,16 +777,10 @@ public virtual bool sameFile(global::java.net.URL n1, global::java.net.URL n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -902,15 +831,11 @@ public virtual bool sameFile(global::java.net.URL n1, global::java.net.URL n2){
 
 private static global::System.Object getHost(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.net.URLStreamHandler: java.lang.String getHost(java.net.URL)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = ((global::java.net.URL) _r3_o).getHost();
     // Value=file

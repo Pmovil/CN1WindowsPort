@@ -64,9 +64,7 @@ private global::java.lang.String _fabandonedNumber;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=[\134x00-\134x20]*([+-]?)0[xX](\134p\173XDigit\175+\134.?\174\134p\173XDigit\175*\134.\134p\173XDigit\175+)[pP]([+-]?\134d+)[fFdD]?[\134x00-\134x20]*
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)91)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 42)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 63)), unchecked((char) unchecked((uint) 41)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 88)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 123)), unchecked((char) unchecked((uint) 88)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 125)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 63)), unchecked((char) unchecked((uint) 124)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 123)), unchecked((char) unchecked((uint) 88)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 125)), unchecked((char) unchecked((uint) 42)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 123)), unchecked((char) unchecked((uint) 88)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 125)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 41)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 63)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 43)), unchecked((char) unchecked((uint) 41)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 63)), unchecked((char) unchecked((uint) 91)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 92)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 93)), unchecked((char) unchecked((uint) 42))}));
@@ -80,19 +78,10 @@ public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void <init>(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -129,12 +118,8 @@ public static double parseDouble(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = new global::org.apache.harmony.luni.util.HexStringParser();
     _r1.i = 11;
@@ -151,12 +136,8 @@ public static float parseFloat(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r0_o = new global::org.apache.harmony.luni.util.HexStringParser();
     _r1.i = 8;
@@ -178,12 +159,8 @@ private long parse(global::java.lang.String n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = global::org.apache.harmony.luni.util.HexStringParser.getSegmentsFromHexString((global::java.lang.String) _r5_o);
@@ -217,23 +194,16 @@ private long parse(global::java.lang.String n1){
 
 private static global::System.Object getSegmentsFromHexString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: java.lang.String[] getSegmentsFromHexString(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r6.i = 3;
     _r5.i = 2;
@@ -262,13 +232,8 @@ private void parseHexSign(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void parseHexSign(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=-
@@ -292,18 +257,9 @@ private void parseExponent(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -365,17 +321,10 @@ private void parseMantissa(global::java.lang.String n1){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r3.i = 1;
@@ -449,12 +398,7 @@ private void parseMantissa(global::java.lang.String n1){
 private void setInfinite(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void setInfinite()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::org.apache.harmony.luni.util.HexStringParser) _r2_o)._fMAX_1EXPONENT;
     ((global::org.apache.harmony.luni.util.HexStringParser) _r2_o)._fexponent = _r0.l;
@@ -467,12 +411,7 @@ private void setInfinite(){
 private void setZero(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void setZero()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = 0L;
     ((global::org.apache.harmony.luni.util.HexStringParser) _r2_o)._fexponent = _r0.l;
@@ -484,20 +423,10 @@ private void setZero(){
 private void checkedAddExponent(long n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void checkedAddExponent(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.l = n1;
     _r0.l = ((global::org.apache.harmony.luni.util.HexStringParser) _r4_o)._fexponent;
@@ -525,16 +454,8 @@ private void checkedAddExponent(long n1){
 private void processNormalNumber(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void processNormalNumber()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::org.apache.harmony.luni.util.HexStringParser) _r4_o)._fMANTISSA_1WIDTH;
     _r0.i = _r0.i + 2;
@@ -551,16 +472,9 @@ private void processNormalNumber(){
 private void processSubNormalNumber(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void processSubNormalNumber()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::org.apache.harmony.luni.util.HexStringParser) _r4_o)._fMANTISSA_1WIDTH;
     _r0.i = _r0.i + 1;
@@ -582,16 +496,9 @@ private void processSubNormalNumber(){
 private void fitMantissaInDesiredWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void fitMantissaInDesiredWidth(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.l = ((global::org.apache.harmony.luni.util.HexStringParser) _r3_o)._fmantissa;
@@ -615,23 +522,12 @@ private void discardTrailingBits(long n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void discardTrailingBits(long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.l = n1;
     _r2.l = -1L;
@@ -663,17 +559,9 @@ private void round(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r5.l = 1L;
     _r4.i = 1;
@@ -723,19 +611,13 @@ private void round(){
 
 private global::System.Object getNormalizedSignificand(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: java.lang.String getNormalizedSignificand(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -768,20 +650,12 @@ private int getOffset(global::java.lang.String n1, global::java.lang.String n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -840,16 +714,9 @@ private int getOffset(global::java.lang.String n1, global::java.lang.String n2){
 private int countBitsLength(long n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: int countBitsLength(long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r0.i = global::java.lang.Long.numberOfLeadingZeros((long) _r3.l);

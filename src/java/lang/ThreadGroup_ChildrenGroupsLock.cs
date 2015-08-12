@@ -7,11 +7,8 @@ public global::java.lang.ThreadGroup _fthis_20;
 
 private void @this(global::java.lang.ThreadGroup n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup$ChildrenGroupsLock: void <init>(java.lang.ThreadGroup)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.ThreadGroup_2ChildrenGroupsLock) _r0_o)._fthis_20 = (global::java.lang.ThreadGroup) _r1_o;
@@ -22,13 +19,9 @@ private void @this(global::java.lang.ThreadGroup n1){
 
 public void @this(global::java.lang.ThreadGroup n1, global::java.lang.ThreadGroup_21 n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup$ChildrenGroupsLock: void <init>(java.lang.ThreadGroup, java.lang.ThreadGroup$1)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

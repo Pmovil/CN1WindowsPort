@@ -5,9 +5,7 @@ namespace java.nio.channels {
 public abstract class FileChannel: global::java.nio.channels.spi.AbstractInterruptibleChannel,global::java.nio.channels.GatheringByteChannel,global::java.nio.channels.ScatteringByteChannel,global::java.nio.channels.ByteChannel {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.nio.channels.spi.AbstractInterruptibleChannel) _r0_o).@this();
     return;
@@ -18,21 +16,11 @@ public abstract void force(bool n1);
 
 public virtual global::System.Object @lock(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: java.lang.Object lock()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r1.l = 0L;
     _r3.l = 9223372036854775807L;
@@ -58,14 +46,9 @@ public abstract int read(global::java.nio.ByteBuffer n1, long n2);
 public virtual long read(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: long read(java.nio.ByteBuffer[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -87,21 +70,11 @@ public abstract global::System.Object truncate(long n1);
 
 public virtual global::System.Object tryLock(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: java.lang.Object tryLock()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r1.l = 0L;
     _r3.l = 9223372036854775807L;
@@ -121,14 +94,9 @@ public abstract int write(global::java.nio.ByteBuffer n1, long n2);
 public virtual long write(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: long write(java.nio.ByteBuffer[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;

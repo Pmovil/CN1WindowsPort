@@ -19,12 +19,8 @@ public static void @static(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 4;
     _r0.i = 128;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
@@ -52,13 +48,9 @@ public static void @static(){
 
 public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: void <init>(java.lang.String, java.lang.String[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -71,13 +63,9 @@ public override bool contains(global::java.nio.charset.Charset n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: boolean contains(java.nio.charset.Charset)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.nio.charset.Charset) _r3_o).name();
@@ -229,13 +217,9 @@ public override bool contains(global::java.nio.charset.Charset n1){
 
 public override global::System.Object newDecoder(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: java.nio.charset.CharsetDecoder newDecoder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.niochar.charset.UTF_18_2Decoder();
     _r1_o = null;
@@ -246,13 +230,9 @@ public override global::System.Object newDecoder(){
 
 public override global::System.Object newEncoder(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: java.nio.charset.CharsetEncoder newEncoder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::org.apache.harmony.niochar.charset.UTF_18_2Encoder();
     _r1_o = null;
@@ -263,9 +243,7 @@ public override global::System.Object newEncoder(){
 
 public static global::System.Object access_20(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$0()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.niochar.charset.UTF_18._fremainingBytes;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$0()]
@@ -273,9 +251,7 @@ public static global::System.Object access_20(){
 
 public static global::System.Object access_21(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$1()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.niochar.charset.UTF_18._fremainingNumbers;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$1()]
@@ -283,9 +259,7 @@ public static global::System.Object access_21(){
 
 public static global::System.Object access_22(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$2()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.apache.harmony.niochar.charset.UTF_18._flowerEncodingLimit;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: int[] access$2()]

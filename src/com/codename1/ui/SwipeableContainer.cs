@@ -37,15 +37,10 @@ private global::com.codename1.ui.util.EventDispatcher _fdispatcher;
 
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void <init>(com.codename1.ui.Component, com.codename1.ui.Component)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -62,18 +57,11 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -151,13 +139,9 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void deinitialize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r2_o).getComponentForm();
     if (_r0_o == null) goto label21;
@@ -175,13 +159,10 @@ public override void deinitialize(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void initComponent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initComponent();
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r2_o).getComponentForm();
@@ -201,19 +182,13 @@ public override void initComponent(){
 
 public virtual void openToRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void openToRight()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r3.i = 0;
@@ -251,21 +226,14 @@ public virtual void openToRight(){
 
 public virtual void openToLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void openToLeft()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r3.i = 0;
@@ -305,16 +273,11 @@ public virtual void openToLeft(){
 public virtual void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void close()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 300;
     _r2.i = 0;
@@ -350,13 +313,9 @@ public override global::System.Object getComponentAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: com.codename1.ui.Component getComponentAt(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -375,20 +334,14 @@ public override global::System.Object getComponentAt(int n1, int n2){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean animate()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;
@@ -444,11 +397,8 @@ public override bool animate(){
 
 public virtual void setSwipeActivated(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void setSwipeActivated(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._fswipeActivated = 0!=_r1.i;
@@ -459,10 +409,7 @@ public virtual void setSwipeActivated(bool n1){
 public virtual bool isSwipeActivated(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean isSwipeActivated()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fswipeActivated ? 1 : 0;
     return _r0.i!=0;
@@ -472,10 +419,7 @@ public virtual bool isSwipeActivated(){
 public virtual bool isOpen(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean isOpen()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fopen ? 1 : 0;
     if (_r0.i == 0) goto label14;
@@ -496,10 +440,7 @@ public virtual bool isOpen(){
 public virtual bool isOpenedToRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean isOpenedToRight()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fopenedToRight ? 1 : 0;
     return _r0.i!=0;
@@ -509,10 +450,7 @@ public virtual bool isOpenedToRight(){
 public virtual bool isOpenedToLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean isOpenedToLeft()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fopenedToLeft ? 1 : 0;
     return _r0.i!=0;
@@ -521,13 +459,9 @@ public virtual bool isOpenedToLeft(){
 
 public virtual void addSwipeOpenListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void addSwipeOpenListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fdispatcher;
@@ -538,13 +472,9 @@ public virtual void addSwipeOpenListener(global::com.codename1.ui.events.ActionL
 
 public virtual void removeSwipeOpenListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: void removeSwipeOpenListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fdispatcher;
@@ -556,10 +486,7 @@ public virtual void removeSwipeOpenListener(global::com.codename1.ui.events.Acti
 public static bool access_2000(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$000(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fswipeActivated ? 1 : 0;
     return _r0.i!=0;
@@ -568,11 +495,8 @@ public static bool access_2000(global::com.codename1.ui.SwipeableContainer n1){
 
 public static global::System.Object access_2100(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: com.codename1.ui.Container access$100(com.codename1.ui.SwipeableContainer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._ftopWrapper;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -581,11 +505,8 @@ public static global::System.Object access_2100(global::com.codename1.ui.Swipeab
 
 public static global::System.Object access_2200(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: com.codename1.ui.Container access$200(com.codename1.ui.SwipeableContainer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fbottomLeftWrapper;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -594,11 +515,8 @@ public static global::System.Object access_2200(global::com.codename1.ui.Swipeab
 
 public static global::System.Object access_2300(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: com.codename1.ui.Container access$300(com.codename1.ui.SwipeableContainer)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fbottomRightWrapper;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -607,11 +525,8 @@ public static global::System.Object access_2300(global::com.codename1.ui.Swipeab
 
 public static int access_2402(global::com.codename1.ui.SwipeableContainer n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$402(com.codename1.ui.SwipeableContainer, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._ftopX = _r1.i;
@@ -621,11 +536,8 @@ public static int access_2402(global::com.codename1.ui.SwipeableContainer n1, in
 
 public static int access_2502(global::com.codename1.ui.SwipeableContainer n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$502(com.codename1.ui.SwipeableContainer, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._finitialX = _r1.i;
@@ -635,11 +547,8 @@ public static int access_2502(global::com.codename1.ui.SwipeableContainer n1, in
 
 public static int access_2602(global::com.codename1.ui.SwipeableContainer n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$602(com.codename1.ui.SwipeableContainer, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._finitialY = _r1.i;
@@ -649,11 +558,8 @@ public static int access_2602(global::com.codename1.ui.SwipeableContainer n1, in
 
 public static bool access_2702(global::com.codename1.ui.SwipeableContainer n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$702(com.codename1.ui.SwipeableContainer, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._fwaitForRelease = 0!=_r1.i;
@@ -664,10 +570,7 @@ public static bool access_2702(global::com.codename1.ui.SwipeableContainer n1, b
 public static int access_2600(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$600(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._finitialY;
     return _r0.i;
@@ -677,10 +580,7 @@ public static int access_2600(global::com.codename1.ui.SwipeableContainer n1){
 public static int access_2500(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$500(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._finitialX;
     return _r0.i;
@@ -690,10 +590,7 @@ public static int access_2500(global::com.codename1.ui.SwipeableContainer n1){
 public static bool access_2800(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$800(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fopenedToRight ? 1 : 0;
     return _r0.i!=0;
@@ -703,10 +600,7 @@ public static bool access_2800(global::com.codename1.ui.SwipeableContainer n1){
 public static bool access_2900(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$900(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fopenedToLeft ? 1 : 0;
     return _r0.i!=0;
@@ -716,10 +610,7 @@ public static bool access_2900(global::com.codename1.ui.SwipeableContainer n1){
 public static int access_2400(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: int access$400(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._ftopX;
     return _r0.i;
@@ -729,10 +620,7 @@ public static int access_2400(global::com.codename1.ui.SwipeableContainer n1){
 public static bool access_2700(global::com.codename1.ui.SwipeableContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$700(com.codename1.ui.SwipeableContainer)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.SwipeableContainer) _r1_o)._fwaitForRelease ? 1 : 0;
     return _r0.i!=0;
@@ -741,11 +629,8 @@ public static bool access_2700(global::com.codename1.ui.SwipeableContainer n1){
 
 public static bool access_21002(global::com.codename1.ui.SwipeableContainer n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SwipeableContainer: boolean access$1002(com.codename1.ui.SwipeableContainer, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.SwipeableContainer) _r0_o)._fopen = 0!=_r1.i;

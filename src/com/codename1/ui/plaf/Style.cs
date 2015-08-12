@@ -247,18 +247,11 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;
@@ -301,26 +294,16 @@ public void @this(global::com.codename1.ui.plaf.Style n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r10.i = 3;
@@ -388,31 +371,18 @@ public void @this(global::com.codename1.ui.plaf.Style n1){
 
 public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, com.codename1.ui.Font, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -432,25 +402,15 @@ public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4){
 
 private void @this(int n1, int n2, int n3, int n4, global::com.codename1.ui.Font n5, sbyte n6, global::com.codename1.ui.Image n7, bool n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, int, int, com.codename1.ui.Font, byte, com.codename1.ui.Image, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -472,21 +432,13 @@ private void @this(int n1, int n2, int n3, int n4, global::com.codename1.ui.Font
 
 public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4, global::com.codename1.ui.Image n5, sbyte n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, com.codename1.ui.Font, byte, com.codename1.ui.Image, byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -508,7 +460,6 @@ public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4, gl
 public virtual void merge(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void merge(com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -518,18 +469,11 @@ public virtual void merge(global::com.codename1.ui.plaf.Style n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 3;
@@ -658,10 +602,7 @@ public virtual void merge(global::com.codename1.ui.plaf.Style n1){
 public virtual bool isModified(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isModified()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
     if (_r0.i == 0) goto label6;
@@ -677,10 +618,7 @@ public virtual bool isModified(){
 public virtual int getBgColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getBgColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgColor;
     return _r0.i;
@@ -689,11 +627,8 @@ public virtual int getBgColor(){
 
 public virtual global::System.Object getBgImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Image getBgImage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgImage;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -703,10 +638,7 @@ public virtual global::System.Object getBgImage(){
 public virtual sbyte getBackgroundType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte getBackgroundType()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundType;
     return (sbyte) _r0.i;
@@ -716,10 +648,7 @@ public virtual sbyte getBackgroundType(){
 private sbyte getBackgroundAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte getBackgroundAlignment()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundAlignment;
     return (sbyte) _r0.i;
@@ -731,10 +660,7 @@ public virtual int getBackgroundGradientStartColor(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     if (_r0_o == null) goto label22;
@@ -760,10 +686,7 @@ public virtual int getBackgroundGradientEndColor(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -788,10 +711,7 @@ public virtual float getBackgroundGradientRelativeX(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 2;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -816,10 +736,7 @@ public virtual float getBackgroundGradientRelativeY(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 3;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -844,10 +761,7 @@ public virtual float getBackgroundGradientRelativeSize(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 4;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -870,10 +784,7 @@ public virtual float getBackgroundGradientRelativeSize(){
 public virtual int getFgColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getFgColor()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffgColor;
     return _r0.i;
@@ -882,11 +793,8 @@ public virtual int getFgColor(){
 
 public virtual global::System.Object getFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Font getFont()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont;
     return (global::com.codename1.ui.Font) _r0_o;
@@ -896,12 +804,8 @@ public virtual global::System.Object getFont(){
 public virtual void setBgColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -913,12 +817,8 @@ public virtual void setBgColor(int n1){
 public virtual void setAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setAlignment(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -931,13 +831,9 @@ public virtual void setAlignment(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setAlignment(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -961,10 +857,7 @@ public virtual void setAlignment(int n1, bool n2){
 public virtual int getAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getAlignment()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._falign;
     return _r0.i;
@@ -974,12 +867,8 @@ public virtual int getAlignment(){
 public virtual void setBgImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -991,12 +880,8 @@ public virtual void setBgImage(global::com.codename1.ui.Image n1){
 public virtual void setBackgroundType(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1008,12 +893,8 @@ public virtual void setBackgroundType(sbyte n1){
 private void setBackgroundAlignment(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1025,12 +906,8 @@ private void setBackgroundAlignment(sbyte n1){
 public virtual void setBackgroundGradientStartColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientStartColor(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1042,12 +919,8 @@ public virtual void setBackgroundGradientStartColor(int n1){
 public virtual void setBackgroundGradientEndColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientEndColor(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1059,12 +932,8 @@ public virtual void setBackgroundGradientEndColor(int n1){
 public virtual void setBackgroundGradientRelativeX(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeX(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -1076,12 +945,8 @@ public virtual void setBackgroundGradientRelativeX(float n1){
 public virtual void setBackgroundGradientRelativeY(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeY(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -1093,12 +958,8 @@ public virtual void setBackgroundGradientRelativeY(float n1){
 public virtual void setBackgroundGradientRelativeSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeSize(float)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -1110,12 +971,8 @@ public virtual void setBackgroundGradientRelativeSize(float n1){
 public virtual void setFgColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFgColor(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1127,12 +984,8 @@ public virtual void setFgColor(int n1){
 public virtual void setFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1144,14 +997,9 @@ public virtual void setFont(global::com.codename1.ui.Font n1){
 public virtual void setUnderline(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setUnderline(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isUnderline() ? 1 : 0;
@@ -1174,10 +1022,7 @@ public virtual void setUnderline(bool n1){
 public virtual bool isUnderline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isUnderline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 1;
@@ -1194,16 +1039,10 @@ public virtual bool isUnderline(){
 public virtual void set3DText(bool n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void set3DText(boolean, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4.i = n2 ? 1 : 0;
@@ -1248,12 +1087,8 @@ public virtual void set3DText(bool n1, bool n2){
 public virtual void set3DTextNorth(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void set3DTextNorth(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = 32;
@@ -1265,12 +1100,8 @@ public virtual void set3DTextNorth(bool n1){
 public virtual bool is3DTextNorth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean is3DTextNorth()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
     _r0.i = _r0.i & 32;
@@ -1288,10 +1119,7 @@ public virtual bool is3DTextNorth(){
 public virtual bool isRaised3DText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isRaised3DText()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 8;
@@ -1308,10 +1136,7 @@ public virtual bool isRaised3DText(){
 public virtual bool isLowered3DText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isLowered3DText()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 16;
@@ -1328,14 +1153,9 @@ public virtual bool isLowered3DText(){
 public virtual void setOverline(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setOverline(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isOverline() ? 1 : 0;
@@ -1358,10 +1178,7 @@ public virtual void setOverline(bool n1){
 public virtual bool isOverline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isOverline()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 4;
@@ -1378,14 +1195,9 @@ public virtual bool isOverline(){
 public virtual void setStrikeThru(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setStrikeThru(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isStrikeThru() ? 1 : 0;
@@ -1408,10 +1220,7 @@ public virtual void setStrikeThru(bool n1){
 public virtual bool isStrikeThru(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isStrikeThru()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 2;
@@ -1428,10 +1237,7 @@ public virtual bool isStrikeThru(){
 public virtual int getTextDecoration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getTextDecoration()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     return _r0.i;
@@ -1441,12 +1247,8 @@ public virtual int getTextDecoration(){
 public virtual void setTextDecoration(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setTextDecoration(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1459,13 +1261,9 @@ public virtual void setTextDecoration(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setTextDecoration(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -1492,10 +1290,7 @@ public virtual sbyte getBgTransparency(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbgImage;
     if (_r0_o == null) goto label31;
@@ -1523,14 +1318,9 @@ public virtual sbyte getBgTransparency(){
 public virtual void setBgTransparency(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgTransparency(byte)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = _r3.i & 255;
@@ -1543,10 +1333,7 @@ public virtual void setBgTransparency(sbyte n1){
 public virtual int getOpacity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getOpacity()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fopacity;
     _r0.i = _r0.i & 255;
@@ -1557,12 +1344,8 @@ public virtual int getOpacity(){
 public virtual void setOpacity(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setOpacity(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1577,13 +1360,9 @@ public virtual void setOpacity(int n1, bool n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2 ? 1 : 0;
@@ -1621,12 +1400,8 @@ public virtual void setOpacity(int n1, bool n2){
 public virtual void setBgTransparency(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgTransparency(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1642,22 +1417,13 @@ public virtual void setPadding(int n1, int n2, int n3, int n4){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -1715,14 +1481,9 @@ public virtual void setPadding(int n1, int n2, int n3, int n4){
 public virtual void setPadding(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1739,22 +1500,13 @@ public virtual void setMargin(int n1, int n2, int n3, int n4){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -1812,14 +1564,9 @@ public virtual void setMargin(int n1, int n2, int n3, int n4){
 public virtual void setMargin(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1833,17 +1580,11 @@ public virtual int getPaddingValue(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingValue(boolean, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r5.i = n2;
@@ -1885,16 +1626,11 @@ public virtual int getPaddingValue(bool n1, int n2){
 public virtual int getPadding(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPadding(boolean, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4.i = n2;
@@ -1908,24 +1644,15 @@ public virtual int getPadding(bool n1, int n2){
 private int convertUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int convertUnit(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -1987,11 +1714,8 @@ public virtual int getPadding(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPadding(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
@@ -2006,11 +1730,8 @@ public virtual int getMargin(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMargin(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
@@ -2024,16 +1745,11 @@ public virtual int getMargin(int n1){
 public virtual int getMargin(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMargin(boolean, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4.i = n2;
@@ -2048,17 +1764,11 @@ public virtual int getMarginValue(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMarginValue(boolean, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r5.i = n2;
@@ -2101,13 +1811,9 @@ public virtual void setBgColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2132,13 +1838,9 @@ public virtual void setBgImage(global::com.codename1.ui.Image n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2163,13 +1865,9 @@ public virtual void setBackgroundType(sbyte n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2194,13 +1892,9 @@ private void setBackgroundAlignment(sbyte n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2223,7 +1917,6 @@ private void setBackgroundAlignment(sbyte n1, bool n2){
 
 public virtual global::System.Object getBackgroundGradient(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: java.lang.Object[] getBackgroundGradient()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -2232,10 +1925,7 @@ public virtual global::System.Object getBackgroundGradient(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r1_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fbackgroundGradient;
@@ -2271,11 +1961,8 @@ public virtual global::System.Object getBackgroundGradient(){
 
 public virtual void setBackgroundGradient(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradient(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Style) _r0_o)._fbackgroundGradient = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
@@ -2287,17 +1974,11 @@ public virtual void setBackgroundGradientStartColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientStartColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2 ? 1 : 0;
@@ -2329,17 +2010,11 @@ public virtual void setBackgroundGradientEndColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientEndColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2 ? 1 : 0;
@@ -2371,17 +2046,11 @@ public virtual void setBackgroundGradientRelativeX(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeX(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.i = n2 ? 1 : 0;
@@ -2414,17 +2083,11 @@ public virtual void setBackgroundGradientRelativeY(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeY(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.i = n2 ? 1 : 0;
@@ -2457,17 +2120,11 @@ public virtual void setBackgroundGradientRelativeSize(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeSize(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.i = n2 ? 1 : 0;
@@ -2500,13 +2157,9 @@ public virtual void setFgColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFgColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2531,13 +2184,9 @@ public virtual void setFont(global::com.codename1.ui.Font n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFont(com.codename1.ui.Font, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2572,13 +2221,9 @@ public virtual void setBgTransparency(int n1, bool n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2 ? 1 : 0;
@@ -2616,19 +2261,12 @@ public virtual void setPadding(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -2680,19 +2318,12 @@ public virtual void setMargin(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -2742,13 +2373,9 @@ public virtual void setMargin(int n1, int n2, bool n3){
 
 private void firePropertyChanged(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void firePropertyChanged(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -2766,13 +2393,9 @@ private void firePropertyChanged(global::java.lang.String n1){
 
 public virtual void addStyleListener(global::com.codename1.ui.events.StyleListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void addStyleListener(com.codename1.ui.events.StyleListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
@@ -2789,13 +2412,9 @@ public virtual void addStyleListener(global::com.codename1.ui.events.StyleListen
 
 public virtual void removeStyleListener(global::com.codename1.ui.events.StyleListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void removeStyleListener(com.codename1.ui.events.StyleListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
@@ -2809,11 +2428,8 @@ public virtual void removeStyleListener(global::com.codename1.ui.events.StyleLis
 
 public virtual void removeListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void removeListeners()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
     if (_r0_o == null) goto label7;
@@ -2827,10 +2443,7 @@ public virtual void removeListeners(){
 public virtual void resetModifiedFlag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void resetModifiedFlag()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
@@ -2841,12 +2454,8 @@ public virtual void resetModifiedFlag(){
 public virtual void setBorder(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBorder(com.codename1.ui.plaf.Border)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -2859,13 +2468,9 @@ public virtual void setBorder(global::com.codename1.ui.plaf.Border n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBorder(com.codename1.ui.plaf.Border, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2896,11 +2501,8 @@ public virtual void setBorder(global::com.codename1.ui.plaf.Border n1, bool n2){
 
 public virtual global::System.Object getBorder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.plaf.Border getBorder()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder;
     return (global::com.codename1.ui.plaf.Border) _r0_o;
@@ -2909,11 +2511,8 @@ public virtual global::System.Object getBorder(){
 
 public virtual global::System.Object getBgPainter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Painter getBgPainter()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgPainter;
     return (global::com.codename1.ui.Painter) _r0_o;
@@ -2922,13 +2521,9 @@ public virtual global::System.Object getBgPainter(){
 
 public virtual void setBgPainter(global::com.codename1.ui.Painter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgPainter(com.codename1.ui.Painter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgPainter = (global::com.codename1.ui.Painter) _r2_o;
@@ -2942,11 +2537,8 @@ public virtual void setBgPainter(global::com.codename1.ui.Painter n1){
 
 public virtual global::System.Object getPaddingUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte[] getPaddingUnit()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fpaddingUnit;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -2955,11 +2547,8 @@ public virtual global::System.Object getPaddingUnit(){
 
 public virtual void setPaddingUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPaddingUnit(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Style) _r0_o)._fpaddingUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
@@ -2969,11 +2558,8 @@ public virtual void setPaddingUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public virtual global::System.Object getMarginUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte[] getMarginUnit()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmarginUnit;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -2982,11 +2568,8 @@ public virtual global::System.Object getMarginUnit(){
 
 public virtual void setMarginUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMarginUnit(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Style) _r0_o)._fmarginUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;

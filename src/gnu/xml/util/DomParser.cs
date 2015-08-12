@@ -51,9 +51,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::org.xml.sax.ext.DefaultHandler2();
@@ -88,11 +86,8 @@ public void @this(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void <init>(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -127,11 +122,8 @@ public void @this(global::org.w3c.dom.Node n1){
 
 public virtual global::System.Object getEntityResolver(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: org.xml.sax.EntityResolver getEntityResolver()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.util.DomParser) _r1_o)._fresolver;
     return (global::org.xml.sax.EntityResolver) _r0_o;
@@ -140,13 +132,9 @@ public virtual global::System.Object getEntityResolver(){
 
 public virtual void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setEntityResolver(org.xml.sax.EntityResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -162,13 +150,9 @@ public virtual void setEntityResolver(global::org.xml.sax.EntityResolver n1){
 
 public virtual void setLocale(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setLocale(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label9;
@@ -184,11 +168,8 @@ public virtual void setLocale(global::java.util.Locale n1){
 
 public virtual global::System.Object getErrorHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: org.xml.sax.ErrorHandler getErrorHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.util.DomParser) _r1_o)._ferrHandler;
     return (global::org.xml.sax.ErrorHandler) _r0_o;
@@ -197,13 +178,9 @@ public virtual global::System.Object getErrorHandler(){
 
 public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setErrorHandler(org.xml.sax.ErrorHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -219,11 +196,8 @@ public virtual void setErrorHandler(global::org.xml.sax.ErrorHandler n1){
 
 public virtual global::System.Object getContentHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: org.xml.sax.ContentHandler getContentHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.util.DomParser) _r1_o)._fcontentHandler;
     return (global::org.xml.sax.ContentHandler) _r0_o;
@@ -232,13 +206,9 @@ public virtual global::System.Object getContentHandler(){
 
 public virtual void setContentHandler(global::org.xml.sax.ContentHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setContentHandler(org.xml.sax.ContentHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -254,11 +224,8 @@ public virtual void setContentHandler(global::org.xml.sax.ContentHandler n1){
 
 public virtual global::System.Object getDTDHandler(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: org.xml.sax.DTDHandler getDTDHandler()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.util.DomParser) _r1_o)._fdtdHandler;
     return (global::org.xml.sax.DTDHandler) _r0_o;
@@ -267,13 +234,9 @@ public virtual global::System.Object getDTDHandler(){
 
 public virtual void setDTDHandler(global::org.xml.sax.DTDHandler n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setDTDHandler(org.xml.sax.DTDHandler)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o != null) goto label7;
@@ -289,11 +252,8 @@ public virtual void setDTDHandler(global::org.xml.sax.DTDHandler n1){
 
 public virtual void parse(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void parse(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.util.DomParser) _r0_o).parse();
@@ -303,11 +263,8 @@ public virtual void parse(global::java.lang.String n1){
 
 public virtual void parse(global::org.xml.sax.InputSource n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void parse(org.xml.sax.InputSource)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.util.DomParser) _r0_o).parse();
@@ -321,9 +278,7 @@ private void parse(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -368,15 +323,10 @@ private bool getIsL2(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: boolean getIsL2(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((_r4_o != null) && (_r4_o is global::org.w3c.dom.Document)) ? 1 : 0;
@@ -411,11 +361,8 @@ public virtual bool getFeature(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: boolean getFeature(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=http://xml.org/sax/features/validation
@@ -469,15 +416,10 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: java.lang.Object getProperty(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -528,17 +470,11 @@ public virtual void setFeature(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setFeature(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -605,17 +541,11 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setProperty(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -695,11 +625,8 @@ private void setStart(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void setStart(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::gnu.xml.util.DomParser) _r1_o)._fstart = (global::org.w3c.dom.Node) _r2_o;
@@ -718,9 +645,7 @@ private void setStart(global::org.w3c.dom.Node n1){
 
 private void walk(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void walk()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -733,16 +658,12 @@ private void walk(){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
@@ -1148,17 +1069,12 @@ private void callEnd(global::org.w3c.dom.Node n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void callEnd(org.w3c.dom.Node)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=

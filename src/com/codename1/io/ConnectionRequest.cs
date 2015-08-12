@@ -98,9 +98,7 @@ private static global::java.lang.String _fcookieHeader;
 
 public static global::System.Object getCookieHeader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getCookieHeader()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.ConnectionRequest._fcookieHeader;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getCookieHeader()]
@@ -108,9 +106,7 @@ public static global::System.Object getCookieHeader(){
 
 public static void setCookieHeader(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setCookieHeader(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.ConnectionRequest._fcookieHeader = (global::java.lang.String) _r0_o;
     return;
@@ -120,8 +116,6 @@ public static void setCookieHeader(global::java.lang.String n1){
 public static bool isCookiesEnabledDefault(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isCookiesEnabledDefault()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.ConnectionRequest._fcookiesEnabledDefault ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: boolean isCookiesEnabledDefault()]
@@ -130,10 +124,7 @@ public static bool isCookiesEnabledDefault(){
 public static void setCookiesEnabledDefault(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setCookiesEnabledDefault(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     if (_r1.i != 0) goto label6;
     _r0.i = 0;
@@ -147,8 +138,6 @@ public static void setCookiesEnabledDefault(bool n1){
 public static bool isDefaultFollowRedirects(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isDefaultFollowRedirects()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.ConnectionRequest._fdefaultFollowRedirects ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: boolean isDefaultFollowRedirects()]
@@ -157,8 +146,6 @@ public static bool isDefaultFollowRedirects(){
 public static void setDefaultFollowRedirects(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDefaultFollowRedirects(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.ConnectionRequest._fdefaultFollowRedirects = 0!=_r0.i;
     return;
@@ -170,14 +157,9 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r2.i = -1;
@@ -214,11 +196,8 @@ public void @this(){
 
 public virtual global::System.Object getResponseData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: byte[] getResponseData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fdata;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -227,11 +206,8 @@ public virtual global::System.Object getResponseData(){
 
 public virtual void setHttpMethod(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setHttpMethod(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fhttpMethod = (global::java.lang.String) _r1_o;
@@ -241,11 +217,8 @@ public virtual void setHttpMethod(global::java.lang.String n1){
 
 public virtual global::System.Object getHttpMethod(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getHttpMethod()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fhttpMethod;
     return (global::java.lang.String) _r0_o;
@@ -256,13 +229,9 @@ public virtual void addRequestHeader(global::java.lang.String n1, global::java.l
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addRequestHeader(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -291,13 +260,9 @@ public virtual void addRequestHeaderDontRepleace(global::java.lang.String n1, gl
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addRequestHeaderDontRepleace(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -320,12 +285,7 @@ public virtual void addRequestHeaderDontRepleace(global::java.lang.String n1, gl
 public virtual void prepare(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void prepare()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = global::java.lang.System.currentTimeMillis();
     ((global::com.codename1.io.ConnectionRequest) _r2_o)._ftimeSinceLastUpdate = _r0.l;
@@ -335,23 +295,15 @@ public virtual void prepare(){
 
 public virtual void initConnection(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void initConnection(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4.l = global::java.lang.System.currentTimeMillis();
@@ -405,46 +357,27 @@ public virtual void performOperation(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
-    global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
@@ -1703,11 +1636,8 @@ public virtual void performOperation(){
 
 public virtual void cookieReceived(global::com.codename1.io.Cookie n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void cookieReceived(com.codename1.io.Cookie)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1716,11 +1646,8 @@ public virtual void cookieReceived(global::com.codename1.io.Cookie n1){
 
 public virtual void cookieSent(global::com.codename1.io.Cookie n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void cookieSent(com.codename1.io.Cookie)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1729,11 +1656,8 @@ public virtual void cookieSent(global::com.codename1.io.Cookie n1){
 
 public virtual global::System.Object initCookieHeader(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String initCookieHeader(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return (global::java.lang.String) _r1_o;
@@ -1743,10 +1667,7 @@ public virtual global::System.Object initCookieHeader(global::java.lang.String n
 public virtual int getResponseCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getResponseCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fresponseCode;
     return _r0.i;
@@ -1756,10 +1677,7 @@ public virtual int getResponseCode(){
 public virtual int getResposeCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getResposeCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fresponseCode;
     return _r0.i;
@@ -1769,10 +1687,7 @@ public virtual int getResposeCode(){
 public virtual bool shouldConvertPostToGetOnRedirect(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean shouldConvertPostToGetOnRedirect()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -1781,11 +1696,8 @@ public virtual bool shouldConvertPostToGetOnRedirect(){
 
 public virtual void readHeaders(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void readHeaders(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1794,11 +1706,8 @@ public virtual void readHeaders(global::java.lang.Object n1){
 
 public virtual void readErrorCodeHeaders(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void readErrorCodeHeaders(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -1807,15 +1716,10 @@ public virtual void readErrorCodeHeaders(global::java.lang.Object n1){
 
 public virtual global::System.Object getHeader(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getHeader(java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1827,15 +1731,10 @@ public virtual global::System.Object getHeader(global::java.lang.Object n1, glob
 
 public virtual global::System.Object getHeaders(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String[] getHeaders(java.lang.Object, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1847,13 +1746,9 @@ public virtual global::System.Object getHeaders(global::java.lang.Object n1, glo
 
 public virtual global::System.Object getHeaderFieldNames(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String[] getHeaderFieldNames(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -1865,12 +1760,8 @@ public virtual global::System.Object getHeaderFieldNames(global::java.lang.Objec
 public virtual int getYield(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getYield()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 50;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r2_o)._fpriority;
@@ -1892,10 +1783,7 @@ public virtual int getYield(){
 public virtual bool shouldAutoCloseResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean shouldAutoCloseResponse()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -1904,35 +1792,21 @@ public virtual bool shouldAutoCloseResponse(){
 
 private global::System.Object parseCookieHeader(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: com.codename1.io.Cookie parseCookieHeader(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r6_o = ((global::java.lang.String) _r13_o).toLowerCase();
@@ -2064,11 +1938,8 @@ private global::System.Object parseCookieHeader(global::java.lang.String n1){
 
 public virtual void handleIOException(global::java.io.IOException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void handleIOException(java.io.IOException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o).handleException((global::java.lang.Exception) _r1_o);
@@ -2078,11 +1949,8 @@ public virtual void handleIOException(global::java.io.IOException n1){
 
 public virtual void handleRuntimeException(global::java.lang.RuntimeException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void handleRuntimeException(java.lang.RuntimeException)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o).handleException((global::java.lang.Exception) _r1_o);
@@ -2094,19 +1962,12 @@ public virtual void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void handleException(java.lang.Exception)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -2170,23 +2031,15 @@ public virtual void handleException(global::java.lang.Exception n1){
 
 public virtual void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void handleErrorResponseCode(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7_o = n2;
@@ -2240,13 +2093,9 @@ public virtual void handleErrorResponseCode(int n1, global::java.lang.String n2)
 
 public virtual void retry(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void retry()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::com.codename1.io.ConnectionRequest) _r2_o)._fretrying = 0!=_r1.i;
@@ -2259,12 +2108,8 @@ public virtual void retry(){
 public virtual bool onRedirect(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean onRedirect(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -2274,17 +2119,12 @@ public virtual bool onRedirect(global::java.lang.String n1){
 
 public virtual void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void readResponse(java.io.InputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = ((global::com.codename1.io.ConnectionRequest) _r3_o).isKilled() ? 1 : 0;
@@ -2337,9 +2177,7 @@ public virtual void readResponse(global::java.io.InputStream n1){
 
 public virtual void postResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void postResponse()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: void postResponse()]
@@ -2347,33 +2185,20 @@ public virtual void postResponse(){
 
 public virtual global::System.Object createRequestURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String createRequestURL()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r11.i = 1;
     // Value==
@@ -2474,39 +2299,23 @@ public virtual global::System.Object createRequestURL(){
 
 public virtual void buildRequestBody(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void buildRequestBody(java.io.OutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r12.i = 1;
@@ -2619,9 +2428,7 @@ public virtual bool shouldWriteUTFAsGetBytes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean shouldWriteUTFAsGetBytes()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).shouldWriteUTFAsGetBytes() ? 1 : 0;
@@ -2633,9 +2440,7 @@ public virtual void kill(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void kill()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.io.ConnectionRequest) _r1_o)._fkilled = 0!=_r0.i;
@@ -2657,10 +2462,7 @@ public virtual void kill(){
 public virtual bool shouldStop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean shouldStop()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o).isPaused() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -2679,10 +2481,7 @@ public virtual bool shouldStop(){
 public virtual bool isPausable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isPausable()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -2692,10 +2491,7 @@ public virtual bool isPausable(){
 public virtual bool pause(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean pause()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.io.ConnectionRequest) _r1_o)._fpaused = 0!=_r0.i;
@@ -2706,10 +2502,7 @@ public virtual bool pause(){
 public virtual bool resume(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean resume()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.io.ConnectionRequest) _r1_o)._fpaused = 0!=_r0.i;
@@ -2721,10 +2514,7 @@ public virtual bool resume(){
 public virtual bool isPost(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isPost()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fpost ? 1 : 0;
     return _r0.i!=0;
@@ -2735,13 +2525,9 @@ public virtual void setPost(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setPost(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r2_o)._fpost ? 1 : 0;
@@ -2770,15 +2556,10 @@ public virtual void setPost(bool n1){
 
 private void addArg(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addArg(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -2803,15 +2584,10 @@ public virtual void addArgument(global::java.lang.String n1, global::org.xmlvm._
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addArgument(java.lang.String, byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -2833,13 +2609,9 @@ public virtual void addArgument(global::java.lang.String n1, global::org.xmlvm._
 
 public virtual void removeArgument(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void removeArgument(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._frequestArguments;
@@ -2853,11 +2625,8 @@ public virtual void removeArgument(global::java.lang.String n1){
 
 public virtual void removeAllArguments(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void removeAllArguments()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.io.ConnectionRequest) _r1_o)._frequestArguments = (global::java.util.Hashtable) _r0_o;
@@ -2867,13 +2636,9 @@ public virtual void removeAllArguments(){
 
 public virtual void addArgumentNoEncoding(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addArgumentNoEncoding(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -2886,15 +2651,10 @@ public virtual void addArgument(global::java.lang.String n1, global::java.lang.S
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addArgument(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -2916,18 +2676,12 @@ public virtual void addArgument(global::java.lang.String n1, global::java.lang.S
 public virtual void addArgument(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addArgument(java.lang.String, java.lang.String[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -2968,11 +2722,8 @@ public virtual void addArgument(global::java.lang.String n1, global::org.xmlvm._
 
 public virtual global::System.Object getContentType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getContentType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fcontentType;
     return (global::java.lang.String) _r0_o;
@@ -2981,11 +2732,8 @@ public virtual global::System.Object getContentType(){
 
 public virtual void setContentType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setContentType(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fcontentType = (global::java.lang.String) _r1_o;
@@ -2996,10 +2744,7 @@ public virtual void setContentType(global::java.lang.String n1){
 public virtual bool isWriteRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isWriteRequest()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fwriteRequest ? 1 : 0;
     return _r0.i!=0;
@@ -3008,11 +2753,8 @@ public virtual bool isWriteRequest(){
 
 public virtual void setWriteRequest(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setWriteRequest(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fwriteRequest = 0!=_r1.i;
@@ -3023,10 +2765,7 @@ public virtual void setWriteRequest(bool n1){
 public virtual bool isReadRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isReadRequest()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._freadRequest ? 1 : 0;
     return _r0.i!=0;
@@ -3035,11 +2774,8 @@ public virtual bool isReadRequest(){
 
 public virtual void setReadRequest(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setReadRequest(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._freadRequest = 0!=_r1.i;
@@ -3050,10 +2786,7 @@ public virtual void setReadRequest(bool n1){
 public virtual bool isPaused(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isPaused()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fpaused ? 1 : 0;
     return _r0.i!=0;
@@ -3062,11 +2795,8 @@ public virtual bool isPaused(){
 
 public virtual void setPaused(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setPaused(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fpaused = 0!=_r1.i;
@@ -3077,10 +2807,7 @@ public virtual void setPaused(bool n1){
 public virtual bool isKilled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isKilled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fkilled ? 1 : 0;
     return _r0.i!=0;
@@ -3089,11 +2816,8 @@ public virtual bool isKilled(){
 
 public virtual void setKilled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setKilled(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fkilled = 0!=_r1.i;
@@ -3104,10 +2828,7 @@ public virtual void setKilled(bool n1){
 public virtual sbyte getPriority(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: byte getPriority()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fpriority;
     return (sbyte) _r0.i;
@@ -3116,11 +2837,8 @@ public virtual sbyte getPriority(){
 
 public virtual void setPriority(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setPriority(byte)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fpriority = (sbyte) _r1.i;
@@ -3130,11 +2848,8 @@ public virtual void setPriority(sbyte n1){
 
 public virtual global::System.Object getUserAgent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getUserAgent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fuserAgent;
     return (global::java.lang.String) _r0_o;
@@ -3143,11 +2858,8 @@ public virtual global::System.Object getUserAgent(){
 
 public virtual void setUserAgent(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setUserAgent(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fuserAgent = (global::java.lang.String) _r1_o;
@@ -3157,9 +2869,7 @@ public virtual void setUserAgent(global::java.lang.String n1){
 
 public static global::System.Object getDefaultUserAgent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getDefaultUserAgent()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.ConnectionRequest._fdefaultUserAgent;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getDefaultUserAgent()]
@@ -3167,9 +2877,7 @@ public static global::System.Object getDefaultUserAgent(){
 
 public static void setDefaultUserAgent(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDefaultUserAgent(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.ConnectionRequest._fdefaultUserAgent = (global::java.lang.String) _r0_o;
     return;
@@ -3179,10 +2887,7 @@ public static void setDefaultUserAgent(global::java.lang.String n1){
 public virtual bool isFollowRedirects(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isFollowRedirects()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._ffollowRedirects ? 1 : 0;
     return _r0.i!=0;
@@ -3191,11 +2896,8 @@ public virtual bool isFollowRedirects(){
 
 public virtual void setFollowRedirects(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setFollowRedirects(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._ffollowRedirects = 0!=_r1.i;
@@ -3206,10 +2908,7 @@ public virtual void setFollowRedirects(bool n1){
 public virtual int getTimeout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getTimeout()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._ftimeout;
     return _r0.i;
@@ -3218,11 +2917,8 @@ public virtual int getTimeout(){
 
 public virtual void setTimeout(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setTimeout(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._ftimeout = _r1.i;
@@ -3233,12 +2929,7 @@ public virtual void setTimeout(int n1){
 public virtual void updateActivity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void updateActivity()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = global::java.lang.System.currentTimeMillis();
     ((global::com.codename1.io.ConnectionRequest) _r2_o)._ftimeSinceLastUpdate = _r0.l;
@@ -3249,20 +2940,10 @@ public virtual void updateActivity(){
 public virtual int getTimeSinceLastActivity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getTimeSinceLastActivity()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r2_o = ((global::com.codename1.io.ConnectionRequest) _r6_o)._finput;
     if (_r2_o == null) goto label26;
@@ -3301,10 +2982,7 @@ public virtual int getTimeSinceLastActivity(){
 public virtual int getContentLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getContentLength()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fcontentLength;
     return _r0.i;
@@ -3316,16 +2994,10 @@ public virtual void ioStreamUpdate(global::java.lang.Object n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -3342,11 +3014,8 @@ public virtual void ioStreamUpdate(global::java.lang.Object n1, int n2){
 
 public virtual global::System.Object getUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getUrl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._furl;
     return (global::java.lang.String) _r0_o;
@@ -3359,11 +3028,8 @@ public virtual void setUrl(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 32;
@@ -3386,15 +3052,10 @@ public virtual void setUrl(global::java.lang.String n1){
 
 public virtual void addResponseListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addResponseListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r2_o)._factionListeners;
@@ -3416,11 +3077,8 @@ public virtual void removeResponseListener(global::com.codename1.ui.events.Actio
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void removeResponseListener(com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._factionListeners;
@@ -3446,15 +3104,10 @@ public virtual void removeResponseListener(global::com.codename1.ui.events.Actio
 
 public virtual void addResponseCodeListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void addResponseCodeListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r2_o)._fresponseCodeListeners;
@@ -3476,11 +3129,8 @@ public virtual void removeResponseCodeListener(global::com.codename1.ui.events.A
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void removeResponseCodeListener(com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fresponseCodeListeners;
@@ -3508,9 +3158,7 @@ public virtual bool hasResponseListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean hasResponseListeners()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._factionListeners;
     if (_r0_o == null) goto label6;
@@ -3525,13 +3173,9 @@ public virtual bool hasResponseListeners(){
 
 public virtual void fireResponseListener(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void fireResponseListener(com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._factionListeners;
@@ -3546,10 +3190,7 @@ public virtual void fireResponseListener(global::com.codename1.ui.events.ActionE
 public virtual bool isDuplicateSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isDuplicateSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fduplicateSupported ? 1 : 0;
     return _r0.i!=0;
@@ -3558,11 +3199,8 @@ public virtual bool isDuplicateSupported(){
 
 public virtual void setDuplicateSupported(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDuplicateSupported(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fduplicateSupported = 0!=_r1.i;
@@ -3573,12 +3211,9 @@ public virtual void setDuplicateSupported(bool n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.io.ConnectionRequest) _r2_o)._furl;
     if (_r1_o == null) goto label23;
@@ -3601,31 +3236,20 @@ public override int hashCode(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = 1;
@@ -3696,11 +3320,8 @@ public virtual void validateImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void validateImpl()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r2_o)._furl;
     if (_r0_o != null) goto label12;
@@ -3730,11 +3351,8 @@ public virtual void validate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void validate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r2_o)._furl;
     _r0_o = ((global::java.lang.String) _r0_o).toLowerCase();
@@ -3756,11 +3374,8 @@ public virtual void validate(){
 
 public virtual global::System.Object getDisposeOnCompletion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: com.codename1.ui.Dialog getDisposeOnCompletion()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fdisposeOnCompletion;
     return (global::com.codename1.ui.Dialog) _r0_o;
@@ -3769,11 +3384,8 @@ public virtual global::System.Object getDisposeOnCompletion(){
 
 public virtual void setDisposeOnCompletion(global::com.codename1.ui.Dialog n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDisposeOnCompletion(com.codename1.ui.Dialog)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fdisposeOnCompletion = (global::com.codename1.ui.Dialog) _r1_o;
@@ -3783,11 +3395,8 @@ public virtual void setDisposeOnCompletion(global::com.codename1.ui.Dialog n1){
 
 public virtual global::System.Object getShowOnInit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: com.codename1.ui.Dialog getShowOnInit()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fshowOnInit;
     return (global::com.codename1.ui.Dialog) _r0_o;
@@ -3796,11 +3405,8 @@ public virtual global::System.Object getShowOnInit(){
 
 public virtual void setShowOnInit(global::com.codename1.ui.Dialog n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setShowOnInit(com.codename1.ui.Dialog)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fshowOnInit = (global::com.codename1.ui.Dialog) _r1_o;
@@ -3811,10 +3417,7 @@ public virtual void setShowOnInit(global::com.codename1.ui.Dialog n1){
 public virtual int getSilentRetryCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: int getSilentRetryCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fsilentRetryCount;
     return _r0.i;
@@ -3823,11 +3426,8 @@ public virtual int getSilentRetryCount(){
 
 public virtual void setSilentRetryCount(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setSilentRetryCount(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fsilentRetryCount = _r1.i;
@@ -3838,10 +3438,7 @@ public virtual void setSilentRetryCount(int n1){
 public virtual bool isFailSilently(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isFailSilently()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._ffailSilently ? 1 : 0;
     return _r0.i!=0;
@@ -3850,11 +3447,8 @@ public virtual bool isFailSilently(){
 
 public virtual void setFailSilently(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setFailSilently(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._ffailSilently = 0!=_r1.i;
@@ -3864,11 +3458,8 @@ public virtual void setFailSilently(bool n1){
 
 public static void setUseNativeCookieStore(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setUseNativeCookieStore(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setUseNativeCookieStore(0!=_r1.i);
@@ -3879,10 +3470,7 @@ public static void setUseNativeCookieStore(bool n1){
 public virtual bool isReadResponseForErrors(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isReadResponseForErrors()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._freadResponseForErrors ? 1 : 0;
     return _r0.i!=0;
@@ -3891,11 +3479,8 @@ public virtual bool isReadResponseForErrors(){
 
 public virtual void setReadResponseForErrors(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setReadResponseForErrors(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._freadResponseForErrors = 0!=_r1.i;
@@ -3905,11 +3490,8 @@ public virtual void setReadResponseForErrors(bool n1){
 
 public virtual global::System.Object getResponseContentType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getResponseContentType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fresponseContentType;
     return (global::java.lang.String) _r0_o;
@@ -3919,10 +3501,7 @@ public virtual global::System.Object getResponseContentType(){
 public virtual bool isRedirecting(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isRedirecting()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fredirecting ? 1 : 0;
     return _r0.i!=0;
@@ -3931,11 +3510,8 @@ public virtual bool isRedirecting(){
 
 public virtual global::System.Object getDestinationFile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getDestinationFile()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fdestinationFile;
     return (global::java.lang.String) _r0_o;
@@ -3944,11 +3520,8 @@ public virtual global::System.Object getDestinationFile(){
 
 public virtual void setDestinationFile(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDestinationFile(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fdestinationFile = (global::java.lang.String) _r1_o;
@@ -3958,11 +3531,8 @@ public virtual void setDestinationFile(global::java.lang.String n1){
 
 public virtual global::System.Object getDestinationStorage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: java.lang.String getDestinationStorage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fdestinationStorage;
     return (global::java.lang.String) _r0_o;
@@ -3971,11 +3541,8 @@ public virtual global::System.Object getDestinationStorage(){
 
 public virtual void setDestinationStorage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setDestinationStorage(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.ConnectionRequest) _r0_o)._fdestinationStorage = (global::java.lang.String) _r1_o;
@@ -3986,10 +3553,7 @@ public virtual void setDestinationStorage(global::java.lang.String n1){
 public virtual bool isCookiesEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: boolean isCookiesEnabled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.ConnectionRequest) _r1_o)._fcookiesEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -3999,12 +3563,8 @@ public virtual bool isCookiesEnabled(){
 public virtual void setCookiesEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void setCookiesEnabled(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     ((global::com.codename1.io.ConnectionRequest) _r1_o)._fcookiesEnabled = 0!=_r2.i;
@@ -4018,11 +3578,8 @@ public virtual void setCookiesEnabled(bool n1){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 1;
     _r0_o = null;
     global::com.codename1.io.ConnectionRequest._fdefaultUserAgent = (global::java.lang.String) _r0_o;

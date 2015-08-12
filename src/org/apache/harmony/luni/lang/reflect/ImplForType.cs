@@ -17,17 +17,11 @@ private global::java.lang.ClassLoader _floader;
 
 public void @this(global::org.apache.harmony.luni.lang.reflect.ImplForType n1, global::java.lang.String n2, global::org.apache.harmony.luni.lang.reflect.ListOfTypes n3, global::java.lang.ClassLoader n4){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: void <init>(org.apache.harmony.luni.lang.reflect.ImplForType, java.lang.String, org.apache.harmony.luni.lang.reflect.ListOfTypes, java.lang.ClassLoader)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -44,11 +38,8 @@ public void @this(global::org.apache.harmony.luni.lang.reflect.ImplForType n1, g
 
 public virtual global::System.Object getActualTypeArguments(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.reflect.Type[] getActualTypeArguments()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r1_o)._fargs;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
@@ -60,11 +51,8 @@ public virtual global::System.Object getActualTypeArguments(){
 
 public virtual global::System.Object getOwnerType(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.reflect.Type getOwnerType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r1_o)._fownerTypeRes;
     if (_r0_o != null) goto label16;
@@ -86,15 +74,11 @@ public virtual global::System.Object getOwnerType(){
 
 public virtual global::System.Object getRawType(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.Class getRawType()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -134,9 +118,7 @@ public virtual global::System.Object getResolvedType(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.reflect.Type getResolvedType()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r1_o)._fargs;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
@@ -153,15 +135,11 @@ public virtual global::System.Object getResolvedType(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

@@ -27,9 +27,7 @@ public static int _fDECLARED = java.lang.reflect._iMember._fDECLARED;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Constructor: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.reflect.AccessibleObject) _r0_o).@this();
     return;
@@ -38,27 +36,16 @@ private void @this(){
 
 private void @this(global::java.lang.Class n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::java.lang.Object n5, int n6, global::java.lang.String n7, global::org.xmlvm._nArrayAdapter<sbyte> n8, global::org.xmlvm._nArrayAdapter<sbyte> n9){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Constructor: void <init>(java.lang.Class, java.lang.Class[], java.lang.Class[], int, java.lang.Object, int, java.lang.String, byte[], byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

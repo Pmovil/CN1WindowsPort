@@ -7,9 +7,7 @@ private static global::java.util.HashMap _finterfaceToClassLookup;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,17 +16,11 @@ private void @this(){
 
 public static global::System.Object create(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: com.codename1.system.NativeInterface create(java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
@@ -118,13 +110,9 @@ public static global::System.Object create(global::java.lang.Class n1){
 
 public static void register(global::java.lang.Class n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: void register(java.lang.Class, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.system.NativeLookup._finterfaceToClassLookup;

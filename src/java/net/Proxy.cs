@@ -16,9 +16,7 @@ private global::java.net.SocketAddress _faddress;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.net.Proxy();
     ((global::java.net.Proxy) _r0_o).@this();
     global::java.net.Proxy._fNO_1PROXY = (global::java.net.Proxy) _r0_o;
@@ -28,17 +26,11 @@ public static void @static(){
 
 public void @this(global::java.net.Proxy_2Type n1, global::java.net.SocketAddress n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: void <init>(java.net.Proxy$Type, java.net.SocketAddress)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -63,11 +55,8 @@ public void @this(global::java.net.Proxy_2Type n1, global::java.net.SocketAddres
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = global::java.net.Proxy_2Type._fDIRECT;
@@ -80,11 +69,8 @@ private void @this(){
 
 public virtual global::System.Object type(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: java.net.Proxy$Type type()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Proxy) _r1_o)._ftype;
     return (global::java.net.Proxy_2Type) _r0_o;
@@ -93,11 +79,8 @@ public virtual global::System.Object type(){
 
 public virtual global::System.Object address(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: java.net.SocketAddress address()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.Proxy) _r1_o)._faddress;
     return (global::java.net.SocketAddress) _r0_o;
@@ -106,15 +89,10 @@ public virtual global::System.Object address(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -146,17 +124,11 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -190,12 +162,9 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r1_o = ((global::java.net.Proxy) _r2_o)._ftype;

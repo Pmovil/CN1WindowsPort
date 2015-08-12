@@ -13,9 +13,7 @@ private global::java.lang.Runnable _fupdateCallback;
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -24,9 +22,7 @@ private void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: com.codename1.push.PushInbox getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.push.PushInbox._finstance;
     if (_r0_o != null) goto label11;
     _r0_o = new global::com.codename1.push.PushInbox();
@@ -44,47 +40,25 @@ public virtual void syncInbox(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
-    global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
-    global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
-    global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
-    global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r22_o = this;
@@ -310,11 +284,8 @@ public virtual void syncInbox(){
 
 public virtual void setUpdateCallback(global::java.lang.Runnable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void setUpdateCallback(java.lang.Runnable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.push.PushInbox) _r0_o)._fupdateCallback = (global::java.lang.Runnable) _r1_o;
@@ -325,10 +296,7 @@ public virtual void setUpdateCallback(global::java.lang.Runnable n1){
 public virtual bool isSyncing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: boolean isSyncing()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.push.PushInbox) _r1_o)._fsync ? 1 : 0;
     return _r0.i!=0;
@@ -339,9 +307,7 @@ public virtual int getMessageCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: int getMessageCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -351,13 +317,9 @@ public virtual int getMessageCount(){
 
 public virtual global::System.Object getMessageId(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.lang.String getMessageId(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -370,13 +332,9 @@ public virtual global::System.Object getMessageId(int n1){
 
 public virtual global::System.Object getTitle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.lang.String getTitle(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -392,13 +350,9 @@ public virtual global::System.Object getTitle(int n1){
 
 public virtual global::System.Object getFrom(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.lang.String getFrom(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -416,13 +370,8 @@ public virtual long getTime(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: long getTime(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r2_o).getCachedMessages();
@@ -439,13 +388,9 @@ public virtual long getTime(int n1){
 
 public virtual global::System.Object getIconURL(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.lang.String getIconURL(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -461,13 +406,9 @@ public virtual global::System.Object getIconURL(int n1){
 
 public virtual global::System.Object getBody(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.lang.String getBody(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -485,11 +426,8 @@ public virtual bool isHTML(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: boolean isHTML(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -508,11 +446,8 @@ public virtual bool isRead(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: boolean isRead(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
@@ -529,19 +464,13 @@ public virtual bool isRead(int n1){
 
 public virtual void setRead(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void setRead(int, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2 ? 1 : 0;
@@ -570,23 +499,14 @@ public virtual int addMessage(global::java.lang.String n1, global::java.lang.Str
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: int addMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.util.Date)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -604,35 +524,22 @@ public virtual int addMessage(global::java.lang.String n1, global::java.lang.Str
 
 private global::System.Object addMessageImpl(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, bool n6, global::java.util.Date n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: com.codename1.cloud.CloudObject addMessageImpl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.util.Date)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -739,27 +646,16 @@ private global::System.Object addMessageImpl(global::java.lang.String n1, global
 
 public virtual void addMessage(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, bool n6, global::java.util.Date n7, global::com.codename1.cloud.CloudResponse n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void addMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.util.Date, com.codename1.cloud.CloudResponse)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -778,15 +674,10 @@ public virtual void addMessage(global::java.lang.String n1, global::java.lang.St
 
 private global::System.Object getCachedMessages(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: java.util.List getCachedMessages()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.push.PushInbox) _r3_o)._fcache;
     if (_r0_o == null) goto label7;
@@ -822,15 +713,10 @@ private global::System.Object getCachedMessages(){
 
 private void storeCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void storeCache()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = global::com.codename1.io.Storage.getInstance();
     // Value=CN1$PushInbox

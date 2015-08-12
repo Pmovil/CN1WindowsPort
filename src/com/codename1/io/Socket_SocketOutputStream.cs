@@ -9,13 +9,9 @@ private global::com.codename1.io.SocketConnection _fcon;
 
 public void @this(global::java.lang.Object n1, global::com.codename1.io.SocketConnection n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void <init>(java.lang.Object, com.codename1.io.SocketConnection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -32,9 +28,7 @@ public override void close(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r1_o = ((global::com.codename1.io.Socket_2SocketOutputStream) _r2_o)._fimpl;
@@ -53,9 +47,7 @@ public override void close(){
 
 public override void flush(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void flush()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void flush()]
@@ -63,21 +55,14 @@ public override void flush(){
 
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void write(byte[], int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -103,15 +88,10 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void write(byte[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
@@ -123,21 +103,14 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public override void write(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketOutputStream: void write(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();

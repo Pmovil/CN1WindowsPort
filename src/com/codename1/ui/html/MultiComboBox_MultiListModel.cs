@@ -15,17 +15,11 @@ public global::com.codename1.ui.html.MultiComboBox _fthis_20;
 
 public void @this(global::com.codename1.ui.html.MultiComboBox n1, global::com.codename1.ui.list.ListModel n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: void <init>(com.codename1.ui.html.MultiComboBox, com.codename1.ui.list.ListModel, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -43,13 +37,9 @@ public void @this(global::com.codename1.ui.html.MultiComboBox n1, global::com.co
 
 public override global::System.Object getItemAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: java.lang.Object getItemAt(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o)._funderlyingModel;
@@ -68,9 +58,7 @@ public override int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: int getSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o)._funderlyingModel;
     if (_r0_o == null) goto label11;
@@ -88,9 +76,7 @@ public override int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o)._funderlyingModel;
     if (_r0_o == null) goto label11;
@@ -106,11 +92,8 @@ public override int getSelectedIndex(){
 
 public virtual void setDirection(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: void setDirection(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r0_o)._fdirection = _r1.i;
@@ -122,11 +105,8 @@ public override void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: void setSelectedIndex(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o).getItemAt((int) _r2.i);
@@ -155,11 +135,8 @@ public virtual void toggleSelected(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: void toggleSelected(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o)._fmultiple ? 1 : 0;
@@ -182,11 +159,8 @@ public virtual bool isSelected(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox$MultiListModel: boolean isSelected(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.html.MultiComboBox_2MultiListModel) _r1_o)._fmultiple ? 1 : 0;

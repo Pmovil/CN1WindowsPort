@@ -9,15 +9,10 @@ public global::java.util.regex.AbstractSet _fwithSurrogates;
 
 public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2, global::java.util.regex.AbstractSet n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: void <init>(java.util.regex.AbstractSet, java.util.regex.AbstractSet, java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -32,13 +27,9 @@ public void @this(global::java.util.regex.AbstractSet n1, global::java.util.rege
 
 public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: void <init>(java.util.regex.AbstractSet, java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -51,11 +42,8 @@ public void @this(global::java.util.regex.AbstractSet n1, global::java.util.rege
 
 public override global::System.Object getNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: java.util.regex.AbstractSet getNext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.CompositeRangeSet) _r1_o)._fnext;
     return (global::java.util.regex.AbstractSet) _r0_o;
@@ -66,15 +54,10 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: int matches(int, java.lang.CharSequence, java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -96,13 +79,9 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
 
 public override void setNext(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: void setNext(java.util.regex.AbstractSet)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.util.regex.CompositeRangeSet) _r1_o)._fnext = (global::java.util.regex.AbstractSet) _r2_o;
@@ -116,11 +95,8 @@ public override void setNext(global::java.util.regex.AbstractSet n1){
 
 public virtual global::System.Object getSurrogates(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: java.util.regex.AbstractSet getSurrogates()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.CompositeRangeSet) _r1_o)._fwithSurrogates;
     return (global::java.util.regex.AbstractSet) _r0_o;
@@ -129,11 +105,8 @@ public virtual global::System.Object getSurrogates(){
 
 public virtual global::System.Object getWithoutSurrogates(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: java.util.regex.AbstractSet getWithoutSurrogates()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.CompositeRangeSet) _r1_o)._fwithoutSurrogates;
     return (global::java.util.regex.AbstractSet) _r0_o;
@@ -142,13 +115,9 @@ public virtual global::System.Object getWithoutSurrogates(){
 
 public override global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=CompositeRangeSet:  <nonsurrogate> 
@@ -171,12 +140,8 @@ public override global::System.Object getName(){
 public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: boolean hasConsumed(java.util.regex.MatchResultImpl)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -187,12 +152,8 @@ public override bool hasConsumed(global::java.util.regex.MatchResultImpl n1){
 public override bool first(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CompositeRangeSet: boolean first(java.util.regex.AbstractSet)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;

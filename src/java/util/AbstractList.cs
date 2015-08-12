@@ -7,9 +7,7 @@ public int _fmodCount;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.util.AbstractCollection) _r0_o).@this();
     return;
@@ -18,15 +16,10 @@ public void @this(){
 
 public virtual void add(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: void add(int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -39,12 +32,8 @@ public virtual void add(int n1, global::java.lang.Object n2){
 public override bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: boolean add(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::java.util.AbstractList) _r1_o).size();
@@ -59,18 +48,11 @@ public virtual bool addAll(int n1, global::java.util.Collection n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -99,12 +81,8 @@ public virtual bool addAll(int n1, global::java.util.Collection n2){
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: void clear()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r1.i = ((global::java.util.AbstractList) _r2_o).size();
@@ -121,17 +99,11 @@ public override bool equals(global::java.lang.Object n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -180,14 +152,10 @@ public abstract global::System.Object get(int n1);
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: int hashCode()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r1_o = ((global::java.util.AbstractList) _r3_o).iterator();
@@ -215,11 +183,8 @@ public virtual int indexOf(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.util.AbstractList) _r2_o).listIterator();
@@ -251,13 +216,9 @@ public virtual int indexOf(global::java.lang.Object n1){
 
 public override global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     _r0_o = new global::java.util.AbstractList_2SimpleListIterator();
@@ -272,11 +233,8 @@ public virtual int lastIndexOf(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::java.util.AbstractList) _r2_o).size();
@@ -311,9 +269,7 @@ public virtual global::System.Object listIterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.util.ListIterator listIterator()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = ((global::java.util.AbstractList) _r1_o).listIterator((int) _r0.i);
@@ -323,13 +279,9 @@ public virtual global::System.Object listIterator(){
 
 public virtual global::System.Object listIterator(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.util.ListIterator listIterator(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = new global::java.util.AbstractList_2FullListIterator();
@@ -340,13 +292,9 @@ public virtual global::System.Object listIterator(int n1){
 
 public virtual global::System.Object remove(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.lang.Object remove(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = new global::java.lang.UnsupportedOperationException();
@@ -357,17 +305,11 @@ public virtual global::System.Object remove(int n1){
 
 public virtual void removeRange(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: void removeRange(int, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -386,15 +328,10 @@ public virtual void removeRange(int n1, int n2){
 
 public virtual global::System.Object set(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.lang.Object set(int, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -408,13 +345,9 @@ public virtual global::System.Object subList(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList: java.util.List subList(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;

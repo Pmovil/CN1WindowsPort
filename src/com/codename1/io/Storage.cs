@@ -13,9 +13,7 @@ public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::com.codename1.io.CacheMap();
@@ -29,13 +27,9 @@ public void @this(){
 
 public virtual void setHardCacheSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void setHardCacheSize(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.io.Storage) _r1_o)._fcache;
@@ -48,15 +42,10 @@ private global::System.Object fixFileName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: java.lang.String fixFileName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=_
@@ -120,11 +109,8 @@ private global::System.Object fixFileName(global::java.lang.String n1){
 
 private static void init(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void init(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setStorageData((global::java.lang.Object) _r1_o);
@@ -139,7 +125,6 @@ public static bool isInitialized(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: boolean isInitialized()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Storage._fINSTANCE;
     if (_r0_o == null) goto label6;
     _r0.i = 1;
@@ -153,9 +138,7 @@ public static bool isInitialized(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: com.codename1.io.Storage getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Storage._fINSTANCE;
     if (_r0_o != null) goto label9;
     // Value=cn1
@@ -170,11 +153,8 @@ public static global::System.Object getInstance(){
 
 public virtual void clearCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void clearCache()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Storage) _r1_o)._fcache;
     ((global::com.codename1.io.CacheMap) _r0_o).clearAllCache();
@@ -184,11 +164,8 @@ public virtual void clearCache(){
 
 public virtual void flushStorageCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void flushStorageCache()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).flushStorageCache();
@@ -198,13 +175,9 @@ public virtual void flushStorageCache(){
 
 public virtual void deleteStorageFile(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void deleteStorageFile(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = ((global::com.codename1.io.Storage) _r1_o).fixFileName((global::java.lang.String) _r2_o);
@@ -218,11 +191,8 @@ public virtual void deleteStorageFile(global::java.lang.String n1){
 
 public virtual void clearStorage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void clearStorage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).clearStorage();
@@ -234,13 +204,9 @@ public virtual void clearStorage(){
 
 public virtual global::System.Object createOutputStream(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: java.io.OutputStream createOutputStream(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = ((global::com.codename1.io.Storage) _r1_o).fixFileName((global::java.lang.String) _r2_o);
@@ -252,13 +218,9 @@ public virtual global::System.Object createOutputStream(global::java.lang.String
 
 public virtual global::System.Object createInputStream(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: java.io.InputStream createInputStream(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = ((global::com.codename1.io.Storage) _r1_o).fixFileName((global::java.lang.String) _r2_o);
@@ -272,11 +234,8 @@ public virtual bool exists(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: boolean exists(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = ((global::com.codename1.io.Storage) _r1_o).fixFileName((global::java.lang.String) _r2_o);
@@ -288,11 +247,8 @@ public virtual bool exists(global::java.lang.String n1){
 
 public virtual global::System.Object listEntries(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: java.lang.String[] listEntries()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).listStorageEntries();
@@ -304,11 +260,8 @@ public virtual int entrySize(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: int entrySize(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r2_o = ((global::com.codename1.io.Storage) _r1_o).fixFileName((global::java.lang.String) _r2_o);
@@ -320,19 +273,13 @@ public virtual int entrySize(global::java.lang.String n1){
 
 public virtual bool writeObject(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: boolean writeObject(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -396,21 +343,14 @@ public virtual bool writeObject(global::java.lang.String n1, global::java.lang.O
 
 public virtual global::System.Object readObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: java.lang.Object readObject(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -494,10 +434,7 @@ public virtual global::System.Object readObject(global::java.lang.String n1){
 public virtual bool isNormalizeNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: boolean isNormalizeNames()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Storage) _r1_o)._fnormalizeNames ? 1 : 0;
     return _r0.i!=0;
@@ -506,11 +443,8 @@ public virtual bool isNormalizeNames(){
 
 public virtual void setNormalizeNames(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Storage: void setNormalizeNames(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.Storage) _r0_o)._fnormalizeNames = 0!=_r1.i;

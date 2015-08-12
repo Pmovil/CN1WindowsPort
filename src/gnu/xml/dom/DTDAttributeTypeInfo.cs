@@ -23,19 +23,12 @@ public static int _fDERIVATION_1LIST = org.w3c.dom._iTypeInfo._fDERIVATION_1LIST
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDAttributeTypeInfo: void <init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -54,11 +47,8 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public virtual global::System.Object getTypeName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDAttributeTypeInfo: java.lang.String getTypeName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DTDAttributeTypeInfo) _r1_o)._ftype;
     return (global::java.lang.String) _r0_o;
@@ -67,11 +57,8 @@ public virtual global::System.Object getTypeName(){
 
 public virtual global::System.Object getTypeNamespace(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDAttributeTypeInfo: java.lang.String getTypeNamespace()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=http://www.w3.org/TR/REC-xml
     _r0_o = new global::java.lang.String();
@@ -83,16 +70,10 @@ public virtual global::System.Object getTypeNamespace(){
 public virtual bool isDerivedFrom(global::java.lang.String n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DTDAttributeTypeInfo: boolean isDerivedFrom(java.lang.String, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

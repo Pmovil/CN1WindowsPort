@@ -5,9 +5,7 @@ namespace java.nio.channels.spi {
 public class AbstractInterruptibleChannel_21: global::java.lang.Object,global::java.security.PrivilegedExceptionAction {
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel$1: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,19 +14,13 @@ public void @this(){
 
 public virtual global::System.Object run(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.spi.AbstractInterruptibleChannel$1: java.lang.reflect.Method run()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Thread));
     // Value=setInterruptAction

@@ -18,7 +18,6 @@ public void @this(){
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -33,7 +32,6 @@ public static global::System.Object getInstance(){
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.impl.ImplementationFactory._finstance;
     return (global::com.codename1.impl.ImplementationFactory) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.impl.ImplementationFactory: com.codename1.impl.ImplementationFactory getInstance()]
@@ -47,7 +45,6 @@ public static void setInstance(global::com.codename1.impl.ImplementationFactory 
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.impl.ImplementationFactory._finstance = (global::com.codename1.impl.ImplementationFactory) _r0_o;
     return;
@@ -68,7 +65,6 @@ public virtual global::System.Object createImplementation(){
     _r1.f = 0;
     _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.impl.SilverlightImplementation();
     ((global::com.codename1.impl.SilverlightImplementation) _r0_o).@this();
@@ -84,7 +80,6 @@ public static void @static(){
     _r0.f = 0;
     _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.impl.ImplementationFactory();
     ((global::com.codename1.impl.ImplementationFactory) _r0_o).@this();
     global::com.codename1.impl.ImplementationFactory._finstance = (global::com.codename1.impl.ImplementationFactory) _r0_o;

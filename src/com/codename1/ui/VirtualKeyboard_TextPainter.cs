@@ -13,13 +13,9 @@ public void @this(global::com.codename1.ui.VirtualKeyboard n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$TextPainter: void <init>(com.codename1.ui.VirtualKeyboard)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.VirtualKeyboard_2TextPainter) _r2_o)._fthis_20 = (global::com.codename1.ui.VirtualKeyboard) _r3_o;
@@ -54,12 +50,8 @@ public virtual void showButtonOnGlasspane(global::com.codename1.ui.Button n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 2;
@@ -133,13 +125,9 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$TextPainter: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -156,9 +144,7 @@ private void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$TextPainter: void clear()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.VirtualKeyboard_2TextPainter) _r1_o)._fpaint = 0!=_r0.i;
@@ -170,9 +156,7 @@ private void clear(){
 
 public static void access_2100(global::com.codename1.ui.VirtualKeyboard_2TextPainter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$TextPainter: void access$100(com.codename1.ui.VirtualKeyboard$TextPainter)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.ui.VirtualKeyboard_2TextPainter) _r0_o).clear();
     return;

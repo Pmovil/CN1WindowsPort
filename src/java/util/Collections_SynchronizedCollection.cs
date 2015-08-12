@@ -11,11 +11,8 @@ public global::java.lang.Object _fmutex;
 
 public void @this(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: void <init>(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -27,13 +24,9 @@ public void @this(global::java.util.Collection n1){
 
 public void @this(global::java.util.Collection n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: void <init>(java.util.Collection, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -46,13 +39,10 @@ public void @this(global::java.util.Collection n1, global::java.lang.Object n2){
 
 public virtual bool add(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean add(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -95,13 +85,10 @@ public virtual bool add(global::java.lang.Object n1){
 
 public virtual bool addAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean addAll(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -144,11 +131,8 @@ public virtual bool addAll(global::java.util.Collection n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: void clear()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -190,13 +174,10 @@ public virtual void clear(){
 
 public virtual bool contains(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean contains(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -239,13 +220,10 @@ public virtual bool contains(global::java.lang.Object n1){
 
 public virtual bool containsAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean containsAll(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -288,11 +266,9 @@ public virtual bool containsAll(global::java.util.Collection n1){
 
 public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean isEmpty()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -334,11 +310,8 @@ public virtual bool isEmpty(){
 
 public virtual global::System.Object iterator(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: java.util.Iterator iterator()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -380,13 +353,10 @@ public virtual global::System.Object iterator(){
 
 public virtual bool remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean remove(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -429,13 +399,10 @@ public virtual bool remove(global::java.lang.Object n1){
 
 public virtual bool removeAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean removeAll(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -478,13 +445,10 @@ public virtual bool removeAll(global::java.util.Collection n1){
 
 public virtual bool retainAll(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: boolean retainAll(java.util.Collection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -527,11 +491,9 @@ public virtual bool retainAll(global::java.util.Collection n1){
 
 public virtual int size(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: int size()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -573,11 +535,8 @@ public virtual int size(){
 
 public virtual global::System.Object toArray(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: java.lang.Object[] toArray()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -619,11 +578,8 @@ public virtual global::System.Object toArray(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -665,13 +621,9 @@ public override global::System.Object toString(){
 
 public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: java.lang.Object[] toArray(java.lang.Object[])]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -714,13 +666,9 @@ public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<gl
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedCollection: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

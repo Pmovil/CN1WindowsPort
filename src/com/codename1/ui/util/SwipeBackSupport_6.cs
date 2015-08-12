@@ -9,13 +9,9 @@ public global::com.codename1.ui.util.SwipeBackSupport _fthis_20;
 
 public void @this(global::com.codename1.ui.util.SwipeBackSupport n1, global::com.codename1.ui.animations.Transition n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$6: void <init>(com.codename1.ui.util.SwipeBackSupport, com.codename1.ui.animations.Transition)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,15 +24,10 @@ public void @this(global::com.codename1.ui.util.SwipeBackSupport n1, global::com
 
 public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$6: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

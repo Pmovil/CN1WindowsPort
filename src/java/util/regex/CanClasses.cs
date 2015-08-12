@@ -12,9 +12,7 @@ private static global::java.util.regex.IntHash _ftable;
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CanClasses: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = null;
     global::java.util.regex.CanClasses._ftable = (global::java.util.regex.IntHash) _r0_o;
     return;
@@ -23,9 +21,7 @@ public static void @static(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CanClasses: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -34,23 +30,14 @@ private void @this(){
 
 public static global::System.Object getHashCanClasses(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CanClasses: java.util.regex.IntHash getHashCanClasses()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.i = 216;
     _r6.i = 9;
     _r5.i = 1;

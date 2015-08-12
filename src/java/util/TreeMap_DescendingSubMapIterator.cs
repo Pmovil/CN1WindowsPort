@@ -9,17 +9,11 @@ public void @this(global::java.util.TreeMap_2NavigableSubMap n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4_o = null;
@@ -86,11 +80,8 @@ public override global::System.Object getStartNode(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMapIterator: java.util.TreeMap$Entry getStartNode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMapIterator) _r2_o)._fsubMap;
     _r0.i = ((global::java.util.TreeMap_2NavigableSubMap) _r0_o)._ftoEnd ? 1 : 0;
@@ -121,11 +112,8 @@ public override global::System.Object getBoundaryNode(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMapIterator: java.util.TreeMap$Entry getBoundaryNode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMapIterator) _r2_o)._fsubMap;
     _r0.i = ((global::java.util.TreeMap_2NavigableSubMap) _r0_o)._ftoEnd ? 1 : 0;
@@ -161,9 +149,7 @@ public virtual global::System.Object getNext(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMapIterator) _r2_o)._fnode;
     if (_r0_o != null) goto label10;
@@ -229,9 +215,7 @@ public override bool hasNext(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMapIterator: boolean hasNext()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.TreeMap_2DescendingSubMapIterator) _r1_o)._fnode;
     if (_r0_o == null) goto label6;
@@ -252,13 +236,9 @@ public override void remove(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = null;
     _r0.i = ((global::java.util.TreeMap_2DescendingSubMapIterator) _r5_o)._fexpectedModCount;

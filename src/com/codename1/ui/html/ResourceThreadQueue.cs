@@ -36,11 +36,8 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void <init>(com.codename1.ui.html.HTMLComponent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -72,8 +69,6 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 public static void setMaxThreads(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void setMaxThreads(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.html.ResourceThreadQueue._fmaxThreads = _r0.i;
     return;
@@ -84,13 +79,9 @@ public virtual void add(global::com.codename1.ui.Component n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void add(com.codename1.ui.Component, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -144,14 +135,10 @@ public virtual void addBgImage(global::com.codename1.ui.Component n1, global::ja
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void addBgImage(com.codename1.ui.Component, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
@@ -219,19 +206,13 @@ public virtual void addBgImage(global::com.codename1.ui.Component n1, global::ja
 
 public virtual void addCSS(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void addCSS(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -305,12 +286,8 @@ public virtual void addCSS(global::java.lang.String n1, global::java.lang.String
 private void incCSSCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void incCSSCount()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.html.ResourceThreadQueue) _r2_o)._fcssCount;
     _r1.i = -1;
@@ -330,7 +307,6 @@ public virtual int getCSSCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: int getCSSCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -363,9 +339,7 @@ public virtual int getQueueSize(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r2_o)._fimages;
     _r0.i = ((global::java.util.Hashtable) _r0_o).size();
@@ -380,7 +354,6 @@ public virtual void startRunning(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void startRunning()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -412,25 +385,17 @@ public virtual void startRunning(){
 
 public virtual void startRunningImages(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void startRunningImages()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
@@ -534,21 +499,14 @@ public virtual void startRunningImages(){
 
 private bool startDequeue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: boolean startDequeue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -647,18 +605,13 @@ private bool startDequeue(){
 
 public virtual void threadFinished(global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void threadFinished(com.codename1.ui.html.ResourceThreadQueue$ResourceThread, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
@@ -790,13 +743,10 @@ public virtual void threadFinished(global::com.codename1.ui.html.ResourceThreadQ
 
 public virtual void discardQueue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void discardQueue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -872,29 +822,19 @@ public virtual void discardQueue(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     // Value=: CSS - 
     _r9_o = new global::java.lang.String();
@@ -1050,8 +990,6 @@ public override global::System.Object toString(){
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void <clinit>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2;
     global::com.codename1.ui.html.ResourceThreadQueue._fDEFAULT_1MAX_1THREADS = _r0.i;
     _r0.i = global::com.codename1.ui.html.ResourceThreadQueue._fDEFAULT_1MAX_1THREADS;

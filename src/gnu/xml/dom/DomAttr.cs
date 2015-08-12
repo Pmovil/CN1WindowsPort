@@ -46,18 +46,11 @@ public static short _fDOCUMENT_1POSITION_1IMPLEMENTATION_1SPECIFIC = org.w3c.dom
 public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: void <init>(gnu.xml.dom.DomDocument, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -73,35 +66,20 @@ public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n
 
 public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: void <init>(gnu.xml.dom.DomDocument, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -125,11 +103,8 @@ public void @this(global::gnu.xml.dom.DomDocument n1, global::java.lang.String n
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: java.lang.String getName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r1_o).getNodeName();
     return (global::java.lang.String) _r0_o;
@@ -139,10 +114,7 @@ public virtual global::System.Object getName(){
 public virtual bool getSpecified(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: boolean getSpecified()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomAttr) _r1_o)._fspecified ? 1 : 0;
     return _r0.i!=0;
@@ -151,11 +123,8 @@ public virtual bool getSpecified(){
 
 public virtual void setSpecified(bool n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: void setSpecified(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::gnu.xml.dom.DomAttr) _r0_o)._fspecified = 0!=_r1.i;
@@ -165,15 +134,11 @@ public virtual void setSpecified(bool n1){
 
 public override global::System.Object getNodeValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: java.lang.String getNodeValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r3_o)._ffirst;
     if (_r0_o != null) goto label14;
@@ -213,11 +178,8 @@ public override global::System.Object getNodeValue(){
 
 public virtual void setValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: void setValue(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::gnu.xml.dom.DomAttr) _r0_o).setNodeValue((global::java.lang.String) _r1_o);
@@ -227,11 +189,8 @@ public virtual void setValue(global::java.lang.String n1){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: java.lang.String getValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r1_o).getNodeValue();
     return (global::java.lang.String) _r0_o;
@@ -244,15 +203,10 @@ public override void setNodeValue(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -291,11 +245,8 @@ public override global::System.Object getFirstChild(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node getFirstChild()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r2_o)._ffirst;
     if (_r0_o != null) goto label22;
@@ -323,11 +274,8 @@ public override global::System.Object getLastChild(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node getLastChild()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r2_o)._flast;
     if (_r0_o != null) goto label22;
@@ -355,13 +303,9 @@ public override global::System.Object item(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node item(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r2_o)._ffirst;
@@ -388,9 +332,7 @@ public override global::System.Object item(int n1){
 
 public virtual global::System.Object getOwnerElement(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Element getOwnerElement()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r0_o)._fparent;
     _r0_o = _r0_o;
@@ -400,11 +342,8 @@ public virtual global::System.Object getOwnerElement(){
 
 public override global::System.Object getNextSibling(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node getNextSibling()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -413,11 +352,8 @@ public override global::System.Object getNextSibling(){
 
 public override global::System.Object getPreviousSibling(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node getPreviousSibling()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -426,11 +362,8 @@ public override global::System.Object getPreviousSibling(){
 
 public override global::System.Object getParentNode(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Node getParentNode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -442,12 +375,8 @@ public virtual void setOwnerElement(global::org.w3c.dom.Element n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r2_o)._fparent;
@@ -476,11 +405,8 @@ public virtual void setOwnerElement(global::org.w3c.dom.Element n1){
 
 public override global::System.Object getBaseURI(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: java.lang.String getBaseURI()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -490,10 +416,7 @@ public override global::System.Object getBaseURI(){
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: java.lang.Object clone()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = base.clone();
     _r1_o = _r1_o;
@@ -507,31 +430,18 @@ private void mutating(global::java.lang.String n1, global::java.lang.String n2, 
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: void mutating(java.lang.String, java.lang.String, short)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -567,15 +477,10 @@ private void mutating(global::java.lang.String n1, global::java.lang.String n2, 
 
 public virtual global::System.Object getSchemaTypeInfo(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.TypeInfo getSchemaTypeInfo()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r3_o)._fparent;
     if (_r0_o == null) goto label31;
@@ -600,15 +505,10 @@ public virtual bool isId(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomAttr: boolean isId()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r4_o)._fparent;

@@ -40,11 +40,8 @@ private global::com.codename1.ui.util.EventDispatcher _fthemelisteners;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.HashMap();
@@ -77,10 +74,7 @@ public void @this(){
 public virtual bool wasThemeInstalled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: boolean wasThemeInstalled()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fwasThemeInstalled ? 1 : 0;
     return _r0.i!=0;
@@ -89,9 +83,7 @@ public virtual bool wasThemeInstalled(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.UIManager getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.plaf.UIManager._finstance;
     return (global::com.codename1.ui.plaf.UIManager) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.UIManager getInstance()]
@@ -99,9 +91,7 @@ public static global::System.Object getInstance(){
 
 public static global::System.Object createInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.UIManager createInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.plaf.UIManager();
     ((global::com.codename1.ui.plaf.UIManager) _r0_o).@this();
     return (global::com.codename1.ui.plaf.UIManager) _r0_o;
@@ -110,11 +100,8 @@ public static global::System.Object createInstance(){
 
 public virtual global::System.Object getLookAndFeel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.LookAndFeel getLookAndFeel()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fcurrent;
     return (global::com.codename1.ui.plaf.LookAndFeel) _r0_o;
@@ -123,13 +110,9 @@ public virtual global::System.Object getLookAndFeel(){
 
 public virtual void setLookAndFeel(global::com.codename1.ui.plaf.LookAndFeel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setLookAndFeel(com.codename1.ui.plaf.LookAndFeel)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fcurrent;
@@ -143,15 +126,10 @@ public virtual void setComponentStyle(global::java.lang.String n1, global::com.c
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setComponentStyle(java.lang.String, com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -183,21 +161,13 @@ public virtual void setComponentStyle(global::java.lang.String n1, global::com.c
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setComponentStyle(java.lang.String, com.codename1.ui.plaf.Style, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -268,15 +238,10 @@ public virtual void setComponentSelectedStyle(global::java.lang.String n1, globa
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setComponentSelectedStyle(java.lang.String, com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -308,13 +273,9 @@ public virtual global::System.Object getComponentStyle(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.Style getComponentStyle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -330,13 +291,9 @@ public virtual global::System.Object getComponentSelectedStyle(global::java.lang
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.Style getComponentSelectedStyle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 1;
@@ -352,17 +309,11 @@ public virtual global::System.Object getComponentCustomStyle(global::java.lang.S
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.Style getComponentCustomStyle(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -382,25 +333,16 @@ public virtual global::System.Object getComponentCustomStyle(global::java.lang.S
 
 private global::System.Object getComponentStyleImpl(global::java.lang.String n1, bool n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.plaf.Style getComponentStyleImpl(java.lang.String, boolean, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -582,13 +524,9 @@ private global::System.Object getComponentStyleImpl(global::java.lang.String n1,
 
 public virtual global::System.Object getThemeName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String getThemeName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o)._fthemeProps;
     if (_r0_o == null) goto label16;
@@ -609,11 +547,8 @@ public virtual global::System.Object getThemeName(){
 
 public virtual global::System.Object getThemeProps(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.util.HashMap getThemeProps()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fthemeProps;
     return (global::java.util.HashMap) _r0_o;
@@ -622,31 +557,21 @@ public virtual global::System.Object getThemeProps(){
 
 private void resetThemeProps(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void resetThemeProps(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r4_o = new global::java.util.HashMap();
@@ -3300,12 +3225,8 @@ private void resetThemeProps(global::java.util.Hashtable n1){
 public virtual void setThemeProps(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setThemeProps(java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::com.codename1.ui.plaf.UIManager._faccessible ? 1 : 0;
@@ -3323,12 +3244,8 @@ public virtual void addThemeProps(global::java.util.Hashtable n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = global::com.codename1.ui.plaf.UIManager._faccessible ? 1 : 0;
@@ -3350,18 +3267,13 @@ public virtual void addThemeProps(global::java.util.Hashtable n1){
 
 public virtual int getThemeConstant(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: int getThemeConstant(java.lang.String, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
@@ -3396,17 +3308,11 @@ public virtual int getThemeConstant(global::java.lang.String n1, int n2){
 
 public virtual global::System.Object getThemeConstant(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String getThemeConstant(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -3425,17 +3331,12 @@ public virtual global::System.Object getThemeConstant(global::java.lang.String n
 
 public virtual bool isThemeConstant(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: boolean isThemeConstant(java.lang.String, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -3467,15 +3368,11 @@ public virtual bool isThemeConstant(global::java.lang.String n1, bool n2){
 
 public virtual global::System.Object isThemeConstant(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.Boolean isThemeConstant(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = null;
@@ -3505,13 +3402,9 @@ public virtual global::System.Object isThemeConstant(global::java.lang.String n1
 
 public virtual global::System.Object getThemeImageConstant(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.Image getThemeImageConstant(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fthemeConstants;
@@ -3523,23 +3416,14 @@ public virtual global::System.Object getThemeImageConstant(global::java.lang.Str
 
 public virtual global::System.Object getThemeMaskConstant(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.Object getThemeMaskConstant(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     // Value=Mask
@@ -3585,15 +3469,11 @@ public virtual global::System.Object getThemeMaskConstant(global::java.lang.Stri
 
 public virtual void setThemePropsImpl(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setThemePropsImpl(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.plaf.UIManager) _r2_o).resetThemeProps((global::java.util.Hashtable) _r3_o);
@@ -3623,28 +3503,18 @@ public virtual void setThemePropsImpl(global::java.util.Hashtable n1){
 private void buildTheme(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void buildTheme(java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r7.i = 1;
@@ -3733,58 +3603,31 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
-    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
-    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
-    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
-    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
-    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
-    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
-    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
-    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
-    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
-    global::System.Object _r27_o = null;
-    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
-    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
-    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
     global::System.Object _r31_o = null;
@@ -3793,15 +3636,10 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
     global::org.xmlvm._nElement _r34;
-    global::System.Object _r34_o = null;
-    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
-    global::org.xmlvm._nElement _r36;
     global::System.Object _r36_o = null;
-    global::org.xmlvm._nElement _r37;
     global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
-    global::System.Object _r38_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r35_o = this;
     _r36_o = n1;
@@ -4578,20 +4416,14 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
 private global::System.Object toIntArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: int[] toIntArray(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=,
@@ -4635,23 +4467,15 @@ private global::System.Object toIntArray(global::java.lang.String n1){
 
 private static global::System.Object parseImage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.Image parseImage(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r4.i = 0;
     _r5.i = ((global::java.lang.String) _r7_o).length();
@@ -4693,7 +4517,6 @@ private static global::System.Object parseFont(global::java.lang.String n1){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
@@ -4918,13 +4741,9 @@ private static global::System.Object parseFont(global::java.lang.String n1){
 
 public virtual global::System.Object getResourceBundle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.util.Hashtable getResourceBundle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o)._fresourceBundle;
     if (_r0_o != null) goto label17;
@@ -4942,11 +4761,8 @@ public virtual global::System.Object getResourceBundle(){
 
 public virtual global::System.Object getBundle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.util.Map getBundle()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fbundle;
     return (global::java.util.Map) _r0_o;
@@ -4955,29 +4771,19 @@ public virtual global::System.Object getBundle(){
 
 public virtual void setBundle(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setBundle(java.util.Map)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 0;
@@ -5042,35 +4848,22 @@ public virtual void setBundle(global::java.util.Map n1){
 
 public virtual void setResourceBundle(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void setResourceBundle(java.util.Hashtable)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r11.i = 124;
@@ -5171,28 +4964,17 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
 private global::System.Object parseTextFieldInputMode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.util.Hashtable parseTextFieldInputMode(java.lang.String)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 124;
@@ -5225,18 +5007,11 @@ private global::System.Object getInputMode(global::java.lang.String n1, global::
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -5270,17 +5045,11 @@ private global::System.Object getInputMode(global::java.lang.String n1, global::
 
 private global::System.Object toStringArray(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String[] toStringArray(java.util.Vector)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = ((global::java.util.Vector) _r4_o).size();
@@ -5301,27 +5070,16 @@ private global::System.Object toStringArray(global::java.util.Vector n1){
 
 private global::System.Object tokenizeMultiArray(global::java.lang.String n1, char n2, char n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String[][] tokenizeMultiArray(java.lang.String, char, char)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -5346,17 +5104,11 @@ private global::System.Object tokenizeMultiArray(global::java.lang.String n1, ch
 
 public virtual global::System.Object localize(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String localize(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -5378,13 +5130,9 @@ public virtual global::System.Object localize(global::java.lang.String n1, globa
 
 public virtual void addThemeRefreshListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void addThemeRefreshListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fthemelisteners;
@@ -5401,13 +5149,9 @@ public virtual void addThemeRefreshListener(global::com.codename1.ui.events.Acti
 
 public virtual void removeThemeRefreshListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void removeThemeRefreshListener(com.codename1.ui.events.ActionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fthemelisteners;
@@ -5423,11 +5167,8 @@ public virtual void removeThemeRefreshListener(global::com.codename1.ui.events.A
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.UIManager: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 1;
     _r0_o = new global::com.codename1.ui.plaf.UIManager();
     ((global::com.codename1.ui.plaf.UIManager) _r0_o).@this();

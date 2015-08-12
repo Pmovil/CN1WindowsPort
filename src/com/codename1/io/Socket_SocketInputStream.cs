@@ -15,13 +15,9 @@ private bool _fclosed;
 
 public void @this(global::java.lang.Object n1, global::com.codename1.io.SocketConnection n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: void <init>(java.lang.Object, com.codename1.io.SocketConnection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -35,10 +31,7 @@ public void @this(global::java.lang.Object n1, global::com.codename1.io.SocketCo
 public override bool markSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: boolean markSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -47,9 +40,7 @@ public override bool markSupported(){
 
 public override void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     global::System.Threading.Monitor.Enter(_r0_o);
     global::System.Threading.Monitor.Exit(_r0_o);
@@ -63,9 +54,7 @@ public override void close(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 1;
     ((global::com.codename1.io.Socket_2SocketInputStream) _r2_o)._fclosed = 0!=_r0.i;
@@ -88,11 +77,8 @@ public override int available(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: int available()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r1_o = ((global::com.codename1.io.Socket_2SocketInputStream) _r2_o)._fimpl;
@@ -105,9 +91,7 @@ private void throwEOF(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: void throwEOF()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Socket_2SocketInputStream) _r1_o)._fclosed ? 1 : 0;
     if (_r0.i == 0) goto label10;
@@ -122,31 +106,20 @@ private void throwEOF(){
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: int read(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
-    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
@@ -253,14 +226,9 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: int read(byte[])]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.io.Socket_2SocketInputStream) _r2_o).throwEOF();
@@ -273,17 +241,11 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 public override int read(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$SocketInputStream: int read()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = -1;
     ((global::com.codename1.io.Socket_2SocketInputStream) _r4_o).throwEOF();

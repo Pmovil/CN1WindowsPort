@@ -74,11 +74,8 @@ private static void initNativeLayer(){
 
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     // Value=en
@@ -99,15 +96,10 @@ private void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=
@@ -126,15 +118,10 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <init>(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -150,17 +137,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <init>(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -202,11 +183,8 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.Object clone()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -234,23 +212,15 @@ public override global::System.Object clone(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: boolean equals(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -290,9 +260,7 @@ public override bool equals(global::java.lang.Object n1){
 
 public static global::System.Object getAvailableLocales(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.util.Locale[] getAvailableLocales()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
     _r0_o = null;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -301,11 +269,8 @@ public static global::System.Object getAvailableLocales(){
 
 public virtual global::System.Object getCountry(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getCountry()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Locale) _r1_o)._fcountryCode;
     return (global::java.lang.String) _r0_o;
@@ -314,9 +279,7 @@ public virtual global::System.Object getCountry(){
 
 public static global::System.Object getDefault(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.util.Locale getDefault()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::java.util.Locale._fdefaultLocale;
     return (global::java.util.Locale) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Locale: java.util.Locale getDefault()]
@@ -324,11 +287,8 @@ public static global::System.Object getDefault(){
 
 public virtual global::System.Object getDisplayCountry(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayCountry()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Locale.getDefault();
     _r0_o = ((global::java.util.Locale) _r1_o).getDisplayCountry((global::java.util.Locale) _r0_o);
@@ -338,13 +298,9 @@ public virtual global::System.Object getDisplayCountry(){
 
 public virtual global::System.Object getDisplayCountry(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayCountry(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
@@ -355,11 +311,8 @@ public virtual global::System.Object getDisplayCountry(global::java.util.Locale 
 
 public virtual global::System.Object getDisplayLanguage(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayLanguage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Locale.getDefault();
     _r0_o = ((global::java.util.Locale) _r1_o).getDisplayLanguage((global::java.util.Locale) _r0_o);
@@ -369,13 +322,9 @@ public virtual global::System.Object getDisplayLanguage(){
 
 public virtual global::System.Object getDisplayLanguage(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
@@ -386,11 +335,8 @@ public virtual global::System.Object getDisplayLanguage(global::java.util.Locale
 
 public virtual global::System.Object getDisplayName(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Locale.getDefault();
     _r0_o = ((global::java.util.Locale) _r1_o).getDisplayName((global::java.util.Locale) _r0_o);
@@ -400,21 +346,14 @@ public virtual global::System.Object getDisplayName(){
 
 public virtual global::System.Object getDisplayName(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayName(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = 1;
@@ -478,11 +417,8 @@ public virtual global::System.Object getDisplayName(global::java.util.Locale n1)
 
 public virtual global::System.Object getDisplayVariant(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayVariant()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::java.util.Locale.getDefault();
     _r0_o = ((global::java.util.Locale) _r1_o).getDisplayVariant((global::java.util.Locale) _r0_o);
@@ -492,13 +428,9 @@ public virtual global::System.Object getDisplayVariant(){
 
 public virtual global::System.Object getDisplayVariant(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getDisplayVariant(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
@@ -509,11 +441,8 @@ public virtual global::System.Object getDisplayVariant(global::java.util.Locale 
 
 public virtual global::System.Object getISO3Country(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getISO3Country()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
     _r0_o = null;
@@ -523,11 +452,8 @@ public virtual global::System.Object getISO3Country(){
 
 public virtual global::System.Object getISO3Language(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getISO3Language()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
     _r0_o = null;
@@ -537,9 +463,7 @@ public virtual global::System.Object getISO3Language(){
 
 public static global::System.Object getISOCountries(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String[] getISOCountries()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
     _r0_o = null;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -548,9 +472,7 @@ public static global::System.Object getISOCountries(){
 
 public static global::System.Object getISOLanguages(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String[] getISOLanguages()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     global::org.xmlvm.runtime.XMLVMUtil.notImplemented();
     _r0_o = null;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -559,11 +481,8 @@ public static global::System.Object getISOLanguages(){
 
 public virtual global::System.Object getLanguage(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getLanguage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Locale) _r1_o)._flanguageCode;
     return (global::java.lang.String) _r0_o;
@@ -572,11 +491,8 @@ public virtual global::System.Object getLanguage(){
 
 public virtual global::System.Object getVariant(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String getVariant()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.Locale) _r1_o)._fvariantCode;
     return (global::java.lang.String) _r0_o;
@@ -589,7 +505,6 @@ public override int hashCode(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -625,11 +540,8 @@ public override int hashCode(){
 
 public static void setDefault(global::java.util.Locale n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void setDefault(java.util.Locale)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -675,15 +587,11 @@ public static void setDefault(global::java.util.Locale n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 95;
     _r0_o = new global::java.lang.StringBuilder();
@@ -723,17 +631,12 @@ public override global::System.Object toString(){
 
 private void writeObject(global::java.io.ObjectOutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void writeObject(java.io.ObjectOutputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.io.ObjectOutputStream) _r4_o).putFields();
@@ -764,19 +667,12 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
 
 private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void readObject(java.io.ObjectInputStream)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=
@@ -820,17 +716,11 @@ public static void @static(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=fr
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 114))}));

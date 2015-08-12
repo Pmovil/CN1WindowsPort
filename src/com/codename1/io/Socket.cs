@@ -5,9 +5,7 @@ namespace com.codename1.io {
 public class Socket: global::java.lang.Object {
 private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,9 +16,7 @@ public virtual bool isSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: boolean isSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isSocketAvailable() ? 1 : 0;
@@ -32,9 +28,7 @@ public virtual bool isServerSocketSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: boolean isServerSocketSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isServerSocketAvailable() ? 1 : 0;
@@ -44,21 +38,13 @@ public virtual bool isServerSocketSupported(){
 
 public static void connect(global::java.lang.String n1, int n2, global::com.codename1.io.SocketConnection n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: void connect(java.lang.String, int, com.codename1.io.SocketConnection)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6_o = n3;
@@ -81,19 +67,12 @@ public static void connect(global::java.lang.String n1, int n2, global::com.code
 
 public static global::System.Object listen(int n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: com.codename1.io.Socket$StopListening listen(int, java.lang.Class)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = n1;
     _r5_o = n2;
     _r0_o = new global::com.codename1.io.Socket_21Listener();
@@ -115,9 +94,7 @@ public static global::System.Object listen(int n1, global::java.lang.Class n2){
 
 public static global::System.Object getHostOrIP(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket: java.lang.String getHostOrIP()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getHostOrIP();
     return (global::java.lang.String) _r0_o;

@@ -13,17 +13,11 @@ public global::javax.xml.xpath.XPathFunctionResolver _ffunctionResolver;
 
 public void @this(global::javax.xml.@namespace.NamespaceContext n1, global::javax.xml.xpath.XPathVariableResolver n2, global::javax.xml.xpath.XPathFunctionResolver n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: void <init>(javax.xml.namespace.NamespaceContext, javax.xml.xpath.XPathVariableResolver, javax.xml.xpath.XPathFunctionResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -42,13 +36,9 @@ public void @this(global::javax.xml.@namespace.NamespaceContext n1, global::java
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: void reset()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r2_o)._fparser;
     _r1_o = ((global::gnu.xml.xpath.XPathImpl) _r2_o)._fnamespaceContext;
@@ -65,13 +55,9 @@ public virtual void reset(){
 
 public virtual void setXPathVariableResolver(global::javax.xml.xpath.XPathVariableResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: void setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
@@ -82,11 +68,8 @@ public virtual void setXPathVariableResolver(global::javax.xml.xpath.XPathVariab
 
 public virtual global::System.Object getXPathVariableResolver(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: javax.xml.xpath.XPathVariableResolver getXPathVariableResolver()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r0_o)._fvariableResolver;
@@ -96,13 +79,9 @@ public virtual global::System.Object getXPathVariableResolver(){
 
 public virtual void setXPathFunctionResolver(global::javax.xml.xpath.XPathFunctionResolver n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: void setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
@@ -113,11 +92,8 @@ public virtual void setXPathFunctionResolver(global::javax.xml.xpath.XPathFuncti
 
 public virtual global::System.Object getXPathFunctionResolver(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: javax.xml.xpath.XPathFunctionResolver getXPathFunctionResolver()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r0_o)._ffunctionResolver;
@@ -127,13 +103,9 @@ public virtual global::System.Object getXPathFunctionResolver(){
 
 public virtual void setNamespaceContext(global::javax.xml.@namespace.NamespaceContext n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: void setNamespaceContext(javax.xml.namespace.NamespaceContext)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
@@ -144,11 +116,8 @@ public virtual void setNamespaceContext(global::javax.xml.@namespace.NamespaceCo
 
 public virtual global::System.Object getNamespaceContext(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: javax.xml.namespace.NamespaceContext getNamespaceContext()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathImpl) _r1_o)._fparser;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r0_o)._fnamespaceContext;
@@ -158,13 +127,9 @@ public virtual global::System.Object getNamespaceContext(){
 
 public virtual global::System.Object compile(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: javax.xml.xpath.XPathExpression compile(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -207,17 +172,11 @@ public virtual global::System.Object compile(global::java.lang.String n1){
 
 public virtual global::System.Object evaluate(global::java.lang.String n1, global::java.lang.Object n2, global::javax.xml.@namespace.QName n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: java.lang.Object evaluate(java.lang.String, java.lang.Object, javax.xml.namespace.QName)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -230,15 +189,10 @@ public virtual global::System.Object evaluate(global::java.lang.String n1, globa
 
 public virtual global::System.Object evaluate(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: java.lang.String evaluate(java.lang.String, java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -250,17 +204,11 @@ public virtual global::System.Object evaluate(global::java.lang.String n1, globa
 
 public virtual global::System.Object evaluate(global::java.lang.String n1, global::org.xml.sax.InputSource n2, global::javax.xml.@namespace.QName n3){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: java.lang.Object evaluate(java.lang.String, org.xml.sax.InputSource, javax.xml.namespace.QName)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -273,15 +221,10 @@ public virtual global::System.Object evaluate(global::java.lang.String n1, globa
 
 public virtual global::System.Object evaluate(global::java.lang.String n1, global::org.xml.sax.InputSource n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathImpl: java.lang.String evaluate(java.lang.String, org.xml.sax.InputSource)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

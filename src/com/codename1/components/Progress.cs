@@ -14,14 +14,9 @@ private bool _fshowing;
 public void @this(global::java.lang.String n1, global::com.codename1.io.ConnectionRequest n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void <init>(java.lang.String, com.codename1.io.ConnectionRequest)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -33,33 +28,21 @@ public void @this(global::java.lang.String n1, global::com.codename1.io.Connecti
 
 public void @this(global::java.lang.String n1, global::com.codename1.io.ConnectionRequest n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void <init>(java.lang.String, com.codename1.io.ConnectionRequest, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
-    global::System.Object _r12_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -116,19 +99,13 @@ public void @this(global::java.lang.String n1, global::com.codename1.io.Connecti
 
 public override void actionCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void actionCommand(com.codename1.ui.Command)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = global::com.codename1.ui.Display.getInstance();
@@ -162,13 +139,9 @@ public override void actionCommand(global::com.codename1.ui.Command n1){
 
 public override void dispose(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void dispose()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0_o = global::com.codename1.io.NetworkManager.getInstance();
@@ -183,10 +156,7 @@ public override void dispose(){
 public virtual bool isDisposeOnCompletion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: boolean isDisposeOnCompletion()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.Progress) _r1_o)._fdisposeOnCompletion ? 1 : 0;
     return _r0.i!=0;
@@ -195,11 +165,8 @@ public virtual bool isDisposeOnCompletion(){
 
 public virtual void setDisposeOnCompletion(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void setDisposeOnCompletion(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.Progress) _r0_o)._fdisposeOnCompletion = 0!=_r1.i;
@@ -209,19 +176,14 @@ public virtual void setDisposeOnCompletion(bool n1){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void actionPerformed(com.codename1.ui.events.ActionEvent)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = _r5_o;
@@ -253,10 +215,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 public virtual bool isAutoShow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: boolean isAutoShow()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.Progress) _r1_o)._fautoShow ? 1 : 0;
     return _r0.i!=0;
@@ -265,11 +224,8 @@ public virtual bool isAutoShow(){
 
 public virtual void setAutoShow(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Progress: void setAutoShow(boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.Progress) _r0_o)._fautoShow = 0!=_r1.i;

@@ -14,18 +14,11 @@ public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$GapSpring: void <init>(com.codename1.ui.layouts.GroupLayout, int, int, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -45,14 +38,9 @@ public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n
 public override int calculateMinimumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$GapSpring: int calculateMinimumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2GapSpring) _r2_o)._fmin;
@@ -70,12 +58,8 @@ public override int calculateMinimumSize(int n1){
 public override int calculatePreferredSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$GapSpring: int calculatePreferredSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2GapSpring) _r1_o)._fpref;
@@ -86,14 +70,9 @@ public override int calculatePreferredSize(int n1){
 public override int calculateMaximumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$GapSpring: int calculateMaximumSize(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2GapSpring) _r2_o)._fmax;
@@ -111,12 +90,8 @@ public override int calculateMaximumSize(int n1){
 public override bool willHaveZeroSize(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$GapSpring: boolean willHaveZeroSize(boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = 0;

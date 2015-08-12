@@ -9,13 +9,9 @@ public global::java.lang.String _fval;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer$XPathToken: void <init>(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = null;
@@ -26,13 +22,9 @@ public void @this(int n1){
 
 public void @this(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer$XPathToken: void <init>(int, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -45,11 +37,8 @@ public void @this(int n1, global::java.lang.String n2){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer$XPathToken: java.lang.String getText()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r1_o)._fval;
     return (global::java.lang.String) _r0_o;
@@ -58,11 +47,8 @@ public virtual global::System.Object getText(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathTokenizer$XPathToken: java.lang.String toString()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r1_o)._fval;
     return (global::java.lang.String) _r0_o;

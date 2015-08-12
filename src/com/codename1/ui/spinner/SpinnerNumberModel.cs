@@ -21,15 +21,9 @@ public virtual void setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void setValue(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = -1;
@@ -55,12 +49,7 @@ public virtual global::System.Object getValue(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r3_o)._frealValues ? 1 : 0;
     if (_r0.i == 0) goto label12;
@@ -82,19 +71,11 @@ public void @this(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void <init>(int, int, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -123,25 +104,11 @@ public void @this(double n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void <init>(double, double, double, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r4.d = n2;
@@ -169,22 +136,10 @@ public virtual global::System.Object getItemAt(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r0.i = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r7_o)._frealValues ? 1 : 0;
@@ -214,16 +169,8 @@ public virtual global::System.Object getItemAt(int n1){
 public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: int getSize()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r4_o)._fmax;
     _r2.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r4_o)._fmin;
@@ -238,22 +185,11 @@ public virtual int getSize(){
 public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r3.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r7_o)._fmax;
     _r5.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r7_o)._fcurrentValue;
@@ -273,26 +209,13 @@ public virtual int getSelectedIndex(){
 public virtual void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void setSelectedIndex(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r1.i = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r8_o).getSelectedIndex();
@@ -311,13 +234,9 @@ public virtual void setSelectedIndex(int n1){
 
 public virtual void addDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void addDataChangedListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r1_o)._fdataListener;
@@ -328,13 +247,9 @@ public virtual void addDataChangedListener(global::com.codename1.ui.events.DataC
 
 public virtual void removeDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void removeDataChangedListener(com.codename1.ui.events.DataChangedListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r1_o)._fdataListener;
@@ -345,13 +260,9 @@ public virtual void removeDataChangedListener(global::com.codename1.ui.events.Da
 
 public virtual void addSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void addSelectionListener(com.codename1.ui.events.SelectionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r1_o)._fselectionListener;
@@ -362,13 +273,9 @@ public virtual void addSelectionListener(global::com.codename1.ui.events.Selecti
 
 public virtual void removeSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void removeSelectionListener(com.codename1.ui.events.SelectionListener)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r1_o)._fselectionListener;
@@ -379,11 +286,8 @@ public virtual void removeSelectionListener(global::com.codename1.ui.events.Sele
 
 public virtual void addItem(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void addItem(java.lang.Object)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -392,11 +296,8 @@ public virtual void addItem(global::java.lang.Object n1){
 
 public virtual void removeItem(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: void removeItem(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -406,12 +307,7 @@ public virtual void removeItem(int n1){
 public virtual double getMin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: double getMin()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r2_o)._fmin;
     return _r0.d;
@@ -421,12 +317,7 @@ public virtual double getMin(){
 public virtual double getMax(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.SpinnerNumberModel: double getMax()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r2_o)._fmax;
     return _r0.d;

@@ -11,13 +11,9 @@ private int _fvalue;
 
 public void @this(short n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: void <init>(short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::gnu.xml.dom.DomDOMException.diagnostic((short) _r2.i);
@@ -28,19 +24,12 @@ public void @this(short n1){
 
 public void @this(short n1, global::java.lang.String n2, global::org.w3c.dom.Node n3, int n4){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: void <init>(short, java.lang.String, org.w3c.dom.Node, int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -57,11 +46,8 @@ public void @this(short n1, global::java.lang.String n2, global::org.w3c.dom.Nod
 
 public virtual global::System.Object getNode(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: org.w3c.dom.Node getNode()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDOMException) _r1_o)._fnode;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -70,11 +56,8 @@ public virtual global::System.Object getNode(){
 
 public virtual global::System.Object getData(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: java.lang.String getData()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::gnu.xml.dom.DomDOMException) _r1_o)._fdata;
     return (global::java.lang.String) _r0_o;
@@ -84,10 +67,7 @@ public virtual global::System.Object getData(){
 public virtual int getValue(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: int getValue()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::gnu.xml.dom.DomDOMException) _r1_o)._fvalue;
     return _r0.i;
@@ -96,13 +76,10 @@ public virtual int getValue(){
 
 public override global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: java.lang.String getMessage()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = base.getMessage();
     _r1_o = ((global::gnu.xml.dom.DomDOMException) _r2_o)._fdata;
@@ -151,13 +128,9 @@ public override global::System.Object getMessage(){
 
 private static global::System.Object diagnostic(short n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomDOMException: java.lang.String diagnostic(short)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     switch (_r2.i) {
     case 1: goto label19;

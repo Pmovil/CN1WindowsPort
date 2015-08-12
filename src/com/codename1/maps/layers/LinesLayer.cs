@@ -9,13 +9,9 @@ public int _f_1lineColor;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.maps.Mercator();
     ((global::com.codename1.maps.Mercator) _r0_o).@this();
@@ -29,13 +25,9 @@ public void @this(){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void <init>(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.maps.Mercator();
@@ -49,13 +41,9 @@ public void @this(global::com.codename1.maps.Projection n1, global::java.lang.St
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void <init>(com.codename1.maps.Projection, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -72,18 +60,12 @@ public void @this(global::com.codename1.maps.Projection n1, global::java.lang.St
 public override void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.maps.Tile n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void paint(com.codename1.ui.Graphics, com.codename1.maps.Tile)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -110,37 +92,21 @@ public override void paint(global::com.codename1.ui.Graphics n1, global::com.cod
 
 public virtual void paintSegment(global::com.codename1.ui.Graphics n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.maps.Tile n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void paintSegment(com.codename1.ui.Graphics, com.codename1.maps.Coord[], com.codename1.maps.Tile)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
-    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -200,12 +166,8 @@ public virtual void addLineSegment(global::org.xmlvm._nArrayAdapter<global::Syst
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label6;
@@ -230,11 +192,8 @@ public virtual void addLineSegment(global::org.xmlvm._nArrayAdapter<global::Syst
 
 public virtual void lineColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: void lineColor(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.maps.layers.LinesLayer) _r0_o)._f_1lineColor = _r1.i;
@@ -244,21 +203,14 @@ public virtual void lineColor(int n1){
 
 public override global::System.Object boundingBox(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.LinesLayer: com.codename1.maps.BoundingBox boundingBox()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r1_o = null;
     _r4.i = 0;

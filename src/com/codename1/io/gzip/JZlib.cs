@@ -75,9 +75,7 @@ public static sbyte _fZ_1UNKNOWN = 2;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: void <init>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -86,9 +84,7 @@ public void @this(){
 
 public static global::System.Object version(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: java.lang.String version()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=1.1.0
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)49)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 48))}));
@@ -99,22 +95,9 @@ public static global::System.Object version(){
 public static long adler32_1combine(long n1, long n2, long n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: long adler32_combine(long, long, long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.l = n1;
     _r4.l = n2;
     _r6.l = n3;
@@ -126,22 +109,9 @@ public static long adler32_1combine(long n1, long n2, long n3){
 public static long crc32_1combine(long n1, long n2, long n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: long crc32_combine(long, long, long)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.l = n1;
     _r4.l = n2;
     _r6.l = n3;
@@ -152,9 +122,7 @@ public static long crc32_1combine(long n1, long n2, long n3){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: void <clinit>()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.io.gzip.JZlib_2NONE();
     ((global::com.codename1.io.gzip.JZlib_2NONE) _r0_o).@this();
     global::com.codename1.io.gzip.JZlib._fW_1NONE = (global::com.codename1.io.gzip.JZlib_2WrapperType) _r0_o;

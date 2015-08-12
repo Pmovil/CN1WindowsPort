@@ -6,12 +6,8 @@ public class DomNode_2DomEventException: global::org.w3c.dom.events.EventExcepti
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$DomEventException: void <init>()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     // Value=unspecified event type

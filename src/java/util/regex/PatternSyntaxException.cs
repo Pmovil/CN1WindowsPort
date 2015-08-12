@@ -14,16 +14,10 @@ private int _findex;
 public void @this(global::java.lang.String n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PatternSyntaxException: void <init>(java.lang.String, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -40,11 +34,8 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, int 
 
 public virtual global::System.Object getPattern(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PatternSyntaxException: java.lang.String getPattern()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.PatternSyntaxException) _r1_o)._fpattern;
     return (global::java.lang.String) _r0_o;
@@ -66,10 +57,7 @@ public override global::System.Object getMessage(){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 1;
     // Value=
@@ -129,11 +117,8 @@ public override global::System.Object getMessage(){
 
 public virtual global::System.Object getDescription(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PatternSyntaxException: java.lang.String getDescription()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.util.regex.PatternSyntaxException) _r1_o)._fdesc;
     return (global::java.lang.String) _r0_o;
@@ -143,10 +128,7 @@ public virtual global::System.Object getDescription(){
 public virtual int getIndex(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PatternSyntaxException: int getIndex()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::java.util.regex.PatternSyntaxException) _r1_o)._findex;
     return _r0.i;

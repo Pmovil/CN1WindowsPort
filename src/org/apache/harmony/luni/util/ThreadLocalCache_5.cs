@@ -7,11 +7,8 @@ public global::org.apache.harmony.luni.util.ThreadLocalCache _fthis_20;
 
 public void @this(global::org.apache.harmony.luni.util.ThreadLocalCache n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache$5: void <init>(org.apache.harmony.luni.util.ThreadLocalCache)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::org.apache.harmony.luni.util.ThreadLocalCache_25) _r0_o)._fthis_20 = (global::org.apache.harmony.luni.util.ThreadLocalCache) _r1_o;
@@ -22,11 +19,8 @@ public void @this(global::org.apache.harmony.luni.util.ThreadLocalCache n1){
 
 public override global::System.Object initialValue(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache$5: java.lang.Object initialValue()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache_25) _r1_o)._fthis_20;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r0_o).initialValue();

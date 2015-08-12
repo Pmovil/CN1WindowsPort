@@ -12,14 +12,8 @@ public global::java.net.InetAddress _fthis_20;
 public void @this(global::java.net.InetAddress n1){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$CacheElement: void <init>(java.net.InetAddress)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.net.InetAddress_2CacheElement) _r2_o)._fthis_20 = (global::java.net.InetAddress) _r3_o;
@@ -32,11 +26,8 @@ public void @this(global::java.net.InetAddress n1){
 
 public virtual global::System.Object hostName(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$CacheElement: java.lang.String hostName()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetAddress_2CacheElement) _r1_o)._fthis_20;
     _r0_o = ((global::java.net.InetAddress) _r0_o)._fhostName;
@@ -46,11 +37,8 @@ public virtual global::System.Object hostName(){
 
 public virtual global::System.Object inetAddress(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress$CacheElement: java.net.InetAddress inetAddress()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::java.net.InetAddress_2CacheElement) _r1_o)._fthis_20;
     return (global::java.net.InetAddress) _r0_o;
