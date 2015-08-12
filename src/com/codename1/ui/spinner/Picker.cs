@@ -101,7 +101,6 @@ public virtual global::System.Object getDate(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue;
-    _r0_o = _r0_o;
     return (global::java.util.Date) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: java.util.Date getDate()]
 }
@@ -190,8 +189,6 @@ public virtual global::System.Object getStrings(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fmetaData;
-    _r0_o = _r0_o;
-    _r0_o = _r0_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.String[] getStrings()]
 }
@@ -213,7 +210,6 @@ public virtual global::System.Object getSelectedString(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Picker) _r0_o)._fvalue;
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: java.lang.String getSelectedString()]
 }
@@ -254,7 +250,6 @@ public virtual void updateValue(){
     label18:;
     _r5_o = global::com.codename1.l10n.L10NManager.getInstance();
     _r4_o = ((global::com.codename1.ui.spinner.Picker) _r7_o)._fvalue;
-    _r4_o = _r4_o;
     _r4_o = ((global::com.codename1.l10n.L10NManager) _r5_o).formatDateShortStyle((global::java.util.Date) _r4_o);
     ((global::com.codename1.ui.spinner.Picker) _r7_o).setText((global::java.lang.String) _r4_o);
     goto label11;
@@ -272,7 +267,6 @@ public virtual void updateValue(){
     goto label11;
     label66:;
     _r4_o = ((global::com.codename1.ui.spinner.Picker) _r7_o)._fvalue;
-    _r4_o = _r4_o;
     _r3.i = ((global::java.lang.Integer) _r4_o).intValue();
     _r0.i = _r3.i / 60;
     _r1.i = _r3.i % 60;
@@ -322,7 +316,6 @@ public virtual void updateValue(){
     label170:;
     _r5_o = global::com.codename1.l10n.L10NManager.getInstance();
     _r4_o = ((global::com.codename1.ui.spinner.Picker) _r7_o)._fvalue;
-    _r4_o = _r4_o;
     _r4_o = ((global::com.codename1.l10n.L10NManager) _r5_o).formatDateTimeShort((global::java.util.Date) _r4_o);
     ((global::com.codename1.ui.spinner.Picker) _r7_o).setText((global::java.lang.String) _r4_o);
     goto label11;
@@ -366,7 +359,6 @@ public virtual int getTime(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.spinner.Picker) _r1_o)._fvalue;
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker: int getTime()]

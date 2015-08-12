@@ -3001,7 +3001,6 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     _r4.i = ((global::com.codename1.ui.List) _r5_o)._fdisposeDialogOnSelection ? 1 : 0;
     if (_r4.i == 0) goto label29;
     _r4_o = ((global::com.codename1.ui.List) _r5_o).getComponentForm();
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.Dialog) _r4_o).dispose();
     label29:;
     base.fireActionEvent();
@@ -3016,19 +3015,16 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     _r4.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Command)) ? 1 : 0;
     if (_r4.i == 0) goto label93;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4.i = ((global::com.codename1.ui.Command) _r4_o).isEnabled() ? 1 : 0;
     if (_r4.i == 0) goto label93;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     ((global::com.codename1.ui.Command) _r4_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r6_o);
     _r4.i = ((global::com.codename1.ui.events.ActionEvent) _r6_o).isConsumed() ? 1 : 0;
     if (_r4.i != 0) goto label93;
     _r2_o = ((global::com.codename1.ui.List) _r5_o).getComponentForm();
     if (_r2_o == null) goto label93;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Form) _r2_o).actionCommandImpl((global::com.codename1.ui.Command) _r3_o);
     label93:;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -4061,7 +4057,6 @@ private void pointerReleasedImpl(int n1, int n2, bool n3, bool n4){
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label380;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r21_o = _r0_o;
     _r0_o = _r21_o;
     _r1.i = _r15.i;

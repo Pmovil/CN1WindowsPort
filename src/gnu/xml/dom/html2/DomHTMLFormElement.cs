@@ -62,7 +62,6 @@ public virtual global::System.Object getElements(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLFormElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=input
     _r0_o = new global::java.lang.String();

@@ -614,7 +614,6 @@ public override void scale(int n1, int n2){
     _r3.i = n1;
     _r4.i = n2;
     _r0_o = ((global::com.codename1.ui.IndexedImage) _r2_o).scaled((int) _r3.i, (int) _r4.i);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.IndexedImage) _r0_o)._fimageDataByte;
     ((global::com.codename1.ui.IndexedImage) _r2_o)._fimageDataByte = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
     ((global::com.codename1.ui.IndexedImage) _r2_o)._fwidth = _r3.i;

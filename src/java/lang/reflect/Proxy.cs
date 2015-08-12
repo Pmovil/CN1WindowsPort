@@ -117,7 +117,6 @@ public static global::System.Object getProxyClass(global::java.lang.ClassLoader 
     try {
     _r0_o = global::java.lang.reflect.Proxy._floaderCache;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r11_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label433;
     _r0_o = global::java.lang.reflect.Proxy._floaderCache;
     _r3_o = new global::java.util.HashMap();
@@ -158,7 +157,6 @@ public static global::System.Object getProxyClass(global::java.lang.ClassLoader 
     label60:;
     try {
     _r0_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label339;
     _r0_o = new global::java.lang.StringBuilder();
     // Value=$Proxy
@@ -440,7 +438,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     label339:;
     try {
     _r11_o = ((global::java.lang.@ref.WeakReference) _r0_o).get();
-    _r11_o = _r11_o;
     _r0.i = global::java.lang.reflect.Proxy._f_2assertionsDisabled ? 1 : 0;
     if (_r0.i != 0) goto label430;
     if (_r11_o != null) goto label430;
@@ -569,7 +566,6 @@ public static global::System.Object newProxyInstance(global::java.lang.ClassLoad
     _r2_o = ((global::java.lang.NoSuchMethodException) _r0_o).toString();
     ((global::java.lang.InternalError) _r1_o).@this((global::java.lang.String) _r2_o);
     _r4_o = ((global::java.lang.InternalError) _r1_o).initCause((global::java.lang.Throwable) _r0_o);
-    _r4_o = _r4_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.InternalError) _r4_o);
     label52:;
     _r0_o = _ex.getJavaException();
@@ -578,7 +574,6 @@ public static global::System.Object newProxyInstance(global::java.lang.ClassLoad
     _r2_o = ((global::java.lang.IllegalAccessException) _r0_o).toString();
     ((global::java.lang.InternalError) _r1_o).@this((global::java.lang.String) _r2_o);
     _r4_o = ((global::java.lang.InternalError) _r1_o).initCause((global::java.lang.Throwable) _r0_o);
-    _r4_o = _r4_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.InternalError) _r4_o);
     label69:;
     _r0_o = _ex.getJavaException();
@@ -587,7 +582,6 @@ public static global::System.Object newProxyInstance(global::java.lang.ClassLoad
     _r2_o = ((global::java.lang.InstantiationException) _r0_o).toString();
     ((global::java.lang.InternalError) _r1_o).@this((global::java.lang.String) _r2_o);
     _r4_o = ((global::java.lang.InternalError) _r1_o).initCause((global::java.lang.Throwable) _r0_o);
-    _r4_o = _r4_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.InternalError) _r4_o);
     label86:;
     _r0_o = _ex.getJavaException();
@@ -597,7 +591,6 @@ public static global::System.Object newProxyInstance(global::java.lang.ClassLoad
     _r2_o = ((global::java.lang.Throwable) _r0_o).toString();
     ((global::java.lang.InternalError) _r1_o).@this((global::java.lang.String) _r2_o);
     _r4_o = ((global::java.lang.InternalError) _r1_o).initCause((global::java.lang.Throwable) _r0_o);
-    _r4_o = _r4_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.InternalError) _r4_o);
 //XMLVM_END_WRAPPER[java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler)]
 }
@@ -661,7 +654,6 @@ public static global::System.Object getInvocationHandler(global::java.lang.Objec
     _r0_o = ((global::java.lang.Object) _r2_o).getClass();
     _r0.i = global::java.lang.reflect.Proxy.isProxyClass((global::java.lang.Class) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.lang.reflect.Proxy) _r2_o)._fh;
     return (global::java.lang.reflect.InvocationHandler) _r0_o;
     label15:;

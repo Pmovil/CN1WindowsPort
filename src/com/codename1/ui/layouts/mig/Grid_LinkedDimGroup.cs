@@ -121,7 +121,6 @@ private void layout(global::com.codename1.ui.layouts.mig.DimConstraint n1, int n
     _r1_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r8_o)._f_1compWraps;
     _r2.i = 0;
     _r1_o = ((global::java.util.ArrayList) _r1_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r1_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o);
     _r0_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r1_o).getParent();
     _r1.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r8_o)._flinkType;

@@ -309,7 +309,6 @@ public static global::System.Object valueToString(global::java.lang.Object n1, i
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label26;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = global::com.codename1.processing.PrettyPrinter.quote((global::java.lang.String) _r1_o);
     }
@@ -350,13 +349,11 @@ public static global::System.Object valueToString(global::java.lang.Object n1, i
     label64:;
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label75;
-    _r2_o = _r2_o;
     _r1_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.Map) _r2_o, (int) _r3.i, (int) _r4.i);
     goto label11;
     label75:;
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r1.i == 0) goto label86;
-    _r2_o = _r2_o;
     _r1_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.List) _r2_o, (int) _r3.i, (int) _r4.i);
     goto label11;
     label86:;
@@ -513,7 +510,6 @@ public static global::System.Object valueToString(global::java.lang.Object n1){
     label12:;
     _r0.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label11;
     label20:;

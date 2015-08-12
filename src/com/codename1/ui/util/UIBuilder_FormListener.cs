@@ -149,7 +149,6 @@ public virtual void run(){
     _r2_o = ((global::com.codename1.ui.util.UIBuilder) _r2_o).fetchResourceFile();
     _r3_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r4_o)._fnextForm;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o).createContainer((global::com.codename1.ui.util.Resources) _r2_o, (global::java.lang.String) _r3_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r4_o)._fthis_20;
     ((global::com.codename1.ui.util.UIBuilder) _r1_o).beforeShow((global::com.codename1.ui.Form) _r0_o);
     ((global::com.codename1.ui.Form) _r0_o).show();
@@ -192,7 +191,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r7.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Form)) ? 1 : 0;
     if (_r7.i == 0) goto label38;
     _r7_o = ((global::com.codename1.ui.events.ActionEvent) _r11_o).getSource();
-    _r7_o = _r7_o;
     ((global::com.codename1.ui.Form) _r7_o).removeShowListener((global::com.codename1.ui.events.ActionListener) _r10_o);
     _r7_o = global::com.codename1.ui.Display.getInstance();
     // Value=UIBuilder Async
@@ -205,7 +203,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     label38:;
     _r7_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r10_o)._fthis_20;
     _r10_o = ((global::com.codename1.ui.events.ActionEvent) _r11_o).getSource();
-    _r10_o = _r10_o;
     ((global::com.codename1.ui.util.UIBuilder) _r7_o).handleComponentAction((global::com.codename1.ui.Component) _r10_o, (global::com.codename1.ui.events.ActionEvent) _r11_o);
     goto label37;
     label50:;
@@ -217,7 +214,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 36))}));
     _r0_o = ((global::com.codename1.ui.Command) _r1_o).getClientProperty((global::java.lang.String) _r7_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label37;
     _r7.i = ((global::java.lang.String) _r0_o).length();
     if (_r7.i <= 0) goto label37;
@@ -249,7 +245,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 36))}));
     _r10_o = ((global::com.codename1.ui.Command) _r1_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r10_o = _r10_o;
     ((global::com.codename1.ui.Display) _r7_o).execute((global::java.lang.String) _r10_o);
     goto label37;
     label133:;
@@ -286,7 +281,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r8_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r10_o)._fthis_20;
     _r8_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).fetchResourceFile();
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r7_o).createContainer((global::com.codename1.ui.util.Resources) _r8_o, (global::java.lang.String) _r4_o);
-    _r3_o = _r3_o;
     _r7_o = global::com.codename1.ui.Display.getInstance();
     _r7_o = ((global::com.codename1.ui.Display) _r7_o).getCurrent();
     _r7_o = ((global::com.codename1.ui.Form) _r7_o).getBackCommand();
@@ -331,7 +325,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r8_o = ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r10_o)._fthis_20;
     _r8_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).fetchResourceFile();
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r7_o).createContainer((global::com.codename1.ui.util.Resources) _r8_o, (global::java.lang.String) _r0_o);
-    _r3_o = _r3_o;
     _r7_o = global::com.codename1.ui.Display.getInstance();
     _r7_o = ((global::com.codename1.ui.Display) _r7_o).getCurrent();
     _r7_o = ((global::com.codename1.ui.Form) _r7_o).getBackCommand();

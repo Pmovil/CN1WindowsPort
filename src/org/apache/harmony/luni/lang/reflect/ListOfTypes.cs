@@ -135,10 +135,8 @@ private global::System.Object resolveTypes(global::java.util.List n1){
     _r5.i = ((global::java.util.List) _r7_o).size();
     if (_r2.i >= _r5.i) goto label37;
     _r4_o = ((global::java.util.List) _r7_o).get((int) _r2.i);
-    _r4_o = _r4_o;
     try {
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r5_o).getResolvedType();
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r5_o;

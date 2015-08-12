@@ -475,7 +475,6 @@ private static bool checkPackageProperty(global::java.lang.String n1, global::ja
     _r9.i = 1;
     _r8_o = global::org.apache.harmony.luni.util.PriviAction.getSecurityProperty((global::java.lang.String) _r11_o);
     _r3_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r8_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label93;
     _r4.i = ((global::java.lang.String) _r12_o).length();
     // Value=, *
@@ -676,7 +675,6 @@ public virtual bool checkTopLevelWindow(global::java.lang.Object n1){
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 87)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 87)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 87)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r5.i] = _r6_o;
     _r3_o = ((global::java.lang.reflect.Constructor) _r1_o).newInstance((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
-    _r3_o = _r3_o;
     ((global::java.lang.SecurityManager) _r9_o).checkPermission((global::java.security.Permission) _r3_o);
     }
     catch (global::System.Exception e) {
@@ -772,7 +770,6 @@ public virtual void checkSystemClipboardAccess(){
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100))}));
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r4.i] = _r5_o;
     _r2_o = ((global::java.lang.reflect.Constructor) _r1_o).newInstance((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
-    _r2_o = _r2_o;
     ((global::java.lang.SecurityManager) _r6_o).checkPermission((global::java.security.Permission) _r2_o);
     }
     catch (global::System.Exception e) {
@@ -858,7 +855,6 @@ public virtual void checkAwtEventQueueAccess(){
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 81)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r4.i] = _r5_o;
     _r2_o = ((global::java.lang.reflect.Constructor) _r1_o).newInstance((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
-    _r2_o = _r2_o;
     ((global::java.lang.SecurityManager) _r6_o).checkPermission((global::java.security.Permission) _r2_o);
     }
     catch (global::System.Exception e) {

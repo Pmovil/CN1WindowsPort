@@ -342,7 +342,6 @@ private void addSortedToQueue(global::com.codename1.io.ConnectionRequest n1, int
     if (_r0.i >= _r2.i) goto label32;
     _r2_o = ((global::com.codename1.io.NetworkManager) _r3_o)._fpending;
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.io.ConnectionRequest) _r1_o).getPriority();
     if (_r2.i >= _r5.i) goto label29;
     _r2_o = ((global::com.codename1.io.NetworkManager) _r3_o)._fpending;

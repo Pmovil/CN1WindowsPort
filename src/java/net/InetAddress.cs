@@ -143,7 +143,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = _r4.i;
     goto label4;
     label17:;
-    _r6_o = _r6_o;
     _r1_o = ((global::java.net.InetAddress) _r6_o)._fipaddress;
     _r0.i = 0;
     label22:;
@@ -171,7 +170,6 @@ public virtual global::System.Object getAddress(){
     _r1_o = this;
     _r0_o = ((global::java.net.InetAddress) _r1_o)._fipaddress;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
 //XMLVM_END_WRAPPER[java.net.InetAddress: byte[] getAddress()]
 }
@@ -688,7 +686,6 @@ public static global::System.Object lookupHostByName(global::java.lang.String n1
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r7_o).@this((global::java.lang.String) _r8_o);
     _r5_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r7_o);
-    _r5_o = _r5_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -837,7 +834,6 @@ public static global::System.Object lookupHostByName(global::java.lang.String n1
     _r7_o = new global::java.net.UnknownHostException();
     ((global::java.net.UnknownHostException) _r7_o).@this((global::java.lang.String) _r11_o);
     _r11_o = ((global::java.net.UnknownHostException) _r7_o).initCause((global::java.lang.Throwable) _r1_o);
-    _r11_o = _r11_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.net.UnknownHostException) _r11_o);
     }
     catch (global::System.Exception e) {
@@ -1192,7 +1188,6 @@ private bool isReachableByMultiThread(global::java.net.NetworkInterface n1, int 
     _r0.i = ((global::java.util.Enumeration) _r7_o).hasMoreElements() ? 1 : 0;
     if (_r0.i == 0) goto label112;
     _r3_o = ((global::java.util.Enumeration) _r7_o).nextElement();
-    _r3_o = _r3_o;
     _r0.i = ((global::java.net.InetAddress) _r3_o).isLoopbackAddress() ? 1 : 0;
     if (_r0.i == 0) goto label98;
     _r6_o = global::java.net.NetworkInterface.getNetworkInterfaces();
@@ -1200,7 +1195,6 @@ private bool isReachableByMultiThread(global::java.net.NetworkInterface n1, int 
     _r0.i = ((global::java.util.Enumeration) _r6_o).hasMoreElements() ? 1 : 0;
     if (_r0.i == 0) goto label75;
     _r10_o = ((global::java.util.Enumeration) _r6_o).nextElement();
-    _r10_o = _r10_o;
     _r8_o = ((global::java.net.NetworkInterface) _r10_o).getInetAddresses();
     label57:;
     _r0.i = ((global::java.util.Enumeration) _r8_o).hasMoreElements() ? 1 : 0;
@@ -1456,7 +1450,6 @@ public static global::System.Object getByAddress(global::org.xmlvm._nArrayAdapte
     goto label23;
     label57:;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o).clone();
-    _r0_o = _r0_o;
     _r2_o = new global::java.net.Inet6Address();
     ((global::java.net.Inet6Address) _r2_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r6.i);
     goto label23;
@@ -1788,8 +1781,6 @@ public static global::System.Object createHostNameFromIPAddress(global::java.lan
     label143:;
     _r0.i = ((global::java.util.StringTokenizer) _r8_o).hasMoreTokens() ? 1 : 0;
     if (_r0.i == 0) goto label286;
-    _r4_o = _r4_o;
-    _r5_o = _r5_o;
     _r7_o = ((global::java.util.StringTokenizer) _r8_o).nextToken();
     // Value=:
     _r0_o = new global::java.lang.String();
@@ -1928,7 +1919,6 @@ public static global::System.Object createHostNameFromIPAddress(global::java.lan
     _r4.i = ((global::java.util.ArrayList) _r3_o).size();
     if (_r0.i >= _r4.i) goto label379;
     _r4_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
-    _r4_o = _r4_o;
     _r5.i = _r0.i * 2;
     global::org.apache.harmony.luni.util.Inet6Util.convertToBytes((global::java.lang.String) _r4_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r2_o, (int) _r5.i);
     _r0.i = _r0.i + 1;
@@ -1940,7 +1930,6 @@ public static global::System.Object createHostNameFromIPAddress(global::java.lan
     if (_r0.i >= _r3.i) goto label406;
     _r4.i = _r0.i + 12;
     _r3_o = ((global::java.util.ArrayList) _r1_o).get((int) _r0.i);
-    _r3_o = _r3_o;
     _r3.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r3_o);
     _r3.i = _r3.i & 255;
     _r3.i = (_r3.i << 24) >> 24;
@@ -2102,7 +2091,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r3_o = null;
     _r2_o = ((global::java.io.ObjectInputStream_2GetField) _r1_o).get((global::java.lang.String) _r2_o, (global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     ((global::java.net.InetAddress) _r4_o)._fhostName = (global::java.lang.String) _r2_o;
     // Value=family
     _r2_o = new global::java.lang.String();

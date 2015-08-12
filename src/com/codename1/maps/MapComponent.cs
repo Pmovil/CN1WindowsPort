@@ -90,7 +90,6 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = null;
-    _r0_o = _r0_o;
     _r1.i = 4;
     _r2.i = 1;
     ((global::com.codename1.maps.MapComponent) _r3_o).@this((global::com.codename1.maps.providers.MapProvider) _r4_o, (global::com.codename1.maps.Coord) _r0_o, (int) _r1.i, 0!=_r2.i);
@@ -1199,7 +1198,6 @@ public override void pointerReleased(int n1, int n2){
     _r27.i = ((global::java.util.Enumeration) _r12_o).hasMoreElements() ? 1 : 0;
     if (_r27.i == 0) goto label820;
     _r13_o = ((global::java.util.Enumeration) _r12_o).nextElement();
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
     _r0_o = ((global::com.codename1.maps.LayerWithZoomLevels) _r0_o)._flayer;
     _r27_o = _r0_o;
@@ -1208,7 +1206,6 @@ public override void pointerReleased(int n1, int n2){
     _r27.i = _r0.i;
     if (_r27.i == 0) goto label787;
     _r6_o = ((global::com.codename1.maps.LayerWithZoomLevels) _r13_o)._flayer;
-    _r6_o = _r6_o;
     ((global::com.codename1.maps.layers.PointsLayer) _r6_o).fireActionEvent((global::com.codename1.maps.BoundingBox) _r5_o);
     goto label787;
     label820:;
@@ -1536,7 +1533,6 @@ private void drawTiles(global::com.codename1.ui.Graphics n1){
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label71;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.maps.PositionedTile) _r1_o).tile();
     _r3_o = ((global::com.codename1.maps.PositionedTile) _r1_o).position();
     _r3.i = ((global::com.codename1.ui.geom.Point) _r3_o).getX();
@@ -1610,7 +1606,6 @@ private void drawLayers(global::com.codename1.ui.Graphics n1){
     _r3.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label40;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r3.i = ((global::com.codename1.maps.MapComponent) _r5_o)._f_1zoom;
     _r4.i = ((global::com.codename1.maps.LayerWithZoomLevels) _r1_o)._fminZoomLevel;
     if (_r3.i < _r4.i) goto label10;
@@ -1709,7 +1704,6 @@ private void drawDebug(global::com.codename1.ui.Graphics n1){
     if (_r0.i >= _r2.i) goto label128;
     _r2_o = ((global::com.codename1.maps.MapComponent) _r6_o)._f_1layers;
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r1_o = _r1_o;
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
     // Value=Layer 
@@ -1791,7 +1785,6 @@ public virtual void removeLayer(global::com.codename1.maps.layers.Layer n1){
     if (_r1.i >= _r0.i) goto label21;
     _r2_o = ((global::com.codename1.maps.MapComponent) _r3_o)._f_1layers;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.maps.LayerWithZoomLevels) _r2_o)._flayer;
     if (_r2_o != _r4_o) goto label33;
     label21:;
@@ -1844,7 +1837,6 @@ public virtual global::System.Object getLayerAt(int n1){
     _r3.i = n1;
     _r1_o = ((global::com.codename1.maps.MapComponent) _r2_o)._f_1layers;
     _r2_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r3.i);
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.maps.LayerWithZoomLevels) _r2_o)._flayer;
     return (global::com.codename1.maps.layers.Layer) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.maps.MapComponent: com.codename1.maps.layers.Layer getLayerAt(int)]
@@ -2155,7 +2147,6 @@ public virtual void zoomToLayers(){
     _r4.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label36;
     _r2_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.maps.LayerWithZoomLevels) _r2_o)._flayer;
     _r3_o = ((global::com.codename1.maps.layers.Layer) _r4_o).boundingBox();
     if (_r3_o == null) goto label7;
@@ -2534,7 +2525,6 @@ private void fireMapListenerEvent(){
     _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label32;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.maps.MapComponent) _r4_o)._f_1zoom;
     _r3_o = ((global::com.codename1.maps.MapComponent) _r4_o).getCenter();
     ((global::com.codename1.maps.MapListener) _r1_o).mapPositionUpdated((global::com.codename1.ui.Component) _r4_o, (int) _r2.i, (global::com.codename1.maps.Coord) _r3_o);
@@ -2700,7 +2690,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r5_o = _r5_o;
     _r0.d = ((global::java.lang.Double) _r5_o).doubleValue();
     ((global::com.codename1.maps.MapComponent) _r3_o).setLatitude((double) _r0.d);
     _r0_o = _r2_o;
@@ -2712,7 +2701,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label39;
-    _r5_o = _r5_o;
     _r0.d = ((global::java.lang.Double) _r5_o).doubleValue();
     ((global::com.codename1.maps.MapComponent) _r3_o).setLongitude((double) _r0.d);
     _r0_o = _r2_o;
@@ -2723,7 +2711,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label58;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.lang.Integer) _r5_o).intValue();
     ((global::com.codename1.maps.MapComponent) _r3_o).setZoomLevel((int) _r0.i);
     _r0_o = _r2_o;

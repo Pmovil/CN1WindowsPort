@@ -39,11 +39,9 @@ public override bool matches(global::org.w3c.dom.Node n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.xpath.Pattern)) ? 1 : 0;
     if (_r0.i == 0) goto label37;
     _r0_o = ((global::gnu.xml.xpath.UnionExpr) _r2_o)._flhs;
-    _r0_o = _r0_o;
     _r0.i = ((global::gnu.xml.xpath.Pattern) _r0_o).matches((global::org.w3c.dom.Node) _r3_o) ? 1 : 0;
     if (_r0.i != 0) goto label35;
     _r2_o = ((global::gnu.xml.xpath.UnionExpr) _r2_o)._frhs;
-    _r2_o = _r2_o;
     _r0.i = ((global::gnu.xml.xpath.Pattern) _r2_o).matches((global::org.w3c.dom.Node) _r3_o) ? 1 : 0;
     if (_r0.i != 0) goto label35;
     _r0.i = _r1.i;
@@ -84,10 +82,8 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     _r3_o = new global::java.util.HashSet();
     ((global::java.util.HashSet) _r3_o).@this();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::java.util.Set) _r3_o).addAll((global::java.util.Collection) _r4_o);
     ((global::java.util.Set) _r3_o).addAll((global::java.util.Collection) _r1_o);

@@ -84,7 +84,6 @@ private void spreadComponents(global::java.util.ArrayList n1){
     _r2.i = ((global::java.util.ArrayList) _r5_o).size();
     if (_r0.i >= _r2.i) goto label37;
     _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.ui.layouts.GridBagLayout_2RelativeTranslator) _r4_o)._fcurY;
     _r3.i = 512;
     if (_r2.i != _r3.i) goto label27;
@@ -126,7 +125,6 @@ private void applyOrientation(global::com.codename1.ui.layouts.GridBagLayout_2Pa
     if (_r0.i >= _r2.i) goto label49;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r6_o)._fallConstraints;
     _r1_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._frelative ? 1 : 0;
     if (_r2.i == 0) goto label46;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
@@ -191,7 +189,6 @@ private int translateVert(global::com.codename1.ui.layouts.GridBagLayout_2MixedC
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r7_o)._fmapped;
     _r1.i = _r8.i - _r3.i;
     _r1_o = ((global::java.util.ArrayList) _r9_o).get((int) _r1.i);
-    _r1_o = _r1_o;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
     _r1.i = ((global::com.codename1.ui.geom.Rectangle) _r1_o).getY();
     _r1.i = _r1.i + 1;
@@ -415,7 +412,6 @@ private void recalculateRemainders(global::java.util.ArrayList n1){
     _r4.i = ((global::java.util.ArrayList) _r10_o).size();
     if (_r0.i >= _r4.i) goto label180;
     _r1_o = ((global::java.util.ArrayList) _r10_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._finitial;
     _r4.i = ((global::com.codename1.ui.geom.Rectangle) _r4_o).getWidth();
     if (_r4.i != 0) goto label62;
@@ -458,7 +454,6 @@ private void recalculateRemainders(global::java.util.ArrayList n1){
     if (_r4.i >= _r5.i) goto label37;
     _r4.i = _r0.i + 1;
     _r4_o = ((global::java.util.ArrayList) _r10_o).get((int) _r4.i);
-    _r4_o = _r4_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r4_o)._fmapped;
     _r4.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getX();
     _r4.i = _r4.i + _r3.i;
@@ -483,7 +478,6 @@ private void recalculateRemainders(global::java.util.ArrayList n1){
     if (_r4.i >= _r5.i) goto label59;
     _r4.i = _r0.i + 1;
     _r4_o = ((global::java.util.ArrayList) _r10_o).get((int) _r4.i);
-    _r4_o = _r4_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r4_o)._fmapped;
     _r4.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getY();
     _r4.i = _r4.i + _r3.i;

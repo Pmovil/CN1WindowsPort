@@ -21,7 +21,6 @@ private global::System.Object getDoctype(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r2_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r2_o).getDocument();
-    _r2_o = _r2_o;
     _r2_o = ((global::gnu.xml.dom.DomDocument) _r2_o).getDoctype();
     if (_r2_o != null) goto label20;
     _r0_o = new global::org.xml.sax.SAXException();
@@ -31,7 +30,6 @@ private global::System.Object getDoctype(){
     ((global::org.xml.sax.SAXException) _r0_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label20:;
-    _r2_o = _r2_o;
     return (global::gnu.xml.dom.DomDoctype) _r2_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.Consumer$Backdoor: gnu.xml.dom.DomDoctype getDoctype()]
 }
@@ -49,7 +47,6 @@ public override void startDTD(global::java.lang.String n1, global::java.lang.Str
     _r4_o = n2;
     _r5_o = n3;
     _r0_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r2_o).getDocument();
-    _r0_o = _r0_o;
     base.startDTD((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     _r1_o = new global::gnu.xml.dom.DomDoctype();
     ((global::gnu.xml.dom.DomDoctype) _r1_o).@this((global::gnu.xml.dom.DomDocument) _r0_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
@@ -174,9 +171,7 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     return;
     label19:;
     _r7_o = ((global::org.w3c.dom.Node) _r1_o).getAttributes();
-    _r7_o = _r7_o;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = ((global::org.xml.sax.Attributes) _r11_o).getLength();
     _r4.i = _r6.i;
@@ -198,13 +193,11 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     _r2_o = ((global::org.xml.sax.ext.Attributes2) _r1_o).getURI((int) _r4.i);
     _r5_o = ((global::org.xml.sax.Attributes) _r11_o).getLocalName((int) _r4.i);
     _r2_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r7_o).getNamedItemNS((global::java.lang.String) _r2_o, (global::java.lang.String) _r5_o);
-    _r2_o = _r2_o;
     label72:;
     ((global::gnu.xml.dom.DomAttr) _r2_o).setSpecified(0!=_r6.i);
     goto label42;
     label76:;
     _r2_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r7_o).getNamedItem((global::java.lang.String) _r2_o);
-    _r2_o = _r2_o;
     goto label72;
 //XMLVM_END_WRAPPER[gnu.xml.dom.Consumer$Backdoor: void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes)]
 }
@@ -221,7 +214,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     _r3_o = n2;
     _r4_o = n3;
     _r0_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r1_o).getTop();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.DomNode) _r0_o).compact();
     base.endElement((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     return;
@@ -242,7 +234,6 @@ public override global::System.Object createText(bool n1, global::org.xmlvm._nAr
     _r4.i = n3;
     _r5.i = n4;
     _r1_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r1_o).getDocument();
-    _r1_o = _r1_o;
     if (_r2.i == 0) goto label13;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r1_o).createCDATASection((global::org.xmlvm._nArrayAdapter<char>) _r3_o, (int) _r4.i, (int) _r5.i);
     label12:;
@@ -306,7 +297,6 @@ public override void startDocument(){
     _r1_o = this;
     base.startDocument();
     _r1_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r1_o).getDocument();
-    _r1_o = _r1_o;
     _r0.i = 0;
     ((global::gnu.xml.dom.DomDocument) _r1_o).setStrictErrorChecking(0!=_r0.i);
     _r0.i = 1;
@@ -322,14 +312,12 @@ public override void endDocument(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r2_o).getDocument();
-    _r0_o = _r0_o;
     _r1.i = 1;
     ((global::gnu.xml.dom.DomDocument) _r0_o).setStrictErrorChecking(0!=_r1.i);
     _r1.i = 0;
     ((global::gnu.xml.dom.DomDocument) _r0_o).setBuilding(0!=_r1.i);
     ((global::gnu.xml.dom.DomDocument) _r0_o).compact();
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label28;
     ((global::gnu.xml.dom.DomDoctype) _r0_o).makeReadonly();
     label28:;
@@ -372,7 +360,6 @@ public override void startEntity(global::java.lang.String n1){
     label18:;
     base.startEntity((global::java.lang.String) _r4_o);
     _r3_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r3_o).getTop();
-    _r3_o = _r3_o;
     _r0.i = ((global::gnu.xml.dom.DomNode) _r3_o).getNodeType();
     _r1.i = 5;
     if (_r0.i != _r1.i) goto label17;
@@ -404,7 +391,6 @@ public override void endEntity(global::java.lang.String n1){
     return;
     label18:;
     _r0_o = ((global::gnu.xml.dom.Consumer_2Backdoor) _r3_o).getTop();
-    _r0_o = _r0_o;
     _r1.i = ((global::gnu.xml.dom.DomNode) _r0_o).getNodeType();
     _r2.i = 5;
     if (_r1.i != _r2.i) goto label37;

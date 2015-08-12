@@ -15,7 +15,6 @@ public void @this(global::java.util.regex.AbstractSet n1, global::java.util.rege
     _r3_o = n2;
     _r4.i = n3;
     ((global::java.util.regex.AltGroupQuantifierSet) _r1_o).@this((global::java.util.regex.AbstractSet) _r2_o, (global::java.util.regex.AbstractSet) _r3_o, (int) _r4.i);
-    _r2_o = _r2_o;
     _r0_o = global::java.util.regex.FSet._fposFSet;
     ((global::java.util.regex.JointSet) _r2_o).setNext((global::java.util.regex.AbstractSet) _r0_o);
     return;

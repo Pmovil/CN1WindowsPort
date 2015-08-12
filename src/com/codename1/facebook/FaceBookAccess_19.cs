@@ -74,7 +74,6 @@ public virtual global::System.Object getItem(int n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r9_o = base.getItemAt((int) _r14.i);
-    _r9_o = _r9_o;
     // Value=fetching
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
@@ -89,7 +88,6 @@ public virtual global::System.Object getItem(int n1){
     if (_r11.i >= _r12.i) goto label49;
     _r0.i = _r11.i + _r14.i;
     _r8_o = base.getItemAt((int) _r0.i);
-    _r8_o = _r8_o;
     // Value=fetching
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
@@ -136,7 +134,6 @@ public virtual global::System.Object getItem(int n1){
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess_219) _r13_o)._fthis_20;
     _r0_o = global::com.codename1.facebook.FaceBookAccess.access_2100((global::com.codename1.facebook.FaceBookAccess) _r0_o);
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r10.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r7_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r0_o);
     _r10.i = _r10.i + 1;
     goto label117;
@@ -156,12 +153,10 @@ public virtual global::System.Object getItem(int n1){
     if (_r11.i >= _r12.i) goto label230;
     _r0.i = _r11.i + _r14.i;
     _r8_o = ((global::com.codename1.facebook.FaceBookAccess_219) _r13_o).getItemAt((int) _r0.i);
-    _r8_o = _r8_o;
     // Value=photo
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111))}));
     _r0_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.facebook.FaceBookAccess_219) _r13_o)._fval_2targetList;
     _r2.i = _r11.i + _r14.i;
     // Value=photo
@@ -173,7 +168,6 @@ public virtual global::System.Object getItem(int n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 100))}));
     _r4_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
-    _r4_o = _r4_o;
     _r4_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r4_o);
     _r5_o = ((global::com.codename1.facebook.FaceBookAccess_219) _r13_o)._fval_2placeholder;
     _r5.i = ((global::com.codename1.ui.Image) _r5_o).getHeight();

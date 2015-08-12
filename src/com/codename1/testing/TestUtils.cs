@@ -152,7 +152,6 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
     global::com.codename1.testing.TestUtils.assertBool(0!=_r0.i, (global::java.lang.String) _r1_o);
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label21;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.List) _r3_o).setSelectedIndex((int) _r4.i);
     label18:;
     return;
@@ -162,13 +161,11 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
     label21:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.list.ContainerList)) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.list.ContainerList) _r3_o).setSelectedIndex((int) _r4.i);
     goto label18;
     label31:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.spinner.GenericSpinner)) ? 1 : 0;
     if (_r0.i == 0) goto label45;
-    _r3_o = _r3_o;
     _r0_o = ((global::com.codename1.ui.spinner.GenericSpinner) _r3_o).getModel();
     ((global::com.codename1.ui.list.ListModel) _r0_o).setSelectedIndex((int) _r4.i);
     goto label18;
@@ -249,7 +246,6 @@ private static global::System.Object findByName(global::com.codename1.ui.Contain
     label67:;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label81;
-    _r0_o = _r0_o;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::com.codename1.ui.Container) _r0_o, (global::java.lang.String) _r7_o);
     if (_r0_o == null) goto label81;
     _r4_o = _r0_o;
@@ -337,20 +333,17 @@ private static global::System.Object findLabelText(global::com.codename1.ui.Cont
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r6.i == 0) goto label77;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Label) _r6_o).getText();
     if (_r5_o == null) goto label91;
     _r6.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r9_o) ? 1 : 0;
     if (_r6.i == 0) goto label91;
-    _r1_o = _r1_o;
     _r6_o = _r1_o;
     label76:;
     return (global::com.codename1.ui.Label) _r6_o;
     label77:;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label91;
-    _r1_o = _r1_o;
     _r4_o = global::com.codename1.testing.TestUtils.findLabelText((global::com.codename1.ui.Container) _r1_o, (global::java.lang.String) _r9_o);
     if (_r4_o == null) goto label91;
     _r6_o = _r4_o;
@@ -391,7 +384,6 @@ public static void clickButtonByLabel(global::java.lang.String n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label34:;
     _r0_o = global::com.codename1.testing.TestUtils.findLabelText((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
@@ -428,7 +420,6 @@ public static void clickButtonByName(global::java.lang.String n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label34:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
@@ -529,7 +520,6 @@ public static void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label38:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r4_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).released();
@@ -1757,7 +1747,6 @@ public static global::System.Object getComponentByPath(global::org.xmlvm._nArray
     label13:;
     _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
     if (_r1.i >= _r2.i) goto label27;
-    _r0_o = _r0_o;
     _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r1.i];
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r2.i);
     _r1.i = _r1.i + 1;
@@ -1802,13 +1791,11 @@ public static void setText(global::java.lang.String n1, global::java.lang.String
     _r1_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r2.i == 0) goto label56;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Label) _r1_o).setText((global::java.lang.String) _r5_o);
     label55:;
     return;
     label56:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r2_o).setText((global::java.lang.String) _r5_o);
     _r2_o = global::com.codename1.ui.Display.getInstance();
@@ -1852,12 +1839,10 @@ public static void setText(global::org.xmlvm._nArrayAdapter<int> n1, global::jav
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r1.i == 0) goto label60;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Label) _r0_o).setText((global::java.lang.String) _r4_o);
     label59:;
     return;
     label60:;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r0_o).setText((global::java.lang.String) _r4_o);
     goto label59;
 //XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void setText(int[], java.lang.String)]
@@ -5444,7 +5429,6 @@ public static void assertLabel(global::java.lang.String n1, global::java.lang.St
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label44:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r6_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label119;
     _r1.i = _r5.i;
     label53:;
@@ -5523,7 +5507,6 @@ public static void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global:
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label48:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r6_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label133;
     _r1.i = _r5.i;
     label57:;
@@ -5647,7 +5630,6 @@ public static void assertTextArea(global::java.lang.String n1, global::java.lang
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label42:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label118;
     _r1.i = 1;
     label51:;
@@ -5718,7 +5700,6 @@ public static void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, glob
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label46:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label122;
     _r1.i = 1;
     label55:;
@@ -5834,20 +5815,17 @@ private static global::System.Object findTextAreaText(global::com.codename1.ui.C
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r6.i == 0) goto label35;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.TextArea) _r6_o).getText();
     if (_r5_o == null) goto label49;
     _r6.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r8_o) ? 1 : 0;
     if (_r6.i == 0) goto label49;
-    _r1_o = _r1_o;
     _r6_o = _r1_o;
     label34:;
     return (global::com.codename1.ui.TextArea) _r6_o;
     label35:;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label49;
-    _r1_o = _r1_o;
     _r4_o = global::com.codename1.testing.TestUtils.findTextAreaText((global::com.codename1.ui.Container) _r1_o, (global::java.lang.String) _r8_o);
     if (_r4_o == null) goto label49;
     _r6_o = _r4_o;

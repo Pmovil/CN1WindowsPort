@@ -953,7 +953,6 @@ public virtual void replace0(int n1, int n2, global::java.lang.String n3){
     if (_r0.i == 0) goto label36;
     _r0_o = ((global::java.lang.AbstractStringBuilder) _r8_o)._fvalue;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<char>) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::java.lang.AbstractStringBuilder) _r8_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     ((global::java.lang.AbstractStringBuilder) _r8_o)._fshared = 0!=_r7.i;
     goto label36;
@@ -1218,7 +1217,6 @@ public virtual void setCharAt(int n1, char n2){
     if (_r0.i == 0) goto label29;
     _r0_o = ((global::java.lang.AbstractStringBuilder) _r1_o)._fvalue;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<char>) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::java.lang.AbstractStringBuilder) _r1_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     _r0.i = 0;
     ((global::java.lang.AbstractStringBuilder) _r1_o)._fshared = 0!=_r0.i;

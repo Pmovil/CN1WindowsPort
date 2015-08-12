@@ -110,7 +110,6 @@ private global::System.Object getScrollableParent(global::com.codename1.ui.Compo
     _r2.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label24;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label8:;
     if (_r1_o == null) goto label34;

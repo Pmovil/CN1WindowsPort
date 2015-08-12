@@ -26,7 +26,6 @@ public virtual global::System.Object getGenericComponentType(){
     _r2_o = this;
     try {
     _r1_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForArray) _r2_o)._fcomponentType;
-    _r1_o = _r1_o;
     _r1_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r1_o).getResolvedType();
     }
     catch (global::System.Exception e) {

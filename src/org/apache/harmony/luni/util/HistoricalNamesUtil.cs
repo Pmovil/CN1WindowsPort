@@ -1162,7 +1162,6 @@ public static global::System.Object getHistoricalName(global::java.lang.String n
     label10:;
     _r0_o = global::org.apache.harmony.luni.util.HistoricalNamesUtil._fhistoricalNames;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label9;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.HistoricalNamesUtil: java.lang.String getHistoricalName(java.lang.String)]

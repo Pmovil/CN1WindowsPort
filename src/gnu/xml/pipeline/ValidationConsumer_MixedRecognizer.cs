@@ -75,7 +75,6 @@ public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1, g
     label102:;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer_2MixedRecognizer) _r5_o)._fpermitted;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r0_o;
     _r0.i = _r2.i + 1;
     _r2.i = _r0.i;

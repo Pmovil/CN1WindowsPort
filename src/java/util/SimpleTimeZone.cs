@@ -809,12 +809,10 @@ public override global::System.Object clone(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.SimpleTimeZone) _r2_o)._fdaylightSavings;
     if (_r1_o == null) goto label20;
     _r1_o = ((global::java.util.SimpleTimeZone) _r2_o)._fdaylightSavings;
     _r2_o = ((global::java.util.GregorianCalendar) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.SimpleTimeZone) _r0_o)._fdaylightSavings = (global::java.util.GregorianCalendar) _r2_o;
     label20:;
     return (global::java.lang.Object) _r0_o;
@@ -861,7 +859,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     return _r0.i!=0;
     label7:;
-    _r4_o = _r4_o;
     _r0_o = ((global::java.util.SimpleTimeZone) _r3_o).getID();
     _r1_o = ((global::java.util.SimpleTimeZone) _r4_o).getID();
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -1122,7 +1119,6 @@ public override bool hasSameRules(global::java.util.TimeZone n1){
     label7:;
     return _r0.i!=0;
     label8:;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.SimpleTimeZone) _r4_o)._fuseDaylight ? 1 : 0;
     _r1.i = ((global::java.util.SimpleTimeZone) _r5_o)._fuseDaylight ? 1 : 0;
     if (_r0.i == _r1.i) goto label18;

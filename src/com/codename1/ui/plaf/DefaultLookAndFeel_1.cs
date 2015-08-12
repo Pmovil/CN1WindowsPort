@@ -74,7 +74,6 @@ public virtual bool animate(){
     if (_r0_o != _r1_o) goto label131;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
     _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r2.i = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fcounter;
     _r2.i = _r2.i * 30;
@@ -87,12 +86,10 @@ public virtual bool animate(){
     if (_r0.i != _r1.i) goto label94;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
     _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     ((global::com.codename1.ui.Label) _r0_o).setIcon((global::com.codename1.ui.Image) _r1_o);
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
     _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r1_o = ((global::com.codename1.ui.Image) _r1_o).rotate((int) _r3.i);
     ((global::com.codename1.ui.Label) _r0_o).setIcon((global::com.codename1.ui.Image) _r1_o);
@@ -117,7 +114,6 @@ public virtual bool animate(){
     label131:;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
     _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r2.i = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fcounter;
     _r2.i = _r2.i * 180;

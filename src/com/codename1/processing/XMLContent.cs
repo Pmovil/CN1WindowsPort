@@ -157,7 +157,6 @@ private global::System.Object _1asStructuredContentArray(global::java.util.List 
     if (_r2.i == 0) goto label40;
     _r2_o = new global::com.codename1.processing.XMLContent();
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     ((global::com.codename1.processing.XMLContent) _r2_o).@this((global::com.codename1.xml.Element) _r3_o);
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
     goto label13;

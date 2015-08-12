@@ -394,7 +394,6 @@ public virtual void flush(){
     if (_r0.i == 0) goto label16;
     try {
     _r0_o = ((global::java.util.Formatter) _r1_o)._fout;
-    _r0_o = _r0_o;
     ((global::java.io.Flushable) _r0_o).flush();
     }
     catch (global::System.Exception e) {
@@ -430,7 +429,6 @@ public virtual void close(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.io.Closeable)) ? 1 : 0;
     if (_r0.i == 0) goto label16;
     _r0_o = ((global::java.util.Formatter) _r1_o)._fout;
-    _r0_o = _r0_o;
     ((global::java.io.Closeable) _r0_o).close();
     }
     catch (global::System.Exception e) {

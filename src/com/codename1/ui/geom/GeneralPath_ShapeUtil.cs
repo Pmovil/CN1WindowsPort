@@ -369,7 +369,6 @@ public static global::System.Object segmentShape(global::com.codename1.ui.geom.R
     _r15.f = _r7.f;
     _r8_o = _r5_o;
     _r5_o = _r14_o;
-    _r8_o = _r8_o;
     _r14.f = _r15.f;
     _r19_o = _r9_o;
     _r9_o = _r8_o;

@@ -36,7 +36,6 @@ public override bool matches(global::org.w3c.dom.Node n1, int n2, int n3){
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.lang.Double)) ? 1 : 0;
     if (_r2.i == 0) goto label24;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = ((global::java.lang.Double) _r3_o).intValue();
     if (_r1.i != _r5.i) goto label22;

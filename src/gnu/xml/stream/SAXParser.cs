@@ -236,7 +236,6 @@ public override void setProperty(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r3.i == 0) goto label132;
-    _r7_o = _r7_o;
     ((global::gnu.xml.stream.SAXParser) _r5_o)._fdeclHandler = (global::org.xml.sax.ext.DeclHandler) _r7_o;
     goto label34;
     label132:;
@@ -245,7 +244,6 @@ public override void setProperty(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r3.i == 0) goto label145;
-    _r7_o = _r7_o;
     ((global::gnu.xml.stream.SAXParser) _r5_o)._flexicalHandler = (global::org.xml.sax.ext.LexicalHandler) _r7_o;
     goto label34;
     label145:;
@@ -515,7 +513,6 @@ public virtual bool getFeature(global::java.lang.String n1){
     _r0_o = ((global::gnu.xml.stream.SAXParser) _r2_o).getProperty((global::java.lang.String) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.Boolean)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r0_o = _r0_o;
     _r1.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     return _r1.i!=0;
     label15:;
@@ -1240,7 +1237,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.xml.sax.SAXException)) ? 1 : 0;
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label1709;
-    _r31_o = _r31_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r31_o);
     }
     catch (global::System.Exception e) {
@@ -2081,7 +2077,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r5.i = ((global::java.util.Iterator) _r36_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1682;
     _r34_o = ((global::java.util.Iterator) _r36_o).next();
-    _r34_o = _r34_o;
     _r5.i = 0;
     _r0_o = _r34_o;
     _r1.i = _r5.i;
@@ -2155,11 +2150,8 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r5.i = ((global::java.util.Iterator) _r38_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1262;
     _r24_o = ((global::java.util.Iterator) _r38_o).next();
-    _r24_o = _r24_o;
     _r12_o = ((global::java.util.Map_2Entry) _r24_o).getKey();
-    _r12_o = _r12_o;
     _r29_o = ((global::java.util.Map_2Entry) _r24_o).getValue();
-    _r29_o = _r29_o;
     _r0_o = _r29_o;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2AttributeDecl) _r0_o)._ftype;
     _r13_o = _r0_o;
@@ -2290,7 +2282,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r0_o = _r57_o;
     _r0_o = ((global::gnu.xml.stream.SAXParser) _r0_o)._fdeclHandler;
     _r5_o = _r0_o;
-    _r33_o = _r33_o;
     _r0_o = _r5_o;
     _r1_o = _r11_o;
     _r2_o = _r33_o;
@@ -2313,7 +2304,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     label1451:;
     try {
     _r0_o = _r33_o;
-    _r0_o = _r0_o;
     _r37_o = _r0_o;
     _r0_o = _r37_o;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2ExternalIds) _r0_o)._fnotationName;
@@ -2586,7 +2576,6 @@ public virtual void parse(global::org.xml.sax.InputSource n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.io.IOException)) ? 1 : 0;
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label1719;
-    _r31_o = _r31_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r31_o);
     }
     catch (global::System.Exception e) {

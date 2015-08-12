@@ -208,7 +208,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r4.i = 0;
     _r1.i = ((_r7_o != null) && (_r7_o is global::java.util.regex.CharSet)) ? 1 : 0;
     if (_r1.i == 0) goto label24;
-    _r7_o = _r7_o;
     _r1.i = ((global::java.util.regex.CharSet) _r7_o).getChar();
     _r2_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r2.i = ((global::java.lang.String) _r2_o).charAt((int) _r4.i);
@@ -222,7 +221,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     label24:;
     _r1.i = ((_r7_o != null) && (_r7_o is global::java.util.regex.RangeSet)) ? 1 : 0;
     if (_r1.i == 0) goto label46;
-    _r7_o = _r7_o;
     _r1_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r1_o = ((global::java.lang.String) _r1_o).substring((int) _r4.i, (int) _r5.i);
     _r1.i = ((global::java.util.regex.RangeSet) _r7_o).accepts((int) _r4.i, (global::java.lang.CharSequence) _r1_o);
@@ -236,7 +234,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r1.i = ((_r7_o != null) && (_r7_o is global::java.util.regex.SupplRangeSet)) ? 1 : 0;
     if (_r1.i == 0) goto label102;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r2.i = ((global::java.lang.String) _r2_o).charAt((int) _r4.i);
@@ -245,7 +242,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r1_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r1.i = ((global::java.lang.String) _r1_o).length();
     if (_r1.i <= _r5.i) goto label98;
-    _r7_o = _r7_o;
     _r1_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r1.i = ((global::java.lang.String) _r1_o).charAt((int) _r4.i);
     _r2_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
@@ -265,7 +261,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r1_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r1.i = ((global::java.lang.String) _r1_o).length();
     if (_r1.i <= _r5.i) goto label142;
-    _r7_o = _r7_o;
     _r1.i = ((global::java.util.regex.SupplCharSet) _r7_o).getCodePoint();
     _r2_o = ((global::java.util.regex.SequenceSet) _r6_o)._fstring;
     _r2.i = ((global::java.lang.String) _r2_o).charAt((int) _r4.i);

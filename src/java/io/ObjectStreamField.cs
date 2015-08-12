@@ -175,7 +175,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r3_o = null;
     _r2_o = this;
     _r3_o = n1;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.io.ObjectStreamField) _r2_o).isPrimitive() ? 1 : 0;
     _r1.i = ((global::java.io.ObjectStreamField) _r3_o).isPrimitive() ? 1 : 0;
     if (_r0.i == _r1.i) goto label18;
@@ -256,15 +255,12 @@ private global::System.Object getTypeInternal(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.@ref.WeakReference)) ? 1 : 0;
     if (_r0.i == 0) goto label18;
     _r1_o = ((global::java.io.ObjectStreamField) _r1_o)._ftype;
-    _r1_o = _r1_o;
     _r1_o = ((global::java.lang.@ref.WeakReference) _r1_o).get();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label17:;
     return (global::java.lang.Class) _r0_o;
     label18:;
     _r1_o = ((global::java.io.ObjectStreamField) _r1_o)._ftype;
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label17;
 //XMLVM_END_WRAPPER[java.io.ObjectStreamField: java.lang.Class getTypeInternal()]

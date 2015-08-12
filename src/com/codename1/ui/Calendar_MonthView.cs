@@ -937,7 +937,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = ((global::com.codename1.ui.Calendar_2MonthView) _r4_o)._fthis_20;
     _r2_o = global::com.codename1.ui.Calendar.access_2800((global::com.codename1.ui.Calendar) _r2_o);
     _r2_o = ((global::com.codename1.ui.ComboBox) _r2_o).getSelectedItem();
-    _r2_o = _r2_o;
     _r2.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o);
     _r3_o = ((global::com.codename1.ui.Calendar_2MonthView) _r4_o)._fthis_20;
     _r3_o = global::com.codename1.ui.Calendar.access_21000((global::com.codename1.ui.Calendar) _r3_o);

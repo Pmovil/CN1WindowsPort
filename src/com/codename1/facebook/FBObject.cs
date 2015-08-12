@@ -81,13 +81,11 @@ private void init(global::java.util.Hashtable n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 100))}));
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FBObject) _r1_o)._fid = (global::java.lang.String) _r0_o;
     // Value=name
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FBObject) _r1_o)._fname = (global::java.lang.String) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FBObject: void init(java.util.Hashtable)]
@@ -103,7 +101,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.facebook.FBObject) _r2_o)._fid;
-    _r3_o = _r3_o;
     _r1_o = ((global::com.codename1.facebook.FBObject) _r3_o)._fid;
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     return _r0.i!=0;

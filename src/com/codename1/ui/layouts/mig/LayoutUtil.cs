@@ -132,7 +132,6 @@ public static bool isDesignTime(global::com.codename1.ui.layouts.mig.ContainerWr
     _r2_o = ((global::com.codename1.ui.layouts.mig.ContainerWrapper) _r3_o).getComponent();
     label30:;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label48;
     _r1.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     if (_r1.i == 0) goto label48;
@@ -201,7 +200,6 @@ public static global::System.Object getCCString(global::java.lang.Object n1){
     if (_r0_o == null) goto label14;
     _r0_o = global::com.codename1.ui.layouts.mig.LayoutUtil._fCR_1MAP;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label13:;
     return (global::java.lang.String) _r0_o;
@@ -335,7 +333,6 @@ public static global::System.Object calculateSerial(global::org.xmlvm._nArrayAda
     _r0_o = _r21_o;
     _r1.i = _r23.i;
     _r4_o = global::com.codename1.ui.layouts.mig.LayoutUtil.getIndexSafe((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (int) _r1.i);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label126;
     _r5_o = new global::java.lang.Integer();
     if (_r6.i == 0) goto label134;
@@ -361,7 +358,6 @@ public static global::System.Object calculateSerial(global::org.xmlvm._nArrayAda
     _r0_o = _r3_o;
     _r1_o = _r23_o;
     _r11_o = ((global::java.util.TreeSet) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r11_o = _r11_o;
     _r23.i = 0;
     _r3.i = _r23.i;
     _r4.f = _r8.f;
@@ -410,7 +406,6 @@ public static global::System.Object calculateSerial(global::org.xmlvm._nArrayAda
     _r0_o = _r21_o;
     _r1.i = _r4.i;
     _r8_o = global::com.codename1.ui.layouts.mig.LayoutUtil.getIndexSafe((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (int) _r1.i);
-    _r8_o = _r8_o;
     if (_r8_o == null) goto label431;
     if (_r6.i == 0) goto label261;
     _r5.i = ((global::com.codename1.ui.layouts.mig.ResizeConstraint) _r8_o)._fgrowPrio;

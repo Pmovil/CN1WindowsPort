@@ -116,7 +116,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.regex.CharSet)) ? 1 : 0;
     if (_r0.i == 0) goto label17;
     _r0_o = ((global::java.util.regex.RangeSet) _r2_o)._fchars;
-    _r3_o = _r3_o;
     _r1.i = ((global::java.util.regex.CharSet) _r3_o).getChar();
     _r0.i = global::java.util.regex.AbstractCharClass.intersects((global::java.util.regex.AbstractCharClass) _r0_o, (int) _r1.i) ? 1 : 0;
     label16:;
@@ -125,7 +124,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.regex.RangeSet)) ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r0_o = ((global::java.util.regex.RangeSet) _r2_o)._fchars;
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.regex.RangeSet) _r3_o)._fchars;
     _r0.i = global::java.util.regex.AbstractCharClass.intersects((global::java.util.regex.AbstractCharClass) _r0_o, (global::java.util.regex.AbstractCharClass) _r1_o) ? 1 : 0;
     goto label16;
@@ -133,7 +131,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.regex.SupplRangeSet)) ? 1 : 0;
     if (_r0.i == 0) goto label49;
     _r0_o = ((global::java.util.regex.RangeSet) _r2_o)._fchars;
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.regex.SupplRangeSet) _r3_o).getChars();
     _r0.i = global::java.util.regex.AbstractCharClass.intersects((global::java.util.regex.AbstractCharClass) _r0_o, (global::java.util.regex.AbstractCharClass) _r1_o) ? 1 : 0;
     goto label16;

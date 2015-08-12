@@ -68,7 +68,6 @@ public virtual void dataChanged(int n1, int n2){
     _r1_o = global::com.codename1.ui.table.Table.access_2100((global::com.codename1.ui.table.Table) _r6_o, (global::java.lang.Object) _r5_o, (int) _r9.i, (int) _r10.i, 0!=_r3.i);
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r4_o = ((global::com.codename1.ui.table.Table) _r6_o).getLayout();
-    _r4_o = _r4_o;
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r2_o = ((global::com.codename1.ui.table.Table) _r6_o).createCellConstraint((global::java.lang.Object) _r5_o, (int) _r9.i, (int) _r10.i);
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
@@ -104,7 +103,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r5_o = this;
     _r6_o = n1;
     _r2_o = ((global::com.codename1.ui.events.ActionEvent) _r6_o).getSource();
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.table.Table_2Listener) _r5_o)._fthis_20;
     _r1.i = ((global::com.codename1.ui.table.Table) _r3_o).getCellRow((global::com.codename1.ui.Component) _r2_o);
     _r3_o = ((global::com.codename1.ui.table.Table_2Listener) _r5_o)._fthis_20;

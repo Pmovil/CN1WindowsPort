@@ -46,7 +46,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.share.EmailShare_21_22_21) _r10_o)._fthis_22;
     _r0_o = ((global::com.codename1.share.EmailShare_21_22) _r0_o)._fval_2contacts;
     _r7_o = ((global::com.codename1.ui.List) _r0_o).getSelectedItem();
-    _r7_o = _r7_o;
     _r0_o = ((global::com.codename1.share.EmailShare_21_22_21) _r10_o)._fthis_22;
     _r0_o = ((global::com.codename1.share.EmailShare_21_22) _r0_o)._fthis_21;
     _r0_o = ((global::com.codename1.share.EmailShare_21) _r0_o)._fval_2image;
@@ -62,7 +61,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108))}));
     _r3_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.share.EmailShare_21_22_21) _r10_o)._fthis_22;
     _r4_o = ((global::com.codename1.share.EmailShare_21_22) _r4_o)._fthis_21;
     _r4_o = ((global::com.codename1.share.EmailShare_21) _r4_o)._fval_2toShare;
@@ -86,7 +84,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108))}));
     _r3_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.share.EmailShare_21_22_21) _r10_o)._fthis_22;
     _r4_o = ((global::com.codename1.share.EmailShare_21_22) _r4_o)._fthis_21;
     _r4_o = ((global::com.codename1.share.EmailShare_21) _r4_o)._fval_2toShare;

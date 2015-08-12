@@ -128,7 +128,6 @@ public virtual void startBackTransition(global::com.codename1.ui.Form n1, global
     ((global::com.codename1.ui.Form) _r1_o).show();
     ((global::com.codename1.ui.Form) _r7_o).setTransitionOutAnimator((global::com.codename1.ui.animations.Transition) _r2_o);
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = new global::com.codename1.ui.util.SwipeBackSupport_25();
     ((global::com.codename1.ui.util.SwipeBackSupport_25) _r5_o).@this((global::com.codename1.ui.util.SwipeBackSupport) _r6_o);

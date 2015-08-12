@@ -39,7 +39,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r0_o = ((global::com.codename1.share.SMSShare_21_22) _r0_o)._fval_2contacts;
     _r6_o = ((global::com.codename1.ui.List) _r0_o).getSelectedItem();
-    _r6_o = _r6_o;
     _r0_o = new global::com.codename1.share.ShareForm();
     _r1_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r1_o = ((global::com.codename1.share.SMSShare_21_22) _r1_o)._fthis_21;
@@ -51,7 +50,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
     _r3_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r3_o);
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r4_o = ((global::com.codename1.share.SMSShare_21_22) _r4_o)._fthis_21;
     _r4_o = ((global::com.codename1.share.SMSShare_21) _r4_o)._fval_2toShare;

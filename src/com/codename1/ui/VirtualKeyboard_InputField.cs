@@ -61,7 +61,6 @@ public override void deleteChar(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label29;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r2_o)._ffield;
-    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r2_o).getCursorPosition();
     ((global::com.codename1.ui.TextField) _r0_o).setCursorPosition((int) _r1.i);
     label29:;
@@ -88,7 +87,6 @@ public override void setCursorPosition(int n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r1_o)._ffield;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.TextField) _r1_o).setCursorPosition((int) _r2.i);
     label32:;
     return;
@@ -124,7 +122,6 @@ public override bool validChar(global::java.lang.String n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r1_o)._ffield;
-    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o).validChar((global::java.lang.String) _r2_o) ? 1 : 0;
     label14:;
     return _r0.i!=0;

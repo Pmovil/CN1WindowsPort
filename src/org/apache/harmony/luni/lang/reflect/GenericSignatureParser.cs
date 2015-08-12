@@ -92,7 +92,6 @@ public virtual void parseForClass(global::java.lang.reflect.GenericDeclaration n
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.Class)) ? 1 : 0;
     if (_r2.i == 0) goto label41;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = global::org.apache.harmony.luni.lang.reflect.ListOfVariables._fempty;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r4_o)._fformalTypeParameters = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
@@ -139,7 +138,6 @@ public virtual void parseForMethod(global::java.lang.reflect.GenericDeclaration 
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.reflect.Method)) ? 1 : 0;
     if (_r2.i == 0) goto label52;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = global::org.apache.harmony.luni.lang.reflect.ListOfVariables._fempty;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r4_o)._fformalTypeParameters = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
@@ -192,7 +190,6 @@ public virtual void parseForConstructor(global::java.lang.reflect.GenericDeclara
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.reflect.Constructor)) ? 1 : 0;
     if (_r2.i == 0) goto label46;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = global::org.apache.harmony.luni.lang.reflect.ListOfVariables._fempty;
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r4_o)._fformalTypeParameters = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;

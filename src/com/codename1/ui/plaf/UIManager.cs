@@ -385,7 +385,6 @@ private global::System.Object getComponentStyleImpl(global::java.lang.String n1,
     _r3_o = ((global::com.codename1.ui.plaf.UIManager) _r6_o)._fselectedStyles;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r7_o);
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r2_o != null) goto label35;
     _r3.i = 1;
@@ -457,7 +456,6 @@ private global::System.Object getComponentStyleImpl(global::java.lang.String n1,
     _r3_o = ((global::com.codename1.ui.plaf.UIManager) _r6_o)._fstyles;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r7_o);
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r2_o != null) goto label35;
     _r3.i = 0;
@@ -535,7 +533,6 @@ public virtual global::System.Object getThemeName(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label15:;
     return (global::java.lang.String) _r0_o;
@@ -3280,7 +3277,6 @@ public virtual int getThemeConstant(global::java.lang.String n1, int n2){
     _r5.i = n2;
     _r2_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o)._fthemeConstants;
     _r1_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label19;
     try {
     _r2.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
@@ -3318,7 +3314,6 @@ public virtual global::System.Object getThemeConstant(global::java.lang.String n
     _r4_o = n2;
     _r1_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o)._fthemeConstants;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label12;
     _r1_o = _r0_o;
     label11:;
@@ -3409,7 +3404,6 @@ public virtual global::System.Object getThemeImageConstant(global::java.lang.Str
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r1_o)._fthemeConstants;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.Image) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.UIManager: com.codename1.ui.Image getThemeImageConstant(java.lang.String)]
 }
@@ -3446,7 +3440,6 @@ public virtual global::System.Object getThemeMaskConstant(global::java.lang.Stri
     label31:;
     _r2_o = ((global::com.codename1.ui.plaf.UIManager) _r6_o)._fthemeConstants;
     _r0_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r7_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label43;
     _r2_o = null;
     goto label30;
@@ -3525,7 +3518,6 @@ private void buildTheme(global::java.util.Hashtable n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108))}));
     _r1_o = ((global::java.util.Hashtable) _r10_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label44;
     // Value=true
     _r4_o = new global::java.lang.String();
@@ -3546,7 +3538,6 @@ private void buildTheme(global::java.util.Hashtable n1){
     _r4.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label96;
     _r3_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r3_o = _r3_o;
     // Value=@
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64))}));
@@ -3673,7 +3664,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r11_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r11_o = _r11_o;
     if (_r11_o == null) goto label1286;
     _r31.i = 46;
     _r0_o = _r11_o;
@@ -3770,7 +3760,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r12_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r12_o = _r12_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3785,7 +3774,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r17_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r17_o = _r17_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3828,7 +3816,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r30_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r30_o = _r30_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3843,7 +3830,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r20_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r20_o = _r20_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3858,7 +3844,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r24_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r24_o = _r24_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3887,7 +3872,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r6_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r6_o = _r6_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3902,7 +3886,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r29_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r29_o = _r29_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3917,7 +3900,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r8_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r8_o = _r8_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
     _r31_o = _r0_o;
@@ -3932,9 +3914,7 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r37_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r37_o = _r37_o;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
@@ -3950,9 +3930,7 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r37_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r37_o = _r37_o;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fthemeProps;
@@ -3968,9 +3946,7 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r37_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r37_o = _r37_o;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r22_o = _r0_o;
     if (_r12_o == null) goto label760;
     _r31.i = 16;
@@ -4109,7 +4085,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     if (_r31.i == 0) goto label1481;
     try {
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r14_o = _r0_o;
     _r0_o = _r35_o;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o)._fimageCache;
@@ -4125,7 +4100,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r1_o = _r14_o;
     _r20_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r19_o = _r0_o;
     }
     catch (global::System.Exception e) {
@@ -4215,14 +4189,12 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     _r31.i = _r0.i;
     if (_r31.i == 0) goto label1495;
-    _r18_o = _r18_o;
     _r31_o = global::com.codename1.ui.plaf.UIManager.parseFont((global::java.lang.String) _r18_o);
     _r0_o = _r28_o;
     _r1_o = _r31_o;
     ((global::com.codename1.ui.plaf.Style) _r0_o).setFont((global::com.codename1.ui.Font) _r1_o);
     label1213:;
     if (_r15_o == null) goto label1223;
-    _r15_o = _r15_o;
     _r0_o = _r28_o;
     _r1_o = _r15_o;
     ((global::com.codename1.ui.plaf.Style) _r0_o).setBorder((global::com.codename1.ui.plaf.Border) _r1_o);
@@ -4297,7 +4269,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).append((global::java.lang.String) _r33_o);
     _r32_o = ((global::java.lang.StringBuilder) _r32_o).toString();
     _r30_o = ((global::java.util.HashMap) _r31_o).get((global::java.lang.Object) _r32_o);
-    _r30_o = _r30_o;
     if (_r30_o == null) goto label800;
     _r31_o = global::java.lang.Integer.valueOf((global::java.lang.String) _r30_o);
     _r31.i = ((global::java.lang.Integer) _r31_o).intValue();
@@ -4382,7 +4353,6 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     goto label1088;
     label1474:;
     try {
-    _r13_o = _r13_o;
     _r19_o = global::com.codename1.ui.plaf.UIManager.parseImage((global::java.lang.String) _r13_o);
     }
     catch (global::System.Exception e) {
@@ -4401,11 +4371,9 @@ private global::System.Object createStyle(global::java.lang.String n1, global::j
     _r31.i = _r0.i;
     if (_r31.i == 0) goto label1088;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r19_o = _r0_o;
     goto label1088;
     label1495:;
-    _r18_o = _r18_o;
     _r0_o = _r28_o;
     _r1_o = _r18_o;
     ((global::com.codename1.ui.plaf.Style) _r0_o).setFont((global::com.codename1.ui.Font) _r1_o);
@@ -4795,7 +4763,6 @@ public virtual void setBundle(global::java.util.Map n1){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108))}));
     _r4_o = ((global::java.util.Map) _r10_o).get((global::java.lang.Object) _r6_o);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label37;
     _r6_o = ((global::com.codename1.ui.plaf.UIManager) _r9_o).getLookAndFeel();
     // Value=true
@@ -4810,7 +4777,6 @@ public virtual void setBundle(global::java.util.Map n1){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109))}));
     _r2_o = ((global::java.util.Map) _r10_o).get((global::java.lang.Object) _r6_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label117;
     _r6.i = ((global::java.lang.String) _r2_o).length();
     if (_r6.i <= 0) goto label117;
@@ -4832,7 +4798,6 @@ public virtual void setBundle(global::java.util.Map n1){
     _r6_o = ((global::java.lang.StringBuilder) _r6_o).append((global::java.lang.String) _r5_o);
     _r6_o = ((global::java.lang.StringBuilder) _r6_o).toString();
     _r0_o = ((global::java.util.Map) _r10_o).get((global::java.lang.Object) _r6_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label114;
     _r6_o = ((global::com.codename1.ui.plaf.UIManager) _r9_o).parseTextFieldInputMode((global::java.lang.String) _r0_o);
     _r7.i = ((global::java.lang.String) _r5_o).charAt((int) _r8.i);
@@ -4876,7 +4841,6 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108))}));
     _r5_o = ((global::java.util.Hashtable) _r13_o).get((global::java.lang.Object) _r8_o);
-    _r5_o = _r5_o;
     if (_r5_o == null) goto label39;
     _r8_o = ((global::com.codename1.ui.plaf.UIManager) _r12_o).getLookAndFeel();
     // Value=true
@@ -4891,7 +4855,6 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 98))}));
     _r7_o = ((global::java.util.Hashtable) _r13_o).get((global::java.lang.Object) _r8_o);
-    _r7_o = _r7_o;
     if (_r7_o == null) goto label88;
     _r8.i = ((global::java.lang.String) _r7_o).length();
     if (_r8.i <= 0) goto label88;
@@ -4918,7 +4881,6 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)64)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109))}));
     _r3_o = ((global::java.util.Hashtable) _r13_o).get((global::java.lang.Object) _r8_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label166;
     _r8.i = ((global::java.lang.String) _r3_o).length();
     if (_r8.i <= 0) goto label166;
@@ -4939,7 +4901,6 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r6_o);
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).toString();
     _r0_o = ((global::java.util.Hashtable) _r13_o).get((global::java.lang.Object) _r8_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label163;
     _r8_o = ((global::com.codename1.ui.plaf.UIManager) _r12_o).parseTextFieldInputMode((global::java.lang.String) _r0_o);
     _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r10.i);
@@ -4986,7 +4947,6 @@ private global::System.Object parseTextFieldInputMode(global::java.lang.String n
     label16:;
     if (_r1.i >= _r0.i) goto label51;
     _r5_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r1.i);
-    _r5_o = _r5_o;
     _r8.i = 61;
     _r3.i = ((global::java.lang.String) _r5_o).indexOf((int) _r8.i);
     _r8.i = 0;
@@ -5029,7 +4989,6 @@ private global::System.Object getInputMode(global::java.lang.String n1, global::
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r5_o);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     _r0_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     _r1.i = 124;
     _r2.i = 10;
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o).tokenizeMultiArray((global::java.lang.String) _r0_o, (char) _r1.i, (char) _r2.i);
@@ -5037,7 +4996,6 @@ private global::System.Object getInputMode(global::java.lang.String n1, global::
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     label55:;
     _r3_o = null;
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label54;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.UIManager: java.lang.String[][] getInputMode(java.lang.String, java.lang.String, java.util.Hashtable)]
@@ -5059,7 +5017,6 @@ private global::System.Object toStringArray(global::java.util.Vector n1){
     _r2.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r1.i >= _r2.i) goto label21;
     _r3_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
-    _r3_o = _r3_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r3_o;
     _r1.i = _r1.i + 1;
     goto label7;
@@ -5091,7 +5048,6 @@ private global::System.Object tokenizeMultiArray(global::java.lang.String n1, ch
     label11:;
     if (_r1.i >= _r2.i) goto label32;
     _r0_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r5_o = global::com.codename1.util.StringUtil.tokenizeString((global::java.lang.String) _r0_o, (char) _r8.i);
     _r5_o = ((global::com.codename1.ui.plaf.UIManager) _r6_o).toStringArray((global::java.util.Vector) _r5_o);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i] = _r5_o;
@@ -5118,7 +5074,6 @@ public virtual global::System.Object localize(global::java.lang.String n1, globa
     _r1_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o)._fbundle;
     _r0_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r3_o);
     if (_r0_o == null) goto label18;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label17:;
     return (global::java.lang.String) _r1_o;

@@ -200,7 +200,6 @@ public virtual global::System.Object getSeriesAndPointForScreenCoordinate(global
     _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label55;
     _r10_o = ((global::java.util.Iterator) _r9_o).next();
-    _r10_o = _r10_o;
     _r0.i = ((global::com.codename1.charts.views.PieSegment) _r10_o).isInSegment((double) _r7.d) ? 1 : 0;
     if (_r0.i == 0) goto label16;
     _r0_o = new global::com.codename1.charts.models.SeriesSelection();
@@ -256,7 +255,6 @@ private global::System.Object getSegment(int n1){
     _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label26;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.charts.views.PieSegment) _r1_o).getDataIndex();
     if (_r4.i != _r2.i) goto label6;
     _r2_o = _r1_o;

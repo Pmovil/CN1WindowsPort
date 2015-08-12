@@ -182,7 +182,6 @@ public virtual double getMaximumValue(int n1){
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.models.RangeCategorySeries) _r2_o)._fmMaxValues;
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     return _r0.d;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.RangeCategorySeries: double getMaximumValue(int)]

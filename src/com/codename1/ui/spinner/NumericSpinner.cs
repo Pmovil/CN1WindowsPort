@@ -171,9 +171,7 @@ public virtual double getValue(){
     if (_r0_o == null) goto label23;
     _r0_o = ((global::com.codename1.ui.spinner.NumericSpinner) _r2_o)._fspin;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getModel();
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r2_o).getValue();
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     label22:;
     return _r0.d;
@@ -195,7 +193,6 @@ public virtual void setValue(double n1){
     if (_r0_o == null) goto label22;
     _r0_o = ((global::com.codename1.ui.spinner.NumericSpinner) _r1_o)._fspin;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getModel();
-    _r1_o = _r1_o;
     _r0_o = new global::java.lang.Double();
     ((global::java.lang.Double) _r0_o).@this((double) _r2.d);
     ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r1_o).setValue((global::java.lang.Object) _r0_o);

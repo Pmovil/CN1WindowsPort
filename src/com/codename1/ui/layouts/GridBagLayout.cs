@@ -77,11 +77,9 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r4_o);
     label14:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label18:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o).clone();
-    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o)._fcomptable;
     ((global::java.util.Hashtable) _r4_o).put((global::java.lang.Object) _r8_o, (global::java.lang.Object) _r2_o);
     _r3_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
@@ -130,16 +128,13 @@ public override global::System.Object getComponentConstraint(global::com.codenam
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label23;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fdefaultConstraints;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r0_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r3_o, (global::java.lang.Object) _r2_o);
     label23:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r0_o).clone();
-    _r2_o = _r2_o;
     return (global::java.lang.Object) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: java.lang.Object getComponentConstraint(com.codename1.ui.Component)]
 }
@@ -159,13 +154,11 @@ public virtual void setConstraints(global::com.codename1.ui.Component n1, global
     _r7_o = n1;
     _r8_o = n2;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r8_o).clone();
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.ui.Component) _r7_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o).getParentInfo((global::com.codename1.ui.Container) _r4_o);
     if (_r2_o == null) goto label40;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r7_o);
-    _r0_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r2_o)._fallConstraints;
     _r5_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r2_o)._fconsTable;
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r0_o);
@@ -469,11 +462,9 @@ public virtual global::System.Object lookupConstraints(global::com.codename1.ui.
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label18;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fdefaultConstraints;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o).clone();
-    _r0_o = _r0_o;
     label18:;
     return (global::com.codename1.ui.layouts.GridBagConstraints) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.layouts.GridBagConstraints lookupConstraints(com.codename1.ui.Component)]
@@ -533,7 +524,6 @@ public virtual void AdjustForGravity(global::com.codename1.ui.layouts.GridBagCon
     return;
     label10:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r12_o).clone();
-    _r2_o = _r2_o;
     _r0.i = 1;
     ((global::com.codename1.ui.layouts.GridBagConstraints) _r2_o)._ffill = _r0.i;
     _r1_o = new global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide();
@@ -581,7 +571,6 @@ private global::System.Object getParentInfo(global::com.codename1.ui.Container n
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97))}));
     _r0_o = ((global::com.codename1.ui.Container) _r4_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label26;
     _r0_o = new global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r0_o).@this((global::com.codename1.ui.layouts.GridBagLayout) _r3_o);
@@ -828,7 +817,6 @@ private void initHorCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Com
     _r4.i = 1;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r12_o)._fconsTable;
     _r1_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r9_o);
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
     _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getX();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart = _r2.i;
@@ -919,7 +907,6 @@ private void initVertCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Co
     _r4.i = 1;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r12_o)._fconsTable;
     _r1_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r9_o);
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
     _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getY();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart = _r2.i;
@@ -1162,7 +1149,6 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r9_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r6_o);
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r4_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r0_o = _r9_o;
@@ -1176,7 +1162,6 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r9_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r6_o);
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r4_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r0_o = _r9_o;
@@ -1219,10 +1204,8 @@ private global::System.Object initCompsArray(global::com.codename1.ui.Container 
     _r7.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label78;
     _r0_o = ((global::java.util.Iterator) _r4_o).next();
-    _r0_o = _r0_o;
     _r7_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r10_o)._fcomptable;
     _r1_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r7_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     if (_r7_o != _r11_o) goto label51;
     _r7.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
@@ -1270,7 +1253,6 @@ private int getComponentsNumber(global::com.codename1.ui.Container n1){
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label38;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     if (_r3_o != _r5_o) goto label11;
     _r3.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
@@ -1352,7 +1334,6 @@ private void updateParentInfo(global::com.codename1.ui.Container n1){
     _r1_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r3.i);
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r5_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.GridBagLayout) _r5_o).updateParentInfo((global::com.codename1.ui.Container) _r6_o, (global::com.codename1.ui.layouts.GridBagConstraints) _r2_o);
     _r3.i = _r3.i + 1;
     goto label5;

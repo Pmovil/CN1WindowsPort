@@ -186,7 +186,6 @@ public virtual void runTest(global::java.lang.String n1){
     try {
     _r3_o = global::java.lang.Class.forName((global::java.lang.String) _r7_o);
     _r2_o = ((global::java.lang.Class) _r3_o).newInstance();
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

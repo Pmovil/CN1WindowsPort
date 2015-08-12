@@ -237,7 +237,6 @@ public override bool onRedirect(global::java.lang.String n1){
     _r0_o = ((global::com.codename1.components.WebBrowser_24_21) _r2_o)._fthis_21;
     _r0_o = ((global::com.codename1.components.WebBrowser_24) _r0_o)._fthis_20;
     _r0_o = global::com.codename1.components.WebBrowser.access_2300((global::com.codename1.components.WebBrowser) _r0_o);
-    _r0_o = _r0_o;
     _r0.i = ((global::com.codename1.ui.html.HTMLComponent) _r0_o).getPageStatus();
     _r1.i = -1;
     if (_r0.i != _r1.i) goto label26;

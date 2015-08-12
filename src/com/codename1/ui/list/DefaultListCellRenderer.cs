@@ -161,7 +161,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r2_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r7_o);
     if (_r2_o == null) goto label69;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     label69:;
     _r7.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).isRTL() ? 1 : 0;
@@ -181,11 +180,9 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r7.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.Command)) ? 1 : 0;
     if (_r7.i == 0) goto label127;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r7_o = ((global::com.codename1.ui.Command) _r7_o).getIcon();
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).setIcon((global::com.codename1.ui.Image) _r7_o);
-    _r13_o = _r13_o;
     _r7.i = ((global::com.codename1.ui.Command) _r13_o).isEnabled() ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).setEnabled(0!=_r7.i);
     label127:;

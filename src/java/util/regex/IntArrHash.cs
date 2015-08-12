@@ -113,7 +113,6 @@ public virtual global::System.Object get(int n1){
     if (_r2.i != _r5.i) goto label25;
     _r0_o = ((global::java.util.regex.IntArrHash) _r4_o)._fvalues;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
     goto label14;
     label25:;

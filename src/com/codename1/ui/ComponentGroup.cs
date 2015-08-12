@@ -52,7 +52,6 @@ private void reverseRadio(global::com.codename1.ui.Component n1){
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.ComboBox)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.ui.ComponentGroup) _r1_o)._fuiidsDirty ? 1 : 0;
     ((global::com.codename1.ui.ComboBox) _r2_o).setActAsSpinnerDialog(0!=_r0.i);
     label11:;
@@ -126,7 +125,6 @@ public override void removeComponentImpl(global::com.codename1.ui.Component n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r0_o == null) goto label16;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r0_o);
     label16:;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).updateUIIDs();
@@ -273,7 +271,6 @@ private void restoreUIID(global::com.codename1.ui.Component n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label13;
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r0_o);
     label13:;
@@ -294,7 +291,6 @@ public virtual bool isHorizontal(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.layouts.BoxLayout)) ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r2_o = ((global::com.codename1.ui.ComponentGroup) _r2_o).getLayout();
-    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r2_o).getAxis();
     if (_r0.i != _r1.i) goto label23;
     _r0.i = _r1.i;
@@ -539,7 +535,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).setElementUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -550,7 +545,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label35;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).setHorizontal(0!=_r0.i);
     _r0_o = _r1_o;
@@ -571,7 +565,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label68;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.ComponentGroup) _r2_o)._fforceGroup = 0!=_r0.i;
     _r0_o = _r1_o;

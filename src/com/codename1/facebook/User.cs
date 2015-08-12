@@ -254,85 +254,71 @@ private void init(global::java.util.Hashtable n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fusername = (global::java.lang.String) _r2_o;
     // Value=first_name
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._ffirst_1name = (global::java.lang.String) _r2_o;
     // Value=last_name
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._flast_1name = (global::java.lang.String) _r2_o;
     // Value=link
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._flink = (global::java.lang.String) _r2_o;
     // Value=about
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fabout = (global::java.lang.String) _r2_o;
     // Value=birthday
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fbirthday = (global::java.lang.String) _r2_o;
     // Value=email
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._femail = (global::java.lang.String) _r2_o;
     // Value=website
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fwebsite = (global::java.lang.String) _r2_o;
     // Value=bio
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fbio = (global::java.lang.String) _r2_o;
     // Value=gender
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._fgender = (global::java.lang.String) _r2_o;
     // Value=relationship_status
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._frelationship_1status = (global::java.lang.String) _r2_o;
     // Value=last_updated
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._flast_1updated = (global::java.lang.String) _r2_o;
     // Value=locale
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.User) _r3_o)._flocale = (global::java.lang.String) _r2_o;
     // Value=location
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r1_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label150;
     _r2_o = new global::com.codename1.facebook.FBObject();
     ((global::com.codename1.facebook.FBObject) _r2_o).@this((global::java.util.Hashtable) _r1_o);
@@ -342,7 +328,6 @@ private void init(global::java.util.Hashtable n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label167;
     _r2_o = new global::com.codename1.facebook.FBObject();
     ((global::com.codename1.facebook.FBObject) _r2_o).@this((global::java.util.Hashtable) _r0_o);

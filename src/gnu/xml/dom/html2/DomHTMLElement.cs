@@ -175,7 +175,6 @@ public virtual void setHTMLAttribute(global::java.lang.String n1, global::java.l
     if (_r2.i < _r1.i) goto label27;
     if (_r7_o == null) goto label26;
     _r5_o = ((global::gnu.xml.dom.html2.DomHTMLElement) _r5_o).getOwnerDocument();
-    _r5_o = _r5_o;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLDocument) _r5_o).createAttribute((global::java.lang.String) _r6_o);
     ((global::org.w3c.dom.Node) _r0_o).setNodeValue((global::java.lang.String) _r7_o);
     label26:;

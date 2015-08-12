@@ -17,7 +17,6 @@ public void @this(global::java.util.List n1){
     if (_r0.i <= 0) goto label17;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     label13:;
     ((global::gnu.xml.xpath.StringFunction) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     return;

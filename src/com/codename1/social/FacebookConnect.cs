@@ -28,7 +28,6 @@ public static global::System.Object getInstance(){
     try {
     _r1_o = global::com.codename1.social.FacebookConnect._fimplClass;
     _r0_o = ((global::java.lang.Class) _r1_o).newInstance();
-    _r0_o = _r0_o;
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r0_o;
     }
     catch (global::System.Exception e) {

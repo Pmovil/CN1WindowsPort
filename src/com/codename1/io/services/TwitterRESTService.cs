@@ -239,7 +239,6 @@ public virtual int getStatusesCount(){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.i = 0;
     label13:;
@@ -264,9 +263,7 @@ public virtual global::System.Object getStatus(int n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Vector) _r0_o).get((int) _r4.i);
-    _r3_o = _r3_o;
     return (global::java.util.Hashtable) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.io.services.TwitterRESTService: java.util.Hashtable getStatus(int)]
 }
@@ -286,7 +283,6 @@ public virtual global::System.Object getIdStr(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114))}));
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label20:;
     return (global::java.lang.String) _r0_o;

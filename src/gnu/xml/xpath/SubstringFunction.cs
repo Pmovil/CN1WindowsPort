@@ -25,14 +25,11 @@ public void @this(global::java.util.List n1){
     _r3.i = 2;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r5_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     _r1.i = 1;
     _r1_o = ((global::java.util.List) _r5_o).get((int) _r1.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::java.util.List) _r5_o).size();
     if (_r2.i <= _r3.i) goto label31;
     _r2_o = ((global::java.util.List) _r5_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     label27:;
     ((global::gnu.xml.xpath.SubstringFunction) _r4_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (global::gnu.xml.xpath.Expr) _r2_o);
     return;

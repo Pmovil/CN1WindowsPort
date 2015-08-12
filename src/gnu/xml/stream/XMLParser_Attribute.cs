@@ -87,7 +87,6 @@ public override bool equals(global::java.lang.Object n1){
     _r4.i = ((_r10_o != null) && (_r10_o is global::gnu.xml.stream.XMLParser_2Attribute)) ? 1 : 0;
     if (_r4.i == 0) goto label118;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r9_o)._fthis_20;
     _r4.i = global::gnu.xml.stream.XMLParser.access_2100((global::gnu.xml.stream.XMLParser) _r4_o) ? 1 : 0;

@@ -45,10 +45,8 @@ public override global::System.Object getItemAt(int n1){
     _r5_o = this;
     _r6.i = n1;
     _r2_o = base.getItemAt((int) _r6.i);
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r1_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label40;
     _r3_o = null;
     _r0_o = ((global::com.codename1.contacts.ContactsModel) _r5_o).getContactAsHashtable((global::com.codename1.contacts.Contact) _r3_o);
@@ -91,16 +89,13 @@ public override void addItem(global::java.lang.Object n1){
     _r1.i = ((_r6_o != null) && (_r6_o is global::com.codename1.contacts.Contact)) ? 1 : 0;
     if (_r1.i == 0) goto label45;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.contacts.Contact) _r1_o).getId();
     base.addItem((global::java.lang.Object) _r1_o);
     _r2_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.contacts.Contact) _r1_o).getId();
-    _r6_o = _r6_o;
     _r3_o = ((global::com.codename1.contacts.ContactsModel) _r5_o).getContactAsHashtable((global::com.codename1.contacts.Contact) _r6_o);
     ((global::java.util.Hashtable) _r2_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r3_o);
     goto label9;
@@ -108,7 +103,6 @@ public override void addItem(global::java.lang.Object n1){
     _r1.i = ((_r6_o != null) && (_r6_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     // Value=id
     _r2_o = new global::java.lang.String();
@@ -117,7 +111,6 @@ public override void addItem(global::java.lang.Object n1){
     base.addItem((global::java.lang.Object) _r1_o);
     _r2_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     // Value=id
     _r3_o = new global::java.lang.String();
@@ -137,7 +130,6 @@ public override void removeItem(int n1){
     _r2_o = this;
     _r3.i = n1;
     _r0_o = base.getItemAt((int) _r3.i);
-    _r0_o = _r0_o;
     base.removeItem((int) _r3.i);
     _r1_o = ((global::com.codename1.contacts.ContactsModel) _r2_o)._fcontactsCache;
     ((global::java.util.Hashtable) _r1_o).remove((global::java.lang.Object) _r0_o);
@@ -273,9 +265,7 @@ private global::System.Object getContactPhoneNumber(global::com.codename1.contac
     if (_r2.i <= 0) goto label41;
     _r2_o = ((global::java.util.Hashtable) _r1_o).keys();
     _r0_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label10;
     label41:;
@@ -306,9 +296,7 @@ private global::System.Object getContactEmail(global::com.codename1.contacts.Con
     if (_r2.i <= 0) goto label41;
     _r2_o = ((global::java.util.Hashtable) _r0_o).keys();
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r1_o = _r1_o;
     _r3_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label10;
     label41:;

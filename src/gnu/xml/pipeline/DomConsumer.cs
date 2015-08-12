@@ -64,7 +64,6 @@ private global::System.Object emptyDocument(){
     try {
     _r0_o = ((global::gnu.xml.pipeline.DomConsumer) _r4_o)._fdomImpl;
     _r4_o = ((global::java.lang.Class) _r0_o).newInstance();
-    _r4_o = _r4_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

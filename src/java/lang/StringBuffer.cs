@@ -1594,7 +1594,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     _r3_o = null;
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r2_o, (global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     ((global::java.lang.StringBuffer) _r4_o).set((global::org.xmlvm._nArrayAdapter<char>) _r0_o, (int) _r1.i);
     return;
 //XMLVM_END_WRAPPER[java.lang.StringBuffer: void readObject(java.io.ObjectInputStream)]

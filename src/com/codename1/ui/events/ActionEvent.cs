@@ -213,7 +213,6 @@ public virtual global::System.Object getCommand(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Command)) ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r1_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource;
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label11:;
     return (global::com.codename1.ui.Command) _r0_o;
@@ -232,7 +231,6 @@ public virtual global::System.Object getComponent(){
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent;
     if (_r0_o == null) goto label10;
     _r1_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent;
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label9:;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -241,7 +239,6 @@ public virtual global::System.Object getComponent(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r0.i == 0) goto label22;
     _r1_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource;
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label9;
     label22:;
@@ -306,7 +303,6 @@ public virtual global::System.Object getDraggedComponent(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r0_o)._fsource;
-    _r0_o = _r0_o;
     return (global::com.codename1.ui.Component) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Component getDraggedComponent()]
 }
@@ -316,7 +312,6 @@ public virtual global::System.Object getDropTarget(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r0_o)._fsourceComponent;
-    _r0_o = _r0_o;
     return (global::com.codename1.ui.Component) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.Component getDropTarget()]
 }

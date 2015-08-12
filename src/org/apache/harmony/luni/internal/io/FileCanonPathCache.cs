@@ -66,7 +66,6 @@ public static global::System.Object get(global::java.lang.String n1){
     try {
     _r0_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._fcache;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r6_o);
-    _r0_o = _r0_o;
     global::System.Threading.Monitor.Exit(_r1_o);
     if (_r0_o != null) goto label20;
     _r0_o = _r5_o;
@@ -136,7 +135,6 @@ public static global::System.Object get(global::java.lang.String n1){
     try {
     _r0_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._flist;
     _r0_o = ((global::java.util.LinkedList) _r0_o).removeFirst();
-    _r0_o = _r0_o;
     _r2_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._fcache;
     ((global::java.util.HashMap) _r2_o).remove((global::java.lang.Object) _r0_o);
     _r0.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
@@ -212,7 +210,6 @@ public static void put(global::java.lang.String n1, global::java.lang.String n2)
     if (_r0.i < _r3.i) goto label31;
     _r0_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._flist;
     _r0_o = ((global::java.util.LinkedList) _r0_o).removeFirst();
-    _r0_o = _r0_o;
     _r3_o = global::org.apache.harmony.luni.@internal.io.FileCanonPathCache._fcache;
     ((global::java.util.HashMap) _r3_o).remove((global::java.lang.Object) _r0_o);
     }

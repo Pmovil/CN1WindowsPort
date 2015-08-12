@@ -37,7 +37,6 @@ public void @this(global::java.io.OutputStream n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 49))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     _r0_o = global::java.nio.charset.Charset.forName((global::java.lang.String) _r0_o);
     _r0_o = ((global::java.nio.charset.Charset) _r0_o).newEncoder();
     ((global::java.io.OutputStreamWriter) _r3_o)._fencoder = (global::java.nio.charset.CharsetEncoder) _r0_o;

@@ -68,7 +68,6 @@ public override void bind(global::com.codename1.ui.Component n1){
     if (_r0.i == 0) goto label13;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r0.i == 0) goto label13;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.Label) _r2_o).addFocusListener((global::com.codename1.ui.events.FocusListener) _r1_o);
     label13:;
     return;
@@ -2471,7 +2470,6 @@ private void drawComponent(global::com.codename1.ui.Graphics n1, global::com.cod
     _r42.i = _r4.i - _r5.i;
     _r45.i = _r32.i;
     _r0_o = _r50_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4.i = ((global::com.codename1.ui.Button) _r4_o).isOppositeSide() ? 1 : 0;
     if (_r4.i == 0) goto label237;
@@ -4154,11 +4152,9 @@ public override void drawPullToRefresh(global::com.codename1.ui.Graphics n1, glo
     _r4.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r4.i == 0) goto label80;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r7_o)._fpull;
     _r5_o = ((global::com.codename1.ui.Container) _r5_o).getComponentAt((int) _r6.i);
-    _r5_o = _r5_o;
     _r5_o = ((global::com.codename1.ui.Label) _r5_o).getIcon();
     ((global::com.codename1.ui.Label) _r4_o).setIcon((global::com.codename1.ui.Image) _r5_o);
     label80:;
@@ -4269,7 +4265,6 @@ public override int getPullToRefreshHeight(){
     _r3.i = 180;
     _r1_o = ((global::com.codename1.ui.Image) _r1_o).rotate((int) _r3.i);
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fpullDown;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Label) _r3_o).setIcon((global::com.codename1.ui.Image) _r1_o);
     label92:;
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._freleaseToRefresh;
@@ -4303,7 +4298,6 @@ public override int getPullToRefreshHeight(){
     _r1_o = ((global::com.codename1.ui.util.Resources) _r3_o).getImage((global::java.lang.String) _r10_o);
     label144:;
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._freleaseToRefresh;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Label) _r3_o).setIcon((global::com.codename1.ui.Image) _r1_o);
     label151:;
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fupdating;
@@ -4315,7 +4309,6 @@ public override int getPullToRefreshHeight(){
     ((global::com.codename1.ui.Container) _r3_o).@this((global::com.codename1.ui.layouts.Layout) _r4_o);
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fupdating = (global::com.codename1.ui.Component) _r3_o;
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fupdating;
-    _r3_o = _r3_o;
     _r4_o = new global::com.codename1.components.InfiniteProgress();
     ((global::com.codename1.components.InfiniteProgress) _r4_o).@this();
     ((global::com.codename1.ui.Container) _r3_o).addComponent((global::com.codename1.ui.Component) _r4_o);
@@ -4334,7 +4327,6 @@ public override int getPullToRefreshHeight(){
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)80)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104))}));
     ((global::com.codename1.ui.Label) _r2_o).setUIID((global::java.lang.String) _r8_o);
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fupdating;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Container) _r3_o).addComponent((global::com.codename1.ui.Component) _r2_o);
     _r3_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r11_o)._fpull;
     _r3_o = ((global::com.codename1.ui.Container) _r3_o).getUnselectedStyle();
@@ -4378,7 +4370,6 @@ public virtual void focusGained(global::com.codename1.ui.Component n1){
     _r2.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r2.i == 0) goto label40;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Label) _r1_o).isTickerEnabled() ? 1 : 0;
     if (_r2.i == 0) goto label40;
@@ -4387,7 +4378,6 @@ public virtual void focusGained(global::com.codename1.ui.Component n1){
     _r2_o = global::com.codename1.ui.Display.getInstance();
     _r2.i = ((global::com.codename1.ui.Display) _r2_o).shouldRenderSelection((global::com.codename1.ui.Component) _r6_o) ? 1 : 0;
     if (_r2.i == 0) goto label40;
-    _r6_o = _r6_o;
     _r2.l = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r5_o).getTickerSpeed();
     _r4.i = 1;
     ((global::com.codename1.ui.Label) _r6_o).startTicker((long) _r2.l, 0!=_r4.i);
@@ -4408,7 +4398,6 @@ public virtual void focusLost(global::com.codename1.ui.Component n1){
     _r2.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r2.i == 0) goto label17;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Label) _r1_o).isTickerRunning() ? 1 : 0;
     if (_r2.i == 0) goto label17;

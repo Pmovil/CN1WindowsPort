@@ -59,7 +59,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     return;
     label21:;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r7_o).getSource();
-    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     _r2_o = ((global::com.codename1.ui.Container) _r3_o).getLeadParent();
     if (_r2_o == null) goto label38;

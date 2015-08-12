@@ -272,7 +272,6 @@ public virtual global::System.Object getSeriesRendererAt(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r1_o)._fmRenderers;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: com.codename1.charts.renderers.SimpleSeriesRenderer getSeriesRendererAt(int)]
 }
@@ -301,7 +300,6 @@ public virtual global::System.Object getSeriesRenderers(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.renderers.DefaultRenderer) _r2_o)._fmRenderers;
     _r2_o = ((global::java.util.List) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.DefaultRenderer: com.codename1.charts.renderers.SimpleSeriesRenderer[] getSeriesRenderers()]
 }

@@ -60,8 +60,6 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.nio.charset.Charset_2IgnoreCaseComparator) _r1_o).compare((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: int compare(java.lang.Object, java.lang.Object)]

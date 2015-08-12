@@ -381,7 +381,6 @@ public virtual void characters(global::org.xmlvm._nArrayAdapter<char> n1, int n2
     if (_r2.i == 0) goto label57;
     label44:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String) _r1_o).@this((global::org.xmlvm._nArrayAdapter<char>) _r5_o, (int) _r6.i, (int) _r7.i);
@@ -887,7 +886,6 @@ private global::System.Object getNamespace(global::java.lang.String n1, global::
     goto label29;
     label105:;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::org.w3c.dom.Element) _r1_o).getAttributeNode((global::java.lang.String) _r3_o);
     if (_r1_o == null) goto label99;

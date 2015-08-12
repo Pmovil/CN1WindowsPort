@@ -64,7 +64,6 @@ public virtual void add(global::com.codename1.ui.layouts.GroupLayout_2ComponentI
     if (_r2.i >= _r3.i) goto label19;
     _r3_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r1_o)._flinked;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o)._faxis;
     global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo.access_21400((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o, (int) _r3.i, (global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o);
     _r2.i = _r2.i + 1;
@@ -94,7 +93,6 @@ public virtual void remove(global::com.codename1.ui.layouts.GroupLayout_2Compone
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r3_o)._flinked;
     _r1.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r3_o)._faxis;
     global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo.access_21400((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o, (int) _r1.i, (global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r2_o);
     label34:;
@@ -153,7 +151,6 @@ private int calculateLinkedSize(int n1){
     if (_r0.i >= _r4.i) goto label37;
     _r4_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o)._flinked;
     _r1_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r4.i = 1;
     if (_r6.i != _r4.i) goto label34;
     _r3_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fhorizontalSpring;

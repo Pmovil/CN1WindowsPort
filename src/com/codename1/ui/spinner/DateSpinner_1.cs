@@ -41,7 +41,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     if (_r9_o == null) goto label39;
     _r5.i = ((_r9_o != null) && (_r9_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r5.i == 0) goto label39;
-    _r9_o = _r9_o;
     _r1.i = ((global::java.lang.Integer) _r9_o).intValue();
     _r5_o = ((global::com.codename1.ui.spinner.DateSpinner_21) _r7_o)._fthis_20;
     _r5.i = global::com.codename1.ui.spinner.DateSpinner.access_2000((global::com.codename1.ui.spinner.DateSpinner) _r5_o) ? 1 : 0;
@@ -76,7 +75,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     _r2_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r5_o);
     if (_r2_o == null) goto label90;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     label90:;
     _r9_o = _r4_o;

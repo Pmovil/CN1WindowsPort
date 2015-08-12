@@ -44,7 +44,6 @@ private void downloadImage(global::java.util.Hashtable n1, int n2){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98))}));
     _r0_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label53;
     _r1_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r8_o)._fthis_20;
     _r2_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r8_o)._fthis_20;
@@ -102,12 +101,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r10.i = 0;
     global::com.codename1.components.RSSReader.access_2102((global::com.codename1.components.RSSReader) _r9_o, 0!=_r10.i);
     _r0_o = _r16_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r8_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getMetaData();
-    _r8_o = _r8_o;
     _r6_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getConnectionRequest();
-    _r6_o = _r6_o;
     _r9_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r15_o)._fthis_20;
     _r9_o = global::com.codename1.components.RSSReader.access_2200((global::com.codename1.components.RSSReader) _r9_o);
     if (_r9_o == null) goto label77;
@@ -120,7 +116,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r9.i = ((global::java.util.Vector) _r8_o).size();
     if (_r4.i >= _r9.i) goto label82;
     _r2_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r4.i);
-    _r2_o = _r2_o;
     _r9_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r15_o)._fthis_20;
     _r9_o = global::com.codename1.components.RSSReader.access_2200((global::com.codename1.components.RSSReader) _r9_o);
     ((global::java.util.Vector) _r9_o).addElement((global::java.lang.Object) _r2_o);
@@ -150,7 +145,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r9_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r15_o)._fthis_20;
     _r9_o = global::com.codename1.components.RSSReader.access_2200((global::com.codename1.components.RSSReader) _r9_o);
     _r2_o = ((global::java.util.Vector) _r9_o).elementAt((int) _r4.i);
-    _r2_o = _r2_o;
     // Value=icon
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
@@ -166,7 +160,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     label158:;
     _r9_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r15_o)._fthis_20;
     _r7_o = ((global::com.codename1.components.RSSReader) _r9_o).getSelectedItem();
-    _r7_o = _r7_o;
     _r9_o = global::com.codename1.components.RSSReader.access_2300();
     if (_r7_o != _r9_o) goto label297;
     _r9_o = ((global::com.codename1.components.RSSReader_2EventHandler) _r15_o)._fthis_20;

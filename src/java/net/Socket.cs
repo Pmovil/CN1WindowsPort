@@ -108,7 +108,6 @@ public void @this(global::java.net.Proxy n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r4_o);
     label46:;
     _r1_o = ((global::java.net.Proxy) _r7_o).address();
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label71;
     _r0_o = ((global::java.net.InetSocketAddress) _r1_o).getAddress();
     if (_r0_o == null) goto label86;
@@ -469,7 +468,6 @@ public virtual bool getKeepAlive(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 8;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.Socket: boolean getKeepAlive()]
@@ -571,7 +569,6 @@ public virtual int getSoLinger(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 128;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[java.net.Socket: int getSoLinger()]
@@ -592,7 +589,6 @@ public virtual int getReceiveBufferSize(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 4098;
     _r0_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     }
     catch (global::System.Exception e) {
@@ -629,7 +625,6 @@ public virtual int getSendBufferSize(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 4097;
     _r0_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     }
     catch (global::System.Exception e) {
@@ -666,7 +661,6 @@ public virtual int getSoTimeout(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 4102;
     _r0_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     }
     catch (global::System.Exception e) {
@@ -699,7 +693,6 @@ public virtual bool getTcpNoDelay(){
     ((global::java.net.Socket) _r2_o).checkClosedAndCreate(0!=_r1.i);
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.Socket: boolean getTcpNoDelay()]
@@ -1560,7 +1553,6 @@ public virtual void bind(global::java.net.SocketAddress n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r5_o);
     label47:;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1_o = ((global::java.net.InetSocketAddress) _r3_o).getAddress();
     if (_r1_o != null) goto label73;
@@ -1720,7 +1712,6 @@ public virtual void connect(global::java.net.SocketAddress n1, int n2){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r5_o);
     label70:;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1_o = ((global::java.net.InetSocketAddress) _r3_o).getAddress();
     if (_r1_o != null) goto label92;
@@ -1905,7 +1896,6 @@ public virtual bool getReuseAddress(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 4;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.Socket: boolean getReuseAddress()]
@@ -1948,7 +1938,6 @@ public virtual bool getOOBInline(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 4099;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.net.Socket: boolean getOOBInline()]
@@ -1994,7 +1983,6 @@ public virtual int getTrafficClass(){
     _r0_o = ((global::java.net.Socket) _r2_o)._fimpl;
     _r1.i = 3;
     _r2_o = ((global::java.net.SocketImpl) _r0_o).getOption((int) _r1.i);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Number) _r2_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[java.net.Socket: int getTrafficClass()]

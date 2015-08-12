@@ -42,7 +42,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     return (global::java.lang.Object) _r0_o;
     label22:;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r2_o = ((global::gnu.xml.xpath.Expr) _r3_o).evaluate((global::org.w3c.dom.Node) _r4_o, (int) _r5.i, (int) _r6.i);
     _r2_o = global::gnu.xml.xpath.ConcatFunction._1string((global::org.w3c.dom.Node) _r4_o, (global::java.lang.Object) _r2_o);
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r2_o);
@@ -75,7 +74,6 @@ public override global::System.Object clone(global::java.lang.Object n1){
     label21:;
     _r0_o = ((global::gnu.xml.xpath.ConcatFunction) _r4_o)._fargs;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.xpath.Expr) _r0_o).clone((global::java.lang.Object) _r5_o);
     ((global::java.util.List) _r2_o).add((global::java.lang.Object) _r0_o);
     _r0.i = _r3.i + 1;
@@ -103,7 +101,6 @@ public override bool references(global::javax.xml.@namespace.QName n1){
     return _r0.i!=0;
     label14:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1.i = ((global::gnu.xml.xpath.Expr) _r2_o).references((global::javax.xml.@namespace.QName) _r3_o) ? 1 : 0;
     if (_r1.i == 0) goto label6;
     _r0.i = 1;

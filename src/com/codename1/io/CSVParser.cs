@@ -228,7 +228,6 @@ public virtual global::System.Object parse(global::java.io.Reader n1){
     _r10.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r6.i >= _r10.i) goto label203;
     _r3_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r6.i);
-    _r3_o = _r3_o;
     _r10.i = ((global::java.util.Vector) _r3_o).size();
     _r10_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r10.i]);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r6.i] = _r10_o;
@@ -239,7 +238,6 @@ public virtual global::System.Object parse(global::java.io.Reader n1){
     if (_r4.i >= _r10.i) goto label200;
     _r10_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r6.i];
     _r12_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r4.i);
-    _r12_o = _r12_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r10_o)[_r4.i] = _r12_o;
     _r4.i = _r4.i + 1;
     goto label182;

@@ -35,8 +35,6 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     _r0.i = ((global::gnu.xml.xpath.DocumentOrderComparator) _r1_o).compare((global::org.w3c.dom.Node) _r2_o, (global::org.w3c.dom.Node) _r3_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.DocumentOrderComparator: int compare(java.lang.Object, java.lang.Object)]

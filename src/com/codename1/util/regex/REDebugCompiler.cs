@@ -32,7 +32,6 @@ public virtual global::System.Object opcodeToString(char n1){
     _r2_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r2_o).@this((int) _r4.i);
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label17;
     // Value=OP_????
     _r0_o = new global::java.lang.String();

@@ -152,7 +152,6 @@ public static void installGlassPane(global::com.codename1.ui.Form n1, global::co
     label10:;
     _r2.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.painter.PainterChain)) ? 1 : 0;
     if (_r2.i == 0) goto label24;
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.painter.PainterChain) _r0_o).addPainter((global::com.codename1.ui.Painter) _r5_o);
     ((global::com.codename1.ui.Form) _r4_o).setGlassPane((global::com.codename1.ui.Painter) _r2_o);
     goto label9;
@@ -209,7 +208,6 @@ public static void removeGlassPane(global::com.codename1.ui.Form n1, global::com
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.painter.PainterChain)) ? 1 : 0;
     if (_r6.i == 0) goto label7;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.painter.PainterChain) _r4_o)._fchain;
     _r6.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
@@ -247,7 +245,6 @@ public static void removeGlassPane(global::com.codename1.ui.Form n1, global::com
     _r6.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
     if (_r2.i >= _r6.i) goto label90;
     _r6_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r2.i);
-    _r6_o = _r6_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r6_o;
     _r2.i = _r2.i + 1;
     goto label76;

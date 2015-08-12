@@ -36,9 +36,7 @@ public virtual void run(){
     _r5_o = ((global::com.codename1.components.StorageImageAsync_21) _r7_o)._fthis_20;
     _r5_o = global::com.codename1.components.StorageImageAsync.access_2000((global::com.codename1.components.StorageImageAsync) _r5_o);
     _r4_o = ((global::com.codename1.io.Storage) _r4_o).readObject((global::java.lang.String) _r5_o);
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = global::com.codename1.ui.Display.getInstance();
     _r5_o = new global::com.codename1.components.StorageImageAsync_21_21();

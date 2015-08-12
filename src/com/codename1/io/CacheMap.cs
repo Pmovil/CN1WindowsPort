@@ -39,7 +39,6 @@ private global::System.Object getStorageCacheContent(){
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.io.CacheMap) _r3_o)._fstorageCacheContentVec = (global::java.util.Vector) _r0_o;
     _r0_o = ((global::com.codename1.io.CacheMap) _r3_o)._fstorageCacheContentVec;
     if (_r0_o != null) goto label48;
@@ -190,13 +189,10 @@ public virtual void put(global::java.lang.Object n1, global::java.lang.Object n2
     _r0_o = _r17_o;
     _r1_o = _r7_o;
     _r5_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r17.i = 0;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r8_o)[_r17.i];
-    _r5_o = _r5_o;
     _r5.l = ((global::java.lang.Long) _r5_o).longValue();
     _r17.i = _r5.l > _r12.l ? 1 : (_r5.l == _r12.l ? 0 : -1);
     if (_r17.i > 0) goto label40;
@@ -295,9 +291,7 @@ public virtual void delete(global::java.lang.Object n1){
     label21:;
     if (_r1.i >= _r3.i) goto label118;
     _r5_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i];
     _r5.i = ((global::java.lang.Object) _r5_o).equals((global::java.lang.Object) _r11_o) ? 1 : 0;
@@ -364,9 +358,7 @@ public virtual global::System.Object get(global::java.lang.Object n1){
     _r9.i = 1;
     _r8_o = ((global::com.codename1.io.CacheMap) _r12_o)._fmemoryCache;
     _r8_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r13_o);
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r2_o == null) goto label19;
     _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i];
@@ -391,9 +383,7 @@ public virtual global::System.Object get(global::java.lang.Object n1){
     _r8.i = ((global::java.util.Vector) _r5_o).size();
     if (_r1.i >= _r8.i) goto label131;
     _r8_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r1.i);
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r9.i];
     _r8.i = ((global::java.lang.Object) _r8_o).equals((global::java.lang.Object) _r13_o) ? 1 : 0;
@@ -411,7 +401,6 @@ public virtual global::System.Object get(global::java.lang.Object n1){
     _r9_o = ((global::java.lang.StringBuilder) _r9_o).append((global::java.lang.String) _r10_o);
     _r9_o = ((global::java.lang.StringBuilder) _r9_o).toString();
     _r6_o = ((global::com.codename1.io.Storage) _r8_o).readObject((global::java.lang.String) _r9_o);
-    _r6_o = _r6_o;
     if (_r6_o == null) goto label126;
     _r8.i = 0;
     _r7_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r8.i);
@@ -500,9 +489,7 @@ private void placeInStorageCache(global::java.lang.Object n1, long n2, global::j
     _r0_o = _r16_o;
     _r1.i = _r3.i;
     _r2_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r12_o = _r0_o;
     _r2.i = 1;
     _r13_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r12_o)[_r2.i];
@@ -543,13 +530,10 @@ private void placeInStorageCache(global::java.lang.Object n1, long n2, global::j
     _r0_o = _r16_o;
     _r1.i = _r3.i;
     _r2_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r12_o = _r0_o;
     _r2.i = 0;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r12_o)[_r2.i];
-    _r2_o = _r2_o;
     _r10.l = ((global::java.lang.Long) _r2_o).longValue();
     _r2.i = _r14.l > _r10.l ? 1 : (_r14.l == _r10.l ? 0 : -1);
     if (_r2.i <= 0) goto label130;
@@ -673,9 +657,7 @@ public virtual global::System.Object getKeysInCache(){
     _r6.i = ((global::java.util.Vector) _r5_o).size();
     if (_r2.i >= _r6.i) goto label63;
     _r8_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r2.i);
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r7.i];
     _r6.i = ((global::java.util.Vector) _r4_o).contains((global::java.lang.Object) _r6_o) ? 1 : 0;
@@ -705,9 +687,7 @@ private global::System.Object fetchFromStorageCache(int n1){
     _r7.i = n1;
     _r2_o = ((global::com.codename1.io.CacheMap) _r6_o).getStorageCacheContent();
     _r3_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r7.i);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = global::com.codename1.io.Storage.getInstance();
     _r4_o = new global::java.lang.StringBuilder();
@@ -724,7 +704,6 @@ private global::System.Object fetchFromStorageCache(int n1){
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).toString();
     _r6_o = ((global::com.codename1.io.Storage) _r3_o).readObject((global::java.lang.String) _r4_o);
-    _r6_o = _r6_o;
     return (global::java.util.Vector) _r6_o;
 //XMLVM_END_WRAPPER[com.codename1.io.CacheMap: java.util.Vector fetchFromStorageCache(int)]
 }
@@ -750,9 +729,7 @@ public virtual void clearStorageCache(){
     label13:;
     if (_r2.i >= _r3.i) goto label66;
     _r5_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r2.i);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = global::com.codename1.io.Storage.getInstance();
     _r6_o = new global::java.lang.StringBuilder();

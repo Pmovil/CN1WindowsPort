@@ -26,7 +26,6 @@ public void @this(global::java.util.regex.SingleSet n1){
     _r3_o = n1;
     _r1_o = ((global::java.util.regex.SingleSet) _r3_o)._fkid;
     _r0_o = ((global::java.util.regex.SingleSet) _r3_o)._ffSet;
-    _r0_o = _r0_o;
     ((global::java.util.regex.SingleSet) _r2_o).@this((global::java.util.regex.AbstractSet) _r1_o, (global::java.util.regex.FSet) _r0_o);
     return;
 //XMLVM_END_WRAPPER[java.util.regex.BackReferencedSingleSet: void <init>(java.util.regex.SingleSet)]

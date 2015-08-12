@@ -482,7 +482,6 @@ public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, 
     _r10_o = n9;
     _r0.i = _r6.i;
     _r1.i = _r7.i;
-    _r2.i = _r2.i;
     _r6.i = _r3.i;
     _r3.i = _r0.i;
     _r7.i = _r3.i + _r8.i;
@@ -493,16 +492,13 @@ public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, 
     _r4.i = _r6.i;
     _r4.i = _r4.i + _r5.i;
     if (_r0.i >= _r2.i) goto label61;
-    _r2.i = _r2.i;
     label17:;
     if (_r1.i >= _r6.i) goto label59;
     _r5.i = _r6.i;
     label20:;
     if (_r7.i <= _r3.i) goto label57;
-    _r3.i = _r3.i;
     label23:;
     if (_r8.i <= _r4.i) goto label55;
-    _r4.i = _r4.i;
     label26:;
     _r3.i = _r3.i - _r2.i;
     _r4.i = _r4.i - _r5.i;

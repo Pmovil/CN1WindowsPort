@@ -194,7 +194,6 @@ private static int getCharEntityCode(global::java.lang.String n1, bool n2, globa
     if (_r7_o == null) goto label58;
     _r0_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r5_o);
     if (_r0_o == null) goto label58;
-    _r0_o = _r0_o;
     _r3.i = ((global::java.lang.Integer) _r0_o).intValue();
     goto label22;
     label58:;

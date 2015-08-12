@@ -49,12 +49,10 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     label28:;
     _r0_o = ((global::java.util.regex.AtomicJointSet) _r4_o)._fchildren;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.regex.AbstractSet) _r0_o).matches((int) _r5.i, (global::java.lang.CharSequence) _r6_o, (global::java.util.regex.MatchResultImpl) _r7_o);
     if (_r0.i < 0) goto label57;
     _r0_o = ((global::java.util.regex.AtomicJointSet) _r4_o)._fnext;
     _r4_o = ((global::java.util.regex.AtomicJointSet) _r4_o)._ffSet;
-    _r4_o = _r4_o;
     _r1.i = ((global::java.util.regex.AtomicFSet) _r4_o).getIndex();
     _r0.i = ((global::java.util.regex.AbstractSet) _r0_o).matches((int) _r1.i, (global::java.lang.CharSequence) _r6_o, (global::java.util.regex.MatchResultImpl) _r7_o);
     goto label27;

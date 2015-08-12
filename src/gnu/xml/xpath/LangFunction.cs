@@ -15,7 +15,6 @@ public void @this(global::java.util.List n1){
     _r2_o = n1;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.LangFunction) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.LangFunction: void <init>(java.util.List)]
@@ -104,7 +103,6 @@ public virtual global::System.Object getLang(global::org.w3c.dom.Node n1){
     _r3.i = 1;
     if (_r2.i != _r3.i) goto label26;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     // Value=xml:lang
     _r2_o = new global::java.lang.String();

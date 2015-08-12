@@ -43,7 +43,6 @@ public static global::System.Object valueOf(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.charts.compat.Paint_2Style));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.charts.compat.Paint_2Style) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.compat.Paint$Style: com.codename1.charts.compat.Paint$Style valueOf(java.lang.String)]
 }

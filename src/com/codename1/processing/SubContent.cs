@@ -57,7 +57,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     _r3.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label43;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getChildren((global::java.lang.String) _r5_o);
     ((global::java.util.List) _r2_o).addAll((global::java.util.Collection) _r3_o);
     goto label17;
@@ -87,7 +86,6 @@ public virtual global::System.Object getChild(int n1){
     if (_r0.i <= 0) goto label26;
     _r0_o = ((global::com.codename1.processing.SubContent) _r2_o)._froot;
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.StructuredContent) _r2_o).getChild((int) _r1.i);
     label25:;
     return (global::com.codename1.processing.StructuredContent) _r0_o;
@@ -120,7 +118,6 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
     _r3.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label43;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getDescendants((global::java.lang.String) _r5_o);
     ((global::java.util.List) _r2_o).addAll((global::java.util.Collection) _r3_o);
     goto label17;

@@ -205,7 +205,6 @@ public override bool contains(global::java.lang.Object n1){
     _r3.i = 0;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label50;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.util.Map_2Entry) _r5_o).getKey();
     _r1_o = ((global::java.util.TreeMap_2SubMapEntrySet) _r4_o)._fsubMap;
     _r1.i = global::java.util.TreeMap_2SubMap.access_23((global::java.util.TreeMap_2SubMap) _r1_o, (global::java.lang.Object) _r0_o) ? 1 : 0;
@@ -244,7 +243,6 @@ public override bool remove(global::java.lang.Object n1){
     _r3_o = n1;
     _r0.i = ((global::java.util.TreeMap_2SubMapEntrySet) _r2_o).contains((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label19;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     _r1_o = ((global::java.util.TreeMap_2SubMapEntrySet) _r2_o)._fsubMap;
     ((global::java.util.TreeMap_2SubMap) _r1_o).remove((global::java.lang.Object) _r0_o);

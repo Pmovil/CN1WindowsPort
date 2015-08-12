@@ -3313,7 +3313,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r7_o != null) && (_r7_o is global::java.math.BigDecimal)) ? 1 : 0;
     if (_r0.i == 0) goto label46;
-    _r7_o = _r7_o;
     _r0.i = ((global::java.math.BigDecimal) _r7_o)._fscale;
     _r1.i = ((global::java.math.BigDecimal) _r6_o)._fscale;
     if (_r0.i != _r1.i) goto label44;
@@ -4796,7 +4795,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.math.BigDecimal) _r1_o).compareTo((global::java.math.BigDecimal) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.math.BigDecimal: int compareTo(java.lang.Object)]

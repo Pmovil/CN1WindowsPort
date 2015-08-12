@@ -28,7 +28,6 @@ public void @this(global::java.util.regex.LeafQuantifierSet n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.util.regex.LeafQuantifierSet) _r4_o).getInnerSet();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.regex.LeafQuantifierSet) _r4_o).getNext();
     _r2.i = ((global::java.util.regex.LeafQuantifierSet) _r4_o).getType();
     ((global::java.util.regex.LeafQuantifierSet) _r3_o).@this((global::java.util.regex.LeafSet) _r0_o, (global::java.util.regex.AbstractSet) _r1_o, (int) _r2.i);

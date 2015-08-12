@@ -111,25 +111,21 @@ public override global::System.Object toString(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.util.Map)) ? 1 : 0;
     if (_r0.i == 0) goto label46;
     _r0_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
-    _r0_o = _r0_o;
     // Value=ROOT
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84))}));
     _r0.i = ((global::java.util.Map) _r0_o).containsKey((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r0.i == 0) goto label37;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
-    _r3_o = _r3_o;
     // Value=ROOT
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84))}));
     _r3_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r2_o);
-    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.Map) _r3_o);
     label36:;
     return (global::java.lang.String) _r0_o;
     label37:;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
-    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.Map) _r3_o);
     goto label36;
     label46:;
@@ -137,7 +133,6 @@ public override global::System.Object toString(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label61;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
-    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.List) _r3_o);
     goto label36;
     label61:;
@@ -210,7 +205,6 @@ private global::System.Object _1asStructuredContentArray(global::java.util.List 
     _r3.i = ((_r2_o != null) && (_r2_o is global::java.util.Map)) ? 1 : 0;
     if (_r3.i == 0) goto label48;
     _r3_o = new global::com.codename1.processing.MapContent();
-    _r2_o = _r2_o;
     ((global::com.codename1.processing.MapContent) _r3_o).@this((global::java.lang.Object) _r2_o, (global::com.codename1.processing.StructuredContent) _r4_o);
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r3_o);
     goto label17;
@@ -265,7 +259,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     _r6.i = ((_r3_o != null) && (_r3_o is global::java.util.List)) ? 1 : 0;
     if (_r6.i == 0) goto label79;
     _r5_o = null;
-    _r3_o = _r3_o;
     _r2_o = ((global::java.util.List) _r3_o).iterator();
     label33:;
     _r6.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
@@ -274,7 +267,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     _r6.i = ((_r5_o != null) && (_r5_o is global::java.util.Map)) ? 1 : 0;
     if (_r6.i == 0) goto label71;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6.i = ((global::java.util.Map) _r6_o).containsKey((global::java.lang.Object) _r9_o) ? 1 : 0;
     if (_r6.i == 0) goto label71;
@@ -297,7 +289,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     ((global::java.util.ArrayList) _r6_o).@this();
     goto label11;
     label79:;
-    _r3_o = _r3_o;
     _r3_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r9_o);
     if (_r3_o != null) goto label101;
     if (_r4.i == 0) goto label95;
@@ -311,7 +302,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     label101:;
     _r6.i = ((_r3_o != null) && (_r3_o is global::java.util.List)) ? 1 : 0;
     if (_r6.i == 0) goto label112;
-    _r3_o = _r3_o;
     _r6_o = ((global::com.codename1.processing.MapContent) _r8_o)._1asStructuredContentArray((global::java.util.List) _r3_o);
     goto label11;
     label112:;
@@ -323,7 +313,6 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     ((global::java.util.Vector) _r1_o).@this();
     label125:;
     _r6_o = new global::com.codename1.processing.MapContent();
-    _r3_o = _r3_o;
     ((global::com.codename1.processing.MapContent) _r6_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.processing.StructuredContent) _r8_o);
     ((global::java.util.List) _r1_o).add((global::java.lang.Object) _r6_o);
     _r6_o = _r1_o;
@@ -371,7 +360,6 @@ public virtual global::System.Object getChild(int n1){
     if (_r4.i == 0) goto label21;
     _r5_o = new global::com.codename1.processing.MapContent();
     _r4_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
-    _r4_o = _r4_o;
     _r4_o = ((global::java.util.List) _r4_o).get((int) _r7.i);
     ((global::com.codename1.processing.MapContent) _r5_o).@this((global::java.lang.Object) _r4_o, (global::com.codename1.processing.StructuredContent) _r6_o);
     _r4_o = _r5_o;
@@ -379,7 +367,6 @@ public virtual global::System.Object getChild(int n1){
     return (global::com.codename1.processing.StructuredContent) _r4_o;
     label21:;
     _r1_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
-    _r1_o = _r1_o;
     if (_r7.i < 0) goto label33;
     _r4.i = ((global::java.util.Map) _r1_o).size();
     if (_r7.i < _r4.i) goto label35;
@@ -426,7 +413,6 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r1.i == 0) goto label37;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r2_o)._1findByName((global::java.util.List) _r0_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r3_o);
     label30:;
     return (global::java.util.List) _r0_o;
@@ -439,7 +425,6 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label30;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r2_o)._1findByName((global::java.util.List) _r0_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r3_o);
     goto label30;
 //XMLVM_END_WRAPPER[com.codename1.processing.MapContent: java.util.List getDescendants(java.lang.String)]
@@ -465,7 +450,6 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
     _r1_o = ((global::java.util.List) _r5_o).get((int) _r0.i);
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r2.i == 0) goto label23;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r3_o)._1findByName((global::java.util.List) _r4_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r6_o);
     label20:;
     _r0.i = _r0.i + 1;
@@ -473,7 +457,6 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
     label23:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r2.i == 0) goto label20;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r3_o)._1findByName((global::java.util.List) _r4_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r6_o);
     goto label20;
     label33:;
@@ -501,7 +484,6 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     _r1_o = ((global::java.util.Map) _r6_o).get((global::java.lang.Object) _r7_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r2.i == 0) goto label47;
-    _r1_o = _r1_o;
     ((global::java.util.List) _r5_o).add((global::java.lang.Object) _r1_o);
     label19:;
     _r2_o = ((global::java.util.Map) _r6_o).values();
@@ -512,7 +494,6 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r2.i == 0) goto label61;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r4_o)._1findByName((global::java.util.List) _r5_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r7_o);
     goto label27;
     label47:;
@@ -525,7 +506,6 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     label61:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r2.i == 0) goto label27;
-    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r4_o)._1findByName((global::java.util.List) _r5_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r7_o);
     goto label27;
     label71:;
@@ -582,7 +562,6 @@ public virtual global::System.Object getText(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label12;
     _r2_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     label11:;
     return (global::java.lang.String) _r1_o;
@@ -597,7 +576,6 @@ public virtual global::System.Object getText(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label37;
     _r2_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getNativeRoot();
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label11;
     label37:;

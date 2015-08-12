@@ -375,7 +375,6 @@ public override global::System.Object getPendingAd(){
     _r5.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.BrowserComponent)) ? 1 : 0;
     if (_r5.i == 0) goto label124;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r4_o).getInternal();
-    _r1_o = _r1_o;
     _r5_o = new global::com.codename1.impl.VServAds_23();
     ((global::com.codename1.impl.VServAds_23) _r5_o).@this((global::com.codename1.impl.VServAds) _r7_o);
     ((global::com.codename1.ui.BrowserComponent) _r1_o).setBrowserNavigationCallback((global::com.codename1.ui.events.BrowserNavigationCallback) _r5_o);

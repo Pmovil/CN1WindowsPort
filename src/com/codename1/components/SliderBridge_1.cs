@@ -63,7 +63,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     return;
     label19:;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = ((global::com.codename1.io.NetworkEvent) _r1_o).getProgressType();
     switch (_r3.i) {

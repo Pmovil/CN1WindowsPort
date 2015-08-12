@@ -354,7 +354,6 @@ private void updateModel(){
     _r3.i = _r5.i;
     _r8_o = ((global::com.codename1.ui.table.Table) _r0_o).createCellConstraint((global::java.lang.Object) _r1_o, (int) _r2.i, (int) _r3.i);
     _r9_o = ((global::com.codename1.ui.table.Table) _r21_o).getLayout();
-    _r9_o = _r9_o;
     _r9.i = ((global::com.codename1.ui.table.TableLayout) _r9_o).getNextRow();
     _r0_o = _r21_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r0_o)._fmodel;
@@ -458,7 +457,6 @@ public override void paintGlass(global::com.codename1.ui.Graphics n1){
     _r1.i = _r25.i;
     ((global::com.codename1.ui.Graphics) _r0_o).setColor((int) _r1.i);
     _r19_o = ((global::com.codename1.ui.table.Table) _r29_o).getLayout();
-    _r19_o = _r19_o;
     _r25.i = ((global::com.codename1.ui.table.Table) _r29_o).getWidth();
     _r26_o = ((global::com.codename1.ui.table.Table) _r29_o).getScrollDimension();
     _r26.i = ((global::com.codename1.ui.geom.Dimension) _r26_o).getWidth();
@@ -926,7 +924,6 @@ private global::System.Object createCellImpl(global::java.lang.Object n1, int n2
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r3.i == 0) goto label38;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.table.Table) _r8_o)._flistener;
     ((global::com.codename1.ui.TextArea) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r4_o);
@@ -989,7 +986,6 @@ public virtual global::System.Object createCell(global::java.lang.Object n1, int
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     if (_r10.i != _r4.i) goto label64;
     _r1_o = new global::com.codename1.ui.Label();
-    _r9_o = _r9_o;
     ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r9_o);
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
@@ -1284,7 +1280,6 @@ private void updateMargins(){
     _r10_o = this;
     _r9.i = 0;
     _r5_o = ((global::com.codename1.ui.table.Table) _r10_o).getLayout();
-    _r5_o = _r5_o;
     _r2.i = ((global::com.codename1.ui.table.Table) _r10_o)._fhorizontalBorderSpacing;
     _r7.i = ((global::com.codename1.ui.table.Table) _r10_o)._fverticalBorderSpacing;
     _r8.i = ((global::com.codename1.ui.table.Table) _r10_o)._fcollapseBorder ? 1 : 0;
@@ -1386,7 +1381,6 @@ public virtual int getCellColumn(global::com.codename1.ui.Component n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label15;
     _r1.i = ((global::java.lang.Integer) _r0_o).intValue();
     label14:;
@@ -1410,7 +1404,6 @@ public virtual int getCellRow(global::com.codename1.ui.Component n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label15;
     _r1.i = ((global::java.lang.Integer) _r0_o).intValue();
     label14:;
@@ -1483,7 +1476,6 @@ public virtual global::System.Object createCellConstraint(global::java.lang.Obje
     _r4.i = _r4.i + 1;
     label6:;
     _r0_o = ((global::com.codename1.ui.table.Table) _r2_o).getLayout();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.table.TableLayout) _r0_o).createConstraint((int) _r4.i, (int) _r5.i);
     return (global::com.codename1.ui.table.TableLayout_2Constraint) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.table.TableLayout$Constraint createCellConstraint(java.lang.Object, int, int)]
@@ -1571,7 +1563,6 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fdata;
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -1582,7 +1573,6 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label30;
     _r1_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fcolumnNames;
     goto label14;
     label30:;
@@ -1611,10 +1601,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     if (_r0.i == 0) goto label29;
     _r1_o = new global::com.codename1.ui.table.DefaultTableModel();
     _r0_o = ((global::com.codename1.ui.table.Table) _r3_o)._fmodel;
-    _r0_o = _r0_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r0_o)._fcolumnNames;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
     ((global::com.codename1.ui.table.DefaultTableModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o);
     ((global::com.codename1.ui.table.Table) _r3_o).setModel((global::com.codename1.ui.table.TableModel) _r1_o);
     _r0_o = _r2_o;
@@ -1627,10 +1614,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label57;
     _r1_o = new global::com.codename1.ui.table.DefaultTableModel();
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r3_o)._fmodel;
-    _r0_o = _r0_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r0_o)._fdata;
     ((global::com.codename1.ui.table.DefaultTableModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
     ((global::com.codename1.ui.table.Table) _r3_o).setModel((global::com.codename1.ui.table.TableModel) _r1_o);

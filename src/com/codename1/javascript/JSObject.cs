@@ -339,7 +339,6 @@ public virtual global::System.Object getString(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: java.lang.String getString(java.lang.String)]
 }
@@ -352,7 +351,6 @@ public virtual int getInt(global::java.lang.String n1){
     _r1_o = this;
     _r2_o = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Double) _r1_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: int getInt(java.lang.String)]
@@ -366,7 +364,6 @@ public virtual double getDouble(global::java.lang.String n1){
     _r2_o = this;
     _r3_o = n1;
     _r2_o = ((global::com.codename1.javascript.JSObject) _r2_o).get((global::java.lang.String) _r3_o);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     return _r0.d;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: double getDouble(java.lang.String)]
@@ -380,7 +377,6 @@ public virtual bool getBoolean(global::java.lang.String n1){
     _r1_o = this;
     _r2_o = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Boolean) _r1_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: boolean getBoolean(java.lang.String)]
@@ -393,7 +389,6 @@ public virtual global::System.Object getObject(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::com.codename1.javascript.JSObject) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject getObject(java.lang.String)]
 }
@@ -434,7 +429,6 @@ public virtual global::System.Object getString(int n1){
     _r0_o = this;
     _r1.i = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((int) _r1.i);
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: java.lang.String getString(int)]
 }
@@ -447,7 +441,6 @@ public virtual int getInt(int n1){
     _r1_o = this;
     _r2.i = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Double) _r1_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: int getInt(int)]
@@ -461,7 +454,6 @@ public virtual double getDouble(int n1){
     _r2_o = this;
     _r3.i = n1;
     _r2_o = ((global::com.codename1.javascript.JSObject) _r2_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     return _r0.d;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: double getDouble(int)]
@@ -475,7 +467,6 @@ public virtual bool getBoolean(int n1){
     _r1_o = this;
     _r2.i = n1;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r1_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Boolean) _r1_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: boolean getBoolean(int)]
@@ -488,7 +479,6 @@ public virtual global::System.Object getObject(int n1){
     _r0_o = this;
     _r1.i = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).get((int) _r1.i);
-    _r0_o = _r0_o;
     return (global::com.codename1.javascript.JSObject) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject getObject(int)]
 }
@@ -506,7 +496,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
     _r4_o = n2;
     _r0.i = ((_r4_o != null) && (_r4_o is global::com.codename1.javascript.JSFunction)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
-    _r4_o = _r4_o;
     ((global::com.codename1.javascript.JSObject) _r2_o).addCallback((global::java.lang.String) _r3_o, (global::com.codename1.javascript.JSFunction) _r4_o);
     label9:;
     return;
@@ -808,7 +797,6 @@ public virtual int callInt(global::java.lang.String n1){
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r2_o).call((global::java.lang.String) _r3_o);
-    _r0_o = _r0_o;
     _r1.i = ((global::java.lang.Double) _r0_o).intValue();
     return _r1.i;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: int callInt(java.lang.String)]
@@ -823,7 +811,6 @@ public virtual double callDouble(global::java.lang.String n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r3_o).call((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     _r1.d = ((global::java.lang.Double) _r0_o).doubleValue();
     return _r1.d;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: double callDouble(java.lang.String)]
@@ -836,7 +823,6 @@ public virtual global::System.Object callString(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).call((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: java.lang.String callString(java.lang.String)]
 }
@@ -848,7 +834,6 @@ public virtual global::System.Object callObject(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.javascript.JSObject) _r0_o).call((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::com.codename1.javascript.JSObject) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JSObject: com.codename1.javascript.JSObject callObject(java.lang.String)]
 }
@@ -867,7 +852,6 @@ public virtual global::System.Object call(global::org.xmlvm._nArrayAdapter<globa
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
     _r0_o = ((global::com.codename1.javascript.JavascriptContext) _r1_o).get((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.javascript.JSObject) _r3_o)._fcontext;
     _r1_o = ((global::com.codename1.javascript.JavascriptContext) _r1_o).call((global::com.codename1.javascript.JSObject) _r3_o, (global::com.codename1.javascript.JSObject) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     return (global::java.lang.Object) _r1_o;

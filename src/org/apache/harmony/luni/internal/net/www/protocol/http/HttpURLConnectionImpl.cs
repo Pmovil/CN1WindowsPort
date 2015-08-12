@@ -106,7 +106,6 @@ public void @this(global::java.net.URL n1, int n2){
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._fdefaultPort = _r3.i;
     _r0_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl._fdefaultReqHeader;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._freqHeader = (global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r0_o;
     try {
     _r0_o = ((global::java.net.URL) _r2_o).toURI();
@@ -222,7 +221,6 @@ public override void connect(){
     _r5.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label51;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r5_o = ((global::java.net.Proxy) _r3_o).type();
     _r6_o = global::java.net.Proxy_2Type._fDIRECT;
     if (_r5_o == _r6_o) goto label95;
@@ -1594,7 +1592,6 @@ private int getHostPort(){
     if (_r0_o == null) goto label33;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._fproxy;
     _r0_o = ((global::java.net.Proxy) _r0_o).address();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r0_o).getPort();
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._fhostPort = _r0.i;
     label22:;
@@ -1629,7 +1626,6 @@ private global::System.Object getHostAddress(){
     if (_r0_o == _r1_o) goto label35;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r2_o)._fproxy;
     _r0_o = ((global::java.net.Proxy) _r0_o).address();
-    _r0_o = _r0_o;
     _r0_o = ((global::java.net.InetSocketAddress) _r0_o).getAddress();
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r2_o)._fhostAddress = (global::java.net.InetAddress) _r0_o;
     label32:;
@@ -1655,7 +1651,6 @@ private global::System.Object getHostName(){
     if (_r0_o == null) goto label25;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._fproxy;
     _r0_o = ((global::java.net.Proxy) _r0_o).address();
-    _r0_o = _r0_o;
     _r0_o = ((global::java.net.InetSocketAddress) _r0_o).getHostName();
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpURLConnectionImpl) _r1_o)._fhostName = (global::java.lang.String) _r0_o;
     label22:;

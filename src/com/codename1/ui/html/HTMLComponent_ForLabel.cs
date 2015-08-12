@@ -54,7 +54,6 @@ public virtual void triggerAction(){
     _r1_o = ((global::com.codename1.ui.html.HTMLComponent) _r1_o).getInputFields();
     _r2_o = ((global::com.codename1.ui.html.HTMLComponent_2ForLabel) _r3_o)._fid;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label21;
     _r1_o = ((global::com.codename1.ui.html.HTMLComponent_2ForLabel) _r3_o)._fhtmlC;
     ((global::com.codename1.ui.html.HTMLComponent) _r1_o).selectComponent((global::com.codename1.ui.Component) _r0_o);

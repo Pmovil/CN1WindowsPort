@@ -19,7 +19,6 @@ public virtual global::System.Object peek(){
     _r1_o = this;
     _r0.i = 0;
     _r1_o = ((global::com.codename1.io.JSONParser_2KeyStack) _r1_o).elementAt((int) _r0.i);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser$KeyStack: java.lang.String peek()]
 }

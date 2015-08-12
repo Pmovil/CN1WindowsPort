@@ -82,7 +82,6 @@ public override bool implies(global::java.security.Permission n1){
     label7:;
     return _r0.i!=0;
     label8:;
-    _r10_o = _r10_o;
     _r1.i = ((global::java.net.SocketPermission) _r10_o)._factionsMask;
     _r0_o = ((global::java.net.SocketPermissionCollection) _r9_o)._fpermissions;
     _r2.i = ((global::java.util.Vector) _r0_o).size();
@@ -100,7 +99,6 @@ public override bool implies(global::java.security.Permission n1){
     label32:;
     _r0_o = ((global::java.net.SocketPermissionCollection) _r9_o)._fpermissions;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r3.i);
-    _r0_o = _r0_o;
     _r5.i = ((global::java.net.SocketPermission) _r0_o).checkHost((global::java.net.SocketPermission) _r10_o) ? 1 : 0;
     if (_r5.i == 0) goto label100;
     _r5.i = ((global::java.net.SocketPermission) _r0_o)._factionsMask;

@@ -15,7 +15,6 @@ public void @this(global::java.util.List n1){
     _r2_o = n1;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.SumFunction) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.SumFunction: void <init>(java.util.List)]
@@ -54,7 +53,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     _r0.d = 0.0D;
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.util.Collection)) ? 1 : 0;
     if (_r2.i == 0) goto label24;
-    _r5_o = _r5_o;
     _r2_o = ((global::java.util.Collection) _r5_o).iterator();
     label18:;
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
@@ -65,7 +63,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     return (global::java.lang.Object) _r2_o;
     label30:;
     _r5_o = ((global::java.util.Iterator) _r2_o).next();
-    _r5_o = _r5_o;
     _r3_o = global::gnu.xml.xpath.SumFunction.stringValue((global::org.w3c.dom.Node) _r5_o);
     _r3.d = global::gnu.xml.xpath.SumFunction._1number((global::org.w3c.dom.Node) _r6_o, (global::java.lang.Object) _r3_o);
     _r0.d = _r0.d + _r3.d;

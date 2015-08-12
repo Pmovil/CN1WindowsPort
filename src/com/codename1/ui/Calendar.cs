@@ -514,7 +514,6 @@ private global::System.Object getLocalizedMonth(int n1){
     _r1_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r4_o);
     if (_r1_o == null) goto label43;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label43:;
     return (global::java.lang.String) _r3_o;

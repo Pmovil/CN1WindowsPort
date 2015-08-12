@@ -295,7 +295,6 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
     return (global::java.util.Enumeration) _r0_o;
     label20:;
     _r0_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r0_o = _r0_o;
     _r3_o = ((global::org.xml.sax.helpers.NamespaceSupport) _r4_o).getURI((global::java.lang.String) _r0_o);
     _r3.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label9;

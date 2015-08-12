@@ -45,7 +45,6 @@ public override bool equals(global::java.lang.Object n1){
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Collections_2ReverseComparatorWithComparator)) ? 1 : 0;
     if (_r0.i == 0) goto label18;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.Collections_2ReverseComparatorWithComparator) _r3_o)._fcomparator;
     _r1_o = ((global::java.util.Collections_2ReverseComparatorWithComparator) _r2_o)._fcomparator;
     _r0.i = ((global::java.util.Comparator) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;

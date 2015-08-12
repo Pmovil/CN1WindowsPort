@@ -51,7 +51,6 @@ public void @this(){
     label34:;
     try {
     _r0_o = ((global::gnu.xml.dom.DomDocumentBuilderFactory) _r2_o)._fimpl;
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.DomDocumentBuilderFactory) _r2_o)._fls = (global::org.w3c.dom.ls.DOMImplementationLS) _r0_o;
     }
     catch (global::System.Exception e) {

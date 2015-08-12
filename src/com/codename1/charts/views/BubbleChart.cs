@@ -87,7 +87,6 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r2_o;
     _r1.i = _r23.i;
     _r14_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r0_o).getSeriesAt((int) _r1.i);
-    _r14_o = _r14_o;
     _r12.d = ((global::com.codename1.charts.models.XYValueSeries) _r14_o).getMaxValue();
     _r2.d = 20.0D;
     _r8.d = _r2.d / _r12.d;
@@ -103,13 +102,11 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r20_o;
     _r1.i = _r10.i;
     _r21_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21_o = _r21_o;
     _r5.f = ((global::java.lang.Float) _r21_o).floatValue();
     _r2.i = _r10.i + 1;
     _r0_o = _r20_o;
     _r1.i = _r2.i;
     _r21_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21_o = _r21_o;
     _r6.f = ((global::java.lang.Float) _r21_o).floatValue();
     _r7.f = (float) _r15.d;
     _r2_o = _r17_o;
@@ -165,7 +162,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r2_o;
     _r1.i = _r24.i;
     _r17_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r0_o).getSeriesAt((int) _r1.i);
-    _r17_o = _r17_o;
     _r14.d = ((global::com.codename1.charts.models.XYValueSeries) _r17_o).getMaxValue();
     _r2.d = 20.0D;
     _r10.d = _r2.d / _r14.d;
@@ -189,7 +185,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r2.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -200,7 +195,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r4.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r4.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -210,7 +204,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r6.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -221,7 +214,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r8.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r8.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -232,13 +224,11 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r22_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r4.d = ((global::java.lang.Double) _r20_o).doubleValue();
     _r2.i = _r12.i + 1;
     _r0_o = _r22_o;
     _r1.i = _r2.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r20_o = _r20_o;
     _r6.d = ((global::java.lang.Double) _r20_o).doubleValue();
     _r2_o = _r15_o;
     ((global::com.codename1.charts.views.ClickableArea) _r2_o).@this((global::com.codename1.ui.geom.Rectangle2D) _r3_o, (double) _r4.d, (double) _r6.d);

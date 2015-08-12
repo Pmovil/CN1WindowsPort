@@ -190,7 +190,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     base.endElement((global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o);
     _r0_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._fnodes;
     _r0_o = ((global::java.util.LinkedList) _r0_o).removeLast();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._fnodes;
     _r1.i = ((global::java.util.LinkedList) _r1_o).isEmpty() ? 1 : 0;
     if (_r1.i == 0) goto label61;
@@ -200,7 +199,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._fctx = (global::org.w3c.dom.Node) _r2_o;
     _r1_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._fdecisions;
     _r1_o = ((global::java.util.LinkedList) _r1_o).removeLast();
-    _r1_o = _r1_o;
     _r1.i = ((global::java.lang.Short) _r1_o).shortValue();
     switch (_r1.i) {
     case 2: goto label85;
@@ -219,7 +217,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     label61:;
     _r1_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._fnodes;
     _r1_o = ((global::java.util.LinkedList) _r1_o).getLast();
-    _r1_o = _r1_o;
     _r2_o = _r1_o;
     goto label32;
     label71:;
@@ -369,7 +366,6 @@ public override void endDTD(){
     label6:;
     _r0_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._fnodes;
     _r0_o = ((global::java.util.LinkedList) _r0_o).removeLast();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._fdecisions;
     ((global::java.util.LinkedList) _r1_o).removeLast();
     ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r3_o)._finDTD = 0!=_r2.i;
@@ -589,7 +585,6 @@ public virtual short getDecision(global::org.w3c.dom.Node n1, bool n2){
     label143:;
     if (_r6.i == 0) goto label155;
     _r0_o = ((global::gnu.xml.dom.ls.FilteredSAXEventSink) _r4_o)._ffilter;
-    _r5_o = _r5_o;
     _r0.i = ((global::org.w3c.dom.ls.LSParserFilter) _r0_o).startElement((global::org.w3c.dom.Element) _r5_o);
     goto label20;
     label155:;

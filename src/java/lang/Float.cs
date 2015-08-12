@@ -134,7 +134,6 @@ public override bool equals(global::java.lang.Object n1){
     if (_r0.i == 0) goto label22;
     _r0.f = ((global::java.lang.Float) _r2_o)._fvalue;
     _r0.i = global::java.lang.Float.floatToIntBits((float) _r0.f);
-    _r3_o = _r3_o;
     _r1.f = ((global::java.lang.Float) _r3_o)._fvalue;
     _r1.i = global::java.lang.Float.floatToIntBits((float) _r1.f);
     if (_r0.i == _r1.i) goto label24;
@@ -564,7 +563,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Float) _r1_o).compareTo((global::java.lang.Float) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.lang.Float: int compareTo(java.lang.Object)]

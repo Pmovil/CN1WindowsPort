@@ -91,7 +91,6 @@ public virtual global::System.Object getDOMImplementation(global::java.lang.Stri
     label12:;
     _r1.i = 0;
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     goto label11;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ImplementationSource: org.w3c.dom.DOMImplementation getDOMImplementation(java.lang.String)]
@@ -139,7 +138,6 @@ private global::System.Object getImplementations(global::java.lang.String n1){
     return (global::java.util.List) _r0_o;
     label26:;
     _r6_o = ((global::java.util.Iterator) _r1_o).next();
-    _r6_o = _r6_o;
     _r2_o = null;
     _r3.i = 32;
     _r3.i = ((global::java.lang.String) _r6_o).indexOf((int) _r3.i);
@@ -155,7 +153,6 @@ private global::System.Object getImplementations(global::java.lang.String n1){
     _r5.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label19;
     _r6_o = ((global::java.util.Iterator) _r4_o).next();
-    _r6_o = _r6_o;
     _r5.i = ((global::org.w3c.dom.DOMImplementation) _r6_o).hasFeature((global::java.lang.String) _r3_o, (global::java.lang.String) _r2_o) ? 1 : 0;
     if (_r5.i != 0) goto label57;
     ((global::java.util.Iterator) _r4_o).remove();

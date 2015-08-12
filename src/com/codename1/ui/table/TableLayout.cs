@@ -1543,7 +1543,6 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r5_o);
     label150:;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = global::com.codename1.ui.table.TableLayout_2Constraint.access_2200((global::com.codename1.ui.table.TableLayout_2Constraint) _r1_o);
     if (_r5_o == null) goto label11;
@@ -1920,7 +1919,6 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
     label87:;
     if (_r4.i >= _r3.i) goto label125;
     _r2_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r4.i);
-    _r2_o = _r2_o;
     _r6_o = global::com.codename1.ui.table.TableLayout._fH_1SPAN_1CONSTRAINT;
     if (_r2_o == _r6_o) goto label107;
     _r6_o = global::com.codename1.ui.table.TableLayout._fV_1SPAN_1CONSTRAINT;
@@ -2095,12 +2093,10 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = base.equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r1.i == 0) goto label34;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.table.TableLayout) _r1_o).getRows();
     _r2.i = ((global::com.codename1.ui.table.TableLayout) _r3_o).getRows();
     if (_r1.i != _r2.i) goto label34;
-    _r4_o = _r4_o;
     _r1.i = ((global::com.codename1.ui.table.TableLayout) _r4_o).getColumns();
     _r2.i = ((global::com.codename1.ui.table.TableLayout) _r3_o).getColumns();
     if (_r1.i != _r2.i) goto label34;

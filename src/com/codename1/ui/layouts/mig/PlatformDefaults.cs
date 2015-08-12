@@ -687,7 +687,6 @@ public static global::System.Object getDefaultVisualPadding(global::java.lang.St
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fVISUAL_1BOUNDS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<int>) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int[] getDefaultVisualPadding(java.lang.String)]
 }
@@ -1085,7 +1084,6 @@ public static global::System.Object getUnitValueX(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fHOR_1DEFS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.layouts.mig.UnitValue) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getUnitValueX(java.lang.String)]
 }
@@ -1097,7 +1095,6 @@ public static global::System.Object getUnitValueY(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fVER_1DEFS;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.layouts.mig.UnitValue) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: com.codename1.ui.layouts.mig.UnitValue getUnitValueY(java.lang.String)]
 }
@@ -1164,7 +1161,6 @@ public static int convertToPixels(float n1, global::java.lang.String n2, bool n3
     _r1_o = global::com.codename1.ui.layouts.mig.PlatformDefaults._fHOR_1DEFS;
     label4:;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label26;
     _r1.i = ((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o).getPixels((float) _r5.f, (global::com.codename1.ui.layouts.mig.ContainerWrapper) _r6_o, (global::com.codename1.ui.layouts.mig.ComponentWrapper) _r7_o);
     _r1.f = (float) _r1.i;

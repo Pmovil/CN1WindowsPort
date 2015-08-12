@@ -68,7 +68,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     label14:;
     try {
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
-    _r0_o = _r0_o;
     ((global::com.codename1.capture.Capture_2CallBack) _r1_o)._furl = (global::java.lang.String) _r0_o;
     }
     catch (global::System.Exception e) {

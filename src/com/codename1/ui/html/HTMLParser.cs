@@ -79,7 +79,6 @@ public override void parseTagContent(global::com.codename1.xml.Element n1, globa
     _r2.i = ((global::com.codename1.ui.html.HTMLComponent) _r2_o)._floadCSS ? 1 : 0;
     if (_r2.i == 0) goto label35;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.html.HTMLElement) _r2_o).getTagId();
     _r3.i = 54;
@@ -197,7 +196,6 @@ public virtual global::System.Object parseHTML(global::java.io.InputStreamReader
     _r0_o = this;
     _r1_o = n1;
     _r0_o = base.parse((global::java.io.Reader) _r1_o);
-    _r0_o = _r0_o;
     return (global::com.codename1.ui.html.HTMLElement) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLParser: com.codename1.ui.html.HTMLElement parseHTML(java.io.InputStreamReader)]
 }
@@ -222,7 +220,6 @@ public override bool isSupported(global::com.codename1.xml.Element n1){
     global::System.Object _r3_o = null;
     _r2_o = this;
     _r3_o = n1;
-    _r3_o = _r3_o;
     _r0.i = ((global::com.codename1.ui.html.HTMLElement) _r3_o).getTagId();
     _r1.i = -1;
     if (_r0.i == _r1.i) goto label11;
@@ -247,7 +244,6 @@ public override bool shouldEvaluate(global::com.codename1.xml.Element n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.html.HTMLElement) _r1_o).getTagId();
     _r2.i = -1;

@@ -44,7 +44,6 @@ public virtual global::System.Object next(){
     _r0_o = new global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry();
     _r1_o = ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_21) _r2_o)._fiterator;
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
-    _r2_o = _r2_o;
     ((global::java.util.Collections_2UnmodifiableMap_2UnmodifiableEntrySet_2UnmodifiableMapEntry) _r0_o).@this((global::java.util.Map_2Entry) _r2_o);
     return (global::java.util.Map_2Entry) _r0_o;
 //XMLVM_END_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: java.util.Map$Entry next()]

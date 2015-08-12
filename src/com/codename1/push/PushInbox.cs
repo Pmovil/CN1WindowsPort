@@ -324,7 +324,6 @@ public virtual global::System.Object getMessageId(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r1_o).getCloudId();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.push.PushInbox: java.lang.String getMessageId(int)]
@@ -339,7 +338,6 @@ public virtual global::System.Object getTitle(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=title
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
@@ -357,7 +355,6 @@ public virtual global::System.Object getFrom(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=from
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109))}));
@@ -376,7 +373,6 @@ public virtual long getTime(int n1){
     _r3.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r2_o).getCachedMessages();
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     // Value=time
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
@@ -395,7 +391,6 @@ public virtual global::System.Object getIconURL(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=icon
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
@@ -413,7 +408,6 @@ public virtual global::System.Object getBody(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=body
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121))}));
@@ -432,7 +426,6 @@ public virtual bool isHTML(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=isHTML
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 72)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 76))}));
@@ -452,7 +445,6 @@ public virtual bool isRead(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.push.PushInbox) _r1_o).getCachedMessages();
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=read
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
@@ -478,7 +470,6 @@ public virtual void setRead(int n1, bool n2){
     if (_r5.i == _r1.i) goto label43;
     _r1_o = ((global::com.codename1.push.PushInbox) _r3_o).getCachedMessages();
     _r0_o = ((global::java.util.List) _r1_o).get((int) _r4.i);
-    _r0_o = _r0_o;
     // Value=read
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
@@ -690,7 +681,6 @@ private global::System.Object getCachedMessages(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120))}));
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.push.PushInbox) _r3_o)._fcache = (global::java.util.List) _r0_o;
     _r0_o = ((global::com.codename1.push.PushInbox) _r3_o)._fcache;
     if (_r0_o == null) goto label28;

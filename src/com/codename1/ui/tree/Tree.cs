@@ -215,7 +215,6 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fmodel;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.tree.Tree_2StringArrayTreeModel) _r1_o)._farr;
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -241,8 +240,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label22;
     _r0_o = new global::com.codename1.ui.tree.Tree_2StringArrayTreeModel();
-    _r3_o = _r3_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.tree.Tree_2StringArrayTreeModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     ((global::com.codename1.ui.tree.Tree) _r1_o).setModel((global::com.codename1.ui.tree.TreeModel) _r0_o);
     _r0_o = null;
@@ -418,7 +415,6 @@ private global::System.Object expandNode(global::com.codename1.ui.Component n1, 
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 72))}));
     _r5_o = ((global::com.codename1.ui.Component) _r8_o).getClientProperty((global::java.lang.String) _r5_o);
-    _r5_o = _r5_o;
     _r0.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r4_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
     // Value=TREE_OBJECT
@@ -497,9 +493,7 @@ private global::System.Object expandPathNode(global::com.codename1.ui.Container 
     _r2_o = ((global::com.codename1.ui.Container) _r8_o).getComponentAt((int) _r3.i);
     _r5.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label61;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getLayout();
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getNorth();
     // Value=TREE_OBJECT
     _r5_o = new global::java.lang.String();
@@ -511,7 +505,6 @@ private global::System.Object expandPathNode(global::com.codename1.ui.Container 
     _r5.i = ((global::com.codename1.ui.tree.Tree) _r7_o).isExpanded((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     if (_r5.i == 0) goto label56;
     _r7_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getCenter();
-    _r7_o = _r7_o;
     _r5_o = _r7_o;
     label55:;
     return (global::com.codename1.ui.Container) _r5_o;
@@ -549,9 +542,7 @@ private void collapsePathNode(global::com.codename1.ui.Container n1, global::jav
     _r2_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r3.i);
     _r5.i = ((global::com.codename1.ui.tree.Tree) _r6_o).isExpanded((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     if (_r5.i == 0) goto label54;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getLayout();
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getNorth();
     // Value=TREE_OBJECT
     _r5_o = new global::java.lang.String();
@@ -835,12 +826,10 @@ public virtual void bindNodeListener(global::com.codename1.ui.events.ActionListe
     _r3_o = n2;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     label9:;
     return;
     label10:;
-    _r3_o = _r3_o;
     ((global::com.codename1.components.SpanButton) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void bindNodeListener(com.codename1.ui.events.ActionListener, com.codename1.ui.Component)]
@@ -857,12 +846,10 @@ public virtual void setNodeIcon(global::com.codename1.ui.Image n1, global::com.c
     _r3_o = n2;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r3_o).setIcon((global::com.codename1.ui.Image) _r2_o);
     label9:;
     return;
     label10:;
-    _r3_o = _r3_o;
     ((global::com.codename1.components.SpanButton) _r3_o).setIcon((global::com.codename1.ui.Image) _r2_o);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void setNodeIcon(com.codename1.ui.Image, com.codename1.ui.Component)]

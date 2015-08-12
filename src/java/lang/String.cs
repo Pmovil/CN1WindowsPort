@@ -1140,7 +1140,6 @@ private global::System.Object defaultCharset(){
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 49))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r1_o).@this((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r0_o = _r0_o;
     try {
     _r1_o = global::java.nio.charset.Charset.forName((global::java.lang.String) _r0_o);
     global::java.lang.String._fDefaultCharset = (global::java.nio.charset.Charset) _r1_o;
@@ -1227,7 +1226,6 @@ public override bool equals(global::java.lang.Object n1){
     _r5.i = ((_r11_o != null) && (_r11_o is global::java.lang.String)) ? 1 : 0;
     if (_r5.i == 0) goto label60;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = ((global::java.lang.String) _r10_o)._fhashCode;
     _r4.i = ((global::java.lang.String) _r3_o)._fhashCode;
@@ -1527,8 +1525,6 @@ private global::System.Object getCharset(global::java.lang.String n1){
     _r2_o = new global::java.io.UnsupportedEncodingException();
     ((global::java.io.UnsupportedEncodingException) _r2_o).@this((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.io.UnsupportedEncodingException) _r2_o).initCause((global::java.lang.Throwable) _r1_o);
-    _r3_o = _r3_o;
-    _r3_o = _r3_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.UnsupportedEncodingException) _r3_o);
     label36:;
     _r1_o = _ex.getJavaException();
@@ -1536,8 +1532,6 @@ private global::System.Object getCharset(global::java.lang.String n1){
     _r2_o = new global::java.io.UnsupportedEncodingException();
     ((global::java.io.UnsupportedEncodingException) _r2_o).@this((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.io.UnsupportedEncodingException) _r2_o).initCause((global::java.lang.Throwable) _r1_o);
-    _r3_o = _r3_o;
-    _r3_o = _r3_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.UnsupportedEncodingException) _r3_o);
 //XMLVM_END_WRAPPER[java.lang.String: java.nio.charset.Charset getCharset(java.lang.String)]
 }
@@ -3217,7 +3211,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.String) _r1_o).compareTo((global::java.lang.String) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.lang.String: int compareTo(java.lang.Object)]

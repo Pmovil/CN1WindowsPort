@@ -95,7 +95,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.layouts.Insets)) ? 1 : 0;
     if (_r2.i == 0) goto label42;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.layouts.Insets) _r1_o)._fleft;
     _r3.i = ((global::com.codename1.ui.layouts.Insets) _r6_o)._fleft;

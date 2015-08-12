@@ -73,7 +73,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r6_o = n1;
     _r4.i = 1;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getError();
     if (_r2_o == null) goto label24;

@@ -199,7 +199,6 @@ public virtual void handleEvent(global::org.w3c.dom.events.Event n1){
     global::System.Object _r4_o = null;
     _r3_o = this;
     _r4_o = n1;
-    _r4_o = _r4_o;
     _r0_o = ((global::org.w3c.dom.events.MutationEvent) _r4_o).getRelatedNode();
     _r1.i = ((global::org.w3c.dom.Node) _r0_o).getNodeType();
     _r2.i = 1;

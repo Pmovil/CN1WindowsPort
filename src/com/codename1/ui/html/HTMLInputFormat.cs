@@ -258,7 +258,6 @@ public virtual global::System.Object applyConstraints(global::com.codename1.ui.T
     _r6.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label39;
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r1_o = _r1_o;
     _r3.i = 1;
     label26:;
     _r6.i = 16;
@@ -286,7 +285,6 @@ public virtual global::System.Object applyConstraints(global::com.codename1.ui.T
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r6.i == 0) goto label109;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6.i = _r5.i & 8;
     if (_r6.i != 0) goto label96;
@@ -433,7 +431,6 @@ public virtual bool verifyString(global::java.lang.String n1){
     _r5.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label104;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r2_o = _r2_o;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._fcount;
     if (_r5.i != _r8.i) goto label79;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._ftype;
@@ -476,7 +473,6 @@ public virtual bool verifyString(global::java.lang.String n1){
     _r5.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label145;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r2_o = _r2_o;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._fcount;
     if (_r5.i != _r8.i) goto label127;
     _r5.i = _r7.i;
@@ -581,7 +577,6 @@ public override global::System.Object toString(){
     _r7.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label147;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r7.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r0_o)._fcount;
     _r8.i = -2147483648;
     if (_r7.i != _r8.i) goto label85;

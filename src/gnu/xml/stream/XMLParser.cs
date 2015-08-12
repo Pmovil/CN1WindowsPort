@@ -537,9 +537,7 @@ public virtual global::System.Object getNamespaceURI(global::java.lang.String n1
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label50;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r5_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label28;
     _r3_o = _r2_o;
     goto label10;
@@ -589,7 +587,6 @@ public virtual global::System.Object getPrefix(global::java.lang.String n1){
     _r5.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label86;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r5.i = ((global::java.util.LinkedHashMap) _r0_o).containsValue((global::java.lang.Object) _r7_o) ? 1 : 0;
     if (_r5.i == 0) goto label28;
     _r5_o = ((global::java.util.LinkedHashMap) _r0_o).entrySet();
@@ -598,13 +595,10 @@ public virtual global::System.Object getPrefix(global::java.lang.String n1){
     _r5.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label28;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r4_o = ((global::java.util.Map_2Entry) _r1_o).getValue();
-    _r4_o = _r4_o;
     _r5.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r7_o) ? 1 : 0;
     if (_r5.i == 0) goto label54;
     _r6_o = ((global::java.util.Map_2Entry) _r1_o).getKey();
-    _r6_o = _r6_o;
     _r5_o = _r6_o;
     goto label10;
     label86:;
@@ -660,7 +654,6 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
     _r6.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r6.i == 0) goto label107;
     _r1_o = ((global::java.util.Iterator) _r3_o).next();
-    _r1_o = _r1_o;
     _r6.i = ((global::java.util.LinkedHashMap) _r1_o).containsValue((global::java.lang.Object) _r8_o) ? 1 : 0;
     if (_r6.i == 0) goto label49;
     _r6_o = ((global::java.util.LinkedHashMap) _r1_o).entrySet();
@@ -669,9 +662,7 @@ public virtual global::System.Object getPrefixes(global::java.lang.String n1){
     _r6.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r6.i == 0) goto label49;
     _r2_o = ((global::java.util.Iterator) _r3_o).next();
-    _r2_o = _r2_o;
     _r5_o = ((global::java.util.Map_2Entry) _r2_o).getValue();
-    _r5_o = _r5_o;
     _r6.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r8_o) ? 1 : 0;
     if (_r6.i == 0) goto label75;
     _r6_o = ((global::java.util.Map_2Entry) _r2_o).getKey();
@@ -733,7 +724,6 @@ public virtual global::System.Object getAttributeLocalName(int n1){
     _r3.i = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._flocalName;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getAttributeLocalName(int)]
@@ -763,7 +753,6 @@ public virtual global::System.Object getAttributePrefix(int n1){
     _r3.i = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._fprefix;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getAttributePrefix(int)]
@@ -782,7 +771,6 @@ public virtual global::System.Object getAttributeName(int n1){
     _r6.i = n1;
     _r2_o = ((global::gnu.xml.stream.XMLParser) _r5_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r2_o).get((int) _r6.i);
-    _r0_o = _r0_o;
     _r2_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._fprefix;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r5_o).getNamespaceURI((global::java.lang.String) _r2_o);
     _r2_o = new global::javax.xml.@namespace.QName();
@@ -803,7 +791,6 @@ public virtual global::System.Object getAttributeType(int n1){
     _r3.i = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._ftype;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getAttributeType(int)]
@@ -845,7 +832,6 @@ public virtual global::System.Object getAttributeValue(int n1){
     _r3.i = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._fvalue;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getAttributeValue(int)]
@@ -870,7 +856,6 @@ public virtual global::System.Object getAttributeValue(global::java.lang.String 
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label47;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._flocalName;
     _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r3.i == 0) goto label6;
@@ -912,7 +897,6 @@ public virtual bool isAttributeDeclared(int n1){
     label6:;
     _r3_o = ((global::gnu.xml.stream.XMLParser) _r5_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r6.i);
-    _r0_o = _r0_o;
     // Value=
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -1180,7 +1164,6 @@ public virtual int getNamespaceCount(){
     label22:;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._fnamespaces;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getFirst();
-    _r0_o = _r0_o;
     _r1.i = ((global::java.util.LinkedHashMap) _r0_o).size();
     goto label14;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: int getNamespaceCount()]
@@ -1201,7 +1184,6 @@ public virtual global::System.Object getNamespacePrefix(int n1){
     _r7.i = n1;
     _r5_o = ((global::gnu.xml.stream.XMLParser) _r6_o)._fnamespaces;
     _r2_o = ((global::java.util.LinkedList) _r5_o).getFirst();
-    _r2_o = _r2_o;
     _r0.i = 0;
     _r5_o = ((global::java.util.LinkedHashMap) _r2_o).keySet();
     _r3_o = ((global::java.util.Set) _r5_o).iterator();
@@ -1209,7 +1191,6 @@ public virtual global::System.Object getNamespacePrefix(int n1){
     _r5.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label38;
     _r4_o = ((global::java.util.Iterator) _r3_o).next();
-    _r4_o = _r4_o;
     _r1.i = _r0.i + 1;
     if (_r0.i != _r7.i) goto label36;
     _r0.i = _r1.i;
@@ -1276,7 +1257,6 @@ public virtual global::System.Object getNamespaceURI(int n1){
     _r7.i = n1;
     _r5_o = ((global::gnu.xml.stream.XMLParser) _r6_o)._fnamespaces;
     _r2_o = ((global::java.util.LinkedList) _r5_o).getFirst();
-    _r2_o = _r2_o;
     _r0.i = 0;
     _r5_o = ((global::java.util.LinkedHashMap) _r2_o).values();
     _r3_o = ((global::java.util.Collection) _r5_o).iterator();
@@ -1284,7 +1264,6 @@ public virtual global::System.Object getNamespaceURI(int n1){
     _r5.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label38;
     _r4_o = ((global::java.util.Iterator) _r3_o).next();
-    _r4_o = _r4_o;
     _r1.i = _r0.i + 1;
     if (_r0.i != _r7.i) goto label36;
     _r0.i = _r1.i;
@@ -1664,7 +1643,6 @@ public virtual bool isAttributeSpecified(int n1){
     _r3.i = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fattrs;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r1.i = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._fspecified ? 1 : 0;
     return _r1.i!=0;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: boolean isAttributeSpecified(int)]
@@ -1962,7 +1940,6 @@ public virtual int next(){
     if (_r9.i != 0) goto label82;
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fstartEntityStack;
     _r5_o = ((global::java.util.LinkedList) _r9_o).removeFirst();
-    _r5_o = _r5_o;
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fbuf;
     ((global::java.lang.StringBuffer) _r9_o).setLength((int) _r10.i);
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fbuf;
@@ -1983,7 +1960,6 @@ public virtual int next(){
     if (_r9.i != 0) goto label124;
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fendEntityStack;
     _r5_o = ((global::java.util.LinkedList) _r9_o).removeFirst();
-    _r5_o = _r5_o;
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fbuf;
     ((global::java.lang.StringBuffer) _r9_o).setLength((int) _r10.i);
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fbuf;
@@ -2217,7 +2193,6 @@ public virtual int next(){
     _r7_o = ((global::java.lang.StringBuffer) _r9_o).toString();
     _r9_o = global::gnu.xml.stream.XMLParser._fPREDEFINED_1ENTITIES;
     _r8_o = ((global::java.util.LinkedHashMap) _r9_o).get((global::java.lang.Object) _r7_o);
-    _r8_o = _r8_o;
     if (_r8_o == null) goto label315;
     _r9.i = ((global::gnu.xml.stream.XMLParser) _r12_o).readCharData((global::java.lang.String) _r8_o);
     ((global::gnu.xml.stream.XMLParser) _r12_o)._fevent = _r9.i;
@@ -2316,7 +2291,6 @@ public virtual int next(){
     try {
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fstack;
     _r3_o = ((global::java.util.LinkedList) _r9_o).removeLast();
-    _r3_o = _r3_o;
     _r9_o = ((global::gnu.xml.stream.XMLParser) _r12_o)._fbuf;
     _r10.i = 0;
     ((global::java.lang.StringBuffer) _r9_o).setLength((int) _r10.i);
@@ -2629,7 +2603,6 @@ public virtual global::System.Object getCurrentElement(){
     _r1_o = this;
     _r0_o = ((global::gnu.xml.stream.XMLParser) _r1_o)._fstack;
     _r1_o = ((global::java.util.LinkedList) _r0_o).getLast();
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.lang.String getCurrentElement()]
 }
@@ -3172,7 +3145,6 @@ public virtual global::System.Object getXMLBase(){
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label26;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label10;
     _r2_o = _r0_o;
     label25:;
@@ -3220,7 +3192,6 @@ private void pushInput(global::java.lang.String n1, global::java.lang.String n2,
     _r0.i = ((global::java.util.Iterator) _r10_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label43;
     _r9_o = ((global::java.util.Iterator) _r10_o).next();
-    _r9_o = _r9_o;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Input) _r9_o)._fname;
     _r0.i = ((global::java.lang.String) _r12_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
@@ -3293,7 +3264,6 @@ private void pushInput(global::java.lang.String n1, global::gnu.xml.stream.XMLPa
     _r1.i = ((global::java.util.Iterator) _r11_o).hasNext() ? 1 : 0;
     if (_r1.i == 0) goto label74;
     _r10_o = ((global::java.util.Iterator) _r11_o).next();
-    _r10_o = _r10_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Input) _r10_o)._fsystemId;
     _r1.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label50;
@@ -3337,7 +3307,6 @@ private void pushInput(global::java.lang.String n1, global::gnu.xml.stream.XMLPa
     _r1.i = ((_r12_o != null) && (_r12_o is global::java.io.InputStream)) ? 1 : 0;
     if (_r1.i == 0) goto label112;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     label112:;
     if (_r2_o != null) goto label118;
@@ -3764,7 +3733,6 @@ private void popInput(){
     _r3_o = this;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._finputStack;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeLast();
-    _r0_o = _r0_o;
     _r1.i = ((global::gnu.xml.stream.XMLParser_2Input) _r0_o)._freport ? 1 : 0;
     if (_r1.i == 0) goto label19;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._fendEntityStack;
@@ -3773,7 +3741,6 @@ private void popInput(){
     label19:;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._finputStack;
     _r1_o = ((global::java.util.LinkedList) _r1_o).getLast();
-    _r1_o = _r1_o;
     ((global::gnu.xml.stream.XMLParser) _r3_o)._finput = (global::gnu.xml.stream.XMLParser_2Input) _r1_o;
     return;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void popInput()]
@@ -3837,7 +3804,6 @@ private void readTextDecl(){
     if (_r4.i == 0) goto label95;
     _r4_o = ((global::gnu.xml.stream.XMLParser) _r8_o)._finputStack;
     _r2_o = ((global::java.util.LinkedList) _r4_o).getFirst();
-    _r2_o = _r2_o;
     _r4.i = ((global::gnu.xml.stream.XMLParser_2Input) _r2_o)._fxml11 ? 1 : 0;
     if (_r4.i != 0) goto label89;
     // Value=external entity specifies later version number
@@ -4714,9 +4680,7 @@ private void readAttDef(global::java.lang.String n1){
     _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label143;
     _r8_o = ((global::java.util.Iterator) _r9_o).next();
-    _r8_o = _r8_o;
     _r7_o = ((global::java.util.Map_2Entry) _r8_o).getValue();
-    _r7_o = _r7_o;
     // Value=ID
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 68))}));
@@ -4740,9 +4704,7 @@ private void readAttDef(global::java.lang.String n1){
     _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label126;
     _r8_o = ((global::java.util.Iterator) _r9_o).next();
-    _r8_o = _r8_o;
     _r7_o = ((global::java.util.Map_2Entry) _r8_o).getValue();
-    _r7_o = _r7_o;
     // Value=NOTATION
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)78)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 78))}));
@@ -5932,11 +5894,8 @@ private int readStartElement(){
     _r4.i = ((global::java.util.Iterator) _r17_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label465;
     _r16_o = ((global::java.util.Iterator) _r17_o).next();
-    _r16_o = _r16_o;
     _r5_o = ((global::java.util.Map_2Entry) _r16_o).getKey();
-    _r5_o = _r5_o;
     _r14_o = ((global::java.util.Map_2Entry) _r16_o).getValue();
-    _r14_o = _r14_o;
     _r0_o = _r22_o;
     _r0.i = ((global::gnu.xml.stream.XMLParser) _r0_o)._fvalidating ? 1 : 0;
     _r4.i = _r0.i;
@@ -5960,7 +5919,6 @@ private int readStartElement(){
     _r0_o = ((global::gnu.xml.stream.XMLParser) _r0_o)._fnamespaces;
     _r4_o = _r0_o;
     _r13_o = ((global::java.util.LinkedList) _r4_o).getFirst();
-    _r13_o = _r13_o;
     // Value=
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -6038,7 +5996,6 @@ private int readStartElement(){
     _r4.i = ((global::java.util.Iterator) _r18_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label178;
     _r9_o = ((global::java.util.Iterator) _r18_o).next();
-    _r9_o = _r9_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r9_o)._fname;
     _r4.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r4.i == 0) goto label337;
@@ -6078,7 +6035,6 @@ private int readStartElement(){
     _r0_o = ((global::gnu.xml.stream.XMLParser) _r0_o)._fnamespaces;
     _r4_o = _r0_o;
     _r13_o = ((global::java.util.LinkedList) _r4_o).getFirst();
-    _r13_o = _r13_o;
     _r4.i = 6;
     _r4_o = ((global::java.lang.String) _r5_o).substring((int) _r4.i);
     _r4.i = ((global::java.util.LinkedHashMap) _r13_o).containsKey((global::java.lang.Object) _r4_o) ? 1 : 0;
@@ -6150,7 +6106,6 @@ private int readStartElement(){
     _r4.i = ((global::java.util.Iterator) _r17_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label665;
     _r3_o = ((global::java.util.Iterator) _r17_o).next();
-    _r3_o = _r3_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r3_o)._fprefix;
     if (_r4_o == null) goto label553;
     // Value=xmlns
@@ -6303,7 +6258,6 @@ private bool attributeSpecified(global::java.lang.String n1){
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label28;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r0_o)._fname;
     _r2.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r2.i == 0) goto label6;
@@ -6430,7 +6384,6 @@ private void readAttribute(global::java.lang.String n1){
     if (_r1.i == 0) goto label189;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r13_o)._fnamespaces;
     _r6_o = ((global::java.util.LinkedList) _r1_o).getFirst();
-    _r6_o = _r6_o;
     // Value=
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -6449,7 +6402,6 @@ private void readAttribute(global::java.lang.String n1){
     if (_r1.i == 0) goto label228;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r13_o)._fnamespaces;
     _r6_o = ((global::java.util.LinkedList) _r1_o).getFirst();
-    _r6_o = _r6_o;
     _r1.i = 6;
     _r1_o = ((global::java.lang.String) _r2_o).substring((int) _r1.i);
     _r1.i = ((global::java.util.LinkedHashMap) _r6_o).containsKey((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -6584,7 +6536,6 @@ private void readAttribute(global::java.lang.String n1){
     if (_r8_o == null) goto label441;
     _r1.i = ((_r8_o != null) && (_r8_o is global::gnu.xml.stream.XMLParser_2ExternalIds)) ? 1 : 0;
     if (_r1.i == 0) goto label441;
-    _r8_o = _r8_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2ExternalIds) _r8_o)._fnotationName;
     if (_r1_o != null) goto label134;
     label441:;
@@ -6657,7 +6608,6 @@ private bool addNamespace(global::gnu.xml.stream.XMLParser_2Attribute n1){
     if (_r1.i == 0) goto label63;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r8_o)._fnamespaces;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getFirst();
-    _r0_o = _r0_o;
     // Value=
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -6696,7 +6646,6 @@ private bool addNamespace(global::gnu.xml.stream.XMLParser_2Attribute n1){
     if (_r1.i == 0) goto label200;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r8_o)._fnamespaces;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getFirst();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Attribute) _r9_o)._flocalName;
     _r1_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r1_o);
     if (_r1_o == null) goto label96;
@@ -6794,7 +6743,6 @@ private void readEndElement(){
     _r3_o = this;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._fstack;
     _r0_o = ((global::java.util.LinkedList) _r1_o).removeLast();
-    _r0_o = _r0_o;
     ((global::gnu.xml.stream.XMLParser) _r3_o).require((global::java.lang.String) _r0_o);
     ((global::gnu.xml.stream.XMLParser) _r3_o).skipWhitespace();
     _r1.i = 62;
@@ -6834,7 +6782,6 @@ private void endElementValidationHook(){
     label20:;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fstack;
     _r0_o = ((global::java.util.LinkedList) _r1_o).getLast();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r2_o)._fdoctype;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o).getElementModel((global::java.lang.String) _r0_o);
     ((global::gnu.xml.stream.XMLParser) _r2_o)._fcurrentContentModel = (global::gnu.xml.stream.XMLParser_2ContentModel) _r1_o;
@@ -7254,7 +7201,6 @@ private int readCharData(global::java.lang.String n1){
     _r0_o = _r20_o;
     _r1_o = _r10_o;
     _r18_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r18_o = _r18_o;
     if (_r18_o == null) goto label494;
     _r0_o = _r24_o;
     _r0_o = ((global::gnu.xml.stream.XMLParser) _r0_o)._fbuf;
@@ -7509,7 +7455,6 @@ private void expandEntity(global::java.lang.String n1, bool n2, bool n3){
     _r4.i = ((_r3_o != null) && (_r3_o is global::java.lang.String)) ? 1 : 0;
     if (_r4.i == 0) goto label94;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r10.i == 0) goto label57;
     _r4.i = 60;
@@ -7531,7 +7476,6 @@ private void expandEntity(global::java.lang.String n1, bool n2, bool n3){
     _r4.i = ((_r3_o != null) && (_r3_o is global::gnu.xml.stream.XMLParser_2ExternalIds)) ? 1 : 0;
     if (_r4.i == 0) goto label33;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser_2ExternalIds) _r1_o)._fnotationName;
     if (_r4_o == null) goto label33;
@@ -7555,7 +7499,6 @@ private void expandEntity(global::java.lang.String n1, bool n2, bool n3){
     ((global::gnu.xml.stream.XMLParser) _r8_o).error((global::java.lang.String) _r4_o, (global::java.lang.Object) _r9_o);
     goto label63;
     label102:;
-    _r3_o = _r3_o;
     if (_r10.i != 0) goto label111;
     _r4.i = _r7.i;
     label107:;
@@ -7591,7 +7534,6 @@ private bool isUnparsedEntity(global::java.lang.String n1){
     if (_r0_o == null) goto label27;
     _r1.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.stream.XMLParser_2ExternalIds)) ? 1 : 0;
     if (_r1.i == 0) goto label27;
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2ExternalIds) _r0_o)._fnotationName;
     if (_r1_o == null) goto label25;
     _r1.i = 1;
@@ -7643,7 +7585,6 @@ private int literalReadCh(bool n1){
     ((global::java.util.LinkedList) _r1_o).removeLast();
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._finputStack;
     _r1_o = ((global::java.util.LinkedList) _r1_o).getLast();
-    _r1_o = _r1_o;
     ((global::gnu.xml.stream.XMLParser) _r3_o)._finput = (global::gnu.xml.stream.XMLParser_2Input) _r1_o;
     if (_r4.i == 0) goto label48;
     _r1.i = ((global::gnu.xml.stream.XMLParser) _r3_o).readCh();
@@ -7857,7 +7798,6 @@ private global::System.Object readLiteral(int n1, bool n2){
     ((global::gnu.xml.stream.XMLParser) _r13_o).require((char) _r10.i);
     _r10_o = global::gnu.xml.stream.XMLParser._fPREDEFINED_1ENTITIES;
     _r9_o = ((global::java.util.LinkedHashMap) _r10_o).get((global::java.lang.Object) _r3_o);
-    _r9_o = _r9_o;
     if (_r9_o == null) goto label309;
     _r10_o = ((global::gnu.xml.stream.XMLParser) _r13_o)._fliteralBuf;
     ((global::java.lang.StringBuffer) _r10_o).append((global::java.lang.String) _r9_o);
@@ -8030,14 +7970,12 @@ private void expandPEReference(){
     label69:;
     _r3.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r3.i == 0) goto label83;
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.stream.XMLParser) _r6_o)._finput;
     _r3.i = ((global::gnu.xml.stream.XMLParser_2Input) _r3_o)._fnormalize ? 1 : 0;
     ((global::gnu.xml.stream.XMLParser) _r6_o).pushInput((global::java.lang.String) _r2_o, (global::java.lang.String) _r0_o, 0!=_r5.i, 0!=_r3.i);
     label82:;
     return;
     label83:;
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.stream.XMLParser) _r6_o)._finput;
     _r3.i = ((global::gnu.xml.stream.XMLParser_2Input) _r3_o)._fnormalize ? 1 : 0;
     ((global::gnu.xml.stream.XMLParser) _r6_o).pushInput((global::java.lang.String) _r2_o, (global::gnu.xml.stream.XMLParser_2ExternalIds) _r0_o, 0!=_r5.i, 0!=_r3.i);
@@ -10374,7 +10312,6 @@ private void error(global::java.lang.String n1, global::java.lang.Object n2){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 34))}));
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r4_o = _r4_o;
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r4_o);
     // Value=\042
     _r1_o = new global::java.lang.String();
@@ -10395,7 +10332,6 @@ private void error(global::java.lang.String n1, global::java.lang.Object n2){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 39))}));
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r4_o = _r4_o;
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.Object) _r4_o);
     // Value='
     _r1_o = new global::java.lang.String();
@@ -10446,12 +10382,10 @@ private void validateStartElement(global::java.lang.String n1){
     label34:;
     _r2_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._fvalidationStack;
     _r0_o = ((global::java.util.LinkedList) _r2_o).getLast();
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r0_o).add((global::java.lang.Object) _r4_o);
     goto label19;
     label46:;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r3_o)._fcurrentContentModel;
-    _r1_o = _r1_o;
     _r2.i = ((global::gnu.xml.stream.XMLParser_2MixedContentModel) _r1_o).containsName((global::java.lang.String) _r4_o) ? 1 : 0;
     if (_r2.i != 0) goto label19;
     // Value=illegal element for content model
@@ -10493,9 +10427,7 @@ private void validateEndElement(){
     label28:;
     _r2_o = ((global::gnu.xml.stream.XMLParser) _r4_o)._fvalidationStack;
     _r0_o = ((global::java.util.LinkedList) _r2_o).getLast();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.stream.XMLParser) _r4_o)._fcurrentContentModel;
-    _r1_o = _r1_o;
     ((global::gnu.xml.stream.XMLParser) _r4_o).validateElementContent((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r1_o, (global::java.util.LinkedList) _r0_o);
     goto label19;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: void validateEndElement()]
@@ -10591,7 +10523,6 @@ private void validateElementContent(global::gnu.xml.stream.XMLParser_2ElementCon
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label30;
     _r4_o = ((global::java.util.Iterator) _r2_o).next();
-    _r4_o = _r4_o;
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r4_o);
     _r4.i = 32;
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((char) _r4.i);
@@ -10654,13 +10585,11 @@ private global::System.Object createRegularExpression(global::gnu.xml.stream.XML
     _r4.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label116;
     _r1_o = ((global::java.util.Iterator) _r3_o).next();
-    _r1_o = _r1_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser_2ContentParticle) _r1_o)._fcontent;
     _r4.i = ((_r4_o != null) && (_r4_o is global::java.lang.String)) ? 1 : 0;
     if (_r4.i == 0) goto label104;
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((char) _r6.i);
     _r4_o = ((global::gnu.xml.stream.XMLParser_2ContentParticle) _r1_o)._fcontent;
-    _r4_o = _r4_o;
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r4_o);
     _r4.i = 32;
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((char) _r4.i);
@@ -10689,7 +10618,6 @@ private global::System.Object createRegularExpression(global::gnu.xml.stream.XML
     goto label74;
     label104:;
     _r2_o = ((global::gnu.xml.stream.XMLParser_2ContentParticle) _r1_o)._fcontent;
-    _r2_o = _r2_o;
     _r4_o = ((global::gnu.xml.stream.XMLParser) _r10_o).createRegularExpression((global::gnu.xml.stream.XMLParser_2ElementContentModel) _r2_o);
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r4_o);
     goto label74;
@@ -10737,12 +10665,10 @@ public virtual void validateDoctype(){
     _r6.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r6.i == 0) goto label52;
     _r2_o = ((global::java.util.Iterator) _r3_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.Map_2Entry) _r2_o).getValue();
     _r6.i = ((_r1_o != null) && (_r1_o is global::gnu.xml.stream.XMLParser_2ExternalIds)) ? 1 : 0;
     if (_r6.i == 0) goto label6;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6_o = ((global::gnu.xml.stream.XMLParser_2ExternalIds) _r4_o)._fnotationName;
     if (_r6_o == null) goto label6;

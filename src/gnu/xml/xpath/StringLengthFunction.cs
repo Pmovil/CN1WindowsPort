@@ -22,7 +22,6 @@ public void @this(global::java.util.List n1){
     label11:;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     goto label7;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.StringLengthFunction: void <init>(java.util.List)]
 }

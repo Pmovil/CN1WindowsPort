@@ -935,18 +935,15 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = base.equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r1.i == 0) goto label36;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.FlowLayout) _r1_o)._forientation;
     _r2.i = ((global::com.codename1.ui.layouts.FlowLayout) _r3_o)._forientation;
     if (_r1.i != _r2.i) goto label36;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.FlowLayout) _r1_o)._fvalign;
     _r2.i = ((global::com.codename1.ui.layouts.FlowLayout) _r3_o)._fvalign;
     if (_r1.i != _r2.i) goto label36;
-    _r4_o = _r4_o;
     _r1.i = ((global::com.codename1.ui.layouts.FlowLayout) _r4_o)._ffillRows ? 1 : 0;
     _r2.i = ((global::com.codename1.ui.layouts.FlowLayout) _r3_o)._ffillRows ? 1 : 0;
     if (_r1.i != _r2.i) goto label36;

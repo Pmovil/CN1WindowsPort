@@ -304,7 +304,6 @@ private void checkMisc(global::gnu.xml.dom.DomNode n1){
     _r2.i = 9;
     if (_r1.i != _r2.i) goto label65;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label33:;
     _r2_o = ((global::gnu.xml.dom.DomNode) _r9_o)._fowner;
@@ -648,7 +647,6 @@ public virtual global::System.Object appendChild(global::org.w3c.dom.Node n1){
     _r4_o = null;
     try {
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::gnu.xml.dom.DomNode) _r1_o)._fnodeType;
     _r3.i = 11;
@@ -850,9 +848,7 @@ public virtual global::System.Object insertBefore(global::org.w3c.dom.Node n1, g
     label9:;
     try {
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
-    _r9_o = _r9_o;
     _r2.i = ((global::gnu.xml.dom.DomNode) _r1_o)._fnodeType;
     _r3.i = 11;
     if (_r2.i != _r3.i) goto label42;
@@ -1112,9 +1108,7 @@ public virtual global::System.Object replaceChild(global::org.w3c.dom.Node n1, g
     _r6.i = 0;
     try {
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
-    _r12_o = _r12_o;
     _r2_o = global::gnu.xml.dom.DomNode.getMutationEvent();
     if (_r2_o == null) goto label50;
     _r3.i = _r8.i;
@@ -1568,7 +1562,6 @@ public virtual global::System.Object removeChild(global::org.w3c.dom.Node n1){
     _r6.i = 0;
     try {
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o == null) goto label12;
     _r2_o = ((global::gnu.xml.dom.DomNode) _r1_o)._fparent;
@@ -1904,7 +1897,6 @@ public virtual bool isSupported(global::java.lang.String n1, global::java.lang.S
     _r1.i = ((global::gnu.xml.dom.DomNode) _r3_o)._fnodeType;
     _r2.i = 9;
     if (_r1.i != _r2.i) goto label13;
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     label13:;
     if (_r0_o != null) goto label23;
@@ -2021,7 +2013,6 @@ public virtual global::System.Object cloneNode(bool n1){
     return (global::org.w3c.dom.Node) _r0_o;
     label9:;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r4_o).clone();
-    _r0_o = _r0_o;
     _r1.i = ((global::gnu.xml.dom.DomNode) _r4_o)._fnodeType;
     _r2.i = 5;
     if (_r1.i != _r2.i) goto label23;
@@ -2056,13 +2047,11 @@ private global::System.Object cloneNodeDeepInternal(bool n1, global::gnu.xml.dom
     _r7.i = 1;
     _r6.i = 0;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r9_o).clone();
-    _r1_o = _r1_o;
     if (_r10.i == 0) goto label62;
     _r2.i = ((global::gnu.xml.dom.DomNode) _r9_o)._fnodeType;
     _r3.i = 9;
     if (_r2.i != _r3.i) goto label49;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     label20:;
     _r3.i = ((global::gnu.xml.dom.DomDocument) _r2_o)._fbuilding ? 1 : 0;
@@ -2131,11 +2120,8 @@ public virtual void notifyUserDataHandlers(short n1, global::org.w3c.dom.Node n2
     return;
     label21:;
     _r0_o = ((global::java.util.Iterator) _r6_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r7_o)._fuserData;
     _r3_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r2_o);
     _r1.i = _r8.i;
@@ -2156,7 +2142,6 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r2_o = base.clone();
-    _r2_o = _r2_o;
     _r0_o = null;
     ((global::gnu.xml.dom.DomNode) _r2_o)._fparent = (global::gnu.xml.dom.DomNode) _r0_o;
     _r0.i = 0;
@@ -2347,8 +2332,6 @@ public virtual bool dispatchEvent(global::org.w3c.dom.events.Event n1){
     _r0_o = null;
     _r9.i = 1;
     _r8.i = 0;
-    _r12_o = _r12_o;
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomEvent) _r12_o)._ftype;
     if (_r1_o != null) goto label19;
     _r0_o = new global::gnu.xml.dom.DomNode_2DomEventException();
@@ -2994,7 +2977,6 @@ private void notifyNode(global::gnu.xml.dom.DomEvent n1, global::gnu.xml.dom.Dom
     return;
     label21:;
     _r6_o = ((global::java.util.Iterator) _r0_o).next();
-    _r6_o = _r6_o;
     _r3.i = ((global::gnu.xml.dom.DomNode_2ListenerRecord) _r6_o)._fuseCapture ? 1 : 0;
     if (_r3.i != _r9.i) goto label9;
     _r3_o = ((global::gnu.xml.dom.DomEvent) _r7_o)._ftype;
@@ -3052,7 +3034,6 @@ private void notifyNode(global::gnu.xml.dom.DomEvent n1, global::gnu.xml.dom.Dom
     label83:;
     try {
     _r6_o = ((global::java.util.Iterator) _r3_o).next();
-    _r6_o = _r6_o;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r0.i];
     _r4.i = ((global::gnu.xml.dom.DomNode_2ListenerRecord) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r4.i == 0) goto label71;
@@ -3146,7 +3127,6 @@ public virtual void normalize(){
     goto label8;
     label28:;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = ((global::gnu.xml.dom.DomNode) _r2_o)._fnext;
     _r5_o = ((global::gnu.xml.dom.DomNode) _r5_o).getNodeValue();
@@ -3176,7 +3156,6 @@ public virtual void normalize(){
     goto label22;
     label80:;
     _r1_o = ((global::org.w3c.dom.NamedNodeMap) _r5_o).item((int) _r7.i);
-    _r1_o = _r1_o;
     _r8.i = ((global::gnu.xml.dom.DomNode) _r1_o)._freadonly ? 1 : 0;
     ((global::gnu.xml.dom.DomNode) _r1_o)._freadonly = 0!=_r9.i;
     ((global::gnu.xml.dom.DomNode) _r1_o).normalize();
@@ -3291,7 +3270,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     _r2.i = 0;
     _r0.i = ((_r6_o != null) && (_r6_o is global::gnu.xml.dom.DomNode)) ? 1 : 0;
     if (_r0.i == 0) goto label45;
-    _r6_o = _r6_o;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r5_o)._fowner;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r6_o)._fowner;
     if (_r0_o == _r1_o) goto label15;
@@ -3419,7 +3397,6 @@ public virtual global::System.Object getTextContent(bool n1){
     goto label16;
     label36:;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::org.w3c.dom.Text) _r1_o).isElementContentWhitespace() ? 1 : 0;
     if (_r1.i == 0) goto label50;
@@ -3754,7 +3731,6 @@ public virtual global::System.Object getFeature(global::java.lang.String n1, glo
     _r2.i = 9;
     if (_r1.i != _r2.i) goto label22;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::org.w3c.dom.Document) _r1_o).getImplementation();
     label14:;

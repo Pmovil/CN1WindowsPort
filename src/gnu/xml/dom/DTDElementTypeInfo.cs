@@ -87,7 +87,6 @@ public virtual global::System.Object getAttributeTypeInfo(global::java.lang.Stri
     label6:;
     _r0_o = ((global::gnu.xml.dom.DTDElementTypeInfo) _r1_o)._fattributes;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DTDElementTypeInfo: gnu.xml.dom.DTDAttributeTypeInfo getAttributeTypeInfo(java.lang.String)]

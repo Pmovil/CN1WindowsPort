@@ -95,7 +95,6 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120))}));
     base.setUIID((global::java.lang.String) _r2_o);
     _r2_o = base.getRenderer();
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r2_o).setShowNumbers(0!=_r3.i);
     ((global::com.codename1.ui.ComboBox) _r4_o).setInputOnFocus(0!=_r3.i);
     ((global::com.codename1.ui.ComboBox) _r4_o).setIsScrollVisible(0!=_r3.i);
@@ -105,7 +104,6 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r2.i == 0) goto label55;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r4_o).getRenderer();
-    _r0_o = _r0_o;
     // Value=ComboBoxItem
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
@@ -139,7 +137,6 @@ public override void setUIID(global::java.lang.String n1){
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r2.i == 0) goto label39;
     _r0_o = ((global::com.codename1.ui.ComboBox) _r4_o).getRenderer();
-    _r0_o = _r0_o;
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r5_o);

@@ -215,7 +215,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Integer._fTYPE;
     if (_r2_o != _r3_o) goto label66;
     if (_r5_o == null) goto label64;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Integer) _r5_o).intValue();
     label58:;
     ((global::java.io.ObjectOutput) _r6_o).writeInt((int) _r2.i);
@@ -229,7 +228,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Byte._fTYPE;
     if (_r2_o != _r3_o) goto label84;
     if (_r5_o == null) goto label82;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Byte) _r5_o).byteValue();
     label78:;
     ((global::java.io.ObjectOutput) _r6_o).writeByte((int) _r2.i);
@@ -241,7 +239,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Character._fTYPE;
     if (_r2_o != _r3_o) goto label102;
     if (_r5_o == null) goto label100;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Character) _r5_o).charValue();
     label96:;
     ((global::java.io.ObjectOutput) _r6_o).writeChar((int) _r2.i);
@@ -253,7 +250,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Short._fTYPE;
     if (_r2_o != _r3_o) goto label120;
     if (_r5_o == null) goto label118;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Short) _r5_o).shortValue();
     label114:;
     ((global::java.io.ObjectOutput) _r6_o).writeShort((int) _r2.i);
@@ -265,7 +261,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Boolean._fTYPE;
     if (_r2_o != _r3_o) goto label138;
     if (_r5_o == null) goto label136;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Boolean) _r5_o).booleanValue() ? 1 : 0;
     label132:;
     ((global::java.io.ObjectOutput) _r6_o).writeBoolean(0!=_r2.i);
@@ -277,7 +272,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Long._fTYPE;
     if (_r2_o != _r3_o) goto label157;
     if (_r5_o == null) goto label154;
-    _r5_o = _r5_o;
     _r2.l = ((global::java.lang.Long) _r5_o).longValue();
     label150:;
     ((global::java.io.ObjectOutput) _r6_o).writeLong((long) _r2.l);
@@ -289,7 +283,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Float._fTYPE;
     if (_r2_o != _r3_o) goto label175;
     if (_r5_o == null) goto label173;
-    _r5_o = _r5_o;
     _r2.f = ((global::java.lang.Float) _r5_o).floatValue();
     label169:;
     ((global::java.io.ObjectOutput) _r6_o).writeFloat((float) _r2.f);
@@ -301,7 +294,6 @@ public override void write(global::java.io.ObjectOutput n1){
     _r3_o = global::java.lang.Double._fTYPE;
     if (_r2_o != _r3_o) goto label195;
     if (_r5_o == null) goto label192;
-    _r5_o = _r5_o;
     _r2.d = ((global::java.lang.Double) _r5_o).doubleValue();
     label187:;
     ((global::java.io.ObjectOutput) _r6_o).writeDouble((double) _r2.d);

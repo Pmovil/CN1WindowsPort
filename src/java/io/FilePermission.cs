@@ -137,7 +137,6 @@ private void init(global::java.lang.String n1, global::java.lang.String n2){
     _r0_o = new global::java.io.FilePermission_21();
     ((global::java.io.FilePermission_21) _r0_o).@this((global::java.io.FilePermission) _r5_o, (global::java.lang.String) _r6_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     ((global::java.io.FilePermission) _r5_o)._fcanonPath = (global::java.lang.String) _r0_o;
     // Value=*
     _r0_o = new global::java.lang.String();
@@ -340,7 +339,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = 0;
     _r0.i = ((_r4_o != null) && (_r4_o is global::java.io.FilePermission)) ? 1 : 0;
     if (_r0.i == 0) goto label56;
-    _r4_o = _r4_o;
     _r0_o = ((global::java.io.FilePermission) _r4_o)._factions;
     _r1_o = ((global::java.io.FilePermission) _r3_o)._factions;
     if (_r0_o == _r1_o) goto label29;
@@ -389,7 +387,6 @@ public override bool implies(global::java.security.Permission n1){
     _r3_o = n1;
     _r0.i = ((global::java.io.FilePermission) _r2_o).impliesMask((global::java.security.Permission) _r3_o);
     if (_r0.i == 0) goto label14;
-    _r3_o = _r3_o;
     _r1.i = ((global::java.io.FilePermission) _r3_o)._fmask;
     if (_r0.i != _r1.i) goto label14;
     _r0.i = 1;
@@ -427,7 +424,6 @@ public virtual int impliesMask(global::java.security.Permission n1){
     label6:;
     return _r0.i;
     label7:;
-    _r9_o = _r9_o;
     _r0.i = ((global::java.io.FilePermission) _r8_o)._fmask;
     _r1.i = ((global::java.io.FilePermission) _r9_o)._fmask;
     _r0.i = _r0.i & _r1.i;

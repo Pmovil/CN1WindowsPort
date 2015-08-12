@@ -232,7 +232,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = ((_r7_o != null) && (_r7_o is global::java.util.Locale)) ? 1 : 0;
     if (_r2.i == 0) goto label48;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::java.util.Locale) _r6_o)._flanguageCode;
     _r3_o = ((global::java.util.Locale) _r1_o)._flanguageCode;
@@ -685,7 +684,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     _r1_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     ((global::java.util.Locale) _r4_o)._fcountryCode = (global::java.lang.String) _r1_o;
     // Value=language
     _r1_o = new global::java.lang.String();
@@ -694,7 +692,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     _r1_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     ((global::java.util.Locale) _r4_o)._flanguageCode = (global::java.lang.String) _r1_o;
     // Value=variant
     _r1_o = new global::java.lang.String();
@@ -703,7 +700,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     _r1_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     ((global::java.util.Locale) _r4_o)._fvariantCode = (global::java.lang.String) _r1_o;
     return;
 //XMLVM_END_WRAPPER[java.util.Locale: void readObject(java.io.ObjectInputStream)]

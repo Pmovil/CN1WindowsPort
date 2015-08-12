@@ -291,7 +291,6 @@ public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<gl
     _r2_o = ((global::java.lang.Object) _r5_o).getClass();
     _r2_o = ((global::java.lang.Class) _r2_o).getComponentType();
     _r0_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r2_o, (int) _r0.i);
-    _r0_o = _r0_o;
     label22:;
     _r2_o = ((global::java.util.AbstractCollection) _r4_o).iterator();
     label26:;
@@ -305,7 +304,6 @@ public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<gl
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     label39:;
     _r4_o = ((global::java.util.Iterator) _r2_o).next();
-    _r4_o = _r4_o;
     _r3.i = _r1.i + 1;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r4_o;
     _r1.i = _r3.i;

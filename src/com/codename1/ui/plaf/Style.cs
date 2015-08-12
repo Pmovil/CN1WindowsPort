@@ -651,7 +651,6 @@ public virtual int getBackgroundGradientStartColor(){
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r1.i = 0;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     label21:;
     return _r0.i;
@@ -676,7 +675,6 @@ public virtual int getBackgroundGradientEndColor(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     label20:;
     return _r0.i;
@@ -701,7 +699,6 @@ public virtual float getBackgroundGradientRelativeX(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -726,7 +723,6 @@ public virtual float getBackgroundGradientRelativeY(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -751,7 +747,6 @@ public virtual float getBackgroundGradientRelativeSize(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -1962,7 +1957,6 @@ public virtual void setBackgroundGradientStartColor(int n1, bool n2){
     _r2.i = 0;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     if (_r0.i == _r4.i) goto label39;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
@@ -1998,7 +1992,6 @@ public virtual void setBackgroundGradientEndColor(int n1, bool n2){
     _r2.i = 1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     if (_r0.i == _r4.i) goto label39;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
@@ -2034,7 +2027,6 @@ public virtual void setBackgroundGradientRelativeX(float n1, bool n2){
     _r2.i = 2;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
     _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
     if (_r0.i == 0) goto label41;
@@ -2071,7 +2063,6 @@ public virtual void setBackgroundGradientRelativeY(float n1, bool n2){
     _r2.i = 3;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
     _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
     if (_r0.i == 0) goto label41;
@@ -2108,7 +2099,6 @@ public virtual void setBackgroundGradientRelativeSize(float n1, bool n2){
     _r2.i = 4;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
     _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
     if (_r0.i == 0) goto label41;

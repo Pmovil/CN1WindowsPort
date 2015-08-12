@@ -103,7 +103,6 @@ public virtual global::System.Object getConnectionRequest(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.io.NetworkEvent) _r0_o).getSource();
-    _r0_o = _r0_o;
     return (global::com.codename1.io.ConnectionRequest) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.NetworkEvent: com.codename1.io.ConnectionRequest getConnectionRequest()]
 }

@@ -74,7 +74,6 @@ public void @this(global::java.util.SortedMap n1){
     return;
     label24:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
     _r0_o = ((global::java.util.TreeMap) _r4_o).addToLast((global::java.util.TreeMap_2Node) _r2_o, (global::java.lang.Object) _r3_o, (global::java.lang.Object) _r0_o);
@@ -153,7 +152,6 @@ public override global::System.Object clone(){
     _r3_o = null;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = null;
     ((global::java.util.TreeMap) _r0_o)._fentrySet = (global::java.util.Set) _r1_o;
     _r1_o = ((global::java.util.TreeMap) _r4_o)._froot;
@@ -2317,7 +2315,6 @@ public override void putAll(global::java.util.Map n1){
     return;
     label15:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
     ((global::java.util.TreeMap) _r3_o).putImpl((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r0_o);
@@ -3477,7 +3474,6 @@ private static global::System.Object toComparable(global::java.lang.Object n1){
     ((global::java.lang.NullPointerException) _r0_o).@this();
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.NullPointerException) _r0_o);
     label8:;
-    _r1_o = _r1_o;
     return (global::java.lang.Comparable) _r1_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap: java.lang.Comparable toComparable(java.lang.Object)]
 }

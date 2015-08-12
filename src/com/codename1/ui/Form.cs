@@ -321,7 +321,6 @@ public virtual void initTitleBarStatus(){
     if (_r1.i == 0) goto label72;
     _r1_o = ((global::com.codename1.ui.Form) _r7_o)._ftitleArea;
     _r1_o = ((global::com.codename1.ui.Container) _r1_o).getLayout();
-    _r1_o = _r1_o;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getNorth();
     if (_r1_o != null) goto label72;
     _r1_o = ((global::com.codename1.ui.Form) _r7_o).getUIManager();
@@ -393,7 +392,6 @@ public virtual global::System.Object findScrollableChild(global::com.codename1.u
     label27:;
     _r4.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label41;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.Form) _r5_o).findScrollableChild((global::com.codename1.ui.Container) _r1_o);
     if (_r0_o == null) goto label41;
     _r4_o = _r0_o;
@@ -999,7 +997,6 @@ private void addKeyListener(int n1, global::com.codename1.ui.events.ActionListen
     _r0_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r0_o).@this((int) _r4.i);
     _r1_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label32;
     _r1_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r1_o).@this();
@@ -1035,7 +1032,6 @@ private void removeKeyListener(int n1, global::com.codename1.ui.events.ActionLis
     _r0_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r0_o).@this((int) _r4.i);
     _r1_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label2;
     ((global::java.util.ArrayList) _r1_o).remove((global::java.lang.Object) _r5_o);
     _r2.i = ((global::java.util.ArrayList) _r1_o).size();
@@ -1156,7 +1152,6 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
     try {
     _r2_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o).getMenuBarClass();
     _r2_o = ((global::java.lang.Class) _r2_o).newInstance();
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.Form) _r4_o)._fmenuBar = (global::com.codename1.ui.MenuBar) _r2_o;
     }
     catch (global::System.Exception e) {
@@ -1893,7 +1888,6 @@ private void loopAnimations(global::java.util.ArrayList n1, global::java.util.Ar
     _r5.i = ((global::java.util.ArrayList) _r10_o).size();
     if (_r3.i >= _r5.i) goto label88;
     _r1_o = ((global::java.util.ArrayList) _r10_o).get((int) _r3.i);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label23;
     if (_r11_o == null) goto label26;
     _r5.i = ((global::java.util.ArrayList) _r11_o).contains((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -1907,13 +1901,11 @@ private void loopAnimations(global::java.util.ArrayList n1, global::java.util.Ar
     _r5.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r5.i == 0) goto label80;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.Component) _r5_o).getDirtyRegion();
     if (_r4_o == null) goto label74;
     _r2_o = ((global::com.codename1.ui.geom.Rectangle) _r4_o).getSize();
     if (_r2_o == null) goto label23;
-    _r1_o = _r1_o;
     _r5.i = ((global::com.codename1.ui.geom.Rectangle) _r4_o).getX();
     _r6.i = ((global::com.codename1.ui.geom.Rectangle) _r4_o).getY();
     _r7.i = ((global::com.codename1.ui.geom.Dimension) _r2_o).getWidth();
@@ -1921,7 +1913,6 @@ private void loopAnimations(global::java.util.ArrayList n1, global::java.util.Ar
     ((global::com.codename1.ui.Component) _r1_o).repaint((int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i);
     goto label23;
     label74:;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).repaint();
     goto label23;
     label80:;
@@ -2558,12 +2549,10 @@ public virtual void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6, 
     _r9.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Component_2BGPainter)) ? 1 : 0;
     if (_r9.i == 0) goto label320;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r9_o = ((global::com.codename1.ui.Component_2BGPainter) _r7_o).getPreviousForm();
     if (_r9_o == null) goto label320;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r9_o = ((global::com.codename1.ui.Form) _r12_o)._fpreviousForm;
     ((global::com.codename1.ui.Component_2BGPainter) _r7_o).setPreviousForm((global::com.codename1.ui.Form) _r9_o);
@@ -2604,7 +2593,6 @@ public virtual void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6, 
     _r9.i = ((_r9_o != null) && (_r9_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
     if (_r9.i == 0) goto label37;
     _r7_o = ((global::com.codename1.ui.Form) _r12_o)._fpreviousForm;
-    _r7_o = _r7_o;
     _r9.i = ((global::com.codename1.ui.Dialog) _r7_o).isDisposed() ? 1 : 0;
     if (_r9.i == 0) goto label37;
     _r9_o = global::com.codename1.ui.Display.getInstance();
@@ -2758,7 +2746,6 @@ public virtual void disposeImpl(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
     if (_r1.i == 0) goto label54;
     _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    _r1_o = _r1_o;
     _r1.i = ((global::com.codename1.ui.Dialog) _r1_o).isDisposed() ? 1 : 0;
     if (_r1.i != 0) goto label46;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -3070,7 +3057,6 @@ public override void longPointerPress(int n1, int n2){
     _r1.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label44;
     _r2_o = ((global::com.codename1.ui.Form) _r2_o)._ffocused;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getLeadParent();
     label40:;
     ((global::com.codename1.ui.Container) _r0_o).longPointerPress((int) _r3.i, (int) _r4.i);
@@ -3254,7 +3240,6 @@ private void fireKeyEvent(global::java.util.HashMap n1, int n2){
     _r3_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r3_o).@this((int) _r6.i);
     _r2_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label42;
     _r0_o = new global::com.codename1.ui.events.ActionEvent();
     ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r4_o, (int) _r6.i);
@@ -3263,7 +3248,6 @@ private void fireKeyEvent(global::java.util.HashMap n1, int n2){
     _r3.i = ((global::java.util.ArrayList) _r2_o).size();
     if (_r1.i >= _r3.i) goto label42;
     _r4_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.events.ActionListener) _r4_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r0_o);
     _r3.i = ((global::com.codename1.ui.events.ActionEvent) _r0_o).isConsumed() ? 1 : 0;
     if (_r3.i == 0) goto label43;
@@ -3405,7 +3389,6 @@ public override void pointerPressed(int n1, int n2){
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label123;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o).getLeadParent();
     label105:;
@@ -3516,12 +3499,10 @@ private void autoRelease(int n1, int n2){
     _r6_o = ((global::com.codename1.ui.Form) _r12_o)._fbuttonsAwatingRelease;
     _r7.i = 0;
     _r3_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
-    _r3_o = _r3_o;
     if (_r1_o == _r3_o) goto label98;
     _r6.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r6.i == 0) goto label91;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Button) _r2_o).getReleaseRadius();
     if (_r5.i <= 0) goto label92;
@@ -3551,12 +3532,10 @@ private void autoRelease(int n1, int n2){
     _r6.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r6.i == 0) goto label91;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.Button) _r6_o).isAutoRelease() ? 1 : 0;
     if (_r6.i == 0) goto label91;
     ((global::com.codename1.ui.Form) _r12_o)._fbuttonsAwatingRelease = (global::java.util.ArrayList) _r11_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r3_o).dragInitiated();
     goto label91;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void autoRelease(int, int)]
@@ -3849,7 +3828,6 @@ private int isSingleFocusMode(int n1, global::com.codename1.ui.Container n2){
     label22:;
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label37;
-    _r0_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Form) _r4_o).isSingleFocusMode((int) _r5.i, (global::com.codename1.ui.Container) _r0_o);
     _r3.i = 1;
     if (_r5.i <= _r3.i) goto label37;
@@ -3913,7 +3891,6 @@ public override void pointerReleased(int n1, int n2){
     _r15_o = _r0_o;
     _r16.i = 0;
     _r12_o = ((global::java.util.ArrayList) _r15_o).get((int) _r16.i);
-    _r12_o = _r12_o;
     if (_r6_o != _r12_o) goto label52;
     _r15_o = null;
     _r0_o = _r15_o;
@@ -3926,7 +3903,6 @@ public override void pointerReleased(int n1, int n2){
     _r15.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r15.i == 0) goto label144;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r14.i = ((global::com.codename1.ui.Button) _r7_o).getReleaseRadius();
     if (_r14.i <= 0) goto label144;
@@ -4065,7 +4041,6 @@ public override void pointerReleased(int n1, int n2){
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fbuttonsAwatingRelease;
     _r15_o = _r0_o;
     _r7_o = ((global::java.util.ArrayList) _r15_o).get((int) _r10.i);
-    _r7_o = _r7_o;
     _r15.i = 2;
     ((global::com.codename1.ui.Button) _r7_o).setState((int) _r15.i);
     ((global::com.codename1.ui.Button) _r7_o).repaint();
@@ -4089,7 +4064,6 @@ public override void pointerReleased(int n1, int n2){
     _r15.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r15.i == 0) goto label411;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     _r11_o = ((global::com.codename1.ui.Container) _r9_o).getLeadParent();
     label389:;
@@ -4337,11 +4311,9 @@ private global::System.Object findNextFocusHorizontal(global::com.codename1.ui.C
     _r6.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label43;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.Container) _r6_o).isBlockFocus() ? 1 : 0;
     if (_r6.i != 0) goto label43;
-    _r2_o = _r2_o;
     _r9_o = ((global::com.codename1.ui.Form) _r7_o).findNextFocusHorizontal((global::com.codename1.ui.Component) _r8_o, (global::com.codename1.ui.Component) _r9_o, (global::com.codename1.ui.Container) _r2_o, 0!=_r11.i);
     goto label43;
     label68:;
@@ -4415,11 +4387,9 @@ private global::System.Object findNextFocusVertical(global::com.codename1.ui.Com
     _r7.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r7.i == 0) goto label46;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r7.i = ((global::com.codename1.ui.Container) _r7_o).isBlockFocus() ? 1 : 0;
     if (_r7.i != 0) goto label46;
-    _r2_o = _r2_o;
     _r10_o = ((global::com.codename1.ui.Form) _r8_o).findNextFocusVertical((global::com.codename1.ui.Component) _r9_o, (global::com.codename1.ui.Component) _r10_o, (global::com.codename1.ui.Container) _r2_o, 0!=_r12.i);
     goto label46;
     label91:;
@@ -4757,7 +4727,6 @@ public override bool moveScrollTowards(int n1, global::com.codename1.ui.Componen
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label40;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     label14:;
     if (_r2_o == null) goto label56;
@@ -4973,7 +4942,6 @@ public override void setVisible(bool n1){
     if (_r0.i >= _r2.i) goto label30;
     _r3_o = ((global::com.codename1.ui.Form) _r4_o)._fmediaComponents;
     _r1_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).setVisible(0!=_r5.i);
     _r0.i = _r0.i + 1;
     goto label14;
@@ -5243,7 +5211,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getTitleComponent();
     if (_r0_o == null) goto label24;
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getTitleComponent();
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.Label) _r0_o).setUIID((global::java.lang.String) _r4_o);
     label24:;
     _r0_o = _r1_o;
@@ -5258,7 +5225,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getTitleArea();
     if (_r0_o == null) goto label49;
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getTitleArea();
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.Container) _r0_o).setUIID((global::java.lang.String) _r4_o);
     label49:;
     _r0_o = _r1_o;

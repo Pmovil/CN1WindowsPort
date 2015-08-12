@@ -139,7 +139,6 @@ public virtual global::System.Object compile(global::java.lang.String n1){
     try {
     _r1_o = ((global::gnu.xml.xpath.XPathImpl) _r2_o)._fparser;
     _r2_o = ((global::gnu.xml.xpath.XPathParser) _r1_o).yyparse((global::gnu.xml.xpath.XPathParser_2yyInput) _r0_o);
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

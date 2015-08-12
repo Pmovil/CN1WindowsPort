@@ -290,7 +290,6 @@ public virtual global::System.Object parseWithContext(global::org.w3c.dom.ls.LSI
     _r2.i = 9;
     if (_r1.i != _r2.i) goto label35;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label12:;
     _r2_o = ((global::org.w3c.dom.Document) _r1_o).getDocumentURI();
@@ -583,7 +582,6 @@ private global::System.Object doParse(global::org.w3c.dom.ls.LSInput n1){
     _r1.i = ((_r2_o != null) && (_r2_o is global::gnu.xml.dom.DomDocument)) ? 1 : 0;
     if (_r1.i == 0) goto label166;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::gnu.xml.dom.DomDocument) _r1_o).setDocumentURI((global::java.lang.String) _r3_o);
     label166:;
@@ -883,7 +881,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label31;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label29;
     _r0.i = _r2.i;
@@ -902,7 +899,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label53;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label51;
     _r0.i = _r2.i;
@@ -918,7 +914,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label75;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label73;
     _r0.i = _r2.i;
@@ -934,7 +929,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label92;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fnamespaceAware = 0!=_r0.i;
     goto label25;
@@ -944,7 +938,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label109;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fexpandEntityReferences = 0!=_r0.i;
     goto label25;
@@ -954,7 +947,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label126;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fcoalescing = 0!=_r0.i;
     goto label25;
@@ -964,7 +956,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label143;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fvalidating = 0!=_r0.i;
     goto label25;
@@ -974,7 +965,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label161;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.lang.Boolean) _r6_o).booleanValue() ? 1 : 0;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fxIncludeAware = 0!=_r0.i;
     goto label25;
@@ -984,7 +974,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i == 0) goto label175;
-    _r6_o = _r6_o;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._fentityResolver = (global::org.xml.sax.EntityResolver) _r6_o;
     goto label25;
     label175:;
@@ -993,7 +982,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label189;
-    _r6_o = _r6_o;
     ((global::gnu.xml.dom.ls.DomLSParser) _r4_o)._ferrorHandler = (global::org.xml.sax.ErrorHandler) _r6_o;
     goto label25;
     label189:;
@@ -1174,7 +1162,6 @@ public virtual global::System.Object item(int n1){
     _r2.i = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSParser._fSUPPORTED_1PARAMETERS;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSParser: java.lang.String item(int)]
 }

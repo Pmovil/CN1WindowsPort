@@ -182,7 +182,6 @@ public override int getAvaliableSpaceForText(){
     _r1_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o).getLookAndFeel();
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.plaf.DefaultLookAndFeel)) ? 1 : 0;
     if (_r3.i == 0) goto label54;
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r1_o).getRadioButtonImages();
     if (_r2_o == null) goto label54;
     _r3.i = ((global::com.codename1.ui.RadioButton) _r6_o).isSelected() ? 1 : 0;
@@ -383,7 +382,6 @@ private void initNamedGroup(){
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r2_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getClientProperty((global::java.lang.String) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label72;
     _r0_o = new global::com.codename1.ui.ButtonGroup();
     ((global::com.codename1.ui.ButtonGroup) _r0_o).@this();
@@ -412,7 +410,6 @@ public virtual global::System.Object getGroup(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112))}));
     _r1_o = ((global::com.codename1.ui.RadioButton) _r1_o).getClientProperty((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.RadioButton: java.lang.String getGroup()]
 }
@@ -582,7 +579,6 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label25;
     if (_r3_o == null) goto label23;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.lang.Boolean) _r3_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r0.i = 1;

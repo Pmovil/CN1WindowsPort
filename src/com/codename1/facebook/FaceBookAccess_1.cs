@@ -34,7 +34,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label17;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
-    _r0_o = _r0_o;
     global::com.codename1.facebook.FaceBookAccess.access_2002((global::java.lang.String) _r0_o);
     label17:;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess_21) _r1_o)._fval_2al;

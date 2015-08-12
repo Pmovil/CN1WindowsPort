@@ -30,7 +30,6 @@ public static global::System.Object create(global::java.lang.Class n1){
     if (_r2_o == null) goto label25;
     _r2_o = global::com.codename1.system.NativeLookup._finterfaceToClassLookup;
     _r0_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r5_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label17;
     _r2_o = _r4_o;
     }
@@ -59,7 +58,6 @@ public static global::System.Object create(global::java.lang.Class n1){
     label17:;
     try {
     _r5_o = ((global::java.lang.Class) _r0_o).newInstance();
-    _r5_o = _r5_o;
     _r2_o = _r5_o;
     goto label16;
     }
@@ -85,7 +83,6 @@ public static global::System.Object create(global::java.lang.Class n1){
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     _r2_o = global::java.lang.Class.forName((global::java.lang.String) _r2_o);
     _r5_o = ((global::java.lang.Class) _r2_o).newInstance();
-    _r5_o = _r5_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

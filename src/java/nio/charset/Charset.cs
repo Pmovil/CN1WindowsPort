@@ -52,7 +52,6 @@ public static void @static(){
     _r0_o = new global::java.nio.charset.Charset_21();
     ((global::java.nio.charset.Charset_21) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     global::java.nio.charset.Charset._f_1builtInProvider = (global::org.apache.harmony.niochar.CharsetProviderImpl) _r0_o;
     return;
 //XMLVM_END_WRAPPER[java.nio.charset.Charset: void <clinit>()]
@@ -209,7 +208,6 @@ private static global::System.Object getContextClassLoader(){
     _r1_o = new global::java.nio.charset.Charset_22();
     ((global::java.nio.charset.Charset_22) _r1_o).@this((global::java.lang.Thread) _r0_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.ClassLoader) _r0_o;
 //XMLVM_END_WRAPPER[java.nio.charset.Charset: java.lang.ClassLoader getContextClassLoader()]
 }
@@ -222,7 +220,6 @@ private static void getSystemClassLoader(){
     _r0_o = new global::java.nio.charset.Charset_23();
     ((global::java.nio.charset.Charset_23) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     global::java.nio.charset.Charset._fsystemClassLoader = (global::java.lang.ClassLoader) _r0_o;
     label17:;
     return;
@@ -245,7 +242,6 @@ private static void addCharsets(global::java.nio.charset.spi.CharsetProvider n1,
     return;
     label11:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.nio.charset.Charset) _r2_o).name();
     _r1.i = ((global::java.util.TreeMap) _r3_o).containsKey((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i != 0) goto label4;
@@ -396,7 +392,6 @@ private static void loadConfiguredCharsets(global::java.net.URL n1, global::java
     _r6_o = _r0_o;
     label49:;
     try {
-    _r6_o = _r6_o;
     global::java.nio.charset.Charset.addCharsets((global::java.nio.charset.spi.CharsetProvider) _r6_o, (global::java.util.TreeMap) _r8_o);
     }
     catch (global::System.Exception e) {
@@ -597,7 +592,6 @@ public static global::System.Object availableCharsets(){
     label32:;
     _r0_o = global::java.nio.charset.Charset._f_1builtInCharsets;
     _r0_o = ((global::java.util.TreeMap) _r0_o).clone();
-    _r0_o = _r0_o;
     _r2_o = global::java.nio.charset.Charset.getContextClassLoader();
     if (_r2_o == null) goto label67;
     try {
@@ -672,7 +666,6 @@ public static global::System.Object availableCharsets(){
     label80:;
     try {
     _r1_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r1_o = _r1_o;
     global::java.nio.charset.Charset.loadConfiguredCharsets((global::java.net.URL) _r1_o, (global::java.lang.ClassLoader) _r2_o, (global::java.util.TreeMap) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -811,7 +804,6 @@ private static global::System.Object searchConfiguredCharsets(global::java.lang.
     } // end catch
     label50:;
     try {
-    _r0_o = _r0_o;
     _r0_o = ((global::java.nio.charset.spi.CharsetProvider) _r0_o).charsetForName((global::java.lang.String) _r5_o);
     }
     catch (global::System.Exception e) {
@@ -1017,7 +1009,6 @@ private static global::System.Object forNameInternal(global::java.lang.String n1
     try {
     _r0_o = global::java.nio.charset.Charset._fcachedCharsetTable;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r5_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1208,7 +1199,6 @@ private static global::System.Object forNameInternal(global::java.lang.String n1
     _r0.i = 1;
     global::java.nio.charset.Charset._finForNameInternal = 0!=_r0.i;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     _r0_o = global::java.nio.charset.Charset.searchConfiguredCharsets((global::java.lang.String) _r5_o, (global::java.lang.ClassLoader) _r2_o, (global::java.net.URL) _r0_o);
     _r4.i = 0;
     global::java.nio.charset.Charset._finForNameInternal = 0!=_r4.i;
@@ -1342,7 +1332,6 @@ public static bool isSupported(global::java.lang.String n1){
     if (_r0.i == 0) goto label62;
     _r0_o = global::java.nio.charset.Charset._fcachedCharsetTable;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1654,7 +1643,6 @@ public override bool equals(global::java.lang.Object n1){
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.nio.charset.Charset)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.nio.charset.Charset) _r2_o)._fcanonicalName;
     _r1_o = ((global::java.nio.charset.Charset) _r3_o)._fcanonicalName;
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
@@ -1707,7 +1695,6 @@ public static global::System.Object defaultCharset(){
     _r0_o = new global::java.nio.charset.Charset_24();
     ((global::java.nio.charset.Charset_24) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     try {
     _r0_o = global::java.nio.charset.Charset.forName((global::java.lang.String) _r0_o);
     }
@@ -1740,7 +1727,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.nio.charset.Charset) _r1_o).compareTo((global::java.nio.charset.Charset) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.nio.charset.Charset: int compareTo(java.lang.Object)]

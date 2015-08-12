@@ -303,7 +303,6 @@ public virtual void cleanup(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label56;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = ((global::com.codename1.javascript.JavascriptContext) _r5_o)._fobjectMap;
     _r4_o = ((global::java.util.HashMap) _r4_o).get((global::java.lang.Object) _r0_o);
@@ -334,7 +333,6 @@ public virtual void cleanup(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label121;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3.i = ((global::java.lang.Integer) _r0_o).intValue();
     ((global::com.codename1.javascript.JavascriptContext) _r5_o).release((int) _r3.i);
     _r3_o = ((global::com.codename1.javascript.JavascriptContext) _r5_o)._fobjectMap;
@@ -725,7 +723,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r3.i = ((global::java.lang.Class) _r3_o).isInstance((global::java.lang.Object) _r7_o) ? 1 : 0;
     if (_r3.i == 0) goto label85;
-    _r7_o = _r7_o;
     // Value=\134
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)92))}));
@@ -825,7 +822,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.javascript.JSObject));
     _r3.i = ((global::java.lang.Class) _r3_o).isInstance((global::java.lang.Object) _r7_o) ? 1 : 0;
     if (_r3.i == 0) goto label121;
-    _r7_o = _r7_o;
     _r2_o = ((global::com.codename1.javascript.JSObject) _r7_o).toJSPointer();
     goto label57;
     }
@@ -842,7 +838,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.Object n2
     try {
     _r3.i = ((_r7_o != null) && (_r7_o is global::java.lang.Boolean)) ? 1 : 0;
     if (_r3.i == 0) goto label141;
-    _r7_o = _r7_o;
     _r3.i = ((global::java.lang.Boolean) _r7_o).booleanValue() ? 1 : 0;
     if (_r3.i == 0) goto label137;
     // Value=true
@@ -1266,7 +1261,6 @@ public virtual global::System.Object call(global::java.lang.String n1, global::c
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r3_o);
-    _r5_o = _r5_o;
     _r9.i = ((global::java.lang.Boolean) _r5_o).booleanValue() ? 1 : 0;
     if (_r9.i == 0) goto label136;
     // Value=true
@@ -1284,7 +1278,6 @@ public virtual global::System.Object call(global::java.lang.String n1, global::c
     label139:;
     _r8.i = ((_r5_o != null) && (_r5_o is global::java.lang.String)) ? 1 : 0;
     if (_r8.i == 0) goto label191;
-    _r5_o = _r5_o;
     // Value=\134
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)92))}));
@@ -1319,7 +1312,6 @@ public virtual global::System.Object call(global::java.lang.String n1, global::c
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r3_o);
-    _r5_o = _r5_o;
     _r9_o = ((global::com.codename1.javascript.JSObject) _r5_o).toJSPointer();
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r9_o);
     _r3_o = ((global::java.lang.StringBuilder) _r8_o).toString();
@@ -1331,7 +1323,6 @@ public virtual global::System.Object call(global::java.lang.String n1, global::c
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)123)), unchecked((char) unchecked((uint) 125))}));
     _r6_o = ((global::com.codename1.javascript.JavascriptContext) _r11_o).get((global::java.lang.String) _r8_o);
-    _r6_o = _r6_o;
     // Value=callback
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107))}));

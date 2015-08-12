@@ -80,11 +80,9 @@ public virtual void setTitle(global::java.lang.String n1){
     _r4_o = n1;
     ((global::com.codename1.ui.Toolbar) _r3_o).checkIfInitialized();
     _r1_o = ((global::com.codename1.ui.Toolbar) _r3_o).getLayout();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getCenter();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r1.i == 0) goto label23;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Label) _r0_o).setText((global::java.lang.String) _r4_o);
     label22:;
     return;
@@ -390,7 +388,6 @@ public virtual global::System.Object createOverflowCommandList(global::java.util
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
     ((global::com.codename1.ui.List) _r1_o).setUIID((global::java.lang.String) _r2_o);
     _r0_o = ((global::com.codename1.ui.List) _r1_o).getRenderer();
-    _r0_o = _r0_o;
     // Value=Command
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
@@ -424,7 +421,6 @@ public virtual void initTitleBarStatus(){
     _r1.i = ((global::com.codename1.ui.plaf.UIManager) _r1_o).isThemeConstant((global::java.lang.String) _r2_o, 0!=_r3.i) ? 1 : 0;
     if (_r1.i == 0) goto label40;
     _r1_o = ((global::com.codename1.ui.Toolbar) _r4_o).getLayout();
-    _r1_o = _r1_o;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getNorth();
     if (_r1_o != null) goto label40;
     _r0_o = new global::com.codename1.ui.Container();

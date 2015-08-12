@@ -71,7 +71,6 @@ public virtual int getByteCapacity(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     _r0.i = ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).getByteCapacity();
     label14:;
     return _r0.i;
@@ -99,7 +98,6 @@ public virtual global::System.Object getEffectiveAddress(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     _r0_o = ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).getEffectiveAddress();
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -127,7 +125,6 @@ public virtual global::System.Object getBaseAddress(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     _r0_o = ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).getBaseAddress();
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -155,7 +152,6 @@ public virtual bool isAddressValid(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     _r0.i = ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).isAddressValid() ? 1 : 0;
     label14:;
     return _r0.i!=0;
@@ -183,7 +179,6 @@ public virtual void addressValidityCheck(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).addressValidityCheck();
     label13:;
     return;
@@ -208,7 +203,6 @@ public virtual void free(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.apache.harmony.nio.@internal.DirectBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r2_o = ((global::java.nio.LongToByteBufferAdapter) _r2_o)._fbyteBuffer;
-    _r2_o = _r2_o;
     ((global::org.apache.harmony.nio.@internal.DirectBuffer) _r2_o).free();
     label13:;
     return;

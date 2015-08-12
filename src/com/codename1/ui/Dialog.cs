@@ -1507,7 +1507,6 @@ public static global::System.Object show(global::java.lang.String n1, global::ja
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r11_o);
     if (_r1_o == null) goto label22;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r11_o = _r0_o;
     label22:;
     _r2_o = new global::com.codename1.ui.TextArea();

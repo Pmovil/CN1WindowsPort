@@ -201,7 +201,6 @@ public override bool equals(global::java.lang.Object n1){
     label7:;
     return _r0.i!=0;
     label8:;
-    _r7_o = _r7_o;
     _r0.i = ((global::java.nio.ByteBuffer) _r6_o).remaining();
     _r1.i = ((global::java.nio.ByteBuffer) _r7_o).remaining();
     if (_r0.i == _r1.i) goto label22;
@@ -581,7 +580,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.nio.ByteBuffer) _r1_o).compareTo((global::java.nio.ByteBuffer) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.nio.ByteBuffer: int compareTo(java.lang.Object)]

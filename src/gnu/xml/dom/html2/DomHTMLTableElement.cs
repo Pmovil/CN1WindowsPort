@@ -63,7 +63,6 @@ public virtual global::System.Object getCaption(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r1_o = ((global::gnu.xml.dom.html2.DomHTMLTableElement) _r1_o).getChildElement((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.html2.HTMLTableCaptionElement) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLTableElement: org.w3c.dom.html2.HTMLTableCaptionElement getCaption()]
 }
@@ -95,7 +94,6 @@ public virtual global::System.Object getTHead(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
     _r1_o = ((global::gnu.xml.dom.html2.DomHTMLTableElement) _r1_o).getChildElement((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.html2.HTMLTableSectionElement) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLTableElement: org.w3c.dom.html2.HTMLTableSectionElement getTHead()]
 }
@@ -127,7 +125,6 @@ public virtual global::System.Object getTFoot(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116))}));
     _r1_o = ((global::gnu.xml.dom.html2.DomHTMLTableElement) _r1_o).getChildElement((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.html2.HTMLTableSectionElement) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLTableElement: org.w3c.dom.html2.HTMLTableSectionElement getTFoot()]
 }
@@ -158,7 +155,6 @@ public virtual global::System.Object getRows(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTableElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=tr
     _r0_o = new global::java.lang.String();
@@ -177,7 +173,6 @@ public virtual global::System.Object getTBodies(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTableElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=tbody
     _r0_o = new global::java.lang.String();
@@ -453,7 +448,6 @@ public virtual global::System.Object createTHead(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
     _r2_o = ((global::org.w3c.dom.Document) _r0_o).createElement((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label19:;
     return (global::org.w3c.dom.html2.HTMLElement) _r0_o;
@@ -486,7 +480,6 @@ public virtual global::System.Object createTFoot(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116))}));
     _r2_o = ((global::org.w3c.dom.Document) _r0_o).createElement((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label19:;
     return (global::org.w3c.dom.html2.HTMLElement) _r0_o;
@@ -519,7 +512,6 @@ public virtual global::System.Object createCaption(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r2_o = ((global::org.w3c.dom.Document) _r0_o).createElement((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label19:;
     return (global::org.w3c.dom.html2.HTMLElement) _r0_o;
@@ -571,7 +563,6 @@ public virtual global::System.Object insertRow(int n1){
     ((global::org.w3c.dom.Node) _r2_o).appendChild((global::org.w3c.dom.Node) _r1_o);
     label40:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     return (global::org.w3c.dom.html2.HTMLElement) _r4_o;
     label45:;

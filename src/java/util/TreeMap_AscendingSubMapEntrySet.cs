@@ -63,7 +63,6 @@ public void @this(global::java.util.TreeMap_2NavigableSubMap n1, global::java.ut
     _r0_o = ((global::java.util.Map_2Entry) _r4_o).getKey();
     _r1_o = ((global::java.util.Map_2Entry) _r6_o).getKey();
     _r0_o = ((global::java.util.TreeMap_2NavigableSubMap) _r3_o).subMap((global::java.lang.Object) _r0_o, 0!=_r5.i, (global::java.lang.Object) _r1_o, 0!=_r7.i);
-    _r0_o = _r0_o;
     ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r2_o)._fmap = (global::java.util.TreeMap_2NavigableSubMap) _r0_o;
     label40:;
     return;
@@ -71,14 +70,12 @@ public void @this(global::java.util.TreeMap_2NavigableSubMap n1, global::java.ut
     if (_r4_o == null) goto label56;
     _r0_o = ((global::java.util.Map_2Entry) _r4_o).getKey();
     _r0_o = ((global::java.util.TreeMap_2NavigableSubMap) _r3_o).tailMap((global::java.lang.Object) _r0_o, 0!=_r5.i);
-    _r0_o = _r0_o;
     ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r2_o)._fmap = (global::java.util.TreeMap_2NavigableSubMap) _r0_o;
     goto label40;
     label56:;
     if (_r6_o == null) goto label71;
     _r0_o = ((global::java.util.Map_2Entry) _r6_o).getKey();
     _r0_o = ((global::java.util.TreeMap_2NavigableSubMap) _r3_o).headMap((global::java.lang.Object) _r0_o, 0!=_r7.i);
-    _r0_o = _r0_o;
     ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r2_o)._fmap = (global::java.util.TreeMap_2NavigableSubMap) _r0_o;
     goto label40;
     label71:;
@@ -862,7 +859,6 @@ public virtual global::System.Object higher(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).higher((global::java.util.Map_2Entry) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.lang.Object higher(java.lang.Object)]
@@ -875,7 +871,6 @@ public virtual global::System.Object lower(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).lower((global::java.util.Map_2Entry) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.lang.Object lower(java.lang.Object)]
@@ -890,8 +885,6 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, global:
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).subSet((global::java.util.Map_2Entry) _r2_o, (global::java.util.Map_2Entry) _r3_o);
     return (global::java.util.SortedSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.SortedSet subSet(java.lang.Object, java.lang.Object)]
@@ -910,8 +903,6 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, bool n2
     _r3.i = n2 ? 1 : 0;
     _r4_o = n3;
     _r5.i = n4 ? 1 : 0;
-    _r2_o = _r2_o;
-    _r4_o = _r4_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).subSet((global::java.util.Map_2Entry) _r2_o, 0!=_r3.i, (global::java.util.Map_2Entry) _r4_o, 0!=_r5.i);
     return (global::java.util.NavigableSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.NavigableSet subSet(java.lang.Object, boolean, java.lang.Object, boolean)]
@@ -924,7 +915,6 @@ public virtual global::System.Object ceiling(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).ceiling((global::java.util.Map_2Entry) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.lang.Object ceiling(java.lang.Object)]
@@ -937,7 +927,6 @@ public virtual global::System.Object floor(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).floor((global::java.util.Map_2Entry) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.lang.Object floor(java.lang.Object)]
@@ -950,7 +939,6 @@ public virtual global::System.Object tailSet(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).tailSet((global::java.util.Map_2Entry) _r2_o);
     return (global::java.util.SortedSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.SortedSet tailSet(java.lang.Object)]
@@ -965,7 +953,6 @@ public virtual global::System.Object tailSet(global::java.lang.Object n1, bool n
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).tailSet((global::java.util.Map_2Entry) _r2_o, 0!=_r3.i);
     return (global::java.util.NavigableSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.NavigableSet tailSet(java.lang.Object, boolean)]
@@ -978,7 +965,6 @@ public virtual global::System.Object headSet(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).headSet((global::java.util.Map_2Entry) _r2_o);
     return (global::java.util.SortedSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.SortedSet headSet(java.lang.Object)]
@@ -993,7 +979,6 @@ public virtual global::System.Object headSet(global::java.lang.Object n1, bool n
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.util.TreeMap_2AscendingSubMapEntrySet) _r1_o).headSet((global::java.util.Map_2Entry) _r2_o, 0!=_r3.i);
     return (global::java.util.NavigableSet) _r0_o;
 //XMLVM_END_WRAPPER[java.util.TreeMap$AscendingSubMapEntrySet: java.util.NavigableSet headSet(java.lang.Object, boolean)]

@@ -231,7 +231,6 @@ public virtual global::System.Object getChildAt(int n1){
     label20:;
     _r0_o = ((global::com.codename1.xml.Element) _r1_o)._fchildren;
     _r1_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::com.codename1.xml.Element) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.xml.Element: com.codename1.xml.Element getChildAt(int)]
 }
@@ -262,7 +261,6 @@ public virtual global::System.Object getFirstChildByTagName(global::java.lang.St
     if (_r2.i >= _r3.i) goto label45;
     _r3_o = ((global::com.codename1.xml.Element) _r4_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.xml.Element) _r0_o)._ftextElement ? 1 : 0;
     if (_r3.i != 0) goto label42;
     _r3_o = ((global::com.codename1.xml.Element) _r0_o).getTagName();
@@ -311,7 +309,6 @@ public virtual global::System.Object getElementById(global::java.lang.String n1)
     if (_r1.i >= _r4.i) goto label48;
     _r4_o = ((global::com.codename1.xml.Element) _r5_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.xml.Element) _r0_o).getElementById((global::java.lang.String) _r6_o);
     if (_r2_o == null) goto label45;
     _r4_o = _r2_o;
@@ -350,7 +347,6 @@ private void getDescendantsByTagNameInternal(global::java.util.Vector n1, global
     if (_r1.i >= _r2.i) goto label49;
     _r2_o = ((global::com.codename1.xml.Element) _r4_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     if (_r7.i <= _r3.i) goto label29;
     _r2.i = _r7.i - _r3.i;
     ((global::com.codename1.xml.Element) _r0_o).getDescendantsByTagNameInternal((global::java.util.Vector) _r5_o, (global::java.lang.String) _r6_o, (int) _r2.i);
@@ -397,7 +393,6 @@ private void getDescendantsByTagNameAndAttributeInternal(global::java.util.Vecto
     if (_r2.i >= _r3.i) goto label61;
     _r3_o = ((global::com.codename1.xml.Element) _r5_o)._fchildren;
     _r1_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r2.i);
-    _r1_o = _r1_o;
     if (_r9.i <= _r4.i) goto label29;
     _r3.i = _r9.i - _r4.i;
     ((global::com.codename1.xml.Element) _r1_o).getDescendantsByTagNameAndAttributeInternal((global::java.util.Vector) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (int) _r3.i);
@@ -550,7 +545,6 @@ private void getTextDescendantsInternal(global::java.util.Vector n1, global::jav
     if (_r2.i >= _r4.i) goto label4;
     _r4_o = ((global::com.codename1.xml.Element) _r5_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     if (_r9.i <= 0) goto label30;
     _r4.i = 1;
     _r4.i = _r9.i - _r4.i;
@@ -675,7 +669,6 @@ public virtual bool contains(global::com.codename1.xml.Element n1){
     if (_r1.i >= _r2.i) goto label37;
     _r2_o = ((global::com.codename1.xml.Element) _r4_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r2.i = ((global::com.codename1.xml.Element) _r0_o).contains((global::com.codename1.xml.Element) _r5_o) ? 1 : 0;
     if (_r2.i == 0) goto label34;
     _r2.i = _r3.i;
@@ -763,7 +756,6 @@ public virtual global::System.Object getAttribute(global::java.lang.String n1){
     label6:;
     _r0_o = ((global::com.codename1.xml.Element) _r1_o)._fattributes;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[com.codename1.xml.Element: java.lang.String getAttribute(java.lang.String)]
@@ -829,7 +821,6 @@ public virtual void removeChildAt(int n1){
     label20:;
     _r1_o = ((global::com.codename1.xml.Element) _r2_o)._fchildren;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r3.i);
-    _r0_o = _r0_o;
     _r1_o = null;
     ((global::com.codename1.xml.Element) _r0_o).setParent((global::com.codename1.xml.Element) _r1_o);
     _r1_o = ((global::com.codename1.xml.Element) _r2_o)._fchildren;
@@ -1019,10 +1010,8 @@ private global::System.Object toString(global::java.lang.String n1){
     _r5.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label106;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r5_o = ((global::com.codename1.xml.Element) _r10_o)._fattributes;
     _r4_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r0_o);
-    _r4_o = _r4_o;
     _r5_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r5_o).@this();
     _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r3_o);
@@ -1063,7 +1052,6 @@ private global::System.Object toString(global::java.lang.String n1){
     _r6_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r3_o);
     _r5_o = ((global::com.codename1.xml.Element) _r10_o)._fchildren;
     _r5_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r2.i);
-    _r5_o = _r5_o;
     _r7_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r7_o).@this();
     _r7_o = ((global::java.lang.StringBuilder) _r7_o).append((global::java.lang.String) _r11_o);
@@ -1131,7 +1119,6 @@ public virtual bool hasTextChild(){
     _r0_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
     _r2.i = ((_r0_o != null) && (_r0_o is global::com.codename1.xml.Element)) ? 1 : 0;
     if (_r2.i == 0) goto label33;
-    _r0_o = _r0_o;
     _r2.i = ((global::com.codename1.xml.Element) _r0_o).isTextElement() ? 1 : 0;
     if (_r2.i == 0) goto label33;
     _r2.i = 1;

@@ -48,16 +48,13 @@ public override global::System.Object clone(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r2_o)._fchainBackward;
     ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r0_o)._fchainBackward = (global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r1_o;
     _r1_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r2_o)._fchainForward;
     ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r0_o)._fchainForward = (global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r1_o;
     _r2_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r0_o)._fnext;
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label28;
     _r2_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r2_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r0_o)._fnext = (global::java.util.HashMap_2Entry) _r2_o;
     label28:;
     return (global::java.lang.Object) _r0_o;

@@ -74,7 +74,6 @@ public override void add(global::java.security.Permission n1){
     _r0_o = ((global::java.util.PropertyPermissionCollection) _r3_o)._fpermissions;
     _r1_o = ((global::java.security.Permission) _r4_o).getName();
     _r0_o = ((global::java.util.Hashtable) _r0_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label54;
     _r0_o = ((global::java.security.Permission) _r0_o).getActions();
     _r1_o = ((global::java.security.Permission) _r4_o).getActions();
@@ -152,7 +151,6 @@ public override bool implies(global::java.security.Permission n1){
     return _r0.i!=0;
     label59:;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.security.Permission) _r0_o).implies((global::java.security.Permission) _r5_o) ? 1 : 0;
     if (_r0.i == 0) goto label5;
     _r0.i = _r3.i;
@@ -204,7 +202,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r2_o = null;
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     ((global::java.util.PropertyPermissionCollection) _r3_o)._fpermissions = (global::java.util.Hashtable) _r0_o;
     return;
 //XMLVM_END_WRAPPER[java.util.PropertyPermissionCollection: void readObject(java.io.ObjectInputStream)]

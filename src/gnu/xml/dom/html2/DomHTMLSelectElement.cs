@@ -86,7 +86,6 @@ public virtual int getSelectedIndex(){
     return _r0.i;
     label13:;
     _r4_o = ((global::org.w3c.dom.html2.HTMLOptionsCollection) _r0_o).item((int) _r2.i);
-    _r4_o = _r4_o;
     _r3.i = ((global::org.w3c.dom.html2.HTMLOptionElement) _r4_o).getSelected() ? 1 : 0;
     if (_r3.i == 0) goto label27;
     _r0.i = _r2.i;
@@ -126,7 +125,6 @@ public virtual void setSelectedIndex(int n1){
     return;
     label24:;
     _r6_o = ((global::org.w3c.dom.html2.HTMLOptionsCollection) _r0_o).item((int) _r2.i);
-    _r6_o = _r6_o;
     if (_r2.i != _r7.i) goto label39;
     _r3.i = _r5.i;
     label33:;
@@ -205,7 +203,6 @@ public virtual global::System.Object getForm(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109))}));
     _r1_o = ((global::gnu.xml.dom.html2.DomHTMLSelectElement) _r1_o).getParentElement((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.html2.HTMLFormElement) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLSelectElement: org.w3c.dom.html2.HTMLFormElement getForm()]
 }
@@ -218,7 +215,6 @@ public virtual global::System.Object getOptions(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLSelectElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=option
     _r0_o = new global::java.lang.String();
@@ -405,7 +401,6 @@ public virtual void remove(int n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::gnu.xml.dom.DomDOMException) _r0_o);
     label19:;
     _r2_o = ((global::org.w3c.dom.html2.HTMLOptionsCollection) _r0_o).item((int) _r3.i);
-    _r2_o = _r2_o;
     _r0_o = ((global::org.w3c.dom.html2.HTMLOptionElement) _r2_o).getParentNode();
     ((global::org.w3c.dom.Node) _r0_o).removeChild((global::org.w3c.dom.Node) _r2_o);
     return;

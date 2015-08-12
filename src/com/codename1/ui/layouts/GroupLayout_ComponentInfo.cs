@@ -82,7 +82,6 @@ private void removeSpring(global::com.codename1.ui.layouts.GroupLayout_2Spring n
     _r2_o = n1;
     if (_r2_o == null) goto label13;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o).getParent();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o)._fsprings;
     ((global::java.util.ArrayList) _r0_o).remove((global::java.lang.Object) _r2_o);
     label13:;

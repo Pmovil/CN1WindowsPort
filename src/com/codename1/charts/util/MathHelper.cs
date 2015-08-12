@@ -43,7 +43,6 @@ public static global::System.Object minmax(global::java.util.List n1){
     return (global::org.xmlvm._nArrayAdapter<double>) _r8_o;
     label11:;
     _r8_o = ((global::java.util.List) _r11_o).get((int) _r9.i);
-    _r8_o = _r8_o;
     _r4.d = ((global::java.lang.Double) _r8_o).doubleValue();
     _r2.d = _r4.d;
     _r1.i = ((global::java.util.List) _r11_o).size();
@@ -51,7 +50,6 @@ public static global::System.Object minmax(global::java.util.List n1){
     label27:;
     if (_r0.i >= _r1.i) goto label50;
     _r8_o = ((global::java.util.List) _r11_o).get((int) _r0.i);
-    _r8_o = _r8_o;
     _r6.d = ((global::java.lang.Double) _r8_o).doubleValue();
     _r4.d = global::java.lang.Math.min((double) _r4.d, (double) _r6.d);
     _r2.d = global::java.lang.Math.max((double) _r2.d, (double) _r6.d);
@@ -188,7 +186,6 @@ private static global::System.Object computeLabels(double n1, double n2, int n3)
     _r9.i = _r0.d > _r6.d ? 1 : (_r0.d == _r6.d ? 0 : -1);
     if (_r9.i <= 0) goto label100;
     _r2.i = 1;
-    _r0.d = _r0.d;
     _r8.d = _r6.d;
     _r6.d = _r0.d;
     _r0.i = _r2.i;

@@ -1429,7 +1429,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.math.BigInteger)) ? 1 : 0;
     if (_r0.i == 0) goto label36;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.math.BigInteger) _r4_o)._fsign;
     _r1.i = ((global::java.math.BigInteger) _r5_o)._fsign;
     if (_r0.i != _r1.i) goto label34;
@@ -2579,7 +2578,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.math.BigInteger) _r1_o).compareTo((global::java.math.BigInteger) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.math.BigInteger: int compareTo(java.lang.Object)]

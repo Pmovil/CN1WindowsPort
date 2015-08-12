@@ -233,7 +233,6 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
     if (_r6.i == 0) goto label136;
     _r6.i = 0;
     _r10_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r6.i];
-    _r10_o = _r10_o;
     global::System.Threading.Monitor.Exit(_r5_o);
     _r5_o = _r10_o;
     goto label44;
@@ -255,7 +254,6 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
     if (_r6.i == 0) goto label151;
     _r6.i = 0;
     _r10_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r6.i];
-    _r10_o = _r10_o;
     ((global::java.lang.Throwable) _r10_o).printStackTrace();
     }
     catch (global::System.Exception e) {

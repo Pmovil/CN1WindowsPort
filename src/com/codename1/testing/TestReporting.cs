@@ -157,10 +157,8 @@ public virtual void writeReport(global::java.io.OutputStream n1){
     _r3.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label86;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.testing.TestReporting) _r5_o)._ftestsExecuted;
     _r2_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     _r3.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     if (_r3.i == 0) goto label59;
     _r3_o = new global::java.lang.StringBuilder();

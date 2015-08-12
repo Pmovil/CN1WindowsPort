@@ -209,7 +209,6 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
     _r0_o = base.get((global::java.lang.Object) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label23;
-    _r0_o = _r0_o;
     label10:;
     if (_r0_o != null) goto label22;
     _r1_o = ((global::java.util.Properties) _r2_o)._fdefaults;
@@ -238,7 +237,6 @@ public virtual global::System.Object getProperty(global::java.lang.String n1, gl
     _r0_o = base.get((global::java.lang.Object) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label26;
-    _r0_o = _r0_o;
     label10:;
     if (_r0_o != null) goto label22;
     _r1_o = ((global::java.util.Properties) _r2_o)._fdefaults;
@@ -287,12 +285,10 @@ public virtual void list(global::java.io.PrintStream n1){
     return;
     label27:;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r0_o);
     _r1.i = 61;
     ((global::java.lang.StringBuilder) _r2_o).append((char) _r1.i);
     _r1_o = base.get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r4_o = ((global::java.util.Properties) _r6_o)._fdefaults;
     label49:;
     if (_r1_o == null) goto label84;
@@ -313,7 +309,6 @@ public virtual void list(global::java.io.PrintStream n1){
     goto label20;
     label84:;
     _r1_o = ((global::java.util.Properties) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r4_o = ((global::java.util.Properties) _r4_o)._fdefaults;
     goto label49;
     label93:;
@@ -353,12 +348,10 @@ public virtual void list(global::java.io.PrintWriter n1){
     return;
     label27:;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r0_o);
     _r1.i = 61;
     ((global::java.lang.StringBuilder) _r2_o).append((char) _r1.i);
     _r1_o = base.get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r4_o = ((global::java.util.Properties) _r6_o)._fdefaults;
     label49:;
     if (_r1_o == null) goto label84;
@@ -379,7 +372,6 @@ public virtual void list(global::java.io.PrintWriter n1){
     goto label20;
     label84:;
     _r1_o = ((global::java.util.Properties) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r4_o = ((global::java.util.Properties) _r4_o)._fdefaults;
     goto label49;
     label93:;
@@ -986,7 +978,6 @@ public virtual void store(global::java.io.OutputStream n1, global::java.lang.Str
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     global::java.util.Properties._flineSeparator = (global::java.lang.String) _r0_o;
     }
     catch (global::System.Exception e) {
@@ -1062,16 +1053,13 @@ public virtual void store(global::java.io.OutputStream n1, global::java.lang.Str
     label80:;
     try {
     _r0_o = ((global::java.util.Iterator) _r4_o).next();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
-    _r1_o = _r1_o;
     _r5.i = 1;
     _r6.i = 1;
     ((global::java.util.Properties) _r7_o).dumpString((global::java.lang.StringBuilder) _r2_o, (global::java.lang.String) _r1_o, 0!=_r5.i, 0!=_r6.i);
     _r1.i = 61;
     ((global::java.lang.StringBuilder) _r2_o).append((char) _r1.i);
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
-    _r0_o = _r0_o;
     _r1.i = 0;
     _r5.i = 1;
     ((global::java.util.Properties) _r7_o).dumpString((global::java.lang.StringBuilder) _r2_o, (global::java.lang.String) _r0_o, 0!=_r1.i, 0!=_r5.i);
@@ -1127,7 +1115,6 @@ public virtual void store(global::java.io.Writer n1, global::java.lang.String n2
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     global::java.util.Properties._flineSeparator = (global::java.lang.String) _r0_o;
     }
     catch (global::System.Exception e) {
@@ -1198,16 +1185,13 @@ public virtual void store(global::java.io.Writer n1, global::java.lang.String n2
     label73:;
     try {
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
-    _r1_o = _r1_o;
     _r4.i = 1;
     _r5.i = 0;
     ((global::java.util.Properties) _r6_o).dumpString((global::java.lang.StringBuilder) _r2_o, (global::java.lang.String) _r1_o, 0!=_r4.i, 0!=_r5.i);
     _r1.i = 61;
     ((global::java.lang.StringBuilder) _r2_o).append((char) _r1.i);
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
-    _r0_o = _r0_o;
     _r1.i = 0;
     _r4.i = 0;
     ((global::java.util.Properties) _r6_o).dumpString((global::java.lang.StringBuilder) _r2_o, (global::java.lang.String) _r0_o, 0!=_r1.i, 0!=_r4.i);
@@ -1471,7 +1455,6 @@ public virtual void loadFromXML(global::java.io.InputStream n1){
     try {
     if (_r3.i >= _r2.i) goto label64;
     _r0_o = ((global::org.w3c.dom.NodeList) _r1_o).item((int) _r3.i);
-    _r0_o = _r0_o;
     // Value=key
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121))}));
@@ -1773,11 +1756,8 @@ public virtual void storeToXML(global::java.io.OutputStream n1, global::java.lan
     label171:;
     try {
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
-    _r0_o = _r0_o;
     // Value=<entry key=\042
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)60)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 61)), unchecked((char) unchecked((uint) 34))}));

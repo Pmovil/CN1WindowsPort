@@ -156,7 +156,6 @@ public virtual void setBrowserNavigationCallback(global::com.codename1.ui.events
     _r0.i = global::com.codename1.ui.BrowserComponent.isNativeBrowserSupported() ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o).getInternal();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.BrowserComponent) _r1_o).setBrowserNavigationCallback((global::com.codename1.ui.events.BrowserNavigationCallback) _r2_o);
     label15:;
     return;
@@ -172,7 +171,6 @@ public virtual global::System.Object getBrowserNavigationCallback(){
     _r0.i = global::com.codename1.ui.BrowserComponent.isNativeBrowserSupported() ? 1 : 0;
     if (_r0.i == 0) goto label17;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o).getInternal();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.BrowserComponent) _r1_o).getBrowserNavigationCallback();
     label16:;
     return (global::com.codename1.ui.events.BrowserNavigationCallback) _r0_o;
@@ -213,13 +211,11 @@ public virtual global::System.Object getTitle(){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r1_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label13;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.BrowserComponent) _r1_o).getTitle();
     label12:;
     return (global::java.lang.String) _r0_o;
     label13:;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.html.HTMLComponent) _r1_o).getTitle();
     goto label12;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser: java.lang.String getTitle()]
@@ -234,13 +230,11 @@ public virtual global::System.Object getURL(){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r1_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label13;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.BrowserComponent) _r1_o).getURL();
     label12:;
     return (global::java.lang.String) _r0_o;
     label13:;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.html.HTMLComponent) _r1_o).getPageURL();
     goto label12;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser: java.lang.String getURL()]
@@ -256,13 +250,11 @@ public virtual void setURL(global::java.lang.String n1){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r1_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.BrowserComponent) _r1_o).setURL((global::java.lang.String) _r2_o);
     label11:;
     return;
     label12:;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLComponent) _r1_o).setPage((global::java.lang.String) _r2_o);
     goto label11;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser: void setURL(java.lang.String)]
@@ -276,13 +268,11 @@ public virtual void reload(){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r1_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.BrowserComponent) _r1_o).reload();
     label11:;
     return;
     label12:;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLComponent) _r1_o).refreshDOM();
     goto label11;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser: void reload()]
@@ -296,13 +286,11 @@ public virtual void stop(){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r1_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.BrowserComponent) _r1_o).stop();
     label11:;
     return;
     label12:;
     _r1_o = ((global::com.codename1.components.WebBrowser) _r1_o)._finternal;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLComponent) _r1_o).cancel();
     goto label11;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser: void stop()]
@@ -320,13 +308,11 @@ public virtual void destroy(){
     _r0.i = ((global::com.codename1.components.WebBrowser) _r3_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label21;
     _r0_o = ((global::com.codename1.components.WebBrowser) _r3_o)._finternal;
-    _r0_o = _r0_o;
     // Value=<html><body></body></html>
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)60)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 62)), unchecked((char) unchecked((uint) 60)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 62)), unchecked((char) unchecked((uint) 60)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 62)), unchecked((char) unchecked((uint) 60)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 62))}));
     ((global::com.codename1.ui.BrowserComponent) _r0_o).setPage((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o);
     _r0_o = ((global::com.codename1.components.WebBrowser) _r3_o)._finternal;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.BrowserComponent) _r0_o).destroy();
     label21:;
     ((global::com.codename1.components.WebBrowser) _r3_o)._finternal = (global::com.codename1.ui.Component) _r2_o;
@@ -350,13 +336,11 @@ public virtual void setPage(global::java.lang.String n1, global::java.lang.Strin
     _r0.i = ((global::com.codename1.components.WebBrowser) _r3_o)._fisNative ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r3_o = ((global::com.codename1.components.WebBrowser) _r3_o)._finternal;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.BrowserComponent) _r3_o).setPage((global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     label13:;
     return;
     label14:;
     _r3_o = ((global::com.codename1.components.WebBrowser) _r3_o)._finternal;
-    _r3_o = _r3_o;
     // Value=UTF-8
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)85)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 56))}));
@@ -498,7 +482,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 108))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.WebBrowser) _r2_o).setURL((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -509,7 +492,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.WebBrowser) _r2_o).setPage((global::java.lang.String) _r4_o, (global::java.lang.String) _r1_o);
     _r0_o = _r1_o;
     goto label15;

@@ -295,7 +295,6 @@ public override void initComponentImpl(){
     if (_r2.i == 0) goto label26;
     _r2.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.plaf.DefaultLookAndFeel)) ? 1 : 0;
     if (_r2.i == 0) goto label26;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o).focusGained((global::com.codename1.ui.Component) _r4_o);
     label26:;
     _r2.i = ((global::com.codename1.ui.Label) _r4_o).isTickerEnabled() ? 1 : 0;
@@ -1063,7 +1062,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Label) _r1_o).setMaskName((global::java.lang.String) _r3_o);
     _r0_o = null;
     label14:;
@@ -1240,7 +1238,6 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116))}));
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label14;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Label) _r1_o).setText((global::java.lang.String) _r3_o);
     label13:;
     return;

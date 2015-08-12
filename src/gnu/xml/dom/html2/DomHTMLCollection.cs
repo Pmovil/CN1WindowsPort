@@ -160,7 +160,6 @@ private bool acceptName(global::java.lang.String n1){
     return _r0.i!=0;
     label14:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1.i = ((global::java.lang.String) _r2_o).equalsIgnoreCase((global::java.lang.String) _r3_o) ? 1 : 0;
     if (_r1.i == 0) goto label6;
     _r0.i = 1;
@@ -187,7 +186,6 @@ private bool acceptAttributes(global::org.w3c.dom.NamedNodeMap n1){
     return _r0.i!=0;
     label14:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLCollection) _r2_o).getNamedItem((global::org.w3c.dom.NamedNodeMap) _r3_o, (global::java.lang.String) _r0_o);
     if (_r0_o == null) goto label6;
     _r0_o = ((global::org.w3c.dom.Node) _r0_o).getNodeValue();
@@ -299,7 +297,6 @@ public virtual global::System.Object item(int n1){
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o)._fresults;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.Node) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLCollection: org.w3c.dom.Node item(int)]
 }
@@ -329,7 +326,6 @@ public virtual global::System.Object namedItem(global::java.lang.String n1){
     return (global::org.w3c.dom.Node) _r0_o;
     label15:;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::org.w3c.dom.Node) _r0_o).getAttributes();
     // Value=id
     _r4_o = new global::java.lang.String();

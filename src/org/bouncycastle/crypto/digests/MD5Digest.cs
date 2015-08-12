@@ -1120,7 +1120,6 @@ public override void reset(global::org.bouncycastle.util.Memoable n1){
     _r2_o = this;
     _r3_o = n1;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::org.bouncycastle.crypto.digests.MD5Digest) _r2_o).copyIn((global::org.bouncycastle.crypto.digests.MD5Digest) _r1_o);
     return;

@@ -730,7 +730,6 @@ public virtual void setAssociatedComponents(global::java.lang.Object n1){
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.Vector)) ? 1 : 0;
     if (_r0.i == 0) goto label9;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.html.HTMLElement) _r1_o)._fcomps = (global::java.util.Vector) _r2_o;
     label8:;
     return;
@@ -1478,7 +1477,6 @@ public virtual global::System.Object getFirstChildByTagId(int n1){
     _r4.i = ((global::java.util.Vector) _r1_o).size();
     if (_r3.i >= _r4.i) goto label35;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r3.i);
-    _r0_o = _r0_o;
     _r4.i = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getTagId();
     if (_r4.i != _r6.i) goto label32;
     _r2_o = _r0_o;
@@ -1509,7 +1507,6 @@ public virtual global::System.Object getAttributeById(int n1){
     _r1_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r1_o).@this((int) _r3.i);
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: java.lang.String getAttributeById(int)]
@@ -1619,10 +1616,8 @@ private global::System.Object toString(global::java.lang.String n1){
     _r8.i = ((global::java.util.Enumeration) _r4_o).hasMoreElements() ? 1 : 0;
     if (_r8.i == 0) goto label118;
     _r0_o = ((global::java.util.Enumeration) _r4_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.html.HTMLElement) _r13_o).getAttributeName((global::java.lang.Integer) _r0_o);
     _r7_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r7_o = _r7_o;
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r6_o);
@@ -1666,7 +1661,6 @@ private global::System.Object toString(global::java.lang.String n1){
     ((global::java.lang.StringBuilder) _r8_o).@this();
     _r9_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r6_o);
     _r8_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r5.i);
-    _r8_o = _r8_o;
     _r10_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r10_o).@this();
     _r10_o = ((global::java.lang.StringBuilder) _r10_o).append((global::java.lang.String) _r14_o);
@@ -1739,7 +1733,6 @@ public virtual global::System.Object getUi(){
     _r5.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label57;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getUi();
     _r4_o = ((global::java.util.Vector) _r1_o).elements();
     label41:;
@@ -1783,7 +1776,6 @@ public override void removeChildAt(int n1){
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLElement) _r1_o).getChildAt((int) _r2.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.html.HTMLElement) _r0_o).clearAssociatedComponents();
     base.removeChildAt((int) _r2.i);
     return;
@@ -1811,7 +1803,6 @@ private void getDescendantsByTagIdInternal(global::java.util.Vector n1, int n2, 
     _r3.i = ((global::java.util.Vector) _r1_o).size();
     if (_r2.i >= _r3.i) goto label39;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     if (_r7.i <= 0) goto label27;
     _r3.i = 1;
     _r3.i = _r7.i - _r3.i;
@@ -1895,7 +1886,6 @@ public virtual bool isFirstChild(){
     return _r4.i!=0;
     label9:;
     _r2_o = ((global::com.codename1.ui.html.HTMLElement) _r6_o).getParent();
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label49;
     _r3_o = ((global::com.codename1.ui.html.HTMLElement) _r2_o).getChildren();
     _r1.i = 0;
@@ -1903,7 +1893,6 @@ public virtual bool isFirstChild(){
     _r4.i = ((global::java.util.Vector) _r3_o).size();
     if (_r1.i >= _r4.i) goto label49;
     _r0_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     if (_r0_o != _r6_o) goto label38;
     _r4.i = 1;
     goto label8;

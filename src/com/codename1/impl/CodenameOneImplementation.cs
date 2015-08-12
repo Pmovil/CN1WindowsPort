@@ -613,7 +613,6 @@ public virtual void paintDirty(){
     _r21.i = _r0.i;
     if (_r21.i == 0) goto label248;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     _r14_o = ((global::com.codename1.ui.Component) _r9_o).getDirtyRegion();
     if (_r14_o == null) goto label180;
@@ -887,9 +886,7 @@ public virtual void repaint(global::com.codename1.ui.animations.Animation n1){
     if (_r3.i == 0) goto label41;
     _r3.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r3.i == 0) goto label41;
-    _r1_o = _r1_o;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Container) _r1_o).contains((global::com.codename1.ui.Component) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label41;
@@ -2780,8 +2777,6 @@ private global::System.Object findCachedGradient(global::java.util.Hashtable n1,
     _r6.i = ((global::java.util.Enumeration) _r5_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label121;
     _r2_o = ((global::java.util.Enumeration) _r5_o).nextElement();
-    _r2_o = _r2_o;
-    _r2_o = _r2_o;
     _r4_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r2_o);
     if (_r4_o != null) goto label34;
     ((global::java.util.Hashtable) _r9_o).remove((global::java.lang.Object) _r2_o);
@@ -5295,7 +5290,6 @@ public virtual global::System.Object extractHardRef(global::java.lang.Object n1)
     _r3_o = this;
     _r4_o = n1;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o == null) goto label11;
     _r2_o = ((global::java.lang.@ref.WeakReference) _r1_o).get();
@@ -6016,7 +6010,6 @@ public virtual void addCookie(global::org.xmlvm._nArrayAdapter<global::System.Ob
     _r3_o = ((global::com.codename1.impl.CodenameOneImplementation) _r6_o)._fcookies;
     _r4_o = ((global::com.codename1.io.Cookie) _r0_o).getDomain();
     _r1_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label45;
     _r1_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r1_o).@this();
@@ -6068,7 +6061,6 @@ public virtual void addCookie(global::com.codename1.io.Cookie n1){
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o)._fcookies;
     _r2_o = ((global::com.codename1.io.Cookie) _r5_o).getDomain();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label39;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
@@ -6191,7 +6183,6 @@ public virtual global::System.Object getCookiesForURL(global::java.lang.String n
     _r12_o = global::com.codename1.io.Storage.getInstance();
     _r13_o = global::com.codename1.io.Cookie._fSTORAGE_1NAME;
     _r0_o = ((global::com.codename1.io.Storage) _r12_o).readObject((global::java.lang.String) _r13_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.impl.CodenameOneImplementation) _r14_o)._fcookies = (global::java.util.Hashtable) _r0_o;
     label21:;
     // Value=
@@ -6237,13 +6228,11 @@ public virtual global::System.Object getCookiesForURL(global::java.lang.String n
     _r12.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r12.i == 0) goto label172;
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r1_o = _r1_o;
     _r12.i = ((global::java.lang.String) _r0_o).indexOf((global::java.lang.String) _r1_o);
     _r13.i = -1;
     if (_r12.i <= _r13.i) goto label87;
     _r12_o = ((global::com.codename1.impl.CodenameOneImplementation) _r14_o)._fcookies;
     _r4_o = ((global::java.util.Hashtable) _r12_o).get((global::java.lang.Object) _r1_o);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label87;
     _r3_o = ((global::java.util.Hashtable) _r4_o).elements();
     if (_r11_o != null) goto label127;
@@ -6253,7 +6242,6 @@ public virtual global::System.Object getCookiesForURL(global::java.lang.String n
     _r12.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r12.i == 0) goto label87;
     _r7_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r7_o = _r7_o;
     _r12.i = ((global::com.codename1.io.Cookie) _r7_o).isHttpOnly() ? 1 : 0;
     if (_r12.i == 0) goto label147;
     if (_r5.i == 0) goto label127;
@@ -6334,7 +6322,6 @@ public virtual void cleanup(global::java.lang.Object n1){
     _r2.i = ((_r4_o != null) && (_r4_o is global::java.io.InputStream)) ? 1 : 0;
     if (_r2.i == 0) goto label13;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::java.io.InputStream) _r2_o).close();
     }
@@ -6351,7 +6338,6 @@ public virtual void cleanup(global::java.lang.Object n1){
     try {
     _r2.i = ((_r4_o != null) && (_r4_o is global::java.io.OutputStream)) ? 1 : 0;
     if (_r2.i == 0) goto label22;
-    _r4_o = _r4_o;
     ((global::java.io.OutputStream) _r4_o).close();
     }
     catch (global::System.Exception e) {

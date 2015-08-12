@@ -422,16 +422,13 @@ public virtual void startRunningImages(){
     _r1.i = ((global::java.util.Enumeration) _r6_o).hasMoreElements() ? 1 : 0;
     if (_r1.i == 0) goto label77;
     _r3_o = ((global::java.util.Enumeration) _r6_o).nextElement();
-    _r3_o = _r3_o;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r9_o)._fimages;
     _r2_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r7.i = ((global::java.util.Vector) _r8_o).indexOf((global::java.lang.Object) _r2_o);
     _r1.i = -1;
     if (_r7.i == _r1.i) goto label59;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r9_o)._fqueue;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r0_o).addLabel((global::com.codename1.ui.Component) _r3_o);
     }
     catch (global::System.Exception e) {
@@ -533,7 +530,6 @@ private bool startDequeue(){
     if (_r1.i >= _r3.i) goto label45;
     _r4_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r7_o)._fqueue;
     _r2_o = ((global::java.util.Vector) _r4_o).firstElement();
-    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r7_o)._fqueue;
     _r5.i = 0;
     ((global::java.util.Vector) _r4_o).removeElementAt((int) _r5.i);
@@ -573,7 +569,6 @@ private bool startDequeue(){
     _r4.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label70;
     _r2_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r2_o).go();
     }
     catch (global::System.Exception e) {
@@ -663,7 +658,6 @@ public virtual void threadFinished(global::com.codename1.ui.html.ResourceThreadQ
     if (_r1.i <= 0) goto label83;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r3_o)._fqueue;
     _r0_o = ((global::java.util.Vector) _r1_o).firstElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue) _r3_o)._fqueue;
     _r2.i = 0;
     ((global::java.util.Vector) _r1_o).removeElementAt((int) _r2.i);
@@ -771,7 +765,6 @@ public virtual void discardQueue(){
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label31;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r1_o).cancel();
     }
     catch (global::System.Exception e) {
@@ -858,7 +851,6 @@ public override global::System.Object toString(){
     _r4.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label123;
     _r3_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r3_o)._fimageUrl;
     if (_r4_o == null) goto label77;
     _r4_o = new global::java.lang.StringBuilder();
@@ -921,7 +913,6 @@ public override global::System.Object toString(){
     _r4.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label255;
     _r3_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r3_o)._fimageUrl;
     if (_r4_o == null) goto label209;
     _r4_o = new global::java.lang.StringBuilder();

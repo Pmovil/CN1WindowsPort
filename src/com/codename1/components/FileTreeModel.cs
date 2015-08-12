@@ -101,7 +101,6 @@ public virtual global::System.Object getChildren(global::java.lang.Object n1){
     label29:;
     try {
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     // Value=/
     _r10_o = new global::java.lang.String();
@@ -276,7 +275,6 @@ public virtual bool isLeaf(global::java.lang.Object n1){
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.io.FileSystemStorage.getInstance();
-    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.io.FileSystemStorage) _r0_o).isDirectory((global::java.lang.String) _r2_o) ? 1 : 0;
     if (_r0.i != 0) goto label14;
     _r0.i = 1;

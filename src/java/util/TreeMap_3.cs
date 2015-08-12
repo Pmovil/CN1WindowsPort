@@ -54,7 +54,6 @@ public override bool contains(global::java.lang.Object n1){
     _r3.i = 0;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label42;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.util.Map_2Entry) _r5_o).getKey();
     _r1_o = ((global::java.util.TreeMap_23) _r4_o)._fthis_20;
     _r1_o = ((global::java.util.TreeMap) _r1_o).get((global::java.lang.Object) _r0_o);

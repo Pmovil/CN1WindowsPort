@@ -73,7 +73,6 @@ public virtual global::System.Object tokenize(global::java.util.Map n1){
     if (_r0.i == _r4.i) goto label64;
     _r4_o = ((global::java.lang.String) _r2_o).substring((int) _r6.i, (int) _r0.i);
     _r1_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label64;
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();

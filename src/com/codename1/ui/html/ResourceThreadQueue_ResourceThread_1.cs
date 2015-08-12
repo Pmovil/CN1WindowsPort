@@ -43,7 +43,6 @@ public virtual void run(){
     _r2.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label49;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread_21) _r5_o)._fthis_21;
     _r3_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread_21) _r5_o)._fthis_21;
     _r3_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r3_o)._fimg;

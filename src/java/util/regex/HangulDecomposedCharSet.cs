@@ -262,7 +262,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.regex.HangulDecomposedCharSet)) ? 1 : 0;
     if (_r0.i == 0) goto label19;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.regex.HangulDecomposedCharSet) _r3_o).getDecomposedChar();
     _r1_o = ((global::java.util.regex.HangulDecomposedCharSet) _r2_o).getDecomposedChar();
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;

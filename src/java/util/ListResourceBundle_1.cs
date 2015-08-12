@@ -49,7 +49,6 @@ private bool findNext(){
     label7:;
     _r0_o = ((global::java.util.ListResourceBundle_21) _r3_o)._fpEnum;
     _r0_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.ListResourceBundle_21) _r3_o)._fthis_20;
     _r1_o = ((global::java.util.ListResourceBundle) _r1_o)._ftable;
     _r1.i = ((global::java.util.HashMap) _r1_o).containsKey((global::java.lang.Object) _r0_o) ? 1 : 0;
@@ -96,7 +95,6 @@ public virtual global::System.Object nextElement(){
     if (_r0.i == 0) goto label18;
     _r0_o = ((global::java.util.ListResourceBundle_21) _r2_o)._flocal;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label17:;
     return (global::java.lang.String) _r0_o;
@@ -110,7 +108,6 @@ public virtual global::System.Object nextElement(){
     label30:;
     _r0_o = ((global::java.util.ListResourceBundle_21) _r2_o)._fpEnum;
     _r2_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     goto label17;
 //XMLVM_END_WRAPPER[java.util.ListResourceBundle$1: java.lang.String nextElement()]

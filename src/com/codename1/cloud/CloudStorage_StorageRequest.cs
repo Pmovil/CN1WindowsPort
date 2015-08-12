@@ -75,14 +75,12 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     _r5.i = ((_r3_o != null) && (_r3_o is global::java.lang.String)) ? 1 : 0;
     if (_r5.i == 0) goto label95;
     ((global::java.io.DataOutputStream) _r2_o).writeByte((int) _r7.i);
-    _r3_o = _r3_o;
     ((global::java.io.DataOutputStream) _r2_o).writeUTF((global::java.lang.String) _r3_o);
     label92:;
     _r4.i = _r4.i + 1;
     goto label58;
     label95:;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = ((global::com.codename1.cloud.CloudObject) _r1_o).getCloudId();
     if (_r5_o != null) goto label124;
@@ -142,7 +140,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r7.i = ((_r4_o != null) && (_r4_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r7.i == 0) goto label70;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r7_o = ((global::com.codename1.cloud.CloudObject) _r1_o).getCloudId();
     if (_r7_o != null) goto label63;

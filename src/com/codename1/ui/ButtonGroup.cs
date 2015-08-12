@@ -94,7 +94,6 @@ public virtual void clearSelection(){
     _r0_o = ((global::com.codename1.ui.ButtonGroup) _r3_o)._fbuttons;
     _r1.i = ((global::com.codename1.ui.ButtonGroup) _r3_o)._fselectedIndex;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::com.codename1.ui.RadioButton) _r0_o).setSelected(0!=_r1.i);
     label29:;
@@ -157,7 +156,6 @@ public virtual global::System.Object getRadioButton(int n1){
     if (_r2.i >= _r0.i) goto label18;
     _r0_o = ((global::com.codename1.ui.ButtonGroup) _r1_o)._fbuttons;
     _r1_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label17:;
     return (global::com.codename1.ui.RadioButton) _r0_o;
@@ -224,13 +222,11 @@ public virtual void setSelected(int n1){
     _r0_o = ((global::com.codename1.ui.ButtonGroup) _r2_o)._fbuttons;
     _r1.i = ((global::com.codename1.ui.ButtonGroup) _r2_o)._fselectedIndex;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::com.codename1.ui.RadioButton) _r0_o).setSelectedImpl(0!=_r1.i);
     label40:;
     _r0_o = ((global::com.codename1.ui.ButtonGroup) _r2_o)._fbuttons;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r3.i);
-    _r0_o = _r0_o;
     _r1.i = 1;
     ((global::com.codename1.ui.RadioButton) _r0_o).setSelectedImpl(0!=_r1.i);
     ((global::com.codename1.ui.ButtonGroup) _r2_o)._fselectedIndex = _r3.i;

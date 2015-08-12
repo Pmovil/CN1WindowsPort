@@ -27,7 +27,6 @@ public void @this(global::java.io.Writer n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     ((global::java.io.BufferedWriter) _r2_o)._flineSeparator = (global::java.lang.String) _r0_o;
     ((global::java.io.BufferedWriter) _r2_o)._fout = (global::java.io.Writer) _r3_o;
     _r0.i = 8192;
@@ -54,7 +53,6 @@ public void @this(global::java.io.Writer n1, int n2){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     ((global::java.io.BufferedWriter) _r2_o)._flineSeparator = (global::java.lang.String) _r0_o;
     if (_r4.i > 0) goto label32;
     _r0_o = new global::java.lang.IllegalArgumentException();

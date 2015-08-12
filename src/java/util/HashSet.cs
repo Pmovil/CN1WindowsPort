@@ -78,7 +78,6 @@ public void @this(global::java.util.Collection n1){
     goto label11;
     label35:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     ((global::java.util.HashSet) _r3_o).add((global::java.lang.Object) _r0_o);
     goto label21;
 //XMLVM_END_WRAPPER[java.util.HashSet: void <init>(java.util.Collection)]
@@ -136,10 +135,8 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.HashSet) _r2_o)._fbackingMap;
     _r2_o = ((global::java.util.HashMap) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.HashSet) _r0_o)._fbackingMap = (global::java.util.HashMap) _r2_o;
     }
     catch (global::System.Exception e) {

@@ -26,7 +26,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r3_o).getSource();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.io.Log_23) _r2_o)._fthis_20;
     _r1_o = global::com.codename1.io.Log.access_2000((global::com.codename1.io.Log) _r1_o);
     if (_r1_o == null) goto label17;

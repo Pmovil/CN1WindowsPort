@@ -210,7 +210,6 @@ public virtual bool canEncode(global::java.lang.CharSequence n1){
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.nio.CharBuffer)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.nio.CharBuffer) _r2_o).duplicate();
     label10:;
     _r0.i = ((global::java.nio.charset.CharsetEncoder) _r1_o).implCanEncode((global::java.nio.CharBuffer) _r0_o) ? 1 : 0;

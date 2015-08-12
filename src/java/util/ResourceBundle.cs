@@ -197,7 +197,6 @@ private static global::System.Object getLoader(){
     _r0_o = new global::java.util.ResourceBundle_21();
     ((global::java.util.ResourceBundle_21) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     return (global::java.lang.ClassLoader) _r0_o;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle: java.lang.ClassLoader getLoader()]
 }
@@ -243,7 +242,6 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
     try {
     _r0_o = global::java.util.ResourceBundle._fcache;
     _r0_o = ((global::java.util.WeakHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label173;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
@@ -274,7 +272,6 @@ public static global::System.Object getBundle(global::java.lang.String n1, globa
         throw ex;
     } // end catch
     _r5_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r6_o);
-    _r5_o = _r5_o;
     if (_r5_o == null) goto label171;
     _r0.l = ((global::java.util.ResourceBundle_2Control) _r14_o).getTimeToLive((global::java.lang.String) _r11_o, (global::java.util.Locale) _r12_o);
     _r2.l = 0L;
@@ -463,7 +460,6 @@ private static global::System.Object processGetBundle(global::java.lang.String n
     return (global::java.util.ResourceBundle) _r18_o;
     label115:;
     _r5_o = ((global::java.util.Iterator) _r13_o).next();
-    _r5_o = _r5_o;
     _r14_o = ((global::java.util.List) _r12_o).iterator();
     _r15_o = _r3_o;
     _r16_o = _r4_o;
@@ -477,7 +473,6 @@ private static global::System.Object processGetBundle(global::java.lang.String n
     goto label53;
     label142:;
     _r6_o = ((global::java.util.Iterator) _r14_o).next();
-    _r6_o = _r6_o;
     if (_r22.i == 0) goto label197;
     try {
     _r9.l = global::java.lang.System.currentTimeMillis();
@@ -719,7 +714,6 @@ public virtual global::System.Object getString(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::java.util.ResourceBundle) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle: java.lang.String getString(java.lang.String)]
 }
@@ -731,7 +725,6 @@ public virtual global::System.Object getStringArray(global::java.lang.String n1)
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::java.util.ResourceBundle) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle: java.lang.String[] getStringArray(java.lang.String)]
 }
@@ -773,7 +766,6 @@ private static global::System.Object handleGetBundle(global::java.lang.String n1
     try {
     _r0_o = global::java.util.ResourceBundle._fcache;
     _r0_o = ((global::java.util.WeakHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label228;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
@@ -804,7 +796,6 @@ private static global::System.Object handleGetBundle(global::java.lang.String n1
         throw ex;
     } // end catch
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label89;
     _r1_o = global::java.util.ResourceBundle._fMISSINGBASE;
     if (_r0_o != _r1_o) goto label68;
@@ -855,7 +846,6 @@ private static global::System.Object handleGetBundle(global::java.lang.String n1
     _r3.i = ((global::java.lang.Class) _r3_o).isAssignableFrom((global::java.lang.Class) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label140;
     _r0_o = ((global::java.lang.Class) _r0_o).newInstance();
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -903,7 +893,6 @@ private static global::System.Object handleGetBundle(global::java.lang.String n1
     _r4_o = new global::java.util.ResourceBundle_22();
     ((global::java.util.ResourceBundle_22) _r4_o).@this((global::java.lang.ClassLoader) _r11_o, (global::java.lang.String) _r0_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label226;
     try {
     _r4_o = new global::java.util.PropertyResourceBundle();
@@ -1180,7 +1169,6 @@ public virtual global::System.Object keySet(){
     return (global::java.util.Set) _r0_o;
     label16:;
     _r3_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r3_o = _r3_o;
     ((global::java.util.Set) _r0_o).add((global::java.lang.Object) _r3_o);
     goto label9;
 //XMLVM_END_WRAPPER[java.util.ResourceBundle: java.util.Set keySet()]
@@ -1205,7 +1193,6 @@ public virtual global::System.Object handleKeySet(){
     return (global::java.util.Set) _r1_o;
     label20:;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.ResourceBundle) _r4_o).handleGetObject((global::java.lang.String) _r0_o);
     if (_r3_o == null) goto label13;
     ((global::java.util.Set) _r1_o).add((global::java.lang.Object) _r0_o);

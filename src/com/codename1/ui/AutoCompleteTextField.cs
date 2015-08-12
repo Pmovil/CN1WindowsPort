@@ -473,14 +473,12 @@ private void addPopup(){
     _r9.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r9.i == 0) goto label65;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.List) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r0_o);
     goto label49;
     label65:;
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fcompletionRenderer;
     if (_r9_o != null) goto label305;
     _r9_o = ((global::com.codename1.ui.List) _r3_o).getRenderer();
-    _r9_o = _r9_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r9_o).setShowNumbers(0!=_r11.i);
     label78:;
     // Value=AutoCompleteList
@@ -688,7 +686,6 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r2_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o)._ffilter;
     _r2_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o).getUnderlying();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r2_o).getItemAt((int) _r0.i);
-    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label21;
@@ -720,8 +717,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     if (_r0.i == 0) goto label26;
     _r0_o = new global::com.codename1.ui.list.FilterProxyListModel();
     _r1_o = new global::com.codename1.ui.list.DefaultListModel();
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.ui.list.FilterProxyListModel) _r0_o).@this((global::com.codename1.ui.list.ListModel) _r1_o);
     ((global::com.codename1.ui.AutoCompleteTextField) _r2_o)._ffilter = (global::com.codename1.ui.list.FilterProxyListModel) _r0_o;

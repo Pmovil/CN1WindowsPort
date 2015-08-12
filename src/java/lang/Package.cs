@@ -119,7 +119,6 @@ public static global::System.Object getPackage(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::java.lang.Package._fpackages;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     return (global::java.lang.Package) _r1_o;
 //XMLVM_END_WRAPPER[java.lang.Package: java.lang.Package getPackage(java.lang.String)]
 }
@@ -135,7 +134,6 @@ public static global::System.Object getPackages(){
     _r1.i = ((global::java.util.HashMap) _r1_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r0_o = ((global::java.util.Collection) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r0_o = _r0_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.Package: java.lang.Package[] getPackages()]
 }

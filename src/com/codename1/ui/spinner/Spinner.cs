@@ -269,7 +269,6 @@ public virtual void initSpinnerRenderer(){
     _r4_o = this;
     _r3.i = 0;
     _r1_o = base.getRenderer();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setRTL(0!=_r3.i);
     ((global::com.codename1.ui.spinner.Spinner) _r4_o).setRTL(0!=_r3.i);
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setShowNumbers(0!=_r3.i);
@@ -303,7 +302,6 @@ public virtual void updateToDefaultRTL(){
     _r2_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o).getLookAndFeel();
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r2_o).isRTL() ? 1 : 0;
     _r1_o = base.getRenderer();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setRTL(0!=_r0.i);
     ((global::com.codename1.ui.spinner.Spinner) _r3_o).setRTL(0!=_r0.i);
     return;
@@ -519,15 +517,12 @@ public virtual void setValue(global::java.lang.Object n1){
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r5_o).getModel();
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.spinner.SpinnerDateModel)) ? 1 : 0;
     if (_r4.i == 0) goto label16;
-    _r2_o = _r2_o;
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.spinner.SpinnerDateModel) _r2_o).setValue((global::java.util.Date) _r6_o);
     label15:;
     return;
     label16:;
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.spinner.SpinnerNumberModel)) ? 1 : 0;
     if (_r4.i == 0) goto label26;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r2_o).setValue((global::java.lang.Object) _r6_o);
     goto label15;
     label26:;
@@ -559,12 +554,10 @@ public virtual global::System.Object getValue(){
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r2_o).getModel();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.spinner.SpinnerDateModel)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.spinner.SpinnerDateModel) _r0_o).getValue();
     label14:;
     return (global::java.lang.Object) _r1_o;
     label15:;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r0_o).getValue();
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: java.lang.Object getValue()]
@@ -641,7 +634,6 @@ public override void keyReleased(int n1){
     _r19.i = _r0.i;
     if (_r19.i == 0) goto label313;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getValue();
-    _r24_o = _r24_o;
     _r14.i = ((global::java.lang.Integer) _r24_o).intValue();
     _r12.i = _r14.i % 60;
     _r9.i = _r14.i / 60;
@@ -741,7 +733,6 @@ public override void keyReleased(int n1){
     try {
     _r6.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r13_o);
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getRenderer();
-    _r24_o = _r24_o;
     _r19.i = ((global::com.codename1.ui.spinner.DateTimeRenderer) _r24_o).isTwentyFourHours() ? 1 : 0;
     if (_r19.i == 0) goto label220;
     _r19.i = 24;
@@ -815,7 +806,6 @@ public override void keyReleased(int n1){
     label255:;
     try {
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getRenderer();
-    _r24_o = _r24_o;
     _r19.i = ((global::com.codename1.ui.spinner.DateTimeRenderer) _r24_o).isShowSeconds() ? 1 : 0;
     if (_r19.i == 0) goto label277;
     _r19.i = 3;
@@ -879,7 +869,6 @@ public override void keyReleased(int n1){
     try {
     _r4_o = global::java.util.Calendar.getInstance();
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getValue();
-    _r24_o = _r24_o;
     _r0_o = _r4_o;
     _r1_o = _r24_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -1114,19 +1103,16 @@ public override void keyReleased(int n1){
     label548:;
     try {
     _r11_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
-    _r11_o = _r11_o;
     _r0_o = _r11_o;
     _r0.i = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r0_o)._frealValues ? 1 : 0;
     _r19.i = _r0.i;
     if (_r19.i == 0) goto label649;
     _r16.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r13_o);
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
-    _r24_o = _r24_o;
     _r19.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMax();
     _r19.i = _r16.d > _r19.d ? 1 : (_r16.d == _r19.d ? 0 : -1);
     if (_r19.i > 0) goto label17;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
-    _r24_o = _r24_o;
     _r19.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMin();
     _r19.i = _r16.d > _r19.d ? 1 : (_r16.d == _r19.d ? 0 : -1);
     if (_r19.i < 0) goto label17;
@@ -1193,7 +1179,6 @@ public override void keyReleased(int n1){
     _r0.d = (double) _r0.i;
     _r19.d = _r0.d;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
-    _r24_o = _r24_o;
     _r21.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMax();
     _r19.i = _r19.d > _r21.d ? 1 : (_r19.d == _r21.d ? 0 : -1);
     if (_r19.i > 0) goto label17;
@@ -1201,7 +1186,6 @@ public override void keyReleased(int n1){
     _r0.d = (double) _r0.i;
     _r19.d = _r0.d;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
-    _r24_o = _r24_o;
     _r21.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMin();
     _r19.i = _r19.d > _r21.d ? 1 : (_r19.d == _r21.d ? 0 : -1);
     if (_r19.i < 0) goto label17;

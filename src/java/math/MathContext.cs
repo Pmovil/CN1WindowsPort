@@ -294,12 +294,10 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = ((_r4_o != null) && (_r4_o is global::java.math.MathContext)) ? 1 : 0;
     if (_r1.i == 0) goto label28;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::java.math.MathContext) _r1_o).getPrecision();
     _r2.i = ((global::java.math.MathContext) _r3_o)._fprecision;
     if (_r1.i != _r2.i) goto label28;
-    _r4_o = _r4_o;
     _r1_o = ((global::java.math.MathContext) _r4_o).getRoundingMode();
     _r2_o = ((global::java.math.MathContext) _r3_o)._froundingMode;
     if (_r1_o != _r2_o) goto label28;

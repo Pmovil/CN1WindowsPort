@@ -93,7 +93,6 @@ public static global::System.Object valueOf(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.net.Proxy_2Type));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
-    _r1_o = _r1_o;
     return (global::java.net.Proxy_2Type) _r1_o;
 //XMLVM_END_WRAPPER[java.net.Proxy$Type: java.net.Proxy$Type valueOf(java.lang.String)]
 }

@@ -30,7 +30,6 @@ public virtual global::System.Object getLowerBounds(){
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r1_o)._fsuperBound;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: java.lang.reflect.Type[] getLowerBounds()]
 }
@@ -43,7 +42,6 @@ public virtual global::System.Object getUpperBounds(){
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r1_o)._fextendsBound;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForWildcard: java.lang.reflect.Type[] getUpperBounds()]
 }
@@ -68,7 +66,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForWildcard) _r5_o).getLowerBounds();
     _r3_o = ((global::java.lang.reflect.WildcardType) _r1_o).getLowerBounds();

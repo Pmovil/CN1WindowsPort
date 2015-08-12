@@ -90,7 +90,6 @@ public override global::System.Object toString(){
     return (global::java.lang.String) _r0_o;
     label66:;
     _r6_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r6_o = _r6_o;
     _r4_o = ((global::java.security.Permission) _r6_o).toString();
     _r5.i = ((global::java.lang.String) _r4_o).length();
     _r3.i = _r3.i + _r5.i;
@@ -102,7 +101,6 @@ public override global::System.Object toString(){
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)10)), unchecked((char) unchecked((uint) 32))}));
     _r4_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r6_o = _r6_o;
     _r5_o = ((global::java.lang.String) _r6_o).toString();
     ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r2.i = _r2.i + 1;

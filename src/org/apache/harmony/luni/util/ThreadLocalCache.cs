@@ -60,7 +60,6 @@ private global::System.Object getThreadLocal(){
     _r2_o = this;
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r2_o)._fstorage;
     _r0_o = ((global::java.lang.@ref.SoftReference) _r0_o).get();
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label22;
     _r0_o = new global::org.apache.harmony.luni.util.ThreadLocalCache_25();
     ((global::org.apache.harmony.luni.util.ThreadLocalCache_25) _r0_o).@this((global::org.apache.harmony.luni.util.ThreadLocalCache) _r2_o);

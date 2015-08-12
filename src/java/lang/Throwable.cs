@@ -182,7 +182,6 @@ public virtual global::System.Object getStackTrace(){
     _r1_o = this;
     _r0_o = ((global::java.lang.Throwable) _r1_o).getInternalStackTrace();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[java.lang.Throwable: java.lang.StackTraceElement[] getStackTrace()]
 }
@@ -226,7 +225,6 @@ public virtual void setStackTrace(global::org.xmlvm._nArrayAdapter<global::Syste
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o).clone();
-    _r0_o = _r0_o;
     _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     _r2.i = 0;
     label8:;

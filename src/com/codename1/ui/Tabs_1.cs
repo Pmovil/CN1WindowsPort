@@ -65,7 +65,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r1_o = ((global::com.codename1.ui.Container) _r3_o).getComponentAt((int) _r2.i);
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label80;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Container) _r1_o).setBlockFocus(0!=_r6.i);
     label80:;
     _r3_o = ((global::com.codename1.ui.Tabs_21) _r7_o)._fthis_20;
@@ -81,7 +80,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.Container) _r3_o).getComponentAt((int) _r4.i);
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label123;
-    _r0_o = _r0_o;
     _r3.i = 0;
     ((global::com.codename1.ui.Container) _r0_o).setBlockFocus(0!=_r3.i);
     label123:;

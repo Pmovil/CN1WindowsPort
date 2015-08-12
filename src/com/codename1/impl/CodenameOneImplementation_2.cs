@@ -60,7 +60,6 @@ public override global::System.Object createNodeComponent(global::java.lang.Obje
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115))}));
     _r6_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r1_o);
-    _r6_o = _r6_o;
     if (_r6_o != null) goto label36;
     _r6_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r6_o).@this();

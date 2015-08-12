@@ -234,7 +234,6 @@ public virtual void setCheckBox(bool n1){
     _r6_o = ((global::com.codename1.ui.Button) _r3_o).getName();
     ((global::com.codename1.ui.Button) _r5_o).setName((global::java.lang.String) _r6_o);
     _r0_o = ((global::com.codename1.ui.Button) _r3_o).getListeners();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label78;
     _r2.i = 0;
     label50:;
@@ -242,7 +241,6 @@ public virtual void setCheckBox(bool n1){
     if (_r2.i >= _r5.i) goto label78;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r5_o = _r5_o;
     ((global::com.codename1.ui.Button) _r6_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     _r2.i = _r2.i + 1;
     goto label50;
@@ -385,7 +383,6 @@ public virtual void setRadioButton(bool n1){
     _r5_o = ((global::com.codename1.components.MultiButton) _r7_o)._fgroup;
     if (_r5_o == null) goto label36;
     _r5_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
-    _r5_o = _r5_o;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._fgroup;
     ((global::com.codename1.ui.RadioButton) _r5_o).setGroup((global::java.lang.String) _r6_o);
     label36:;
@@ -396,7 +393,6 @@ public virtual void setRadioButton(bool n1){
     _r6_o = ((global::com.codename1.ui.Button) _r3_o).getUIID();
     ((global::com.codename1.ui.Button) _r5_o).setUIID((global::java.lang.String) _r6_o);
     _r0_o = ((global::com.codename1.ui.Button) _r3_o).getListeners();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label91;
     _r2.i = 0;
     label63:;
@@ -404,7 +400,6 @@ public virtual void setRadioButton(bool n1){
     if (_r2.i >= _r5.i) goto label91;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r5_o = _r5_o;
     ((global::com.codename1.ui.Button) _r6_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     _r2.i = _r2.i + 1;
     goto label63;
@@ -487,7 +482,6 @@ public virtual void setSelected(bool n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.RadioButton) _r1_o).setSelected(0!=_r2.i);
     label13:;
     return;
@@ -496,7 +490,6 @@ public virtual void setSelected(bool n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     if (_r0.i == 0) goto label13;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.CheckBox) _r1_o).setSelected(0!=_r2.i);
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: void setSelected(boolean)]
@@ -992,7 +985,6 @@ public virtual global::System.Object getIconPosition(){
     _r1_o = ((global::com.codename1.components.MultiButton) _r2_o)._ficon;
     _r1_o = ((global::com.codename1.ui.Label) _r1_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.Layout) _r0_o).getComponentConstraint((global::com.codename1.ui.Component) _r1_o);
-    _r2_o = _r2_o;
     return (global::java.lang.String) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: java.lang.String getIconPosition()]
 }
@@ -1040,7 +1032,6 @@ public virtual global::System.Object getEmblemPosition(){
     _r1_o = ((global::com.codename1.components.MultiButton) _r2_o)._femblem;
     _r1_o = ((global::com.codename1.ui.Button) _r1_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.Layout) _r0_o).getComponentConstraint((global::com.codename1.ui.Component) _r1_o);
-    _r2_o = _r2_o;
     return (global::java.lang.String) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: java.lang.String getEmblemPosition()]
 }
@@ -1663,7 +1654,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1674,7 +1664,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1684,7 +1673,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label46;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1694,7 +1682,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label61;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1704,7 +1691,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label76;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1714,7 +1700,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label91;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1724,7 +1709,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label106;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1734,7 +1718,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label121;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1744,7 +1727,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label136;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1754,7 +1736,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label152;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1764,7 +1745,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label168;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1774,7 +1754,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label184;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1784,7 +1763,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label200;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIcon((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1794,7 +1772,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label216;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1804,7 +1781,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label232;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1814,7 +1790,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label248;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconPosition((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1824,7 +1799,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label264;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblem((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1834,7 +1808,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label280;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1844,7 +1817,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label296;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1854,7 +1826,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label312;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemPosition((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1864,7 +1835,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label332;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setHorizontalLayout(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1875,7 +1845,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label352;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setInvertFirstTwoEntries(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1886,7 +1855,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label372;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setCheckBox(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1897,7 +1865,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label392;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setRadioButton(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1908,7 +1875,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label408;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setGroup((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1918,7 +1884,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label428;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setSelected(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1929,7 +1894,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label444;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setMaskName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1962,7 +1926,6 @@ public virtual void setGroup(global::java.lang.String n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.RadioButton) _r1_o).setGroup((global::java.lang.String) _r2_o);
     label15:;
     return;

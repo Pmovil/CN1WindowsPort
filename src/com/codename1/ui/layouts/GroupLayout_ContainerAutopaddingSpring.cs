@@ -104,7 +104,6 @@ public override void calculatePadding(int n1){
     if (_r0.i < 0) goto label140;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._ftargets;
     _r6_o = ((global::java.util.ArrayList) _r7_o).get((int) _r0.i);
-    _r6_o = _r6_o;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r6_o).getComponent();
     _r8_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._fthis_20;
     _r8_o = global::com.codename1.ui.layouts.GroupLayout.access_2900((global::com.codename1.ui.layouts.GroupLayout) _r8_o);
@@ -139,7 +138,6 @@ public override void calculatePadding(int n1){
     if (_r0.i < 0) goto label140;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._fsources;
     _r5_o = ((global::java.util.ArrayList) _r7_o).get((int) _r0.i);
-    _r5_o = _r5_o;
     _r7.i = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o).updateSize((global::com.codename1.ui.layouts.LayoutStyle) _r2_o, (global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r5_o, (int) _r4.i);
     _r1.i = global::java.lang.Math.max((int) _r1.i, (int) _r7.i);
     _r0.i = _r0.i + -1;

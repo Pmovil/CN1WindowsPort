@@ -122,7 +122,6 @@ public virtual void go(){
     _r0_o = _r1_o;
     label13:;
     _r1_o = ((global::com.codename1.ui.html.ResourceThreadQueue_2ResourceThread) _r4_o)._fhandler;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.AsyncDocumentRequestHandler) _r1_o).resourceRequestedAsync((global::com.codename1.ui.html.DocumentInfo) _r0_o, (global::com.codename1.ui.html.IOCallback) _r4_o);
     label20:;
     return;
@@ -556,7 +555,6 @@ public virtual void handleImage(global::com.codename1.ui.Image n1, global::com.c
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.html.HTMLLink)) ? 1 : 0;
     if (_r6.i == 0) goto label38;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r12_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.html.HTMLLink) _r12_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r6_o).setBgImage((global::com.codename1.ui.Image) _r10_o);
@@ -569,7 +567,6 @@ public virtual void handleImage(global::com.codename1.ui.Image n1, global::com.c
     return;
     label45:;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     // Value=
     _r6_o = new global::java.lang.String();
@@ -647,7 +644,6 @@ public virtual void handleImage(global::com.codename1.ui.Image n1, global::com.c
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r9_o = ((global::com.codename1.ui.Label) _r4_o).getClientProperty((global::java.lang.String) _r6_o);
-    _r9_o = _r9_o;
     _r2.i = ((global::java.lang.Integer) _r9_o).intValue();
     _r6_o = ((global::com.codename1.ui.Label) _r4_o).getUnselectedStyle();
     ((global::com.codename1.ui.plaf.Style) _r6_o).setPadding((int) _r2.i, (int) _r2.i, (int) _r2.i, (int) _r2.i);

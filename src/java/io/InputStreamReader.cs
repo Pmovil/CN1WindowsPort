@@ -39,7 +39,6 @@ public void @this(global::java.io.InputStream n1){
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 49))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     _r0_o = global::java.nio.charset.Charset.forName((global::java.lang.String) _r0_o);
     _r0_o = ((global::java.nio.charset.Charset) _r0_o).newDecoder();
     _r1_o = global::java.nio.charset.CodingErrorAction._fREPLACE;
@@ -105,7 +104,6 @@ public void @this(global::java.io.InputStream n1, global::java.lang.String n2){
     _r1_o = new global::java.io.UnsupportedEncodingException();
     ((global::java.io.UnsupportedEncodingException) _r1_o).@this((global::java.lang.String) _r5_o);
     _r3_o = ((global::java.io.UnsupportedEncodingException) _r1_o).initCause((global::java.lang.Throwable) _r0_o);
-    _r3_o = _r3_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.UnsupportedEncodingException) _r3_o);
 //XMLVM_END_WRAPPER[java.io.InputStreamReader: void <init>(java.io.InputStream, java.lang.String)]
 }

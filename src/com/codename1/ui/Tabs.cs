@@ -161,7 +161,6 @@ public void @this(int n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 115))}));
     ((global::com.codename1.ui.Tabs) _r6_o).setUIID((global::java.lang.String) _r1_o);
     _r0_o = base.getLayout();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label161;
     _r1_o = global::com.codename1.ui.plaf.UIManager.getInstance();
     // Value=tabsOnTopBool
@@ -263,7 +262,6 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
     _r2.i = ((global::com.codename1.ui.plaf.UIManager) _r7_o).isThemeConstant((global::java.lang.String) _r2_o, 0!=_r3.i) ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r6_o)._fchangeTabOnFocus = 0!=_r2.i;
     _r0_o = base.getLayout();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label64;
     // Value=tabsOnTopBool
     _r2_o = new global::java.lang.String();
@@ -541,7 +539,6 @@ public virtual void setTextPosition(global::com.codename1.ui.Component n1, int n
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).setTextPosition((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void setTextPosition(com.codename1.ui.Component, int)]
@@ -823,7 +820,6 @@ public virtual void insertTab(global::com.codename1.ui.Component n1, global::com
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label38;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.Container) _r2_o).setBlockFocus(0!=_r4.i);
     label38:;
@@ -841,7 +837,6 @@ public virtual void insertTab(global::com.codename1.ui.Component n1, global::com
     ((global::com.codename1.ui.Tabs) _r5_o)._fselectedTab = (global::com.codename1.ui.Component) _r2_o;
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label78;
-    _r7_o = _r7_o;
     ((global::com.codename1.ui.Container) _r7_o).setBlockFocus(0!=_r3.i);
     label78:;
     ((global::com.codename1.ui.Tabs) _r5_o).initTabsFocus();
@@ -859,7 +854,6 @@ public virtual void bindTabActionListener(global::com.codename1.ui.Component n1,
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void bindTabActionListener(com.codename1.ui.Component, com.codename1.ui.events.ActionListener)]
@@ -897,7 +891,6 @@ public virtual void setTabTitle(global::com.codename1.ui.Component n1, global::j
     _r4_o = n2;
     _r5_o = n3;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.Button) _r1_o).setText((global::java.lang.String) _r4_o);
     ((global::com.codename1.ui.Button) _r1_o).setIcon((global::com.codename1.ui.Image) _r5_o);
@@ -927,7 +920,6 @@ public virtual global::System.Object getTabTitle(global::com.codename1.ui.Compon
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getText();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: java.lang.String getTabTitle(com.codename1.ui.Component)]
@@ -940,7 +932,6 @@ public virtual global::System.Object getTabIcon(global::com.codename1.ui.Compone
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getIcon();
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabIcon(com.codename1.ui.Component)]
@@ -968,7 +959,6 @@ public virtual global::System.Object getTabSelectedIcon(global::com.codename1.ui
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getPressedIcon();
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabSelectedIcon(com.codename1.ui.Component)]
@@ -1014,7 +1004,6 @@ public virtual void setTabSelectedIcon(global::com.codename1.ui.Component n1, gl
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).setPressedIcon((global::com.codename1.ui.Image) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void setTabSelectedIcon(com.codename1.ui.Component, com.codename1.ui.Image)]
@@ -1416,7 +1405,6 @@ public virtual void selectTab(global::com.codename1.ui.Component n1){
     _r2_o = this;
     _r3_o = n1;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.Button) _r1_o).fireClicked();
     ((global::com.codename1.ui.Button) _r1_o).requestFocus();
@@ -1529,7 +1517,6 @@ private void initTabFocus(global::com.codename1.ui.Component n1, global::com.cod
     label8:;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label18;
-    _r4_o = _r4_o;
     _r0_o = ((global::com.codename1.ui.Container) _r4_o).findFirstFocusable();
     label18:;
     return;
@@ -1949,9 +1936,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label41;
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label16:;
@@ -1974,9 +1959,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label81;
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label56:;
@@ -1998,9 +1981,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label117;
-    _r8_o = _r8_o;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label96:;

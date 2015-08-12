@@ -420,7 +420,6 @@ public virtual global::System.Object getElementTypeInfo(global::java.lang.String
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomDoctype) _r1_o)._felements;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::gnu.xml.dom.DTDElementTypeInfo) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDoctype: gnu.xml.dom.DTDElementTypeInfo getElementTypeInfo(java.lang.String)]
 }
@@ -485,7 +484,6 @@ public virtual global::System.Object getAttributeTypeInfo(global::java.lang.Stri
     _r3_o = n2;
     _r0_o = ((global::gnu.xml.dom.DomDoctype) _r1_o)._felements;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label12;
     _r0_o = null;
     label11:;
@@ -530,7 +528,6 @@ public override bool isSameNode(global::org.w3c.dom.Node n1){
     _r0.i = _r2.i;
     goto label9;
     label16:;
-    _r5_o = _r5_o;
     _r0_o = ((global::gnu.xml.dom.DomDoctype) _r4_o).getPublicId();
     _r1_o = ((global::org.w3c.dom.DocumentType) _r5_o).getPublicId();
     _r0.i = ((global::gnu.xml.dom.DomDoctype) _r4_o).equal((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o) ? 1 : 0;
@@ -569,7 +566,6 @@ public override global::System.Object clone(){
     _r5_o = this;
     _r4.i = 1;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomDoctype) _r5_o)._fentities;
     if (_r1_o == null) goto label25;
     _r1_o = new global::gnu.xml.dom.DomNamedNodeMap();

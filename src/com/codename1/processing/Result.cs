@@ -465,12 +465,10 @@ public virtual global::System.Object getAsString(global::java.lang.String n1){
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGet((global::java.lang.String) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getText();
     label14:;
     return (global::java.lang.String) _r1_o;
     label15:;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.processing.Result: java.lang.String getAsString(java.lang.String)]
@@ -488,7 +486,6 @@ public virtual global::System.Object get(global::java.lang.String n1){
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGet((global::java.lang.String) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getNativeRoot();
     label14:;
     return (global::java.lang.Object) _r1_o;
@@ -563,7 +560,6 @@ public virtual global::System.Object getAsStringArray(global::java.lang.String n
     _r4.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r4.i) goto label33;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r4_o;
     _r2.i = _r2.i + 1;
@@ -598,7 +594,6 @@ public virtual global::System.Object getAsIntegerArray(global::java.lang.String 
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r5.i;
@@ -634,7 +629,6 @@ public virtual global::System.Object getAsLongArray(global::java.lang.String n1)
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.l = global::java.lang.Long.parseLong((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<long>) _r0_o)[_r2.i] = _r5.l;
@@ -670,7 +664,6 @@ public virtual global::System.Object getAsDoubleArray(global::java.lang.String n
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r2.i] = _r5.d;
@@ -708,7 +701,6 @@ public virtual global::System.Object getAsBooleanArray(global::java.lang.String 
     _r6.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r3.i >= _r6.i) goto label53;
     _r2_o = ((global::java.util.List) _r4_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     _r5_o = ((global::com.codename1.processing.StructuredContent) _r2_o).getText();
     _r1.i = 0;
     // Value=true
@@ -753,7 +745,6 @@ public virtual global::System.Object getAsArray(global::java.lang.String n1){
     _r2.i = ((global::java.util.List) _r0_o).size();
     if (_r1.i >= _r2.i) goto label27;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     _r2_o = ((global::com.codename1.processing.StructuredContent) _r3_o).getNativeRoot();
     ((global::java.util.List) _r0_o).set((int) _r1.i, (global::java.lang.Object) _r2_o);
     _r1.i = _r1.i + 1;
@@ -803,7 +794,6 @@ private global::System.Object _1internalGetAsArray(global::java.lang.String n1){
     _r5.i = ((global::java.util.List) _r3_o).size();
     _r5.i = _r5.i - _r8.i;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r5.i);
-    _r1_o = _r1_o;
     _r5.i = ((global::java.util.List) _r3_o).size();
     if (_r5.i <= _r8.i) goto label75;
     _r5_o = global::com.codename1.processing.Result._fSELECT_1GLOB;
@@ -908,7 +898,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0_o = _r26_o;
     _r1.i = _r8.i;
     _r15_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r15_o = _r15_o;
     _r21.i = ((global::java.lang.String) _r15_o).length();
     _r22.i = 1;
     _r0.i = _r21.i;
@@ -962,7 +951,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0_o = _r26_o;
     _r1.i = _r21.i;
     _r16_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r16_o = _r16_o;
     _r21.i = 0;
     _r0_o = _r16_o;
     _r1.i = _r21.i;
@@ -1023,7 +1011,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0_o = _r26_o;
     _r1.i = _r21.i;
     _r17_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r17_o = _r17_o;
     _r6_o = global::com.codename1.processing.EvaluatorFactory.createEvaluator((global::java.lang.String) _r17_o);
     _r21.i = _r8.i + 3;
     _r0.i = _r21.i;
@@ -1047,7 +1034,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0_o = _r26_o;
     _r1.i = _r21.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r21.i = ((global::java.lang.String) _r18_o).length();
     _r22.i = 1;
     _r0.i = _r21.i;
@@ -1080,7 +1066,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0_o = _r26_o;
     _r1.i = _r8.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r21.i = ((global::java.lang.String) _r19_o).length();
     _r22.i = 1;
     _r0.i = _r21.i;
@@ -1118,7 +1103,6 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     _r21.i = _r0.i;
     if (_r21.i == 0) goto label480;
-    _r13_o = _r13_o;
     _r21.i = _r8.i + 1;
     _r0_o = _r24_o;
     _r1_o = _r13_o;
@@ -1134,19 +1118,16 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     label480:;
     if (_r13_o == null) goto label58;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r14_o = _r0_o;
     _r21.i = ((global::java.util.List) _r14_o).size();
     if (_r21.i <= 0) goto label58;
     _r20_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r20_o).@this();
-    _r13_o = _r13_o;
     _r9_o = ((global::java.util.List) _r13_o).iterator();
     label503:;
     _r21.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r21.i == 0) goto label535;
     _r11_o = ((global::java.util.Iterator) _r9_o).next();
-    _r11_o = _r11_o;
     _r21.i = _r8.i + 1;
     _r0_o = _r24_o;
     _r1_o = _r11_o;
@@ -1199,7 +1180,6 @@ public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label13;
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
-    _r2_o = _r2_o;
     // Value=xmlns:
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 58))}));

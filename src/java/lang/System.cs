@@ -129,10 +129,6 @@ public static void arraycopy(global::java.lang.Object n1, int n2, global::java.l
     ((global::java.lang.ArrayStoreException) _r4_o).@this();
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.ArrayStoreException) _r4_o);
     label52:;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o, (int) _r8.i, (int) _r9.i);
     label63:;
     return;
@@ -144,73 +140,41 @@ public static void arraycopy(global::java.lang.Object n1, int n2, global::java.l
     label72:;
     _r4_o = global::java.lang.Integer._fTYPE;
     if (_r0_o != _r4_o) goto label88;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<int>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label88:;
     _r4_o = global::java.lang.Byte._fTYPE;
     if (_r0_o != _r4_o) goto label104;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<sbyte>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label104:;
     _r4_o = global::java.lang.Long._fTYPE;
     if (_r0_o != _r4_o) goto label120;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<long>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<long>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label120:;
     _r4_o = global::java.lang.Short._fTYPE;
     if (_r0_o != _r4_o) goto label136;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<short>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<short>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label136:;
     _r4_o = global::java.lang.Character._fTYPE;
     if (_r0_o != _r4_o) goto label152;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<char>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<char>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label152:;
     _r4_o = global::java.lang.Boolean._fTYPE;
     if (_r0_o != _r4_o) goto label168;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<bool>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<bool>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label168:;
     _r4_o = global::java.lang.Double._fTYPE;
     if (_r0_o != _r4_o) goto label184;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<double>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<double>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
     label184:;
     _r4_o = global::java.lang.Float._fTYPE;
     if (_r0_o != _r4_o) goto label63;
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
-    _r7_o = _r7_o;
-    _r7_o = _r7_o;
     global::java.lang.System.arraycopy((global::org.xmlvm._nArrayAdapter<float>) _r5_o, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<float>) _r7_o, (int) _r8.i, (int) _r9.i);
     goto label63;
 //XMLVM_END_WRAPPER[java.lang.System: void arraycopy(java.lang.Object, int, java.lang.Object, int, int)]
@@ -874,7 +838,6 @@ private static void ensureProperties(){
     _r10_o = new global::java.lang.String();
     ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r0_o = ((global::java.util.Properties) _r9_o).get((global::java.lang.Object) _r13_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label143;
     if (_r8_o != null) goto label135;
     _r8_o = global::java.lang.System.getEncoding((int) _r12.i);
@@ -1106,7 +1069,6 @@ public static global::System.Object setProperty(global::java.lang.String n1, glo
     label28:;
     _r1_o = global::java.lang.System._fsystemProperties;
     _r3_o = ((global::java.util.Properties) _r1_o).setProperty((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
-    _r3_o = _r3_o;
     return (global::java.lang.String) _r3_o;
 //XMLVM_END_WRAPPER[java.lang.System: java.lang.String setProperty(java.lang.String, java.lang.String)]
 }
@@ -1141,7 +1103,6 @@ public static global::System.Object clearProperty(global::java.lang.String n1){
     label36:;
     _r1_o = global::java.lang.System._fsystemProperties;
     _r3_o = ((global::java.util.Properties) _r1_o).remove((global::java.lang.Object) _r3_o);
-    _r3_o = _r3_o;
     return (global::java.lang.String) _r3_o;
 //XMLVM_END_WRAPPER[java.lang.System: java.lang.String clearProperty(java.lang.String)]
 }

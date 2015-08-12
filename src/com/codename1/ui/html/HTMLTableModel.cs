@@ -122,7 +122,6 @@ public virtual void setAlignToAll(bool n1, int n2){
     _r2.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label28;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     if (_r4.i == 0) goto label24;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o).setHorizontalAlign((int) _r5.i);
     goto label6;
@@ -143,7 +142,6 @@ public virtual global::System.Object getConstraint(global::java.lang.Object n1){
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fconstraints;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.html.CellConstraint) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLTableModel: com.codename1.ui.html.CellConstraint getConstraint(java.lang.Object)]
 }
@@ -355,7 +353,6 @@ public virtual global::System.Object getValueAt(int n1, int n2){
     label11:;
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r3_o)._frows;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r4.i);
-    _r0_o = _r0_o;
     _r1.i = ((global::java.util.Vector) _r0_o).size();
     if (_r5.i < _r1.i) goto label27;
     _r1_o = _r2_o;
@@ -380,7 +377,6 @@ public virtual void setValueAt(int n1, int n2, global::java.lang.Object n3){
     _r5_o = n3;
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._frows;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r3.i);
-    _r0_o = _r0_o;
     ((global::java.util.Vector) _r0_o).removeElementAt((int) _r4.i);
     ((global::java.util.Vector) _r0_o).setElementAt((global::java.lang.Object) _r5_o, (int) _r4.i);
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._fdispatcher;

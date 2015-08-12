@@ -150,7 +150,6 @@ public virtual bool write(global::org.w3c.dom.Node n1, global::org.w3c.dom.ls.LS
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.net.HttpURLConnection)) ? 1 : 0;
     if (_r1.i == 0) goto label37;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     // Value=PUT
     _r4_o = new global::java.lang.String();
@@ -525,7 +524,6 @@ public virtual global::System.Object item(int n1){
     _r2.i = n1;
     _r0_o = global::gnu.xml.dom.ls.DomLSSerializer._fSUPPORTED_1PARAMETERS;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: java.lang.String item(int)]
 }

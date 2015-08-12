@@ -352,7 +352,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 // Red class access removed: org.apache.harmony.math.internal.nls.Messages$1 <init>
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: org.apache.harmony.math.internal.nls.Messages$1 <init>");
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

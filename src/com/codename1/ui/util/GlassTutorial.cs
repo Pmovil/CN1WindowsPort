@@ -151,17 +151,14 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     if (_r5.i >= _r0.i) goto label256;
     _r10_o = ((global::com.codename1.ui.util.GlassTutorial) _r12_o)._fvec;
     _r1_o = ((global::java.util.Vector) _r10_o).elementAt((int) _r5.i);
-    _r1_o = _r1_o;
     // Value=$$GLSDESTPOS$$
     _r10_o = new global::java.lang.String();
     ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r6_o = ((global::com.codename1.ui.Component) _r1_o).getClientProperty((global::java.lang.String) _r10_o);
-    _r6_o = _r6_o;
     // Value=$$GLSDESTHINT$$
     _r10_o = new global::java.lang.String();
     ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 72)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r3_o = ((global::com.codename1.ui.Component) _r1_o).getClientProperty((global::java.lang.String) _r10_o);
-    _r3_o = _r3_o;
     _r8.i = ((global::com.codename1.ui.Component) _r3_o).getAbsoluteX();
     _r9.i = ((global::com.codename1.ui.Component) _r3_o).getAbsoluteY();
     _r7.i = ((global::com.codename1.ui.Component) _r3_o).getWidth();

@@ -357,7 +357,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r2.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r2.i == 0) goto label49;
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.list.MultiList) _r4_o)._fplaceholder = (global::com.codename1.ui.Image) _r6_o;
     _r2_o = ((global::com.codename1.ui.list.MultiList) _r4_o)._funsel;
     if (_r2_o == null) goto label30;
@@ -372,7 +371,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.list.GenericListCellRenderer)) ? 1 : 0;
     if (_r2.i == 0) goto label47;
     _r4_o = ((global::com.codename1.ui.list.MultiList) _r4_o).getRenderer();
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o).updateIconPlaceholders();
     label47:;
     _r2_o = null;

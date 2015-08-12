@@ -204,7 +204,6 @@ public virtual void transform_1g(){
     ((global::java.util.Formatter_2FormatToken) _r0_o).setPrecision((int) _r1.i);
     _r2.d = 0.0D;
     _r0_o = ((global::java.util.Formatter_2FloatUtil) _r13_o)._fargument;
-    _r0_o = _r0_o;
     _r4.d = ((global::java.lang.Number) _r0_o).doubleValue();
     _r0.i = _r2.d > _r4.d ? 1 : (_r2.d == _r4.d ? 0 : -1);
     if (_r0.i != 0) goto label42;
@@ -220,7 +219,6 @@ public virtual void transform_1g(){
     label42:;
     _r2.i = 1;
     _r0_o = ((global::java.util.Formatter_2FloatUtil) _r13_o)._fargument;
-    _r0_o = _r0_o;
     _r3.d = ((global::java.lang.Number) _r0_o).doubleValue();
     _r3.d = global::java.lang.Math.abs((double) _r3.d);
     _r0.i = global::java.lang.Double.isInfinite((double) _r3.d) ? 1 : 0;
@@ -424,7 +422,6 @@ public virtual void transform_1a(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.Float)) ? 1 : 0;
     if (_r1.i == 0) goto label38;
     _r0_o = ((global::java.util.Formatter_2FloatUtil) _r4_o)._fargument;
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Formatter_2FloatUtil) _r4_o)._fresult;
     _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
     _r0_o = global::java.lang.Float.toHexString((float) _r0.f);
@@ -440,7 +437,6 @@ public virtual void transform_1a(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.Double)) ? 1 : 0;
     if (_r1.i == 0) goto label62;
     _r0_o = ((global::java.util.Formatter_2FloatUtil) _r4_o)._fargument;
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Formatter_2FloatUtil) _r4_o)._fresult;
     _r2.d = ((global::java.lang.Double) _r0_o).doubleValue();
     _r0_o = global::java.lang.Double.toHexString((double) _r2.d);

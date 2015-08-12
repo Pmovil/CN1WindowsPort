@@ -171,7 +171,6 @@ public override global::System.Object get(global::java.lang.Object n1){
     _r3_o = null;
     if (_r5_o != null) goto label13;
     _r0_o = ((global::java.util.LinkedHashMap) _r4_o).findNullKeyEntry();
-    _r0_o = _r0_o;
     label9:;
     if (_r0_o != null) goto label32;
     _r0_o = _r3_o;
@@ -185,7 +184,6 @@ public override global::System.Object get(global::java.lang.Object n1){
     _r2.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
     _r1.i = _r1.i % _r2.i;
     _r0_o = ((global::java.util.LinkedHashMap) _r4_o).findNonNullKeyEntry((global::java.lang.Object) _r5_o, (int) _r1.i, (int) _r0.i);
-    _r0_o = _r0_o;
     goto label9;
     label32:;
     _r1.i = ((global::java.util.LinkedHashMap) _r4_o)._faccessOrder ? 1 : 0;
@@ -311,7 +309,6 @@ public override global::System.Object putImpl(global::java.lang.Object n1, globa
     label13:;
     if (_r6_o != null) goto label58;
     _r0_o = ((global::java.util.LinkedHashMap) _r5_o).findNullKeyEntry();
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label54;
     _r0.i = ((global::java.util.LinkedHashMap) _r5_o)._fmodCount;
     _r0.i = _r0.i + 1;
@@ -324,7 +321,6 @@ public override global::System.Object putImpl(global::java.lang.Object n1, globa
     ((global::java.util.LinkedHashMap) _r5_o).rehash();
     label42:;
     _r5_o = ((global::java.util.LinkedHashMap) _r5_o).createHashedEntry((global::java.lang.Object) _r3_o, (int) _r2.i, (int) _r2.i);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
     label49:;
     _r1_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntry) _r0_o)._fvalue;
@@ -340,7 +336,6 @@ public override global::System.Object putImpl(global::java.lang.Object n1, globa
     _r2.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
     _r2.i = _r0.i % _r2.i;
     _r0_o = ((global::java.util.LinkedHashMap) _r5_o).findNonNullKeyEntry((global::java.lang.Object) _r6_o, (int) _r2.i, (int) _r1.i);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label110;
     _r0.i = ((global::java.util.LinkedHashMap) _r5_o)._fmodCount;
     _r0.i = _r0.i + 1;
@@ -357,7 +352,6 @@ public override global::System.Object putImpl(global::java.lang.Object n1, globa
     _r0.i = _r0.i % _r2.i;
     label102:;
     _r5_o = ((global::java.util.LinkedHashMap) _r5_o).createHashedEntry((global::java.lang.Object) _r6_o, (int) _r0.i, (int) _r1.i);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
     goto label49;
     label110:;
@@ -484,7 +478,6 @@ public override global::System.Object remove(global::java.lang.Object n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::java.util.LinkedHashMap) _r3_o).removeEntry((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label10;
     _r0_o = null;
     label9:;

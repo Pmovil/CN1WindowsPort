@@ -259,7 +259,6 @@ public virtual void setResourceBundle(global::java.util.Hashtable n1){
     ((global::java.text.DateFormatSymbols) _r3_o)._fampms = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
     ((global::java.text.DateFormatSymbols) _r3_o)._fmonths = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::java.text.DateFormatSymbols) _r3_o)._fzoneStrings = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     ((global::java.text.DateFormatSymbols) _r3_o)._fshortMonths = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
@@ -292,7 +291,6 @@ public virtual global::System.Object getLocalizedValue(global::java.lang.String 
     return (global::java.lang.String) _r2_o;
     label14:;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     _r2.i = ((global::java.lang.String) _r1_o).length();
     if (_r2.i <= 0) goto label28;
     _r2_o = _r1_o;
@@ -328,7 +326,6 @@ public virtual global::System.Object getZoneStrings(){
       throw new global::org.xmlvm._nNotYetImplementedException("dex:filled-new-array");
     _r5_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r3_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r5_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o);
-    _r3_o = _r3_o;
     _r0.i = 0;
     }
     catch (global::System.Exception e) {

@@ -62,7 +62,6 @@ public override bool remove(global::java.lang.Object n1){
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label29;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.HashMap_2HashMapEntrySet) _r2_o)._fassociatedMap;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     _r0_o = ((global::java.util.HashMap) _r0_o).getEntry((global::java.lang.Object) _r1_o);
@@ -90,7 +89,6 @@ public override bool contains(global::java.lang.Object n1){
     _r3_o = n1;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label21;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.HashMap_2HashMapEntrySet) _r2_o)._fassociatedMap;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     _r0_o = ((global::java.util.HashMap) _r0_o).getEntry((global::java.lang.Object) _r1_o);

@@ -1009,7 +1009,6 @@ private global::System.Object getComponentImpl(global::com.codename1.ui.Componen
     if (_r1.i == 0) goto label25;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o)._flandscapeSwap;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label25;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getComponentAtIgnoreLandscape((global::java.lang.String) _r0_o);
     label24:;
@@ -1145,7 +1144,6 @@ public virtual global::System.Object getLandscapeSwap(global::java.lang.String n
     label6:;
     _r0_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o)._flandscapeSwap;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: java.lang.String getLandscapeSwap(java.lang.String)]
@@ -1166,13 +1164,11 @@ public override bool equals(global::java.lang.Object n1){
     if (_r1.i == 0) goto label43;
     _r2.i = ((global::com.codename1.ui.layouts.BorderLayout) _r3_o)._fcenterBehavior;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o)._fcenterBehavior;
     if (_r2.i != _r1.i) goto label43;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r3_o)._flandscapeSwap;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o)._flandscapeSwap;
     if (_r2_o != _r1_o) goto label28;
@@ -1183,7 +1179,6 @@ public override bool equals(global::java.lang.Object n1){
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r3_o)._flandscapeSwap;
     if (_r1_o == null) goto label43;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r3_o)._flandscapeSwap;
-    _r4_o = _r4_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r4_o)._flandscapeSwap;
     _r1.i = ((global::java.util.HashMap) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     goto label27;

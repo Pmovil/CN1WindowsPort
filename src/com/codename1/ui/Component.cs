@@ -263,7 +263,6 @@ public static void setSameWidth(global::org.xmlvm._nArrayAdapter<global::System.
     _r6.i = ((global::java.util.ArrayList) _r5_o).size();
     if (_r6.i != _r8.i) goto label49;
     _r6_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.Component) _r6_o)._fsameWidth = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o;
     label44:;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r10_o)[_r7.i];
@@ -334,7 +333,6 @@ public static void setSameHeight(global::org.xmlvm._nArrayAdapter<global::System
     _r6.i = ((global::java.util.ArrayList) _r5_o).size();
     if (_r6.i != _r8.i) goto label49;
     _r6_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.Component) _r6_o)._fsameHeight = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o;
     label44:;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r10_o)[_r7.i];
@@ -1601,7 +1599,6 @@ public virtual void paintInternal(global::com.codename1.ui.Graphics n1, bool n2)
     _r5.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Image)) ? 1 : 0;
     if (_r5.i == 0) goto label42;
     _r1_o = ((global::com.codename1.ui.Component) _r8_o)._fpaintLockImage;
-    _r1_o = _r1_o;
     _r5.i = ((global::com.codename1.ui.Component) _r8_o).getX();
     _r6.i = ((global::com.codename1.ui.Component) _r8_o).getY();
     ((global::com.codename1.ui.Graphics) _r9_o).drawImage((global::com.codename1.ui.Image) _r1_o, (int) _r5.i, (int) _r6.i);
@@ -1609,7 +1606,6 @@ public virtual void paintInternal(global::com.codename1.ui.Graphics n1, bool n2)
     label42:;
     _r5_o = ((global::com.codename1.ui.Component) _r8_o)._fpaintLockImage;
     _r1_o = ((global::com.codename1.ui.Display) _r0_o).extractHardRef((global::java.lang.Object) _r5_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label97;
     _r5.i = ((global::com.codename1.ui.Component) _r8_o).getWidth();
     _r6.i = ((global::com.codename1.ui.Component) _r8_o).getHeight();
@@ -2251,7 +2247,6 @@ private void drawPainters(global::com.codename1.ui.Graphics n1, global::com.code
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 84))}));
     _r10_o = ((global::com.codename1.ui.Component) _r13_o).getClientProperty((global::java.lang.String) _r0_o);
-    _r10_o = _r10_o;
     _r0.i = ((global::com.codename1.ui.Component) _r13_o).getAbsoluteX();
     _r1.i = ((global::com.codename1.ui.Component) _r13_o).getScrollX();
     _r8.i = _r0.i + _r1.i;
@@ -2376,7 +2371,6 @@ private void drawPaintersImpl(global::com.codename1.ui.Graphics n1, global::com.
     _r2.i = _r15.i;
     ((global::com.codename1.ui.Graphics) _r0_o).translate((int) _r1.i, (int) _r2.i);
     _r0_o = _r18_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r10.i = 0;
     _r4_o = _r17_o;
@@ -6308,7 +6302,6 @@ public virtual bool animate(){
     _r11.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.animations.Animation)) ? 1 : 0;
     if (_r11.i == 0) goto label494;
     if (_r4_o == _r15_o) goto label494;
-    _r4_o = _r4_o;
     _r11.i = ((global::com.codename1.ui.animations.Animation) _r4_o).animate() ? 1 : 0;
     if (_r11.i == 0) goto label494;
     _r11.i = 1;
@@ -6823,7 +6816,6 @@ public virtual void deinitializeImpl(){
     _r2_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBgPainter();
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Component_2BGPainter)) ? 1 : 0;
     if (_r4.i == 0) goto label42;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.Component_2BGPainter) _r2_o)._fradialCache = (global::com.codename1.ui.Image) _r5_o;
     label42:;
     ((global::com.codename1.ui.Component) _r6_o).deinitialize();
@@ -7357,14 +7349,12 @@ public virtual global::System.Object paintLock(bool n1){
     ((global::com.codename1.ui.Component) _r8_o).setX((int) _r5.i);
     ((global::com.codename1.ui.Component) _r8_o).setY((int) _r5.i);
     _r2_o = ((global::com.codename1.ui.Component) _r8_o)._fpaintLockImage;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Image) _r2_o).getGraphics();
     ((global::com.codename1.ui.Component) _r8_o).paintInternalImpl((global::com.codename1.ui.Graphics) _r2_o, 0!=_r5.i);
     ((global::com.codename1.ui.Component) _r8_o).setX((int) _r0.i);
     ((global::com.codename1.ui.Component) _r8_o).setY((int) _r1.i);
     if (_r9.i == 0) goto label120;
     _r8_o = ((global::com.codename1.ui.Component) _r8_o)._fpaintLockImage;
-    _r8_o = _r8_o;
     _r2_o = _r8_o;
     goto label46;
     label120:;
@@ -7378,7 +7368,6 @@ public virtual global::System.Object paintLock(bool n1){
     label134:;
     if (_r9.i == 0) goto label132;
     _r8_o = ((global::com.codename1.ui.Component) _r8_o)._fpaintLockImage;
-    _r8_o = _r8_o;
     _r2_o = _r8_o;
     goto label46;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component: com.codename1.ui.Image paintLock(boolean)]

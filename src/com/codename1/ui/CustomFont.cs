@@ -31,8 +31,6 @@ private global::System.Object getImageArray(){
     _r1_o = ((global::com.codename1.ui.CustomFont) _r2_o)._fimageArrayRef;
     if (_r1_o == null) goto label12;
     _r2_o = ((global::com.codename1.ui.CustomFont) _r2_o)._fimageArrayRef;
-    _r2_o = _r2_o;
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     label11:;
     return (global::org.xmlvm._nArrayAdapter<int>) _r1_o;
@@ -174,7 +172,6 @@ private bool checkCacheCurrentColor(int n1){
     _r3_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r4_o);
     if (_r3_o == null) goto label76;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r2_o == null) goto label71;
     ((global::com.codename1.ui.CustomFont) _r8_o)._fcache = (global::com.codename1.ui.Image) _r2_o;
@@ -682,7 +679,6 @@ public override bool equals(global::java.lang.Object n1){
     _r4_o = ((global::java.lang.Object) _r7_o).getClass();
     if (_r3_o != _r4_o) goto label55;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.CustomFont) _r7_o)._fcharsets;
     _r4_o = ((global::com.codename1.ui.CustomFont) _r1_o)._fcharsets;

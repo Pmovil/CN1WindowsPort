@@ -1144,12 +1144,10 @@ public virtual global::System.Object getTextAt(int n1){
     _r2.i = 1;
     _r2.i = _r1.i - _r2.i;
     _r3_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label12;
     label26:;
     _r3_o = ((global::java.util.ArrayList) _r0_o).get((int) _r4.i);
-    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label12;
 //XMLVM_END_WRAPPER[com.codename1.ui.TextArea: java.lang.String getTextAt(int)]
@@ -2606,7 +2604,6 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
     label15:;
     return;
     label16:;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.TextArea) _r1_o).setText((global::java.lang.String) _r3_o);
     goto label15;
     label22:;

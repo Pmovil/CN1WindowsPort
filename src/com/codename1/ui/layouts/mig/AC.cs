@@ -42,7 +42,6 @@ public virtual global::System.Object getConstaints(){
     _r1.i = ((global::java.util.ArrayList) _r1_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r2_o = ((global::java.util.ArrayList) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.DimConstraint[] getConstaints()]
 }
@@ -153,7 +152,6 @@ public virtual global::System.Object noGrid(global::org.xmlvm._nArrayAdapter<int
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setNoGrid(0!=_r3.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -212,7 +210,6 @@ public virtual global::System.Object fill(global::org.xmlvm._nArrayAdapter<int> 
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setFill(0!=_r3.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -285,7 +282,6 @@ public virtual global::System.Object sizeGroup(global::java.lang.String n1, glob
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setSizeGroup((global::java.lang.String) _r5_o);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -339,7 +335,6 @@ public virtual global::System.Object size(global::java.lang.String n1, global::o
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
     _r1.i = _r1.i + -1;
     goto label9;
@@ -411,7 +406,6 @@ public virtual global::System.Object gap(global::java.lang.String n1, global::or
     if (_r0_o == null) goto label31;
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
     label31:;
     _r1.i = _r1.i + -1;
@@ -473,7 +467,6 @@ public virtual global::System.Object align(global::java.lang.String n1, global::
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
     _r1.i = _r1.i + -1;
     goto label15;
@@ -524,7 +517,6 @@ public virtual global::System.Object growPrio(int n1, global::org.xmlvm._nArrayA
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setGrowPriority((int) _r5.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -599,7 +591,6 @@ public virtual global::System.Object grow(float n1, global::org.xmlvm._nArrayAda
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setGrow((global::java.lang.Float) _r0_o);
     _r1.i = _r1.i + -1;
     goto label9;
@@ -650,7 +641,6 @@ public virtual global::System.Object shrinkPrio(int n1, global::org.xmlvm._nArra
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setShrinkPriority((int) _r5.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -725,7 +715,6 @@ public virtual global::System.Object shrink(float n1, global::org.xmlvm._nArrayA
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r1.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setShrink((global::java.lang.Float) _r2_o);
     _r0.i = _r0.i + -1;
     goto label9;

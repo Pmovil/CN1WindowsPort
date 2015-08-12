@@ -315,7 +315,6 @@ private void launchAd(){
     _r7.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.html.HTMLComponent)) ? 1 : 0;
     if (_r7.i == 0) goto label54;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r7.i = 1;
     ((global::com.codename1.ui.html.HTMLComponent) _r4_o).setSupressExceptions(0!=_r7.i);
@@ -327,7 +326,6 @@ private void launchAd(){
     _r7.i = ((global::java.util.Vector) _r6_o).size();
     if (_r7.i <= 0) goto label54;
     _r3_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r8.i);
-    _r3_o = _r3_o;
     // Value=href
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102))}));
@@ -476,7 +474,6 @@ private void unfocus(global::com.codename1.ui.Container n1){
     _r0_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r1.i);
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label30;
-    _r0_o = _r0_o;
     ((global::com.codename1.components.Ads) _r5_o).unfocus((global::com.codename1.ui.Container) _r0_o);
     label27:;
     _r1.i = _r1.i + 1;
@@ -1076,7 +1073,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setAppID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1087,7 +1083,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label35;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Integer) _r4_o).intValue();
     ((global::com.codename1.components.Ads) _r2_o).setUpdateDuration((int) _r0.i);
     _r0_o = _r1_o;
@@ -1098,7 +1093,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label50;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setAge((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1108,7 +1102,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label65;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setGender((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1118,7 +1111,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label80;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setCategory((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1128,7 +1120,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label95;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setLocation((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1138,8 +1129,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label112;
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setKeywords((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     _r0_o = _r1_o;
     goto label15;

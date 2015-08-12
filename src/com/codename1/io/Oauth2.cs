@@ -384,7 +384,6 @@ private global::System.Object createLoginComponent(global::com.codename1.ui.even
     _r1.i = ((global::java.util.Enumeration) _r7_o).hasMoreElements() ? 1 : 0;
     if (_r1.i == 0) goto label181;
     _r8_o = ((global::java.util.Enumeration) _r7_o).nextElement();
-    _r8_o = _r8_o;
     _r1_o = ((global::com.codename1.io.Oauth2) _r10_o)._fadditionalParams;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r8_o);
     _r9_o = ((global::java.lang.Object) _r1_o).toString();

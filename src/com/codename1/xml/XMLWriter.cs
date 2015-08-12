@@ -96,9 +96,7 @@ private void writeXML(global::java.io.Writer n1, global::com.codename1.xml.Eleme
     _r7.i = ((global::java.util.Enumeration) _r6_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label107;
     _r0_o = ((global::java.util.Enumeration) _r6_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r7.i = 32;
     ((global::java.io.Writer) _r12_o).write((int) _r7.i);
     _r7_o = ((global::com.codename1.xml.XMLWriter) _r11_o).encodeIfRequired((global::java.lang.String) _r0_o);
@@ -136,7 +134,6 @@ private void writeXML(global::java.io.Writer n1, global::com.codename1.xml.Eleme
     _r3_o = ((global::java.util.Iterator) _r5_o).next();
     _r7.i = ((_r3_o != null) && (_r3_o is global::com.codename1.xml.Element)) ? 1 : 0;
     if (_r7.i == 0) goto label169;
-    _r3_o = _r3_o;
     ((global::com.codename1.xml.XMLWriter) _r11_o).writeXML((global::java.io.Writer) _r12_o, (global::com.codename1.xml.Element) _r3_o, (global::java.lang.StringBuilder) _r14_o, 0!=_r15.i);
     ((global::java.io.Writer) _r12_o).write((int) _r8.i);
     goto label146;
@@ -157,7 +154,6 @@ private void writeXML(global::java.io.Writer n1, global::com.codename1.xml.Eleme
     _r3_o = ((global::java.util.Iterator) _r5_o).next();
     _r7.i = ((_r3_o != null) && (_r3_o is global::com.codename1.xml.Element)) ? 1 : 0;
     if (_r7.i == 0) goto label207;
-    _r3_o = _r3_o;
     _r7_o = null;
     ((global::com.codename1.xml.XMLWriter) _r11_o).writeXML((global::java.io.Writer) _r12_o, (global::com.codename1.xml.Element) _r3_o, (global::java.lang.StringBuilder) _r7_o, 0!=_r15.i);
     goto label186;

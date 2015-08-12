@@ -63,7 +63,6 @@ public void @this(global::java.lang.Object n1, short n2){
     label29:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.util.Collection)) ? 1 : 0;
     if (_r0.i == 0) goto label60;
-    _r3_o = _r3_o;
     switch (_r4.i) {
     case 0: goto label47;
     case 8: goto label47;
@@ -102,7 +101,6 @@ public virtual bool getBooleanValue(){
     _r1.i = 3;
     if (_r0.i != _r1.i) goto label14;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.lang.Boolean) _r3_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
     label14:;
@@ -144,7 +142,6 @@ public virtual double getNumberValue(){
     _r1.i = 1;
     if (_r0.i != _r1.i) goto label14;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     _r0.d = ((global::java.lang.Double) _r3_o).doubleValue();
     return _r0.d;
     label14:;
@@ -191,7 +188,6 @@ public virtual global::System.Object getSingleNodeValue(){
     throw new global::org.xmlvm._nExceptionAdapter((global::org.w3c.dom.xpath.XPathException) _r0_o);
     label19:;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.util.Collection) _r3_o).isEmpty() ? 1 : 0;
     if (_r0.i == 0) goto label31;
     _r0_o = null;
@@ -200,7 +196,6 @@ public virtual global::System.Object getSingleNodeValue(){
     label31:;
     _r0_o = ((global::java.util.Collection) _r3_o).iterator();
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label30;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: org.w3c.dom.Node getSingleNodeValue()]
@@ -230,7 +225,6 @@ public virtual int getSnapshotLength(){
     throw new global::org.xmlvm._nExceptionAdapter((global::org.w3c.dom.xpath.XPathException) _r0_o);
     label19:;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.util.Collection) _r3_o).size();
     return _r0.i;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomXPathResult: int getSnapshotLength()]
@@ -248,7 +242,6 @@ public virtual global::System.Object getStringValue(){
     _r1.i = 2;
     if (_r0.i != _r1.i) goto label10;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     return (global::java.lang.String) _r3_o;
     label10:;
     _r0_o = new global::org.w3c.dom.xpath.XPathException();
@@ -277,7 +270,6 @@ public virtual global::System.Object iterateNext(){
     if (_r0.i == 0) goto label23;
     _r0_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fiterator;
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     label22:;
     return (global::org.w3c.dom.Node) _r0_o;
@@ -321,7 +313,6 @@ public virtual global::System.Object snapshotItem(int n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::org.w3c.dom.xpath.XPathException) _r0_o);
     label19:;
     _r3_o = ((global::gnu.xml.dom.DomXPathResult) _r3_o)._fvalue;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.util.Collection) _r3_o).size();
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     ((global::java.util.Collection) _r3_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);

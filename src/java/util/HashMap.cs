@@ -161,7 +161,6 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::java.util.HashMap) _r0_o)._felementCount = _r1.i;
     _r1_o = ((global::java.util.HashMap) _r2_o)._felementData;
@@ -590,7 +589,6 @@ private void putAllImpl(global::java.util.Map n1){
     return;
     label29:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
     ((global::java.util.HashMap) _r3_o).putImpl((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r0_o);
@@ -879,7 +877,6 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
     return;
     label29:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.HashMap_2Entry) _r2_o)._fkey;
     ((global::java.io.ObjectOutputStream) _r3_o).writeObject((global::java.lang.Object) _r1_o);
     _r1_o = ((global::java.util.HashMap_2Entry) _r2_o)._fvalue;

@@ -16,7 +16,6 @@ public void @this(global::java.util.Collection n1){
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.ArrayList)) ? 1 : 0;
     if (_r0.i == 0) goto label12;
-    _r2_o = _r2_o;
     ((global::gnu.xml.xpath.Expr_2ExprNodeSet) _r1_o)._flist = (global::java.util.ArrayList) _r2_o;
     label11:;
     return;
@@ -52,7 +51,6 @@ public virtual global::System.Object item(int n1){
     try {
     _r1_o = ((global::gnu.xml.xpath.Expr_2ExprNodeSet) _r2_o)._flist;
     _r2_o = ((global::java.util.ArrayList) _r1_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

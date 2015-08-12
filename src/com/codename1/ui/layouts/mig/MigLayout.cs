@@ -282,10 +282,8 @@ public virtual void setLayoutConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label28;
     label6:;
-    _r5_o = _r5_o;
     _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.prepare((global::java.lang.String) _r5_o);
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseLayoutConstraint((global::java.lang.String) _r1_o);
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._flc = (global::com.codename1.ui.layouts.mig.LC) _r1_o;
@@ -298,7 +296,6 @@ public virtual void setLayoutConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.layouts.mig.LC)) ? 1 : 0;
     if (_r1.i == 0) goto label39;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._flc = (global::com.codename1.ui.layouts.mig.LC) _r1_o;
     goto label22;
@@ -344,10 +341,8 @@ public virtual void setColumnConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label28;
     label6:;
-    _r5_o = _r5_o;
     _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.prepare((global::java.lang.String) _r5_o);
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseColumnConstraints((global::java.lang.String) _r1_o);
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._fcolSpecs = (global::com.codename1.ui.layouts.mig.AC) _r1_o;
@@ -360,7 +355,6 @@ public virtual void setColumnConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.layouts.mig.AC)) ? 1 : 0;
     if (_r1.i == 0) goto label39;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._fcolSpecs = (global::com.codename1.ui.layouts.mig.AC) _r1_o;
     goto label22;
@@ -406,10 +400,8 @@ public virtual void setRowConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label28;
     label6:;
-    _r5_o = _r5_o;
     _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.prepare((global::java.lang.String) _r5_o);
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseRowConstraints((global::java.lang.String) _r1_o);
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._frowSpecs = (global::com.codename1.ui.layouts.mig.AC) _r1_o;
@@ -422,7 +414,6 @@ public virtual void setRowConstraints(global::java.lang.Object n1){
     _r1.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.layouts.mig.AC)) ? 1 : 0;
     if (_r1.i == 0) goto label39;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o)._frowSpecs = (global::com.codename1.ui.layouts.mig.AC) _r1_o;
     goto label22;
@@ -477,7 +468,6 @@ public virtual void setConstraintMap(global::java.util.Map n1){
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label39;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map) _r5_o).get((global::java.lang.Object) _r0_o);
     _r3.i = 1;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r4_o).setComponentConstraintsImpl((global::com.codename1.ui.Component) _r0_o, (global::java.lang.Object) _r2_o, 0!=_r3.i);
@@ -552,7 +542,6 @@ private void setComponentConstraintsImpl(global::com.codename1.ui.Component n1, 
     if (_r4.i == 0) goto label59;
     label33:;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.prepare((global::java.lang.String) _r4_o);
     _r4_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r7_o)._fscrConstrMap;
@@ -570,7 +559,6 @@ private void setComponentConstraintsImpl(global::com.codename1.ui.Component n1, 
     _r4_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r7_o)._fscrConstrMap;
     ((global::java.util.Map) _r4_o).put((global::java.lang.Object) _r8_o, (global::java.lang.Object) _r9_o);
     _r4_o = ((global::com.codename1.ui.layouts.mig.MigLayout) _r7_o)._fccMap;
-    _r9_o = _r9_o;
     ((global::java.util.Map) _r4_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r9_o);
     goto label55;
     label76:;
@@ -741,7 +729,6 @@ private void checkCache(global::com.codename1.ui.Container n1){
     _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label76;
     _r13_o = ((global::java.util.Iterator) _r9_o).next();
-    _r13_o = _r13_o;
     _r7_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r13_o).getComponent();
     _r0.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r0.i == 0) goto label66;
@@ -832,11 +819,8 @@ private void cleanConstraintMaps(global::com.codename1.ui.Container n1){
     _r4.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label71;
     _r4_o = ((global::java.util.Iterator) _r1_o).next();
-    _r4_o = _r4_o;
     _r4_o = ((global::java.util.Map_2Entry) _r4_o).getKey();
-    _r4_o = _r4_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r4_o).getComponent();
-    _r0_o = _r0_o;
     _r4.i = ((global::java.util.HashSet) _r3_o).contains((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r4.i != 0) goto label32;
     ((global::java.util.Iterator) _r1_o).remove();
@@ -861,7 +845,6 @@ private void resetLastInvalidOnParent(global::com.codename1.ui.Container n1){
     _r0_o = ((global::com.codename1.ui.Container) _r3_o).getLayout();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.layouts.mig.MigLayout)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r0_o)._flastWasInvalid = 0!=_r1.i;
     label15:;
@@ -1087,7 +1070,6 @@ public virtual global::System.Object preferredLayoutSize(global::com.codename1.u
     _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label60;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r1_o).getContentBias();
     _r3.i = -1;
     if (_r2.i == _r3.i) goto label38;
@@ -1245,7 +1227,6 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.mig.MigLayout) _r0_o).addLayoutComponent((global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.MigLayout: void addLayoutComponent(java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Container)]

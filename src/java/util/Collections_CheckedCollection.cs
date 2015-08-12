@@ -82,7 +82,6 @@ public virtual global::System.Object iterator(){
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.ListIterator)) ? 1 : 0;
     if (_r1.i == 0) goto label20;
     _r1_o = new global::java.util.Collections_2CheckedListIterator();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Collections_2CheckedCollection) _r3_o)._ftype;
     ((global::java.util.Collections_2CheckedListIterator) _r1_o).@this((global::java.util.ListIterator) _r0_o, (global::java.lang.Class) _r2_o);
     _r0_o = _r1_o;

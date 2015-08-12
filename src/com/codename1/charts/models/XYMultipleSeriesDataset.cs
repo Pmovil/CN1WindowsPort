@@ -222,7 +222,6 @@ public virtual global::System.Object getSeriesAt(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r1_o)._fmSeries;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -289,7 +288,6 @@ public virtual global::System.Object getSeries(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r2_o)._fmSeries;
     _r1_o = ((global::java.util.List) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

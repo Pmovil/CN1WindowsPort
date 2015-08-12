@@ -132,7 +132,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2300((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r0_o = _r6_o;
     _r1_o = _r21_o;
     ((global::com.codename1.ui.spinner.GenericSpinner) _r0_o).setRenderingPrototype((global::java.lang.String) _r1_o);
@@ -141,9 +140,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2200((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r0_o = _r21_o;
-    _r0_o = _r0_o;
     _r11_o = _r0_o;
     _r15_o = new global::com.codename1.ui.list.DefaultListModel();
     ((global::com.codename1.ui.list.DefaultListModel) _r15_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
@@ -187,7 +184,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r0_o = _r3_o;
     _r1_o = _r21_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -238,7 +234,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r13.i = ((global::java.lang.Integer) _r21_o).intValue();
     _r7.i = _r13.i / 60;
     _r9.i = _r13.i % 60;
@@ -300,7 +295,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r0_o = _r3_o;
     _r1_o = _r21_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -308,7 +302,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
-    _r21_o = _r21_o;
     _r0_o = _r5_o;
     _r1_o = _r21_o;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r0_o).setCurrentDate((global::java.util.Date) _r1_o);

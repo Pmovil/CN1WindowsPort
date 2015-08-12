@@ -92,7 +92,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label61;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.util.AbstractMap_2SimpleImmutableEntry) _r4_o)._fkey;
     if (_r0_o != null) goto label34;
     _r0_o = ((global::java.util.Map_2Entry) _r5_o).getKey();

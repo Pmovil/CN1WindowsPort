@@ -20,7 +20,6 @@ public override global::System.Object computeValue(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r2_o = base.computeValue();
-    _r2_o = _r2_o;
     _r0.i = 48;
     _r1.i = 57;
     _r0_o = ((global::java.util.regex.CharClass) _r2_o).add((int) _r0.i, (int) _r1.i);

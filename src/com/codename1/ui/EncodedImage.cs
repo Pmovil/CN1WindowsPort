@@ -118,7 +118,6 @@ public static global::System.Object createFromImage(global::com.codename1.ui.Ima
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)106)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103))}));
     _r5.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.EncodedImage)) ? 1 : 0;
     if (_r5.i == 0) goto label10;
-    _r7_o = _r7_o;
     _r5_o = _r7_o;
     label9:;
     return (global::com.codename1.ui.EncodedImage) _r5_o;
@@ -552,7 +551,6 @@ public virtual global::System.Object getInternal(){
     _r5_o = global::com.codename1.ui.Display.getInstance();
     _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fcache;
     _r2_o = ((global::com.codename1.ui.Display) _r5_o).extractHardRef((global::java.lang.Object) _r6_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label21;
     _r3_o = _r2_o;
     label20:;
@@ -638,7 +636,6 @@ public override void asyncLock(global::com.codename1.ui.Image n1){
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = ((global::com.codename1.ui.EncodedImage) _r2_o)._fcache;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).extractHardRef((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.EncodedImage) _r2_o)._fhardCache = (global::com.codename1.ui.Image) _r0_o;
     _r0_o = ((global::com.codename1.ui.EncodedImage) _r2_o)._fhardCache;
     if (_r0_o == null) goto label30;
@@ -670,7 +667,6 @@ public override void @lock(){
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = ((global::com.codename1.ui.EncodedImage) _r2_o)._fcache;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).extractHardRef((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.EncodedImage) _r2_o)._fhardCache = (global::com.codename1.ui.Image) _r0_o;
     label25:;
     return;

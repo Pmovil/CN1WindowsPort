@@ -215,7 +215,6 @@ public virtual global::System.Object evaluate(global::org.w3c.dom.Node n1, short
     label55:;
     try {
     _r0_o = new global::java.util.ArrayList();
-    _r4_o = _r4_o;
     ((global::java.util.ArrayList) _r0_o).@this((global::java.util.Collection) _r4_o);
     _r1_o = new global::gnu.xml.xpath.DocumentOrderComparator();
     ((global::gnu.xml.xpath.DocumentOrderComparator) _r1_o).@this();

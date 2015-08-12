@@ -42,7 +42,6 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     label12:;
     _r0_o = ((global::java.util.regex.PositiveLookAhead) _r3_o)._fchildren;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.regex.AbstractSet) _r0_o).matches((int) _r4.i, (global::java.lang.CharSequence) _r5_o, (global::java.util.regex.MatchResultImpl) _r6_o);
     if (_r0.i < 0) goto label33;
     _r0_o = ((global::java.util.regex.PositiveLookAhead) _r3_o)._fnext;

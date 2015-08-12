@@ -345,7 +345,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r5_o = _r0_o;
     _r9_o = null;
     _r22_o = ((global::java.util.LinkedHashMap) _r5_o).get((global::java.lang.Object) _r9_o);
-    _r22_o = _r22_o;
     if (_r22_o != null) goto label415;
     _r0_o = _r59_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid) _r0_o)._fgrid;
@@ -425,7 +424,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r53_o;
     _r1.i = _r5.i;
     _r65_o = global::com.codename1.ui.layouts.mig.LayoutUtil.getIndexSafe((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (int) _r1.i);
-    _r65_o = _r65_o;
     _r5.i = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r65_o).isNoGrid() ? 1 : 0;
     if (_r5.i == 0) goto label617;
     label531:;
@@ -851,7 +849,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r5.i = ((global::java.util.Iterator) _r35_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1382;
     _r22_o = ((global::java.util.Iterator) _r35_o).next();
-    _r22_o = _r22_o;
     _r34.i = 0;
     label1275:;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r22_o);
@@ -863,7 +860,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r5_o;
     _r1.i = _r34.i;
     _r8_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r8_o = _r8_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r8_o);
     _r5_o = ((global::com.codename1.ui.layouts.mig.CC) _r5_o).getHorizontal();
     _r40_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r5_o).getSizeGroup();
@@ -911,7 +907,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r5.i = ((global::java.util.Iterator) _r35_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1461;
     _r8_o = ((global::java.util.Iterator) _r35_o).next();
-    _r8_o = _r8_o;
     if (_r43_o == null) goto label1429;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r8_o);
     _r5_o = ((global::com.codename1.ui.layouts.mig.CC) _r5_o).getHorizontal();
@@ -919,7 +914,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r43_o;
     _r1_o = _r5_o;
     _r65_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r65_o = _r65_o;
     _r5.i = 1;
     _r0_o = _r8_o;
     _r1_o = _r65_o;
@@ -933,7 +927,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r44_o;
     _r1_o = _r5_o;
     _r65_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r65_o = _r65_o;
     _r5.i = 0;
     _r0_o = _r8_o;
     _r1_o = _r65_o;
@@ -962,7 +955,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r5.i = ((global::java.util.Iterator) _r35_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1646;
     _r22_o = ((global::java.util.Iterator) _r35_o).next();
-    _r22_o = _r22_o;
     _r26_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r22_o);
     _r34.i = 0;
     _r5.i = ((global::java.util.ArrayList) _r26_o).size();
@@ -975,14 +967,12 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r26_o;
     _r1.i = _r34.i;
     _r8_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r8_o = _r8_o;
     if (_r34.i <= 0) goto label1631;
     _r5.i = 1;
     _r5.i = _r34.i - _r5.i;
     _r0_o = _r26_o;
     _r1.i = _r5.i;
     _r65_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r65_o = _r65_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r65_o);
     _r15_o = _r5_o;
     label1559:;
@@ -993,7 +983,6 @@ public void @this(global::com.codename1.ui.layouts.mig.ContainerWrapper n1, glob
     _r0_o = _r26_o;
     _r1.i = _r5.i;
     _r65_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r65_o = _r65_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r65_o);
     _r17_o = _r5_o;
     label1582:;
@@ -1150,7 +1139,6 @@ private static global::System.Object getCC(global::com.codename1.ui.layouts.mig.
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label10;
     _r1_o = _r0_o;
     label9:;
@@ -1226,14 +1214,12 @@ private void invalidateComponentSizes(){
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label46;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r4_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r0_o);
     _r3_o = ((global::java.util.ArrayList) _r4_o).iterator();
     label30:;
     _r4.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label10;
     _r1_o = ((global::java.util.Iterator) _r3_o).next();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o).invalidateSizes();
     goto label30;
     label46:;
@@ -1435,14 +1421,12 @@ private bool layoutImpl(global::org.xmlvm._nArrayAdapter<int> n1, global::com.co
     _r22.i = ((global::java.util.Iterator) _r16_o).hasNext() ? 1 : 0;
     if (_r22.i == 0) goto label524;
     _r7_o = ((global::java.util.Iterator) _r16_o).next();
-    _r7_o = _r7_o;
     _r9_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r7_o);
     _r17_o = ((global::java.util.ArrayList) _r9_o).iterator();
     label181:;
     _r22.i = ((global::java.util.Iterator) _r17_o).hasNext() ? 1 : 0;
     if (_r22.i == 0) goto label161;
     _r11_o = ((global::java.util.Iterator) _r17_o).next();
-    _r11_o = _r11_o;
     if (_r19.i != 0) goto label336;
     _r0_o = _r27_o;
     _r1_o = _r11_o;
@@ -1522,7 +1506,6 @@ private bool layoutImpl(global::org.xmlvm._nArrayAdapter<int> n1, global::com.co
     _r0_o = _r13_o;
     _r1_o = _r22_o;
     _r29_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r29_o = _r29_o;
     _r22.i = ((global::java.lang.Integer) _r29_o).intValue();
     _r23.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21300((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r11_o);
     _r22.i = _r22.i - _r23.i;
@@ -1540,7 +1523,6 @@ private bool layoutImpl(global::org.xmlvm._nArrayAdapter<int> n1, global::com.co
     _r0_o = _r14_o;
     _r1_o = _r22_o;
     _r29_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r29_o = _r29_o;
     _r22.i = ((global::java.lang.Integer) _r29_o).intValue();
     _r23.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21500((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r11_o);
     _r22.i = _r22.i - _r23.i;
@@ -1573,7 +1555,6 @@ private bool layoutImpl(global::org.xmlvm._nArrayAdapter<int> n1, global::com.co
     _r22.i = ((global::java.util.Iterator) _r18_o).hasNext() ? 1 : 0;
     if (_r22.i == 0) goto label181;
     _r6_o = ((global::java.util.Iterator) _r18_o).next();
-    _r6_o = _r6_o;
     _r22_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r11_o);
     _r0_o = _r6_o;
     _r1_o = _r22_o;
@@ -1612,14 +1593,12 @@ private bool layoutImpl(global::org.xmlvm._nArrayAdapter<int> n1, global::com.co
     _r22.i = ((global::java.util.Iterator) _r16_o).hasNext() ? 1 : 0;
     if (_r22.i == 0) goto label722;
     _r7_o = ((global::java.util.Iterator) _r16_o).next();
-    _r7_o = _r7_o;
     _r9_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r7_o);
     _r17_o = ((global::java.util.ArrayList) _r9_o).iterator();
     label588:;
     _r22.i = ((global::java.util.Iterator) _r17_o).hasNext() ? 1 : 0;
     if (_r22.i == 0) goto label568;
     _r11_o = ((global::java.util.Iterator) _r17_o).next();
-    _r11_o = _r11_o;
     _r0_o = _r27_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid) _r0_o)._fcolGroupLists;
     _r22_o = _r0_o;
@@ -1714,7 +1693,6 @@ public virtual void paintDebug(){
     _r7.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label65;
     _r6_o = ((global::java.util.Iterator) _r3_o).next();
-    _r6_o = _r6_o;
     _r7.i = ((global::java.util.ArrayList) _r5_o).contains((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r7.i != 0) goto label26;
     _r7_o = ((global::com.codename1.ui.layouts.mig.Grid) _r12_o)._fcontainer;
@@ -1737,14 +1715,12 @@ public virtual void paintDebug(){
     _r7.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label121;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r2_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r0_o);
     _r4_o = ((global::java.util.ArrayList) _r2_o).iterator();
     label95:;
     _r7.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label75;
     _r1_o = ((global::java.util.Iterator) _r4_o).next();
-    _r1_o = _r1_o;
     _r7_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o);
     _r8_o = ((global::com.codename1.ui.layouts.mig.Grid) _r12_o)._flc;
     _r8.i = ((global::com.codename1.ui.layouts.mig.LC) _r8_o).isVisualPadding() ? 1 : 0;
@@ -1948,7 +1924,6 @@ private global::System.Object getPos(global::com.codename1.ui.layouts.mig.Compon
     if (_r0_o != null) goto label31;
     _r4_o = ((global::com.codename1.ui.layouts.mig.Grid) _r5_o)._fcallbackList;
     _r4_o = ((global::java.util.ArrayList) _r4_o).get((int) _r3.i);
-    _r4_o = _r4_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.LayoutCallback) _r4_o).getPosition((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r6_o);
     _r3.i = _r3.i + 1;
     goto label6;
@@ -2000,7 +1975,6 @@ private global::System.Object getCallbackSize(global::com.codename1.ui.layouts.m
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label30;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.LayoutCallback) _r1_o).getSize((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r5_o);
     if (_r0_o == null) goto label10;
     _r3_o = _r0_o;
@@ -2027,7 +2001,6 @@ private static int getDockInsets(global::java.util.TreeSet n1){
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label28;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r3.i = ((global::java.lang.Integer) _r1_o).intValue();
     _r4.i = -30000;
     if (_r3.i >= _r4.i) goto label28;
@@ -2348,7 +2321,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     _r24.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r24.i == 0) goto label449;
     _r4_o = ((global::java.util.Iterator) _r9_o).next();
-    _r4_o = _r4_o;
     _r24.i = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2400((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r4_o) ? 1 : 0;
     if (_r24.i == 0) goto label59;
     _r11_o = null;
@@ -2410,7 +2382,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     if (_r11.i >= _r12.i) goto label450;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r4_o);
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r11.i);
-    _r5_o = _r5_o;
     _r20_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o);
     _r20_o = ((global::com.codename1.ui.layouts.mig.CC) _r20_o).getTag();
     _r20.i = ((global::java.lang.String) _r19_o).equals((global::java.lang.Object) _r20_o) ? 1 : 0;
@@ -2458,7 +2429,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     if (_r0.i != _r1.i) goto label284;
     _r14.i = 1;
     label284:;
-    _r5_o = _r5_o;
     _r17_o = _r5_o;
     label287:;
     _r5.i = _r11.i + 1;
@@ -2479,7 +2449,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     _r0_o = _r18_o;
     _r1.i = _r24.i;
     _r24_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r24_o = _r24_o;
     if (_r13.i == 0) goto label344;
     _r5.i = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_21100((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r4_o) ? 1 : 0;
     _r8.i = 0;
@@ -2508,7 +2477,6 @@ private static void sortCellsByPlatform(global::java.util.Collection n1, global:
     _r0_o = _r18_o;
     _r1.i = _r24.i;
     _r24_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r24_o = _r24_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r24_o);
     _r5_o = ((global::com.codename1.ui.layouts.mig.CC) _r5_o).getHorizontal();
     _r5_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r5_o).getGapBefore();
@@ -2598,7 +2566,6 @@ private global::System.Object getDefaultPushWeights(bool n1){
     _r12.i = ((global::java.util.Iterator) _r7_o).hasNext() ? 1 : 0;
     if (_r12.i == 0) goto label144;
     _r3_o = ((global::java.util.Iterator) _r7_o).next();
-    _r3_o = _r3_o;
     _r0.i = 0;
     label32:;
     _r12_o = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22400((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r3_o);
@@ -2606,7 +2573,6 @@ private global::System.Object getDefaultPushWeights(bool n1){
     if (_r0.i >= _r12.i) goto label19;
     _r12_o = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22400((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r3_o);
     _r1_o = ((global::java.util.ArrayList) _r12_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r12_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o);
     _r12.i = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r12_o).isVisible() ? 1 : 0;
     if (_r12.i == 0) goto label102;
@@ -2698,7 +2664,6 @@ private void clearGroupLinkBounds(){
     _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label4;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.layouts.mig.Grid) _r4_o)._flinkTargetIDs;
     _r2_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r1_o);
     _r3_o = global::java.lang.Boolean._fTRUE;
@@ -2867,7 +2832,6 @@ private static global::System.Object getGroupContaining(global::org.xmlvm._nArra
     label12:;
     if (_r4.i >= _r5.i) goto label51;
     _r10_o = ((global::java.util.ArrayList) _r2_o).get((int) _r4.i);
-    _r10_o = _r10_o;
     _r1_o = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22400((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r10_o);
     _r6.i = 0;
     _r7.i = ((global::java.util.ArrayList) _r1_o).size();
@@ -2876,7 +2840,6 @@ private static global::System.Object getGroupContaining(global::org.xmlvm._nArra
     _r9_o = ((global::java.util.ArrayList) _r1_o).get((int) _r6.i);
     if (_r9_o != _r11_o) goto label45;
     _r10_o = ((global::java.util.ArrayList) _r2_o).get((int) _r4.i);
-    _r10_o = _r10_o;
     _r9_o = _r10_o;
     label44:;
     return (global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r9_o;
@@ -2996,7 +2959,6 @@ private void adjustSizeForAbsolute(bool n1){
     _r4_o = _r0_o;
     _r5_o = null;
     _r12_o = ((global::java.util.LinkedHashMap) _r4_o).get((global::java.lang.Object) _r5_o);
-    _r12_o = _r12_o;
     if (_r12_o == null) goto label32;
     _r4_o = global::com.codename1.ui.layouts.mig.Grid_2Cell.access_2200((global::com.codename1.ui.layouts.mig.Grid_2Cell) _r12_o);
     _r4.i = ((global::java.util.ArrayList) _r4_o).size();
@@ -3029,7 +2991,6 @@ private void adjustSizeForAbsolute(bool n1){
     _r0_o = _r16_o;
     _r1.i = _r19.i;
     _r14_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r14_o = _r14_o;
     _r4.i = 0;
     _r0_o = _r23_o;
     _r1_o = _r14_o;
@@ -3492,7 +3453,6 @@ private void layoutInOneDim(int n1, global::com.codename1.ui.layouts.mig.UnitVal
     _r25.i = ((global::java.util.Iterator) _r13_o).hasNext() ? 1 : 0;
     if (_r25.i == 0) goto label195;
     _r12_o = ((global::java.util.Iterator) _r13_o).next();
-    _r12_o = _r12_o;
     _r16.i = _r15.i + 1;
     _r25.i = ((global::java.lang.Integer) _r12_o).intValue();
     ((global::org.xmlvm._nArrayAdapter<int>) _r17_o)[_r15.i] = _r25.i;
@@ -3611,7 +3571,6 @@ private void layoutInOneDim(int n1, global::com.codename1.ui.layouts.mig.UnitVal
     _r25.i = ((global::java.util.Iterator) _r13_o).hasNext() ? 1 : 0;
     if (_r25.i == 0) goto label425;
     _r10_o = ((global::java.util.Iterator) _r13_o).next();
-    _r10_o = _r10_o;
     _r11.i = _r23.i;
     _r25.i = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22900((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r10_o);
     _r26.i = 1;
@@ -3697,7 +3656,6 @@ private static void addToSizeGroup(global::java.util.HashMap n1, global::java.la
     _r4.i = 1;
     _r3.i = 0;
     _r0_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r7_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label30;
     _r1.i = 3;
     _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r1.i]);
@@ -3745,7 +3703,6 @@ private static global::System.Object addToEndGroup(global::java.util.HashMap n1,
     ((global::java.util.HashMap) _r2_o).@this((int) _r1.i);
     label10:;
     _r0_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label24;
     _r1.i = ((global::java.lang.Integer) _r0_o).intValue();
     if (_r4.i <= _r1.i) goto label32;
@@ -3886,7 +3843,6 @@ private global::System.Object calcRowsOrColsSizes(bool n1, int n2){
     _r1.i = _r28.i;
     if (_r0.i >= _r1.i) goto label502;
     _r6_o = ((global::java.util.Iterator) _r18_o).next();
-    _r6_o = _r6_o;
     _r7.i = ((global::java.lang.Integer) _r6_o).intValue();
     _r28.i = 3;
     _r0.i = _r28.i;
@@ -4087,7 +4043,6 @@ private global::System.Object calcRowsOrColsSizes(bool n1, int n2){
     _r0_o = _r25_o;
     _r1_o = _r28_o;
     _r6_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r6_o = _r6_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r21_o)[_r19.i] = _r6_o;
     label547:;
     _r19.i = _r19.i + 1;
@@ -4304,7 +4259,6 @@ private static global::System.Object getComponentResizeConstraints(global::java.
     _r5.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     if (_r3.i >= _r5.i) goto label66;
     _r5_o = ((global::java.util.ArrayList) _r10_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r2_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o);
     _r5_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getDimConstraint(0!=_r11.i);
     _r5_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r5_o)._fresize;
@@ -4362,7 +4316,6 @@ private static global::System.Object getComponentGapPush(global::java.util.Array
     if (_r1.i <= 0) goto label52;
     _r3.i = _r1.i - _r4.i;
     _r3_o = ((global::java.util.ArrayList) _r6_o).get((int) _r3.i);
-    _r3_o = _r3_o;
     _r3.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_23100((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r3_o, 0!=_r7.i, 0!=_r5.i) ? 1 : 0;
     if (_r3.i == 0) goto label52;
     _r2.i = _r4.i;
@@ -4372,7 +4325,6 @@ private static global::System.Object getComponentGapPush(global::java.util.Array
     _r3.i = _r3.i - _r4.i;
     if (_r1.i >= _r3.i) goto label47;
     _r3_o = ((global::java.util.ArrayList) _r6_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     _r2.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_23100((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r3_o, 0!=_r7.i, 0!=_r4.i) ? 1 : 0;
     label47:;
     ((global::org.xmlvm._nArrayAdapter<bool>) _r0_o)[_r1.i] = 0!=_r2.i;
@@ -4665,7 +4617,6 @@ private global::System.Object getRowGaps(global::org.xmlvm._nArrayAdapter<global
     _r1.i = _r20.i;
     ((global::java.lang.Integer) _r0_o).@this((int) _r1.i);
     _r5_o = ((global::java.util.HashMap) _r23_o).get((global::java.lang.Object) _r24_o);
-    _r5_o = _r5_o;
     _r22_o = _r5_o;
     _r20.i = _r21.i;
     goto label264;
@@ -4791,20 +4742,17 @@ private static global::System.Object getGaps(global::java.util.ArrayList n1, boo
     _r5.i = _r0.i + 1;
     _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
     _r5_o = ((global::java.util.ArrayList) _r9_o).get((int) _r7.i);
-    _r5_o = _r5_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_23200((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o, 0!=_r10.i, 0!=_r8.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r7.i] = _r5_o;
     _r3.i = 0;
     label23:;
     if (_r3.i >= _r0.i) goto label66;
     _r5_o = ((global::java.util.ArrayList) _r9_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r1_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_23200((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o, 0!=_r10.i, 0!=_r7.i);
     _r5.i = _r0.i - _r8.i;
     if (_r3.i >= _r5.i) goto label63;
     _r5.i = _r3.i + 1;
     _r5_o = ((global::java.util.ArrayList) _r9_o).get((int) _r5.i);
-    _r5_o = _r5_o;
     _r5_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_23200((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o, 0!=_r10.i, 0!=_r8.i);
     _r2_o = _r5_o;
     label52:;
@@ -4836,12 +4784,10 @@ private bool hasDocks(){
     if (_r0.i > 0) goto label38;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid) _r2_o)._frowIndexes;
     _r0_o = ((global::java.util.TreeSet) _r0_o).last();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     if (_r0.i > _r1.i) goto label38;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid) _r2_o)._fcolIndexes;
     _r2_o = ((global::java.util.TreeSet) _r0_o).last();
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     if (_r0.i <= _r1.i) goto label40;
     label38:;
@@ -4901,7 +4847,6 @@ private void adjustMinPrefForSpanningComps(global::org.xmlvm._nArrayAdapter<glob
     _r2.i = ((global::java.util.Iterator) _r12_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label130;
     _r10_o = ((global::java.util.Iterator) _r12_o).next();
-    _r10_o = _r10_o;
     _r2.i = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22900((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r10_o);
     _r3.i = 1;
     if (_r2.i == _r3.i) goto label15;
@@ -5056,7 +5001,6 @@ private global::System.Object divideIntoLinkedGroups(bool n1){
     _r4.i = ((global::java.util.Iterator) _r28_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label543;
     _r3_o = ((global::java.util.Iterator) _r28_o).next();
-    _r3_o = _r3_o;
     _r27.i = ((global::java.lang.Integer) _r3_o).intValue();
     _r4.i = -30000;
     _r0.i = _r27.i;
@@ -5092,7 +5036,6 @@ private global::System.Object divideIntoLinkedGroups(bool n1){
     _r4.i = ((global::java.util.Iterator) _r29_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label539;
     _r32_o = ((global::java.util.Iterator) _r29_o).next();
-    _r32_o = _r32_o;
     if (_r39.i == 0) goto label314;
     _r4.i = ((global::java.lang.Integer) _r32_o).intValue();
     _r0_o = _r38_o;
@@ -5229,7 +5172,6 @@ private global::System.Object divideIntoLinkedGroups(bool n1){
     _r0_o = _r4_o;
     _r1.i = _r18.i;
     _r17_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r17_o = _r17_o;
     if (_r39.i == 0) goto label519;
     _r0_o = _r38_o;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid) _r0_o)._flc;
@@ -5273,7 +5215,6 @@ private global::System.Object divideIntoLinkedGroups(bool n1){
     _r0_o = _r25_o;
     _r1.i = _r23.i;
     _r24_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r24_o = _r24_o;
     _r4_o = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_23800((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r24_o);
     if (_r4_o == _r10_o) goto label472;
     if (_r10_o == null) goto label530;
@@ -5365,7 +5306,6 @@ private static int convertSpanToSparseGrid(int n1, int n2, global::java.util.Tre
     _r4.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label31;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r4.i = ((global::java.lang.Integer) _r1_o).intValue();
     if (_r4.i <= _r5.i) goto label7;
     _r4.i = ((global::java.lang.Integer) _r1_o).intValue();
@@ -5408,7 +5348,6 @@ private bool isCellFree(int n1, int n2, global::java.util.ArrayList n3){
     _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label52;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i];
     if (_r2.i > _r8.i) goto label14;
     _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
@@ -5448,7 +5387,6 @@ private global::System.Object getCell(int n1, int n2){
     _r2.i = _r2.i + _r5.i;
     ((global::java.lang.Integer) _r1_o).@this((int) _r2.i);
     _r3_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r3_o = _r3_o;
     return (global::com.codename1.ui.layouts.mig.Grid_2Cell) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: com.codename1.ui.layouts.mig.Grid$Cell getCell(int, int)]
 }
@@ -5684,7 +5622,6 @@ private static void layoutBaseline(global::com.codename1.ui.layouts.mig.Containe
     _r1.i = _r1.i + _r0.i;
     _r0.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     _r0_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r0_o);
     _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r0_o).getVertical();
     _r0_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).getAlign();
@@ -5715,7 +5652,6 @@ private static void layoutBaseline(global::com.codename1.ui.layouts.mig.Containe
     _r3.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label113;
     _r3_o = ((global::java.util.Iterator) _r4_o).next();
-    _r3_o = _r3_o;
     global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21512((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r3_o, (int) _r5.i);
     _r8.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21500((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r3_o);
     _r9.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21600((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r3_o);
@@ -5825,10 +5761,8 @@ private static void setCompWrapBounds(global::com.codename1.ui.layouts.mig.Conta
     _r1.i = global::com.codename1.ui.layouts.mig.LayoutUtil.sum((global::org.xmlvm._nArrayAdapter<int>) _r5_o);
     _r0.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     _r0_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r0_o);
     _r7_o = global::com.codename1.ui.layouts.mig.Grid.correctAlign((global::com.codename1.ui.layouts.mig.CC) _r0_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o, 0!=_r10.i, 0!=_r11.i);
-    _r8.i = _r8.i;
     _r9.i = _r9.i - _r1.i;
     if (_r9.i <= 0) goto label113;
     if (_r7_o == null) goto label113;
@@ -5853,7 +5787,6 @@ private static void setCompWrapBounds(global::com.codename1.ui.layouts.mig.Conta
     label54:;
     if (_r0.i >= _r1.i) goto label112;
     _r9_o = ((global::java.util.ArrayList) _r6_o).get((int) _r0.i);
-    _r9_o = _r9_o;
     if (_r11.i == 0) goto label93;
     _r4.i = _r7.i + 1;
     _r7.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r7.i];
@@ -5933,7 +5866,6 @@ private static void layoutParallel(global::com.codename1.ui.layouts.mig.Containe
     _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r3.i >= _r0.i) goto label110;
     _r2_o = ((global::java.util.ArrayList) _r9_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     _r0_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r2_o);
     _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r0_o).getDimConstraint(0!=_r13.i);
     _r4.i = 3;
@@ -6040,7 +5972,6 @@ private static void setCompWrapBounds(global::com.codename1.ui.layouts.mig.Conta
     _r4.i = ((global::org.xmlvm._nIArray) _r14_o).Length;
     if (_r10.i >= _r4.i) goto label88;
     _r7_o = ((global::java.util.ArrayList) _r15_o).get((int) _r10.i);
-    _r7_o = _r7_o;
     _r4_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2700((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r7_o);
     _r0_o = _r4_o;
     _r1_o = _r16_o;
@@ -6164,7 +6095,6 @@ private static global::System.Object getBaselineAboveBelow(global::java.util.Arr
     _r7.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label69;
     _r2_o = ((global::java.util.Iterator) _r4_o).next();
-    _r2_o = _r2_o;
     _r3.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_22600((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r2_o, (int) _r12.i, 0!=_r9.i);
     _r7.i = 2097051;
     if (_r3.i < _r7.i) goto label37;
@@ -6219,7 +6149,6 @@ private static int getTotalSizeParallel(global::java.util.ArrayList n1, int n2, 
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label43;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r1.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_25300((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r0_o, (int) _r8.i, 0!=_r9.i);
     if (_r1.i < _r5.i) goto label34;
     _r4.i = _r5.i;
@@ -6268,7 +6197,6 @@ private static int getTotalSizeSerial(global::java.util.ArrayList n1, int n2, bo
     label10:;
     if (_r1.i >= _r2.i) goto label44;
     _r5_o = ((global::java.util.ArrayList) _r8_o).get((int) _r1.i);
-    _r5_o = _r5_o;
     _r0.i = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_25100((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r5_o, (int) _r9.i, 0!=_r10.i);
     if (_r0.i <= _r3.i) goto label27;
     _r6.i = _r0.i - _r3.i;
@@ -6318,7 +6246,6 @@ private static int getTotalGroupsSizeParallel(global::java.util.ArrayList n1, in
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label54;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     if (_r10.i != 0) goto label32;
     _r4.i = global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup.access_22900((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r0_o);
     _r5.i = 1;
@@ -6366,7 +6293,6 @@ private static global::System.Object getComponentSizes(global::java.util.ArrayLi
     _r2.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r1.i >= _r2.i) goto label25;
     _r2_o = ((global::java.util.ArrayList) _r3_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r2_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_2800((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r2_o, 0!=_r4.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     _r1.i = _r1.i + 1;
@@ -6792,7 +6718,6 @@ public static global::System.Object getSizesAndIndexes(global::java.lang.Object 
     _r1_o = global::com.codename1.ui.layouts.mig.Grid._fPARENT_1ROWCOL_1SIZES_1MAP;
     if (_r1_o != null) goto label13;
     _r3_o = null;
-    _r3_o = _r3_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -6826,7 +6751,6 @@ public static global::System.Object getSizesAndIndexes(global::java.lang.Object 
     try {
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r2.i];
     _r3_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r3_o = _r3_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -6914,9 +6838,7 @@ private static void saveGrid(global::com.codename1.ui.layouts.mig.ComponentWrapp
     _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label116;
     _r12_o = ((global::java.util.Iterator) _r9_o).next();
-    _r12_o = _r12_o;
     _r7_o = ((global::java.util.LinkedHashMap) _r15_o).get((global::java.lang.Object) _r12_o);
-    _r7_o = _r7_o;
     if (_r12_o == null) goto label32;
     _r0.i = ((global::java.lang.Integer) _r12_o).intValue();
     _r1.i = 65535;
@@ -6940,7 +6862,6 @@ private static void saveGrid(global::com.codename1.ui.layouts.mig.ComponentWrapp
     _r0.i = ((global::java.util.Iterator) _r10_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r8_o = ((global::java.util.Iterator) _r10_o).next();
-    _r8_o = _r8_o;
     _r0_o = new global::com.codename1.ui.layouts.mig.Grid_2WeakCell();
     _r1_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r8_o);
     _r1_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r1_o).getComponent();
@@ -7009,7 +6930,6 @@ public static global::System.Object getGridPositions(global::java.lang.Object n1
     if (_r6_o == null) goto label22;
     _r6_o = global::com.codename1.ui.layouts.mig.Grid._fPARENT_1GRIDPOS_1MAP;
     _r9_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r9_o);
-    _r9_o = _r9_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -7050,7 +6970,6 @@ public static global::System.Object getGridPositions(global::java.lang.Object n1
     _r6.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r6.i == 0) goto label97;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r6_o = global::com.codename1.ui.Display.getInstance();
     _r7_o = global::com.codename1.ui.layouts.mig.Grid_2WeakCell.access_25700((global::com.codename1.ui.layouts.mig.Grid_2WeakCell) _r3_o);
     _r0_o = ((global::com.codename1.ui.Display) _r6_o).extractHardRef((global::java.lang.Object) _r7_o);

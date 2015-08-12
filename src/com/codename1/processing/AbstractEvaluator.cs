@@ -159,12 +159,10 @@ private global::System.Object _1evaluateLeftLessRight(global::java.lang.Object n
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftLessRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftLessRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftLessRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -184,12 +182,10 @@ private global::System.Object _1evaluateLeftGreaterRight(global::java.lang.Objec
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftGreaterRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftGreaterRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftGreaterRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -209,12 +205,10 @@ private global::System.Object _1evaluateLeftEqualsRight(global::java.lang.Object
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftEqualsRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftEqualsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftEqualsRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -234,12 +228,10 @@ private global::System.Object _1evaluateLeftContainsRight(global::java.lang.Obje
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftContainsRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftContainsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftContainsRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -255,13 +247,11 @@ private global::System.Object _1evaluateSingle(global::java.lang.Object n1){
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._fexpr;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateSingle((global::java.util.List) _r2_o, (global::java.lang.String) _r0_o);
     label12:;
     return (global::java.lang.Object) _r0_o;
     label13:;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._fexpr;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateSingle((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r0_o);
     goto label12;
@@ -416,7 +406,6 @@ public virtual global::System.Object evaluateSingle(global::java.util.List n1, g
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateSingle((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -431,7 +420,6 @@ public virtual global::System.Object evaluateSingle(global::java.util.List n1, g
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -469,7 +457,6 @@ public virtual global::System.Object evaluateLeftLessRight(global::java.util.Lis
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftLessRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -484,7 +471,6 @@ public virtual global::System.Object evaluateLeftLessRight(global::java.util.Lis
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -538,7 +524,6 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftGreaterRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -553,7 +538,6 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -607,7 +591,6 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.L
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftEqualsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -622,7 +605,6 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.L
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -676,7 +658,6 @@ public virtual global::System.Object evaluateLeftContainsRight(global::java.util
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftContainsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -691,7 +672,6 @@ public virtual global::System.Object evaluateLeftContainsRight(global::java.util
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;

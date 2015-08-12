@@ -44,7 +44,6 @@ public virtual global::System.Object getActualTypeArguments(){
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForType) _r1_o)._fargs;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForType: java.lang.reflect.Type[] getActualTypeArguments()]
 }

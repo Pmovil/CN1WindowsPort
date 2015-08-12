@@ -299,7 +299,6 @@ public virtual global::System.Object getComponentValue(global::com.codename1.ui.
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.TextArea) _r2_o).getText();
     label10:;
     return (global::java.lang.Object) _r0_o;
@@ -309,7 +308,6 @@ public virtual global::System.Object getComponentValue(global::com.codename1.ui.
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     if (_r0.i == 0) goto label33;
     label19:;
-    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.ui.Button) _r2_o).isSelected() ? 1 : 0;
     if (_r0.i == 0) goto label30;
     _r0_o = global::java.lang.Boolean._fTRUE;
@@ -320,13 +318,11 @@ public virtual global::System.Object getComponentValue(global::com.codename1.ui.
     label33:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r0.i == 0) goto label44;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Label) _r2_o).getText();
     goto label10;
     label44:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label55;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.List) _r2_o).getSelectedItem();
     goto label10;
     label55:;
@@ -350,7 +346,6 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r1.i == 0) goto label21;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
@@ -361,7 +356,6 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r1.i == 0) goto label38;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
@@ -371,7 +365,6 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r1.i == 0) goto label55;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
@@ -384,7 +377,6 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
     if (_r1.i == 0) goto label20;
     label63:;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
@@ -408,7 +400,6 @@ public virtual bool isValid(){
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label30;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.validation.Validator) _r3_o).isValid((global::com.codename1.ui.Component) _r0_o) ? 1 : 0;
     if (_r2.i != 0) goto label10;
     _r2.i = 0;
@@ -432,7 +423,6 @@ public virtual void validate(global::com.codename1.ui.Component n1){
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r2_o).getComponentValue((global::com.codename1.ui.Component) _r3_o);
     _r1_o = ((global::com.codename1.ui.validation.Validator) _r2_o)._fconstraintList;
     _r1_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     _r1.i = ((global::com.codename1.ui.validation.Constraint) _r1_o).isValid((global::java.lang.Object) _r0_o) ? 1 : 0;
     ((global::com.codename1.ui.validation.Validator) _r2_o).setValid((global::com.codename1.ui.Component) _r3_o, 0!=_r1.i);
     return;
@@ -453,7 +443,6 @@ public virtual bool isValid(global::com.codename1.ui.Component n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 82))}));
     _r0_o = ((global::com.codename1.ui.Component) _r4_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label15;
     _r2.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     label14:;
@@ -462,7 +451,6 @@ public virtual bool isValid(global::com.codename1.ui.Component n1){
     _r1_o = ((global::com.codename1.ui.validation.Validator) _r3_o).getComponentValue((global::com.codename1.ui.Component) _r4_o);
     _r2_o = ((global::com.codename1.ui.validation.Validator) _r3_o)._fconstraintList;
     _r3_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r2.i = ((global::com.codename1.ui.validation.Constraint) _r3_o).isValid((global::java.lang.Object) _r1_o) ? 1 : 0;
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: boolean isValid(com.codename1.ui.Component)]
@@ -499,7 +487,6 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 82))}));
     _r0_o = ((global::com.codename1.ui.Component) _r11_o).getClientProperty((global::java.lang.String) _r6_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label47;
     _r5.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     if (_r5.i != _r12.i) goto label47;
@@ -509,7 +496,6 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r5.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label182;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r5.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r1_o).setEnabled(0!=_r5.i);
     goto label27;
@@ -521,7 +507,6 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r5.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label97;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).setEnabled(0!=_r9.i);
     goto label55;
     label71:;
@@ -532,7 +517,6 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r5.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label97;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).setEnabled(0!=_r3.i);
     goto label81;
     label97:;

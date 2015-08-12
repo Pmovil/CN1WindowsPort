@@ -159,7 +159,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     if (_r1.i >= _r5.i) goto label86;
     _r5_o = ((global::com.codename1.components.ShareButton) _r14_o)._fshareServices;
     _r3_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r1.i);
-    _r3_o = _r3_o;
     _r5.i = ((global::com.codename1.share.ShareService) _r3_o).canShareImage() ? 1 : 0;
     if (_r5.i == 0) goto label81;
     ((global::java.util.Vector) _r4_o).add((global::java.lang.Object) _r3_o);
@@ -174,7 +173,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r5.i = ((global::java.util.Vector) _r4_o).size();
     if (_r1.i >= _r5.i) goto label121;
     _r3_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
-    _r3_o = _r3_o;
     _r5_o = ((global::com.codename1.components.ShareButton) _r14_o)._ftextToShare;
     ((global::com.codename1.share.ShareService) _r3_o).setMessage((global::java.lang.String) _r5_o);
     _r5_o = ((global::com.codename1.components.ShareButton) _r14_o)._fimageToShare;
@@ -290,7 +288,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r3_o = _r3_o;
     ((global::com.codename1.components.ShareButton) _r1_o).setTextToShare((global::java.lang.String) _r3_o);
     _r0_o = null;
     label14:;

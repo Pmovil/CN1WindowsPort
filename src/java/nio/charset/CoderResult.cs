@@ -94,7 +94,6 @@ public static global::System.Object malformedForLength(int n1){
     try {
     _r0_o = global::java.nio.charset.CoderResult._f_1malformedErrors;
     _r0_o = ((global::java.util.WeakHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label33;
     _r0_o = new global::java.nio.charset.CoderResult();
     _r4.i = 3;
@@ -211,7 +210,6 @@ public static global::System.Object unmappableForLength(int n1){
     try {
     _r0_o = global::java.nio.charset.CoderResult._f_1unmappableErrors;
     _r0_o = ((global::java.util.WeakHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label33;
     _r0_o = new global::java.nio.charset.CoderResult();
     _r4.i = 4;

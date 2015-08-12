@@ -61,7 +61,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r1_o = ((global::com.codename1.ui.Container) _r3_o).getClientProperty((global::java.lang.String) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label46;
     _r0.i = ((global::com.codename1.ui.Component) _r1_o).isVisible() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r1_o).setVisible(0!=_r6.i);

@@ -88,7 +88,6 @@ public static global::System.Object getBitmapFont(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Font._fbitmapCache;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.Font) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font getBitmapFont(java.lang.String)]
 }
@@ -569,16 +568,13 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = ((global::com.codename1.ui.Font) _r6_o)._fttf ? 1 : 0;
     if (_r2.i == 0) goto label38;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     if (_r2_o == null) goto label36;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Font) _r2_o)._fttf ? 1 : 0;
     if (_r2.i == 0) goto label36;
-    _r7_o = _r7_o;
     _r2_o = ((global::com.codename1.ui.Font) _r7_o)._ffont;
     _r3_o = ((global::com.codename1.ui.Font) _r6_o)._ffont;
     _r2.i = ((global::java.lang.Object) _r2_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
@@ -595,7 +591,6 @@ public override bool equals(global::java.lang.Object n1){
     _r3_o = ((global::java.lang.Object) _r6_o).getClass();
     if (_r2_o != _r3_o) goto label92;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Font) _r1_o)._fttf ? 1 : 0;
     if (_r2.i != 0) goto label90;

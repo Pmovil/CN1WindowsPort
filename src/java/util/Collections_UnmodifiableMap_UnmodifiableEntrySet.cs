@@ -73,7 +73,6 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     _r3_o = ((global::java.lang.Object) _r7_o).getClass();
     _r3_o = ((global::java.lang.Class) _r3_o).getComponentType();
     _r6_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r3_o, (int) _r0.i);
-    _r6_o = _r6_o;
     _r3_o = _r6_o;
     label29:;
     if (_r1.i < _r0.i) goto label38;

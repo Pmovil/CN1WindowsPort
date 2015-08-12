@@ -239,7 +239,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r3_o = new global::java.io.ObjectInputStream_21();
     ((global::java.io.ObjectInputStream_21) _r3_o).@this((global::java.io.ObjectInputStream) _r5_o, (global::java.lang.Class) _r0_o, (global::java.lang.Class) _r1_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r3_o);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label62;
     _r0_o = java.io._iObjectStreamConstants._fSUBCLASS_1IMPLEMENTATION_1PERMISSION;
@@ -247,7 +246,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     label62:;
     _r0.i = ((_r6_o != null) && (_r6_o is global::java.io.DataInputStream)) ? 1 : 0;
     if (_r0.i == 0) goto label99;
-    _r6_o = _r6_o;
     _r0_o = _r6_o;
     label69:;
     ((global::java.io.ObjectInputStream) _r5_o)._finput = (global::java.io.DataInputStream) _r0_o;
@@ -678,7 +676,6 @@ private global::System.Object readClassDesc(){
     goto label30;
     label59:;
     _r3_o = ((global::java.io.ObjectInputStream) _r3_o).readCyclicReference();
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label30;
     label67:;
@@ -907,7 +904,6 @@ private global::System.Object readException(){
     _r1_o = this;
     ((global::java.io.ObjectInputStream) _r1_o).resetSeenObjects();
     _r0_o = ((global::java.io.ObjectInputStream) _r1_o).readObject();
-    _r0_o = _r0_o;
     ((global::java.io.ObjectInputStream) _r1_o).resetSeenObjects();
     return (global::java.lang.Exception) _r0_o;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Exception readException()]
@@ -960,7 +956,6 @@ private void readFieldDescriptors(global::java.io.ObjectStreamClass n1){
     try {
     ((global::java.io.ObjectInputStream) _r6_o)._fenableResolve = 0!=_r0.i;
     _r0_o = ((global::java.io.ObjectInputStream) _r6_o).readObject();
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1601,7 +1596,6 @@ private static global::System.Object getFieldClass(global::java.lang.Object n1, 
     _r0_o = new global::java.io.ObjectInputStream_22();
     ((global::java.io.ObjectInputStream_22) _r0_o).@this((global::java.lang.Object) _r1_o, (global::java.lang.String) _r2_o);
     _r1_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r1_o = _r1_o;
     return (global::java.lang.Class) _r1_o;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Class getFieldClass(java.lang.Object, java.lang.String)]
 }
@@ -1693,7 +1687,6 @@ private void readHierarchy(global::java.lang.Object n1, global::java.io.ObjectSt
     goto label21;
     label44:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = null;
     ((global::java.io.ObjectInputStream) _r7_o).readObjectForClass((global::java.lang.Object) _r2_o, (global::java.io.ObjectStreamClass) _r0_o);
     goto label29;
@@ -1708,7 +1701,6 @@ private void readHierarchy(global::java.lang.Object n1, global::java.io.ObjectSt
     _r0.i = ((global::java.util.ArrayList) _r2_o).size();
     if (_r3.i >= _r0.i) goto label35;
     _r0_o = ((global::java.util.ArrayList) _r2_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r5.i = ((global::java.io.ObjectInputStream) _r7_o).findStreamSuperclass((global::java.lang.Class) _r0_o, (global::java.util.ArrayList) _r1_o, (int) _r4.i);
     _r6.i = -1;
     if (_r5.i != _r6.i) goto label121;
@@ -1728,7 +1720,6 @@ private void readHierarchy(global::java.lang.Object n1, global::java.io.ObjectSt
     goto label64;
     label109:;
     _r0_o = ((global::java.util.ArrayList) _r1_o).get((int) _r4.i);
-    _r0_o = _r0_o;
     ((global::java.io.ObjectInputStream) _r7_o).readObjectForClass((global::java.lang.Object) _r8_o, (global::java.io.ObjectStreamClass) _r0_o);
     _r0.i = _r4.i + 1;
     _r4.i = _r0.i;
@@ -1763,7 +1754,6 @@ private int findStreamSuperclass(global::java.lang.Class n1, global::java.util.A
     return _r0.i;
     label9:;
     _r3_o = ((global::java.util.ArrayList) _r5_o).get((int) _r0.i);
-    _r3_o = _r3_o;
     _r1_o = ((global::java.io.ObjectStreamClass) _r3_o).forClass();
     _r1_o = ((global::java.lang.Class) _r1_o).getName();
     _r2_o = ((global::java.io.ObjectStreamClass) _r3_o).getName();
@@ -1832,15 +1822,12 @@ private void readObjectNoData(global::java.lang.Object n1, global::java.lang.Cla
     _r2_o = ((global::java.lang.reflect.InvocationTargetException) _r0_o).getTargetException();
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.lang.RuntimeException)) ? 1 : 0;
     if (_r0.i == 0) goto label36;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r2_o);
     label36:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.lang.Error)) ? 1 : 0;
     if (_r0.i == 0) goto label43;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.Error) _r2_o);
     label43:;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.ObjectStreamException) _r2_o);
     label46:;
     _r0_o = _ex.getJavaException();
@@ -1956,7 +1943,6 @@ private void readObjectForClass(global::java.lang.Object n1, global::java.io.Obj
     _r0_o = ((global::java.lang.reflect.InvocationTargetException) _r0_o).getTargetException();
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.ClassNotFoundException)) ? 1 : 0;
     if (_r1.i == 0) goto label81;
-    _r0_o = _r0_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.ClassNotFoundException) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -1978,7 +1964,6 @@ private void readObjectForClass(global::java.lang.Object n1, global::java.io.Obj
     try {
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.RuntimeException)) ? 1 : 0;
     if (_r1.i == 0) goto label88;
-    _r0_o = _r0_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -1994,7 +1979,6 @@ private void readObjectForClass(global::java.lang.Object n1, global::java.io.Obj
     try {
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.Error)) ? 1 : 0;
     if (_r1.i == 0) goto label95;
-    _r0_o = _r0_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.Error) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -2008,7 +1992,6 @@ private void readObjectForClass(global::java.lang.Object n1, global::java.io.Obj
     } // end catch
     label95:;
     try {
-    _r0_o = _r0_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -2130,7 +2113,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Integer._fTYPE;
     if (_r3_o != _r6_o) goto label84;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = _r8.i;
     label59:;
@@ -2152,7 +2134,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Byte._fTYPE;
     if (_r3_o != _r6_o) goto label98;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1_o = ((global::java.io.ObjectInputStream) _r9_o)._finput;
     ((global::java.io.DataInputStream) _r1_o).readFully((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o, (int) _r8.i, (int) _r5.i);
@@ -2161,7 +2142,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Character._fTYPE;
     if (_r3_o != _r6_o) goto label120;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label107:;
@@ -2175,7 +2155,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Short._fTYPE;
     if (_r3_o != _r6_o) goto label142;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label129:;
@@ -2189,7 +2168,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Boolean._fTYPE;
     if (_r3_o != _r6_o) goto label164;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label151:;
@@ -2203,7 +2181,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Long._fTYPE;
     if (_r3_o != _r6_o) goto label186;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label173:;
@@ -2217,7 +2194,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Float._fTYPE;
     if (_r3_o != _r6_o) goto label208;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label195:;
@@ -2231,7 +2207,6 @@ private global::System.Object readNewArray(bool n1){
     _r6_o = global::java.lang.Double._fTYPE;
     if (_r3_o != _r6_o) goto label230;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label217:;
@@ -2252,7 +2227,6 @@ private global::System.Object readNewArray(bool n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.ClassNotFoundException) _r2_o);
     label246:;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r1.i = _r8.i;
     label251:;
@@ -2323,7 +2297,6 @@ private global::System.Object readEnumDesc(){
     return (global::java.io.ObjectStreamClass) _r0_o;
     label30:;
     _r3_o = ((global::java.io.ObjectInputStream) _r3_o).readCyclicReference();
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label29;
     label38:;
@@ -2426,7 +2399,6 @@ private global::System.Object readEnum(bool n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.InvalidObjectException) _r0_o);
     label44:;
     _r0_o = ((global::java.io.ObjectInputStream) _r3_o).readCyclicReference();
-    _r0_o = _r0_o;
     label50:;
     _r1_o = ((global::java.io.ObjectStreamClass) _r1_o).forClass();
     _r0_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r1_o, (global::java.lang.String) _r0_o);
@@ -2434,7 +2406,6 @@ private global::System.Object readEnum(bool n1){
     return (global::java.lang.Object) _r0_o;
     label62:;
     _r0_o = ((global::java.io.ObjectInputStream) _r3_o).readNewString(0!=_r4.i);
-    _r0_o = _r0_o;
     goto label50;
 //XMLVM_END_WRAPPER[java.io.ObjectInputStream: java.lang.Object readEnum(boolean)]
 }
@@ -2852,7 +2823,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r1.i = ((global::java.io.ObjectInputStream) _r13_o)._fmustResolve ? 1 : 0;
     if (_r1.i == 0) goto label116;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::java.io.Externalizable) _r1_o).readExternal((global::java.io.ObjectInput) _r13_o);
     }
@@ -2972,15 +2942,12 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r13_o = ((global::java.lang.reflect.InvocationTargetException) _r1_o).getTargetException();
     _r1.i = ((_r13_o != null) && (_r13_o is global::java.io.ObjectStreamException)) ? 1 : 0;
     if (_r1.i == 0) goto label197;
-    _r13_o = _r13_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.ObjectStreamException) _r13_o);
     label197:;
     _r1.i = ((_r13_o != null) && (_r13_o is global::java.lang.Error)) ? 1 : 0;
     if (_r1.i == 0) goto label204;
-    _r13_o = _r13_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.Error) _r13_o);
     label204:;
-    _r13_o = _r13_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r13_o);
     label207:;
     _r1_o = _r2_o;
@@ -3533,7 +3500,6 @@ public virtual global::System.Object resolveClass(global::java.io.ObjectStreamCl
     _r1_o = ((global::java.io.ObjectStreamClass) _r4_o).getName();
     _r0_o = global::java.io.ObjectInputStream._fPRIMITIVE_1CLASSES;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label27;
     _r0.i = 1;
     _r2_o = ((global::java.io.ObjectInputStream) _r3_o)._fcallerClassLoader;

@@ -186,7 +186,6 @@ public virtual void setEntityResolver(global::org.xml.sax.EntityResolver n1){
     _r1.i = ((_r3_o != null) && (_r3_o is global::org.xml.sax.ext.EntityResolver2)) ? 1 : 0;
     if (_r1.i == 0) goto label17;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::gnu.xml.aelfred2.SAXDriver) _r2_o)._fresolver2 = (global::org.xml.sax.ext.EntityResolver2) _r1_o;
     label10:;
@@ -854,7 +853,6 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     ((global::org.xml.sax.SAXNotSupportedException) _r0_o).@this((global::java.lang.String) _r2_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXNotSupportedException) _r0_o);
     label28:;
-    _r3_o = _r3_o;
     ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fdeclHandler = (global::org.xml.sax.ext.DeclHandler) _r3_o;
     goto label17;
     label33:;
@@ -874,7 +872,6 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     ((global::org.xml.sax.SAXNotSupportedException) _r0_o).@this((global::java.lang.String) _r2_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXNotSupportedException) _r0_o);
     label58:;
-    _r3_o = _r3_o;
     ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._flexicalHandler = (global::org.xml.sax.ext.LexicalHandler) _r3_o;
     goto label17;
     label63:;
@@ -1644,7 +1641,6 @@ public virtual void startElement(global::java.lang.String n1){
     _r0.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label21;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r0_o)._fname;
     _r4.i = ((global::gnu.xml.aelfred2.SAXDriver) _r10_o)._fstringInterning ? 1 : 0;
     if (_r4.i == 0) goto label181;
@@ -1760,7 +1756,6 @@ public virtual void endElement(global::java.lang.String n1){
     goto label16;
     label54:;
     _r0_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r0_o = _r0_o;
     ((global::org.xml.sax.ContentHandler) _r1_o).endPrefixMapping((global::java.lang.String) _r0_o);
     goto label42;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver: void endElement(java.lang.String)]
@@ -1938,7 +1933,6 @@ public virtual global::System.Object getURI(int n1){
     label12:;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r1_o)._fnameSpace;
     goto label11;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getURI(int)]
@@ -1967,7 +1961,6 @@ public virtual global::System.Object getLocalName(int n1){
     label12:;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r3_o)._fattributesList;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r4.i);
-    _r0_o = _r0_o;
     _r1.i = ((global::gnu.xml.aelfred2.SAXDriver) _r3_o)._fnamespaces ? 1 : 0;
     if (_r1.i == 0) goto label43;
     _r1_o = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r0_o)._flocalName;
@@ -2017,7 +2010,6 @@ public virtual global::System.Object getQName(int n1){
     label12:;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r1_o)._fname;
     if (_r0_o != null) goto label27;
     // Value=
@@ -2101,7 +2093,6 @@ public virtual global::System.Object getValue(int n1){
     label12:;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r1_o)._fvalue;
     goto label11;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getValue(int)]
@@ -2336,7 +2327,6 @@ public virtual bool isSpecified(int n1){
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fattributesList;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0.i = ((global::gnu.xml.aelfred2.SAXDriver_2Attribute) _r1_o)._fspecified ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver: boolean isSpecified(int)]
@@ -2395,7 +2385,6 @@ public virtual global::System.Object getSystemId(){
     label10:;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver) _r1_o)._fentityStack;
     _r1_o = ((global::java.util.Stack) _r0_o).peek();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label9;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver: java.lang.String getSystemId()]

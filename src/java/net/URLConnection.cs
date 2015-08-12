@@ -211,7 +211,6 @@ private global::System.Object getContentHandler(global::java.lang.String n1){
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r8_o);
     if (_r1_o == null) goto label26;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r1_o = _r7_o;
     label25:;
@@ -223,7 +222,6 @@ private global::System.Object getContentHandler(global::java.lang.String n1){
     _r7_o = ((global::java.net.ContentHandlerFactory) _r1_o).createContentHandler((global::java.lang.String) _r8_o);
     _r1_o = global::java.net.URLConnection._fcontentHandlers;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r8_o, (global::java.lang.Object) _r7_o);
-    _r7_o = _r7_o;
     _r1_o = _r7_o;
     goto label25;
     label45:;
@@ -233,7 +231,6 @@ private global::System.Object getContentHandler(global::java.lang.String n1){
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)106)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 115))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r2_o).@this((global::java.lang.String) _r4_o);
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r2_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label73;
     _r4_o = new global::java.util.StringTokenizer();
     // Value=\174
@@ -294,7 +291,6 @@ private global::System.Object getContentHandler(global::java.lang.String n1){
     _r2_o = global::java.net.URLConnection._fcontentHandlers;
     ((global::java.util.Hashtable) _r2_o).put((global::java.lang.Object) _r8_o, (global::java.lang.Object) _r1_o);
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r1_o = _r7_o;
     goto label25;
@@ -537,10 +533,8 @@ public virtual global::System.Object getRequestProperties(){
     return (global::java.util.Map) _r0_o;
     label42:;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.net.URLConnection) _r4_o)._frequestProperties;
     _r1_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r1_o = global::java.util.Collections.unmodifiableList((global::java.util.List) _r1_o);
     ((global::java.util.HashMap) _r2_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r1_o);
     goto label31;
@@ -581,7 +575,6 @@ public virtual void addRequestProperty(global::java.lang.String n1, global::java
     label31:;
     _r0_o = ((global::java.net.URLConnection) _r2_o)._frequestProperties;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label55;
     _r0_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r0_o).@this();
@@ -794,7 +787,6 @@ public virtual global::System.Object getRequestProperty(global::java.lang.String
     label16:;
     _r0_o = ((global::java.net.URLConnection) _r2_o)._frequestProperties;
     _r2_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o != null) goto label28;
     _r0_o = null;
     label27:;
@@ -802,7 +794,6 @@ public virtual global::System.Object getRequestProperty(global::java.lang.String
     label28:;
     _r0.i = 0;
     _r2_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     goto label27;
 //XMLVM_END_WRAPPER[java.net.URLConnection: java.lang.String getRequestProperty(java.lang.String)]

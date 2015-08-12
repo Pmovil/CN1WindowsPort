@@ -23,13 +23,10 @@ public void @this(global::java.util.List n1){
     _r4_o = n1;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r4_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     _r1.i = 1;
     _r1_o = ((global::java.util.List) _r4_o).get((int) _r1.i);
-    _r1_o = _r1_o;
     _r2.i = 2;
     _r2_o = ((global::java.util.List) _r4_o).get((int) _r2.i);
-    _r2_o = _r2_o;
     ((global::gnu.xml.xpath.TranslateFunction) _r3_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (global::gnu.xml.xpath.Expr) _r2_o);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.TranslateFunction: void <init>(java.util.List)]

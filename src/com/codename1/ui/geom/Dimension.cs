@@ -145,12 +145,10 @@ public override bool equals(global::java.lang.Object n1){
     _r4_o = n1;
     if (_r4_o == null) goto label22;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.geom.Dimension) _r1_o)._fwidth;
     _r2.i = ((global::com.codename1.ui.geom.Dimension) _r3_o)._fwidth;
     if (_r1.i != _r2.i) goto label22;
-    _r4_o = _r4_o;
     _r1.i = ((global::com.codename1.ui.geom.Dimension) _r4_o)._fheight;
     _r2.i = ((global::com.codename1.ui.geom.Dimension) _r3_o)._fheight;
     if (_r1.i != _r2.i) goto label22;

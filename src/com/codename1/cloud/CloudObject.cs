@@ -473,7 +473,6 @@ public virtual global::System.Object getObject(global::java.lang.String n1){
     if (_r1_o != null) goto label23;
     _r2_o = global::com.codename1.cloud.CloudObject._fcustom;
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label23;
     _r2_o = ((global::com.codename1.cloud.CustomProperty) _r0_o).propertyValue((global::com.codename1.cloud.CloudObject) _r3_o, (global::java.lang.String) _r4_o);
     label22:;
@@ -555,7 +554,6 @@ public virtual global::System.Object getString(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.String getString(java.lang.String)]
 }
@@ -645,14 +643,12 @@ public virtual global::System.Object getLong(global::java.lang.String n1){
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r1.i == 0) goto label21;
     _r1_o = new global::java.lang.Long();
-    _r0_o = _r0_o;
     _r2.i = ((global::java.lang.Integer) _r0_o).intValue();
     _r2.l = (long) _r2.i;
     ((global::java.lang.Long) _r1_o).@this((long) _r2.l);
     label20:;
     return (global::java.lang.Long) _r1_o;
     label21:;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label20;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Long getLong(java.lang.String)]
@@ -730,14 +726,12 @@ public virtual global::System.Object getInteger(global::java.lang.String n1){
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.Long)) ? 1 : 0;
     if (_r1.i == 0) goto label21;
     _r1_o = new global::java.lang.Integer();
-    _r0_o = _r0_o;
     _r2.l = ((global::java.lang.Long) _r0_o).longValue();
     _r2.i = (int) _r2.l;
     ((global::java.lang.Integer) _r1_o).@this((int) _r2.i);
     label20:;
     return (global::java.lang.Integer) _r1_o;
     label21:;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label20;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Integer getInteger(java.lang.String)]
@@ -808,7 +802,6 @@ public virtual global::System.Object getDouble(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.Double) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Double getDouble(java.lang.String)]
 }
@@ -885,13 +878,11 @@ public virtual global::System.Object getFloat(global::java.lang.String n1){
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.lang.Double)) ? 1 : 0;
     if (_r1.i == 0) goto label20;
     _r1_o = new global::java.lang.Float();
-    _r0_o = _r0_o;
     _r2.f = ((global::java.lang.Double) _r0_o).floatValue();
     ((global::java.lang.Float) _r1_o).@this((float) _r2.f);
     label19:;
     return (global::java.lang.Float) _r1_o;
     label20:;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label19;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Float getFloat(java.lang.String)]
@@ -962,7 +953,6 @@ public virtual global::System.Object getBoolean(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudObject) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.lang.Boolean) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: java.lang.Boolean getBoolean(java.lang.String)]
 }
@@ -1034,7 +1024,6 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
     _r0.i = ((global::java.io.DataInputStream) _r4_o).readInt();
     ((global::com.codename1.cloud.CloudObject) _r2_o)._fstatus = _r0.i;
     _r0_o = global::com.codename1.io.Util.readObject((global::java.io.DataInputStream) _r4_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.cloud.CloudObject) _r2_o)._fvalues = (global::java.util.Hashtable) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: void internalize(int, java.io.DataInputStream)]
@@ -1070,7 +1059,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r4_o)._fcloudId;
     if (_r2_o != null) goto label28;
@@ -1140,7 +1128,6 @@ public virtual void bindTree(global::com.codename1.ui.Container n1, int n2, bool
     _r1_o = ((global::com.codename1.ui.Container) _r9_o).getComponentAt((int) _r7.i);
     _r0.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r0.i == 0) goto label23;
-    _r1_o = _r1_o;
     ((global::com.codename1.cloud.CloudObject) _r8_o).bindTree((global::com.codename1.ui.Container) _r1_o, (int) _r10.i, 0!=_r11.i);
     label20:;
     _r7.i = _r7.i + 1;
@@ -1181,7 +1168,6 @@ public virtual void unbindTree(global::com.codename1.ui.Container n1){
     _r2_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r4.i);
     _r5.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label23;
-    _r2_o = _r2_o;
     ((global::com.codename1.cloud.CloudObject) _r6_o).unbindTree((global::com.codename1.ui.Container) _r2_o);
     label20:;
     _r4.i = _r4.i + 1;
@@ -1293,7 +1279,6 @@ public virtual void unbindProperty(global::com.codename1.ui.Component n1, global
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r5_o);
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
     _r0_o = ((global::com.codename1.ui.Component) _r4_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r4_o).unbindProperty((global::java.lang.String) _r5_o, (global::com.codename1.cloud.BindTarget) _r0_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: void unbindProperty(com.codename1.ui.Component, java.lang.String)]

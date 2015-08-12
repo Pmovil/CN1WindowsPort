@@ -907,7 +907,6 @@ public virtual int characterClass(){
     _r0_o = _r18_o;
     _r1_o = _r6_o;
     _r8_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r8_o = _r8_o;
     if (_r8_o == null) goto label365;
     _r0_o = _r21_o;
     _r0.i = ((global::com.codename1.util.regex.RECompiler) _r0_o)._fidx;

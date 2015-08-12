@@ -75,7 +75,6 @@ public override int find(int n1, global::java.lang.CharSequence n2, global::java
     _r1.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label43;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.util.regex.MatchResultImpl) _r10_o).getRightBound();
     _r3.i = _r8.i;
@@ -130,7 +129,6 @@ public override int findBack(int n1, int n2, global::java.lang.CharSequence n3, 
     _r1.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label41;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = _r8.i;
     label10:;
@@ -202,7 +200,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r2.i = 0;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.CharSet)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.CharSet) _r5_o).getChar();
     _r1.i = ((global::java.util.regex.CharSet) _r4_o)._fch;
     if (_r0.i != _r1.i) goto label18;
@@ -215,7 +212,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     label20:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.RangeSet)) ? 1 : 0;
     if (_r0.i == 0) goto label42;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.CharSet) _r4_o)._fch;
     _r0_o = global::java.lang.Character.toString((char) _r0.i);
     _r0.i = ((global::java.util.regex.RangeSet) _r5_o).accepts((int) _r2.i, (global::java.lang.CharSequence) _r0_o);
@@ -228,7 +224,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     label42:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.SupplRangeSet)) ? 1 : 0;
     if (_r0.i == 0) goto label55;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.CharSet) _r4_o)._fch;
     _r0.i = ((global::java.util.regex.SupplRangeSet) _r5_o).contains((int) _r0.i) ? 1 : 0;
     goto label17;

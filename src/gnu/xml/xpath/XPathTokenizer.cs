@@ -642,7 +642,6 @@ public virtual global::System.Object consume_1name(int n1){
     _r1_o = ((global::gnu.java.lang.CPStringBuilder) _r0_o).toString();
     _r0_o = global::gnu.xml.xpath.XPathTokenizer._fkeywords;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label65;
     _r0_o = new global::gnu.xml.xpath.XPathTokenizer_2XPathToken();
     ((global::gnu.xml.xpath.XPathTokenizer_2XPathToken) _r0_o).@this((int) _r4.i, (global::java.lang.String) _r1_o);

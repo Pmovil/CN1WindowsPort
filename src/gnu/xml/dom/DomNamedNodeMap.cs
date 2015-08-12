@@ -211,7 +211,6 @@ public virtual global::System.Object setNamedItem(global::org.w3c.dom.Node n1, b
     ((global::gnu.xml.dom.DomDOMException) _r0_o).@this((short) _r1.i);
     throw new global::org.xmlvm._nExceptionAdapter((global::gnu.xml.dom.DomDOMException) _r0_o);
     label13:;
-    _r9_o = _r9_o;
     if (_r11.i != 0) goto label32;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r9_o)._fowner;
     _r1_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r8_o)._fowner;
@@ -382,7 +381,6 @@ public virtual void reparent(global::gnu.xml.dom.DomNode n1, global::java.lang.S
     _r0.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.dom.DomElement)) ? 1 : 0;
     if (_r0.i == 0) goto label41;
     _r3_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r3_o)._fowner;
-    _r3_o = _r3_o;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r4_o).getNodeValue();
     ((global::gnu.xml.dom.DomElement) _r3_o)._fxmlSpace = (global::java.lang.String) _r0_o;
     label41:;
@@ -492,7 +490,6 @@ public virtual global::System.Object removeNamedItem(global::java.lang.String n1
     _r1.i = ((_r1_o != null) && (_r1_o is global::gnu.xml.dom.DomElement)) ? 1 : 0;
     if (_r1.i == 0) goto label86;
     _r1_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r7_o)._fowner;
-    _r1_o = _r1_o;
     // Value=
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -506,7 +503,6 @@ public virtual global::System.Object removeNamedItem(global::java.lang.String n1
     if (_r1_o == null) goto label118;
     ((global::gnu.xml.dom.DomNode) _r2_o).setNodeValue((global::java.lang.String) _r1_o);
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     ((global::gnu.xml.dom.DomAttr) _r7_o).setSpecified(0!=_r4.i);
     _r1_o = _r5_o;
@@ -566,7 +562,6 @@ public virtual global::System.Object getDefaultValue(global::java.lang.String n1
     _r0_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r3_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r0_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label15;
     _r0_o = _r2_o;
     label14:;

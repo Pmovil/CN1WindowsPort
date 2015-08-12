@@ -149,7 +149,6 @@ public virtual void addAttributeDecl(global::java.lang.String n1, global::java.l
     _r7_o = n3;
     _r2_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r4_o)._fattlists;
     _r0_o = ((global::java.util.LinkedHashMap) _r2_o).get((global::java.lang.Object) _r5_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label56;
     _r0_o = new global::java.util.LinkedHashMap();
     ((global::java.util.LinkedHashMap) _r0_o).@this();
@@ -378,7 +377,6 @@ public virtual global::System.Object getElementModel(global::java.lang.String n1
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._felements;
     _r1_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::gnu.xml.stream.XMLParser_2ContentModel) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$ContentModel getElementModel(java.lang.String)]
 }
@@ -395,14 +393,12 @@ public virtual global::System.Object getAttributeDecl(global::java.lang.String n
     _r4_o = n2;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r2_o)._fattlists;
     _r0_o = ((global::java.util.LinkedHashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label12;
     _r1_o = null;
     label11:;
     return (global::gnu.xml.stream.XMLParser_2AttributeDecl) _r1_o;
     label12:;
     _r2_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r4_o);
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label11;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$AttributeDecl getAttributeDecl(java.lang.String, java.lang.String)]
@@ -421,7 +417,6 @@ public virtual bool isAttributeDeclared(global::java.lang.String n1, global::jav
     _r4_o = n2;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r2_o)._fattlists;
     _r0_o = ((global::java.util.LinkedHashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label12;
     _r1.i = 0;
     label11:;
@@ -442,7 +437,6 @@ public virtual global::System.Object attlistIterator(global::java.lang.String n1
     _r3_o = n1;
     _r1_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r2_o)._fattlists;
     _r0_o = ((global::java.util.LinkedHashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label17;
     _r1_o = global::java.util.Collections._fEMPTY_1LIST;
     _r1_o = ((global::java.util.List) _r1_o).iterator();
@@ -503,7 +497,6 @@ public virtual global::System.Object getNotation(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fnotations;
     _r1_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::gnu.xml.stream.XMLParser_2ExternalIds) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Doctype: gnu.xml.stream.XMLParser$ExternalIds getNotation(java.lang.String)]
 }
@@ -531,7 +524,6 @@ public virtual global::System.Object getComment(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fcomments;
     _r1_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.lang.String getComment(java.lang.String)]
 }
@@ -545,8 +537,6 @@ public virtual global::System.Object getPI(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.stream.XMLParser_2Doctype) _r1_o)._fpis;
     _r1_o = ((global::java.util.LinkedHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Doctype: java.lang.String[] getPI(java.lang.String)]
 }

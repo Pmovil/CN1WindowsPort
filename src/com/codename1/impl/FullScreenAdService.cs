@@ -269,7 +269,6 @@ public virtual void unlock(global::com.codename1.ui.events.ActionListener n1){
     _r4_o = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r1_o).getCurrent();
-    _r0_o = _r0_o;
     _r1_o = global::com.codename1.impl.FullScreenAdService._fLOCK;
     global::System.Threading.Monitor.Enter(_r1_o);
     _r2.i = 0;

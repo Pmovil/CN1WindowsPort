@@ -471,12 +471,10 @@ public virtual void setBackDestination(global::java.lang.String n1){
     _r2.i = ((global::java.util.Vector) _r2_o).size();
     _r2.i = _r2.i - _r3.i;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     // Value=$name
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r1_o = _r1_o;
     _r1.i = ((global::java.lang.String) _r5_o).equalsIgnoreCase((global::java.lang.String) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label43;
     label42:;
@@ -544,7 +542,6 @@ private global::System.Object getFormNavigationStackForComponent(global::com.cod
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 118))}));
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getClientProperty((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label53;
     _r0_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r0_o).@this();
@@ -702,7 +699,6 @@ public virtual global::System.Object createContainer(global::com.codename1.ui.ut
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r13_o)._flocalComponentListeners;
     _r7_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r15_o);
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     }
     catch (global::System.Exception e) {
@@ -722,7 +718,6 @@ public virtual global::System.Object createContainer(global::com.codename1.ui.ut
     _r5_o = _r14_o;
     _r7_o = _r16_o;
     _r8_o = ((global::com.codename1.ui.util.UIBuilder) _r1_o).createComponent((global::java.io.DataInputStream) _r2_o, (global::com.codename1.ui.Container) _r3_o, (global::com.codename1.ui.Container) _r4_o, (global::com.codename1.ui.util.Resources) _r5_o, (global::java.util.Hashtable) _r6_o, (global::com.codename1.ui.util.EmbeddedContainer) _r7_o);
-    _r8_o = _r8_o;
     ((global::com.codename1.ui.Container) _r8_o).setName((global::java.lang.String) _r15_o);
     ((global::com.codename1.ui.util.UIBuilder) _r13_o).postCreateComponents((global::java.io.DataInputStream) _r2_o, (global::com.codename1.ui.Container) _r8_o, (global::com.codename1.ui.util.Resources) _r14_o);
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r13_o)._fhomeForm;
@@ -733,7 +728,6 @@ public virtual global::System.Object createContainer(global::com.codename1.ui.ut
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)37)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 37))}));
     _r10_o = ((global::com.codename1.ui.Container) _r8_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r10_o = _r10_o;
     if (_r10_o == null) goto label95;
     ((global::com.codename1.ui.util.UIBuilder) _r13_o)._fhomeForm = (global::java.lang.String) _r10_o;
     }
@@ -896,10 +890,8 @@ private void readCommand(global::java.io.DataInputStream n1, global::com.codenam
     _r3.i = _r0.i;
     if (_r3.i == 0) goto label251;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r23_o = _r0_o;
     _r10_o = ((global::com.codename1.ui.Container) _r23_o).getLeadComponent();
-    _r10_o = _r10_o;
     label157:;
     _r14.i = ((global::com.codename1.ui.Button) _r10_o).isEnabled() ? 1 : 0;
     ((global::com.codename1.ui.Button) _r10_o).setCommand((global::com.codename1.ui.Command) _r11_o);
@@ -957,7 +949,6 @@ private void readCommand(global::java.io.DataInputStream n1, global::com.codenam
     goto label138;
     label251:;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r10_o = _r0_o;
     goto label157;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: void readCommand(java.io.DataInputStream, com.codename1.ui.Component, com.codename1.ui.Container, com.codename1.ui.util.Resources, boolean)]
@@ -1030,11 +1021,9 @@ private void postCreateComponents(global::java.io.DataInputStream n1, global::co
     label61:;
     _r0_o = ((global::java.io.DataInputStream) _r10_o).readUTF();
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r9_o).findByName((global::java.lang.String) _r0_o, (global::com.codename1.ui.Container) _r11_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r2_o).setLabelForComponent((global::com.codename1.ui.Label) _r0_o);
     goto label38;
     label75:;
-    _r2_o = _r2_o;
     _r0_o = ((global::java.io.DataInputStream) _r10_o).readUTF();
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r9_o).findByName((global::java.lang.String) _r0_o, (global::com.codename1.ui.Container) _r11_o);
     ((global::com.codename1.ui.Container) _r2_o).setLeadComponent((global::com.codename1.ui.Component) _r0_o);
@@ -1093,7 +1082,6 @@ public virtual global::System.Object findByName(global::java.lang.String n1, glo
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r4_o);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     _r0_o = ((global::com.codename1.ui.Component) _r7_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label48;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r5_o).getRootAncestor((global::com.codename1.ui.Component) _r7_o);
     if (_r1_o == null) goto label48;
@@ -1136,7 +1124,6 @@ public virtual global::System.Object findByName(global::java.lang.String n1, glo
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r4_o);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     _r0_o = ((global::com.codename1.ui.Container) _r7_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label48;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r5_o).getRootAncestor((global::com.codename1.ui.Component) _r7_o);
     if (_r1_o == null) goto label48;
@@ -1185,12 +1172,10 @@ public virtual void bindListenerToComponent(global::com.codename1.ui.Component n
     _r3_o = n2;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Container) _r2_o).getLeadComponent();
     label10:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.events.FocusListener)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Component) _r2_o).addFocusListener((global::com.codename1.ui.events.FocusListener) _r3_o);
     label19:;
     return;
@@ -1199,34 +1184,24 @@ public virtual void bindListenerToComponent(global::com.codename1.ui.Component n
     if (_r0.i == 0) goto label80;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r0.i == 0) goto label36;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     goto label19;
     label36:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label48;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.List) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     goto label19;
     label48:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.list.ContainerList)) ? 1 : 0;
     if (_r0.i == 0) goto label60;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.list.ContainerList) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     goto label19;
     label60:;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Calendar)) ? 1 : 0;
     if (_r0.i == 0) goto label72;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Calendar) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     goto label19;
     label72:;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.TextArea) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     goto label19;
     label80:;
@@ -1234,13 +1209,9 @@ public virtual void bindListenerToComponent(global::com.codename1.ui.Component n
     if (_r0.i == 0) goto label104;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label96;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.TextField) _r2_o).addDataChangeListener((global::com.codename1.ui.events.DataChangedListener) _r3_o);
     goto label19;
     label96:;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Slider) _r2_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r3_o);
     goto label19;
     label104:;
@@ -1248,13 +1219,9 @@ public virtual void bindListenerToComponent(global::com.codename1.ui.Component n
     if (_r0.i == 0) goto label19;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label120;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.List) _r2_o).addSelectionListener((global::com.codename1.ui.events.SelectionListener) _r3_o);
     goto label19;
     label120:;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Slider) _r2_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r3_o);
     goto label19;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: void bindListenerToComponent(com.codename1.ui.Component, java.lang.Object)]
@@ -1294,7 +1261,6 @@ private global::System.Object findEmptyContainer(global::com.codename1.ui.Contai
     _r3_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r2.i);
     _r4.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label29;
-    _r3_o = _r3_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r5_o).findEmptyContainer((global::com.codename1.ui.Container) _r3_o);
     if (_r1_o == null) goto label29;
     _r4_o = _r1_o;
@@ -1446,7 +1412,6 @@ private void readCommands(global::java.io.DataInputStream n1, global::com.codena
     label172:;
     if (_r8.i == 0) goto label188;
     _r0_o = _r22_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r14_o)[_r17.i];
     _r0_o = _r20_o;
@@ -1455,7 +1420,6 @@ private void readCommands(global::java.io.DataInputStream n1, global::com.codena
     ((global::com.codename1.ui.util.UIBuilder) _r0_o).setBackCommand((global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Command) _r2_o);
     label188:;
     _r0_o = _r22_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = null;
     _r0_o = _r20_o;
@@ -1463,7 +1427,6 @@ private void readCommands(global::java.io.DataInputStream n1, global::com.codena
     _r2_o = _r4_o;
     ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     _r0_o = _r22_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r14_o)[_r17.i];
     ((global::com.codename1.ui.Form) _r3_o).addCommand((global::com.codename1.ui.Command) _r4_o);
@@ -1576,12 +1539,10 @@ private global::System.Object readObjectArrayForListModel(global::java.io.DataIn
     _r3.i = ((global::java.lang.String) _r15_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label101;
     _r0_o = _r18_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = null;
     _r6.i = -1;
     _r0_o = _r18_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r8.i = 0;
     // Value=
@@ -1592,7 +1553,6 @@ private global::System.Object readObjectArrayForListModel(global::java.io.DataIn
     // Value=$COMMAND_ACTION$
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 36))}));
-    _r18_o = _r18_o;
     _r0_o = _r10_o;
     _r1_o = _r3_o;
     _r2_o = _r18_o;
@@ -2040,7 +2000,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r1_o = _r59_o;
     _r2_o = _r22_o;
     _r21_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).createContainer((global::com.codename1.ui.util.Resources) _r1_o, (global::java.lang.String) _r2_o);
-    _r21_o = _r21_o;
     // Value=destination
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
@@ -2048,7 +2007,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r1_o = _r5_o;
     _r2_o = _r21_o;
     _r7_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).findByName((global::java.lang.String) _r1_o, (global::com.codename1.ui.Container) _r2_o);
-    _r7_o = _r7_o;
     if (_r7_o != null) goto label97;
     _r5_o = ((global::com.codename1.ui.Form) _r21_o).getContentPane();
     _r0_o = _r55_o;
@@ -2114,7 +2072,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label213;
     _r0_o = _r43_o;
-    _r0_o = _r0_o;
     _r53_o = _r0_o;
     _r39.i = 0;
     label185:;
@@ -2143,7 +2100,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label245;
     _r0_o = _r19_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r19_o = ((global::com.codename1.ui.Container) _r26_o).getLeadComponent();
     if (_r19_o != null) goto label245;
@@ -2158,7 +2114,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r61_o;
     _r41_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     if (_r41_o == null) goto label273;
-    _r19_o = _r19_o;
     _r0_o = _r19_o;
     _r1_o = _r41_o;
     ((global::com.codename1.ui.Button) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -2172,7 +2127,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     ((global::com.codename1.ui.Component) _r0_o).putClientProperty((global::java.lang.String) _r1_o, (global::java.lang.Object) _r2_o);
     if (_r58_o != null) goto label291;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r58_o = _r0_o;
     label291:;
     _r5.i = -1;
@@ -2264,7 +2218,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r61_o;
     _r41_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     if (_r41_o == null) goto label273;
-    _r19_o = _r19_o;
     _r0_o = _r19_o;
     _r1_o = _r41_o;
     ((global::com.codename1.ui.TextArea) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -2279,7 +2232,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r61_o;
     _r41_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     if (_r41_o == null) goto label273;
-    _r19_o = _r19_o;
     _r0_o = _r19_o;
     _r1_o = _r41_o;
     ((global::com.codename1.ui.List) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -2294,7 +2246,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r61_o;
     _r41_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     if (_r41_o == null) goto label273;
-    _r19_o = _r19_o;
     _r0_o = _r19_o;
     _r1_o = _r41_o;
     ((global::com.codename1.ui.list.ContainerList) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -2309,7 +2260,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r61_o;
     _r41_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).getFormListenerInstance((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.util.EmbeddedContainer) _r2_o);
     if (_r41_o == null) goto label273;
-    _r19_o = _r19_o;
     _r0_o = _r19_o;
     _r1_o = _r41_o;
     ((global::com.codename1.ui.Calendar) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -2373,7 +2323,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r5.i == 0) goto label558;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r26_o;
@@ -2400,18 +2349,15 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r6_o;
     ((global::com.codename1.ui.Container) _r0_o).putClientProperty((global::java.lang.String) _r1_o, (global::java.lang.Object) _r2_o);
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
     _r1_o = _r5_o;
     ((global::com.codename1.ui.util.EmbeddedContainer) _r0_o).setEmbed((global::java.lang.String) _r1_o);
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.util.EmbeddedContainer) _r26_o).getEmbed();
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r59_o;
@@ -2423,13 +2369,11 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Form)) ? 1 : 0;
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label645;
-    _r34_o = _r34_o;
     _r0_o = _r55_o;
     _r1_o = _r34_o;
     _r34_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).formToContainer((global::com.codename1.ui.Form) _r1_o);
     label645:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     // Value=Center
     _r5_o = new global::java.lang.String();
@@ -2447,7 +2391,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label677:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -2456,7 +2399,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label695:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -2470,7 +2412,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label739;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1.i = _r37.i;
@@ -2478,7 +2419,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label739:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1.i = _r37.i;
@@ -2486,7 +2426,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label754:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -2495,7 +2434,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label772:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -2532,7 +2470,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label863;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -2541,7 +2478,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label863:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -2550,7 +2486,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label881:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2559,7 +2494,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label899:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2570,14 +2504,12 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r30.i = ((global::com.codename1.ui.TextArea) _r26_o).getConstraint();
     _r5.i = _r30.i & 2;
     _r6.i = 2;
     if (_r5.i != _r6.i) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = 1;
     _r5_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
@@ -2596,7 +2528,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label984;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2605,7 +2536,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label984:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2614,7 +2544,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1002:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -2638,7 +2567,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     }
     label1029:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1_o = _r42_o;
@@ -2831,7 +2759,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label1029;
     label1380:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2840,7 +2767,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1398:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2867,7 +2793,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1452:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -2876,7 +2801,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1470:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -2900,7 +2824,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = ((global::java.lang.String) _r46_o).length();
     if (_r5.i <= 0) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1_o = _r46_o;
@@ -2926,7 +2849,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1573:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -2938,7 +2860,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1598:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -2950,7 +2871,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1623:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -2962,7 +2882,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1648:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -2974,7 +2893,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1673:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2987,7 +2905,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label1716;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -2996,7 +2913,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1716:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3005,7 +2921,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1734:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3093,7 +3008,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1899:;
     _r51_o = ((global::com.codename1.ui.Container) _r57_o).getLayout();
-    _r51_o = _r51_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r6.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r51_o;
@@ -3134,7 +3048,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label1993:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -3154,7 +3067,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     if (_r0.i >= _r1.i) goto label309;
     _r50_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r14_o = _r0_o;
     _r12_o = _r55_o;
     _r13_o = _r56_o;
@@ -3164,7 +3076,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r18_o = _r61_o;
     _r23_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).createComponent((global::java.io.DataInputStream) _r13_o, (global::com.codename1.ui.Container) _r14_o, (global::com.codename1.ui.Container) _r15_o, (global::com.codename1.ui.util.Resources) _r16_o, (global::java.util.Hashtable) _r17_o, (global::com.codename1.ui.util.EmbeddedContainer) _r18_o);
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1_o = _r50_o;
@@ -3179,7 +3090,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r1.i = _r27.i;
     if (_r0.i >= _r1.i) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r14_o = _r0_o;
     _r12_o = _r55_o;
     _r13_o = _r56_o;
@@ -3196,7 +3106,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r29_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r29_o == null) goto label2131;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1_o = _r29_o;
@@ -3207,7 +3116,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label2075;
     label2131:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r26_o;
     _r1_o = _r23_o;
@@ -3215,7 +3123,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label2128;
     label2145:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3224,7 +3131,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2163:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3237,7 +3143,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2206;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -3246,7 +3151,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2206:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r26_o;
@@ -3259,7 +3163,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2256;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -3271,7 +3174,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2256:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -3283,7 +3185,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2281:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3292,7 +3193,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2299:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3301,7 +3201,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2317:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3327,14 +3226,12 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label2346;
     label2364:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r26_o;
     _r5.i = ((global::com.codename1.ui.util.UIBuilder) _r0_o).setListModel((global::com.codename1.ui.List) _r1_o) ? 1 : 0;
     if (_r5.i != 0) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = new global::com.codename1.ui.list.DefaultListModel();
     _r0_o = _r5_o;
@@ -3350,14 +3247,12 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r2_o = _r59_o;
     _r33_o = ((global::com.codename1.ui.util.UIBuilder) _r0_o).readObjectArrayForListModel((global::java.io.DataInputStream) _r1_o, (global::com.codename1.ui.util.Resources) _r2_o);
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r26_o;
     _r5.i = ((global::com.codename1.ui.util.UIBuilder) _r0_o).setListModel((global::com.codename1.ui.List) _r1_o) ? 1 : 0;
     if (_r5.i != 0) goto label309;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = new global::com.codename1.ui.list.DefaultListModel();
     _r0_o = _r5_o;
@@ -3373,7 +3268,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2481;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r59_o;
@@ -3385,7 +3279,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2481:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r0_o = _r55_o;
     _r1_o = _r59_o;
@@ -3424,7 +3317,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2554:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3439,7 +3331,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2584:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5_o = ((global::java.io.DataInputStream) _r56_o).readUTF();
     _r0_o = _r59_o;
@@ -3451,7 +3342,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2609:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3460,7 +3350,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2627:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3469,7 +3358,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2645:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3482,7 +3370,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2688;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3491,7 +3378,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2688:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3500,7 +3386,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2706:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3509,7 +3394,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2724:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readBoolean() ? 1 : 0;
     _r0_o = _r26_o;
@@ -3518,7 +3402,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2742:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3527,7 +3410,6 @@ private global::System.Object createComponent(global::java.io.DataInputStream n1
     goto label309;
     label2760:;
     _r0_o = _r25_o;
-    _r0_o = _r0_o;
     _r26_o = _r0_o;
     _r5.i = ((global::java.io.DataInputStream) _r56_o).readInt();
     _r0_o = _r26_o;
@@ -3571,10 +3453,8 @@ public virtual void setNextForm(global::com.codename1.ui.Component n1, global::j
     ((global::com.codename1.ui.util.UIBuilder) _r3_o)._fresourceFile = (global::com.codename1.ui.util.Resources) _r6_o;
     label17:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.util.UIBuilder_2FormListener();
-    _r7_o = _r7_o;
     ((global::com.codename1.ui.util.UIBuilder_2FormListener) _r2_o).@this((global::com.codename1.ui.util.UIBuilder) _r3_o, (global::com.codename1.ui.Form) _r7_o, (global::java.lang.String) _r5_o);
     ((global::com.codename1.ui.Form) _r1_o).addShowListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
@@ -3594,7 +3474,6 @@ public virtual global::System.Object createComponentType(global::java.lang.Strin
     _r6_o = n1;
     _r2_o = global::com.codename1.ui.util.UIBuilder.getComponentRegistry();
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r6_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r5_o).createComponentInstance((global::java.lang.String) _r6_o, (global::java.lang.Class) _r0_o);
     if (_r1_o != null) goto label55;
     if (_r0_o != null) goto label49;
@@ -3615,7 +3494,6 @@ public virtual global::System.Object createComponentType(global::java.lang.Strin
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r2_o);
     label49:;
     _r1_o = ((global::java.lang.Class) _r0_o).newInstance();
-    _r1_o = _r1_o;
     label55:;
     return (global::com.codename1.ui.Component) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Component createComponentType(java.lang.String)]
@@ -3862,7 +3740,6 @@ private void processCommandImpl(global::com.codename1.ui.events.ActionEvent n1, 
     _r2_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o)._flocalCommandListeners;
     _r3_o = ((global::com.codename1.ui.Form) _r1_o).getName();
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label9;
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r5_o);
     goto label9;
@@ -3936,7 +3813,6 @@ public virtual void addComponentListener(global::java.lang.String n1, global::ja
     label25:;
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o)._flocalComponentListeners;
     _r1_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r5_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label49;
     _r1_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r1_o).@this();
@@ -3952,7 +3828,6 @@ public virtual void addComponentListener(global::java.lang.String n1, global::ja
     label59:;
     _r3.i = ((_r0_o != null) && (_r0_o is global::java.util.Vector)) ? 1 : 0;
     if (_r3.i == 0) goto label69;
-    _r0_o = _r0_o;
     ((global::java.util.Vector) _r0_o).addElement((global::java.lang.Object) _r7_o);
     goto label24;
     label69:;
@@ -3987,17 +3862,14 @@ public virtual void removeComponentListener(global::java.lang.String n1, global:
     label5:;
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o)._flocalComponentListeners;
     _r2_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r5_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label4;
     _r1_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r6_o);
     if (_r1_o == null) goto label4;
     _r3.i = ((_r1_o != null) && (_r1_o is global::java.util.Vector)) ? 1 : 0;
     if (_r3.i == 0) goto label44;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     ((global::java.util.Vector) _r3_o).removeElement((global::java.lang.Object) _r7_o);
-    _r1_o = _r1_o;
     _r3.i = ((global::java.util.Vector) _r1_o).size();
     if (_r3.i != 0) goto label4;
     ((global::java.util.Hashtable) _r2_o).remove((global::java.lang.Object) _r6_o);
@@ -4026,7 +3898,6 @@ public virtual void addCommandListener(global::java.lang.String n1, global::com.
     label11:;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r2_o)._flocalCommandListeners;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label31;
     _r0_o = new global::com.codename1.ui.util.EventDispatcher();
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).@this();
@@ -4055,7 +3926,6 @@ public virtual void removeCommandListener(global::java.lang.String n1, global::c
     label5:;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r2_o)._flocalCommandListeners;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label4;
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).removeListener((global::java.lang.Object) _r4_o);
     goto label4;
@@ -4094,7 +3964,6 @@ private global::System.Object getFormListenerInstance(global::com.codename1.ui.C
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)33)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 33))}));
     _r1_o = ((global::com.codename1.ui.util.EmbeddedContainer) _r6_o).getClientProperty((global::java.lang.String) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label16;
     _r2_o = _r1_o;
     label15:;
@@ -4118,7 +3987,6 @@ private global::System.Object getFormListenerInstance(global::com.codename1.ui.C
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)33)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 33))}));
     _r1_o = ((global::com.codename1.ui.Form) _r0_o).getClientProperty((global::java.lang.String) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label48;
     _r2_o = _r1_o;
     goto label15;
@@ -4224,7 +4092,6 @@ public virtual global::System.Object getFormState(global::com.codename1.ui.Form 
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));
     _r5_o = new global::java.lang.Integer();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.List) _r3_o).getSelectedIndex();
     ((global::java.lang.Integer) _r5_o).@this((int) _r3.i);
@@ -4274,7 +4141,6 @@ public virtual void restoreComponentState(global::com.codename1.ui.Component n1,
     _r7.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label80;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).findByName((global::java.lang.String) _r2_o, (global::com.codename1.ui.Component) _r9_o);
     if (_r1_o == null) goto label10;
     _r6_o = ((global::java.util.Hashtable) _r10_o).get((global::java.lang.Object) _r2_o);
@@ -4282,18 +4148,14 @@ public virtual void restoreComponentState(global::com.codename1.ui.Component n1,
     if (_r7.i == 0) goto label76;
     _r7.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r7.i == 0) goto label52;
-    _r1_o = _r1_o;
-    _r6_o = _r6_o;
     _r7.i = ((global::java.lang.Integer) _r6_o).intValue();
     ((global::com.codename1.ui.List) _r1_o).setSelectedIndex((int) _r7.i);
     goto label10;
     label52:;
     _r7.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Tabs)) ? 1 : 0;
     if (_r7.i == 0) goto label76;
-    _r6_o = _r6_o;
     _r5.i = ((global::java.lang.Integer) _r6_o).intValue();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r7.i = ((global::com.codename1.ui.Tabs) _r4_o).getTabCount();
     if (_r7.i <= _r5.i) goto label10;
@@ -4360,7 +4222,6 @@ private void storeComponentStateImpl(global::com.codename1.ui.Component n1, glob
     _r6_o = ((global::com.codename1.ui.Component) _r9_o).getName();
     _r7_o = new global::java.lang.Integer();
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Tabs) _r5_o).getSelectedIndex();
     ((global::java.lang.Integer) _r7_o).@this((int) _r5.i);
@@ -4369,7 +4230,6 @@ private void storeComponentStateImpl(global::com.codename1.ui.Component n1, glob
     _r5.i = ((_r9_o != null) && (_r9_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label74;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     _r3.i = 0;
@@ -4384,7 +4244,6 @@ private void storeComponentStateImpl(global::com.codename1.ui.Component n1, glob
     if (_r5.i == 0) goto label97;
     _r5_o = ((global::com.codename1.ui.Component) _r9_o).getName();
     _r6_o = new global::java.lang.Integer();
-    _r9_o = _r9_o;
     _r7.i = ((global::com.codename1.ui.List) _r9_o).getSelectedIndex();
     ((global::java.lang.Integer) _r6_o).@this((int) _r7.i);
     ((global::java.util.Hashtable) _r10_o).put((global::java.lang.Object) _r5_o, (global::java.lang.Object) _r6_o);
@@ -4488,7 +4347,6 @@ public virtual global::System.Object getContainerState(global::com.codename1.ui.
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));
     _r6_o = new global::java.lang.Integer();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4.i = ((global::com.codename1.ui.List) _r4_o).getSelectedIndex();
     ((global::java.lang.Integer) _r6_o).@this((int) _r4.i);
@@ -4528,7 +4386,6 @@ private void setContainerStateImpl(global::com.codename1.ui.Container n1, global
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115))}));
     _r1_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label16;
     label15:;
     return;
@@ -4542,9 +4399,7 @@ private void setContainerStateImpl(global::com.codename1.ui.Container n1, global
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));
     _r2_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label15;
-    _r0_o = _r0_o;
     _r3.i = ((global::java.lang.Integer) _r2_o).intValue();
     ((global::com.codename1.ui.List) _r0_o).setSelectedIndex((int) _r3.i);
     goto label15;
@@ -4622,7 +4477,6 @@ public virtual void back(global::com.codename1.ui.Component n1){
     _r5.i = ((global::java.util.Vector) _r3_o).size();
     _r5.i = _r5.i - _r6.i;
     _r4_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r5.i);
-    _r4_o = _r4_o;
     // Value=$cnt
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
@@ -4637,7 +4491,6 @@ public virtual void back(global::com.codename1.ui.Component n1){
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r5_o);
-    _r2_o = _r2_o;
     // Value=$cnt
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
@@ -4645,7 +4498,6 @@ public virtual void back(global::com.codename1.ui.Component n1){
     if (_r5.i != 0) goto label89;
     _r5_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).fetchResourceFile();
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).createContainer((global::com.codename1.ui.util.Resources) _r5_o, (global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.util.UIBuilder) _r8_o).initBackForm((global::com.codename1.ui.Form) _r1_o);
     ((global::com.codename1.ui.util.UIBuilder) _r8_o).onBackNavigation();
     ((global::com.codename1.ui.util.UIBuilder) _r8_o).beforeShow((global::com.codename1.ui.Form) _r1_o);
@@ -4679,12 +4531,10 @@ public virtual global::System.Object getPreviousFormName(global::com.codename1.u
     _r3.i = 1;
     _r2.i = _r2.i - _r3.i;
     _r1_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r2.i);
-    _r1_o = _r1_o;
     // Value=$name
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r4_o = _r4_o;
     _r2_o = _r4_o;
     label33:;
     return (global::java.lang.String) _r2_o;
@@ -4793,7 +4643,6 @@ private void initBackForm(global::com.codename1.ui.Form n1){
     _r0.i = ((global::java.util.Vector) _r8_o).size();
     _r0.i = _r0.i - _r5.i;
     _r0_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r0.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.util.UIBuilder) _r10_o).setFormState((global::com.codename1.ui.Form) _r11_o, (global::java.util.Hashtable) _r0_o);
     _r0.i = ((global::java.util.Vector) _r8_o).size();
     _r0.i = _r0.i - _r5.i;
@@ -4803,17 +4652,14 @@ private void initBackForm(global::com.codename1.ui.Form n1){
     _r0.i = ((global::java.util.Vector) _r8_o).size();
     _r0.i = _r0.i - _r5.i;
     _r9_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r0.i);
-    _r9_o = _r9_o;
     // Value=$name
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r0_o);
-    _r4_o = _r4_o;
     // Value=$title
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r10_o).getBackCommandText((global::java.lang.String) _r0_o);
     _r3.i = 99999999;
     // Value=
@@ -4866,7 +4712,6 @@ private void initBackContainer(global::com.codename1.ui.Container n1, global::co
     _r0.i = ((global::java.util.Vector) _r12_o).size();
     _r0.i = _r0.i - _r5.i;
     _r0_o = ((global::java.util.Vector) _r12_o).elementAt((int) _r0.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.util.UIBuilder) _r9_o).setContainerState((global::com.codename1.ui.Container) _r10_o, (global::java.util.Hashtable) _r0_o);
     _r0.i = ((global::java.util.Vector) _r12_o).size();
     _r0.i = _r0.i - _r5.i;
@@ -4876,17 +4721,14 @@ private void initBackContainer(global::com.codename1.ui.Container n1, global::co
     _r0.i = ((global::java.util.Vector) _r12_o).size();
     _r0.i = _r0.i - _r5.i;
     _r8_o = ((global::java.util.Vector) _r12_o).elementAt((int) _r0.i);
-    _r8_o = _r8_o;
     // Value=$name
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r0_o);
-    _r4_o = _r4_o;
     // Value=$title
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r9_o).getBackCommandText((global::java.lang.String) _r0_o);
     _r2_o = null;
     _r3.i = 99999999;
@@ -4943,7 +4785,6 @@ public virtual void reloadContainer(global::com.codename1.ui.Component n1){
     _r2_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o).fetchResourceFile();
     _r3_o = ((global::com.codename1.ui.Component) _r5_o).getName();
     _r1_o = ((global::com.codename1.ui.Component) _r5_o).getParent();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o).createContainer((global::com.codename1.ui.util.Resources) _r2_o, (global::java.lang.String) _r3_o, (global::com.codename1.ui.util.EmbeddedContainer) _r1_o);
     ((global::com.codename1.ui.util.UIBuilder) _r4_o).beforeShowContainer((global::com.codename1.ui.Container) _r0_o);
     _r1_o = ((global::com.codename1.ui.Component) _r5_o).getParent();
@@ -4973,7 +4814,6 @@ public virtual void reloadForm(){
     _r6_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).fetchResourceFile();
     _r7_o = ((global::com.codename1.ui.Form) _r1_o).getName();
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r8_o).createContainer((global::com.codename1.ui.util.Resources) _r6_o, (global::java.lang.String) _r7_o);
-    _r3_o = _r3_o;
     if (_r0_o == null) goto label55;
     ((global::com.codename1.ui.util.UIBuilder) _r8_o).setBackCommand((global::com.codename1.ui.Form) _r3_o, (global::com.codename1.ui.Command) _r0_o);
     _r6_o = null;
@@ -5061,13 +4901,11 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
     if (_r10.i == 0) goto label198;
     _r10_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).fetchResourceFile();
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).createContainer((global::com.codename1.ui.util.Resources) _r10_o, (global::java.lang.String) _r13_o, (global::com.codename1.ui.util.EmbeddedContainer) _r5_o);
     _r10.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Form)) ? 1 : 0;
     if (_r10.i == 0) goto label64;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.util.UIBuilder) _r12_o).showForm((global::com.codename1.ui.Form) _r2_o, (global::com.codename1.ui.Command) _r14_o, (global::com.codename1.ui.Component) _r15_o);
     _r10_o = _r1_o;
@@ -5093,7 +4931,6 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
     _r10.i = ((global::com.codename1.ui.util.UIBuilder) _r12_o).allowBackTo((global::java.lang.String) _r2_o) ? 1 : 0;
     if (_r10.i == 0) goto label148;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r10.i = ((global::com.codename1.ui.util.UIBuilder) _r12_o).isSameBackDestination((global::com.codename1.ui.Container) _r8_o, (global::com.codename1.ui.Container) _r1_o) ? 1 : 0;
     if (_r10.i != 0) goto label148;
@@ -5101,7 +4938,6 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
     _r11_o = null;
     ((global::com.codename1.ui.util.UIBuilder) _r12_o).getFormListenerInstance((global::com.codename1.ui.Component) _r10_o, (global::com.codename1.ui.util.EmbeddedContainer) _r11_o);
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r10_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).getContainerState((global::com.codename1.ui.Container) _r8_o);
     ((global::java.util.Vector) _r6_o).addElement((global::java.lang.Object) _r10_o);
@@ -5134,7 +4970,6 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
     _r10_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).fetchResourceFile();
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r12_o).createContainer((global::com.codename1.ui.util.Resources) _r10_o, (global::java.lang.String) _r13_o);
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.util.UIBuilder) _r12_o).showForm((global::com.codename1.ui.Form) _r2_o, (global::com.codename1.ui.Command) _r14_o, (global::com.codename1.ui.Component) _r15_o);
     _r10_o = _r1_o;
@@ -5145,7 +4980,6 @@ private global::System.Object showContainerImpl(global::java.lang.String n1, glo
     _r10.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Form)) ? 1 : 0;
     if (_r10.i == 0) goto label238;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.util.UIBuilder) _r12_o).showForm((global::com.codename1.ui.Form) _r2_o, (global::com.codename1.ui.Command) _r14_o, (global::com.codename1.ui.Component) _r15_o);
     label235:;
@@ -5260,18 +5094,15 @@ public virtual global::System.Object createBackLazyValue(global::com.codename1.u
     _r2.i = 2;
     _r0.i = _r0.i - _r2.i;
     _r9_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r0.i);
-    _r9_o = _r9_o;
     // Value=$title
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r10_o).getBackCommandText((global::java.lang.String) _r0_o);
     // Value=$name
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r0_o);
-    _r4_o = _r4_o;
     _r2_o = null;
     _r3.i = 99999999;
     // Value=
@@ -5327,7 +5158,6 @@ public virtual global::System.Object createForm(global::com.codename1.ui.Form n1
     if (_r0.i == 0) goto label38;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getCurrent();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Dialog) _r0_o).dispose();
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r9_o = ((global::com.codename1.ui.Display) _r0_o).getCurrent();
@@ -5345,12 +5175,10 @@ public virtual global::System.Object createForm(global::com.codename1.ui.Form n1
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)37)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 37))}));
     _r11_o = ((global::com.codename1.ui.Form) _r13_o).getClientProperty((global::java.lang.String) _r0_o);
-    _r11_o = _r11_o;
     // Value=cn1$sideMenuParent
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r7_o = ((global::com.codename1.ui.Form) _r9_o).getClientProperty((global::java.lang.String) _r0_o);
-    _r7_o = _r7_o;
     if (_r7_o == null) goto label82;
     _r9_o = ((global::com.codename1.ui.SideMenuBar) _r7_o).getParentForm();
     label82:;
@@ -5434,7 +5262,6 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
     if (_r3.i == 0) goto label35;
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r3_o = ((global::com.codename1.ui.Display) _r3_o).getCurrent();
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Dialog) _r3_o).dispose();
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r12_o = ((global::com.codename1.ui.Display) _r3_o).getCurrent();
@@ -5469,7 +5296,6 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
     _r4.i = 1;
     _r3.i = _r3.i - _r4.i;
     _r18_o = ((global::java.util.Vector) _r13_o).elementAt((int) _r3.i);
-    _r18_o = _r18_o;
     ((global::com.codename1.ui.util.UIBuilder) _r16_o).setFormState((global::com.codename1.ui.Form) _r17_o, (global::java.util.Hashtable) _r18_o);
     label107:;
     ((global::java.util.Vector) _r13_o).clear();
@@ -5507,12 +5333,10 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
     _r0_o = _r17_o;
     _r1_o = _r3_o;
     _r15_o = ((global::com.codename1.ui.Form) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r15_o = _r15_o;
     // Value=cn1$sideMenuParent
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r10_o = ((global::com.codename1.ui.Form) _r12_o).getClientProperty((global::java.lang.String) _r3_o);
-    _r10_o = _r10_o;
     if (_r10_o == null) goto label186;
     _r12_o = ((global::com.codename1.ui.SideMenuBar) _r10_o).getParentForm();
     label186:;
@@ -5592,7 +5416,6 @@ private void showForm(global::com.codename1.ui.Form n1, global::com.codename1.ui
     goto label222;
     label325:;
     _r0_o = _r17_o;
-    _r0_o = _r0_o;
     _r18_o = _r0_o;
     ((global::com.codename1.ui.Dialog) _r18_o).showModeless();
     ((global::com.codename1.ui.util.UIBuilder) _r16_o).postShowImpl((global::com.codename1.ui.Form) _r17_o);
@@ -5658,7 +5481,6 @@ public virtual global::System.Object showForm(global::java.lang.String n1, globa
     _r4_o = n2;
     _r1_o = ((global::com.codename1.ui.util.UIBuilder) _r2_o).fetchResourceFile();
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r2_o).createContainer((global::com.codename1.ui.util.Resources) _r1_o, (global::java.lang.String) _r3_o);
-    _r0_o = _r0_o;
     _r1_o = null;
     ((global::com.codename1.ui.util.UIBuilder) _r2_o).showForm((global::com.codename1.ui.Form) _r0_o, (global::com.codename1.ui.Command) _r4_o, (global::com.codename1.ui.Component) _r1_o);
     return (global::com.codename1.ui.Form) _r0_o;
@@ -5803,7 +5625,6 @@ public virtual global::System.Object getRootAncestor(global::com.codename1.ui.Co
     label24:;
     return (global::com.codename1.ui.Container) _r0_o;
     label25:;
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     goto label24;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UIBuilder: com.codename1.ui.Container getRootAncestor(com.codename1.ui.Component)]

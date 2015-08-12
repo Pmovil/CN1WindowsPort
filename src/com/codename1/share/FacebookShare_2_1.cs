@@ -36,7 +36,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r7_o = this;
     _r8_o = n1;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = ((global::com.codename1.io.NetworkEvent) _r2_o).getResponseCode();
     _r3_o = global::com.codename1.facebook.FaceBookAccess.getInstance();

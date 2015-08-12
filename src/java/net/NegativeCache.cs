@@ -101,7 +101,6 @@ public static global::System.Object getFailedMessage(global::java.lang.String n1
     global::java.net.NegativeCache.checkCacheExists();
     _r0_o = global::java.net.NegativeCache._fnegCache;
     _r0_o = ((global::java.net.NegativeCache) _r0_o).get((global::java.lang.Object) _r8_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label50;
     _r1_o = new global::org.apache.harmony.luni.util.PriviAction();
     // Value=networkaddress.cache.negative.ttl
@@ -109,7 +108,6 @@ public static global::System.Object getFailedMessage(global::java.lang.String n1
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r1_o).@this((global::java.lang.String) _r3_o);
     _r1_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

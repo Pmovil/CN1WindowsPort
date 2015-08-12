@@ -263,7 +263,6 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     if (_r1.i >= _r2.i) goto label79;
     _r2_o = ((global::com.codename1.components.ImageViewer) _r4_o).getImageList();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r2_o).getItemAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     _r1.i = _r1.i + 1;
     goto label61;
@@ -302,7 +301,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label27;
     if (_r4_o == null) goto label25;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label25;
     _r0.i = 1;
@@ -320,7 +318,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label42;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.ImageViewer) _r2_o).setImage((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label24;
@@ -337,8 +334,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     goto label24;
     label57:;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.components.ImageViewer) _r2_o).setImageList((global::com.codename1.ui.list.ListModel) _r0_o);
     goto label55;
@@ -348,7 +343,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label85;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.ImageViewer) _r2_o).setSwipePlaceholder((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label24;
@@ -576,7 +570,6 @@ private global::System.Object getImageRight(){
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r1.i = ((global::com.codename1.components.ImageViewer) _r2_o).getImageRightPos();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
-    _r2_o = _r2_o;
     return (global::com.codename1.ui.Image) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageRight()]
 }
@@ -632,7 +625,6 @@ private global::System.Object getImageLeft(){
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r1.i = ((global::com.codename1.components.ImageViewer) _r2_o).getImageLeftPos();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
-    _r2_o = _r2_o;
     return (global::com.codename1.ui.Image) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageLeft()]
 }
@@ -1373,7 +1365,6 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     if (_r0_o != null) goto label22;
     _r0.i = 0;
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r3_o).getItemAt((int) _r0.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.components.ImageViewer) _r2_o)._fimage = (global::com.codename1.ui.Image) _r0_o;
     label22:;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
@@ -1383,12 +1374,10 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     ((global::com.codename1.ui.list.ListModel) _r0_o).removeDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r1_o);
     _r1_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r1_o).removeSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     label54:;
     ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages = (global::com.codename1.ui.list.ListModel) _r3_o;
@@ -1400,7 +1389,6 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     goto label54;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: void setImageList(com.codename1.ui.list.ListModel)]

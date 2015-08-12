@@ -81,7 +81,6 @@ public virtual global::System.Object toArray(global::org.xmlvm._nArrayAdapter<gl
     _r0_o = ((global::java.lang.Object) _r6_o).getClass();
     _r0_o = ((global::java.lang.Class) _r0_o).getComponentType();
     _r0_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r0_o, (int) _r1.i);
-    _r0_o = _r0_o;
     label21:;
     _r2_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntrySet) _r5_o).iterator();
     _r3.i = 0;
@@ -268,7 +267,6 @@ public virtual bool add(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.util.Collections_2CheckedMap_2CheckedEntrySet) _r1_o).add((global::java.util.Map_2Entry) _r2_o) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[java.util.Collections$CheckedMap$CheckedEntrySet: boolean add(java.lang.Object)]

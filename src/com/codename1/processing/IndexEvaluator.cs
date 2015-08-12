@@ -160,7 +160,6 @@ private global::System.Object _1getByLast(global::java.util.List n1, global::jav
     return (global::com.codename1.processing.StructuredContent) _r3_o;
     label60:;
     _r6_o = ((global::java.util.List) _r7_o).get((int) _r0.i);
-    _r6_o = _r6_o;
     _r3_o = _r6_o;
     goto label59;
 //XMLVM_END_WRAPPER[com.codename1.processing.IndexEvaluator: com.codename1.processing.StructuredContent _getByLast(java.util.List, java.lang.String)]
@@ -192,7 +191,6 @@ public override global::System.Object evaluateSingle(global::java.util.List n1, 
     return (global::java.lang.Object) _r1_o;
     label21:;
     _r4_o = ((global::java.util.List) _r5_o).get((int) _r0.i);
-    _r4_o = _r4_o;
     _r1_o = _r4_o;
     goto label20;
     label29:;
@@ -208,7 +206,6 @@ public override global::System.Object evaluateSingle(global::java.util.List n1, 
     _r2.i = 1;
     _r1.i = _r1.i - _r2.i;
     _r4_o = ((global::java.util.List) _r5_o).get((int) _r1.i);
-    _r4_o = _r4_o;
     _r1_o = _r4_o;
     goto label20;
     label59:;

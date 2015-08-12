@@ -46,7 +46,6 @@ public virtual void dataChanged(int n1, int n2){
     if (_r1.i == 0) goto label40;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel_22) _r3_o)._fval_2l;
     _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o).getModel();
-    _r0_o = _r0_o;
     label18:;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel_22) _r3_o)._fval_2search;
     _r1_o = ((global::com.codename1.ui.TextField) _r1_o).getText();

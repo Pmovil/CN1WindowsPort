@@ -47,7 +47,6 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1, globa
     _r6.i = ((_r10_o != null) && (_r10_o is global::org.w3c.dom.Node)) ? 1 : 0;
     if (_r6.i == 0) goto label155;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r4_o = ((global::gnu.xml.xpath.Expr) _r9_o).evaluate((global::org.w3c.dom.Node) _r1_o, (int) _r7.i, (int) _r7.i);
     _r6_o = global::javax.xml.xpath.XPathConstants._fSTRING;
@@ -90,7 +89,6 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1, globa
     _r6.i = ((_r4_o != null) && (_r4_o is global::java.util.Collection)) ? 1 : 0;
     if (_r6.i == 0) goto label112;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r6.i = ((global::java.util.Collection) _r3_o).size();
     switch (_r6.i) {
@@ -135,7 +133,6 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1, globa
     label140:;
     if (_r4_o == null) goto label153;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r4_o = new global::gnu.xml.xpath.Expr_2ExprNodeSet();
     ((global::gnu.xml.xpath.Expr_2ExprNodeSet) _r4_o).@this((global::java.util.Collection) _r2_o);
@@ -159,7 +156,6 @@ public virtual global::System.Object evaluate(global::java.lang.Object n1){
     _r2_o = n1;
     _r0_o = global::javax.xml.xpath.XPathConstants._fSTRING;
     _r1_o = ((global::gnu.xml.xpath.Expr) _r1_o).evaluate((global::java.lang.Object) _r2_o, (global::javax.xml.@namespace.QName) _r0_o);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: java.lang.String evaluate(java.lang.Object)]
 }
@@ -236,7 +232,6 @@ public virtual global::System.Object evaluate(global::org.xml.sax.InputSource n1
     _r2_o = n1;
     _r0_o = global::javax.xml.xpath.XPathConstants._fSTRING;
     _r1_o = ((global::gnu.xml.xpath.Expr) _r1_o).evaluate((global::org.xml.sax.InputSource) _r2_o, (global::javax.xml.@namespace.QName) _r0_o);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: java.lang.String evaluate(org.xml.sax.InputSource)]
 }
@@ -268,14 +263,12 @@ public static global::System.Object _1id(global::org.w3c.dom.Node n1, global::ja
     _r8.i = ((_r10_o != null) && (_r10_o is global::java.util.Collection)) ? 1 : 0;
     if (_r8.i == 0) goto label41;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r3_o = ((global::java.util.Collection) _r4_o).iterator();
     label17:;
     _r8.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r8.i == 0) goto label87;
     _r8_o = ((global::java.util.Iterator) _r3_o).next();
-    _r8_o = _r8_o;
     _r7_o = global::gnu.xml.xpath.Expr.stringValue((global::org.w3c.dom.Node) _r8_o);
     _r8_o = global::gnu.xml.xpath.Expr._1id((global::org.w3c.dom.Node) _r9_o, (global::java.lang.Object) _r7_o);
     ((global::java.util.Set) _r5_o).addAll((global::java.util.Collection) _r8_o);
@@ -284,7 +277,6 @@ public static global::System.Object _1id(global::org.w3c.dom.Node n1, global::ja
     _r8.i = ((_r9_o != null) && (_r9_o is global::org.w3c.dom.Document)) ? 1 : 0;
     if (_r8.i == 0) goto label81;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r1_o = _r8_o;
     label50:;
@@ -451,7 +443,6 @@ public static global::System.Object firstNode(global::java.util.Collection n1){
     global::java.util.Collections.sort((global::java.util.List) _r0_o, (global::java.util.Comparator) _r1_o);
     _r1.i = 0;
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     return (global::org.w3c.dom.Node) _r2_o;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: org.w3c.dom.Node firstNode(java.util.Collection)]
 }
@@ -480,7 +471,6 @@ public static global::System.Object _1string(global::org.w3c.dom.Node n1, global
     label9:;
     _r6.i = ((_r10_o != null) && (_r10_o is global::java.lang.String)) ? 1 : 0;
     if (_r6.i == 0) goto label17;
-    _r10_o = _r10_o;
     _r6_o = _r10_o;
     goto label8;
     label17:;
@@ -491,7 +481,6 @@ public static global::System.Object _1string(global::org.w3c.dom.Node n1, global
     label26:;
     _r6.i = ((_r10_o != null) && (_r10_o is global::java.lang.Double)) ? 1 : 0;
     if (_r6.i == 0) goto label93;
-    _r10_o = _r10_o;
     _r1.d = ((global::java.lang.Double) _r10_o).doubleValue();
     _r6.i = global::java.lang.Double.isNaN((double) _r1.d) ? 1 : 0;
     if (_r6.i == 0) goto label45;
@@ -539,7 +528,6 @@ public static global::System.Object _1string(global::org.w3c.dom.Node n1, global
     _r6.i = ((_r10_o != null) && (_r10_o is global::java.util.Collection)) ? 1 : 0;
     if (_r6.i == 0) goto label119;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6.i = ((global::java.util.Collection) _r4_o).isEmpty() ? 1 : 0;
     if (_r6.i == 0) goto label110;
@@ -575,7 +563,6 @@ public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Obje
     _r6.i = 0;
     _r2.i = ((_r9_o != null) && (_r9_o is global::java.lang.Boolean)) ? 1 : 0;
     if (_r2.i == 0) goto label13;
-    _r9_o = _r9_o;
     _r2.i = ((global::java.lang.Boolean) _r9_o).booleanValue() ? 1 : 0;
     label12:;
     return _r2.i!=0;
@@ -583,7 +570,6 @@ public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Obje
     _r2.i = ((_r9_o != null) && (_r9_o is global::java.lang.Double)) ? 1 : 0;
     if (_r2.i == 0) goto label43;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.lang.Double) _r1_o).isNaN() ? 1 : 0;
     if (_r2.i == 0) goto label29;
@@ -602,7 +588,6 @@ public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Obje
     label43:;
     _r2.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r2.i == 0) goto label59;
-    _r9_o = _r9_o;
     _r2.i = ((global::java.lang.String) _r9_o).length();
     if (_r2.i == 0) goto label57;
     _r2.i = _r7.i;
@@ -613,7 +598,6 @@ public static bool _1boolean(global::org.w3c.dom.Node n1, global::java.lang.Obje
     label59:;
     _r2.i = ((_r9_o != null) && (_r9_o is global::java.util.Collection)) ? 1 : 0;
     if (_r2.i == 0) goto label75;
-    _r9_o = _r9_o;
     _r2.i = ((global::java.util.Collection) _r9_o).size();
     if (_r2.i == 0) goto label73;
     _r2.i = _r7.i;
@@ -646,14 +630,12 @@ public static double _1number(global::org.w3c.dom.Node n1, global::java.lang.Obj
     label8:;
     _r4.i = ((_r8_o != null) && (_r8_o is global::java.lang.Double)) ? 1 : 0;
     if (_r4.i == 0) goto label19;
-    _r8_o = _r8_o;
     _r4.d = ((global::java.lang.Double) _r8_o).doubleValue();
     label18:;
     return _r4.d;
     label19:;
     _r4.i = ((_r8_o != null) && (_r8_o is global::java.lang.Boolean)) ? 1 : 0;
     if (_r4.i == 0) goto label37;
-    _r8_o = _r8_o;
     _r4.i = ((global::java.lang.Boolean) _r8_o).booleanValue() ? 1 : 0;
     if (_r4.i == 0) goto label34;
     _r4.d = 1.0D;
@@ -665,14 +647,12 @@ public static double _1number(global::org.w3c.dom.Node n1, global::java.lang.Obj
     _r4.i = ((_r8_o != null) && (_r8_o is global::java.util.Collection)) ? 1 : 0;
     if (_r4.i == 0) goto label70;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r8_o = global::gnu.xml.xpath.Expr.stringValue((global::java.util.Collection) _r2_o);
     _r7_o = _r8_o;
     label50:;
     _r4.i = ((_r7_o != null) && (_r7_o is global::java.lang.String)) ? 1 : 0;
     if (_r4.i == 0) goto label68;
-    _r7_o = _r7_o;
     _r3_o = ((global::java.lang.String) _r7_o).trim();
     try {
     _r4.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r3_o);
@@ -716,7 +696,6 @@ public static global::System.Object stringValue(global::java.util.Collection n1)
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label29;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r2_o = global::gnu.xml.xpath.Expr.stringValue((global::org.w3c.dom.Node) _r3_o);
     ((global::gnu.java.lang.CPStringBuilder) _r0_o).append((global::java.lang.String) _r2_o);
     goto label9;
@@ -800,7 +779,6 @@ public static int intValue(global::java.lang.Object n1){
     _r2.i = ((_r4_o != null) && (_r4_o is global::java.lang.Double)) ? 1 : 0;
     if (_r2.i == 0) goto label21;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.lang.Double) _r1_o).isNaN() ? 1 : 0;
     if (_r2.i == 0) goto label16;

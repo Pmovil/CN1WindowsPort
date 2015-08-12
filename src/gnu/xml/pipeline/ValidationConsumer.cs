@@ -835,7 +835,6 @@ public override void endDTD(){
     label40:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r7_o)._fnDeferred;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r7_o)._fnotations;
     _r3.i = ((global::java.util.Vector) _r3_o).contains((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r3.i != 0) goto label80;
@@ -858,7 +857,6 @@ public override void endDTD(){
     label84:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r7_o)._fuDeferred;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r7_o)._funparsed;
     _r3.i = ((global::java.util.Vector) _r3_o).contains((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r3.i != 0) goto label124;
@@ -919,7 +917,6 @@ public override void attributeDecl(global::java.lang.String n1, global::java.lan
     label5:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r9_o)._felements;
     _r0_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r10_o);
-    _r0_o = _r0_o;
     _r1_o = new global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo();
     _r2_o = null;
     ((global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo) _r1_o).@this((global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo) _r2_o);
@@ -1101,10 +1098,8 @@ public override void attributeDecl(global::java.lang.String n1, global::java.lan
     goto label277;
     label301:;
     _r12_o = ((global::java.util.Enumeration) _r6_o).nextElement();
-    _r12_o = _r12_o;
     _r7_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r0_o)._fattributes;
     _r13_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r12_o);
-    _r13_o = _r13_o;
     _r7_o = ((global::gnu.xml.pipeline.ValidationConsumer_2AttributeInfo) _r13_o)._ftype;
     if (_r3_o == _r7_o) goto label321;
     if (_r5.i != 0) goto label106;
@@ -1309,7 +1304,6 @@ public override void elementDecl(global::java.lang.String n1, global::java.lang.
     label5:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r3_o)._felements;
     _r0_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label25;
     _r0_o = new global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo();
     ((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r0_o).@this((global::java.lang.String) _r4_o);
@@ -1556,7 +1550,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     label25:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r8_o)._felements;
     _r0_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r11_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label39;
     _r1_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r0_o)._fmodel;
     if (_r1_o != null) goto label222;
@@ -1623,7 +1616,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     label146:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r8_o)._fcontentStack;
     _r0_o = ((global::java.util.Stack) _r0_o).peek();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label25;
     _r1_o = ((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r0_o).acceptElement((global::java.lang.String) _r11_o);
     if (_r1_o != null) goto label208;
@@ -1670,7 +1662,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     if (_r0_o == null) goto label253;
     _r1_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo) _r0_o)._fattributes;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label286;
     label253:;
     _r1_o = new global::java.lang.StringBuilder();
@@ -1962,9 +1953,7 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     goto label281;
     label773:;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     // Value=#REQUIRED
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)35)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 81)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68))}));
@@ -2032,7 +2021,6 @@ public override void characters(global::org.xmlvm._nArrayAdapter<char> n1, int n
     label43:;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r3_o)._fcontentStack;
     _r0_o = ((global::java.util.Stack) _r0_o).peek();
-    _r0_o = _r0_o;
     goto label9;
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void characters(char[], int, int)]
 }
@@ -2055,7 +2043,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     try {
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r3_o)._fcontentStack;
     _r0_o = ((global::java.util.Stack) _r0_o).pop();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label52;
     _r1.i = ((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r0_o).completed() ? 1 : 0;
     if (_r1.i != 0) goto label52;
@@ -2147,7 +2134,6 @@ public override void endDocument(){
     return;
     label19:;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r2_o = global::java.lang.Boolean._fFALSE;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer) _r4_o)._fids;
     _r3_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r0_o);

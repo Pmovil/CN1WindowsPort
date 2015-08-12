@@ -80,7 +80,6 @@ public virtual int getSectionRowIndex(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTableRowElement) _r4_o).getParentElement((global::java.lang.String) _r0_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label61;
     // Value=thead
     _r2_o = new global::java.lang.String();
@@ -157,7 +156,6 @@ public virtual global::System.Object getCells(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTableRowElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=th
     _r0_o = new global::java.lang.String();
@@ -332,7 +330,6 @@ public virtual global::System.Object insertCell(int n1){
     ((global::gnu.xml.dom.html2.DomHTMLTableRowElement) _r4_o).appendChild((global::org.w3c.dom.Node) _r1_o);
     label19:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     return (global::org.w3c.dom.html2.HTMLElement) _r4_o;
     label24:;

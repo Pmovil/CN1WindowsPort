@@ -181,7 +181,6 @@ public virtual void setParameter(global::java.lang.String n1, global::java.lang.
     if (_r2.i == 0) goto label125;
     try {
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::gnu.xml.dom.DomDocumentConfiguration) _r7_o)._ferrorHandler = (global::org.w3c.dom.DOMErrorHandler) _r1_o;
     }
@@ -606,7 +605,6 @@ public virtual global::System.Object item(int n1){
     try {
     _r0_o = global::gnu.xml.dom.DomDocumentConfiguration._fSUPPORTED_1PARAMETERS;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

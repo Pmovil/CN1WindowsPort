@@ -504,7 +504,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = base.equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r2_o)._faxis;
-    _r3_o = _r3_o;
     _r1.i = ((global::com.codename1.ui.layouts.BoxLayout) _r3_o)._faxis;
     if (_r0.i != _r1.i) goto label16;
     _r0.i = 1;

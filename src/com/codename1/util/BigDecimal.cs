@@ -543,7 +543,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label5;
     label12:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.util.BigDecimal) _r6_o)._fbigInt;
     _r3_o = ((global::com.codename1.util.BigDecimal) _r1_o)._fbigInt;

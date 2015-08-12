@@ -1033,7 +1033,6 @@ public override bool equals(global::java.lang.Object n1){
     _r6_o = ((global::java.lang.Object) _r10_o).getClass();
     if (_r5_o != _r6_o) goto label187;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.plaf.Border) _r1_o)._ftype;
     if (_r5.i != _r9.i) goto label53;
@@ -1861,7 +1860,6 @@ private void paintBorderBackground(global::com.codename1.ui.Graphics n1, int n2,
     _r0_o = _r6_o;
     _r1_o = _r83_o;
     _r70_o = ((global::com.codename1.ui.Display) _r0_o).extractHardRef((global::java.lang.Object) _r1_o);
-    _r70_o = _r70_o;
     label85:;
     if (_r70_o == null) goto label112;
     _r6.i = ((global::com.codename1.ui.Image) _r70_o).getWidth();

@@ -53,7 +53,6 @@ private int getFilterOffset(int n1){
     if (_r0.i <= _r2.i) goto label27;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._ffilter;
     _r1_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     goto label5;
     label27:;
@@ -99,7 +98,6 @@ public virtual void sort(bool n1){
     if (_r7.i >= _r0.i) goto label48;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r8_o)._ffilter;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r0_o;
     _r7.i = _r7.i + 1;
     goto label27;
@@ -145,11 +143,9 @@ private int compareObj(global::java.lang.Object n1, global::java.lang.Object n2,
     _r5_o = n2;
     _r6.i = n3 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o)._funderlying;
-    _r4_o = _r4_o;
     _r1.i = ((global::java.lang.Integer) _r4_o).intValue();
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o)._funderlying;
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r1_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o).compare((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r1_o, 0!=_r6.i);
@@ -179,10 +175,8 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r3.i = ((_r6_o != null) && (_r6_o is global::java.lang.String)) ? 1 : 0;
     if (_r3.i == 0) goto label29;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     label14:;
     _r1_o = ((global::java.lang.String) _r1_o).toUpperCase();
@@ -192,18 +186,14 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     label28:;
     return _r3.i;
     label29:;
-    _r6_o = _r6_o;
     // Value=name
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.util.Map) _r6_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
-    _r7_o = _r7_o;
     // Value=name
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Map) _r7_o).get((global::java.lang.Object) _r4_o);
-    _r2_o = _r2_o;
     goto label14;
     label50:;
     _r3.i = ((global::java.lang.String) _r1_o).compareTo((global::java.lang.String) _r2_o);
@@ -485,7 +475,6 @@ public virtual bool check(global::java.lang.Object n1, global::java.lang.String 
     _r3.i = ((_r7_o != null) && (_r7_o is global::java.util.Map)) ? 1 : 0;
     if (_r3.i == 0) goto label23;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=name
     _r3_o = new global::java.lang.String();
@@ -536,7 +525,6 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r4_o)._fstartsWithMode ? 1 : 0;
     if (_r0.i == 0) goto label24;
     if (_r5_o == null) goto label22;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.lang.String) _r5_o).toUpperCase();
     _r0.i = ((global::java.lang.String) _r0_o).startsWith((global::java.lang.String) _r6_o) ? 1 : 0;
     if (_r0.i == 0) goto label22;
@@ -548,7 +536,6 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
     goto label21;
     label24:;
     if (_r5_o == null) goto label41;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.lang.String) _r5_o).toUpperCase();
     _r0.i = ((global::java.lang.String) _r0_o).indexOf((global::java.lang.String) _r6_o);
     _r1.i = -1;
@@ -753,7 +740,6 @@ public virtual void dataChanged(int n1, int n2){
     if (_r0.i >= _r1.i) goto label9;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._flisteners;
     _r1_o = ((global::java.util.ArrayList) _r1_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.events.DataChangedListener) _r1_o).dataChanged((int) _r3.i, (int) _r4.i);
     _r0.i = _r0.i + 1;
     goto label11;

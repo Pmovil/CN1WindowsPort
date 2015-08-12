@@ -32,7 +32,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = this;
     _r4_o = n1;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess_217) _r3_o)._fval_2err;
     ((global::java.util.Vector) _r2_o).addElement((global::java.lang.Object) _r1_o);

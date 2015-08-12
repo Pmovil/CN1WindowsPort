@@ -183,7 +183,6 @@ public virtual bool animate(){
     if (_r3.i >= _r0.i) goto label292;
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fanimatedComponents;
     _r1_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r3.i);
-    _r1_o = _r1_o;
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fmotions;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r10.i];
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r3.i];

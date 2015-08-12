@@ -228,7 +228,6 @@ public override global::System.Object clone(){
     global::System.Threading.Monitor.Enter(_r4_o);
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Hashtable) _r4_o)._felementData;
     _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
@@ -262,7 +261,6 @@ public override global::System.Object clone(){
     if (_r1_o == null) goto label39;
     _r3_o = ((global::java.util.Hashtable) _r0_o)._felementData;
     _r1_o = ((global::java.util.Hashtable_2Entry) _r1_o).clone();
-    _r1_o = _r1_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r1_o;
     }
     catch (global::System.Exception e) {
@@ -558,7 +556,6 @@ public override bool equals(global::java.lang.Object n1){
     try {
     _r0.i = ((_r6_o != null) && (_r6_o is global::java.util.Map)) ? 1 : 0;
     if (_r0.i == 0) goto label60;
-    _r6_o = _r6_o;
     _r0.i = ((global::java.util.Hashtable) _r5_o).size();
     _r1.i = ((global::java.util.Map) _r6_o).size();
     if (_r0.i == _r1.i) goto label26;
@@ -608,7 +605,6 @@ public override bool equals(global::java.lang.Object n1){
     label46:;
     try {
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.Set) _r1_o).contains((global::java.lang.Object) _r0_o) ? 1 : 0;
     }
     catch (global::System.Exception e) {
@@ -794,7 +790,6 @@ public override int hashCode(){
     label19:;
     try {
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     if (_r3_o == _r5_o) goto label11;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
@@ -1174,7 +1169,6 @@ public virtual void putAll(global::java.util.Map n1){
     label17:;
     try {
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
     ((global::java.util.Hashtable) _r3_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r0_o);

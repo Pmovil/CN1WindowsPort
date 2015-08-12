@@ -60,9 +60,7 @@ public virtual void run(){
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation_22_22) _r11_o)._fval_2thumbs;
     _r2_o = ((global::com.codename1.impl.CodenameOneImplementation_22_22) _r11_o)._fval_2node;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     if (_r8_o != null) goto label84;
     _r3_o = new global::java.io.ByteArrayOutputStream();
@@ -71,7 +69,6 @@ public virtual void run(){
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation_22_22) _r11_o)._fval_2imageio;
     _r4_o = global::com.codename1.io.FileSystemStorage.getInstance();
     _r2_o = ((global::com.codename1.impl.CodenameOneImplementation_22_22) _r11_o)._fval_2node;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.io.FileSystemStorage) _r4_o).openInputStream((global::java.lang.String) _r2_o);
     // Value=jpeg
     _r4_o = new global::java.lang.String();

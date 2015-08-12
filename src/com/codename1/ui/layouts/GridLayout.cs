@@ -470,18 +470,15 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = base.equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r1.i == 0) goto label44;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.GridLayout) _r1_o).getRows();
     _r2.i = ((global::com.codename1.ui.layouts.GridLayout) _r3_o).getRows();
     if (_r1.i != _r2.i) goto label44;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.GridLayout) _r1_o).getColumns();
     _r2.i = ((global::com.codename1.ui.layouts.GridLayout) _r3_o).getColumns();
     if (_r1.i != _r2.i) goto label44;
-    _r4_o = _r4_o;
     _r1.i = ((global::com.codename1.ui.layouts.GridLayout) _r4_o)._fautoFit ? 1 : 0;
     _r2.i = ((global::com.codename1.ui.layouts.GridLayout) _r3_o)._fautoFit ? 1 : 0;
     if (_r1.i != _r2.i) goto label44;

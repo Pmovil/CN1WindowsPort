@@ -44,7 +44,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fthis_20;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fval_2l;
     _r0_o = ((global::com.codename1.ui.List) _r0_o).getSelectedItem();
-    _r0_o = _r0_o;
     global::com.codename1.ui.AutoCompleteTextField.access_2302((global::com.codename1.ui.AutoCompleteTextField) _r1_o, (global::java.lang.String) _r0_o);
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fthis_20;
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fthis_20;
@@ -62,7 +61,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4.i = ((global::com.codename1.ui.AutoCompleteTextField) _r0_o).getConstraint();
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fval_2l;
     _r0_o = ((global::com.codename1.ui.List) _r0_o).getSelectedItem();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Display) _r1_o).editString((global::com.codename1.ui.Component) _r2_o, (int) _r3.i, (int) _r4.i, (global::java.lang.String) _r0_o);
     label66:;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField_24) _r6_o)._fthis_20;

@@ -217,7 +217,6 @@ public void @this(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = null;
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::com.codename1.util.regex.RE) _r2_o).@this((global::com.codename1.util.regex.REProgram) _r0_o, (int) _r1.i);
     return;

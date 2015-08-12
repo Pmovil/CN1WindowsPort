@@ -994,10 +994,8 @@ public override global::System.Object clone(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.GregorianCalendar) _r2_o)._fcachedFields;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.GregorianCalendar) _r0_o)._fcachedFields = (global::org.xmlvm._nArrayAdapter<int>) _r2_o;
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: java.lang.Object clone()]
@@ -2012,7 +2010,6 @@ public override void computeFields(){
     _r0.i = ((global::java.util.TimeZone) _r0_o).useDaylightTime() ? 1 : 0;
     if (_r0.i == 0) goto label466;
     _r0_o = ((global::java.util.GregorianCalendar) _r14_o).getTimeZone();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.SimpleTimeZone) _r0_o).getDSTSavings();
     if (_r1.i != 0) goto label433;
     label166:;
@@ -3908,7 +3905,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = base.equals((global::java.lang.Object) _r5_o) ? 1 : 0;
     if (_r0.i == 0) goto label18;
     _r0.l = ((global::java.util.GregorianCalendar) _r4_o)._fgregorianCutover;
-    _r5_o = _r5_o;
     _r2.l = ((global::java.util.GregorianCalendar) _r5_o)._fgregorianCutover;
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
     if (_r0.i != 0) goto label18;
@@ -4053,7 +4049,6 @@ public override int getActualMaximum(int n1){
     goto label27;
     label110:;
     _r0_o = ((global::java.util.GregorianCalendar) _r8_o).clone();
-    _r0_o = _r0_o;
     _r3.i = ((global::java.util.GregorianCalendar) _r8_o).get((int) _r4.i);
     if (_r3.i != _r5.i) goto label150;
     _r3.l = 9223372036854775807L;

@@ -35,7 +35,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     if (_r4_o == null) goto label16;
     _r1.i = ((_r4_o != null) && (_r4_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r1.i == 0) goto label16;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Integer) _r4_o).intValue();
     if (_r0.i != 0) goto label21;
     // Value=AM

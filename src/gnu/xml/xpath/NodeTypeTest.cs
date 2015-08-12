@@ -107,7 +107,6 @@ public override bool matches(global::org.w3c.dom.Node n1, int n2, int n3){
     _r0_o = ((global::gnu.xml.xpath.NodeTypeTest) _r4_o)._fdata;
     if (_r0_o == null) goto label53;
     _r0_o = ((global::gnu.xml.xpath.NodeTypeTest) _r4_o)._fdata;
-    _r5_o = _r5_o;
     _r1_o = ((global::org.w3c.dom.ProcessingInstruction) _r5_o).getTarget();
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r0.i != 0) goto label53;

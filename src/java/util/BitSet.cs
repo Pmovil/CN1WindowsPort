@@ -118,10 +118,8 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.BitSet) _r2_o)._fbits;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<long>) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.BitSet) _r0_o)._fbits = (global::org.xmlvm._nArrayAdapter<long>) _r2_o;
     }
     catch (global::System.Exception e) {
@@ -173,17 +171,14 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = ((_r14_o != null) && (_r14_o is global::java.util.BitSet)) ? 1 : 0;
     if (_r1.i == 0) goto label108;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::java.util.BitSet) _r1_o)._fbits;
     _r3.i = ((global::java.util.BitSet) _r13_o)._factualArrayLength;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::java.util.BitSet) _r1_o)._factualArrayLength;
     _r4.i = ((global::java.util.BitSet) _r13_o)._fisLengthActual ? 1 : 0;
     if (_r4.i == 0) goto label40;
-    _r14_o = _r14_o;
     _r4.i = ((global::java.util.BitSet) _r14_o)._fisLengthActual ? 1 : 0;
     if (_r4.i == 0) goto label40;
     if (_r3.i == _r1.i) goto label40;

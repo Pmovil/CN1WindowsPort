@@ -198,7 +198,6 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.DataChangedListener) _r0_o).dataChanged((int) _r10.i, (int) _r9.i);
     goto label14;
     label45:;
@@ -224,7 +223,6 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -345,7 +343,6 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     if (_r7.i >= _r0.i) goto label40;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r0_o;
     _r7.i = _r7.i + 1;
     goto label24;
@@ -489,7 +486,6 @@ public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::co
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.StyleListener) _r0_o).styleChanged((global::java.lang.String) _r9_o, (global::com.codename1.ui.plaf.Style) _r10_o);
     goto label14;
     label45:;
@@ -515,7 +511,6 @@ public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::co
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -718,7 +713,6 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r6.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.ActionListener) _r0_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r8_o);
     goto label13;
     label45:;
@@ -744,7 +738,6 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -842,7 +835,6 @@ public virtual void fireSelectionEvent(int n1, int n2){
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.SelectionListener) _r0_o).selectionChanged((int) _r9.i, (int) _r10.i);
     goto label14;
     label45:;
@@ -868,7 +860,6 @@ public virtual void fireSelectionEvent(int n1, int n2){
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -976,7 +967,6 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     if (_r0.i != _r2.i) goto label45;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
     _r6_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.events.ScrollListener) _r6_o).scrollChanged((int) _r11.i, (int) _r12.i, (int) _r13.i, (int) _r14.i);
     goto label14;
     label45:;
@@ -1002,7 +992,6 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     if (_r9.i >= _r0.i) goto label71;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r9.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r9.i] = _r0_o;
     _r9.i = _r9.i + 1;
     goto label55;
@@ -1139,7 +1128,6 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r6.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
-    _r0_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Component) _r8_o).hasFocus() ? 1 : 0;
     if (_r5.i == 0) goto label51;
     ((global::com.codename1.ui.events.FocusListener) _r0_o).focusGained((global::com.codename1.ui.Component) _r8_o);
@@ -1170,7 +1158,6 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     if (_r4.i >= _r5.i) goto label81;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label65;

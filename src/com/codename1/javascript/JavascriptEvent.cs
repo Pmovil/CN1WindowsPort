@@ -49,7 +49,6 @@ public virtual global::System.Object getSelf(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.javascript.JavascriptEvent) _r0_o).getSource();
-    _r0_o = _r0_o;
     return (global::com.codename1.javascript.JSObject) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.javascript.JavascriptEvent: com.codename1.javascript.JSObject getSelf()]
 }

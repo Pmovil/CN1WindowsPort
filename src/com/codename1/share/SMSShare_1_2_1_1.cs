@@ -86,7 +86,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r1_o = _r1_o;
     _r1_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r1_o);
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
     ((global::java.io.PrintStream) _r2_o).println((global::java.lang.String) _r1_o);

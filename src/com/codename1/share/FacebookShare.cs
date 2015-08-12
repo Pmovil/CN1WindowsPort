@@ -48,7 +48,6 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label42;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
-    _r0_o = _r0_o;
     ((global::com.codename1.share.FacebookShare) _r1_o)._ftoken = (global::java.lang.String) _r0_o;
     label42:;
     base.actionPerformed((global::com.codename1.ui.events.ActionEvent) _r2_o);

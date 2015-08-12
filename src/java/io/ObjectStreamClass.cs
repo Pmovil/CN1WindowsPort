@@ -243,7 +243,6 @@ private static global::System.Object createClassDesc(global::java.lang.Class n1)
     ((global::java.io.ObjectStreamClass) _r1_o).setSuperclass((global::java.io.ObjectStreamClass) _r0_o);
     label45:;
     _r0_o = null;
-    _r0_o = _r0_o;
     if (_r3.i != 0) goto label52;
     if (_r4.i == 0) goto label69;
     label52:;
@@ -374,7 +373,6 @@ public virtual void buildFieldDescriptors(global::org.xmlvm._nArrayAdapter<globa
     if (_r1_o != null) goto label45;
     _r2.i = _r6.i;
     label14:;
-    _r0_o = _r0_o;
     if (_r2.i != 0) goto label54;
     _r0_o = new global::org.apache.harmony.luni.util.PriviAction();
     ((global::org.apache.harmony.luni.util.PriviAction) _r0_o).@this((global::java.lang.reflect.AccessibleObject) _r1_o);
@@ -382,7 +380,6 @@ public virtual void buildFieldDescriptors(global::org.xmlvm._nArrayAdapter<globa
     _r0_o = null;
     try {
     _r0_o = ((global::java.lang.reflect.Field) _r1_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -450,7 +447,6 @@ public virtual void buildFieldDescriptors(global::org.xmlvm._nArrayAdapter<globa
     _r1.i = ((global::java.util.List) _r0_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r0_o = ((global::java.util.List) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r0_o = _r0_o;
     goto label33;
     label128:;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
@@ -1067,7 +1063,6 @@ public virtual global::System.Object forClass(){
     if (_r0_o == null) goto label14;
     _r0_o = ((global::java.io.ObjectStreamClass) _r1_o)._fresolvedClass;
     _r1_o = ((global::java.lang.@ref.WeakReference) _r0_o).get();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label13:;
     return (global::java.lang.Class) _r0_o;
@@ -1152,14 +1147,12 @@ public virtual global::System.Object getFields(){
     if (_r0_o != null) goto label19;
     _r0_o = ((global::java.io.ObjectStreamClass) _r1_o).fields();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label18:;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     label19:;
     _r0_o = ((global::java.io.ObjectStreamClass) _r1_o)._floadFields;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label18;
 //XMLVM_END_WRAPPER[java.io.ObjectStreamClass: java.io.ObjectStreamField[] getFields()]
@@ -1477,9 +1470,7 @@ public static global::System.Object lookupStreamClass(global::java.lang.Class n1
 // Red class access removed: java.io.ObjectStreamClass$OSCThreadLocalCache,org.apache.harmony.luni.util.ThreadLocalCache oscWeakHashMap
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: java.io.ObjectStreamClass$OSCThreadLocalCache,org.apache.harmony.luni.util.ThreadLocalCache oscWeakHashMap");
     _r0_o = ((global::org.apache.harmony.luni.util.ThreadLocalCache) _r0_o).get();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.WeakHashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label23;
     _r1_o = global::java.io.ObjectStreamClass.createClassDesc((global::java.lang.Class) _r2_o);
     ((global::java.util.WeakHashMap) _r0_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r1_o);

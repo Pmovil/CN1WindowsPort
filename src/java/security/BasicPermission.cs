@@ -83,7 +83,6 @@ public override bool equals(global::java.lang.Object n1){
     _r1_o = ((global::java.lang.Object) _r2_o).getClass();
     if (_r0_o != _r1_o) goto label31;
     _r0_o = ((global::java.security.BasicPermission) _r2_o).getName();
-    _r3_o = _r3_o;
     _r1_o = ((global::java.security.Permission) _r3_o).getName();
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     goto label3;

@@ -32,7 +32,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r8_o = this;
     _r9_o = n1;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r5_o = ((global::com.codename1.javascript.JavascriptEvent) _r2_o).getSelf();
     _r4_o = ((global::com.codename1.javascript.JavascriptEvent) _r2_o).getMethod();
@@ -49,7 +48,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r6_o = ((global::com.codename1.javascript.JavascriptContext_2ScriptMessageListener) _r8_o)._fthis_20;
     _r6_o = global::com.codename1.javascript.JavascriptContext.access_2400((global::com.codename1.javascript.JavascriptContext) _r6_o);
     _r1_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label54;
     label53:;
     return;

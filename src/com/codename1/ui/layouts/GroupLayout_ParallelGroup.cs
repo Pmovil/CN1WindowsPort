@@ -34,7 +34,6 @@ public virtual global::System.Object add(global::com.codename1.ui.layouts.GroupL
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o);
-    _r0_o = _r0_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.layouts.GroupLayout$Group)]
 }
@@ -81,7 +80,6 @@ public virtual global::System.Object add(global::com.codename1.ui.Component n1, 
     _r5.i = _r11.i;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (global::com.codename1.ui.Component) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (global::com.codename1.ui.layouts.GroupLayout_21) _r6_o);
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
-    _r7_o = _r7_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.Component, int, int, int)]
 }
@@ -114,7 +112,6 @@ public virtual global::System.Object add(int n1, int n2, int n3){
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o)._fthis_20;
     ((global::com.codename1.ui.layouts.GroupLayout_2GapSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (int) _r3.i, (int) _r4.i, (int) _r5.i);
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
-    _r2_o = _r2_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, int, int)]
 }
@@ -130,7 +127,6 @@ public virtual global::System.Object add(int n1, global::com.codename1.ui.layout
     ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).checkChildAlignment((int) _r1.i);
     ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r2_o).setAlignment((int) _r1.i);
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o);
-    _r0_o = _r0_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.layouts.GroupLayout$Group)]
 }
@@ -192,7 +188,6 @@ public virtual global::System.Object add(int n1, global::com.codename1.ui.Compon
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (global::com.codename1.ui.Component) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (global::com.codename1.ui.layouts.GroupLayout_21) _r6_o);
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).setAlignment((int) _r8.i);
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
-    _r7_o = _r7_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.Component, int, int, int)]
 }
@@ -370,7 +365,6 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label62;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r13_o).isVisible() ? 1 : 0;
     if (_r2.i == 0) goto label59;
@@ -381,9 +375,7 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r0_o = _r16_o;
     _r1.i = _r10.i;
     _r2_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r2_o).addTarget((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r13_o, (int) _r15.i);
     _r10.i = _r10.i + 1;
@@ -399,7 +391,6 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r2.i == 0) goto label85;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = _r15.i;
     _r4_o = _r16_o;
@@ -413,7 +404,6 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label59;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r0_o = _r13_o;
     _r1_o = _r18_o;

@@ -55,7 +55,6 @@ public virtual global::System.Object next(){
     _r1_o = new global::java.util.Collections_2CheckedMap_2CheckedEntry();
     _r0_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntrySet_2CheckedEntryIterator) _r3_o)._fi;
     _r0_o = ((global::java.util.Iterator) _r0_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Collections_2CheckedMap_2CheckedEntrySet_2CheckedEntryIterator) _r3_o)._fvalueType;
     ((global::java.util.Collections_2CheckedMap_2CheckedEntry) _r1_o).@this((global::java.util.Map_2Entry) _r0_o, (global::java.lang.Class) _r2_o);
     return (global::java.util.Map_2Entry) _r1_o;

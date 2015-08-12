@@ -377,7 +377,6 @@ private global::System.Object transformFromString(){
     _r1.i = _r0.i;
     label116:;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Formatter_2Transformer) _r5_o)._fformatter;
     _r3_o = ((global::java.util.Formatter_2Transformer) _r5_o)._fformatToken;
     _r3.i = ((global::java.util.Formatter_2FormatToken) _r3_o).getWidth();
@@ -489,7 +488,6 @@ private global::System.Object transformFromCharacter(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Byte)) ? 1 : 0;
     if (_r0.i == 0) goto label155;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Byte) _r0_o).byteValue();
     _r3.i = global::java.lang.Character.isValidCodePoint((int) _r0.i) ? 1 : 0;
     if (_r3.i != 0) goto label150;
@@ -505,7 +503,6 @@ private global::System.Object transformFromCharacter(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Short)) ? 1 : 0;
     if (_r0.i == 0) goto label186;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Short) _r0_o).shortValue();
     _r3.i = global::java.lang.Character.isValidCodePoint((int) _r0.i) ? 1 : 0;
     if (_r3.i != 0) goto label181;
@@ -521,7 +518,6 @@ private global::System.Object transformFromCharacter(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r0.i == 0) goto label224;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
     _r3.i = global::java.lang.Character.isValidCodePoint((int) _r0.i) ? 1 : 0;
     if (_r3.i != 0) goto label212;
@@ -648,7 +644,6 @@ private global::System.Object transformFromLineSeparator(){
     _r0_o = new global::java.util.Formatter_2Transformer_21();
     ((global::java.util.Formatter_2Transformer_21) _r0_o).@this((global::java.util.Formatter_2Transformer) _r2_o);
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r2_o = _r2_o;
     global::java.util.Formatter_2Transformer._flineSeparator = (global::java.lang.String) _r2_o;
     label77:;
     _r0_o = global::java.util.Formatter_2Transformer._flineSeparator;
@@ -805,7 +800,6 @@ private global::System.Object transformFromInteger(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Long)) ? 1 : 0;
     if (_r0.i == 0) goto label178;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r13_o)._farg;
-    _r0_o = _r0_o;
     _r5.l = ((global::java.lang.Long) _r0_o).longValue();
     label117:;
     _r0.i = 100;
@@ -839,7 +833,6 @@ private global::System.Object transformFromInteger(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r0.i == 0) goto label193;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r13_o)._farg;
-    _r0_o = _r0_o;
     _r5.l = ((global::java.lang.Integer) _r0_o).longValue();
     goto label117;
     label193:;
@@ -847,7 +840,6 @@ private global::System.Object transformFromInteger(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Short)) ? 1 : 0;
     if (_r0.i == 0) goto label208;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r13_o)._farg;
-    _r0_o = _r0_o;
     _r5.l = ((global::java.lang.Short) _r0_o).longValue();
     goto label117;
     label208:;
@@ -855,7 +847,6 @@ private global::System.Object transformFromInteger(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.Byte)) ? 1 : 0;
     if (_r0.i == 0) goto label223;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r13_o)._farg;
-    _r0_o = _r0_o;
     _r5.l = ((global::java.lang.Byte) _r0_o).longValue();
     goto label117;
     label223:;
@@ -1082,7 +1073,6 @@ private global::System.Object transformFromSpecialNumber(){
     return (global::java.lang.String) _r0_o;
     label15:;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r4_o)._farg;
-    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Number) _r0_o).doubleValue();
     _r2.i = global::java.lang.Double.isNaN((double) _r0.d) ? 1 : 0;
     if (_r2.i == 0) goto label63;
@@ -1204,7 +1194,6 @@ private global::System.Object transformFromBigInteger(){
     _r1_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r1_o).@this();
     _r0_o = ((global::java.util.Formatter_2Transformer) _r11_o)._farg;
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Formatter_2Transformer) _r11_o)._fformatToken;
     _r2.i = ((global::java.util.Formatter_2FormatToken) _r2_o).getConversionType();
     _r3_o = ((global::java.util.Formatter_2Transformer) _r11_o)._fformatToken;
@@ -1659,7 +1648,6 @@ private global::System.Object transformFromDateTime(){
     _r2.i = ((_r2_o != null) && (_r2_o is global::java.util.Calendar)) ? 1 : 0;
     if (_r2.i == 0) goto label136;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     label106:;
     _r2_o = ((global::java.util.Formatter_2Transformer) _r5_o)._fdateTimeUtil;
     if (_r2_o != null) goto label119;
@@ -1681,7 +1669,6 @@ private global::System.Object transformFromDateTime(){
     if (_r2.i == 0) goto label167;
     _r2_o = new global::java.util.Date();
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     _r3.l = ((global::java.lang.Long) _r0_o).longValue();
     ((global::java.util.Date) _r2_o).@this((long) _r3.l);
     _r0_o = _r2_o;
@@ -1696,7 +1683,6 @@ private global::System.Object transformFromDateTime(){
     _r2.i = ((_r2_o != null) && (_r2_o is global::java.util.Date)) ? 1 : 0;
     if (_r2.i == 0) goto label178;
     _r0_o = ((global::java.util.Formatter_2Transformer) _r5_o)._farg;
-    _r0_o = _r0_o;
     goto label156;
     label178:;
     _r1_o = new global::java.util.IllegalFormatConversionException();

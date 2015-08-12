@@ -50,10 +50,8 @@ public override global::System.Object newSAXParser(){
     return (global::javax.xml.parsers.SAXParser) _r2_o;
     label40:;
     _r0_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.aelfred2.JAXPFactory) _r5_o)._fflags;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     _r1.i = ((global::java.lang.Boolean) _r1_o).booleanValue() ? 1 : 0;
     ((global::org.xml.sax.XMLReader) _r4_o).setFeature((global::java.lang.String) _r0_o, 0!=_r1.i);
     goto label33;
@@ -147,7 +145,6 @@ public override bool getFeature(global::java.lang.String n1){
     _r5_o = n1;
     _r0_o = ((global::gnu.xml.aelfred2.JAXPFactory) _r4_o)._fflags;
     _r4_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r5_o);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label15;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     label14:;

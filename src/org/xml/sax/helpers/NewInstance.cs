@@ -57,7 +57,6 @@ public static global::System.Object getClassLoader(){
     _r1_o = global::java.lang.Thread.currentThread();
     _r2_o = null;
     _r0_o = ((global::java.lang.reflect.Method) _r0_o).invoke((global::java.lang.Object) _r1_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

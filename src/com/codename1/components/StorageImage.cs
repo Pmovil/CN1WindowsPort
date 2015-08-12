@@ -51,9 +51,7 @@ public override global::System.Object getImageData(){
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = ((global::com.codename1.components.StorageImage) _r5_o)._fweak;
     _r3_o = ((global::com.codename1.ui.Display) _r3_o).extractHardRef((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o == null) goto label31;
     _r3_o = _r1_o;
@@ -62,9 +60,7 @@ public override global::System.Object getImageData(){
     _r3_o = global::com.codename1.io.Storage.getInstance();
     _r4_o = ((global::com.codename1.components.StorageImage) _r5_o)._ffileName;
     _r3_o = ((global::com.codename1.io.Storage) _r3_o).readObject((global::java.lang.String) _r4_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.components.StorageImage) _r5_o)._fkeep ? 1 : 0;
     if (_r3.i == 0) goto label55;

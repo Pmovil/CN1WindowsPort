@@ -194,7 +194,6 @@ public virtual global::System.Object processName(global::java.lang.String n1, bo
     _r1_o = _r0_o;
     label14:;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r11_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label27;
     label22:;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -272,7 +271,6 @@ public virtual global::System.Object processName(global::java.lang.String n1, bo
     label126:;
     _r4_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r10_o)._fprefixTable;
     _r10_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r3_o);
-    _r10_o = _r10_o;
     _r4_o = _r10_o;
     goto label112;
     label136:;
@@ -307,7 +305,6 @@ public virtual global::System.Object getURI(global::java.lang.String n1){
     label17:;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._fprefixTable;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label10;
 //XMLVM_END_WRAPPER[org.xml.sax.helpers.NamespaceSupport$Context: java.lang.String getURI(java.lang.String)]
@@ -328,7 +325,6 @@ public virtual global::System.Object getPrefix(global::java.lang.String n1){
     label6:;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._furiTable;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[org.xml.sax.helpers.NamespaceSupport$Context: java.lang.String getPrefix(java.lang.String)]
@@ -378,14 +374,12 @@ private void copyTables(){
     if (_r0_o == null) goto label46;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._fprefixTable;
     _r0_o = ((global::java.util.Hashtable) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._fprefixTable = (global::java.util.Hashtable) _r0_o;
     label14:;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._furiTable;
     if (_r0_o == null) goto label54;
     _r0_o = ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._furiTable;
     _r0_o = ((global::java.util.Hashtable) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::org.xml.sax.helpers.NamespaceSupport_2Context) _r1_o)._furiTable = (global::java.util.Hashtable) _r0_o;
     label28:;
     _r0_o = new global::java.util.Hashtable();

@@ -236,7 +236,6 @@ public override bool addAll(int n1, global::java.util.Collection n2){
     goto label82;
     label91:;
     _r0_o = ((global::java.util.Iterator) _r4_o).next();
-    _r0_o = _r0_o;
     _r5_o = new global::java.util.LinkedList_2Link();
     _r6_o = null;
     ((global::java.util.LinkedList_2Link) _r5_o).@this((global::java.lang.Object) _r0_o, (global::java.util.LinkedList_2Link) _r2_o, (global::java.util.LinkedList_2Link) _r6_o);
@@ -292,7 +291,6 @@ public override bool addAll(global::java.util.Collection n1){
     goto label15;
     label52:;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r4_o = new global::java.util.LinkedList_2Link();
     _r5_o = null;
     ((global::java.util.LinkedList_2Link) _r4_o).@this((global::java.lang.Object) _r0_o, (global::java.util.LinkedList_2Link) _r2_o, (global::java.util.LinkedList_2Link) _r5_o);
@@ -393,7 +391,6 @@ public override global::System.Object clone(){
     _r5_o = null;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::java.util.LinkedList) _r0_o)._fsize = _r1.i;
     _r1_o = new global::java.util.LinkedList_2Link();
@@ -1263,7 +1260,6 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     _r0_o = ((global::java.lang.Class) _r0_o).getComponentType();
     _r2.i = ((global::java.util.LinkedList) _r6_o)._fsize;
     _r0_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r0_o, (int) _r2.i);
-    _r0_o = _r0_o;
     label22:;
     _r2_o = ((global::java.util.LinkedList) _r6_o)._fvoidLink;
     _r2_o = ((global::java.util.LinkedList_2Link) _r2_o)._fnext;

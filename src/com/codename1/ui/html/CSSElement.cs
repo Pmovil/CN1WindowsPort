@@ -528,7 +528,6 @@ private global::System.Object getLang(global::com.codename1.ui.html.HTMLElement 
     return (global::java.lang.String) _r2_o;
     label10:;
     _r1_o = ((global::com.codename1.ui.html.HTMLElement) _r4_o).getParent();
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label23;
     _r2_o = ((global::com.codename1.ui.html.CSSElement) _r3_o).getLang((global::com.codename1.ui.html.HTMLElement) _r1_o);
     goto label9;
@@ -584,7 +583,6 @@ public virtual bool matchAttributeSelections(global::com.codename1.ui.html.HTMLE
     _r6.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label215;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.html.CSSElement_2AttString) _r0_o)._fconstraint;
     _r7.i = 3;
     if (_r6.i != _r7.i) goto label85;
@@ -804,7 +802,6 @@ public virtual global::System.Object getCSSChildAt(int n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.ArrayIndexOutOfBoundsException) _r1_o);
     label20:;
     _r2_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r3.i);
-    _r2_o = _r2_o;
     return (global::com.codename1.ui.html.CSSElement) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: com.codename1.ui.html.CSSElement getCSSChildAt(int)]
 }
@@ -1289,9 +1286,7 @@ public virtual void copyAttributesTo(global::com.codename1.ui.html.CSSElement n1
     _r5.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label49;
     _r3_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r3_o = _r3_o;
     _r4_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.html.CSSElement) _r8_o).setAttribute((global::java.lang.Object) _r3_o, (global::java.lang.String) _r4_o);
     goto label27;
     label49:;

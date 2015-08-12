@@ -92,7 +92,6 @@ public override void initSpinner(){
     ((global::com.codename1.ui.spinner.Spinner) _r0_o).setRenderingPrototype((global::java.lang.Object) _r1_o);
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     _r1.i = 14;
     ((global::com.codename1.ui.spinner.DateTimeRenderer) _r0_o).setType((int) _r1.i);
     label64:;
@@ -100,7 +99,6 @@ public override void initSpinner(){
     if (_r0.i == 0) goto label87;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._fmarkToday ? 1 : 0;
     _r2_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._ftoday;
     _r2.l = ((global::java.util.Date) _r2_o).getTime();
@@ -123,7 +121,6 @@ public override void initSpinner(){
     ((global::com.codename1.ui.spinner.Spinner) _r0_o).setRenderingPrototype((global::java.lang.Object) _r1_o);
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r8_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.spinner.DateTimeRenderer) _r0_o).setType((int) _r7.i);
     goto label64;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.DateTimeSpinner: void initSpinner()]
@@ -155,7 +152,6 @@ public virtual global::System.Object getCurrentDate(){
     if (_r0_o == null) goto label14;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r1_o)._fdate;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label13:;
     return (global::java.util.Date) _r0_o;
@@ -307,7 +303,6 @@ public virtual void setMarkToday(bool n1){
     if (_r0_o == null) goto label27;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r5_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r5_o)._ftoday;
     _r1.l = ((global::java.util.Date) _r1_o).getTime();
     _r3.i = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r5_o)._foff;
@@ -344,7 +339,6 @@ public virtual void setIncludeYear(bool n1){
     if (_r3.i == 0) goto label29;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     _r1.i = 14;
     ((global::com.codename1.ui.spinner.DateTimeRenderer) _r0_o).setType((int) _r1.i);
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o)._fdate;
@@ -357,7 +351,6 @@ public virtual void setIncludeYear(bool n1){
     label29:;
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o)._fdate;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getRenderer();
-    _r0_o = _r0_o;
     _r1.i = 13;
     ((global::com.codename1.ui.spinner.DateTimeRenderer) _r0_o).setType((int) _r1.i);
     _r0_o = ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o)._fdate;
@@ -559,7 +552,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o).setCurrentDate((global::java.util.Date) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -570,7 +562,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o).setStartDate((global::java.util.Date) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -580,7 +571,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label46;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o).setEndDate((global::java.util.Date) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -590,7 +580,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label65;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o).setMarkToday(0!=_r0.i);
     _r0_o = _r1_o;
@@ -601,7 +590,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 89)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label84;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r2_o).setIncludeYear(0!=_r0.i);
     _r0_o = _r1_o;

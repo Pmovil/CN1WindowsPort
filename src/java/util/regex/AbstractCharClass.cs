@@ -314,7 +314,6 @@ public static global::System.Object getPredefinedClass(global::java.lang.String 
     _r2.i = n2 ? 1 : 0;
     _r0_o = global::java.util.regex.AbstractCharClass._fcharClasses;
     _r1_o = ((global::java.util.regex.AbstractCharClass_2PredefinedCharacterClasses) _r0_o).getObject((global::java.lang.String) _r1_o);
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.regex.AbstractCharClass_2LazyCharClass) _r1_o).getValue(0!=_r2.i);
     return (global::java.util.regex.AbstractCharClass) _r0_o;
 //XMLVM_END_WRAPPER[java.util.regex.AbstractCharClass: java.util.regex.AbstractCharClass getPredefinedClass(java.lang.String, boolean)]

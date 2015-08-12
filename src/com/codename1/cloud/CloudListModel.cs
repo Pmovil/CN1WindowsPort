@@ -144,7 +144,6 @@ private void init(){
     _r7.i = ((_r2_o != null) && (_r2_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r7.i == 0) goto label125;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     // Value=Placeholder
     _r7_o = new global::java.lang.String();
@@ -234,7 +233,6 @@ public virtual void refresh(){
     if (_r6_o == null) goto label39;
     _r8.i = ((_r6_o != null) && (_r6_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r8.i == 0) goto label39;
-    _r6_o = _r6_o;
     ((global::java.util.Vector) _r0_o).addElement((global::java.lang.Object) _r6_o);
     label39:;
     _r1.i = _r1.i + 1;
@@ -432,7 +430,6 @@ public virtual global::System.Object getItemAt(int n1){
     _r5.i = _r5.l > _r2.l ? 1 : (_r5.l == _r2.l ? 0 : -1);
     if (_r5.i >= 0) goto label31;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5.l = ((global::com.codename1.cloud.CloudObject) _r1_o).getLastModified();
     _r7_o = ((global::com.codename1.cloud.CloudListModel) _r9_o)._flastRefresh;
@@ -495,7 +492,6 @@ private void fillUpList(int n1){
     ((global::com.codename1.io.CacheMap) _r5_o).put((global::java.lang.Object) _r6_o, (global::java.lang.Object) _r7_o);
     _r5_o = ((global::com.codename1.cloud.CloudListModel) _r8_o)._fkeys;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r5_o = _r5_o;
     ((global::java.util.Vector) _r3_o).addElement((global::java.lang.Object) _r5_o);
     label52:;
     _r1.i = _r1.i + 1;
@@ -561,8 +557,6 @@ public virtual int getSize(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120))}));
     _r0_o = ((global::com.codename1.io.CacheMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
-    _r0_o = _r0_o;
     ((global::com.codename1.cloud.CloudListModel) _r8_o)._fkeys = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     _r0_o = ((global::com.codename1.cloud.CloudListModel) _r8_o)._fkeys;
     if (_r0_o != null) goto label57;
@@ -700,7 +694,6 @@ public virtual void addItem(global::java.lang.Object n1){
     _r3_o = this;
     _r4_o = n1;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r1_o).getType();
     if (_r2_o != null) goto label15;
@@ -728,7 +721,6 @@ public virtual void removeItem(int n1){
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r3.i == 0) goto label19;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = global::com.codename1.cloud.CloudStorage.getInstance();
     ((global::com.codename1.cloud.CloudStorage) _r3_o).delete((global::com.codename1.cloud.CloudObject) _r1_o);

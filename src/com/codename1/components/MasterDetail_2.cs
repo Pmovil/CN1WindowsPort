@@ -45,7 +45,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.Display) _r1_o).getCurrent();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
     if (_r1.i == 0) goto label25;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Dialog) _r0_o).dispose();
     label25:;
     _r1_o = global::com.codename1.ui.Display.getInstance();

@@ -143,7 +143,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = _r2.i;
     goto label5;
     label12:;
-    _r5_o = _r5_o;
     _r0_o = ((global::java.net.Proxy) _r4_o)._ftype;
     _r1_o = ((global::java.net.Proxy) _r5_o)._ftype;
     if (_r0_o != _r1_o) goto label32;

@@ -31,7 +31,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2SpringDelta) _r2_o)._fdelta;
-    _r3_o = _r3_o;
     _r1.i = ((global::com.codename1.ui.layouts.GroupLayout_2SpringDelta) _r3_o)._fdelta;
     _r0.i = _r0.i - _r1.i;
     return _r0.i;

@@ -61,7 +61,6 @@ public override global::System.Object getCellRendererComponent(global::com.coden
     _r5.i = -1;
     ((global::com.codename1.ui.spinner.SpinnerRenderer) _r7_o)._fperspective = _r5.i;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.List) _r5_o).getCurrentSelected();
     if (_r3.i != _r11.i) goto label25;
@@ -71,7 +70,6 @@ public override global::System.Object getCellRendererComponent(global::com.coden
     return (global::com.codename1.ui.Component) _r5_o;
     label25:;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.List) _r5_o).getModel();
     _r1.i = ((global::com.codename1.ui.list.ListModel) _r5_o).getSize();
@@ -195,7 +193,6 @@ private int drawCharPerspectivePosition(global::com.codename1.ui.Graphics n1, ch
     _r7.i = ((global::com.codename1.ui.spinner.SpinnerRenderer) _r10_o)._fperspective;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r7.i];
     _r3_o = ((global::java.util.Map) _r6_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     if (_r3_o != null) goto label117;
     _r6_o = ((global::com.codename1.ui.spinner.SpinnerRenderer) _r10_o).getStyle();
     _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o).getFont();

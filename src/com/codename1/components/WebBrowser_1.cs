@@ -26,7 +26,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.WebBrowser_21) _r1_o)._fthis_20;
     _r1_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
-    _r1_o = _r1_o;
     ((global::com.codename1.components.WebBrowser) _r0_o).onStart((global::java.lang.String) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]

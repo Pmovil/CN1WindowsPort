@@ -76,7 +76,6 @@ public override int matches(int n1, global::java.lang.CharSequence n2, global::j
     label35:;
     _r0_o = ((global::java.util.regex.JointSet) _r5_o)._fchildren;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.regex.AbstractSet) _r0_o).matches((int) _r6.i, (global::java.lang.CharSequence) _r7_o, (global::java.util.regex.MatchResultImpl) _r8_o);
     if (_r0.i >= 0) goto label6;
     _r0.i = _r3.i + 1;
@@ -153,7 +152,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     return _r0.i!=0;
     label18:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1.i = ((global::java.util.regex.AbstractSet) _r2_o).first((global::java.util.regex.AbstractSet) _r3_o) ? 1 : 0;
     if (_r1.i == 0) goto label10;
     _r0.i = 1;
@@ -224,7 +222,6 @@ public override void processSecondPass(){
     label40:;
     _r0_o = ((global::java.util.regex.JointSet) _r5_o)._fchildren;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.regex.AbstractSet) _r0_o).processBackRefReplacement();
     if (_r3_o == null) goto label67;
     ((global::java.util.regex.AbstractSet) _r0_o)._fisSecondPassVisited = 0!=_r4.i;

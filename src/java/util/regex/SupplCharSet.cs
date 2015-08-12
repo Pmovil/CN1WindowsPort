@@ -85,7 +85,6 @@ public override int find(int n1, global::java.lang.CharSequence n2, global::java
     _r1.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label56;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.util.regex.MatchResultImpl) _r10_o).getRightBound();
     _r3.i = _r8.i;
@@ -145,7 +144,6 @@ public override int findBack(int n1, int n2, global::java.lang.CharSequence n3, 
     _r1.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label51;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = _r8.i;
     label10:;
@@ -222,7 +220,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     _r2.i = 0;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.SupplCharSet)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.SupplCharSet) _r5_o).getCodePoint();
     _r1.i = ((global::java.util.regex.SupplCharSet) _r4_o)._fch;
     if (_r0.i != _r1.i) goto label18;
@@ -235,7 +232,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     label20:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.SupplRangeSet)) ? 1 : 0;
     if (_r0.i == 0) goto label33;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.SupplCharSet) _r4_o)._fch;
     _r0.i = ((global::java.util.regex.SupplRangeSet) _r5_o).contains((int) _r0.i) ? 1 : 0;
     goto label17;

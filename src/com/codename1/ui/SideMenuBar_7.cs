@@ -73,7 +73,6 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r7_o = ((global::com.codename1.ui.Container) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r7_o = _r7_o;
     if (_r7_o != null) goto label23;
     label22:;
     return;

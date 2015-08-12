@@ -120,7 +120,6 @@ public virtual global::System.Object split(global::java.lang.CharSequence n1, in
     label96:;
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r6_o = ((global::java.util.ArrayList) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r6_o = _r6_o;
     _r0_o = _r6_o;
     goto label23;
     label106:;
@@ -517,7 +516,6 @@ private global::System.Object processExpression(int n1, int n2, global::java.uti
     label299:;
     _r1_o = new global::java.util.regex.SingleSet();
     _r9_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
-    _r9_o = _r9_o;
     ((global::java.util.regex.SingleSet) _r1_o).@this((global::java.util.regex.AbstractSet) _r9_o, (global::java.util.regex.FSet) _r3_o);
     _r0_o = _r1_o;
     goto label145;
@@ -851,13 +849,11 @@ private global::System.Object processSubExpression(global::java.util.regex.Abstr
     _r3.i = ((_r1_o != null) && (_r1_o is global::java.util.regex.AltQuantifierSet)) ? 1 : 0;
     if (_r3.i != 0) goto label158;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r3_o = ((global::java.util.regex.LeafQuantifierSet) _r6_o).getInnerSet();
     _r3.i = ((global::java.util.regex.AbstractSet) _r2_o).first((global::java.util.regex.AbstractSet) _r3_o) ? 1 : 0;
     if (_r3.i != 0) goto label158;
     _r3_o = new global::java.util.regex.UnifiedQuantifierSet();
-    _r1_o = _r1_o;
     ((global::java.util.regex.UnifiedQuantifierSet) _r3_o).@this((global::java.util.regex.LeafQuantifierSet) _r1_o);
     _r1_o = _r3_o;
     label158:;
@@ -865,7 +861,6 @@ private global::System.Object processSubExpression(global::java.util.regex.Abstr
     _r3.i = _r3.i & 0xffff;
     if (_r3.i != _r5.i) goto label275;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r2_o = ((global::java.util.regex.LeafQuantifierSet) _r6_o).getInnerSet();
     ((global::java.util.regex.AbstractSet) _r1_o).setNext((global::java.util.regex.AbstractSet) _r2_o);
@@ -874,7 +869,6 @@ private global::System.Object processSubExpression(global::java.util.regex.Abstr
     _r1.i = ((global::java.util.regex.AbstractSet) _r6_o).getType();
     _r1.i = _r1.i & 0xffff;
     if (_r1.i != _r5.i) goto label289;
-    _r6_o = _r6_o;
     _r1_o = ((global::java.util.regex.QuantifierSet) _r6_o).getInnerSet();
     label190:;
     return (global::java.util.regex.AbstractSet) _r1_o;
@@ -1044,7 +1038,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r1_o = new global::java.util.regex.CompositeGroupQuantifierSet();
     _r2_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r2_o = ((global::java.util.regex.Lexer) _r2_o).nextSpecial();
-    _r2_o = _r2_o;
     _r3.i = ((global::java.util.regex.Pattern) _r7_o)._fcompCount;
     _r6.i = _r3.i + 1;
     ((global::java.util.regex.Pattern) _r7_o)._fcompCount = _r6.i;
@@ -1057,7 +1050,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r1_o = new global::java.util.regex.PosCompositeGroupQuantifierSet();
     _r2_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r2_o = ((global::java.util.regex.Lexer) _r2_o).nextSpecial();
-    _r2_o = _r2_o;
     _r3.i = ((global::java.util.regex.Pattern) _r7_o)._fcompCount;
     _r6.i = _r3.i + 1;
     ((global::java.util.regex.Pattern) _r7_o)._fcompCount = _r6.i;
@@ -1069,7 +1061,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r1_o = new global::java.util.regex.RelCompositeGroupQuantifierSet();
     _r2_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r2_o = ((global::java.util.regex.Lexer) _r2_o).nextSpecial();
-    _r2_o = _r2_o;
     _r3.i = ((global::java.util.regex.Pattern) _r7_o)._fcompCount;
     _r6.i = _r3.i + 1;
     ((global::java.util.regex.Pattern) _r7_o)._fcompCount = _r6.i;
@@ -1082,7 +1073,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r1_o = null;
     if (_r9_o == null) goto label229;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label229:;
     switch (_r2.i) {
@@ -1152,7 +1142,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r2_o = new global::java.util.regex.CompositeQuantifierSet();
     _r3_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r7_o = ((global::java.util.regex.Lexer) _r3_o).nextSpecial();
-    _r7_o = _r7_o;
     _r3.i = -536870789;
     ((global::java.util.regex.CompositeQuantifierSet) _r2_o).@this((global::java.util.regex.Quantifier) _r7_o, (global::java.util.regex.LeafSet) _r1_o, (global::java.util.regex.AbstractSet) _r8_o, (int) _r3.i);
     _r1_o = _r2_o;
@@ -1161,7 +1150,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r2_o = new global::java.util.regex.PossessiveCompositeQuantifierSet();
     _r3_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r7_o = ((global::java.util.regex.Lexer) _r3_o).nextSpecial();
-    _r7_o = _r7_o;
     _r3.i = -2147483525;
     ((global::java.util.regex.PossessiveCompositeQuantifierSet) _r2_o).@this((global::java.util.regex.Quantifier) _r7_o, (global::java.util.regex.LeafSet) _r1_o, (global::java.util.regex.AbstractSet) _r8_o, (int) _r3.i);
     _r1_o = _r2_o;
@@ -1170,7 +1158,6 @@ private global::System.Object processQuantifier(global::java.util.regex.Abstract
     _r2_o = new global::java.util.regex.ReluctantCompositeQuantifierSet();
     _r3_o = ((global::java.util.regex.Pattern) _r7_o)._flexemes;
     _r7_o = ((global::java.util.regex.Lexer) _r3_o).nextSpecial();
-    _r7_o = _r7_o;
     _r3.i = -1073741701;
     ((global::java.util.regex.ReluctantCompositeQuantifierSet) _r2_o).@this((global::java.util.regex.Quantifier) _r7_o, (global::java.util.regex.LeafSet) _r1_o, (global::java.util.regex.AbstractSet) _r8_o, (int) _r3.i);
     _r1_o = _r2_o;
@@ -1468,7 +1455,6 @@ private global::System.Object processTerminal(global::java.util.regex.AbstractSe
     label502:;
     _r0_o = ((global::java.util.regex.Pattern) _r9_o)._flexemes;
     _r0_o = ((global::java.util.regex.Lexer) _r0_o).peekSpecial();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label523;
     _r0_o = ((global::java.util.regex.Pattern) _r9_o).processRangeSet((global::java.util.regex.AbstractCharClass) _r0_o);
     label516:;
@@ -1850,7 +1836,6 @@ private global::System.Object processRangeExpression(bool n1){
     label429:;
     _r0_o = ((global::java.util.regex.Pattern) _r13_o)._flexemes;
     _r0_o = ((global::java.util.regex.Lexer) _r0_o).peekSpecial();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label454;
     ((global::java.util.regex.CharClass) _r4_o).add((global::java.util.regex.AbstractCharClass) _r0_o);
     _r0.i = _r8.i;

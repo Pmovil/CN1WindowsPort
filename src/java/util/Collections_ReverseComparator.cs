@@ -39,7 +39,6 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.lang.Comparable) _r3_o).compareTo((global::java.lang.Object) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.util.Collections$ReverseComparator: int compare(java.lang.Object, java.lang.Object)]

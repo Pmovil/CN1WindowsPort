@@ -160,7 +160,6 @@ private global::System.Object getXYChart(global::java.lang.String n1){
     _r4_o = ((global::com.codename1.charts.views.CombinedXYChart) _r5_o)._fxyChartTypes;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
     _r3_o = ((global::java.lang.Class) _r4_o).newInstance();
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.charts.views.XYChart) _r3_o).getChartType();
     _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r4.i == 0) goto label30;

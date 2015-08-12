@@ -19,7 +19,6 @@ public override global::System.Object computeValue(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = base.computeValue();
-    _r1_o = _r1_o;
     _r0.i = 32;
     _r0_o = ((global::java.util.regex.CharClass) _r1_o).add((int) _r0.i);
     return (global::java.util.regex.AbstractCharClass) _r0_o;

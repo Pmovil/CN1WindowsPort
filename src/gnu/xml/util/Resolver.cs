@@ -256,7 +256,6 @@ public virtual global::System.Object resolveEntity(global::java.lang.String n1, 
     if (_r3_o == null) goto label21;
     _r1_o = ((global::gnu.xml.util.Resolver) _r2_o)._fpubidMapping;
     _r2_o = ((global::java.util.Dictionary) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label21;
     _r0_o = new global::org.xml.sax.InputSource();
     ((global::org.xml.sax.InputSource) _r0_o).@this((global::java.lang.String) _r2_o);

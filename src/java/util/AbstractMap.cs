@@ -51,7 +51,6 @@ public virtual bool containsKey(global::java.lang.Object n1){
     return _r0.i!=0;
     label19:;
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     _r1.i = ((global::java.lang.Object) _r4_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label11;
@@ -59,7 +58,6 @@ public virtual bool containsKey(global::java.lang.Object n1){
     goto label18;
     label37:;
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     if (_r1_o != null) goto label51;
     _r0.i = _r2.i;
@@ -95,7 +93,6 @@ public virtual bool containsValue(global::java.lang.Object n1){
     return _r0.i!=0;
     label19:;
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getValue();
     _r1.i = ((global::java.lang.Object) _r4_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label11;
@@ -103,7 +100,6 @@ public virtual bool containsValue(global::java.lang.Object n1){
     goto label18;
     label37:;
     _r3_o = ((global::java.util.Iterator) _r0_o).next();
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getValue();
     if (_r1_o != null) goto label51;
     _r0.i = _r2.i;
@@ -141,7 +137,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r7_o != null) && (_r7_o is global::java.util.Map)) ? 1 : 0;
     if (_r0.i == 0) goto label84;
-    _r7_o = _r7_o;
     _r0.i = ((global::java.util.AbstractMap) _r6_o).size();
     _r1.i = ((global::java.util.Map) _r7_o).size();
     if (_r0.i == _r1.i) goto label24;
@@ -188,7 +183,6 @@ public override bool equals(global::java.lang.Object n1){
     label40:;
     try {
     _r6_o = ((global::java.util.Iterator) _r0_o).next();
-    _r6_o = _r6_o;
     _r1_o = ((global::java.util.Map_2Entry) _r6_o).getKey();
     _r2_o = ((global::java.util.Map_2Entry) _r6_o).getValue();
     _r3_o = ((global::java.util.Map) _r7_o).get((global::java.lang.Object) _r1_o);
@@ -285,7 +279,6 @@ public virtual global::System.Object get(global::java.lang.Object n1){
     return (global::java.lang.Object) _r0_o;
     label18:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.Map_2Entry) _r2_o).getKey();
     _r1.i = ((global::java.lang.Object) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label10;
@@ -293,7 +286,6 @@ public virtual global::System.Object get(global::java.lang.Object n1){
     goto label17;
     label39:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.Map_2Entry) _r2_o).getKey();
     if (_r1_o != null) goto label56;
     _r0_o = ((global::java.util.Map_2Entry) _r2_o).getValue();
@@ -321,7 +313,6 @@ public override int hashCode(){
     return _r0.i;
     label16:;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r2.i = ((global::java.util.Map_2Entry) _r3_o).hashCode();
     _r0.i = _r0.i + _r2.i;
     goto label9;
@@ -393,7 +384,6 @@ public virtual void putAll(global::java.util.Map n1){
     return;
     label15:;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
     ((global::java.util.AbstractMap) _r3_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r0_o);
@@ -422,7 +412,6 @@ public virtual global::System.Object remove(global::java.lang.Object n1){
     return (global::java.lang.Object) _r0_o;
     label18:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.Map_2Entry) _r2_o).getKey();
     _r1.i = ((global::java.lang.Object) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label10;
@@ -431,7 +420,6 @@ public virtual global::System.Object remove(global::java.lang.Object n1){
     goto label17;
     label42:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.Map_2Entry) _r2_o).getKey();
     if (_r1_o != null) goto label62;
     ((global::java.util.Iterator) _r0_o).remove();
@@ -495,7 +483,6 @@ public override global::System.Object toString(){
     goto label10;
     label51:;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     if (_r3_o == _r5_o) goto label92;
     ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r3_o);
@@ -551,7 +538,6 @@ public override global::System.Object clone(){
     _r1_o = this;
     _r0_o = null;
     _r1_o = base.clone();
-    _r1_o = _r1_o;
     ((global::java.util.AbstractMap) _r1_o)._fkeySet = (global::java.util.Set) _r0_o;
     ((global::java.util.AbstractMap) _r1_o)._fvaluesCollection = (global::java.util.Collection) _r0_o;
     return (global::java.lang.Object) _r1_o;

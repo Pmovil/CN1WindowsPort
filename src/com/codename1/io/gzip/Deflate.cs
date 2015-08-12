@@ -3277,7 +3277,6 @@ public static int deflateCopy(global::com.codename1.io.gzip.ZStream n1, global::
     ((global::com.codename1.io.gzip.ZStream) _r4_o)._fadler = (global::com.codename1.io.gzip.Checksum) _r0_o;
     _r0_o = ((global::com.codename1.io.gzip.ZStream) _r5_o)._fdstate;
     _r0_o = ((global::com.codename1.io.gzip.Deflate) _r0_o).clone();
-    _r0_o = _r0_o;
     ((global::com.codename1.io.gzip.ZStream) _r4_o)._fdstate = (global::com.codename1.io.gzip.Deflate) _r0_o;
     _r0_o = ((global::com.codename1.io.gzip.ZStream) _r4_o)._fdstate;
     ((global::com.codename1.io.gzip.Deflate) _r0_o)._fstrm = (global::com.codename1.io.gzip.ZStream) _r4_o;
@@ -3342,7 +3341,6 @@ public override global::System.Object clone(){
     if (_r1_o == null) goto label127;
     _r1_o = ((global::com.codename1.io.gzip.Deflate) _r0_o)._fgheader;
     _r3_o = ((global::com.codename1.io.gzip.GZIPHeader) _r1_o).clone();
-    _r3_o = _r3_o;
     ((global::com.codename1.io.gzip.Deflate) _r0_o)._fgheader = (global::com.codename1.io.gzip.GZIPHeader) _r3_o;
     label127:;
     return (global::java.lang.Object) _r0_o;

@@ -264,7 +264,6 @@ public virtual global::System.Object getIconPosition(){
     _r0_o = ((global::com.codename1.components.SpanButton) _r2_o).getLayout();
     _r1_o = ((global::com.codename1.components.SpanButton) _r2_o)._factualButton;
     _r2_o = ((global::com.codename1.ui.layouts.Layout) _r0_o).getComponentConstraint((global::com.codename1.ui.Component) _r1_o);
-    _r2_o = _r2_o;
     return (global::java.lang.String) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.SpanButton: java.lang.String getIconPosition()]
 }
@@ -453,7 +452,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.SpanButton) _r2_o).setText((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -464,7 +462,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.SpanButton) _r2_o).setIcon((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -474,7 +471,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label46;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.SpanButton) _r2_o).setIconPosition((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -484,7 +480,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label61;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.SpanButton) _r2_o).setTextUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -494,7 +489,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label76;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.SpanButton) _r2_o).setIconUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;

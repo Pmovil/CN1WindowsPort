@@ -350,7 +350,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     _r1_o = new global::org.apache.harmony.niochar.@internal.nls.Messages_21();
     ((global::org.apache.harmony.niochar.@internal.nls.Messages_21) _r1_o).@this((global::java.lang.String) _r3_o, (global::java.util.Locale) _r2_o, (global::java.lang.ClassLoader) _r0_o);
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

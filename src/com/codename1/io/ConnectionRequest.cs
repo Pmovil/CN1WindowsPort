@@ -335,10 +335,8 @@ public virtual void initConnection(global::java.lang.Object n1){
     _r4.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label81;
     _r2_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.io.ConnectionRequest) _r6_o)._fuserHeaders;
     _r3_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r2_o);
-    _r3_o = _r3_o;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).setHeader((global::java.lang.Object) _r7_o, (global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
     goto label57;
     label81:;
@@ -601,7 +599,6 @@ public virtual void performOperation(){
     ((global::java.lang.StringBuilder) _r11_o).@this();
     _r21.i = 0;
     _r14_o = ((global::java.util.Vector) _r20_o).elementAt((int) _r21.i);
-    _r14_o = _r14_o;
     _r0_o = _r24_o;
     _r1_o = _r14_o;
     ((global::com.codename1.io.ConnectionRequest) _r0_o).cookieSent((global::com.codename1.io.Cookie) _r1_o);
@@ -638,7 +635,6 @@ public virtual void performOperation(){
     _r0_o = _r20_o;
     _r1.i = _r17.i;
     _r13_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r13_o = _r13_o;
     // Value=;
     _r21_o = new global::java.lang.String();
     ((global::java.lang.String)_r21_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)59))}));
@@ -846,7 +842,6 @@ public virtual void performOperation(){
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r0_o)._foutput;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
     _r1_o = _r24_o;
     ((global::com.codename1.io.BufferedOutputStream) _r0_o).setProgressListener((global::com.codename1.io.IOProgressListener) _r1_o);
@@ -921,7 +916,6 @@ public virtual void performOperation(){
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r0_o)._foutput;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     ((global::com.codename1.io.BufferedOutputStream) _r5_o).flushBuffer();
     _r21.i = ((global::com.codename1.io.ConnectionRequest) _r24_o).shouldStop() ? 1 : 0;
     }
@@ -1070,7 +1064,6 @@ public virtual void performOperation(){
     _r1.i = _r21.i;
     if (_r0.i >= _r1.i) goto label887;
     _r5_o = ((global::java.util.Vector) _r10_o).elementAt((int) _r15.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r15.i] = _r5_o;
     _r15.i = _r15.i + 1;
     goto label867;
@@ -1519,7 +1512,6 @@ public virtual void performOperation(){
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r0_o)._finput;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
     _r1_o = _r24_o;
     ((global::com.codename1.io.BufferedInputStream) _r0_o).setProgressListener((global::com.codename1.io.IOProgressListener) _r1_o);
@@ -1538,7 +1530,6 @@ public virtual void performOperation(){
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r0_o)._finput;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r21.i = ((global::com.codename1.io.ConnectionRequest) _r24_o).getYield();
     _r0_o = _r5_o;
     _r1.i = _r21.i;
@@ -1900,7 +1891,6 @@ private global::System.Object parseCookieHeader(global::java.lang.String n1){
     _r10.i = ((global::java.util.Vector) _r8_o).size();
     if (_r4.i >= _r10.i) goto label249;
     _r7_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r4.i);
-    _r7_o = _r7_o;
     _r7_o = ((global::java.lang.String) _r7_o).trim();
     // Value=secure
     _r10_o = new global::java.lang.String();
@@ -2226,13 +2216,11 @@ public virtual global::System.Object createRequestURL(){
     _r8.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r8.i == 0) goto label145;
     _r4_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r4_o = _r4_o;
     _r8_o = ((global::com.codename1.io.ConnectionRequest) _r12_o)._frequestArguments;
     _r5_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
     _r8.i = ((_r5_o != null) && (_r5_o is global::java.lang.String)) ? 1 : 0;
     if (_r8.i == 0) goto label86;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r4_o);
     // Value==
@@ -2248,9 +2236,7 @@ public virtual global::System.Object createRequestURL(){
     ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r9_o);
     goto label37;
     label86:;
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r3.i = 0;
     label93:;
@@ -2340,13 +2326,11 @@ public virtual void buildRequestBody(global::java.io.OutputStream n1){
     _r9.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r9.i == 0) goto label134;
     _r3_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r3_o = _r3_o;
     _r9_o = ((global::com.codename1.io.ConnectionRequest) _r14_o)._frequestArguments;
     _r4_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r3_o);
     _r9.i = ((_r4_o != null) && (_r4_o is global::java.lang.String)) ? 1 : 0;
     if (_r9.i == 0) goto label75;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r3_o);
     // Value==
@@ -2362,9 +2346,7 @@ public virtual void buildRequestBody(global::java.io.OutputStream n1){
     ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r10_o);
     goto label26;
     label75:;
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r2.i = 0;
     label82:;
@@ -2450,7 +2432,6 @@ public virtual void kill(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.io.BufferedInputStream)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
     _r0_o = ((global::com.codename1.io.ConnectionRequest) _r1_o)._finput;
-    _r0_o = _r0_o;
     ((global::com.codename1.io.BufferedInputStream) _r0_o).stop();
     label20:;
     _r0_o = global::com.codename1.io.NetworkManager.getInstance();
@@ -2951,7 +2932,6 @@ public virtual int getTimeSinceLastActivity(){
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.io.BufferedInputStream)) ? 1 : 0;
     if (_r2.i == 0) goto label26;
     _r2_o = ((global::com.codename1.io.ConnectionRequest) _r6_o)._finput;
-    _r2_o = _r2_o;
     _r0.l = ((global::com.codename1.io.BufferedInputStream) _r2_o).getLastActivityTime();
     _r2.l = ((global::com.codename1.io.ConnectionRequest) _r6_o)._ftimeSinceLastUpdate;
     _r2.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
@@ -2964,7 +2944,6 @@ public virtual int getTimeSinceLastActivity(){
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.io.BufferedOutputStream)) ? 1 : 0;
     if (_r2.i == 0) goto label52;
     _r2_o = ((global::com.codename1.io.ConnectionRequest) _r6_o)._foutput;
-    _r2_o = _r2_o;
     _r0.l = ((global::com.codename1.io.BufferedOutputStream) _r2_o).getLastActivityTime();
     _r2.l = ((global::com.codename1.io.ConnectionRequest) _r6_o)._ftimeSinceLastUpdate;
     _r2.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
@@ -3259,7 +3238,6 @@ public override bool equals(global::java.lang.Object n1){
     _r7_o = ((global::java.lang.Object) _r10_o).getClass();
     if (_r6_o != _r7_o) goto label108;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6_o = ((global::com.codename1.io.ConnectionRequest) _r4_o)._furl;
     _r7_o = ((global::com.codename1.io.ConnectionRequest) _r10_o)._furl;

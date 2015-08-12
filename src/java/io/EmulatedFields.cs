@@ -195,7 +195,6 @@ public virtual sbyte get(global::java.lang.String n1, sbyte n2){
     return (sbyte) _r0.i;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: byte get(java.lang.String, byte)]
@@ -226,7 +225,6 @@ public virtual char get(global::java.lang.String n1, char n2){
     return (char) _r0.i;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Character) _r2_o).charValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: char get(java.lang.String, char)]
@@ -257,7 +255,6 @@ public virtual double get(global::java.lang.String n1, double n2){
     return _r0.d;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: double get(java.lang.String, double)]
@@ -288,7 +285,6 @@ public virtual float get(global::java.lang.String n1, float n2){
     return _r0.f;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: float get(java.lang.String, float)]
@@ -319,7 +315,6 @@ public virtual int get(global::java.lang.String n1, int n2){
     return _r0.i;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: int get(java.lang.String, int)]
@@ -350,7 +345,6 @@ public virtual long get(global::java.lang.String n1, long n2){
     return _r0.l;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.l = ((global::java.lang.Long) _r2_o).longValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: long get(java.lang.String, long)]
@@ -415,7 +409,6 @@ public virtual short get(global::java.lang.String n1, short n2){
     return (short) _r0.i;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Short) _r2_o).shortValue();
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: short get(java.lang.String, short)]
@@ -446,7 +439,6 @@ public virtual bool get(global::java.lang.String n1, bool n2){
     return _r0.i!=0;
     label20:;
     _r2_o = ((global::java.io.EmulatedFields_2ObjectSlot) _r0_o)._ffieldValue;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     goto label19;
 //XMLVM_END_WRAPPER[java.io.EmulatedFields: boolean get(java.lang.String, boolean)]

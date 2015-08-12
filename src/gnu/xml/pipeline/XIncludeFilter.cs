@@ -379,7 +379,6 @@ public override void startEntity(global::java.lang.String n1){
     label11:;
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter) _r1_o)._fextEntities;
     _r0_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label24;
     ((global::gnu.xml.pipeline.XIncludeFilter) _r1_o).addMarker((global::java.lang.String) _r0_o);
     label24:;
@@ -409,7 +408,6 @@ public override void endEntity(global::java.lang.String n1){
     label13:;
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter) _r2_o)._fextEntities;
     _r0_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label26;
     ((global::gnu.xml.pipeline.XIncludeFilter) _r2_o).pop((global::java.lang.String) _r0_o);
     label26:;
@@ -456,7 +454,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     label14:;
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter) _r10_o)._furis;
     _r0_o = ((global::java.util.Stack) _r0_o).peek();
-    _r0_o = _r0_o;
     // Value=http://www.w3.org/XML/1998/namespace
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 51)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 88)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
@@ -541,7 +538,6 @@ public override void startElement(global::java.lang.String n1, global::java.lang
     _r3_o = ((global::org.xml.sax.Attributes) _r14_o).getValue((global::java.lang.String) _r0_o);
     _r0_o = ((global::gnu.xml.pipeline.XIncludeFilter) _r10_o)._furis;
     _r0_o = ((global::java.util.Stack) _r0_o).peek();
-    _r0_o = _r0_o;
     _r4_o = null;
     if (_r1_o != null) goto label167;
     _r5_o = new global::org.xml.sax.SAXParseException();

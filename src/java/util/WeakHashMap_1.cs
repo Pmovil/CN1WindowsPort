@@ -52,7 +52,6 @@ public override bool remove(global::java.lang.Object n1){
     _r0.i = ((global::java.util.WeakHashMap_21) _r2_o).contains((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label19;
     _r0_o = ((global::java.util.WeakHashMap_21) _r2_o)._fthis_20;
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     ((global::java.util.WeakHashMap) _r0_o).remove((global::java.lang.Object) _r1_o);
     _r0.i = 1;
@@ -79,7 +78,6 @@ public override bool contains(global::java.lang.Object n1){
     if (_r1.i == 0) goto label35;
     _r2_o = ((global::java.util.WeakHashMap_21) _r3_o)._fthis_20;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r1_o).getKey();
     _r1_o = ((global::java.util.WeakHashMap) _r2_o).getEntry((global::java.lang.Object) _r1_o);

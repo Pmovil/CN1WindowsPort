@@ -52,7 +52,6 @@ public override global::System.Object createCell(global::java.lang.Object n1, in
     _r2.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r2.i == 0) goto label14;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label9:;
     _r2.i = 0;
@@ -79,7 +78,6 @@ public override global::System.Object createCellConstraint(global::java.lang.Obj
     _r5.i = n2;
     _r6.i = n3;
     _r2_o = ((global::com.codename1.ui.html.HTMLTable) _r3_o).getModel();
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o).getConstraint((global::java.lang.Object) _r4_o);
     if (_r0_o != null) goto label17;
     _r2_o = base.createCellConstraint((global::java.lang.Object) _r4_o, (int) _r5.i, (int) _r6.i);
@@ -115,7 +113,6 @@ public override bool shouldDrawInnerBorderAfterRow(int n1){
     _r0.i = ((global::com.codename1.ui.html.HTMLTable) _r1_o)._finnerBorderGroups ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.html.HTMLTable) _r1_o).getModel();
-    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o).isSegmentEnd((int) _r2.i) ? 1 : 0;
     label14:;
     return _r0.i!=0;

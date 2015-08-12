@@ -80,7 +80,6 @@ private global::System.Object shallowClone(){
     _r2_o = this;
     try {
     _r2_o = ((global::java.lang.Object) _r2_o).clone();
-    _r2_o = _r2_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -138,7 +137,6 @@ private global::System.Object deepClone(global::java.util.Hashtable n1){
     _r0.i = _r0.i & 1;
     if (_r0.i == 0) goto label66;
     _r0_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r5_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label18;
     _r0_o = _r5_o;
     label17:;
@@ -154,7 +152,6 @@ private global::System.Object deepClone(global::java.util.Hashtable n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer)) ? 1 : 0;
     if (_r0.i == 0) goto label72;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r5_o)._fnext;
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r0_o).deepClone((global::java.util.Hashtable) _r6_o);
     ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r1_o)._fnext = (global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r0_o;
     label46:;
@@ -202,7 +199,6 @@ private global::System.Object deepClone(global::java.util.Hashtable n1){
     _r3.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer)) ? 1 : 0;
     if (_r3.i == 0) goto label116;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r1_o)._fcomponents;
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r0_o).deepClone((global::java.util.Hashtable) _r6_o);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r0_o;
     goto label97;
@@ -260,7 +256,6 @@ private void patchNext(global::gnu.xml.pipeline.ValidationConsumer_2Recognizer n
     _r0.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer)) ? 1 : 0;
     if (_r0.i == 0) goto label50;
     _r4_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r4_o)._fnext;
-    _r4_o = _r4_o;
     ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r4_o).patchNext((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r5_o, (global::java.util.Hashtable) _r1_o);
     goto label8;
     label50:;
@@ -303,7 +298,6 @@ private void patchNext(global::gnu.xml.pipeline.ValidationConsumer_2Recognizer n
     if (_r0.i == 0) goto label115;
     _r0_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r4_o)._fcomponents;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r0_o).patchNext((global::gnu.xml.pipeline.ValidationConsumer_2Recognizer) _r5_o, (global::java.util.Hashtable) _r1_o);
     goto label93;
     label115:;
@@ -474,7 +468,6 @@ private int populate(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
     label187:;
     _r3_o = ((global::gnu.xml.pipeline.ValidationConsumer_2ChildrenRecognizer) _r13_o)._fcomponents;
     _r0_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r1.i] = _r0_o;
     _r0.i = _r1.i + 1;
     _r1.i = _r0.i;

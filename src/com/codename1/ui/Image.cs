@@ -88,7 +88,6 @@ private global::System.Object getScaleCache(){
     _r2_o = global::com.codename1.ui.Display.getInstance();
     _r3_o = ((global::com.codename1.ui.Image) _r4_o)._fscaleCache;
     _r0_o = ((global::com.codename1.ui.Display) _r2_o).extractHardRef((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label50;
     _r0_o = new global::java.util.HashMap();
     ((global::java.util.HashMap) _r0_o).@this();
@@ -113,7 +112,6 @@ public virtual global::System.Object getCachedImage(global::com.codename1.ui.geo
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r2_o = ((global::com.codename1.ui.Display) _r1_o).extractHardRef((global::java.lang.Object) _r0_o);
-    _r2_o = _r2_o;
     return (global::com.codename1.ui.Image) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Image: com.codename1.ui.Image getCachedImage(com.codename1.ui.geom.Dimension)]
 }
@@ -326,14 +324,11 @@ public virtual global::System.Object applyMask(global::java.lang.Object n1, int 
     _r19.i = n3;
     _r11_o = ((global::com.codename1.ui.Image) _r16_o).getRGB();
     _r0_o = _r17_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r10_o = ((global::com.codename1.ui.IndexedImage) _r1_o).getImageDataByte();
     _r0_o = _r17_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r8.i = ((global::com.codename1.ui.IndexedImage) _r1_o).getWidth();
-    _r17_o = _r17_o;
     _r7.i = ((global::com.codename1.ui.IndexedImage) _r17_o).getHeight();
     _r6.i = ((global::com.codename1.ui.Image) _r16_o).getWidth();
     _r2.i = _r6.i - _r18.i;
@@ -398,14 +393,11 @@ public virtual global::System.Object applyMask(global::java.lang.Object n1){
     _r10_o = n1;
     _r6_o = ((global::com.codename1.ui.Image) _r9_o).getRGB();
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.IndexedImage) _r7_o).getImageDataByte();
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.IndexedImage) _r7_o).getWidth();
-    _r10_o = _r10_o;
     _r2.i = ((global::com.codename1.ui.IndexedImage) _r10_o).getHeight();
     _r7.i = ((global::com.codename1.ui.Image) _r9_o).getWidth();
     if (_r3.i != _r7.i) goto label38;
@@ -456,11 +448,9 @@ public virtual global::System.Object applyMaskAutoScale(global::java.lang.Object
     _r6_o = n1;
     try {
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.IndexedImage) _r4_o).getWidth();
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.IndexedImage) _r4_o).getHeight();
     _r4.i = ((global::com.codename1.ui.Image) _r5_o).getWidth();
@@ -1493,9 +1483,7 @@ public virtual global::System.Object getRGBCache(){
     _r2_o = global::com.codename1.ui.Display.getInstance();
     _r3_o = ((global::com.codename1.ui.Image) _r4_o)._frgbCache;
     _r4_o = ((global::com.codename1.ui.Display) _r2_o).extractHardRef((global::java.lang.Object) _r3_o);
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = _r1_o;
     label21:;

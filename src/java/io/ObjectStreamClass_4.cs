@@ -44,8 +44,6 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r2_o = _r2_o;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.io.ObjectStreamClass_24) _r1_o).compare((global::java.lang.reflect.Method) _r2_o, (global::java.lang.reflect.Method) _r3_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.io.ObjectStreamClass$4: int compare(java.lang.Object, java.lang.Object)]

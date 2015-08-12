@@ -129,7 +129,6 @@ public virtual void run(){
     return;
     label21:;
     _r1_o = ((global::com.codename1.ui.RunnableWrapper) _r9_o)._fparentForm;
-    _r1_o = _r1_o;
     label25:;
     _r4.i = ((global::com.codename1.ui.Dialog) _r1_o).isDisposed() ? 1 : 0;
     if (_r4.i != 0) goto label48;
@@ -358,7 +357,6 @@ public virtual void run(){
     _r6.i = 0;
     _r4_o = ((global::java.util.ArrayList) _r4_o).get((int) _r6.i);
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = global::com.codename1.ui.RunnableWrapper._fthreadPool;
     _r6.i = 0;

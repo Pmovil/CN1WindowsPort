@@ -143,7 +143,6 @@ public virtual global::System.Object getLinkTargets(){
     _r2.i = ((global::java.util.ArrayList) _r1_o).size();
     _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
     _r2_o = ((global::java.util.ArrayList) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
-    _r2_o = _r2_o;
     goto label38;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: java.lang.String[] getLinkTargets()]
 }

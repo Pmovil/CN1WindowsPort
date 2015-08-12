@@ -82,7 +82,6 @@ public virtual void startElement(global::java.lang.String n1, global::java.lang.
     _r4_o = n3;
     _r5_o = n4;
     _r0_o = ((global::gnu.xml.aelfred2.SAXDriver_2Adapter) _r1_o)._fdocHandler;
-    _r5_o = _r5_o;
     ((global::org.xml.sax.DocumentHandler) _r0_o).startElement((global::java.lang.String) _r4_o, (global::org.xml.sax.AttributeList) _r5_o);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.SAXDriver$Adapter: void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes)]

@@ -178,7 +178,6 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r23.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r23.i = _r23.f > _r19.f ? 1 : (_r23.f == _r19.f ? 0 : -1);
     if (_r23.i < 0) goto label194;
@@ -192,7 +191,6 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r23.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r23.i = _r23.f > _r19.f ? 1 : (_r23.f == _r19.f ? 0 : -1);
     if (_r23.i <= 0) goto label225;
@@ -221,10 +219,8 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r16.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r32_o = ((global::java.util.List) _r10_o).get((int) _r11.i);
-    _r32_o = _r32_o;
     _r21.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r23.i = _r16.f > _r19.f ? 1 : (_r16.f == _r19.f ? 0 : -1);
     if (_r23.i >= 0) goto label263;
@@ -241,14 +237,12 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r17.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r23.i = 1;
     _r23.i = _r11.i - _r23.i;
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r22.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r23.f = _r22.f - _r17.f;
     _r24.f = _r19.f - _r16.f;
@@ -391,7 +385,6 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r24.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r24.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r25.f = (float)1.0D;
     _r24.f = _r24.f + _r25.f;
@@ -436,7 +429,6 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r10_o;
     _r1.i = _r23.i;
     _r32_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r32_o = _r32_o;
     _r23.f = ((global::java.lang.Float) _r32_o).floatValue();
     _r24.f = (float)0.0D;
     _r23.i = _r23.f > _r24.f ? 1 : (_r23.f == _r24.f ? 0 : -1);
@@ -537,7 +529,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r17_o;
     _r1.i = _r10.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r2.f = ((global::java.lang.Float) _r19_o).floatValue();
     _r3.f = (float) _r13.i;
     _r2.f = _r2.f - _r3.f;
@@ -546,7 +537,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r17_o;
     _r1.i = _r4.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r4.f = ((global::java.lang.Float) _r19_o).floatValue();
     _r5.f = (float) _r13.i;
     _r4.f = _r4.f - _r5.f;
@@ -554,7 +544,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r17_o;
     _r1.i = _r10.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r6.f = ((global::java.lang.Float) _r19_o).floatValue();
     _r7.f = (float) _r13.i;
     _r6.f = _r6.f + _r7.f;
@@ -563,7 +552,6 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r17_o;
     _r1.i = _r8.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r8.f = ((global::java.lang.Float) _r19_o).floatValue();
     _r9.f = (float) _r13.i;
     _r8.f = _r8.f + _r9.f;
@@ -572,13 +560,11 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r18_o;
     _r1.i = _r10.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r4.d = ((global::java.lang.Double) _r19_o).doubleValue();
     _r2.i = _r10.i + 1;
     _r0_o = _r18_o;
     _r1.i = _r2.i;
     _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r19_o = _r19_o;
     _r6.d = ((global::java.lang.Double) _r19_o).doubleValue();
     _r2_o = _r15_o;
     ((global::com.codename1.charts.views.ClickableArea) _r2_o).@this((global::com.codename1.ui.geom.Rectangle2D) _r3_o, (double) _r4.d, (double) _r6.d);
@@ -662,7 +648,6 @@ public override bool isRenderPoints(global::com.codename1.charts.renderers.Simpl
     global::System.Object _r3_o = null;
     _r2_o = this;
     _r3_o = n1;
-    _r3_o = _r3_o;
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r3_o).getPointStyle();
     _r1_o = global::com.codename1.charts.views.PointStyle._fPOINT;
     if (_r0_o == _r1_o) goto label12;

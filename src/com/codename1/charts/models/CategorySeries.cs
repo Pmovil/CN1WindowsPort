@@ -238,7 +238,6 @@ public virtual double getValue(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.CategorySeries) _r2_o)._fmValues;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Double) _r0_o).doubleValue();
     }
     catch (global::System.Exception e) {
@@ -272,7 +271,6 @@ public virtual global::System.Object getCategory(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.CategorySeries) _r1_o)._fmCategories;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -344,7 +342,6 @@ public virtual global::System.Object toXYSeries(){
     _r5.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label37;
     _r7_o = ((global::java.util.Iterator) _r0_o).next();
-    _r7_o = _r7_o;
     _r2.d = ((global::java.lang.Double) _r7_o).doubleValue();
     _r1.i = _r1.i + 1;
     _r5.d = (double) _r1.i;

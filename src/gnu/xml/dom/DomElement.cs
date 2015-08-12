@@ -154,7 +154,6 @@ public override global::System.Object clone(){
     _r5_o = this;
     _r4.i = 1;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomElement) _r5_o)._fattributes;
     if (_r1_o == null) goto label25;
     _r1_o = new global::gnu.xml.dom.DomNamedNodeMap();
@@ -328,7 +327,6 @@ public virtual global::System.Object getAttributeNode(global::java.lang.String n
     label6:;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o)._fattributes;
     _r1_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r0_o).getNamedItem((global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: org.w3c.dom.Attr getAttributeNode(java.lang.String)]
@@ -351,7 +349,6 @@ public virtual global::System.Object getAttributeNodeNS(global::java.lang.String
     label6:;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o)._fattributes;
     _r1_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r0_o).getNamedItemNS((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label5;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: org.w3c.dom.Attr getAttributeNodeNS(java.lang.String, java.lang.String)]
@@ -372,7 +369,6 @@ public virtual void setAttribute(global::java.lang.String n1, global::java.lang.
     if (_r1_o == null) goto label18;
     ((global::org.w3c.dom.Attr) _r1_o).setNodeValue((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 1;
     ((global::gnu.xml.dom.DomAttr) _r2_o).setSpecified(0!=_r1.i);
@@ -450,7 +446,6 @@ public virtual global::System.Object setAttributeNode(global::org.w3c.dom.Attr n
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o).getAttributes();
     _r1_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).setNamedItem((global::org.w3c.dom.Node) _r2_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.Attr) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: org.w3c.dom.Attr setAttributeNode(org.w3c.dom.Attr)]
 }
@@ -464,7 +459,6 @@ public virtual global::System.Object setAttributeNodeNS(global::org.w3c.dom.Attr
     _r2_o = n1;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o).getAttributes();
     _r1_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).setNamedItemNS((global::org.w3c.dom.Node) _r2_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.Attr) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: org.w3c.dom.Attr setAttributeNodeNS(org.w3c.dom.Attr)]
 }
@@ -531,7 +525,6 @@ public virtual global::System.Object removeAttributeNode(global::org.w3c.dom.Att
     _r0_o = ((global::gnu.xml.dom.DomElement) _r4_o)._fattributes;
     _r1_o = ((global::org.w3c.dom.Attr) _r5_o).getNodeName();
     _r4_o = ((global::gnu.xml.dom.DomNamedNodeMap) _r0_o).removeNamedItem((global::java.lang.String) _r1_o);
-    _r4_o = _r4_o;
     return (global::org.w3c.dom.Attr) _r4_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: org.w3c.dom.Attr removeAttributeNode(org.w3c.dom.Attr)]
 }
@@ -755,7 +748,6 @@ public virtual global::System.Object getSchemaTypeInfo(){
     _r2_o = this;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r2_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label19;
     _r1_o = ((global::gnu.xml.dom.DomElement) _r2_o).getNodeName();
     _r0_o = ((global::gnu.xml.dom.DomDoctype) _r0_o).getElementTypeInfo((global::java.lang.String) _r1_o);
@@ -778,7 +770,6 @@ public virtual void setIdAttribute(global::java.lang.String n1, bool n2){
     _r3.i = n2 ? 1 : 0;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o).getAttributes();
     _r0_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).getNamedItem((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.DomElement) _r1_o).setIdAttributeNode((global::org.w3c.dom.Attr) _r0_o, 0!=_r3.i);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: void setIdAttribute(java.lang.String, boolean)]
@@ -849,7 +840,6 @@ public virtual void setIdAttributeNS(global::java.lang.String n1, global::java.l
     _r4.i = n3 ? 1 : 0;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r1_o).getAttributes();
     _r0_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).getNamedItemNS((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.DomElement) _r1_o).setIdAttributeNode((global::org.w3c.dom.Attr) _r0_o, 0!=_r4.i);
     return;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomElement: void setIdAttributeNS(java.lang.String, java.lang.String, boolean)]

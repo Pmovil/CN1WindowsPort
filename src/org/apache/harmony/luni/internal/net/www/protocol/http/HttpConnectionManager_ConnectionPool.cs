@@ -49,7 +49,6 @@ public virtual void clear(){
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label46;
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r3_o = ((global::java.util.List) _r1_o).iterator();
     }
     catch (global::System.Exception e) {
@@ -66,7 +65,6 @@ public virtual void clear(){
     _r4.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label11;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r0_o).closeSocketAndStreams();
     }
     catch (global::System.Exception e) {
@@ -125,7 +123,6 @@ public virtual void returnConnection(global::org.apache.harmony.luni.@internal.n
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r5_o).getHttpConfiguration();
     _r2_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager_2ConnectionPool) _r4_o)._ffreeConnectionMap;
     _r1_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label41;
     _r1_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r1_o).@this();
@@ -218,7 +215,6 @@ public virtual global::System.Object getHttpConnection(global::org.apache.harmon
     try {
     _r3_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager_2ConnectionPool) _r5_o)._ffreeConnectionMap;
     _r1_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r6_o);
-    _r1_o = _r1_o;
     _r3.i = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnectionManager.access_2100() ? 1 : 0;
     if (_r3.i == 0) goto label27;
     if (_r1_o != null) goto label27;
@@ -274,7 +270,6 @@ public virtual global::System.Object getHttpConnection(global::org.apache.harmon
     _r3.i = 0;
     try {
     _r0_o = ((global::java.util.List) _r1_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r3.i = 0;
     ((global::java.util.List) _r1_o).remove((int) _r3.i);
     _r3.i = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection) _r0_o).isStale() ? 1 : 0;
@@ -350,7 +345,6 @@ public virtual int numFreeConnections(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label29;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3.i = ((global::java.util.List) _r0_o).size();
     _r2.i = _r2.i + _r3.i;
     goto label11;

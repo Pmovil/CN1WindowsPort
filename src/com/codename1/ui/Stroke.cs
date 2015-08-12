@@ -168,7 +168,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Stroke)) ? 1 : 0;
     if (_r2.i == 0) goto label41;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.f = ((global::com.codename1.ui.Stroke) _r1_o)._fmiterLimit;
     _r3.f = ((global::com.codename1.ui.Stroke) _r5_o)._fmiterLimit;

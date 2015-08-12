@@ -186,9 +186,7 @@ private void updateIconPlaceholders(global::org.xmlvm._nArrayAdapter<global::Sys
     if (_r2.i == 0) goto label41;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fplaceholders;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Label) _r2_o).getIcon();
-    _r2_o = _r2_o;
     ((global::java.util.HashMap) _r3_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r2_o);
     label41:;
     _r0.i = _r0.i + 1;
@@ -217,7 +215,6 @@ private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global:
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r2.i == 0) goto label19;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fmon;
     ((global::com.codename1.ui.Button) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     label19:;
@@ -234,9 +231,7 @@ private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global:
     if (_r2.i == 0) goto label56;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fplaceholders;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Label) _r2_o).getIcon();
-    _r2_o = _r2_o;
     ((global::java.util.HashMap) _r3_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r2_o);
     label56:;
     _r0.i = _r0.i + 1;
@@ -331,7 +326,6 @@ private global::System.Object vectorToComponentArray(global::java.util.ArrayList
     _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r0.i >= _r2.i) goto label21;
     _r3_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
-    _r3_o = _r3_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r3_o;
     _r0.i = _r0.i + 1;
     goto label7;
@@ -359,7 +353,6 @@ private void findComponentsOfInterest(global::com.codename1.ui.Component n1, glo
     _r5.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label25;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     _r3.i = 0;
@@ -375,7 +368,6 @@ private void findComponentsOfInterest(global::com.codename1.ui.Component n1, glo
     _r5.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r5.i == 0) goto label72;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Label) _r4_o).getName();
     _r5_o = ((global::java.lang.String) _r5_o).toLowerCase();
@@ -453,7 +445,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r1.i == 0) goto label56;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r1.i = 1;
     ((global::com.codename1.ui.List) _r13_o).setMutableRendererBackgrounds(0!=_r1.i);
@@ -464,7 +455,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label77;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Container) _r8_o).getLeadComponent();
     if (_r1_o == null) goto label165;
@@ -474,13 +464,11 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label205;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r9_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r1_o);
-    _r9_o = _r9_o;
     if (_r9_o == null) goto label102;
     _r1.i = ((global::java.lang.Boolean) _r9_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r7_o).setEnabled(0!=_r1.i);
@@ -546,7 +534,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r1.i == 0) goto label316;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
@@ -624,7 +611,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r1.i == 0) goto label365;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r1.i = 1;
     ((global::com.codename1.ui.List) _r13_o).setMutableRendererBackgrounds(0!=_r1.i);
@@ -634,13 +620,11 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label456;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r9_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r1_o);
-    _r9_o = _r9_o;
     if (_r9_o == null) goto label394;
     _r1.i = ((global::java.lang.Boolean) _r9_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r7_o).setEnabled(0!=_r1.i);
@@ -681,7 +665,6 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r1.i == 0) goto label536;
     _r0_o = _r14_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
@@ -765,7 +748,6 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r2_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label34;
     _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r10_o)[_r11.i];
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r2_o);
@@ -784,7 +766,6 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r6_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r0_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label71;
     _r12_o = _r0_o;
     label70:;
@@ -799,7 +780,6 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r1_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label112;
     _r1_o = ((global::java.lang.Object) _r12_o).toString();
     _r3.i = 47;
@@ -808,7 +788,6 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     label112:;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o)._fplaceholders;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r9_o);
-    _r3_o = _r3_o;
     _r4_o = ((global::java.lang.Object) _r12_o).toString();
     _r5_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o)._fadapter;
     _r12_o = global::com.codename1.ui.URLImage.createToStorage((global::com.codename1.ui.EncodedImage) _r3_o, (global::java.lang.String) _r1_o, (global::java.lang.String) _r4_o, (global::com.codename1.ui.URLImage_2ImageAdapter) _r5_o);
@@ -906,7 +885,6 @@ private void setComponentValueWithTickering(global::com.codename1.ui.Component n
     _r3.i = ((_r9_o != null) && (_r9_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r3.i == 0) goto label24;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r6_o)._fmon;
     ((global::com.codename1.ui.List) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r4_o);
@@ -914,7 +892,6 @@ private void setComponentValueWithTickering(global::com.codename1.ui.Component n
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r6_o)._fparentList = (global::com.codename1.ui.Component) _r9_o;
     label26:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Label) _r2_o).shouldTickerStart() ? 1 : 0;
     if (_r3.i == 0) goto label88;
@@ -992,7 +969,6 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Image)) ? 1 : 0;
     if (_r6.i == 0) goto label165;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.Image) _r2_o).isAnimation() ? 1 : 0;
     if (_r6.i == 0) goto label87;
@@ -1021,14 +997,11 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o)._fwaitingForRegisterAnimation = 0!=_r8.i;
     label87:;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.Label) _r6_o).getIcon();
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     ((global::com.codename1.ui.Label) _r6_o).setIcon((global::com.codename1.ui.Image) _r2_o);
-    _r11_o = _r11_o;
     // Value=
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -1041,7 +1014,6 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r7.i = ((global::com.codename1.ui.Image) _r2_o).getHeight();
     if (_r6.i == _r7.i) goto label19;
     label131:;
-    _r14_o = _r14_o;
     ((global::com.codename1.ui.Container) _r14_o).revalidate();
     goto label19;
     label137:;
@@ -1062,26 +1034,22 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     goto label87;
     label165:;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r7_o = null;
     ((global::com.codename1.ui.Label) _r6_o).setIcon((global::com.codename1.ui.Image) _r7_o);
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     if (_r6.i == 0) goto label188;
-    _r11_o = _r11_o;
     _r6.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o).isSelectedValue((global::java.lang.Object) _r12_o) ? 1 : 0;
     ((global::com.codename1.ui.CheckBox) _r11_o).setSelected(0!=_r6.i);
     goto label19;
     label188:;
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r6.i == 0) goto label203;
-    _r11_o = _r11_o;
     _r6.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o).isSelectedValue((global::java.lang.Object) _r12_o) ? 1 : 0;
     ((global::com.codename1.ui.RadioButton) _r11_o).setSelected(0!=_r6.i);
     goto label19;
     label203:;
     _r0_o = _r11_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     if (_r12_o != null) goto label245;
     // Value=
@@ -1103,11 +1071,9 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r6.i == 0) goto label270;
     _r0_o = _r12_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.Label) _r6_o).getText();
     ((global::com.codename1.ui.Label) _r3_o).setText((global::java.lang.String) _r6_o);
-    _r12_o = _r12_o;
     _r6_o = ((global::com.codename1.ui.Label) _r12_o).getIcon();
     ((global::com.codename1.ui.Label) _r3_o).setIcon((global::com.codename1.ui.Image) _r6_o);
     goto label214;
@@ -1119,14 +1085,12 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r6.i == 0) goto label19;
     if (_r12_o != null) goto label293;
-    _r11_o = _r11_o;
     // Value=
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     ((global::com.codename1.ui.TextArea) _r11_o).setText((global::java.lang.String) _r9_o);
     goto label19;
     label293:;
-    _r11_o = _r11_o;
     _r6_o = ((global::java.lang.Object) _r12_o).toString();
     ((global::com.codename1.ui.TextArea) _r11_o).setText((global::java.lang.String) _r6_o);
     goto label19;
@@ -1182,7 +1146,6 @@ public virtual void setSelectionListener(bool n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label19;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._fparentList;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._fmon;
     ((global::com.codename1.ui.List) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
     label19:;

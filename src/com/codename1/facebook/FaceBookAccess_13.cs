@@ -39,13 +39,10 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4_o = this;
     _r5_o = n1;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r2_o = ((global::com.codename1.io.NetworkEvent) _r3_o).getMetaData();
-    _r2_o = _r2_o;
     _r3.i = 0;
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.facebook.FaceBookAccess_213) _r4_o)._fval_2photo;
     if (_r3_o == null) goto label26;
     _r3_o = ((global::com.codename1.facebook.FaceBookAccess_213) _r4_o)._fval_2photo;

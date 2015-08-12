@@ -19,7 +19,6 @@ public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<
     ((global::java.lang.Object) _r1_o).@this();
     ((global::java.net.PasswordAuthentication) _r1_o)._fuserName = (global::java.lang.String) _r2_o;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<char>) _r3_o).clone();
-    _r0_o = _r0_o;
     ((global::java.net.PasswordAuthentication) _r1_o)._fpassword = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
     return;
 //XMLVM_END_WRAPPER[java.net.PasswordAuthentication: void <init>(java.lang.String, char[])]
@@ -32,7 +31,6 @@ public virtual global::System.Object getPassword(){
     _r1_o = this;
     _r0_o = ((global::java.net.PasswordAuthentication) _r1_o)._fpassword;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<char>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<char>) _r1_o;
 //XMLVM_END_WRAPPER[java.net.PasswordAuthentication: char[] getPassword()]
 }

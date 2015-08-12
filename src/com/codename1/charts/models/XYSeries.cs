@@ -354,10 +354,8 @@ public virtual void remove(int n1){
     _r5_o = ((global::com.codename1.charts.models.XYSeries) _r7_o)._fmXY;
     _r0_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r5_o).removeByIndex((int) _r8.i);
     _r5_o = ((global::com.codename1.charts.models.XYEntry) _r0_o).getKey();
-    _r5_o = _r5_o;
     _r1.d = ((global::java.lang.Double) _r5_o).doubleValue();
     _r5_o = ((global::com.codename1.charts.models.XYEntry) _r0_o).getValue();
-    _r5_o = _r5_o;
     _r3.d = ((global::java.lang.Double) _r5_o).doubleValue();
     _r5.d = ((global::com.codename1.charts.models.XYSeries) _r7_o)._fmMinX;
     _r5.i = _r1.d > _r5.d ? 1 : (_r1.d == _r5.d ? 0 : -1);
@@ -538,7 +536,6 @@ public virtual double getX(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYSeries) _r2_o)._fmXY;
     _r0_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r0_o).getXByIndex((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Double) _r0_o).doubleValue();
     }
     catch (global::System.Exception e) {
@@ -573,7 +570,6 @@ public virtual double getY(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYSeries) _r2_o)._fmXY;
     _r0_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r0_o).getYByIndex((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Double) _r0_o).doubleValue();
     }
     catch (global::System.Exception e) {
@@ -653,7 +649,6 @@ public virtual double getAnnotationX(int n1){
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.models.XYSeries) _r2_o)._fmStringXY;
     _r2_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r0_o).getXByIndex((int) _r3.i);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     return _r0.d;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.XYSeries: double getAnnotationX(int)]
@@ -669,7 +664,6 @@ public virtual double getAnnotationY(int n1){
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.models.XYSeries) _r2_o)._fmStringXY;
     _r2_o = ((global::com.codename1.charts.models.XYSeries_2IndexXYMap) _r0_o).getYByIndex((int) _r3.i);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     return _r0.d;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.XYSeries: double getAnnotationY(int)]
@@ -696,7 +690,6 @@ public virtual global::System.Object getAnnotationAt(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.XYSeries) _r1_o)._fmAnnotations;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.XYSeries: java.lang.String getAnnotationAt(int)]
 }
@@ -729,7 +722,6 @@ public virtual global::System.Object getRange(double n1, double n2, bool n3){
     _r4.i = ((global::java.util.SortedMap) _r0_o).isEmpty() ? 1 : 0;
     if (_r4.i != 0) goto label29;
     _r4_o = ((global::java.util.SortedMap) _r0_o).lastKey();
-    _r4_o = _r4_o;
     _r8.d = ((global::java.lang.Double) _r4_o).doubleValue();
     }
     catch (global::System.Exception e) {
@@ -751,11 +743,9 @@ public virtual global::System.Object getRange(double n1, double n2, bool n3){
     _r4_o = ((global::java.util.SortedMap) _r3_o).keySet();
     _r2_o = ((global::java.util.Set) _r4_o).iterator();
     _r1_o = ((global::java.util.Iterator) _r2_o).next();
-    _r1_o = _r1_o;
     _r4.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label95;
     _r4_o = ((global::java.util.Iterator) _r2_o).next();
-    _r4_o = _r4_o;
     _r10.d = ((global::java.lang.Double) _r4_o).doubleValue();
     }
     catch (global::System.Exception e) {

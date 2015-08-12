@@ -48,7 +48,6 @@ public virtual void run(){
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).listenSocket((int) _r4.i);
     _r3_o = ((global::com.codename1.io.Socket_21Listener) _r7_o)._fval_2scClass;
     _r2_o = ((global::java.lang.Class) _r3_o).newInstance();
-    _r2_o = _r2_o;
     if (_r0_o == null) goto label72;
     _r3.i = 1;
     ((global::com.codename1.io.SocketConnection) _r2_o).setConnected(0!=_r3.i);

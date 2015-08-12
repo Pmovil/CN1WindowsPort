@@ -82,7 +82,6 @@ public void @this(global::java.net.URI n1, global::java.net.Proxy n2){
     ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r0_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
     label41:;
-    _r0_o = _r0_o;
     _r1_o = ((global::java.net.InetSocketAddress) _r0_o).getHostName();
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r4_o)._fhostName = (global::java.lang.String) _r1_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r0_o).getPort();
@@ -122,7 +121,6 @@ public void @this(global::java.net.URI n1, global::java.net.Proxy n2){
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r4_o)._fhostPort = _r0.i;
     goto label55;
     label120:;
-    _r0_o = _r0_o;
     _r1_o = ((global::java.net.InetSocketAddress) _r0_o).getHostName();
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r4_o)._fhostName = (global::java.lang.String) _r1_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r0_o).getPort();
@@ -195,7 +193,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     return _r0.i!=0;
     label7:;
-    _r4_o = _r4_o;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r4_o)._fproxy;
     if (_r0_o == null) goto label41;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConfiguration) _r3_o)._fproxy;

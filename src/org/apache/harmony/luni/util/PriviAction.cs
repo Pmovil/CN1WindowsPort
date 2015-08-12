@@ -120,14 +120,11 @@ public virtual global::System.Object run(){
     return (global::java.lang.Object) _r0_o;
     label7:;
     _r0_o = ((global::org.apache.harmony.luni.util.PriviAction) _r1_o)._farg1;
-    _r0_o = _r0_o;
     _r1_o = ((global::org.apache.harmony.luni.util.PriviAction) _r1_o)._farg2;
-    _r1_o = _r1_o;
     _r0_o = global::java.lang.System.getProperty((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o);
     goto label6;
     label20:;
     _r1_o = ((global::org.apache.harmony.luni.util.PriviAction) _r1_o)._farg1;
-    _r1_o = _r1_o;
 // Red class access removed: java.security.Security getProperty
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: java.security.Security getProperty");
     goto label6;
@@ -137,7 +134,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
     goto label6;
     label34:;
     _r1_o = ((global::org.apache.harmony.luni.util.PriviAction) _r1_o)._farg1;
-    _r1_o = _r1_o;
     _r0.i = 1;
     ((global::java.lang.reflect.AccessibleObject) _r1_o).setAccessible(0!=_r0.i);
     goto label5;

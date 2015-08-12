@@ -116,7 +116,6 @@ public void @this(int n1, int n2, int n3, int n4, double n5, double n6, int n7, 
     return;
     label29:;
     _r0_o = ((global::com.codename1.ui.layouts.Insets) _r12_o).clone();
-    _r0_o = _r0_o;
     goto label22;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagConstraints: void <init>(int, int, int, int, double, double, int, int, com.codename1.ui.layouts.Insets, int, int)]
 }

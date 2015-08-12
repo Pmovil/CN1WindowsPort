@@ -49,10 +49,8 @@ public override global::System.Object copy(bool n1){
     _r4.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r4.i == 0) goto label51;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.animations.MorphTransition) _r6_o)._ffromTo;
     _r3_o = ((global::java.util.HashMap) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.ui.animations.MorphTransition) _r2_o)._ffromTo;
     ((global::java.util.HashMap) _r4_o).put((global::java.lang.Object) _r3_o, (global::java.lang.Object) _r0_o);
     goto label18;
@@ -123,9 +121,7 @@ public override void initTransition(){
     _r1_o = ((global::com.codename1.ui.animations.MorphTransition) _r15_o)._fanimationMotion;
     ((global::com.codename1.ui.animations.Motion) _r1_o).start();
     _r12_o = ((global::com.codename1.ui.animations.MorphTransition) _r15_o).getSource();
-    _r12_o = _r12_o;
     _r7_o = ((global::com.codename1.ui.animations.MorphTransition) _r15_o).getDestination();
-    _r7_o = _r7_o;
     _r1_o = ((global::com.codename1.ui.animations.MorphTransition) _r15_o)._ffromTo;
     _r1_o = ((global::java.util.HashMap) _r1_o).keySet();
     _r11_o = ((global::java.util.Set) _r1_o).iterator();
@@ -139,10 +135,8 @@ public override void initTransition(){
     label57:;
     if (_r9.i >= _r13.i) goto label275;
     _r10_o = ((global::java.util.Iterator) _r11_o).next();
-    _r10_o = _r10_o;
     _r1_o = ((global::com.codename1.ui.animations.MorphTransition) _r15_o)._ffromTo;
     _r14_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r10_o);
-    _r14_o = _r14_o;
     _r2_o = global::com.codename1.ui.animations.MorphTransition.findByName((global::com.codename1.ui.Container) _r12_o, (global::java.lang.String) _r10_o);
     _r3_o = global::com.codename1.ui.animations.MorphTransition.findByName((global::com.codename1.ui.Container) _r7_o, (global::java.lang.String) _r14_o);
     if (_r2_o == null) goto label85;
@@ -256,7 +250,6 @@ private static global::System.Object findByName(global::com.codename1.ui.Contain
     label25:;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label39;
-    _r0_o = _r0_o;
     _r0_o = global::com.codename1.ui.animations.MorphTransition.findByName((global::com.codename1.ui.Container) _r0_o, (global::java.lang.String) _r6_o);
     if (_r0_o == null) goto label39;
     _r4_o = _r0_o;

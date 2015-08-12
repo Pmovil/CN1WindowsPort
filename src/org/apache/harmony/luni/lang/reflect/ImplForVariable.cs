@@ -33,7 +33,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r5_o).getName();
     _r3_o = ((global::java.lang.reflect.TypeVariable) _r1_o).getName();
@@ -154,7 +153,6 @@ public static global::System.Object nextLayer(global::java.lang.reflect.GenericD
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.Class)) ? 1 : 0;
     if (_r2.i == 0) goto label29;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = ((global::java.lang.Class) _r1_o).getEnclosingMethod();
     if (_r5_o == null) goto label16;
@@ -172,13 +170,11 @@ public static global::System.Object nextLayer(global::java.lang.reflect.GenericD
     label29:;
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.reflect.Method)) ? 1 : 0;
     if (_r2.i == 0) goto label40;
-    _r5_o = _r5_o;
     _r2_o = ((global::java.lang.reflect.Method) _r5_o).getDeclaringClass();
     goto label15;
     label40:;
     _r2.i = ((_r5_o != null) && (_r5_o is global::java.lang.reflect.Constructor)) ? 1 : 0;
     if (_r2.i == 0) goto label51;
-    _r5_o = _r5_o;
     _r2_o = ((global::java.lang.reflect.Constructor) _r5_o).getDeclaringClass();
     goto label15;
     label51:;
@@ -213,7 +209,6 @@ public virtual void resolve(){
     _r1_o = global::org.apache.harmony.luni.lang.reflect.ImplForVariable.findFormalVar((global::java.lang.reflect.GenericDeclaration) _r0_o, (global::java.lang.String) _r2_o);
     if (_r1_o == null) goto label32;
     label15:;
-    _r1_o = _r1_o;
     ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r3_o)._fformalVar = (global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o;
     _r2_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r3_o)._fformalVar;
     _r2_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r2_o)._fgenericDeclaration;
@@ -239,7 +234,6 @@ public virtual global::System.Object getBounds(){
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ImplForVariable) _r1_o)._fbounds;
     _r0_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfTypes) _r0_o).getResolvedTypes();
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ImplForVariable: java.lang.reflect.Type[] getBounds()]
 }

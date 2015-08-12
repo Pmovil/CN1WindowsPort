@@ -55,7 +55,6 @@ public virtual global::System.Object getArray(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::org.apache.harmony.luni.lang.reflect.ListOfVariables) _r2_o)._farray;
     _r2_o = ((global::java.util.ArrayList) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfVariables: java.lang.reflect.TypeVariable[] getArray()]
 }

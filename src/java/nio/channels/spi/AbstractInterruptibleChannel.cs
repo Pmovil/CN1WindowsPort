@@ -25,7 +25,6 @@ public static void @static(){
     _r0_o = new global::java.nio.channels.spi.AbstractInterruptibleChannel_21();
     ((global::java.nio.channels.spi.AbstractInterruptibleChannel_21) _r0_o).@this();
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedExceptionAction) _r0_o);
-    _r0_o = _r0_o;
     global::java.nio.channels.spi.AbstractInterruptibleChannel._fsetInterruptAction = (global::java.lang.reflect.Method) _r0_o;
     _r0_o = global::java.nio.channels.spi.AbstractInterruptibleChannel._fsetInterruptAction;
     _r1.i = 1;

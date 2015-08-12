@@ -120,7 +120,6 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = 0;
     _r0.i = base.equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r0.i == 0) goto label25;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.util.PropertyPermission) _r3_o)._fread ? 1 : 0;
     _r1.i = ((global::java.util.PropertyPermission) _r4_o)._fread ? 1 : 0;
     if (_r0.i != _r1.i) goto label23;
@@ -188,7 +187,6 @@ public override bool implies(global::java.security.Permission n1){
     _r1.i = 0;
     _r0.i = base.implies((global::java.security.Permission) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label29;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.util.PropertyPermission) _r2_o)._fread ? 1 : 0;
     if (_r0.i != 0) goto label17;
     _r0.i = ((global::java.util.PropertyPermission) _r3_o)._fread ? 1 : 0;
@@ -259,7 +257,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     ((global::java.util.PropertyPermission) _r3_o).decodeActions((global::java.lang.String) _r0_o);
     return;
 //XMLVM_END_WRAPPER[java.util.PropertyPermission: void readObject(java.io.ObjectInputStream)]

@@ -335,7 +335,6 @@ public virtual global::System.Object readLine(){
     }
     if (_r1.i == 0) goto label86;
     _r4_o = ((global::java.io.DataInputStream) _r4_o)._fin;
-    _r4_o = _r4_o;
     ((global::java.io.PushbackInputStream) _r4_o).unread((int) _r2.i);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     label30:;
@@ -352,7 +351,6 @@ public virtual global::System.Object readLine(){
     label46:;
     if (_r1.i == 0) goto label60;
     _r4_o = ((global::java.io.DataInputStream) _r4_o)._fin;
-    _r4_o = _r4_o;
     ((global::java.io.PushbackInputStream) _r4_o).unread((int) _r2.i);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     goto label30;

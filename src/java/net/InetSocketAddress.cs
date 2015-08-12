@@ -255,7 +255,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = _r2.i;
     goto label4;
     label11:;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r3_o)._fport;
     _r1.i = ((global::java.net.InetSocketAddress) _r4_o)._fport;
     if (_r0.i == _r1.i) goto label21;

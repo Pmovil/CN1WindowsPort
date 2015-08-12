@@ -88,9 +88,7 @@ public static global::System.Object getValue(global::java.lang.Object n1, global
     if (_r2_o != _r10_o) goto label129;
     _r6_o = global::com.codename1.ui.layouts.mig.LinkHandler._fVALUES_1TEMP;
     _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r1.i);
-    _r6_o = _r6_o;
     _r3_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r11_o);
-    _r3_o = _r3_o;
     if (_r0.i == 0) goto label89;
     if (_r3_o == null) goto label89;
     _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r12.i];
@@ -137,9 +135,7 @@ public static global::System.Object getValue(global::java.lang.Object n1, global
     try {
     _r6_o = global::com.codename1.ui.layouts.mig.LinkHandler._fVALUES;
     _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r1.i);
-    _r6_o = _r6_o;
     _r3_o = ((global::java.util.HashMap) _r6_o).get((global::java.lang.Object) _r11_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label118;
     _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r12.i];
     if (_r6.i == _r9.i) goto label118;
@@ -311,9 +307,7 @@ public static bool setBounds(global::java.lang.Object n1, global::java.lang.Stri
     label33:;
     try {
     _r4_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
-    _r4_o = _r4_o;
     _r10_o = ((global::java.util.HashMap) _r4_o).get((global::java.lang.Object) _r5_o);
-    _r10_o = _r10_o;
     if (_r10_o == null) goto label67;
     _r0.i = 0;
     _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r10_o)[_r0.i];
@@ -747,7 +741,6 @@ public static bool clearBounds(global::java.lang.Object n1, global::java.lang.St
     if (_r1_o != _r7_o) goto label50;
     _r3_o = global::com.codename1.ui.layouts.mig.LinkHandler._fVALUES;
     _r7_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
-    _r7_o = _r7_o;
     _r3_o = ((global::java.util.HashMap) _r7_o).remove((global::java.lang.Object) _r8_o);
     }
     catch (global::System.Exception e) {
@@ -820,7 +813,6 @@ public static void clearTemporaryBounds(global::java.lang.Object n1){
     if (_r1_o != _r5_o) goto label43;
     _r3_o = global::com.codename1.ui.layouts.mig.LinkHandler._fVALUES_1TEMP;
     _r5_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
-    _r5_o = _r5_o;
     ((global::java.util.HashMap) _r5_o).clear();
     }
     catch (global::System.Exception e) {

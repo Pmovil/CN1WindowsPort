@@ -116,7 +116,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     _r1.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label75;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     ((global::com.codename1.ui.Container) _r8_o).revalidate();
     label75:;
@@ -208,7 +207,6 @@ public virtual void pointerReleasedImpl(int n1, int n2, bool n3){
     _r0.i = _r14.i - _r7.i;
     _r1.i = ((global::com.codename1.ui.Component) _r8_o).getY();
     _r10.i = _r0.i + _r1.i;
-    _r8_o = _r8_o;
     _r11_o = ((global::com.codename1.ui.Container) _r8_o).getComponentAt((int) _r9.i, (int) _r10.i);
     if (_r11_o == null) goto label111;
     _r0.i = 0;
@@ -303,7 +301,6 @@ public override global::System.Object calcPreferredSize(){
     _r1.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label75;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     ((global::com.codename1.ui.Container) _r9_o).revalidate();
     label75:;

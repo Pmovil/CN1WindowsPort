@@ -235,7 +235,6 @@ public static global::System.Object createByteArrayFromIPAddressString(global::j
     goto label127;
     label271:;
     _r13_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
-    _r13_o = _r13_o;
     _r4.i = _r3.i * 2;
     global::org.apache.harmony.luni.util.Inet6Util.convertToBytes((global::java.lang.String) _r13_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o, (int) _r4.i);
     _r3.i = _r3.i + 1;
@@ -243,7 +242,6 @@ public static global::System.Object createByteArrayFromIPAddressString(global::j
     label286:;
     _r3.i = _r0.i + 12;
     _r13_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r13_o = _r13_o;
     _r4.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r13_o);
     _r4.i = _r4.i & 255;
     _r4.i = (_r4.i << 24) >> 24;

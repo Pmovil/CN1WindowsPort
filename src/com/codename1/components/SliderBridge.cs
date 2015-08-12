@@ -12,7 +12,6 @@ public void @this(){
     _r1_o = this;
     ((global::com.codename1.ui.Slider) _r1_o).@this();
     _r0_o = null;
-    _r0_o = _r0_o;
     global::com.codename1.components.SliderBridge.bindProgress((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::com.codename1.ui.Slider) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.SliderBridge: void <init>()]
@@ -29,7 +28,6 @@ public static void bindProgress(global::com.codename1.io.ConnectionRequest n1, g
     _r3_o = n2;
     if (_r2_o != null) goto label9;
     _r2_o = null;
-    _r2_o = _r2_o;
     global::com.codename1.components.SliderBridge.bindProgress((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::com.codename1.ui.Slider) _r3_o);
     label8:;
     return;

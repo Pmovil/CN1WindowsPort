@@ -61,8 +61,6 @@ public override void addElement(global::java.lang.Object n1){
     _r2_o = ((global::com.codename1.facebook.FacebookRESTService_21) _r3_o)._fthis_20;
     _r2.i = global::com.codename1.facebook.FacebookRESTService.access_2100((global::com.codename1.facebook.FacebookRESTService) _r2_o);
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o).getItemAt((int) _r2.i);
-    _r0_o = _r0_o;
-    _r4_o = _r4_o;
     ((global::java.util.Hashtable) _r0_o).putAll((global::java.util.Map) _r4_o);
     _r1_o = ((global::com.codename1.facebook.FacebookRESTService_21) _r3_o)._fthis_20;
     _r1_o = global::com.codename1.facebook.FacebookRESTService.access_2000((global::com.codename1.facebook.FacebookRESTService) _r1_o);

@@ -63,7 +63,6 @@ public virtual global::System.Object getForm(){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109))}));
     _r1_o = ((global::gnu.xml.dom.html2.DomHTMLLabelElement) _r1_o).getParentElement((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.html2.HTMLFormElement) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.html2.DomHTMLLabelElement: org.w3c.dom.html2.HTMLFormElement getForm()]
 }

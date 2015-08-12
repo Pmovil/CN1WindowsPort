@@ -54,7 +54,6 @@ public virtual void selectionChanged(int n1, int n2){
     _r1_o = ((global::com.codename1.components.ImageViewer_21Listener) _r2_o)._fthis_20;
     _r1_o = global::com.codename1.components.ImageViewer.access_2100((global::com.codename1.components.ImageViewer) _r1_o);
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r4.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.components.ImageViewer) _r0_o).setImage((global::com.codename1.ui.Image) _r2_o);
     goto label8;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer$1Listener: void selectionChanged(int, int)]
@@ -97,7 +96,6 @@ public virtual void dataChanged(int n1, int n2){
     _r2_o = global::com.codename1.components.ImageViewer.access_2100((global::com.codename1.components.ImageViewer) _r2_o);
     _r2.i = ((global::com.codename1.ui.list.ListModel) _r2_o).getSelectedIndex();
     _r3_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.components.ImageViewer) _r0_o).setImage((global::com.codename1.ui.Image) _r3_o);
     label74:;
     return;

@@ -31,7 +31,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r7_o = this;
     _r8_o = n1;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;
     _r4_o = new global::com.codename1.maps.Tile();
@@ -40,7 +39,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;
     _r6_o = ((global::com.codename1.maps.ProxyHttpTile) _r2_o).getBoundingBox();
     _r2_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getMetaData();
-    _r2_o = _r2_o;
     ((global::com.codename1.maps.Tile) _r4_o).@this((global::com.codename1.ui.geom.Dimension) _r5_o, (global::com.codename1.maps.BoundingBox) _r6_o, (global::com.codename1.ui.Image) _r2_o);
     global::com.codename1.maps.ProxyHttpTile.access_2002((global::com.codename1.maps.ProxyHttpTile) _r3_o, (global::com.codename1.maps.Tile) _r4_o);
     _r2_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;

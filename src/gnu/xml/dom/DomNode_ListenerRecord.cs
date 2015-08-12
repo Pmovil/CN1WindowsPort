@@ -39,7 +39,6 @@ public override bool equals(global::java.lang.Object n1){
     global::System.Object _r3_o = null;
     _r2_o = this;
     _r3_o = n1;
-    _r3_o = _r3_o;
     _r0_o = ((global::gnu.xml.dom.DomNode_2ListenerRecord) _r2_o)._flistener;
     _r1_o = ((global::gnu.xml.dom.DomNode_2ListenerRecord) _r3_o)._flistener;
     if (_r0_o != _r1_o) goto label22;

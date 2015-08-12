@@ -581,7 +581,6 @@ public virtual void setXAxisMin(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -645,7 +644,6 @@ public virtual void setXAxisMax(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1.i = 1;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -709,7 +707,6 @@ public virtual void setYAxisMin(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1.i = 2;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -773,7 +770,6 @@ public virtual void setYAxisMax(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1.i = 3;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -922,7 +918,6 @@ public virtual global::System.Object getXTextLabel(global::java.lang.Double n1){
     try {
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXTextLabels;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -960,7 +955,6 @@ public virtual global::System.Object getXTextLabelLocations(){
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmXTextLabels;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1_o = ((global::java.util.Set) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1087,7 +1081,6 @@ public virtual void addYTextLabel(double n1, global::java.lang.String n2, int n3
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r6.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1_o = global::java.lang.Double.valueOf((double) _r3.d);
     ((global::java.util.Map) _r0_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r5_o);
     }
@@ -1126,7 +1119,6 @@ public virtual void removeYTextLabel(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r1_o = global::java.lang.Double.valueOf((double) _r3.d);
     ((global::java.util.Map) _r0_o).remove((global::java.lang.Object) _r1_o);
     }
@@ -1179,9 +1171,7 @@ public virtual global::System.Object getYTextLabel(global::java.lang.Double n1, 
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1230,17 +1220,14 @@ public virtual global::System.Object getYTextLabelLocations(int n1){
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r3_o)._fmYTextLabels;
     _r2_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1.i = ((global::java.util.Set) _r1_o).size();
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r3_o)._fmYTextLabels;
     _r2_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1_o = ((global::java.util.Set) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1286,7 +1273,6 @@ public virtual void clearYTextLabels(int n1){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r3.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r0_o = _r0_o;
     ((global::java.util.Map) _r0_o).clear();
     }
     catch (global::System.Exception e) {
@@ -1760,7 +1746,6 @@ public virtual global::System.Object getInitialRange(int n1){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r3.i);
     _r2_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<double>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getInitialRange(int)]
 }

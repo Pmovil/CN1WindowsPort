@@ -869,12 +869,10 @@ public virtual char getCharPerKeyCode(int n1, int n2, bool n3){
     label11:;
     _r3_o = global::com.codename1.ui.TextField._finputModes;
     _r1_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label57;
     _r3_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r3_o).@this((int) _r6.i);
     _r2_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label57;
     _r3.i = ((global::java.lang.String) _r2_o).length();
     _r5.i = _r5.i % _r3.i;

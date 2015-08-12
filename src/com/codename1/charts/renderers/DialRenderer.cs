@@ -219,7 +219,6 @@ public virtual global::System.Object getVisualTypeForIndex(int n1){
     if (_r2.i >= _r0.i) goto label18;
     _r0_o = ((global::com.codename1.charts.renderers.DialRenderer) _r1_o)._fmVisualTypes;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     label17:;
     return (global::com.codename1.charts.renderers.DialRenderer_2Type) _r0_o;

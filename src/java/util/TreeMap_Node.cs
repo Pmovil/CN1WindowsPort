@@ -69,7 +69,6 @@ public virtual global::System.Object clone(global::java.util.TreeMap_2Node n1){
     _r2.i = 64;
     _r4.i = 0;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
     ((global::java.util.TreeMap_2Node) _r0_o)._fkeys = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);

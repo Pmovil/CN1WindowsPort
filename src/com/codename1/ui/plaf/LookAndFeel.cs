@@ -1551,7 +1551,6 @@ public virtual void refreshTheme(bool n1){
     _r0_o = _r41_o;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fmenuRenderer;
     _r3_o = _r0_o;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Component) _r3_o).refreshTheme();
     label53:;
     _r3_o = global::com.codename1.ui.Display.getInstance();

@@ -68,7 +68,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     return _r0.i!=0;
     label7:;
-    _r4_o = _r4_o;
     _r0_o = ((global::java.lang.StackTraceElement) _r3_o)._fmethodName;
     if (_r0_o == null) goto label17;
     _r0_o = ((global::java.lang.StackTraceElement) _r4_o)._fmethodName;

@@ -61,7 +61,6 @@ public virtual void onSuccess(global::java.lang.Object n1){
     global::System.Object _r1_o = null;
     _r0_o = this;
     _r1_o = n1;
-    _r1_o = _r1_o;
     ((global::com.codename1.cloud.CloudStorage_22) _r0_o).onSuccess((global::java.lang.Integer) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage$2: void onSuccess(java.lang.Object)]

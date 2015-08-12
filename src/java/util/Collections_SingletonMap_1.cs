@@ -30,7 +30,6 @@ public override bool contains(global::java.lang.Object n1){
     _r2.i = 0;
     _r0.i = ((_r4_o != null) && (_r4_o is global::java.util.Map_2Entry)) ? 1 : 0;
     if (_r0.i == 0) goto label35;
-    _r4_o = _r4_o;
     _r0_o = ((global::java.util.Collections_2SingletonMap_21) _r3_o)._fthis_21;
     _r1_o = ((global::java.util.Map_2Entry) _r4_o).getKey();
     _r0.i = ((global::java.util.Collections_2SingletonMap) _r0_o).containsKey((global::java.lang.Object) _r1_o) ? 1 : 0;

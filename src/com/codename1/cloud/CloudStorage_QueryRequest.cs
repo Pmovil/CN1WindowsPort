@@ -216,7 +216,6 @@ public override void readResponse(global::java.io.InputStream n1){
     ((global::com.codename1.cloud.CloudObject) _r6_o).setLastModified((long) _r7.l);
     _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r3.i];
     _r6_o = global::com.codename1.io.Util.readObject((global::java.io.DataInputStream) _r1_o);
-    _r6_o = _r6_o;
     ((global::com.codename1.cloud.CloudObject) _r7_o).setValues((global::java.util.Hashtable) _r6_o);
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r3.i];
     _r7.i = 1;

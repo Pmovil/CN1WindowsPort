@@ -259,7 +259,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r3.i = ((_r7_o != null) && (_r7_o is global::com.codename1.io.BufferedInputStream)) ? 1 : 0;
     if (_r3.i == 0) goto label46;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label8:;
     _r3.i = -1;
@@ -358,7 +357,6 @@ public virtual void startBlock(global::java.lang.String n1){
     ((global::java.util.Hashtable) _r0_o).@this();
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r2.i == 0) goto label92;
-    _r1_o = _r1_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r6_o, (global::java.lang.Object) _r0_o);
     label69:;
     _r2_o = ((global::com.codename1.facebook.FacebookRESTService) _r5_o)._fstack;
@@ -374,7 +372,6 @@ public virtual void startBlock(global::java.lang.String n1){
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
     goto label55;
     label92:;
-    _r1_o = _r1_o;
     ((global::java.util.Vector) _r1_o).addElement((global::java.lang.Object) _r0_o);
     goto label69;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void startBlock(java.lang.String)]
@@ -422,14 +419,12 @@ public virtual void startArray(global::java.lang.String n1){
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r2.i == 0) goto label69;
-    _r1_o = _r1_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r6_o, (global::java.lang.Object) _r0_o);
     label63:;
     _r2_o = ((global::com.codename1.facebook.FacebookRESTService) _r5_o)._fstack;
     ((global::java.util.Vector) _r2_o).addElement((global::java.lang.Object) _r0_o);
     goto label9;
     label69:;
-    _r1_o = _r1_o;
     ((global::java.util.Vector) _r1_o).addElement((global::java.lang.Object) _r0_o);
     goto label63;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void startArray(java.lang.String)]
@@ -471,7 +466,6 @@ public virtual void endArray(global::java.lang.String n1){
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
-    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r4_o)._fcurrentData = (global::java.util.Hashtable) _r0_o;
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void endArray(java.lang.String)]
@@ -511,7 +505,6 @@ public virtual void endBlock(global::java.lang.String n1){
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
-    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r4_o)._fcurrentData = (global::java.util.Hashtable) _r0_o;
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void endBlock(java.lang.String)]

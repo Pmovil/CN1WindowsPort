@@ -69,7 +69,6 @@ public void @this(global::com.codename1.ui.list.ListModel n1, bool n2){
     _r4.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r4.i == 0) goto label92;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox) _r6_o).getRenderer();
-    _r0_o = _r0_o;
     // Value=ComboBoxItem
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
@@ -138,7 +137,6 @@ public override void addItem(global::java.lang.Object n1){
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label17;
     _r1_o = ((global::com.codename1.ui.html.MultiComboBox) _r1_o).getRenderer();
-    _r1_o = _r1_o;
     _r0.i = 1;
     ((global::com.codename1.ui.html.MultiComboBox_2MultiCellRenderer) _r1_o).setOptgroup(0!=_r0.i);
     label17:;

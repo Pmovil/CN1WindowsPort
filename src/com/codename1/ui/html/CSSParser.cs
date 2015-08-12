@@ -336,7 +336,6 @@ private void copyAttributes(global::com.codename1.ui.html.CSSElement n1, global:
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label2;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLElement) _r6_o).addChild((global::com.codename1.xml.Element) _r1_o);
     label22:;
     _r2.i = ((global::com.codename1.ui.html.CSSElement) _r1_o).getNumChildren();

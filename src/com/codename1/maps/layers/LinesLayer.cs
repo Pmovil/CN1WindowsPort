@@ -80,8 +80,6 @@ public override void paint(global::com.codename1.ui.Graphics n1, global::com.cod
     if (_r0.i >= _r1.i) goto label34;
     _r2_o = ((global::com.codename1.maps.layers.LinesLayer) _r3_o)._f_1lineSegments;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r2_o = _r2_o;
-    _r2_o = _r2_o;
     ((global::com.codename1.maps.layers.LinesLayer) _r3_o).paintSegment((global::com.codename1.ui.Graphics) _r4_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::com.codename1.maps.Tile) _r5_o);
     _r0.i = _r0.i + 1;
     goto label16;
@@ -220,9 +218,7 @@ public override global::System.Object boundingBox(){
     if (_r4.i >= _r5.i) goto label37;
     _r5_o = ((global::com.codename1.maps.layers.LinesLayer) _r6_o)._f_1lineSegments;
     _r5_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r4.i);
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r2_o = global::com.codename1.maps.BoundingBox.create((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     if (_r1_o != null) goto label32;

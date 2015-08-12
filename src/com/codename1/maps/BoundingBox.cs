@@ -165,7 +165,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.maps.BoundingBox) _r5_o)._f_1southWest;
     _r3_o = ((global::com.codename1.maps.BoundingBox) _r1_o)._f_1southWest;

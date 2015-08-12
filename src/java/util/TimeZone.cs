@@ -240,7 +240,6 @@ public override global::System.Object clone(){
     _r1_o = this;
     try {
     _r1_o = base.clone();
-    _r1_o = _r1_o;
     }
     catch (global::org.xmlvm._nExceptionAdapter ex) {
         global::System.Object _java_exception = ex.getJavaException();
@@ -726,14 +725,12 @@ public static global::System.Object getTimeZone(global::java.lang.String n1){
     try {
     _r0_o = global::java.util.TimeZone._fAvailableZones;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r11_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label41;
     _r2.i = global::java.util.TimeZone.isAvailableIDInICU((global::java.lang.String) _r11_o) ? 1 : 0;
     if (_r2.i == 0) goto label41;
     global::java.util.TimeZone.appendAvailableZones((global::java.lang.String) _r11_o);
     _r0_o = global::java.util.TimeZone._fAvailableZones;
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r11_o);
-    _r0_o = _r0_o;
     }
     catch (global::org.xmlvm._nExceptionAdapter ex) {
         global::System.Object _java_exception = ex.getJavaException();
@@ -791,7 +788,6 @@ public static global::System.Object getTimeZone(global::java.lang.String n1){
     try {
     _r0_o = global::java.util.TimeZone._fGMT;
     _r11_o = ((global::java.util.TimeZone) _r0_o).clone();
-    _r11_o = _r11_o;
     }
     catch (global::org.xmlvm._nExceptionAdapter ex) {
         global::System.Object _java_exception = ex.getJavaException();
@@ -838,7 +834,6 @@ public static global::System.Object getTimeZone(global::java.lang.String n1){
     try {
     _r0_o = global::java.util.TimeZone._fGMT;
     _r11_o = ((global::java.util.TimeZone) _r0_o).clone();
-    _r11_o = _r11_o;
     _r0_o = _r11_o;
     goto label96;
     }
@@ -941,7 +936,6 @@ public static global::System.Object getTimeZone(global::java.lang.String n1){
     label186:;
     try {
     _r11_o = ((global::java.util.TimeZone) _r0_o).clone();
-    _r11_o = _r11_o;
     }
     catch (global::org.xmlvm._nExceptionAdapter ex) {
         global::System.Object _java_exception = ex.getJavaException();

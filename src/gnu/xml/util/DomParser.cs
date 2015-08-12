@@ -331,7 +331,6 @@ private bool getIsL2(global::org.w3c.dom.Node n1){
     _r4_o = n1;
     _r0.i = ((_r4_o != null) && (_r4_o is global::org.w3c.dom.Document)) ? 1 : 0;
     if (_r0.i == 0) goto label17;
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
     label7:;
     if (_r0_o != null) goto label22;
@@ -561,7 +560,6 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     ((global::org.xml.sax.SAXNotSupportedException) _r0_o).@this((global::java.lang.String) _r4_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXNotSupportedException) _r0_o);
     label20:;
-    _r5_o = _r5_o;
     ((global::gnu.xml.util.DomParser) _r3_o)._fdeclHandler = (global::org.xml.sax.ext.DeclHandler) _r5_o;
     label24:;
     return;
@@ -578,7 +576,6 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     ((global::org.xml.sax.SAXNotSupportedException) _r0_o).@this((global::java.lang.String) _r4_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXNotSupportedException) _r0_o);
     label45:;
-    _r5_o = _r5_o;
     ((global::gnu.xml.util.DomParser) _r3_o)._flexicalHandler = (global::org.xml.sax.ext.LexicalHandler) _r5_o;
     goto label24;
     label50:;
@@ -604,7 +601,6 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     ((global::org.xml.sax.SAXNotSupportedException) _r0_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXNotSupportedException) _r0_o);
     label89:;
-    _r5_o = _r5_o;
     ((global::gnu.xml.util.DomParser) _r3_o).setStart((global::org.w3c.dom.Node) _r5_o);
     goto label24;
     label95:;
@@ -812,7 +808,6 @@ private void walk(){
     label168:;
     _r2_o = ((global::org.w3c.dom.NamedNodeMap) _r8_o).item((int) _r10.i);
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r4_o = ((global::org.w3c.dom.Attr) _r6_o).getNodeName();
     _r2.i = ((global::gnu.xml.util.DomParser) _r12_o)._fshowNamespaces ? 1 : 0;
@@ -918,7 +913,6 @@ private void walk(){
     label336:;
     _r2_o = ((global::gnu.xml.util.DomParser) _r12_o)._fcurrent;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r2.i = ((global::gnu.xml.util.DomParser) _r12_o)._fisL2 ? 1 : 0;
     if (_r2.i == 0) goto label417;
@@ -970,7 +964,6 @@ private void walk(){
     goto label375;
     label432:;
     _r2_o = ((global::org.w3c.dom.NamedNodeMap) _r4_o).item((int) _r6.i);
-    _r2_o = _r2_o;
     _r8_o = ((global::gnu.xml.util.DomParser) _r12_o)._fdtdHandler;
     _r9_o = ((global::org.w3c.dom.Notation) _r2_o).getNodeName();
     _r10_o = ((global::org.w3c.dom.Notation) _r2_o).getPublicId();
@@ -981,7 +974,6 @@ private void walk(){
     goto label396;
     label459:;
     _r2_o = ((global::org.w3c.dom.NamedNodeMap) _r3_o).item((int) _r5.i);
-    _r2_o = _r2_o;
     _r6_o = ((global::org.w3c.dom.Entity) _r2_o).getNotationName();
     if (_r6_o == null) goto label492;
     _r8_o = ((global::gnu.xml.util.DomParser) _r12_o)._fdtdHandler;
@@ -1128,7 +1120,6 @@ private void callEnd(global::org.w3c.dom.Node n1){
     label87:;
     _r2_o = ((global::gnu.xml.util.DomParser) _r4_o)._fcontentHandler;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     ((global::org.xml.sax.ContentHandler) _r2_o).endPrefixMapping((global::java.lang.String) _r0_o);
     goto label67;
     label99:;

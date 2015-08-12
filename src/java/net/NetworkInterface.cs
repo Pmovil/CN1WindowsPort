@@ -408,7 +408,6 @@ public static global::System.Object getByName(global::java.lang.String n1){
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label44;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r2_o = ((global::java.net.NetworkInterface) _r1_o).getName();
     _r2.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r2.i == 0) goto label20;
@@ -446,7 +445,6 @@ public static global::System.Object getByInetAddress(global::java.net.InetAddres
     _r3.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label76;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r3_o = ((global::java.net.NetworkInterface) _r1_o)._faddresses;
     if (_r3_o == null) goto label20;
     _r3_o = ((global::java.net.NetworkInterface) _r1_o)._faddresses;
@@ -520,15 +518,12 @@ public static global::System.Object getNetworkInterfaces(){
     if (_r10.i == 0) goto label66;
     label47:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r10_o = _r0_o;
     ((global::java.net.Inet6Address) _r10_o)._fscopedIf = (global::java.net.NetworkInterface) _r9_o;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r10_o = _r0_o;
     _r11_o = ((global::java.net.NetworkInterface) _r9_o)._fname;
     ((global::java.net.Inet6Address) _r10_o)._fifname = (global::java.lang.String) _r11_o;
-    _r1_o = _r1_o;
     _r10.i = 1;
     ((global::java.net.Inet6Address) _r1_o)._fscope_1ifname_1set = 0!=_r10.i;
     label66:;
@@ -580,7 +575,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label7;
     label14:;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r4.i = ((global::java.net.NetworkInterface) _r2_o).getIndex();
     _r5.i = ((global::java.net.NetworkInterface) _r9_o)._finterfaceIndex;
@@ -633,7 +627,6 @@ public override bool equals(global::java.lang.Object n1){
     _r4.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label126;
     _r9_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r9_o = _r9_o;
     _r4_o = ((global::java.util.Enumeration) _r3_o).nextElement();
     _r4.i = ((global::java.net.InetAddress) _r9_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r4.i != 0) goto label96;
@@ -711,7 +704,6 @@ public override global::System.Object toString(){
     _r3.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label72;
     _r0_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r0_o = _r0_o;
     // Value=[
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)91))}));

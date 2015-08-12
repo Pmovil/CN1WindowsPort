@@ -471,10 +471,8 @@ public virtual global::System.Object lookupFunction(global::java.lang.String n1,
     _r2.i = ((_r1_o != null) && (_r1_o is global::gnu.xml.xpath.Expr)) ? 1 : 0;
     if (_r2.i == 0) goto label509;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     ((global::gnu.xml.xpath.Function) _r6_o).setArguments((global::java.util.List) _r8_o);
-    _r1_o = _r1_o;
     goto label22;
     label509:;
     _r1_o = new global::gnu.xml.xpath.FunctionCall();
@@ -1000,7 +998,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label325;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     label313:;
     _r1_o = ((global::gnu.xml.xpath.Steps) _r0_o)._fpath;
     _r8_o = new global::gnu.xml.xpath.Root();
@@ -1013,7 +1010,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = ((global::gnu.xml.xpath.Steps) _r1_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r8_o).addFirst((global::java.lang.Object) _r0_o);
     _r0_o = _r1_o;
     goto label313;
@@ -1031,7 +1027,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label390;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     label373:;
     _r8_o = ((global::gnu.xml.xpath.Steps) _r0_o)._fpath;
     ((global::java.util.LinkedList) _r8_o).addFirst((global::java.lang.Object) _r1_o);
@@ -1046,7 +1041,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r9_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r9_o).addFirst((global::java.lang.Object) _r0_o);
     _r0_o = _r8_o;
     goto label373;
@@ -1057,13 +1051,11 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label437;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label423:;
     _r8_o = ((global::gnu.xml.xpath.Steps) _r1_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r8_o).addLast((global::java.lang.Object) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1073,7 +1065,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = ((global::gnu.xml.xpath.Steps) _r1_o)._fpath;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r8_o).addFirst((global::java.lang.Object) _r0_o);
     goto label423;
     label454:;
@@ -1090,7 +1081,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label504;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     label485:;
     _r0_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
@@ -1098,7 +1088,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r1_o).addLast((global::java.lang.Object) _r0_o);
     _r0_o = _r8_o;
     goto label175;
@@ -1108,13 +1097,11 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r9_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r9_o).addFirst((global::java.lang.Object) _r0_o);
     goto label485;
     label521:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = new global::gnu.xml.xpath.Selector();
     _r8.i = 3;
     ((global::gnu.xml.xpath.Selector) _r1_o).@this((int) _r8.i, (global::java.util.List) _r0_o);
@@ -1123,7 +1110,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label536:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = new global::gnu.xml.xpath.Selector();
     _r8.i = 2;
     ((global::gnu.xml.xpath.Selector) _r1_o).@this((int) _r8.i, (global::java.util.List) _r0_o);
@@ -1132,11 +1118,9 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label551:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r8_o = new global::gnu.xml.xpath.Selector();
     _r1.i = _r2.i + -2;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r1.i = ((global::java.lang.Integer) _r1_o).intValue();
     ((global::gnu.xml.xpath.Selector) _r8_o).@this((int) _r1.i, (global::java.util.List) _r0_o);
     _r0_o = _r8_o;
@@ -1160,17 +1144,14 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     ((global::java.util.ArrayList) _r1_o).@this();
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.List) _r1_o).add((global::java.lang.Object) _r0_o);
     _r0_o = _r1_o;
     goto label175;
     label620:;
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r1_o);
     goto label175;
     label637:;
@@ -1243,7 +1224,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8.i = 7;
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.NodeTypeTest) _r1_o).@this((short) _r8.i, (global::java.lang.String) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1251,7 +1231,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = new global::gnu.xml.xpath.NodeTypeTest();
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Short) _r0_o).shortValue();
     ((global::gnu.xml.xpath.NodeTypeTest) _r1_o).@this((short) _r0.i);
     _r0_o = _r1_o;
@@ -1260,7 +1239,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = new global::gnu.xml.xpath.Predicate();
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.Predicate) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1268,7 +1246,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = new global::gnu.xml.xpath.ParenthesizedExpr();
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.ParenthesizedExpr) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1288,16 +1265,13 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = global::java.util.Collections.emptyList();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r13_o).lookupFunction((global::java.lang.String) _r0_o, (global::java.util.List) _r1_o);
     goto label175;
     label845:;
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + -3;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r13_o).lookupFunction((global::java.lang.String) _r1_o, (global::java.util.List) _r0_o);
     goto label175;
     label863:;
@@ -1305,28 +1279,23 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     ((global::java.util.ArrayList) _r1_o).@this();
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.List) _r1_o).add((global::java.lang.Object) _r0_o);
     _r0_o = _r1_o;
     goto label175;
     label880:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r8.i = 0;
     _r1.i = _r2.i + -2;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     ((global::java.util.List) _r0_o).add((int) _r8.i, (global::java.lang.Object) _r1_o);
     goto label175;
     label898:;
     _r8_o = new global::gnu.xml.xpath.UnionExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     ((global::gnu.xml.xpath.UnionExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o);
     _r0_o = _r8_o;
     goto label175;
@@ -1337,13 +1306,11 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label947;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label933:;
     _r8_o = ((global::gnu.xml.xpath.Steps) _r1_o)._fpath;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r8_o).addFirst((global::java.lang.Object) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1353,7 +1320,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = ((global::gnu.xml.xpath.Steps) _r1_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r8_o).addFirst((global::java.lang.Object) _r0_o);
     goto label933;
     label964:;
@@ -1370,7 +1336,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label1014;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     label995:;
     _r0_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
@@ -1378,7 +1343,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r1_o).addFirst((global::java.lang.Object) _r0_o);
     _r0_o = _r8_o;
     goto label175;
@@ -1388,13 +1352,11 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r9_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r9_o).addFirst((global::java.lang.Object) _r0_o);
     goto label995;
     label1031:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = new global::gnu.xml.xpath.Selector();
     _r8.i = 12;
     _r0_o = global::java.util.Collections.singletonList((global::java.lang.Object) _r0_o);
@@ -1405,7 +1367,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     if (_r0.i == 0) goto label1069;
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     label1062:;
     _r8_o = ((global::gnu.xml.xpath.Steps) _r0_o)._fpath;
     ((global::java.util.LinkedList) _r8_o).addLast((global::java.lang.Object) _r1_o);
@@ -1416,7 +1377,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r9_o = ((global::gnu.xml.xpath.Steps) _r8_o)._fpath;
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r9_o).addFirst((global::java.lang.Object) _r0_o);
     _r0_o = _r8_o;
     goto label1062;
@@ -1424,10 +1384,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.OrExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     ((global::gnu.xml.xpath.OrExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o);
     _r0_o = _r8_o;
     goto label175;
@@ -1435,10 +1393,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.AndExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     ((global::gnu.xml.xpath.AndExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o);
     _r0_o = _r8_o;
     goto label175;
@@ -1446,10 +1402,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.EqualityExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 0;
     ((global::gnu.xml.xpath.EqualityExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i);
     _r0_o = _r8_o;
@@ -1458,10 +1412,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.EqualityExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 1;
     ((global::gnu.xml.xpath.EqualityExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i);
     _r0_o = _r8_o;
@@ -1470,10 +1422,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.RelationalExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 1;
     _r10.i = 0;
     ((global::gnu.xml.xpath.RelationalExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i, 0!=_r10.i);
@@ -1483,10 +1433,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.RelationalExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 0;
     _r10.i = 0;
     ((global::gnu.xml.xpath.RelationalExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i, 0!=_r10.i);
@@ -1496,10 +1444,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.RelationalExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 1;
     _r10.i = 1;
     ((global::gnu.xml.xpath.RelationalExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i, 0!=_r10.i);
@@ -1509,10 +1455,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.RelationalExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 0;
     _r10.i = 1;
     ((global::gnu.xml.xpath.RelationalExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, 0!=_r9.i, 0!=_r10.i);
@@ -1522,10 +1466,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.ArithmeticExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 0;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (int) _r9.i);
     _r0_o = _r8_o;
@@ -1534,10 +1476,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.ArithmeticExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 1;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (int) _r9.i);
     _r0_o = _r8_o;
@@ -1546,10 +1486,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.ArithmeticExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 2;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (int) _r9.i);
     _r0_o = _r8_o;
@@ -1558,10 +1496,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.ArithmeticExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 3;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (int) _r9.i);
     _r0_o = _r8_o;
@@ -1570,10 +1506,8 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::gnu.xml.xpath.ArithmeticExpr();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1.i = _r2.i + 0;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r1_o = _r1_o;
     _r9.i = 4;
     ((global::gnu.xml.xpath.ArithmeticExpr) _r8_o).@this((global::gnu.xml.xpath.Expr) _r0_o, (global::gnu.xml.xpath.Expr) _r1_o, (int) _r9.i);
     _r0_o = _r8_o;
@@ -1582,7 +1516,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = new global::gnu.xml.xpath.NegativeExpr();
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.NegativeExpr) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     _r0_o = _r1_o;
     goto label175;
@@ -1591,7 +1524,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::java.lang.StringBuilder();
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = global::java.lang.String.valueOf((global::java.lang.Object) _r0_o);
     ((global::java.lang.StringBuilder) _r8_o).@this((global::java.lang.String) _r0_o);
     // Value=.0
@@ -1607,7 +1539,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::java.lang.StringBuilder();
     _r0.i = _r2.i + -1;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = global::java.lang.String.valueOf((global::java.lang.Object) _r0_o);
     ((global::java.lang.StringBuilder) _r8_o).@this((global::java.lang.String) _r0_o);
     // Value=.0
@@ -1623,7 +1554,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = new global::java.lang.StringBuilder();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = global::java.lang.String.valueOf((global::java.lang.Object) _r0_o);
     ((global::java.lang.StringBuilder) _r8_o).@this((global::java.lang.String) _r0_o);
     // Value=.
@@ -1632,7 +1562,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r8_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r0_o);
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r0_o);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     ((global::java.lang.Double) _r1_o).@this((global::java.lang.String) _r0_o);
@@ -1647,7 +1576,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     ((global::java.lang.StringBuilder) _r8_o).@this((global::java.lang.String) _r0_o);
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::java.lang.StringBuilder) _r8_o).append((global::java.lang.String) _r0_o);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     ((global::java.lang.Double) _r1_o).@this((global::java.lang.String) _r0_o);
@@ -1656,7 +1584,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label1514:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r1_o = new global::gnu.xml.xpath.VariableReference();
     _r8_o = ((global::gnu.xml.xpath.XPathParser) _r13_o)._fvariableResolver;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r13_o).getQName((global::java.lang.String) _r0_o);
@@ -1673,7 +1600,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label1544:;
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r13_o).getQName((global::java.lang.String) _r0_o);
     _r1_o = new global::gnu.xml.xpath.NameTest();
     _r8.i = 1;
@@ -1684,7 +1610,6 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     label1564:;
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.xpath.XPathParser) _r13_o).getQName((global::java.lang.String) _r0_o);
     _r1_o = new global::gnu.xml.xpath.NameTest();
     _r8.i = 0;
@@ -1696,14 +1621,12 @@ public virtual global::System.Object yyparse(global::gnu.xml.xpath.XPathParser_2
     _r1_o = new global::java.lang.StringBuilder();
     _r0.i = _r2.i + -2;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = global::java.lang.String.valueOf((global::java.lang.Object) _r0_o);
     ((global::java.lang.StringBuilder) _r1_o).@this((global::java.lang.String) _r0_o);
     _r0.i = 58;
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((char) _r0.i);
     _r0.i = _r2.i + 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
-    _r0_o = _r0_o;
     _r0_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r0_o);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     goto label175;

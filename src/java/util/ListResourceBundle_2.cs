@@ -43,7 +43,6 @@ public virtual global::System.Object nextElement(){
     _r1_o = this;
     _r0_o = ((global::java.util.ListResourceBundle_22) _r1_o)._fit;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[java.util.ListResourceBundle$2: java.lang.String nextElement()]
 }

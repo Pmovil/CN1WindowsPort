@@ -54,7 +54,6 @@ public virtual global::System.Object get(global::org.xmlvm._nArrayAdapter<global
     _r5_o = ((global::com.codename1.ui.util.LazyValueC) _r6_o)._fparent;
     _r5_o = ((global::com.codename1.ui.util.UIBuilder) _r5_o).fetchResourceFile();
     _r3_o = ((global::com.codename1.ui.util.UIBuilder) _r3_o).createContainer((global::com.codename1.ui.util.Resources) _r5_o, (global::java.lang.String) _r2_o);
-    _r3_o = _r3_o;
     _r0_o = ((global::com.codename1.ui.util.UIBuilder) _r4_o).createForm((global::com.codename1.ui.Form) _r3_o);
     _r3_o = ((global::com.codename1.ui.util.LazyValueC) _r6_o)._fh;
     if (_r3_o == null) goto label46;

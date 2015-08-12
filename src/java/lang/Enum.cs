@@ -211,10 +211,8 @@ public static global::System.Object getValues(global::java.lang.Class n1){
     _r0_o = new global::java.lang.Enum_21();
     ((global::java.lang.Enum_21) _r0_o).@this((global::java.lang.Class) _r3_o);
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedExceptionAction) _r0_o);
-    _r0_o = _r0_o;
     _r1_o = null;
     _r3_o = ((global::java.lang.reflect.Method) _r0_o).invoke((global::java.lang.Object) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r3_o = _r3_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -251,7 +249,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Enum) _r1_o).compareTo((global::java.lang.Enum) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.lang.Enum: int compareTo(java.lang.Object)]

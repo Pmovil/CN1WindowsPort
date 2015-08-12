@@ -203,7 +203,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.d = ((global::com.codename1.maps.Coord) _r7_o)._flongitude;
     _r4.d = ((global::com.codename1.maps.Coord) _r1_o)._flongitude;

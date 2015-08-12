@@ -60,7 +60,6 @@ public virtual bool animate(){
     _r7_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r10_o)._fthis_20;
     _r7_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2100((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o);
     _r2_o = ((global::java.util.ArrayList) _r7_o).get((int) _r3.i);
-    _r2_o = _r2_o;
     _r7.i = ((global::com.codename1.ui.Image) _r2_o).animate() ? 1 : 0;
     if (_r7.i != 0) goto label65;
     if (_r5.i == 0) goto label70;
@@ -106,7 +105,6 @@ public virtual bool animate(){
     _r7_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r10_o)._fthis_20;
     _r7_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2200((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o);
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r3.i];
-    _r4_o = _r4_o;
     _r7.i = ((global::com.codename1.ui.Label) _r4_o).isTickerRunning() ? 1 : 0;
     if (_r7.i == 0) goto label165;
     _r5.i = 1;
@@ -137,7 +135,6 @@ public virtual bool animate(){
     _r7_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r10_o)._fthis_20;
     _r7_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2200((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o);
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r3.i];
-    _r4_o = _r4_o;
     _r7.i = ((global::com.codename1.ui.Label) _r4_o).isTickerRunning() ? 1 : 0;
     if (_r7.i == 0) goto label226;
     ((global::com.codename1.ui.Label) _r4_o).stopTicker();
@@ -206,7 +203,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     if (_r11.i == 0) goto label20;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r14_o = ((global::com.codename1.ui.events.ActionEvent) _r15_o).getComponent();
-    _r14_o = _r14_o;
     global::com.codename1.ui.list.GenericListCellRenderer.access_2302((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o, (global::com.codename1.ui.Button) _r14_o);
     label19:;
     return;
@@ -221,18 +217,15 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     ((global::com.codename1.ui.Component) _r11_o).setHandlesInput(0!=_r12.i);
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r15_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
-    _r15_o = _r15_o;
     _r8_o = ((global::com.codename1.ui.List) _r15_o).getSelectedItem();
     _r11.i = ((_r8_o != null) && (_r8_o is global::java.util.Map)) ? 1 : 0;
     if (_r11.i == 0) goto label19;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     // Value=$navigation
     _r11_o = new global::java.lang.String();
     ((global::java.lang.String)_r11_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r1_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r11_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label89;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
@@ -278,12 +271,10 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fselectAllChecked = 0!=_r6.i;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r15_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
-    _r15_o = _r15_o;
     _r11.i = ((global::com.codename1.ui.List) _r15_o).getSelectedIndex();
     ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fselectAllOffset = _r11.i;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r15_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
-    _r15_o = _r15_o;
     _r11_o = ((global::com.codename1.ui.List) _r15_o).getModel();
     _r2.i = ((global::com.codename1.ui.list.ListModel) _r11_o).getSize();
     _r11_o = new global::java.lang.StringBuilder();
@@ -299,12 +290,10 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     if (_r10.i >= _r2.i) goto label19;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r15_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
-    _r15_o = _r15_o;
     _r11_o = ((global::com.codename1.ui.List) _r15_o).getModel();
     _r5_o = ((global::com.codename1.ui.list.ListModel) _r11_o).getItemAt((int) _r10.i);
     _r11.i = ((_r5_o != null) && (_r5_o is global::java.util.Map)) ? 1 : 0;
     if (_r11.i == 0) goto label248;
-    _r5_o = _r5_o;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2200((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
     _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r4.i];
@@ -324,11 +313,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fselectAllChecked = 0!=_r11.i;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r15_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2000((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
-    _r15_o = _r15_o;
     _r11_o = ((global::com.codename1.ui.List) _r15_o).getModel();
     _r12.i = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fselectAllOffset;
     _r7_o = ((global::com.codename1.ui.list.ListModel) _r11_o).getItemAt((int) _r12.i);
-    _r7_o = _r7_o;
     _r11_o = ((global::com.codename1.ui.list.GenericListCellRenderer_2Monitor) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.list.GenericListCellRenderer.access_2200((global::com.codename1.ui.list.GenericListCellRenderer) _r11_o);
     _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r4.i];

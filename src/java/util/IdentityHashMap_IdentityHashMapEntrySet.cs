@@ -62,7 +62,6 @@ public override bool remove(global::java.lang.Object n1){
     _r0.i = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r2_o).contains((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label19;
     _r0_o = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r2_o)._fassociatedMap;
-    _r3_o = _r3_o;
     _r1_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
     ((global::java.util.IdentityHashMap) _r0_o).remove((global::java.lang.Object) _r1_o);
     _r0.i = 1;
@@ -90,7 +89,6 @@ public override bool contains(global::java.lang.Object n1){
     if (_r1.i == 0) goto label31;
     _r2_o = ((global::java.util.IdentityHashMap_2IdentityHashMapEntrySet) _r4_o)._fassociatedMap;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r1_o).getKey();
     _r1_o = global::java.util.IdentityHashMap.access_21((global::java.util.IdentityHashMap) _r2_o, (global::java.lang.Object) _r1_o);

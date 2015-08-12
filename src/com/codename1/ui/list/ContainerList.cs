@@ -540,8 +540,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.ui.list.ContainerList) _r2_o).setModel((global::com.codename1.ui.list.ListModel) _r0_o);
     _r0_o = _r1_o;
@@ -553,7 +551,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label38;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.ContainerList) _r2_o).setRenderer((global::com.codename1.ui.list.CellRenderer) _r4_o);
     _r0_o = _r1_o;
     goto label22;

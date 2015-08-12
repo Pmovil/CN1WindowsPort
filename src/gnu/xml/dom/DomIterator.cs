@@ -61,7 +61,6 @@ public void @this(global::org.w3c.dom.Node n1, int n2, global::org.w3c.dom.trave
     ((global::gnu.xml.dom.DomIterator) _r4_o)._freference = (global::org.w3c.dom.Node) _r0_o;
     _r0.i = 1;
     ((global::gnu.xml.dom.DomIterator) _r4_o)._fright = 0!=_r0.i;
-    _r5_o = _r5_o;
     // Value=DOMNodeRemoved
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
@@ -79,7 +78,6 @@ public virtual void detach(){
     global::System.Object _r3_o = null;
     _r3_o = this;
     _r0_o = ((global::gnu.xml.dom.DomIterator) _r3_o)._froot;
-    _r0_o = _r0_o;
     // Value=DOMNodeRemoved
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
@@ -368,9 +366,7 @@ public virtual void handleEvent(global::org.w3c.dom.events.Event n1){
     label23:;
     return;
     label24:;
-    _r4_o = _r4_o;
     _r0_o = ((global::org.w3c.dom.events.MutationEvent) _r4_o).getTarget();
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomIterator) _r3_o)._freference;
     label34:;
     if (_r1_o == null) goto label40;

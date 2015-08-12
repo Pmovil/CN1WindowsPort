@@ -37,7 +37,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     if (_r11_o == null) goto label47;
     _r6.i = ((_r11_o != null) && (_r11_o is global::java.lang.Double)) ? 1 : 0;
     if (_r6.i == 0) goto label47;
-    _r11_o = _r11_o;
     _r0.d = ((global::java.lang.Double) _r11_o).doubleValue();
     _r2.l = (long) _r0.d;
     _r6.d = 100.0D;

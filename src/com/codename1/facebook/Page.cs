@@ -163,43 +163,36 @@ private void init(global::java.util.Hashtable n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fabout = (global::java.lang.String) _r2_o;
     // Value=category
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fcategory = (global::java.lang.String) _r2_o;
     // Value=link
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._flink = (global::java.lang.String) _r2_o;
     // Value=about
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fabout = (global::java.lang.String) _r2_o;
     // Value=founded
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._ffounded = (global::java.lang.String) _r2_o;
     // Value=website
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fwebsite = (global::java.lang.String) _r2_o;
     // Value=likes
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r1_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label122;
     _r2.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
     ((global::com.codename1.facebook.Page) _r4_o)._flikesCount = _r2.i;
@@ -208,25 +201,21 @@ private void init(global::java.util.Hashtable n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fusername = (global::java.lang.String) _r2_o;
     // Value=cover
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label121;
     // Value=cover_id
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fcoverId = (global::java.lang.String) _r2_o;
     // Value=source
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.Page) _r4_o)._fcoverLink = (global::java.lang.String) _r2_o;
     label121:;
     return;

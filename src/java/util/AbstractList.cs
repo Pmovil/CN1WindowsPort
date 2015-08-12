@@ -115,7 +115,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r7_o != null) && (_r7_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label61;
-    _r7_o = _r7_o;
     _r0.i = ((global::java.util.List) _r7_o).size();
     _r1.i = ((global::java.util.AbstractList) _r6_o).size();
     if (_r0.i == _r1.i) goto label24;

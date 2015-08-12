@@ -43,7 +43,6 @@ public virtual global::System.Object next(){
     _r1_o = this;
     _r0_o = ((global::java.util.AbstractMap_21_21) _r1_o)._fsetIterator;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Map_2Entry) _r1_o).getKey();
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[java.util.AbstractMap$1$1: java.lang.Object next()]

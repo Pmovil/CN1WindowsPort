@@ -103,7 +103,6 @@ public static void push(int n1){
     _r4_o = global::com.codename1.impl.CodenameOneThread._fCODE;
     if (_r3_o != _r4_o) goto label19;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.impl.CodenameOneThread) _r1_o).pushStack((int) _r5.i);
     label19:;
@@ -123,7 +122,6 @@ public static void pop(){
     _r4_o = global::com.codename1.impl.CodenameOneThread._fCODE;
     if (_r3_o != _r4_o) goto label19;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.impl.CodenameOneThread) _r1_o).popStack();
     label19:;
@@ -179,7 +177,6 @@ public static void storeStack(global::java.lang.Throwable n1, int n2){
     _r4_o = global::com.codename1.impl.CodenameOneThread._fCODE;
     if (_r3_o != _r4_o) goto label19;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.impl.CodenameOneThread) _r1_o).storeStackForException((global::java.lang.Throwable) _r5_o, (int) _r6.i);
     label19:;
@@ -223,9 +220,7 @@ public virtual global::System.Object getStack(global::java.lang.Throwable n1){
     _r0_o = _r14_o;
     _r1_o = _r18_o;
     _r3_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     if (_r9_o != null) goto label58;
     _r0_o = _r17_o;
@@ -520,7 +515,6 @@ public static void handleException(global::java.lang.Throwable n1){
     if (_r2.i == 0) goto label46;
     _r2_o = ((global::java.lang.Throwable) _r5_o).toString();
     global::com.codename1.io.Log.p((global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.impl.CodenameOneThread) _r1_o).getStack((global::java.lang.Throwable) _r5_o);
     global::com.codename1.io.Log.p((global::java.lang.String) _r2_o);
     // Value=$CN1Uncaught

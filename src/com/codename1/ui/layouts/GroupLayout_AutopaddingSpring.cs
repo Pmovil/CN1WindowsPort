@@ -195,7 +195,6 @@ public virtual void calculatePadding(int n1){
     if (_r0.i < 0) goto label65;
     _r5_o = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r8_o)._fmatches;
     _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r5_o = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingMatch) _r1_o)._fsource;
     _r6_o = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingMatch) _r1_o)._ftarget;
     _r5.i = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r8_o).calculatePadding((global::com.codename1.ui.layouts.LayoutStyle) _r3_o, (int) _r4.i, (global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r5_o, (global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r6_o);
@@ -327,7 +326,6 @@ public virtual void addTarget(global::com.codename1.ui.layouts.GroupLayout_2Comp
     if (_r1.i < 0) goto label32;
     _r4_o = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r7_o)._fsources;
     _r3_o = ((global::java.util.ArrayList) _r4_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r7_o)._fthis_20;
     _r5_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r3_o).getComponent();
     _r4.i = global::com.codename1.ui.layouts.GroupLayout.access_21200((global::com.codename1.ui.layouts.GroupLayout) _r4_o, (global::com.codename1.ui.Component) _r5_o, (global::com.codename1.ui.Component) _r0_o, (int) _r2.i) ? 1 : 0;

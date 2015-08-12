@@ -95,7 +95,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = ((global::com.codename1.ui.util.SwipeBackSupport_21) _r9_o)._fval_2destination;
     _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r7.i]);
     _r2_o = ((global::com.codename1.util.LazyValue) _r2_o).get((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.util.SwipeBackSupport) _r3_o)._fdestinationForm = (global::com.codename1.ui.Form) _r2_o;
     _r2_o = ((global::com.codename1.ui.util.SwipeBackSupport_21) _r9_o)._fthis_20;
     _r3_o = ((global::com.codename1.ui.util.SwipeBackSupport_21) _r9_o)._fval_2currentForm;

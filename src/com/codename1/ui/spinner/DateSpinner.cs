@@ -221,7 +221,6 @@ public virtual int getCurrentYear(){
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fyear;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -265,7 +264,6 @@ public virtual int getCurrentDay(){
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fday;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.DateSpinner: int getCurrentDay()]
@@ -305,7 +303,6 @@ public virtual int getCurrentMonth(){
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.DateSpinner) _r1_o)._fmonth;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -641,7 +638,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 89)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label125;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateSpinner) _r2_o).setMonthDayYear(0!=_r0.i);
     _r0_o = _r1_o;
@@ -652,7 +648,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label144;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.DateSpinner) _r2_o).setNumericMonths(0!=_r0.i);
     _r0_o = _r1_o;

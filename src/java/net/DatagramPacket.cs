@@ -762,7 +762,6 @@ public virtual void setSocketAddress(global::java.net.SocketAddress n1){
     } // end catch
     label28:;
     try {
-    _r4_o = _r4_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r4_o).isUnresolved() ? 1 : 0;
     if (_r0.i == 0) goto label48;
     _r0_o = new global::java.lang.IllegalArgumentException();

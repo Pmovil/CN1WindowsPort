@@ -135,7 +135,6 @@ public static void closeCurrentMenu(){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label25;
     _r2.i = ((global::com.codename1.ui.SideMenuBar) _r0_o)._ftransitionRunning ? 1 : 0;
     if (_r2.i != 0) goto label25;
@@ -160,7 +159,6 @@ public static void closeCurrentMenu(global::java.lang.Runnable n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label36;
     _r2.i = ((global::com.codename1.ui.SideMenuBar) _r0_o)._ftransitionRunning ? 1 : 0;
     if (_r2.i != 0) goto label36;
@@ -212,7 +210,6 @@ public override void removeAllCommands(){
     _r8_o = ((global::com.codename1.ui.Component) _r4_o).getClientProperty((global::java.lang.String) _r8_o);
     if (_r8_o == null) goto label71;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.Container) _r7_o).removeComponent((global::com.codename1.ui.Component) _r4_o);
     ((global::com.codename1.ui.Container) _r7_o).revalidate();
@@ -491,12 +488,10 @@ public virtual void installRightCommands(){
     _r15.i = _r15.i - _r16.i;
     _r15.i = _r15.i - _r8.i;
     _r11_o = ((global::java.util.ArrayList) _r14_o).get((int) _r15.i);
-    _r11_o = _r11_o;
     // Value=uiid
     _r14_o = new global::java.lang.String();
     ((global::java.lang.String)_r14_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r13_o = ((global::com.codename1.ui.Command) _r11_o).getClientProperty((global::java.lang.String) _r14_o);
-    _r13_o = _r13_o;
     if (_r13_o != null) goto label56;
     // Value=TitleCommand
     _r13_o = new global::java.lang.String();
@@ -515,7 +510,6 @@ public virtual void installRightCommands(){
     _r15_o = global::java.lang.Boolean._fTRUE;
     ((global::com.codename1.ui.Button) _r1_o).putClientProperty((global::java.lang.String) _r14_o, (global::java.lang.Object) _r15_o);
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r7_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getEast();
     if (_r7_o != null) goto label105;
@@ -531,7 +525,6 @@ public virtual void installRightCommands(){
     _r14.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r14.i == 0) goto label157;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r12.i = 1;
     _r9.i = 0;
@@ -541,7 +534,6 @@ public virtual void installRightCommands(){
     _r4_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r9.i);
     _r14.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r14.i == 0) goto label154;
-    _r4_o = _r4_o;
     _r5_o = ((global::com.codename1.ui.Button) _r4_o).getCommand();
     if (_r5_o == null) goto label154;
     _r14_o = ((global::com.codename1.ui.Button) _r1_o).getCommand();
@@ -559,7 +551,6 @@ public virtual void installRightCommands(){
     _r14.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r14.i == 0) goto label181;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Button) _r9_o).getCommand();
     if (_r5_o == null) goto label181;
@@ -633,12 +624,10 @@ public virtual void installLeftCommands(){
     _r15.i = _r15.i - _r16.i;
     _r15.i = _r15.i - _r7.i;
     _r10_o = ((global::java.util.ArrayList) _r14_o).get((int) _r15.i);
-    _r10_o = _r10_o;
     // Value=uiid
     _r14_o = new global::java.lang.String();
     ((global::java.lang.String)_r14_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r12_o = ((global::com.codename1.ui.Command) _r10_o).getClientProperty((global::java.lang.String) _r14_o);
-    _r12_o = _r12_o;
     if (_r12_o != null) goto label56;
     // Value=TitleCommand
     _r12_o = new global::java.lang.String();
@@ -657,7 +646,6 @@ public virtual void installLeftCommands(){
     _r15_o = global::java.lang.Boolean._fTRUE;
     ((global::com.codename1.ui.Button) _r1_o).putClientProperty((global::java.lang.String) _r14_o, (global::java.lang.Object) _r15_o);
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r13_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getWest();
     if (_r13_o != null) goto label105;
@@ -673,7 +661,6 @@ public virtual void installLeftCommands(){
     _r14.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r14.i == 0) goto label157;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r11.i = 1;
     _r8.i = 0;
@@ -683,7 +670,6 @@ public virtual void installLeftCommands(){
     _r4_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r8.i);
     _r14.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r14.i == 0) goto label154;
-    _r4_o = _r4_o;
     _r5_o = ((global::com.codename1.ui.Button) _r4_o).getCommand();
     if (_r5_o == null) goto label154;
     _r14_o = ((global::com.codename1.ui.Button) _r1_o).getCommand();
@@ -701,7 +687,6 @@ public virtual void installLeftCommands(){
     _r14.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r14.i == 0) goto label181;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r14_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Button) _r14_o).getCommand();
     if (_r5_o == null) goto label181;
@@ -933,7 +918,6 @@ private void removeCommandComponent(global::com.codename1.ui.Container n1, globa
     _r1_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r4.i);
     _r5.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label23;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.SideMenuBar) _r6_o).removeCommandComponent((global::com.codename1.ui.Container) _r1_o, (global::com.codename1.ui.Command) _r8_o);
     label20:;
     _r4.i = _r4.i + 1;
@@ -942,7 +926,6 @@ private void removeCommandComponent(global::com.codename1.ui.Container n1, globa
     _r5.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r5.i == 0) goto label20;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Button) _r5_o).getCommand();
     if (_r5_o != _r8_o) goto label20;
@@ -1062,7 +1045,6 @@ public override void keyReleased(int n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r3_o = ((global::com.codename1.ui.Command) _r0_o).getClientProperty((global::java.lang.String) _r4_o);
-    _r3_o = _r3_o;
     if (_r3_o != null) goto label66;
     ((global::org.xmlvm._nArrayAdapter<bool>) _r1_o)[_r7.i] = 0!=_r6.i;
     label63:;
@@ -1293,7 +1275,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r4_o = ((global::com.codename1.ui.Command) _r11_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r4_o = _r4_o;
     label44:;
     if (_r12.i == 0) goto label68;
     _r1.i = 0;
@@ -1305,7 +1286,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r3_o = ((global::com.codename1.ui.Command) _r0_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label162;
     _r4_o = _r3_o;
     label68:;
@@ -1343,7 +1323,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     _r6.i = ((global::com.codename1.ui.plaf.UIManager) _r6_o).isThemeConstant((global::java.lang.String) _r7_o, 0!=_r9.i) ? 1 : 0;
     if (_r6.i == 0) goto label165;
     _r6_o = ((global::com.codename1.ui.Container) _r5_o).getLayout();
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.layouts.BorderLayout) _r6_o).setCenterBehavior((int) _r9.i);
     label142:;
     if (_r11_o == null) goto label176;
@@ -1351,7 +1330,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r4_o = ((global::com.codename1.ui.Command) _r11_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label157;
     ((global::com.codename1.ui.SideMenuBar) _r10_o).validateCommandPlacement((global::java.lang.String) _r4_o);
     label157:;
@@ -1362,7 +1340,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     goto label47;
     label165:;
     _r6_o = ((global::com.codename1.ui.Container) _r5_o).getLayout();
-    _r6_o = _r6_o;
     _r7.i = 2;
     ((global::com.codename1.ui.layouts.BorderLayout) _r6_o).setCenterBehavior((int) _r7.i);
     goto label142;
@@ -1377,7 +1354,6 @@ private void addOpenButton(global::com.codename1.ui.Command n1, bool n2){
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r4_o = ((global::com.codename1.ui.Command) _r0_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r4_o = _r4_o;
     if (_r4_o == null) goto label202;
     ((global::com.codename1.ui.SideMenuBar) _r10_o).validateCommandPlacement((global::java.lang.String) _r4_o);
     label202:;
@@ -1408,7 +1384,6 @@ private void validateCommandPlacement(global::java.lang.String n1){
     if (_r9_o != _r5_o) goto label56;
     _r5_o = ((global::com.codename1.ui.SideMenuBar) _r8_o).getTitleAreaContainer();
     _r5_o = ((global::com.codename1.ui.Container) _r5_o).getLayout();
-    _r5_o = _r5_o;
     _r6.i = 0;
     ((global::com.codename1.ui.layouts.BorderLayout) _r5_o).setCenterBehavior((int) _r6.i);
     _r5_o = ((global::com.codename1.ui.SideMenuBar) _r8_o).getTitleComponent();
@@ -1670,7 +1645,6 @@ public virtual global::System.Object createSideNavigationComponent(global::java.
     _r0_o = _r21_o;
     _r1.i = _r7.i;
     _r4_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r4_o = _r4_o;
     // Value=placement
     _r15_o = new global::java.lang.String();
     ((global::java.lang.String)_r15_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
@@ -1686,7 +1660,6 @@ public virtual global::System.Object createSideNavigationComponent(global::java.
     _r15_o = new global::java.lang.String();
     ((global::java.lang.String)_r15_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r5_o = ((global::com.codename1.ui.Command) _r4_o).getClientProperty((global::java.lang.String) _r15_o);
-    _r5_o = _r5_o;
     if (_r5_o == null) goto label170;
     _r15_o = ((global::com.codename1.ui.Component) _r5_o).getParent();
     if (_r15_o == null) goto label123;
@@ -1860,7 +1833,6 @@ public override global::System.Object createTouchCommandButton(global::com.coden
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r1_o = ((global::com.codename1.ui.Command) _r5_o).getClientProperty((global::java.lang.String) _r3_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label44;
     ((global::com.codename1.ui.Button) _r0_o).setUIID((global::java.lang.String) _r1_o);
     label43:;

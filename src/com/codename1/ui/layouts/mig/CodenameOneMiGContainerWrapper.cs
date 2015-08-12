@@ -67,7 +67,6 @@ public virtual global::System.Object getComponents(){
     global::System.Object _r5_o = null;
     _r5_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r5_o).getComponent();
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Container) _r0_o).getComponentCount();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r3.i]);
     _r2.i = 0;
@@ -91,7 +90,6 @@ public virtual int getComponentCount(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
-    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: int getComponentCount()]
@@ -103,7 +101,6 @@ public virtual global::System.Object getLayout(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.Container) _r1_o).getLayout();
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: java.lang.Object getLayout()]
@@ -115,7 +112,6 @@ public virtual bool isLeftToRight(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
-    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.Container) _r1_o).isRTL() ? 1 : 0;
     if (_r0.i != 0) goto label14;
     _r0.i = 1;
@@ -142,7 +138,6 @@ public virtual void paintDebugCell(int n1, int n2, int n3, int n4){
     _r5.i = n3;
     _r6.i = n4;
     _r0_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r2_o).getComponent();
-    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
     if (_r1.i != 0) goto label12;
     label12:;

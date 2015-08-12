@@ -1504,7 +1504,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.util.BigInteger) _r1_o).compareTo((global::com.codename1.util.BigInteger) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.util.BigInteger: int compareTo(java.lang.Object)]
@@ -2062,7 +2061,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label5;
     label12:;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = ((global::com.codename1.util.BigInteger) _r1_o)._fsign;
     _r4.i = ((global::com.codename1.util.BigInteger) _r7_o)._fsign;
@@ -5215,7 +5213,6 @@ public virtual global::System.Object toString(int n1){
     _r8.i = ((global::java.util.Stack) _r0_o).empty() ? 1 : 0;
     if (_r8.i != 0) goto label180;
     _r8_o = ((global::java.util.Stack) _r0_o).pop();
-    _r8_o = _r8_o;
     ((global::java.lang.StringBuffer) _r6_o).append((global::java.lang.String) _r8_o);
     goto label164;
     label180:;

@@ -27,7 +27,6 @@ public static global::System.Object values(){
     global::System.Object _r0_o = null;
     _r0_o = global::java.lang.Thread_2State._f_2VALUES;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o).clone();
-    _r0_o = _r0_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[java.lang.Thread$State: java.lang.Thread$State[] values()]
 }
@@ -39,7 +38,6 @@ public static global::System.Object valueOf(global::java.lang.String n1){
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Thread_2State));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
-    _r1_o = _r1_o;
     return (global::java.lang.Thread_2State) _r1_o;
 //XMLVM_END_WRAPPER[java.lang.Thread$State: java.lang.Thread$State valueOf(java.lang.String)]
 }

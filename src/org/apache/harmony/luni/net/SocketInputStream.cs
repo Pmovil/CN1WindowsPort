@@ -12,7 +12,6 @@ public void @this(global::java.net.SocketImpl n1){
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.InputStream) _r0_o).@this();
-    _r1_o = _r1_o;
     ((global::org.apache.harmony.luni.net.SocketInputStream) _r0_o)._fsocket = (global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o;
     return;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.net.SocketInputStream: void <init>(java.net.SocketImpl)]

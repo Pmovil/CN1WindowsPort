@@ -109,7 +109,6 @@ private int expandSizes(global::org.xmlvm._nArrayAdapter<global::System.Object> 
     _r0_o = _r20_o;
     _r1.i = _r5.i;
     _r14_o = global::com.codename1.ui.layouts.mig.LayoutUtil.getIndexSafe((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (int) _r1.i);
-    _r14_o = _r14_o;
     _r15_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r14_o).getSize();
     if (_r25.i != 0) goto label115;
     _r16_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r15_o).getMin();
@@ -142,7 +141,6 @@ private int expandSizes(global::org.xmlvm._nArrayAdapter<global::System.Object> 
     _r16_o = _r0_o;
     _r17.i = _r7.i + _r23.i;
     _r5_o = global::com.codename1.ui.layouts.mig.LayoutUtil.getIndexSafe((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r16_o, (int) _r17.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r7.i] = _r5_o;
     goto label145;
     label166:;

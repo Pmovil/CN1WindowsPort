@@ -88,7 +88,6 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     _r6.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r6.i == 0) goto label114;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r9_o)._fthis_20;
     _r6.i = ((global::com.codename1.ui.validation.Validator) _r6_o).isValid((global::com.codename1.ui.Component) _r0_o) ? 1 : 0;
     if (_r6.i != 0) goto label14;

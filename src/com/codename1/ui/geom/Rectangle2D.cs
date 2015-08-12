@@ -518,7 +518,6 @@ public static void intersection(double n1, double n2, double n3, double n4, doub
     _r23_o = n9;
     _r3.d = _r15.d;
     _r5.d = _r17.d;
-    _r7.d = _r7.d;
     _r15.d = _r9.d;
     _r9.d = _r3.d;
     _r17.d = _r9.d + _r19.d;
@@ -530,7 +529,6 @@ public static void intersection(double n1, double n2, double n3, double n4, doub
     _r11.d = _r11.d + _r13.d;
     _r13.i = _r3.d > _r7.d ? 1 : (_r3.d == _r7.d ? 0 : -1);
     if (_r13.i >= 0) goto label88;
-    _r7.d = _r7.d;
     label20:;
     _r13.i = _r5.d > _r15.d ? 1 : (_r5.d == _r15.d ? 0 : -1);
     if (_r13.i >= 0) goto label86;
@@ -538,11 +536,9 @@ public static void intersection(double n1, double n2, double n3, double n4, doub
     label25:;
     _r15.i = _r17.d > _r9.d ? 1 : (_r17.d == _r9.d ? 0 : -1);
     if (_r15.i <= 0) goto label83;
-    _r9.d = _r9.d;
     label30:;
     _r15.i = _r19.d > _r11.d ? 1 : (_r19.d == _r11.d ? 0 : -1);
     if (_r15.i <= 0) goto label80;
-    _r11.d = _r11.d;
     label35:;
     _r9.d = _r9.d - _r7.d;
     _r11.d = _r11.d - _r13.d;

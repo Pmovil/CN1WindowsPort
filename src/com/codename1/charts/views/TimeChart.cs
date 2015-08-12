@@ -136,14 +136,12 @@ public override void drawXLabels(global::java.util.List n1, global::org.xmlvm._n
     _r0_o = _r30_o;
     _r1.i = _r5.i;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r5_o = _r5_o;
     _r7.d = ((global::java.lang.Double) _r5_o).doubleValue();
     _r5.i = 1;
     _r5.i = _r25.i - _r5.i;
     _r0_o = _r30_o;
     _r1.i = _r5.i;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r5_o = _r5_o;
     _r9.d = ((global::java.lang.Double) _r5_o).doubleValue();
     _r0_o = _r29_o;
     _r1.d = _r7.d;
@@ -157,7 +155,6 @@ public override void drawXLabels(global::java.util.List n1, global::org.xmlvm._n
     _r0_o = _r30_o;
     _r1.i = _r22.i;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r5_o = _r5_o;
     _r7.d = ((global::java.lang.Double) _r5_o).doubleValue();
     _r23.l = global::java.lang.Math.round((double) _r7.d);
     _r0.i = _r34.i;

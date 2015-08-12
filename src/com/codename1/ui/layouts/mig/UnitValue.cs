@@ -875,7 +875,6 @@ private float lookup(float n1, global::com.codename1.ui.layouts.mig.ContainerWra
     if (_r7.i < 0) goto label48;
     _r0_o = global::com.codename1.ui.layouts.mig.UnitValue._fCONVERTERS;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
-    _r0_o = _r0_o;
     _r1.f = ((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o)._fvalue;
     _r2_o = ((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o)._funitStr;
     _r3.i = ((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o)._fisHor ? 1 : 0;
@@ -935,7 +934,6 @@ private int parseUnitString(){
     _r4_o = global::com.codename1.ui.layouts.mig.UnitValue._fUNIT_1MAP;
     _r5_o = ((global::com.codename1.ui.layouts.mig.UnitValue) _r7_o)._funitStr;
     _r3_o = ((global::java.util.HashMap) _r4_o).get((global::java.lang.Object) _r5_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label93;
     _r4.i = ((global::com.codename1.ui.layouts.mig.UnitValue) _r7_o)._fisHor ? 1 : 0;
     if (_r4.i != 0) goto label88;
@@ -1531,7 +1529,6 @@ public static global::System.Object getGlobalUnitConverters(){
     _r2.i = ((global::java.util.ArrayList) _r2_o).size();
     _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
     _r0_o = ((global::java.util.ArrayList) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

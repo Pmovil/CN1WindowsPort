@@ -123,9 +123,7 @@ public void @this(global::java.lang.String n1){
     _r4_o = n1;
     _r2_o = null;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
-    _r2_o = _r2_o;
     ((global::java.net.URL) _r3_o).@this((global::java.net.URL) _r1_o, (global::java.lang.String) _r4_o, (global::java.net.URLStreamHandler) _r2_o);
     return;
 //XMLVM_END_WRAPPER[java.net.URL: void <init>(java.lang.String)]
@@ -141,7 +139,6 @@ public void @this(global::java.net.URL n1, global::java.lang.String n2){
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = null;
-    _r0_o = _r0_o;
     ((global::java.net.URL) _r1_o).@this((global::java.net.URL) _r2_o, (global::java.lang.String) _r3_o, (global::java.net.URLStreamHandler) _r0_o);
     return;
 //XMLVM_END_WRAPPER[java.net.URL: void <init>(java.net.URL, java.lang.String)]
@@ -564,7 +561,6 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
     _r9_o = n3;
     _r3.i = -1;
     _r5_o = null;
-    _r5_o = _r5_o;
     _r0_o = _r6_o;
     _r1_o = _r7_o;
     _r2_o = _r8_o;
@@ -593,7 +589,6 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, int 
     _r9.i = n3;
     _r10_o = n4;
     _r5_o = null;
-    _r5_o = _r5_o;
     _r0_o = _r6_o;
     _r1_o = _r7_o;
     _r2_o = _r8_o;
@@ -870,7 +865,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label4;
     label21:;
     _r0_o = ((global::java.net.URL) _r3_o)._fstrmHandler;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.net.URLStreamHandler) _r0_o).equals((global::java.net.URL) _r3_o, (global::java.net.URL) _r4_o) ? 1 : 0;
     goto label4;
 //XMLVM_END_WRAPPER[java.net.URL: boolean equals(java.lang.Object)]
@@ -919,7 +913,6 @@ public virtual void setupStreamHandler(){
     _r1_o = global::java.net.URL._fstreamHandlers;
     _r2_o = ((global::java.net.URL) _r4_o)._fprotocol;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     ((global::java.net.URL) _r4_o)._fstrmHandler = (global::java.net.URLStreamHandler) _r1_o;
     _r1_o = ((global::java.net.URL) _r4_o)._fstrmHandler;
     if (_r1_o == null) goto label17;
@@ -956,7 +949,6 @@ public virtual void setupStreamHandler(){
     try {
     _r1_o = global::java.lang.Class.forName((global::java.lang.String) _r0_o);
     _r1_o = ((global::java.lang.Class) _r1_o).newInstance();
-    _r1_o = _r1_o;
     ((global::java.net.URL) _r4_o)._fstrmHandler = (global::java.net.URLStreamHandler) _r1_o;
     }
     catch (global::System.Exception e) {
@@ -1085,7 +1077,6 @@ public virtual global::System.Object openConnection(global::java.net.Proxy n1){
     _r4_o = global::java.net.Proxy_2Type._fDIRECT;
     if (_r3_o == _r4_o) goto label52;
     _r0_o = ((global::java.net.Proxy) _r6_o).address();
-    _r0_o = _r0_o;
     _r3.i = ((global::java.net.InetSocketAddress) _r0_o).isUnresolved() ? 1 : 0;
     if (_r3.i == 0) goto label59;
     _r3_o = ((global::java.net.InetSocketAddress) _r0_o).getHostName();

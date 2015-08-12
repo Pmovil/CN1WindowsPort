@@ -34,7 +34,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     _r2_o = ((global::gnu.xml.xpath.Expr) _r0_o).evaluate((global::org.w3c.dom.Node) _r3_o, (int) _r4.i, (int) _r5.i);
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.Collection)) ? 1 : 0;
     if (_r0.i == 0) goto label23;
-    _r2_o = _r2_o;
     _r0_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r0_o).@this((global::java.util.Collection) _r2_o);
     _r1_o = global::gnu.xml.xpath.ParenthesizedExpr._fdocumentOrderComparator;

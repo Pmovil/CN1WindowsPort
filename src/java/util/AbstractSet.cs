@@ -33,7 +33,6 @@ public override bool equals(global::java.lang.Object n1){
     label6:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.Set)) ? 1 : 0;
     if (_r0.i == 0) goto label38;
-    _r5_o = _r5_o;
     try {
     _r0.i = ((global::java.util.AbstractSet) _r4_o).size();
     _r1.i = ((global::java.util.Set) _r5_o).size();

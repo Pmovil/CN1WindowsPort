@@ -29,7 +29,6 @@ public virtual void setValue(global::java.lang.Object n1){
     _r2.i = -1;
     _r0.i = ((_r4_o != null) && (_r4_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r0.i == 0) goto label19;
-    _r4_o = _r4_o;
     _r0.d = ((global::java.lang.Integer) _r4_o).doubleValue();
     ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r3_o)._fcurrentValue = _r0.d;
     label13:;
@@ -37,7 +36,6 @@ public virtual void setValue(global::java.lang.Object n1){
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireSelectionEvent((int) _r2.i, (int) _r2.i);
     return;
     label19:;
-    _r4_o = _r4_o;
     _r0.d = ((global::java.lang.Double) _r4_o).doubleValue();
     ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r3_o)._fcurrentValue = _r0.d;
     goto label13;

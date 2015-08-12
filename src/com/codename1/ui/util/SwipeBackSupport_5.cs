@@ -32,15 +32,12 @@ public virtual global::System.Object get(global::org.xmlvm._nArrayAdapter<global
     _r1_o = ((global::com.codename1.ui.util.SwipeBackSupport_25) _r5_o)._fthis_20;
     _r2.i = 0;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r2.i];
-    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r3.i = 1;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r3.i];
-    _r5_o = _r5_o;
     _r3.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r4.i = 2;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r4.i];
-    _r5_o = _r5_o;
     _r4.i = ((global::java.lang.Integer) _r5_o).intValue();
     ((global::com.codename1.ui.util.SwipeBackSupport_2ManualMotion) _r0_o).@this((global::com.codename1.ui.util.SwipeBackSupport) _r1_o, (int) _r2.i, (int) _r3.i, (int) _r4.i);
     return (global::com.codename1.ui.animations.Motion) _r0_o;

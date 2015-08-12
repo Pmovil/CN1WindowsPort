@@ -41,11 +41,9 @@ public virtual void focusGained(global::com.codename1.ui.Component n1){
     _r1.i = ((global::com.codename1.ui.Tabs) _r1_o).isChangeTabOnFocus() ? 1 : 0;
     if (_r1.i == 0) goto label50;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.Button) _r1_o).isSelected() ? 1 : 0;
     if (_r1.i != 0) goto label50;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.Button) _r4_o).fireClicked();
     label50:;
     _r1_o = ((global::com.codename1.ui.Tabs_2TabFocusListener) _r3_o)._fthis_20;

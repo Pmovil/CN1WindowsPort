@@ -164,7 +164,6 @@ public override void remove(int n1){
     base.remove((int) _r5.i);
     _r2_o = ((global::com.codename1.charts.models.XYValueSeries) _r4_o)._fmValue;
     _r2_o = ((global::java.util.List) _r2_o).remove((int) _r5.i);
-    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     _r2.d = ((global::com.codename1.charts.models.XYValueSeries) _r4_o)._fmMinValue;
     _r2.i = _r0.d > _r2.d ? 1 : (_r0.d == _r2.d ? 0 : -1);
@@ -251,7 +250,6 @@ public virtual double getValue(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYValueSeries) _r2_o)._fmValue;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Double) _r0_o).doubleValue();
     }
     catch (global::System.Exception e) {

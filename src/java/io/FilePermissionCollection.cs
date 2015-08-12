@@ -77,7 +77,6 @@ public override bool implies(global::java.security.Permission n1){
     _r1.i = ((_r8_o != null) && (_r8_o is global::java.io.FilePermission)) ? 1 : 0;
     if (_r1.i == 0) goto label54;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = _r6.i;
     _r4.i = _r6.i;
@@ -100,7 +99,6 @@ public override bool implies(global::java.security.Permission n1){
     label35:;
     _r2_o = ((global::java.io.FilePermissionCollection) _r7_o)._fpermissions;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
-    _r2_o = _r2_o;
     _r2.i = ((global::java.io.FilePermission) _r2_o).impliesMask((global::java.security.Permission) _r8_o);
     _r2.i = _r2.i | _r4.i;
     _r3.i = _r3.i + 1;

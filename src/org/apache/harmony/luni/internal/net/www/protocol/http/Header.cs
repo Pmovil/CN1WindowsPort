@@ -51,11 +51,8 @@ public void @this(global::java.util.Map n1){
     return;
     label18:;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Map_2Entry) _r0_o).getValue();
-    _r0_o = _r0_o;
     _r3_o = new global::java.util.LinkedList();
     ((global::java.util.LinkedList) _r3_o).@this();
     _r4_o = ((global::java.util.List) _r0_o).iterator();
@@ -67,7 +64,6 @@ public void @this(global::java.util.Map n1){
     goto label11;
     label57:;
     _r0_o = ((global::java.util.Iterator) _r4_o).next();
-    _r0_o = _r0_o;
     ((global::java.util.LinkedList) _r3_o).add((global::java.lang.Object) _r0_o);
     _r5_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r6_o)._fprops;
     ((global::java.util.ArrayList) _r5_o).add((global::java.lang.Object) _r1_o);
@@ -89,10 +85,8 @@ public override global::System.Object clone(){
     _r4_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r4_o)._fprops;
     _r1_o = ((global::java.util.ArrayList) _r1_o).clone();
-    _r1_o = _r1_o;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r0_o)._fprops = (global::java.util.ArrayList) _r1_o;
     _r1_o = new global::java.util.TreeMap();
     _r2_o = global::java.lang.String._fCASE_1INSENSITIVE_1ORDER;
@@ -129,14 +123,10 @@ public override global::System.Object clone(){
     label42:;
     try {
     _r4_o = ((global::java.util.Iterator) _r2_o).next();
-    _r4_o = _r4_o;
     _r1_o = ((global::java.util.Map_2Entry) _r4_o).getValue();
-    _r1_o = _r1_o;
     _r1_o = ((global::java.util.LinkedList) _r1_o).clone();
-    _r1_o = _r1_o;
     _r3_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r0_o)._fkeyTable;
     _r4_o = ((global::java.util.Map_2Entry) _r4_o).getKey();
-    _r4_o = _r4_o;
     ((global::java.util.SortedMap) _r3_o).put((global::java.lang.Object) _r4_o, (global::java.lang.Object) _r1_o);
     }
     catch (global::System.Exception e) {
@@ -175,7 +165,6 @@ public virtual void add(global::java.lang.String n1, global::java.lang.String n2
     label8:;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r2_o)._fkeyTable;
     _r0_o = ((global::java.util.SortedMap) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label28;
     _r0_o = new global::java.util.LinkedList();
     ((global::java.util.LinkedList) _r0_o).@this();
@@ -210,7 +199,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.String n2
     label8:;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r3_o)._fkeyTable;
     _r0_o = ((global::java.util.SortedMap) _r0_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label22;
     ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r3_o).add((global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     label21:;
@@ -226,7 +214,6 @@ public virtual void set(global::java.lang.String n1, global::java.lang.String n2
     if (_r1.i >= _r0.i) goto label21;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r3_o)._fprops;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label61;
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label61;
@@ -262,11 +249,8 @@ public virtual global::System.Object getFieldMap(){
     return (global::java.util.Map) _r0_o;
     label32:;
     _r3_o = ((global::java.util.Iterator) _r2_o).next();
-    _r3_o = _r3_o;
     _r0_o = ((global::java.util.Map_2Entry) _r3_o).getValue();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Map_2Entry) _r3_o).getKey();
-    _r3_o = _r3_o;
     _r0_o = global::java.util.Collections.unmodifiableList((global::java.util.List) _r0_o);
     ((global::java.util.Map) _r1_o).put((global::java.lang.Object) _r3_o, (global::java.lang.Object) _r0_o);
     goto label21;
@@ -291,7 +275,6 @@ public virtual global::System.Object get(int n1){
     _r1.i = _r3.i * 2;
     _r1.i = _r1.i + 1;
     _r2_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label25:;
     return (global::java.lang.String) _r0_o;
@@ -318,7 +301,6 @@ public virtual global::System.Object getKey(int n1){
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r2_o)._fprops;
     _r1.i = _r3.i * 2;
     _r2_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label23:;
     return (global::java.lang.String) _r0_o;
@@ -337,14 +319,12 @@ public virtual global::System.Object get(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header) _r1_o)._fkeyTable;
     _r1_o = ((global::java.util.SortedMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label12;
     _r0_o = null;
     label11:;
     return (global::java.lang.String) _r0_o;
     label12:;
     _r1_o = ((global::java.util.LinkedList) _r1_o).getLast();
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label11;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: java.lang.String get(java.lang.String)]

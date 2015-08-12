@@ -17,7 +17,6 @@ public void @this(global::java.util.List n1){
     if (_r0.i <= 0) goto label17;
     _r0.i = 0;
     _r0_o = ((global::java.util.List) _r2_o).get((int) _r0.i);
-    _r0_o = _r0_o;
     label13:;
     ((global::gnu.xml.xpath.NamespaceUriFunction) _r1_o).@this((global::gnu.xml.xpath.Expr) _r0_o);
     return;
@@ -59,7 +58,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     label13:;
     _r0_o = ((global::gnu.xml.xpath.NamespaceUriFunction) _r1_o)._farg;
     _r1_o = ((global::gnu.xml.xpath.Expr) _r0_o).evaluate((global::org.w3c.dom.Node) _r2_o, (int) _r3.i, (int) _r4.i);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label8;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.NamespaceUriFunction: java.lang.Object evaluate(org.w3c.dom.Node, int, int)]

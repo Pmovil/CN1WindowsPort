@@ -25,7 +25,6 @@ public void @this(global::java.lang.Object n1){
     _r0_o = global::java.lang.String.valueOf((global::java.lang.Object) _r3_o);
     _r1.i = ((_r3_o != null) && (_r3_o is global::java.lang.Throwable)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
-    _r3_o = _r3_o;
     _r1_o = _r3_o;
     label11:;
     ((global::java.lang.Error) _r2_o).@this((global::java.lang.String) _r0_o, (global::java.lang.Throwable) _r1_o);

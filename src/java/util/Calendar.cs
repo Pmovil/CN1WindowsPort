@@ -534,7 +534,6 @@ public virtual bool after(global::java.lang.Object n1){
     return _r0.i!=0;
     label7:;
     _r0.l = ((global::java.util.Calendar) _r5_o).getTimeInMillis();
-    _r6_o = _r6_o;
     _r2.l = ((global::java.util.Calendar) _r6_o).getTimeInMillis();
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
     if (_r0.i <= 0) goto label23;
@@ -595,7 +594,6 @@ public virtual bool before(global::java.lang.Object n1){
     return _r0.i!=0;
     label7:;
     _r0.l = ((global::java.util.Calendar) _r5_o).getTimeInMillis();
-    _r6_o = _r6_o;
     _r2.l = ((global::java.util.Calendar) _r6_o).getTimeInMillis();
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
     if (_r0.i >= 0) goto label23;
@@ -711,18 +709,14 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Calendar) _r2_o)._ffields;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o).clone();
-    _r1_o = _r1_o;
     ((global::java.util.Calendar) _r0_o)._ffields = (global::org.xmlvm._nArrayAdapter<int>) _r1_o;
     _r1_o = ((global::java.util.Calendar) _r2_o)._fisSet;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<bool>) _r1_o).clone();
-    _r1_o = _r1_o;
     ((global::java.util.Calendar) _r0_o)._fisSet = (global::org.xmlvm._nArrayAdapter<bool>) _r1_o;
     _r1_o = ((global::java.util.Calendar) _r2_o)._fzone;
     _r2_o = ((global::java.util.TimeZone) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.Calendar) _r0_o)._fzone = (global::java.util.TimeZone) _r2_o;
     }
     catch (global::org.xmlvm._nExceptionAdapter ex) {
@@ -841,7 +835,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = _r4.i;
     goto label5;
     label12:;
-    _r7_o = _r7_o;
     _r0.l = ((global::java.util.Calendar) _r6_o).getTimeInMillis();
     _r2.l = ((global::java.util.Calendar) _r7_o).getTimeInMillis();
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
@@ -2682,7 +2675,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r1_o).get((global::java.lang.String) _r0_o, (global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     ((global::java.util.Calendar) _r5_o)._ffields = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     // Value=firstDayOfWeek
     _r0_o = new global::java.lang.String();
@@ -2693,7 +2685,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116))}));
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r1_o).get((global::java.lang.String) _r0_o, (global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     ((global::java.util.Calendar) _r5_o)._fisSet = (global::org.xmlvm._nArrayAdapter<bool>) _r0_o;
     // Value=isTimeSet
     _r0_o = new global::java.lang.String();
@@ -2720,7 +2711,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::java.io.ObjectInputStream_2GetField) _r1_o).get((global::java.lang.String) _r0_o, (global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     ((global::java.util.Calendar) _r5_o)._fzone = (global::java.util.TimeZone) _r0_o;
     return;
 //XMLVM_END_WRAPPER[java.util.Calendar: void readObject(java.io.ObjectInputStream)]
@@ -2747,7 +2737,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.util.Calendar) _r1_o).compareTo((global::java.util.Calendar) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.util.Calendar: int compareTo(java.lang.Object)]

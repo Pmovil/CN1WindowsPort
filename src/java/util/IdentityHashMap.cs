@@ -705,7 +705,6 @@ public override bool equals(global::java.lang.Object n1){
     label5:;
     _r0.i = ((_r4_o != null) && (_r4_o is global::java.util.Map)) ? 1 : 0;
     if (_r0.i == 0) goto label36;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.util.IdentityHashMap) _r3_o).size();
     _r1.i = ((global::java.util.Map) _r4_o).size();
     if (_r0.i == _r1.i) goto label23;
@@ -737,7 +736,6 @@ public override global::System.Object clone(){
     _r6_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.IdentityHashMap) _r6_o)._felementData;
     _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     _r1_o = ((global::java.util.IdentityHashMap) _r6_o).newElementArray((int) _r1.i);
@@ -816,7 +814,6 @@ private void writeObject(global::java.io.ObjectOutputStream n1){
     return;
     label23:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1_o = ((global::java.util.MapEntry) _r2_o)._fkey;
     ((global::java.io.ObjectOutputStream) _r3_o).writeObject((global::java.lang.Object) _r1_o);
     _r1_o = ((global::java.util.MapEntry) _r2_o)._fvalue;

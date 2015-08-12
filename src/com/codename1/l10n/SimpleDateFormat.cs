@@ -214,7 +214,6 @@ public override global::System.Object format(global::java.util.Date n1, global::
     _r10.i = ((global::java.util.List) _r6_o).size();
     if (_r3.i >= _r10.i) goto label492;
     _r8_o = ((global::java.util.List) _r6_o).get((int) _r3.i);
-    _r8_o = _r8_o;
     _r10.i = 0;
     _r7.i = ((global::java.lang.String) _r8_o).charAt((int) _r10.i);
     _r10.i = 1;
@@ -578,7 +577,6 @@ public override global::System.Object parse(global::java.lang.String n1){
     _r5.i = ((global::java.util.List) _r15_o).size();
     if (_r13.i >= _r5.i) goto label560;
     _r17_o = ((global::java.util.List) _r15_o).get((int) _r13.i);
-    _r17_o = _r17_o;
     _r11.i = 0;
     _r5.i = ((global::java.util.List) _r15_o).size();
     _r6.i = 1;
@@ -586,7 +584,6 @@ public override global::System.Object parse(global::java.lang.String n1){
     if (_r13.i >= _r5.i) goto label70;
     _r5.i = _r13.i + 1;
     _r5_o = ((global::java.util.List) _r15_o).get((int) _r5.i);
-    _r5_o = _r5_o;
     _r6.i = 0;
     _r5.i = ((global::java.lang.String) _r5_o).charAt((int) _r6.i);
     _r6.i = 42;

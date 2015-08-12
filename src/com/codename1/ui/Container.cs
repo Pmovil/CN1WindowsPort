@@ -306,7 +306,6 @@ private void disableFocusAndInitLead(global::com.codename1.ui.Container n1){
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label22;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     ((global::com.codename1.ui.Container) _r4_o).disableFocusAndInitLead((global::com.codename1.ui.Container) _r3_o);
     label22:;
@@ -340,7 +339,6 @@ private void enableFocusAndDeinitLead(global::com.codename1.ui.Container n1){
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label22;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     ((global::com.codename1.ui.Container) _r4_o).enableFocusAndDeinitLead((global::com.codename1.ui.Container) _r3_o);
     label22:;
@@ -439,7 +437,6 @@ public virtual void setShouldLayout(bool n1){
     if (_r2.i >= _r1.i) goto label45;
     _r4_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r4_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label42;
     _r4.i = ((global::com.codename1.ui.Container) _r5_o)._fshouldCalcPreferredSize ? 1 : 0;
@@ -495,10 +492,8 @@ public override void setShouldCalcPreferredSize(bool n1){
     if (_r2.i >= _r1.i) goto label30;
     _r4_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r4_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label66;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Container) _r0_o).setShouldCalcPreferredSize(0!=_r6.i);
     label66:;
     _r2.i = _r2.i + 1;
@@ -595,7 +590,6 @@ public virtual void applyRTL(bool n1){
     _r1_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r2.i);
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label26;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Container) _r1_o).applyRTL(0!=_r5.i);
     label23:;
     _r2.i = _r2.i + 1;
@@ -1019,7 +1013,6 @@ private void replaceComponents(global::com.codename1.ui.Component n1, global::co
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label104;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.Container) _r2_o).layoutContainer();
     label104:;
@@ -1120,7 +1113,6 @@ private bool requestFocusChild(bool n1){
     label33:;
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label47;
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Container) _r0_o).requestFocusChild(0!=_r6.i) ? 1 : 0;
     if (_r3.i == 0) goto label47;
     _r3.i = _r4.i;
@@ -1151,7 +1143,6 @@ private void cancelRepaintsRecursively(global::com.codename1.ui.Component n1, gl
     _r4.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label25;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     _r3.i = 0;
@@ -1214,7 +1205,6 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     if (_r5.i == 0) goto label44;
     if (_r2_o == null) goto label44;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Container) _r5_o).isParentOf((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     if (_r5.i == 0) goto label44;
@@ -1255,7 +1245,6 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     label102:;
     _r5.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label90;
-    _r8_o = _r8_o;
     ((global::com.codename1.ui.Container) _r8_o).requestFocusChild(0!=_r9.i);
     goto label90;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void replace(com.codename1.ui.Component, com.codename1.ui.Component, boolean)]
@@ -1281,7 +1270,6 @@ public override void initComponentImpl(){
     if (_r2.i >= _r1.i) goto label32;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r0_o).initComponentImpl();
     _r2.i = _r2.i + 1;
     goto label16;
@@ -1349,7 +1337,6 @@ public virtual void removeComponentImpl(global::com.codename1.ui.Component n1){
     _r2.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label50;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Form) _r1_o).getFocused();
     _r2.i = ((global::com.codename1.ui.Container) _r2_o).contains((global::com.codename1.ui.Component) _r3_o) ? 1 : 0;
@@ -1413,7 +1400,6 @@ public override void deinitializeImpl(){
     if (_r2.i >= _r1.i) goto label26;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r0_o).deinitializeImpl();
     _r2.i = _r2.i + 1;
     goto label10;
@@ -1439,7 +1425,6 @@ public virtual void flushReplace(){
     if (_r0.i >= _r1.i) goto label27;
     _r2_o = ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.Container_2Anim) _r2_o).destroy();
     _r0.i = _r0.i + 1;
     goto label11;
@@ -1549,7 +1534,6 @@ private void forceRevalidateImpl(){
     _r1_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r2.i);
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label24;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.Container) _r1_o).forceRevalidateImpl();
     label24:;
     _r2.i = _r2.i + 1;
@@ -1610,7 +1594,6 @@ private void paintContainerChildrenForAnimation(global::com.codename1.ui.Contain
     _r9_o = ((global::java.lang.Object) _r3_o).getClass();
     _r10_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Container));
     if (_r9_o != _r10_o) goto label35;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Container) _r11_o).paintContainerChildrenForAnimation((global::com.codename1.ui.Container) _r3_o, (global::com.codename1.ui.Graphics) _r13_o);
     label32:;
     _r4.i = _r4.i + 1;
@@ -1689,7 +1672,6 @@ public virtual bool isObscuredByChildren(){
     if (_r2.i >= _r4.i) goto label203;
     _r5_o = ((global::com.codename1.ui.Container) _r11_o)._fcomponents;
     _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.ui.Component) _r1_o).getStyle();
     _r5.i = ((global::com.codename1.ui.Component) _r1_o).getWidth();
     if (_r5.i == 0) goto label87;
@@ -1702,7 +1684,6 @@ public virtual bool isObscuredByChildren(){
     _r5.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label162;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Container) _r5_o).getLayout();
     _r5.i = ((global::com.codename1.ui.layouts.Layout) _r5_o).obscuresPotential((global::com.codename1.ui.Container) _r11_o) ? 1 : 0;
@@ -1727,7 +1708,6 @@ public virtual bool isObscuredByChildren(){
     _r5.i = ((global::com.codename1.ui.plaf.Style) _r3_o).getBgTransparency();
     _r5.i = _r5.i & 255;
     if (_r5.i == _r8.i) goto label87;
-    _r1_o = _r1_o;
     _r5.i = ((global::com.codename1.ui.Container) _r1_o).isObscuredByChildren() ? 1 : 0;
     if (_r5.i != 0) goto label87;
     _r5.i = _r6.i;
@@ -1791,11 +1771,9 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     if (_r2.i >= _r3.i) goto label93;
     _r6_o = ((global::com.codename1.ui.Container) _r9_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r6_o = ((global::java.lang.Object) _r0_o).getClass();
     _r7_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Container));
     if (_r6_o != _r7_o) goto label64;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Container) _r9_o).paintContainerChildrenForAnimation((global::com.codename1.ui.Container) _r0_o, (global::com.codename1.ui.Graphics) _r10_o);
     label61:;
     _r2.i = _r2.i + 1;
@@ -1810,7 +1788,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     if (_r2.i >= _r3.i) goto label93;
     _r6_o = ((global::com.codename1.ui.Container) _r9_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r6_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getComponentScreenGraphics((global::com.codename1.ui.Component) _r9_o, (global::com.codename1.ui.Graphics) _r10_o);
     ((global::com.codename1.ui.Component) _r0_o).paintInternal((global::com.codename1.ui.Graphics) _r6_o, 0!=_r8.i);
     _r2.i = _r2.i + 1;
@@ -1937,7 +1914,6 @@ public virtual void paintIntersecting(global::com.codename1.ui.Graphics n1, glob
     _r0_o = ((global::com.codename1.ui.Container) _r0_o)._fcomponents;
     _r3_o = _r0_o;
     _r11_o = ((global::java.util.ArrayList) _r3_o).get((int) _r13.i);
-    _r11_o = _r11_o;
     _r3.i = ((global::com.codename1.ui.Component) _r11_o).getAbsoluteX();
     _r4.i = ((global::com.codename1.ui.Component) _r11_o).getScrollX();
     _r7.i = _r3.i + _r4.i;
@@ -2006,7 +1982,6 @@ public virtual void doLayout(){
     _r0_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r2.i);
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label28;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Container) _r0_o).layoutContainer();
     label25:;
     _r2.i = _r2.i + 1;
@@ -2042,7 +2017,6 @@ public virtual global::System.Object getComponentAt(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Container) _r1_o)._fcomponents;
     _r1_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.Component) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Component getComponentAt(int)]
 }
@@ -2103,7 +2077,6 @@ public virtual bool contains(global::com.codename1.ui.Component n1){
     label21:;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label35;
-    _r0_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Container) _r0_o).contains((global::com.codename1.ui.Component) _r7_o) ? 1 : 0;
     if (_r2.i == 0) goto label35;
     _r4.i = _r5.i;
@@ -2717,7 +2690,6 @@ public virtual global::System.Object getComponentAt(int n1, int n2){
     label39:;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label52;
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r8.i, (int) _r9.i);
     if (_r0_o == null) goto label52;
     _r2_o = _r0_o;
@@ -2778,7 +2750,6 @@ public virtual global::System.Object findDropTargetAt(int n1, int n2){
     label27:;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label41;
-    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Container) _r0_o).findDropTargetAt((int) _r6.i, (int) _r7.i);
     if (_r1_o == null) goto label41;
     _r4_o = _r1_o;
@@ -2988,7 +2959,6 @@ private global::System.Object getComponentsNames(){
     if (_r3.i >= _r2.i) goto label65;
     _r5_o = ((global::com.codename1.ui.Container) _r8_o)._fcomponents;
     _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r3.i);
-    _r1_o = _r1_o;
     _r5_o = ((global::java.lang.Object) _r1_o).getClass();
     _r0_o = ((global::java.lang.Class) _r5_o).getName();
     _r5_o = new global::java.lang.StringBuilder();
@@ -3046,7 +3016,6 @@ public override void refreshTheme(bool n1){
     if (_r2.i >= _r1.i) goto label26;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r0_o).refreshTheme(0!=_r5.i);
     _r2.i = _r2.i + 1;
     goto label10;
@@ -3327,16 +3296,13 @@ public virtual global::System.Object findFirstFocusable(){
     _r5.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label59;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Container) _r5_o).isBlockFocus() ? 1 : 0;
     if (_r5.i != 0) goto label59;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Container) _r5_o).getLeadComponent();
     if (_r5_o != null) goto label59;
-    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.Container) _r2_o).findFirstFocusable();
     if (_r1_o == null) goto label59;
     _r5_o = _r1_o;
@@ -3370,7 +3336,6 @@ private void setFocusLead(bool n1){
     _r4.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label22;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     ((global::com.codename1.ui.Container) _r4_o).setFocusLead(0!=_r6.i);
     label22:;
@@ -3858,7 +3823,6 @@ private void findComponentsInHierachy(global::java.util.Vector n1){
     _r3_o = ((global::java.lang.Object) _r0_o).getClass();
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Container));
     if (_r3_o != _r4_o) goto label27;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.Container) _r0_o).findComponentsInHierachy((global::java.util.Vector) _r6_o);
     label27:;
     _r2.i = _r2.i + 1;
@@ -4197,7 +4161,6 @@ private void animateHierarchy(int n1, bool n2, int n3){
     _r0_o = _r14_o;
     _r1.i = _r17.i;
     _r15_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r15_o = _r15_o;
     _r4.i = ((global::com.codename1.ui.Component) _r15_o).getX();
     ((global::org.xmlvm._nArrayAdapter<int>) _r12_o)[_r17.i] = _r4.i;
     _r4.i = ((global::com.codename1.ui.Component) _r15_o).getY();
@@ -4218,7 +4181,6 @@ private void animateHierarchy(int n1, bool n2, int n3){
     _r0_o = _r14_o;
     _r1.i = _r17.i;
     _r15_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r15_o = _r15_o;
     _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r12_o)[_r17.i];
     _r5.i = ((global::com.codename1.ui.Component) _r15_o).getX();
     _r0_o = _r21_o;

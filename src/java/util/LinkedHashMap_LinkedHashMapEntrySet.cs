@@ -21,7 +21,6 @@ public override global::System.Object iterator(){
     _r1_o = this;
     _r0_o = new global::java.util.LinkedHashMap_2EntryIterator();
     _r1_o = ((global::java.util.LinkedHashMap_2LinkedHashMapEntrySet) _r1_o).hashMap();
-    _r1_o = _r1_o;
     ((global::java.util.LinkedHashMap_2EntryIterator) _r0_o).@this((global::java.util.LinkedHashMap) _r1_o);
     return (global::java.util.Iterator) _r0_o;
 //XMLVM_END_WRAPPER[java.util.LinkedHashMap$LinkedHashMapEntrySet: java.util.Iterator iterator()]

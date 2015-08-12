@@ -178,7 +178,6 @@ public virtual global::System.Object get(global::com.codename1.maps.BoundingBox 
     return (global::com.codename1.maps.Tile) _r3_o;
     label16:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.maps.CacheProviderProxy) _r4_o)._f_1time;
     ((global::com.codename1.maps.CacheProviderProxy_2AgeableTile) _r2_o)._fage = _r3.i;
@@ -304,7 +303,6 @@ private void removeOld(){
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
     _r4_o = ((global::com.codename1.maps.CacheProviderProxy) _r8_o)._f_1cache;
     _r3_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     _r4.i = ((global::com.codename1.maps.CacheProviderProxy) _r8_o)._f_1time;
     _r5.i = ((global::com.codename1.maps.CacheProviderProxy_2AgeableTile) _r3_o)._fage;
     _r4.i = _r4.i - _r5.i;

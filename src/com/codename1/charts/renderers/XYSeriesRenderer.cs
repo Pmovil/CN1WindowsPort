@@ -124,7 +124,6 @@ public virtual global::System.Object getFillOutsideLine(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r2_o)._fmFillBelowLine;
     _r2_o = ((global::java.util.List) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: com.codename1.charts.renderers.XYSeriesRenderer$FillOutsideLine[] getFillOutsideLine()]
 }
@@ -178,7 +177,6 @@ public virtual void setFillBelowLineColor(int n1){
     _r0_o = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r2_o)._fmFillBelowLine;
     _r1.i = 0;
     _r2_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.charts.renderers.XYSeriesRenderer_2FillOutsideLine) _r2_o).setColor((int) _r3.i);
     label20:;
     return;

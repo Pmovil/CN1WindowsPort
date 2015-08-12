@@ -180,7 +180,6 @@ public static void parse(global::java.io.Reader n1, global::com.codename1.io.JSO
     _r8.i = _r1.i;
     goto label28;
     label87:;
-    _r0_o = _r0_o;
     goto label79;
     label89:;
     try {
@@ -1197,7 +1196,6 @@ public virtual global::System.Object parse(global::java.io.Reader n1){
     ((global::com.codename1.io.JSONParser) _r1_o)._fcurrentKey = (global::java.lang.String) _r0_o;
     global::com.codename1.io.JSONParser.parse((global::java.io.Reader) _r2_o, (global::com.codename1.io.JSONParseCallback) _r1_o);
     _r1_o = ((global::com.codename1.io.JSONParser) _r1_o)._fstate;
-    _r1_o = _r1_o;
     return (global::java.util.Hashtable) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser: java.util.Hashtable parse(java.io.Reader)]
 }
@@ -1236,7 +1234,6 @@ private global::System.Object getStackHash(){
     _r2.i = 1;
     _r1.i = _r1.i - _r2.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     return (global::java.util.Map) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser: java.util.Map getStackHash()]
 }
@@ -1255,7 +1252,6 @@ private global::System.Object getStackVec(){
     _r2.i = 1;
     _r1.i = _r1.i - _r2.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r3_o = _r3_o;
     return (global::java.util.List) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.io.JSONParser: java.util.List getStackVec()]
 }

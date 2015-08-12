@@ -166,10 +166,8 @@ public override void accept(global::java.net.SocketImpl n1){
     _r1.i = global::org.apache.harmony.luni.net.NetUtil.usingSocks((global::java.net.Proxy) _r1_o) ? 1 : 0;
     if (_r1.i == 0) goto label21;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o).socksBind();
-    _r7_o = _r7_o;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r7_o).socksAccept();
     label20:;
     return;
@@ -178,7 +176,6 @@ public override void accept(global::java.net.SocketImpl n1){
     _r1.i = ((_r7_o != null) && (_r7_o is global::org.apache.harmony.luni.net.PlainSocketImpl)) ? 1 : 0;
     if (_r1.i == 0) goto label61;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r6_o)._fnetImpl;
     _r3_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r6_o)._ffd;
@@ -236,7 +233,6 @@ public override void accept(global::java.net.SocketImpl n1){
     try {
     _r1_o = global::org.apache.harmony.luni.net.PlainSocketImpl._ffdField;
     _r1_o = ((global::java.lang.reflect.Field) _r1_o).get((global::java.lang.Object) _r7_o);
-    _r1_o = _r1_o;
     _r2_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r6_o)._fnetImpl;
     _r3_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r6_o)._ffd;
     _r4.i = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r6_o)._freceiveTimeout;
@@ -299,7 +295,6 @@ private global::System.Object getSocketImplField(global::java.lang.String n1){
     _r0_o = new global::org.apache.harmony.luni.net.PlainSocketImpl_21();
     ((global::org.apache.harmony.luni.net.PlainSocketImpl_21) _r0_o).@this((global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o, (global::java.lang.String) _r2_o);
     _r1_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r1_o = _r1_o;
     return (global::java.lang.reflect.Field) _r1_o;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: java.lang.reflect.Field getSocketImplField(java.lang.String)]
 }
@@ -865,7 +860,6 @@ public override void setOption(int n1, global::java.lang.Object n2){
     _r3.i = 3;
     _r1.i = 4102;
     if (_r5.i != _r1.i) goto label14;
-    _r6_o = _r6_o;
     _r1.i = ((global::java.lang.Integer) _r6_o).intValue();
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r4_o)._freceiveTimeout = _r1.i;
     label13:;
@@ -882,7 +876,6 @@ public override void setOption(int n1, global::java.lang.Object n2){
     _r1.i = _r1.i & 4;
     if (_r1.i == 0) goto label44;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::java.lang.Boolean) _r1_o).booleanValue() ? 1 : 0;
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r4_o)._ftcpNoDelay = 0!=_r1.i;
@@ -898,7 +891,6 @@ public override void setOption(int n1, global::java.lang.Object n2){
     } // end catch
     label44:;
     if (_r5.i != _r3.i) goto label13;
-    _r6_o = _r6_o;
     _r1.i = ((global::java.lang.Integer) _r6_o).intValue();
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r4_o)._ftrafficClass = _r1.i;
     goto label13;
@@ -918,7 +910,6 @@ private int socksGetServerPort(){
     _r1_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r1_o)._fproxy;
     _r1_o = ((global::java.net.Proxy) _r0_o).address();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.net.InetSocketAddress) _r1_o).getPort();
     return _r0.i;
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: int socksGetServerPort()]
@@ -933,7 +924,6 @@ private global::System.Object socksGetServerAddress(){
     _r3_o = this;
     _r0_o = ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r3_o)._fproxy;
     _r0_o = ((global::java.net.Proxy) _r0_o).address();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.net.InetSocketAddress) _r0_o).getHostName();
     if (_r1_o != null) goto label33;
     _r0_o = ((global::java.net.InetSocketAddress) _r0_o).getAddress();
@@ -1297,7 +1287,6 @@ public override void connect(global::java.net.SocketAddress n1, int n2){
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
-    _r3_o = _r3_o;
     _r0_o = ((global::java.net.InetSocketAddress) _r3_o).getAddress();
     _r1.i = ((global::java.net.InetSocketAddress) _r3_o).getPort();
     ((global::org.apache.harmony.luni.net.PlainSocketImpl) _r2_o).connect((global::java.net.InetAddress) _r0_o, (int) _r1.i, (int) _r4.i);

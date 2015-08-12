@@ -124,7 +124,6 @@ public static void addMoreComponents(global::com.codename1.ui.Container n1, glob
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.components.InfiniteScrollAdapter) _r0_o).addMoreComponents((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o, 0!=_r4.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void addMoreComponents(com.codename1.ui.Container, com.codename1.ui.Component[], boolean)]

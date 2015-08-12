@@ -127,7 +127,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label5;
     label20:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::java.net.SocketPermission) _r6_o)._fhostName;
     _r3_o = ((global::java.net.SocketPermission) _r1_o)._fhostName;
@@ -314,7 +313,6 @@ public override bool implies(global::java.security.Permission n1){
     _r5.i = 0;
     try {
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     }
     catch (global::System.Exception e) {

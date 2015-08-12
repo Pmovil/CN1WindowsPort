@@ -137,7 +137,6 @@ public override void onStart(global::java.lang.String n1){
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101))}));
     _r14_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r8_o);
-    _r14_o = _r14_o;
     _r8_o = global::com.codename1.io.Util.encodeUrl((global::java.lang.String) _r14_o);
     _r7_o = ((global::java.lang.StringBuilder) _r7_o).append((global::java.lang.String) _r8_o);
     _r0_o = ((global::java.lang.StringBuilder) _r7_o).toString();
@@ -159,7 +158,6 @@ public override void onStart(global::java.lang.String n1){
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r2_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r7_o);
-    _r2_o = _r2_o;
     _r7_o = ((global::com.codename1.io.Oauth2_22) _r14_o)._fthis_20;
     _r7_o = global::com.codename1.io.Oauth2.access_2100((global::com.codename1.io.Oauth2) _r7_o);
     if (_r7_o == null) goto label231;

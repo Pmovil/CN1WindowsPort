@@ -40,7 +40,6 @@ public override bool isNamespaceAware(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r2_o = ((global::org.w3c.dom.DOMConfiguration) _r0_o).getParameter((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isNamespaceAware()]
@@ -59,7 +58,6 @@ public override bool isValidating(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r2_o = ((global::org.w3c.dom.DOMConfiguration) _r0_o).getParameter((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isValidating()]
@@ -78,7 +76,6 @@ public override bool isXIncludeAware(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::org.w3c.dom.DOMConfiguration) _r0_o).getParameter((global::java.lang.String) _r1_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomDocumentBuilder: boolean isXIncludeAware()]
@@ -176,7 +173,6 @@ public override global::System.Object parse(global::java.io.InputStream n1){
     _r2_o = ((global::org.w3c.dom.ls.LSException) _r0_o).getCause();
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.io.IOException)) ? 1 : 0;
     if (_r1.i == 0) goto label28;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r2_o);
     label28:;
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);
@@ -219,7 +215,6 @@ public override global::System.Object parse(global::java.io.InputStream n1, glob
     _r2_o = ((global::org.w3c.dom.ls.LSException) _r0_o).getCause();
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.io.IOException)) ? 1 : 0;
     if (_r1.i == 0) goto label31;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r2_o);
     label31:;
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);
@@ -255,7 +250,6 @@ public override global::System.Object parse(global::java.lang.String n1){
     _r2_o = ((global::org.w3c.dom.ls.LSException) _r0_o).getCause();
     _r1.i = ((_r2_o != null) && (_r2_o is global::java.io.IOException)) ? 1 : 0;
     if (_r1.i == 0) goto label19;
-    _r2_o = _r2_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r2_o);
     label19:;
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);
@@ -343,7 +337,6 @@ public override global::System.Object parse(global::org.xml.sax.InputSource n1){
     _r4_o = ((global::org.w3c.dom.ls.LSException) _r0_o).getCause();
     _r1.i = ((_r4_o != null) && (_r4_o is global::java.io.IOException)) ? 1 : 0;
     if (_r1.i == 0) goto label107;
-    _r4_o = _r4_o;
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r4_o);
     label107:;
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);

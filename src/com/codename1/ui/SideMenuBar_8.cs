@@ -51,7 +51,6 @@ public override void actionCommandImpl(global::com.codename1.ui.Command n1, glob
     _r6_o = n2;
     _r2.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.SideMenuBar_2CommandWrapper)) ? 1 : 0;
     if (_r2.i == 0) goto label13;
-    _r5_o = _r5_o;
     _r5_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r5_o)._fcmd;
     _r6_o = new global::com.codename1.ui.events.ActionEvent();
     ((global::com.codename1.ui.events.ActionEvent) _r6_o).@this((global::java.lang.Object) _r5_o);

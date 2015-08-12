@@ -256,7 +256,6 @@ public virtual bool isElementContentWhitespace(){
     if (_r0_o == null) goto label62;
     _r0_o = ((global::gnu.xml.dom.DomText) _r3_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label62;
     _r1_o = ((global::gnu.xml.dom.DomText) _r3_o)._fparent;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r1_o).getNodeName();

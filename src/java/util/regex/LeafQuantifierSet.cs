@@ -103,7 +103,6 @@ public override void setInnerSet(global::java.util.regex.AbstractSet n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r0_o);
     label16:;
     base.setInnerSet((global::java.util.regex.AbstractSet) _r3_o);
-    _r3_o = _r3_o;
     ((global::java.util.regex.LeafQuantifierSet) _r2_o)._fleaf = (global::java.util.regex.LeafSet) _r3_o;
     return;
 //XMLVM_END_WRAPPER[java.util.regex.LeafQuantifierSet: void setInnerSet(java.util.regex.AbstractSet)]

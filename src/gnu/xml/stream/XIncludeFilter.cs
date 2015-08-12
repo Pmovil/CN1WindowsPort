@@ -266,7 +266,6 @@ public override global::System.Object getAttributeType(int n1){
     return (global::java.lang.String) _r0_o;
     label14:;
     _r1_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).item((int) _r2.i);
-    _r1_o = _r1_o;
     _r0_o = ((global::org.w3c.dom.Attr) _r1_o).getSchemaTypeInfo();
     if (_r0_o != null) goto label29;
     // Value=CDATA
@@ -300,7 +299,6 @@ public override bool isAttributeSpecified(int n1){
     return _r0.i!=0;
     label14:;
     _r1_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).item((int) _r2.i);
-    _r1_o = _r1_o;
     _r0.i = ((global::org.w3c.dom.Attr) _r1_o).getSpecified() ? 1 : 0;
     goto label13;
     label25:;
@@ -463,7 +461,6 @@ public override global::System.Object getPIData(){
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label13;
     _r1_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
-    _r1_o = _r1_o;
     _r0_o = ((global::org.w3c.dom.ProcessingInstruction) _r1_o).getData();
     label12:;
     return (global::java.lang.String) _r0_o;
@@ -481,7 +478,6 @@ public override global::System.Object getPITarget(){
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
     if (_r0_o == null) goto label13;
     _r1_o = ((global::gnu.xml.stream.XIncludeFilter) _r1_o)._fcurrent;
-    _r1_o = _r1_o;
     _r0_o = ((global::org.w3c.dom.ProcessingInstruction) _r1_o).getTarget();
     label12:;
     return (global::java.lang.String) _r0_o;
@@ -1283,7 +1279,6 @@ public virtual global::System.Object getBaseURI(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 73))}));
     _r0_o = ((global::javax.xml.stream.XMLStreamReader) _r0_o).getProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label16;
     _r0_o = ((global::gnu.xml.stream.XIncludeFilter) _r2_o)._fsystemId;
     label16:;
@@ -1806,7 +1801,6 @@ public virtual bool includeResource(global::java.lang.String n1, global::java.la
     _r4.i = 0;
     _r5_o = null;
     _r8_o = ((global::org.w3c.dom.xpath.XPathEvaluator) _r0_o).evaluate((global::java.lang.String) _r1_o, (global::org.w3c.dom.Node) _r2_o, (global::org.w3c.dom.xpath.XPathNSResolver) _r3_o, (short) _r4.i, (global::java.lang.Object) _r5_o);
-    _r8_o = _r8_o;
     ((global::gnu.xml.stream.XIncludeFilter) _r7_o)._fresult = (global::org.w3c.dom.xpath.XPathResult) _r8_o;
     _r0.i = 1;
     ((global::gnu.xml.stream.XIncludeFilter) _r7_o)._fincluded = 0!=_r0.i;
@@ -2085,7 +2079,6 @@ public virtual global::System.Object getURLConnection(global::java.lang.String n
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.net.HttpURLConnection)) ? 1 : 0;
     if (_r2.i == 0) goto label35;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r2.i = 1;
     ((global::java.net.HttpURLConnection) _r3_o).setInstanceFollowRedirects(0!=_r2.i);
@@ -2117,7 +2110,6 @@ public virtual global::System.Object getDocument(global::org.w3c.dom.Node n1){
     _r0.i = ((global::org.w3c.dom.Node) _r3_o).getNodeType();
     _r1.i = 9;
     if (_r0.i != _r1.i) goto label12;
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     label11:;
     return (global::org.w3c.dom.Document) _r0_o;
@@ -2200,7 +2192,6 @@ public virtual global::System.Object getDocumentTraversal(global::org.w3c.dom.Do
     ((global::javax.xml.stream.XMLStreamException) _r0_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::javax.xml.stream.XMLStreamException) _r0_o);
     label22:;
-    _r4_o = _r4_o;
     return (global::org.w3c.dom.traversal.DocumentTraversal) _r4_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XIncludeFilter: org.w3c.dom.traversal.DocumentTraversal getDocumentTraversal(org.w3c.dom.Document)]
 }
@@ -2231,7 +2222,6 @@ public virtual global::System.Object getXPathEvaluator(global::org.w3c.dom.Docum
     ((global::javax.xml.stream.XMLStreamException) _r0_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::javax.xml.stream.XMLStreamException) _r0_o);
     label22:;
-    _r4_o = _r4_o;
     return (global::org.w3c.dom.xpath.XPathEvaluator) _r4_o;
 //XMLVM_END_WRAPPER[gnu.xml.stream.XIncludeFilter: org.w3c.dom.xpath.XPathEvaluator getXPathEvaluator(org.w3c.dom.Document)]
 }

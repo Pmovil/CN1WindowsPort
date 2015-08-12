@@ -2198,7 +2198,6 @@ public virtual global::System.Object listFiles(global::java.io.FileFilter n1){
     _r7.i = ((global::java.util.List) _r6_o).size();
     _r7_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r7.i]);
     _r9_o = ((global::java.util.List) _r6_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o);
-    _r9_o = _r9_o;
     _r7_o = _r9_o;
     goto label21;
 //XMLVM_END_WRAPPER[java.io.File: java.io.File[] listFiles(java.io.FileFilter)]
@@ -2270,7 +2269,6 @@ public virtual global::System.Object list(global::java.io.FilenameFilter n1){
     _r6.i = ((global::java.util.List) _r5_o).size();
     _r6_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r6.i]);
     _r8_o = ((global::java.util.List) _r5_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o);
-    _r8_o = _r8_o;
     _r6_o = _r8_o;
     goto label21;
 //XMLVM_END_WRAPPER[java.io.File: java.lang.String[] list(java.io.FilenameFilter)]
@@ -2463,7 +2461,6 @@ public static global::System.Object createTempFile(global::java.lang.String n1, 
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)46))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r4_o).@this((global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o);
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r4_o);
-    _r2_o = _r2_o;
     _r3_o = new global::java.io.File();
     ((global::java.io.File) _r3_o).@this((global::java.lang.String) _r2_o);
     label46:;
@@ -2637,7 +2634,6 @@ public virtual global::System.Object properPath(bool n1){
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 114))}));
     ((global::org.apache.harmony.luni.util.PriviAction) _r4_o).@this((global::java.lang.String) _r9_o);
     _r3_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r4_o);
-    _r3_o = _r3_o;
     label44:;
     _r4_o = ((global::java.io.File) _r10_o)._fpath;
     _r4.i = ((global::java.lang.String) _r4_o).length();
@@ -3145,7 +3141,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.io.File) _r1_o).compareTo((global::java.io.File) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.io.File: int compareTo(java.lang.Object)]

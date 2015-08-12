@@ -186,7 +186,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     _r18.i = _r0.i;
     if (_r18.i == 0) goto label682;
     _r0_o = _r23_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r0_o = _r21_o;
     _r0.i = ((global::com.codename1.ui.spinner.DateTimeRenderer) _r0_o)._fmarkToday ? 1 : 0;
@@ -476,7 +475,6 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     _r23_o = ((global::java.lang.StringBuilder) _r18_o).toString();
     goto label241;
     label682:;
-    _r23_o = _r23_o;
     _r16.i = ((global::java.lang.Integer) _r23_o).intValue();
     _r15.i = _r16.i % 60;
     _r16.i = _r16.i / 60;
@@ -590,7 +588,6 @@ private global::System.Object getLocalizedMonth(int n1){
     _r1_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r4_o);
     if (_r1_o == null) goto label43;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label43:;
     return (global::java.lang.String) _r3_o;
@@ -625,7 +622,6 @@ private global::System.Object getLocalizedDay(int n1){
     _r1_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r4_o);
     if (_r1_o == null) goto label43;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label43:;
     return (global::java.lang.String) _r3_o;

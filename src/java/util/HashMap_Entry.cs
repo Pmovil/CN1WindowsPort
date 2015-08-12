@@ -51,12 +51,10 @@ public override global::System.Object clone(){
     global::System.Object _r2_o = null;
     _r2_o = this;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.HashMap_2Entry) _r2_o)._fnext;
     if (_r1_o == null) goto label20;
     _r1_o = ((global::java.util.HashMap_2Entry) _r2_o)._fnext;
     _r2_o = ((global::java.util.HashMap_2Entry) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.HashMap_2Entry) _r0_o)._fnext = (global::java.util.HashMap_2Entry) _r2_o;
     label20:;
     return (global::java.lang.Object) _r0_o;

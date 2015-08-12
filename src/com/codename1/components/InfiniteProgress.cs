@@ -225,7 +225,6 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     ((global::java.lang.Integer) _r0_o).@this((int) _r3.i);
     _r4_o = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fcache;
     _r1_o = ((global::com.codename1.ui.util.WeakHashMap) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label48;
     _r4_o = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fanimation;
     _r1_o = ((global::com.codename1.ui.Image) _r4_o).rotate((int) _r3.i);
@@ -340,7 +339,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label14;
-    _r3_o = _r3_o;
     ((global::com.codename1.components.InfiniteProgress) _r1_o)._fanimation = (global::com.codename1.ui.Image) _r3_o;
     _r0_o = null;
     label13:;

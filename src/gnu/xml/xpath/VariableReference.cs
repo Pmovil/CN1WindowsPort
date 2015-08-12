@@ -77,7 +77,6 @@ public override global::System.Object clone(global::java.lang.Object n1){
     _r0_o = ((global::gnu.xml.xpath.VariableReference) _r3_o)._fresolver;
     _r1.i = ((_r4_o != null) && (_r4_o is global::javax.xml.xpath.XPathVariableResolver)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
     label9:;
     _r1_o = new global::gnu.xml.xpath.VariableReference();

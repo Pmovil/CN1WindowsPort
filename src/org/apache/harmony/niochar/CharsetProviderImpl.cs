@@ -137,9 +137,7 @@ public void @this(){
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r3.i];
     _r5.i = 2;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r5.i];
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label46:;
@@ -181,8 +179,6 @@ public override global::System.Object charsets(){
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r0.i];
     _r3.i = 2;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r3.i];
-    _r2_o = _r2_o;
-    _r2_o = _r2_o;
     _r3.i = 0;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r3.i];
     _r2_o = ((global::org.apache.harmony.niochar.CharsetProviderImpl) _r4_o).charsetForName((global::java.lang.String) _r2_o);
@@ -217,7 +213,6 @@ public override global::System.Object charsetForName(global::java.lang.String n1
     _r5_o = ((global::org.apache.harmony.niochar.CharsetProviderImpl) _r10_o)._fcache;
     _r6_o = global::org.apache.harmony.niochar.CharsetProviderImpl.toUpperCase((global::java.lang.String) _r11_o);
     _r2_o = ((global::java.util.Map) _r5_o).get((global::java.lang.Object) _r6_o);
-    _r2_o = _r2_o;
     if (_r2_o != null) goto label19;
     _r5_o = null;
     label18:;
@@ -234,17 +229,12 @@ public override global::System.Object charsetForName(global::java.lang.String n1
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)46))}));
     _r6_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r6_o);
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r8.i];
-    _r5_o = _r5_o;
     _r5_o = ((global::java.lang.StringBuilder) _r6_o).append((global::java.lang.String) _r5_o);
     _r4_o = ((global::java.lang.StringBuilder) _r5_o).toString();
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i];
-    _r5_o = _r5_o;
-    _r5_o = _r5_o;
     _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r8.i];
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i];
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = new global::org.apache.harmony.niochar.CharsetProviderImpl_21();
     ((global::org.apache.harmony.niochar.CharsetProviderImpl_21) _r5_o).@this((global::org.apache.harmony.niochar.CharsetProviderImpl) _r10_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
@@ -252,7 +242,6 @@ public override global::System.Object charsetForName(global::java.lang.String n1
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r7.i] = _r5_o;
     label79:;
     _r10_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r7.i];
-    _r10_o = _r10_o;
     _r5_o = _r10_o;
     goto label18;
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.nio.charset.Charset charsetForName(java.lang.String)]
@@ -279,8 +268,6 @@ public virtual void putCharsets(global::java.util.Map n1){
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
     _r5.i = 2;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r5.i];
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     _r5.i = 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r5.i];
     _r2_o = ((global::org.apache.harmony.niochar.CharsetProviderImpl) _r6_o).charsetForName((global::java.lang.String) _r0_o);

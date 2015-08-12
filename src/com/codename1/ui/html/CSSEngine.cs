@@ -210,7 +210,6 @@ private global::System.Object sortSelectorsBySpecificity(global::org.xmlvm._nArr
     _r10.i = ((global::java.util.Vector) _r8_o).size();
     if (_r4.i >= _r10.i) goto label132;
     _r13_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r4.i);
-    _r13_o = _r13_o;
     _r10.i = ((global::com.codename1.ui.html.CSSElement) _r13_o).getSelectorSpecificity();
     if (_r9.i < _r10.i) goto label132;
     _r4.i = _r4.i + 1;
@@ -230,7 +229,6 @@ private global::System.Object sortSelectorsBySpecificity(global::org.xmlvm._nArr
     _r10.i = ((global::java.util.Vector) _r8_o).size();
     if (_r4.i >= _r10.i) goto label166;
     _r13_o = ((global::java.util.Vector) _r8_o).elementAt((int) _r4.i);
-    _r13_o = _r13_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r14_o)[_r4.i] = _r13_o;
     _r4.i = _r4.i + 1;
     goto label149;
@@ -283,7 +281,6 @@ public virtual void applyCSS(global::com.codename1.ui.html.HTMLElement n1, globa
     label28:;
     if (_r8.i >= _r7.i) goto label41;
     _r0_o = ((global::java.util.Vector) _r12_o).elementAt((int) _r8.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r8.i] = _r0_o;
     _r8.i = _r8.i + 1;
     goto label28;
@@ -293,7 +290,6 @@ public virtual void applyCSS(global::com.codename1.ui.html.HTMLElement n1, globa
     if (_r8.i >= _r6.i) goto label57;
     _r1.i = _r8.i + _r7.i;
     _r0_o = ((global::java.util.Vector) _r13_o).elementAt((int) _r8.i);
-    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r1.i] = _r0_o;
     _r8.i = _r8.i + 1;
     goto label42;
@@ -325,7 +321,6 @@ private void applyStyleAttributeRecursive(global::com.codename1.ui.html.HTMLElem
     _r2.i = ((global::com.codename1.ui.html.HTMLElement) _r4_o).getNumChildren();
     if (_r1.i >= _r2.i) goto label22;
     _r0_o = ((global::com.codename1.ui.html.HTMLElement) _r4_o).getChildAt((int) _r1.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.html.CSSEngine) _r3_o).applyStyleAttributeRecursive((global::com.codename1.ui.html.HTMLElement) _r0_o, (global::com.codename1.ui.html.HTMLComponent) _r5_o);
     _r1.i = _r1.i + 1;
     goto label4;
@@ -468,7 +463,6 @@ private global::System.Object applyCSS(global::com.codename1.ui.html.HTMLElement
     _r2.i = ((global::java.util.Enumeration) _r16_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label80;
     _r3_o = ((global::java.util.Enumeration) _r16_o).nextElement();
-    _r3_o = _r3_o;
     _r2_o = _r19_o;
     _r4_o = _r20_o;
     _r5_o = _r21_o;
@@ -481,7 +475,6 @@ private global::System.Object applyCSS(global::com.codename1.ui.html.HTMLElement
     _r2.i = ((global::java.util.Enumeration) _r16_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label108;
     _r3_o = ((global::java.util.Enumeration) _r16_o).nextElement();
-    _r3_o = _r3_o;
     _r2_o = _r19_o;
     _r4_o = _r20_o;
     _r5_o = _r21_o;
@@ -507,7 +500,6 @@ private global::System.Object applyCSS(global::com.codename1.ui.html.HTMLElement
     _r0_o = _r20_o;
     _r1.i = _r17.i;
     _r11_o = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getChildAt((int) _r1.i);
-    _r11_o = _r11_o;
     _r10_o = _r19_o;
     _r12_o = _r21_o;
     _r13_o = _r22_o;
@@ -598,7 +590,6 @@ private void checkSelector(global::com.codename1.ui.html.CSSElement n1, global::
     if (_r2.i <= 0) goto label154;
     _r2_o = ((global::com.codename1.ui.html.HTMLElement) _r6_o).getUi();
     _r2_o = ((global::java.util.Vector) _r2_o).firstElement();
-    _r2_o = _r2_o;
     _r2.i = ((global::com.codename1.ui.html.HTMLLink) _r2_o)._flinkVisited ? 1 : 0;
     if (_r2.i != 0) goto label154;
     _r2.i = ((global::com.codename1.ui.html.CSSElement) _r5_o).getSelectorPseudoClass();
@@ -610,7 +601,6 @@ private void checkSelector(global::com.codename1.ui.html.CSSElement n1, global::
     if (_r2.i <= 0) goto label189;
     _r2_o = ((global::com.codename1.ui.html.HTMLElement) _r6_o).getUi();
     _r2_o = ((global::java.util.Vector) _r2_o).firstElement();
-    _r2_o = _r2_o;
     _r2.i = ((global::com.codename1.ui.html.HTMLLink) _r2_o)._flinkVisited ? 1 : 0;
     if (_r2.i == 0) goto label189;
     _r2.i = ((global::com.codename1.ui.html.CSSElement) _r5_o).getSelectorPseudoClass();
@@ -787,7 +777,6 @@ private void applyStyle(global::com.codename1.ui.html.HTMLElement n1, global::co
     _r6.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r6.i == 0) goto label84;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.html.CSSEngine) _r7_o).applyStyleToUIElement((global::com.codename1.ui.Component) _r1_o, (global::com.codename1.ui.html.CSSElement) _r9_o, (global::com.codename1.ui.html.HTMLElement) _r8_o, (global::com.codename1.ui.html.HTMLComponent) _r10_o);
     label84:;
@@ -863,7 +852,6 @@ private void setColorRecursive(global::com.codename1.ui.Component n1, int n2, gl
     _r4.i = _r3.i & 4;
     if (_r4.i == 0) goto label41;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLLink) _r4_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r4_o).setFgColor((int) _r7.i);
@@ -871,7 +859,6 @@ private void setColorRecursive(global::com.codename1.ui.Component n1, int n2, gl
     _r4.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label74;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label50:;
@@ -923,7 +910,6 @@ private void setFontRecursive(global::com.codename1.ui.html.HTMLComponent n1, gl
     _r1.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label35;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     _r10.i = 0;
     label9:;
@@ -967,7 +953,6 @@ private void setVisibleRecursive(global::com.codename1.ui.Component n1, bool n2)
     _r3.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label31;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label15:;
@@ -1003,7 +988,6 @@ private void setTextTransformRecursive(global::com.codename1.ui.Component n1, in
     _r8.i = ((_r10_o != null) && (_r10_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r8.i == 0) goto label25;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4.i = 0;
     label9:;
@@ -1017,7 +1001,6 @@ private void setTextTransformRecursive(global::com.codename1.ui.Component n1, in
     _r8.i = ((_r10_o != null) && (_r10_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r8.i == 0) goto label36;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     switch (_r11.i) {
     case 1: goto label37;
@@ -1092,7 +1075,6 @@ private void setTextAlignmentRecursive(global::com.codename1.ui.Component n1, in
     _r3.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label41;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Container) _r1_o).getLayout();
     _r3.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.layouts.FlowLayout)) ? 1 : 0;
@@ -1134,7 +1116,6 @@ private void setTextIndentationRecursive(global::com.codename1.ui.Component n1, 
     _r3.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label63;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Container) _r1_o).getLayout();
     _r3.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.layouts.FlowLayout)) ? 1 : 0;
@@ -1216,7 +1197,6 @@ private void setWrapText(global::com.codename1.ui.Label n1, global::java.util.Ve
     ((global::java.lang.StringBuilder) _r2_o).@this();
     _r3.i = 0;
     _r12_o = ((global::java.util.Vector) _r14_o).elementAt((int) _r3.i);
-    _r12_o = _r12_o;
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r12_o);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((char) _r11.i);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
@@ -1225,7 +1205,6 @@ private void setWrapText(global::com.codename1.ui.Label n1, global::java.util.Ve
     _r2.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.html.HTMLLink)) ? 1 : 0;
     if (_r2.i == 0) goto label51;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     label51:;
     ((global::java.util.Vector) _r9_o).addElement((global::java.lang.Object) _r13_o);
@@ -1239,7 +1218,6 @@ private void setWrapText(global::com.codename1.ui.Label n1, global::java.util.Ve
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
     _r12_o = ((global::java.util.Vector) _r14_o).elementAt((int) _r7.i);
-    _r12_o = _r12_o;
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r12_o);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((char) _r11.i);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
@@ -1260,7 +1238,6 @@ private void setWrapText(global::com.codename1.ui.Label n1, global::java.util.Ve
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
     _r12_o = ((global::java.util.Vector) _r14_o).elementAt((int) _r7.i);
-    _r12_o = _r12_o;
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r12_o);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((char) _r11.i);
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
@@ -1303,7 +1280,6 @@ private void setWrapRecursive(global::com.codename1.ui.html.HTMLElement n1, glob
     if (_r5.i != _r7.i) goto label39;
     _r4_o = ((global::com.codename1.ui.html.HTMLComponent) _r10_o).getWords((global::java.lang.String) _r2_o, (int) _r7.i, 0!=_r6.i);
     _r1_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r6.i);
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.CSSEngine) _r8_o).setWrapText((global::com.codename1.ui.Label) _r1_o, (global::java.util.Vector) _r4_o, (global::com.codename1.ui.html.HTMLElement) _r9_o, (global::com.codename1.ui.html.HTMLComponent) _r10_o);
     label39:;
     _r0.i = 0;
@@ -1311,7 +1287,6 @@ private void setWrapRecursive(global::com.codename1.ui.html.HTMLElement n1, glob
     _r5.i = ((global::com.codename1.ui.html.HTMLElement) _r9_o).getNumChildren();
     if (_r0.i >= _r5.i) goto label58;
     _r5_o = ((global::com.codename1.ui.html.HTMLElement) _r9_o).getChildAt((int) _r0.i);
-    _r5_o = _r5_o;
     ((global::com.codename1.ui.html.CSSEngine) _r8_o).setWrapRecursive((global::com.codename1.ui.html.HTMLElement) _r5_o, (global::com.codename1.ui.html.HTMLComponent) _r10_o);
     _r0.i = _r0.i + 1;
     goto label40;
@@ -1344,7 +1319,6 @@ private void setNowrapText(global::com.codename1.ui.Label n1, global::java.util.
     _r3.i = ((global::java.util.Vector) _r7_o).size();
     if (_r2.i >= _r3.i) goto label26;
     _r1_o = ((global::java.util.Vector) _r7_o).elementAt((int) _r2.i);
-    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.ui.Component) _r1_o).getParent();
     ((global::com.codename1.ui.Container) _r3_o).removeComponent((global::com.codename1.ui.Component) _r1_o);
     _r2.i = _r2.i + 1;
@@ -1353,7 +1327,6 @@ private void setNowrapText(global::com.codename1.ui.Label n1, global::java.util.
     _r3.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.html.HTMLLink)) ? 1 : 0;
     if (_r3.i == 0) goto label41;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r4_o).@this();
@@ -1468,7 +1441,6 @@ private void setNowrapRecursive(global::com.codename1.ui.html.HTMLElement n1){
     label147:;
     _r8.i = 0;
     _r3_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r8.i);
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.html.CSSEngine) _r13_o).setNowrapText((global::com.codename1.ui.Label) _r3_o, (global::java.util.Vector) _r6_o, (global::java.lang.String) _r4_o, (global::com.codename1.ui.html.HTMLElement) _r14_o);
     label157:;
     _r2.i = 0;
@@ -1476,7 +1448,6 @@ private void setNowrapRecursive(global::com.codename1.ui.html.HTMLElement n1){
     _r8.i = ((global::com.codename1.ui.html.HTMLElement) _r14_o).getNumChildren();
     if (_r2.i >= _r8.i) goto label176;
     _r8_o = ((global::com.codename1.ui.html.HTMLElement) _r14_o).getChildAt((int) _r2.i);
-    _r8_o = _r8_o;
     ((global::com.codename1.ui.html.CSSEngine) _r13_o).setNowrapRecursive((global::com.codename1.ui.html.HTMLElement) _r8_o);
     _r2.i = _r2.i + 1;
     goto label158;
@@ -1503,7 +1474,6 @@ private void setDirectionRecursive(global::com.codename1.ui.Component n1, bool n
     _r3.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label28;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label12:;
@@ -1539,7 +1509,6 @@ private void setWordSpacingRecursive(global::com.codename1.ui.Component n1, int 
     _r3.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label26;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label10:;
@@ -1565,7 +1534,6 @@ private void setWordSpacingRecursive(global::com.codename1.ui.Component n1, int 
     if (_r3.i == 0) goto label77;
     _r3_o = ((global::com.codename1.ui.Component) _r8_o).getSelectedStyle();
     ((global::com.codename1.ui.plaf.Style) _r3_o).setPadding((int) _r6.i, (int) _r9.i);
-    _r8_o = _r8_o;
     _r3_o = ((global::com.codename1.ui.html.HTMLLink) _r8_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r3_o).setPadding((int) _r6.i, (int) _r9.i);
     label77:;
@@ -1593,7 +1561,6 @@ private void setLineHeightRecursive(global::com.codename1.ui.Component n1, int n
     _r3.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label27;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label11:;
@@ -1617,11 +1584,9 @@ private void setLineHeightRecursive(global::com.codename1.ui.Component n1, int n
     _r3_o = ((global::com.codename1.ui.Component) _r7_o).getSelectedStyle();
     ((global::com.codename1.ui.plaf.Style) _r3_o).setPadding((int) _r5.i, (int) _r8.i);
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.html.HTMLLink) _r3_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r3_o).setPadding((int) _r4.i, (int) _r8.i);
-    _r7_o = _r7_o;
     _r3_o = ((global::com.codename1.ui.html.HTMLLink) _r7_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r3_o).setPadding((int) _r5.i, (int) _r8.i);
     label83:;
@@ -1668,7 +1633,6 @@ private void setTextDecorationRecursive(global::com.codename1.ui.Component n1, i
     _r4.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label25;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label9:;
@@ -1694,7 +1658,6 @@ private void setTextDecorationRecursive(global::com.codename1.ui.Component n1, i
     label55:;
     _r4.i = _r3.i & 4;
     if (_r4.i == 0) goto label68;
-    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLLink) _r6_o).getPressedStyle();
     ((global::com.codename1.ui.html.CSSEngine) _r5_o).applyDecorationOnStyle((global::com.codename1.ui.plaf.Style) _r4_o, (int) _r7.i);
     label68:;
@@ -1721,7 +1684,6 @@ private void removeTextDecorationRecursive(global::com.codename1.ui.Component n1
     _r4.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label26;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label10:;
@@ -1747,7 +1709,6 @@ private void removeTextDecorationRecursive(global::com.codename1.ui.Component n1
     label56:;
     _r4.i = _r3.i & 4;
     if (_r4.i == 0) goto label69;
-    _r7_o = _r7_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLLink) _r7_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r4_o).setTextDecoration((int) _r5.i);
     label69:;
@@ -1772,7 +1733,6 @@ private void setQuotesRecursive(global::com.codename1.ui.Component n1, global::o
     _r4.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label25;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = 0;
     label9:;
@@ -1790,8 +1750,6 @@ private void setQuotesRecursive(global::com.codename1.ui.Component n1, global::o
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)113)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101))}));
     _r3_o = ((global::com.codename1.ui.Component) _r6_o).getClientProperty((global::java.lang.String) _r4_o);
     if (_r3_o == null) goto label50;
-    _r6_o = _r6_o;
-    _r3_o = _r3_o;
     _r4.i = ((global::java.lang.Integer) _r3_o).intValue();
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r4.i];
     ((global::com.codename1.ui.Label) _r6_o).setText((global::java.lang.String) _r4_o);
@@ -1930,7 +1888,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label61;
     _r84_o = global::com.codename1.ui.html.CSSEngine.omitQuotesIfExist((global::java.lang.String) _r84_o);
-    _r90_o = _r90_o;
     _r0_o = _r93_o;
     _r1_o = _r90_o;
     _r2_o = _r84_o;
@@ -1960,7 +1917,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     if (_r5.i == 0) goto label114;
     if (_r49.i != 0) goto label162;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r6.i = 1;
     _r0_o = _r93_o;
@@ -2005,7 +1961,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r1.i = _r5.i;
     if (_r0.i != _r1.i) goto label114;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r6.i = 0;
     _r0_o = _r93_o;
@@ -2026,7 +1981,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label161;
-    _r90_o = _r90_o;
     ((global::com.codename1.ui.Container) _r90_o).removeAll();
     goto label161;
     label212:;
@@ -2075,14 +2029,12 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r21.i & 4;
     if (_r5.i == 0) goto label325;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r5_o).getPressedStyle();
     _r0_o = _r5_o;
     _r1.i = _r30.i;
     ((global::com.codename1.ui.plaf.Style) _r0_o).setBgColor((int) _r1.i);
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r5_o).getPressedStyle();
     _r6.i = 255;
@@ -2151,14 +2103,12 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r21.i & 4;
     if (_r5.i == 0) goto label480;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r5_o).getPressedStyle();
     _r0_o = _r5_o;
     _r1_o = _r31_o;
     ((global::com.codename1.ui.plaf.Style) _r0_o).setBgPainter((global::com.codename1.ui.Painter) _r1_o);
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r5_o).getPressedStyle();
     _r0_o = _r5_o;
@@ -2295,7 +2245,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r1.i = _r5.i;
     if (_r0.i != _r1.i) goto label738;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     ((global::com.codename1.ui.html.HTMLLink) _r5_o).setParentChangesOnFocus();
     label738:;
@@ -2381,7 +2330,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r1.i = _r5.i;
     if (_r0.i != _r1.i) goto label899;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     ((global::com.codename1.ui.html.HTMLLink) _r5_o).setParentChangesOnFocus();
     label899:;
@@ -2729,7 +2677,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r21.i & 4;
     if (_r5.i == 0) goto label1568;
     _r0_o = _r19_o;
-    _r0_o = _r0_o;
     _r20_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r20_o).getSelectedStyle();
     _r38_o = ((global::com.codename1.ui.plaf.Style) _r5_o).getBorder();
@@ -2779,7 +2726,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r21.i & 4;
     if (_r5.i == 0) goto label1665;
     _r0_o = _r19_o;
-    _r0_o = _r0_o;
     _r20_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r20_o).getPressedStyle();
     _r0_o = _r5_o;
@@ -2816,7 +2762,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label1814;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r5_o)._fparentLink;
     if (_r5_o != null) goto label1814;
@@ -2941,7 +2886,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r0_o = _r69_o;
     _r1.i = _r20.i;
     _r93_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r93_o = _r93_o;
     _r5_o = global::com.codename1.ui.html.CSSEngine.omitQuotesIfExist((global::java.lang.String) _r93_o);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r70_o)[_r20.i] = _r5_o;
     _r20.i = _r20.i + 1;
@@ -2952,7 +2896,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label1678;
     _r0_o = _r19_o;
-    _r0_o = _r0_o;
     _r20_o = _r0_o;
     ((global::com.codename1.ui.Container) _r20_o).revalidate();
     goto label1678;
@@ -3041,7 +2984,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r21.i & 4;
     if (_r5.i == 0) goto label2172;
     _r0_o = _r19_o;
-    _r0_o = _r0_o;
     _r20_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.html.HTMLLink) _r20_o).getPressedStyle();
     _r0_o = _r89_o;
@@ -3083,7 +3025,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r1.i = _r5.i;
     if (_r0.i == _r1.i) goto label2248;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r93_o = _r0_o;
     if (_r81.i != 0) goto label2523;
     _r5.i = 1;
@@ -3101,7 +3042,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r1.i = _r5.i;
     if (_r0.i == _r1.i) goto label2282;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r93_o = _r0_o;
     _r5.i = 1;
     _r0.i = _r81.i;
@@ -3166,7 +3106,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r76.i = _r74.i;
     label2394:;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r91_o = _r0_o;
     _r0_o = _r91_o;
     _r1.i = _r74.i;
@@ -3187,7 +3126,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label161;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r52_o = _r0_o;
     _r54_o = ((global::com.codename1.ui.Container) _r52_o).getParent();
     _r5.i = 0;
@@ -3199,7 +3137,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label161;
     _r0_o = _r44_o;
-    _r0_o = _r0_o;
     _r35_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Container) _r35_o).getComponentCount();
     if (_r5.i <= 0) goto label161;
@@ -3212,7 +3149,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label161;
     _r0_o = _r58_o;
-    _r0_o = _r0_o;
     _r57_o = _r0_o;
     _r0_o = _r57_o;
     _r1.i = _r60.i;
@@ -3226,7 +3162,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2185;
-    _r19_o = _r19_o;
     ((global::com.codename1.ui.Container) _r19_o).revalidate();
     goto label2185;
     label2520:;
@@ -3276,7 +3211,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     if (_r5.i != _r6.i) goto label161;
     label2614:;
     _r0_o = _r90_o;
-    _r0_o = _r0_o;
     _r83_o = _r0_o;
     _r20.i = 0;
     label2622:;
@@ -3292,7 +3226,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2722;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r52_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Container) _r52_o).getComponentCount();
     _r6.i = 1;
@@ -3306,7 +3239,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2722;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r53_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Container) _r53_o).getComponentCount();
     _r6.i = 1;
@@ -3320,7 +3252,6 @@ private void applyStyleToUIElement(global::com.codename1.ui.Component n1, global
     _r5.i = _r0.i;
     if (_r5.i == 0) goto label2722;
     _r0_o = _r37_o;
-    _r0_o = _r0_o;
     _r57_o = _r0_o;
     _r0_o = _r57_o;
     _r1.i = _r60.i;
@@ -3368,10 +3299,8 @@ private void setTableAlignment(global::com.codename1.ui.Component n1, int n2, bo
     _r5.i = n2;
     _r6.i = n3 ? 1 : 0;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.html.HTMLTable) _r2_o).getModel();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLTableModel) _r1_o).setAlignToAll(0!=_r6.i, (int) _r5.i);
     ((global::com.codename1.ui.html.HTMLTable) _r2_o).setModel((global::com.codename1.ui.table.TableModel) _r1_o);
     return;
@@ -3394,14 +3323,12 @@ private void setTableCellAlignment(global::com.codename1.ui.html.HTMLElement n1,
     _r6.i = n3;
     _r7.i = n4 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.html.HTMLElement) _r4_o).getParent();
-    _r0_o = _r0_o;
     label6:;
     if (_r0_o == null) goto label23;
     _r1.i = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getTagId();
     _r2.i = 45;
     if (_r1.i == _r2.i) goto label23;
     _r0_o = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getParent();
-    _r0_o = _r0_o;
     goto label6;
     label23:;
     ((global::com.codename1.ui.html.CSSEngine) _r3_o).setTableCellAlignmentTR((global::com.codename1.ui.html.HTMLElement) _r0_o, (global::com.codename1.ui.Component) _r5_o, (int) _r6.i, 0!=_r7.i);
@@ -3435,13 +3362,11 @@ private void setTableCellAlignmentTR(global::com.codename1.ui.html.HTMLElement n
     _r5.i = 45;
     if (_r4.i != _r5.i) goto label70;
     _r3_o = ((global::com.codename1.ui.html.HTMLElement) _r8_o).getParent();
-    _r3_o = _r3_o;
     label18:;
     if (_r3_o == null) goto label33;
     _r4.i = ((global::com.codename1.ui.html.HTMLElement) _r3_o).getTagId();
     if (_r4.i == _r6.i) goto label33;
     _r3_o = ((global::com.codename1.ui.html.HTMLElement) _r3_o).getParent();
-    _r3_o = _r3_o;
     goto label18;
     label33:;
     if (_r3_o == null) goto label70;
@@ -3450,9 +3375,7 @@ private void setTableCellAlignmentTR(global::com.codename1.ui.html.HTMLElement n
     _r4_o = ((global::com.codename1.ui.html.HTMLElement) _r3_o).getUi();
     _r5.i = 0;
     _r2_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r5.i);
-    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.html.HTMLTable) _r2_o).getModel();
-    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o).getConstraint((global::java.lang.Object) _r9_o);
     if (_r11.i == 0) goto label71;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o).setHorizontalAlign((int) _r10.i);
@@ -3575,7 +3498,6 @@ private bool processAccessKey(global::java.lang.String n1, global::com.codename1
     if (_r3_o == null) goto label69;
     _r3_o = global::com.codename1.ui.html.CSSEngine._fspecialKeys;
     _r0_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r8_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label69;
     _r3.i = ((global::java.lang.Integer) _r0_o).intValue();
     ((global::com.codename1.ui.html.HTMLComponent) _r9_o).addAccessKey((int) _r3.i, (global::com.codename1.ui.Component) _r10_o, 0!=_r11.i);
@@ -3655,7 +3577,6 @@ public virtual global::System.Object createBorder(global::com.codename1.ui.html.
     label72:;
     _r4.i = _r13.i & 4;
     if (_r4.i == 0) goto label85;
-    _r11_o = _r11_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLLink) _r11_o).getPressedStyle();
     ((global::com.codename1.ui.html.CSSEngine) _r9_o).incPadding((global::com.codename1.ui.plaf.Style) _r4_o, (int) _r12.i, (int) _r3.i);
     label85:;
@@ -3862,7 +3783,6 @@ private void setMatchingFont(global::com.codename1.ui.html.HTMLComponent n1, glo
     _r16.i = _r14.i & 4;
     if (_r16.i == 0) goto label52;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r25_o = _r0_o;
     _r16_o = ((global::com.codename1.ui.html.HTMLLink) _r25_o).getPressedStyle();
     _r6_o = ((global::com.codename1.ui.plaf.Style) _r16_o).getFont();
@@ -3985,7 +3905,6 @@ private void setMatchingFont(global::com.codename1.ui.html.HTMLComponent n1, glo
     _r13_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
     if (_r13_o == null) goto label344;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r0_o = _r18_o;
     _r1.i = _r14.i;
@@ -4124,7 +4043,6 @@ private void setFontForStyles(int n1, global::com.codename1.ui.Component n2, glo
     _r1.i = _r3.i & 4;
     if (_r1.i == 0) goto label37;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.html.HTMLLink) _r1_o).getPressedStyle();
     ((global::com.codename1.ui.plaf.Style) _r1_o).setFont((global::com.codename1.ui.Font) _r5_o);
@@ -4419,7 +4337,6 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     if (_r5.i == 0) goto label109;
     _r27_o = ((global::com.codename1.ui.html.HTMLElement) _r30_o).getUi();
     _r6_o = ((global::java.util.Vector) _r27_o).lastElement();
-    _r6_o = _r6_o;
     _r7_o = _r6_o;
     label37:;
     _r23_o = _r7_o;
@@ -4430,7 +4347,6 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     _r27.i = _r0.i;
     if (_r27.i == 0) goto label298;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r15_o = _r0_o;
     label53:;
     _r27.i = ((global::com.codename1.ui.Container) _r15_o).getComponentCount();
@@ -4455,7 +4371,6 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     _r0_o = _r15_o;
     _r1.i = _r27.i;
     _r15_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r1.i);
-    _r15_o = _r15_o;
     goto label53;
     label104:;
     _r27.i = 0;
@@ -4464,7 +4379,6 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     label109:;
     _r27_o = ((global::com.codename1.ui.html.HTMLElement) _r30_o).getUi();
     _r6_o = ((global::java.util.Vector) _r27_o).firstElement();
-    _r6_o = _r6_o;
     _r7_o = _r6_o;
     goto label37;
     label121:;
@@ -4648,14 +4562,12 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     _r27.i = ((global::java.util.Enumeration) _r10_o).hasMoreElements() ? 1 : 0;
     if (_r27.i == 0) goto label583;
     _r25_o = ((global::java.util.Enumeration) _r10_o).nextElement();
-    _r25_o = _r25_o;
     // Value=cssContent
     _r27_o = new global::java.lang.String();
     ((global::java.lang.String)_r27_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r0_o = _r25_o;
     _r1_o = _r27_o;
     _r8_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r8_o = _r8_o;
     if (_r8_o == null) goto label441;
     if (_r5.i == 0) goto label480;
     // Value=a
@@ -4687,7 +4599,6 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
     _r1_o = _r27_o;
     _r14_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r14_o == null) goto label580;
-    _r14_o = _r14_o;
     _r17.i = ((global::java.lang.Integer) _r14_o).intValue();
     _r0.i = _r17.i;
     _r1.i = _r20.i;

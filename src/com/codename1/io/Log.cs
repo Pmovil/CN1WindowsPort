@@ -510,11 +510,9 @@ public virtual void logThrowable(global::java.lang.Throwable n1){
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.impl.CodenameOneThread)) ? 1 : 0;
     if (_r4.i == 0) goto label72;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4.i = ((global::com.codename1.impl.CodenameOneThread) _r4_o).hasStackFrame() ? 1 : 0;
     if (_r4.i == 0) goto label72;
-    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.impl.CodenameOneThread) _r2_o).getStack((global::java.lang.Throwable) _r8_o);
     ((global::com.codename1.io.Log) _r7_o).print((global::java.lang.String) _r4_o, (int) _r6.i);
     label72:;

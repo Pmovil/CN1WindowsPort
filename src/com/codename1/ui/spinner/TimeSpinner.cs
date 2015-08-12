@@ -87,7 +87,6 @@ public override void initSpinner(){
     label43:;
     _r2_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r9_o)._fhour;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r2_o).getRenderer();
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r2_o).setRightAlignNumbers(0!=_r6.i);
     _r1_o = new global::com.codename1.ui.spinner.TimeSpinner_21();
     ((global::com.codename1.ui.spinner.TimeSpinner_21) _r1_o).@this((global::com.codename1.ui.spinner.TimeSpinner) _r9_o);
@@ -366,7 +365,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label83;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setCurrentMeridiem(0!=_r0.i);
     _r0_o = _r1_o;
@@ -377,7 +375,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label102;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setShowMeridiem(0!=_r0.i);
     _r0_o = _r1_o;
@@ -388,7 +385,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label121;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setDurationMode(0!=_r0.i);
     _r0_o = _r1_o;
@@ -514,7 +510,6 @@ public virtual int getCurrentHour(){
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fhour;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -554,7 +549,6 @@ public virtual int getCurrentMinute(){
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminute;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -602,7 +596,6 @@ public virtual bool isCurrentMeridiem(){
     if (_r0_o == null) goto label29;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._famPM;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     if (_r0.i == 0) goto label27;
     _r0.i = 1;

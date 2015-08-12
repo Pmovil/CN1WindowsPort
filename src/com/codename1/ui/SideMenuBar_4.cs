@@ -86,7 +86,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     _r3_o = ((global::com.codename1.ui.Command) _r0_o).getClientProperty((global::java.lang.String) _r4_o);
-    _r3_o = _r3_o;
     if (_r3_o != null) goto label95;
     _r4_o = ((global::com.codename1.ui.SideMenuBar_24) _r13_o)._fval_2hasSideMenus;
     ((global::org.xmlvm._nArrayAdapter<bool>) _r4_o)[_r9.i] = 0!=_r10.i;

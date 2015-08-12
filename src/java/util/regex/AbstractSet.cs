@@ -282,9 +282,7 @@ public virtual void processSecondPass(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.util.regex.SingleSet)) ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r0_o = ((global::java.util.regex.AbstractSet) _r3_o)._fnext;
-    _r0_o = _r0_o;
     _r0_o = ((global::java.util.regex.JointSet) _r0_o)._ffSet;
-    _r0_o = _r0_o;
     _r0.i = ((global::java.util.regex.FSet) _r0_o)._fisBackReferenced ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r0_o = ((global::java.util.regex.AbstractSet) _r3_o)._fnext;

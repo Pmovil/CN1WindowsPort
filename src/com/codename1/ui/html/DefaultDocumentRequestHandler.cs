@@ -152,7 +152,6 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
     _r6.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.EncodedImage)) ? 1 : 0;
     if (_r6.i == 0) goto label94;
     _r6_o = new global::java.io.ByteArrayInputStream();
-    _r3_o = _r3_o;
     _r7_o = ((global::com.codename1.ui.EncodedImage) _r3_o).getImageData();
     ((global::java.io.ByteArrayInputStream) _r6_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r7_o);
     ((global::com.codename1.ui.html.IOCallback) _r13_o).streamReady((global::java.io.InputStream) _r6_o, (global::com.codename1.ui.html.DocumentInfo) _r12_o);
@@ -216,7 +215,6 @@ private global::System.Object resourceRequested(global::com.codename1.ui.html.Do
     _r6.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.EncodedImage)) ? 1 : 0;
     if (_r6.i == 0) goto label143;
     _r6_o = new global::java.io.ByteArrayInputStream();
-    _r3_o = _r3_o;
     _r7_o = ((global::com.codename1.ui.EncodedImage) _r3_o).getImageData();
     ((global::java.io.ByteArrayInputStream) _r6_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r7_o);
     ((global::com.codename1.ui.html.IOCallback) _r13_o).streamReady((global::java.io.InputStream) _r6_o, (global::com.codename1.ui.html.DocumentInfo) _r12_o);

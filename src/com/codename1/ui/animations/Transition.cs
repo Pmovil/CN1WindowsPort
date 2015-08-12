@@ -30,13 +30,11 @@ public virtual void init(global::com.codename1.ui.Component n1, global::com.code
     if (_r2_o == null) goto label15;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.Container) _r2_o).layoutContainer();
     label15:;
     if (_r3_o == null) goto label26;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r0.i == 0) goto label26;
-    _r3_o = _r3_o;
     ((global::com.codename1.ui.Container) _r3_o).layoutContainer();
     label26:;
     return;

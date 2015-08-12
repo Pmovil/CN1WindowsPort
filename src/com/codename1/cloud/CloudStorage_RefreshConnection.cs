@@ -98,7 +98,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r3_o = ((global::com.codename1.cloud.CloudStorage_2RefreshConnection) _r6_o)._fobjects;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i];
     _r3_o = global::com.codename1.io.Util.readObject((global::java.io.DataInputStream) _r0_o);
-    _r3_o = _r3_o;
     ((global::com.codename1.cloud.CloudObject) _r4_o).setValues((global::java.util.Hashtable) _r3_o);
     }
     catch (global::System.Exception e) {

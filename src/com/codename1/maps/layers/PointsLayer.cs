@@ -120,7 +120,6 @@ public override void paint(global::com.codename1.ui.Graphics n1, global::com.cod
     if (_r0.i >= _r1.i) goto label42;
     _r3_o = ((global::com.codename1.maps.layers.PointsLayer) _r4_o)._fpoints;
     _r2_o = ((global::java.util.Vector) _r3_o).elementAt((int) _r0.i);
-    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.maps.Tile) _r6_o).getBoundingBox();
     _r3.i = ((global::com.codename1.maps.BoundingBox) _r3_o).contains((global::com.codename1.maps.Coord) _r2_o) ? 1 : 0;
     if (_r3.i == 0) goto label39;
@@ -246,7 +245,6 @@ public virtual void fireActionEvent(global::com.codename1.maps.BoundingBox n1){
     if (_r0.i >= _r2.i) goto label33;
     _r2_o = ((global::com.codename1.maps.layers.PointsLayer) _r4_o)._fpoints;
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.maps.BoundingBox) _r5_o).contains((global::com.codename1.maps.Coord) _r1_o) ? 1 : 0;
     if (_r2.i == 0) goto label34;
     _r2_o = ((global::com.codename1.maps.layers.PointsLayer) _r4_o)._fdispatcher;

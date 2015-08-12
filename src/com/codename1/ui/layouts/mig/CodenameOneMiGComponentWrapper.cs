@@ -761,7 +761,6 @@ public override bool equals(global::java.lang.Object n1){
     return _r0.i!=0;
     label6:;
     _r0_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper) _r2_o)._fc;
-    _r3_o = _r3_o;
     _r1_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r3_o).getComponent();
     _r0.i = ((global::java.lang.Object) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
     goto label5;

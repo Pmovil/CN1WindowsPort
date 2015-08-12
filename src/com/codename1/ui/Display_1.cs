@@ -44,7 +44,6 @@ public virtual void run(){
     _r5.i = 0;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r5.i);
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Display_21) _r6_o)._fthis_20;
     _r3_o = global::com.codename1.ui.Display.access_2000((global::com.codename1.ui.Display) _r3_o);

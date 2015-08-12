@@ -36,7 +36,6 @@ private static global::System.Object get(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r2_o);
-    _r0_o = _r0_o;
     global::com.codename1.io.Preferences._fp = (global::java.util.Hashtable) _r0_o;
     _r0_o = global::com.codename1.io.Preferences._fp;
     if (_r0_o != null) goto label43;
@@ -228,7 +227,6 @@ public static int get(global::java.lang.String n1, int n2){
     _r3.i = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.i = _r3.i;
     label13:;
@@ -250,7 +248,6 @@ public static long get(global::java.lang.String n1, long n2){
     _r4.l = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.l = _r4.l;
     label13:;
@@ -272,7 +269,6 @@ public static double get(global::java.lang.String n1, double n2){
     _r4.d = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.d = _r4.d;
     label13:;
@@ -294,7 +290,6 @@ public static float get(global::java.lang.String n1, float n2){
     _r3.f = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.f = _r3.f;
     label13:;
@@ -316,7 +311,6 @@ public static bool get(global::java.lang.String n1, bool n2){
     _r3.i = n2 ? 1 : 0;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.i = _r3.i;
     label13:;

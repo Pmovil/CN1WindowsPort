@@ -442,7 +442,6 @@ public virtual void poll(){
     label0:;
     _r0_o = ((global::java.util.WeakHashMap) _r1_o)._freferenceQueue;
     _r0_o = ((global::java.lang.@ref.ReferenceQueue) _r0_o).poll();
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label11;
     return;
     label11:;

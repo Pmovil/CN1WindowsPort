@@ -194,7 +194,6 @@ public virtual global::System.Object getReturnType(){
     ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r0_o).parseForMethod((global::java.lang.reflect.GenericDeclaration) _r3_o, (global::java.lang.String) _r1_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
     _r1_o = ((global::org.apache.harmony.luni.lang.reflect.GenericSignatureParser) _r0_o)._freturnType;
     _r3_o = global::org.apache.harmony.luni.lang.reflect.Types.getType((global::java.lang.reflect.Type) _r1_o);
-    _r3_o = _r3_o;
     return (global::java.lang.Class) _r3_o;
 //XMLVM_END_WRAPPER[java.lang.reflect.Method: java.lang.Class getReturnType()]
 }

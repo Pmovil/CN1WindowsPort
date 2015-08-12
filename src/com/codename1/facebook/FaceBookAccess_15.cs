@@ -32,12 +32,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::System.Object _r4_o = null;
     _r3_o = this;
     _r4_o = n1;
-    _r4_o = _r4_o;
     _r1_o = ((global::com.codename1.io.NetworkEvent) _r4_o).getMetaData();
-    _r1_o = _r1_o;
     _r2.i = 0;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess_215) _r3_o)._fval_2photo;
     ((global::com.codename1.facebook.Photo) _r2_o).copy((global::java.util.Hashtable) _r0_o);
     return;

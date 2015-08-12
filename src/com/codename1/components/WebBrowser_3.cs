@@ -27,7 +27,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = n1;
     _r0_o = ((global::com.codename1.components.WebBrowser_23) _r2_o)._fthis_20;
     _r2_o = ((global::com.codename1.ui.events.ActionEvent) _r3_o).getSource();
-    _r2_o = _r2_o;
     _r1.i = ((global::com.codename1.ui.events.ActionEvent) _r3_o).getKeyEvent();
     ((global::com.codename1.components.WebBrowser) _r0_o).onError((global::java.lang.String) _r2_o, (int) _r1.i);
     return;

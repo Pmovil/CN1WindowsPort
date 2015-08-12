@@ -526,7 +526,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     ((global::java.io.ObjectInputStream) _r3_o).defaultReadObject();
     _r1.i = ((global::java.io.ObjectInputStream) _r3_o).readInt();
     _r0_o = ((global::java.io.ObjectInputStream) _r3_o).readObject();
-    _r0_o = _r0_o;
     ((global::java.lang.StringBuilder) _r2_o).set((global::org.xmlvm._nArrayAdapter<char>) _r0_o, (int) _r1.i);
     return;
 //XMLVM_END_WRAPPER[java.lang.StringBuilder: void readObject(java.io.ObjectInputStream)]

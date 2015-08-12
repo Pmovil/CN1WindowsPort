@@ -140,7 +140,6 @@ private void initializeTable(){
     _r5_o = ((global::java.util.ListResourceBundle) _r7_o)._ftable;
     _r0.i = 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
-    _r0_o = _r0_o;
     _r6.i = 1;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r6.i];
     ((global::java.util.HashMap) _r5_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r4_o);

@@ -38,7 +38,6 @@ public virtual global::System.Object item(int n1){
     _r2.i = n1;
     _r0_o = ((global::gnu.xml.dom.ImplementationList) _r1_o)._flist;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::org.w3c.dom.DOMImplementation) _r1_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ImplementationList: org.w3c.dom.DOMImplementation item(int)]
 }

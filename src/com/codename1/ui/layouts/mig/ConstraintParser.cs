@@ -1394,7 +1394,6 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
     label41:;
     if (_r4.i >= _r5.i) goto label60;
     _r10_o = ((global::java.util.ArrayList) _r6_o).get((int) _r4.i);
-    _r10_o = _r10_o;
     _r7_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r10_o, 0!=_r9.i, 0!=_r11.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r7_o;
     _r4.i = _r4.i + 2;
@@ -1419,7 +1418,6 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
     _r7.i = _r4.i << (0x1f & 1);
     _r7.i = _r7.i + 1;
     _r10_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
-    _r10_o = _r10_o;
     _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i];
     _r8.i = _r2.i + 1;
     _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r8.i];
@@ -1805,9 +1803,7 @@ public static global::System.Object parseComponentConstraints(global::java.util.
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label39;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     _r3_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseComponentConstraint((global::java.lang.String) _r3_o);
     ((global::java.util.HashMap) _r1_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r3_o);
     goto label13;
@@ -1848,7 +1844,6 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     label13:;
     _r0.i = 44;
     _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
-    _r11_o = _r11_o;
     _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
     _r0.i = 0;
     _r3.i = _r0.i;

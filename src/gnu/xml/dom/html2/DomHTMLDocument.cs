@@ -652,7 +652,6 @@ public virtual global::System.Object getBody(){
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLDocument) _r2_o).getChildNodeByName((global::org.w3c.dom.Node) _r0_o, (global::java.lang.String) _r1_o);
     _r2_o = _r0_o;
     label21:;
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
     label24:;
     return (global::org.w3c.dom.html2.HTMLElement) _r0_o;
@@ -909,7 +908,6 @@ public override global::System.Object createElementNS(global::java.lang.String n
     label34:;
     _r1_o = global::gnu.xml.dom.html2.DomHTMLDocument._fELEMENT_1CLASSES;
     _r0_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r0_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label49;
     _r0_o = base.createElementNS((global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     goto label14;
@@ -926,7 +924,6 @@ public override global::System.Object createElementNS(global::java.lang.String n
     _r2.i = 2;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r2.i] = _r5_o;
     _r3_o = ((global::java.lang.reflect.Constructor) _r0_o).newInstance((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r3_o = _r3_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

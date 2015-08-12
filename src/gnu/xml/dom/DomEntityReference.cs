@@ -85,7 +85,6 @@ public override global::System.Object getBaseURI(){
     _r0_o = ((global::org.w3c.dom.DocumentType) _r0_o).getEntities();
     _r1_o = ((global::gnu.xml.dom.DomEntityReference) _r3_o)._fname;
     _r3_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).getNamedItem((global::java.lang.String) _r1_o);
-    _r3_o = _r3_o;
     if (_r3_o != null) goto label27;
     _r0_o = _r2_o;
     goto label10;

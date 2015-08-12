@@ -489,10 +489,8 @@ public override global::System.Object clone(){
     _r2_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.ArrayList) _r2_o)._farray;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o).clone();
-    _r2_o = _r2_o;
     ((global::java.util.ArrayList) _r0_o)._farray = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
     }
     catch (global::System.Exception e) {
@@ -1261,7 +1259,6 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     _r0_o = ((global::java.lang.Class) _r0_o).getComponentType();
     _r1.i = ((global::java.util.ArrayList) _r5_o)._fsize;
     _r0_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r0_o, (int) _r1.i);
-    _r0_o = _r0_o;
     label21:;
     _r1_o = ((global::java.util.ArrayList) _r5_o)._farray;
     _r2.i = ((global::java.util.ArrayList) _r5_o)._ffirstIndex;

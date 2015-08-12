@@ -984,7 +984,6 @@ public override void setComponentState(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r1_o)._fvalue = 0!=_r0.i;
     return;
@@ -1076,7 +1075,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setOn((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1087,7 +1085,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 102))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
-    _r4_o = _r4_o;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setOff((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1097,7 +1094,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label50;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setValue(0!=_r0.i);
     _r0_o = _r1_o;

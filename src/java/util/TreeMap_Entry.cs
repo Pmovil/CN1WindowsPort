@@ -68,7 +68,6 @@ public virtual global::System.Object clone(global::java.util.TreeMap_2Entry n1){
     _r2_o = this;
     _r3_o = n1;
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     ((global::java.util.TreeMap_2Entry) _r0_o)._fparent = (global::java.util.TreeMap_2Entry) _r3_o;
     _r1_o = ((global::java.util.TreeMap_2Entry) _r2_o)._fleft;
     if (_r1_o == null) goto label20;

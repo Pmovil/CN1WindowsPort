@@ -334,7 +334,6 @@ public virtual global::System.Object getOwnerElement(){
     global::System.Object _r0_o = null;
     _r0_o = this;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r0_o)._fparent;
-    _r0_o = _r0_o;
     return (global::org.w3c.dom.Element) _r0_o;
 //XMLVM_END_WRAPPER[gnu.xml.dom.DomAttr: org.w3c.dom.Element getOwnerElement()]
 }
@@ -392,7 +391,6 @@ public virtual void setOwnerElement(global::org.w3c.dom.Element n1){
     ((global::gnu.xml.dom.DomDOMException) _r0_o).@this((short) _r1.i);
     throw new global::org.xmlvm._nExceptionAdapter((global::gnu.xml.dom.DomDOMException) _r0_o);
     label22:;
-    _r3_o = _r3_o;
     ((global::gnu.xml.dom.DomAttr) _r2_o)._fparent = (global::gnu.xml.dom.DomNode) _r3_o;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r2_o)._fparent;
     _r0.i = ((global::gnu.xml.dom.DomNode) _r0_o)._fdepth;
@@ -418,7 +416,6 @@ public override global::System.Object clone(){
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r1_o = base.clone();
-    _r1_o = _r1_o;
     _r0.i = 1;
     ((global::gnu.xml.dom.DomAttr) _r1_o)._fspecified = 0!=_r0.i;
     return (global::java.lang.Object) _r1_o;
@@ -456,7 +453,6 @@ private void mutating(global::java.lang.String n1, global::java.lang.String n2, 
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)77)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r9_o).createEvent((global::java.lang.String) _r0_o);
-    _r0_o = _r0_o;
     // Value=DOMAttrModified
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
@@ -486,7 +482,6 @@ public virtual global::System.Object getSchemaTypeInfo(){
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r3_o)._fparent;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r0_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label31;
     _r1_o = ((global::gnu.xml.dom.DomAttr) _r3_o)._fparent;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r1_o).getNodeName();
@@ -515,7 +510,6 @@ public virtual bool isId(){
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r4_o)._fparent;
     _r0_o = ((global::gnu.xml.dom.DomNode) _r0_o)._fowner;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label45;
     _r1_o = ((global::gnu.xml.dom.DomAttr) _r4_o)._fparent;
     _r1_o = ((global::gnu.xml.dom.DomNode) _r1_o).getNodeName();
@@ -533,7 +527,6 @@ public virtual bool isId(){
     return _r0.i!=0;
     label45:;
     _r0_o = ((global::gnu.xml.dom.DomAttr) _r4_o)._fparent;
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.DomElement) _r0_o)._fuserIdAttrs;
     if (_r1_o == null) goto label63;
     _r0_o = ((global::gnu.xml.dom.DomElement) _r0_o)._fuserIdAttrs;

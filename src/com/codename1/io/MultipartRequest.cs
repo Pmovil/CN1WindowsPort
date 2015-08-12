@@ -373,7 +373,6 @@ public virtual long calculateContentLength(){
     _r19.i = ((global::java.util.Enumeration) _r14_o).hasMoreElements() ? 1 : 0;
     if (_r19.i == 0) goto label287;
     _r15_o = ((global::java.util.Enumeration) _r14_o).nextElement();
-    _r15_o = _r15_o;
     _r0_o = _r23_o;
     _r0_o = ((global::com.codename1.io.MultipartRequest) _r0_o)._fargs;
     _r19_o = _r0_o;
@@ -397,7 +396,6 @@ public virtual long calculateContentLength(){
     _r1_o = _r15_o;
     _r19.i = ((global::java.util.Vector) _r0_o).contains((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r19.i == 0) goto label181;
-    _r18_o = _r18_o;
     _r19.i = ((global::java.lang.String) _r18_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -405,7 +403,6 @@ public virtual long calculateContentLength(){
     _r16.l = _r16.l + _r19.l;
     goto label106;
     label181:;
-    _r18_o = _r18_o;
     _r19_o = global::com.codename1.io.Util.encodeBody((global::java.lang.String) _r18_o);
     _r19.i = ((global::java.lang.String) _r19_o).length();
     _r0.i = _r19.i;
@@ -426,7 +423,6 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r8_o = _r8_o;
     _r19.i = ((global::java.lang.String) _r8_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -438,7 +434,6 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r8_o = _r8_o;
     _r19.i = ((global::java.lang.String) _r8_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -450,7 +445,6 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r8_o = _r8_o;
     _r19.l = global::java.lang.Long.parseLong((global::java.lang.String) _r8_o);
     _r16.l = _r16.l + _r19.l;
     goto label106;
@@ -531,7 +525,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     return;
     label73:;
     _r4_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r4_o = _r4_o;
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fargs;
     _r6_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
     // Value=--
@@ -578,7 +571,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fignoreEncoding;
     _r8.i = ((global::java.util.Vector) _r8_o).contains((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r8.i == 0) goto label178;
-    _r6_o = _r6_o;
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r6_o);
     label157:;
     _r8.i = global::com.codename1.io.MultipartRequest._fcanFlushStream ? 1 : 0;
@@ -594,7 +586,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     ((global::java.io.Writer) _r7_o).flush();
     goto label22;
     label178:;
-    _r6_o = _r6_o;
     _r8_o = global::com.codename1.io.Util.encodeBody((global::java.lang.String) _r6_o);
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     goto label157;
@@ -629,7 +620,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fmimeTypes;
     _r8_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
-    _r8_o = _r8_o;
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     // Value=\015\012
     _r8_o = new global::java.lang.String();
@@ -654,7 +644,6 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     _r8.i = ((_r6_o != null) && (_r6_o is global::java.io.InputStream)) ? 1 : 0;
     if (_r8.i == 0) goto label327;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label288:;
     _r8.i = 8192;
@@ -680,9 +669,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     label327:;
     _r3_o = new global::java.io.ByteArrayInputStream();
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
-    _r8_o = _r8_o;
     ((global::java.io.ByteArrayInputStream) _r3_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r8_o);
     goto label288;
     label339:;

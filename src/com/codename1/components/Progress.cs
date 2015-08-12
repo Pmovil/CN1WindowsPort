@@ -187,7 +187,6 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4_o = this;
     _r5_o = n1;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getConnectionRequest();
     _r3_o = ((global::com.codename1.components.Progress) _r4_o)._frequest;

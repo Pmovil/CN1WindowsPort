@@ -174,7 +174,6 @@ public virtual global::System.Object getRows(){
     _r2_o = this;
     _r1_o = new global::gnu.xml.dom.html2.DomHTMLCollection();
     _r0_o = ((global::gnu.xml.dom.html2.DomHTMLTableSectionElement) _r2_o).getOwnerDocument();
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.html2.DomHTMLCollection) _r1_o).@this((global::gnu.xml.dom.html2.DomHTMLDocument) _r0_o, (global::org.w3c.dom.Node) _r2_o);
     // Value=tr
     _r0_o = new global::java.lang.String();
@@ -205,7 +204,6 @@ public virtual global::System.Object insertRow(int n1){
     ((global::gnu.xml.dom.html2.DomHTMLTableSectionElement) _r4_o).appendChild((global::org.w3c.dom.Node) _r1_o);
     label19:;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     return (global::org.w3c.dom.html2.HTMLElement) _r4_o;
     label24:;

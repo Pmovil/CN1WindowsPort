@@ -288,7 +288,6 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
     if (_r1.i >= _r2.i) goto label53;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label31;
@@ -343,7 +342,6 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
     if (_r1.i >= _r2.i) goto label55;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label33;
@@ -397,9 +395,7 @@ public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::
     _r4.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label50;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
-    _r2_o = _r2_o;
     _r4_o = ((global::java.util.Hashtable) _r10_o).get((global::java.lang.Object) _r2_o);
-    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r4_o);
     goto label28;
     label50:;
@@ -415,7 +411,6 @@ public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::
     if (_r1.i >= _r4.i) goto label82;
     _r4_o = ((global::com.codename1.facebook.FaceBookAccess) _r6_o)._fresponseCodeListeners;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
-    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r4_o);
     _r1.i = _r1.i + 1;
     goto label60;
@@ -492,7 +487,6 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
     _r7_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r6.i);
-    _r7_o = _r7_o;
     _r5.i = ((global::com.codename1.io.NetworkEvent) _r7_o).getResponseCode();
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((int) _r5.i);
     // Value=: 
@@ -500,7 +494,6 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r7_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r6.i);
-    _r7_o = _r7_o;
     _r5_o = ((global::com.codename1.io.NetworkEvent) _r7_o).getMessage();
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).toString();
@@ -542,7 +535,6 @@ public virtual global::System.Object getPage(global::java.lang.String n1){
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -550,7 +542,6 @@ public virtual global::System.Object getPage(global::java.lang.String n1){
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -612,7 +603,6 @@ public virtual global::System.Object getPost(global::java.lang.String n1, bool n
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -620,7 +610,6 @@ public virtual global::System.Object getPost(global::java.lang.String n1, bool n
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -682,7 +671,6 @@ public virtual global::System.Object getPhoto(global::java.lang.String n1, bool 
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -690,7 +678,6 @@ public virtual global::System.Object getPhoto(global::java.lang.String n1, bool 
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -752,7 +739,6 @@ public virtual global::System.Object getAlbum(global::java.lang.String n1, bool 
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -760,7 +746,6 @@ public virtual global::System.Object getAlbum(global::java.lang.String n1, bool 
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r5.i);
-    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -1133,7 +1118,6 @@ public virtual global::System.Object getPictureAndWait(global::java.lang.String 
     _r0_o = new global::com.codename1.io.services.ImageDownloadService();
     _r1_o = ((global::com.codename1.facebook.FaceBookAccess) _r2_o).getImageURL((global::java.lang.String) _r3_o, (global::com.codename1.ui.geom.Dimension) _r4_o);
     _r2_o = null;
-    _r2_o = _r2_o;
     ((global::com.codename1.io.services.ImageDownloadService) _r0_o).@this((global::java.lang.String) _r1_o, (global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1_o = global::com.codename1.io.NetworkManager.getInstance();
     ((global::com.codename1.io.NetworkManager) _r1_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r0_o);
@@ -1690,7 +1674,6 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r0_o = _r6_o;
     _r1.i = _r17.i;
     _r20_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r20_o = _r20_o;
     _r0_o = _r15_o;
     _r1_o = _r20_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -1707,14 +1690,12 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r6.i = global::java.lang.Math.min((int) _r0.i, (int) _r1.i);
     if (_r10.i >= _r6.i) goto label227;
     _r16_o = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getItemAt((int) _r10.i);
-    _r16_o = _r16_o;
     // Value=photo
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111))}));
     _r0_o = _r16_o;
     _r1_o = _r6_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r8_o = _r8_o;
     // Value=photo
     _r11_o = new global::java.lang.String();
     ((global::java.lang.String)_r11_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111))}));
@@ -1726,7 +1707,6 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r0_o = _r16_o;
     _r1_o = _r7_o;
     _r18_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r18_o = _r18_o;
     _r0_o = _r6_o;
     _r1_o = _r18_o;
     _r6_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
@@ -1924,7 +1904,6 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label77;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label55;
@@ -2019,7 +1998,6 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label95;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label73;
@@ -2066,7 +2044,6 @@ public virtual void postLike(global::java.lang.String n1, global::com.codename1.
     if (_r1.i >= _r2.i) goto label53;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label31;
@@ -2128,7 +2105,6 @@ public virtual void postComment(global::java.lang.String n1, global::java.lang.S
     if (_r1.i >= _r2.i) goto label77;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label55;
@@ -2208,7 +2184,6 @@ public virtual void createNote(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label103;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r6_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label81;
@@ -2285,7 +2260,6 @@ public virtual void getUserNotifications(global::java.lang.String n1, global::ja
     if (_r1.i >= _r2.i) goto label82;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label60;
@@ -2393,7 +2367,6 @@ public virtual void getUsersDetails(global::org.xmlvm._nArrayAdapter<global::Sys
     if (_r2.i >= _r4.i) goto label140;
     _r4_o = ((global::com.codename1.facebook.FaceBookAccess) _r8_o)._fresponseCodeListeners;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r2.i);
-    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r4_o);
     _r2.i = _r2.i + 1;
     goto label118;
@@ -2529,9 +2502,7 @@ public static global::System.Object createObjectsModel(global::com.codename1.ui.
     _r4.i = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getSize();
     if (_r0.i >= _r4.i) goto label33;
     _r3_o = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getItemAt((int) _r0.i);
-    _r3_o = _r3_o;
     _r2_o = ((global::java.lang.Class) _r6_o).newInstance();
-    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FBObject) _r2_o).copy((global::java.util.Hashtable) _r3_o);
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).addItem((global::java.lang.Object) _r2_o);
     _r0.i = _r0.i + 1;

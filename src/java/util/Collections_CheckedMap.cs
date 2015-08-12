@@ -177,7 +177,6 @@ public virtual void putAll(global::java.util.Map n1){
     goto label22;
     label44:;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     _r5_o = ((global::java.util.Map_2Entry) _r0_o).getKey();
     _r6_o = ((global::java.util.Collections_2CheckedMap) _r8_o)._fkeyType;
     global::java.util.Collections.checkType((global::java.lang.Object) _r5_o, (global::java.lang.Class) _r6_o);

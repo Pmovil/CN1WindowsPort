@@ -81,7 +81,6 @@ public static int binarySearch(global::java.util.List n1, global::java.lang.Obje
     goto label17;
     label39:;
     _r0_o = ((global::java.util.ListIterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Comparable) _r0_o).compareTo((global::java.lang.Object) _r8_o);
     _r0.i = -_r0.i;
     if (_r0.i > 0) goto label26;
@@ -115,7 +114,6 @@ public static int binarySearch(global::java.util.List n1, global::java.lang.Obje
     _r0.i = _r3.i + _r1.i;
     _r2.i = _r0.i >> (0x1f & 1);
     _r0_o = ((global::java.util.List) _r7_o).get((int) _r2.i);
-    _r0_o = _r0_o;
     _r0.i = ((global::java.lang.Comparable) _r0_o).compareTo((global::java.lang.Object) _r8_o);
     _r0.i = -_r0.i;
     if (_r0.i <= 0) goto label108;
@@ -340,7 +338,6 @@ public static global::System.Object max(global::java.util.Collection n1){
     label15:;
     _r3_o = ((global::java.util.Iterator) _r2_o).next();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r4.i = ((global::java.lang.Comparable) _r5_o).compareTo((global::java.lang.Object) _r3_o);
     if (_r4.i >= 0) goto label8;
@@ -400,7 +397,6 @@ public static global::System.Object min(global::java.util.Collection n1){
     label15:;
     _r3_o = ((global::java.util.Iterator) _r2_o).next();
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r4.i = ((global::java.lang.Comparable) _r5_o).compareTo((global::java.lang.Object) _r3_o);
     if (_r4.i <= 0) goto label8;
@@ -504,7 +500,6 @@ public static global::System.Object reverseOrder(global::java.util.Comparator n1
     label7:;
     _r0.i = ((_r1_o != null) && (_r1_o is global::java.util.Collections_2ReverseComparatorWithComparator)) ? 1 : 0;
     if (_r0.i == 0) goto label18;
-    _r1_o = _r1_o;
     _r0_o = global::java.util.Collections_2ReverseComparatorWithComparator.access_20((global::java.util.Collections_2ReverseComparatorWithComparator) _r1_o);
     goto label6;
     label18:;
@@ -642,7 +637,6 @@ public static void sort(global::java.util.List n1){
     ((global::java.util.ListIterator) _r2_o).next();
     _r3.i = _r1.i + 1;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r4_o = _r4_o;
     ((global::java.util.ListIterator) _r2_o).set((global::java.lang.Object) _r4_o);
     _r1.i = _r3.i;
     goto label12;

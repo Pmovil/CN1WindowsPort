@@ -203,7 +203,6 @@ public override void installRightCommands(){
     _r9.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
     if (_r9.i == 0) goto label132;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getEast();
     if (_r5_o != null) goto label133;
@@ -220,7 +219,6 @@ public override void installRightCommands(){
     _r9.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r9.i == 0) goto label181;
     _r0_o = _r5_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r7.i = 0;
     label142:;
@@ -355,7 +353,6 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     _r12.i = -1;
     if (_r7.i <= _r12.i) goto label30;
     _r3_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r7.i);
-    _r3_o = _r3_o;
     // Value=TitleCommand
     _r12_o = new global::java.lang.String();
     ((global::java.lang.String)_r12_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
@@ -401,7 +398,6 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     _r12.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
     if (_r12.i == 0) goto label92;
     _r0_o = _r8_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r11_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getWest();
     _r1_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).createBackCommandButton();
@@ -420,7 +416,6 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).verifyBackCommandRTL((global::com.codename1.ui.Button) _r1_o);
     _r12.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r12.i == 0) goto label158;
-    _r11_o = _r11_o;
     _r12.i = 0;
     ((global::com.codename1.ui.Container) _r11_o).addComponent((int) _r12.i, (global::com.codename1.ui.Component) _r1_o);
     goto label92;

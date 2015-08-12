@@ -57,7 +57,6 @@ public void @this(){
     ((global::com.codename1.ui.spinner.GenericSpinner) _r8_o)._frenderer = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     _r1_o = ((global::com.codename1.ui.spinner.GenericSpinner) _r8_o)._frenderer;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r6.i];
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.spinner.SpinnerRenderer) _r0_o).setShowNumbers(0!=_r6.i);
     // Value=SpinnerRenderer
     _r1_o = new global::java.lang.String();
@@ -620,8 +619,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
-    _r4_o = _r4_o;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.ui.spinner.GenericSpinner) _r2_o).setModel((global::com.codename1.ui.list.ListModel) _r0_o);
     _r0_o = _r1_o;
@@ -633,7 +630,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label38;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.spinner.GenericSpinner) _r2_o).setModel((global::com.codename1.ui.list.ListModel) _r4_o);
     _r0_o = _r1_o;
     goto label22;
@@ -643,7 +639,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label53;
-    _r4_o = _r4_o;
     ((global::com.codename1.ui.spinner.GenericSpinner) _r2_o).setRenderer((global::com.codename1.ui.list.ListCellRenderer) _r4_o);
     _r0_o = _r1_o;
     goto label22;
@@ -653,7 +648,6 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label72;
-    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Integer) _r4_o).intValue();
     ((global::com.codename1.ui.spinner.GenericSpinner) _r2_o).setColumns((int) _r0.i);
     _r0_o = _r1_o;
@@ -840,9 +834,7 @@ public override void setComponentState(global::java.lang.Object n1){
     label10:;
     return;
     label11:;
-    _r6_o = _r6_o;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label18:;

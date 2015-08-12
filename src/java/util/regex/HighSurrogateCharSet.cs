@@ -108,7 +108,6 @@ public override int find(int n1, global::java.lang.CharSequence n2, global::java
     _r1.i = ((_r9_o != null) && (_r9_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label62;
     _r0_o = _r9_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.util.regex.MatchResultImpl) _r10_o).getRightBound();
     _r3.i = _r8.i;
@@ -173,7 +172,6 @@ public override int findBack(int n1, int n2, global::java.lang.CharSequence n3, 
     _r1.i = ((_r10_o != null) && (_r10_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label64;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::java.util.regex.MatchResultImpl) _r11_o).getRightBound();
     _r3.i = _r9.i;
@@ -280,7 +278,6 @@ public override bool first(global::java.util.regex.AbstractSet n1){
     label32:;
     _r0.i = ((_r5_o != null) && (_r5_o is global::java.util.regex.HighSurrogateCharSet)) ? 1 : 0;
     if (_r0.i == 0) goto label48;
-    _r5_o = _r5_o;
     _r0.i = ((global::java.util.regex.HighSurrogateCharSet) _r5_o)._fhigh;
     _r1.i = ((global::java.util.regex.HighSurrogateCharSet) _r4_o)._fhigh;
     if (_r0.i != _r1.i) goto label46;

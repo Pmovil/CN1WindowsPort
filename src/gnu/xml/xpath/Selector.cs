@@ -70,7 +70,6 @@ public void @this(int n1, global::java.util.List n2){
     if (_r0.i == 0) goto label57;
     _r0_o = ((global::gnu.xml.xpath.Selector) _r6_o)._ftests;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r5.i];
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.xpath.Selector) _r6_o)._ftests;
     _r2_o = new global::gnu.xml.xpath.NamespaceTest();
     _r3_o = ((global::gnu.xml.xpath.NameTest) _r0_o)._fqName;
@@ -232,7 +231,6 @@ private int getContextSize(global::org.w3c.dom.Node n1){
     _r0.i = ((global::org.w3c.dom.Node) _r6_o).getNodeType();
     _r1.i = 2;
     if (_r0.i != _r1.i) goto label24;
-    _r6_o = _r6_o;
     _r0_o = ((global::org.w3c.dom.Attr) _r6_o).getOwnerElement();
     _r0_o = ((global::org.w3c.dom.Node) _r0_o).getAttributes();
     _r0.i = ((global::org.w3c.dom.NamedNodeMap) _r0_o).getLength();
@@ -319,7 +317,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, glob
     return (global::java.util.Collection) _r0_o;
     label26:;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r0_o = _r0_o;
     ((global::gnu.xml.xpath.Selector) _r3_o).addCandidates((global::org.w3c.dom.Node) _r0_o, (global::java.util.Collection) _r1_o);
     goto label9;
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Selector: java.util.Collection evaluate(org.w3c.dom.Node, java.util.Collection)]
@@ -380,7 +377,6 @@ public virtual global::System.Object filterCandidates(global::java.util.List n1,
     goto label16;
     label44:;
     _r0_o = ((global::java.util.List) _r5_o).get((int) _r8.i);
-    _r0_o = _r0_o;
     if (_r14.i == 0) goto label109;
     _r1.i = ((global::org.w3c.dom.Node) _r0_o).getNodeType();
     _r9.i = 9;
@@ -406,7 +402,6 @@ public virtual global::System.Object filterCandidates(global::java.util.List n1,
     if (_r1.i == 0) goto label109;
     _r1_o = ((global::gnu.xml.xpath.Selector) _r12_o)._ftests;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r10.i];
-    _r1_o = _r1_o;
     _r1.i = ((global::gnu.xml.xpath.NodeTypeTest) _r1_o)._ftype;
     if (_r1.i != 0) goto label109;
     ((global::java.util.List) _r7_o).add((global::java.lang.Object) _r0_o);
@@ -542,7 +537,6 @@ public virtual void addParentNode(global::org.w3c.dom.Node n1, global::java.util
     _r0.i = ((global::org.w3c.dom.Node) _r3_o).getNodeType();
     _r1.i = 2;
     if (_r0.i != _r1.i) goto label24;
-    _r3_o = _r3_o;
     _r0_o = ((global::org.w3c.dom.Attr) _r3_o).getOwnerElement();
     label13:;
     if (_r0_o == null) goto label23;
@@ -603,7 +597,6 @@ public virtual void addFollowingNodes(global::org.w3c.dom.Node n1, global::java.
     label42:;
     _r1.i = ((global::org.w3c.dom.Node) _r0_o).getNodeType();
     if (_r1.i != _r3.i) goto label75;
-    _r0_o = _r0_o;
     _r0_o = ((global::org.w3c.dom.Attr) _r0_o).getOwnerElement();
     label54:;
     if (_r0_o == null) goto label21;
@@ -645,7 +638,6 @@ public virtual void addPrecedingNodes(global::org.w3c.dom.Node n1, global::java.
     if (_r6.i == 0) goto label29;
     _r0.i = ((global::org.w3c.dom.Node) _r4_o).getNodeType();
     if (_r0.i != _r2.i) goto label49;
-    _r4_o = _r4_o;
     _r0_o = ((global::org.w3c.dom.Attr) _r4_o).getOwnerElement();
     label24:;
     if (_r0_o == null) goto label29;
@@ -947,7 +939,6 @@ public override global::System.Object toString(){
     if (_r0.i == 0) goto label119;
     _r0_o = ((global::gnu.xml.xpath.Selector) _r3_o)._ftests;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.i = ((global::gnu.xml.xpath.NodeTypeTest) _r0_o)._ftype;
     if (_r0.i != 0) goto label119;
     label116:;
@@ -983,7 +974,6 @@ public override global::System.Object toString(){
     if (_r0.i == 0) goto label164;
     _r0_o = ((global::gnu.xml.xpath.Selector) _r3_o)._ftests;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0_o = _r0_o;
     _r0.i = ((global::gnu.xml.xpath.NodeTypeTest) _r0_o)._ftype;
     if (_r0.i != 0) goto label164;
     label160:;

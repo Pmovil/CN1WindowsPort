@@ -352,7 +352,6 @@ private global::System.Object getEventDispatcher(global::java.lang.String n1, bo
     label27:;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._flisteners;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label49;
     if (_r4.i == 0) goto label49;
     _r0_o = new global::com.codename1.ui.util.EventDispatcher();

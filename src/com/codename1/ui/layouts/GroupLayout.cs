@@ -166,7 +166,6 @@ public void @this(global::com.codename1.ui.Container n1){
     label14:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Form)) ? 1 : 0;
     if (_r0.i == 0) goto label24;
-    _r3_o = _r3_o;
     _r3_o = ((global::com.codename1.ui.Form) _r3_o).getContentPane();
     label24:;
     ((global::com.codename1.ui.layouts.GroupLayout) _r2_o)._fhonorsVisibility = 0!=_r1.i;
@@ -330,7 +329,6 @@ private void dump(global::java.lang.StringBuffer n1, global::com.codename1.ui.la
     _r8.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring)) ? 1 : 0;
     if (_r8.i == 0) goto label76;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
@@ -361,7 +359,6 @@ private void dump(global::java.lang.StringBuffer n1, global::com.codename1.ui.la
     _r8.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r8.i == 0) goto label121;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
@@ -436,7 +433,6 @@ private void dump(global::java.lang.StringBuffer n1, global::com.codename1.ui.la
     ((global::java.lang.StringBuffer) _r12_o).append((global::java.lang.String) _r8_o);
     _r8.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r8.i == 0) goto label303;
-    _r13_o = _r13_o;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r13_o)._fsprings;
     _r8_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r8_o).@this();
@@ -451,7 +447,6 @@ private void dump(global::java.lang.StringBuffer n1, global::com.codename1.ui.la
     _r8.i = ((global::java.util.ArrayList) _r7_o).size();
     if (_r2.i >= _r8.i) goto label303;
     _r8_o = ((global::java.util.ArrayList) _r7_o).get((int) _r2.i);
-    _r8_o = _r8_o;
     ((global::com.codename1.ui.layouts.GroupLayout) _r11_o).dump((global::java.lang.StringBuffer) _r12_o, (global::com.codename1.ui.layouts.GroupLayout_2Spring) _r8_o, (global::java.lang.String) _r14_o, (int) _r15.i);
     _r2.i = _r2.i + 1;
     goto label285;
@@ -561,7 +556,6 @@ public virtual global::System.Object getHorizontalGroup(){
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout) _r3_o)._fhorizontalGroup;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o)._fsprings;
     _r3_o = ((global::java.util.ArrayList) _r1_o).get((int) _r0.i);
-    _r3_o = _r3_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2Group) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout: com.codename1.ui.layouts.GroupLayout$Group getHorizontalGroup()]
 }
@@ -608,7 +602,6 @@ public virtual global::System.Object getVerticalGroup(){
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout) _r3_o)._fverticalGroup;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o)._fsprings;
     _r3_o = ((global::java.util.ArrayList) _r1_o).get((int) _r0.i);
-    _r3_o = _r3_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2Group) _r3_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout: com.codename1.ui.layouts.GroupLayout$Group getVerticalGroup()]
 }
@@ -881,7 +874,6 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     label28:;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout) _r3_o)._fcomponentInfos;
     _r0_o = ((global::java.util.HashMap) _r1_o).remove((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label46;
     _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=Component must already exist
@@ -965,7 +957,6 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout) _r2_o)._fcomponentInfos;
     _r0_o = ((global::java.util.HashMap) _r1_o).remove((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label19;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o).dispose();
     _r1.i = 1;
@@ -1113,7 +1104,6 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r5.i = ((global::java.util.Iterator) _r18_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label179;
     _r19_o = ((global::java.util.Iterator) _r18_o).next();
-    _r19_o = _r19_o;
     _r17_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r19_o).getComponent();
     _r0_o = _r19_o;
     _r1.i = _r21.i;
@@ -1164,7 +1154,6 @@ private void prepare(int n1){
     _r0.i = ((global::java.util.Iterator) _r7_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label55;
     _r6_o = ((global::java.util.Iterator) _r7_o).next();
-    _r6_o = _r6_o;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r6_o).updateVisibility() ? 1 : 0;
     if (_r0.i == 0) goto label51;
     _r8.i = 1;
@@ -1280,7 +1269,6 @@ private void checkComponents(){
     _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label88;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o)._fhorizontalSpring;
     if (_r2_o != null) goto label55;
     _r2_o = new global::java.lang.IllegalStateException();
@@ -1335,10 +1323,8 @@ private void registerComponents(global::com.codename1.ui.layouts.GroupLayout_2Gr
     label9:;
     if (_r0.i < 0) goto label39;
     _r1_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring)) ? 1 : 0;
     if (_r3.i == 0) goto label29;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r1_o).installIfNecessary((int) _r7.i);
     label26:;
     _r0.i = _r0.i + -1;
@@ -1346,7 +1332,6 @@ private void registerComponents(global::com.codename1.ui.layouts.GroupLayout_2Gr
     label29:;
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r3.i == 0) goto label26;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout) _r5_o).registerComponents((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o, (int) _r7.i);
     goto label26;
     label39:;
@@ -1427,7 +1412,6 @@ private global::System.Object getComponentInfo(global::com.codename1.ui.Componen
     _r4_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout) _r3_o)._fcomponentInfos;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label33;
     _r0_o = new global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo();
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r3_o, (global::com.codename1.ui.Component) _r4_o);

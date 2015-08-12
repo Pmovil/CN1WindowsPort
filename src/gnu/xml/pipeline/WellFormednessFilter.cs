@@ -288,7 +288,6 @@ public override void endElement(global::java.lang.String n1, global::java.lang.S
     try {
     _r0_o = ((global::gnu.xml.pipeline.WellFormednessFilter) _r4_o)._felementStack;
     _r0_o = ((global::java.util.Stack) _r0_o).pop();
-    _r0_o = _r0_o;
     _r1.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r1.i != 0) goto label83;
     _r1_o = new global::java.lang.StringBuilder();

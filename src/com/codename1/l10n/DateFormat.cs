@@ -76,7 +76,6 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     _r4.i = ((_r7_o != null) && (_r7_o is global::java.lang.Long)) ? 1 : 0;
     if (_r4.i == 0) goto label16;
     _r1_o = new global::java.util.Date();
-    _r7_o = _r7_o;
     _r4.l = ((global::java.lang.Long) _r7_o).longValue();
     ((global::java.util.Date) _r1_o).@this((long) _r4.l);
     _r7_o = _r1_o;
@@ -85,7 +84,6 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     _r4.i = ((_r7_o != null) && (_r7_o is global::java.util.Date)) ? 1 : 0;
     if (_r4.i == 0) goto label37;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label25:;
     if (_r3_o != null) goto label67;
@@ -102,7 +100,6 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     if (_r4.i == 0) goto label25;
     try {
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r3_o = ((global::com.codename1.l10n.DateFormat) _r6_o).parse((global::java.lang.String) _r4_o);
     }
@@ -187,7 +184,6 @@ public virtual global::System.Object parse(global::java.lang.String n1){
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.l10n.DateFormat) _r0_o).parseObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     return (global::java.util.Date) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.l10n.DateFormat: java.util.Date parse(java.lang.String)]
 }
@@ -311,7 +307,6 @@ public override bool equals(global::java.lang.Object n1){
     goto label5;
     label22:;
     _r0_o = _r7_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.l10n.DateFormat) _r6_o)._fdateStyle;
     _r3.i = ((global::com.codename1.l10n.DateFormat) _r1_o)._fdateStyle;

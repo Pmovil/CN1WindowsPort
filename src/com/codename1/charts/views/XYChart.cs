@@ -697,7 +697,6 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r5_o = _r0_o;
     _r6_o = global::java.lang.Integer.valueOf((int) _r105.i);
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r6_o);
-    _r5_o = _r5_o;
     _r6.i = 0;
     _r11.d = ((global::org.xmlvm._nArrayAdapter<double>) _r95_o)[_r105.i];
     ((global::org.xmlvm._nArrayAdapter<double>) _r5_o)[_r6.i] = _r11.d;
@@ -715,7 +714,6 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r5_o = _r0_o;
     _r6_o = global::java.lang.Integer.valueOf((int) _r105.i);
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r6_o);
-    _r5_o = _r5_o;
     _r6.i = 1;
     _r11.d = ((global::org.xmlvm._nArrayAdapter<double>) _r89_o)[_r105.i];
     ((global::org.xmlvm._nArrayAdapter<double>) _r5_o)[_r6.i] = _r11.d;
@@ -735,7 +733,6 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r5_o = _r0_o;
     _r6_o = global::java.lang.Integer.valueOf((int) _r105.i);
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r6_o);
-    _r5_o = _r5_o;
     _r6.i = 2;
     _r11.d = ((global::org.xmlvm._nArrayAdapter<double>) _r54_o)[_r105.i];
     ((global::org.xmlvm._nArrayAdapter<double>) _r5_o)[_r6.i] = _r11.d;
@@ -755,7 +752,6 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r5_o = _r0_o;
     _r6_o = global::java.lang.Integer.valueOf((int) _r105.i);
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r6_o);
-    _r5_o = _r5_o;
     _r6.i = 3;
     _r11.d = ((global::org.xmlvm._nArrayAdapter<double>) _r90_o)[_r105.i];
     ((global::org.xmlvm._nArrayAdapter<double>) _r5_o)[_r6.i] = _r11.d;
@@ -841,7 +837,6 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r0_o = _r5_o;
     _r1.i = _r23.i;
     _r21_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o).getSeriesRendererAt((int) _r1.i);
-    _r21_o = _r21_o;
     _r27_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r27_o).@this();
     _r28_o = new global::java.util.ArrayList();
@@ -892,12 +887,10 @@ public override void draw(global::com.codename1.charts.compat.Canvas n1, int n2,
     _r5.i = ((global::java.util.Iterator) _r79_o).hasNext() ? 1 : 0;
     if (_r5.i == 0) goto label1468;
     _r112_o = ((global::java.util.Iterator) _r79_o).next();
-    _r112_o = _r112_o;
     _r114.d = ((global::java.lang.Double) _r112_o).doubleValue();
     _r0_o = _r101_o;
     _r1_o = _r112_o;
     _r100_o = ((global::java.util.SortedMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r100_o = _r100_o;
     _r117.d = ((global::java.lang.Double) _r100_o).doubleValue();
     if (_r25.i >= 0) goto label1281;
     _r0_o = _r119_o;
@@ -2201,7 +2194,6 @@ private global::System.Object getValidLabels(global::java.util.List n1){
     _r3.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label31;
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r1_o = _r1_o;
     _r3.i = ((global::java.lang.Double) _r1_o).isNaN() ? 1 : 0;
     if (_r3.i == 0) goto label9;
     ((global::java.util.List) _r2_o).remove((global::java.lang.Object) _r1_o);
@@ -2440,13 +2432,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r10.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = 1;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r11.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r9.i = 0;
     label36:;
@@ -2458,13 +2448,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.i = 0;
     _r0_o = _r17_o;
     _r1.i = _r3.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r3.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.f = _r2.f - _r3.f;
     _r2.f = global::java.lang.Math.abs((float) _r2.f);
@@ -2476,13 +2464,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.i = 1;
     _r0_o = _r17_o;
     _r1.i = _r3.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r3.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.f = _r2.f - _r3.f;
     _r2.f = global::java.lang.Math.abs((float) _r2.f);
@@ -2500,13 +2486,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r5.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = 1;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r15_o).getChartValuesSpacing();
     _r6.f = _r2.f - _r3.f;
@@ -2523,13 +2507,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r5.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = 3;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r15_o).getChartValuesSpacing();
     _r6.f = _r2.f - _r3.f;
@@ -2542,13 +2524,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r10.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = 3;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r11.f = ((global::java.lang.Float) _r18_o).floatValue();
     label270:;
     _r9.i = _r9.i + 2;
@@ -2559,7 +2539,6 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.f = _r2.f - _r10.f;
     _r2.f = global::java.lang.Math.abs((float) _r2.f);
@@ -2571,7 +2550,6 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.f = _r2.f - _r11.f;
     _r2.f = global::java.lang.Math.abs((float) _r2.f);
@@ -2588,13 +2566,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r5.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = _r9.i + 1;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r15_o).getChartValuesSpacing();
     _r6.f = _r2.f - _r3.f;
@@ -2606,13 +2582,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r10.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = _r9.i + 1;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r11.f = ((global::java.lang.Float) _r18_o).floatValue();
     goto label270;
     label421:;
@@ -2628,13 +2602,11 @@ public virtual void drawChartValuesText(global::com.codename1.charts.compat.Canv
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r5.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r2.i = _r9.i + 1;
     _r0_o = _r17_o;
     _r1.i = _r2.i;
     _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r18_o = _r18_o;
     _r2.f = ((global::java.lang.Float) _r18_o).floatValue();
     _r3.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r15_o).getChartValuesSpacing();
     _r6.f = _r2.f - _r3.f;
@@ -2818,7 +2790,6 @@ public virtual void drawXLabels(global::java.util.List n1, global::org.xmlvm._nA
     _r0_o = _r28_o;
     _r1.i = _r20.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r4_o = _r4_o;
     _r21.d = ((global::java.lang.Double) _r4_o).doubleValue();
     _r0.i = _r32.i;
     _r0.d = (double) _r0.i;
@@ -3012,7 +2983,6 @@ public virtual void drawYLabels(global::java.util.Map n1, global::com.codename1.
     _r0_o = _r27_o;
     _r1_o = _r4_o;
     _r25_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r25_o = _r25_o;
     _r19.i = ((global::java.util.List) _r25_o).size();
     _r16.i = 0;
     label76:;
@@ -3022,7 +2992,6 @@ public virtual void drawYLabels(global::java.util.Map n1, global::com.codename1.
     _r0_o = _r25_o;
     _r1.i = _r16.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r4_o = _r4_o;
     _r17.d = ((global::java.lang.Double) _r4_o).doubleValue();
     _r0_o = _r26_o;
     _r0_o = ((global::com.codename1.charts.views.XYChart) _r0_o)._fmRenderer;
@@ -3457,7 +3426,6 @@ public virtual global::System.Object getCalcRange(int n1){
     _r0_o = ((global::com.codename1.charts.views.XYChart) _r2_o)._fmCalcRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r3.i);
     _r2_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<double>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.views.XYChart: double[] getCalcRange(int)]
 }
@@ -3855,13 +3823,11 @@ public override global::System.Object getSeriesAndPointForScreenCoordinate(globa
     _r0_o = ((global::com.codename1.charts.views.XYChart) _r10_o)._fclickableAreas;
     _r3_o = global::java.lang.Integer.valueOf((int) _r1.i);
     _r0_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     _r8_o = ((global::java.util.List) _r0_o).iterator();
     label44:;
     _r0.i = ((global::java.util.Iterator) _r8_o).hasNext() ? 1 : 0;
     if (_r0.i == 0) goto label97;
     _r7_o = ((global::java.util.Iterator) _r8_o).next();
-    _r7_o = _r7_o;
     if (_r7_o == null) goto label94;
     _r9_o = ((global::com.codename1.charts.views.ClickableArea) _r7_o).getRect();
     if (_r9_o == null) goto label94;

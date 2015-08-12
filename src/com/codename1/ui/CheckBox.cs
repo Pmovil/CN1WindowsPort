@@ -281,7 +281,6 @@ public override int getAvaliableSpaceForText(){
     _r1_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o).getLookAndFeel();
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.plaf.DefaultLookAndFeel)) ? 1 : 0;
     if (_r3.i == 0) goto label54;
-    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r1_o).getCheckBoxImages();
     if (_r2_o == null) goto label54;
     _r3.i = ((global::com.codename1.ui.CheckBox) _r6_o).isSelected() ? 1 : 0;
@@ -473,7 +472,6 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label25;
     if (_r3_o == null) goto label23;
-    _r3_o = _r3_o;
     _r0.i = ((global::java.lang.Boolean) _r3_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r0.i = 1;

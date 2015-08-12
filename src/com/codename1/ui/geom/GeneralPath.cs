@@ -1902,7 +1902,6 @@ public virtual global::System.Object getPathIterator(global::com.codename1.ui.Tr
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r1_o).getPathIterator();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r0_o)._ftransform = (global::com.codename1.ui.Transform) _r2_o;
     return (global::com.codename1.ui.geom.PathIterator) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.PathIterator getPathIterator(com.codename1.ui.Transform)]
@@ -1948,10 +1947,8 @@ public virtual void intersect(global::com.codename1.ui.geom.Shape n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r3_o);
     label12:;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = global::com.codename1.ui.geom.GeneralPath_2ShapeUtil.intersection((global::com.codename1.ui.geom.Rectangle) _r1_o, (global::com.codename1.ui.geom.Shape) _r5_o);
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.geom.GeneralPath) _r5_o).reset();
     _r3.i = 0;
     ((global::com.codename1.ui.geom.GeneralPath) _r5_o).append((global::com.codename1.ui.geom.Shape) _r2_o, 0!=_r3.i);

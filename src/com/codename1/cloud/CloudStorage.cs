@@ -53,7 +53,6 @@ private void @this(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 81)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     ((global::com.codename1.cloud.CloudStorage) _r2_o)._fstorageQueue = (global::java.util.Vector) _r0_o;
     _r0_o = ((global::com.codename1.cloud.CloudStorage) _r2_o)._fstorageQueue;
     if (_r0_o != null) goto label28;
@@ -458,8 +457,6 @@ public virtual global::System.Object queryEquals(global::java.lang.String n1, in
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryEquals(java.lang.String, int, java.lang.String, int, int, int)]
 }
@@ -507,8 +504,6 @@ public virtual global::System.Object querySorted(global::java.lang.String n1, in
     _r8.i = _r15.i;
     _r9.i = _r16.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] querySorted(java.lang.String, int, boolean, int, int, int)]
 }
@@ -556,8 +551,6 @@ public virtual global::System.Object querySortedKeys(global::java.lang.String n1
     _r8.i = _r15.i;
     _r9.i = _r16.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] querySortedKeys(java.lang.String, int, boolean, int, int, int)]
 }
@@ -605,8 +598,6 @@ public virtual global::System.Object queryEqualsKeys(global::java.lang.String n1
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] queryEqualsKeys(java.lang.String, int, java.lang.String, int, int, int)]
 }
@@ -651,7 +642,6 @@ public virtual int queryEqualsCount(global::java.lang.String n1, int n2, global:
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryEqualsCount(java.lang.String, int, java.lang.String, int)]
@@ -697,7 +687,6 @@ public virtual int queryGreaterThanCount(global::java.lang.String n1, int n2, gl
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryGreaterThanCount(java.lang.String, int, java.lang.String, int)]
@@ -743,7 +732,6 @@ public virtual int queryLessThanCount(global::java.lang.String n1, int n2, globa
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryLessThanCount(java.lang.String, int, java.lang.String, int)]
@@ -792,8 +780,6 @@ public virtual global::System.Object queryGreaterThan(global::java.lang.String n
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryGreaterThan(java.lang.String, int, java.lang.String, int, int, int)]
 }
@@ -841,8 +827,6 @@ public virtual global::System.Object queryLessThan(global::java.lang.String n1, 
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
-    _r13_o = _r13_o;
-    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryLessThan(java.lang.String, int, java.lang.String, int, int, int)]
 }

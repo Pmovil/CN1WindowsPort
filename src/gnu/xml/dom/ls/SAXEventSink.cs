@@ -191,7 +191,6 @@ public virtual void startDocument(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = ((global::org.xml.sax.XMLReader) _r0_o).getProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fdoc;
     ((global::gnu.xml.dom.DomDocument) _r1_o).setXmlVersion((global::java.lang.String) _r0_o);
     }
@@ -215,7 +214,6 @@ public virtual void startDocument(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
     _r0_o = ((global::org.xml.sax.XMLReader) _r0_o).getProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fdoc;
     ((global::gnu.xml.dom.DomDocument) _r1_o).setXmlEncoding((global::java.lang.String) _r0_o);
     }
@@ -239,7 +237,6 @@ public virtual void startDocument(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::org.xml.sax.ext.Locator2)) ? 1 : 0;
     if (_r0.i == 0) goto label109;
     _r0_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._flocator;
-    _r0_o = _r0_o;
     _r0_o = ((global::org.xml.sax.ext.Locator2) _r0_o).getEncoding();
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fdoc;
     ((global::gnu.xml.dom.DomDocument) _r1_o).setInputEncoding((global::java.lang.String) _r0_o);
@@ -283,7 +280,6 @@ public virtual void endDocument(){
     ((global::gnu.xml.dom.DomDocument) _r0_o).setDefaultAttributes(0!=_r2.i);
     _r0_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r4_o)._fdoc;
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r0_o).getDoctype();
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label31;
     ((global::gnu.xml.dom.DomDoctype) _r0_o).makeReadonly();
     label31:;
@@ -325,14 +321,12 @@ public virtual void startPrefixMapping(global::java.lang.String n1, global::java
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 51)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 47))}));
     _r0_o = ((global::gnu.xml.dom.DomDocument) _r1_o).createAttributeNS((global::java.lang.String) _r2_o, (global::java.lang.String) _r0_o);
-    _r0_o = _r0_o;
     ((global::gnu.xml.dom.DomAttr) _r0_o).setNodeValue((global::java.lang.String) _r5_o);
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fctx;
     _r1.i = ((global::org.w3c.dom.Node) _r1_o).getNodeType();
     _r2.i = 2;
     if (_r1.i != _r2.i) goto label68;
     _r3_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fctx;
-    _r3_o = _r3_o;
     _r1_o = ((global::org.w3c.dom.Attr) _r3_o).getOwnerElement();
     _r1_o = ((global::org.w3c.dom.Node) _r1_o).getAttributes();
     ((global::org.w3c.dom.NamedNodeMap) _r1_o).setNamedItemNS((global::org.w3c.dom.Node) _r0_o);
@@ -440,7 +434,6 @@ public virtual global::System.Object createElement(global::java.lang.String n1, 
     goto label11;
     label60:;
     _r0_o = ((global::java.util.Iterator) _r3_o).next();
-    _r0_o = _r0_o;
     ((global::org.w3c.dom.NamedNodeMap) _r2_o).setNamedItemNS((global::org.w3c.dom.Node) _r0_o);
     goto label33;
     label70:;
@@ -477,14 +470,12 @@ public virtual global::System.Object createAttr(global::org.xml.sax.Attributes n
     _r1_o = ((global::org.xml.sax.Attributes) _r4_o).getQName((int) _r5.i);
     _r2_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fdoc;
     _r3_o = ((global::gnu.xml.dom.DomDocument) _r2_o).createAttributeNS((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     label21:;
     _r1_o = ((global::org.xml.sax.Attributes) _r4_o).getValue((int) _r5.i);
     ((global::gnu.xml.dom.DomAttr) _r0_o).setNodeValue((global::java.lang.String) _r1_o);
     _r1.i = ((_r4_o != null) && (_r4_o is global::org.xml.sax.ext.Attributes2)) ? 1 : 0;
     if (_r1.i == 0) goto label41;
-    _r4_o = _r4_o;
     _r1.i = ((global::org.xml.sax.ext.Attributes2) _r4_o).isSpecified((int) _r5.i) ? 1 : 0;
     ((global::gnu.xml.dom.DomAttr) _r0_o).setSpecified(0!=_r1.i);
     label41:;
@@ -493,7 +484,6 @@ public virtual global::System.Object createAttr(global::org.xml.sax.Attributes n
     _r0_o = ((global::org.xml.sax.Attributes) _r4_o).getQName((int) _r5.i);
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r3_o)._fdoc;
     _r3_o = ((global::gnu.xml.dom.DomDocument) _r1_o).createAttribute((global::java.lang.String) _r0_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
     goto label21;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.SAXEventSink: org.w3c.dom.Attr createAttr(org.xml.sax.Attributes, int)]
@@ -766,7 +756,6 @@ public virtual void startEntity(global::java.lang.String n1){
     if (_r1.i != 0) goto label4;
     _r0_o = ((global::org.w3c.dom.DocumentType) _r0_o).getEntities();
     _r0_o = ((global::org.w3c.dom.NamedNodeMap) _r0_o).getNamedItem((global::java.lang.String) _r4_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label79;
     _r0_o = new global::org.xml.sax.SAXException();
     _r1_o = new global::java.lang.StringBuilder();
@@ -827,7 +816,6 @@ public virtual void endEntity(global::java.lang.String n1){
     _r1.i = ((global::java.util.HashSet) _r1_o).contains((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r1.i != 0) goto label4;
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r5_o)._fctx;
-    _r1_o = _r1_o;
     _r2_o = ((global::org.w3c.dom.EntityReference) _r1_o).getNodeName();
     _r2.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r6_o) ? 1 : 0;
     if (_r2.i != 0) goto label75;
@@ -853,7 +841,6 @@ public virtual void endEntity(global::java.lang.String n1){
     _r2.i = ((_r1_o != null) && (_r1_o is global::gnu.xml.dom.DomNode)) ? 1 : 0;
     if (_r2.i == 0) goto label94;
     _r0_o = _r1_o;
-    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::gnu.xml.dom.DomNode) _r2_o).makeReadonly();
     label94:;
@@ -969,7 +956,6 @@ public virtual void notationDecl(global::java.lang.String n1, global::java.lang.
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label17:;
     _r2_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fctx;
-    _r2_o = _r2_o;
     ((global::gnu.xml.dom.DomDoctype) _r2_o).declareNotation((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     goto label4;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.SAXEventSink: void notationDecl(java.lang.String, java.lang.String, java.lang.String)]
@@ -1005,7 +991,6 @@ public virtual void unparsedEntityDecl(global::java.lang.String n1, global::java
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label17:;
     _r2_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fctx;
-    _r2_o = _r2_o;
     ((global::gnu.xml.dom.DomDoctype) _r2_o).declareEntity((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o);
     goto label4;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.SAXEventSink: void unparsedEntityDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
@@ -1040,7 +1025,6 @@ public virtual void elementDecl(global::java.lang.String n1, global::java.lang.S
     _r0.i = ((_r0_o != null) && (_r0_o is global::gnu.xml.dom.DomDoctype)) ? 1 : 0;
     if (_r0.i == 0) goto label4;
     _r2_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fctx;
-    _r2_o = _r2_o;
     ((global::gnu.xml.dom.DomDoctype) _r2_o).elementDecl((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label4;
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.SAXEventSink: void elementDecl(java.lang.String, java.lang.String)]
@@ -1082,7 +1066,6 @@ public virtual void attributeDecl(global::java.lang.String n1, global::java.lang
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label17:;
     _r0_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r6_o)._fctx;
-    _r0_o = _r0_o;
     _r1_o = _r7_o;
     _r2_o = _r8_o;
     _r3_o = _r9_o;
@@ -1120,7 +1103,6 @@ public virtual void internalEntityDecl(global::java.lang.String n1, global::java
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label18:;
     _r0_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fctx;
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.dom.DomDoctype) _r0_o).declareEntity((global::java.lang.String) _r3_o, (global::java.lang.String) _r1_o, (global::java.lang.String) _r1_o, (global::java.lang.String) _r1_o);
     if (_r0_o == null) goto label5;
     _r1_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fdoc;
@@ -1158,7 +1140,6 @@ public virtual void externalEntityDecl(global::java.lang.String n1, global::java
     throw new global::org.xmlvm._nExceptionAdapter((global::org.xml.sax.SAXException) _r0_o);
     label17:;
     _r2_o = ((global::gnu.xml.dom.ls.SAXEventSink) _r2_o)._fctx;
-    _r2_o = _r2_o;
     _r0_o = null;
     ((global::gnu.xml.dom.DomDoctype) _r2_o).declareEntity((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r0_o);
     goto label4;

@@ -150,13 +150,11 @@ public static global::System.Object getByAddress(global::java.lang.String n1, gl
     _r6.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label60;
     _r3_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r3_o = _r3_o;
     _r6_o = ((global::java.net.InetAddress) _r3_o).getAddress();
     _r6.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
     _r7.i = 16;
     if (_r6.i != _r7.i) goto label13;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r5_o = _r0_o;
     _r4.i = ((global::java.net.Inet6Address) _r5_o).compareLocalType((global::java.net.Inet6Address) _r1_o) ? 1 : 0;
     if (_r4.i == 0) goto label13;
@@ -694,8 +692,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115))}));
     _r1_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
-    _r1_o = _r1_o;
     ((global::java.net.Inet6Address) _r4_o)._fipaddress = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
     // Value=scope_id
     _r1_o = new global::java.lang.String();
@@ -711,7 +707,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.io.ObjectInputStream_2GetField) _r0_o).get((global::java.lang.String) _r1_o, (global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     ((global::java.net.Inet6Address) _r4_o)._fifname = (global::java.lang.String) _r1_o;
     // Value=scope_ifname_set
     _r1_o = new global::java.lang.String();

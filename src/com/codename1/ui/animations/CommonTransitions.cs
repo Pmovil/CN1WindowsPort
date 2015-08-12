@@ -410,7 +410,6 @@ private global::System.Object getDialogParent(global::com.codename1.ui.Component
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Dialog) _r2_o).getDialogComponent();
     return (global::com.codename1.ui.Container) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.CommonTransitions: com.codename1.ui.Container getDialogParent(com.codename1.ui.Component)]
@@ -595,7 +594,6 @@ public override void initTransition(){
     ((global::com.codename1.ui.animations.CommonTransitions) _r1_o)._foriginalHeight = _r0.i;
     _r13_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r17_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Display) _r13_o).getDisplayWidth();
     _r0_o = _r24_o;
@@ -885,19 +883,16 @@ public override void initTransition(){
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._ftimeline;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r7.i = 0;
     ((global::com.codename1.ui.animations.Timeline) _r5_o).setTime((int) _r7.i);
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._ftimeline;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r7.i = 0;
     ((global::com.codename1.ui.animations.Timeline) _r5_o).setLoop(0!=_r7.i);
     _r0_o = _r24_o;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._ftimeline;
     _r5_o = _r0_o;
-    _r5_o = _r5_o;
     _r7.i = 0;
     ((global::com.codename1.ui.animations.Timeline) _r5_o).setAnimationDelay((int) _r7.i);
     label911:;
@@ -1042,7 +1037,6 @@ public override void initTransition(){
     _r5.i = ((global::com.codename1.ui.Container) _r5_o).getHeight();
     _r5.i = _r18.i - _r5.i;
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r17_o = _r0_o;
     _r0_o = _r24_o;
     _r1_o = _r17_o;
@@ -1068,7 +1062,6 @@ public override void initTransition(){
     _r5.i = ((global::com.codename1.ui.plaf.Style) _r5_o).getMargin(0!=_r6.i, (int) _r7.i);
     _r21.i = _r21.i - _r5.i;
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r16_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Dialog) _r16_o).getTitleStyle();
     _r6.i = 0;
@@ -1080,12 +1073,10 @@ public override void initTransition(){
     _r5.i = _r0.i;
     if (_r5.i != 0) goto label1049;
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r16_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Dialog) _r16_o).getCommandCount();
     if (_r5.i <= 0) goto label1049;
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r16_o = _r0_o;
     _r5.i = 0;
     _r0_o = _r16_o;
@@ -1106,7 +1097,6 @@ public override void initTransition(){
     _r5_o = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o).getDialogParent((global::com.codename1.ui.Component) _r1_o);
     _r5.i = ((global::com.codename1.ui.Container) _r5_o).getHeight();
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r22_o = _r0_o;
     _r0_o = _r24_o;
     _r1_o = _r22_o;
@@ -1132,7 +1122,6 @@ public override void initTransition(){
     _r5.i = ((global::com.codename1.ui.plaf.Style) _r5_o).getMargin(0!=_r6.i, (int) _r7.i);
     _r14.i = _r14.i + _r5.i;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r22_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Dialog) _r22_o).getTitleStyle();
     _r6.i = 0;
@@ -1140,12 +1129,10 @@ public override void initTransition(){
     _r5.i = ((global::com.codename1.ui.plaf.Style) _r5_o).getMargin(0!=_r6.i, (int) _r7.i);
     _r14.i = _r14.i + _r5.i;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r22_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Dialog) _r22_o).getCommandCount();
     if (_r5.i <= 0) goto label1049;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r22_o = _r0_o;
     _r5.i = 0;
     _r0_o = _r22_o;
@@ -1181,7 +1168,6 @@ public override void initTransition(){
     _r5.i = ((_r15_o != null) && (_r15_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
     if (_r5.i != 0) goto label1563;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r0_o = _r24_o;
     _r1_o = _r13_o;
@@ -1239,7 +1225,6 @@ public override void initTransition(){
     _r5.i = _r0.i;
     if (_r5.i != 0) goto label1563;
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r0_o = _r24_o;
     _r1_o = _r13_o;
@@ -1369,7 +1354,6 @@ public virtual global::System.Object createMotion(int n1, int n2, int n3){
     ((global::java.lang.Integer) _r3_o).@this((int) _r7.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r2.i] = _r3_o;
     _r4_o = ((global::com.codename1.util.LazyValue) _r0_o).get((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
     label44:;
     return (global::com.codename1.ui.animations.Motion) _r0_o;
@@ -1761,9 +1745,7 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     label195:;
     try {
     _r29_o = ((global::com.codename1.ui.animations.CommonTransitions) _r32_o).getSource();
-    _r29_o = _r29_o;
     _r22_o = ((global::com.codename1.ui.animations.CommonTransitions) _r32_o).getDestination();
-    _r22_o = _r22_o;
     _r0_o = _r32_o;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._fposition;
     _r14.i = _r0.i;
@@ -1785,10 +1767,8 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     _r2.i = _r6.i;
     ((global::com.codename1.ui.Graphics) _r0_o).translate((int) _r1.i, (int) _r2.i);
     _r5_o = ((global::com.codename1.ui.animations.CommonTransitions) _r32_o).getSource();
-    _r5_o = _r5_o;
     _r7_o = ((global::com.codename1.ui.Form) _r5_o).getContentPane();
     _r5_o = ((global::com.codename1.ui.animations.CommonTransitions) _r32_o).getDestination();
-    _r5_o = _r5_o;
     _r23_o = ((global::com.codename1.ui.Form) _r5_o).getContentPane();
     _r0_o = _r32_o;
     _r0.i = ((global::com.codename1.ui.animations.CommonTransitions) _r0_o)._fforward ? 1 : 0;
@@ -2210,7 +2190,6 @@ private void paintShiftFadeHierarchy(global::com.codename1.ui.Container n1, int 
     _r1_o = ((global::com.codename1.ui.Container) _r8_o).getComponentAt((int) _r2.i);
     _r5.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label24;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.animations.CommonTransitions) _r7_o).paintShiftFadeHierarchy((global::com.codename1.ui.Container) _r1_o, (int) _r9.i, (global::com.codename1.ui.Graphics) _r10_o, 0!=_r11.i);
     label21:;
     _r2.i = _r2.i + 1;
@@ -2259,7 +2238,6 @@ private global::System.Object getComponentShiftMotion(global::com.codename1.ui.C
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 109))}));
     _r2_o = ((global::com.codename1.ui.Component) _r10_o).getClientProperty((global::java.lang.String) _r8_o);
-    _r2_o = _r2_o;
     if (_r2_o != null) goto label108;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r9_o).getDestination();
     if (_r0_o == null) goto label21;
@@ -2457,7 +2435,6 @@ private void removeConstant(global::com.codename1.ui.Container n1){
     ((global::com.codename1.ui.Component) _r0_o).putClientProperty((global::java.lang.String) _r5_o, (global::java.lang.Object) _r4_o);
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label33;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.animations.CommonTransitions) _r6_o).removeConstant((global::com.codename1.ui.Container) _r0_o);
     label33:;
     _r2.i = _r2.i + 1;
@@ -2482,13 +2459,11 @@ public override void cleanup(){
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r4_o).getSource();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label19;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.animations.CommonTransitions) _r4_o).removeConstant((global::com.codename1.ui.Container) _r0_o);
     label19:;
     _r0_o = ((global::com.codename1.ui.animations.CommonTransitions) _r4_o).getDestination();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label32;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.animations.CommonTransitions) _r4_o).removeConstant((global::com.codename1.ui.Container) _r0_o);
     label32:;
     base.cleanup();
@@ -3030,7 +3005,6 @@ private void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.u
     _r2.i = _r17.i;
     ((global::com.codename1.ui.Graphics) _r0_o).translate((int) _r1.i, (int) _r2.i);
     _r0_o = _r15_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r10.i = ((global::com.codename1.ui.Component) _r15_o).getWidth();
     _r11.i = ((global::com.codename1.ui.Component) _r15_o).getHeight();

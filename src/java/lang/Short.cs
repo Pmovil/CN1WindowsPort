@@ -136,7 +136,6 @@ public override bool equals(global::java.lang.Object n1){
     _r0.i = ((_r3_o != null) && (_r3_o is global::java.lang.Short)) ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r0.i = ((global::java.lang.Short) _r2_o)._fvalue;
-    _r3_o = _r3_o;
     _r1.i = ((global::java.lang.Short) _r3_o)._fvalue;
     if (_r0.i != _r1.i) goto label14;
     _r0.i = 1;
@@ -326,7 +325,6 @@ public virtual int compareTo(global::java.lang.Object n1){
     global::System.Object _r2_o = null;
     _r1_o = this;
     _r2_o = n1;
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Short) _r1_o).compareTo((global::java.lang.Short) _r2_o);
     return _r0.i;
 //XMLVM_END_WRAPPER[java.lang.Short: int compareTo(java.lang.Object)]

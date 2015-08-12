@@ -333,7 +333,6 @@ public virtual global::System.Object newBundle(global::java.lang.String n1, glob
     _r1_o = new global::java.util.ResourceBundle_2Control_21();
     ((global::java.util.ResourceBundle_2Control_21) _r1_o).@this((global::java.util.ResourceBundle_2Control) _r4_o, (global::java.lang.ClassLoader) _r8_o, (global::java.lang.String) _r0_o);
     _r4_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r4_o = _r4_o;
     if (_r4_o != null) goto label34;
     _r0_o = _r3_o;
     label33:;
@@ -341,7 +340,6 @@ public virtual global::System.Object newBundle(global::java.lang.String n1, glob
     label34:;
     try {
     _r4_o = ((global::java.lang.Class) _r4_o).newInstance();
-    _r4_o = _r4_o;
     global::java.util.ResourceBundle.access_20((global::java.util.ResourceBundle) _r4_o, (global::java.util.Locale) _r6_o);
     }
     catch (global::System.Exception e) {
@@ -417,7 +415,6 @@ public virtual global::System.Object newBundle(global::java.lang.String n1, glob
     _r1_o = new global::java.util.ResourceBundle_2Control_22();
     ((global::java.util.ResourceBundle_2Control_22) _r1_o).@this((global::java.util.ResourceBundle_2Control) _r4_o, (global::java.lang.ClassLoader) _r8_o, (global::java.lang.String) _r0_o);
     _r4_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r4_o = _r4_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

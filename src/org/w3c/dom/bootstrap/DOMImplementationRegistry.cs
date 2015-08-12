@@ -61,7 +61,6 @@ public virtual global::System.Object getDOMImplementation(global::java.lang.Stri
     if (_r0.i >= _r3.i) goto label29;
     _r5_o = ((global::org.w3c.dom.bootstrap.DOMImplementationRegistry) _r6_o)._fsources;
     _r4_o = ((global::java.util.Vector) _r5_o).elementAt((int) _r0.i);
-    _r4_o = _r4_o;
     _r1_o = ((global::org.w3c.dom.DOMImplementationSource) _r4_o).getDOMImplementation((global::java.lang.String) _r7_o);
     if (_r1_o == null) goto label26;
     _r5_o = _r1_o;
@@ -100,7 +99,6 @@ public virtual global::System.Object getDOMImplementationList(global::java.lang.
     if (_r0.i >= _r5.i) goto label46;
     _r7_o = ((global::org.w3c.dom.bootstrap.DOMImplementationRegistry) _r8_o)._fsources;
     _r6_o = ((global::java.util.Vector) _r7_o).elementAt((int) _r0.i);
-    _r6_o = _r6_o;
     _r3_o = ((global::org.w3c.dom.DOMImplementationSource) _r6_o).getDOMImplementationList((global::java.lang.String) _r9_o);
     _r4.i = 0;
     label27:;
@@ -349,7 +347,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 // Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$2 <init>
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$2 <init>");
     _r0_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r0_o = _r0_o;
     goto label7;
 //XMLVM_END_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.ClassLoader getContextClassLoader()]
 }
@@ -371,7 +368,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 // Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$3 <init>
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$3 <init>");
     _r1_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r0_o);
-    _r1_o = _r1_o;
     _r0_o = _r1_o;
     goto label10;
 //XMLVM_END_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.lang.String getSystemProperty(java.lang.String)]
@@ -403,7 +399,6 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 // Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$4 <init>
 throw new global::org.xmlvm._nNotYetImplementedException("Red class access removed: org.w3c.dom.bootstrap.DOMImplementationRegistry$4 <init>");
     _r2_o = global::java.security.AccessController.doPrivileged((global::java.security.PrivilegedAction) _r1_o);
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label13;
 //XMLVM_END_WRAPPER[org.w3c.dom.bootstrap.DOMImplementationRegistry: java.io.InputStream getResourceAsStream(java.lang.ClassLoader, java.lang.String)]

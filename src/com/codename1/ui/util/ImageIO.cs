@@ -53,7 +53,6 @@ public virtual void save(global::com.codename1.ui.Image n1, global::java.io.Outp
     _r1.i = ((_r10_o != null) && (_r10_o is global::com.codename1.ui.EncodedImage)) ? 1 : 0;
     if (_r1.i == 0) goto label33;
     _r0_o = _r10_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r2_o = new global::java.io.ByteArrayInputStream();
     _r1_o = ((global::com.codename1.ui.EncodedImage) _r8_o).getImageData();

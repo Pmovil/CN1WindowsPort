@@ -182,7 +182,6 @@ public virtual void run(){
     _r10_o = global::com.codename1.io.NetworkManager.access_2100((global::com.codename1.io.NetworkManager) _r10_o);
     _r11.i = 0;
     _r0_o = ((global::java.util.Vector) _r10_o).elementAt((int) _r11.i);
-    _r0_o = _r0_o;
     ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest = (global::com.codename1.io.ConnectionRequest) _r0_o;
     _r10_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r10_o = global::com.codename1.io.NetworkManager.access_2100((global::com.codename1.io.NetworkManager) _r10_o);
@@ -228,11 +227,9 @@ public virtual void run(){
     _r9.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r9.i == 0) goto label141;
     _r4_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r4_o = _r4_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r9_o = global::com.codename1.io.NetworkManager.access_2300((global::com.codename1.io.NetworkManager) _r9_o);
     _r8_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r4_o);
-    _r8_o = _r8_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest;
     ((global::com.codename1.io.ConnectionRequest) _r9_o).addRequestHeaderDontRepleace((global::java.lang.String) _r4_o, (global::java.lang.String) _r8_o);
     goto label111;
@@ -247,7 +244,6 @@ public virtual void run(){
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r9_o = global::com.codename1.io.NetworkManager.access_2400((global::com.codename1.io.NetworkManager) _r9_o);
     _r7_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r5_o);
-    _r7_o = _r7_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r6_o = global::com.codename1.io.NetworkManager.access_2500((global::com.codename1.io.NetworkManager) _r9_o);
     if (_r6_o != null) goto label184;

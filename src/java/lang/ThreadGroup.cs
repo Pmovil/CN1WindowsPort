@@ -862,7 +862,6 @@ private int enumerateGeneric(global::org.xmlvm._nArrayAdapter<global::System.Obj
     ((global::java.lang.ThreadGroup) _r6_o).checkAccess();
     if (_r10.i == 0) goto label44;
     _r4_o = ((global::java.lang.ThreadGroup) _r6_o)._fchildrenThreads;
-    _r4_o = _r4_o;
     _r2_o = _r4_o;
     label10:;
     if (_r10.i == 0) goto label50;
@@ -892,7 +891,6 @@ private int enumerateGeneric(global::org.xmlvm._nArrayAdapter<global::System.Obj
     if (_r10.i == 0) goto label38;
     try {
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r1.i];
-    _r4_o = _r4_o;
     _r4.i = ((global::java.lang.Thread) _r4_o).isAlive() ? 1 : 0;
     if (_r4.i == 0) goto label22;
     }
@@ -925,7 +923,6 @@ private int enumerateGeneric(global::org.xmlvm._nArrayAdapter<global::System.Obj
     return _r0.i;
     label44:;
     _r4_o = ((global::java.lang.ThreadGroup) _r6_o)._fchildrenGroups;
-    _r4_o = _r4_o;
     _r2_o = _r4_o;
     goto label10;
     label50:;

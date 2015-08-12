@@ -247,12 +247,10 @@ public virtual void setTextField(global::com.codename1.ui.TextArea n1){
     _r1.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r1.i == 0) goto label29;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.TextField) _r1_o).isUseSoftkeys() ? 1 : 0;
     ((global::com.codename1.ui.VirtualKeyboard) _r5_o)._fuseSoftKeys = 0!=_r1.i;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.TextField) _r1_o).setUseSoftkeys(0!=_r4.i);
     label29:;
@@ -379,11 +377,8 @@ public virtual void initModes(){
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label64;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
-    _r1_o = _r1_o;
     _r2_o = global::com.codename1.ui.VirtualKeyboard._fdefaultInputModes;
     _r2_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r1_o);
-    _r2_o = _r2_o;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.VirtualKeyboard) _r4_o).addInputMode((global::java.lang.String) _r1_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
     goto label38;
     label64:;
@@ -463,9 +458,7 @@ private void initInputButtons(bool n1){
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r0_o)._fcurrentMode;
     _r26_o = _r0_o;
     _r4_o = ((global::java.util.Hashtable) _r25_o).get((global::java.lang.Object) _r26_o);
-    _r4_o = _r4_o;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r10_o = _r0_o;
     _r13.i = 1;
     label29:;
@@ -607,7 +600,6 @@ private void initInputButtons(bool n1){
     _r2.i = _r27.i;
     _r26_o = ((global::java.lang.String) _r0_o).substring((int) _r1.i, (int) _r2.i);
     _r9_o = ((global::java.util.Hashtable) _r25_o).get((global::java.lang.Object) _r26_o);
-    _r9_o = _r9_o;
     _r8_o = null;
     _r17.i = 0;
     if (_r9_o == null) goto label355;
@@ -618,7 +610,6 @@ private void initInputButtons(bool n1){
     _r0_o = _r9_o;
     _r1_o = _r25_o;
     _r5_o = ((global::com.codename1.ui.Button) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r5_o = _r5_o;
     _r21.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r25.i = -1;
     _r0.i = _r21.i;
@@ -716,7 +707,6 @@ private void initInputButtons(bool n1){
     _r0_o = _r23_o;
     _r1.i = _r14.i;
     _r22_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r22_o = _r22_o;
     _r0_o = _r22_o;
     _r1.i = _r17.i;
     ((global::com.codename1.ui.Button) _r0_o).setPreferredW((int) _r1.i);
@@ -985,7 +975,6 @@ public override void pointerPressed(int n1, int n2){
     _r1_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r1_o == null) goto label32;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ftxtPainter;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.VirtualKeyboard_2TextPainter) _r1_o).showButtonOnGlasspane((global::com.codename1.ui.Button) _r0_o);
     label32:;
     return;
@@ -1016,7 +1005,6 @@ public override void pointerDragged(int n1, int n2){
     _r1_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r1_o == null) goto label32;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ftxtPainter;
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.VirtualKeyboard_2TextPainter) _r1_o).showButtonOnGlasspane((global::com.codename1.ui.Button) _r0_o);
     label32:;
     return;
@@ -1184,7 +1172,6 @@ private void updateText(global::java.lang.String n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label22;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ffield;
-    _r0_o = _r0_o;
     _r1.i = ((global::java.lang.String) _r3_o).length();
     ((global::com.codename1.ui.TextField) _r0_o).setCursorPosition((int) _r1.i);
     label22:;
@@ -1196,7 +1183,6 @@ private void updateText(global::java.lang.String n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label44;
     _r2_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ffield;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.TextField) _r2_o).fireDoneEvent();
     label44:;
     return;
@@ -1370,7 +1356,6 @@ public override void dispose(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label42;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._ffield;
-    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.VirtualKeyboard) _r2_o)._fuseSoftKeys ? 1 : 0;
     ((global::com.codename1.ui.TextField) _r0_o).setUseSoftkeys(0!=_r1.i);
     label42:;
@@ -1452,7 +1437,6 @@ public static global::System.Object getVirtualKeyboard(global::com.codename1.ui.
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 36))}));
     _r1_o = ((global::com.codename1.ui.TextArea) _r1_o).getClientProperty((global::java.lang.String) _r0_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.VirtualKeyboard) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.VirtualKeyboard: com.codename1.ui.VirtualKeyboard getVirtualKeyboard(com.codename1.ui.TextArea)]
 }
@@ -1468,7 +1452,6 @@ public static bool isCommitOnDispose(global::com.codename1.ui.TextArea n1){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 36))}));
     _r0_o = ((global::com.codename1.ui.TextArea) _r2_o).getClientProperty((global::java.lang.String) _r1_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label18;
     _r1.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
     if (_r1.i == 0) goto label18;
@@ -1511,7 +1494,6 @@ public static int getVKBTint(global::com.codename1.ui.TextArea n1){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 36))}));
     _r1_o = ((global::com.codename1.ui.TextArea) _r3_o).getClientProperty((global::java.lang.String) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o == null) goto label15;
     _r2.i = ((global::java.lang.Integer) _r1_o).intValue();
     label14:;
@@ -1600,11 +1582,9 @@ public virtual void showKeyboard(bool n1){
     _r2_o = ((global::com.codename1.ui.Form) _r1_o).getFocused();
     _r7.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r7.i == 0) goto label26;
-    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Container) _r2_o).getLeadComponent();
     label26:;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r6_o = _r0_o;
     if (_r6_o == null) goto label44;
     _r7_o = ((global::com.codename1.ui.VirtualKeyboard) _r9_o)._fvkb;
@@ -1636,7 +1616,6 @@ public virtual void showKeyboard(bool n1){
     _r7.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r7.i == 0) goto label109;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r8.i = 1;
     ((global::com.codename1.ui.TextField) _r7_o).setQwertyInput(0!=_r8.i);
@@ -1645,7 +1624,6 @@ public virtual void showKeyboard(bool n1){
     ((global::com.codename1.ui.VirtualKeyboard) _r7_o).showDialog();
     _r7.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r7.i == 0) goto label123;
-    _r6_o = _r6_o;
     ((global::com.codename1.ui.TextField) _r6_o).setQwertyInput(0!=_r4.i);
     label123:;
     _r7_o = global::com.codename1.ui.Display.getInstance();
@@ -1676,7 +1654,6 @@ private global::System.Object createVirtualKeyboard(){
     if (_r1_o == null) goto label14;
     _r1_o = global::com.codename1.ui.VirtualKeyboard._fvkbClass;
     _r2_o = ((global::java.lang.Class) _r1_o).newInstance();
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     }
     catch (global::System.Exception e) {

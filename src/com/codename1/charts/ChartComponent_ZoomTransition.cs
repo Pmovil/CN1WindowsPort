@@ -109,7 +109,6 @@ public virtual bool animate(){
     _r0_o = ((global::com.codename1.charts.ChartComponent_2ZoomTransition) _r2_o)._fthis_20;
     _r0_o = global::com.codename1.charts.ChartComponent.access_2100((global::com.codename1.charts.ChartComponent) _r0_o);
     _r0_o = ((global::java.util.Queue) _r0_o).peek();
-    _r0_o = _r0_o;
     ((global::com.codename1.charts.ChartComponent_2ZoomTransition) _r0_o).start();
     label41:;
     ((global::com.codename1.charts.ChartComponent_2ZoomTransition) _r2_o).cleanup();

@@ -335,7 +335,6 @@ public static long parseDate(global::java.lang.String n1){
     _r8.i = _r2.i;
     goto label56;
     label131:;
-    _r2.i = _r2.i;
     _r14.i = _r10.i;
     _r10.i = _r2.i;
     _r2.i = _r3.i;
@@ -367,7 +366,6 @@ public static long parseDate(global::java.lang.String n1){
     if (_r7.i != _r11.i) goto label187;
     _r11.i = -1;
     if (_r3.i != _r11.i) goto label171;
-    _r2.i = _r2.i;
     _r3.i = _r5.i;
     _r5.i = _r10.i;
     _r10.i = _r12.i;
@@ -375,7 +373,6 @@ public static long parseDate(global::java.lang.String n1){
     label171:;
     _r11.i = -1;
     if (_r5.i != _r11.i) goto label181;
-    _r2.i = _r2.i;
     _r5.i = _r10.i;
     _r10.i = _r12.i;
     _r14.i = _r3.i;
@@ -400,7 +397,6 @@ public static long parseDate(global::java.lang.String n1){
     if (_r3.i == _r11.i) goto label216;
     _r11.i = -1;
     if (_r5.i != _r11.i) goto label216;
-    _r2.i = _r2.i;
     _r5.i = _r10.i;
     _r10.i = _r12.i;
     _r14.i = _r3.i;
@@ -412,7 +408,6 @@ public static long parseDate(global::java.lang.String n1){
     if (_r5.i == _r11.i) goto label229;
     _r11.i = -1;
     if (_r10.i != _r11.i) goto label229;
-    _r2.i = _r2.i;
     _r10.i = _r12.i;
     _r14.i = _r5.i;
     _r5.i = _r2.i;
@@ -431,7 +426,6 @@ public static long parseDate(global::java.lang.String n1){
     label238:;
     _r11.i = -1;
     if (_r12.i != _r11.i) goto label248;
-    _r2.i = _r2.i;
     _r14.i = _r10.i;
     _r10.i = _r2.i;
     _r2.i = _r3.i;
@@ -449,7 +443,6 @@ public static long parseDate(global::java.lang.String n1){
     if (_r6.i == _r11.i) goto label271;
     _r11.i = -1;
     if (_r1.i == _r11.i) goto label271;
-    _r2.i = _r2.i;
     _r14.i = _r10.i;
     _r10.i = _r2.i;
     _r2.i = _r3.i;

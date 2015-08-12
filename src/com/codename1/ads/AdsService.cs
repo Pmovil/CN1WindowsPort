@@ -54,7 +54,6 @@ public static global::System.Object createAdsService(){
     try {
     _r2_o = global::com.codename1.ads.AdsService._fservice;
     _r0_o = ((global::java.lang.Class) _r2_o).newInstance();
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

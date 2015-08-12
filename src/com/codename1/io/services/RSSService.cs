@@ -288,14 +288,12 @@ public override void readResponse(global::java.io.InputStream n1){
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r8_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r8_o = _r8_o;
     // Value=description
     _r21_o = new global::java.lang.String();
     ((global::java.lang.String)_r21_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = _r8_o;
     _r1_o = _r21_o;
     _r18_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r18_o = _r18_o;
     if (_r18_o == null) goto label416;
     // Value=details
     _r21_o = new global::java.lang.String();
@@ -341,7 +339,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r25_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r25_o = _r25_o;
     _r21_o = ((global::com.codename1.xml.Element) _r25_o).getText();
     _r0_o = _r7_o;
     _r1_o = _r21_o;

@@ -113,7 +113,6 @@ private void setChildrenFocused(bool n1){
     _r2.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label34;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
-    _r0_o = _r0_o;
     ((global::com.codename1.ui.html.HTMLLink) _r0_o).superSetFocus(0!=_r4.i);
     ((global::com.codename1.ui.html.HTMLLink) _r0_o).repaint();
     goto label15;

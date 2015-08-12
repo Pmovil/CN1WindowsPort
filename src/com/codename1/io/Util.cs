@@ -240,7 +240,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::com.codename1.io.Externalizable)) ? 1 : 0;
     if (_r10.i == 0) goto label37;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r10_o = ((global::com.codename1.io.Externalizable) _r3_o).getObjectId();
     ((global::java.io.DataOutputStream) _r14_o).writeUTF((global::java.lang.String) _r10_o);
@@ -252,7 +251,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.util.Vector)) ? 1 : 0;
     if (_r10.i == 0) goto label70;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=java.util.Vector
     _r10_o = new global::java.lang.String();
@@ -271,7 +269,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.util.Collection)) ? 1 : 0;
     if (_r10.i == 0) goto label108;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=java.util.Collection
     _r10_o = new global::java.lang.String();
@@ -290,7 +287,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r10.i == 0) goto label153;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=java.util.Hashtable
     _r10_o = new global::java.lang.String();
@@ -311,7 +307,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.util.Map)) ? 1 : 0;
     if (_r10.i == 0) goto label202;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=java.util.Map
     _r10_o = new global::java.lang.String();
@@ -333,7 +328,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.String)) ? 1 : 0;
     if (_r10.i == 0) goto label220;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=String
     _r10_o = new global::java.lang.String();
@@ -345,7 +339,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.util.Date)) ? 1 : 0;
     if (_r10.i == 0) goto label242;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=Date
     _r10_o = new global::java.lang.String();
@@ -358,7 +351,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r10.i == 0) goto label264;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=int
     _r10_o = new global::java.lang.String();
@@ -371,7 +363,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Long)) ? 1 : 0;
     if (_r10.i == 0) goto label286;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=long
     _r10_o = new global::java.lang.String();
@@ -384,7 +375,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Byte)) ? 1 : 0;
     if (_r10.i == 0) goto label308;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=byte
     _r10_o = new global::java.lang.String();
@@ -397,7 +387,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Short)) ? 1 : 0;
     if (_r10.i == 0) goto label330;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=short
     _r10_o = new global::java.lang.String();
@@ -410,7 +399,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Float)) ? 1 : 0;
     if (_r10.i == 0) goto label352;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=float
     _r10_o = new global::java.lang.String();
@@ -423,7 +411,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Double)) ? 1 : 0;
     if (_r10.i == 0) goto label374;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=double
     _r10_o = new global::java.lang.String();
@@ -436,7 +423,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     _r10.i = ((_r13_o != null) && (_r13_o is global::java.lang.Boolean)) ? 1 : 0;
     if (_r10.i == 0) goto label396;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=bool
     _r10_o = new global::java.lang.String();
@@ -453,7 +439,6 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
     ((global::java.io.DataOutputStream) _r14_o).writeUTF((global::java.lang.String) _r10_o);
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r10.i = ((global::com.codename1.ui.EncodedImage) _r3_o).getWidth();
     ((global::java.io.DataOutputStream) _r14_o).writeInt((int) _r10.i);
@@ -480,9 +465,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label465:;
     _r10.i = global::com.codename1.io.Util.instanceofObjArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label497;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=ObjectArray
     _r10_o = new global::java.lang.String();
@@ -500,9 +483,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label497:;
     _r10.i = global::com.codename1.io.Util.instanceofByteArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label523;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=ByteArray
     _r10_o = new global::java.lang.String();
@@ -515,9 +496,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label523:;
     _r10.i = global::com.codename1.io.Util.instanceofShortArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label555;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=ShortArray
     _r10_o = new global::java.lang.String();
@@ -535,9 +514,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label555:;
     _r10.i = global::com.codename1.io.Util.instanceofDoubleArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label587;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=DoubleArray
     _r10_o = new global::java.lang.String();
@@ -555,9 +532,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label587:;
     _r10.i = global::com.codename1.io.Util.instanceofFloatArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label619;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=FloatArray
     _r10_o = new global::java.lang.String();
@@ -575,9 +550,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label619:;
     _r10.i = global::com.codename1.io.Util.instanceofIntArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label651;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=IntArray
     _r10_o = new global::java.lang.String();
@@ -595,9 +568,7 @@ public static void writeObject(global::java.lang.Object n1, global::java.io.Data
     label651:;
     _r10.i = global::com.codename1.io.Util.instanceofLongArray((global::java.lang.Object) _r13_o) ? 1 : 0;
     if (_r10.i == 0) goto label683;
-    _r13_o = _r13_o;
     _r0_o = _r13_o;
-    _r0_o = _r0_o;
     _r9_o = _r0_o;
     // Value=LongArray
     _r10_o = new global::java.lang.String();
@@ -1743,10 +1714,8 @@ public static global::System.Object readObject(global::java.io.DataInputStream n
     try {
     _r11_o = global::com.codename1.io.Util._fexternalizables;
     _r0_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r8_o);
-    _r0_o = _r0_o;
     if (_r0_o == null) goto label671;
     _r2_o = ((global::java.lang.Class) _r0_o).newInstance();
-    _r2_o = _r2_o;
     _r11.i = ((global::java.io.DataInputStream) _r15_o).readInt();
     ((global::com.codename1.io.Externalizable) _r2_o).internalize((int) _r11.i, (global::java.io.DataInputStream) _r15_o);
     _r11_o = _r2_o;
@@ -2668,7 +2637,6 @@ public static global::System.Object split(global::java.lang.String n1, global::j
     _r4.i = ((global::java.util.Vector) _r2_o).size();
     if (_r0.i >= _r4.i) goto label60;
     _r5_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i] = _r5_o;
     _r0.i = _r0.i + 1;
     goto label43;

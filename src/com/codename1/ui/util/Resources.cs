@@ -812,7 +812,6 @@ public virtual global::System.Object getResourceNames(){
     _r3.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r3.i) goto label33;
     _r4_o = ((global::java.util.Iterator) _r1_o).next();
-    _r4_o = _r4_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r4_o;
     _r2.i = _r2.i + 1;
     goto label19;
@@ -905,7 +904,6 @@ public virtual global::System.Object getFontResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isFont((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -934,7 +932,6 @@ public virtual global::System.Object getThemeResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isTheme((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -963,7 +960,6 @@ public virtual global::System.Object getImageResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isImage((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -985,7 +981,6 @@ public virtual sbyte getResourceType(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r0_o = _r0_o;
     if (_r0_o != null) goto label12;
     _r1.i = 0;
     label11:;
@@ -1016,10 +1011,8 @@ private global::System.Object getResourceTypeNames(sbyte n1){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label45;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
-    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.util.Resources) _r4_o)._fresourceTypes;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = _r3_o;
     _r3.i = ((global::java.lang.Byte) _r3_o).byteValue();
     if (_r3.i != _r5.i) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -1045,7 +1038,6 @@ private static global::System.Object toStringArray(global::java.util.ArrayList n
     _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r0.i >= _r2.i) goto label21;
     _r2_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
-    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label7;
@@ -1065,7 +1057,6 @@ public virtual bool isL10N(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -7;
     if (_r0.i != _r1.i) goto label17;
@@ -1089,7 +1080,6 @@ public virtual bool isTheme(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -9;
     if (_r0.i == _r1.i) goto label20;
@@ -1116,7 +1106,6 @@ public virtual bool isFont(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -4;
     if (_r0.i == _r1.i) goto label22;
@@ -1145,7 +1134,6 @@ public virtual bool isAnimation(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -8;
     if (_r0.i != _r1.i) goto label17;
@@ -1169,7 +1157,6 @@ public virtual bool isData(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -6;
     if (_r0.i != _r1.i) goto label17;
@@ -1193,7 +1180,6 @@ public virtual bool isUI(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -18;
     if (_r0.i != _r1.i) goto label18;
@@ -1217,7 +1203,6 @@ public virtual bool isImage(global::java.lang.String n1){
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -13;
     if (_r0.i == _r1.i) goto label30;
@@ -1356,7 +1341,6 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = global::com.codename1.ui.util.Resources._fcachedResource;
     _r2_o = ((global::com.codename1.ui.Display) _r3_o).extractHardRef((global::java.lang.Object) _r4_o);
-    _r2_o = _r2_o;
     if (_r2_o == null) goto label27;
     }
     catch (global::System.Exception e) {
@@ -1467,7 +1451,6 @@ public virtual global::System.Object getImage(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o; 
     return (global::com.codename1.ui.Image) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image getImage(java.lang.String)]
 }
@@ -1483,9 +1466,7 @@ public virtual global::System.Object getData(global::java.lang.String n1){
     _r4_o = n1;
     _r2_o = ((global::com.codename1.ui.util.Resources) _r3_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o != null) goto label16;
     _r2_o = null;
@@ -1509,9 +1490,7 @@ public virtual global::System.Object getUi(global::java.lang.String n1){
     _r4_o = n1;
     _r2_o = ((global::com.codename1.ui.util.Resources) _r3_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     _r0_o = _r3_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o != null) goto label16;
     _r2_o = null;
@@ -1535,9 +1514,7 @@ public virtual global::System.Object getL10N(global::java.lang.String n1, global
     _r3_o = n2;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
-    _r1_o = _r1_o;
     return (global::java.util.Hashtable) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable getL10N(java.lang.String, java.lang.String)]
 }
@@ -1551,7 +1528,6 @@ public virtual global::System.Object listL10NLocales(global::java.lang.String n1
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Hashtable) _r1_o).keys();
     return (global::java.util.Enumeration) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Enumeration listL10NLocales(java.lang.String)]
@@ -1566,7 +1542,6 @@ public virtual global::System.Object l10NLocaleSet(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Hashtable) _r1_o).keySet();
     return (global::java.util.Collection) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Collection l10NLocaleSet(java.lang.String)]
@@ -1581,7 +1556,6 @@ public virtual global::System.Object getFont(global::java.lang.String n1){
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.Font) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font getFont(java.lang.String)]
 }
@@ -1620,7 +1594,6 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)70)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r7_o = ((global::com.codename1.ui.util.Resources) _r13_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r7_o).get((global::java.lang.Object) _r14_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label290;
     // Value=uninitialized
     _r7_o = new global::java.lang.String();
@@ -1632,7 +1605,6 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     _r7.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label285;
     _r4_o = ((global::java.util.Enumeration) _r2_o).nextElement();
-    _r4_o = _r4_o;
     // Value=font
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
@@ -1671,7 +1643,6 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     _r7.i = ((global::java.lang.String) _r4_o).endsWith((global::java.lang.String) _r10_o) ? 1 : 0;
     if (_r7.i == 0) goto label154;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.util.Resources) _r13_o).getImage((global::java.lang.String) _r7_o);
     label117:;
@@ -1784,9 +1755,7 @@ private global::System.Object confirmBorder(global::java.util.Hashtable n1, glob
     label8:;
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.plaf.Border)) ? 1 : 0;
     if (_r4.i != 0) goto label51;
-    _r2_o = _r2_o;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     if (_r3_o != null) goto label45;
     _r4_o = new global::java.lang.IllegalArgumentException();
@@ -1805,7 +1774,6 @@ private global::System.Object confirmBorder(global::java.util.Hashtable n1, glob
     _r4_o = _r1_o;
     goto label7;
     label51:;
-    _r2_o = _r2_o;
     _r4_o = _r2_o;
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border confirmBorder(java.util.Hashtable, java.lang.String)]
@@ -3171,7 +3139,6 @@ public virtual global::System.Object loadTheme(global::java.lang.String n1, bool
     _r0_o = _r3_o;
     _r1_o = _r17_o;
     _r4_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
-    _r4_o = _r4_o;
     if (_r4_o != null) goto label785;
     _r0_o = _r31_o;
     _r1_o = _r23_o;

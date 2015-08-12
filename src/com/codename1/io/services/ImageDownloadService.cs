@@ -133,7 +133,6 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     label6:;
     _r2.i = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetOffset;
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
-    _r0_o = _r0_o;
     _r2.i = global::com.codename1.io.services.ImageDownloadService._ffastScale ? 1 : 0;
     if (_r2.i != 0) goto label30;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftoScale;
@@ -146,7 +145,6 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     ((global::java.util.Map) _r0_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r6_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.list.DefaultListModel)) ? 1 : 0;
     if (_r2.i == 0) goto label46;
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetOffset;
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).setItem((int) _r2.i, (global::java.lang.Object) _r0_o);
     label46:;
@@ -156,12 +154,10 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r2.i == 0) goto label62;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetList;
-    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.List) _r2_o).getModel();
     goto label6;
     label62:;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetList;
-    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.list.ContainerList) _r2_o).getModel();
     goto label6;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: void setEntryInListModel(int, com.codename1.ui.Image)]
@@ -1139,7 +1135,6 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
     _r2.i = _r13.i;
     _r13_o = global::com.codename1.io.services.ImageDownloadService.scaleImage((global::com.codename1.ui.Image) _r0_o, (global::com.codename1.ui.geom.Dimension) _r1_o, 0!=_r2.i);
     label69:;
-    _r13_o = _r13_o;
     _r15_o = global::com.codename1.ui.Display.getInstance();
     _r16_o = new global::com.codename1.io.services.ImageDownloadService_24();
     _r0_o = _r16_o;
@@ -1396,7 +1391,6 @@ private static global::System.Object cacheImage(global::java.lang.String n1, boo
     _r6_o = global::com.codename1.components.StorageImage.create((global::java.lang.String) _r11_o, (int) _r7.i, (int) _r4.i, 0!=_r12.i);
     label144:;
     _r0_o = _r6_o;
-    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r8_o = ((global::com.codename1.components.StorageImage) _r8_o).getImageData();
     if (_r8_o != null) goto label94;
@@ -1632,11 +1626,9 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.io.services.ImageDownloadService)) ? 1 : 0;
     if (_r1.i == 0) goto label26;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fcacheId;
     if (_r1_o == null) goto label26;
-    _r4_o = _r4_o;
     _r1_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._fcacheId;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r3_o)._fcacheId;
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;

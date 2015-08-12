@@ -139,14 +139,11 @@ public override global::System.Object clone(){
     _r3_o = this;
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.TreeSet) _r3_o)._fbackingMap;
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.util.TreeMap)) ? 1 : 0;
     if (_r1.i == 0) goto label25;
     _r3_o = ((global::java.util.TreeSet) _r3_o)._fbackingMap;
-    _r3_o = _r3_o;
     _r3_o = ((global::java.util.TreeMap) _r3_o).clone();
-    _r3_o = _r3_o;
     ((global::java.util.TreeSet) _r0_o)._fbackingMap = (global::java.util.NavigableMap) _r3_o;
     }
     catch (global::System.Exception e) {
@@ -437,7 +434,6 @@ public virtual global::System.Object subSet(global::java.lang.Object n1, bool n2
     _r1_o = ((global::java.util.NavigableMap) _r1_o).comparator();
     if (_r1_o != null) goto label30;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::java.lang.Comparable) _r1_o).compareTo((global::java.lang.Object) _r6_o);
     label16:;
@@ -472,7 +468,6 @@ public virtual global::System.Object headSet(global::java.lang.Object n1, bool n
     _r1_o = ((global::java.util.NavigableMap) _r1_o).comparator();
     if (_r1_o != null) goto label27;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::java.lang.Comparable) _r1_o).compareTo((global::java.lang.Object) _r4_o);
     label15:;
@@ -502,7 +497,6 @@ public virtual global::System.Object tailSet(global::java.lang.Object n1, bool n
     _r1_o = ((global::java.util.NavigableMap) _r1_o).comparator();
     if (_r1_o != null) goto label27;
     _r0_o = _r4_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::java.lang.Comparable) _r1_o).compareTo((global::java.lang.Object) _r4_o);
     label15:;
@@ -615,7 +609,6 @@ private void readObject(global::java.io.ObjectInputStream n1){
     ((global::java.io.ObjectInputStream) _r8_o).defaultReadObject();
     _r1_o = new global::java.util.TreeMap();
     _r0_o = ((global::java.io.ObjectInputStream) _r8_o).readObject();
-    _r0_o = _r0_o;
     ((global::java.util.TreeMap) _r1_o).@this((global::java.util.Comparator) _r0_o);
     _r0.i = ((global::java.io.ObjectInputStream) _r8_o).readInt();
     if (_r0.i <= 0) goto label27;

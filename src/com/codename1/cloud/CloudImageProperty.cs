@@ -67,7 +67,6 @@ public virtual global::System.Object propertyValue(global::com.codename1.cloud.C
     _r8_o = n2;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._fidProperty;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r7_o).getObject((global::java.lang.String) _r5_o);
-    _r2_o = _r2_o;
     if (_r2_o != null) goto label13;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._fplaceholderImage;
     label12:;
@@ -75,11 +74,9 @@ public virtual global::System.Object propertyValue(global::com.codename1.cloud.C
     label13:;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o).getCache();
     _r1_o = ((global::com.codename1.io.CacheMap) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r1_o = _r1_o;
     if (_r1_o != null) goto label77;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._finProgress;
     _r3_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label37;
     _r5_o = _r3_o;
     goto label12;

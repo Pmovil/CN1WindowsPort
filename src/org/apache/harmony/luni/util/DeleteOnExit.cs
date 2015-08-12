@@ -59,7 +59,6 @@ public static void deleteOnExit(){
     label12:;
     _r0_o = global::org.apache.harmony.luni.util.DeleteOnExit._fdeleteList;
     _r0_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r0_o = _r0_o;
     _r2_o = new global::java.io.File();
     ((global::java.io.File) _r2_o).@this((global::java.lang.String) _r0_o);
     ((global::java.io.File) _r2_o).delete();

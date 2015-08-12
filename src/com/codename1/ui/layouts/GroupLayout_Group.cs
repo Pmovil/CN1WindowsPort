@@ -51,7 +51,6 @@ public virtual global::System.Object addSpring(global::com.codename1.ui.layouts.
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r3_o).setParent((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o);
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r0.i == 0) goto label20;
-    _r3_o = _r3_o;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r3_o).getUserCreated() ? 1 : 0;
     if (_r0.i != 0) goto label26;
     label20:;
@@ -200,7 +199,6 @@ public virtual global::System.Object getSpring(int n1){
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o)._fsprings;
     _r1_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
-    _r1_o = _r1_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$Group: com.codename1.ui.layouts.GroupLayout$Spring getSpring(int)]
 }
@@ -257,15 +255,12 @@ public virtual void removeAutopadding(){
     if (_r1.i < 0) goto label60;
     _r3_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r5_o)._fsprings;
     _r2_o = ((global::java.util.ArrayList) _r3_o).get((int) _r1.i);
-    _r2_o = _r2_o;
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r3.i == 0) goto label50;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r3_o).getUserCreated() ? 1 : 0;
     if (_r3.i == 0) goto label44;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r2_o).reset();
     label41:;
     _r1.i = _r1.i + -1;
@@ -277,7 +272,6 @@ public virtual void removeAutopadding(){
     label50:;
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r3.i == 0) goto label41;
-    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r2_o).removeAutopadding();
     goto label41;
     label60:;
@@ -303,10 +297,8 @@ public virtual void unsetAutopadding(){
     if (_r0.i < 0) goto label44;
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r4_o)._fsprings;
     _r1_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label34;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r1_o).unset();
     label31:;
     _r0.i = _r0.i + -1;
@@ -314,7 +306,6 @@ public virtual void unsetAutopadding(){
     label34:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r2.i == 0) goto label31;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o).unsetAutopadding();
     goto label31;
     label44:;
@@ -341,11 +332,9 @@ public virtual void calculateAutopadding(int n1){
     if (_r0.i < 0) goto label44;
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r4_o)._fsprings;
     _r1_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label34;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o).unset();
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r1_o).calculatePadding((int) _r5.i);
     label31:;
     _r0.i = _r0.i + -1;
@@ -353,7 +342,6 @@ public virtual void calculateAutopadding(int n1){
     label34:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r2.i == 0) goto label31;
-    _r1_o = _r1_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o).calculateAutopadding((int) _r5.i);
     goto label31;
     label44:;
@@ -381,7 +369,6 @@ public override bool willHaveZeroSize(bool n1){
     if (_r0.i < 0) goto label30;
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r4_o)._fsprings;
     _r1_o = ((global::java.util.ArrayList) _r2_o).get((int) _r0.i);
-    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o).willHaveZeroSize(0!=_r5.i) ? 1 : 0;
     if (_r2.i != 0) goto label27;
     _r2.i = 0;

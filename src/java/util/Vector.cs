@@ -500,10 +500,8 @@ public override global::System.Object clone(){
     global::System.Threading.Monitor.Enter(_r2_o);
     try {
     _r0_o = base.clone();
-    _r0_o = _r0_o;
     _r1_o = ((global::java.util.Vector) _r2_o)._felementData;
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o).clone();
-    _r1_o = _r1_o;
     ((global::java.util.Vector) _r0_o)._felementData = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     }
     catch (global::System.Exception e) {
@@ -801,7 +799,6 @@ public override bool equals(global::java.lang.Object n1){
     try {
     _r0.i = ((_r7_o != null) && (_r7_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label61;
-    _r7_o = _r7_o;
     _r0.i = ((global::java.util.List) _r7_o).size();
     _r1.i = ((global::java.util.Vector) _r6_o)._felementCount;
     if (_r0.i == _r1.i) goto label24;
@@ -2330,7 +2327,6 @@ public override global::System.Object toArray(global::org.xmlvm._nArrayAdapter<g
     _r0_o = ((global::java.lang.Class) _r0_o).getComponentType();
     _r1.i = ((global::java.util.Vector) _r5_o)._felementCount;
     _r0_o = global::java.lang.reflect.Array.newInstance((global::java.lang.Class) _r0_o, (int) _r1.i);
-    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

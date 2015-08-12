@@ -69,14 +69,11 @@ private global::System.Object getString(global::java.util.Hashtable n1, global::
     label8:;
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.Vector)) ? 1 : 0;
     if (_r1.i == 0) goto label23;
-    _r0_o = _r0_o;
     _r1.i = 0;
     _r2_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label7;
     label23:;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.impl.VServAds$1: java.lang.String getString(java.util.Hashtable, java.lang.String)]
@@ -129,14 +126,11 @@ public override void readResponse(global::java.io.InputStream n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r4_o = _r4_o;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r7.i);
-    _r4_o = _r4_o;
     // Value=background-color
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
     _r4_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r6_o);
-    _r4_o = _r4_o;
     _r6.i = 16;
     _r4.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o, (int) _r6.i);
     global::com.codename1.impl.VServAds.access_2002((global::com.codename1.impl.VServAds) _r5_o, (int) _r4.i);
@@ -144,9 +138,7 @@ public override void readResponse(global::java.io.InputStream n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r4_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r4_o = _r4_o;
     _r0_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r7.i);
-    _r0_o = _r0_o;
     _r4_o = ((global::com.codename1.impl.VServAds_21) _r11_o)._fthis_20;
     // Value=notify
     _r5_o = new global::java.lang.String();
@@ -168,21 +160,17 @@ public override void readResponse(global::java.io.InputStream n1){
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97))}));
     _r4_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r8_o);
-    _r4_o = _r4_o;
     global::com.codename1.impl.VServAds.access_2202((global::com.codename1.impl.VServAds) _r5_o, (global::java.lang.String) _r4_o);
     // Value=render
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r4_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
-    _r4_o = _r4_o;
     _r3_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r7.i);
-    _r3_o = _r3_o;
     _r5_o = ((global::com.codename1.impl.VServAds_21) _r11_o)._fthis_20;
     // Value=type
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101))}));
     _r4_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r4_o);
-    _r4_o = _r4_o;
     global::com.codename1.impl.VServAds.access_2302((global::com.codename1.impl.VServAds) _r5_o, (global::java.lang.String) _r4_o);
     _r4_o = ((global::com.codename1.impl.VServAds_21) _r11_o)._fthis_20;
     // Value=notify
@@ -205,7 +193,6 @@ public override void readResponse(global::java.io.InputStream n1){
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97))}));
     _r11_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r8_o);
-    _r11_o = _r11_o;
     global::com.codename1.impl.VServAds.access_2502((global::com.codename1.impl.VServAds) _r4_o, (global::java.lang.String) _r11_o);
     goto label29;
 //XMLVM_END_WRAPPER[com.codename1.impl.VServAds$1: void readResponse(java.io.InputStream)]

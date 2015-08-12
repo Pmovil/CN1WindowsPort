@@ -82,12 +82,10 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     _r1.i = ((_r2_o != null) && (_r2_o is global::gnu.xml.xpath.Function)) ? 1 : 0;
     if (_r1.i == 0) goto label41;
     _r0_o = _r2_o;
-    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::gnu.xml.xpath.FunctionCall) _r6_o)._fargs;
     ((global::gnu.xml.xpath.Function) _r1_o).setArguments((global::java.util.List) _r3_o);
     label41:;
-    _r2_o = _r2_o;
     _r1_o = ((global::gnu.xml.xpath.Expr) _r2_o).evaluate((global::org.w3c.dom.Node) _r7_o, (int) _r8.i, (int) _r9.i);
     label47:;
     return (global::java.lang.Object) _r1_o;
@@ -114,7 +112,6 @@ public override global::System.Object evaluate(global::org.w3c.dom.Node n1, int 
     label62:;
     _r1_o = ((global::gnu.xml.xpath.FunctionCall) _r6_o)._fargs;
     _r1_o = ((global::java.util.List) _r1_o).get((int) _r5.i);
-    _r1_o = _r1_o;
     _r1_o = ((global::gnu.xml.xpath.Expr) _r1_o).evaluate((global::org.w3c.dom.Node) _r7_o, (int) _r8.i, (int) _r9.i);
     ((global::java.util.List) _r4_o).add((global::java.lang.Object) _r1_o);
     _r1.i = _r5.i + 1;
@@ -168,7 +165,6 @@ public override global::System.Object clone(global::java.lang.Object n1){
     _r0_o = ((global::gnu.xml.xpath.FunctionCall) _r4_o)._fresolver;
     _r1.i = ((_r5_o != null) && (_r5_o is global::javax.xml.xpath.XPathFunctionResolver)) ? 1 : 0;
     if (_r1.i == 0) goto label24;
-    _r5_o = _r5_o;
     _r0_o = _r5_o;
     label24:;
     _r1_o = new global::gnu.xml.xpath.FunctionCall();
@@ -178,7 +174,6 @@ public override global::System.Object clone(global::java.lang.Object n1){
     label32:;
     _r0_o = ((global::gnu.xml.xpath.FunctionCall) _r4_o)._fargs;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
-    _r0_o = _r0_o;
     _r0_o = ((global::gnu.xml.xpath.Expr) _r0_o).clone((global::java.lang.Object) _r5_o);
     ((global::java.util.List) _r2_o).add((global::java.lang.Object) _r0_o);
     _r0.i = _r3.i + 1;
@@ -206,7 +201,6 @@ public override bool references(global::javax.xml.@namespace.QName n1){
     return _r0.i!=0;
     label14:;
     _r2_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = _r2_o;
     _r1.i = ((global::gnu.xml.xpath.Expr) _r2_o).references((global::javax.xml.@namespace.QName) _r3_o) ? 1 : 0;
     if (_r1.i == 0) goto label6;
     _r0.i = 1;

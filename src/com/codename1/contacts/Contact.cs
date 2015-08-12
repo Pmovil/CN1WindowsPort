@@ -153,7 +153,6 @@ public virtual global::System.Object getPrimaryEmail(){
     if (_r1.i <= 0) goto label28;
     _r1_o = ((global::java.util.Collection) _r0_o).iterator();
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
-    _r2_o = _r2_o;
     _r1_o = _r2_o;
     label27:;
     return (global::java.lang.String) _r1_o;

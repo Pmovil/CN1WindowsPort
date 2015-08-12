@@ -562,7 +562,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     if (_r6.i != _r7.i) goto label186;
     _r6.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r5_o) ? 1 : 0;
     if (_r6.i == 0) goto label186;
-    _r20_o = _r20_o;
     _r0_o = _r19_o;
     _r1_o = _r20_o;
     _r2_o = _r4_o;
@@ -766,7 +765,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     goto label415;
     label555:;
     _r22_o = ((global::org.w3c.dom.NamedNodeMap) _r4_o).item((int) _r7.i);
-    _r22_o = _r22_o;
     _r0_o = _r19_o;
     _r0.i = ((global::gnu.xml.transform.StreamSerializer) _r0_o)._fdiscardDefaultContent ? 1 : 0;
     _r8.i = _r0.i;
@@ -982,7 +980,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label1172;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = _r4_o;
     label956:;
@@ -996,7 +993,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     _r0_o = _r20_o;
     _r1_o = _r4_o;
     _r4_o = ((global::org.w3c.dom.Node) _r0_o).getUserData((global::java.lang.String) _r1_o);
-    _r4_o = _r4_o;
     label975:;
     if (_r4_o != null) goto label979;
     // Value=1.0
@@ -1137,7 +1133,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     _r0_o = _r20_o;
     _r1_o = _r4_o;
     _r4_o = ((global::org.w3c.dom.Node) _r0_o).getUserData((global::java.lang.String) _r1_o);
-    _r4_o = _r4_o;
     if (_r4_o != null) goto label1202;
     // Value=text/html
     _r4_o = new global::java.lang.String();
@@ -1179,7 +1174,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label1377;
     _r0_o = _r20_o;
-    _r0_o = _r0_o;
     _r4_o = _r0_o;
     label1277:;
     _r6_o = null;
@@ -1333,7 +1327,6 @@ private void doSerialize(global::org.w3c.dom.Node n1, global::java.io.OutputStre
     ((global::org.w3c.dom.Node) _r6_o).insertBefore((global::org.w3c.dom.Node) _r8_o, (global::org.w3c.dom.Node) _r9_o);
     goto label1326;
     label1520:;
-    _r20_o = _r20_o;
     _r4.i = 60;
     _r0_o = _r21_o;
     _r1.i = _r4.i;
@@ -1595,9 +1588,7 @@ public virtual bool isDefined(global::java.lang.String n1, global::java.lang.Str
     goto label14;
     label48:;
     _r3_o = ((global::java.util.Iterator) _r1_o).next();
-    _r3_o = _r3_o;
     _r3_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r4_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label40;
     _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r2.i == 0) goto label40;
@@ -1644,7 +1635,6 @@ public virtual global::System.Object define(global::java.lang.String n1, global:
     label10:;
     _r0_o = ((global::gnu.xml.transform.StreamSerializer) _r2_o)._fnamespaces;
     _r2_o = ((global::java.util.LinkedList) _r0_o).getFirst();
-    _r2_o = _r2_o;
     _r0_o = _r4_o;
     label19:;
     _r1.i = ((global::java.util.HashMap) _r2_o).containsValue((global::java.lang.Object) _r0_o) ? 1 : 0;
@@ -1994,7 +1984,6 @@ public virtual bool isHTMLBoolean(global::org.w3c.dom.Attr n1, global::java.lang
     _r1_o = ((global::java.lang.String) _r1_o).toLowerCase();
     _r2_o = global::gnu.xml.transform.StreamSerializer._fHTML_1BOOLEAN_1ATTRIBUTES;
     _r3_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r1_o);
-    _r3_o = _r3_o;
     if (_r3_o == null) goto label40;
     _r0.i = ((global::java.util.Collection) _r3_o).contains((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label40;

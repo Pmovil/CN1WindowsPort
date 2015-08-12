@@ -143,7 +143,6 @@ private global::System.Object nextAP(){
     _r4_o = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._faps;
     _r5.i = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP;
     _r2_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r5.i);
-    _r2_o = _r2_o;
     _r4.i = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP;
     _r4.i = _r4.i + 1;
     ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP = _r4.i;
