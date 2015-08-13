@@ -30,7 +30,7 @@ private static global::java.util.ResourceBundle _fMISSINGBASE;
 
 private static global::java.util.WeakHashMap _fcache;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.ResourceBundle_2MissingBundle();
@@ -46,7 +46,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.ResourceBundle: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;

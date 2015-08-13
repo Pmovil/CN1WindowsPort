@@ -158,7 +158,7 @@ public static global::org.xmlvm._nArrayAdapter<char> _fendDelimCDATA;
 
 private bool _fisDirtyCurrentElement;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -203,7 +203,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 //XMLVM_END_WRAPPER[gnu.xml.aelfred2.XmlParser: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

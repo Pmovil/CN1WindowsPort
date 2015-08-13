@@ -452,7 +452,7 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[com.codename1.maps.Tile: java.lang.String toString()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

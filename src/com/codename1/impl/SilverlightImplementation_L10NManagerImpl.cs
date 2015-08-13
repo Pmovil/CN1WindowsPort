@@ -5,7 +5,7 @@ using System;
 using System.Globalization;
 namespace com.codename1.impl {
 public class SilverlightImplementation_2L10NManagerImpl: global::com.codename1.l10n.L10NManager {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.SilverlightImplementation$L10NManagerImpl: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

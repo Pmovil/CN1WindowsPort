@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.processing {
 public class JSONContent: global::com.codename1.processing.MapContent {
-public void @this(global::java.util.Map n1){
+new public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.util.Map)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -14,7 +14,7 @@ public void @this(global::java.util.Map n1){
 //XMLVM_END_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.util.Map)]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -43,7 +43,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.io.InputStream)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -61,7 +61,7 @@ public void @this(global::java.io.InputStream n1){
 //XMLVM_END_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.io.InputStream)]
 }
 
-public void @this(global::java.io.Reader n1){
+new public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.JSONContent: void <init>(java.io.Reader)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

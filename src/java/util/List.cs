@@ -9,29 +9,29 @@ public abstract class _iList {
 public interface List: global::java.util.Collection {
  void add(int n1, global::java.lang.Object n2);
 
- bool add(global::java.lang.Object n1);
+new  bool add(global::java.lang.Object n1);
 
  bool addAll(int n1, global::java.util.Collection n2);
 
- bool addAll(global::java.util.Collection n1);
+new  bool addAll(global::java.util.Collection n1);
 
- void clear();
+new  void clear();
 
- bool contains(global::java.lang.Object n1);
+new  bool contains(global::java.lang.Object n1);
 
- bool containsAll(global::java.util.Collection n1);
+new  bool containsAll(global::java.util.Collection n1);
 
- bool equals(global::java.lang.Object n1);
+new  bool equals(global::java.lang.Object n1);
 
  global::System.Object get(int n1);
 
- int hashCode();
+new  int hashCode();
 
  int indexOf(global::java.lang.Object n1);
 
- bool isEmpty();
+new  bool isEmpty();
 
- global::System.Object iterator();
+new  global::System.Object iterator();
 
  int lastIndexOf(global::java.lang.Object n1);
 
@@ -41,21 +41,21 @@ public interface List: global::java.util.Collection {
 
  global::System.Object remove(int n1);
 
- bool remove(global::java.lang.Object n1);
+new  bool remove(global::java.lang.Object n1);
 
- bool removeAll(global::java.util.Collection n1);
+new  bool removeAll(global::java.util.Collection n1);
 
- bool retainAll(global::java.util.Collection n1);
+new  bool retainAll(global::java.util.Collection n1);
 
  global::System.Object set(int n1, global::java.lang.Object n2);
 
- int size();
+new  int size();
 
  global::System.Object subList(int n1, int n2);
 
- global::System.Object toArray();
+new  global::System.Object toArray();
 
- global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1);
+new  global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1);
 
 //XMLVM_BEGIN_WRAPPER[java.util.List]
 //XMLVM_END_WRAPPER[java.util.List]

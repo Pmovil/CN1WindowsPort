@@ -12,7 +12,7 @@ public global::com.codename1.ui.html.HTMLComponent _fhtmlC;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fEMPTY_1TAGS;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -264,7 +264,7 @@ public override bool shouldEvaluate(global::com.codename1.xml.Element n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLParser: boolean shouldEvaluate(com.codename1.xml.Element)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

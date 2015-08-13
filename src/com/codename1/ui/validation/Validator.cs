@@ -35,7 +35,7 @@ private global::java.util.ArrayList _fsubmitButtons;
 
 private static bool _fvalidateOnEveryKey;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -637,7 +637,7 @@ public static global::System.Object access_2300(global::com.codename1.ui.validat
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$300(com.codename1.ui.validation.Validator)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

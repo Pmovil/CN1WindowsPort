@@ -20,7 +20,7 @@ private static double _finvLogOfTenBaseTwo;
 
 private static global::org.xmlvm._nArrayAdapter<long> _fTEN_1TO_1THE;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.NumberConverter: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -66,7 +66,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.NumberConverter: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.NumberConverter: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

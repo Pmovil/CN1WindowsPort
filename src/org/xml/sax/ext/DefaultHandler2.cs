@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.xml.sax.ext {
 public class DefaultHandler2: global::org.xml.sax.helpers.DefaultHandler,global::org.xml.sax.ext.LexicalHandler,global::org.xml.sax.ext.DeclHandler,global::org.xml.sax.ext.EntityResolver2 {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.DefaultHandler2: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

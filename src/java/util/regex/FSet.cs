@@ -14,7 +14,7 @@ public bool _fisBackReferenced;
 
 private int _fgroupIndex;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.FSet: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.regex.FSet_2PossessiveFSet();

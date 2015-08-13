@@ -9,7 +9,7 @@ private global::java.util.SortedMap _fkeyTable;
 
 private global::java.lang.String _fstatusLine;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.Header: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

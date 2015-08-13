@@ -63,7 +63,7 @@ private global::java.lang.String _ftabUIID;
 
 private bool _fanimateTabSelection;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

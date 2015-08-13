@@ -5,7 +5,7 @@ namespace gnu.xml.stream {
 public class XMLParser_2MixedContentModel: global::gnu.xml.stream.XMLParser_2ContentModel {
 private global::java.util.HashSet _fnames;
 
-public global::gnu.xml.stream.XMLParser _fthis_20;
+new public global::gnu.xml.stream.XMLParser _fthis_20;
 
 public void @this(global::gnu.xml.stream.XMLParser n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$MixedContentModel: void <init>(gnu.xml.stream.XMLParser)]

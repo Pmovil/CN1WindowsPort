@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui.html {
 public abstract class HTMLListItem: global::com.codename1.ui.Label {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLListItem: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -10,7 +10,7 @@ static NumberFormat() {
 
 public static global::com.codename1.charts.util.NumberFormat _finstance;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -82,7 +82,7 @@ public virtual double parseDouble(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.NumberFormat: double parseDouble(java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.NumberFormat: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::com.codename1.charts.util.NumberFormat();

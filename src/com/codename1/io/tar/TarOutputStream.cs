@@ -9,7 +9,7 @@ private long _fcurrentFileSize;
 
 private global::com.codename1.io.tar.TarEntry _fcurrentEntry;
 
-public void @this(global::java.io.OutputStream n1){
+new public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarOutputStream: void <init>(java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;

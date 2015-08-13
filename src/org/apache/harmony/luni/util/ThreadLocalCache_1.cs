@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.apache.harmony.luni.util {
 public class ThreadLocalCache_21: global::org.apache.harmony.luni.util.ThreadLocalCache {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache$1: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

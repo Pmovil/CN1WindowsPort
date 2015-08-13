@@ -66,7 +66,7 @@ private bool _fserverAuthority;
 
 private int _fhash;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URI: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

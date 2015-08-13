@@ -5,9 +5,9 @@ namespace com.codename1.ui.layouts {
 public class GroupLayout_2ContainerAutopaddingSpring: global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring {
 private global::java.util.ArrayList _ftargets;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
-public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
+new public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -24,7 +24,7 @@ public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout)]
 }
 
-public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n3){
+new public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

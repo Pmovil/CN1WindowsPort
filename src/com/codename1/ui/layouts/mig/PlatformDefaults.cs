@@ -131,7 +131,7 @@ public static int getCurrentPlatform(){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: int getCurrentPlatform()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1611,7 +1611,7 @@ public static void setDefaultRowAlignmentBaseline(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void setDefaultRowAlignmentBaseline(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.PlatformDefaults: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

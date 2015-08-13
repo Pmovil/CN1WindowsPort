@@ -73,7 +73,7 @@ public static sbyte _fZ_1ASCII = 1;
 
 public static sbyte _fZ_1UNKNOWN = 2;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -120,7 +120,7 @@ public static long crc32_1combine(long n1, long n2, long n3){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.JZlib: long crc32_combine(long, long, long)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.JZlib: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::com.codename1.io.gzip.JZlib_2NONE();

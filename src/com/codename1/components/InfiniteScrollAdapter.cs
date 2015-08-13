@@ -13,7 +13,7 @@ private int _fcomponentLimit;
 
 private global::com.codename1.ui.Component _fendMarker;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteScrollAdapter: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -47,7 +47,7 @@ public global::java.lang.String _fxmlEncoding;
 
 public global::java.lang.String _fbaseURI;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

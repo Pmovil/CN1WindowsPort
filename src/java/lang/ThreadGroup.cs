@@ -25,7 +25,7 @@ private bool _fisDaemon;
 
 private bool _fisDestroyed;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ThreadGroup: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

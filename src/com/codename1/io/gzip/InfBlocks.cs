@@ -2139,7 +2139,7 @@ public virtual int inflate_1flush(int n1){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfBlocks: int inflate_flush(int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.InfBlocks: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

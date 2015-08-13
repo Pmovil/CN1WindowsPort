@@ -13,7 +13,7 @@ private global::com.codename1.ui.util.WeakHashMap _fcache;
 
 private int _ftintColor;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

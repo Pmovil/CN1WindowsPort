@@ -21,7 +21,7 @@ private global::java.util.Vector _fvec;
 
 private global::com.codename1.ui.Component _finternal;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.GlassTutorial: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

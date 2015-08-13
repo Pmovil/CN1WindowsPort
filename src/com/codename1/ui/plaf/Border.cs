@@ -72,7 +72,7 @@ private bool _fpaintOuterBorderFirst;
 
 private static global::com.codename1.ui.plaf.Border _fempty;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -4720,7 +4720,7 @@ public virtual global::System.Object getProperty(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Border: java.lang.Object getProperty(java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Border: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

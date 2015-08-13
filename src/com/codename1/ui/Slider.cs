@@ -41,7 +41,7 @@ private global::com.codename1.ui.Image _fthumbImage;
 
 private global::java.lang.String _ffullUIID;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -61,7 +61,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Slider: void <init>()]
 }
 
-private void @this(global::java.lang.String n1, global::java.lang.String n2){
+new private void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void <init>(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

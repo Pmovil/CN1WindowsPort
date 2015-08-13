@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.nio.charset {
 public class Charset_24: global::java.lang.Object,global::java.security.PrivilegedAction {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$4: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

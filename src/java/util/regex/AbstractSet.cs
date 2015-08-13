@@ -26,7 +26,7 @@ public global::java.lang.String _findex;
 
 private int _ftype;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractSet: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;
@@ -35,7 +35,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.regex.AbstractSet: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractSet: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

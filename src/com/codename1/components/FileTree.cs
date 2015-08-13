@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.components {
 public class FileTree: global::com.codename1.ui.tree.Tree {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileTree: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

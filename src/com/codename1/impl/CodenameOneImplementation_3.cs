@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.impl {
 public class CodenameOneImplementation_23: global::com.codename1.io.ConnectionRequest {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneImplementation$3: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

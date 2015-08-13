@@ -22,7 +22,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_END_WRAPPER[java.nio.DoubleArrayBuffer: void <init>(double[])]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.DoubleArrayBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

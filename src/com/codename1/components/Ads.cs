@@ -91,7 +91,7 @@ public static int _fERROR_1CSS_1NOT_1FOUND = com.codename1.ui.html._iCSSParserCa
 
 public static int _fERROR_1CSS_1NO_1BASE_1URL = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NO_1BASE_1URL;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

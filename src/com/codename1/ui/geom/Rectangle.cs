@@ -11,7 +11,7 @@ private global::com.codename1.ui.geom.Dimension _fsize;
 
 private global::com.codename1.ui.geom.GeneralPath _fpath;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

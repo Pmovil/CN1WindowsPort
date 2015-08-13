@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.lang {
 public class StringBuilder: global::java.lang.AbstractStringBuilder,global::java.lang.Appendable,global::java.lang.CharSequence,global::java.io.Serializable {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuilder: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -13,7 +13,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[java.lang.StringBuilder: void <init>()]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuilder: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -37,7 +37,7 @@ public void @this(global::java.lang.CharSequence n1){
 //XMLVM_END_WRAPPER[java.lang.StringBuilder: void <init>(java.lang.CharSequence)]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuilder: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace com.codename1.testing {
 public abstract class DeviceRunner: global::java.lang.Object {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.DeviceRunner: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

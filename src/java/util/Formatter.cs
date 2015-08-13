@@ -11,7 +11,7 @@ private bool _fclosed;
 
 private global::java.io.IOException _flastIOException;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

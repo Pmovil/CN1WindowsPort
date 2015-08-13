@@ -247,7 +247,7 @@ public static bool access_2402(global::com.codename1.components.StorageImageAsyn
 //XMLVM_END_WRAPPER[com.codename1.components.StorageImageAsync: boolean access$402(com.codename1.components.StorageImageAsync, boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImageAsync: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.lang.Object();

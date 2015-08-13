@@ -5,7 +5,7 @@ namespace org.apache.harmony.luni.@internal.net.www.protocol.http {
 public class HttpConnectionManager_2ConnectionPool: global::java.lang.Object {
 private global::java.util.Map _ffreeConnectionMap;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionManager$ConnectionPool: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -21,7 +21,7 @@ public static double _fPI = 3.141592653589793D;
 
 private static global::java.util.Random _frandom;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Math: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -26,7 +26,7 @@ private static bool _fautoStored;
 
 public static global::java.lang.String _fSTORAGE_1NAME;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -346,7 +346,7 @@ public static void clearCookiesFromStorage(){
 //XMLVM_END_WRAPPER[com.codename1.io.Cookie: void clearCookiesFromStorage()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -822,7 +822,7 @@ private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_END_WRAPPER[java.net.SocketPermission: void readObject(java.io.ObjectInputStream)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketPermission: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

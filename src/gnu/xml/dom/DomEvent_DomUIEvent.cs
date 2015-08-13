@@ -7,13 +7,13 @@ private global::java.lang.Object _fview;
 
 private int _fdetail;
 
-public static short _fCAPTURING_1PHASE = org.w3c.dom.events._iEvent._fCAPTURING_1PHASE;
+new public static short _fCAPTURING_1PHASE = org.w3c.dom.events._iEvent._fCAPTURING_1PHASE;
 
-public static short _fAT_1TARGET = org.w3c.dom.events._iEvent._fAT_1TARGET;
+new public static short _fAT_1TARGET = org.w3c.dom.events._iEvent._fAT_1TARGET;
 
-public static short _fBUBBLING_1PHASE = org.w3c.dom.events._iEvent._fBUBBLING_1PHASE;
+new public static short _fBUBBLING_1PHASE = org.w3c.dom.events._iEvent._fBUBBLING_1PHASE;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomEvent$DomUIEvent: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

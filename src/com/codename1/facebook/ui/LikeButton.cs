@@ -13,7 +13,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fpermissions;
 
 private global::java.lang.String _fpostId;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -42,7 +42,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.facebook.ui.LikeButton: void <init>(java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.ui.LikeButton: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

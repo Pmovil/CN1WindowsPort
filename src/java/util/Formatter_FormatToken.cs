@@ -44,7 +44,7 @@ private char _fdateSuffix;
 
 private char _fconversionType;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Formatter$FormatToken: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -144,7 +144,7 @@ public static void setClassLoader(global::java.lang.Class n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: void setClassLoader(java.lang.Class)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -4103,7 +4103,7 @@ public static global::System.Object getSystemResource(){
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources getSystemResource()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

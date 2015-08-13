@@ -18,7 +18,7 @@ public static global::org.apache.harmony.luni.util.ThreadLocalCache _fbyteBuffer
 
 public static global::org.apache.harmony.luni.util.ThreadLocalCache _fcharBuffer;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::org.apache.harmony.luni.util.ThreadLocalCache_21();
@@ -37,7 +37,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.ThreadLocalCache: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

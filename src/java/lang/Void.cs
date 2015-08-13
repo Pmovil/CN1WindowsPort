@@ -15,7 +15,7 @@ private static void initVoid(){
 //XMLVM_END_WRAPPER[java.lang.Void: void initVoid()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Void: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -24,7 +24,7 @@ private void @this(){
 //XMLVM_END_WRAPPER[java.lang.Void: void <init>()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Void: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = null;

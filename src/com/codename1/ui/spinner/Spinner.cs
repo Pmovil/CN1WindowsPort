@@ -1447,7 +1447,7 @@ public override void repaint(){
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void repaint()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 2000;

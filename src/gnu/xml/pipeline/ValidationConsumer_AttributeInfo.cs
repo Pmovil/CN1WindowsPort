@@ -9,7 +9,7 @@ public global::java.lang.String _fmode;
 
 public global::java.lang.String _fvalue;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$AttributeInfo: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

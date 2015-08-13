@@ -15,7 +15,7 @@ public static global::java.lang.String _fTYPE;
 
 
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -24,7 +24,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>()]
 }
 
-public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
+new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

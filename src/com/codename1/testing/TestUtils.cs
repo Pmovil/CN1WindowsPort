@@ -5,7 +5,7 @@ namespace com.codename1.testing {
 public class TestUtils: global::java.lang.Object {
 private static bool _fverbose;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

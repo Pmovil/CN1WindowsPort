@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.lang.reflect {
 public class Array: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Array: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -27,7 +27,7 @@ public static global::System.Object copy(global::java.nio.ShortArrayBuffer n1, i
 //XMLVM_END_WRAPPER[java.nio.ReadWriteShortArrayBuffer: java.nio.ReadWriteShortArrayBuffer copy(java.nio.ShortArrayBuffer, int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<short> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<short> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteShortArrayBuffer: void <init>(short[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -38,7 +38,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<short> n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteShortArrayBuffer: void <init>(short[])]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteShortArrayBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -49,7 +49,7 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteShortArrayBuffer: void <init>(int)]
 }
 
-public void @this(int n1, global::org.xmlvm._nArrayAdapter<short> n2, int n3){
+new public void @this(int n1, global::org.xmlvm._nArrayAdapter<short> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteShortArrayBuffer: void <init>(int, short[], int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

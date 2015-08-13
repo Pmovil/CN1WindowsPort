@@ -18,7 +18,7 @@ public long _fdescriptor;
 
 public bool _freadOnly;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -51,7 +51,7 @@ private static void oneTimeInitialization(){
 //XMLVM_END_WRAPPER[java.io.FileDescriptor: void oneTimeInitialization()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileDescriptor: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;

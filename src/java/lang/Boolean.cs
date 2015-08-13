@@ -17,7 +17,7 @@ public static global::java.lang.Boolean _fTRUE;
 
 public static global::java.lang.Boolean _fFALSE;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Boolean: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

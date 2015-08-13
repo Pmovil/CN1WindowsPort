@@ -7,7 +7,7 @@ private double _fwidth;
 
 private double _fheight;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Dimension2D: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -25,25 +25,25 @@ public interface MutationEvent: global::org.w3c.dom.events.Event {
 
  void initMutationEvent(global::java.lang.String n1, bool n2, bool n3, global::org.w3c.dom.Node n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, short n8);
 
- bool getBubbles();
+new  bool getBubbles();
 
- bool getCancelable();
+new  bool getCancelable();
 
- global::System.Object getCurrentTarget();
+new  global::System.Object getCurrentTarget();
 
- short getEventPhase();
+new  short getEventPhase();
 
- global::System.Object getTarget();
+new  global::System.Object getTarget();
 
- long getTimeStamp();
+new  long getTimeStamp();
 
- global::System.Object getType();
+new  global::System.Object getType();
 
- void initEvent(global::java.lang.String n1, bool n2, bool n3);
+new  void initEvent(global::java.lang.String n1, bool n2, bool n3);
 
- void preventDefault();
+new  void preventDefault();
 
- void stopPropagation();
+new  void stopPropagation();
 
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.events.MutationEvent]
 //XMLVM_END_WRAPPER[org.w3c.dom.events.MutationEvent]

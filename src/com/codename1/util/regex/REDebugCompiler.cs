@@ -10,7 +10,7 @@ static REDebugCompiler() {
 
 public static global::java.util.HashMap _fhashOpcode;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REDebugCompiler: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -255,7 +255,7 @@ public virtual void dumpProgram(){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.REDebugCompiler: void dumpProgram()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REDebugCompiler: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.dom {
 public class DomNode_2DomEventException: global::org.w3c.dom.events.EventException {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomNode$DomEventException: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

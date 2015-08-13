@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.xmlvm.runtime {
 public class RedTypeMarker: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.RedTypeMarker: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

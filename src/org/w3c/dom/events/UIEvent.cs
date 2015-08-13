@@ -13,25 +13,25 @@ public interface UIEvent: global::org.w3c.dom.events.Event {
 
  void initUIEvent(global::java.lang.String n1, bool n2, bool n3, global::org.xmlvm.runtime.RedTypeMarker n4, int n5);
 
- bool getBubbles();
+new  bool getBubbles();
 
- bool getCancelable();
+new  bool getCancelable();
 
- global::System.Object getCurrentTarget();
+new  global::System.Object getCurrentTarget();
 
- short getEventPhase();
+new  short getEventPhase();
 
- global::System.Object getTarget();
+new  global::System.Object getTarget();
 
- long getTimeStamp();
+new  long getTimeStamp();
 
- global::System.Object getType();
+new  global::System.Object getType();
 
- void initEvent(global::java.lang.String n1, bool n2, bool n3);
+new  void initEvent(global::java.lang.String n1, bool n2, bool n3);
 
- void preventDefault();
+new  void preventDefault();
 
- void stopPropagation();
+new  void stopPropagation();
 
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.events.UIEvent]
 //XMLVM_END_WRAPPER[org.w3c.dom.events.UIEvent]

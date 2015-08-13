@@ -41,7 +41,7 @@ private global::java.util.Vector _fstorageQueue;
 
 private global::java.util.Vector _fpendingRefreshes;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -2264,7 +2264,7 @@ public static global::System.Object access_2100(global::com.codename1.cloud.Clou
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.util.Vector access$100(com.codename1.cloud.CloudStorage)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

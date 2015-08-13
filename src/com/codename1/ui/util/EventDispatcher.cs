@@ -28,7 +28,7 @@ public bool _fscrollListenerArray;
 
 private static bool _ffireStyleEventsOnNonEDT;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -1404,7 +1404,7 @@ public static void access_2600(global::com.codename1.ui.util.EventDispatcher n1,
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$600(com.codename1.ui.util.EventDispatcher, com.codename1.cloud.BindTarget[], com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

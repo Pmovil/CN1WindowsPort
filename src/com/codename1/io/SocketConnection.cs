@@ -5,7 +5,7 @@ namespace com.codename1.io {
 public abstract class SocketConnection: global::java.lang.Object {
 private bool _fconnected;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.SocketConnection: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

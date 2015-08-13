@@ -19,7 +19,7 @@ private global::java.lang.Object _fschema;
 
 private bool _fxIncludeAware;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.DocumentBuilderFactory: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

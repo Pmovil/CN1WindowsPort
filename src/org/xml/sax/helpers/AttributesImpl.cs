@@ -7,7 +7,7 @@ public int _flength;
 
 public global::org.xmlvm._nArrayAdapter<global::System.Object> _fdata;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.AttributesImpl: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -67,7 +67,7 @@ private int _fprecision;
 
 private static global::org.xmlvm._nArrayAdapter<int> _f_2SWITCH_1TABLE_2java_2math_2RoundingMode;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigDecimal: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

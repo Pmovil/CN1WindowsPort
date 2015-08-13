@@ -3,9 +3,9 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class UCIBackReferenceSet: global::java.util.regex.CIBackReferenceSet {
-public int _fgroupIndex;
+new public int _fgroupIndex;
 
-public void @this(int n1, int n2){
+new public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCIBackReferenceSet: void <init>(int, int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

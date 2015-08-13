@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.pipeline {
 public class ValidationConsumer_2EmptyRecognizer: global::gnu.xml.pipeline.ValidationConsumer_2Recognizer {
-public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
+new public void @this(global::gnu.xml.pipeline.ValidationConsumer_2ElementInfo n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer$EmptyRecognizer: void <init>(gnu.xml.pipeline.ValidationConsumer$ElementInfo)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

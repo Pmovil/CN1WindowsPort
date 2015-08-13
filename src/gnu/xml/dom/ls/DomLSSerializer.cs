@@ -13,7 +13,7 @@ private static global::java.util.List _fSUPPORTED_1PARAMETERS;
 private global::org.w3c.dom.ls.LSSerializerFilter _ffilter;
 
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -37,7 +37,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSSerializer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Collections_2UnmodifiableRandomAccessList: global::java.util.Collections_2UnmodifiableList,global::java.util.RandomAccess {
 
-public void @this(global::java.util.List n1){
+new public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableRandomAccessList: void <init>(java.util.List)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

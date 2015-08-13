@@ -16,7 +16,7 @@ public static int _fROOT_1TYPE_1SDCARD = 2;
 
 public static int _fROOT_1TYPE_1UNKNOWN = 3;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -356,7 +356,7 @@ public virtual global::System.Object getAppHomePath(){
 //XMLVM_END_WRAPPER[com.codename1.io.FileSystemStorage: java.lang.String getAppHomePath()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.FileSystemStorage: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::com.codename1.io.FileSystemStorage();

@@ -55,7 +55,7 @@ private bool _fisSimple;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fserialPersistentFields;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.SimpleTimeZone: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

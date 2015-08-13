@@ -31,7 +31,7 @@ private static global::java.nio.charset.Charset _fDefaultCharset;
 
 private static global::java.nio.charset.Charset _flastCharset;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -3216,7 +3216,7 @@ public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[java.lang.String: int compareTo(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

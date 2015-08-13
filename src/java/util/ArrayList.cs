@@ -17,7 +17,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _farray;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fserialPersistentFields;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ArrayList: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -40,7 +40,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.ArrayList: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ArrayList: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

@@ -11,7 +11,7 @@ private long _fseed;
 
 private double _fnextNextGaussian;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Random: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r2;

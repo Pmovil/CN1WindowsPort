@@ -5,71 +5,71 @@ namespace com.codename1.components {
 public class WebBrowser_25: global::com.codename1.ui.html.DefaultHTMLCallback {
 public global::com.codename1.components.WebBrowser _fthis_20;
 
-public static int _fERROR_1TAG_1NOT_1SUPPORTED = com.codename1.xml._iParserCallback._fERROR_1TAG_1NOT_1SUPPORTED;
+new public static int _fERROR_1TAG_1NOT_1SUPPORTED = com.codename1.xml._iParserCallback._fERROR_1TAG_1NOT_1SUPPORTED;
 
-public static int _fERROR_1ATTRIBUTE_1NOT_1SUPPORTED = com.codename1.xml._iParserCallback._fERROR_1ATTRIBUTE_1NOT_1SUPPORTED;
+new public static int _fERROR_1ATTRIBUTE_1NOT_1SUPPORTED = com.codename1.xml._iParserCallback._fERROR_1ATTRIBUTE_1NOT_1SUPPORTED;
 
-public static int _fERROR_1ATTIBUTE_1VALUE_1INVALID = com.codename1.xml._iParserCallback._fERROR_1ATTIBUTE_1VALUE_1INVALID;
+new public static int _fERROR_1ATTIBUTE_1VALUE_1INVALID = com.codename1.xml._iParserCallback._fERROR_1ATTIBUTE_1VALUE_1INVALID;
 
-public static int _fERROR_1NO_1CLOSE_1TAG = com.codename1.xml._iParserCallback._fERROR_1NO_1CLOSE_1TAG;
+new public static int _fERROR_1NO_1CLOSE_1TAG = com.codename1.xml._iParserCallback._fERROR_1NO_1CLOSE_1TAG;
 
-public static int _fERROR_1UNRECOGNIZED_1CHAR_1ENTITY = com.codename1.xml._iParserCallback._fERROR_1UNRECOGNIZED_1CHAR_1ENTITY;
+new public static int _fERROR_1UNRECOGNIZED_1CHAR_1ENTITY = com.codename1.xml._iParserCallback._fERROR_1UNRECOGNIZED_1CHAR_1ENTITY;
 
-public static int _fERROR_1UNEXPECTED_1TAG_1CLOSING = com.codename1.xml._iParserCallback._fERROR_1UNEXPECTED_1TAG_1CLOSING;
+new public static int _fERROR_1UNEXPECTED_1TAG_1CLOSING = com.codename1.xml._iParserCallback._fERROR_1UNEXPECTED_1TAG_1CLOSING;
 
-public static int _fERROR_1UNEXPECTED_1CHARACTER = com.codename1.xml._iParserCallback._fERROR_1UNEXPECTED_1CHARACTER;
+new public static int _fERROR_1UNEXPECTED_1CHARACTER = com.codename1.xml._iParserCallback._fERROR_1UNEXPECTED_1CHARACTER;
 
-public static int _fERROR_1MULTIPLE_1ROOTS = com.codename1.xml._iParserCallback._fERROR_1MULTIPLE_1ROOTS;
+new public static int _fERROR_1MULTIPLE_1ROOTS = com.codename1.xml._iParserCallback._fERROR_1MULTIPLE_1ROOTS;
 
-public static int _fERROR_1NO_1ROOTS = com.codename1.xml._iParserCallback._fERROR_1NO_1ROOTS;
+new public static int _fERROR_1NO_1ROOTS = com.codename1.xml._iParserCallback._fERROR_1NO_1ROOTS;
 
-public static int _fERROR_1ENCODING = com.codename1.xml._iParserCallback._fERROR_1ENCODING;
+new public static int _fERROR_1ENCODING = com.codename1.xml._iParserCallback._fERROR_1ENCODING;
 
-public static int _fERROR_1CONNECTING = com.codename1.ui.html._iHTMLCallback._fERROR_1CONNECTING;
+new public static int _fERROR_1CONNECTING = com.codename1.ui.html._iHTMLCallback._fERROR_1CONNECTING;
 
-public static int _fERROR_1IMAGE_1NOT_1FOUND = com.codename1.ui.html._iHTMLCallback._fERROR_1IMAGE_1NOT_1FOUND;
+new public static int _fERROR_1IMAGE_1NOT_1FOUND = com.codename1.ui.html._iHTMLCallback._fERROR_1IMAGE_1NOT_1FOUND;
 
-public static int _fERROR_1IMAGE_1BAD_1FORMAT = com.codename1.ui.html._iHTMLCallback._fERROR_1IMAGE_1BAD_1FORMAT;
+new public static int _fERROR_1IMAGE_1BAD_1FORMAT = com.codename1.ui.html._iHTMLCallback._fERROR_1IMAGE_1BAD_1FORMAT;
 
-public static int _fERROR_1NO_1BASE_1URL = com.codename1.ui.html._iHTMLCallback._fERROR_1NO_1BASE_1URL;
+new public static int _fERROR_1NO_1BASE_1URL = com.codename1.ui.html._iHTMLCallback._fERROR_1NO_1BASE_1URL;
 
-public static int _fERROR_1INVALID_1TAG_1HIERARCHY = com.codename1.ui.html._iHTMLCallback._fERROR_1INVALID_1TAG_1HIERARCHY;
+new public static int _fERROR_1INVALID_1TAG_1HIERARCHY = com.codename1.ui.html._iHTMLCallback._fERROR_1INVALID_1TAG_1HIERARCHY;
 
-public static int _fSTATUS_1NONE = com.codename1.ui.html._iHTMLCallback._fSTATUS_1NONE;
+new public static int _fSTATUS_1NONE = com.codename1.ui.html._iHTMLCallback._fSTATUS_1NONE;
 
-public static int _fSTATUS_1ERROR = com.codename1.ui.html._iHTMLCallback._fSTATUS_1ERROR;
+new public static int _fSTATUS_1ERROR = com.codename1.ui.html._iHTMLCallback._fSTATUS_1ERROR;
 
-public static int _fSTATUS_1CANCELLED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1CANCELLED;
+new public static int _fSTATUS_1CANCELLED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1CANCELLED;
 
-public static int _fSTATUS_1REQUESTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1REQUESTED;
+new public static int _fSTATUS_1REQUESTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1REQUESTED;
 
-public static int _fSTATUS_1CONNECTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1CONNECTED;
+new public static int _fSTATUS_1CONNECTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1CONNECTED;
 
-public static int _fSTATUS_1PARSED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1PARSED;
+new public static int _fSTATUS_1PARSED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1PARSED;
 
-public static int _fSTATUS_1DISPLAYED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1DISPLAYED;
+new public static int _fSTATUS_1DISPLAYED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1DISPLAYED;
 
-public static int _fSTATUS_1COMPLETED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1COMPLETED;
+new public static int _fSTATUS_1COMPLETED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1COMPLETED;
 
-public static int _fSTATUS_1REDIRECTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1REDIRECTED;
+new public static int _fSTATUS_1REDIRECTED = com.codename1.ui.html._iHTMLCallback._fSTATUS_1REDIRECTED;
 
-public static int _fFIELD_1TEXT = com.codename1.ui.html._iHTMLCallback._fFIELD_1TEXT;
+new public static int _fFIELD_1TEXT = com.codename1.ui.html._iHTMLCallback._fFIELD_1TEXT;
 
-public static int _fFIELD_1PASSWORD = com.codename1.ui.html._iHTMLCallback._fFIELD_1PASSWORD;
+new public static int _fFIELD_1PASSWORD = com.codename1.ui.html._iHTMLCallback._fFIELD_1PASSWORD;
 
-public static int _fLINK_1REGULAR = com.codename1.ui.html._iHTMLCallback._fLINK_1REGULAR;
+new public static int _fLINK_1REGULAR = com.codename1.ui.html._iHTMLCallback._fLINK_1REGULAR;
 
-public static int _fLINK_1VISTED = com.codename1.ui.html._iHTMLCallback._fLINK_1VISTED;
+new public static int _fLINK_1VISTED = com.codename1.ui.html._iHTMLCallback._fLINK_1VISTED;
 
-public static int _fLINK_1FORBIDDEN = com.codename1.ui.html._iHTMLCallback._fLINK_1FORBIDDEN;
+new public static int _fLINK_1FORBIDDEN = com.codename1.ui.html._iHTMLCallback._fLINK_1FORBIDDEN;
 
-public static int _fERROR_1CSS_1ATTRIBUTE_1NOT_1SUPPORTED = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1ATTRIBUTE_1NOT_1SUPPORTED;
+new public static int _fERROR_1CSS_1ATTRIBUTE_1NOT_1SUPPORTED = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1ATTRIBUTE_1NOT_1SUPPORTED;
 
-public static int _fERROR_1CSS_1ATTIBUTE_1VALUE_1INVALID = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1ATTIBUTE_1VALUE_1INVALID;
+new public static int _fERROR_1CSS_1ATTIBUTE_1VALUE_1INVALID = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1ATTIBUTE_1VALUE_1INVALID;
 
-public static int _fERROR_1CSS_1NOT_1FOUND = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NOT_1FOUND;
+new public static int _fERROR_1CSS_1NOT_1FOUND = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NOT_1FOUND;
 
-public static int _fERROR_1CSS_1NO_1BASE_1URL = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NO_1BASE_1URL;
+new public static int _fERROR_1CSS_1NO_1BASE_1URL = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NO_1BASE_1URL;
 
 public void @this(global::com.codename1.components.WebBrowser n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$5: void <init>(com.codename1.components.WebBrowser)]

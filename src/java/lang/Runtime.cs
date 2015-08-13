@@ -11,7 +11,7 @@ static Runtime() {
 
 private static global::java.lang.Runtime _fruntime;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -289,7 +289,7 @@ public virtual long maxMemory(){
 //XMLVM_END_WRAPPER[java.lang.Runtime: long maxMemory()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.lang.Runtime();

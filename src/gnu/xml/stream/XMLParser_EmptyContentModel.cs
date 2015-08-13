@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.stream {
 public class XMLParser_2EmptyContentModel: global::gnu.xml.stream.XMLParser_2ContentModel {
-public global::gnu.xml.stream.XMLParser _fthis_20;
+new public global::gnu.xml.stream.XMLParser _fthis_20;
 
 public void @this(global::gnu.xml.stream.XMLParser n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$EmptyContentModel: void <init>(gnu.xml.stream.XMLParser)]

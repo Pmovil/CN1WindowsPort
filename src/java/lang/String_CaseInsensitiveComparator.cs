@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.lang {
 public class String_2CaseInsensitiveComparator: global::java.lang.Object,global::java.util.Comparator,global::java.io.Serializable {
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.String$CaseInsensitiveComparator: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

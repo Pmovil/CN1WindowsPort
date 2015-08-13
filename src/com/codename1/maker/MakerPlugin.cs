@@ -11,7 +11,7 @@ private global::com.codename1.ui.EncodedImage _ficon;
 
 private global::java.util.Hashtable _fdata;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maker.MakerPlugin: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

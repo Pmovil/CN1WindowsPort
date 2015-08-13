@@ -23,7 +23,7 @@ private bool _fallDir;
 
 private bool _fallSubdir;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermission: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

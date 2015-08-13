@@ -75,7 +75,7 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>(com.codename1.ui.list.ListModel)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

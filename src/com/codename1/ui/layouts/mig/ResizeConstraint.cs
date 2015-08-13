@@ -18,7 +18,7 @@ public global::java.lang.Float _fshrink;
 
 public int _fshrinkPrio;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ResizeConstraint: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -66,7 +66,7 @@ public void @this(int n1, global::java.lang.Float n2, int n3, global::java.lang.
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ResizeConstraint: void <init>(int, java.lang.Float, int, java.lang.Float)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ResizeConstraint: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

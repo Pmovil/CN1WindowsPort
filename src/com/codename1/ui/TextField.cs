@@ -160,7 +160,7 @@ public virtual void setEnableInputScroll(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: void setEnableInputScroll(boolean)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -287,7 +287,7 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: void <init>(int)]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -408,7 +408,7 @@ public virtual void deleteChar(){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: void deleteChar()]
 }
 
-public void @this(global::java.lang.String n1, int n2){
+new public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -3319,7 +3319,7 @@ public static bool access_2202(global::com.codename1.ui.TextField n1, bool n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: boolean access$202(com.codename1.ui.TextField, boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

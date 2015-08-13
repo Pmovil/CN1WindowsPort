@@ -1289,7 +1289,7 @@ public static bool access_2400(global::com.codename1.ui.list.GenericListCellRend
 //XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean access$400(com.codename1.ui.list.GenericListCellRenderer, java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::com.codename1.ui.URLImage._fRESIZE_1SCALE;

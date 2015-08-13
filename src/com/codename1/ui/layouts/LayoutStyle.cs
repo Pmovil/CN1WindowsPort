@@ -16,7 +16,7 @@ public static int _fINDENT = 3;
 
 private static global::com.codename1.ui.layouts.LayoutStyle _flayoutStyle;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -354,7 +354,7 @@ public virtual int getButtonChildIndent(global::com.codename1.ui.Component n1, i
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getButtonChildIndent(com.codename1.ui.Component, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::com.codename1.ui.layouts.LayoutStyle();

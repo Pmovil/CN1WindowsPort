@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2UnboundedEntryIterator: global::java.util.TreeMap_2AbstractMapIterator,global::java.util.Iterator {
-public void @this(global::java.util.TreeMap n1, global::java.util.TreeMap_2Node n2, int n3){
+new public void @this(global::java.util.TreeMap n1, global::java.util.TreeMap_2Node n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: void <init>(java.util.TreeMap, java.util.TreeMap$Node, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -18,7 +18,7 @@ public void @this(global::java.util.TreeMap n1, global::java.util.TreeMap_2Node 
 //XMLVM_END_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: void <init>(java.util.TreeMap, java.util.TreeMap$Node, int)]
 }
 
-public void @this(global::java.util.TreeMap n1){
+new public void @this(global::java.util.TreeMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$UnboundedEntryIterator: void <init>(java.util.TreeMap)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

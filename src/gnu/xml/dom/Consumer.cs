@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.dom {
 public class Consumer: global::gnu.xml.pipeline.DomConsumer {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.Consumer: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

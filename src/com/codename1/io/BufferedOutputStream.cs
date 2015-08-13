@@ -533,7 +533,7 @@ public virtual void setConnection(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[com.codename1.io.BufferedOutputStream: void setConnection(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

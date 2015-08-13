@@ -485,7 +485,7 @@ public static void bind(global::org.xml.sax.XMLReader n1, global::gnu.xml.pipeli
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.EventFilter: void bind(org.xml.sax.XMLReader, gnu.xml.pipeline.EventConsumer)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.EventFilter: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

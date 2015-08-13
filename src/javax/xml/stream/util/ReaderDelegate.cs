@@ -35,7 +35,7 @@ public static int _fNOTATION_1DECLARATION = javax.xml.stream._iXMLStreamConstant
 
 public static int _fENTITY_1DECLARATION = javax.xml.stream._iXMLStreamConstants._fENTITY_1DECLARATION;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.stream.util.ReaderDelegate: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

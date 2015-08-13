@@ -309,7 +309,7 @@ private static int nl(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextArea: int nl(java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextArea: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -2654,7 +2654,7 @@ public virtual bool isEndsWith3Points(){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextArea: boolean isEndsWith3Points()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextArea: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

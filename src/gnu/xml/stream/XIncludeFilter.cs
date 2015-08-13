@@ -56,35 +56,35 @@ public bool _fseenFallback;
 
 public global::javax.xml.parsers.DocumentBuilder _fbuilder;
 
-public static int _fSTART_1ELEMENT = javax.xml.stream._iXMLStreamConstants._fSTART_1ELEMENT;
+new public static int _fSTART_1ELEMENT = javax.xml.stream._iXMLStreamConstants._fSTART_1ELEMENT;
 
-public static int _fEND_1ELEMENT = javax.xml.stream._iXMLStreamConstants._fEND_1ELEMENT;
+new public static int _fEND_1ELEMENT = javax.xml.stream._iXMLStreamConstants._fEND_1ELEMENT;
 
-public static int _fPROCESSING_1INSTRUCTION = javax.xml.stream._iXMLStreamConstants._fPROCESSING_1INSTRUCTION;
+new public static int _fPROCESSING_1INSTRUCTION = javax.xml.stream._iXMLStreamConstants._fPROCESSING_1INSTRUCTION;
 
-public static int _fCHARACTERS = javax.xml.stream._iXMLStreamConstants._fCHARACTERS;
+new public static int _fCHARACTERS = javax.xml.stream._iXMLStreamConstants._fCHARACTERS;
 
-public static int _fCOMMENT = javax.xml.stream._iXMLStreamConstants._fCOMMENT;
+new public static int _fCOMMENT = javax.xml.stream._iXMLStreamConstants._fCOMMENT;
 
-public static int _fSPACE = javax.xml.stream._iXMLStreamConstants._fSPACE;
+new public static int _fSPACE = javax.xml.stream._iXMLStreamConstants._fSPACE;
 
-public static int _fSTART_1DOCUMENT = javax.xml.stream._iXMLStreamConstants._fSTART_1DOCUMENT;
+new public static int _fSTART_1DOCUMENT = javax.xml.stream._iXMLStreamConstants._fSTART_1DOCUMENT;
 
-public static int _fEND_1DOCUMENT = javax.xml.stream._iXMLStreamConstants._fEND_1DOCUMENT;
+new public static int _fEND_1DOCUMENT = javax.xml.stream._iXMLStreamConstants._fEND_1DOCUMENT;
 
-public static int _fENTITY_1REFERENCE = javax.xml.stream._iXMLStreamConstants._fENTITY_1REFERENCE;
+new public static int _fENTITY_1REFERENCE = javax.xml.stream._iXMLStreamConstants._fENTITY_1REFERENCE;
 
-public static int _fATTRIBUTE = javax.xml.stream._iXMLStreamConstants._fATTRIBUTE;
+new public static int _fATTRIBUTE = javax.xml.stream._iXMLStreamConstants._fATTRIBUTE;
 
-public static int _fDTD = javax.xml.stream._iXMLStreamConstants._fDTD;
+new public static int _fDTD = javax.xml.stream._iXMLStreamConstants._fDTD;
 
-public static int _fCDATA = javax.xml.stream._iXMLStreamConstants._fCDATA;
+new public static int _fCDATA = javax.xml.stream._iXMLStreamConstants._fCDATA;
 
-public static int _fNAMESPACE = javax.xml.stream._iXMLStreamConstants._fNAMESPACE;
+new public static int _fNAMESPACE = javax.xml.stream._iXMLStreamConstants._fNAMESPACE;
 
-public static int _fNOTATION_1DECLARATION = javax.xml.stream._iXMLStreamConstants._fNOTATION_1DECLARATION;
+new public static int _fNOTATION_1DECLARATION = javax.xml.stream._iXMLStreamConstants._fNOTATION_1DECLARATION;
 
-public static int _fENTITY_1DECLARATION = javax.xml.stream._iXMLStreamConstants._fENTITY_1DECLARATION;
+new public static int _fENTITY_1DECLARATION = javax.xml.stream._iXMLStreamConstants._fENTITY_1DECLARATION;
 
 public void @this(global::javax.xml.stream.XMLStreamReader n1, global::java.lang.String n2, bool n3, bool n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XIncludeFilter: void <init>(javax.xml.stream.XMLStreamReader, java.lang.String, boolean, boolean, boolean)]

@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.charts.views {
 public class DoughnutChart: global::com.codename1.charts.views.RoundChart {
-private global::com.codename1.charts.models.MultipleCategorySeries _fmDataset;
+new private global::com.codename1.charts.models.MultipleCategorySeries _fmDataset;
 
 private int _fmStep;
 

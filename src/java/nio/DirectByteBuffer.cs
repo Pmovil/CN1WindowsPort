@@ -5,7 +5,7 @@ namespace java.nio {
 public abstract class DirectByteBuffer: global::java.nio.MappedByteBuffer,global::org.apache.harmony.nio.@internal.DirectBuffer {
 public int _foffset;
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.DirectByteBuffer: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

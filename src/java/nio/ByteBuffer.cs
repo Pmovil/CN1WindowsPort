@@ -79,7 +79,7 @@ public static global::System.Object wrap(global::org.xmlvm._nArrayAdapter<sbyte>
 //XMLVM_END_WRAPPER[java.nio.ByteBuffer: java.nio.ByteBuffer wrap(byte[], int, int)]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ByteBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -23,7 +23,7 @@ public void @this(global::java.lang.Object n1, int n2){
 //XMLVM_END_WRAPPER[java.util.HashMap$Entry: void <init>(java.lang.Object, int)]
 }
 
-public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
+new public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$Entry: void <init>(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

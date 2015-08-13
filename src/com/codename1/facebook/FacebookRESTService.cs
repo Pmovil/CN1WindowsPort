@@ -689,7 +689,7 @@ public static int access_2108(global::com.codename1.facebook.FacebookRESTService
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: int access$108(com.codename1.facebook.FacebookRESTService)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=picture

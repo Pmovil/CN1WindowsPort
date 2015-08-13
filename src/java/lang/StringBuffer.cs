@@ -11,7 +11,7 @@ static StringBuffer() {
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fserialPersistentFields;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuffer: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -50,7 +50,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.lang.StringBuffer: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuffer: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -59,7 +59,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[java.lang.StringBuffer: void <init>()]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -70,7 +70,7 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[java.lang.StringBuffer: void <init>(int)]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.StringBuffer: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

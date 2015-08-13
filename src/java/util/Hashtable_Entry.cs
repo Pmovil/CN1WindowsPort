@@ -7,7 +7,7 @@ public global::java.util.Hashtable_2Entry _fnext;
 
 public int _fhashcode;
 
-public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
+new public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$Entry: void <init>(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

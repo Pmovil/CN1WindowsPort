@@ -23,7 +23,7 @@ public global::com.codename1.ui.events.ActionListener _fpointerReleased;
 
 public global::com.codename1.ui.Form _fdestinationForm;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

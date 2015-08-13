@@ -1567,7 +1567,7 @@ public static void setDefaultUnit(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.UnitValue: void setDefaultUnit(int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.UnitValue: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

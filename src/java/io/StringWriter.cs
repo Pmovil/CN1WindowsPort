@@ -5,7 +5,7 @@ namespace java.io {
 public class StringWriter: global::java.io.Writer {
 private global::java.lang.StringBuffer _fbuf;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.StringWriter: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

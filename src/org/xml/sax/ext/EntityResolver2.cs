@@ -11,7 +11,7 @@ public interface EntityResolver2: global::org.xml.sax.EntityResolver {
 
  global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4);
 
- global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2);
+new  global::System.Object resolveEntity(global::java.lang.String n1, global::java.lang.String n2);
 
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.EntityResolver2]
 //XMLVM_END_WRAPPER[org.xml.sax.ext.EntityResolver2]

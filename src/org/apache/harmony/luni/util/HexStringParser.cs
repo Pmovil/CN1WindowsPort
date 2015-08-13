@@ -56,7 +56,7 @@ private long _fmantissa;
 
 private global::java.lang.String _fabandonedNumber;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.HexStringParser: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=[\134x00-\134x20]*([+-]?)0[xX](\134p\173XDigit\175+\134.?\174\134p\173XDigit\175*\134.\134p\173XDigit\175+)[pP]([+-]?\134d+)[fFdD]?[\134x00-\134x20]*

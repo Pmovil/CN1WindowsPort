@@ -5,9 +5,9 @@ namespace com.codename1.ui.layouts {
 public abstract class GroupLayout_2Group: global::com.codename1.ui.layouts.GroupLayout_2Spring {
 public global::java.util.ArrayList _fsprings;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
-public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
+new public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$Group: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

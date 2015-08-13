@@ -1073,7 +1073,7 @@ private global::System.Object getSignatureAttribute(){
 //XMLVM_END_WRAPPER[java.lang.Class: java.lang.String getSignatureAttribute()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::org.xmlvm.runtime.XMLVMClassLoader();

@@ -5,7 +5,7 @@ namespace com.codename1.io {
 public class Preferences: global::java.lang.Object {
 private static global::java.util.Hashtable _fp;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

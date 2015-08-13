@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public abstract class OutputStream: global::java.lang.Object,global::java.io.Closeable,global::java.io.Flushable {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.OutputStream: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

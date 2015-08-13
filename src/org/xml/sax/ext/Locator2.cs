@@ -11,13 +11,13 @@ public interface Locator2: global::org.xml.sax.Locator {
 
  global::System.Object getEncoding();
 
- int getColumnNumber();
+new  int getColumnNumber();
 
- int getLineNumber();
+new  int getLineNumber();
 
- global::System.Object getPublicId();
+new  global::System.Object getPublicId();
 
- global::System.Object getSystemId();
+new  global::System.Object getSystemId();
 
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.Locator2]
 //XMLVM_END_WRAPPER[org.xml.sax.ext.Locator2]

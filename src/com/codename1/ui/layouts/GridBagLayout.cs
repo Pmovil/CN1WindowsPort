@@ -25,7 +25,7 @@ public global::org.xmlvm._nArrayAdapter<int> _frowHeights;
 
 private global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo _flastParentInfo;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

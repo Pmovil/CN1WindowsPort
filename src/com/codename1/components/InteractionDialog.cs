@@ -11,7 +11,7 @@ private global::com.codename1.ui.Container _fcontentPane;
 
 private bool _fanimateShow;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InteractionDialog: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

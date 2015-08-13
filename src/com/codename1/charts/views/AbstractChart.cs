@@ -10,7 +10,7 @@ static AbstractChart() {
 
 private static global::org.xmlvm._nArrayAdapter<char> _fstopCharCandidates;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.AbstractChart: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1370,7 +1370,7 @@ private static global::System.Object split(global::java.lang.String n1, global::
 //XMLVM_END_WRAPPER[com.codename1.charts.views.AbstractChart: java.lang.String[] split(java.lang.String, java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.AbstractChart: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=!@#$%^&*()?><,./+-qwertyuiop[zxcvbnm,./\134\174\175\173

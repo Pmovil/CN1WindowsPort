@@ -10,7 +10,7 @@ static XPathParser_2YyGindexClass() {
 
 public static global::org.xmlvm._nArrayAdapter<short> _fyyGindex;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyGindexClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -65,7 +65,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathParser$YyGindexClass: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyGindexClass: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

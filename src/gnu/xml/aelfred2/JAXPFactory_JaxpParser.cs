@@ -7,7 +7,7 @@ private global::gnu.xml.aelfred2.XmlReader _fae2;
 
 private global::org.xml.sax.helpers.XMLReaderAdapter _fparser;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.JAXPFactory$JaxpParser: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

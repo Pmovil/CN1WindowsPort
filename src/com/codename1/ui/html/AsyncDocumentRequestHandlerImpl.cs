@@ -10,7 +10,7 @@ static AsyncDocumentRequestHandlerImpl() {
 
 public static global::java.lang.Object _fLOCK;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -301,7 +301,7 @@ public virtual global::System.Object createConnectionRequest(global::com.codenam
 //XMLVM_END_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: com.codename1.io.ConnectionRequest createConnectionRequest(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback, java.lang.Object[])]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandlerImpl: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.lang.Object();

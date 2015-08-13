@@ -33,7 +33,7 @@ private static global::java.lang.String _fTEMP_1STORAGE;
 
 private static global::java.lang.String _fapiVersion;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -2755,7 +2755,7 @@ public static global::System.Object access_2100(global::com.codename1.facebook.F
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: java.util.Vector access$100(com.codename1.facebook.FaceBookAccess)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

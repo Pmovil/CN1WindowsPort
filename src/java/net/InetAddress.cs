@@ -44,7 +44,7 @@ private static void oneTimeInitialization(bool n1){
 //XMLVM_END_WRAPPER[java.net.InetAddress: void oneTimeInitialization(boolean)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -2186,7 +2186,7 @@ public static int access_2500(global::java.net.InetAddress n1){
 //XMLVM_END_WRAPPER[java.net.InetAddress: int access$500(java.net.InetAddress)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.InetAddress: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -30,7 +30,7 @@ public static global::System.Object copy(global::java.nio.HeapByteBuffer n1, int
 //XMLVM_END_WRAPPER[java.nio.ReadWriteHeapByteBuffer: java.nio.ReadWriteHeapByteBuffer copy(java.nio.HeapByteBuffer, int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteHeapByteBuffer: void <init>(byte[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -41,7 +41,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteHeapByteBuffer: void <init>(byte[])]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteHeapByteBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -52,7 +52,7 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteHeapByteBuffer: void <init>(int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteHeapByteBuffer: void <init>(byte[], int, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

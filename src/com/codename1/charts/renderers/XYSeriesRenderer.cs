@@ -29,7 +29,7 @@ private int _fmAnnotationsTextAlign;
 
 private int _fmAnnotationsColor;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYSeriesRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

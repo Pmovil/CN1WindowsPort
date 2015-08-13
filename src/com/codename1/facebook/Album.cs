@@ -23,7 +23,7 @@ private global::java.lang.String _fcreated_1time;
 
 private global::java.lang.String _fupdated_1time;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Album: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -39,7 +39,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.facebook.Album: void <init>()]
 }
 
-public void @this(global::java.util.Hashtable n1){
+new public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Album: void <init>(java.util.Hashtable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

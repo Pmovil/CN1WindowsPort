@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class CIDecomposedCharSet: global::java.util.regex.DecomposedCharSet {
-public void @this(global::org.xmlvm._nArrayAdapter<int> n1, int n2){
+new public void @this(global::org.xmlvm._nArrayAdapter<int> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CIDecomposedCharSet: void <init>(int[], int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

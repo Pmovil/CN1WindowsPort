@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.charts.models {
 public class TimeSeries: global::com.codename1.charts.models.XYSeries {
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.TimeSeries: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

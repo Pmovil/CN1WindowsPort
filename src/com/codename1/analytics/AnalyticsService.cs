@@ -18,7 +18,7 @@ private global::java.lang.String _fdomain;
 
 private static bool _ffailSilently;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -386,7 +386,7 @@ private static global::System.Object GetGARequest(){
 //XMLVM_END_WRAPPER[com.codename1.analytics.AnalyticsService: com.codename1.io.ConnectionRequest GetGARequest()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

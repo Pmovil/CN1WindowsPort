@@ -79,7 +79,7 @@ private static int read(global::java.io.Reader n1){
 //XMLVM_END_WRAPPER[com.codename1.xml.XMLParser: int read(java.io.Reader)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.xml.XMLParser: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1780,7 +1780,7 @@ public virtual void setCaseSensitive(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.xml.XMLParser: void setCaseSensitive(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.xml.XMLParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

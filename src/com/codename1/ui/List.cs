@@ -161,7 +161,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.List: void <init>(java.lang.Object[])]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -4693,7 +4693,7 @@ public override bool shouldShowHint(){
 //XMLVM_END_WRAPPER[com.codename1.ui.List: boolean shouldShowHint()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

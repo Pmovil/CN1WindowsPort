@@ -18,7 +18,7 @@ private static global::java.lang.Class _fCODE;
 
 private global::java.util.Hashtable _fexceptionStack;
 
-public void @this(global::java.lang.Runnable n1, global::java.lang.String n2){
+new public void @this(global::java.lang.Runnable n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void <init>(java.lang.Runnable, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -543,7 +543,7 @@ public static void handleException(global::java.lang.Throwable n1){
 //XMLVM_END_WRAPPER[com.codename1.impl.CodenameOneThread: void handleException(java.lang.Throwable)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneThread: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.impl.CodenameOneThread));

@@ -145,7 +145,7 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String, java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -1310,7 +1310,7 @@ public virtual void setShowEvenIfBlank(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void setShowEvenIfBlank(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

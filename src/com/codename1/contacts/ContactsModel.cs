@@ -7,7 +7,7 @@ private global::java.util.Hashtable _fcontactsCache;
 
 private global::com.codename1.ui.Image _fplaceHolder;
 
-public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void <init>(java.lang.String[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

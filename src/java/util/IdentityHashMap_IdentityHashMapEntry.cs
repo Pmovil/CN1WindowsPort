@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class IdentityHashMap_2IdentityHashMapEntry: global::java.util.MapEntry {
-public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
+new public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap$IdentityHashMapEntry: void <init>(java.lang.Object, java.lang.Object)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

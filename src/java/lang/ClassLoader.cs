@@ -56,7 +56,7 @@ public static global::System.Object getSystemResourceAsStream(global::java.lang.
 //XMLVM_END_WRAPPER[java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassLoader: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -527,7 +527,7 @@ public virtual bool getDefaultAssertionStatus(){
 //XMLVM_END_WRAPPER[java.lang.ClassLoader: boolean getDefaultAssertionStatus()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassLoader: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::org.xmlvm.runtime.XMLVMClassLoader();

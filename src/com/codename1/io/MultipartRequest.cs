@@ -31,7 +31,7 @@ private static bool _fcanFlushStream;
 
 private global::java.util.Vector _fignoreEncoding;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -737,7 +737,7 @@ public static void setCanFlushStream(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.io.MultipartRequest: void setCanFlushStream(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

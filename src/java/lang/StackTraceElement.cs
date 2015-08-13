@@ -41,7 +41,7 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, glob
 //XMLVM_END_WRAPPER[java.lang.StackTraceElement: void <init>(java.lang.String, java.lang.String, java.lang.String, int)]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.StackTraceElement: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

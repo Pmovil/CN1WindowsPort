@@ -71,7 +71,7 @@ public static global::System.Object wrap(global::org.xmlvm._nArrayAdapter<int> n
 //XMLVM_END_WRAPPER[java.nio.IntBuffer: java.nio.IntBuffer wrap(int[], int, int)]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.IntBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

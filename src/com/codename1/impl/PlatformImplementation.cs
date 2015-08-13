@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.impl {
 public class PlatformImplementation: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.PlatformImplementation: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

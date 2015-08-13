@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class FSet_2PossessiveFSet: global::java.util.regex.AbstractSet {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.FSet$PossessiveFSet: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

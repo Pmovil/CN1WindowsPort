@@ -47,7 +47,7 @@ public static int _fSO_1OOBINLINE = java.net._iSocketOptions._fSO_1OOBINLINE;
 
 public static int _fIP_1MULTICAST_1IF2 = java.net._iSocketOptions._fIP_1MULTICAST_1IF2;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.SocketImpl: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

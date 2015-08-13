@@ -207,7 +207,7 @@ private static global::org.xmlvm._nArrayAdapter<char> _fnumericValues;
 
 public static bool _f_2assertionsDisabled;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Character: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

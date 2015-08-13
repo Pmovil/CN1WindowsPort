@@ -10,7 +10,7 @@ static XPathParser_2YyLhsClass() {
 
 public static global::org.xmlvm._nArrayAdapter<short> _fyyLhs;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyLhsClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -254,7 +254,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[gnu.xml.xpath.XPathParser$YyLhsClass: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.XPathParser$YyLhsClass: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

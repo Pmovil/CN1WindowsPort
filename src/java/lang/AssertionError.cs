@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.lang {
 public class AssertionError: global::java.lang.Error {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.AssertionError: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

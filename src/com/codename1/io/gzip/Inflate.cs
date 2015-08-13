@@ -1866,7 +1866,7 @@ public virtual bool inParsingHeader(){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Inflate: boolean inParsingHeader()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Inflate: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

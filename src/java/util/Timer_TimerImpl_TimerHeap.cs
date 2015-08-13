@@ -11,7 +11,7 @@ private int _fsize;
 
 private int _fdeletedCancelledNumber;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer$TimerImpl$TimerHeap: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

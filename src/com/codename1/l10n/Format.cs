@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.l10n {
 public abstract class Format: global::java.lang.Object,global::java.lang.Cloneable {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.Format: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

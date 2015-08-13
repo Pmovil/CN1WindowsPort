@@ -13,7 +13,7 @@ public int _fmarkpos;
 
 public int _fpos;
 
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.BufferedInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

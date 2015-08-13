@@ -1504,7 +1504,7 @@ public static global::System.Object access_2400(global::com.codename1.javascript
 //XMLVM_END_WRAPPER[com.codename1.javascript.JavascriptContext: java.util.Hashtable access$400(com.codename1.javascript.JavascriptContext)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptContext: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

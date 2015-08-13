@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.apache.harmony.luni.util {
 public class SneakyThrow: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.SneakyThrow: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

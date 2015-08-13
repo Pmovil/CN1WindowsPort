@@ -27,7 +27,7 @@ public static global::System.Object copy(global::java.nio.IntArrayBuffer n1, int
 //XMLVM_END_WRAPPER[java.nio.ReadOnlyIntArrayBuffer: java.nio.ReadOnlyIntArrayBuffer copy(java.nio.IntArrayBuffer, int)]
 }
 
-public void @this(int n1, global::org.xmlvm._nArrayAdapter<int> n2, int n3){
+new public void @this(int n1, global::org.xmlvm._nArrayAdapter<int> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyIntArrayBuffer: void <init>(int, int[], int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

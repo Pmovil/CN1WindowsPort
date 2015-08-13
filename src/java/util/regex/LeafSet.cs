@@ -5,7 +5,7 @@ namespace java.util.regex {
 public abstract class LeafSet: global::java.util.regex.AbstractSet {
 public int _fcharCount;
 
-public void @this(global::java.util.regex.AbstractSet n1){
+new public void @this(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.LeafSet: void <init>(java.util.regex.AbstractSet)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -20,7 +20,7 @@ public void @this(global::java.util.regex.AbstractSet n1){
 //XMLVM_END_WRAPPER[java.util.regex.LeafSet: void <init>(java.util.regex.AbstractSet)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.LeafSet: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

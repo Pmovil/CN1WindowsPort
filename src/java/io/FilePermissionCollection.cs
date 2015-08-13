@@ -6,7 +6,7 @@ public class FilePermissionCollection: global::java.security.PermissionCollectio
 
 public global::java.util.Vector _fpermissions;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FilePermissionCollection: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

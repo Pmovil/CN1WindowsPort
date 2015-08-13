@@ -24,7 +24,7 @@ private int _ftype;
 
 private int _flength;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CoderResult: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

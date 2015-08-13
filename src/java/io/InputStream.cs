@@ -5,7 +5,7 @@ namespace java.io {
 public abstract class InputStream: global::java.lang.Object,global::java.io.Closeable {
 private static global::org.xmlvm._nArrayAdapter<sbyte> _fskipBuf;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.InputStream: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

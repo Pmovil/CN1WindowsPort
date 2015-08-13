@@ -12,7 +12,7 @@ public static global::java.util.Set _fFEATURE_1NAMES;
 
 public global::java.util.Map _ffeatures;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -38,7 +38,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[gnu.xml.stream.SAXParserFactory: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.SAXParserFactory: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

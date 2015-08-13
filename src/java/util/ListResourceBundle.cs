@@ -5,7 +5,7 @@ namespace java.util {
 public abstract class ListResourceBundle: global::java.util.ResourceBundle {
 public global::java.util.HashMap _ftable;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ListResourceBundle: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

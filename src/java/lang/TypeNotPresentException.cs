@@ -6,7 +6,7 @@ public class TypeNotPresentException: global::java.lang.RuntimeException {
 
 private global::java.lang.String _ftypeName;
 
-public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
+new public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.TypeNotPresentException: void <init>(java.lang.String, java.lang.Throwable)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

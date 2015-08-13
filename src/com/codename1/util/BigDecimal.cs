@@ -574,7 +574,7 @@ public override int hashCode(){
 //XMLVM_END_WRAPPER[com.codename1.util.BigDecimal: int hashCode()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigDecimal: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

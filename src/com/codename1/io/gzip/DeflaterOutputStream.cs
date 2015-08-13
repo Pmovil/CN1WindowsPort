@@ -19,7 +19,7 @@ private bool _fclose_1out;
 
 public static int _fDEFAULT_1BUFSIZE = 512;
 
-public void @this(global::java.io.OutputStream n1){
+new public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.DeflaterOutputStream: void <init>(java.io.OutputStream)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

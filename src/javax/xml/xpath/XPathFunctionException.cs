@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace javax.xml.xpath {
 public class XPathFunctionException: global::javax.xml.xpath.XPathExpressionException {
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -15,7 +15,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.lang.Throwable n1){
+new public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathFunctionException: void <init>(java.lang.Throwable)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

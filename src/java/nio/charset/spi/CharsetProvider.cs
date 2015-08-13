@@ -10,7 +10,7 @@ static CharsetProvider() {
 
 private static global::java.lang.RuntimePermission _fCONSTRUCT_1PERM;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.spi.CharsetProvider: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -24,7 +24,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.nio.charset.spi.CharsetProvider: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.spi.CharsetProvider: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

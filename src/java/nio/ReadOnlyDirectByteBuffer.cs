@@ -30,7 +30,7 @@ public static global::System.Object copy(global::java.nio.DirectByteBuffer n1, i
 //XMLVM_END_WRAPPER[java.nio.ReadOnlyDirectByteBuffer: java.nio.ReadOnlyDirectByteBuffer copy(java.nio.DirectByteBuffer, int)]
 }
 
-public void @this(global::org.xmlvm.runtime.RedTypeMarker n1, int n2, int n3){
+new public void @this(global::org.xmlvm.runtime.RedTypeMarker n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadOnlyDirectByteBuffer: void <init>(org.apache.harmony.luni.platform.PlatformAddress, int, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

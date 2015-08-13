@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class URLImage_22: global::java.lang.Object,global::com.codename1.ui.URLImage_2ImageAdapter {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$2: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

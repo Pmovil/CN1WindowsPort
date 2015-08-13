@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace javax.xml.parsers {
 public abstract class SAXParser: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.SAXParser: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

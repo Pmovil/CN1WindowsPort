@@ -29,7 +29,7 @@ private global::com.codename1.ui.Image _fphoto;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _furls;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.Contact: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

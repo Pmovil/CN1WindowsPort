@@ -11,35 +11,35 @@ public interface ObjectOutput: global::java.io.DataOutput {
 
  void flush();
 
- void write(global::org.xmlvm._nArrayAdapter<sbyte> n1);
+new  void write(global::org.xmlvm._nArrayAdapter<sbyte> n1);
 
- void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
+new  void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
 
- void write(int n1);
+new  void write(int n1);
 
  void writeObject(global::java.lang.Object n1);
 
- void writeBoolean(bool n1);
+new  void writeBoolean(bool n1);
 
- void writeByte(int n1);
+new  void writeByte(int n1);
 
- void writeBytes(global::java.lang.String n1);
+new  void writeBytes(global::java.lang.String n1);
 
- void writeChar(int n1);
+new  void writeChar(int n1);
 
- void writeChars(global::java.lang.String n1);
+new  void writeChars(global::java.lang.String n1);
 
- void writeDouble(double n1);
+new  void writeDouble(double n1);
 
- void writeFloat(float n1);
+new  void writeFloat(float n1);
 
- void writeInt(int n1);
+new  void writeInt(int n1);
 
- void writeLong(long n1);
+new  void writeLong(long n1);
 
- void writeShort(int n1);
+new  void writeShort(int n1);
 
- void writeUTF(global::java.lang.String n1);
+new  void writeUTF(global::java.lang.String n1);
 
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectOutput]
 //XMLVM_END_WRAPPER[java.io.ObjectOutput]

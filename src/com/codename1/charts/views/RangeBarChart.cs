@@ -10,9 +10,9 @@ static RangeBarChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
 }
 
-public static global::java.lang.String _fTYPE;
+new public static global::java.lang.String _fTYPE;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -21,7 +21,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>()]
 }
 
-public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
+new public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.views.BarChart$Type)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -32,7 +32,7 @@ public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.views.BarChart$Type)]
 }
 
-public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2, global::com.codename1.charts.views.BarChart_2Type n3){
+new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2, global::com.codename1.charts.views.BarChart_2Type n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer, com.codename1.charts.views.BarChart$Type)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

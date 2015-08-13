@@ -14,7 +14,7 @@ private static global::org.xmlvm._nArrayAdapter<int> _fremainingNumbers;
 
 private static global::org.xmlvm._nArrayAdapter<int> _flowerEncodingLimit;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -44,7 +44,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: void <clinit>()]
 }
 
-public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
+new public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.UTF_8: void <init>(java.lang.String, java.lang.String[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

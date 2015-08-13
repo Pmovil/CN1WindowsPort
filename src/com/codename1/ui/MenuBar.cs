@@ -64,7 +64,7 @@ private bool _fthirdSoftButton;
 
 private bool _fhideEmptyCommands;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.MenuBar: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -3652,7 +3652,7 @@ private bool isTouchMenus(){
 //XMLVM_END_WRAPPER[com.codename1.ui.MenuBar: boolean isTouchMenus()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.MenuBar: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

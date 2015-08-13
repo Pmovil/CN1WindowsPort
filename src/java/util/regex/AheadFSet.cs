@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class AheadFSet: global::java.util.regex.FSet {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AheadFSet: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

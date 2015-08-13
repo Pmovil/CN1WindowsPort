@@ -34,7 +34,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fthreeIm
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _foneImageCache;
 
-public void @this(global::com.codename1.ui.plaf.UIManager n1){
+new public void @this(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void <init>(com.codename1.ui.plaf.UIManager)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -4680,7 +4680,7 @@ public static global::System.Object access_2200(global::com.codename1.ui.plaf.De
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: com.codename1.ui.Component access$200(com.codename1.ui.plaf.DefaultLookAndFeel)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

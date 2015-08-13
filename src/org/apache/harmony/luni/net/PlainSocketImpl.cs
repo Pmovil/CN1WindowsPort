@@ -7,7 +7,7 @@ public static int _fMULTICAST_1IF = 1;
 
 public static int _fMULTICAST_1TTL = 2;
 
-public static int _fTCP_1NODELAY = 4;
+new public static int _fTCP_1NODELAY = 4;
 
 public static int _fFLAG_1SHUTDOWN = 8;
 
@@ -23,43 +23,43 @@ private bool _ftcpNoDelay;
 
 private int _ftrafficClass;
 
-public global::org.apache.harmony.luni.platform.INetworkSystem _fnetImpl;
+new public global::org.apache.harmony.luni.platform.INetworkSystem _fnetImpl;
 
-public int _freceiveTimeout;
+new public int _freceiveTimeout;
 
-public bool _fstreaming;
+new public bool _fstreaming;
 
-public bool _fshutdownInput;
+new public bool _fshutdownInput;
 
 public global::java.net.Proxy _fproxy;
 
-public static int _fSO_1LINGER = java.net._iSocketOptions._fSO_1LINGER;
+new public static int _fSO_1LINGER = java.net._iSocketOptions._fSO_1LINGER;
 
-public static int _fSO_1TIMEOUT = java.net._iSocketOptions._fSO_1TIMEOUT;
+new public static int _fSO_1TIMEOUT = java.net._iSocketOptions._fSO_1TIMEOUT;
 
-public static int _fIP_1MULTICAST_1IF = java.net._iSocketOptions._fIP_1MULTICAST_1IF;
+new public static int _fIP_1MULTICAST_1IF = java.net._iSocketOptions._fIP_1MULTICAST_1IF;
 
-public static int _fSO_1BINDADDR = java.net._iSocketOptions._fSO_1BINDADDR;
+new public static int _fSO_1BINDADDR = java.net._iSocketOptions._fSO_1BINDADDR;
 
-public static int _fSO_1REUSEADDR = java.net._iSocketOptions._fSO_1REUSEADDR;
+new public static int _fSO_1REUSEADDR = java.net._iSocketOptions._fSO_1REUSEADDR;
 
-public static int _fSO_1SNDBUF = java.net._iSocketOptions._fSO_1SNDBUF;
+new public static int _fSO_1SNDBUF = java.net._iSocketOptions._fSO_1SNDBUF;
 
-public static int _fSO_1RCVBUF = java.net._iSocketOptions._fSO_1RCVBUF;
+new public static int _fSO_1RCVBUF = java.net._iSocketOptions._fSO_1RCVBUF;
 
-public static int _fSO_1KEEPALIVE = java.net._iSocketOptions._fSO_1KEEPALIVE;
+new public static int _fSO_1KEEPALIVE = java.net._iSocketOptions._fSO_1KEEPALIVE;
 
-public static int _fIP_1TOS = java.net._iSocketOptions._fIP_1TOS;
+new public static int _fIP_1TOS = java.net._iSocketOptions._fIP_1TOS;
 
-public static int _fIP_1MULTICAST_1LOOP = java.net._iSocketOptions._fIP_1MULTICAST_1LOOP;
+new public static int _fIP_1MULTICAST_1LOOP = java.net._iSocketOptions._fIP_1MULTICAST_1LOOP;
 
-public static int _fSO_1BROADCAST = java.net._iSocketOptions._fSO_1BROADCAST;
+new public static int _fSO_1BROADCAST = java.net._iSocketOptions._fSO_1BROADCAST;
 
-public static int _fSO_1OOBINLINE = java.net._iSocketOptions._fSO_1OOBINLINE;
+new public static int _fSO_1OOBINLINE = java.net._iSocketOptions._fSO_1OOBINLINE;
 
-public static int _fIP_1MULTICAST_1IF2 = java.net._iSocketOptions._fIP_1MULTICAST_1IF2;
+new public static int _fIP_1MULTICAST_1IF2 = java.net._iSocketOptions._fIP_1MULTICAST_1IF2;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.net.PlainSocketImpl: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

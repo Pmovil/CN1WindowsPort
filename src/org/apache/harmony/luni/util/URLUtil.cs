@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.apache.harmony.luni.util {
 public class URLUtil: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.URLUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

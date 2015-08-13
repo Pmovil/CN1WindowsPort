@@ -21,9 +21,9 @@ private int _ftype;
 
 private bool _fuserCreated;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
-private void @this(global::com.codename1.ui.layouts.GroupLayout n1){
+new private void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$AutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

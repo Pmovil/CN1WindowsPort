@@ -179,7 +179,7 @@ public virtual bool isScheduled(){
 //XMLVM_END_WRAPPER[java.util.TimerTask: boolean isScheduled()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.TimerTask: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

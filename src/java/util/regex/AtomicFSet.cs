@@ -3,9 +3,9 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class AtomicFSet: global::java.util.regex.FSet {
-public int _findex;
+new public int _findex;
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AtomicFSet: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

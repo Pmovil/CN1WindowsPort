@@ -106,7 +106,7 @@ private static bool passthru(char n1){
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: boolean passthru(char)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -2864,7 +2864,7 @@ public virtual global::System.Object getCharsetsInfo(){
 //XMLVM_END_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: java.lang.Object[][] getCharsetsInfo()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.CharsetProviderImpl: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

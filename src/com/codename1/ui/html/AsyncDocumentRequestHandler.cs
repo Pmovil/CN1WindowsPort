@@ -9,7 +9,7 @@ public abstract class _iAsyncDocumentRequestHandler {
 public interface AsyncDocumentRequestHandler: global::com.codename1.ui.html.DocumentRequestHandler {
  void resourceRequestedAsync(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2);
 
- global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1);
+new  global::System.Object resourceRequested(global::com.codename1.ui.html.DocumentInfo n1);
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandler]
 //XMLVM_END_WRAPPER[com.codename1.ui.html.AsyncDocumentRequestHandler]

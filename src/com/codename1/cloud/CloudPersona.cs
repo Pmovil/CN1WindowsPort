@@ -7,7 +7,7 @@ private global::java.lang.String _fpersona;
 
 private static global::com.codename1.cloud.CloudPersona _finstance;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudPersona: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

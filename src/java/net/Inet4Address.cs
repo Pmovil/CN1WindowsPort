@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.net {
 public class Inet4Address: global::java.net.InetAddress {
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: void <init>(byte[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -16,7 +16,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_END_WRAPPER[java.net.Inet4Address: void <init>(byte[])]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet4Address: void <init>(byte[], java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

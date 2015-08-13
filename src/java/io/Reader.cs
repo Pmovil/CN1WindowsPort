@@ -5,7 +5,7 @@ namespace java.io {
 public abstract class Reader: global::java.lang.Object,global::java.lang.Readable,global::java.io.Closeable {
 public global::java.lang.Object _flock;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.Reader: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -12,7 +12,7 @@ private global::java.nio.ByteBuffer _fbyteBuffer;
 
 public static bool _f_2assertionsDisabled;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.LongToByteBufferAdapter: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

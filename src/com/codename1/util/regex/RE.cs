@@ -210,7 +210,7 @@ public void @this(global::com.codename1.util.regex.REProgram n1){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void <init>(com.codename1.util.regex.REProgram)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

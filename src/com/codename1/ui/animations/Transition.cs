@@ -7,7 +7,7 @@ private global::com.codename1.ui.Component _fsource;
 
 private global::com.codename1.ui.Component _fdestination;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Transition: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

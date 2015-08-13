@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace com.codename1.charts.views {
 public class DialChart: global::com.codename1.charts.views.RoundChart {
 
-private global::com.codename1.charts.renderers.DialRenderer _fmRenderer;
+new private global::com.codename1.charts.renderers.DialRenderer _fmRenderer;
 
 public void @this(global::com.codename1.charts.models.CategorySeries n1, global::com.codename1.charts.renderers.DialRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.DialChart: void <init>(com.codename1.charts.models.CategorySeries, com.codename1.charts.renderers.DialRenderer)]

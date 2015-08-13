@@ -11,7 +11,7 @@ static Arrays() {
 
 public static bool _f_2assertionsDisabled;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Arrays: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -28,7 +28,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.Arrays: void <clinit>()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Arrays: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

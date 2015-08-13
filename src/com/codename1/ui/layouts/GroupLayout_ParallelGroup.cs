@@ -7,7 +7,7 @@ private int _fchildAlignment;
 
 private bool _fresizable;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void <init>(com.codename1.ui.layouts.GroupLayout, int, boolean)]

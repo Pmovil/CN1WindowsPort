@@ -6,7 +6,7 @@ public class InvalidClassException: global::java.io.ObjectStreamException {
 
 public global::java.lang.String _fclassname;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidClassException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

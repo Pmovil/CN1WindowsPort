@@ -3146,7 +3146,7 @@ public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[java.io.File: int compareTo(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.File: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

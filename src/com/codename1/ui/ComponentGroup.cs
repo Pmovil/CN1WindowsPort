@@ -13,7 +13,7 @@ private bool _fuiidsDirty;
 
 private bool _fforceGroup;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

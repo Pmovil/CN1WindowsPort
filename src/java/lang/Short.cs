@@ -19,7 +19,7 @@ public static int _fSIZE = 16;
 
 public static global::java.lang.Class _fTYPE;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Short: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

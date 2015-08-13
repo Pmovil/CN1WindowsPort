@@ -22,7 +22,7 @@ private static global::java.lang.String _fPKG_1DEF_1KEY;
 
 public bool _finCheck;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1095,7 +1095,7 @@ public virtual void checkPermission(global::java.security.Permission n1, global:
 //XMLVM_END_WRAPPER[java.lang.SecurityManager: void checkPermission(java.security.Permission, java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.SecurityManager: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

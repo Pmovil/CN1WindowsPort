@@ -52,7 +52,7 @@ public void @this(float n1, int n2, int n3, float n4){
 //XMLVM_END_WRAPPER[com.codename1.ui.Stroke: void <init>(float, int, int, float)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Stroke: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

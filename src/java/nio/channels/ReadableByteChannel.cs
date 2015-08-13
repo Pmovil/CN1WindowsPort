@@ -9,9 +9,9 @@ public abstract class _iReadableByteChannel {
 public interface ReadableByteChannel: global::java.nio.channels.Channel {
  int read(global::java.nio.ByteBuffer n1);
 
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.ReadableByteChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.ReadableByteChannel]

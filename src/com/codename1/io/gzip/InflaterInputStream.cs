@@ -21,7 +21,7 @@ private global::org.xmlvm._nArrayAdapter<sbyte> _fbyte1;
 
 private global::org.xmlvm._nArrayAdapter<sbyte> _fb;
 
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.InflaterInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

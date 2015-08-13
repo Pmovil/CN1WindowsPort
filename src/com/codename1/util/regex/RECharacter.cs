@@ -66,7 +66,7 @@ public static sbyte _fOTHER_1SYMBOL = 28;
 
 public static global::org.xmlvm._nArrayAdapter<sbyte> _fCHAR_1CLASSES;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -295,7 +295,7 @@ public static sbyte getType(char n1){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECharacter: byte getType(char)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

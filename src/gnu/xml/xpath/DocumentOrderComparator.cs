@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.xpath {
 public class DocumentOrderComparator: global::java.lang.Object,global::java.util.Comparator {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.DocumentOrderComparator: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

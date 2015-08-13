@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class ConstraintParser: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -53,7 +53,7 @@ public void @this(long n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Calendar: void <init>(long)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;
@@ -1062,7 +1062,7 @@ public static bool access_21400(global::com.codename1.ui.Calendar n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Calendar: boolean access$1400(com.codename1.ui.Calendar)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Calendar: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

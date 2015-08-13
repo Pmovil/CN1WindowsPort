@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class PossessiveCompositeQuantifierSet: global::java.util.regex.CompositeQuantifierSet {
-public void @this(global::java.util.regex.Quantifier n1, global::java.util.regex.LeafSet n2, global::java.util.regex.AbstractSet n3, int n4){
+new public void @this(global::java.util.regex.Quantifier n1, global::java.util.regex.LeafSet n2, global::java.util.regex.AbstractSet n3, int n4){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PossessiveCompositeQuantifierSet: void <init>(java.util.regex.Quantifier, java.util.regex.LeafSet, java.util.regex.AbstractSet, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -21,7 +21,7 @@ public static global::java.lang.Class _fTYPE;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fCACHE;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Byte: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

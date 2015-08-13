@@ -12,7 +12,7 @@ public static global::org.xmlvm._nArrayAdapter<int> _fdigitFitInInt;
 
 public static global::org.xmlvm._nArrayAdapter<int> _fbigRadices;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.math.Conversion: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -28,7 +28,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.math.Conversion: void <clinit>()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.math.Conversion: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

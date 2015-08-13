@@ -11,11 +11,11 @@ public interface GatheringByteChannel: global::java.nio.channels.WritableByteCha
 
  long write(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3);
 
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
- int write(global::java.nio.ByteBuffer n1);
+new  int write(global::java.nio.ByteBuffer n1);
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.GatheringByteChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.GatheringByteChannel]

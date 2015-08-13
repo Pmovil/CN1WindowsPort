@@ -57,7 +57,7 @@ public bool _fdone;
 
 public long _fmtime;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPHeader: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

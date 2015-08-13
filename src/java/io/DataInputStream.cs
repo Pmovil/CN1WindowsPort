@@ -5,7 +5,7 @@ namespace java.io {
 public class DataInputStream: global::java.io.FilterInputStream,global::java.io.DataInput {
 public global::org.xmlvm._nArrayAdapter<sbyte> _fbuff;
 
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.DataInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -92,7 +92,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fshortWeekdays;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _feras;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.text.DateFormatSymbols: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1200,7 +1200,7 @@ public override global::System.Object clone(){
 //XMLVM_END_WRAPPER[java.text.DateFormatSymbols: java.lang.Object clone()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.text.DateFormatSymbols: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -33,7 +33,7 @@ public static void setDefaultActAsSpinnerDialog(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void setDefaultActAsSpinnerDialog(boolean)]
 }
 
-public void @this(global::java.util.Vector n1){
+new public void @this(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.util.Vector)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -47,7 +47,7 @@ public void @this(global::java.util.Vector n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.util.Vector)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.lang.Object[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -61,7 +61,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void <init>(java.lang.Object[])]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -73,7 +73,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void <init>()]
 }
 
-public void @this(global::com.codename1.ui.list.ListModel n1){
+new public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <init>(com.codename1.ui.list.ListModel)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -940,7 +940,7 @@ public virtual void setActAsSpinnerDialog(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComboBox: void setActAsSpinnerDialog(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComboBox: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

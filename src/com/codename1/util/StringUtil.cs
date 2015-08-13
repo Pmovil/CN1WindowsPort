@@ -5,7 +5,7 @@ namespace com.codename1.util {
 public class StringUtil: global::java.lang.Object {
 private static global::com.codename1.impl.CodenameOneImplementation _fimpl;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.StringUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

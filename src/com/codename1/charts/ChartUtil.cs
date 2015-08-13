@@ -5,7 +5,7 @@ namespace com.codename1.charts {
 public class ChartUtil: global::java.lang.Object {
 private global::com.codename1.charts.compat.Canvas _fc;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.ChartUtil: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

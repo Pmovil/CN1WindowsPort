@@ -90,7 +90,7 @@ private static global::org.xmlvm._nArrayAdapter<double> _fatanlo;
 private static global::org.xmlvm._nArrayAdapter<double> _faT;
 
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.MathUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -2492,7 +2492,7 @@ public static long floor(double n1){
 //XMLVM_END_WRAPPER[com.codename1.util.MathUtil: long floor(double)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.MathUtil: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

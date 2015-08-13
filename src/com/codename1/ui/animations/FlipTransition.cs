@@ -32,7 +32,7 @@ private float _fzFar;
 
 private int _fduration;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.FlipTransition: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

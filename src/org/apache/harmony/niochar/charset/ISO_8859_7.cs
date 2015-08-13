@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.apache.harmony.niochar.charset {
 public class ISO_18859_17: global::java.nio.charset.Charset {
-public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
+new public void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_7: void <init>(java.lang.String, java.lang.String[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

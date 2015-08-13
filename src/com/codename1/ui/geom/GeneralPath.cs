@@ -28,7 +28,7 @@ private int _frule;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fpointShift;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;
@@ -2061,7 +2061,7 @@ public static global::System.Object access_2300(global::com.codename1.ui.geom.Ge
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: float[] access$300(com.codename1.ui.geom.GeneralPath)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

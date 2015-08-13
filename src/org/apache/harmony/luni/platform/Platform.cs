@@ -14,7 +14,7 @@ public static global::org.apache.harmony.luni.platform.IMemorySystem _fMEMORY_1S
 
 public static global::org.apache.harmony.luni.platform.INetworkSystem _fNETWORK_1SYSTEM;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -56,7 +56,7 @@ public static global::System.Object getNetworkSystem(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.Platform: org.apache.harmony.luni.platform.INetworkSystem getNetworkSystem()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Platform: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::org.apache.harmony.luni.platform.OSFileSystem.getOSFileSystem();

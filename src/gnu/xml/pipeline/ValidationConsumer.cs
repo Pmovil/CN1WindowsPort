@@ -41,7 +41,7 @@ private static global::gnu.xml.pipeline.ValidationConsumer_2Recognizer _fANY;
 
 
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -99,7 +99,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -110,7 +110,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <init>()]
 }
 
-public void @this(global::gnu.xml.pipeline.EventConsumer n1){
+new public void @this(global::gnu.xml.pipeline.EventConsumer n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.ValidationConsumer: void <init>(gnu.xml.pipeline.EventConsumer)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

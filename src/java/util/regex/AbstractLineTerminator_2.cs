@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class AbstractLineTerminator_22: global::java.util.regex.AbstractLineTerminator {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractLineTerminator$2: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

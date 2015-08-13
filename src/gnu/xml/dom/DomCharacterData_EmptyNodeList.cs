@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.dom {
 public class DomCharacterData_2EmptyNodeList: global::java.lang.Object,global::org.w3c.dom.NodeList {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomCharacterData$EmptyNodeList: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

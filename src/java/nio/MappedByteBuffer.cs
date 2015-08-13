@@ -7,7 +7,7 @@ public global::java.lang.Object _faddress;
 
 public int _fmapMode;
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.MappedByteBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

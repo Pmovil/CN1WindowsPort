@@ -589,7 +589,7 @@ public static global::System.Object access_2800(global::com.codename1.io.Oauth2 
 //XMLVM_END_WRAPPER[com.codename1.io.Oauth2: java.lang.String access$800(com.codename1.io.Oauth2)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Oauth2: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

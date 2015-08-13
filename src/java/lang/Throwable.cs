@@ -10,7 +10,7 @@ private global::java.lang.Throwable _fcause;
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _fstackTrace;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Throwable: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

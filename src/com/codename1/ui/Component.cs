@@ -370,7 +370,7 @@ public virtual global::System.Object getSameHeight(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Component: com.codename1.ui.Component[] getSameHeight()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -8002,7 +8002,7 @@ public static int access_2310(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Component: int access$310(com.codename1.ui.Component)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

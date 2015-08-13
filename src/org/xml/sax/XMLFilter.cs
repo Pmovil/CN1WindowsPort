@@ -11,33 +11,33 @@ public interface XMLFilter: global::org.xml.sax.XMLReader {
 
  global::System.Object getParent();
 
- global::System.Object getContentHandler();
+new  global::System.Object getContentHandler();
 
- global::System.Object getDTDHandler();
+new  global::System.Object getDTDHandler();
 
- global::System.Object getEntityResolver();
+new  global::System.Object getEntityResolver();
 
- global::System.Object getErrorHandler();
+new  global::System.Object getErrorHandler();
 
- bool getFeature(global::java.lang.String n1);
+new  bool getFeature(global::java.lang.String n1);
 
- global::System.Object getProperty(global::java.lang.String n1);
+new  global::System.Object getProperty(global::java.lang.String n1);
 
- void parse(global::java.lang.String n1);
+new  void parse(global::java.lang.String n1);
 
- void parse(global::org.xml.sax.InputSource n1);
+new  void parse(global::org.xml.sax.InputSource n1);
 
- void setContentHandler(global::org.xml.sax.ContentHandler n1);
+new  void setContentHandler(global::org.xml.sax.ContentHandler n1);
 
- void setDTDHandler(global::org.xml.sax.DTDHandler n1);
+new  void setDTDHandler(global::org.xml.sax.DTDHandler n1);
 
- void setEntityResolver(global::org.xml.sax.EntityResolver n1);
+new  void setEntityResolver(global::org.xml.sax.EntityResolver n1);
 
- void setErrorHandler(global::org.xml.sax.ErrorHandler n1);
+new  void setErrorHandler(global::org.xml.sax.ErrorHandler n1);
 
- void setFeature(global::java.lang.String n1, bool n2);
+new  void setFeature(global::java.lang.String n1, bool n2);
 
- void setProperty(global::java.lang.String n1, global::java.lang.Object n2);
+new  void setProperty(global::java.lang.String n1, global::java.lang.Object n2);
 
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.XMLFilter]
 //XMLVM_END_WRAPPER[org.xml.sax.XMLFilter]

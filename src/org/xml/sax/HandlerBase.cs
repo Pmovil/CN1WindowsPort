@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.xml.sax {
 public class HandlerBase: global::java.lang.Object,global::org.xml.sax.EntityResolver,global::org.xml.sax.DTDHandler,global::org.xml.sax.DocumentHandler,global::org.xml.sax.ErrorHandler {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.HandlerBase: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

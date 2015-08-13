@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public abstract class ObjectInputStream_2GetField: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectInputStream$GetField: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

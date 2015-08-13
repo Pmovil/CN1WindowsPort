@@ -30,7 +30,7 @@ public global::java.util.Properties _fdefaults;
 
 private static global::java.lang.String _flineSeparator;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Properties: void <init>()]
     org.xmlvm._nElement _r0;
     _r0.i = 0;

@@ -22,7 +22,7 @@ private static bool _fxmlVMInstanceofBugTested;
 
 private static global::java.lang.String _fignoreCharsWhenEncoding;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -3005,7 +3005,7 @@ private static bool downloadUrlTo(global::java.lang.String n1, global::java.lang
 //XMLVM_END_WRAPPER[com.codename1.io.Util: boolean downloadUrlTo(java.lang.String, java.lang.String, boolean, boolean, boolean, com.codename1.ui.events.ActionListener)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Util: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

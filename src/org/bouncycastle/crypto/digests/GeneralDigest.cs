@@ -10,7 +10,7 @@ private int _fxBufOff;
 
 private long _fbyteCount;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.digests.GeneralDigest: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

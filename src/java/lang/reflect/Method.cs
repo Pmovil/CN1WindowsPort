@@ -27,7 +27,7 @@ public static int _fPUBLIC = java.lang.reflect._iMember._fPUBLIC;
 
 public static int _fDECLARED = java.lang.reflect._iMember._fDECLARED;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Method: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

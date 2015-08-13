@@ -16,7 +16,7 @@ private static global::org.xmlvm._nArrayAdapter<int> _fBITS;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _foffsetPrimes;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.math.Primality: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -246,7 +246,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.math.Primality: void <clinit>()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.math.Primality: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

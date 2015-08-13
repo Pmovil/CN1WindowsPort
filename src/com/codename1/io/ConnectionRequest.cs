@@ -152,7 +152,7 @@ public static void setDefaultFollowRedirects(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: void setDefaultFollowRedirects(boolean)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -3554,7 +3554,7 @@ public virtual void setCookiesEnabled(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.io.ConnectionRequest: void setCookiesEnabled(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.ConnectionRequest: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

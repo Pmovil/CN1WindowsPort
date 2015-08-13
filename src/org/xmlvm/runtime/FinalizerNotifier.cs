@@ -18,7 +18,7 @@ private static bool _ffinalizerThreadInvokingFinalizers;
 
 private static bool _fgcEnabled;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -228,7 +228,7 @@ public static bool access_2400(){
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: boolean access$400()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.FinalizerNotifier: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public abstract class LayoutCallback: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.LayoutCallback: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2AscendingSubMapEntryIterator: global::java.util.TreeMap_2AscendingSubMapIterator,global::java.util.Iterator {
-public void @this(global::java.util.TreeMap_2NavigableSubMap n1){
+new public void @this(global::java.util.TreeMap_2NavigableSubMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$AscendingSubMapEntryIterator: void <init>(java.util.TreeMap$NavigableSubMap)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

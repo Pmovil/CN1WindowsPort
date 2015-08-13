@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.nio.channels {
 public abstract class FileChannel: global::java.nio.channels.spi.AbstractInterruptibleChannel,global::java.nio.channels.GatheringByteChannel,global::java.nio.channels.ScatteringByteChannel,global::java.nio.channels.ByteChannel {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.FileChannel: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

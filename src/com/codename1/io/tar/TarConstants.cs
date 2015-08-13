@@ -9,7 +9,7 @@ public static int _fDATA_1BLOCK = 512;
 
 public static int _fHEADER_1BLOCK = 512;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarConstants: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

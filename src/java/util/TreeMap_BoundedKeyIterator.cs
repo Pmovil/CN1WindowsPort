@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class TreeMap_2BoundedKeyIterator: global::java.util.TreeMap_2BoundedMapIterator,global::java.util.Iterator {
-public void @this(global::java.util.TreeMap_2Node n1, int n2, global::java.util.TreeMap n3, global::java.util.TreeMap_2Node n4, int n5){
+new public void @this(global::java.util.TreeMap_2Node n1, int n2, global::java.util.TreeMap n3, global::java.util.TreeMap_2Node n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$BoundedKeyIterator: void <init>(java.util.TreeMap$Node, int, java.util.TreeMap, java.util.TreeMap$Node, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

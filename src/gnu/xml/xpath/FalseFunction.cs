@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.xpath {
 public class FalseFunction: global::gnu.xml.xpath.Expr {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.FalseFunction: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

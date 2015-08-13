@@ -5,9 +5,9 @@ namespace com.codename1.ui.layouts {
 public class GroupLayout_2SequentialGroup: global::com.codename1.ui.layouts.GroupLayout_2Group {
 private global::com.codename1.ui.layouts.GroupLayout_2Spring _fbaselineSpring;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
-public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
+new public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SequentialGroup: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

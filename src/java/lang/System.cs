@@ -81,7 +81,7 @@ public static void setErr(global::java.io.PrintStream n1){
 //XMLVM_END_WRAPPER[java.lang.System: void setErr(java.io.PrintStream)]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1200,7 +1200,7 @@ public static void setSecurityManager(global::java.lang.SecurityManager n1){
 //XMLVM_END_WRAPPER[java.lang.System: void setSecurityManager(java.lang.SecurityManager)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.System: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = null;

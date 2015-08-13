@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.io.tar {
 public class TarUtils: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

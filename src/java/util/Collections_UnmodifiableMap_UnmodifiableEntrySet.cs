@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Collections_2UnmodifiableMap_2UnmodifiableEntrySet: global::java.util.Collections_2UnmodifiableSet {
 
-public void @this(global::java.util.Set n1){
+new public void @this(global::java.util.Set n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: void <init>(java.util.Set)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

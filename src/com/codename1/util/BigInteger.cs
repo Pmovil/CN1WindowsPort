@@ -39,7 +39,7 @@ private static global::org.xmlvm._nArrayAdapter<sbyte> _frndMask;
 
 private static global::org.xmlvm._nArrayAdapter<sbyte> _fbitCounts;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigInteger: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;
@@ -5431,7 +5431,7 @@ public virtual bool testBit(int n1){
 //XMLVM_END_WRAPPER[com.codename1.util.BigInteger: boolean testBit(int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.BigInteger: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

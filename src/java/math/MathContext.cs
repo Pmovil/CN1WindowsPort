@@ -25,7 +25,7 @@ private static global::org.xmlvm._nArrayAdapter<char> _fchPrecision;
 
 private static global::org.xmlvm._nArrayAdapter<char> _fchRoundingMode;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.math.MathContext: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

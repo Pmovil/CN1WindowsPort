@@ -54,7 +54,7 @@ private bool _fowner;
 
 private int _faccessPermissions;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -1370,7 +1370,7 @@ public static int access_2202(global::com.codename1.cloud.CloudObject n1, int n2
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject: int access$202(com.codename1.cloud.CloudObject, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.Hashtable();

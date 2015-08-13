@@ -10,7 +10,7 @@ static Expr() {
 
 public static global::java.util.Comparator _fdocumentOrderComparator;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -797,7 +797,7 @@ public static int intValue(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[gnu.xml.xpath.Expr: int intValue(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Expr: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::gnu.xml.xpath.DocumentOrderComparator();

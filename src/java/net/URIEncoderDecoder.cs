@@ -17,7 +17,7 @@ public static global::java.lang.String _fdigits;
 
 public static global::java.lang.String _fencoding;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URIEncoderDecoder: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

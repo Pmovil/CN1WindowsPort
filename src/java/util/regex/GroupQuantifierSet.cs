@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class GroupQuantifierSet: global::java.util.regex.QuantifierSet {
-public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2, int n3){
+new public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.AbstractSet n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.GroupQuantifierSet: void <init>(java.util.regex.AbstractSet, java.util.regex.AbstractSet, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

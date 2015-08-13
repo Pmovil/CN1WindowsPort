@@ -152,7 +152,7 @@ private int _flookAheadToc;
 
 private global::java.lang.String _forig;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Lexer: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = null;

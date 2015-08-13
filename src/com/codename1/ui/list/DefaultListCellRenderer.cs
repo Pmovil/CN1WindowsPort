@@ -20,7 +20,7 @@ private bool _frightAlignNumbers;
 
 private bool _falwaysRenderSelection;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -424,7 +424,7 @@ public virtual void setAlwaysRenderSelection(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setAlwaysRenderSelection(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

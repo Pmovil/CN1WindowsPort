@@ -222,7 +222,7 @@ private global::com.codename1.ui.util.EventDispatcher _flisteners;
 
 public global::java.lang.Object _froundRectCache;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -248,7 +248,7 @@ private global::java.util.Vector _fbackCommands;
 
 private global::java.lang.String _fhomeForm;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UIBuilder: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

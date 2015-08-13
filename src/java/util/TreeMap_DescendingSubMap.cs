@@ -6,7 +6,7 @@ public class TreeMap_2DescendingSubMap: global::java.util.TreeMap_2NavigableSubM
 
 private global::java.util.Comparator _freverseComparator;
 
-public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMap n3, global::java.lang.Object n4, bool n5){
+new public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMap n3, global::java.lang.Object n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.lang.Object, boolean, java.util.TreeMap, java.lang.Object, boolean)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -30,7 +30,7 @@ public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMa
 //XMLVM_END_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.lang.Object, boolean, java.util.TreeMap, java.lang.Object, boolean)]
 }
 
-public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMap n3){
+new public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMap n3){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.lang.Object, boolean, java.util.TreeMap)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -50,7 +50,7 @@ public void @this(global::java.lang.Object n1, bool n2, global::java.util.TreeMa
 //XMLVM_END_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.lang.Object, boolean, java.util.TreeMap)]
 }
 
-public void @this(global::java.util.TreeMap n1, global::java.lang.Object n2, bool n3){
+new public void @this(global::java.util.TreeMap n1, global::java.lang.Object n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.util.TreeMap, java.lang.Object, boolean)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -70,7 +70,7 @@ public void @this(global::java.util.TreeMap n1, global::java.lang.Object n2, boo
 //XMLVM_END_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.util.TreeMap, java.lang.Object, boolean)]
 }
 
-public void @this(global::java.util.TreeMap n1){
+new public void @this(global::java.util.TreeMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$DescendingSubMap: void <init>(java.util.TreeMap)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

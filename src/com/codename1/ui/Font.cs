@@ -38,7 +38,7 @@ private global::java.lang.Object _ffont;
 
 private bool _fttf;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -644,7 +644,7 @@ public virtual int getDescent(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: int getDescent()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

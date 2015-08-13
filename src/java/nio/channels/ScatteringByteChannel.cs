@@ -11,11 +11,11 @@ public interface ScatteringByteChannel: global::java.nio.channels.ReadableByteCh
 
  long read(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3);
 
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
- int read(global::java.nio.ByteBuffer n1);
+new  int read(global::java.nio.ByteBuffer n1);
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.ScatteringByteChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.ScatteringByteChannel]

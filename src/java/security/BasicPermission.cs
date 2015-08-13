@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.security {
 public abstract class BasicPermission: global::java.security.Permission,global::java.io.Serializable {
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.security.BasicPermission: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

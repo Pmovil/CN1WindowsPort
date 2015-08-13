@@ -10,7 +10,7 @@ static Charset_2IgnoreCaseComparator() {
 
 private static global::java.util.Comparator _fc;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.nio.charset.Charset_2IgnoreCaseComparator();
@@ -20,7 +20,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: void <clinit>()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset$IgnoreCaseComparator: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

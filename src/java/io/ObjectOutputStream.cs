@@ -92,7 +92,7 @@ public static sbyte _fTC_1ENUM = java.io._iObjectStreamConstants._fTC_1ENUM;
 
 public static sbyte _fSC_1ENUM = java.io._iObjectStreamConstants._fSC_1ENUM;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectOutputStream: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -21,35 +21,35 @@ public interface ObjectInput: global::java.io.DataInput {
 
  long skip(long n1);
 
- bool readBoolean();
+new  bool readBoolean();
 
- sbyte readByte();
+new  sbyte readByte();
 
- char readChar();
+new  char readChar();
 
- double readDouble();
+new  double readDouble();
 
- float readFloat();
+new  float readFloat();
 
- void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1);
+new  void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1);
 
- void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
+new  void readFully(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
 
- int readInt();
+new  int readInt();
 
- global::System.Object readLine();
+new  global::System.Object readLine();
 
- long readLong();
+new  long readLong();
 
- short readShort();
+new  short readShort();
 
- global::System.Object readUTF();
+new  global::System.Object readUTF();
 
- int readUnsignedByte();
+new  int readUnsignedByte();
 
- int readUnsignedShort();
+new  int readUnsignedShort();
 
- int skipBytes(int n1);
+new  int skipBytes(int n1);
 
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectInput]
 //XMLVM_END_WRAPPER[java.io.ObjectInput]

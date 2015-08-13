@@ -60,7 +60,7 @@ private void @this(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.StaticTree: void <init>(short[], int[], int, int, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.StaticTree: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -120,7 +120,7 @@ public void @this(int n1, int n2, int n3, int n4, double n5, double n6, int n7, 
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagConstraints: void <init>(int, int, int, int, double, double, int, int, com.codename1.ui.layouts.Insets, int, int)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagConstraints: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

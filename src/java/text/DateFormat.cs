@@ -17,7 +17,7 @@ private int _fdateStyle;
 
 private int _ftimeStyle;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.text.DateFormat: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

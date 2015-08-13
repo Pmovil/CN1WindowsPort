@@ -18,7 +18,7 @@ public global::java.util.NavigableMap _fdescendingMap;
 
 public global::java.util.NavigableSet _fnavigableKeySet;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

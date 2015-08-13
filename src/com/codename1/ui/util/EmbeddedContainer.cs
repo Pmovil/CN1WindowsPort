@@ -5,7 +5,7 @@ namespace com.codename1.ui.util {
 public class EmbeddedContainer: global::com.codename1.ui.Container {
 private global::java.lang.String _fembed;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EmbeddedContainer: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

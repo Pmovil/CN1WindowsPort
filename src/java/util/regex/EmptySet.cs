@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class EmptySet: global::java.util.regex.LeafSet {
-public void @this(global::java.util.regex.AbstractSet n1){
+new public void @this(global::java.util.regex.AbstractSet n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.EmptySet: void <init>(java.util.regex.AbstractSet)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

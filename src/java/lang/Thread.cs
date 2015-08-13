@@ -460,7 +460,7 @@ private void initThread(global::java.lang.ThreadGroup n1, global::java.lang.Runn
 //XMLVM_END_WRAPPER[java.lang.Thread: void initThread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Thread: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -2485,7 +2485,7 @@ public virtual void setWaitingCondition(global::org.xmlvm.runtime.Condition n1){
 //XMLVM_END_WRAPPER[java.lang.Thread: void setWaitingCondition(org.xmlvm.runtime.Condition)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Thread: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

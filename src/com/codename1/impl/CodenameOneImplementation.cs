@@ -78,7 +78,7 @@ private static global::java.lang.Runnable _fonExit;
 
 private bool _fuseNativeCookieStore;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneImplementation: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -9366,7 +9366,7 @@ public static int access_2300(){
 //XMLVM_END_WRAPPER[com.codename1.impl.CodenameOneImplementation: int access$300()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.CodenameOneImplementation: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 10800000;

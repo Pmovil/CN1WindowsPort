@@ -20,7 +20,7 @@ public static int _fMMAP_1READ_1WRITE = org.apache.harmony.luni.platform._iIMemo
 
 public static int _fMMAP_1WRITE_1COPY = org.apache.harmony.luni.platform._iIMemorySystem._fMMAP_1WRITE_1COPY;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -56,7 +56,7 @@ private static bool isLittleEndianImpl(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.OSMemory: boolean isLittleEndianImpl()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSMemory: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

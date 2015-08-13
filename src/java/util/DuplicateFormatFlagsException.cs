@@ -6,7 +6,7 @@ public class DuplicateFormatFlagsException: global::java.util.IllegalFormatExcep
 
 private global::java.lang.String _fflags;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.util.DuplicateFormatFlagsException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

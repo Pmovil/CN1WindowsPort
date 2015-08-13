@@ -67,7 +67,7 @@ public interface HTMLCallback: global::com.codename1.xml.ParserCallback,global::
 
  void dataChanged(int n1, int n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.TextField n4, global::com.codename1.ui.html.HTMLElement n5);
 
- bool parsingError(int n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5);
+new  bool parsingError(int n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5);
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLCallback]
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLCallback]

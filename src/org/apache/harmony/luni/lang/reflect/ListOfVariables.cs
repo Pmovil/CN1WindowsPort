@@ -14,7 +14,7 @@ public global::java.util.ArrayList _farray;
 
 public int _fn;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfVariables: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -59,7 +59,7 @@ public virtual global::System.Object getArray(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfVariables: java.lang.reflect.TypeVariable[] getArray()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfVariables: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -9,7 +9,7 @@ public bool _for;
 
 public global::java.lang.String _fregex;
 
-public global::gnu.xml.stream.XMLParser _fthis_20;
+new public global::gnu.xml.stream.XMLParser _fthis_20;
 
 public void @this(global::gnu.xml.stream.XMLParser n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$ElementContentModel: void <init>(gnu.xml.stream.XMLParser)]

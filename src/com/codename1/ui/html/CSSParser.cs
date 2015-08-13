@@ -14,7 +14,7 @@ private static global::com.codename1.ui.html.CSSParser _finstance;
 
 private global::com.codename1.ui.html.CSSParserCallback _fparserCallback;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1711,7 +1711,7 @@ public virtual void setCSSParserCallback(global::com.codename1.ui.html.CSSParser
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSParser: void setCSSParserCallback(com.codename1.ui.html.CSSParserCallback)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

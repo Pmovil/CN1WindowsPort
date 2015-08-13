@@ -7,9 +7,9 @@ public abstract class _iInterruptibleChannel {
 } // end of abstract class: _iInterruptibleChannel
 
 public interface InterruptibleChannel: global::java.nio.channels.Channel {
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.InterruptibleChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.InterruptibleChannel]

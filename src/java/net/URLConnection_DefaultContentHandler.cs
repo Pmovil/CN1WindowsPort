@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.net {
 public class URLConnection_2DefaultContentHandler: global::java.net.ContentHandler {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.URLConnection$DefaultContentHandler: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -48,7 +48,7 @@ public global::org.xmlvm._nArrayAdapter<int> _fu;
 
 public global::org.xmlvm._nArrayAdapter<int> _fx;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.InfTree: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -918,7 +918,7 @@ private void initWorkArea(int n1){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfTree: void initWorkArea(int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.InfTree: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

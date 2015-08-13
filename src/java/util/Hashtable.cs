@@ -27,7 +27,7 @@ private static global::java.util.Enumeration _fEMPTY_1ENUMERATION;
 
 private static global::java.util.Iterator _fEMPTY_1ITERATOR;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.Hashtable_21();
@@ -55,7 +55,7 @@ private static global::System.Object newEntry(global::java.lang.Object n1, globa
 //XMLVM_END_WRAPPER[java.util.Hashtable: java.util.Hashtable$Entry newEntry(java.lang.Object, java.lang.Object, int)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

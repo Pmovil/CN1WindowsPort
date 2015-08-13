@@ -17,63 +17,63 @@ public interface ContainerWrapper: global::com.codename1.ui.layouts.mig.Componen
 
  void paintDebugCell(int n1, int n2, int n3, int n4);
 
- int getBaseline(int n1, int n2);
+new  int getBaseline(int n1, int n2);
 
- int getComponentType(bool n1);
+new  int getComponentType(bool n1);
 
- global::System.Object getComponent();
+new  global::System.Object getComponent();
 
- int getContentBias();
+new  int getContentBias();
 
- int getHeight();
+new  int getHeight();
 
- int getHorizontalScreenDPI();
+new  int getHorizontalScreenDPI();
 
- int getLayoutHashCode();
+new  int getLayoutHashCode();
 
- global::System.Object getLinkId();
+new  global::System.Object getLinkId();
 
- int getMaximumHeight(int n1);
+new  int getMaximumHeight(int n1);
 
- int getMaximumWidth(int n1);
+new  int getMaximumWidth(int n1);
 
- int getMinimumHeight(int n1);
+new  int getMinimumHeight(int n1);
 
- int getMinimumWidth(int n1);
+new  int getMinimumWidth(int n1);
 
- global::System.Object getParent();
+new  global::System.Object getParent();
 
- float getPixelUnitFactor(bool n1);
+new  float getPixelUnitFactor(bool n1);
 
- int getPreferredHeight(int n1);
+new  int getPreferredHeight(int n1);
 
- int getPreferredWidth(int n1);
+new  int getPreferredWidth(int n1);
 
- int getScreenHeight();
+new  int getScreenHeight();
 
- int getScreenLocationX();
+new  int getScreenLocationX();
 
- int getScreenLocationY();
+new  int getScreenLocationY();
 
- int getScreenWidth();
+new  int getScreenWidth();
 
- int getVerticalScreenDPI();
+new  int getVerticalScreenDPI();
 
- global::System.Object getVisualPadding();
+new  global::System.Object getVisualPadding();
 
- int getWidth();
+new  int getWidth();
 
- int getX();
+new  int getX();
 
- int getY();
+new  int getY();
 
- bool hasBaseline();
+new  bool hasBaseline();
 
- bool isVisible();
+new  bool isVisible();
 
- void paintDebugOutline(bool n1);
+new  void paintDebugOutline(bool n1);
 
- void setBounds(int n1, int n2, int n3, int n4);
+new  void setBounds(int n1, int n2, int n3, int n4);
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ContainerWrapper]
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ContainerWrapper]

@@ -43,45 +43,45 @@ public interface NavigableMap: global::java.util.SortedMap {
 
  global::System.Object tailMap(global::java.lang.Object n1, bool n2);
 
- void clear();
+new  void clear();
 
- global::System.Object comparator();
+new  global::System.Object comparator();
 
- bool containsKey(global::java.lang.Object n1);
+new  bool containsKey(global::java.lang.Object n1);
 
- bool containsValue(global::java.lang.Object n1);
+new  bool containsValue(global::java.lang.Object n1);
 
- global::System.Object entrySet();
+new  global::System.Object entrySet();
 
- bool equals(global::java.lang.Object n1);
+new  bool equals(global::java.lang.Object n1);
 
- global::System.Object firstKey();
+new  global::System.Object firstKey();
 
- global::System.Object get(global::java.lang.Object n1);
+new  global::System.Object get(global::java.lang.Object n1);
 
- int hashCode();
+new  int hashCode();
 
- global::System.Object headMap(global::java.lang.Object n1);
+new  global::System.Object headMap(global::java.lang.Object n1);
 
- bool isEmpty();
+new  bool isEmpty();
 
- global::System.Object keySet();
+new  global::System.Object keySet();
 
- global::System.Object lastKey();
+new  global::System.Object lastKey();
 
- void putAll(global::java.util.Map n1);
+new  void putAll(global::java.util.Map n1);
 
- global::System.Object put(global::java.lang.Object n1, global::java.lang.Object n2);
+new  global::System.Object put(global::java.lang.Object n1, global::java.lang.Object n2);
 
- global::System.Object remove(global::java.lang.Object n1);
+new  global::System.Object remove(global::java.lang.Object n1);
 
- int size();
+new  int size();
 
- global::System.Object subMap(global::java.lang.Object n1, global::java.lang.Object n2);
+new  global::System.Object subMap(global::java.lang.Object n1, global::java.lang.Object n2);
 
- global::System.Object tailMap(global::java.lang.Object n1);
+new  global::System.Object tailMap(global::java.lang.Object n1);
 
- global::System.Object values();
+new  global::System.Object values();
 
 //XMLVM_BEGIN_WRAPPER[java.util.NavigableMap]
 //XMLVM_END_WRAPPER[java.util.NavigableMap]

@@ -39,7 +39,7 @@ public static global::java.lang.RuntimePermission _fpermissionToStopThread;
 
 public static global::java.lang.RuntimePermission _fpermissionToSetContextClassLoader;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.RuntimePermission: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -137,7 +137,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.lang.RuntimePermission: void <clinit>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.RuntimePermission: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -148,7 +148,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[java.lang.RuntimePermission: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.lang.String n1, global::java.lang.String n2){
+new public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.RuntimePermission: void <init>(java.lang.String, java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

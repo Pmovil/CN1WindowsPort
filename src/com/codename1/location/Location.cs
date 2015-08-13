@@ -19,7 +19,7 @@ private float _fvelocity;
 
 private long _ftimeStamp;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

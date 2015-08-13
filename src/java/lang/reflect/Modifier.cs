@@ -37,7 +37,7 @@ public static int _fANNOTATION = 8192;
 
 public static int _fENUM = 16384;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.reflect.Modifier: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

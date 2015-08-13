@@ -6,7 +6,7 @@ public class ClassNotFoundException: global::java.lang.Exception {
 
 private global::java.lang.Throwable _fex;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -17,7 +17,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[java.lang.ClassNotFoundException: void <init>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -30,7 +30,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[java.lang.ClassNotFoundException: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
+new public void @this(global::java.lang.String n1, global::java.lang.Throwable n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.ClassNotFoundException: void <init>(java.lang.String, java.lang.Throwable)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

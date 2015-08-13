@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class PosCompositeGroupQuantifierSet: global::java.util.regex.CompositeGroupQuantifierSet {
-public void @this(global::java.util.regex.Quantifier n1, global::java.util.regex.AbstractSet n2, global::java.util.regex.AbstractSet n3, int n4, int n5){
+new public void @this(global::java.util.regex.Quantifier n1, global::java.util.regex.AbstractSet n2, global::java.util.regex.AbstractSet n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.PosCompositeGroupQuantifierSet: void <init>(java.util.regex.Quantifier, java.util.regex.AbstractSet, java.util.regex.AbstractSet, int, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

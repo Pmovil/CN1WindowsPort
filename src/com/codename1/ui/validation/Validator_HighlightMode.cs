@@ -49,7 +49,7 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator$HighlightMode: com.codename1.ui.validation.Validator$HighlightMode valueOf(java.lang.String)]
 }
 
-private void @this(global::java.lang.String n1, int n2){
+new private void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator$HighlightMode: void <init>(java.lang.String, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -62,7 +62,7 @@ private void @this(global::java.lang.String n1, int n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator$HighlightMode: void <init>(java.lang.String, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator$HighlightMode: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

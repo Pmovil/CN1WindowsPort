@@ -9,7 +9,7 @@ private global::com.codename1.components.MultiButton _funsel;
 
 private global::com.codename1.ui.Image _fplaceholder;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

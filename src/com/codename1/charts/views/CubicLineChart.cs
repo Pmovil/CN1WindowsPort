@@ -10,7 +10,7 @@ static CubicLineChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99))}));
 }
 
-public static global::java.lang.String _fTYPE;
+new public static global::java.lang.String _fTYPE;
 
 private float _fmFirstMultiplier;
 
@@ -18,7 +18,7 @@ private float _fmSecondMultiplier;
 
 private global::com.codename1.charts.compat.PathMeasure _fmPathMeasure;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CubicLineChart: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

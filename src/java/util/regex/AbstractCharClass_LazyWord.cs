@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class AbstractCharClass_2LazyWord: global::java.util.regex.AbstractCharClass_2LazyCharClass {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyWord: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

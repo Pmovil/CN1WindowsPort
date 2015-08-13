@@ -41,7 +41,7 @@ private void @this(int n1, global::java.lang.Object n2){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.PriviAction: void <init>(int, java.lang.Object)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.PriviAction: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

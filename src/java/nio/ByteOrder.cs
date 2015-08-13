@@ -16,7 +16,7 @@ private static global::java.nio.ByteOrder _fNATIVE_1ORDER;
 
 private global::java.lang.String _fname;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.ByteOrder: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

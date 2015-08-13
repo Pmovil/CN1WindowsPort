@@ -7,7 +7,7 @@ public global::java.util.regex.AbstractCharClass _fposValue;
 
 public global::java.util.regex.AbstractCharClass _fnegValue;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.AbstractCharClass$LazyCharClass: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

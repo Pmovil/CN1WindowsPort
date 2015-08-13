@@ -74,7 +74,7 @@ private global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header _
 
 private global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header _fresHeader;
 
-public void @this(global::java.net.URL n1){
+new public void @this(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: void <init>(java.net.URL)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -445,7 +445,7 @@ public virtual void endRequest(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: void endRequest()]
 }
 
-public static global::System.Object getDefaultRequestProperty(global::java.lang.String n1){
+new public static global::System.Object getDefaultRequestProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: java.lang.String getDefaultRequestProperty(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -1466,7 +1466,7 @@ private global::System.Object createRequest(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: byte[] createRequest()]
 }
 
-public static void setDefaultRequestProperty(global::java.lang.String n1, global::java.lang.String n2){
+new public static void setDefaultRequestProperty(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: void setDefaultRequestProperty(java.lang.String, java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -2202,7 +2202,7 @@ public static global::System.Object access_21200(global::org.apache.harmony.luni
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: java.io.OutputStream access$1200(org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::org.apache.harmony.luni.@internal.net.www.protocol.http.Header();

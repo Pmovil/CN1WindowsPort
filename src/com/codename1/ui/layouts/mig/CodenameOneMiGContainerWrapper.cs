@@ -3,47 +3,47 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class CodenameOneMiGContainerWrapper: global::com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper,global::com.codename1.ui.layouts.mig.ContainerWrapper {
-public static int _fTYPE_1UNSET = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNSET;
+new public static int _fTYPE_1UNSET = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNSET;
 
-public static int _fTYPE_1UNKNOWN = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNKNOWN;
+new public static int _fTYPE_1UNKNOWN = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNKNOWN;
 
-public static int _fTYPE_1CONTAINER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CONTAINER;
+new public static int _fTYPE_1CONTAINER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CONTAINER;
 
-public static int _fTYPE_1LABEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LABEL;
+new public static int _fTYPE_1LABEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LABEL;
 
-public static int _fTYPE_1TEXT_1FIELD = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1FIELD;
+new public static int _fTYPE_1TEXT_1FIELD = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1FIELD;
 
-public static int _fTYPE_1TEXT_1AREA = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1AREA;
+new public static int _fTYPE_1TEXT_1AREA = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1AREA;
 
-public static int _fTYPE_1BUTTON = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1BUTTON;
+new public static int _fTYPE_1BUTTON = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1BUTTON;
 
-public static int _fTYPE_1LIST = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LIST;
+new public static int _fTYPE_1LIST = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LIST;
 
-public static int _fTYPE_1TABLE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABLE;
+new public static int _fTYPE_1TABLE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABLE;
 
-public static int _fTYPE_1SCROLL_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1PANE;
+new public static int _fTYPE_1SCROLL_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1PANE;
 
-public static int _fTYPE_1IMAGE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1IMAGE;
+new public static int _fTYPE_1IMAGE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1IMAGE;
 
-public static int _fTYPE_1PANEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PANEL;
+new public static int _fTYPE_1PANEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PANEL;
 
-public static int _fTYPE_1COMBO_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1COMBO_1BOX;
+new public static int _fTYPE_1COMBO_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1COMBO_1BOX;
 
-public static int _fTYPE_1SLIDER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SLIDER;
+new public static int _fTYPE_1SLIDER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SLIDER;
 
-public static int _fTYPE_1SPINNER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SPINNER;
+new public static int _fTYPE_1SPINNER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SPINNER;
 
-public static int _fTYPE_1PROGRESS_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PROGRESS_1BAR;
+new public static int _fTYPE_1PROGRESS_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PROGRESS_1BAR;
 
-public static int _fTYPE_1TREE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TREE;
+new public static int _fTYPE_1TREE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TREE;
 
-public static int _fTYPE_1CHECK_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CHECK_1BOX;
+new public static int _fTYPE_1CHECK_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CHECK_1BOX;
 
-public static int _fTYPE_1SCROLL_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1BAR;
+new public static int _fTYPE_1SCROLL_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1BAR;
 
-public static int _fTYPE_1SEPARATOR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SEPARATOR;
+new public static int _fTYPE_1SEPARATOR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SEPARATOR;
 
-public static int _fTYPE_1TABBED_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABBED_1PANE;
+new public static int _fTYPE_1TABBED_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABBED_1PANE;
 
 public void @this(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: void <init>(com.codename1.ui.Container)]

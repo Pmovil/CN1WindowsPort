@@ -21,7 +21,7 @@ private global::javax.xml.parsers.SAXParserFactory _fpf;
 
 private bool _fsecureProcessing;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.JAXPFactory: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

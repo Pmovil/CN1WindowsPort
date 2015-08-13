@@ -5,7 +5,7 @@ namespace com.codename1.charts.views {
 public class PieChart: global::com.codename1.charts.views.RoundChart {
 private global::com.codename1.charts.views.PieMapper _fmPieMapper;
 
-public void @this(global::com.codename1.charts.models.CategorySeries n1, global::com.codename1.charts.renderers.DefaultRenderer n2){
+new public void @this(global::com.codename1.charts.models.CategorySeries n1, global::com.codename1.charts.renderers.DefaultRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieChart: void <init>(com.codename1.charts.models.CategorySeries, com.codename1.charts.renderers.DefaultRenderer)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

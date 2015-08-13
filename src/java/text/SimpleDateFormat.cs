@@ -52,7 +52,7 @@ private global::java.lang.String _fpattern;
 
 private global::java.util.List _fpatternTokens;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.text.SimpleDateFormat: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

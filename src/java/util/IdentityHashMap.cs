@@ -21,7 +21,7 @@ public int _fmodCount;
 
 private static global::java.lang.Object _fNULL_1OBJECT;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.lang.Object();
@@ -31,7 +31,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.IdentityHashMap: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.IdentityHashMap: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

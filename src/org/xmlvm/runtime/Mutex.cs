@@ -71,7 +71,7 @@ namespace org.xmlvm.runtime
             //XMLVM_END_WRAPPER[org.xmlvm.runtime.Mutex: void destroyNativeMutex(java.lang.Object)]
         }
 
-        public void @this()
+new         public void @this()
         {
             //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.Mutex: void <init>()]
             global::org.xmlvm._nElement _r0;
@@ -110,7 +110,7 @@ namespace org.xmlvm.runtime
             //XMLVM_END_WRAPPER[org.xmlvm.runtime.Mutex: void unlock()]
         }
 
-        public static void @static()
+new         public static void @static()
         {
             //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.Mutex: void <clinit>()]
             global::org.xmlvm._nElement _r0;

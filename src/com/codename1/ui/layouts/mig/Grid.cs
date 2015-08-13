@@ -7165,7 +7165,7 @@ public static global::System.Object access_25500(global::org.xmlvm._nArrayAdapte
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.Grid: java.lang.Float[] access$5500(com.codename1.ui.layouts.mig.DimConstraint[], java.lang.Float[], int, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

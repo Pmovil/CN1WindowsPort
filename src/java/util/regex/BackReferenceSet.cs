@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class BackReferenceSet: global::java.util.regex.CIBackReferenceSet {
-public void @this(int n1, int n2){
+new public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.BackReferenceSet: void <init>(int, int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

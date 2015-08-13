@@ -5,7 +5,7 @@ namespace java.io {
 public class SerializablePermission: global::java.security.BasicPermission {
 
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.SerializablePermission: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -16,7 +16,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[java.io.SerializablePermission: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.lang.String n1, global::java.lang.String n2){
+new public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.io.SerializablePermission: void <init>(java.lang.String, java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

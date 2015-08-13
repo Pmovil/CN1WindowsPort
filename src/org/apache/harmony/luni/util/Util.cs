@@ -14,7 +14,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fMONTHS;
 
 private static global::java.lang.String _fdefaultEncoding;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Util: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -1142,7 +1142,7 @@ public static global::System.Object toASCIIUpperCase(global::java.lang.String n1
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.Util: java.lang.String toASCIIUpperCase(java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Util: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

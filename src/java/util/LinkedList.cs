@@ -8,7 +8,7 @@ public int _fsize;
 
 public global::java.util.LinkedList_2Link _fvoidLink;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.LinkedList: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

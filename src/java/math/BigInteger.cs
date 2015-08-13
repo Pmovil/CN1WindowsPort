@@ -41,7 +41,7 @@ private global::org.xmlvm._nArrayAdapter<sbyte> _fmagnitude;
 
 private int _fhashCode;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.math.BigInteger: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

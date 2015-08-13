@@ -60,7 +60,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fEMPTY_1
 
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _flinkTargets;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CC: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -2511,7 +2511,7 @@ public virtual void setNewlineGapSize(global::com.codename1.ui.layouts.mig.Bound
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CC: void setNewlineGapSize(com.codename1.ui.layouts.mig.BoundSize)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CC: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

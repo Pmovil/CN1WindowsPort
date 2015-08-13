@@ -10,7 +10,7 @@ static Base64() {
 
 private static global::org.xmlvm._nArrayAdapter<sbyte> _fmap;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.Base64: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -521,7 +521,7 @@ public static global::System.Object encodeNoNewline(global::org.xmlvm._nArrayAda
 //XMLVM_END_WRAPPER[com.codename1.util.Base64: java.lang.String encodeNoNewline(byte[])]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.Base64: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

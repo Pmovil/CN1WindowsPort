@@ -196,7 +196,7 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: java.lang.String toString()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.lang.reflect.ListOfTypes: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

@@ -11,7 +11,7 @@ private global::com.codename1.ui.util.EventDispatcher _fdispatcher;
 
 private global::com.codename1.ui.Font _ff;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.PointsLayer: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -61,7 +61,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.maps.layers.PointsLayer: void <init>(java.lang.String)]
 }
 
-public void @this(global::com.codename1.maps.Projection n1, global::java.lang.String n2){
+new public void @this(global::com.codename1.maps.Projection n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.PointsLayer: void <init>(com.codename1.maps.Projection, java.lang.String)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

@@ -39,7 +39,7 @@ private int _fstartTime;
 
 private int _fendTime;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.AnimationObject: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

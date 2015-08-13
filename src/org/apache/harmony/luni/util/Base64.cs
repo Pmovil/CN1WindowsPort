@@ -10,7 +10,7 @@ static Base64() {
 
 private static global::org.xmlvm._nArrayAdapter<sbyte> _fmap;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Base64: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -22,7 +22,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.Base64: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Base64: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -16,7 +16,7 @@ public static global::java.nio.charset.CodingErrorAction _fREPORT;
 
 private global::java.lang.String _faction;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CodingErrorAction: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

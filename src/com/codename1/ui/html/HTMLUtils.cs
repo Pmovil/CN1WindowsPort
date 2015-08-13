@@ -14,7 +14,7 @@ private static global::org.xmlvm._nArrayAdapter<int> _fXML_1CHAR_1ENTITIES_1VALS
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fHTML_1BASIC_1CHAR_1ENTITY_1STRINGS;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -452,7 +452,7 @@ public static int getStringVal(global::java.lang.String n1, global::org.xmlvm._n
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLUtils: int getStringVal(java.lang.String, java.lang.String[], int[], int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLUtils: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

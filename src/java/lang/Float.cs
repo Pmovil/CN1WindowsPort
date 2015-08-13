@@ -31,7 +31,7 @@ public static int _fMIN_1EXPONENT = -126;
 
 public static int _fSIZE = 32;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Float: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

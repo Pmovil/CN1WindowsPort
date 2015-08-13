@@ -36,7 +36,7 @@ public static int _fTCP_1NODELAY = 4;
 
 public static int _fFLAG_1SHUTDOWN = 8;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.Socket: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -2059,7 +2059,7 @@ public virtual void setPerformancePreferences(int n1, int n2, int n3){
 //XMLVM_END_WRAPPER[java.net.Socket: void setPerformancePreferences(int, int, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Socket: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

@@ -13,7 +13,7 @@ private global::java.lang.String _fencoding;
 
 private global::java.io.Reader _fcharacterStream;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.InputSource: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -27,7 +27,7 @@ public static global::System.Object copy(global::java.nio.FloatArrayBuffer n1, i
 //XMLVM_END_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: java.nio.ReadWriteFloatArrayBuffer copy(java.nio.FloatArrayBuffer, int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<float> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<float> n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: void <init>(float[])]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -38,7 +38,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<float> n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: void <init>(float[])]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -49,7 +49,7 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: void <init>(int)]
 }
 
-public void @this(int n1, global::org.xmlvm._nArrayAdapter<float> n2, int n3){
+new public void @this(int n1, global::org.xmlvm._nArrayAdapter<float> n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.nio.ReadWriteFloatArrayBuffer: void <init>(int, float[], int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

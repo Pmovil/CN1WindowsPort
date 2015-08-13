@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.nio.charset {
 public class CharacterCodingException: global::java.io.IOException {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.CharacterCodingException: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

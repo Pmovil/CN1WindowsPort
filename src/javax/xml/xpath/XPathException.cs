@@ -6,7 +6,7 @@ public class XPathException: global::java.lang.Exception {
 
 public global::java.lang.Throwable _fcause;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -17,7 +17,7 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[javax.xml.xpath.XPathException: void <init>(java.lang.String)]
 }
 
-public void @this(global::java.lang.Throwable n1){
+new public void @this(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.xpath.XPathException: void <init>(java.lang.Throwable)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

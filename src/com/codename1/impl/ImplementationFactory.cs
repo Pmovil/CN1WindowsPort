@@ -10,7 +10,7 @@ static ImplementationFactory() {
 
 private static global::com.codename1.impl.ImplementationFactory _finstance;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.ImplementationFactory: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -72,7 +72,7 @@ public virtual global::System.Object createImplementation(){
 //XMLVM_END_WRAPPER[com.codename1.impl.ImplementationFactory: java.lang.Object createImplementation()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.impl.ImplementationFactory: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

@@ -93,7 +93,7 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _floadFields;
 
 private long _fconstructor;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -194,7 +194,7 @@ public virtual long getConstructor(){
 //XMLVM_END_WRAPPER[java.io.ObjectStreamClass: long getConstructor()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r2_o = null;

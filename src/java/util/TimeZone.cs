@@ -23,7 +23,7 @@ private global::java.lang.String _fID;
 
 private global::java.lang.Object _ficuTimeZone;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.TimeZone: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -200,7 +200,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 //XMLVM_END_WRAPPER[java.util.TimeZone: void appendAvailableZones(java.lang.String)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.TimeZone: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

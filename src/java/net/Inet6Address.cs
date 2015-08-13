@@ -9,13 +9,13 @@ static Inet6Address() {
 }
 
 
-public static global::org.xmlvm._nArrayAdapter<sbyte> _fany_1bytes;
+new public static global::org.xmlvm._nArrayAdapter<sbyte> _fany_1bytes;
 
-public static global::org.xmlvm._nArrayAdapter<sbyte> _flocalhost_1bytes;
+new public static global::org.xmlvm._nArrayAdapter<sbyte> _flocalhost_1bytes;
 
-public static global::java.net.InetAddress _fANY;
+new public static global::java.net.InetAddress _fANY;
 
-public static global::java.net.InetAddress _fLOOPBACK;
+new public static global::java.net.InetAddress _fLOOPBACK;
 
 public int _fscope_1id;
 
@@ -29,7 +29,7 @@ public global::java.net.NetworkInterface _fscopedIf;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fserialPersistentFields;
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet6Address: void <init>(byte[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -44,7 +44,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_END_WRAPPER[java.net.Inet6Address: void <init>(byte[])]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
+new public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet6Address: void <init>(byte[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -773,7 +773,7 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[java.net.Inet6Address: java.lang.String toString()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Inet6Address: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

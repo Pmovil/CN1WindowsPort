@@ -59,7 +59,7 @@ public static int _fTYPE_1STRING_1ARRAY = 26;
 
 public static int _fTYPE_1EXTERNALIABLE = 1000;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

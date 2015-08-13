@@ -42,7 +42,7 @@ public int _fbracketOpt;
 
 public static global::java.util.HashMap _fhashPOSIX;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECompiler: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -2327,7 +2327,7 @@ public virtual global::System.Object compile(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECompiler: com.codename1.util.regex.REProgram compile(java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECompiler: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

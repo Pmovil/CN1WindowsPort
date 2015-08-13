@@ -5,7 +5,7 @@ namespace com.codename1.ui.spinner {
 public abstract class BaseSpinner: global::com.codename1.ui.Container {
 private global::com.codename1.ui.plaf.Style _foverlayStyle;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.BaseSpinner: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

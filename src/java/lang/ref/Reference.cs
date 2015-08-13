@@ -5,7 +5,7 @@ namespace java.lang.@ref {
 public abstract class Reference: global::java.lang.Object {
 public global::java.lang.Object _fobj;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.ref.Reference: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

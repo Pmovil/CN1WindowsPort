@@ -21,7 +21,7 @@ public static int _fSOCKET_1CONNECT_1STEP_1START = org.apache.harmony.luni.platf
 
 public static int _fSOCKET_1CONNECT_1STEP_1CHECK = org.apache.harmony.luni.platform._iINetworkSystem._fSOCKET_1CONNECT_1STEP_1CHECK;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -52,7 +52,7 @@ public static global::System.Object getOSNetworkSystem(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: org.apache.harmony.luni.platform.OSNetworkSystem getOSNetworkSystem()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSNetworkSystem: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

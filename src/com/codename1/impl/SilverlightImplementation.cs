@@ -94,7 +94,7 @@ namespace com.codename1.impl
         }
 
 
-        public void @this()
+new         public void @this()
         {
             base.@this();
             instance = this;
@@ -2327,7 +2327,7 @@ namespace com.codename1.impl
         private int height = -1;
         public NativeGraphics graphics = new NativeGraphics();
 
-        public void @this()
+new         public void @this()
         {
             base.@this();
         }

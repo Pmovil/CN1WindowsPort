@@ -37,7 +37,7 @@ private static global::java.util.HashMap _fcachedCharsetTable;
 
 private static bool _finForNameInternal;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.Charset: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

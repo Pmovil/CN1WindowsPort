@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.testing {
 public abstract class AbstractTest: global::java.lang.Object,global::com.codename1.testing.UnitTest {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.AbstractTest: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

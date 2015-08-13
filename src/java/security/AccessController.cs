@@ -8,7 +8,7 @@ static AccessController() {
     @static();
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -144,7 +144,7 @@ public static global::System.Object doPrivileged(global::java.security.Privilege
 //XMLVM_END_WRAPPER[java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedExceptionAction, java.security.AccessControlContext)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.security.AccessController: void <clinit>()]
     return;
 //XMLVM_END_WRAPPER[java.security.AccessController: void <clinit>()]

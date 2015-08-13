@@ -72,7 +72,7 @@ public static global::java.lang.String _fCOMMAND_1SIDE_1COMPONENT;
 
 public static global::java.lang.String _fCOMMAND_1ACTIONABLE;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

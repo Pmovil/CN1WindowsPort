@@ -60,7 +60,7 @@ public static global::java.lang.String _fEAST;
 
 private global::com.codename1.ui.geom.Dimension _fdim;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

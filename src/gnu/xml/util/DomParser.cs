@@ -47,7 +47,7 @@ private static global::java.lang.String _fFEATURES;
 
 private static global::java.lang.String _fHANDLERS;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.util.DomParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -625,7 +625,7 @@ public static int getColor(global::java.lang.String n1, int n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: int getColor(java.lang.String, int)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLElement: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -639,7 +639,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: void <init>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLElement: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -693,7 +693,7 @@ private void init(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: void init(java.lang.String)]
 }
 
-public void @this(global::java.lang.String n1, bool n2){
+new public void @this(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLElement: void <init>(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -1910,7 +1910,7 @@ public virtual bool isFirstChild(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLElement: boolean isFirstChild()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLElement: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

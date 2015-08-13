@@ -29,7 +29,7 @@ private int _freleaseRadius;
 
 private bool _fautoRelease;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -42,7 +42,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void <init>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -120,7 +120,7 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void setCommand(com.codename1.ui.Command)]
 }
 
-public void @this(global::com.codename1.ui.Image n1){
+new public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(com.codename1.ui.Image)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

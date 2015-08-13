@@ -27,7 +27,7 @@ private global::java.util.Vector _fimages;
 
 private global::java.util.Vector _fcomments;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -40,7 +40,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.facebook.Photo: void <init>()]
 }
 
-public void @this(global::java.util.Hashtable n1){
+new public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void <init>(java.util.Hashtable)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

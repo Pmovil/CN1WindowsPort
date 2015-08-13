@@ -26,7 +26,7 @@ private static global::java.util.ArrayList _fVALUES;
 
 private static global::java.util.ArrayList _fVALUES_1TEMP;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.LinkHandler: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -838,7 +838,7 @@ public static void clearTemporaryBounds(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.LinkHandler: void clearTemporaryBounds(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.LinkHandler: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class FormatterClosedException: global::java.lang.IllegalStateException,global::java.io.Serializable {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.FormatterClosedException: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

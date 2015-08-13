@@ -1202,7 +1202,7 @@ public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.
 //XMLVM_END_WRAPPER[com.codename1.processing.Result: void mapNamespaceAlias(java.lang.String, java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=//

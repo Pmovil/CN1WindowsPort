@@ -27,7 +27,7 @@ private global::java.lang.String _fencoding;
 
 private global::java.lang.String _flineSeparator;
 
-public void @this(global::java.io.OutputStream n1){
+new public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[java.io.PrintStream: void <init>(java.io.OutputStream)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

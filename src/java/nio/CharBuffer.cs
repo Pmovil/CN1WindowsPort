@@ -107,7 +107,7 @@ public static global::System.Object wrap(global::java.lang.CharSequence n1, int 
 //XMLVM_END_WRAPPER[java.nio.CharBuffer: java.nio.CharBuffer wrap(java.lang.CharSequence, int, int)]
 }
 
-public void @this(int n1){
+new public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.CharBuffer: void <init>(int)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

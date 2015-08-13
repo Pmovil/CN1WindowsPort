@@ -10778,7 +10778,7 @@ public static global::System.Object access_2300(global::gnu.xml.stream.XMLParser
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser: java.util.LinkedList access$300(gnu.xml.stream.XMLParser)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

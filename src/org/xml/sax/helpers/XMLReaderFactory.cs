@@ -12,7 +12,7 @@ static XMLReaderFactory() {
 
 private static global::java.lang.String _fproperty;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.XMLReaderFactory: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

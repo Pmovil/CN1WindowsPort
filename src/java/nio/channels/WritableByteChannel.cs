@@ -9,9 +9,9 @@ public abstract class _iWritableByteChannel {
 public interface WritableByteChannel: global::java.nio.channels.Channel {
  int write(global::java.nio.ByteBuffer n1);
 
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.WritableByteChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.WritableByteChannel]

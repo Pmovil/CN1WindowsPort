@@ -32,7 +32,7 @@ private global::java.lang.String _fprocessedRepl;
 
 private global::java.util.ArrayList _freplacementParts;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Matcher: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

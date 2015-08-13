@@ -9,7 +9,7 @@ public abstract class _iChannel {
 public interface Channel: global::java.io.Closeable {
  bool isOpen();
 
- void close();
+new  void close();
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.Channel]
 //XMLVM_END_WRAPPER[java.nio.channels.Channel]

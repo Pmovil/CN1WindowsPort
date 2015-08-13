@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public abstract class AbstractSequentialList: global::java.util.AbstractList {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractSequentialList: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

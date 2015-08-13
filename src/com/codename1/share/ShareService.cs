@@ -11,7 +11,7 @@ private global::java.lang.String _fmimeType;
 
 private global::com.codename1.ui.Form _foriginal;
 
-public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
+new public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.ShareService: void <init>(java.lang.String, com.codename1.ui.Image)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

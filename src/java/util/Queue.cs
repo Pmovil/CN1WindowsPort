@@ -17,35 +17,35 @@ public interface Queue: global::java.util.Collection {
 
  global::System.Object element();
 
- bool addAll(global::java.util.Collection n1);
+new  bool addAll(global::java.util.Collection n1);
 
- bool add(global::java.lang.Object n1);
+new  bool add(global::java.lang.Object n1);
 
- void clear();
+new  void clear();
 
- bool containsAll(global::java.util.Collection n1);
+new  bool containsAll(global::java.util.Collection n1);
 
- bool contains(global::java.lang.Object n1);
+new  bool contains(global::java.lang.Object n1);
 
- bool equals(global::java.lang.Object n1);
+new  bool equals(global::java.lang.Object n1);
 
- int hashCode();
+new  int hashCode();
 
- bool isEmpty();
+new  bool isEmpty();
 
- global::System.Object iterator();
+new  global::System.Object iterator();
 
- bool removeAll(global::java.util.Collection n1);
+new  bool removeAll(global::java.util.Collection n1);
 
- bool remove(global::java.lang.Object n1);
+new  bool remove(global::java.lang.Object n1);
 
- bool retainAll(global::java.util.Collection n1);
+new  bool retainAll(global::java.util.Collection n1);
 
- int size();
+new  int size();
 
- global::System.Object toArray();
+new  global::System.Object toArray();
 
- global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1);
+new  global::System.Object toArray(global::org.xmlvm._nArrayAdapter<global::System.Object> n1);
 
 //XMLVM_BEGIN_WRAPPER[java.util.Queue]
 //XMLVM_END_WRAPPER[java.util.Queue]

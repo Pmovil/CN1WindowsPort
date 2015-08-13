@@ -661,7 +661,7 @@ public virtual void finalizeEncoding(){
 //XMLVM_END_WRAPPER[gnu.xml.stream.XMLParser$Input: void finalizeEncoding()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.stream.XMLParser$Input: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

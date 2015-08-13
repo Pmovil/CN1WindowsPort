@@ -7,13 +7,13 @@ public abstract class _iByteChannel {
 } // end of abstract class: _iByteChannel
 
 public interface ByteChannel: global::java.nio.channels.ReadableByteChannel,global::java.nio.channels.WritableByteChannel {
- void close();
+new  void close();
 
- bool isOpen();
+new  bool isOpen();
 
- int read(global::java.nio.ByteBuffer n1);
+new  int read(global::java.nio.ByteBuffer n1);
 
- int write(global::java.nio.ByteBuffer n1);
+new  int write(global::java.nio.ByteBuffer n1);
 
 //XMLVM_BEGIN_WRAPPER[java.nio.channels.ByteChannel]
 //XMLVM_END_WRAPPER[java.nio.channels.ByteChannel]

@@ -31,7 +31,7 @@ public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.RGBImage: void <init>(com.codename1.ui.Image)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<int> n1, int n2, int n3){
+new public void @this(global::org.xmlvm._nArrayAdapter<int> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.RGBImage: void <init>(int[], int, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

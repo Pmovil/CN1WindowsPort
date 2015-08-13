@@ -12,7 +12,7 @@ private long _fbytesRead;
 
 private bool _fdefaultSkip;
 
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

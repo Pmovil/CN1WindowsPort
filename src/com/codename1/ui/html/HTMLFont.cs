@@ -675,7 +675,7 @@ public virtual int getSizeInPixels(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: int getSizeInPixels()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

@@ -14,7 +14,7 @@ private static global::java.net.NetPermission _fgetResponseCachepermission;
 
 private static global::java.net.NetPermission _fsetResponseCachepermission;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -62,7 +62,7 @@ private static void checkSetResponseCachePermission(){
 //XMLVM_END_WRAPPER[java.net.ResponseCache: void checkSetResponseCachePermission()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.ResponseCache: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

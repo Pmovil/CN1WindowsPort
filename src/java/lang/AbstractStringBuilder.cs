@@ -70,7 +70,7 @@ public virtual void set(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 //XMLVM_END_WRAPPER[java.lang.AbstractStringBuilder: void set(char[], int)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.AbstractStringBuilder: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

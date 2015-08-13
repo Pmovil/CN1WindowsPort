@@ -14,7 +14,7 @@ static ProxySelectorImpl() {
 
 private static global::java.util.Properties _fnetProps;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.ProxySelectorImpl: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -518,7 +518,7 @@ private global::System.Object getSystemPropertyOrAlternative(global::java.lang.S
 //XMLVM_END_WRAPPER[java.net.ProxySelectorImpl: java.lang.String getSystemPropertyOrAlternative(java.lang.String, java.lang.String, java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.ProxySelectorImpl: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = null;

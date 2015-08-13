@@ -283,7 +283,7 @@ private static global::org.xmlvm._nArrayAdapter<int> _fxArray1;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fyArray1;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -6861,7 +6861,7 @@ public static global::System.Object access_2102(global::com.codename1.ui.Display
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Thread access$102(com.codename1.ui.Display, java.lang.Thread)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

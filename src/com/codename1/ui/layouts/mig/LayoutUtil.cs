@@ -42,7 +42,7 @@ private static bool hasBeans(){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.LayoutUtil: boolean hasBeans()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.LayoutUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -938,7 +938,7 @@ public static global::System.Object getSerializedObject(global::java.lang.Object
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.LayoutUtil: java.lang.Object getSerializedObject(java.lang.Object)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.LayoutUtil: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -97,7 +97,7 @@ public static int _fHTTP_1UNAVAILABLE = 503;
 
 public static int _fHTTP_1VERSION = 505;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;
@@ -106,7 +106,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.net.HttpURLConnection: void <clinit>()]
 }
 
-public void @this(global::java.net.URL n1){
+new public void @this(global::java.net.URL n1){
 //XMLVM_BEGIN_WRAPPER[java.net.HttpURLConnection: void <init>(java.net.URL)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

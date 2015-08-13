@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Stack: global::java.util.Vector {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Stack: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

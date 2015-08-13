@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Collections_2CheckedRandomAccessList: global::java.util.Collections_2CheckedList,global::java.util.RandomAccess {
 
-public void @this(global::java.util.List n1, global::java.lang.Class n2){
+new public void @this(global::java.util.List n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$CheckedRandomAccessList: void <init>(java.util.List, java.lang.Class)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

@@ -35,7 +35,7 @@ public virtual void setLocation(global::java.util.TreeMap_2Node n1, int n2, glob
 //XMLVM_END_WRAPPER[java.util.TreeMap$Entry: void setLocation(java.util.TreeMap$Node, int, java.lang.Object, java.lang.Object)]
 }
 
-public void @this(global::java.lang.Object n1){
+new public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$Entry: void <init>(java.lang.Object)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -46,7 +46,7 @@ public void @this(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[java.util.TreeMap$Entry: void <init>(java.lang.Object)]
 }
 
-public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
+new public void @this(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.TreeMap$Entry: void <init>(java.lang.Object, java.lang.Object)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

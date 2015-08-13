@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public abstract class AbstractSet: global::java.util.AbstractCollection,global::java.util.Set {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractSet: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

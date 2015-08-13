@@ -12,7 +12,7 @@ static TextEvaluator() {
 
 public static global::java.lang.String _fFUNC_1TEXT;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

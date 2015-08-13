@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class AbstractList_2FullListIterator: global::java.util.AbstractList_2SimpleListIterator,global::java.util.ListIterator {
-public global::java.util.AbstractList _fthis_20;
+new public global::java.util.AbstractList _fthis_20;
 
 public void @this(global::java.util.AbstractList n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$FullListIterator: void <init>(java.util.AbstractList, int)]

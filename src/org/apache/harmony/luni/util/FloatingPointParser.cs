@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace org.apache.harmony.luni.util {
 public class FloatingPointParser: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.FloatingPointParser: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

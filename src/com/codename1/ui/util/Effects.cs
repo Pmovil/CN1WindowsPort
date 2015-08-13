@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui.util {
 public class Effects: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Effects: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

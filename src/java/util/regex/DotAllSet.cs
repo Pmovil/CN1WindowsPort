@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class DotAllSet: global::java.util.regex.JointSet {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.DotAllSet: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

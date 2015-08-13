@@ -36,7 +36,7 @@ private static global::java.util.ResourceBundle_2Control _fFORMAT_1DEFAULT_1CONT
 
 public global::java.util.List _fformat;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -93,7 +93,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.ResourceBundle$Control: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$Control: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

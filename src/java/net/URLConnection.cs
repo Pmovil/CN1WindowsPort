@@ -44,7 +44,7 @@ private global::java.util.HashMap _frequestProperties;
 
 private static global::java.net.FileNameMap _ffileNameMap;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.URLConnection: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

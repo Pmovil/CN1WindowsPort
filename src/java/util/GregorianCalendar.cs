@@ -42,7 +42,7 @@ private int _fcurrentYearSkew;
 
 private int _flastYearSkew;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.GregorianCalendar: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -149,7 +149,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.GregorianCalendar: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -540,7 +540,7 @@ public void @this(global::java.util.Locale n1){
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void <init>(java.util.Locale)]
 }
 
-public void @this(global::java.util.TimeZone n1){
+new public void @this(global::java.util.TimeZone n1){
 //XMLVM_BEGIN_WRAPPER[java.util.GregorianCalendar: void <init>(java.util.TimeZone)]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;
@@ -568,7 +568,7 @@ public void @this(global::java.util.TimeZone n1){
 //XMLVM_END_WRAPPER[java.util.GregorianCalendar: void <init>(java.util.TimeZone)]
 }
 
-public void @this(global::java.util.TimeZone n1, global::java.util.Locale n2){
+new public void @this(global::java.util.TimeZone n1, global::java.util.Locale n2){
 //XMLVM_BEGIN_WRAPPER[java.util.GregorianCalendar: void <init>(java.util.TimeZone, java.util.Locale)]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

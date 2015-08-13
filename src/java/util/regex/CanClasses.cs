@@ -10,7 +10,7 @@ static CanClasses() {
 
 private static global::java.util.regex.IntHash _ftable;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CanClasses: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = null;
@@ -19,7 +19,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.util.regex.CanClasses: void <clinit>()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.CanClasses: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

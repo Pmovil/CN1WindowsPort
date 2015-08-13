@@ -3,11 +3,11 @@
 using org.xmlvm;
 namespace gnu.xml.dom.html2 {
 public class DomHTMLImpl: global::gnu.xml.dom.DomImpl {
-public static short _fMODE_1SYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._fMODE_1SYNCHRONOUS;
+new public static short _fMODE_1SYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._fMODE_1SYNCHRONOUS;
 
-public static short _fMODE_1ASYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._fMODE_1ASYNCHRONOUS;
+new public static short _fMODE_1ASYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._fMODE_1ASYNCHRONOUS;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.html2.DomHTMLImpl: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

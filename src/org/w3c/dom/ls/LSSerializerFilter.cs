@@ -9,7 +9,7 @@ public abstract class _iLSSerializerFilter {
 public interface LSSerializerFilter: global::org.w3c.dom.traversal.NodeFilter {
  int getWhatToShow();
 
- short acceptNode(global::org.w3c.dom.Node n1);
+new  short acceptNode(global::org.w3c.dom.Node n1);
 
 //XMLVM_BEGIN_WRAPPER[org.w3c.dom.ls.LSSerializerFilter]
 //XMLVM_END_WRAPPER[org.w3c.dom.ls.LSSerializerFilter]

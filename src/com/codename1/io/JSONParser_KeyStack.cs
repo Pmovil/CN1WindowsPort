@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.io {
 public class JSONParser_2KeyStack: global::java.util.Vector {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser$KeyStack: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

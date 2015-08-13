@@ -5,7 +5,7 @@ namespace com.codename1.io.gzip {
 public class GZConnectionRequest: global::com.codename1.io.ConnectionRequest {
 private bool _fisGzipped;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZConnectionRequest: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

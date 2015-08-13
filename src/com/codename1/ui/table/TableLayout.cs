@@ -2156,7 +2156,7 @@ public static int access_2100(){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: int access$100()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

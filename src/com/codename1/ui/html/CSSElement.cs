@@ -680,7 +680,7 @@ public virtual bool matchAttributeSelections(global::com.codename1.ui.html.HTMLE
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: boolean matchAttributeSelections(com.codename1.ui.html.HTMLElement)]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSElement: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;
@@ -1341,7 +1341,7 @@ public void @this(global::com.codename1.ui.html.CSSElement n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSElement: void <init>(com.codename1.ui.html.CSSElement)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSElement: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

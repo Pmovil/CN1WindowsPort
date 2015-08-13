@@ -2328,7 +2328,7 @@ public virtual int inflate_1fast(int n1, int n2, global::org.xmlvm._nArrayAdapte
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.InfCodes: int inflate_fast(int, int, int[], int, int[], int, com.codename1.io.gzip.InfBlocks, com.codename1.io.gzip.ZStream)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.InfCodes: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

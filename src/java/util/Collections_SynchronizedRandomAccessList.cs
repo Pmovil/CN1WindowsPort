@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Collections_2SynchronizedRandomAccessList: global::java.util.Collections_2SynchronizedList,global::java.util.RandomAccess {
 
-public void @this(global::java.util.List n1){
+new public void @this(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -15,7 +15,7 @@ public void @this(global::java.util.List n1){
 //XMLVM_END_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List)]
 }
 
-public void @this(global::java.util.List n1, global::java.lang.Object n2){
+new public void @this(global::java.util.List n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$SynchronizedRandomAccessList: void <init>(java.util.List, java.lang.Object)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

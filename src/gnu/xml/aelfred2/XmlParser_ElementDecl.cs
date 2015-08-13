@@ -9,7 +9,7 @@ public global::java.lang.String _fcontentModel;
 
 public global::java.util.HashMap _fattributes;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlParser$ElementDecl: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

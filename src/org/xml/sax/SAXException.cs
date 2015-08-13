@@ -5,7 +5,7 @@ namespace org.xml.sax {
 public class SAXException: global::java.lang.Exception {
 private global::java.lang.Exception _fexception;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.SAXException: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -17,7 +17,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[org.xml.sax.SAXException: void <init>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.SAXException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

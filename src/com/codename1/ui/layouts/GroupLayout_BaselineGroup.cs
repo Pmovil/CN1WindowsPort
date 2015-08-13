@@ -15,7 +15,7 @@ private bool _fbaselineAnchoredToTop;
 
 private bool _fcalcedBaseline;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$BaselineGroup: void <init>(com.codename1.ui.layouts.GroupLayout, boolean)]

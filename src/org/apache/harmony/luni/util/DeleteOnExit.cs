@@ -10,7 +10,7 @@ static DeleteOnExit() {
 
 private static global::java.util.Vector _fdeleteList;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.DeleteOnExit: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.Vector();
@@ -22,7 +22,7 @@ throw new global::org.xmlvm._nNotYetImplementedException("Red class access remov
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.DeleteOnExit: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.DeleteOnExit: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

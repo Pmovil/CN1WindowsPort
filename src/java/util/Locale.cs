@@ -71,7 +71,7 @@ private static void initNativeLayer(){
 //XMLVM_END_WRAPPER[java.util.Locale: void initNativeLayer()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -705,7 +705,7 @@ private void readObject(global::java.io.ObjectInputStream n1){
 //XMLVM_END_WRAPPER[java.util.Locale: void readObject(java.io.ObjectInputStream)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.Locale: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public abstract class ObjectOutputStream_2PutField: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectOutputStream$PutField: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace com.codename1.maps {
 public class Mercator: global::com.codename1.maps.Projection {
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Mercator: void <init>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

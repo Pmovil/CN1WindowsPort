@@ -12,7 +12,7 @@ public static double _fNULL_1VALUE = 0.0D;
 
 private static global::com.codename1.charts.util.NumberFormat _fFORMAT;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -273,7 +273,7 @@ private static double roundUp(double n1){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.MathHelper: double roundUp(double)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::com.codename1.charts.util.NumberFormat.getNumberInstance();

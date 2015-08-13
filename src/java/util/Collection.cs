@@ -23,7 +23,7 @@ public interface Collection: global::java.lang.Iterable {
 
  bool isEmpty();
 
- global::System.Object iterator();
+new  global::System.Object iterator();
 
  bool remove(global::java.lang.Object n1);
 

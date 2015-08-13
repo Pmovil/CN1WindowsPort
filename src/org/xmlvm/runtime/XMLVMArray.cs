@@ -69,7 +69,7 @@ public override global::System.Object clone(){
 //XMLVM_END_WRAPPER[org.xmlvm.runtime.XMLVMArray: java.lang.Object clone()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.xmlvm.runtime.XMLVMArray: void <clinit>()]
     global::org.xmlvm.runtime.XMLVMArray.initNativeLayer();
     return;

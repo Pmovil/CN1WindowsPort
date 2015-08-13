@@ -7,7 +7,7 @@ public global::org.xmlvm._nArrayAdapter<sbyte> _fbuf;
 
 public int _fcount;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ByteArrayOutputStream: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

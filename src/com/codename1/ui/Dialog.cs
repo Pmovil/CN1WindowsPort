@@ -70,7 +70,7 @@ private global::com.codename1.ui.Label _fdialogTitle;
 
 private global::com.codename1.ui.Container _fdialogContentPane;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -92,7 +92,7 @@ public override void initAdPadding(global::com.codename1.ui.Display n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void initAdPadding(com.codename1.ui.Display)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -3534,7 +3534,7 @@ public override void repaint(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void repaint(com.codename1.ui.Component)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;

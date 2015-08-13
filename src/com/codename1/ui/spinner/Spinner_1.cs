@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.ui.spinner {
 public class Spinner_21: global::com.codename1.ui.spinner.SpinnerRenderer {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner$1: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -14,7 +14,7 @@ private global::java.net.Proxy_2Type _ftype;
 
 private global::java.net.SocketAddress _faddress;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.net.Proxy();
@@ -53,7 +53,7 @@ public void @this(global::java.net.Proxy_2Type n1, global::java.net.SocketAddres
 //XMLVM_END_WRAPPER[java.net.Proxy: void <init>(java.net.Proxy$Type, java.net.SocketAddress)]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.net.Proxy: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

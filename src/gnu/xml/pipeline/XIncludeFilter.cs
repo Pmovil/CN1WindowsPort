@@ -15,7 +15,7 @@ private global::java.util.Vector _finclusions;
 
 private bool _fsavingPrefixes;
 
-public void @this(global::gnu.xml.pipeline.EventConsumer n1){
+new public void @this(global::gnu.xml.pipeline.EventConsumer n1){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.pipeline.XIncludeFilter: void <init>(gnu.xml.pipeline.EventConsumer)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

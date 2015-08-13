@@ -9,11 +9,11 @@ public abstract class _iListIterator {
 public interface ListIterator: global::java.util.Iterator {
  void add(global::java.lang.Object n1);
 
- bool hasNext();
+new  bool hasNext();
 
  bool hasPrevious();
 
- global::System.Object next();
+new  global::System.Object next();
 
  int nextIndex();
 
@@ -21,7 +21,7 @@ public interface ListIterator: global::java.util.Iterator {
 
  int previousIndex();
 
- void remove();
+new  void remove();
 
  void set(global::java.lang.Object n1);
 

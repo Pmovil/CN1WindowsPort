@@ -81,7 +81,7 @@ private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fBORDER_
 
 
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSEngine: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -4681,7 +4681,7 @@ private void handleContentProperty(global::com.codename1.ui.html.HTMLElement n1,
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSEngine: void handleContentProperty(com.codename1.ui.html.HTMLElement, com.codename1.ui.html.CSSElement, com.codename1.ui.html.HTMLComponent)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSEngine: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

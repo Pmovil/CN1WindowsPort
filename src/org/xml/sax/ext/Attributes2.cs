@@ -19,29 +19,29 @@ public interface Attributes2: global::org.xml.sax.Attributes {
 
  bool isSpecified(global::java.lang.String n1);
 
- int getIndex(global::java.lang.String n1);
+new  int getIndex(global::java.lang.String n1);
 
- int getIndex(global::java.lang.String n1, global::java.lang.String n2);
+new  int getIndex(global::java.lang.String n1, global::java.lang.String n2);
 
- int getLength();
+new  int getLength();
 
- global::System.Object getLocalName(int n1);
+new  global::System.Object getLocalName(int n1);
 
- global::System.Object getQName(int n1);
+new  global::System.Object getQName(int n1);
 
- global::System.Object getType(int n1);
+new  global::System.Object getType(int n1);
 
- global::System.Object getType(global::java.lang.String n1);
+new  global::System.Object getType(global::java.lang.String n1);
 
- global::System.Object getType(global::java.lang.String n1, global::java.lang.String n2);
+new  global::System.Object getType(global::java.lang.String n1, global::java.lang.String n2);
 
- global::System.Object getURI(int n1);
+new  global::System.Object getURI(int n1);
 
- global::System.Object getValue(int n1);
+new  global::System.Object getValue(int n1);
 
- global::System.Object getValue(global::java.lang.String n1);
+new  global::System.Object getValue(global::java.lang.String n1);
 
- global::System.Object getValue(global::java.lang.String n1, global::java.lang.String n2);
+new  global::System.Object getValue(global::java.lang.String n1, global::java.lang.String n2);
 
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.ext.Attributes2]
 //XMLVM_END_WRAPPER[org.xml.sax.ext.Attributes2]

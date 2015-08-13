@@ -17,7 +17,7 @@ private int _fbaseline;
 
 private bool _finstalled;
 
-public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 private void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.codename1.ui.Component n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentSpring: void <init>(com.codename1.ui.layouts.GroupLayout, com.codename1.ui.Component, int, int, int)]

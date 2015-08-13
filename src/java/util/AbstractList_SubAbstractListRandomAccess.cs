@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class AbstractList_2SubAbstractListRandomAccess: global::java.util.AbstractList_2SubAbstractList,global::java.util.RandomAccess {
-public void @this(global::java.util.AbstractList n1, int n2, int n3){
+new public void @this(global::java.util.AbstractList n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.util.AbstractList$SubAbstractListRandomAccess: void <init>(java.util.AbstractList, int, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

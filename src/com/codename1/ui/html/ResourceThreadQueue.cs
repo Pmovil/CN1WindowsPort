@@ -978,7 +978,7 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: java.lang.String toString()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.ResourceThreadQueue: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 2;

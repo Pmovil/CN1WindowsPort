@@ -13,7 +13,7 @@ private global::com.codename1.ui.animations.Motion _fanimationMotion;
 
 private bool _ffinished;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.MorphTransition: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

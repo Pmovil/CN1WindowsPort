@@ -5,7 +5,7 @@ namespace javax.xml.parsers {
 public class FactoryConfigurationError: global::java.lang.Error {
 private global::java.lang.Exception _fexception;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.FactoryConfigurationError: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -14,7 +14,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[javax.xml.parsers.FactoryConfigurationError: void <init>()]
 }
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[javax.xml.parsers.FactoryConfigurationError: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

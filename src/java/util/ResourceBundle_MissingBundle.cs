@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class ResourceBundle_2MissingBundle: global::java.util.ResourceBundle {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$MissingBundle: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

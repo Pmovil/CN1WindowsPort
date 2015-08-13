@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.io.gzip {
 public class GZIPInputStream: global::com.codename1.io.gzip.InflaterInputStream {
-public void @this(global::java.io.InputStream n1){
+new public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;
@@ -41,7 +41,7 @@ public void @this(global::java.io.InputStream n1, int n2, bool n3){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.GZIPInputStream: void <init>(java.io.InputStream, int, boolean)]
 }
 
-public void @this(global::java.io.InputStream n1, global::com.codename1.io.gzip.Inflater n2, int n3, bool n4){
+new public void @this(global::java.io.InputStream n1, global::com.codename1.io.gzip.Inflater n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPInputStream: void <init>(java.io.InputStream, com.codename1.io.gzip.Inflater, int, boolean)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

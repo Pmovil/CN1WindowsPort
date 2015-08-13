@@ -108,7 +108,7 @@ public void @this(bool n1){
 //XMLVM_END_WRAPPER[java.util.Timer: void <init>(boolean)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Timer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

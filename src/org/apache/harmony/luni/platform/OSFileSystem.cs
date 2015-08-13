@@ -43,7 +43,7 @@ public static int _fO_1NONBLOCK = org.apache.harmony.luni.platform._iIFileSystem
 
 public static int _fO_1TRUNC = org.apache.harmony.luni.platform._iIFileSystem._fO_1TRUNC;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSFileSystem: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.apache.harmony.luni.platform.OSFileSystem.oneTimeInitializationImpl();
@@ -62,7 +62,7 @@ public static global::System.Object getOSFileSystem(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.platform.OSFileSystem: org.apache.harmony.luni.platform.OSFileSystem getOSFileSystem()]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.OSFileSystem: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

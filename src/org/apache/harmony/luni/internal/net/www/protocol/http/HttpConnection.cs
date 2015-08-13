@@ -26,7 +26,7 @@ private global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConf
 
 private static global::java.lang.Class _fSOCKET_1TIMEOUT_1CLASS;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::org.apache.harmony.luni.@internal.net.www.protocol.http.HttpConnection.SocketTimeoutExceptionClass();

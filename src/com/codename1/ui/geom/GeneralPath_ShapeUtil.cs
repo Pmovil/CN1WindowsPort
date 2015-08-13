@@ -11,7 +11,7 @@ public static int _fCROSSING = 255;
 
 public static int _fUNKNOWN = 254;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$ShapeUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

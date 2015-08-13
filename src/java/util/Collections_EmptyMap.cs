@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.util {
 public class Collections_2EmptyMap: global::java.util.AbstractMap,global::java.io.Serializable {
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.Collections$EmptyMap: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

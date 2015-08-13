@@ -16,7 +16,7 @@ public static global::java.lang.String _fTYPE;
 
 private float _fsize;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.ScatterChart: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -28,7 +28,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.ScatterChart: void <init>()]
 }
 
-public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
+new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.ScatterChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

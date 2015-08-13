@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public class ObjectStreamClass_24: global::java.lang.Object,global::java.util.Comparator {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.ObjectStreamClass$4: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

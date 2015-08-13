@@ -266,7 +266,7 @@ public virtual void setSensor(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setSensor(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 256;

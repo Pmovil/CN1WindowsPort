@@ -453,7 +453,7 @@ public static bool access_2402(global::com.codename1.ui.URLImage n1, bool n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.URLImage: boolean access$402(com.codename1.ui.URLImage, boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::com.codename1.ui.URLImage_21();

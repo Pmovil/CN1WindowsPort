@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class UCISupplRangeSet: global::java.util.regex.SupplRangeSet {
-public void @this(global::java.util.regex.AbstractCharClass n1, global::java.util.regex.AbstractSet n2){
+new public void @this(global::java.util.regex.AbstractCharClass n1, global::java.util.regex.AbstractSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCISupplRangeSet: void <init>(java.util.regex.AbstractCharClass, java.util.regex.AbstractSet)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -16,7 +16,7 @@ public void @this(global::java.util.regex.AbstractCharClass n1, global::java.uti
 //XMLVM_END_WRAPPER[java.util.regex.UCISupplRangeSet: void <init>(java.util.regex.AbstractCharClass, java.util.regex.AbstractSet)]
 }
 
-public void @this(global::java.util.regex.AbstractCharClass n1){
+new public void @this(global::java.util.regex.AbstractCharClass n1){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.UCISupplRangeSet: void <init>(java.util.regex.AbstractCharClass)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

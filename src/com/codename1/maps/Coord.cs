@@ -281,7 +281,7 @@ public virtual void setProjected(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.maps.Coord: void setProjected(boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Coord: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.d = 1.0E-7D;

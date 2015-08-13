@@ -27,7 +27,7 @@ public int _fcolumn;
 
 public global::java.io.Reader _freader;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.aelfred2.XmlParser$Input: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

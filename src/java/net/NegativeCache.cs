@@ -8,7 +8,7 @@ private static global::java.net.NegativeCache _fnegCache;
 
 
 
-public void @this(int n1, float n2, bool n3){
+new public void @this(int n1, float n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[java.net.NegativeCache: void <init>(int, float, boolean)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

@@ -10,7 +10,7 @@ static Inet6Util() {
 
 public static global::java.lang.String _fhexCharacters;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Inet6Util: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=0123456789ABCDEF
@@ -21,7 +21,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.apache.harmony.luni.util.Inet6Util: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.util.Inet6Util: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

@@ -28,7 +28,7 @@ private int _fcontextPos;
 
 private bool _fnamespaceDeclUris;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.Vector();
@@ -39,7 +39,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[org.xml.sax.helpers.NamespaceSupport: void <clinit>()]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.NamespaceSupport: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

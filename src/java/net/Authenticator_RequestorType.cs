@@ -14,7 +14,7 @@ public static global::java.net.Authenticator_2RequestorType _fSERVER;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fENUM_2VALUES;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator$RequestorType: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -46,7 +46,7 @@ public static void @static(){
 //XMLVM_END_WRAPPER[java.net.Authenticator$RequestorType: void <clinit>()]
 }
 
-private void @this(global::java.lang.String n1, int n2){
+new private void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.net.Authenticator$RequestorType: void <init>(java.lang.String, int)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

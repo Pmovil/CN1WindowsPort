@@ -7,7 +7,7 @@ public static short _fMODE_1SYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._
 
 public static short _fMODE_1ASYNCHRONOUS = org.w3c.dom.ls._iDOMImplementationLS._fMODE_1ASYNCHRONOUS;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.DomImpl: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

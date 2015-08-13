@@ -6,7 +6,7 @@ public class UnsupportedCharsetException: global::java.lang.IllegalArgumentExcep
 
 private global::java.lang.String _fcharsetName;
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.nio.charset.UnsupportedCharsetException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

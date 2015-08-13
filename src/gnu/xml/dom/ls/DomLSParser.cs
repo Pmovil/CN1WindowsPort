@@ -50,7 +50,7 @@ public static short _fACTION_1INSERT_1AFTER = org.w3c.dom.ls._iLSParser._fACTION
 
 public static short _fACTION_1REPLACE = org.w3c.dom.ls._iLSParser._fACTION_1REPLACE;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.dom.ls.DomLSParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

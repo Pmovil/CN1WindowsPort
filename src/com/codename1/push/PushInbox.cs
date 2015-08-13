@@ -11,7 +11,7 @@ private bool _fsync;
 
 private global::java.lang.Runnable _fupdateCallback;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.PushInbox: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

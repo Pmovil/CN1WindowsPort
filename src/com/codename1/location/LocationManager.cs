@@ -13,7 +13,7 @@ public static int _fTEMPORARILY_1UNAVAILABLE = 2;
 
 private int _fstatus;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.LocationManager: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

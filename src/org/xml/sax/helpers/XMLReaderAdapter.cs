@@ -9,7 +9,7 @@ public global::org.xml.sax.DocumentHandler _fdocumentHandler;
 
 public global::org.xml.sax.helpers.XMLReaderAdapter_2AttributesAdapter _fqAtts;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.XMLReaderAdapter: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

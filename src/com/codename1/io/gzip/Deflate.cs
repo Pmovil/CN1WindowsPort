@@ -3447,7 +3447,7 @@ public virtual global::System.Object getGZIPHeader(){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Deflate: com.codename1.io.gzip.GZIPHeader getGZIPHeader()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

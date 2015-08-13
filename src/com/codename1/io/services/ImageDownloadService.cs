@@ -1752,7 +1752,7 @@ public static global::System.Object access_2300(global::com.codename1.io.service
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.Label access$300(com.codename1.io.services.ImageDownloadService)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = -1;

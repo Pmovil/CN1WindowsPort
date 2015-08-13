@@ -9,7 +9,7 @@ private static global::com.codename1.social.FacebookConnect _finstance;
 
 public static global::java.lang.Class _fimplClass;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

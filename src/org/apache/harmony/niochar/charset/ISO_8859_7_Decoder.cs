@@ -10,7 +10,7 @@ static ISO_18859_17_2Decoder() {
 
 public static global::org.xmlvm._nArrayAdapter<char> _farr;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.niochar.charset.ISO_8859_7$Decoder: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

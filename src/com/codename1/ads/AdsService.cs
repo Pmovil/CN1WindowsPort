@@ -14,7 +14,7 @@ private bool _finitialized;
 
 private static global::java.lang.Class _fservice;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -225,7 +225,7 @@ public override void handleException(global::java.lang.Exception n1){
 //XMLVM_END_WRAPPER[com.codename1.ads.AdsService: void handleException(java.lang.Exception)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ads.AdsService: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ads.InnerActive));

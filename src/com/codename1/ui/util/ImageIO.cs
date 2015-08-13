@@ -17,7 +17,7 @@ public static global::java.lang.String _fFORMAT_1JPEG;
 
 public static global::java.lang.String _fFORMAT_1PNG;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.ImageIO: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

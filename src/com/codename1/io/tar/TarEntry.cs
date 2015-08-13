@@ -7,7 +7,7 @@ public global::java.lang.String _ffile;
 
 public global::com.codename1.io.tar.TarHeader _fheader;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

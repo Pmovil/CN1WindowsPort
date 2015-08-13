@@ -14,7 +14,7 @@ public static global::org.apache.harmony.luni.platform.Endianness _fLITTLE_1ENDI
 
 private global::java.lang.String _fdisplayName;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[org.apache.harmony.luni.platform.Endianness: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

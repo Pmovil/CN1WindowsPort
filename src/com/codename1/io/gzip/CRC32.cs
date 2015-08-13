@@ -13,7 +13,7 @@ private int _fv;
 private static global::org.xmlvm._nArrayAdapter<int> _fcrc_1table;
 
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -264,7 +264,7 @@ public static global::System.Object getCRC32Table(){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.CRC32: int[] getCRC32Table()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

@@ -344,7 +344,7 @@ public static void setCSSSupportedMediaTypes(global::org.xmlvm._nArrayAdapter<gl
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: void setCSSSupportedMediaTypes(java.lang.String[])]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -9000,7 +9000,7 @@ public static global::System.Object access_2600(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLComponent: java.lang.String[] access$600()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

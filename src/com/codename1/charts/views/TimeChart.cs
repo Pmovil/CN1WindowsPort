@@ -12,7 +12,7 @@ static TimeChart() {
 
 
 
-public static global::java.lang.String _fTYPE;
+new public static global::java.lang.String _fTYPE;
 
 public static long _fDAY = 86400000L;
 
@@ -20,7 +20,7 @@ private global::java.lang.String _fmDateFormat;
 
 private global::java.lang.Double _fmStartPoint;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.TimeChart: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -29,7 +29,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.TimeChart: void <init>()]
 }
 
-public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
+new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.TimeChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

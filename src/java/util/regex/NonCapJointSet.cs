@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class NonCapJointSet: global::java.util.regex.JointSet {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.NonCapJointSet: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -12,7 +12,7 @@ public void @this(){
 //XMLVM_END_WRAPPER[java.util.regex.NonCapJointSet: void <init>()]
 }
 
-public void @this(global::java.util.ArrayList n1, global::java.util.regex.FSet n2){
+new public void @this(global::java.util.ArrayList n1, global::java.util.regex.FSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.NonCapJointSet: void <init>(java.util.ArrayList, java.util.regex.FSet)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

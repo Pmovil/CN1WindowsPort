@@ -19,7 +19,7 @@ private bool _finvert;
 
 private global::java.lang.String _fgroup;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

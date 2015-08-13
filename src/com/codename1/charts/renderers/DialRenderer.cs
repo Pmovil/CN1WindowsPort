@@ -17,7 +17,7 @@ private double _fmMajorTickSpacing;
 
 private global::java.util.List _fmVisualTypes;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.DialRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

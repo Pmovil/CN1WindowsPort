@@ -2201,7 +2201,7 @@ private bool hasFlag(int n1){
 //XMLVM_END_WRAPPER[java.util.regex.Pattern: boolean hasFlag(int)]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.Pattern: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

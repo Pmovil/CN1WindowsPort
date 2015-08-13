@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util.regex {
 public class BackReferencedSingleSet: global::java.util.regex.SingleSet {
-public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.FSet n2){
+new public void @this(global::java.util.regex.AbstractSet n1, global::java.util.regex.FSet n2){
 //XMLVM_BEGIN_WRAPPER[java.util.regex.BackReferencedSingleSet: void <init>(java.util.regex.AbstractSet, java.util.regex.FSet)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

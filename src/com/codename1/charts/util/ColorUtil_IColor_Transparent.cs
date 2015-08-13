@@ -8,33 +8,33 @@ static ColorUtil_2IColor_2Transparent() {
     @static();
 }
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fWhite;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fWhite;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fLightGray;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fLightGray;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fGray;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fGray;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fDarkGray;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fDarkGray;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fBlack;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fBlack;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fRed;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fRed;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fPink;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fPink;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fOrange;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fOrange;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fYellow;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fYellow;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fGreen;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fGreen;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fMagenta;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fMagenta;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fCyan;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fCyan;
 
-public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fBlue;
+new public static global::com.codename1.charts.util.ColorUtil_2IColor_2Transparent _fBlue;
 
-public void @this(int n1, int n2, int n3){
+new public void @this(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: void <init>(int, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -93,7 +93,7 @@ public override global::System.Object clone(){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: com.codename1.charts.util.ColorUtil$IColor clone()]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil$IColor$Transparent: void <clinit>()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;

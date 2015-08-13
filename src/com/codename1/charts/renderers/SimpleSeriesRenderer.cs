@@ -25,7 +25,7 @@ private bool _fmDisplayBoundingPoints;
 
 private global::com.codename1.charts.util.NumberFormat _fmChartValuesFormat;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::org.xmlvm._nElement _r1;

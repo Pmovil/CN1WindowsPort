@@ -21,7 +21,7 @@ private bool _fpause;
 
 private bool _floop;
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Timeline: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

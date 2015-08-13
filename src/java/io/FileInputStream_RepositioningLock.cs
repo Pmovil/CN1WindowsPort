@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.io {
 public class FileInputStream_2RepositioningLock: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.io.FileInputStream$RepositioningLock: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

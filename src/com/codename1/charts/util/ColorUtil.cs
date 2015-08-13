@@ -26,7 +26,7 @@ public static int _fMAGENTA;
 
 public static int _fGRAY;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;
@@ -123,7 +123,7 @@ public static int rgb(int n1, int n2, int n3){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.ColorUtil: int rgb(int, int, int)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

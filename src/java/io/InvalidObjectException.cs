@@ -4,7 +4,7 @@ using org.xmlvm;
 namespace java.io {
 public class InvalidObjectException: global::java.io.ObjectStreamException {
 
-public void @this(global::java.lang.String n1){
+new public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[java.io.InvalidObjectException: void <init>(java.lang.String)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

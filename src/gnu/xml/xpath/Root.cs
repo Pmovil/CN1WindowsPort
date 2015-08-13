@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace gnu.xml.xpath {
 public class Root: global::gnu.xml.xpath.Path {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[gnu.xml.xpath.Root: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

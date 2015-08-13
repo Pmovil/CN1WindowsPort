@@ -68,7 +68,7 @@ private static global::com.codename1.ui.Font _fattributionFont;
 
 private global::java.util.ArrayList _flisteners;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -2762,7 +2762,7 @@ public static bool access_2202(global::com.codename1.maps.MapComponent n1, bool 
 //XMLVM_END_WRAPPER[com.codename1.maps.MapComponent: boolean access$202(com.codename1.maps.MapComponent, boolean)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.MapComponent: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;

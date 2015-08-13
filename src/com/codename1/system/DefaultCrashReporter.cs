@@ -86,7 +86,7 @@ public static void setCheckboxText(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: void setCheckboxText(java.lang.String)]
 }
 
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
@@ -287,7 +287,7 @@ public virtual void exception(global::java.lang.Throwable n1){
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: void exception(java.lang.Throwable)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void <clinit>()]
     global::System.Object _r0_o = null;
     // Value=The application encountered an error, do you wish to report it?

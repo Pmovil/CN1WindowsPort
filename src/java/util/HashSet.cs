@@ -6,7 +6,7 @@ public class HashSet: global::java.util.AbstractSet,global::java.util.Set,global
 
 public global::java.util.HashMap _fbackingMap;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.util.HashSet: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

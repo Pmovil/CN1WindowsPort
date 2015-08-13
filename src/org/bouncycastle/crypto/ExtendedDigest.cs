@@ -9,17 +9,17 @@ public abstract class _iExtendedDigest {
 public interface ExtendedDigest: global::org.bouncycastle.crypto.Digest {
  int getByteLength();
 
- int doFinal(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2);
+new  int doFinal(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2);
 
- global::System.Object getAlgorithmName();
+new  global::System.Object getAlgorithmName();
 
- int getDigestSize();
+new  int getDigestSize();
 
- void reset();
+new  void reset();
 
- void update(sbyte n1);
+new  void update(sbyte n1);
 
- void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
+new  void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3);
 
 //XMLVM_BEGIN_WRAPPER[org.bouncycastle.crypto.ExtendedDigest]
 //XMLVM_END_WRAPPER[org.bouncycastle.crypto.ExtendedDigest]

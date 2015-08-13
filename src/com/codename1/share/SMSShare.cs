@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.share {
 public class SMSShare: global::com.codename1.share.ShareService {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.SMSShare: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

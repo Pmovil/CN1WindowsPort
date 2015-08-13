@@ -9,9 +9,9 @@ public int _fstart;
 
 public global::java.util.Hashtable_2Entry _fentry;
 
-public global::java.util.Hashtable _fthis_20;
+new public global::java.util.Hashtable _fthis_20;
 
-public void @this(global::java.util.Hashtable n1, global::java.util.MapEntry_2Type n2){
+new public void @this(global::java.util.Hashtable n1, global::java.util.MapEntry_2Type n2){
 //XMLVM_BEGIN_WRAPPER[java.util.Hashtable$HashEnumIterator: void <init>(java.util.Hashtable, java.util.MapEntry$Type)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;

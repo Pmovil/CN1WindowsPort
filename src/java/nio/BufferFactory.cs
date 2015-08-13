@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.nio {
 public class BufferFactory: global::java.lang.Object {
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.nio.BufferFactory: void <init>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 0;

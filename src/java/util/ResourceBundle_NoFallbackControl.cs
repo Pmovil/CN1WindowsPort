@@ -14,7 +14,7 @@ public static global::java.util.ResourceBundle_2Control _fNOFALLBACK_1FORMAT_1CL
 
 public static global::java.util.ResourceBundle_2Control _fNOFALLBACK_1FORMAT_1DEFAULT_1CONTROL;
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.util.ResourceBundle$NoFallbackControl: void <clinit>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

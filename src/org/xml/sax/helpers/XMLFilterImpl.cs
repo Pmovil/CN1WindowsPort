@@ -15,7 +15,7 @@ private global::org.xml.sax.ContentHandler _fcontentHandler;
 
 private global::org.xml.sax.ErrorHandler _ferrorHandler;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[org.xml.sax.helpers.XMLFilterImpl: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

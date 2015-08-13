@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.math {
 public class Logical: global::java.lang.Object {
-private void @this(){
+new private void @this(){
 //XMLVM_BEGIN_WRAPPER[java.math.Logical: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

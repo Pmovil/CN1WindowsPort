@@ -239,7 +239,7 @@ public static global::System.Object load(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[java.lang.Package: java.lang.Package load(java.lang.String)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Package: void <clinit>()]
     global::System.Object _r0_o = null;
     _r0_o = new global::java.util.HashMap();

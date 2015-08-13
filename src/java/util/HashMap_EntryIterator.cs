@@ -3,7 +3,7 @@
 using org.xmlvm;
 namespace java.util {
 public class HashMap_2EntryIterator: global::java.util.HashMap_2AbstractMapIterator,global::java.util.Iterator {
-public void @this(global::java.util.HashMap n1){
+new public void @this(global::java.util.HashMap n1){
 //XMLVM_BEGIN_WRAPPER[java.util.HashMap$EntryIterator: void <init>(java.util.HashMap)]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;

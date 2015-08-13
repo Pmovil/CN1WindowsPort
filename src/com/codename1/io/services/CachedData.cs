@@ -13,7 +13,7 @@ private global::java.lang.String _fmodified;
 
 private bool _ffetching;
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.CachedData: void <init>()]
     global::System.Object _r0_o = null;
     _r0_o = this;

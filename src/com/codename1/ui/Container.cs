@@ -65,7 +65,7 @@ public void @this(global::com.codename1.ui.layouts.Layout n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void <init>(com.codename1.ui.layouts.Layout)]
 }
 
-public void @this(){
+new public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void <init>()]
     global::System.Object _r0_o = null;
     global::System.Object _r1_o = null;
@@ -4707,7 +4707,7 @@ public static global::System.Object access_2302(global::com.codename1.ui.Contain
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Vector access$302(com.codename1.ui.Container, java.util.Vector)]
 }
 
-public static void @static(){
+new public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     _r0.i = 1;
