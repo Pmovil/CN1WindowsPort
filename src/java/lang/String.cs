@@ -53,7 +53,7 @@ private void @this(global::java.lang.String n1, char n2){
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[])]
-    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Lenght);
+    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Length);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[])]
 }
 
@@ -72,7 +72,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 	    throw new global::org.xmlvm._nExceptionAdapter(ex);
 	}
     _foffset = 0;
-    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)defaultCharset().decode(global::java.nio.ByteBuffer.wrap(n1, n2, n3));
+    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)((global::java.nio.charset.Charset)defaultCharset()).decode((global::java.nio.ByteBuffer)global::java.nio.ByteBuffer.wrap(n1, n2, n3));
     int l = cbuf.length();
     if (l <= 0) {
 	    _fcount = 0;
