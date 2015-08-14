@@ -33,143 +33,54 @@ private static global::java.nio.charset.Charset _flastCharset;
 
 new public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>()]
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    _r2_o = this;
-    _r0_o = null;
-    _r1.i = 0;
-    ((global::java.lang.Object) _r2_o).@this();
-    ((global::java.lang.String) _r2_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r0_o;
-    ((global::java.lang.String) _r2_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r0_o;
-    ((global::java.lang.String) _r2_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r0_o;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r1.i]);
-    ((global::java.lang.String) _r2_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
-    ((global::java.lang.String) _r2_o)._foffset = _r1.i;
-    ((global::java.lang.String) _r2_o)._fcount = _r1.i;
-    return;
+    base.@this();
+    _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[0]);
+    _foffset = 0;
+    _fcount = 0;
 //XMLVM_END_WRAPPER[java.lang.String: void <init>()]
 }
 
 private void @this(global::java.lang.String n1, char n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(java.lang.String, char)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r5_o = null;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    _r5_o = this;
-    _r6_o = n1;
-    _r7.i = n2;
-    _r4.i = 0;
-    _r0_o = null;
-    ((global::java.lang.Object) _r5_o).@this();
-    ((global::java.lang.String) _r5_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r0_o;
-    ((global::java.lang.String) _r5_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r0_o;
-    ((global::java.lang.String) _r5_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r0_o;
-    ((global::java.lang.String) _r5_o)._foffset = _r4.i;
-    _r0.i = ((global::java.lang.String) _r6_o)._fcount;
-    _r0.i = _r0.i + 1;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r0.i]);
-    ((global::java.lang.String) _r5_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
-    _r0.i = ((global::java.lang.String) _r6_o)._fcount;
-    _r0.i = _r0.i + 1;
-    ((global::java.lang.String) _r5_o)._fcount = _r0.i;
-    _r0_o = ((global::java.lang.String) _r6_o)._fvalue;
-    _r1.i = ((global::java.lang.String) _r6_o)._foffset;
-    _r2_o = ((global::java.lang.String) _r5_o)._fvalue;
-    _r3.i = ((global::java.lang.String) _r6_o)._fcount;
-    global::java.lang.System.arraycopy((global::java.lang.Object) _r0_o, (int) _r1.i, (global::java.lang.Object) _r2_o, (int) _r4.i, (int) _r3.i);
-    _r0_o = ((global::java.lang.String) _r5_o)._fvalue;
-    _r1.i = ((global::java.lang.String) _r6_o)._fcount;
-    ((global::org.xmlvm._nArrayAdapter<char>) _r0_o)[_r1.i] = (char)_r7.i;
-    return;
+    base.@this();
+    _foffset = 0;
+    _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[n1._fcount+1]);
+    _fcount = n1._fcount+1;
+    global::java.lang.System.arraycopy((global::java.lang.Object) n1._fvalue, n1._foffset, (global::java.lang.Object) _fvalue, 0, n1._fcount);
+	_fvalue[n1._fcount] = n2;
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(java.lang.String, char)]
 }
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[])]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r0.i = 0;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    ((global::java.lang.String) _r2_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o, (int) _r0.i, (int) _r1.i);
-    return;
+    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Lenght);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[])]
 }
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], int)]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4.i = n2;
-    _r0.i = 0;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    ((global::java.lang.String) _r2_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o, (int) _r4.i, (int) _r0.i, (int) _r1.i);
-    return;
+    @this(n1, n2, 0, (int)((global::org.xmlvm._nIArray) n1).Length);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], int)]
 }
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], int, int)]
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r5_o = null;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::org.xmlvm._nElement _r8;
-    _r5_o = this;
-    _r6_o = n1;
-    _r7.i = n2;
-    _r8.i = n3;
-    _r3_o = null;
-    _r4.i = 0;
-    ((global::java.lang.Object) _r5_o).@this();
-    ((global::java.lang.String) _r5_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r3_o;
-    ((global::java.lang.String) _r5_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r3_o;
-    ((global::java.lang.String) _r5_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r3_o;
-    if (_r7.i < 0) goto label55;
-    if (_r8.i < 0) goto label55;
-    _r3.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
-    _r3.i = _r3.i - _r7.i;
-    if (_r8.i > _r3.i) goto label55;
-    ((global::java.lang.String) _r5_o)._foffset = _r4.i;
-    _r1_o = ((global::java.lang.String) _r5_o).defaultCharset();
-    _r3_o = global::java.nio.ByteBuffer.wrap((global::org.xmlvm._nArrayAdapter<sbyte>) _r6_o, (int) _r7.i, (int) _r8.i);
-    _r0_o = ((global::java.nio.charset.Charset) _r1_o).decode((global::java.nio.ByteBuffer) _r3_o);
-    _r2.i = ((global::java.nio.CharBuffer) _r0_o).length();
-    if (_r2.i <= 0) goto label48;
-    _r3_o = ((global::java.nio.CharBuffer) _r0_o).array();
-    ((global::java.lang.String) _r5_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r3_o;
-    ((global::java.lang.String) _r5_o)._fcount = _r2.i;
-    label47:;
-    return;
-    label48:;
-    ((global::java.lang.String) _r5_o)._fcount = _r4.i;
-    _r3_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r4.i]);
-    ((global::java.lang.String) _r5_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r3_o;
-    goto label47;
-    label55:;
-    _r3_o = new global::java.lang.StringIndexOutOfBoundsException();
-    ((global::java.lang.StringIndexOutOfBoundsException) _r3_o).@this();
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.StringIndexOutOfBoundsException) _r3_o);
+    base.@this();
+    if (n2 < 0 || n3 < 0 || n3 > (((global::org.xmlvm._nIArray) n1).Length - n2)) {
+	    global::java.lang.StringIndexOutOfBoundsException ex = new global::java.lang.StringIndexOutOfBoundsException();
+	    ex.@this();
+	    throw new global::org.xmlvm._nExceptionAdapter(ex);
+	}
+    _foffset = 0;
+    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)defaultCharset().decode(global::java.nio.ByteBuffer.wrap(n1, n2, n3));
+    int l = cbuf.length();
+    if (l <= 0) {
+	    _fcount = 0;
+	    _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[0]);
+	} else {
+	    _fvalue = (global::org.xmlvm._nArrayAdapter<char>) cbuf.array();
+	    _fcount = l;
+	}
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], int, int)]
 }
 
