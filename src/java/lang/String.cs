@@ -53,7 +53,7 @@ private void @this(global::java.lang.String n1, char n2){
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[])]
-    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Lenght);
+    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Length);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[])]
 }
 
@@ -72,7 +72,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 	    throw new global::org.xmlvm._nExceptionAdapter(ex);
 	}
     _foffset = 0;
-    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)defaultCharset().decode(global::java.nio.ByteBuffer.wrap(n1, n2, n3));
+    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)((global::java.nio.charset.Charset)defaultCharset()).decode((global::java.nio.ByteBuffer)global::java.nio.ByteBuffer.wrap(n1, n2, n3));
     int l = cbuf.length();
     if (l <= 0) {
 	    _fcount = 0;
@@ -88,7 +88,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> data, int high, int st
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], int, int, int)]
     if (length <= (((global::org.xmlvm._nIArray) data).Length - start) && start >= 0 && 0 <= length) {
 			_foffset = 0;
-			_fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[lenght]);
+			_fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[length]);
 			_fcount = length;
             high <<= 8;
             for (int i = 0; i < _fcount; i++) {
@@ -110,24 +110,24 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> data, int high, int st
 		throw new global::org.xmlvm._nExceptionAdapter(ex);
 	}
         // start + length could overflow, start/length maybe MaxInt
-        if (start >= 0 && 0 <= length && length <= data.length - start) {
+        if (start >= 0 && 0 <= length && length <= data.Length - start) {
             _foffset = 0;
 
             int result;
         	global::java.nio.CharBuffer cb;
             try {
-				cb = (global::java.nio.CharBuffer)getCharset(encoding).decode(global::java.nio.ByteBuffer.wrap(data, start, lenght));
-            } catch (Exception e) {
+				cb = (global::java.nio.CharBuffer)((global::java.nio.charset.Charset)getCharset(encoding)).decode((global::java.nio.ByteBuffer)global::java.nio.ByteBuffer.wrap(data, start, length));
+            } catch (global::System.Exception e) {
             	// do nothing. according to spec: 
             	// behavior is unspecified for invalid array
-            	cb = global::java.nio.CharBuffer.wrap("\u003f".toCharArray()); //$NON-NLS-1$
+                cb = (global::java.nio.CharBuffer)global::java.nio.CharBuffer.wrap(new global::org.xmlvm._nArrayAdapter<char>("\u003f".ToCharArray())); //$NON-NLS-1$
             }
             if ((result = cb.length()) > 0) {
-                _fvalue = cb.array();
+                _fvalue = (global::org.xmlvm._nArrayAdapter<char>)cb.array();
                 _fcount = result;
             } else {
                 _fcount = 0;
-                _fvalue = new char[0];
+                _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[0]);
             }
         } else {
 			global::java.lang.StringIndexOutOfBoundsException ex = new global::java.lang.StringIndexOutOfBoundsException();
