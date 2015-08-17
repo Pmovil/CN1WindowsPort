@@ -151,7 +151,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 
 public void @this(global::org.xmlvm._nArrayAdapter<char> data, int start, int length){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(char[], int, int)]
-	if (start >= 0 && 0 <= length && length <= data.length - start) {
+	if (start >= 0 && 0 <= length && length <= data.Length - start) {
     	_foffset = 0;
         _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[length]);
         _fcount = length;
