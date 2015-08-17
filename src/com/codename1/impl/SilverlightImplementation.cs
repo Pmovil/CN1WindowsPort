@@ -1072,25 +1072,23 @@ new         public void @this()
         {
             licenseChangeHandler = new LicenseChangedEventHandler(InAppPurchaseRefreshScenario);
             CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-           
+            var licenseInformation = CurrentApp.LicenseInformation;
+            ListingInformation listing = null;
             try
             {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal,()=> {
-                ListingInformation listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                var product1 = listing.ProductListings["product1"];
-                var product2 = listing.ProductListings["product2"];
-                Debug.WriteLine(product1);             
-                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                listing = CurrentApp.LoadListingInformationAsync().AsTask().GetAwaiter().GetResult();
+                var prodict1 = listing.ProductListings["product1"];
                 return false;
             }
             catch (Exception)
             {
                 return base.getInAppPurchase();
             }
-                
+
         }
         private void InAppPurchaseRefreshScenario()
         {
+
         }
 
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
