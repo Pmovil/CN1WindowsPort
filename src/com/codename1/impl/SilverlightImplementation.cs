@@ -729,15 +729,6 @@ new         public void @this()
                 are.WaitOne();
             }
         }
-      
-        //public Purchase getInAppPurchase() {
-        //try {
-        //    pur = ZoozPurchase.class.newInstance();
-        //    return pur;
-        //   } catch(Throwable t) {
-        //    return super.getInAppPurchase();
-        //}
-    //}
 
         public override void systemOut(global::java.lang.String n1)
         {
@@ -1068,28 +1059,24 @@ new         public void @this()
             return toJava(st);
         }
 
+        private Purchase pur;
         public override object getInAppPurchase()
         {
-            licenseChangeHandler = new LicenseChangedEventHandler(InAppPurchaseRefreshScenario);
             CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-            var licenseInformation = CurrentApp.LicenseInformation;
             ListingInformation listing = null;
             try
             {
                 listing = CurrentApp.LoadListingInformationAsync().AsTask().GetAwaiter().GetResult();
                 var prodict1 = listing.ProductListings["product1"];
-                return false;
+                return pur;
             }
             catch (Exception)
-            {
+            { 
                 return base.getInAppPurchase();
             }
 
         }
-        private void InAppPurchaseRefreshScenario()
-        {
 
-        }
 
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
