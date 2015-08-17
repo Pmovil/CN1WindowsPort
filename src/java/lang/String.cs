@@ -53,7 +53,7 @@ private void @this(global::java.lang.String n1, char n2){
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[])]
-    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Length);
+    @this(n1, 0, (int)((global::org.xmlvm._nIArray) n1).Lenght);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[])]
 }
 
@@ -72,7 +72,7 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 	    throw new global::org.xmlvm._nExceptionAdapter(ex);
 	}
     _foffset = 0;
-    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)((global::java.nio.charset.Charset)defaultCharset()).decode((global::java.nio.ByteBuffer)global::java.nio.ByteBuffer.wrap(n1, n2, n3));
+    global::java.nio.CharBuffer cbuf = (global::java.nio.CharBuffer)defaultCharset().decode(global::java.nio.ByteBuffer.wrap(n1, n2, n3));
     int l = cbuf.length();
     if (l <= 0) {
 	    _fcount = 0;
@@ -84,172 +84,68 @@ public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], int, int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3, int n4){
+public void @this(global::org.xmlvm._nArrayAdapter<sbyte> data, int high, int start, int length){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], int, int, int)]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r4_o = null;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::org.xmlvm._nElement _r7;
-    global::org.xmlvm._nElement _r8;
-    _r4_o = this;
-    _r5_o = n1;
-    _r6.i = n2;
-    _r7.i = n3;
-    _r8.i = n4;
-    _r2_o = null;
-    ((global::java.lang.Object) _r4_o).@this();
-    ((global::java.lang.String) _r4_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r2_o;
-    ((global::java.lang.String) _r4_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r2_o;
-    ((global::java.lang.String) _r4_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r2_o;
-    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    _r2.i = _r2.i - _r7.i;
-    if (_r8.i > _r2.i) goto label50;
-    if (_r7.i < 0) goto label50;
-    if (_r8.i < 0) goto label50;
-    _r2.i = 0;
-    ((global::java.lang.String) _r4_o)._foffset = _r2.i;
-    _r2_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r8.i]);
-    ((global::java.lang.String) _r4_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r2_o;
-    ((global::java.lang.String) _r4_o)._fcount = _r8.i;
-    _r6.i = _r6.i << (0x1f & 8);
-    _r0.i = 0;
-    label30:;
-    _r2.i = ((global::java.lang.String) _r4_o)._fcount;
-    if (_r0.i >= _r2.i) goto label56;
-    _r2_o = ((global::java.lang.String) _r4_o)._fvalue;
-    _r1.i = _r7.i + 1;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o)[_r7.i];
-    _r3.i = _r3.i & 255;
-    _r3.i = _r3.i + _r6.i;
-    _r3.i = _r3.i & 0xffff;
-    ((global::org.xmlvm._nArrayAdapter<char>) _r2_o)[_r0.i] = (char)_r3.i;
-    _r0.i = _r0.i + 1;
-    _r7.i = _r1.i;
-    goto label30;
-    label50:;
-    _r2_o = new global::java.lang.StringIndexOutOfBoundsException();
-    ((global::java.lang.StringIndexOutOfBoundsException) _r2_o).@this();
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.StringIndexOutOfBoundsException) _r2_o);
-    label56:;
-    return;
+    if (length <= (((global::org.xmlvm._nIArray) data).Length - start) && start >= 0 && 0 <= length) {
+			_foffset = 0;
+			_fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[lenght]);
+			_fcount = length;
+            high <<= 8;
+            for (int i = 0; i < _fcount; i++) {
+                _fvalue[i] = (char) (high + (data[start++] & 0xff));
+            }
+        } else {
+            global::java.lang.StringIndexOutOfBoundsException ex = new global::java.lang.StringIndexOutOfBoundsException();
+		    ex.@this();
+		    throw new global::org.xmlvm._nExceptionAdapter(ex);
+        }
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], int, int, int)]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3, global::java.lang.String n4){
+		public void @this(global::org.xmlvm._nArrayAdapter<sbyte> data, int start, int length, global::java.lang.String encoding){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], int, int, java.lang.String)]
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r6_o = null;
-    global::System.Object _r7_o = null;
-    global::org.xmlvm._nElement _r8;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r6_o = this;
-    _r7_o = n1;
-    _r8.i = n2;
-    _r9.i = n3;
-    _r10_o = n4;
-    _r4_o = null;
-    _r5.i = 0;
-    ((global::java.lang.Object) _r6_o).@this();
-    ((global::java.lang.String) _r6_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r4_o;
-    ((global::java.lang.String) _r6_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r4_o;
-    ((global::java.lang.String) _r6_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r4_o;
-    if (_r10_o != null) goto label19;
-    _r4_o = new global::java.lang.NullPointerException();
-    ((global::java.lang.NullPointerException) _r4_o).@this();
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.NullPointerException) _r4_o);
-    label19:;
-    if (_r8.i < 0) goto label76;
-    if (_r9.i < 0) goto label76;
-    _r4.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    _r4.i = _r4.i - _r8.i;
-    if (_r9.i > _r4.i) goto label76;
-    ((global::java.lang.String) _r6_o)._foffset = _r5.i;
-    _r1_o = ((global::java.lang.String) _r6_o).getCharset((global::java.lang.String) _r10_o);
-    try {
-    _r4_o = global::java.nio.ByteBuffer.wrap((global::org.xmlvm._nArrayAdapter<sbyte>) _r7_o, (int) _r8.i, (int) _r9.i);
-    _r0_o = ((global::java.nio.charset.Charset) _r1_o).decode((global::java.nio.ByteBuffer) _r4_o);
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label56;
-        }
-        throw ex;
-    } // end catch
-    label41:;
-    _r3.i = ((global::java.nio.CharBuffer) _r0_o).length();
-    if (_r3.i <= 0) goto label69;
-    _r4_o = ((global::java.nio.CharBuffer) _r0_o).array();
-    ((global::java.lang.String) _r6_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r4_o;
-    ((global::java.lang.String) _r6_o)._fcount = _r3.i;
-    label55:;
-    return;
-    label56:;
-    _r4_o = _ex.getJavaException();
-    _ex = null;
-    _r2_o = _r4_o;
-    // Value=?
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)63))}));
-    _r4_o = ((global::java.lang.String) _r4_o).toCharArray();
-    _r0_o = global::java.nio.CharBuffer.wrap((global::org.xmlvm._nArrayAdapter<char>) _r4_o);
-    goto label41;
-    label69:;
-    ((global::java.lang.String) _r6_o)._fcount = _r5.i;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r5.i]);
-    ((global::java.lang.String) _r6_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r4_o;
-    goto label55;
-    label76:;
-    _r4_o = new global::java.lang.StringIndexOutOfBoundsException();
-    ((global::java.lang.StringIndexOutOfBoundsException) _r4_o).@this();
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.StringIndexOutOfBoundsException) _r4_o);
+    if (encoding == null) {
+		global::java.lang.NullPointerException ex = new global::java.lang.NullPointerException();
+		ex.@this();
+		throw new global::org.xmlvm._nExceptionAdapter(ex);
+	}
+        // start + length could overflow, start/length maybe MaxInt
+        if (start >= 0 && 0 <= length && length <= data.length - start) {
+            _foffset = 0;
+
+            int result;
+        	global::java.nio.CharBuffer cb;
+            try {
+				cb = (global::java.nio.CharBuffer)getCharset(encoding).decode(global::java.nio.ByteBuffer.wrap(data, start, lenght));
+            } catch (Exception e) {
+            	// do nothing. according to spec: 
+            	// behavior is unspecified for invalid array
+            	cb = global::java.nio.CharBuffer.wrap("\u003f".toCharArray()); //$NON-NLS-1$
+            }
+            if ((result = cb.length()) > 0) {
+                _fvalue = cb.array();
+                _fcount = result;
+            } else {
+                _fcount = 0;
+                _fvalue = new char[0];
+            }
+        } else {
+			global::java.lang.StringIndexOutOfBoundsException ex = new global::java.lang.StringIndexOutOfBoundsException();
+		    ex.@this();
+		    throw new global::org.xmlvm._nExceptionAdapter(ex);
+		}
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], int, int, java.lang.String)]
 }
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(byte[], java.lang.String)]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    global::System.Object _r4_o = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4_o = n2;
-    _r0.i = 0;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    ((global::java.lang.String) _r2_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o, (int) _r0.i, (int) _r1.i, (global::java.lang.String) _r4_o);
-    return;
+	@this(n1, 0, ((global::org.xmlvm._nIArray) n1).Length, n2);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(byte[], java.lang.String)]
 }
 
 public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(char[])]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r0.i = 0;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    ((global::java.lang.String) _r2_o).@this((global::org.xmlvm._nArrayAdapter<char>) _r3_o, (int) _r0.i, (int) _r1.i);
-    return;
+	@this(n1, 0, ((global::org.xmlvm._nIArray) n1).Length);
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(char[])]
 }
 

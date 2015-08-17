@@ -44,7 +44,6 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.Graphics.Display;
 using Windows.UI.Text;
 using com.codename1.payment;
-using Windows.ApplicationModel.Store;
 
 
 namespace com.codename1.impl
@@ -69,7 +68,6 @@ namespace com.codename1.impl
         private MediaCapture mediaCapture = new MediaCapture();
         public static IList<PointerPoint> points;
         public static int[] x, y;
-        public static LicenseChangedEventHandler licenseChangeHandler = null;
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
@@ -589,7 +587,7 @@ new         public void @this()
                    textInputInstance.BorderThickness = new Thickness();
                    textInputInstance.FontSize = (font.font.FontSize / scaleFactor);
                    textInputInstance.Margin = new Thickness();
-                   textInputInstance.Padding = new Thickness(10,7,0,0);
+                   textInputInstance.Padding = new Thickness(14);
                    textInputInstance.Clip = null;
                    textInputInstance.Focus(FocusState.Programmatic);
                    are.Set();
@@ -1066,31 +1064,6 @@ new         public void @this()
                 are.WaitOne();
             }
             return toJava(st);
-        }
-
-        public override object getInAppPurchase()
-        {
-            licenseChangeHandler = new LicenseChangedEventHandler(InAppPurchaseRefreshScenario);
-            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-           
-            try
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal,()=> {
-                ListingInformation listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                var product1 = listing.ProductListings["product1"];
-                var product2 = listing.ProductListings["product2"];
-                Debug.WriteLine(product1);             
-                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                return false;
-            }
-            catch (Exception)
-            {
-                return base.getInAppPurchase();
-            }
-                
-        }
-        private void InAppPurchaseRefreshScenario()
-        {
         }
 
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
@@ -3286,7 +3259,7 @@ new         public void @this()
             location.setVelocity((float)position.Coordinate.Speed);
             location.setAccuracy((float)position.Coordinate.AltitudeAccuracy);
             location.setStatus(getStatus());
-            //Debug.WriteLine("\nTimeStamp(): " + location.getTimeStamp() + "\nLatitude(): " + location.getLatitude() + "\nLongitude(): " + location.getLongitude() + "\nAltitude(): " + location.getAltitude() + "\nDirection()): " + location.getDirection() + "\nVelocity(): " + location.getVelocity() + "\nAccuracy(): " + location.getAccuracy() + "\nStatus(): " + location.getStatus());
+            Debug.WriteLine("\nTimeStamp(): " + location.getTimeStamp() + "\nLatitude(): " + location.getLatitude() + "\nLongitude(): " + location.getLongitude() + "\nAltitude(): " + location.getAltitude() + "\nDirection()): " + location.getDirection() + "\nVelocity(): " + location.getVelocity() + "\nAccuracy(): " + location.getAccuracy() + "\nStatus(): " + location.getStatus());
             return location;
         }
     }
