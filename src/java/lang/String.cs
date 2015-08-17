@@ -149,43 +149,19 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(char[])]
 }
 
-public void @this(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
+public void @this(global::org.xmlvm._nArrayAdapter<char> data, int start, int length){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: void <init>(char[], int, int)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r3_o = null;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::org.xmlvm._nElement _r6;
-    _r3_o = this;
-    _r4_o = n1;
-    _r5.i = n2;
-    _r6.i = n3;
-    _r2.i = 0;
-    _r0_o = null;
-    ((global::java.lang.Object) _r3_o).@this();
-    ((global::java.lang.String) _r3_o)._fcharset = (global::org.apache.harmony.niochar.charset.UTF_18) _r0_o;
-    ((global::java.lang.String) _r3_o)._fcharset2 = (global::org.apache.harmony.niochar.charset.ISO_18859_11) _r0_o;
-    ((global::java.lang.String) _r3_o)._fcharset3 = (global::org.apache.harmony.niochar.charset.ISO_18859_17) _r0_o;
-    if (_r5.i < 0) goto label35;
-    if (_r6.i < 0) goto label35;
-    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    _r0.i = _r0.i - _r5.i;
-    if (_r6.i > _r0.i) goto label35;
-    ((global::java.lang.String) _r3_o)._foffset = _r2.i;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r6.i]);
-    ((global::java.lang.String) _r3_o)._fvalue = (global::org.xmlvm._nArrayAdapter<char>) _r0_o;
-    ((global::java.lang.String) _r3_o)._fcount = _r6.i;
-    _r0_o = ((global::java.lang.String) _r3_o)._fvalue;
-    _r1.i = ((global::java.lang.String) _r3_o)._fcount;
-    global::java.lang.System.arraycopy((global::java.lang.Object) _r4_o, (int) _r5.i, (global::java.lang.Object) _r0_o, (int) _r2.i, (int) _r1.i);
-    return;
-    label35:;
-    _r0_o = new global::java.lang.StringIndexOutOfBoundsException();
-    ((global::java.lang.StringIndexOutOfBoundsException) _r0_o).@this();
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.StringIndexOutOfBoundsException) _r0_o);
+	if (start >= 0 && 0 <= length && length <= data.length - start) {
+    	_foffset = 0;
+        _fvalue = new global::org.xmlvm._nArrayAdapter<char>(new char[length]);
+        _fcount = length;
+        System.arraycopy(data, start, _fvalue, 0, _fcount);
+		global::java.lang.System.arraycopy((global::java.lang.Object) data, start, (global::java.lang.Object) _fvalue, 0, _fcount);
+    } else {
+		global::java.lang.StringIndexOutOfBoundsException ex = new global::java.lang.StringIndexOutOfBoundsException();
+	    ex.@this();
+	    throw new global::org.xmlvm._nExceptionAdapter(ex);
+    }
 //XMLVM_END_WRAPPER[java.lang.String: void <init>(char[], int, int)]
 }
 
@@ -1766,73 +1742,25 @@ public virtual int length(){
 //XMLVM_END_WRAPPER[java.lang.String: int length()]
 }
 
-public virtual bool regionMatches(int n1, global::java.lang.String n2, int n3, int n4){
+public virtual bool regionMatches(int thisStart, global::java.lang.String str, int start, int length){
 //XMLVM_BEGIN_WRAPPER[java.lang.String: boolean regionMatches(int, java.lang.String, int, int)]
-    global::org.xmlvm._nElement _r0;
-    global::org.xmlvm._nElement _r1;
-    global::org.xmlvm._nElement _r2;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::org.xmlvm._nElement _r6;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r8_o = null;
-    global::org.xmlvm._nElement _r9;
-    global::System.Object _r10_o = null;
-    global::org.xmlvm._nElement _r11;
-    global::org.xmlvm._nElement _r12;
-    _r8_o = this;
-    _r9.i = n1;
-    _r10_o = n2;
-    _r11.i = n3;
-    _r12.i = n4;
-    _r7.i = 1;
-    _r6.i = 0;
-    _r3.i = ((global::java.lang.String) _r10_o)._fcount;
-    _r3.i = _r3.i - _r11.i;
-    if (_r3.i < _r12.i) goto label9;
-    if (_r11.i >= 0) goto label11;
-    label9:;
-    _r3.i = _r6.i;
-    label10:;
-    return _r3.i!=0;
-    label11:;
-    if (_r9.i < 0) goto label18;
-    _r3.i = ((global::java.lang.String) _r8_o)._fcount;
-    _r3.i = _r3.i - _r9.i;
-    if (_r3.i >= _r12.i) goto label20;
-    label18:;
-    _r3.i = _r6.i;
-    goto label10;
-    label20:;
-    if (_r12.i > 0) goto label24;
-    _r3.i = _r7.i;
-    goto label10;
-    label24:;
-    _r3.i = ((global::java.lang.String) _r8_o)._foffset;
-    _r1.i = _r3.i + _r9.i;
-    _r3.i = ((global::java.lang.String) _r10_o)._foffset;
-    _r2.i = _r3.i + _r11.i;
-    _r0.i = 0;
-    label33:;
-    if (_r0.i >= _r12.i) goto label54;
-    _r3_o = ((global::java.lang.String) _r8_o)._fvalue;
-    _r4.i = _r1.i + _r0.i;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<char>) _r3_o)[_r4.i];
-    _r4_o = ((global::java.lang.String) _r10_o)._fvalue;
-    _r5.i = _r2.i + _r0.i;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<char>) _r4_o)[_r5.i];
-    if (_r3.i == _r4.i) goto label51;
-    _r3.i = _r6.i;
-    goto label10;
-    label51:;
-    _r0.i = _r0.i + 1;
-    goto label33;
-    label54:;
-    _r3.i = _r7.i;
-    goto label10;
+    if (str._fcount - start < length || start < 0) {
+        return false;
+    }
+    if (thisStart < 0 || _fcount - thisStart < length) {
+        return false;
+    }
+    if (length <= 0) {
+        return true;
+    }
+    int o1 = _foffset + thisStart;
+	int o2 = str._foffset + start;
+    for (int i = 0; i < length; ++i) {
+        if (_fvalue[o1 + i] != str._fvalue[o2 + i]) {
+            return false;
+        }
+    }
+    return true;			
 //XMLVM_END_WRAPPER[java.lang.String: boolean regionMatches(int, java.lang.String, int, int)]
 }
 

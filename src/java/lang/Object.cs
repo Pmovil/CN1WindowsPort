@@ -42,10 +42,7 @@ public virtual void @finally(){
 
 public virtual global::System.Object getClass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: java.lang.Class getClass()]
-    global::System.Type myType = this.GetType();
-    //org.xmlvm._nTIB myTIB = org.xmlvm._nTIB.getTIB(myType);
-    java.lang.Class myClass = org.xmlvm._nTIB.getClass(myType);
-    return myClass;
+    return org.xmlvm._nTIB.getClass(GetType());
 //XMLVM_END_WRAPPER[java.lang.Object: java.lang.Class getClass()]
 }
 
