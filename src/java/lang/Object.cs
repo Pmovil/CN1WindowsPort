@@ -16,9 +16,9 @@ private static void initNativeLayer(){
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: void <init>()]
-    global::System.Object _r0_o = null;
-    _r0_o = this;
-    return;
+//    global::System.Object _r0_o = null;
+//    _r0_o = this;
+//    return;
 //XMLVM_END_WRAPPER[java.lang.Object: void <init>()]
 }
 
@@ -42,10 +42,7 @@ public virtual void @finally(){
 
 public virtual global::System.Object getClass(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: java.lang.Class getClass()]
-    global::System.Type myType = this.GetType();
-    //org.xmlvm._nTIB myTIB = org.xmlvm._nTIB.getTIB(myType);
-    java.lang.Class myClass = org.xmlvm._nTIB.getClass(myType);
-    return myClass;
+    return org.xmlvm._nTIB.getClass(GetType());
 //XMLVM_END_WRAPPER[java.lang.Object: java.lang.Class getClass()]
 }
 
@@ -70,23 +67,10 @@ public virtual void notifyAll(){
 
 public virtual global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: java.lang.String toString()]
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::System.Object _r2_o = null;
-    _r2_o = this;
-    _r0_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r0_o).@this();
-    _r1_o = ((global::java.lang.Object) _r2_o).getClass();
-    _r1_o = ((global::java.lang.Class) _r1_o).getName();
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r1.i = 64;
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((char) _r1.i);
-    _r1.i = ((global::java.lang.Object) _r2_o).hashCode();
-    _r1_o = global::java.lang.Integer.toHexString((int) _r1.i);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
-    return (global::java.lang.String) _r0_o;
+	global::org.xmlvm._nArrayAdapter<char> n = new global::org.xmlvm._nArrayAdapter<char>(this.ToString().ToCharArray());
+	global::java.lang.String s = new global::java.lang.String();
+	s.@this(n);
+    return s;
 //XMLVM_END_WRAPPER[java.lang.Object: java.lang.String toString()]
 }
 
@@ -110,8 +94,8 @@ public virtual void wait(long n1, int n2){
 
 public static void @static(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Object: void <clinit>()]
-    global::java.lang.Object.initNativeLayer();
-    return;
+//    global::java.lang.Object.initNativeLayer();
+//    return;
 //XMLVM_END_WRAPPER[java.lang.Object: void <clinit>()]
 }
 
