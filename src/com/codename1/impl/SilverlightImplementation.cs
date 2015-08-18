@@ -710,7 +710,7 @@ new         public void @this()
                     Rectangle rect = new Rectangle();
                     rect.@this(x, y, width, height);
                     myView.flushGraphics(rect);
-                    screen.Invalidate();
+                    //screen.Invalidate();
                     are.Set();
                 }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
