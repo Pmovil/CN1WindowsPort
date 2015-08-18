@@ -1060,22 +1060,23 @@ new         public void @this()
         }
 
         private Purchase pur;
-        public override object getInAppPurchase()
-        {
-            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-            ListingInformation listing = null;
-            try
-            {
-                listing = CurrentApp.LoadListingInformationAsync().AsTask().GetAwaiter().GetResult();
-                var prodict1 = listing.ProductListings["product1"];
-                return pur;
-            }
-            catch (Exception)
-            { 
-                return base.getInAppPurchase();
-            }
+        private  ProductListing product1;
+        //public override object getInAppPurchase()
+        //{
+        //    CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
+        //    ListingInformation listing = null;
+        //    try
+        //    {
+        //        listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+        //        product1 = listing.ProductListings["product1"];
+        //        return product1;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return base.getInAppPurchase();
+        //    }
 
-        }
+        //}
 
 
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
