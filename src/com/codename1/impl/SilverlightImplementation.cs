@@ -734,7 +734,7 @@ new         public void @this()
         {
             System.Diagnostics.Debug.WriteLine(toCSharp(n1));
         }
-
+     
         public override void getRGB(java.lang.Object n1, _nArrayAdapter<int> n2, int n3, int n4, int n5, int n6, int n7)
         {
             CodenameOneImage cn = (CodenameOneImage)n1;
@@ -1060,25 +1060,78 @@ new         public void @this()
         }
 
         private Purchase pur;
-        private  ProductListing product1;
-        //public override object getInAppPurchase()
-        //{
-        //    CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-        //    ListingInformation listing = null;
-        //    try
-        //    {
-        //        listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        //        product1 = listing.ProductListings["product1"];
-        //        return product1;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        return base.getInAppPurchase();
-        //    }
+        private static Guid product1TempTransactionId = Guid.Empty;
+        public override object getInAppPurchase()
+        {
 
-        //}
+            try
+            {
+                return pur;
+            }
+            catch (Exception)
+            {
 
+                return base.getInAppPurchase();
+            }
+        }
+       
+        private async Task LoadInAppPurchaseProxyFileAsync()
+        {
 
+            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
+            
+            try
+            {
+                ListingInformation listing = await CurrentApp.LoadListingInformationAsync();
+                var product1 = listing.ProductListings["product1"];
+                // var product2 = listing.ProductListings["product2"];
+
+            }
+            catch (Exception)
+            {
+
+            }
+            // recover any unfulfilled consumables
+            //try
+            //{
+            //    IReadOnlyList<UnfulfilledConsumable> products = await CurrentApp.GetUnfulfilledConsumablesAsync();
+            //    foreach (UnfulfilledConsumable product in products)
+            //    {
+            //        if (product.ProductId == "product1")
+            //        {
+            //            product1TempTransactionId = product.TransactionId;
+            //        }
+            //    }
+            //}
+            //catch (Exception)
+            //{
+
+            //}
+        }
+        private async void BuyStoreProdut(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                PurchaseResults purchaseResults = await CurrentApp.RequestProductPurchaseAsync("product1");
+                switch (purchaseResults.Status)
+                {
+                    case ProductPurchaseStatus.Succeeded:
+                        product1TempTransactionId = purchaseResults.TransactionId;
+                        // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
+                        break;
+                    case ProductPurchaseStatus.NotFulfilled:
+                        product1TempTransactionId = purchaseResults.TransactionId;
+                         // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
+                        break;
+                    case ProductPurchaseStatus.NotPurchased:
+                      break;
+                }
+            }
+            catch (Exception)
+            {
+               
+            }
+        }
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
@@ -2198,6 +2251,7 @@ new         public void @this()
 
         public override object getLocationManager()
         {
+           
             if (locationManager == null)
             {
                 locationManager = new LocationManager();
