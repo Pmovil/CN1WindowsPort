@@ -729,21 +729,12 @@ new         public void @this()
                 are.WaitOne();
             }
         }
-      
-        //public Purchase getInAppPurchase() {
-        //try {
-        //    pur = ZoozPurchase.class.newInstance();
-        //    return pur;
-        //   } catch(Throwable t) {
-        //    return super.getInAppPurchase();
-        //}
-    //}
 
         public override void systemOut(global::java.lang.String n1)
         {
             System.Diagnostics.Debug.WriteLine(toCSharp(n1));
         }
-
+     
         public override void getRGB(java.lang.Object n1, _nArrayAdapter<int> n2, int n3, int n4, int n5, int n6, int n7)
         {
             CodenameOneImage cn = (CodenameOneImage)n1;
@@ -1068,31 +1059,79 @@ new         public void @this()
             return toJava(st);
         }
 
+        private Purchase pur;
+        private static Guid product1TempTransactionId = Guid.Empty;
         public override object getInAppPurchase()
         {
-            licenseChangeHandler = new LicenseChangedEventHandler(InAppPurchaseRefreshScenario);
-            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-           
+
             try
             {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal,()=> {
-                ListingInformation listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                var product1 = listing.ProductListings["product1"];
-                var product2 = listing.ProductListings["product2"];
-                Debug.WriteLine(product1);             
-                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                return false;
+                return pur;
             }
             catch (Exception)
             {
+
                 return base.getInAppPurchase();
             }
-                
         }
-        private void InAppPurchaseRefreshScenario()
+       
+        private async Task LoadInAppPurchaseProxyFileAsync()
         {
-        }
 
+            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
+            
+            try
+            {
+                ListingInformation listing = await CurrentApp.LoadListingInformationAsync();
+                var product1 = listing.ProductListings["product1"];
+                // var product2 = listing.ProductListings["product2"];
+
+            }
+            catch (Exception)
+            {
+
+            }
+            // recover any unfulfilled consumables
+            //try
+            //{
+            //    IReadOnlyList<UnfulfilledConsumable> products = await CurrentApp.GetUnfulfilledConsumablesAsync();
+            //    foreach (UnfulfilledConsumable product in products)
+            //    {
+            //        if (product.ProductId == "product1")
+            //        {
+            //            product1TempTransactionId = product.TransactionId;
+            //        }
+            //    }
+            //}
+            //catch (Exception)
+            //{
+
+            //}
+        }
+        private async void BuyStoreProdut(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                PurchaseResults purchaseResults = await CurrentApp.RequestProductPurchaseAsync("product1");
+                switch (purchaseResults.Status)
+                {
+                    case ProductPurchaseStatus.Succeeded:
+                        product1TempTransactionId = purchaseResults.TransactionId;
+                        // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
+                        break;
+                    case ProductPurchaseStatus.NotFulfilled:
+                        product1TempTransactionId = purchaseResults.TransactionId;
+                         // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
+                        break;
+                    case ProductPurchaseStatus.NotPurchased:
+                      break;
+                }
+            }
+            catch (Exception)
+            {
+               
+            }
+        }
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
@@ -2212,6 +2251,7 @@ new         public void @this()
 
         public override object getLocationManager()
         {
+           
             if (locationManager == null)
             {
                 locationManager = new LocationManager();
