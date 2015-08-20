@@ -177,8 +177,8 @@ new         public void @this()
                 cl.ManipulationMode = ManipulationModes.All;
                 _sensor = SimpleOrientationSensor.GetDefault();
                 _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(1);
-                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(3);
+                //((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
             }).AsTask().GetAwaiter();
         }
 
