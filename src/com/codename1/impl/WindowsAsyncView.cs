@@ -82,15 +82,22 @@ namespace com.codename1.impl
           
             if (rect == null)
             {
-                _screen.Invalidate();
+//                _screen.Invalidate();
             }
             else
             {   
                 _graphics.clip = rect;
                 _graphics.destination.setClip(rect);
-                _screen.Invalidate();
-                
-                
+//                _screen.Invalidate();
+            }
+            using (System.Threading.AutoResetEvent are = new System.Threading.AutoResetEvent(false))
+            {
+                SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.High, () =>
+                {
+                    _screen.Invalidate();
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
             }
             _graphics.destination.setAlpha(255);
             _graphics.destination.setColor(0);

@@ -703,31 +703,31 @@ new         public void @this()
             {
                 return;
             }
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
+            //using (AutoResetEvent are = new AutoResetEvent(false))
+            //{
+            //    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            //    {
                     Rectangle rect = new Rectangle();
                     rect.@this(x, y, width, height);
                     myView.flushGraphics(rect);
                     //screen.Invalidate();
-                    are.Set();
-                }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
+            //        are.Set();
+            //    }).AsTask().GetAwaiter().GetResult();
+            //    are.WaitOne();
+            //}
         }
 
         public override void flushGraphics()
         {
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
+            //using (AutoResetEvent are = new AutoResetEvent(false))
+            //{
+            //    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            //    {
                     myView.flushGraphics();
-                    are.Set();
-                }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
+            //        are.Set();
+            //    }).AsTask().GetAwaiter().GetResult();
+            //    are.WaitOne();
+            //}
         }
 
         public override void systemOut(global::java.lang.String n1)
@@ -737,24 +737,29 @@ new         public void @this()
      
         public override void getRGB(java.lang.Object n1, _nArrayAdapter<int> n2, int n3, int n4, int n5, int n6, int n7)
         {
-            CodenameOneImage cn = (CodenameOneImage)n1;
-
-            byte[] buffer = cn.image.GetPixelBytes();
-
-            int[] p = new int[buffer.Length / 4];
-            for (int pos = 0; pos < p.Length; pos++)
+            try
             {
-                // BGRA - VERIFICAR
-                p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
-            }
-            int t = n3 + n5 * cn.getImageWidth() + n4;
-            int l = t + n6 * n7;
-            for (int iter = t; iter < l; iter++)
-            {
-                n2.getCSharpArray()[iter - t] = p[iter];
-            }
+                CodenameOneImage cn = (CodenameOneImage)n1;
+                // TODO - verify access violation. Wrong thread ?
+                byte[] buffer = cn.image.GetPixelBytes();
 
-            return;
+                int[] p = new int[buffer.Length / 4];
+                for (int pos = 0; pos < p.Length; pos++)
+                {
+                    // BGRA - VERIFICAR
+                    p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
+                }
+                int t = n3 + n5 * cn.getImageWidth() + n4;
+                int l = t + n6 * n7;
+                for (int iter = t; iter < l; iter++)
+                {
+                    n2.getCSharpArray()[iter - t] = p[iter];
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Oops: " + ex.Message);
+            }
         }
 
         public override void setImageName(global::java.lang.Object n1, global::java.lang.String n2)
@@ -820,8 +825,16 @@ new         public void @this()
             return sbyteArray;
         }
 
+        private static Dictionary<int, CodenameOneImage> imageCache = new Dictionary<int, CodenameOneImage>();
+
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
+            if (imageCache.ContainsKey(n1.hashCode())) {
+                CodenameOneImage cached = new CodenameOneImage();
+                cached.@this();
+                imageCache.TryGetValue(n1.hashCode(), out cached);
+                return cached;
+            }
             CodenameOneImage ci = null;
 
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -838,14 +851,32 @@ new         public void @this()
                     {
                         s = new MemoryStream(toByteArray(n1.getCSharpArray())).AsRandomAccessStream();
                     }
-                    CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    CodenameOneImage cim = new CodenameOneImage();
-                    cim.@this();
-                    CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
-                    cim.image = cr;
-                    cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
-                    cim.graphics.destination.dispose();
-                    ci = cim;
+                    try
+                    {
+                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                        CodenameOneImage cim = new CodenameOneImage();
+                        cim.@this();
+                        CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
+                        cim.image = cr;
+                        cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
+                        cim.graphics.destination.dispose();
+                        ci = cim;
+                        dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
+                        {
+                            s.Dispose();
+                            canvasbitmap.Dispose();
+                            imageCache.Add(n1.hashCode(), ci);
+                            if (imageCache.Count > 30) {
+                                imageCache.Remove(imageCache.GetEnumerator().Current.Key);
+                            }
+                            Debug.WriteLine("Image cached " + n1.hashCode());
+                        }).AsTask();
+                        Debug.WriteLine("Image created " + n1.hashCode());
+                    }
+                    catch (Exception)
+                    {
+                        Debug.WriteLine("Failed to create image " + n1.hashCode());
+                    }
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();

@@ -2436,8 +2436,10 @@ public override global::System.Object toString(){
 
 public static void yield(){
     //currentThreadInstance.internalThread
-    global::System.Threading.Tasks.Task.Run(() => global::System.Threading.Tasks.Task.Delay(global::System.TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
-   // new global::System.Threading.ManualResetEvent(false).WaitOne(5);
+    global::System.Diagnostics.Debug.WriteLine("yielding ...");
+    global::System.Threading.Tasks.Task.Run(() => global::System.Threading.Tasks.Task.Delay(global::System.TimeSpan.FromMilliseconds(1))).ConfigureAwait(false).GetAwaiter().GetResult();
+    global::System.Diagnostics.Debug.WriteLine("yielded ...");
+    // new global::System.Threading.ManualResetEvent(false).WaitOne(5);
     //global::System.Threading.Thread.Sleep(5);
     //sleep(5);
 }
