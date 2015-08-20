@@ -819,6 +819,7 @@ new         public void @this()
             return sbyteArray;
         }
 
+        const int maxCacheSize = 100;
         private static ConcurrentDictionary<int, CodenameOneImage> imageCache = new ConcurrentDictionary<int, CodenameOneImage>();
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
@@ -857,15 +858,15 @@ new         public void @this()
                         dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
                         {
                             imageCache.TryAdd(n1.hashCode(), ci);
-                            if (imageCache.Count > 30)
+                            if (imageCache.Count > maxCacheSize)
                             {
                                 int key = imageCache.GetEnumerator().Current.Key;
                                 CodenameOneImage ignored;
                                 imageCache.TryRemove(key, out ignored);
                             }
-                            Debug.WriteLine("Image cached " + n1.hashCode());
+//                            Debug.WriteLine("Image cached " + n1.hashCode());
                         }).AsTask();
-                        Debug.WriteLine("Image created " + n1.hashCode());
+//                        Debug.WriteLine("Image created " + n1.hashCode());
                     }
                     catch (Exception)
                     {
