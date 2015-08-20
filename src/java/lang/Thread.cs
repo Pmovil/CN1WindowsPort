@@ -2042,44 +2042,16 @@ public virtual void setUncaughtExceptionHandler(global::java.lang.Thread_2Uncaug
 
 public static void sleep(long n1){
     //XMLVM_BEGIN_WRAPPER[java.lang.Thread: void sleep(long)]
-    global::org.xmlvm._nElement _r0;
-    _r0.i = 0;
-    _r0.l = 0;
-    _r0.f = 0;
-    _r0.d = 0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    _r1.i = 0;
-    _r1.l = 0;
-    _r1.f = 0;
-    _r1.d = 0;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    _r2.i = 0;
-    _r2.l = 0;
-    _r2.f = 0;
-    _r2.d = 0;
-    global::org.xmlvm._nElement _r3;
-    _r3.i = 0;
-    _r3.l = 0;
-    _r3.f = 0;
-    _r3.d = 0;
-    global::org.xmlvm._nElement _r4;
-    _r4.i = 0;
-    _r4.l = 0;
-    _r4.f = 0;
-    _r4.d = 0;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3.l = n1;
-    _r1.l = 0L;
-    _r1.i = _r3.l > _r1.l ? 1 : (_r3.l == _r1.l ? 0 : -1);
-    if (_r1.i == 0) goto label16;
+    if (n1 == 0) goto label16;
     _r0_o = new global::java.lang.Object();
     ((global::java.lang.Object)_r0_o).@this();
     global::System.Threading.Monitor.Enter(_r0_o);
     try
     {
-        ((global::java.lang.Object)_r0_o).wait((long)_r3.l);
+        ((global::java.lang.Object)_r0_o).wait(n1);
         global::System.Threading.Monitor.Exit(_r0_o);
     }
     catch (global::org.xmlvm._nExceptionAdapter ex)

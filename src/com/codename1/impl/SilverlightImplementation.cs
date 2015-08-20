@@ -177,9 +177,9 @@ new         public void @this()
                 cl.ManipulationMode = ManipulationModes.All;
                 _sensor = SimpleOrientationSensor.GetDefault();
                 _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-                ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(3);
-                //((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
             }).AsTask().GetAwaiter();
+            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(3);
+            //((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
         }
 
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
@@ -1396,7 +1396,7 @@ new         public void @this()
 
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
-            CanvasRenderTarget cr = new CanvasRenderTarget(screen, image.image.ConvertPixelsToDips(width), image.image.ConvertPixelsToDips(height));
+            CanvasRenderTarget cr = new CanvasRenderTarget(image.image.Device, image.image.ConvertPixelsToDips(width), image.image.ConvertPixelsToDips(height), image.image.Dpi);
             ci.image = cr;
             ci.graphics.destination.drawImage(image.image, 0, 0, width, height);
             ci.graphics.destination.dispose();
