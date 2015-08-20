@@ -45,6 +45,7 @@ using Windows.Graphics.Display;
 using Windows.UI.Text;
 using com.codename1.payment;
 using Windows.ApplicationModel.Store;
+using System.Collections.Concurrent;
 
 
 namespace com.codename1.impl
@@ -737,28 +738,21 @@ new         public void @this()
      
         public override void getRGB(java.lang.Object n1, _nArrayAdapter<int> n2, int n3, int n4, int n5, int n6, int n7)
         {
-            try
-            {
-                CodenameOneImage cn = (CodenameOneImage)n1;
-                // TODO - verify access violation. Wrong thread ?
-                byte[] buffer = cn.image.GetPixelBytes();
+            CodenameOneImage cn = (CodenameOneImage)n1;
+            // TODO - verify access violation. Wrong thread ?
+            byte[] buffer = cn.image.GetPixelBytes();
 
-                int[] p = new int[buffer.Length / 4];
-                for (int pos = 0; pos < p.Length; pos++)
-                {
-                    // BGRA - VERIFICAR
-                    p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
-                }
-                int t = n3 + n5 * cn.getImageWidth() + n4;
-                int l = t + n6 * n7;
-                for (int iter = t; iter < l; iter++)
-                {
-                    n2.getCSharpArray()[iter - t] = p[iter];
-                }
-            }
-            catch (Exception ex)
+            int[] p = new int[buffer.Length / 4];
+            for (int pos = 0; pos < p.Length; pos++)
             {
-                Debug.WriteLine("Oops: " + ex.Message);
+                // BGRA - VERIFICAR
+                p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
+            }
+            int t = n3 + n5 * cn.getImageWidth() + n4;
+            int l = t + n6 * n7;
+            for (int iter = t; iter < l; iter++)
+            {
+                n2.getCSharpArray()[iter - t] = p[iter];
             }
         }
 
@@ -825,13 +819,12 @@ new         public void @this()
             return sbyteArray;
         }
 
-        private static Dictionary<int, CodenameOneImage> imageCache = new Dictionary<int, CodenameOneImage>();
+        private static ConcurrentDictionary<int, CodenameOneImage> imageCache = new ConcurrentDictionary<int, CodenameOneImage>();
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
             if (imageCache.ContainsKey(n1.hashCode())) {
-                CodenameOneImage cached = new CodenameOneImage();
-                cached.@this();
+                CodenameOneImage cached;
                 imageCache.TryGetValue(n1.hashCode(), out cached);
                 return cached;
             }
@@ -863,11 +856,12 @@ new         public void @this()
                         ci = cim;
                         dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
                         {
-                            s.Dispose();
-                            canvasbitmap.Dispose();
-                            imageCache.Add(n1.hashCode(), ci);
-                            if (imageCache.Count > 30) {
-                                imageCache.Remove(imageCache.GetEnumerator().Current.Key);
+                            imageCache.TryAdd(n1.hashCode(), ci);
+                            if (imageCache.Count > 30)
+                            {
+                                int key = imageCache.GetEnumerator().Current.Key;
+                                CodenameOneImage ignored;
+                                imageCache.TryRemove(key, out ignored);
                             }
                             Debug.WriteLine("Image cached " + n1.hashCode());
                         }).AsTask();

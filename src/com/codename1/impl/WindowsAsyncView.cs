@@ -75,32 +75,31 @@ namespace com.codename1.impl
                     global::System.Diagnostics.Debug.WriteLine(e);
                 }
             }
-           
-            IList<AsyncOp> tmp = renderingOperations;
-            renderingOperations = pendingRenderingOperations;
-            pendingRenderingOperations = tmp;
-          
-            if (rect == null)
-            {
-//                _screen.Invalidate();
-            }
-            else
-            {   
-                _graphics.clip = rect;
-                _graphics.destination.setClip(rect);
-//                _screen.Invalidate();
-            }
+
             using (System.Threading.AutoResetEvent are = new System.Threading.AutoResetEvent(false))
             {
-                SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.High, () =>
+                SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                 {
-                    _screen.Invalidate();
+                    IList<AsyncOp> tmp = renderingOperations;
+                    renderingOperations = pendingRenderingOperations;
+                    pendingRenderingOperations = tmp;
+
+                    if (rect == null)
+                    {
+                        _screen.Invalidate();
+                    }
+                    else
+                    {
+                        _graphics.clip = rect;
+                        _graphics.destination.setClip(rect);
+                        _screen.Invalidate();
+                    }
+                    _graphics.destination.setAlpha(255);
+                    _graphics.destination.setColor(0);
                     are.Set();
                 }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
             }
-            _graphics.destination.setAlpha(255);
-            _graphics.destination.setColor(0);
         }
 
         internal void flushGraphics()
