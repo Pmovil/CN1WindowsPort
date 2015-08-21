@@ -70,7 +70,7 @@ namespace com.codename1.impl
         private MediaCapture mediaCapture = new MediaCapture();
         public static IList<PointerPoint> points;
         public static int[] x, y;
-        public static LicenseChangedEventHandler licenseChangeHandler = null;
+       
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
@@ -174,12 +174,12 @@ new         public void @this()
                 screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
                 screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
                 screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
-                cl.ManipulationMode = ManipulationModes.All;
-                _sensor = SimpleOrientationSensor.GetDefault();
-                _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
+                cl.ManipulationMode = ManipulationModes.All;          
             }).AsTask().GetAwaiter();
             ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(3);
-            //((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+            _sensor = SimpleOrientationSensor.GetDefault();
+            _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
+            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
         }
 
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
@@ -217,6 +217,7 @@ new         public void @this()
          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
 
         }
+
         private void repaint2()
         {
             screen.Height = displayHeight; screen.Width = displayWidth;
@@ -230,10 +231,12 @@ new         public void @this()
             }
             screen.Height = displayHeight; screen.Width = displayWidth;
         }
+
         public override bool canForceOrientation()
         {
             return true;
         }
+
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
 
@@ -259,16 +262,19 @@ new         public void @this()
 
             return base.getProperty(n1, n2);
         }
+
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
             Application.Current.Exit(); // TODO - suspending handler
             return true;
         }
+
         public override void exitApplication()
         {
             Application.Current.Exit();
         }
+
         private async static Task<StorageFile> GetFile(string name)
         {
             var folder = ApplicationData.Current.LocalFolder;
@@ -281,6 +287,7 @@ new         public void @this()
                 return null;
             }
         }
+
         public override global::System.Object createMedia(global::java.io.InputStream n1, global::java.lang.String n2, global::java.lang.Runnable n3)
         {
             object ss = createStorageOutputStream(toJava("CN1TempVideodu73aFljhuiw3yrindo87.mp4"));
@@ -292,9 +299,7 @@ new         public void @this()
             Stream s = streamTask.Result;
             return new CN1Media(s, toCSharp(n2), n3, cl);
         }
-        /*public virtual global::System.Object createMediaRecorder(global::java.lang.String n1, global::java.lang.String n2)
-        {
-        }*/
+       
         public override void lockOrientation(bool n1)
         {/*
             System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
@@ -309,17 +314,22 @@ new         public void @this()
                 }
             });*/
         }
+
         public override void unlockOrientation()
-        {/*
-            System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal,() =>
             {
-                app.SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
-            });*/
+                //app.SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
+                app.UseLayoutRounding = true;
+            
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
+
         public override bool hasNativeTheme()
         {
             return true;
         }
+
         public override void installNativeTheme()
         {
             com.codename1.ui.util.Resources r = (com.codename1.ui.util.Resources)com.codename1.ui.util.Resources.open(toJava("/winTheme.res"));
@@ -589,8 +599,9 @@ new         public void @this()
                    textInputInstance.Width = (currentlyEditing.getWidth() / scaleFactor);
                    textInputInstance.BorderThickness = new Thickness();
                    textInputInstance.FontSize = (font.font.FontSize / scaleFactor);
+                   int h = Convert.ToInt32((textInputInstance.Height - textInputInstance.FontSize) / 3);
                    textInputInstance.Margin = new Thickness();
-                   textInputInstance.Padding = new Thickness(10,7,0,0);
+                   textInputInstance.Padding = new Thickness(10,h,0,0);
                    textInputInstance.Clip = null;
                    textInputInstance.Focus(FocusState.Programmatic);
                    are.Set();
@@ -1086,12 +1097,16 @@ new         public void @this()
         }
 
         private Purchase pur;
-        private static Guid product1TempTransactionId = Guid.Empty;
+        private WindowsPurchase windPur;
+       
+       
         public override object getInAppPurchase()
         {
-
+           
+            windPur = new WindowsPurchase(screen);
             try
             {
+                pur = windPur;
                 return pur;
             }
             catch (Exception)
@@ -1101,63 +1116,8 @@ new         public void @this()
             }
         }
        
-        private async Task LoadInAppPurchaseProxyFileAsync()
-        {
+       
 
-            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-            
-            try
-            {
-                ListingInformation listing = await CurrentApp.LoadListingInformationAsync();
-                var product1 = listing.ProductListings["product1"];
-                // var product2 = listing.ProductListings["product2"];
-
-            }
-            catch (Exception)
-            {
-
-            }
-            // recover any unfulfilled consumables
-            //try
-            //{
-            //    IReadOnlyList<UnfulfilledConsumable> products = await CurrentApp.GetUnfulfilledConsumablesAsync();
-            //    foreach (UnfulfilledConsumable product in products)
-            //    {
-            //        if (product.ProductId == "product1")
-            //        {
-            //            product1TempTransactionId = product.TransactionId;
-            //        }
-            //    }
-            //}
-            //catch (Exception)
-            //{
-
-            //}
-        }
-        private async void BuyStoreProdut(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                PurchaseResults purchaseResults = await CurrentApp.RequestProductPurchaseAsync("product1");
-                switch (purchaseResults.Status)
-                {
-                    case ProductPurchaseStatus.Succeeded:
-                        product1TempTransactionId = purchaseResults.TransactionId;
-                        // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
-                        break;
-                    case ProductPurchaseStatus.NotFulfilled:
-                        product1TempTransactionId = purchaseResults.TransactionId;
-                         // Normally you would grant the user their content here, and then call currentApp.reportConsumableFulfillment
-                        break;
-                    case ProductPurchaseStatus.NotPurchased:
-                      break;
-                }
-            }
-            catch (Exception)
-            {
-               
-            }
-        }
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
