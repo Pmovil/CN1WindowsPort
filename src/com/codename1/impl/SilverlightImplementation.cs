@@ -89,6 +89,7 @@ namespace com.codename1.impl
             Canvas.SetTop(screen, 0);
             myView = new WindowsAsyncView(screen);
         }
+
         private void page_BackKeyPress(object sender, BackPressedEventArgs e)
         {
             keyPressed(getBackKeyCode());
@@ -96,8 +97,7 @@ namespace com.codename1.impl
             e.Handled = true;
         }
 
-
-new         public void @this()
+        public void @this()
         {
             base.@this();
             instance = this;
@@ -107,7 +107,6 @@ new         public void @this()
         {
             return true;
         }
-
 
         public override global::System.Object getResourceAsStream(global::java.lang.Class n1, global::java.lang.String n2)
         {
@@ -319,7 +318,6 @@ new         public void @this()
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal,() =>
             {
-                //app.SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
                 app.UseLayoutRounding = true;
             
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -505,6 +503,7 @@ new         public void @this()
         }
 
         private bool lockEditing;
+
         public override void editString(global::com.codename1.ui.Component n1, int n2, int n3, global::java.lang.String n4, int n5)
         {
             com.codename1.ui.Display d = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
@@ -655,15 +654,6 @@ new         public void @this()
             //screen.Visibility = Visibility.Visible;
         }
 
-        //public override void paintDirty()
-        //{
-        //    base.paintDirty();
-        //    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-        //    {
-        //        screen.Visibility = Visibility.Visible;
-        //    }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        //}
-
         public override bool hasPendingPaints()
         {
             //if the view is not visible make sure the edt won't wait.
@@ -673,6 +663,7 @@ new         public void @this()
             return base.hasPendingPaints();
             //}
         }
+
         public override void repaint(Animation cmp)
         {
             if (myView != null)
@@ -889,7 +880,9 @@ new         public void @this()
             }
             return ci;
         }
+
         public static bool exitLock;
+
         private global::com.codename1.ui.events.ActionListener pendingCaptureCallback;
 
         public override void capturePhoto(global::com.codename1.ui.events.ActionListener n1)
@@ -950,8 +943,6 @@ new         public void @this()
             exitLock = false;
         }
 
-
-
         public override void openImageGallery(ui.events.ActionListener n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -988,6 +979,7 @@ new         public void @this()
 
             }
         }
+
         public override object getCodeScanner()
         {
             ZxingCN1 z = new ZxingCN1();
@@ -1045,7 +1037,6 @@ new         public void @this()
             return sp;
         }
 
-
         void wb_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs e)
         {
             if (e.IsSuccess == true)
@@ -1060,6 +1051,7 @@ new         public void @this()
                 currentBrowser.fireWebEvent(toJava("onError"), ev);
             }
         }
+
         void webview_ContentLoading(WebView sender, WebViewContentLoadingEventArgs e)
         {
             com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
@@ -1067,6 +1059,7 @@ new         public void @this()
             ev.@this(toJava(e.Uri.OriginalString));
             currentBrowser.fireWebEvent(toJava("onLoad"), ev);
         }
+
         void wb_Navigating(WebView sender, WebViewNavigationStartingEventArgs e)
         {
             com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
@@ -1098,8 +1091,7 @@ new         public void @this()
 
         private Purchase pur;
         private WindowsPurchase windPur;
-       
-       
+  
         public override object getInAppPurchase()
         {
            
@@ -1497,7 +1489,6 @@ new         public void @this()
             }
             //Debug.WriteLine("clipRect " + x + " " + y + " " + w + " " + h);
         }
-
         //Line drawLineLineInstance;
         public override void drawLine(java.lang.Object graphics, int x1, int y1, int x2, int y2)
         {
@@ -1506,7 +1497,6 @@ new         public void @this()
             ng.destination.drawLine(x1, y1, x2, y2);
             //// Debug.WriteLine("drawLine " + x1 + " " + y1 + " " + x2 + " " + y2);
         }
-
         //Rectangle fillDrawRectInstance;
         public override void fillRect(java.lang.Object graphics, int x, int y, int w, int h)
         {
