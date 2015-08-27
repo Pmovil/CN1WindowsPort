@@ -1349,6 +1349,15 @@ namespace com.codename1.impl
 
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
+            if (width > 0 && height < 0)
+            {
+                height = srcHeight * width / srcWidth;
+            }
+            if (width < 0 && height > 0)
+            {
+                width = srcWidth * height / srcHeight;
+            }
+
             CanvasRenderTarget cr = new CanvasRenderTarget(image.image.Device, image.image.ConvertPixelsToDips(width), image.image.ConvertPixelsToDips(height), image.image.Dpi);
             ci.image = cr;
             ci.graphics.destination.drawImage(image.image, 0, 0, width, height);
@@ -2987,7 +2996,7 @@ new         public void @this()
         }
     }
 
-    public class CN1Media : com.codename1.media.Media
+    public class CN1Media : java.lang.Object, com.codename1.media.Media
     {
         private MediaElement elem;
         private SilverlightPeer peer;
