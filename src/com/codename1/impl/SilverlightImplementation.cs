@@ -46,6 +46,7 @@ using Windows.UI.Text;
 using com.codename1.payment;
 using Windows.ApplicationModel.Store;
 using System.Collections.Concurrent;
+using System.Numerics;
 
 
 namespace com.codename1.impl
@@ -737,24 +738,23 @@ namespace com.codename1.impl
         {
             System.Diagnostics.Debug.WriteLine(toCSharp(n1));
         }
-     
-        public override void getRGB(java.lang.Object n1, _nArrayAdapter<int> n2, int n3, int n4, int n5, int n6, int n7)
+
+        public override void getRGB(java.lang.Object img, _nArrayAdapter<int> arr, int offset, int x, int y, int w, int h)
         {
-            CodenameOneImage cn = (CodenameOneImage)n1;
+            CodenameOneImage cn = (CodenameOneImage)img;
             // TODO - verify access violation. Wrong thread ?
             byte[] buffer = cn.image.GetPixelBytes();
-
             int[] p = new int[buffer.Length / 4];
             for (int pos = 0; pos < p.Length; pos++)
             {
                 // BGRA - VERIFICAR
                 p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
             }
-            int t = n3 + n5 * cn.getImageWidth() + n4;
-            int l = t + n6 * n7;
+            int t = offset + y * cn.getImageWidth() + x;
+            int l = t + w * h;
             for (int iter = t; iter < l; iter++)
             {
-                n2.getCSharpArray()[iter - t] = p[iter];
+               arr.getCSharpArray()[iter - t] = p[iter];
             }
         }
 
@@ -765,7 +765,26 @@ namespace com.codename1.impl
                 ((CodenameOneImage)n1).name = toCSharp(n2);
             }
         }
-
+        public override object rotate(java.lang.Object img, int degrees)
+        {
+            CodenameOneImage cn = (CodenameOneImage)img;
+             
+            byte[] buffer = cn.image.GetPixelBytes();
+            CanvasBitmap cb = CanvasBitmap.CreateFromBytes(screen, buffer, (int)cn.image.SizeInPixels.Width, (int)cn.image.SizeInPixels.Height, pixelFormat);
+            CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cb.Size.Width, (float)cb.Size.Height, cb.Dpi);
+            using (var ds = cr.CreateDrawingSession())
+            {
+                float angle = (float)Math.PI * degrees / 180;
+                ds.Transform = Matrix3x2.CreateRotation(angle, new Vector2(cr.SizeInPixels.Width / 2, cr.SizeInPixels.Height / 2));
+                ds.DrawImage(cb);
+                ds.Dispose();
+                Debug.WriteLine("rotate " + angle);
+            }
+            CodenameOneImage ci = new CodenameOneImage();
+            ci.@this(); 
+            ci.image = cr;
+            return ci;
+        }
         public override object createImage(_nArrayAdapter<int> n1, int n2, int n3)
         {
             CodenameOneImage ci = new CodenameOneImage();
@@ -1333,7 +1352,10 @@ namespace com.codename1.impl
         {
             return ((CodenameOneImage)n1).getImageHeight();
         }
-
+        public override bool isAlphaMutableImageSupported()
+        {
+            return true;
+        }
         public override object scale(java.lang.Object sourceImage, int width, int height)
         {
             CodenameOneImage image = (CodenameOneImage)sourceImage;
@@ -1896,7 +1918,6 @@ namespace com.codename1.impl
         {
             if (connection is java.lang.String)
             {
-                StorageFolder store = ApplicationData.Current.LocalFolder;
                 Stream s = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).GetAwaiter().GetResult();
                 return new OutputStreamProxy(s);
             }
@@ -1910,7 +1931,6 @@ namespace com.codename1.impl
 
             if (connection is java.lang.String)
             {
-                StorageFolder store = ApplicationData.Current.LocalFolder;
                 Stream stream = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).ConfigureAwait(false).GetAwaiter().GetResult();
                 stream.Seek(offset, SeekOrigin.Current);
                 return new OutputStreamProxy(stream);
@@ -1922,7 +1942,6 @@ namespace com.codename1.impl
         {
             if (connection is java.lang.String)
             {
-                StorageFolder store = ApplicationData.Current.LocalFolder;
                 string file = nativePath((java.lang.String)connection);
                 Stream stream = Task.Run(() => store.OpenStreamForReadAsync(file)).ConfigureAwait(false).GetAwaiter().GetResult();
 
@@ -2007,7 +2026,7 @@ namespace com.codename1.impl
         {
             try
             {
-                var ss = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                StorageFile ss = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 ss.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
@@ -2019,8 +2038,7 @@ namespace com.codename1.impl
 
         public override int getStorageEntrySize(java.lang.String name)
         {
-            StorageFolder store = ApplicationData.Current.LocalFolder;
-            var s = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
+            StorageFile s = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
             if (s.Name != toCSharp(name))
             {
                 return 0;
