@@ -778,7 +778,6 @@ namespace com.codename1.impl
                 ds.Transform = Matrix3x2.CreateRotation(angle, new Vector2(cr.SizeInPixels.Width / 2, cr.SizeInPixels.Height / 2));
                 ds.DrawImage(cb);
                 ds.Dispose();
-                Debug.WriteLine("rotate " + angle);
             }
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this(); 
