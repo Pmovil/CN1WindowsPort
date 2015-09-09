@@ -844,6 +844,12 @@ namespace com.codename1.impl
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
+            if (n1.Length == 0)
+            {
+                // workaround for empty images
+                return createMutableImage(1, 1, 0xffffff);
+            }
+
             if (imageCache.ContainsKey(n1.hashCode())) {
                 CodenameOneImage cached;
                 imageCache.TryGetValue(n1.hashCode(), out cached);
