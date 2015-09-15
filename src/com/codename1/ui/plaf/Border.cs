@@ -10,26 +10,6 @@ static Border() {
 
 private static global::com.codename1.ui.plaf.Border _fdefaultBorder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public int _ftype;
 
 public global::org.xmlvm._nArrayAdapter<global::System.Object> _fimages;
@@ -67,8 +47,6 @@ public global::com.codename1.ui.plaf.Border _fouterBorder;
 public global::java.lang.String _fborderTitle;
 
 private bool _fpaintOuterBorderFirst;
-
-
 
 private static global::com.codename1.ui.plaf.Border _fempty;
 
@@ -2598,19 +2576,28 @@ private void paintBorderBackground(global::com.codename1.ui.Graphics n1, int n2,
     _r4.i = _r9.i;
     ((global::com.codename1.ui.Graphics) _r0_o).clipRect((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i);
     _r67.i = ((global::com.codename1.ui.Image) _r14_o).getWidth();
-    _r85.i = _r15.i;
-    label1564:;
-    _r6.i = _r15.i + _r8.i;
-    _r0.i = _r85.i;
-    _r1.i = _r6.i;
-    if (_r0.i >= _r1.i) goto label1583;
-    _r0_o = _r88_o;
-    _r1_o = _r14_o;
-    _r2.i = _r85.i;
-    _r3.i = _r12.i;
-    ((global::com.codename1.ui.Graphics) _r0_o).drawImage((global::com.codename1.ui.Image) _r1_o, (int) _r2.i, (int) _r3.i);
-    _r85.i = _r85.i + _r67.i;
-    goto label1564;
+    global::com.codename1.ui.Image center = (global::com.codename1.ui.Image)_r14_o;
+    global::com.codename1.ui.Graphics graphics = (global::com.codename1.ui.Graphics)_r88_o;
+    int leftW = ((global::com.codename1.ui.Image)_r45_o).getWidth();
+    int rightW = ((global::com.codename1.ui.Image)_r54_o).getWidth();
+    int x = n2;
+    int y = n3;
+    int width = n4;
+    int height = n5;
+    graphics.tileImage(center, x + leftW, y, width - leftW - rightW, height);
+    //_r85.i = _r15.i;
+    //label1564:;
+    //_r6.i = _r15.i + _r8.i;
+    //_r0.i = _r85.i;
+    //_r1.i = _r6.i;
+    //if (_r0.i >= _r1.i) goto label1583;
+    //_r0_o = _r88_o;
+    //_r1_o = _r14_o;
+    //_r2.i = _r85.i;
+    //_r3.i = _r12.i;
+    //((global::com.codename1.ui.Graphics) _r0_o).drawImage((global::com.codename1.ui.Image) _r1_o, (int) _r2.i, (int) _r3.i);
+    //_r85.i = _r85.i + _r67.i;
+    //goto label1564;
     label1583:;
     _r0_o = _r88_o;
     _r1.i = _r68.i;

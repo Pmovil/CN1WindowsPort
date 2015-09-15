@@ -1,5 +1,6 @@
 ﻿using com.codename1.ui.geom;
 using Microsoft.Graphics.Canvas;
+using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.Graphics.Canvas.Geometry;
 using Microsoft.Graphics.Canvas.Numerics;
@@ -165,6 +166,12 @@ namespace com.codename1.impl
             graphics.DrawImage(scale, x, y);
         }
 
+        internal virtual void tileImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
+        {
+            CanvasImageBrush brush = new CanvasImageBrush(graphics.Device, canvasBitmap);
+            graphics.FillRectangle(x, y, w, h, brush);
+        }
+
         internal virtual void clear()
         {
             graphics.Clear(c);
@@ -174,6 +181,5 @@ namespace com.codename1.impl
         {
             return c.A;
         }
-
     }
 }

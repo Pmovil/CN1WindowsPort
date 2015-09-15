@@ -55,26 +55,26 @@ namespace com.codename1.impl
 
         internal void flushGraphics(Rectangle rect)
         {
-            int counter = 0;
-            while (renderingOperations.Count() > 0)
-            {
-                try
-                {
-                    global::System.Threading.Tasks.Task.Run(() => global::System.Threading.Tasks.Task.Delay(global::System.TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
+            //int counter = 0;
+            //while (renderingOperations.Count() > 0)
+            //{
+            //    try
+            //    {
+            //        global::System.Threading.Tasks.Task.Run(() => global::System.Threading.Tasks.Task.Delay(global::System.TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
 
-                    // don't let the EDT die here
-                    counter++;
-                    if (counter > 10)
-                    {
-                        Debug.WriteLine("Flush graphics timed out!!!");
-                        return;
-                    }
-                }
-                catch (System.Exception e)
-                {
-                    global::System.Diagnostics.Debug.WriteLine(e);
-                }
-            }
+            //        // don't let the EDT die here
+            //        counter++;
+            //        if (counter > 10)
+            //        {
+            //            Debug.WriteLine("Flush graphics timed out!!!");
+            //            return;
+            //        }
+            //    }
+            //    catch (System.Exception e)
+            //    {
+            //        global::System.Diagnostics.Debug.WriteLine(e);
+            //    }
+            //}
 
             using (System.Threading.AutoResetEvent are = new System.Threading.AutoResetEvent(false))
             {
@@ -212,6 +212,11 @@ namespace com.codename1.impl
             internal override void drawImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
             {
                 pendingRenderingOperations.Add(new DrawImagePainter(clip, canvasBitmap, x, y, w, h, alpha));
+            }
+
+            internal override void tileImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
+            {
+                pendingRenderingOperations.Add(new TileImagePainter(clip, canvasBitmap, x, y, w, h, alpha));
             }
 
             internal override void drawLine(int x1, int y1, int x2, int y2)

@@ -1,6 +1,7 @@
 
 using org.xmlvm;
 using System.IO;
+using System.Linq;
 using System;
 using System.Threading;
 using System.Collections.Generic;
@@ -47,6 +48,7 @@ using com.codename1.payment;
 using Windows.ApplicationModel.Store;
 using System.Collections.Concurrent;
 using System.Numerics;
+using Windows.System;
 
 
 namespace com.codename1.impl
@@ -76,7 +78,7 @@ namespace com.codename1.impl
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
                     
-            store = ApplicationData.Current.LocalFolder;
+            store = ApplicationData.Current.LocalCacheFolder;
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
             app = page;
@@ -119,8 +121,8 @@ namespace com.codename1.impl
                     uri = @"res\" + uri.Substring(1);
                 }
                 uri.Replace('/', '\\');
-                Windows.Storage.StorageFolder installFolder = Package.Current.InstalledLocation;
-                Windows.Storage.StorageFile file = installFolder.GetFileAsync(uri).AsTask().GetAwaiter().GetResult();
+                StorageFolder installFolder = Package.Current.InstalledLocation;
+                StorageFile file = installFolder.GetFileAsync(uri).AsTask().GetAwaiter().GetResult();
                 Stream strm = Task.Run(() => file.OpenStreamForReadAsync()).GetAwaiter().GetResult();
                 byte[] byteArr = new byte[strm.Length];
                 strm.Read(byteArr, 0, byteArr.Length);
@@ -167,21 +169,24 @@ namespace com.codename1.impl
         public override void init(java.lang.Object n1)
         {
             instance = this;
-            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
+              dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
             {
-                HardwareButtons.BackPressed += page_BackKeyPress;
-                // Touch is way different
-                screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
-                screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
-                screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
-                cl.ManipulationMode = ManipulationModes.All;          
+             HardwareButtons.BackPressed += page_BackKeyPress;
+            cl.ManipulationMode = ManipulationModes.All;        
+            screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
+            screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
+            screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
             }).AsTask().GetAwaiter();
-            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setDragStartPercentage(3);
+            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).getDragSpeed(true);
             _sensor = SimpleOrientationSensor.GetDefault();
             _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+           ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+            setDragStartPercentage(3);
+                      
+            
         }
 
+     
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
             displayWidth = -1; displayHeight = -1;
@@ -277,10 +282,10 @@ namespace com.codename1.impl
 
         private async static Task<StorageFile> GetFile(string name)
         {
-            var folder = ApplicationData.Current.LocalFolder;
+            //var folder = ApplicationData.Current.LocalFolder;
             try
             {
-                return await folder.GetFileAsync(name);
+                return await store.GetFileAsync(name);
             }
             catch (FileNotFoundException)
             {
@@ -301,25 +306,19 @@ namespace com.codename1.impl
         }
        
         public override void lockOrientation(bool n1)
-        {/*
-            System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
-                if (n1)
-                {
-                    app.SupportedOrientations = SupportedPageOrientation.Portrait;
-                }
-                else
-                {
-                    app.SupportedOrientations = SupportedPageOrientation.Landscape;
-                }
-            });*/
+                cl.UseLayoutRounding = false;
+
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
         public override void unlockOrientation()
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal,() =>
             {
-                app.UseLayoutRounding = true;
+                cl.UseLayoutRounding = true;
             
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
@@ -339,107 +338,73 @@ namespace com.codename1.impl
             dl.setDefaultEndsWith3Points(false);
         }
 
+        public override bool isMultiTouch()
+        {
+            return true;
+        }
+
         private void LayoutRoot_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
-           
-            var point = e.GetCurrentPoint(cl).Position;
-            if (point != null)
+            var pointerId = e.Pointer;
+            point = e.GetCurrentPoint(cl).Position;
+            if (pointerId.PointerDeviceType == Windows.Devices.Input.PointerDeviceType.Touch)
             {
-                if (instance.currentlyEditing != null)
+                Windows.UI.Input.PointerPoint ptrPt = e.GetCurrentPoint(screen);
+                if (ptrPt.Properties.IsLeftButtonPressed)
                 {
-                    com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                    if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
-                    {
-                        return;
-                    }
+                    pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
                 }
-                pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
-
-            }
-            else
-            {
-
-                x = new int[points.Count];
-                y = new int[x.Length];
-                for (int iter = 0; iter < points.Count; iter++)
+                if (ptrPt.Properties.IsMiddleButtonPressed)
                 {
-                    x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
-                    y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
+                    pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
                 }
-                _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
-                _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
-                pointerDragged(xarr, yarr);
+                if (ptrPt.Properties.IsRightButtonPressed)
+                {
+                    pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
+                }
             }
             e.Handled = true;
         }
-
         private void LayoutRoot_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-
             points = e.GetIntermediatePoints(cl);
-            x = new int[points.Count];
-            y = new int[x.Length];
-            for (int iter = 0; iter < points.Count; iter++)
-            {
-                x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
-                y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
 
-            }
-
-            if (points.Count == 1)
+            point = e.GetCurrentPoint(cl).Position;
+            if (instance.currentlyEditing != null)
             {
-                if (instance.currentlyEditing != null)
+                com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                if (f.getComponentAt(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor)) == instance.currentlyEditing)
                 {
-                    com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                    if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
-                    {
-                        return;
-                    }
+                    return;
                 }
-                pointerPressed(x[0], y[0]);
             }
-            else
-            {
-                _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
-                _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
-                pointerPressed(xarr, yarr);
-            }
+            pointerPressed(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
+            screen.CapturePointer(e.Pointer);
             e.Handled = true;
         }
 
         private void LayoutRoot_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            points = e.GetIntermediatePoints(cl);
-            if (points.Count == 1)
+
+            point = e.GetCurrentPoint(cl).Position;
+            if (instance.currentlyEditing != null)
             {
-                if (instance.currentlyEditing != null)
+                com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                if (f.getComponentAt(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor)) != instance.currentlyEditing)
                 {
-                    com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                    if (f.getComponentAt(x[0], y[0]) == instance.currentlyEditing)
-                    {
-                        return;
-                    }
                     commitEditing();
                 }
-                pointerReleased(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor));
+                commitEditing();
             }
-            else
-            {
-                x = new int[points.Count];
-                y = new int[x.Length];
-                for (int iter = 0; iter < points.Count; iter++)
-                {
-                    x[iter] = Convert.ToInt32(points[iter].Position.X * scaleFactor);
-                    y[iter] = Convert.ToInt32(points[iter].Position.Y * scaleFactor);
-
-                }
-                _nArrayAdapter<int> xarr = new _nArrayAdapter<int>(x);
-                _nArrayAdapter<int> yarr = new _nArrayAdapter<int>(y);
-                pointerReleased(xarr, yarr);
-            }
+            pointerReleased(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
             e.Handled = true;
+            return;
         }
-
+        public override int getDragAutoActivationThreshold()
+        {
+            return 1000000;
+        }
+     
         public override int getDisplayWidth()
         {
 
@@ -739,6 +704,11 @@ namespace com.codename1.impl
             System.Diagnostics.Debug.WriteLine(toCSharp(n1));
         }
 
+        public override bool isOpaque(ui.Image n1, java.lang.Object n2)
+        {
+            return ((CodenameOneImage)n1.getImage()).opaque;
+        }
+
         public override void getRGB(java.lang.Object img, _nArrayAdapter<int> arr, int offset, int x, int y, int w, int h)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
@@ -765,18 +735,17 @@ namespace com.codename1.impl
                 ((CodenameOneImage)n1).name = toCSharp(n2);
             }
         }
+
         public override object rotate(java.lang.Object img, int degrees)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
              
-            byte[] buffer = cn.image.GetPixelBytes();
-            CanvasBitmap cb = CanvasBitmap.CreateFromBytes(screen, buffer, (int)cn.image.SizeInPixels.Width, (int)cn.image.SizeInPixels.Height, pixelFormat);
-            CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cb.Size.Width, (float)cb.Size.Height, cb.Dpi);
+            CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cn.image.Size.Width, (float)cn.image.Size.Height, cn.image.Dpi);
             using (var ds = cr.CreateDrawingSession())
             {
                 float angle = (float)Math.PI * degrees / 180;
                 ds.Transform = Matrix3x2.CreateRotation(angle, new Vector2(cr.SizeInPixels.Width / 2, cr.SizeInPixels.Height / 2));
-                ds.DrawImage(cb);
+                ds.DrawImage(cn.image);
                 ds.Dispose();
             }
             CodenameOneImage ci = new CodenameOneImage();
@@ -784,6 +753,17 @@ namespace com.codename1.impl
             ci.image = cr;
             return ci;
         }
+
+        public override bool cacheLinearGradients()
+        {
+            return false;
+        }
+
+        public override bool cacheRadialGradients()
+        {
+            return false;
+        }
+
         public override object createImage(_nArrayAdapter<int> n1, int n2, int n3)
         {
             CodenameOneImage ci = new CodenameOneImage();
@@ -797,6 +777,8 @@ namespace com.codename1.impl
                 buf[4 * pos + 3] = (byte)(0xff); // no alpha
                 //                buf[4 * pos + 3] = (byte)((n1[pos] >> 24) & 0xff);
             }
+            // no alpha
+            ci.opaque = true;
             // TODO - verify if pixelFormat below is the correct one
             CanvasBitmap cb = CanvasBitmap.CreateFromBytes(screen, buf, n2, n3, pixelFormat);
             CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cb.Size.Width, (float)cb.Size.Height, cb.Dpi);
@@ -839,22 +821,25 @@ namespace com.codename1.impl
             return sbyteArray;
         }
 
-        const int maxCacheSize = 100;
+        const int maxCacheSize = 50;
         private static ConcurrentDictionary<int, CodenameOneImage> imageCache = new ConcurrentDictionary<int, CodenameOneImage>();
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
+            if (imageCache.ContainsKey(n1.hashCode())) {
+                CodenameOneImage cached;
+                imageCache.TryGetValue(n1.hashCode(), out cached);
+                cached.lastAccess = System.DateTime.Now.Ticks;
+                //Debug.WriteLine("Cache hit " + n1.hashCode());
+                return cached;
+            }
+
             if (n1.Length == 0)
             {
                 // workaround for empty images
                 return createMutableImage(1, 1, 0xffffff);
             }
 
-            if (imageCache.ContainsKey(n1.hashCode())) {
-                CodenameOneImage cached;
-                imageCache.TryGetValue(n1.hashCode(), out cached);
-                return cached;
-            }
             CodenameOneImage ci = null;
 
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -862,20 +847,30 @@ namespace com.codename1.impl
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
                     IRandomAccessStream s;
+                    string contentType;
                     if (n1.Length != n3 || n2 != 0)
                     {
                         // TODO
-                        s = new MemoryStream(toByteArray(n1.getCSharpArray())).AsRandomAccessStream();
+                        byte[] imageArray = toByteArray(n1.getCSharpArray());
+                        contentType = ImageHelper.GetContentType(imageArray);
+                        s = new MemoryStream(imageArray).AsRandomAccessStream();
                     }
                     else
                     {
-                        s = new MemoryStream(toByteArray(n1.getCSharpArray())).AsRandomAccessStream();
-                    }
+                        byte[] imageArray = toByteArray(n1.getCSharpArray());
+                        contentType = ImageHelper.GetContentType(imageArray);
+                        s = new MemoryStream(imageArray).AsRandomAccessStream();
+                    }                
                     try
                     {
+                        
                         CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                         CodenameOneImage cim = new CodenameOneImage();
                         cim.@this();
+                        if (contentType.Equals("image/jpeg") || contentType.Equals("image/x-ms-bmp"))
+                        {
+                            cim.opaque = true;
+                        } 
                         CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
                         cim.image = cr;
                         cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
@@ -884,15 +879,16 @@ namespace com.codename1.impl
                         dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
                         {
                             imageCache.TryAdd(n1.hashCode(), ci);
-                            if (imageCache.Count > maxCacheSize)
+                            while (imageCache.Count > maxCacheSize)
                             {
-                                int key = imageCache.GetEnumerator().Current.Key;
+                                int toRemove = imageCache.OrderBy(m => m.Value.lastAccess).First().Key;
                                 CodenameOneImage ignored;
-                                imageCache.TryRemove(key, out ignored);
+                                imageCache.TryRemove(toRemove, out ignored);
+                                //Debug.WriteLine("Image removed from cache " + toRemove);
                             }
-//                            Debug.WriteLine("Image cached " + n1.hashCode());
+                            //Debug.WriteLine("Image cached " + n1.hashCode());
                         }).AsTask();
-//                        Debug.WriteLine("Image created " + n1.hashCode());
+                        //Debug.WriteLine("Image created " + n1.hashCode());
                     }
                     catch (Exception)
                     {
@@ -903,6 +899,25 @@ namespace com.codename1.impl
                 are.WaitOne();
             }
             return ci;
+      }
+
+
+        /**
+     * Allows an implementation to optimize image tiling rendering logic
+     * 
+     * @param graphics the graphics object
+     * @param img the image
+     * @param x coordinate to tile the image along
+     * @param y coordinate to tile the image along
+     * @param w coordinate to tile the image along
+     * @param h coordinate to tile the image along 
+     */
+        public override void tileImage(java.lang.Object graphics, java.lang.Object image, int x, int y, int w, int h)
+        {
+            CodenameOneImage img = (CodenameOneImage)image;
+            img.lastAccess = System.DateTime.Now.Ticks;
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.tileImage(img.image, x, y, w, h);
         }
 
         public static bool exitLock;
@@ -1376,6 +1391,7 @@ namespace com.codename1.impl
 
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
+            ci.opaque = image.opaque;
             if (width > 0 && height < 0)
             {
                 height = srcHeight * width / srcWidth;
@@ -1391,6 +1407,7 @@ namespace com.codename1.impl
             ci.graphics.destination.dispose();
             return ci;
         }
+    
 
         public override int getSoftkeyCount()
         {
@@ -1589,6 +1606,7 @@ namespace com.codename1.impl
         {
             // Debug.WriteLine("drawImage " + x + " " + y);
             CodenameOneImage img = (CodenameOneImage)n2;
+            img.lastAccess = System.DateTime.Now.Ticks;
             NativeGraphics ng = (NativeGraphics)graphics;
             ng.destination.drawImage(img.image, x, y);
         }
@@ -1602,6 +1620,7 @@ namespace com.codename1.impl
         {
             // Debug.WriteLine("drawImage " + x + " " + y + " " + w + " " + h);
             CodenameOneImage img = (CodenameOneImage)n2;
+            img.lastAccess = System.DateTime.Now.Ticks;
             NativeGraphics ng = (NativeGraphics)graphics;
             ng.destination.drawImage(img.image, x, y, w, h);
         }
@@ -2272,6 +2291,7 @@ namespace com.codename1.impl
         private static WindowsAsyncView myView;
         public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
         private NativeGraphics globalGraphics;
+        private Windows.Foundation.Point point;
 
         public override object getImageIO()
         {
@@ -2381,8 +2401,9 @@ namespace com.codename1.impl
 
     public class CodenameOneImage : java.lang.Object
     {
-
+        public long lastAccess = System.DateTime.Now.Ticks;
         public string name;
+        public bool opaque = false;
         private CanvasRenderTarget actualImage;
         public CanvasRenderTarget image
         {
@@ -2984,14 +3005,7 @@ new         public void @this()
 
                           throw;
                       }
-                      // https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.media.imaging.rendertargetbitmap.aspx
-                      // For Windows Phone Store apps: the contents of a WebView control can't be rendered into a RenderTargetBitmap
-
-                      //  loadWebViewToStream(((WebView)element), stream);
-                      //byte[] buf = ReadFully(stream.AsStreamForRead());      
-
-                      //cb = CanvasBitmap.CreateFromBytes(SilverlightImplementation.screen, buf, width, height, SilverlightImplementation.pixelFormat, SilverlightImplementation.screen.Dpi);
-
+                 
                   }
                   else
                   {
@@ -3389,5 +3403,42 @@ new         public void @this()
             response.write(new _nArrayAdapter<sbyte>(SilverlightImplementation.toSByteArray(buf)));
         }
 
+    }
+
+    class ImageHelper
+    {
+        public static string GetContentType(byte[] imageBytes)
+        {
+            imageFormatDecoders.Keys.OrderByDescending(x => x.Length);
+            foreach (var kvPair in imageFormatDecoders)
+            {
+                if (IsMatch(imageBytes, kvPair.Key))
+                {
+                    return kvPair.Value;
+                }
+            }
+            return "unknown";
+        }
+
+        static bool IsMatch(byte[] array, byte[] candidate)
+        {
+            if (candidate.Length > (array.Length))
+                return false;
+
+            for (int i = 0; i < candidate.Length; i++)
+                if (array[i] != candidate[i])
+                    return false;
+
+            return true;
+        }
+
+        private static Dictionary<byte[], string> imageFormatDecoders = new Dictionary<byte[], string>()
+        {
+            { new byte[]{ 0x42, 0x4D }, "image/x-ms-bmp"},
+            { new byte[]{ 0x47, 0x49, 0x46, 0x38, 0x37, 0x61 }, "image/gif" },
+            { new byte[]{ 0x47, 0x49, 0x46, 0x38, 0x39, 0x61 }, "image/gif" },
+            { new byte[]{ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A }, "image/png" },
+            { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
+        };
     }
 } // end of namespace: com.codename1.impl
