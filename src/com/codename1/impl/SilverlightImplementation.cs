@@ -71,9 +71,6 @@ namespace com.codename1.impl
         private static Windows.UI.Xaml.Controls.Image imagePreveiw = new Windows.UI.Xaml.Controls.Image();
         private static CaptureElement captureElement = new CaptureElement();
         private MediaCapture mediaCapture = new MediaCapture();
-        public static IList<PointerPoint> points;
-        public static int[] x, y;
-       
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
@@ -367,13 +364,12 @@ namespace com.codename1.impl
         }
         private void LayoutRoot_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            points = e.GetIntermediatePoints(cl);
-
+         
             point = e.GetCurrentPoint(cl).Position;
             if (instance.currentlyEditing != null)
             {
                 com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                if (f.getComponentAt(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor)) == instance.currentlyEditing)
+                if (f.getComponentAt(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor)) == instance.currentlyEditing)
                 {
                     return;
                 }
@@ -390,11 +386,11 @@ namespace com.codename1.impl
             if (instance.currentlyEditing != null)
             {
                 com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
-                if (f.getComponentAt(Convert.ToInt32(points[0].Position.X * scaleFactor), Convert.ToInt32(points[0].Position.Y * scaleFactor)) != instance.currentlyEditing)
+                if (f.getComponentAt(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor)) != instance.currentlyEditing)
                 {
                     commitEditing();
                 }
-                commitEditing();
+                
             }
             pointerReleased(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
             e.Handled = true;
