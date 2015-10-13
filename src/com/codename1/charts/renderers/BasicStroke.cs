@@ -26,12 +26,19 @@ private float _fmPhase;
 
 public void @this(int n1, int n2, float n3, global::org.xmlvm._nArrayAdapter<float> n4, float n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: void <init>(int, int, float, float[], float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -50,7 +57,10 @@ public void @this(int n1, int n2, float n3, global::org.xmlvm._nArrayAdapter<flo
 public virtual int getCap(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: int getCap()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.BasicStroke) _r1_o)._fmCap;
     return _r0.i;
@@ -60,7 +70,10 @@ public virtual int getCap(){
 public virtual int getJoin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: int getJoin()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.BasicStroke) _r1_o)._fmJoin;
     return _r0.i;
@@ -70,7 +83,10 @@ public virtual int getJoin(){
 public virtual float getMiter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: float getMiter()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.BasicStroke) _r1_o)._fmMiter;
     return _r0.f;
@@ -79,8 +95,11 @@ public virtual float getMiter(){
 
 public virtual global::System.Object getIntervals(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: float[] getIntervals()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.BasicStroke) _r1_o)._fmIntervals;
     return (global::org.xmlvm._nArrayAdapter<float>) _r0_o;
@@ -90,24 +109,37 @@ public virtual global::System.Object getIntervals(){
 public virtual float getPhase(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: float getPhase()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.BasicStroke) _r1_o)._fmPhase;
     return _r0.f;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.BasicStroke: float getPhase()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.BasicStroke: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.i = 1;
     _r1.i = 0;
     _r7.f = (float)1.0D;
@@ -138,6 +170,8 @@ new public static void @static(){
     ((global::com.codename1.charts.renderers.BasicStroke) _r0_o).@this((int) _r1.i, (int) _r2.i, (float) _r3.f, (global::org.xmlvm._nArrayAdapter<float>) _r4_o, (float) _r5.f);
     global::com.codename1.charts.renderers.BasicStroke._fDOTTED = (global::com.codename1.charts.renderers.BasicStroke) _r0_o;
     return;
+    label52:;
+    label60:;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.BasicStroke: void <clinit>()]
 }
 

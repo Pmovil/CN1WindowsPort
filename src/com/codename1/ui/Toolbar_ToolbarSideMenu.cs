@@ -7,8 +7,11 @@ public global::com.codename1.ui.Toolbar _fthis_20;
 
 public void @this(global::com.codename1.ui.Toolbar n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void <init>(com.codename1.ui.Toolbar)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20 = (global::com.codename1.ui.Toolbar) _r1_o;
@@ -19,8 +22,11 @@ public void @this(global::com.codename1.ui.Toolbar n1){
 
 public override global::System.Object getTitleAreaContainer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container getTitleAreaContainer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -29,8 +35,11 @@ public override global::System.Object getTitleAreaContainer(){
 
 public override global::System.Object getTitleComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Component getTitleComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
     _r0_o = global::com.codename1.ui.Toolbar.access_2400((global::com.codename1.ui.Toolbar) _r0_o);
@@ -40,16 +49,23 @@ public override global::System.Object getTitleComponent(){
 
 public override void initMenuBar(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void initMenuBar(com.codename1.ui.Form)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     // Value=North
@@ -101,9 +117,13 @@ public override bool contains(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: boolean contains(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -115,10 +135,15 @@ public override bool contains(int n1, int n2){
 
 public override global::System.Object getComponentAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Component getComponentAt(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -130,24 +155,39 @@ public override global::System.Object getComponentAt(int n1, int n2){
 
 public override void installRightCommands(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void installRightCommands()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     // Value=East
     _r14_o = new global::java.lang.String();
@@ -203,6 +243,7 @@ public override void installRightCommands(){
     _r9.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
     if (_r9.i == 0) goto label132;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getEast();
     if (_r5_o != null) goto label133;
@@ -217,39 +258,41 @@ public override void installRightCommands(){
     return;
     label133:;
     _r9.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r9.i == 0) goto label181;
+    if (_r9.i == 0) goto label184;
     _r0_o = _r5_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r7.i = 0;
     label142:;
     _r9.i = ((global::com.codename1.ui.Container) _r4_o).getComponentCount();
-    if (_r7.i >= _r9.i) goto label167;
+    if (_r7.i >= _r9.i) goto label170;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r7.i);
     _r9.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
-    if (_r9.i == 0) goto label164;
+    if (_r9.i == 0) goto label167;
     // Value=overflow
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
     _r9_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r13_o);
-    if (_r9_o != null) goto label132;
-    label164:;
+    if (_r9_o == null) goto label167;
+    ((global::com.codename1.ui.Container) _r4_o).removeComponent((global::com.codename1.ui.Component) _r3_o);
+    label167:;
     _r7.i = _r7.i + 1;
     goto label142;
-    label167:;
+    label170:;
     _r9.i = ((global::com.codename1.ui.Container) _r4_o).getComponentCount();
     _r10_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
     _r10_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r10_o);
     ((global::com.codename1.ui.Container) _r4_o).addComponent((int) _r9.i, (global::com.codename1.ui.Component) _r10_o);
     goto label132;
-    label181:;
+    label184:;
     _r9.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Button)) ? 1 : 0;
-    if (_r9.i == 0) goto label193;
+    if (_r9.i == 0) goto label196;
     // Value=overflow
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
     _r9_o = ((global::com.codename1.ui.Component) _r5_o).getClientProperty((global::java.lang.String) _r13_o);
     if (_r9_o != null) goto label132;
-    label193:;
+    label196:;
     _r9_o = ((global::com.codename1.ui.Component) _r5_o).getParent();
     ((global::com.codename1.ui.Container) _r9_o).removeComponent((global::com.codename1.ui.Component) _r5_o);
     _r2_o = new global::com.codename1.ui.Container();
@@ -272,10 +315,15 @@ public override void installRightCommands(){
 
 public override global::System.Object createCommandComponent(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Component createCommandComponent(java.util.Vector)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r2_o)._fthis_20;
@@ -288,9 +336,13 @@ public override global::System.Object createCommandComponent(global::java.util.V
 
 public override global::System.Object createBackCommandButton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Button createBackCommandButton()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.ui.Button();
     _r1_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r2_o).getBackCommand();
@@ -301,9 +353,13 @@ public override global::System.Object createBackCommandButton(){
 
 public override global::System.Object showMenuDialog(global::com.codename1.ui.Dialog n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Command showMenuDialog(com.codename1.ui.Dialog)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
@@ -315,7 +371,10 @@ public override global::System.Object showMenuDialog(global::com.codename1.ui.Di
 public override int getCommandBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: int getCommandBehavior()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 7;
     return _r0.i;
@@ -324,17 +383,29 @@ public override int getCommandBehavior(){
 
 public override void synchronizeCommandsWithButtonsInBackbutton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void synchronizeCommandsWithButtonsInBackbutton()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
@@ -342,7 +413,9 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     _r5.i = 0;
     _r4_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).getCommands();
@@ -353,6 +426,7 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     _r12.i = -1;
     if (_r7.i <= _r12.i) goto label30;
     _r3_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r7.i);
+    _r3_o = _r3_o;
     // Value=TitleCommand
     _r12_o = new global::java.lang.String();
     ((global::java.lang.String)_r12_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
@@ -398,6 +472,7 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     _r12.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
     if (_r12.i == 0) goto label92;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r11_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getWest();
     _r1_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).createBackCommandButton();
@@ -416,6 +491,7 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
     ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).verifyBackCommandRTL((global::com.codename1.ui.Button) _r1_o);
     _r12.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r12.i == 0) goto label158;
+    _r11_o = _r11_o;
     _r12.i = 0;
     ((global::com.codename1.ui.Container) _r11_o).addComponent((int) _r12.i, (global::com.codename1.ui.Component) _r1_o);
     goto label92;
@@ -442,8 +518,11 @@ public override void synchronizeCommandsWithButtonsInBackbutton(){
 
 public override void initTitleBarStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void initTitleBarStatus()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
     ((global::com.codename1.ui.Toolbar) _r0_o).initTitleBarStatus();

@@ -36,15 +36,25 @@ private bool _fios7Mode;
 
 public static global::System.Object createTime(int n1, int n2, int n3, int n4, bool n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.spinner.Spinner createTime(int, int, int, int, boolean, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5.i = n3;
@@ -66,14 +76,35 @@ public static global::System.Object createDate(long n1, long n2, long n3, char n
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.l = n1;
     _r10.l = n2;
     _r12.l = n3;
@@ -104,14 +135,21 @@ public static global::System.Object createDate(long n1, long n2, long n3, char n
 
 public static global::System.Object create(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.spinner.Spinner create(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5.i = n3;
@@ -132,18 +170,43 @@ public static global::System.Object create(int n1, int n2, int n3, int n4){
 
 public static global::System.Object create(double n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.spinner.Spinner create(double, double, double, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10.d = n1;
     _r12.d = n2;
     _r14.d = n3;
@@ -170,7 +233,10 @@ public static global::System.Object create(double n1, double n2, double n3, doub
 public override bool isStickyDrag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: boolean isStickyDrag()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -181,14 +247,23 @@ public void @this(global::com.codename1.ui.list.ListModel n1, global::com.codena
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void <init>(com.codename1.ui.list.ListModel, com.codename1.ui.list.ListCellRenderer)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -260,15 +335,21 @@ public void @this(global::com.codename1.ui.list.ListModel n1, global::com.codena
 
 public virtual void initSpinnerRenderer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void initSpinnerRenderer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1_o = base.getRenderer();
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setRTL(0!=_r3.i);
     ((global::com.codename1.ui.spinner.Spinner) _r4_o).setRTL(0!=_r3.i);
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setShowNumbers(0!=_r3.i);
@@ -294,14 +375,20 @@ public virtual void initSpinnerRenderer(){
 public virtual void updateToDefaultRTL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void updateToDefaultRTL()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r3_o).getUIManager();
     _r2_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o).getLookAndFeel();
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r2_o).isRTL() ? 1 : 0;
     _r1_o = base.getRenderer();
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).setRTL(0!=_r0.i);
     ((global::com.codename1.ui.spinner.Spinner) _r3_o).setRTL(0!=_r0.i);
     return;
@@ -311,11 +398,16 @@ public virtual void updateToDefaultRTL(){
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void initComponent()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r4_o).getComponentForm();
@@ -338,8 +430,11 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r1_o).getComponentForm();
     ((global::com.codename1.ui.Form) _r0_o).deregisterAnimated((global::com.codename1.ui.animations.Animation) _r1_o);
@@ -349,8 +444,11 @@ public override void deinitialize(){
 
 public override global::System.Object calcScrollSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.geom.Dimension calcScrollSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.calcPreferredSize();
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -360,14 +458,23 @@ public override global::System.Object calcScrollSize(){
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.geom.Dimension calcPreferredSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
@@ -375,9 +482,14 @@ public override global::System.Object calcPreferredSize(){
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     _r14.i = 3;
     _r13.i = 1;
@@ -482,10 +594,16 @@ public override global::System.Object calcPreferredSize(){
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void keyPressed(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -505,24 +623,35 @@ public override void keyPressed(int n1){
 
 public virtual void setValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void setValue(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r5_o).getModel();
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.spinner.SpinnerDateModel)) ? 1 : 0;
     if (_r4.i == 0) goto label16;
+    _r2_o = _r2_o;
+    _r6_o = _r6_o;
     ((global::com.codename1.ui.spinner.SpinnerDateModel) _r2_o).setValue((global::java.util.Date) _r6_o);
     label15:;
     return;
     label16:;
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.spinner.SpinnerNumberModel)) ? 1 : 0;
     if (_r4.i == 0) goto label26;
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r2_o).setValue((global::java.lang.Object) _r6_o);
     goto label15;
     label26:;
@@ -546,18 +675,23 @@ public virtual void setValue(global::java.lang.Object n1){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: java.lang.Object getValue()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r2_o).getModel();
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.spinner.SpinnerDateModel)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.spinner.SpinnerDateModel) _r0_o).getValue();
     label14:;
     return (global::java.lang.Object) _r1_o;
     label15:;
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r0_o).getValue();
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: java.lang.Object getValue()]
@@ -572,25 +706,46 @@ public override void keyReleased(int n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
@@ -634,6 +789,7 @@ public override void keyReleased(int n1){
     _r19.i = _r0.i;
     if (_r19.i == 0) goto label313;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getValue();
+    _r24_o = _r24_o;
     _r14.i = ((global::java.lang.Integer) _r24_o).intValue();
     _r12.i = _r14.i % 60;
     _r9.i = _r14.i / 60;
@@ -733,6 +889,7 @@ public override void keyReleased(int n1){
     try {
     _r6.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r13_o);
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getRenderer();
+    _r24_o = _r24_o;
     _r19.i = ((global::com.codename1.ui.spinner.DateTimeRenderer) _r24_o).isTwentyFourHours() ? 1 : 0;
     if (_r19.i == 0) goto label220;
     _r19.i = 24;
@@ -806,6 +963,7 @@ public override void keyReleased(int n1){
     label255:;
     try {
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getRenderer();
+    _r24_o = _r24_o;
     _r19.i = ((global::com.codename1.ui.spinner.DateTimeRenderer) _r24_o).isShowSeconds() ? 1 : 0;
     if (_r19.i == 0) goto label277;
     _r19.i = 3;
@@ -869,6 +1027,7 @@ public override void keyReleased(int n1){
     try {
     _r4_o = global::java.util.Calendar.getInstance();
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getValue();
+    _r24_o = _r24_o;
     _r0_o = _r4_o;
     _r1_o = _r24_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -1103,16 +1262,19 @@ public override void keyReleased(int n1){
     label548:;
     try {
     _r11_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
+    _r11_o = _r11_o;
     _r0_o = _r11_o;
     _r0.i = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r0_o)._frealValues ? 1 : 0;
     _r19.i = _r0.i;
     if (_r19.i == 0) goto label649;
     _r16.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r13_o);
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
+    _r24_o = _r24_o;
     _r19.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMax();
     _r19.i = _r16.d > _r19.d ? 1 : (_r16.d == _r19.d ? 0 : -1);
     if (_r19.i > 0) goto label17;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
+    _r24_o = _r24_o;
     _r19.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMin();
     _r19.i = _r16.d > _r19.d ? 1 : (_r16.d == _r19.d ? 0 : -1);
     if (_r19.i < 0) goto label17;
@@ -1179,6 +1341,7 @@ public override void keyReleased(int n1){
     _r0.d = (double) _r0.i;
     _r19.d = _r0.d;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
+    _r24_o = _r24_o;
     _r21.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMax();
     _r19.i = _r19.d > _r21.d ? 1 : (_r19.d == _r21.d ? 0 : -1);
     if (_r19.i > 0) goto label17;
@@ -1186,6 +1349,7 @@ public override void keyReleased(int n1){
     _r0.d = (double) _r0.i;
     _r19.d = _r0.d;
     _r24_o = ((global::com.codename1.ui.spinner.Spinner) _r23_o).getModel();
+    _r24_o = _r24_o;
     _r21.d = ((global::com.codename1.ui.spinner.SpinnerNumberModel) _r24_o).getMin();
     _r19.i = _r19.d > _r21.d ? 1 : (_r19.d == _r21.d ? 0 : -1);
     if (_r19.i < 0) goto label17;
@@ -1210,23 +1374,36 @@ public override void keyReleased(int n1){
     label708:;
     _r8.i = _r8.i + 1;
     goto label618;
+    label712:;
+    label724:;
+    label736:;
+    label748:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void keyReleased(int)]
 }
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void paint(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 1;
@@ -1333,18 +1510,31 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     _r2.i = ((global::com.codename1.ui.spinner.Spinner) _r8_o).getX();
     ((global::com.codename1.ui.TextField) _r1_o).setX((int) _r2.i);
     goto label190;
+    label252:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void paint(com.codename1.ui.Graphics)]
 }
 
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r6.l = -1L;
     _r5.i = 1;
@@ -1380,7 +1570,9 @@ public override bool animate(){
 
 public static global::System.Object getSpinnerHandle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.Image getSpinnerHandle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.spinner.Spinner._fspinnerHandle;
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: com.codename1.ui.Image getSpinnerHandle()]
@@ -1388,7 +1580,9 @@ public static global::System.Object getSpinnerHandle(){
 
 public static void setSpinnerHandle(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void setSpinnerHandle(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.spinner.Spinner._fspinnerHandle = (global::com.codename1.ui.Image) _r0_o;
     return;
@@ -1398,6 +1592,8 @@ public static void setSpinnerHandle(global::com.codename1.ui.Image n1){
 public static int getInputSkipDelay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: int getInputSkipDelay()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.spinner.Spinner._finputSkipDelay;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: int getInputSkipDelay()]
@@ -1406,6 +1602,8 @@ public static int getInputSkipDelay(){
 public static void setInputSkipDelay(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void setInputSkipDelay(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.spinner.Spinner._finputSkipDelay = _r0.i;
     return;
@@ -1415,7 +1613,10 @@ public static void setInputSkipDelay(int n1){
 public override bool shouldRenderSelection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: boolean shouldRenderSelection()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.Spinner) _r1_o).isIgnoreFocusComponentWhenUnfocused() ? 1 : 0;
     if (_r0.i != 0) goto label8;
@@ -1432,7 +1633,9 @@ public override void repaint(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void repaint()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.Spinner) _r1_o).getParent();
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.spinner.BaseSpinner)) ? 1 : 0;
@@ -1447,9 +1650,11 @@ public override void repaint(){
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Spinner: void repaint()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2000;
     global::com.codename1.ui.spinner.Spinner._finputSkipDelay = _r0.i;
     return;

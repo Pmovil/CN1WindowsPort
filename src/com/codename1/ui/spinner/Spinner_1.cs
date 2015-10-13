@@ -3,9 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.ui.spinner {
 public class Spinner_21: global::com.codename1.ui.spinner.SpinnerRenderer {
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner$1: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.spinner.SpinnerRenderer) _r0_o).@this();
     return;
@@ -15,17 +17,34 @@ new public void @this(){
 public override global::System.Object getListCellRendererComponent(global::com.codename1.ui.List n1, global::java.lang.Object n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Spinner$1: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -37,6 +56,7 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     if (_r11_o == null) goto label47;
     _r6.i = ((_r11_o != null) && (_r11_o is global::java.lang.Double)) ? 1 : 0;
     if (_r6.i == 0) goto label47;
+    _r11_o = _r11_o;
     _r0.d = ((global::java.lang.Double) _r11_o).doubleValue();
     _r2.l = (long) _r0.d;
     _r6.d = 100.0D;

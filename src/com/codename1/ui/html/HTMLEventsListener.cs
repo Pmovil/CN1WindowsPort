@@ -11,9 +11,13 @@ public global::com.codename1.ui.html.HTMLComponent _fhtmlC;
 
 public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void <init>(com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -30,16 +34,25 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 
 public virtual void registerComponent(global::com.codename1.ui.Component n1, global::com.codename1.ui.html.HTMLElement n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void registerComponent(com.codename1.ui.Component, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -48,6 +61,7 @@ public virtual void registerComponent(global::com.codename1.ui.Component n1, glo
     ((global::com.codename1.ui.Component) _r7_o).addFocusListener((global::com.codename1.ui.events.FocusListener) _r6_o);
     _r5.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r5.i == 0) goto label18;
+    _r7_o = _r7_o;
     ((global::com.codename1.ui.Button) _r7_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r6_o);
     label17:;
     return;
@@ -55,6 +69,7 @@ public virtual void registerComponent(global::com.codename1.ui.Component n1, glo
     _r5.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r5.i == 0) goto label43;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.List) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r6_o);
     _r3_o = new global::com.codename1.ui.html.HTMLEventsListener_21();
@@ -67,11 +82,13 @@ public virtual void registerComponent(global::com.codename1.ui.Component n1, glo
     _r5.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r5.i == 0) goto label17;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r5_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r5_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r6_o);
     _r5.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r5.i == 0) goto label17;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r1_o = new global::com.codename1.ui.html.HTMLEventsListener_22();
     ((global::com.codename1.ui.html.HTMLEventsListener_22) _r1_o).@this((global::com.codename1.ui.html.HTMLEventsListener) _r6_o, (global::com.codename1.ui.html.HTMLElement) _r8_o, (global::com.codename1.ui.TextField) _r4_o);
@@ -84,13 +101,19 @@ public virtual void registerComponent(global::com.codename1.ui.Component n1, glo
 
 public virtual void deregisterAll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void deregisterAll()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r5_o)._fcomps;
     _r2_o = ((global::java.util.Hashtable) _r3_o).keys();
@@ -98,32 +121,39 @@ public virtual void deregisterAll(){
     _r3.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label82;
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).removeFocusListener((global::com.codename1.ui.events.FocusListener) _r5_o);
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r3.i == 0) goto label31;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).removeActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     goto label6;
     label31:;
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r3.i == 0) goto label51;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r5_o)._flisteners;
     _r4_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r1_o);
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.List) _r3_o).removeSelectionListener((global::com.codename1.ui.events.SelectionListener) _r4_o);
     goto label6;
     label51:;
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r3.i == 0) goto label6;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r3_o).removeActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r3.i == 0) goto label6;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r5_o)._flisteners;
     _r4_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r1_o);
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.TextField) _r3_o).removeDataChangeListener((global::com.codename1.ui.events.DataChangedListener) _r4_o);
     goto label6;
     label82:;
@@ -139,11 +169,17 @@ public virtual void deregisterAll(){
 
 private void toggleChecked(global::com.codename1.ui.html.HTMLElement n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void toggleChecked(com.codename1.ui.html.HTMLElement, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -169,26 +205,43 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r19_o = this;
     _r20_o = n1;
     _r13_o = ((global::com.codename1.ui.events.ActionEvent) _r20_o).getSource();
@@ -197,10 +250,12 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r17_o = _r0_o;
     _r18_o = ((global::com.codename1.ui.events.ActionEvent) _r20_o).getSource();
     _r7_o = ((global::java.util.Hashtable) _r17_o).get((global::java.lang.Object) _r18_o);
+    _r7_o = _r7_o;
     _r0_o = _r13_o;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     _r17.i = _r0.i;
     if (_r17.i == 0) goto label80;
+    _r13_o = _r13_o;
     _r17.i = ((global::com.codename1.ui.CheckBox) _r13_o).isSelected() ? 1 : 0;
     _r0_o = _r19_o;
     _r1_o = _r7_o;
@@ -257,6 +312,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r17.i = ((global::java.util.Enumeration) _r6_o).hasMoreElements() ? 1 : 0;
     if (_r17.i == 0) goto label190;
     _r4_o = ((global::java.util.Enumeration) _r6_o).nextElement();
+    _r4_o = _r4_o;
     _r0_o = _r4_o;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     _r17.i = _r0.i;
@@ -267,6 +323,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = _r17_o;
     _r1_o = _r4_o;
     _r11_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r11_o = _r11_o;
     _r17.i = 37;
     _r0_o = _r11_o;
     _r1.i = _r17.i;
@@ -280,6 +337,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     ((global::com.codename1.ui.html.HTMLElement) _r0_o).removeAttributeById((int) _r1.i);
     goto label130;
     label190:;
+    _r13_o = _r13_o;
     _r17.i = ((global::com.codename1.ui.RadioButton) _r13_o).isSelected() ? 1 : 0;
     _r0_o = _r19_o;
     _r1_o = _r7_o;
@@ -291,6 +349,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     _r17.i = _r0.i;
     if (_r17.i == 0) goto label272;
+    _r13_o = _r13_o;
     _r14_o = ((global::com.codename1.ui.TextArea) _r13_o).getText();
     _r17.i = ((global::com.codename1.ui.html.HTMLElement) _r7_o).getNumChildren();
     if (_r17.i != 0) goto label241;
@@ -307,6 +366,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = _r7_o;
     _r1.i = _r17.i;
     _r15_o = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getChildAt((int) _r1.i);
+    _r15_o = _r15_o;
     _r17.i = ((global::com.codename1.ui.html.HTMLElement) _r15_o).isTextElement() ? 1 : 0;
     if (_r17.i == 0) goto label263;
     ((global::com.codename1.ui.html.HTMLElement) _r15_o).setText((global::java.lang.String) _r14_o);
@@ -323,6 +383,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.List)) ? 1 : 0;
     _r17.i = _r0.i;
     if (_r17.i == 0) goto label41;
+    _r13_o = _r13_o;
     _r17_o = ((global::com.codename1.ui.List) _r13_o).getSelectedItem();
     _r8_o = ((global::java.lang.Object) _r17_o).toString();
     _r17.i = 39;
@@ -334,6 +395,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r17.i = ((global::java.util.Enumeration) _r6_o).hasMoreElements() ? 1 : 0;
     if (_r17.i == 0) goto label41;
     _r10_o = ((global::java.util.Enumeration) _r6_o).nextElement();
+    _r10_o = _r10_o;
     _r17.i = ((global::com.codename1.ui.html.HTMLElement) _r10_o).getNumChildren();
     _r18.i = 1;
     _r0.i = _r17.i;
@@ -343,6 +405,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = _r10_o;
     _r1.i = _r17.i;
     _r15_o = ((global::com.codename1.ui.html.HTMLElement) _r0_o).getChildAt((int) _r1.i);
+    _r15_o = _r15_o;
     _r17.i = ((global::com.codename1.ui.html.HTMLElement) _r15_o).isTextElement() ? 1 : 0;
     if (_r17.i == 0) goto label378;
     _r17_o = ((global::com.codename1.ui.html.HTMLElement) _r15_o).getText();
@@ -384,11 +447,17 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void focusGained(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void focusGained(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fhtmlC;
@@ -399,6 +468,7 @@ public virtual void focusGained(global::com.codename1.ui.Component n1){
     _r1_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fhtmlC;
     _r2_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fcomps;
     _r3_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.html.HTMLCallback) _r0_o).focusGained((global::com.codename1.ui.Component) _r4_o, (global::com.codename1.ui.html.HTMLComponent) _r1_o, (global::com.codename1.ui.html.HTMLElement) _r3_o);
     label27:;
     return;
@@ -407,11 +477,17 @@ public virtual void focusGained(global::com.codename1.ui.Component n1){
 
 public virtual void focusLost(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener: void focusLost(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fhtmlC;
@@ -422,6 +498,7 @@ public virtual void focusLost(global::com.codename1.ui.Component n1){
     _r1_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fhtmlC;
     _r2_o = ((global::com.codename1.ui.html.HTMLEventsListener) _r3_o)._fcomps;
     _r3_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.html.HTMLCallback) _r0_o).focusLost((global::com.codename1.ui.Component) _r4_o, (global::com.codename1.ui.html.HTMLComponent) _r1_o, (global::com.codename1.ui.html.HTMLElement) _r3_o);
     label27:;
     return;

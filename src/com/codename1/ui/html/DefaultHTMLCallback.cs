@@ -69,9 +69,11 @@ public static int _fERROR_1CSS_1NOT_1FOUND = com.codename1.ui.html._iCSSParserCa
 
 public static int _fERROR_1CSS_1NO_1BASE_1URL = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NO_1BASE_1URL;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -80,9 +82,13 @@ new public void @this(){
 
 public virtual void titleUpdated(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void titleUpdated(com.codename1.ui.html.HTMLComponent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -94,12 +100,19 @@ public virtual bool parsingError(int n1, global::java.lang.String n2, global::ja
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: boolean parsingError(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -115,10 +128,15 @@ public virtual bool parsingError(int n1, global::java.lang.String n2, global::ja
 
 public virtual void pageStatusChanged(global::com.codename1.ui.html.HTMLComponent n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void pageStatusChanged(com.codename1.ui.html.HTMLComponent, int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -129,14 +147,23 @@ public virtual void pageStatusChanged(global::com.codename1.ui.html.HTMLComponen
 
 public virtual global::System.Object fieldSubmitted(global::com.codename1.ui.html.HTMLComponent n1, global::com.codename1.ui.TextArea n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, int n6, global::java.lang.String n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: java.lang.String fieldSubmitted(com.codename1.ui.html.HTMLComponent, com.codename1.ui.TextArea, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -151,11 +178,17 @@ public virtual global::System.Object fieldSubmitted(global::com.codename1.ui.htm
 
 public virtual global::System.Object getAutoComplete(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: java.lang.String getAutoComplete(com.codename1.ui.html.HTMLComponent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -168,9 +201,14 @@ public virtual global::System.Object getAutoComplete(global::com.codename1.ui.ht
 public virtual int getLinkProperties(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: int getLinkProperties(com.codename1.ui.html.HTMLComponent, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -182,9 +220,14 @@ public virtual int getLinkProperties(global::com.codename1.ui.html.HTMLComponent
 public virtual bool linkClicked(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: boolean linkClicked(com.codename1.ui.html.HTMLComponent, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -195,10 +238,15 @@ public virtual bool linkClicked(global::com.codename1.ui.html.HTMLComponent n1, 
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void actionPerformed(com.codename1.ui.events.ActionEvent, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -209,10 +257,15 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void focusGained(global::com.codename1.ui.Component n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void focusGained(com.codename1.ui.Component, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -223,10 +276,15 @@ public virtual void focusGained(global::com.codename1.ui.Component n1, global::c
 
 public virtual void focusLost(global::com.codename1.ui.Component n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void focusLost(com.codename1.ui.Component, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -237,12 +295,19 @@ public virtual void focusLost(global::com.codename1.ui.Component n1, global::com
 
 public virtual void selectionChanged(int n1, int n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.List n4, global::com.codename1.ui.html.HTMLElement n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void selectionChanged(int, int, com.codename1.ui.html.HTMLComponent, com.codename1.ui.List, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -255,12 +320,19 @@ public virtual void selectionChanged(int n1, int n2, global::com.codename1.ui.ht
 
 public virtual void dataChanged(int n1, int n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.TextField n4, global::com.codename1.ui.html.HTMLElement n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DefaultHTMLCallback: void dataChanged(int, int, com.codename1.ui.html.HTMLComponent, com.codename1.ui.TextField, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;

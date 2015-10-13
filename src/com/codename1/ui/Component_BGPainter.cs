@@ -33,10 +33,15 @@ public global::com.codename1.ui.Component _fthis_20;
 
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.animations.Motion n2, global::com.codename1.ui.animations.Motion n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void <init>(com.codename1.ui.Component, com.codename1.ui.animations.Motion, com.codename1.ui.animations.Motion)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -51,8 +56,11 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 
 public void @this(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void <init>(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Component_2BGPainter) _r0_o)._fthis_20 = (global::com.codename1.ui.Component) _r1_o;
@@ -63,9 +71,13 @@ public void @this(global::com.codename1.ui.Component n1){
 
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.plaf.Style n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void <init>(com.codename1.ui.Component, com.codename1.ui.plaf.Style)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -78,10 +90,15 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.Form n2, global::com.codename1.ui.Painter n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void <init>(com.codename1.ui.Component, com.codename1.ui.Form, com.codename1.ui.Painter)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -95,8 +112,11 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 
 public virtual void setPreviousForm(global::com.codename1.ui.Form n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void setPreviousForm(com.codename1.ui.Form)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Component_2BGPainter) _r0_o)._fpreviousTint = (global::com.codename1.ui.Form) _r1_o;
@@ -106,8 +126,11 @@ public virtual void setPreviousForm(global::com.codename1.ui.Form n1){
 
 public virtual global::System.Object getPreviousForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: com.codename1.ui.Form getPreviousForm()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Component_2BGPainter) _r1_o)._fpreviousTint;
     return (global::com.codename1.ui.Form) _r0_o;
@@ -121,25 +144,44 @@ private void drawGradientBackground(global::com.codename1.ui.plaf.Style n1, glob
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r16_o = n2;
@@ -275,6 +317,7 @@ private void drawGradientBackground(global::com.codename1.ui.plaf.Style n1, glob
     _r10.i = _r20.i;
     ((global::com.codename1.ui.Graphics) _r4_o).fillRectRadialGradient((int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i, (float) _r11.f, (float) _r12.f, (float) _r13.f);
     goto label34;
+    label294:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component$BGPainter: void drawGradientBackground(com.codename1.ui.plaf.Style, com.codename1.ui.Graphics, int, int, int, int)]
 }
 
@@ -285,7 +328,9 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -293,35 +338,64 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
+    global::System.Object _r32_o = null;
+    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
+    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
+    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r33_o = this;
     _r34_o = n1;
     _r35_o = n2;
@@ -900,6 +974,7 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
     _r6_o = _r34_o;
     ((global::com.codename1.ui.Component_2BGPainter) _r4_o).drawGradientBackground((global::com.codename1.ui.plaf.Style) _r5_o, (global::com.codename1.ui.Graphics) _r6_o, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i);
     goto label25;
+    label1104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Component$BGPainter: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
 }
 
@@ -907,13 +982,17 @@ public virtual bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: boolean animate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r0_o = ((global::com.codename1.ui.Component_2BGPainter) _r5_o)._fwMotion;
@@ -953,8 +1032,11 @@ public virtual bool animate(){
 
 public virtual void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Component$BGPainter: void paint(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;

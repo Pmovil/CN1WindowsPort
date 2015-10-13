@@ -12,11 +12,15 @@ private int _fv;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fcrc_1table;
 
+private static int _fGF2_1DIM = 32;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 0;
@@ -28,14 +32,22 @@ new public void @this(){
 public virtual void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void update(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2;
@@ -66,7 +78,10 @@ public virtual void update(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void reset()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.io.gzip.CRC32) _r1_o)._fv = _r0.i;
@@ -77,8 +92,16 @@ public virtual void reset(){
 public virtual void reset(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void reset(long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r0.l = 4294967295L;
@@ -92,8 +115,16 @@ public virtual void reset(long n1){
 public virtual long getValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: long getValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::com.codename1.io.gzip.CRC32) _r4_o)._fv;
     _r0.l = (long) _r0.i;
@@ -108,12 +139,30 @@ public static long combine(long n1, long n2, long n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.l = n1;
     _r9.l = n2;
     _r11.l = n3;
@@ -181,11 +230,26 @@ public static long combine(long n1, long n2, long n3){
 private static long gf2_1matrix_1times(global::org.xmlvm._nArrayAdapter<long> n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: long gf2_matrix_times(long[], long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8.l = n2;
     _r5.l = 0L;
@@ -213,9 +277,16 @@ private static long gf2_1matrix_1times(global::org.xmlvm._nArrayAdapter<long> n1
 public static void gf2_1matrix_1square(global::org.xmlvm._nArrayAdapter<long> n1, global::org.xmlvm._nArrayAdapter<long> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void gf2_matrix_square(long[], long[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r0.i = 0;
@@ -234,9 +305,13 @@ public static void gf2_1matrix_1square(global::org.xmlvm._nArrayAdapter<long> n1
 
 public virtual global::System.Object copy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: com.codename1.io.gzip.CRC32 copy()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.io.gzip.CRC32();
     ((global::com.codename1.io.gzip.CRC32) _r0_o).@this();
@@ -248,11 +323,15 @@ public virtual global::System.Object copy(){
 
 public static global::System.Object getCRC32Table(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: int[] getCRC32Table()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 0;
     _r1_o = global::com.codename1.io.gzip.CRC32._fcrc_1table;
     _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
@@ -264,15 +343,21 @@ public static global::System.Object getCRC32Table(){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.CRC32: int[] getCRC32Table()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.CRC32: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = 256;
     _r3_o = null;
     global::com.codename1.io.gzip.CRC32._fcrc_1table = (global::org.xmlvm._nArrayAdapter<int>) _r3_o;

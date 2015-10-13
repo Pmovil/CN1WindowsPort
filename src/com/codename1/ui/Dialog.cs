@@ -70,10 +70,13 @@ private global::com.codename1.ui.Label _fdialogTitle;
 
 private global::com.codename1.ui.Container _fdialogContentPane;
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Dialog) _r0_o).@this();
@@ -84,19 +87,26 @@ new public void @this(global::java.lang.String n1){
 
 public override void initAdPadding(global::com.codename1.ui.Display n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void initAdPadding(com.codename1.ui.Display)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void initAdPadding(com.codename1.ui.Display)]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=Dialog
     _r0_o = new global::java.lang.String();
@@ -115,12 +125,19 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -204,8 +221,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public override global::System.Object getContentPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Container getContentPane()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -214,8 +234,11 @@ public override global::System.Object getContentPane(){
 
 public override global::System.Object getLayout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.layouts.Layout getLayout()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getLayout();
@@ -225,8 +248,11 @@ public override global::System.Object getLayout(){
 
 public override global::System.Object getTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: java.lang.String getTitle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogTitle;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -236,9 +262,13 @@ public override global::System.Object getTitle(){
 
 public override void addComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
@@ -249,10 +279,15 @@ public override void addComponent(global::com.codename1.ui.Component n1){
 
 public override void addComponent(global::java.lang.Object n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addComponent(java.lang.Object, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -264,11 +299,17 @@ public override void addComponent(global::java.lang.Object n1, global::com.coden
 
 public override void addComponent(int n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addComponent(int, java.lang.Object, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -281,10 +322,15 @@ public override void addComponent(int n1, global::java.lang.Object n2, global::c
 
 public override void addComponent(int n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addComponent(int, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -296,8 +342,11 @@ public override void addComponent(int n1, global::com.codename1.ui.Component n2)
 
 public override void removeAll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void removeAll()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
     ((global::com.codename1.ui.Container) _r0_o).removeAll();
@@ -307,9 +356,13 @@ public override void removeAll(){
 
 public override void removeComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void removeComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
@@ -320,8 +373,11 @@ public override void removeComponent(global::com.codename1.ui.Component n1){
 
 public override global::System.Object getTitleComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Label getTitleComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogTitle;
     return (global::com.codename1.ui.Label) _r0_o;
@@ -330,8 +386,11 @@ public override global::System.Object getTitleComponent(){
 
 public override global::System.Object getTitleStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.plaf.Style getTitleStyle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogTitle;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getStyle();
@@ -341,9 +400,13 @@ public override global::System.Object getTitleStyle(){
 
 public override void setLayout(global::com.codename1.ui.layouts.Layout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setLayout(com.codename1.ui.layouts.Layout)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogContentPane;
@@ -354,7 +417,9 @@ public override void setLayout(global::com.codename1.ui.layouts.Layout n1){
 
 public override void updateIcsIconCommandBehavior(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void updateIcsIconCommandBehavior()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void updateIcsIconCommandBehavior()]
@@ -362,9 +427,13 @@ public override void updateIcsIconCommandBehavior(){
 
 public override void setTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setTitle(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogTitle;
@@ -375,11 +444,17 @@ public override void setTitle(global::java.lang.String n1){
 
 public override void setTitleComponent(global::com.codename1.ui.Label n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setTitleComponent(com.codename1.ui.Label)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = base.getContentPane();
@@ -398,8 +473,11 @@ public override void setTitleComponent(global::com.codename1.ui.Label n1){
 
 public virtual global::System.Object getDialogComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Container getDialogComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.getContentPane();
     return (global::com.codename1.ui.Container) _r0_o;
@@ -408,11 +486,17 @@ public virtual global::System.Object getDialogComponent(){
 
 public override void setTitleComponent(global::com.codename1.ui.Label n1, global::com.codename1.ui.animations.Transition n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setTitleComponent(com.codename1.ui.Label, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -426,9 +510,13 @@ public override void setTitleComponent(global::com.codename1.ui.Label n1, global
 
 public virtual void setDialogStyle(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDialogStyle(com.codename1.ui.plaf.Style)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = base.getContentPane();
@@ -439,9 +527,13 @@ public virtual void setDialogStyle(global::com.codename1.ui.plaf.Style n1){
 
 public virtual void setDialogUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDialogUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = base.getContentPane();
@@ -452,8 +544,11 @@ public virtual void setDialogUIID(global::java.lang.String n1){
 
 public virtual global::System.Object getDialogUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: java.lang.String getDialogUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.getContentPane();
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getUIID();
@@ -463,8 +558,11 @@ public virtual global::System.Object getDialogUIID(){
 
 public virtual global::System.Object getDialogStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.plaf.Style getDialogStyle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.getContentPane();
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getStyle();
@@ -474,9 +572,13 @@ public virtual global::System.Object getDialogStyle(){
 
 public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void initLaf(com.codename1.ui.plaf.UIManager)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.initLaf((global::com.codename1.ui.plaf.UIManager) _r2_o);
@@ -492,19 +594,33 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 
 public virtual global::System.Object show(int n1, int n2, int n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(int, int, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -525,18 +641,31 @@ public virtual global::System.Object show(int n1, int n2, int n3, int n4, bool n
 
 public virtual global::System.Object show(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -559,19 +688,34 @@ public virtual global::System.Object show(int n1, int n2, int n3, int n4, bool n
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -613,18 +757,32 @@ public virtual global::System.Object showAtPosition(int n1, int n2, int n3, int 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -662,7 +820,9 @@ public virtual global::System.Object showAtPosition(int n1, int n2, int n3, int 
 
 public override void initTitleBarStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void initTitleBarStatus()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void initTitleBarStatus()]
@@ -671,8 +831,16 @@ public override void initTitleBarStatus(){
 public virtual void setTimeout(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setTimeout(long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.l = n1;
     _r0.l = global::java.lang.System.currentTimeMillis();
@@ -687,18 +855,33 @@ public static bool show(global::java.lang.String n1, global::java.lang.String n2
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean show(java.lang.String, java.lang.String, int, com.codename1.ui.Image, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10.i = n3;
@@ -719,11 +902,17 @@ public static bool show(global::java.lang.String n1, global::java.lang.String n2
 
 public override void sizeChangedInternal(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void sizeChangedInternal(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -752,37 +941,66 @@ public virtual void autoAdjust(int n1, int n2){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r29_o = this;
     _r30.i = n1;
     _r31.i = n2;
@@ -1304,22 +1522,39 @@ public virtual void autoAdjust(int n1, int n2){
 
 public static bool show(global::java.lang.String n1, global::java.lang.String n2, int n3, global::com.codename1.ui.Image n4, global::java.lang.String n5, global::java.lang.String n6, long n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean show(java.lang.String, java.lang.String, int, com.codename1.ui.Image, java.lang.String, java.lang.String, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10.i = n3;
@@ -1363,19 +1598,37 @@ public static bool show(global::java.lang.String n1, global::java.lang.String n2
 
 public static global::System.Object show(global::java.lang.String n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::com.codename1.ui.Image n5, long n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, java.lang.String, com.codename1.ui.Command[], int, com.codename1.ui.Image, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10_o = n3;
@@ -1396,22 +1649,43 @@ public static global::System.Object show(global::java.lang.String n1, global::ja
 
 public static global::System.Object show(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.Command n3, global::org.xmlvm._nArrayAdapter<global::System.Object> n4, int n5, global::com.codename1.ui.Image n6, long n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, java.lang.String, com.codename1.ui.Command, com.codename1.ui.Command[], int, com.codename1.ui.Image, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12_o = n3;
@@ -1435,21 +1709,41 @@ public static global::System.Object show(global::java.lang.String n1, global::ja
 
 public static global::System.Object show(global::java.lang.String n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::com.codename1.ui.Image n5, long n6, global::com.codename1.ui.animations.Transition n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, java.lang.String, com.codename1.ui.Command[], int, com.codename1.ui.Image, long, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r11_o = n3;
@@ -1472,26 +1766,45 @@ public static global::System.Object show(global::java.lang.String n1, global::ja
 
 public static global::System.Object show(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.Command n3, global::org.xmlvm._nArrayAdapter<global::System.Object> n4, int n5, global::com.codename1.ui.Image n6, long n7, global::com.codename1.ui.animations.Transition n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, java.lang.String, com.codename1.ui.Command, com.codename1.ui.Command[], int, com.codename1.ui.Image, long, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12_o = n3;
@@ -1507,6 +1820,7 @@ public static global::System.Object show(global::java.lang.String n1, global::ja
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r11_o);
     if (_r1_o == null) goto label22;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r11_o = _r0_o;
     label22:;
     _r2_o = new global::com.codename1.ui.TextArea();
@@ -1535,15 +1849,25 @@ public static bool show(global::java.lang.String n1, global::java.lang.String n2
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean show(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8_o = n3;
@@ -1563,10 +1887,15 @@ public static global::System.Object show(global::java.lang.String n1, global::co
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, com.codename1.ui.Component, com.codename1.ui.Command[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -1579,17 +1908,31 @@ public static global::System.Object show(global::java.lang.String n1, global::co
 
 public static global::System.Object show(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::com.codename1.ui.Image n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, com.codename1.ui.Component, com.codename1.ui.Command[], int, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9_o = n3;
@@ -1608,19 +1951,37 @@ public static global::System.Object show(global::java.lang.String n1, global::co
 
 public static global::System.Object show(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::com.codename1.ui.Image n5, long n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, com.codename1.ui.Component, com.codename1.ui.Command[], int, com.codename1.ui.Image, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10_o = n3;
@@ -1641,21 +2002,41 @@ public static global::System.Object show(global::java.lang.String n1, global::co
 
 public static global::System.Object show(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::com.codename1.ui.Image n5, long n6, global::com.codename1.ui.animations.Transition n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, com.codename1.ui.Component, com.codename1.ui.Command[], int, com.codename1.ui.Image, long, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r11_o = n3;
@@ -1678,10 +2059,15 @@ public static global::System.Object show(global::java.lang.String n1, global::co
 
 private void addButtonBar(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addButtonBar(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = base.getContentPane();
@@ -1695,24 +2081,39 @@ private void addButtonBar(global::com.codename1.ui.Container n1){
 
 public virtual void placeButtonCommands(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void placeButtonCommands(com.codename1.ui.Command[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r13.i = 0;
@@ -1829,12 +2230,19 @@ public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r4.i = 0;
@@ -1881,21 +2289,35 @@ public override void keyReleased(int n1){
 
 public static global::System.Object show(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Command n3, global::org.xmlvm._nArrayAdapter<global::System.Object> n4, int n5, global::com.codename1.ui.Image n6, long n7, global::com.codename1.ui.animations.Transition n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command show(java.lang.String, com.codename1.ui.Component, com.codename1.ui.Command, com.codename1.ui.Command[], int, com.codename1.ui.Image, long, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7_o = n3;
@@ -1977,7 +2399,10 @@ public override void onShow(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r2_o)._fdialogType;
     if (_r0.i <= 0) goto label13;
@@ -1993,8 +2418,11 @@ public override void onShowCompletedImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void onShowCompletedImpl()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::com.codename1.ui.Dialog) _r2_o).onShowCompleted();
     _r0.i = ((global::com.codename1.ui.Dialog) _r2_o).isDisposed() ? 1 : 0;
@@ -2015,7 +2443,10 @@ public override void onShowCompletedImpl(){
 public override void showBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void showBack()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Dialog) _r1_o).showImpl(0!=_r0.i);
@@ -2025,9 +2456,13 @@ public override void showBack(){
 
 public override void setScrollable(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setScrollable(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o).getContentPane();
@@ -2039,7 +2474,10 @@ public override void setScrollable(bool n1){
 public override void show(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void show()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.Dialog) _r1_o).showImpl(0!=_r0.i);
@@ -2052,20 +2490,43 @@ private void showImpl(bool n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1 ? 1 : 0;
+    _r0.i = ((global::com.codename1.ui.Dialog) _r7_o)._fmodal ? 1 : 0;
+    if (_r0.i == 0) goto label26;
+    _r0.i = global::com.codename1.ui.Display.isInitialized() ? 1 : 0;
+    if (_r0.i == 0) goto label26;
+    _r0_o = global::com.codename1.ui.Display.getInstance();
+    _r0.i = ((global::com.codename1.ui.Display) _r0_o).isMinimized() ? 1 : 0;
+    if (_r0.i == 0) goto label26;
+    // Value=Modal dialogs cannot be displayed on a minimized app
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112))}));
+    global::com.codename1.io.Log.p((global::java.lang.String) _r0_o);
+    label25:;
+    return;
+    label26:;
     _r0.i = 0;
     ((global::com.codename1.ui.Dialog) _r7_o).setDisposed(0!=_r0.i);
     _r0.i = ((global::com.codename1.ui.Dialog) _r7_o)._ftop;
     _r1.i = -1;
-    if (_r0.i <= _r1.i) goto label26;
+    if (_r0.i <= _r1.i) goto label52;
     _r1.i = ((global::com.codename1.ui.Dialog) _r7_o)._ftop;
     _r2.i = ((global::com.codename1.ui.Dialog) _r7_o)._fbottom;
     _r3.i = ((global::com.codename1.ui.Dialog) _r7_o)._fleft;
@@ -2074,21 +2535,20 @@ private void showImpl(bool n1){
     _r6.i = ((global::com.codename1.ui.Dialog) _r7_o)._fmodal ? 1 : 0;
     _r0_o = _r7_o;
     ((global::com.codename1.ui.Dialog) _r0_o).show((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i, 0!=_r5.i, 0!=_r6.i);
-    label25:;
-    return;
-    label26:;
+    goto label25;
+    label52:;
     _r0.i = ((global::com.codename1.ui.Dialog) _r7_o)._fmodal ? 1 : 0;
-    if (_r0.i == 0) goto label49;
+    if (_r0.i == 0) goto label75;
     _r0_o = ((global::com.codename1.ui.Dialog) _r7_o).getDialogPosition();
-    if (_r0_o != null) goto label40;
+    if (_r0_o != null) goto label66;
     base.showModal(0!=_r8.i);
     goto label25;
-    label40:;
+    label66:;
     _r0_o = ((global::com.codename1.ui.Dialog) _r7_o).getDialogPosition();
     _r1.i = 1;
     ((global::com.codename1.ui.Dialog) _r7_o).showPacked((global::java.lang.String) _r0_o, 0!=_r1.i);
     goto label25;
-    label49:;
+    label75:;
     ((global::com.codename1.ui.Dialog) _r7_o).showModeless();
     goto label25;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void showImpl(boolean)]
@@ -2099,12 +2559,20 @@ public virtual void showModeless(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 0;
     ((global::com.codename1.ui.Dialog) _r7_o)._fmodal = 0!=_r6.i;
@@ -2136,18 +2604,30 @@ public virtual void showModeless(){
 public override void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6, bool n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void showModal(int, int, int, int, boolean, boolean, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -2157,46 +2637,63 @@ public override void showModal(int n1, int n2, int n3, int n4, bool n5, bool n6,
     _r10.i = n6 ? 1 : 0;
     _r11.i = n7 ? 1 : 0;
     _r3.i = 0;
+    _r1.i = global::com.codename1.ui.Display.isInitialized() ? 1 : 0;
+    if (_r1.i == 0) goto label23;
+    _r1_o = global::com.codename1.ui.Display.getInstance();
+    _r1.i = ((global::com.codename1.ui.Display) _r1_o).isMinimized() ? 1 : 0;
+    if (_r1.i == 0) goto label23;
+    // Value=Modal dialogs cannot be displayed on a minimized app
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112))}));
+    global::com.codename1.io.Log.p((global::java.lang.String) _r1_o);
+    label22:;
+    return;
+    label23:;
     ((global::com.codename1.ui.Dialog) _r4_o)._ftop = _r5.i;
     ((global::com.codename1.ui.Dialog) _r4_o)._fbottom = _r6.i;
     ((global::com.codename1.ui.Dialog) _r4_o)._fleft = _r7.i;
     ((global::com.codename1.ui.Dialog) _r4_o)._fright = _r8.i;
     _r1_o = ((global::com.codename1.ui.Dialog) _r4_o)._fdialogTitle;
-    if (_r1_o == null) goto label53;
+    if (_r1_o == null) goto label75;
     _r1_o = ((global::com.codename1.ui.Dialog) _r4_o).getUIManager();
     // Value=hideEmptyTitleBool
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108))}));
     _r1.i = ((global::com.codename1.ui.plaf.UIManager) _r1_o).isThemeConstant((global::java.lang.String) _r2_o, 0!=_r3.i) ? 1 : 0;
-    if (_r1.i == 0) goto label53;
+    if (_r1.i == 0) goto label75;
     _r1_o = ((global::com.codename1.ui.Dialog) _r4_o)._fdialogTitle;
     _r1_o = ((global::com.codename1.ui.Label) _r1_o).getText();
     _r1.i = ((global::java.lang.String) _r1_o).length();
-    if (_r1.i <= 0) goto label57;
+    if (_r1.i <= 0) goto label79;
     _r1.i = 1;
     _r0.i = _r1.i;
-    label39:;
+    label61:;
     _r1_o = ((global::com.codename1.ui.Dialog) _r4_o).getTitleArea();
     ((global::com.codename1.ui.Container) _r1_o).setVisible(0!=_r0.i);
     _r1_o = ((global::com.codename1.ui.Dialog) _r4_o).getTitleComponent();
     ((global::com.codename1.ui.Label) _r1_o).setVisible(0!=_r0.i);
-    label53:;
+    label75:;
     base.showModal((int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i);
-    return;
-    label57:;
+    goto label22;
+    label79:;
     _r0.i = _r3.i;
-    goto label39;
+    goto label61;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void showModal(int, int, int, int, boolean, boolean, boolean)]
 }
 
 public virtual global::System.Object showPopupDialog(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showPopupDialog(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.Component) _r4_o).getSelectedRect();
@@ -2220,11 +2717,16 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
@@ -2233,37 +2735,68 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
+    global::System.Object _r32_o = null;
+    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
     global::org.xmlvm._nElement _r34;
+    global::System.Object _r34_o = null;
+    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
     global::org.xmlvm._nElement _r36;
+    global::System.Object _r36_o = null;
+    global::org.xmlvm._nElement _r37;
     global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
+    global::System.Object _r38_o = null;
     global::org.xmlvm._nElement _r39;
+    global::System.Object _r39_o = null;
+    global::org.xmlvm._nElement _r40;
     global::System.Object _r40_o = null;
+    global::org.xmlvm._nElement _r41;
     global::System.Object _r41_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r40_o = this;
     _r41_o = n1;
     _r8_o = ((global::com.codename1.ui.Dialog) _r40_o).getDialogUIID();
@@ -2704,13 +3237,19 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
 
 private int calcMenuHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: int calcMenuHeight()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r2.i = ((global::com.codename1.ui.Dialog) _r5_o).getSoftButtonCount();
@@ -2737,9 +3276,13 @@ public virtual global::System.Object showPacked(global::java.lang.String n1, boo
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showPacked(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2753,9 +3296,13 @@ public virtual global::System.Object showStretched(global::java.lang.String n1, 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showStretched(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2769,9 +3316,13 @@ public virtual global::System.Object showStetched(global::java.lang.String n1, b
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showStetched(java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -2783,14 +3334,21 @@ public virtual global::System.Object showStetched(global::java.lang.String n1, b
 
 public virtual global::System.Object getDialogPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.geom.Dimension getDialogPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r0_o = base.getContentPane();
     _r1_o = ((global::com.codename1.ui.Dialog) _r6_o).getDialogStyle();
@@ -2827,27 +3385,48 @@ private global::System.Object showPackedImpl(global::java.lang.String n1, bool n
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r22_o = this;
     _r23_o = n1;
     _r24.i = n2 ? 1 : 0;
@@ -3117,7 +3696,10 @@ private global::System.Object showPackedImpl(global::java.lang.String n1, bool n
 public override void dispose(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void dispose()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o).isDisposed() ? 1 : 0;
     if (_r0.i == 0) goto label7;
@@ -3135,8 +3717,11 @@ public override void dispose(){
 
 public virtual global::System.Object showDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showDialog()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     ((global::com.codename1.ui.Dialog) _r1_o)._flastCommandPressed = (global::com.codename1.ui.Command) _r0_o;
@@ -3150,8 +3735,11 @@ public override void actionCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void actionCommand(com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fautoDispose ? 1 : 0;
@@ -3177,7 +3765,10 @@ public override void actionCommand(global::com.codename1.ui.Command n1){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Dialog) _r1_o).isTimedOut();
     _r0.i = 0;
@@ -3188,9 +3779,20 @@ public override bool animate(){
 private bool isTimedOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isTimedOut()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r4.l = 0L;
     _r0.l = ((global::com.codename1.ui.Dialog) _r6_o)._ftime;
@@ -3215,7 +3817,10 @@ private bool isTimedOut(){
 public override bool isMenu(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isMenu()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fmenu ? 1 : 0;
     return _r0.i!=0;
@@ -3224,8 +3829,11 @@ public override bool isMenu(){
 
 public virtual void setMenu(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setMenu(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Dialog) _r0_o)._fmenu = 0!=_r1.i;
@@ -3237,8 +3845,11 @@ public virtual void addSelectCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void addSelectCommand()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r2_o)._fmenu ? 1 : 0;
     if (_r0.i != 0) goto label15;
@@ -3253,7 +3864,10 @@ public virtual void addSelectCommand(){
 public override bool isDisposed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isDisposed()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fdisposed ? 1 : 0;
     if (_r0.i != 0) goto label10;
@@ -3271,8 +3885,11 @@ public override bool isDisposed(){
 
 public virtual void setDisposed(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDisposed(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Dialog) _r0_o)._fdisposed = 0!=_r1.i;
@@ -3283,7 +3900,10 @@ public virtual void setDisposed(bool n1){
 public virtual bool isAutoDispose(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isAutoDispose()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fautoDispose ? 1 : 0;
     return _r0.i!=0;
@@ -3292,8 +3912,11 @@ public virtual bool isAutoDispose(){
 
 public virtual void setAutoDispose(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setAutoDispose(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Dialog) _r0_o)._fautoDispose = 0!=_r1.i;
@@ -3303,7 +3926,9 @@ public virtual void setAutoDispose(bool n1){
 
 public static void setDefaultDialogPosition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDefaultDialogPosition(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.Dialog._fdefaultDialogPosition = (global::java.lang.String) _r0_o;
     return;
@@ -3312,7 +3937,9 @@ public static void setDefaultDialogPosition(global::java.lang.String n1){
 
 public static global::System.Object getDefaultDialogPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: java.lang.String getDefaultDialogPosition()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Dialog._fdefaultDialogPosition;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: java.lang.String getDefaultDialogPosition()]
@@ -3321,7 +3948,10 @@ public static global::System.Object getDefaultDialogPosition(){
 public virtual int getDialogType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: int getDialogType()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogType;
     return _r0.i;
@@ -3330,8 +3960,11 @@ public virtual int getDialogType(){
 
 public virtual void setDialogType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDialogType(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Dialog) _r0_o)._fdialogType = _r1.i;
@@ -3342,6 +3975,8 @@ public virtual void setDialogType(int n1){
 public static void setDefaultDialogType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDefaultDialogType(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.ui.Dialog._fdefaultDialogType = _r0.i;
     return;
@@ -3351,6 +3986,8 @@ public static void setDefaultDialogType(int n1){
 public static int getDefaultDialogType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: int getDefaultDialogType()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.Dialog._fdefaultDialogType;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: int getDefaultDialogType()]
@@ -3359,6 +3996,8 @@ public static int getDefaultDialogType(){
 public static void setAutoAdjustDialogSize(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setAutoAdjustDialogSize(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.Dialog._fautoAdjustDialogSize = 0!=_r0.i;
     return;
@@ -3368,6 +4007,8 @@ public static void setAutoAdjustDialogSize(bool n1){
 public static bool isAutoAdjustDialogSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isAutoAdjustDialogSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.Dialog._fautoAdjustDialogSize ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: boolean isAutoAdjustDialogSize()]
@@ -3376,6 +4017,8 @@ public static bool isAutoAdjustDialogSize(){
 public static void setDisableStaticDialogScrolling(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDisableStaticDialogScrolling(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.Dialog._fdisableStaticDialogScrolling = 0!=_r0.i;
     return;
@@ -3385,6 +4028,8 @@ public static void setDisableStaticDialogScrolling(bool n1){
 public static bool isDisableStaticDialogScrolling(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isDisableStaticDialogScrolling()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.Dialog._fdisableStaticDialogScrolling ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: boolean isDisableStaticDialogScrolling()]
@@ -3393,6 +4038,8 @@ public static bool isDisableStaticDialogScrolling(){
 public static void setCommandsAsButtons(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setCommandsAsButtons(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.Dialog._fcommandsAsButtons = 0!=_r0.i;
     return;
@@ -3402,6 +4049,8 @@ public static void setCommandsAsButtons(bool n1){
 public static bool isCommandsAsButtons(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isCommandsAsButtons()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.Dialog._fcommandsAsButtons ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: boolean isCommandsAsButtons()]
@@ -3409,8 +4058,11 @@ public static bool isCommandsAsButtons(){
 
 public virtual void setDisposeWhenPointerOutOfBounds(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDisposeWhenPointerOutOfBounds(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Dialog) _r0_o)._fdisposeWhenPointerOutOfBounds = 0!=_r1.i;
@@ -3421,7 +4073,10 @@ public virtual void setDisposeWhenPointerOutOfBounds(bool n1){
 public virtual bool isDisposeWhenPointerOutOfBounds(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: boolean isDisposeWhenPointerOutOfBounds()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Dialog) _r1_o)._fdisposeWhenPointerOutOfBounds ? 1 : 0;
     return _r0.i!=0;
@@ -3432,9 +4087,13 @@ public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -3462,9 +4121,13 @@ public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -3491,8 +4154,11 @@ public override void pointerPressed(int n1, int n2){
 
 public virtual global::System.Object getDialogPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: java.lang.String getDialogPosition()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fdialogPosition;
     return (global::java.lang.String) _r0_o;
@@ -3501,8 +4167,11 @@ public virtual global::System.Object getDialogPosition(){
 
 public virtual void setDialogPosition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setDialogPosition(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Dialog) _r0_o)._fdialogPosition = (global::java.lang.String) _r1_o;
@@ -3514,8 +4183,11 @@ public override void repaint(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void repaint(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Dialog) _r1_o).getParent();
@@ -3534,9 +4206,11 @@ public override void repaint(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void repaint(com.codename1.ui.Component)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.ui.Dialog._fautoAdjustDialogSize = 0!=_r0.i;
     _r0.i = 4;

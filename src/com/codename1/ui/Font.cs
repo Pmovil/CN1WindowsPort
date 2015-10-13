@@ -38,9 +38,11 @@ private global::java.lang.Object _ffont;
 
 private bool _fttf;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -49,8 +51,11 @@ new public void @this(){
 
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <init>(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -61,13 +66,21 @@ public void @this(global::java.lang.Object n1){
 
 public void @this(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <init>(int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -83,18 +96,24 @@ public void @this(int n1, int n2, int n3){
 
 public static global::System.Object getBitmapFont(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font getBitmapFont(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Font._fbitmapCache;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.ui.Font) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font getBitmapFont(java.lang.String)]
 }
 
 public static void clearBitmapCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void clearBitmapCache()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Font._fbitmapCache;
     ((global::java.util.Hashtable) _r0_o).clear();
     return;
@@ -105,6 +124,7 @@ public static bool isTrueTypeFileSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean isTrueTypeFileSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isTrueTypeSupported() ? 1 : 0;
@@ -116,6 +136,7 @@ public static bool isCreationByStringSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean isCreationByStringSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isLookupFontSupported() ? 1 : 0;
@@ -125,15 +146,21 @@ public static bool isCreationByStringSupported(){
 
 public static global::System.Object createTrueTypeFont(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font createTrueTypeFont(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r3.i = -1;
@@ -181,13 +208,19 @@ public static global::System.Object createTrueTypeFont(global::java.lang.String 
 
 public virtual global::System.Object derive(float n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font derive(float, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r5.i = n2;
@@ -205,9 +238,13 @@ public virtual global::System.Object derive(float n1, int n2){
 
 public static global::System.Object create(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font create(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
@@ -225,8 +262,11 @@ public static global::System.Object create(global::java.lang.String n1){
 
 public virtual void addContrast(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void addContrast(byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -235,13 +275,21 @@ public virtual void addContrast(sbyte n1){
 
 public static global::System.Object createBitmapFont(global::java.lang.String n1, global::com.codename1.ui.Image n2, global::org.xmlvm._nArrayAdapter<int> n3, global::org.xmlvm._nArrayAdapter<int> n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font createBitmapFont(java.lang.String, com.codename1.ui.Image, int[], int[], java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -256,11 +304,17 @@ public static global::System.Object createBitmapFont(global::java.lang.String n1
 
 public static global::System.Object createBitmapFont(global::com.codename1.ui.Image n1, global::org.xmlvm._nArrayAdapter<int> n2, global::org.xmlvm._nArrayAdapter<int> n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font createBitmapFont(com.codename1.ui.Image, int[], int[], java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -273,10 +327,15 @@ public static global::System.Object createBitmapFont(global::com.codename1.ui.Im
 
 public static global::System.Object createSystemFont(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font createSystemFont(int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r3.i = n3;
@@ -290,11 +349,17 @@ public virtual int charsWidth(global::org.xmlvm._nArrayAdapter<char> n1, int n2,
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int charsWidth(char[], int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -311,13 +376,19 @@ public virtual int substringWidth(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int substringWidth(java.lang.String, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -336,9 +407,13 @@ public virtual int stringWidth(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int stringWidth(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label8;
@@ -368,9 +443,13 @@ public virtual int charWidth(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int charWidth(char)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -385,8 +464,11 @@ public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -398,11 +480,17 @@ public virtual int getHeight(){
 
 public virtual void drawChar(global::com.codename1.ui.Graphics n1, char n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void drawChar(com.codename1.ui.Graphics, char, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -414,7 +502,9 @@ public virtual void drawChar(global::com.codename1.ui.Graphics n1, char n2, int 
 
 public static global::System.Object getDefaultFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font getDefaultFont()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Font._fdefaultFont;
     return (global::com.codename1.ui.Font) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font getDefaultFont()]
@@ -422,7 +512,9 @@ public static global::System.Object getDefaultFont(){
 
 public static void setDefaultFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void setDefaultFont(com.codename1.ui.Font)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     if (_r0_o == null) goto label4;
     global::com.codename1.ui.Font._fdefaultFont = (global::com.codename1.ui.Font) _r0_o;
@@ -433,11 +525,17 @@ public static void setDefaultFont(global::com.codename1.ui.Font n1){
 
 public virtual void drawString(global::com.codename1.ui.Graphics n1, global::java.lang.String n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void drawString(com.codename1.ui.Graphics, java.lang.String, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -449,13 +547,21 @@ public virtual void drawString(global::com.codename1.ui.Graphics n1, global::jav
 
 public virtual void drawChars(global::com.codename1.ui.Graphics n1, global::org.xmlvm._nArrayAdapter<char> n2, int n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void drawChars(com.codename1.ui.Graphics, char[], int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -471,8 +577,11 @@ public virtual int getFace(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getFace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -486,8 +595,11 @@ public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -501,8 +613,11 @@ public virtual int getStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getStyle()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -514,8 +629,11 @@ public virtual int getStyle(){
 
 public virtual global::System.Object getCharset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: java.lang.String getCharset()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.lang.String) _r0_o;
@@ -525,6 +643,8 @@ public virtual global::System.Object getCharset(){
 public static void setBitmapFontEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void setBitmapFontEnabled(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.Font._fenableBitmapFont = 0!=_r0.i;
     return;
@@ -534,6 +654,8 @@ public static void setBitmapFontEnabled(bool n1){
 public static bool isBitmapFontEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean isBitmapFontEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.Font._fenableBitmapFont ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: boolean isBitmapFontEnabled()]
@@ -541,8 +663,11 @@ public static bool isBitmapFontEnabled(){
 
 public virtual global::System.Object getNativeFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: java.lang.Object getNativeFont()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Font) _r1_o)._ffont;
     return (global::java.lang.Object) _r0_o;
@@ -551,16 +676,23 @@ public virtual global::System.Object getNativeFont(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean equals(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -568,13 +700,16 @@ public override bool equals(global::java.lang.Object n1){
     _r2.i = ((global::com.codename1.ui.Font) _r6_o)._fttf ? 1 : 0;
     if (_r2.i == 0) goto label38;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     if (_r2_o == null) goto label36;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Font) _r2_o)._fttf ? 1 : 0;
     if (_r2.i == 0) goto label36;
+    _r7_o = _r7_o;
     _r2_o = ((global::com.codename1.ui.Font) _r7_o)._ffont;
     _r3_o = ((global::com.codename1.ui.Font) _r6_o)._ffont;
     _r2.i = ((global::java.lang.Object) _r2_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
@@ -591,6 +726,7 @@ public override bool equals(global::java.lang.Object n1){
     _r3_o = ((global::java.lang.Object) _r6_o).getClass();
     if (_r2_o != _r3_o) goto label92;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Font) _r1_o)._fttf ? 1 : 0;
     if (_r2.i != 0) goto label90;
@@ -618,8 +754,11 @@ public virtual int getAscent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getAscent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -633,8 +772,11 @@ public virtual int getDescent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: int getDescent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -644,11 +786,13 @@ public virtual int getDescent(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: int getDescent()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.Font();
     _r1_o = null;
     ((global::com.codename1.ui.Font) _r0_o).@this((global::java.lang.Object) _r1_o);

@@ -21,22 +21,35 @@ public global::java.lang.Object _foriginalConstraint;
 
 public global::com.codename1.ui.Container _foriginalContainer;
 
+public int _foriginalOffset;
+
 public global::com.codename1.ui.animations.MorphTransition _fthis_20;
 
 public void @this(global::com.codename1.ui.animations.MorphTransition n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.Form n4, global::com.codename1.ui.Form n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.MorphTransition$CC: void <init>(com.codename1.ui.animations.MorphTransition, com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Form, com.codename1.ui.Form)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -47,10 +60,10 @@ public void @this(global::com.codename1.ui.animations.MorphTransition n1, global
     ((global::java.lang.Object) _r5_o).@this();
     ((global::com.codename1.ui.animations.MorphTransition_2CC) _r5_o)._fsource = (global::com.codename1.ui.Component) _r7_o;
     ((global::com.codename1.ui.animations.MorphTransition_2CC) _r5_o)._fdest = (global::com.codename1.ui.Component) _r8_o;
-    _r2_o = ((global::com.codename1.ui.Form) _r9_o).getTitleArea();
-    _r1.i = ((global::com.codename1.ui.Container) _r2_o).getHeight();
-    _r2_o = ((global::com.codename1.ui.Form) _r10_o).getTitleArea();
-    _r0.i = ((global::com.codename1.ui.Container) _r2_o).getHeight();
+    _r2_o = ((global::com.codename1.ui.Form) _r9_o).getContentPane();
+    _r1.i = ((global::com.codename1.ui.Container) _r2_o).getY();
+    _r2_o = ((global::com.codename1.ui.Form) _r9_o).getContentPane();
+    _r0.i = ((global::com.codename1.ui.Container) _r2_o).getY();
     _r2.i = ((global::com.codename1.ui.Component) _r7_o).getAbsoluteX();
     _r3.i = ((global::com.codename1.ui.Component) _r8_o).getAbsoluteX();
     _r4.i = global::com.codename1.ui.animations.MorphTransition.access_2000((global::com.codename1.ui.animations.MorphTransition) _r6_o);

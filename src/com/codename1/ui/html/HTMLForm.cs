@@ -46,14 +46,22 @@ public bool _fhasSubmitButton;
 public void @this(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void <init>(com.codename1.ui.html.HTMLComponent, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -118,13 +126,21 @@ public virtual global::System.Object createResetCommand(global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: com.codename1.ui.Command createResetCommand(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     if (_r7_o == null) goto label10;
@@ -159,14 +175,23 @@ public virtual global::System.Object createSubmitCommand(global::java.lang.Strin
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: com.codename1.ui.Command createSubmitCommand(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -201,15 +226,23 @@ public virtual global::System.Object createSubmitCommand(global::java.lang.Strin
 
 public virtual void addInput(global::java.lang.String n1, global::java.lang.Object n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void addInput(java.lang.String, java.lang.Object, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -235,6 +268,7 @@ public virtual void addInput(global::java.lang.String n1, global::java.lang.Obje
     _r3_o = ((global::com.codename1.ui.html.HTMLForm) _r4_o)._faction;
     _r0_o = ((global::com.codename1.ui.html.HTMLCallback) _r1_o).getAutoComplete((global::com.codename1.ui.html.HTMLComponent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r5_o);
     if (_r0_o == null) goto label9;
+    _r6_o = _r6_o;
     ((global::com.codename1.ui.TextArea) _r6_o).setText((global::java.lang.String) _r0_o);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLForm: void addInput(java.lang.String, java.lang.Object, java.lang.String)]
@@ -242,10 +276,15 @@ public virtual void addInput(global::java.lang.String n1, global::java.lang.Obje
 
 public virtual void setInputFormat(global::com.codename1.ui.TextArea n1, global::com.codename1.ui.html.HTMLInputFormat n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void setInputFormat(com.codename1.ui.TextArea, com.codename1.ui.html.HTMLInputFormat)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -257,10 +296,15 @@ public virtual void setInputFormat(global::com.codename1.ui.TextArea n1, global:
 
 public virtual void setEmptyOK(global::com.codename1.ui.TextArea n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void setEmptyOK(com.codename1.ui.TextArea, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -278,10 +322,15 @@ public virtual void setEmptyOK(global::com.codename1.ui.TextArea n1, bool n2){
 
 public virtual void setDefaultValue(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void setDefaultValue(java.lang.Object, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -296,13 +345,19 @@ public virtual void setDefaultValue(global::java.lang.Object n1, global::java.la
 
 public virtual void addCheckBox(global::java.lang.String n1, global::com.codename1.ui.CheckBox n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void addCheckBox(java.lang.String, com.codename1.ui.CheckBox, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -322,6 +377,7 @@ public virtual void addCheckBox(global::java.lang.String n1, global::com.codenam
     label20:;
     _r1_o = ((global::com.codename1.ui.html.HTMLForm) _r2_o)._fcomps;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label40;
     _r0_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r0_o).@this();
@@ -335,14 +391,21 @@ public virtual void addCheckBox(global::java.lang.String n1, global::com.codenam
 
 public virtual void addRadioButton(global::java.lang.String n1, global::com.codename1.ui.RadioButton n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void addRadioButton(java.lang.String, com.codename1.ui.RadioButton, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -362,6 +425,7 @@ public virtual void addRadioButton(global::java.lang.String n1, global::com.code
     label20:;
     _r2_o = ((global::com.codename1.ui.html.HTMLForm) _r3_o)._fcomps;
     _r1_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r1_o = _r1_o;
     _r0_o = null;
     if (_r1_o != null) goto label58;
     _r1_o = new global::java.util.Hashtable();
@@ -379,6 +443,7 @@ public virtual void addRadioButton(global::java.lang.String n1, global::com.code
     label58:;
     _r2_o = ((global::com.codename1.ui.html.HTMLForm) _r3_o)._fbuttonGroups;
     _r0_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r0_o = _r0_o;
     goto label51;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLForm: void addRadioButton(java.lang.String, com.codename1.ui.RadioButton, java.lang.String)]
 }
@@ -387,7 +452,9 @@ public virtual int getNumFields(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: int getNumFields()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLForm) _r1_o)._fcomps;
     _r0.i = ((global::java.util.Hashtable) _r0_o).size();
@@ -404,36 +471,60 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r27_o = this;
     _r28_o = n1;
     _r29_o = n2;
@@ -465,6 +556,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r4.i = ((global::java.util.Enumeration) _r14_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label649;
     _r8_o = ((global::java.util.Enumeration) _r14_o).nextElement();
+    _r8_o = _r8_o;
     _r0_o = _r27_o;
     _r0_o = ((global::com.codename1.ui.html.HTMLForm) _r0_o)._fcomps;
     _r4_o = _r0_o;
@@ -477,6 +569,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label119;
+    _r19_o = _r19_o;
     _r26_o = global::com.codename1.ui.html.HTMLUtils.encodeString((global::java.lang.String) _r19_o);
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
@@ -503,12 +596,14 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label204;
     _r0_o = _r19_o;
+    _r0_o = _r0_o;
     _r23_o = _r0_o;
     _r15_o = ((global::java.util.Hashtable) _r23_o).keys();
     label136:;
     _r4.i = ((global::java.util.Enumeration) _r15_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label39;
     _r12_o = ((global::java.util.Enumeration) _r15_o).nextElement();
+    _r12_o = _r12_o;
     _r4.i = ((global::com.codename1.ui.Button) _r12_o).isSelected() ? 1 : 0;
     if (_r4.i == 0) goto label136;
     _r4_o = new global::java.lang.StringBuilder();
@@ -524,6 +619,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0_o = _r23_o;
     _r1_o = _r12_o;
     _r4_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r4_o = _r4_o;
     _r4_o = global::com.codename1.ui.html.HTMLUtils.encodeString((global::java.lang.String) _r4_o);
     _r4_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r4_o);
     // Value=&
@@ -538,6 +634,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label493;
     _r0_o = _r19_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r9_o = ((global::com.codename1.ui.TextArea) _r6_o).getText();
     _r11_o = null;
@@ -571,6 +668,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0_o = ((global::com.codename1.ui.html.HTMLForm) _r0_o)._finputFormats;
     _r4_o = _r0_o;
     _r20_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r6_o);
+    _r20_o = _r20_o;
     if (_r20_o == null) goto label364;
     _r0_o = _r20_o;
     _r1_o = _r9_o;
@@ -689,11 +787,13 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.ComboBox)) ? 1 : 0;
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label561;
+    _r19_o = _r19_o;
     _r21_o = ((global::com.codename1.ui.ComboBox) _r19_o).getSelectedItem();
     _r0_o = _r21_o;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.html.OptionItem)) ? 1 : 0;
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label39;
+    _r21_o = _r21_o;
     _r26_o = ((global::com.codename1.ui.html.OptionItem) _r21_o).getValue();
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
@@ -718,6 +818,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.html.MultiComboBox)) ? 1 : 0;
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label39;
+    _r19_o = _r19_o;
     _r25_o = ((global::com.codename1.ui.html.MultiComboBox) _r19_o).getSelected();
     _r18.i = 0;
     label576:;
@@ -732,6 +833,7 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.html.OptionItem)) ? 1 : 0;
     _r4.i = _r0.i;
     if (_r4.i == 0) goto label646;
+    _r21_o = _r21_o;
     _r26_o = ((global::com.codename1.ui.html.OptionItem) _r21_o).getValue();
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
@@ -846,16 +948,25 @@ public virtual void submit(global::java.lang.String n1, global::java.lang.String
 
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void reset()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 0;
     _r6_o = ((global::com.codename1.ui.html.HTMLForm) _r8_o)._fdefaultValues;
@@ -868,11 +979,13 @@ public virtual void reset(){
     if (_r6.i == 0) goto label39;
     _r6_o = ((global::com.codename1.ui.html.HTMLForm) _r8_o)._fdefaultValues;
     _r3_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r5_o);
+    _r3_o = _r3_o;
     if (_r3_o != null) goto label33;
     // Value=
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     label33:;
+    _r5_o = _r5_o;
     ((global::com.codename1.ui.TextArea) _r5_o).setText((global::java.lang.String) _r3_o);
     goto label7;
     label39:;
@@ -880,7 +993,9 @@ public virtual void reset(){
     if (_r6.i == 0) goto label7;
     _r6_o = ((global::com.codename1.ui.html.HTMLForm) _r8_o)._fdefaultValues;
     _r3_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r5_o);
+    _r3_o = _r3_o;
     _r0_o = _r5_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     if (_r3_o == null) goto label61;
     ((global::com.codename1.ui.ComboBox) _r2_o).setSelectedItem((global::java.lang.Object) _r3_o);
@@ -897,6 +1012,7 @@ public virtual void reset(){
     _r6.i = ((global::java.util.Enumeration) _r4_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label100;
     _r1_o = ((global::java.util.Enumeration) _r4_o).nextElement();
+    _r1_o = _r1_o;
     _r6.i = ((global::com.codename1.ui.Button) _r1_o).isSelected() ? 1 : 0;
     if (_r6.i != 0) goto label77;
     _r6.i = 1;
@@ -909,6 +1025,7 @@ public virtual void reset(){
     _r6.i = ((global::java.util.Enumeration) _r4_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label128;
     _r1_o = ((global::java.util.Enumeration) _r4_o).nextElement();
+    _r1_o = _r1_o;
     _r6.i = ((global::com.codename1.ui.Button) _r1_o).isSelected() ? 1 : 0;
     if (_r6.i == 0) goto label106;
     ((global::com.codename1.ui.html.HTMLForm) _r8_o).setButton((global::com.codename1.ui.Button) _r1_o, 0!=_r7.i);
@@ -921,18 +1038,25 @@ public virtual void reset(){
 private void setButton(global::com.codename1.ui.Button n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLForm: void setButton(com.codename1.ui.Button, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.RadioButton) _r2_o).setSelected(0!=_r3.i);
     label9:;
     return;
     label10:;
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.CheckBox) _r2_o).setSelected(0!=_r3.i);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLForm: void setButton(com.codename1.ui.Button, boolean)]

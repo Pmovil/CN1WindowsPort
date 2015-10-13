@@ -9,9 +9,13 @@ public global::com.codename1.ui.SideMenuBar_2CommandWrapper _fthis_21;
 
 public void @this(global::com.codename1.ui.SideMenuBar_2CommandWrapper n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper$ShowWaiter: void <init>(com.codename1.ui.SideMenuBar$CommandWrapper)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r1_o)._fthis_21 = (global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r2_o;
@@ -28,12 +32,17 @@ public void @this(global::com.codename1.ui.SideMenuBar_2CommandWrapper n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper$ShowWaiter: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -133,9 +142,13 @@ public virtual void run(){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$CommandWrapper$ShowWaiter: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

@@ -10,12 +10,15 @@ static RangeStackedBarChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
 }
 
-new public static global::java.lang.String _fTYPE;
+public static global::java.lang.String _fTYPE;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeStackedBarChart: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.charts.views.BarChart_2Type._fSTACKED;
     ((global::com.codename1.charts.views.RangeBarChart) _r1_o).@this((global::com.codename1.charts.views.BarChart_2Type) _r0_o);
@@ -25,8 +28,11 @@ new public void @this(){
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeStackedBarChart: java.lang.String getChartType()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=RangeStackedBar
     _r0_o = new global::java.lang.String();

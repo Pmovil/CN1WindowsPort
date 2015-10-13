@@ -7,14 +7,19 @@ private int _fchildAlignment;
 
 private bool _fresizable;
 
-new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void <init>(com.codename1.ui.layouts.GroupLayout, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -29,11 +34,15 @@ public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, bool 
 
 public virtual global::System.Object add(global::com.codename1.ui.layouts.GroupLayout_2Group n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.layouts.GroupLayout$Group)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r1_o);
+    _r0_o = _r0_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.layouts.GroupLayout$Group)]
 }
@@ -42,8 +51,11 @@ public virtual global::System.Object add(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = -1;
@@ -54,18 +66,31 @@ public virtual global::System.Object add(global::com.codename1.ui.Component n1){
 
 public virtual global::System.Object add(global::com.codename1.ui.Component n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.Component, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -80,15 +105,20 @@ public virtual global::System.Object add(global::com.codename1.ui.Component n1, 
     _r5.i = _r11.i;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (global::com.codename1.ui.Component) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (global::com.codename1.ui.layouts.GroupLayout_21) _r6_o);
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
+    _r7_o = _r7_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(com.codename1.ui.Component, int, int, int)]
 }
 
 public virtual global::System.Object add(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r1_o).add((int) _r2.i, (int) _r2.i, (int) _r2.i);
@@ -98,12 +128,19 @@ public virtual global::System.Object add(int n1){
 
 public virtual global::System.Object add(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -112,36 +149,52 @@ public virtual global::System.Object add(int n1, int n2, int n3){
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o)._fthis_20;
     ((global::com.codename1.ui.layouts.GroupLayout_2GapSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (int) _r3.i, (int) _r4.i, (int) _r5.i);
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
+    _r2_o = _r2_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, int, int)]
 }
 
 public virtual global::System.Object add(int n1, global::com.codename1.ui.layouts.GroupLayout_2Group n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.layouts.GroupLayout$Group)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
     ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).checkChildAlignment((int) _r1.i);
     ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r2_o).setAlignment((int) _r1.i);
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o);
+    _r0_o = _r0_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.layouts.GroupLayout$Group)]
 }
 
 public virtual global::System.Object add(int n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8_o = n2;
@@ -158,19 +211,33 @@ public virtual global::System.Object add(int n1, global::com.codename1.ui.Compon
 
 public virtual global::System.Object add(int n1, global::com.codename1.ui.Component n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.Component, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9_o = n2;
@@ -188,6 +255,7 @@ public virtual global::System.Object add(int n1, global::com.codename1.ui.Compon
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).@this((global::com.codename1.ui.layouts.GroupLayout) _r1_o, (global::com.codename1.ui.Component) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (global::com.codename1.ui.layouts.GroupLayout_21) _r6_o);
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r0_o).setAlignment((int) _r8.i);
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o).addSpring((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r0_o);
+    _r7_o = _r7_o;
     return (global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r7_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: com.codename1.ui.layouts.GroupLayout$ParallelGroup add(int, com.codename1.ui.Component, int, int, int)]
 }
@@ -195,7 +263,10 @@ public virtual global::System.Object add(int n1, global::com.codename1.ui.Compon
 public virtual bool isResizable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: boolean isResizable()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r1_o)._fresizable ? 1 : 0;
     return _r0.i!=0;
@@ -205,9 +276,14 @@ public virtual bool isResizable(){
 public override int @operator(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: int operator(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -219,8 +295,12 @@ public override int @operator(int n1, int n2){
 public override int calculateMinimumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: int calculateMinimumSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r1_o).isResizable() ? 1 : 0;
@@ -237,8 +317,12 @@ public override int calculateMinimumSize(int n1){
 public override int calculateMaximumSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: int calculateMaximumSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ParallelGroup) _r1_o).isResizable() ? 1 : 0;
@@ -255,12 +339,20 @@ public override int calculateMaximumSize(int n1){
 public override void setValidSize(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void setValidSize(int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -282,14 +374,24 @@ public override void setValidSize(int n1, int n2, int n3){
 public virtual void setChildSize(global::com.codename1.ui.layouts.GroupLayout_2Spring n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void setChildSize(com.codename1.ui.layouts.GroupLayout$Spring, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6.i = n2;
@@ -321,34 +423,55 @@ public virtual void setChildSize(global::com.codename1.ui.layouts.GroupLayout_2S
     _r2.i = _r2.i + _r7.i;
     ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r5_o).setSize((int) _r6.i, (int) _r2.i, (int) _r1.i);
     goto label30;
+    label48:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void setChildSize(com.codename1.ui.layouts.GroupLayout$Spring, int, int, int)]
 }
 
 public override void insertAutopadding(int n1, global::java.util.ArrayList n2, global::java.util.ArrayList n3, global::java.util.ArrayList n4, global::java.util.ArrayList n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void insertAutopadding(int, java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15.i = n1;
     _r16_o = n2;
@@ -365,6 +488,7 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label62;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r13_o).isVisible() ? 1 : 0;
     if (_r2.i == 0) goto label59;
@@ -375,7 +499,9 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r0_o = _r16_o;
     _r1.i = _r10.i;
     _r2_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r13_o = _r0_o;
     ((global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring) _r2_o).addTarget((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r13_o, (int) _r15.i);
     _r10.i = _r10.i + 1;
@@ -391,6 +517,7 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2Group)) ? 1 : 0;
     if (_r2.i == 0) goto label85;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = _r15.i;
     _r4_o = _r16_o;
@@ -404,6 +531,7 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
     _r2.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring)) ? 1 : 0;
     if (_r2.i == 0) goto label59;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r0_o = _r13_o;
     _r1_o = _r18_o;
@@ -420,13 +548,18 @@ public override void insertAutopadding(int n1, global::java.util.ArrayList n2, g
 private void checkChildAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ParallelGroup: void checkChildAlignment(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r2.i = 3;

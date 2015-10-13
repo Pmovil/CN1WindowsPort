@@ -7,8 +7,11 @@ public global::com.codename1.ui.spinner.Picker _fthis_20;
 
 public void @this(global::com.codename1.ui.spinner.Picker n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker$1: void <init>(com.codename1.ui.spinner.Picker)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20 = (global::com.codename1.ui.spinner.Picker) _r1_o;
@@ -19,22 +22,35 @@ public void @this(global::com.codename1.ui.spinner.Picker n1){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
@@ -44,9 +60,13 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r15_o = global::com.codename1.ui.Display.getInstance();
@@ -132,6 +152,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2300((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r0_o = _r6_o;
     _r1_o = _r21_o;
     ((global::com.codename1.ui.spinner.GenericSpinner) _r0_o).setRenderingPrototype((global::java.lang.String) _r1_o);
@@ -140,7 +161,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2200((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r0_o = _r21_o;
+    _r0_o = _r0_o;
     _r11_o = _r0_o;
     _r15_o = new global::com.codename1.ui.list.DefaultListModel();
     ((global::com.codename1.ui.list.DefaultListModel) _r15_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
@@ -184,6 +207,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r0_o = _r3_o;
     _r1_o = _r21_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -234,6 +258,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r13.i = ((global::java.lang.Integer) _r21_o).intValue();
     _r7.i = _r13.i / 60;
     _r9.i = _r13.i % 60;
@@ -295,6 +320,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r0_o = _r3_o;
     _r1_o = _r21_o;
     ((global::java.util.Calendar) _r0_o).setTime((global::java.util.Date) _r1_o);
@@ -302,6 +328,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.ui.spinner.Picker_21) _r0_o)._fthis_20;
     _r15_o = _r0_o;
     _r21_o = global::com.codename1.ui.spinner.Picker.access_2100((global::com.codename1.ui.spinner.Picker) _r15_o);
+    _r21_o = _r21_o;
     _r0_o = _r5_o;
     _r1_o = _r21_o;
     ((global::com.codename1.ui.spinner.DateTimeSpinner) _r0_o).setCurrentDate((global::java.util.Date) _r1_o);
@@ -375,18 +402,25 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2.i = _r16.i;
     ((global::java.util.Calendar) _r0_o).set((int) _r1.i, (int) _r2.i);
     goto label647;
+    label698:;
 //XMLVM_END_WRAPPER[com.codename1.ui.spinner.Picker$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 
 private void showDialog(global::com.codename1.ui.Dialog n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.Picker$1: void showDialog(com.codename1.ui.Dialog, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;

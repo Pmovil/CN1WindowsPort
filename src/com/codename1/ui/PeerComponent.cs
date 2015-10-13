@@ -11,10 +11,15 @@ private global::com.codename1.ui.Image _fpeerImage;
 
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void <init>(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = -1;
@@ -29,8 +34,11 @@ public void @this(global::java.lang.Object n1){
 
 public virtual global::System.Object getPeerImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.Image getPeerImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.PeerComponent) _r1_o)._fpeerImage;
     if (_r0_o != null) goto label10;
@@ -44,8 +52,11 @@ public virtual global::System.Object getPeerImage(){
 
 public virtual global::System.Object generatePeerImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.Image generatePeerImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -54,8 +65,11 @@ public virtual global::System.Object generatePeerImage(){
 
 public virtual void setPeerImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void setPeerImage(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.PeerComponent) _r0_o)._fpeerImage = (global::com.codename1.ui.Image) _r1_o;
@@ -66,7 +80,10 @@ public virtual void setPeerImage(global::com.codename1.ui.Image n1){
 public virtual bool shouldRenderPeerImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: boolean shouldRenderPeerImage()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -75,8 +92,11 @@ public virtual bool shouldRenderPeerImage(){
 
 public static global::System.Object create(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.PeerComponent create(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o != null) goto label4;
     _r0_o = null;
@@ -92,8 +112,11 @@ public static global::System.Object create(global::java.lang.Object n1){
 
 public virtual global::System.Object getNativePeer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: java.lang.Object getNativePeer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.PeerComponent) _r1_o)._fnativePeer;
     return (global::java.lang.Object) _r0_o;
@@ -102,8 +125,11 @@ public virtual global::System.Object getNativePeer(){
 
 public virtual void setNativePeer(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void setNativePeer(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.PeerComponent) _r0_o)._fnativePeer = (global::java.lang.Object) _r1_o;
@@ -114,7 +140,10 @@ public virtual void setNativePeer(global::java.lang.Object n1){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -123,8 +152,11 @@ public override bool animate(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.calcPreferredSize();
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -133,8 +165,11 @@ public override global::System.Object calcPreferredSize(){
 
 public override global::System.Object calcScrollSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.geom.Dimension calcScrollSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = base.calcScrollSize();
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -143,7 +178,9 @@ public override global::System.Object calcScrollSize(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.deinitialize();
     return;
@@ -152,7 +189,9 @@ public override void deinitialize(){
 
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void fireClicked()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.PeerComponent: void fireClicked()]
@@ -160,7 +199,9 @@ public override void fireClicked(){
 
 public override void focusGained(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void focusGained()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.focusGained();
     return;
@@ -169,7 +210,9 @@ public override void focusGained(){
 
 public override void focusLost(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void focusLost()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.focusLost();
     return;
@@ -179,7 +222,10 @@ public override void focusLost(){
 public override bool handlesInput(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: boolean handlesInput()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = base.handlesInput() ? 1 : 0;
     return _r0.i!=0;
@@ -188,7 +234,9 @@ public override bool handlesInput(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.initComponent();
     return;
@@ -197,8 +245,11 @@ public override void initComponent(){
 
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void keyPressed(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -207,8 +258,11 @@ public override void keyPressed(int n1){
 
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void keyReleased(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -217,8 +271,11 @@ public override void keyReleased(int n1){
 
 public override void keyRepeated(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void keyRepeated(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -229,13 +286,21 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     ((global::com.codename1.ui.PeerComponent) _r6_o).onPositionSizeChangeImpl();
@@ -264,14 +329,20 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 private void onPositionSizeChangeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void onPositionSizeChangeImpl()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r4.i = ((global::com.codename1.ui.PeerComponent) _r6_o).isInitialized() ? 1 : 0;
     if (_r4.i == 0) goto label125;
@@ -322,7 +393,9 @@ private void onPositionSizeChangeImpl(){
 
 public override void onParentPositionChange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void onParentPositionChange()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.PeerComponent) _r0_o).onPositionSizeChangeImpl();
     return;
@@ -331,8 +404,11 @@ public override void onParentPositionChange(){
 
 public override void paintBackground(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintBackground(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -341,8 +417,11 @@ public override void paintBackground(global::com.codename1.ui.Graphics n1){
 
 public override void paintBackgrounds(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintBackgrounds(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -351,8 +430,11 @@ public override void paintBackgrounds(global::com.codename1.ui.Graphics n1){
 
 public override void paintBorder(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintBorder(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -361,8 +443,11 @@ public override void paintBorder(global::com.codename1.ui.Graphics n1){
 
 public override void paintScrollbarX(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintScrollbarX(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -371,8 +456,11 @@ public override void paintScrollbarX(global::com.codename1.ui.Graphics n1){
 
 public override void paintScrollbarY(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintScrollbarY(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -381,8 +469,11 @@ public override void paintScrollbarY(global::com.codename1.ui.Graphics n1){
 
 public override void paintScrollbars(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void paintScrollbars(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -391,9 +482,13 @@ public override void paintScrollbars(global::com.codename1.ui.Graphics n1){
 
 public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerDragged(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -403,9 +498,13 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerDragged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -415,9 +514,13 @@ public override void pointerDragged(int n1, int n2){
 
 public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerHover(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -427,9 +530,13 @@ public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, glob
 
 public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerHoverReleased(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -439,9 +546,13 @@ public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> 
 
 public override void pointerPressed(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerPressed(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -451,9 +562,13 @@ public override void pointerPressed(global::org.xmlvm._nArrayAdapter<int> n1, gl
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerPressed(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -463,9 +578,13 @@ public override void pointerPressed(int n1, int n2){
 
 public override void pointerReleased(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerReleased(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -475,9 +594,13 @@ public override void pointerReleased(global::org.xmlvm._nArrayAdapter<int> n1, g
 
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void pointerReleased(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -489,7 +612,9 @@ public virtual void invalidate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void invalidate()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.PeerComponent) _r1_o).setShouldCalcPreferredSize(0!=_r0.i);
@@ -501,7 +626,9 @@ public virtual void invalidate(){
 
 public virtual void onPositionSizeChange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void onPositionSizeChange()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.PeerComponent: void onPositionSizeChange()]
@@ -509,8 +636,11 @@ public virtual void onPositionSizeChange(){
 
 public override void setLightweightMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void setLightweightMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     return;

@@ -13,8 +13,11 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 
 public void @this(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer$1Listener: void <init>(com.codename1.components.ImageViewer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.ImageViewer_21Listener) _r0_o)._fthis_20 = (global::com.codename1.components.ImageViewer) _r1_o;
@@ -27,10 +30,15 @@ public virtual void selectionChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer$1Listener: void selectionChanged(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -54,6 +62,7 @@ public virtual void selectionChanged(int n1, int n2){
     _r1_o = ((global::com.codename1.components.ImageViewer_21Listener) _r2_o)._fthis_20;
     _r1_o = global::com.codename1.components.ImageViewer.access_2100((global::com.codename1.components.ImageViewer) _r1_o);
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r4.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.components.ImageViewer) _r0_o).setImage((global::com.codename1.ui.Image) _r2_o);
     goto label8;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer$1Listener: void selectionChanged(int, int)]
@@ -67,9 +76,13 @@ public virtual void dataChanged(int n1, int n2){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -96,6 +109,7 @@ public virtual void dataChanged(int n1, int n2){
     _r2_o = global::com.codename1.components.ImageViewer.access_2100((global::com.codename1.components.ImageViewer) _r2_o);
     _r2.i = ((global::com.codename1.ui.list.ListModel) _r2_o).getSelectedIndex();
     _r3_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.components.ImageViewer) _r0_o).setImage((global::com.codename1.ui.Image) _r3_o);
     label74:;
     return;

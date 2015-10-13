@@ -9,8 +9,11 @@ public global::com.codename1.ui.tree.Tree _fthis_20;
 
 public void @this(global::com.codename1.ui.tree.Tree n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree$Handler: void <init>(com.codename1.ui.tree.Tree)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.tree.Tree_2Handler) _r0_o)._fthis_20 = (global::com.codename1.ui.tree.Tree) _r1_o;
@@ -21,9 +24,13 @@ public void @this(global::com.codename1.ui.tree.Tree n1){
 
 public void @this(global::com.codename1.ui.tree.Tree n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree$Handler: void <init>(com.codename1.ui.tree.Tree, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -36,15 +43,23 @@ public void @this(global::com.codename1.ui.tree.Tree n1, global::java.lang.Objec
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree$Handler: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3_o = ((global::com.codename1.ui.tree.Tree_2Handler) _r6_o)._fcurrent;
@@ -59,6 +74,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     return;
     label21:;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r7_o).getSource();
+    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     _r2_o = ((global::com.codename1.ui.Container) _r3_o).getLeadParent();
     if (_r2_o == null) goto label38;
@@ -79,7 +95,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     goto label20;
     label60:;
     _r3_o = ((global::com.codename1.ui.tree.Tree_2Handler) _r6_o)._fthis_20;
-    global::com.codename1.ui.tree.Tree.access_2200((global::com.codename1.ui.tree.Tree) _r3_o, (global::com.codename1.ui.Component) _r0_o);
+    _r4_o = ((global::com.codename1.ui.tree.Tree_2Handler) _r6_o)._fthis_20;
+    _r4.i = global::com.codename1.ui.tree.Tree.access_2200((global::com.codename1.ui.tree.Tree) _r4_o) ? 1 : 0;
+    global::com.codename1.ui.tree.Tree.access_2300((global::com.codename1.ui.tree.Tree) _r3_o, 0!=_r4.i, (global::com.codename1.ui.Component) _r0_o);
     goto label20;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree$Handler: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }

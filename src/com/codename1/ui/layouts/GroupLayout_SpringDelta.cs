@@ -9,9 +9,13 @@ public int _fdelta;
 
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SpringDelta: void <init>(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -25,12 +29,18 @@ public void @this(int n1, int n2){
 public virtual int compareTo(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SpringDelta: int compareTo(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2SpringDelta) _r2_o)._fdelta;
+    _r3_o = _r3_o;
     _r1.i = ((global::com.codename1.ui.layouts.GroupLayout_2SpringDelta) _r3_o)._fdelta;
     _r0.i = _r0.i - _r1.i;
     return _r0.i;
@@ -39,10 +49,13 @@ public virtual int compareTo(global::java.lang.Object n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$SpringDelta: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

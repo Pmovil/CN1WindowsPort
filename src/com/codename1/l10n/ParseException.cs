@@ -9,9 +9,13 @@ private global::java.lang.Throwable _fcausedBy;
 
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.ParseException: void <init>(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -23,11 +27,17 @@ public void @this(global::java.lang.String n1, int n2){
 
 public void @this(global::java.lang.Throwable n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.ParseException: void <init>(java.lang.Throwable, java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -49,7 +59,10 @@ public void @this(global::java.lang.Throwable n1, global::java.lang.String n2, i
 public virtual int getErrorOffset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.ParseException: int getErrorOffset()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.l10n.ParseException) _r1_o)._ferrorOffset;
     return _r0.i;
@@ -58,8 +71,11 @@ public virtual int getErrorOffset(){
 
 public virtual global::System.Object getCausedBy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.ParseException: java.lang.Throwable getCausedBy()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.l10n.ParseException) _r1_o)._fcausedBy;
     return (global::java.lang.Throwable) _r0_o;

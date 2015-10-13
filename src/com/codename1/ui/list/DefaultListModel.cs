@@ -11,11 +11,13 @@ private global::com.codename1.ui.util.EventDispatcher _fselectionListener;
 
 private int _fselectedIndex;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::com.codename1.ui.util.EventDispatcher();
@@ -37,8 +39,11 @@ public void @this(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void <init>(java.util.Vector)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -61,8 +66,11 @@ public void @this(global::java.util.Collection n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void <init>(java.util.Collection)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -85,8 +93,11 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void <init>(java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -107,10 +118,14 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 private static global::System.Object createList(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: java.util.List createList(java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     if (_r3_o != null) goto label5;
     _r2.i = 0;
@@ -136,8 +151,11 @@ public virtual global::System.Object getItemAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: java.lang.Object getItemAt(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.list.DefaultListModel) _r1_o).getSize();
@@ -157,7 +175,9 @@ public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: int getSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fitems;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -168,7 +188,10 @@ public virtual int getSize(){
 public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fselectedIndex;
     return _r0.i;
@@ -181,8 +204,11 @@ public virtual void addItem(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r2_o)._fitems;
@@ -199,9 +225,13 @@ public virtual void setItem(int n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void setItem(int, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -217,9 +247,13 @@ public virtual void addItemAtIndex(global::java.lang.Object n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void addItemAtIndex(java.lang.Object, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -239,8 +273,11 @@ public virtual void removeItem(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void removeItem(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.list.DefaultListModel) _r1_o).getSize();
@@ -263,7 +300,10 @@ public virtual void removeItem(int n1){
 public virtual void removeAll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void removeAll()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     label0:;
     _r0.i = ((global::com.codename1.ui.list.DefaultListModel) _r1_o).getSize();
@@ -279,10 +319,16 @@ public virtual void removeAll(){
 public virtual void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void setSelectedIndex(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = ((global::com.codename1.ui.list.DefaultListModel) _r3_o)._fselectedIndex;
@@ -296,9 +342,13 @@ public virtual void setSelectedIndex(int n1){
 
 public virtual void addDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void addDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fdataListener;
@@ -309,9 +359,13 @@ public virtual void addDataChangedListener(global::com.codename1.ui.events.DataC
 
 public virtual void removeDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void removeDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fdataListener;
@@ -322,10 +376,15 @@ public virtual void removeDataChangedListener(global::com.codename1.ui.events.Da
 
 public virtual void fireDataChangedEvent(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void fireDataChangedEvent(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -337,9 +396,13 @@ public virtual void fireDataChangedEvent(int n1, int n2){
 
 public virtual void addSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void addSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fselectionListener;
@@ -350,9 +413,13 @@ public virtual void addSelectionListener(global::com.codename1.ui.events.Selecti
 
 public virtual void removeSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: void removeSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fselectionListener;
@@ -363,8 +430,11 @@ public virtual void removeSelectionListener(global::com.codename1.ui.events.Sele
 
 public virtual global::System.Object getList(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListModel: java.util.List getList()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.DefaultListModel) _r1_o)._fitems;
     return (global::java.util.List) _r0_o;

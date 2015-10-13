@@ -32,8 +32,11 @@ private global::java.lang.String _fname;
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: java.lang.String getName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedOutputStream) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -43,8 +46,12 @@ public virtual global::System.Object getName(){
 public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void <init>(java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::com.codename1.io.BufferedOutputStream._fdefaultBufferSize;
@@ -56,9 +63,14 @@ public void @this(global::java.io.OutputStream n1){
 public void @this(global::java.io.OutputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void <init>(java.io.OutputStream, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -70,10 +82,15 @@ public void @this(global::java.io.OutputStream n1, global::java.lang.String n2){
 
 public void @this(global::java.io.OutputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void <init>(java.io.OutputStream, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -92,10 +109,16 @@ public void @this(global::java.io.OutputStream n1, int n2, global::java.lang.Str
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -128,10 +151,15 @@ public virtual void flushBuffer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void flushBuffer()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r0.i = ((global::com.codename1.io.BufferedOutputStream) _r4_o)._fclosed ? 1 : 0;
@@ -157,8 +185,11 @@ public override void write(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
@@ -218,10 +249,15 @@ public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, i
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
@@ -314,6 +350,9 @@ public override void flush(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void flush()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -363,7 +402,12 @@ public override void flush(){
 public virtual long getLastActivityTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: long getLastActivityTime()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.io.BufferedOutputStream) _r2_o)._flastActivityTime;
     return _r0.l;
@@ -373,7 +417,10 @@ public virtual long getLastActivityTime(){
 public virtual int getTotalBytesWritten(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: int getTotalBytesWritten()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.BufferedOutputStream) _r1_o)._ftotalBytesWritten;
     return _r0.i;
@@ -382,8 +429,11 @@ public virtual int getTotalBytesWritten(){
 
 public virtual void setProgressListener(global::com.codename1.io.IOProgressListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void setProgressListener(com.codename1.io.IOProgressListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.BufferedOutputStream) _r0_o)._fprogressListener = (global::com.codename1.io.IOProgressListener) _r1_o;
@@ -393,9 +443,13 @@ public virtual void setProgressListener(global::com.codename1.io.IOProgressListe
 
 private void fireProgress(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void fireProgress()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.BufferedOutputStream) _r2_o)._fprogressListener;
     if (_r0_o == null) goto label11;
@@ -410,6 +464,8 @@ private void fireProgress(){
 public static int getDefaultBufferSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: int getDefaultBufferSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.BufferedOutputStream._fdefaultBufferSize;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.io.BufferedOutputStream: int getDefaultBufferSize()]
@@ -418,6 +474,8 @@ public static int getDefaultBufferSize(){
 public static void setDefaultBufferSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void setDefaultBufferSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.io.BufferedOutputStream._fdefaultBufferSize = _r0.i;
     return;
@@ -427,9 +485,14 @@ public static void setDefaultBufferSize(int n1){
 public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void write(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -443,10 +506,15 @@ public override void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void close()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -514,8 +582,11 @@ public override void close(){
 
 public virtual global::System.Object getConnection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: java.lang.Object getConnection()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedOutputStream) _r1_o)._fconnection;
     return (global::java.lang.Object) _r0_o;
@@ -524,8 +595,11 @@ public virtual global::System.Object getConnection(){
 
 public virtual void setConnection(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void setConnection(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.BufferedOutputStream) _r0_o)._fconnection = (global::java.lang.Object) _r1_o;
@@ -533,9 +607,11 @@ public virtual void setConnection(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[com.codename1.io.BufferedOutputStream: void setConnection(java.lang.Object)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedOutputStream: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.io.BufferedOutputStream._fstreamCount = _r0.i;
     _r0.i = 8192;

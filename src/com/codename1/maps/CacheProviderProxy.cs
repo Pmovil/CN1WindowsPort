@@ -19,9 +19,13 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: void <init>(com.codename1.maps.providers.MapProvider)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r3_o).projection();
@@ -43,9 +47,13 @@ public void @this(global::com.codename1.maps.providers.MapProvider n1){
 
 private long freeMemory(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: long freeMemory()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -81,7 +89,9 @@ public override int maxZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: int maxZoomLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy) _r1_o)._fprovider;
     _r0.i = ((global::com.codename1.maps.providers.MapProvider) _r0_o).maxZoomLevel();
@@ -91,9 +101,13 @@ public override int maxZoomLevel(){
 
 public override global::System.Object scale(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: com.codename1.maps.Coord scale(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy) _r1_o)._fprovider;
@@ -104,10 +118,15 @@ public override global::System.Object scale(int n1){
 
 public override global::System.Object tileFor(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: com.codename1.maps.Tile tileFor(com.codename1.maps.BoundingBox)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy) _r2_o).get((global::com.codename1.maps.BoundingBox) _r3_o);
@@ -122,10 +141,15 @@ public override global::System.Object tileFor(global::com.codename1.maps.Boundin
 
 public override global::System.Object bboxFor(global::com.codename1.maps.Coord n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: com.codename1.maps.BoundingBox bboxFor(com.codename1.maps.Coord, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -137,8 +161,11 @@ public override global::System.Object bboxFor(global::com.codename1.maps.Coord n
 
 public override global::System.Object attribution(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: java.lang.String attribution()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy) _r1_o)._fprovider;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r0_o).attribution();
@@ -148,8 +175,11 @@ public override global::System.Object attribution(){
 
 public virtual global::System.Object originalProvider(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: com.codename1.maps.providers.MapProvider originalProvider()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy) _r1_o)._fprovider;
     return (global::com.codename1.maps.providers.MapProvider) _r0_o;
@@ -158,13 +188,19 @@ public virtual global::System.Object originalProvider(){
 
 public virtual global::System.Object get(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: com.codename1.maps.Tile get(com.codename1.maps.BoundingBox)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = ((global::com.codename1.maps.CacheProviderProxy) _r4_o)._f_1time;
@@ -178,6 +214,7 @@ public virtual global::System.Object get(global::com.codename1.maps.BoundingBox 
     return (global::com.codename1.maps.Tile) _r3_o;
     label16:;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.maps.CacheProviderProxy) _r4_o)._f_1time;
     ((global::com.codename1.maps.CacheProviderProxy_2AgeableTile) _r2_o)._fage = _r3.i;
@@ -189,14 +226,24 @@ public virtual global::System.Object get(global::com.codename1.maps.BoundingBox 
 public virtual void put(global::com.codename1.maps.BoundingBox n1, global::com.codename1.maps.Tile n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: void put(com.codename1.maps.BoundingBox, com.codename1.maps.Tile)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -234,9 +281,13 @@ public virtual void put(global::com.codename1.maps.BoundingBox n1, global::com.c
 
 private void removeOld(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: void removeOld()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -244,7 +295,11 @@ private void removeOld(){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r4_o = global::java.lang.System._fout;
     // Value== Cleaning cache
@@ -303,6 +358,7 @@ private void removeOld(){
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
     _r4_o = ((global::com.codename1.maps.CacheProviderProxy) _r8_o)._f_1cache;
     _r3_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r0_o);
+    _r3_o = _r3_o;
     _r4.i = ((global::com.codename1.maps.CacheProviderProxy) _r8_o)._f_1time;
     _r5.i = ((global::com.codename1.maps.CacheProviderProxy_2AgeableTile) _r3_o)._fage;
     _r4.i = _r4.i - _r5.i;
@@ -321,7 +377,9 @@ public virtual void clearCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy: void clearCache()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 6;
     ((global::com.codename1.maps.CacheProviderProxy) _r1_o)._f_1maxSize = _r0.i;

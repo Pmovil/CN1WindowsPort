@@ -60,7 +60,9 @@ private global::com.codename1.ui.URLImage_2ImageAdapter _fadapter;
 
 public static global::System.Object getDefaultAdapter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.URLImage$ImageAdapter getDefaultAdapter()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.list.GenericListCellRenderer._fdefaultAdapter;
     return (global::com.codename1.ui.URLImage_2ImageAdapter) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.URLImage$ImageAdapter getDefaultAdapter()]
@@ -68,7 +70,9 @@ public static global::System.Object getDefaultAdapter(){
 
 public static void setDefaultAdapter(global::com.codename1.ui.URLImage_2ImageAdapter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setDefaultAdapter(com.codename1.ui.URLImage$ImageAdapter)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.list.GenericListCellRenderer._fdefaultAdapter = (global::com.codename1.ui.URLImage_2ImageAdapter) _r0_o;
     return;
@@ -79,13 +83,19 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void <init>(com.codename1.ui.Component, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -145,10 +155,34 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 //XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void <init>(com.codename1.ui.Component, com.codename1.ui.Component)]
 }
 
+public virtual void deinitialize(global::com.codename1.ui.List n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void deinitialize(com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselectedEntries;
+    ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o).removeSelectedEntriesListener((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._funselectedEntries;
+    ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o).removeSelectedEntriesListener((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fmon;
+    ((global::com.codename1.ui.List) _r2_o).removeActionListener((global::com.codename1.ui.events.ActionListener) _r0_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void deinitialize(com.codename1.ui.List)]
+}
+
 public virtual void updateIconPlaceholders(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void updateIconPlaceholders()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselectedEntries;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o).updateIconPlaceholders((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
@@ -161,12 +195,18 @@ public virtual void updateIconPlaceholders(){
 private void updateIconPlaceholders(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void updateIconPlaceholders(com.codename1.ui.Component[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -186,7 +226,9 @@ private void updateIconPlaceholders(global::org.xmlvm._nArrayAdapter<global::Sys
     if (_r2.i == 0) goto label41;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fplaceholders;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Label) _r2_o).getIcon();
+    _r2_o = _r2_o;
     ((global::java.util.HashMap) _r3_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r2_o);
     label41:;
     _r0.i = _r0.i + 1;
@@ -196,15 +238,55 @@ private void updateIconPlaceholders(global::org.xmlvm._nArrayAdapter<global::Sys
 //XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void updateIconPlaceholders(com.codename1.ui.Component[])]
 }
 
-private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void addSelectedEntriesListener(com.codename1.ui.Component[])]
+private void removeSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void removeSelectedEntriesListener(com.codename1.ui.Component[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r4_o = n1;
+    _r0.i = 0;
+    label1:;
+    _r1.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    if (_r0.i >= _r1.i) goto label22;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
+    _r1.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Button)) ? 1 : 0;
+    if (_r1.i == 0) goto label19;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r0.i];
+    _r1_o = _r1_o;
+    _r2_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r3_o)._fmon;
+    ((global::com.codename1.ui.Button) _r1_o).removeActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
+    label19:;
+    _r0.i = _r0.i + 1;
+    goto label1;
+    label22:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void removeSelectedEntriesListener(com.codename1.ui.Component[])]
+}
+
+private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void addSelectedEntriesListener(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -215,6 +297,7 @@ private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global:
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r2.i == 0) goto label19;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
+    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fmon;
     ((global::com.codename1.ui.Button) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r3_o);
     label19:;
@@ -231,7 +314,9 @@ private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global:
     if (_r2.i == 0) goto label56;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o)._fplaceholders;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r0.i];
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.ui.Label) _r2_o).getIcon();
+    _r2_o = _r2_o;
     ((global::java.util.HashMap) _r3_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r2_o);
     label56:;
     _r0.i = _r0.i + 1;
@@ -243,12 +328,17 @@ private void addSelectedEntriesListener(global::org.xmlvm._nArrayAdapter<global:
 
 private global::System.Object initRenderer(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component[] initRenderer(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 1;
@@ -271,9 +361,13 @@ private global::System.Object initRenderer(global::com.codename1.ui.Component n1
 
 public virtual global::System.Object extractLastClickedComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Button extractLastClickedComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._flastClickedComponent;
     _r1_o = null;
@@ -284,12 +378,19 @@ public virtual global::System.Object extractLastClickedComponent(){
 
 public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.Component n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void <init>(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -313,10 +414,16 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
 private global::System.Object vectorToComponentArray(global::java.util.ArrayList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component[] vectorToComponentArray(java.util.ArrayList)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = ((global::java.util.ArrayList) _r4_o).size();
@@ -326,6 +433,7 @@ private global::System.Object vectorToComponentArray(global::java.util.ArrayList
     _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r0.i >= _r2.i) goto label21;
     _r3_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
+    _r3_o = _r3_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r3_o;
     _r0.i = _r0.i + 1;
     goto label7;
@@ -336,23 +444,34 @@ private global::System.Object vectorToComponentArray(global::java.util.ArrayList
 
 private void findComponentsOfInterest(global::com.codename1.ui.Component n1, global::java.util.ArrayList n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void findComponentsOfInterest(com.codename1.ui.Component, java.util.ArrayList)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
     _r5.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r5.i == 0) goto label25;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     _r3.i = 0;
@@ -368,6 +487,7 @@ private void findComponentsOfInterest(global::com.codename1.ui.Component n1, glo
     _r5.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r5.i == 0) goto label72;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Label) _r4_o).getName();
     _r5_o = ((global::java.lang.String) _r5_o).toLowerCase();
@@ -394,6 +514,7 @@ private void findComponentsOfInterest(global::com.codename1.ui.Component n1, glo
 
 public virtual global::System.Object getCellRendererComponent(global::com.codename1.ui.Component n1, global::java.lang.Object n2, global::java.lang.Object n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getCellRendererComponent(com.codename1.ui.Component, java.lang.Object, java.lang.Object, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -401,20 +522,33 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -445,6 +579,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r1.i == 0) goto label56;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r1.i = 1;
     ((global::com.codename1.ui.List) _r13_o).setMutableRendererBackgrounds(0!=_r1.i);
@@ -455,6 +590,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label77;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Container) _r8_o).getLeadComponent();
     if (_r1_o == null) goto label165;
@@ -464,11 +600,13 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label205;
     _r0_o = _r14_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r9_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r1_o);
+    _r9_o = _r9_o;
     if (_r9_o == null) goto label102;
     _r1.i = ((global::java.lang.Boolean) _r9_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r7_o).setEnabled(0!=_r1.i);
@@ -534,6 +672,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r1.i == 0) goto label316;
     _r0_o = _r14_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
@@ -611,6 +750,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r1.i == 0) goto label365;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r13_o = _r0_o;
     _r1.i = 1;
     ((global::com.codename1.ui.List) _r13_o).setMutableRendererBackgrounds(0!=_r1.i);
@@ -620,11 +760,13 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label456;
     _r0_o = _r14_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36))}));
     _r9_o = ((global::java.util.Map) _r2_o).get((global::java.lang.Object) _r1_o);
+    _r9_o = _r9_o;
     if (_r9_o == null) goto label394;
     _r1.i = ((global::java.lang.Boolean) _r9_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.Component) _r7_o).setEnabled(0!=_r1.i);
@@ -665,6 +807,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r1.i = ((_r14_o != null) && (_r14_o is global::com.codename1.cloud.CloudObject)) ? 1 : 0;
     if (_r1.i == 0) goto label536;
     _r0_o = _r14_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=$$ENABLED$$
     _r1_o = new global::java.lang.String();
@@ -716,20 +859,33 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
 
 private global::System.Object updateModelValues(global::java.util.Map n1, global::java.lang.String n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3, int n4, global::java.lang.Object n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: java.lang.Object updateModelValues(java.util.Map, java.lang.String, com.codename1.ui.Component[], int, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -748,6 +904,7 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r2_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     if (_r2_o == null) goto label34;
     _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r10_o)[_r11.i];
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r2_o);
@@ -766,6 +923,7 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r6_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r0_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label71;
     _r12_o = _r0_o;
     label70:;
@@ -780,6 +938,7 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     _r1_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r3_o);
+    _r1_o = _r1_o;
     if (_r1_o != null) goto label112;
     _r1_o = ((global::java.lang.Object) _r12_o).toString();
     _r3.i = 47;
@@ -788,6 +947,7 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
     label112:;
     _r3_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o)._fplaceholders;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r9_o);
+    _r3_o = _r3_o;
     _r4_o = ((global::java.lang.Object) _r12_o).toString();
     _r5_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r7_o)._fadapter;
     _r12_o = global::com.codename1.ui.URLImage.createToStorage((global::com.codename1.ui.EncodedImage) _r3_o, (global::java.lang.String) _r1_o, (global::java.lang.String) _r4_o, (global::com.codename1.ui.URLImage_2ImageAdapter) _r5_o);
@@ -806,17 +966,29 @@ private global::System.Object updateModelValues(global::java.util.Map n1, global
 
 public virtual global::System.Object getListCellRendererComponent(global::com.codename1.ui.List n1, global::java.lang.Object n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -837,9 +1009,13 @@ private bool isSelectedValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean isSelectedValue(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label16;
@@ -860,18 +1036,29 @@ private bool isSelectedValue(global::java.lang.Object n1){
 
 private void setComponentValueWithTickering(global::com.codename1.ui.Component n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.Component n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setComponentValueWithTickering(com.codename1.ui.Component, java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -885,6 +1072,7 @@ private void setComponentValueWithTickering(global::com.codename1.ui.Component n
     _r3.i = ((_r9_o != null) && (_r9_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r3.i == 0) goto label24;
     _r0_o = _r9_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r6_o)._fmon;
     ((global::com.codename1.ui.List) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r4_o);
@@ -892,6 +1080,7 @@ private void setComponentValueWithTickering(global::com.codename1.ui.Component n
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r6_o)._fparentList = (global::com.codename1.ui.Component) _r9_o;
     label26:;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Label) _r2_o).shouldTickerStart() ? 1 : 0;
     if (_r3.i == 0) goto label88;
@@ -928,23 +1117,37 @@ private void setComponentValueWithTickering(global::com.codename1.ui.Component n
 
 private void setComponentValue(global::com.codename1.ui.Component n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3, global::com.codename1.ui.Component n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setComponentValue(com.codename1.ui.Component, java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -969,6 +1172,7 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Image)) ? 1 : 0;
     if (_r6.i == 0) goto label165;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.Image) _r2_o).isAnimation() ? 1 : 0;
     if (_r6.i == 0) goto label87;
@@ -997,11 +1201,14 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o)._fwaitingForRegisterAnimation = 0!=_r8.i;
     label87:;
     _r0_o = _r11_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.Label) _r6_o).getIcon();
     _r0_o = _r11_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     ((global::com.codename1.ui.Label) _r6_o).setIcon((global::com.codename1.ui.Image) _r2_o);
+    _r11_o = _r11_o;
     // Value=
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
@@ -1014,6 +1221,7 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r7.i = ((global::com.codename1.ui.Image) _r2_o).getHeight();
     if (_r6.i == _r7.i) goto label19;
     label131:;
+    _r14_o = _r14_o;
     ((global::com.codename1.ui.Container) _r14_o).revalidate();
     goto label19;
     label137:;
@@ -1034,22 +1242,26 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     goto label87;
     label165:;
     _r0_o = _r11_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r7_o = null;
     ((global::com.codename1.ui.Label) _r6_o).setIcon((global::com.codename1.ui.Image) _r7_o);
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     if (_r6.i == 0) goto label188;
+    _r11_o = _r11_o;
     _r6.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o).isSelectedValue((global::java.lang.Object) _r12_o) ? 1 : 0;
     ((global::com.codename1.ui.CheckBox) _r11_o).setSelected(0!=_r6.i);
     goto label19;
     label188:;
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r6.i == 0) goto label203;
+    _r11_o = _r11_o;
     _r6.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r10_o).isSelectedValue((global::java.lang.Object) _r12_o) ? 1 : 0;
     ((global::com.codename1.ui.RadioButton) _r11_o).setSelected(0!=_r6.i);
     goto label19;
     label203:;
     _r0_o = _r11_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     if (_r12_o != null) goto label245;
     // Value=
@@ -1071,9 +1283,11 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r6.i == 0) goto label270;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.Label) _r6_o).getText();
     ((global::com.codename1.ui.Label) _r3_o).setText((global::java.lang.String) _r6_o);
+    _r12_o = _r12_o;
     _r6_o = ((global::com.codename1.ui.Label) _r12_o).getIcon();
     ((global::com.codename1.ui.Label) _r3_o).setIcon((global::com.codename1.ui.Image) _r6_o);
     goto label214;
@@ -1085,12 +1299,14 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
     _r6.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r6.i == 0) goto label19;
     if (_r12_o != null) goto label293;
+    _r11_o = _r11_o;
     // Value=
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     ((global::com.codename1.ui.TextArea) _r11_o).setText((global::java.lang.String) _r9_o);
     goto label19;
     label293:;
+    _r11_o = _r11_o;
     _r6_o = ((global::java.lang.Object) _r12_o).toString();
     ((global::com.codename1.ui.TextArea) _r11_o).setText((global::java.lang.String) _r6_o);
     goto label19;
@@ -1099,9 +1315,13 @@ private void setComponentValue(global::com.codename1.ui.Component n1, global::ja
 
 public virtual global::System.Object getListFocusComponent(global::com.codename1.ui.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getListFocusComponent(com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._ffocusComponent;
@@ -1111,9 +1331,13 @@ public virtual global::System.Object getListFocusComponent(global::com.codename1
 
 public virtual global::System.Object getFocusComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getFocusComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._ffocusComponent;
@@ -1124,7 +1348,10 @@ public virtual global::System.Object getFocusComponent(global::com.codename1.ui.
 public virtual bool isSelectionListener(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean isSelectionListener()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselectionListener ? 1 : 0;
     return _r0.i!=0;
@@ -1135,9 +1362,13 @@ public virtual void setSelectionListener(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setSelectionListener(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._fparentList;
@@ -1146,6 +1377,7 @@ public virtual void setSelectionListener(bool n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label19;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._fparentList;
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r2_o)._fmon;
     ((global::com.codename1.ui.List) _r0_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r1_o);
     label19:;
@@ -1156,8 +1388,11 @@ public virtual void setSelectionListener(bool n1){
 
 public virtual global::System.Object getSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getSelected()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselected;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -1166,8 +1401,11 @@ public virtual global::System.Object getSelected(){
 
 public virtual global::System.Object getUnselected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getUnselected()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._funselected;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -1176,8 +1414,11 @@ public virtual global::System.Object getUnselected(){
 
 public virtual global::System.Object getSelectedEven(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getSelectedEven()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselectedEven;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -1186,8 +1427,11 @@ public virtual global::System.Object getSelectedEven(){
 
 public virtual global::System.Object getUnselectedEven(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component getUnselectedEven()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._funselectedEven;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -1197,7 +1441,10 @@ public virtual global::System.Object getUnselectedEven(){
 public virtual bool isFisheye(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean isFisheye()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._ffisheye ? 1 : 0;
     return _r0.i!=0;
@@ -1206,8 +1453,11 @@ public virtual bool isFisheye(){
 
 public virtual void setFisheye(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setFisheye(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r0_o)._ffisheye = 0!=_r1.i;
@@ -1217,8 +1467,11 @@ public virtual void setFisheye(bool n1){
 
 public virtual global::System.Object getAdapter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.URLImage$ImageAdapter getAdapter()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fadapter;
     return (global::com.codename1.ui.URLImage_2ImageAdapter) _r0_o;
@@ -1227,8 +1480,11 @@ public virtual global::System.Object getAdapter(){
 
 public virtual void setAdapter(global::com.codename1.ui.URLImage_2ImageAdapter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void setAdapter(com.codename1.ui.URLImage$ImageAdapter)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r0_o)._fadapter = (global::com.codename1.ui.URLImage_2ImageAdapter) _r1_o;
@@ -1238,8 +1494,11 @@ public virtual void setAdapter(global::com.codename1.ui.URLImage_2ImageAdapter n
 
 public static global::System.Object access_2000(global::com.codename1.ui.list.GenericListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component access$000(com.codename1.ui.list.GenericListCellRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fparentList;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -1248,8 +1507,11 @@ public static global::System.Object access_2000(global::com.codename1.ui.list.Ge
 
 public static global::System.Object access_2100(global::com.codename1.ui.list.GenericListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: java.util.ArrayList access$100(com.codename1.ui.list.GenericListCellRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fpendingAnimations;
     return (global::java.util.ArrayList) _r0_o;
@@ -1258,8 +1520,11 @@ public static global::System.Object access_2100(global::com.codename1.ui.list.Ge
 
 public static global::System.Object access_2200(global::com.codename1.ui.list.GenericListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Component[] access$200(com.codename1.ui.list.GenericListCellRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o)._fselectedEntries;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -1268,8 +1533,11 @@ public static global::System.Object access_2200(global::com.codename1.ui.list.Ge
 
 public static global::System.Object access_2302(global::com.codename1.ui.list.GenericListCellRenderer n1, global::com.codename1.ui.Button n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: com.codename1.ui.Button access$302(com.codename1.ui.list.GenericListCellRenderer, com.codename1.ui.Button)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r0_o)._flastClickedComponent = (global::com.codename1.ui.Button) _r1_o;
@@ -1280,8 +1548,12 @@ public static global::System.Object access_2302(global::com.codename1.ui.list.Ge
 public static bool access_2400(global::com.codename1.ui.list.GenericListCellRenderer n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean access$400(com.codename1.ui.list.GenericListCellRenderer, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0.i = ((global::com.codename1.ui.list.GenericListCellRenderer) _r1_o).isSelectedValue((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1289,9 +1561,11 @@ public static bool access_2400(global::com.codename1.ui.list.GenericListCellRend
 //XMLVM_END_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: boolean access$400(com.codename1.ui.list.GenericListCellRenderer, java.lang.Object)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.GenericListCellRenderer: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.URLImage._fRESIZE_1SCALE;
     global::com.codename1.ui.list.GenericListCellRenderer._fdefaultAdapter = (global::com.codename1.ui.URLImage_2ImageAdapter) _r0_o;
     return;

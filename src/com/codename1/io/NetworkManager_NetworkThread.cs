@@ -14,8 +14,12 @@ public global::com.codename1.io.NetworkManager _fthis_20;
 public void @this(global::com.codename1.io.NetworkManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void <init>(com.codename1.io.NetworkManager)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.io.NetworkManager_2NetworkThread) _r1_o)._fthis_20 = (global::com.codename1.io.NetworkManager) _r2_o;
@@ -28,8 +32,11 @@ public void @this(global::com.codename1.io.NetworkManager n1){
 
 public virtual global::System.Object getCurrentRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: com.codename1.io.ConnectionRequest getCurrentRequest()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r1_o)._fcurrentRequest;
     return (global::com.codename1.io.ConnectionRequest) _r0_o;
@@ -38,8 +45,11 @@ public virtual global::System.Object getCurrentRequest(){
 
 public virtual void join(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void join()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -69,9 +79,13 @@ public virtual void join(){
 
 public virtual void start(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void start()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     // Value=Network Thread
@@ -84,8 +98,11 @@ public virtual void start(){
 
 public virtual void interrupt(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void interrupt()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r1_o)._fthreadInstance;
     if (_r0_o == null) goto label9;
@@ -98,8 +115,11 @@ public virtual void interrupt(){
 
 public virtual global::System.Object getThreadInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: java.lang.Thread getThreadInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r1_o)._fthreadInstance;
     return (global::java.lang.Thread) _r0_o;
@@ -108,14 +128,23 @@ public virtual global::System.Object getThreadInstance(){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
@@ -126,6 +155,8 @@ public virtual void run(){
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
@@ -182,6 +213,7 @@ public virtual void run(){
     _r10_o = global::com.codename1.io.NetworkManager.access_2100((global::com.codename1.io.NetworkManager) _r10_o);
     _r11.i = 0;
     _r0_o = ((global::java.util.Vector) _r10_o).elementAt((int) _r11.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest = (global::com.codename1.io.ConnectionRequest) _r0_o;
     _r10_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r10_o = global::com.codename1.io.NetworkManager.access_2100((global::com.codename1.io.NetworkManager) _r10_o);
@@ -227,9 +259,11 @@ public virtual void run(){
     _r9.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r9.i == 0) goto label141;
     _r4_o = ((global::java.util.Enumeration) _r0_o).nextElement();
+    _r4_o = _r4_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r9_o = global::com.codename1.io.NetworkManager.access_2300((global::com.codename1.io.NetworkManager) _r9_o);
     _r8_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r4_o);
+    _r8_o = _r8_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest;
     ((global::com.codename1.io.ConnectionRequest) _r9_o).addRequestHeaderDontRepleace((global::java.lang.String) _r4_o, (global::java.lang.String) _r8_o);
     goto label111;
@@ -244,6 +278,7 @@ public virtual void run(){
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r9_o = global::com.codename1.io.NetworkManager.access_2400((global::com.codename1.io.NetworkManager) _r9_o);
     _r7_o = ((global::java.util.Hashtable) _r9_o).get((global::java.lang.Object) _r5_o);
+    _r7_o = _r7_o;
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fthis_20;
     _r6_o = global::com.codename1.io.NetworkManager.access_2500((global::com.codename1.io.NetworkManager) _r9_o);
     if (_r6_o != null) goto label184;
@@ -988,13 +1023,17 @@ public virtual void run(){
     _r9_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r14_o)._fcurrentRequest;
     _r9_o = ((global::com.codename1.io.ConnectionRequest) _r9_o).getDisposeOnCompletion();
     goto label831;
+    label906:;
 //XMLVM_END_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: void run()]
 }
 
 public static global::System.Object access_21200(global::com.codename1.io.NetworkManager_2NetworkThread n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: com.codename1.io.ConnectionRequest access$1200(com.codename1.io.NetworkManager$NetworkThread)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.NetworkManager_2NetworkThread) _r1_o)._fcurrentRequest;
     return (global::com.codename1.io.ConnectionRequest) _r0_o;
@@ -1003,8 +1042,11 @@ public static global::System.Object access_21200(global::com.codename1.io.Networ
 
 public static bool access_21302(global::com.codename1.io.NetworkManager_2NetworkThread n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$NetworkThread: boolean access$1302(com.codename1.io.NetworkManager$NetworkThread, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.io.NetworkManager_2NetworkThread) _r0_o)._fstopped = 0!=_r1.i;

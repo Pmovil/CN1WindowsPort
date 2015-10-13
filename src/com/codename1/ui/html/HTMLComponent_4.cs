@@ -7,8 +7,11 @@ public global::com.codename1.ui.html.HTMLComponent _fthis_20;
 
 public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent$4: void <init>(com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.html.HTMLComponent_24) _r0_o)._fthis_20 = (global::com.codename1.ui.html.HTMLComponent) _r1_o;
@@ -19,8 +22,11 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent$4: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLComponent_24) _r1_o)._fthis_20;
     ((global::com.codename1.ui.html.HTMLComponent) _r0_o).displayPage();

@@ -3,9 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class ConstraintParser: global::java.lang.Object {
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -22,8 +24,11 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -33,21 +38,21 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
-    _r4_o = new global::com.codename1.ui.layouts.mig.LC();
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).@this();
+    _r2_o = new global::com.codename1.ui.layouts.mig.LC();
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).@this();
     _r0.i = ((global::java.lang.String) _r9_o).length();
     if (_r0.i != 0) goto label13;
-    _r9_o = _r4_o;
+    _r9_o = _r2_o;
     label12:;
     return (global::com.codename1.ui.layouts.mig.LC) _r9_o;
     label13:;
     _r0.i = 44;
-    _r2_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r0.i);
+    _r4_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r0.i);
     _r9.i = 0;
     label20:;
-    _r0.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     if (_r9.i >= _r0.i) goto label144;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i];
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r9.i];
     if (_r1_o != null) goto label30;
     label27:;
     _r9.i = _r9.i + 1;
@@ -86,9 +91,9 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     if (_r0.i != _r3.i) goto label139;
     _r0_o = global::java.lang.Boolean._fTRUE;
     label84:;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setLeftToRight((global::java.lang.Boolean) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setLeftToRight((global::java.lang.Boolean) _r0_o);
     _r0_o = null;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i] = _r0_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r9.i] = _r0_o;
     label90:;
     // Value=ttb
     _r0_o = new global::java.lang.String();
@@ -117,9 +122,9 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     if (_r0.i != _r1.i) goto label142;
     _r0.i = 1;
     label132:;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setTopToBottom(0!=_r0.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setTopToBottom(0!=_r0.i);
     _r0_o = null;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r9.i] = _r0_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r9.i] = _r0_o;
     goto label27;
     label139:;
     _r0_o = global::java.lang.Boolean._fFALSE;
@@ -128,64 +133,63 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     _r0.i = 0;
     goto label132;
     label144:;
-    _r0_o = _r2_o;
-    _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
+    _r5.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     _r9.i = 0;
-    _r1.i = _r9.i;
-    label148:;
-    if (_r1.i >= _r5.i) goto label1159;
-    _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r6_o == null) goto label160;
-    _r9.i = ((global::java.lang.String) _r6_o).length();
-    if (_r9.i != 0) goto label164;
-    label160:;
-    _r9.i = _r1.i + 1;
-    _r1.i = _r9.i;
-    goto label148;
-    label164:;
-    _r2.i = -1;
+    _r6.i = _r9.i;
+    label147:;
+    if (_r6.i >= _r5.i) goto label1157;
+    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r6.i];
+    if (_r3_o == null) goto label159;
+    _r9.i = ((global::java.lang.String) _r3_o).length();
+    if (_r9.i != 0) goto label163;
+    label159:;
+    _r9.i = _r6.i + 1;
+    _r6.i = _r9.i;
+    goto label147;
+    label163:;
+    _r0.i = -1;
     _r9.i = 0;
     try {
-    _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r9.i);
-    _r3.i = 119;
-    if (_r9.i == _r3.i) goto label178;
-    _r3.i = 104;
-    if (_r9.i != _r3.i) goto label451;
+    _r9.i = ((global::java.lang.String) _r3_o).charAt((int) _r9.i);
+    _r1.i = 119;
+    if (_r9.i == _r1.i) goto label177;
+    _r1.i = 104;
+    if (_r9.i != _r1.i) goto label450;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label178:;
+    label177:;
     try {
     // Value=wrap
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
     _r7.i = -1;
     _r8.i = 1;
-    _r3.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r3_o, (int) _r7.i, 0!=_r8.i);
+    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r1_o, (int) _r7.i, 0!=_r8.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    _r2.i = -1;
-    if (_r3.i <= _r2.i) goto label254;
+    _r0.i = -1;
+    if (_r1.i <= _r0.i) goto label253;
     try {
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r3.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r1.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r2.i = ((global::java.lang.String) _r9_o).length();
-    if (_r2.i == 0) goto label252;
+    _r0.i = ((global::java.lang.String) _r9_o).length();
+    if (_r0.i == 0) goto label251;
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r9_o);
     }
     catch (global::System.Exception e) {
@@ -193,29 +197,29 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label207:;
+    label206:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setWrapAfter((int) _r9.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setWrapAfter((int) _r9.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    goto label160;
-    label211:;
+    goto label159;
+    label210:;
     _r9_o = _ex.getJavaException();
     _ex = null;
-    _r0.i = _r3.i;
-    label213:;
+    _r0.i = _r1.i;
+    label212:;
     _r0_o = new global::java.lang.IllegalArgumentException();
     _r1_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r1_o).@this();
@@ -223,7 +227,7 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 39))}));
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r6_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r3_o);
     // Value='\012
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39)), unchecked((char) unchecked((uint) 10))}));
@@ -233,42 +237,42 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
     _r9_o = ((global::java.lang.StringBuilder) _r9_o).toString();
     ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r9_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label252:;
+    label251:;
     _r9.i = 0;
-    goto label207;
-    label254:;
-    _r2.i = 119;
-    if (_r9.i != _r2.i) goto label306;
-    _r2.i = 1;
-    label259:;
-    if (_r2.i == 0) goto label310;
+    goto label206;
+    label253:;
+    _r0.i = 119;
+    if (_r9.i != _r0.i) goto label305;
+    _r0.i = 1;
+    label258:;
+    if (_r0.i == 0) goto label309;
     try {
     // Value=w 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label277;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i != 0) goto label276;
     // Value=width 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label310;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i == 0) goto label309;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label277:;
+    label276:;
     try {
     _r9.i = 1;
-    _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r9.i);
-    _r2.i = 32;
-    if (_r9.i != _r2.i) goto label308;
+    _r9.i = ((global::java.lang.String) _r3_o).charAt((int) _r9.i);
+    _r0.i = 32;
+    if (_r9.i != _r0.i) goto label307;
     _r9.i = 2;
     }
     catch (global::System.Exception e) {
@@ -276,86 +280,86 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label287:;
+    label286:;
     try {
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r2.i = 0;
+    _r0.i = 0;
     _r7.i = 1;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r2.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setWidth((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r0.i, 0!=_r7.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setWidth((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label306:;
+    label305:;
     try {
-    _r2.i = 0;
-    goto label259;
+    _r0.i = 0;
+    goto label258;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label308:;
+    label307:;
     try {
     _r9.i = 6;
-    goto label287;
+    goto label286;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label310:;
+    label309:;
     try {
-    if (_r2.i != 0) goto label359;
+    if (_r0.i != 0) goto label358;
     // Value=h 
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 32))}));
-    _r2.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r2_o) ? 1 : 0;
-    if (_r2.i != 0) goto label328;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i != 0) goto label327;
     // Value=height 
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32))}));
-    _r2.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r2_o) ? 1 : 0;
-    if (_r2.i == 0) goto label359;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label358;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label328:;
+    label327:;
     try {
     _r9.i = 1;
-    _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r9.i);
-    _r2.i = 32;
-    if (_r9.i != _r2.i) goto label357;
+    _r9.i = ((global::java.lang.String) _r3_o).charAt((int) _r9.i);
+    _r0.i = 32;
+    if (_r9.i != _r0.i) goto label356;
     _r9.i = 2;
     }
     catch (global::System.Exception e) {
@@ -363,297 +367,296 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label338:;
+    label337:;
     try {
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r2.i = 0;
+    _r0.i = 0;
     _r7.i = 0;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r2.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setHeight((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r0.i, 0!=_r7.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setHeight((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label357:;
+    label356:;
     try {
     _r9.i = 7;
-    goto label338;
+    goto label337;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label359:;
+    label358:;
     try {
-    _r2.i = ((global::java.lang.String) _r6_o).length();
+    _r0.i = ((global::java.lang.String) _r3_o).length();
     _r7.i = 5;
-    if (_r2.i <= _r7.i) goto label427;
-    _r2.i = 5;
-    _r2_o = ((global::java.lang.String) _r6_o).substring((int) _r2.i);
-    _r2_o = ((global::java.lang.String) _r2_o).trim();
+    if (_r0.i <= _r7.i) goto label426;
+    _r0.i = 5;
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
     // Value=wmin 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label388;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).minWidth((global::java.lang.String) _r2_o);
-    goto label160;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i == 0) goto label387;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).minWidth((global::java.lang.String) _r0_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label388:;
+    label387:;
     try {
     // Value=wmax 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label401;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).maxWidth((global::java.lang.String) _r2_o);
-    goto label160;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i == 0) goto label400;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).maxWidth((global::java.lang.String) _r0_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label401:;
+    label400:;
     try {
     // Value=hmin 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label414;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).minHeight((global::java.lang.String) _r2_o);
-    goto label160;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i == 0) goto label413;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).minHeight((global::java.lang.String) _r0_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label414:;
+    label413:;
     try {
     // Value=hmax 
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label427;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).maxHeight((global::java.lang.String) _r2_o);
-    goto label160;
+    _r7.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
+    if (_r7.i == 0) goto label426;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).maxHeight((global::java.lang.String) _r0_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    label427:;
+    label426:;
     try {
     // Value=hidemode 
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
-    _r2.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r2_o) ? 1 : 0;
-    if (_r2.i == 0) goto label450;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label449;
     _r9.i = 9;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r9_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setHideMode((int) _r9.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setHideMode((int) _r9.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    goto label160;
+    goto label159;
+    label449:;
+    _r0.i = _r1.i;
     label450:;
-    _r2.i = _r3.i;
-    label451:;
-    _r3.i = 103;
-    if (_r9.i != _r3.i) goto label573;
+    _r1.i = 103;
+    if (_r9.i != _r1.i) goto label571;
     try {
     // Value=gapx 
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
-    _r3.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label487;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
+    _r1.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label485;
     _r9.i = 5;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 1;
+    _r1.i = 1;
     _r7.i = 1;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r3.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setGridGapX((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r1.i, 0!=_r7.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setGridGapX((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label483:;
+    label482:;
     try {
     _r9_o = _ex.getJavaException();
     _ex = null;
-    _r0.i = _r2.i;
-    goto label213;
+    goto label212;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label487:;
+    label485:;
     try {
     // Value=gapy 
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32))}));
-    _r3.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label515;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32))}));
+    _r1.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label513;
     _r9.i = 5;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 1;
+    _r1.i = 1;
     _r7.i = 0;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r3.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setGridGapY((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r1.i, 0!=_r7.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setGridGapY((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label515:;
+    label513:;
     try {
     // Value=gap 
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 32))}));
-    _r3.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label573;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 32))}));
+    _r1.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label571;
     _r9.i = 4;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 32;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r3.i);
-    _r3.i = 0;
-    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
+    _r1.i = 32;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r1.i);
+    _r1.i = 0;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
     _r7.i = 1;
     _r8.i = 1;
-    _r3_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r3_o, 0!=_r7.i, 0!=_r8.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setGridGapX((global::com.codename1.ui.layouts.mig.BoundSize) _r3_o);
-    _r3.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
+    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r1_o, 0!=_r7.i, 0!=_r8.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setGridGapX((global::com.codename1.ui.layouts.mig.BoundSize) _r1_o);
+    _r1.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
     _r7.i = 1;
-    if (_r3.i <= _r7.i) goto label568;
-    _r3.i = 1;
-    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
-    _r3.i = 1;
+    if (_r1.i <= _r7.i) goto label566;
+    _r1.i = 1;
+    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
+    _r1.i = 1;
     _r7.i = 0;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r3.i, 0!=_r7.i);
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r1.i, 0!=_r7.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label563:;
+    label561:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setGridGapY((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setGridGapY((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label568:;
+    label566:;
     try {
-    _r9_o = ((global::com.codename1.ui.layouts.mig.LC) _r4_o).getGridGapX();
-    goto label563;
+    _r9_o = ((global::com.codename1.ui.layouts.mig.LC) _r2_o).getGridGapX();
+    goto label561;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label573:;
+    label571:;
     try {
-    _r3.i = 100;
-    if (_r9.i != _r3.i) goto label614;
+    _r1.i = 100;
+    if (_r9.i != _r1.i) goto label612;
     // Value=debug
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 103))}));
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 103))}));
     _r7.i = 5;
     _r8.i = 1;
-    _r2.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r3_o, (int) _r7.i, 0!=_r8.i);
-    _r3.i = -1;
-    if (_r2.i <= _r3.i) goto label614;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r2.i);
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r1_o, (int) _r7.i, 0!=_r8.i);
+    _r1.i = -1;
+    if (_r0.i <= _r1.i) goto label612;
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = ((global::java.lang.String) _r9_o).length();
-    if (_r3.i <= 0) goto label611;
+    _r1.i = ((global::java.lang.String) _r9_o).length();
+    if (_r1.i <= 0) goto label609;
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r9_o);
     }
     catch (global::System.Exception e) {
@@ -661,149 +664,149 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label606:;
+    label604:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setDebugMillis((int) _r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setDebugMillis((int) _r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label611:;
+    label609:;
     try {
     _r9.i = 1000;
-    goto label606;
+    goto label604;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label614:;
+    label612:;
     try {
-    _r3.i = 110;
-    if (_r9.i != _r3.i) goto label660;
+    _r1.i = 110;
+    if (_r9.i != _r1.i) goto label658;
     // Value=nogrid
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label632;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label630;
     _r9.i = 1;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setNoGrid(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setNoGrid(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label632:;
+    label630:;
     try {
     // Value=nocache
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label646;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label644;
     _r9.i = 1;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setNoCache(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setNoCache(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label646:;
+    label644:;
     try {
     // Value=novisualpadding
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label660;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label658;
     _r9.i = 0;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setVisualPadding(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setVisualPadding(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label660:;
+    label658:;
     try {
-    _r3.i = 102;
-    if (_r9.i != _r3.i) goto label762;
+    _r1.i = 102;
+    if (_r9.i != _r1.i) goto label760;
     // Value=fill
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i != 0) goto label688;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i != 0) goto label686;
     // Value=fillx
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 120))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i != 0) goto label688;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 120))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i != 0) goto label686;
     // Value=filly
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 121))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label734;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 121))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label732;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label688:;
+    label686:;
     try {
-    _r9.i = ((global::java.lang.String) _r6_o).length();
-    _r3.i = 4;
-    if (_r9.i == _r3.i) goto label704;
+    _r9.i = ((global::java.lang.String) _r3_o).length();
+    _r1.i = 4;
+    if (_r9.i == _r1.i) goto label702;
     _r9.i = 4;
-    _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r9.i);
-    _r3.i = 120;
-    if (_r9.i != _r3.i) goto label730;
+    _r9.i = ((global::java.lang.String) _r3_o).charAt((int) _r9.i);
+    _r1.i = 120;
+    if (_r9.i != _r1.i) goto label728;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label704:;
+    label702:;
     try {
     _r9.i = 1;
     }
@@ -812,31 +815,31 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label705:;
+    label703:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setFillX(0!=_r9.i);
-    _r9.i = ((global::java.lang.String) _r6_o).length();
-    _r3.i = 4;
-    if (_r9.i == _r3.i) goto label724;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setFillX(0!=_r9.i);
+    _r9.i = ((global::java.lang.String) _r3_o).length();
+    _r1.i = 4;
+    if (_r9.i == _r1.i) goto label722;
     _r9.i = 4;
-    _r9.i = ((global::java.lang.String) _r6_o).charAt((int) _r9.i);
-    _r3.i = 121;
-    if (_r9.i != _r3.i) goto label732;
+    _r9.i = ((global::java.lang.String) _r3_o).charAt((int) _r9.i);
+    _r1.i = 121;
+    if (_r9.i != _r1.i) goto label730;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label724:;
+    label722:;
     try {
     _r9.i = 1;
     }
@@ -845,169 +848,169 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label725:;
+    label723:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setFillY(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setFillY(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
+        }
+        throw ex;
+    } // end catch
+    label728:;
+    try {
+    _r9.i = 0;
+    goto label703;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label482;
         }
         throw ex;
     } // end catch
     label730:;
     try {
     _r9.i = 0;
-    goto label705;
+    goto label723;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
     label732:;
     try {
-    _r9.i = 0;
-    goto label725;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label483;
-        }
-        throw ex;
-    } // end catch
-    label734:;
-    try {
     // Value=flowy
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label748;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label746;
     _r9.i = 0;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setFlowX(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setFlowX(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label748:;
+    label746:;
     try {
     // Value=flowx
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
-    _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i == 0) goto label762;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
+    _r1.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r1.i == 0) goto label760;
     _r9.i = 1;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setFlowX(0!=_r9.i);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setFlowX(0!=_r9.i);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label762:;
+    label760:;
     try {
-    _r3.i = 105;
-    if (_r9.i != _r3.i) goto label799;
+    _r1.i = 105;
+    if (_r9.i != _r1.i) goto label797;
     // Value=insets
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115))}));
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115))}));
     _r7.i = 3;
     _r8.i = 1;
-    _r3.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r3_o, (int) _r7.i, 0!=_r8.i);
+    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r1_o, (int) _r7.i, 0!=_r8.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    _r2.i = -1;
-    if (_r3.i <= _r2.i) goto label798;
+    _r0.i = -1;
+    if (_r1.i <= _r0.i) goto label796;
     try {
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r3.i);
-    _r2_o = ((global::java.lang.String) _r9_o).trim();
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r1.i);
+    _r0_o = ((global::java.lang.String) _r9_o).trim();
     _r9.i = 1;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r2_o, 0!=_r9.i);
-    global::com.codename1.ui.layouts.mig.LayoutUtil.putCCString((global::java.lang.Object) _r9_o, (global::java.lang.String) _r2_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setInsets((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o);
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r0_o, 0!=_r9.i);
+    global::com.codename1.ui.layouts.mig.LayoutUtil.putCCString((global::java.lang.Object) _r9_o, (global::java.lang.String) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setInsets((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label211;
+            goto label210;
         }
         throw ex;
     } // end catch
-    goto label160;
-    label798:;
-    _r2.i = _r3.i;
-    label799:;
-    _r3.i = 97;
-    if (_r9.i != _r3.i) goto label962;
-    _r3.i = 2;
+    goto label159;
+    label796:;
+    _r0.i = _r1.i;
+    label797:;
+    _r1.i = 97;
+    if (_r9.i != _r1.i) goto label960;
+    _r1.i = 2;
     try {
-    _r3_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r3.i]);
+    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r7.i = 0;
     // Value=aligny
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r7.i] = _r8_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r8_o;
     _r7.i = 1;
     // Value=ay
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r7.i] = _r8_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r8_o;
     _r7.i = 2;
     _r7_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r7.i]);
     _r7_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
     _r8.i = 1;
-    _r2.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, 0!=_r8.i);
-    _r3.i = -1;
-    if (_r2.i <= _r3.i) goto label861;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r2.i);
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, 0!=_r8.i);
+    _r1.i = -1;
+    if (_r0.i <= _r1.i) goto label859;
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 0;
+    _r1.i = 0;
     _r7_o = null;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r3.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    _r3_o = global::com.codename1.ui.layouts.mig.UnitValue._fBASELINE_1IDENTITY;
-    if (_r9_o != _r3_o) goto label856;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r1.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
+    _r1_o = global::com.codename1.ui.layouts.mig.UnitValue._fBASELINE_1IDENTITY;
+    if (_r9_o != _r1_o) goto label854;
     _r9_o = new global::java.lang.IllegalArgumentException();
     // Value='baseline' can not be used to align the whole component group.
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 39)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 46))}));
-    ((global::java.lang.IllegalArgumentException) _r9_o).@this((global::java.lang.String) _r0_o);
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 39)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 46))}));
+    ((global::java.lang.IllegalArgumentException) _r9_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r9_o);
     }
     catch (global::System.Exception e) {
@@ -1015,305 +1018,305 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label856:;
+    label854:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label861:;
+    label859:;
     try {
-    _r3.i = 2;
-    _r3_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r3.i]);
+    _r1.i = 2;
+    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r7.i = 0;
     // Value=alignx
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r7.i] = _r8_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r8_o;
     _r7.i = 1;
     // Value=ax
     _r8_o = new global::java.lang.String();
     ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r7.i] = _r8_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r8_o;
     _r7.i = 2;
     _r7_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r7.i]);
     _r7_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
     _r8.i = 1;
-    _r2.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, 0!=_r8.i);
-    _r3.i = -1;
-    if (_r2.i <= _r3.i) goto label907;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r2.i);
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, 0!=_r8.i);
+    _r1.i = -1;
+    if (_r0.i <= _r1.i) goto label905;
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 1;
+    _r1.i = 1;
     _r7_o = null;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r3.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r1.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label907:;
+    label905:;
     try {
     // Value=align
-    _r3_o = new global::java.lang.String();
-    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
     _r7.i = 2;
     _r8.i = 1;
-    _r2.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r3_o, (int) _r7.i, 0!=_r8.i);
-    _r3.i = -1;
-    if (_r2.i <= _r3.i) goto label962;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r2.i);
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r1_o, (int) _r7.i, 0!=_r8.i);
+    _r1.i = -1;
+    if (_r0.i <= _r1.i) goto label960;
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 32;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r3.i);
-    _r3.i = 0;
-    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
+    _r1.i = 32;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r1.i);
+    _r1.i = 0;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
     _r7.i = 1;
     _r8_o = null;
-    _r3_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r3_o, 0!=_r7.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r8_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r3_o);
-    _r3.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
+    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r1_o, 0!=_r7.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r8_o);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r1_o);
+    _r1.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
     _r7.i = 1;
-    if (_r3.i <= _r7.i) goto label160;
-    _r3.i = 1;
-    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
-    _r3.i = 0;
+    if (_r1.i <= _r7.i) goto label159;
+    _r1.i = 1;
+    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
+    _r1.i = 0;
     _r7_o = null;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r3.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r9_o, 0!=_r1.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label962:;
+    label960:;
     try {
-    _r3.i = 112;
-    if (_r9.i != _r3.i) goto label1098;
+    _r1.i = 112;
+    if (_r9.i != _r1.i) goto label1096;
     // Value=packalign 
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r9.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r9_o) ? 1 : 0;
-    if (_r9.i == 0) goto label1028;
+    _r9.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r9_o) ? 1 : 0;
+    if (_r9.i == 0) goto label1026;
     _r9.i = 10;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = 32;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r3.i);
-    _r3.i = 0;
-    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
-    _r3.i = ((global::java.lang.String) _r3_o).length();
-    if (_r3.i <= 0) goto label1025;
-    _r3.i = 0;
-    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
-    _r3.f = global::java.lang.Float.parseFloat((global::java.lang.String) _r3_o);
+    _r1.i = 32;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r1.i);
+    _r1.i = 0;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
+    _r1.i = ((global::java.lang.String) _r1_o).length();
+    if (_r1.i <= 0) goto label1023;
+    _r1.i = 0;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
+    _r1.f = global::java.lang.Float.parseFloat((global::java.lang.String) _r1_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1006:;
+    label1004:;
     try {
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setPackWidthAlign((float) _r3.f);
-    _r3.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setPackWidthAlign((float) _r1.f);
+    _r1.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
     _r7.i = 1;
-    if (_r3.i <= _r7.i) goto label160;
-    _r3.i = 1;
-    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
+    if (_r1.i <= _r7.i) goto label159;
+    _r1.i = 1;
+    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
     _r9.f = global::java.lang.Float.parseFloat((global::java.lang.String) _r9_o);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setPackHeightAlign((float) _r9.f);
-    goto label160;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setPackHeightAlign((float) _r9.f);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1025:;
+    label1023:;
     try {
-    _r3.f = (float)0.5D;
-    goto label1006;
+    _r1.f = (float)0.5D;
+    goto label1004;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1028:;
+    label1026:;
     try {
     // Value=pack 
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32))}));
-    _r9.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r9_o) ? 1 : 0;
-    if (_r9.i != 0) goto label1044;
+    _r9.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r9_o) ? 1 : 0;
+    if (_r9.i != 0) goto label1042;
     // Value=pack
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107))}));
-    _r9.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r9_o) ? 1 : 0;
-    if (_r9.i == 0) goto label1098;
+    _r9.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r9_o) ? 1 : 0;
+    if (_r9.i == 0) goto label1096;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1044:;
+    label1042:;
     try {
     _r9.i = 4;
-    _r9_o = ((global::java.lang.String) _r6_o).substring((int) _r9.i);
+    _r9_o = ((global::java.lang.String) _r3_o).substring((int) _r9.i);
     _r9_o = ((global::java.lang.String) _r9_o).trim();
-    _r3.i = ((global::java.lang.String) _r9_o).length();
-    if (_r3.i <= 0) goto label1095;
+    _r1.i = ((global::java.lang.String) _r9_o).length();
+    if (_r1.i <= 0) goto label1093;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1059:;
+    label1057:;
     try {
-    _r3.i = 32;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r3.i);
-    _r3.i = 0;
-    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
+    _r1.i = 32;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r9_o, (char) _r1.i);
+    _r1.i = 0;
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
     _r7.i = 0;
     _r8.i = 1;
-    _r3_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r3_o, 0!=_r7.i, 0!=_r8.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setPackWidth((global::com.codename1.ui.layouts.mig.BoundSize) _r3_o);
-    _r3.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
+    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r1_o, 0!=_r7.i, 0!=_r8.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setPackWidth((global::com.codename1.ui.layouts.mig.BoundSize) _r1_o);
+    _r1.i = ((global::org.xmlvm._nIArray) _r9_o).Length;
     _r7.i = 1;
-    if (_r3.i <= _r7.i) goto label160;
-    _r3.i = 1;
-    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r3.i];
-    _r3.i = 0;
+    if (_r1.i <= _r7.i) goto label159;
+    _r1.i = 1;
+    _r9_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r1.i];
+    _r1.i = 0;
     _r7.i = 0;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r3.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setPackHeight((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r9_o, 0!=_r1.i, 0!=_r7.i);
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setPackHeight((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1095:;
+    label1093:;
     try {
     // Value=pref pref
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102))}));
-    goto label1059;
+    goto label1057;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1098:;
+    label1096:;
     try {
-    _r9_o = ((global::com.codename1.ui.layouts.mig.LC) _r4_o).getAlignX();
-    if (_r9_o != null) goto label1116;
+    _r9_o = ((global::com.codename1.ui.layouts.mig.LC) _r2_o).getAlignX();
+    if (_r9_o != null) goto label1114;
     _r9.i = 1;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r6_o, 0!=_r9.i);
-    if (_r9_o == null) goto label1116;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r3_o, 0!=_r9.i);
+    if (_r9_o == null) goto label1114;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignX((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1116:;
+    label1114:;
     try {
     _r9.i = 0;
-    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r6_o, 0!=_r9.i);
-    if (_r9_o == null) goto label1128;
-    ((global::com.codename1.ui.layouts.mig.LC) _r4_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
-    goto label160;
+    _r9_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r3_o, 0!=_r9.i);
+    if (_r9_o == null) goto label1126;
+    ((global::com.codename1.ui.layouts.mig.LC) _r2_o).setAlignY((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o);
+    goto label159;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1128:;
+    label1126:;
     try {
     _r9_o = new global::java.lang.IllegalArgumentException();
-    _r0_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r0_o).@this();
+    _r1_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r1_o).@this();
     // Value=Unknown Constraint: '
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)85)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 39))}));
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r6_o);
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)85)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 39))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r3_o);
     // Value='\012
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39)), unchecked((char) unchecked((uint) 10))}));
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r9_o).@this((global::java.lang.String) _r0_o);
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39)), unchecked((char) unchecked((uint) 10))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r9_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r9_o);
     }
     catch (global::System.Exception e) {
@@ -1321,13 +1324,15 @@ public static global::System.Object parseLayoutConstraint(global::java.lang.Stri
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label483;
+            goto label482;
         }
         throw ex;
     } // end catch
-    label1159:;
-    _r9_o = _r4_o;
+    label1157:;
+    _r9_o = _r2_o;
     goto label12;
+    label1160:;
+    label1168:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.LC parseLayoutConstraint(java.lang.String)]
 }
 
@@ -1335,7 +1340,9 @@ public static global::System.Object parseRowConstraints(global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseRowConstraints(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 0;
     _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAxisConstraint((global::java.lang.String) _r1_o, 0!=_r0.i);
@@ -1347,7 +1354,9 @@ public static global::System.Object parseColumnConstraints(global::java.lang.Str
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseColumnConstraints(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 1;
     _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAxisConstraint((global::java.lang.String) _r1_o, 0!=_r0.i);
@@ -1357,20 +1366,31 @@ public static global::System.Object parseColumnConstraints(global::java.lang.Str
 
 private static global::System.Object parseAxisConstraint(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.AC parseAxisConstraint(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11.i = n2 ? 1 : 0;
     _r9.i = 1;
@@ -1394,6 +1414,7 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
     label41:;
     if (_r4.i >= _r5.i) goto label60;
     _r10_o = ((global::java.util.ArrayList) _r6_o).get((int) _r4.i);
+    _r10_o = _r10_o;
     _r7_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r10_o, 0!=_r9.i, 0!=_r11.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i] = _r7_o;
     _r4.i = _r4.i + 2;
@@ -1418,6 +1439,7 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
     _r7.i = _r4.i << (0x1f & 1);
     _r7.i = _r7.i + 1;
     _r10_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
+    _r10_o = _r10_o;
     _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i];
     _r8.i = _r2.i + 1;
     _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r8.i];
@@ -1437,13 +1459,21 @@ private static global::System.Object parseAxisConstraint(global::java.lang.Strin
 
 private static global::System.Object parseDimConstraint(global::java.lang.String n1, global::com.codename1.ui.layouts.mig.BoundSize n2, global::com.codename1.ui.layouts.mig.BoundSize n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.DimConstraint parseDimConstraint(java.lang.String, com.codename1.ui.layouts.mig.BoundSize, com.codename1.ui.layouts.mig.BoundSize, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
@@ -1452,10 +1482,15 @@ private static global::System.Object parseDimConstraint(global::java.lang.String
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
     _r13_o = n2;
@@ -1783,29 +1818,39 @@ private static global::System.Object parseDimConstraint(global::java.lang.String
     goto label30;
     label349:;
     return (global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o;
+    label350:;
+    label358:;
+    label366:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.DimConstraint parseDimConstraint(java.lang.String, com.codename1.ui.layouts.mig.BoundSize, com.codename1.ui.layouts.mig.BoundSize, boolean)]
 }
 
 public static global::System.Object parseComponentConstraints(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.util.Map parseComponentConstraints(java.util.Map)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r1_o = new global::java.util.HashMap();
     ((global::java.util.HashMap) _r1_o).@this();
-    _r3_o = ((global::java.util.Map) _r4_o).keySet();
-    _r2_o = ((global::java.util.Set) _r3_o).iterator();
+    _r2_o = ((global::java.util.Map) _r4_o).keySet();
+    _r3_o = ((global::java.util.Set) _r2_o).iterator();
     label13:;
-    _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
-    if (_r3.i == 0) goto label39;
-    _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    _r3_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r0_o);
-    _r3_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseComponentConstraint((global::java.lang.String) _r3_o);
-    ((global::java.util.HashMap) _r1_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r3_o);
+    _r2.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
+    if (_r2.i == 0) goto label39;
+    _r0_o = ((global::java.util.Iterator) _r3_o).next();
+    _r0_o = _r0_o;
+    _r2_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r0_o);
+    _r2_o = _r2_o;
+    _r2_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseComponentConstraint((global::java.lang.String) _r2_o);
+    ((global::java.util.HashMap) _r1_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r2_o);
     goto label13;
     label39:;
     return (global::java.util.Map) _r1_o;
@@ -1818,11 +1863,15 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -1830,80 +1879,82 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
-    _r2_o = new global::com.codename1.ui.layouts.mig.CC();
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).@this();
+    _r1_o = new global::com.codename1.ui.layouts.mig.CC();
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).@this();
     _r0.i = ((global::java.lang.String) _r11_o).length();
     if (_r0.i != 0) goto label13;
-    _r11_o = _r2_o;
+    _r11_o = _r1_o;
     label12:;
     return (global::com.codename1.ui.layouts.mig.CC) _r11_o;
     label13:;
     _r0.i = 44;
-    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
-    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
-    _r0.i = 0;
-    _r3.i = _r0.i;
-    label23:;
-    if (_r3.i >= _r5.i) goto label2550;
-    _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r3.i];
+    _r4_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r7.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r11.i = 0;
+    _r8.i = _r11.i;
+    label22:;
+    if (_r8.i >= _r7.i) goto label2549;
+    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r8.i];
     try {
-    _r0.i = ((global::java.lang.String) _r6_o).length();
-    if (_r0.i != 0) goto label37;
+    _r11.i = ((global::java.lang.String) _r3_o).length();
+    if (_r11.i != 0) goto label36;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label33:;
+    label32:;
     try {
-    _r0.i = _r3.i + 1;
-    _r3.i = _r0.i;
-    goto label23;
+    _r11.i = _r8.i + 1;
+    _r8.i = _r11.i;
+    goto label22;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label37:;
+    label36:;
     try {
-    _r1.i = -1;
-    _r0.i = 0;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r4.i = 110;
-    if (_r0.i != _r4.i) goto label135;
+    _r0.i = -1;
+    _r11.i = 0;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r2.i = 110;
+    if (_r11.i != _r2.i) goto label134;
     // Value=north
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label95;
-    _r0.i = 0;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label94;
+    _r11.i = 0;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    goto label33;
-    label60:;
+    goto label32;
+    label59:;
     _r11_o = _ex.getJavaException();
     _ex = null;
     ((global::java.lang.Exception) _r11_o).printStackTrace();
@@ -1914,7 +1965,7 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 39))}));
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r6_o);
+    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r3_o);
     // Value='
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)39))}));
@@ -1922,359 +1973,340 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     ((global::java.lang.IllegalArgumentException) _r11_o).@this((global::java.lang.String) _r0_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r11_o);
-    label95:;
+    label94:;
     try {
     // Value=newline
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label108;
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setNewline(0!=_r0.i);
-    goto label33;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label107;
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setNewline(0!=_r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label108:;
+    label107:;
     try {
     // Value=newline 
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
-    _r4.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label135;
-    _r0.i = 7;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 1;
-    _r4.i = 1;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r0_o, 0!=_r1.i, 0!=_r4.i);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setNewlineGapSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label135:;
-    try {
-    _r4.i = 102;
-    if (_r0.i != _r4.i) goto label174;
-    // Value=flowy
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i != 0) goto label155;
-    // Value=flowx
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label174;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label155:;
-    try {
-    _r0.i = 4;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r1.i = 120;
-    if (_r0.i != _r1.i) goto label171;
-    _r0_o = global::java.lang.Boolean._fTRUE;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label166:;
-    try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setFlowX((global::java.lang.Boolean) _r0_o);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label171:;
-    try {
-    _r0_o = global::java.lang.Boolean._fFALSE;
-    goto label166;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label174:;
-    try {
-    _r4.i = 115;
-    if (_r0.i != _r4.i) goto label759;
-    // Value=skip
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112))}));
-    _r4.i = 4;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label214;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = ((global::java.lang.String) _r0_o).length();
-    if (_r1.i == 0) goto label212;
-    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label207:;
-    try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSkip((int) _r0.i);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label212:;
-    try {
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
+    _r2.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label134;
+    _r11.i = 7;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
     _r0.i = 1;
-    goto label207;
+    _r2.i = 1;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r11_o, 0!=_r0.i, 0!=_r2.i);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setNewlineGapSize((global::com.codename1.ui.layouts.mig.BoundSize) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label214:;
+    label134:;
+    try {
+    _r2.i = 102;
+    if (_r11.i != _r2.i) goto label173;
+    // Value=flowy
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i != 0) goto label154;
+    // Value=flowx
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label173;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label154:;
+    try {
+    _r11.i = 4;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r0.i = 120;
+    if (_r11.i != _r0.i) goto label170;
+    _r11_o = global::java.lang.Boolean._fTRUE;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label165:;
+    try {
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setFlowX((global::java.lang.Boolean) _r11_o);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label170:;
+    try {
+    _r11_o = global::java.lang.Boolean._fFALSE;
+    goto label165;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label173:;
+    try {
+    _r2.i = 115;
+    if (_r11.i != _r2.i) goto label758;
+    // Value=skip
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112))}));
+    _r2.i = 4;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label213;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = ((global::java.lang.String) _r11_o).length();
+    if (_r0.i == 0) goto label211;
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label206:;
+    try {
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSkip((int) _r11.i);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label211:;
+    try {
+    _r11.i = 1;
+    goto label206;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label213:;
     try {
     // Value=split
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116))}));
-    _r4.i = 5;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label252;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = ((global::java.lang.String) _r0_o).length();
-    if (_r1.i <= 0) goto label248;
-    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116))}));
+    _r2.i = 5;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label251;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = ((global::java.lang.String) _r11_o).length();
+    if (_r0.i <= 0) goto label247;
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label243:;
+    label242:;
     try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSplit((int) _r0.i);
-    goto label33;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSplit((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label248:;
+    label247:;
     try {
-    _r0.i = 2097051;
-    goto label243;
+    _r11.i = 2097051;
+    goto label242;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label252:;
+    label251:;
     try {
     // Value=south
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
-    _r1.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label266;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label265;
+    _r11.i = 2;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label265:;
+    try {
     _r0.i = 2;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label266:;
-    try {
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=spany
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=sy
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{5, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label310;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.parseSpan((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanY((int) _r0.i);
-    goto label33;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{5, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label309;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r11.i = global::com.codename1.ui.layouts.mig.ConstraintParser.parseSpan((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanY((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label310:;
+    label309:;
     try {
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=spanx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=sx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{5, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label354;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.parseSpan((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanX((int) _r0.i);
-    goto label33;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{5, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label353;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r11.i = global::com.codename1.ui.layouts.mig.ConstraintParser.parseSpan((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanX((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label354:;
+    label353:;
     try {
     // Value=span
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110))}));
-    _r4.i = 4;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label420;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r1.i = ((global::java.lang.String) _r1_o).length();
-    if (_r1.i <= 0) goto label414;
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label395:;
-    try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanX((int) _r1.i);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r1.i <= _r4.i) goto label418;
-    _r1.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110))}));
+    _r2.i = 4;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label419;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r0.i = ((global::java.lang.String) _r0_o).length();
+    if (_r0.i <= 0) goto label413;
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
     }
     catch (global::System.Exception e) {
@@ -2282,935 +2314,954 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label409:;
+    label394:;
     try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanY((int) _r0.i);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label414:;
-    try {
-    _r1.i = 2097051;
-    goto label395;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label418:;
-    try {
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanX((int) _r0.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r0.i <= _r2.i) goto label417;
     _r0.i = 1;
-    goto label409;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label420:;
+    label408:;
+    try {
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanY((int) _r11.i);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label413:;
+    try {
+    _r0.i = 2097051;
+    goto label394;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label417:;
+    try {
+    _r11.i = 1;
+    goto label408;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label419:;
     try {
     // Value=shrinkx
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 120))}));
-    _r4.i = 7;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label454;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrink((global::java.lang.Float) _r1_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 120))}));
+    _r2.i = 7;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label453;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setShrink((global::java.lang.Float) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label454:;
+    label453:;
     try {
     // Value=shrinky
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 121))}));
-    _r4.i = 7;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label488;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrink((global::java.lang.Float) _r1_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 121))}));
+    _r2.i = 7;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label487;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setShrink((global::java.lang.Float) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label488:;
+    label487:;
     try {
     // Value=shrink
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107))}));
-    _r4.i = 6;
-    _r7.i = 0;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label561;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107))}));
+    _r2.i = 6;
+    _r5.i = 0;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label560;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r2.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r2.i);
+    _r2_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r5_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r5_o = ((global::java.lang.String) _r5_o).trim();
+    _r6_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r5_o, (global::java.lang.Float) _r6_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setShrink((global::java.lang.Float) _r5_o);
+    _r11.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r11.i <= _r2.i) goto label32;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
     _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r4.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r4.i);
-    _r4_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r7_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r7_o = ((global::java.lang.String) _r7_o).trim();
-    _r8_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r7_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r7_o, (global::java.lang.Float) _r8_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r4_o).setShrink((global::java.lang.Float) _r7_o);
-    _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r0.i <= _r4.i) goto label33;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrink((global::java.lang.Float) _r1_o);
-    goto label33;
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setShrink((global::java.lang.Float) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label561:;
+    label560:;
     try {
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=shrinkprio
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=shp
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 112))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{10, 3});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label683;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 112))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{10, 3});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label682;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
     // Value=x
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120))}));
-    _r1.i = ((global::java.lang.String) _r0_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i != 0) goto label612;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120))}));
+    _r0.i = ((global::java.lang.String) _r11_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i != 0) goto label611;
     // Value=y
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)121))}));
-    _r1.i = ((global::java.lang.String) _r0_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label643;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)121))}));
+    _r0.i = ((global::java.lang.String) _r11_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label642;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label612:;
+    label611:;
     try {
     // Value=x
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120))}));
-    _r1.i = ((global::java.lang.String) _r0_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label638;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120))}));
+    _r0.i = ((global::java.lang.String) _r11_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label637;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label624:;
+    label623:;
     try {
-    _r4.i = 2;
-    _r0_o = ((global::java.lang.String) _r0_o).substring((int) _r4.i);
-    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setShrinkPriority((int) _r0.i);
-    goto label33;
+    _r2.i = 2;
+    _r11_o = ((global::java.lang.String) _r11_o).substring((int) _r2.i);
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrinkPriority((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label638:;
+    label637:;
     try {
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    goto label624;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    goto label623;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label643:;
+    label642:;
     try {
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 0;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r4.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setShrinkPriority((int) _r4.i);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r1.i <= _r4.i) goto label33;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setShrinkPriority((int) _r0.i);
-    goto label33;
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 0;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r2.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrinkPriority((int) _r2.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r0.i <= _r2.i) goto label32;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 1;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setShrinkPriority((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label683:;
+    label682:;
     try {
-    _r1.i = 4;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 4;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=sizegroupx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=sizegroupy
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
     // Value=sgx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 3;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 3;
     // Value=sgy
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 4;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{9, 9, 2, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label759;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r4_o = ((global::java.lang.String) _r0_o).trim();
-    _r0.i = 1;
-    _r0.i = _r1.i - _r0.i;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r1.i = 121;
-    if (_r0.i == _r1.i) goto label746;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setSizeGroup((global::java.lang.String) _r4_o);
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 4;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{9, 9, 2, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label758;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r2_o = ((global::java.lang.String) _r11_o).trim();
+    _r11.i = 1;
+    _r11.i = _r0.i - _r11.i;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r0.i = 121;
+    if (_r11.i == _r0.i) goto label745;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setSizeGroup((global::java.lang.String) _r2_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label746:;
+    label745:;
     try {
-    _r1.i = 120;
-    if (_r0.i == _r1.i) goto label33;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setSizeGroup((global::java.lang.String) _r4_o);
-    goto label33;
+    _r0.i = 120;
+    if (_r11.i == _r0.i) goto label32;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setSizeGroup((global::java.lang.String) _r2_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label759:;
+    label758:;
     try {
-    _r4.i = 103;
-    if (_r0.i != _r4.i) goto label1095;
+    _r2.i = 103;
+    if (_r11.i != _r2.i) goto label1094;
     // Value=growx
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
-    _r4.i = 5;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label797;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r1_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 120))}));
+    _r2.i = 5;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label796;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setGrow((global::java.lang.Float) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label797:;
+    label796:;
     try {
     // Value=growy
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
-    _r4.i = 5;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label831;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r1_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 121))}));
+    _r2.i = 5;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label830;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setGrow((global::java.lang.Float) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label831:;
+    label830:;
     try {
     // Value=grow
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
-    _r4.i = 4;
-    _r7.i = 0;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label897;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 0;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r7_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r4_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r4_o, (global::java.lang.Float) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGrow((global::java.lang.Float) _r4_o);
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r7.i = 1;
-    if (_r4.i <= _r7.i) goto label894;
-    _r4.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
+    _r2.i = 4;
+    _r5.i = 0;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label896;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 0;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r5_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r2_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r2_o, (global::java.lang.Float) _r5_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r2_o);
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r5.i = 1;
+    if (_r2.i <= _r5.i) goto label893;
+    _r2.i = 1;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label883:;
+    label882:;
     try {
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGrow((global::java.lang.Float) _r0_o);
-    goto label33;
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r11_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label894:;
+    label893:;
     try {
     // Value=
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
-    goto label883;
+    _r11_o = new global::java.lang.String();
+    ((global::java.lang.String)_r11_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    goto label882;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label897:;
+    label896:;
     try {
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=growprio
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=gp
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 112))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{8, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1021;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r0_o).trim();
-    _r0.i = ((global::java.lang.String) _r1_o).length();
-    if (_r0.i <= 0) goto label973;
-    _r0.i = 0;
-    _r0.i = ((global::java.lang.String) _r1_o).charAt((int) _r0.i);
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 112))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{8, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1020;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r11_o).trim();
+    _r11.i = ((global::java.lang.String) _r0_o).length();
+    if (_r11.i <= 0) goto label972;
+    _r11.i = 0;
+    _r11.i = ((global::java.lang.String) _r0_o).charAt((int) _r11.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label943:;
+    label942:;
     try {
-    _r4.i = 120;
-    if (_r0.i == _r4.i) goto label951;
-    _r4.i = 121;
-    if (_r0.i != _r4.i) goto label981;
+    _r2.i = 120;
+    if (_r11.i == _r2.i) goto label950;
+    _r2.i = 121;
+    if (_r11.i != _r2.i) goto label980;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label951:;
+    label950:;
     try {
-    _r4.i = 120;
-    if (_r0.i != _r4.i) goto label976;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
+    _r2.i = 120;
+    if (_r11.i != _r2.i) goto label975;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label959:;
+    label958:;
     try {
-    _r4.i = 2;
-    _r1_o = ((global::java.lang.String) _r1_o).substring((int) _r4.i);
-    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrowPriority((int) _r1.i);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label973:;
-    try {
-    _r0.i = 32;
-    goto label943;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label976:;
-    try {
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    goto label959;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label981:;
-    try {
-    _r0.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r1_o, (char) _r0.i);
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 0;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r4.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGrowPriority((int) _r4.i);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r1.i <= _r4.i) goto label33;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
+    _r2.i = 2;
+    _r0_o = ((global::java.lang.String) _r0_o).substring((int) _r2.i);
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGrowPriority((int) _r0.i);
-    goto label33;
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setGrowPriority((int) _r0.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1021:;
+    label972:;
+    try {
+    _r11.i = 32;
+    goto label942;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label975:;
+    try {
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    goto label958;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label980:;
+    try {
+    _r11.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r11.i);
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 0;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r2.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrowPriority((int) _r2.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r0.i <= _r2.i) goto label32;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 1;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrowPriority((int) _r11.i);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1020:;
     try {
     // Value=gap
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
-    _r4.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label1095;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseGaps((global::java.lang.String) _r6_o);
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o == null) goto label1048;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 0;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGapBefore((global::com.codename1.ui.layouts.mig.BoundSize) _r4_o);
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
+    _r2.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label1094;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseGaps((global::java.lang.String) _r3_o);
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o == null) goto label1047;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 0;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGapBefore((global::com.codename1.ui.layouts.mig.BoundSize) _r2_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1048:;
+    label1047:;
     try {
-    _r1.i = 1;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o == null) goto label1063;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 1;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGapBefore((global::com.codename1.ui.layouts.mig.BoundSize) _r4_o);
+    _r0.i = 1;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o == null) goto label1062;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 1;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGapBefore((global::com.codename1.ui.layouts.mig.BoundSize) _r2_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1063:;
+    label1062:;
     try {
-    _r1.i = 2;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o == null) goto label1078;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 2;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r4_o);
+    _r0.i = 2;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o == null) goto label1077;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 2;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r2_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1078:;
+    label1077:;
     try {
-    _r1.i = 3;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o == null) goto label33;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 3;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
-    goto label33;
+    _r0.i = 3;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o == null) goto label32;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 3;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1095:;
+    label1094:;
     try {
-    _r4.i = 97;
-    if (_r0.i != _r4.i) goto label1262;
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r2.i = 97;
+    if (_r11.i != _r2.i) goto label1261;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=aligny
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=ay
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1149;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4.i = 0;
-    _r7_o = null;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r1_o, 0!=_r4.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r1_o);
-    goto label33;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1148;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2.i = 0;
+    _r5_o = null;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r0_o, 0!=_r2.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r5_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1149:;
+    label1148:;
     try {
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=alignx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=ax
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1199;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r1_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r1_o = ((global::java.lang.String) _r1_o).trim();
-    _r4.i = 1;
-    _r7_o = null;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r1_o, 0!=_r4.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r1_o);
-    goto label33;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{6, 2});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1198;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r0_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r0_o = ((global::java.lang.String) _r0_o).trim();
+    _r2.i = 1;
+    _r5_o = null;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r0_o, 0!=_r2.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r5_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1199:;
+    label1198:;
     try {
     // Value=align
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
-    _r4.i = 2;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1262;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 0;
-    _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r7.i = 1;
-    _r8_o = null;
-    _r4_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r4_o, 0!=_r7.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r8_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r4_o);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r1.i <= _r4.i) goto label33;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
-    _r4.i = 0;
-    _r7_o = null;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r0_o, 0!=_r4.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r7_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
+    _r2.i = 2;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1261;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 0;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r5.i = 1;
+    _r6_o = null;
+    _r2_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r2_o, 0!=_r5.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r6_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r2_o);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r0.i <= _r2.i) goto label32;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 1;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r2.i];
+    _r2.i = 0;
+    _r5_o = null;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValueOrAlign((global::java.lang.String) _r11_o, 0!=_r2.i, (global::com.codename1.ui.layouts.mig.UnitValue) _r5_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1262:;
+    label1261:;
     try {
-    _r4.i = _r1.i;
-    _r1.i = 120;
-    if (_r0.i == _r1.i) goto label1271;
-    _r1.i = 121;
-    if (_r0.i != _r1.i) goto label1377;
+    _r2.i = _r0.i;
+    _r0.i = 120;
+    if (_r11.i == _r0.i) goto label1270;
+    _r0.i = 121;
+    if (_r11.i != _r0.i) goto label1376;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1271:;
+    label1270:;
     try {
-    _r1.i = ((global::java.lang.String) _r6_o).length();
-    _r7.i = 2;
-    if (_r1.i <= _r7.i) goto label1377;
-    _r1.i = 1;
-    _r1.i = ((global::java.lang.String) _r6_o).charAt((int) _r1.i);
-    _r7.i = 32;
-    if (_r1.i == _r7.i) goto label1300;
-    _r7.i = 50;
-    if (_r1.i != _r7.i) goto label1377;
-    _r7.i = 2;
-    _r7.i = ((global::java.lang.String) _r6_o).charAt((int) _r7.i);
-    _r8.i = 32;
-    if (_r7.i != _r8.i) goto label1377;
+    _r0.i = ((global::java.lang.String) _r3_o).length();
+    _r5.i = 2;
+    if (_r0.i <= _r5.i) goto label1376;
+    _r0.i = 1;
+    _r0.i = ((global::java.lang.String) _r3_o).charAt((int) _r0.i);
+    _r5.i = 32;
+    if (_r0.i == _r5.i) goto label1299;
+    _r5.i = 50;
+    if (_r0.i != _r5.i) goto label1376;
+    _r5.i = 2;
+    _r5.i = ((global::java.lang.String) _r3_o).charAt((int) _r5.i);
+    _r6.i = 32;
+    if (_r5.i != _r6.i) goto label1376;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1300:;
+    label1299:;
     try {
-    _r4_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getPos();
-    if (_r4_o != null) goto label1357;
-    _r4.i = 4;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r4.i]);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
+    _r2_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getPos();
+    if (_r2_o != null) goto label1356;
+    _r2.i = 4;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1312:;
+    label1311:;
     try {
-    _r4.i = 120;
-    if (_r0.i != _r4.i) goto label1371;
-    _r4.i = 0;
+    _r2.i = 120;
+    if (_r11.i != _r2.i) goto label1370;
+    _r2.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1317:;
+    label1316:;
     try {
-    _r7.i = 50;
-    if (_r1.i != _r7.i) goto label1373;
-    _r1.i = 2;
+    _r5.i = 50;
+    if (_r0.i != _r5.i) goto label1372;
+    _r0.i = 2;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1322:;
+    label1321:;
     try {
-    _r1.i = _r1.i + _r4.i;
-    _r4_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getPos();
-    _r7.i = 2;
-    _r7_o = ((global::java.lang.String) _r6_o).substring((int) _r7.i);
-    _r7_o = ((global::java.lang.String) _r7_o).trim();
-    _r8_o = null;
+    _r0.i = _r0.i + _r2.i;
+    _r2_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getPos();
+    _r5.i = 2;
+    _r5_o = ((global::java.lang.String) _r3_o).substring((int) _r5.i);
+    _r5_o = ((global::java.lang.String) _r5_o).trim();
+    _r6_o = null;
     _r9.i = 120;
-    if (_r0.i != _r9.i) goto label1375;
-    _r0.i = 1;
+    if (_r11.i != _r9.i) goto label1374;
+    _r11.i = 1;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1342:;
+    label1341:;
     try {
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r7_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r8_o, 0!=_r0.i);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i] = _r0_o;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setBoundsInGrid(0!=_r0.i);
-    goto label33;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r5_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r6_o, 0!=_r11.i);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r0.i] = _r11_o;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setBoundsInGrid(0!=_r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1357:;
+    label1356:;
     try {
-    _r4.i = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).isBoundsInGrid() ? 1 : 0;
-    if (_r4.i != 0) goto label1312;
+    _r2.i = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).isBoundsInGrid() ? 1 : 0;
+    if (_r2.i != 0) goto label1311;
     _r11_o = new global::java.lang.IllegalArgumentException();
     // Value=Cannot combine 'position' with 'x/y/x2/y2' keywords.
     _r0_o = new global::java.lang.String();
@@ -3223,71 +3274,71 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1371:;
+    label1370:;
     try {
-    _r4.i = 1;
-    goto label1317;
+    _r2.i = 1;
+    goto label1316;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1373:;
-    try {
-    _r1.i = 0;
-    goto label1322;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1375:;
+    label1372:;
     try {
     _r0.i = 0;
-    goto label1342;
+    goto label1321;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1377:;
+    label1374:;
     try {
-    _r1.i = 99;
-    if (_r0.i != _r1.i) goto label1485;
+    _r11.i = 0;
+    goto label1341;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1376:;
+    try {
+    _r0.i = 99;
+    if (_r11.i != _r0.i) goto label1484;
     // Value=cell
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108))}));
-    _r4.i = 4;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1486;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 2;
-    if (_r1.i >= _r4.i) goto label1435;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108))}));
+    _r2.i = 4;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1485;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 2;
+    if (_r0.i >= _r2.i) goto label1434;
     _r11_o = new global::java.lang.IllegalArgumentException();
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -3295,7 +3346,7 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 32))}));
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r6_o);
+    _r0_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r3_o);
     _r0_o = ((global::java.lang.StringBuilder) _r0_o).toString();
     ((global::java.lang.IllegalArgumentException) _r11_o).@this((global::java.lang.String) _r0_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r11_o);
@@ -3305,86 +3356,86 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1435:;
+    label1434:;
     try {
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setCellX((int) _r1.i);
-    _r1.i = 1;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setCellY((int) _r1.i);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 2;
-    if (_r1.i <= _r4.i) goto label1469;
-    _r1.i = 2;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanX((int) _r1.i);
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1469:;
-    try {
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 3;
-    if (_r1.i <= _r4.i) goto label33;
-    _r1.i = 3;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setSpanY((int) _r0.i);
-    goto label33;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setCellX((int) _r0.i);
+    _r0.i = 1;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setCellY((int) _r0.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 2;
+    if (_r0.i <= _r2.i) goto label1468;
+    _r0.i = 2;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanX((int) _r0.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1468:;
+    try {
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 3;
+    if (_r0.i <= _r2.i) goto label32;
+    _r0.i = 3;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setSpanY((int) _r11.i);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1484:;
+    try {
+    _r0.i = _r2.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
         }
         throw ex;
     } // end catch
     label1485:;
     try {
-    _r1.i = _r4.i;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1486:;
-    try {
-    _r4.i = 112;
-    if (_r0.i != _r4.i) goto label1790;
+    _r2.i = 112;
+    if (_r11.i != _r2.i) goto label1789;
     // Value=pos
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115))}));
-    _r4.i = 3;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1598;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getPos();
-    if (_r0_o == null) goto label1521;
-    _r0.i = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).isBoundsInGrid() ? 1 : 0;
-    if (_r0.i == 0) goto label1521;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115))}));
+    _r2.i = 3;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1597;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getPos();
+    if (_r11_o == null) goto label1520;
+    _r11.i = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).isBoundsInGrid() ? 1 : 0;
+    if (_r11.i == 0) goto label1520;
     _r11_o = new global::java.lang.IllegalArgumentException();
     // Value=Can not combine 'pos' with 'x/y/x2/y2' keywords.
     _r0_o = new global::java.lang.String();
@@ -3397,37 +3448,37 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1521:;
+    label1520:;
     try {
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r4_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r0.i = 4;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
-    _r1.i = 0;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r2_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r11.i = 4;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r11.i]);
+    _r0.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1539:;
+    label1538:;
     try {
-    _r7.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    if (_r1.i >= _r7.i) goto label1561;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
-    _r8_o = null;
-    _r9.i = _r1.i % 2;
-    if (_r9.i != 0) goto label1559;
+    _r5.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    if (_r0.i >= _r5.i) goto label1560;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r0.i];
+    _r6_o = null;
+    _r9.i = _r0.i % 2;
+    if (_r9.i != 0) goto label1558;
     _r9.i = 1;
     }
     catch (global::System.Exception e) {
@@ -3435,77 +3486,77 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1550:;
+    label1549:;
     try {
-    _r7_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r7_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r8_o, 0!=_r9.i);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r7_o;
-    _r1.i = _r1.i + 1;
-    goto label1539;
+    _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r5_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r6_o, 0!=_r9.i);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r5_o;
+    _r0.i = _r0.i + 1;
+    goto label1538;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1559:;
+    label1558:;
     try {
     _r9.i = 0;
-    goto label1550;
+    goto label1549;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1561:;
+    label1560:;
     try {
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o != null) goto label1571;
-    _r1.i = 2;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o == null) goto label1581;
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o != null) goto label1570;
+    _r0.i = 2;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o == null) goto label1580;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1571:;
+    label1570:;
     try {
-    _r1.i = 1;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o != null) goto label1589;
-    _r1.i = 3;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    if (_r1_o != null) goto label1589;
+    _r0.i = 1;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o != null) goto label1588;
+    _r0.i = 3;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    if (_r0_o != null) goto label1588;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1581:;
+    label1580:;
     try {
     _r11_o = new global::java.lang.IllegalArgumentException();
     // Value=Both x and x2 or y and y2 can not be null!
@@ -3519,791 +3570,791 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1589:;
+    label1588:;
     try {
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
-    _r0.i = 0;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setBoundsInGrid(0!=_r0.i);
-    goto label33;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPos((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    _r11.i = 0;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setBoundsInGrid(0!=_r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1598:;
+    label1597:;
     try {
     // Value=pad
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
-    _r4.i = 3;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1672;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 0;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r0_o, 0!=_r1.i);
-    _r1.i = 4;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
-    _r7.i = 0;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 1;
-    if (_r7.i <= _r8.i) goto label1666;
-    _r7.i = 1;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100))}));
+    _r2.i = 3;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1671;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 0;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r11_o, 0!=_r0.i);
+    _r0.i = 4;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
+    _r5.i = 0;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 1;
+    if (_r5.i <= _r6.i) goto label1665;
+    _r5.i = 1;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1639:;
+    label1638:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 2;
-    if (_r7.i <= _r8.i) goto label1668;
-    _r7.i = 2;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 2;
+    if (_r5.i <= _r6.i) goto label1667;
+    _r5.i = 2;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1649:;
+    label1648:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 3;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 3;
-    if (_r7.i <= _r8.i) goto label1670;
-    _r7.i = 3;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 3;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 3;
+    if (_r5.i <= _r6.i) goto label1669;
+    _r5.i = 3;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1659:;
+    label1658:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r0_o;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPadding((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    goto label33;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r11_o;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPadding((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1666:;
+    label1665:;
     try {
-    _r7_o = null;
-    goto label1639;
+    _r5_o = null;
+    goto label1638;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1668:;
+    label1667:;
     try {
-    _r7_o = null;
-    goto label1649;
+    _r5_o = null;
+    goto label1648;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1670:;
+    label1669:;
     try {
-    _r0_o = null;
-    goto label1659;
+    _r11_o = null;
+    goto label1658;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1672:;
+    label1671:;
     try {
     // Value=pushx
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 120))}));
-    _r4.i = 5;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1702;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushX((global::java.lang.Float) _r0_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 120))}));
+    _r2.i = 5;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1701;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r11_o, (global::java.lang.Float) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushX((global::java.lang.Float) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1702:;
+    label1701:;
     try {
     // Value=pushy
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 121))}));
-    _r4.i = 5;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1732;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushY((global::java.lang.Float) _r0_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 121))}));
+    _r2.i = 5;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1731;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r11_o, (global::java.lang.Float) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushY((global::java.lang.Float) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1732:;
+    label1731:;
     try {
     // Value=push
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104))}));
-    _r4.i = 4;
-    _r7.i = 0;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1790;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 32;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r0_o, (char) _r1.i);
-    _r1.i = 0;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
-    _r4_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r1_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r1_o, (global::java.lang.Float) _r4_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushX((global::java.lang.Float) _r1_o);
-    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = 1;
-    if (_r1.i <= _r4.i) goto label1787;
-    _r1.i = 1;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104))}));
+    _r2.i = 4;
+    _r5.i = 0;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1789;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 32;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.toTrimmedTokens((global::java.lang.String) _r11_o, (char) _r0.i);
+    _r0.i = 0;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
+    _r2_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r2_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushX((global::java.lang.Float) _r0_o);
+    _r0.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r2.i = 1;
+    if (_r0.i <= _r2.i) goto label1786;
+    _r0.i = 1;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1776:;
+    label1775:;
     try {
-    _r1_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r0_o, (global::java.lang.Float) _r1_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushY((global::java.lang.Float) _r0_o);
-    goto label33;
+    _r0_o = global::com.codename1.ui.layouts.mig.ResizeConstraint._fWEIGHT_1100;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseFloat((global::java.lang.String) _r11_o, (global::java.lang.Float) _r0_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushY((global::java.lang.Float) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1787:;
+    label1786:;
     try {
     // Value=
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
-    goto label1776;
+    _r11_o = new global::java.lang.String();
+    ((global::java.lang.String)_r11_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    goto label1775;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1790:;
+    label1789:;
     try {
-    _r4.i = 116;
-    if (_r0.i != _r4.i) goto label1818;
+    _r2.i = 116;
+    if (_r11.i != _r2.i) goto label1817;
     // Value=tag
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103))}));
-    _r4.i = 3;
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::java.lang.String) _r1_o, (int) _r4.i, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label1818;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setTag((global::java.lang.String) _r0_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103))}));
+    _r2.i = 3;
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::java.lang.String) _r0_o, (int) _r2.i, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label1817;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setTag((global::java.lang.String) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1818:;
+    label1817:;
     try {
-    _r4.i = _r1.i;
-    _r1.i = 119;
-    if (_r0.i == _r1.i) goto label1827;
-    _r1.i = 104;
-    if (_r0.i != _r1.i) goto label2138;
+    _r2.i = _r0.i;
+    _r0.i = 119;
+    if (_r11.i == _r0.i) goto label1826;
+    _r0.i = 104;
+    if (_r11.i != _r0.i) goto label2137;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1827:;
+    label1826:;
     try {
     // Value=wrap
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
-    _r1.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label1841;
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setWrap(0!=_r0.i);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112))}));
+    _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label1840;
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setWrap(0!=_r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1841:;
+    label1840:;
     try {
     // Value=wrap 
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 32))}));
-    _r1.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label1869;
-    _r0.i = 5;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 1;
-    _r4.i = 1;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r0_o, 0!=_r1.i, 0!=_r4.i);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setWrapGapSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label1868;
+    _r11.i = 5;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 1;
+    _r2.i = 1;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r11_o, 0!=_r0.i, 0!=_r2.i);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setWrapGapSize((global::com.codename1.ui.layouts.mig.BoundSize) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1869:;
+    label1868:;
     try {
-    _r1.i = 119;
-    if (_r0.i != _r1.i) goto label1925;
-    _r1.i = 1;
+    _r0.i = 119;
+    if (_r11.i != _r0.i) goto label1924;
+    _r0.i = 1;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1874:;
+    label1873:;
     try {
-    if (_r1.i == 0) goto label1929;
+    if (_r0.i == 0) goto label1928;
     // Value=w 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label1892;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i != 0) goto label1891;
     // Value=width 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label1929;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i == 0) goto label1928;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1892:;
+    label1891:;
     try {
-    _r0.i = 1;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r1.i = 32;
-    if (_r0.i != _r1.i) goto label1927;
-    _r0.i = 2;
+    _r11.i = 1;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r0.i = 32;
+    if (_r11.i != _r0.i) goto label1926;
+    _r11.i = 2;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1902:;
+    label1901:;
     try {
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r4.i = 0;
-    _r7.i = 1;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r0_o, 0!=_r4.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
-    goto label33;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    _r2.i = 0;
+    _r5.i = 1;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r11_o, 0!=_r2.i, 0!=_r5.i);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label1925:;
-    try {
-    _r1.i = 0;
-    goto label1874;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1927:;
-    try {
-    _r0.i = 6;
-    goto label1902;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1929:;
-    try {
-    if (_r1.i != 0) goto label1982;
-    // Value=h 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label1947;
-    // Value=height 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label1982;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1947:;
-    try {
-    _r0.i = 1;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r1.i = 32;
-    if (_r0.i != _r1.i) goto label1980;
-    _r0.i = 2;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1957:;
-    try {
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r4.i = 0;
-    _r7.i = 0;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r0_o, 0!=_r4.i, 0!=_r7.i);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1980:;
-    try {
-    _r0.i = 7;
-    goto label1957;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label1982:;
-    try {
-    // Value=wmin 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label2014;
-    // Value=wmax 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label2014;
-    // Value=hmin 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i != 0) goto label2014;
-    // Value=hmax 
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
-    _r7.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r7.i == 0) goto label2101;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2014:;
-    try {
-    _r7.i = 5;
-    _r7_o = ((global::java.lang.String) _r6_o).substring((int) _r7.i);
-    _r8_o = ((global::java.lang.String) _r7_o).trim();
-    _r7.i = ((global::java.lang.String) _r8_o).length();
-    if (_r7.i <= 0) goto label2101;
-    _r0_o = null;
-    _r7_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r8_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r0_o, 0!=_r1.i);
-    _r0.i = 3;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r4.i = 110;
-    if (_r0.i != _r4.i) goto label2082;
-    _r0.i = 1;
-    _r4.i = _r0.i;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2045:;
-    try {
-    if (_r1.i == 0) goto label2085;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2051:;
-    try {
-    _r1_o = new global::com.codename1.ui.layouts.mig.BoundSize();
-    if (_r4.i == 0) goto label2090;
-    _r9_o = _r7_o;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2056:;
-    try {
-    _r10_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).getSize();
-    _r10_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r10_o).getPreferred();
-    if (_r4.i == 0) goto label2099;
-    _r4_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).getSize();
-    _r4_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r4_o).getMax();
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2074:;
-    try {
-    ((global::com.codename1.ui.layouts.mig.BoundSize) _r1_o).@this((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r10_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r4_o, (global::java.lang.String) _r8_o);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r1_o);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2082:;
+    label1924:;
     try {
     _r0.i = 0;
-    _r4.i = _r0.i;
-    goto label2045;
+    goto label1873;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2085:;
+    label1926:;
     try {
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    goto label2051;
+    _r11.i = 6;
+    goto label1901;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2090:;
+    label1928:;
     try {
-    _r9_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).getSize();
+    if (_r0.i != 0) goto label1981;
+    // Value=h 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i != 0) goto label1946;
+    // Value=height 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i == 0) goto label1981;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1946:;
+    try {
+    _r11.i = 1;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r0.i = 32;
+    if (_r11.i != _r0.i) goto label1979;
+    _r11.i = 2;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1956:;
+    try {
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    _r2.i = 0;
+    _r5.i = 0;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseBoundSize((global::java.lang.String) _r11_o, 0!=_r2.i, 0!=_r5.i);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r11_o);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1979:;
+    try {
+    _r11.i = 7;
+    goto label1956;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label1981:;
+    try {
+    // Value=wmin 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i != 0) goto label2013;
+    // Value=wmax 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i != 0) goto label2013;
+    // Value=hmin 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i != 0) goto label2013;
+    // Value=hmax 
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32))}));
+    _r5.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r5_o) ? 1 : 0;
+    if (_r5.i == 0) goto label2100;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2013:;
+    try {
+    _r5.i = 5;
+    _r5_o = ((global::java.lang.String) _r3_o).substring((int) _r5.i);
+    _r6_o = ((global::java.lang.String) _r5_o).trim();
+    _r5.i = ((global::java.lang.String) _r6_o).length();
+    if (_r5.i <= 0) goto label2100;
+    _r11_o = null;
+    _r5_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseUnitValue((global::java.lang.String) _r6_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r11_o, 0!=_r0.i);
+    _r11.i = 3;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r2.i = 110;
+    if (_r11.i != _r2.i) goto label2081;
+    _r11.i = 1;
+    _r2.i = _r11.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2044:;
+    try {
+    if (_r0.i == 0) goto label2084;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2050:;
+    try {
+    _r0_o = new global::com.codename1.ui.layouts.mig.BoundSize();
+    if (_r2.i == 0) goto label2089;
+    _r9_o = _r5_o;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2055:;
+    try {
+    _r10_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).getSize();
+    _r10_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r10_o).getPreferred();
+    if (_r2.i == 0) goto label2098;
+    _r2_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).getSize();
+    _r2_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r2_o).getMax();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2073:;
+    try {
+    ((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o).@this((global::com.codename1.ui.layouts.mig.UnitValue) _r9_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r10_o, (global::com.codename1.ui.layouts.mig.UnitValue) _r2_o, (global::java.lang.String) _r6_o);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
+    goto label32;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2081:;
+    try {
+    _r11.i = 0;
+    _r2.i = _r11.i;
+    goto label2044;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2084:;
+    try {
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    goto label2050;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2089:;
+    try {
+    _r9_o = ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).getSize();
     _r9_o = ((global::com.codename1.ui.layouts.mig.BoundSize) _r9_o).getMin();
-    goto label2056;
+    goto label2055;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2099:;
+    label2098:;
     try {
-    _r4_o = _r7_o;
-    goto label2074;
+    _r2_o = _r5_o;
+    goto label2073;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2101:;
+    label2100:;
     try {
     // Value=west
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    _r1.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label2115;
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label2114;
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2115:;
+    label2114:;
     try {
     // Value=hidemode 
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
-    _r1.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label2138;
-    _r0.i = 9;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r0_o);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setHideMode((int) _r0.i);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label2137;
+    _r11.i = 9;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r11_o);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setHideMode((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2138:;
+    label2137:;
     try {
-    _r1.i = 105;
-    if (_r0.i != _r1.i) goto label2194;
+    _r0.i = 105;
+    if (_r11.i != _r0.i) goto label2193;
     // Value=id 
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32))}));
-    _r1.i = ((global::java.lang.String) _r6_o).startsWith((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label2194;
-    _r0.i = 3;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setId((global::java.lang.String) _r0_o);
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getId();
-    _r1.i = 46;
-    _r0.i = ((global::java.lang.String) _r0_o).indexOf((int) _r1.i);
-    if (_r0.i == 0) goto label2186;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getId();
-    _r1.i = ((global::java.lang.String) _r1_o).length();
-    _r4.i = 1;
-    _r1.i = _r1.i - _r4.i;
-    if (_r0.i != _r1.i) goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32))}));
+    _r0.i = ((global::java.lang.String) _r3_o).startsWith((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label2193;
+    _r11.i = 3;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setId((global::java.lang.String) _r11_o);
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getId();
+    _r0.i = 46;
+    _r11.i = ((global::java.lang.String) _r11_o).indexOf((int) _r0.i);
+    if (_r11.i == 0) goto label2185;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getId();
+    _r0.i = ((global::java.lang.String) _r0_o).length();
+    _r2.i = 1;
+    _r0.i = _r0.i - _r2.i;
+    if (_r11.i != _r0.i) goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2186:;
+    label2185:;
     try {
     _r11_o = new global::java.lang.IllegalArgumentException();
     // Value=Dot must not be first or last!
@@ -4317,454 +4368,454 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2194:;
+    label2193:;
     try {
-    _r1.i = 101;
-    if (_r0.i != _r1.i) goto label2296;
+    _r0.i = 101;
+    if (_r11.i != _r0.i) goto label2295;
     // Value=east
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    _r1.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label2212;
-    _r0.i = 3;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label2211;
+    _r11.i = 3;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2212:;
+    label2211:;
     try {
     // Value=external
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108))}));
-    _r1.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label2226;
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setExternal(0!=_r0.i);
-    goto label33;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108))}));
+    _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label2225;
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setExternal(0!=_r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2226:;
+    label2225:;
     try {
-    _r1.i = 4;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
+    _r0.i = 4;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
     // Value=endgroupx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
     // Value=endgroupy
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
     // Value=egx
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 120))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 3;
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 120))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 3;
     // Value=egy
-    _r7_o = new global::java.lang.String();
-    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 121))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 4;
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
-    _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{-1, -1, -1, -1});
-    _r7.i = 1;
-    _r1.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, 0!=_r7.i);
-    _r4.i = -1;
-    if (_r1.i <= _r4.i) goto label2297;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r1.i);
-    _r4_o = ((global::java.lang.String) _r0_o).trim();
-    _r0.i = 1;
-    _r0.i = _r1.i - _r0.i;
-    _r0.i = ((global::java.lang.String) _r6_o).charAt((int) _r0.i);
-    _r1.i = 120;
-    if (_r0.i != _r1.i) goto label2291;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 121))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 4;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{-1, -1, -1, -1});
+    _r5.i = 1;
+    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, 0!=_r5.i);
+    _r2.i = -1;
+    if (_r0.i <= _r2.i) goto label2296;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r0.i);
+    _r2_o = ((global::java.lang.String) _r11_o).trim();
+    _r11.i = 1;
+    _r11.i = _r0.i - _r11.i;
+    _r11.i = ((global::java.lang.String) _r3_o).charAt((int) _r11.i);
+    _r0.i = 120;
+    if (_r11.i != _r0.i) goto label2290;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2286:;
+    label2285:;
     try {
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setEndGroup((global::java.lang.String) _r4_o);
-    goto label33;
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setEndGroup((global::java.lang.String) _r2_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2291:;
+    label2290:;
     try {
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    goto label2286;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    goto label2285;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2295:;
+    try {
+    _r0.i = _r2.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
         }
         throw ex;
     } // end catch
     label2296:;
     try {
-    _r1.i = _r4.i;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2297:;
-    try {
-    _r4.i = 100;
-    if (_r0.i != _r4.i) goto label2415;
+    _r2.i = 100;
+    if (_r11.i != _r2.i) goto label2414;
     // Value=dock north
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label2315;
-    _r0.i = 0;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label2314;
+    _r11.i = 0;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2315:;
+    label2314:;
     try {
     // Value=dock west
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label2329;
-    _r0.i = 1;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label2328;
+    _r11.i = 1;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2329:;
+    label2328:;
     try {
     // Value=dock south
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label2343;
-    _r0.i = 2;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label2342;
+    _r11.i = 2;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2343:;
+    label2342:;
     try {
     // Value=dock east
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label2357;
-    _r0.i = 3;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setDockSide((int) _r0.i);
-    goto label33;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label2356;
+    _r11.i = 3;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setDockSide((int) _r11.i);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2357:;
+    label2356:;
     try {
     // Value=dock center
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
-    _r4.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
-    if (_r4.i == 0) goto label2415;
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    _r1_o = new global::java.lang.Float();
-    _r4.f = (float)100.0D;
-    ((global::java.lang.Float) _r1_o).@this((float) _r4.f);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r1_o);
-    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    _r1_o = new global::java.lang.Float();
-    _r4.f = (float)100.0D;
-    ((global::java.lang.Float) _r1_o).@this((float) _r4.f);
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setGrow((global::java.lang.Float) _r1_o);
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
+    _r2.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
+    if (_r2.i == 0) goto label2414;
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
     _r0_o = new global::java.lang.Float();
-    _r1.f = (float)100.0D;
-    ((global::java.lang.Float) _r0_o).@this((float) _r1.f);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushX((global::java.lang.Float) _r0_o);
+    _r2.f = (float)100.0D;
+    ((global::java.lang.Float) _r0_o).@this((float) _r2.f);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setGrow((global::java.lang.Float) _r0_o);
+    _r11_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
     _r0_o = new global::java.lang.Float();
-    _r1.f = (float)100.0D;
-    ((global::java.lang.Float) _r0_o).@this((float) _r1.f);
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setPushY((global::java.lang.Float) _r0_o);
-    goto label33;
+    _r2.f = (float)100.0D;
+    ((global::java.lang.Float) _r0_o).@this((float) _r2.f);
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r11_o).setGrow((global::java.lang.Float) _r0_o);
+    _r11_o = new global::java.lang.Float();
+    _r0.f = (float)100.0D;
+    ((global::java.lang.Float) _r11_o).@this((float) _r0.f);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushX((global::java.lang.Float) _r11_o);
+    _r11_o = new global::java.lang.Float();
+    _r0.f = (float)100.0D;
+    ((global::java.lang.Float) _r11_o).@this((float) _r0.f);
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setPushY((global::java.lang.Float) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2415:;
+    label2414:;
     try {
-    _r4.i = 118;
-    if (_r0.i != _r4.i) goto label2509;
-    _r0.i = 2;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
-    _r1.i = 0;
+    _r2.i = 118;
+    if (_r11.i != _r2.i) goto label2508;
+    _r11.i = 2;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r11.i]);
+    _r0.i = 0;
     // Value=visualpadding
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r4_o;
-    _r1.i = 1;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r2_o;
+    _r0.i = 1;
     // Value=vp
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 112))}));
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r4_o;
-    _r1.i = 2;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r1.i]);
-    _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{3, 2});
-    _r4.i = 1;
-    _r0.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<int>) _r1_o, 0!=_r4.i);
-    _r1.i = -1;
-    if (_r0.i <= _r1.i) goto label2510;
-    _r0_o = ((global::java.lang.String) _r6_o).substring((int) _r0.i);
-    _r0_o = ((global::java.lang.String) _r0_o).trim();
-    _r1.i = 0;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r0_o, 0!=_r1.i);
-    _r1.i = 4;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
-    _r4.i = 0;
-    _r7.i = 0;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 1;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 1;
-    if (_r7.i <= _r8.i) goto label2503;
-    _r7.i = 1;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 112))}));
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r2_o;
+    _r0.i = 2;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{3, 2});
+    _r2.i = 1;
+    _r11.i = global::com.codename1.ui.layouts.mig.ConstraintParser.startsWithLenient((global::java.lang.String) _r3_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o, (global::org.xmlvm._nArrayAdapter<int>) _r0_o, 0!=_r2.i);
+    _r0.i = -1;
+    if (_r11.i <= _r0.i) goto label2509;
+    _r11_o = ((global::java.lang.String) _r3_o).substring((int) _r11.i);
+    _r11_o = ((global::java.lang.String) _r11_o).trim();
+    _r0.i = 0;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseInsets((global::java.lang.String) _r11_o, 0!=_r0.i);
+    _r0.i = 4;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r2.i = 0;
+    _r5.i = 0;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 1;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 1;
+    if (_r5.i <= _r6.i) goto label2502;
+    _r5.i = 1;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2476:;
+    label2475:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 2;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 2;
-    if (_r7.i <= _r8.i) goto label2505;
-    _r7.i = 2;
-    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 2;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 2;
+    if (_r5.i <= _r6.i) goto label2504;
+    _r5.i = 2;
+    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2486:;
+    label2485:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r7_o;
-    _r4.i = 3;
-    _r7.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r8.i = 3;
-    if (_r7.i <= _r8.i) goto label2507;
-    _r7.i = 3;
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r5_o;
+    _r2.i = 3;
+    _r5.i = ((global::org.xmlvm._nIArray) _r11_o).Length;
+    _r6.i = 3;
+    if (_r5.i <= _r6.i) goto label2506;
+    _r5.i = 3;
+    _r11_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r5.i];
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2496:;
+    label2495:;
     try {
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r0_o;
-    ((global::com.codename1.ui.layouts.mig.CC) _r2_o).setVisualPadding((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
-    goto label33;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r11_o;
+    ((global::com.codename1.ui.layouts.mig.CC) _r1_o).setVisualPadding((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2503:;
+    label2502:;
     try {
-    _r7_o = null;
-    goto label2476;
+    _r5_o = null;
+    goto label2475;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2505:;
+    label2504:;
     try {
-    _r7_o = null;
-    goto label2486;
+    _r5_o = null;
+    goto label2485;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2507:;
+    label2506:;
     try {
-    _r0_o = null;
-    goto label2496;
+    _r11_o = null;
+    goto label2495;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
+        }
+        throw ex;
+    } // end catch
+    label2508:;
+    try {
+    _r11.i = _r0.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Exception) {
+            _ex = ex;
+            goto label59;
         }
         throw ex;
     } // end catch
     label2509:;
     try {
-    _r0.i = _r1.i;
+    _r11.i = 1;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r3_o, 0!=_r11.i);
+    if (_r11_o == null) goto label2525;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getHorizontal();
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2510:;
+    label2525:;
     try {
-    _r0.i = 1;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r6_o, 0!=_r0.i);
-    if (_r0_o == null) goto label2526;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getHorizontal();
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
-    goto label33;
+    _r11.i = 0;
+    _r11_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r3_o, 0!=_r11.i);
+    if (_r11_o == null) goto label2541;
+    _r0_o = ((global::com.codename1.ui.layouts.mig.CC) _r1_o).getVertical();
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r0_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r11_o);
+    goto label32;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2526:;
-    try {
-    _r0.i = 0;
-    _r0_o = global::com.codename1.ui.layouts.mig.ConstraintParser.parseAlignKeywords((global::java.lang.String) _r6_o, 0!=_r0.i);
-    if (_r0_o == null) goto label2542;
-    _r1_o = ((global::com.codename1.ui.layouts.mig.CC) _r2_o).getVertical();
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
-    goto label33;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.Exception) {
-            _ex = ex;
-            goto label60;
-        }
-        throw ex;
-    } // end catch
-    label2542:;
+    label2541:;
     try {
     _r11_o = new global::java.lang.IllegalArgumentException();
     // Value=Unknown keyword.
@@ -4778,33 +4829,54 @@ public static global::System.Object parseComponentConstraint(global::java.lang.S
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label60;
+            goto label59;
         }
         throw ex;
     } // end catch
-    label2550:;
-    _r11_o = _r2_o;
+    label2549:;
+    _r11_o = _r1_o;
     goto label12;
+    label2552:;
+    label2560:;
+    label2568:;
+    label2576:;
+    label2588:;
+    label2596:;
+    label2604:;
+    label2612:;
+    label2624:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.CC parseComponentConstraint(java.lang.String)]
 }
 
 public static global::System.Object parseInsets(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue[] parseInsets(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12.i = n2 ? 1 : 0;
     _r10.i = 1;
@@ -4902,10 +4974,14 @@ public static global::System.Object parseInsets(global::java.lang.String n1, boo
 
 private static global::System.Object parseGaps(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.BoundSize[] parseGaps(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -4913,10 +4989,16 @@ private static global::System.Object parseGaps(global::java.lang.String n1){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r10.i = 2;
     _r9.i = 3;
@@ -5094,7 +5176,10 @@ private static global::System.Object parseGaps(global::java.lang.String n1){
 private static int parseSpan(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int parseSpan(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::java.lang.String) _r1_o).length();
     if (_r0.i <= 0) goto label11;
@@ -5112,8 +5197,12 @@ private static global::System.Object parseFloat(global::java.lang.String n1, glo
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = ((global::java.lang.String) _r2_o).length();
@@ -5140,12 +5229,20 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
@@ -5153,6 +5250,7 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
     _r13.i = n2 ? 1 : 0;
     _r14.i = n3 ? 1 : 0;
@@ -5304,12 +5402,17 @@ public static global::System.Object parseBoundSize(global::java.lang.String n1, 
 
 public static global::System.Object parseUnitValueOrAlign(global::java.lang.String n1, bool n2, global::com.codename1.ui.layouts.mig.UnitValue n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue parseUnitValueOrAlign(java.lang.String, boolean, com.codename1.ui.layouts.mig.UnitValue)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     _r4_o = n3;
@@ -5331,9 +5434,13 @@ public static global::System.Object parseUnitValueOrAlign(global::java.lang.Stri
 
 public static global::System.Object parseUnitValue(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: com.codename1.ui.layouts.mig.UnitValue parseUnitValue(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     _r0_o = null;
@@ -5349,16 +5456,26 @@ private static global::System.Object parseUnitValue(global::java.lang.String n1,
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
@@ -5619,12 +5736,20 @@ public static global::System.Object parseAlignKeywords(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7.i = n2 ? 1 : 0;
     _r5.i = 5;
@@ -5714,8 +5839,11 @@ public static global::System.Object parseAlignKeywords(global::java.lang.String 
 private static global::System.Object getNumTextParts(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.lang.String[] getNumTextParts(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -5723,7 +5851,10 @@ private static global::System.Object getNumTextParts(global::java.lang.String n1
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r4.i = 2;
     _r6.i = 1;
@@ -5786,18 +5917,30 @@ private static global::System.Object getNumTextParts(global::java.lang.String n1
 private static int getOper(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int getOper(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r10.i = 100;
     _r9.i = 41;
@@ -5893,15 +6036,24 @@ private static int getOper(global::java.lang.String n1){
 private static int startsWithLenient(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<int> n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int startsWithLenient(java.lang.String, java.lang.String[], int[], boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7_o = n3;
@@ -5936,17 +6088,30 @@ private static int startsWithLenient(global::java.lang.String n1, global::org.xm
 private static int startsWithLenient(global::java.lang.String n1, global::java.lang.String n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: int startsWithLenient(java.lang.String, java.lang.String, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10.i = n3;
@@ -6030,17 +6195,26 @@ private static global::System.Object toTrimmedTokens(global::java.lang.String n1
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11.i = n2;
     _r3.i = 0;
@@ -6237,18 +6411,28 @@ private static global::System.Object toTrimmedTokens(global::java.lang.String n1
 private static global::System.Object getRowColAndGapsTrimmed(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.util.ArrayList getRowColAndGapsTrimmed(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     // Value=
     _r9_o = new global::java.lang.String();
@@ -6339,8 +6523,11 @@ private static global::System.Object getRowColAndGapsTrimmed(global::java.lang.S
 
 public static global::System.Object prepare(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.ConstraintParser: java.lang.String prepare(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     if (_r1_o == null) goto label11;
     _r0_o = ((global::java.lang.String) _r1_o).trim();

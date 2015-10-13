@@ -11,9 +11,13 @@ public global::com.codename1.io.NetworkManager _fthis_20;
 
 public void @this(global::com.codename1.io.NetworkManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: void <init>(com.codename1.io.NetworkManager)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r1_o)._fthis_20 = (global::com.codename1.io.NetworkManager) _r2_o;
@@ -26,9 +30,13 @@ public void @this(global::com.codename1.io.NetworkManager n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: void handleErrorResponseCode(int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -39,8 +47,11 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: void handleException(java.lang.Exception)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r0_o).retryWithDifferentAPN();
@@ -50,11 +61,15 @@ public override void handleException(global::java.lang.Exception n1){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: void readResponse(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.io.Util.readToString((global::java.io.InputStream) _r3_o);
@@ -71,16 +86,23 @@ public override void readResponse(global::java.io.InputStream n1){
 
 private global::System.Object nextAP(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: java.lang.String nextAP()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r4_o = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._faps;
     if (_r4_o != null) goto label82;
@@ -143,6 +165,7 @@ private global::System.Object nextAP(){
     _r4_o = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._faps;
     _r5.i = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP;
     _r2_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r5.i);
+    _r2_o = _r2_o;
     _r4.i = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP;
     _r4.i = _r4.i + 1;
     ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r7_o)._fcurrentAP = _r4.i;
@@ -153,11 +176,15 @@ private global::System.Object nextAP(){
 
 private void retryWithDifferentAPN(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: void retryWithDifferentAPN()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.NetworkManager_2AutoDetectAPN) _r3_o).nextAP();
     if (_r0_o != null) goto label7;
@@ -188,8 +215,12 @@ private void retryWithDifferentAPN(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkManager$AutoDetectAPN: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;

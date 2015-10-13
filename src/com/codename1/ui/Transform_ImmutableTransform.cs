@@ -5,9 +5,13 @@ namespace com.codename1.ui {
 public class Transform_2ImmutableTransform: global::com.codename1.ui.Transform {
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void <init>(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -18,9 +22,13 @@ public void @this(global::java.lang.Object n1){
 
 private void unsupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void unsupported()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Cannot change immutable transform
@@ -33,16 +41,27 @@ private void unsupported(){
 
 public override void setCamera(float n1, float n2, float n3, float n4, float n5, float n6, float n7, float n8, float n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setCamera(float, float, float, float, float, float, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -60,7 +79,9 @@ public override void setCamera(float n1, float n2, float n3, float n4, float n5,
 
 public override void setIdentity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setIdentity()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.Transform_2ImmutableTransform) _r0_o).unsupported();
     return;
@@ -69,13 +90,21 @@ public override void setIdentity(){
 
 public override void setOrtho(float n1, float n2, float n3, float n4, float n5, float n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setOrtho(float, float, float, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -90,11 +119,17 @@ public override void setOrtho(float n1, float n2, float n3, float n4, float n5, 
 
 public override void setPerspective(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setPerspective(float, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -107,10 +142,15 @@ public override void setPerspective(float n1, float n2, float n3, float n4){
 
 public override void setRotation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setRotation(float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -122,8 +162,11 @@ public override void setRotation(float n1, float n2, float n3){
 
 public override void setTransform(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setTransform(com.codename1.ui.Transform)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Transform_2ImmutableTransform) _r0_o).unsupported();
@@ -133,11 +176,17 @@ public override void setTransform(global::com.codename1.ui.Transform n1){
 
 public override void setRotation(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setRotation(float, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -150,9 +199,13 @@ public override void setRotation(float n1, float n2, float n3, float n4){
 
 public override void setTranslation(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setTranslation(float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -163,10 +216,15 @@ public override void setTranslation(float n1, float n2){
 
 public override void setTranslation(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void setTranslation(float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -178,10 +236,15 @@ public override void setTranslation(float n1, float n2, float n3){
 
 public override void rotate(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void rotate(float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -193,11 +256,17 @@ public override void rotate(float n1, float n2, float n3){
 
 public override void rotate(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void rotate(float, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -210,9 +279,13 @@ public override void rotate(float n1, float n2, float n3, float n4){
 
 public override void translate(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void translate(float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -223,10 +296,15 @@ public override void translate(float n1, float n2){
 
 public override void translate(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void translate(float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -238,9 +316,13 @@ public override void translate(float n1, float n2, float n3){
 
 public override void scale(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void scale(float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;
@@ -251,10 +333,15 @@ public override void scale(float n1, float n2){
 
 public override void scale(float n1, float n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Transform$ImmutableTransform: void scale(float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     _r2.f = n2;

@@ -25,10 +25,13 @@ private bool _floop;
 
 private global::java.lang.Runnable _fonCompletion;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Container) _r1_o).@this();
     _r0.i = 0;
@@ -40,8 +43,12 @@ new public void @this(){
 public void @this(global::com.codename1.media.Media n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void <init>(com.codename1.media.Media)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Container) _r1_o).@this();
@@ -55,8 +62,11 @@ public void @this(global::com.codename1.media.Media n1){
 
 public virtual global::System.Object getMedia(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.media.Media getMedia()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fvideo;
     return (global::com.codename1.media.Media) _r0_o;
@@ -67,8 +77,11 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.components.MediaPlayer) _r2_o)._fuserSetIcons ? 1 : 0;
     if (_r0.i == 0) goto label52;
@@ -111,10 +124,15 @@ public override void initComponent(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r3_o)._fvideo;
     if (_r0_o != null) goto label18;
@@ -135,8 +153,12 @@ public override global::System.Object calcPreferredSize(){
 public virtual void setBackIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setBackIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.MediaPlayer) _r1_o)._fbackIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -149,8 +171,12 @@ public virtual void setBackIcon(global::com.codename1.ui.Image n1){
 public virtual void setFwdIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setFwdIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.MediaPlayer) _r1_o)._ffwdIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -163,8 +189,12 @@ public virtual void setFwdIcon(global::com.codename1.ui.Image n1){
 public virtual void setPauseIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setPauseIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.MediaPlayer) _r1_o)._fpauseIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -177,8 +207,12 @@ public virtual void setPauseIcon(global::com.codename1.ui.Image n1){
 public virtual void setPlayIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setPlayIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.MediaPlayer) _r1_o)._fplayIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -193,9 +227,14 @@ public virtual void setDataSource(global::java.lang.String n1, global::java.lang
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -222,10 +261,15 @@ public virtual void setDataSource(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setDataSource(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::com.codename1.components.MediaPlayer) _r3_o).isInitialized() ? 1 : 0;
@@ -254,8 +298,11 @@ public virtual void setDataSource(global::java.lang.String n1){
 
 public virtual global::System.Object getDataSource(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: java.lang.String getDataSource()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fdataSource;
     return (global::java.lang.String) _r0_o;
@@ -266,10 +313,15 @@ public virtual void setDataSource(global::java.io.InputStream n1, global::java.l
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setDataSource(java.io.InputStream, java.lang.String, java.lang.Runnable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -293,15 +345,21 @@ public virtual void setDataSource(global::java.io.InputStream n1, global::java.l
 
 private void initUI(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void initUI()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     ((global::com.codename1.components.MediaPlayer) _r6_o).removeAll();
     _r4_o = new global::com.codename1.ui.layouts.BorderLayout();
@@ -437,7 +495,9 @@ private void initUI(){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.MediaPlayer: void run()]
@@ -448,8 +508,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 5;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -487,9 +551,14 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Image));
     _r0.i = 5;
@@ -517,8 +586,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=backIcon
@@ -571,10 +643,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -584,6 +661,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MediaPlayer) _r2_o)._fbackIcon = (global::com.codename1.ui.Image) _r4_o;
     _r0_o = _r1_o;
     label14:;
@@ -594,6 +672,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label29;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MediaPlayer) _r2_o)._ffwdIcon = (global::com.codename1.ui.Image) _r4_o;
     _r0_o = _r1_o;
     goto label14;
@@ -603,6 +682,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label43;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MediaPlayer) _r2_o)._fplayIcon = (global::com.codename1.ui.Image) _r4_o;
     _r0_o = _r1_o;
     goto label14;
@@ -612,6 +692,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label57;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MediaPlayer) _r2_o)._fpauseIcon = (global::com.codename1.ui.Image) _r4_o;
     _r0_o = _r1_o;
     goto label14;
@@ -621,6 +702,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label72;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MediaPlayer) _r2_o).setDataSource((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label14;
@@ -632,8 +714,11 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public virtual global::System.Object getPlayIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.ui.Image getPlayIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fplayIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -642,8 +727,11 @@ public virtual global::System.Object getPlayIcon(){
 
 public virtual global::System.Object getPauseIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.ui.Image getPauseIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fpauseIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -652,8 +740,11 @@ public virtual global::System.Object getPauseIcon(){
 
 public virtual global::System.Object getBackIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.ui.Image getBackIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fbackIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -662,8 +753,11 @@ public virtual global::System.Object getBackIcon(){
 
 public virtual global::System.Object getFwdIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.ui.Image getFwdIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._ffwdIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -673,7 +767,10 @@ public virtual global::System.Object getFwdIcon(){
 public virtual bool isAutoplay(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: boolean isAutoplay()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.MediaPlayer) _r1_o)._fautoplay ? 1 : 0;
     return _r0.i!=0;
@@ -682,8 +779,11 @@ public virtual bool isAutoplay(){
 
 public virtual void setAutoplay(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setAutoplay(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.MediaPlayer) _r0_o)._fautoplay = 0!=_r1.i;
@@ -694,7 +794,10 @@ public virtual void setAutoplay(bool n1){
 public virtual bool isLoop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: boolean isLoop()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.MediaPlayer) _r1_o)._floop ? 1 : 0;
     return _r0.i!=0;
@@ -703,8 +806,11 @@ public virtual bool isLoop(){
 
 public virtual void setLoop(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: void setLoop(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.MediaPlayer) _r0_o)._floop = 0!=_r1.i;
@@ -714,8 +820,11 @@ public virtual void setLoop(bool n1){
 
 public static global::System.Object access_2000(global::com.codename1.components.MediaPlayer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: com.codename1.media.Media access$000(com.codename1.components.MediaPlayer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fvideo;
     return (global::com.codename1.media.Media) _r0_o;
@@ -724,8 +833,11 @@ public static global::System.Object access_2000(global::com.codename1.components
 
 public static global::System.Object access_2100(global::com.codename1.components.MediaPlayer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: java.lang.Runnable access$100(com.codename1.components.MediaPlayer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fonCompletion;
     return (global::java.lang.Runnable) _r0_o;
@@ -734,8 +846,11 @@ public static global::System.Object access_2100(global::com.codename1.components
 
 public static global::System.Object access_2200(global::com.codename1.components.MediaPlayer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MediaPlayer: java.lang.String access$200(com.codename1.components.MediaPlayer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.MediaPlayer) _r1_o)._fdataSource;
     return (global::java.lang.String) _r0_o;

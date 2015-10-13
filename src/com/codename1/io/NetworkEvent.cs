@@ -26,9 +26,14 @@ private global::java.lang.String _fmessage;
 public void @this(global::com.codename1.io.ConnectionRequest n1, global::java.lang.Exception n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void <init>(com.codename1.io.ConnectionRequest, java.lang.Exception)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -43,10 +48,16 @@ public void @this(global::com.codename1.io.ConnectionRequest n1, global::java.la
 public void @this(global::com.codename1.io.ConnectionRequest n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void <init>(com.codename1.io.ConnectionRequest, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -63,9 +74,14 @@ public void @this(global::com.codename1.io.ConnectionRequest n1, int n2, global:
 public void @this(global::com.codename1.io.ConnectionRequest n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void <init>(com.codename1.io.ConnectionRequest, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -80,9 +96,14 @@ public void @this(global::com.codename1.io.ConnectionRequest n1, int n2){
 public void @this(global::com.codename1.io.ConnectionRequest n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void <init>(com.codename1.io.ConnectionRequest, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -100,17 +121,23 @@ public void @this(global::com.codename1.io.ConnectionRequest n1, global::java.la
 
 public virtual global::System.Object getConnectionRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: com.codename1.io.ConnectionRequest getConnectionRequest()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r0_o = ((global::com.codename1.io.NetworkEvent) _r0_o).getSource();
+    _r0_o = _r0_o;
     return (global::com.codename1.io.ConnectionRequest) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.NetworkEvent: com.codename1.io.ConnectionRequest getConnectionRequest()]
 }
 
 public virtual global::System.Object getError(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: java.lang.Exception getError()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkEvent) _r1_o)._ferror;
     return (global::java.lang.Exception) _r0_o;
@@ -119,8 +146,11 @@ public virtual global::System.Object getError(){
 
 public virtual void setError(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void setError(java.lang.Exception)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.NetworkEvent) _r0_o)._ferror = (global::java.lang.Exception) _r1_o;
@@ -131,7 +161,10 @@ public virtual void setError(global::java.lang.Exception n1){
 public virtual int getProgressType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: int getProgressType()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.NetworkEvent) _r1_o)._fprogressType;
     return _r0.i;
@@ -141,7 +174,10 @@ public virtual int getProgressType(){
 public virtual int getResponseCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: int getResponseCode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.NetworkEvent) _r1_o)._fprogressType;
     return _r0.i;
@@ -151,7 +187,10 @@ public virtual int getResponseCode(){
 public virtual int getLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: int getLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.NetworkEvent) _r1_o)._flength;
     return _r0.i;
@@ -161,7 +200,10 @@ public virtual int getLength(){
 public virtual int getSentReceived(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: int getSentReceived()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.NetworkEvent) _r1_o)._freceived;
     return _r0.i;
@@ -171,8 +213,12 @@ public virtual int getSentReceived(){
 public virtual int getProgressPercentage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: int getProgressPercentage()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.io.NetworkEvent) _r2_o)._flength;
     if (_r0.i <= 0) goto label16;
@@ -194,8 +240,11 @@ public virtual int getProgressPercentage(){
 
 public virtual void setLength(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void setLength(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.NetworkEvent) _r0_o)._flength = _r1.i;
@@ -205,8 +254,11 @@ public virtual void setLength(int n1){
 
 public virtual void setSentReceived(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: void setSentReceived(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.NetworkEvent) _r0_o)._freceived = _r1.i;
@@ -216,8 +268,11 @@ public virtual void setSentReceived(int n1){
 
 public virtual global::System.Object getMetaData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: java.lang.Object getMetaData()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkEvent) _r1_o)._fmetaData;
     return (global::java.lang.Object) _r0_o;
@@ -226,8 +281,11 @@ public virtual global::System.Object getMetaData(){
 
 public virtual global::System.Object getMessage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.NetworkEvent: java.lang.String getMessage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.NetworkEvent) _r1_o)._fmessage;
     return (global::java.lang.String) _r0_o;

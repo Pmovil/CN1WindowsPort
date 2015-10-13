@@ -21,9 +21,13 @@ private int _fminimumLength;
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
@@ -37,11 +41,17 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>(com.codename1.ui.list.ListModel)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -75,14 +85,19 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>(com.codename1.ui.list.ListModel)]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
     _r1.i = 1;
@@ -100,9 +115,13 @@ new public void @this(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initComponent();
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r2_o).getComponentForm();
@@ -118,9 +137,13 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.deinitialize();
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r2_o).getComponentForm();
@@ -136,8 +159,11 @@ public override void deinitialize(){
 
 public virtual void setParentText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setParentText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.setText((global::java.lang.String) _r1_o);
@@ -147,11 +173,15 @@ public virtual void setParentText(global::java.lang.String n1){
 
 public override void setText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     base.setText((global::java.lang.String) _r3_o);
@@ -177,14 +207,21 @@ public override void setText(global::java.lang.String n1){
 
 public virtual void updateFilterList(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void updateFilterList()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;
@@ -223,8 +260,11 @@ public virtual bool filter(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: boolean filter(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._ffilter;
@@ -242,14 +282,21 @@ public virtual bool filter(global::java.lang.String n1){
 
 private bool filterImpl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: boolean filterImpl(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r1.i = ((global::com.codename1.ui.AutoCompleteTextField) _r5_o).filter((global::java.lang.String) _r6_o) ? 1 : 0;
@@ -288,8 +335,11 @@ private bool filterImpl(global::java.lang.String n1){
 
 public virtual global::System.Object getSuggestionModel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: com.codename1.ui.list.ListModel getSuggestionModel()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._ffilter;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -298,8 +348,11 @@ public virtual global::System.Object getSuggestionModel(){
 
 public virtual void setCompletionRenderer(global::com.codename1.ui.list.ListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setCompletionRenderer(com.codename1.ui.list.ListCellRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.AutoCompleteTextField) _r0_o)._fcompletionRenderer = (global::com.codename1.ui.list.ListCellRenderer) _r1_o;
@@ -310,11 +363,16 @@ public virtual void setCompletionRenderer(global::com.codename1.ui.list.ListCell
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void keyPressed(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o)._fpopup;
@@ -349,11 +407,16 @@ public override void keyPressed(int n1){
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o)._fpopup;
@@ -387,10 +450,15 @@ public override void keyReleased(int n1){
 
 private void removePopup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void removePopup()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o).getComponentForm();
     if (_r0_o == null) goto label24;
@@ -408,9 +476,13 @@ private void removePopup(){
 
 public virtual void addListListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void addListListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._flisteners;
@@ -421,9 +493,13 @@ public virtual void addListListener(global::com.codename1.ui.events.ActionListen
 
 public virtual void removeListListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void removeListListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._flisteners;
@@ -434,22 +510,35 @@ public virtual void removeListListener(global::com.codename1.ui.events.ActionLis
 
 private void addPopup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void addPopup()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r12.i = 1;
     _r11.i = 0;
@@ -462,32 +551,34 @@ private void addPopup(){
     ((global::com.codename1.ui.Container) _r9_o).setEnabled(0!=_r11.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getText();
     ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).filter((global::java.lang.String) _r9_o);
-    _r3_o = new global::com.codename1.ui.List();
+    _r2_o = new global::com.codename1.ui.List();
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getSuggestionModel();
-    ((global::com.codename1.ui.List) _r3_o).@this((global::com.codename1.ui.list.ListModel) _r9_o);
-    ((global::com.codename1.ui.List) _r3_o).setScrollToSelected(0!=_r11.i);
-    ((global::com.codename1.ui.List) _r3_o).setItemGap((int) _r11.i);
+    ((global::com.codename1.ui.List) _r2_o).@this((global::com.codename1.ui.list.ListModel) _r9_o);
+    ((global::com.codename1.ui.List) _r2_o).setScrollToSelected(0!=_r11.i);
+    ((global::com.codename1.ui.List) _r2_o).setItemGap((int) _r11.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._flisteners;
-    _r2_o = ((global::java.util.ArrayList) _r9_o).iterator();
+    _r9_o = ((global::java.util.ArrayList) _r9_o).iterator();
     label49:;
-    _r9.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
-    if (_r9.i == 0) goto label65;
-    _r0_o = ((global::java.util.Iterator) _r2_o).next();
-    ((global::com.codename1.ui.List) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r0_o);
+    _r10.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
+    if (_r10.i == 0) goto label65;
+    _r0_o = ((global::java.util.Iterator) _r9_o).next();
+    _r0_o = _r0_o;
+    ((global::com.codename1.ui.List) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r0_o);
     goto label49;
     label65:;
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fcompletionRenderer;
-    if (_r9_o != null) goto label305;
-    _r9_o = ((global::com.codename1.ui.List) _r3_o).getRenderer();
+    if (_r9_o != null) goto label330;
+    _r9_o = ((global::com.codename1.ui.List) _r2_o).getRenderer();
+    _r9_o = _r9_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r9_o).setShowNumbers(0!=_r11.i);
     label78:;
     // Value=AutoCompleteList
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.List) _r3_o).setUIID((global::java.lang.String) _r9_o);
+    ((global::com.codename1.ui.List) _r2_o).setUIID((global::java.lang.String) _r9_o);
     _r9_o = new global::com.codename1.ui.AutoCompleteTextField_24();
-    ((global::com.codename1.ui.AutoCompleteTextField_24) _r9_o).@this((global::com.codename1.ui.AutoCompleteTextField) _r13_o, (global::com.codename1.ui.List) _r3_o, (global::com.codename1.ui.Form) _r1_o);
-    ((global::com.codename1.ui.List) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r9_o);
+    ((global::com.codename1.ui.AutoCompleteTextField_24) _r9_o).@this((global::com.codename1.ui.AutoCompleteTextField) _r13_o, (global::com.codename1.ui.List) _r2_o, (global::com.codename1.ui.Form) _r1_o);
+    ((global::com.codename1.ui.List) _r2_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r9_o);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     _r9_o = ((global::com.codename1.ui.Container) _r9_o).getStyle();
     _r7_o = ((global::com.codename1.ui.plaf.Style) _r9_o).getMarginUnit();
@@ -509,16 +600,15 @@ private void addPopup(){
     _r10.i = global::java.lang.Math.max((int) _r11.i, (int) _r10.i);
     ((global::com.codename1.ui.plaf.Style) _r9_o).setMargin((int) _r12.i, (int) _r10.i);
     _r8.i = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getAbsoluteY();
-    _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._ffilter;
-    _r9_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r9_o).getUnderlying();
+    _r9_o = ((global::com.codename1.ui.List) _r2_o).getModel();
     _r9.i = ((global::com.codename1.ui.list.ListModel) _r9_o).getSize();
-    _r10_o = ((global::com.codename1.ui.List) _r3_o).getElementSize(0!=_r11.i, 0!=_r12.i);
+    _r10_o = ((global::com.codename1.ui.List) _r2_o).getElementSize(0!=_r11.i, 0!=_r12.i);
     _r10.i = ((global::com.codename1.ui.geom.Dimension) _r10_o).getHeight();
-    _r4.i = _r9.i * _r10.i;
+    _r3.i = _r9.i * _r10.i;
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r9.i / 2;
-    if (_r8.i >= _r9.i) goto label312;
+    if (_r8.i >= _r9.i) goto label337;
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getTitleArea();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r8.i - _r9.i;
@@ -527,8 +617,21 @@ private void addPopup(){
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r9.i / 2;
-    _r5.i = global::java.lang.Math.min((int) _r4.i, (int) _r9.i);
-    label216:;
+    _r4.i = global::java.lang.Math.min((int) _r3.i, (int) _r9.i);
+    label214:;
+    _r9_o = ((global::com.codename1.ui.Form) _r1_o).getToolbar();
+    if (_r9_o == null) goto label241;
+    _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getUIManager();
+    // Value=StatusBar
+    _r10_o = new global::java.lang.String();
+    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
+    _r5_o = ((global::com.codename1.ui.plaf.UIManager) _r9_o).getComponentStyle((global::java.lang.String) _r10_o);
+    _r9.i = ((global::com.codename1.ui.plaf.Style) _r5_o).getPadding((int) _r11.i);
+    _r10.i = 2;
+    _r10.i = ((global::com.codename1.ui.plaf.Style) _r5_o).getPadding((int) _r10.i);
+    _r9.i = _r9.i + _r10.i;
+    _r6.i = _r6.i + _r9.i;
+    label241:;
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     _r9_o = ((global::com.codename1.ui.Container) _r9_o).getUnselectedStyle();
     _r10.i = global::java.lang.Math.max((int) _r11.i, (int) _r6.i);
@@ -538,56 +641,59 @@ private void addPopup(){
     _r10.i = global::java.lang.Math.max((int) _r11.i, (int) _r6.i);
     ((global::com.codename1.ui.plaf.Style) _r9_o).setMargin((int) _r11.i, (int) _r10.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
-    ((global::com.codename1.ui.Container) _r9_o).setPreferredH((int) _r5.i);
+    ((global::com.codename1.ui.Container) _r9_o).setPreferredH((int) _r4.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     _r10.i = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getWidth();
     ((global::com.codename1.ui.Container) _r9_o).setPreferredW((int) _r10.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
-    ((global::com.codename1.ui.Container) _r9_o).setHeight((int) _r5.i);
+    ((global::com.codename1.ui.Container) _r9_o).setHeight((int) _r4.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     _r10.i = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o).getWidth();
     ((global::com.codename1.ui.Container) _r9_o).setWidth((int) _r10.i);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
-    ((global::com.codename1.ui.Container) _r9_o).addComponent((global::com.codename1.ui.Component) _r3_o);
+    ((global::com.codename1.ui.Container) _r9_o).addComponent((global::com.codename1.ui.Component) _r2_o);
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     ((global::com.codename1.ui.Container) _r9_o).layoutContainer();
     ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fdontCalcSize = 0!=_r12.i;
-    if (_r1_o == null) goto label304;
+    if (_r1_o == null) goto label329;
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     _r9_o = ((global::com.codename1.ui.Container) _r9_o).getParent();
-    if (_r9_o != null) goto label301;
+    if (_r9_o != null) goto label326;
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getLayeredPane();
     _r10_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fpopup;
     ((global::com.codename1.ui.Container) _r9_o).addComponent((global::com.codename1.ui.Component) _r10_o);
-    label301:;
+    label326:;
     ((global::com.codename1.ui.Form) _r1_o).revalidate();
-    label304:;
+    label329:;
     return;
-    label305:;
+    label330:;
     _r9_o = ((global::com.codename1.ui.AutoCompleteTextField) _r13_o)._fcompletionRenderer;
-    ((global::com.codename1.ui.List) _r3_o).setRenderer((global::com.codename1.ui.list.ListCellRenderer) _r9_o);
+    ((global::com.codename1.ui.List) _r2_o).setRenderer((global::com.codename1.ui.list.ListCellRenderer) _r9_o);
     goto label78;
-    label312:;
+    label337:;
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getContentPane();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r9.i / 2;
-    _r5.i = global::java.lang.Math.min((int) _r4.i, (int) _r9.i);
+    _r4.i = global::java.lang.Math.min((int) _r3.i, (int) _r9.i);
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getTitleArea();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r8.i - _r9.i;
-    _r5.i = global::java.lang.Math.min((int) _r5.i, (int) _r9.i);
+    _r4.i = global::java.lang.Math.min((int) _r4.i, (int) _r9.i);
     _r9_o = ((global::com.codename1.ui.Form) _r1_o).getTitleArea();
     _r9.i = ((global::com.codename1.ui.Container) _r9_o).getHeight();
     _r9.i = _r8.i - _r9.i;
-    _r6.i = _r9.i - _r5.i;
-    goto label216;
+    _r6.i = _r9.i - _r4.i;
+    goto label214;
 //XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: void addPopup()]
 }
 
 public virtual int getMinimumLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: int getMinimumLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._fminimumLength;
     return _r0.i;
@@ -596,8 +702,11 @@ public virtual int getMinimumLength(){
 
 public virtual void setMinimumLength(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setMinimumLength(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.AutoCompleteTextField) _r0_o)._fminimumLength = _r1.i;
@@ -610,8 +719,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -629,8 +742,12 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -646,8 +763,12 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -663,50 +784,95 @@ public override global::System.Object getPropertyTypeNames(){
 public override global::System.Object getPropertyValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    global::System.Object _r4_o = null;
-    _r3_o = this;
-    _r4_o = n1;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
     // Value=completion
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
-    _r2.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
-    if (_r2.i == 0) goto label43;
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
+    _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
+    if (_r0.i == 0) goto label13;
+    _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o).getCompletion();
+    label12:;
+    return (global::java.lang.Object) _r0_o;
+    label13:;
+    _r0_o = null;
+    goto label12;
+//XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.Object getPropertyValue(java.lang.String)]
+}
+
+public virtual void setCompletion(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setCompletion(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.list.FilterProxyListModel();
+    _r1_o = new global::com.codename1.ui.list.DefaultListModel();
+    ((global::com.codename1.ui.list.DefaultListModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    ((global::com.codename1.ui.list.FilterProxyListModel) _r0_o).@this((global::com.codename1.ui.list.ListModel) _r1_o);
+    ((global::com.codename1.ui.AutoCompleteTextField) _r2_o)._ffilter = (global::com.codename1.ui.list.FilterProxyListModel) _r0_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setCompletion(java.lang.String[])]
+}
+
+public virtual global::System.Object getCompletion(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.String[] getCompletion()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
     _r2_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o)._ffilter;
     _r2_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o).getUnderlying();
     _r2.i = ((global::com.codename1.ui.list.ListModel) _r2_o).getSize();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
     _r0.i = 0;
-    label21:;
+    label13:;
     _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r0.i >= _r2.i) goto label41;
+    if (_r0.i >= _r2.i) goto label33;
     _r2_o = ((global::com.codename1.ui.AutoCompleteTextField) _r3_o)._ffilter;
     _r2_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o).getUnderlying();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r2_o).getItemAt((int) _r0.i);
+    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
-    goto label21;
-    label41:;
-    _r2_o = _r1_o;
-    label42:;
-    return (global::java.lang.Object) _r2_o;
-    label43:;
-    _r2_o = null;
-    goto label42;
-//XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.Object getPropertyValue(java.lang.String)]
+    goto label13;
+    label33:;
+    return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.String[] getCompletion()]
 }
 
 public override global::System.Object setPropertyValue(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -717,6 +883,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     if (_r0.i == 0) goto label26;
     _r0_o = new global::com.codename1.ui.list.FilterProxyListModel();
     _r1_o = new global::com.codename1.ui.list.DefaultListModel();
+    _r4_o = _r4_o;
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.ui.list.FilterProxyListModel) _r0_o).@this((global::com.codename1.ui.list.ListModel) _r1_o);
     ((global::com.codename1.ui.AutoCompleteTextField) _r2_o)._ffilter = (global::com.codename1.ui.list.FilterProxyListModel) _r0_o;
@@ -733,7 +901,9 @@ public virtual bool isStartsWithMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: boolean isStartsWithMode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._ffilter;
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r0_o).isStartsWithMode() ? 1 : 0;
@@ -743,9 +913,13 @@ public virtual bool isStartsWithMode(){
 
 public virtual void setStartsWithMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void setStartsWithMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._ffilter;
@@ -757,7 +931,10 @@ public virtual void setStartsWithMode(bool n1){
 public static bool access_2000(global::com.codename1.ui.AutoCompleteTextField n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: boolean access$000(com.codename1.ui.AutoCompleteTextField)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._fdontCalcSize ? 1 : 0;
     return _r0.i!=0;
@@ -766,7 +943,9 @@ public static bool access_2000(global::com.codename1.ui.AutoCompleteTextField n1
 
 public static void access_2100(global::com.codename1.ui.AutoCompleteTextField n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void access$100(com.codename1.ui.AutoCompleteTextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.ui.AutoCompleteTextField) _r0_o).addPopup();
     return;
@@ -775,7 +954,9 @@ public static void access_2100(global::com.codename1.ui.AutoCompleteTextField n1
 
 public static void access_2200(global::com.codename1.ui.AutoCompleteTextField n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: void access$200(com.codename1.ui.AutoCompleteTextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.ui.AutoCompleteTextField) _r0_o).removePopup();
     return;
@@ -784,8 +965,11 @@ public static void access_2200(global::com.codename1.ui.AutoCompleteTextField n1
 
 public static global::System.Object access_2302(global::com.codename1.ui.AutoCompleteTextField n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.String access$302(com.codename1.ui.AutoCompleteTextField, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.AutoCompleteTextField) _r0_o)._fpickedText = (global::java.lang.String) _r1_o;
@@ -795,8 +979,11 @@ public static global::System.Object access_2302(global::com.codename1.ui.AutoCom
 
 public static global::System.Object access_2300(global::com.codename1.ui.AutoCompleteTextField n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: java.lang.String access$300(com.codename1.ui.AutoCompleteTextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._fpickedText;
     return (global::java.lang.String) _r0_o;
@@ -805,8 +992,11 @@ public static global::System.Object access_2300(global::com.codename1.ui.AutoCom
 
 public static global::System.Object access_2400(global::com.codename1.ui.AutoCompleteTextField n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.AutoCompleteTextField: com.codename1.ui.Container access$400(com.codename1.ui.AutoCompleteTextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.AutoCompleteTextField) _r1_o)._fpopup;
     return (global::com.codename1.ui.Container) _r0_o;

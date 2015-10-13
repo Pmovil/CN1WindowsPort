@@ -11,10 +11,13 @@ private int _fmCenterX;
 
 private int _fmCenterY;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -26,10 +29,15 @@ new public void @this(){
 
 public virtual void setDimensions(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: void setDimensions(int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -45,8 +53,11 @@ public virtual bool areAllSegmentPresent(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: boolean areAllSegmentPresent(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.views.PieMapper) _r1_o)._fmPieSegmentList;
@@ -63,13 +74,21 @@ public virtual bool areAllSegmentPresent(int n1){
 
 public virtual void addPieSegment(int n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: void addPieSegment(int, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.f = n2;
@@ -85,8 +104,11 @@ public virtual void addPieSegment(int n1, float n2, float n3, float n4){
 
 public virtual void clearPieSegments(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: void clearPieSegments()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.views.PieMapper) _r1_o)._fmPieSegmentList;
     ((global::java.util.List) _r0_o).clear();
@@ -97,12 +119,26 @@ public virtual void clearPieSegments(){
 public virtual double getAngle(global::com.codename1.charts.models.Point n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: double getAngle(com.codename1.charts.models.Point)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r6.f = ((global::com.codename1.charts.models.Point) _r9_o).getX();
@@ -134,15 +170,32 @@ public virtual double getAngle(global::com.codename1.charts.models.Point n1){
 public virtual bool isOnPieChart(global::com.codename1.charts.models.Point n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: boolean isOnPieChart(com.codename1.charts.models.Point)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r9.d = 2.0D;
@@ -181,33 +234,48 @@ public virtual global::System.Object getSeriesAndPointForScreenCoordinate(global
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
-    global::System.Object _r12_o = null;
-    _r11_o = this;
-    _r12_o = n1;
-    _r0.i = ((global::com.codename1.charts.views.PieMapper) _r11_o).isOnPieChart((global::com.codename1.charts.models.Point) _r12_o) ? 1 : 0;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r10_o = this;
+    _r11_o = n1;
+    _r0.i = ((global::com.codename1.charts.views.PieMapper) _r10_o).isOnPieChart((global::com.codename1.charts.models.Point) _r11_o) ? 1 : 0;
     if (_r0.i == 0) goto label55;
-    _r7.d = ((global::com.codename1.charts.views.PieMapper) _r11_o).getAngle((global::com.codename1.charts.models.Point) _r12_o);
-    _r0_o = ((global::com.codename1.charts.views.PieMapper) _r11_o)._fmPieSegmentList;
-    _r9_o = ((global::java.util.List) _r0_o).iterator();
+    _r7.d = ((global::com.codename1.charts.views.PieMapper) _r10_o).getAngle((global::com.codename1.charts.models.Point) _r11_o);
+    _r0_o = ((global::com.codename1.charts.views.PieMapper) _r10_o)._fmPieSegmentList;
+    _r0_o = ((global::java.util.List) _r0_o).iterator();
     label16:;
-    _r0.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
-    if (_r0.i == 0) goto label55;
-    _r10_o = ((global::java.util.Iterator) _r9_o).next();
-    _r0.i = ((global::com.codename1.charts.views.PieSegment) _r10_o).isInSegment((double) _r7.d) ? 1 : 0;
-    if (_r0.i == 0) goto label16;
+    _r1.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
+    if (_r1.i == 0) goto label55;
+    _r9_o = ((global::java.util.Iterator) _r0_o).next();
+    _r9_o = _r9_o;
+    _r1.i = ((global::com.codename1.charts.views.PieSegment) _r9_o).isInSegment((double) _r7.d) ? 1 : 0;
+    if (_r1.i == 0) goto label16;
     _r0_o = new global::com.codename1.charts.models.SeriesSelection();
     _r1.i = 0;
-    _r2.i = ((global::com.codename1.charts.views.PieSegment) _r10_o).getDataIndex();
-    _r3.f = ((global::com.codename1.charts.views.PieSegment) _r10_o).getValue();
+    _r2.i = ((global::com.codename1.charts.views.PieSegment) _r9_o).getDataIndex();
+    _r3.f = ((global::com.codename1.charts.views.PieSegment) _r9_o).getValue();
     _r3.d = (double) _r3.f;
-    _r5.f = ((global::com.codename1.charts.views.PieSegment) _r10_o).getValue();
+    _r5.f = ((global::com.codename1.charts.views.PieSegment) _r9_o).getValue();
     _r5.d = (double) _r5.f;
     ((global::com.codename1.charts.models.SeriesSelection) _r0_o).@this((int) _r1.i, (int) _r2.i, (double) _r3.d, (double) _r5.d);
     label54:;
@@ -223,9 +291,14 @@ private global::System.Object getSegmentShape(global::com.codename1.charts.views
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = ((global::com.codename1.charts.views.PieMapper) _r3_o)._fmCenterX;
@@ -241,37 +314,48 @@ private global::System.Object getSegmentShape(global::com.codename1.charts.views
 
 private global::System.Object getSegment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: com.codename1.charts.views.PieSegment getSegment(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
-    _r2_o = ((global::com.codename1.charts.views.PieMapper) _r3_o)._fmPieSegmentList;
-    _r0_o = ((global::java.util.List) _r2_o).iterator();
+    _r1_o = ((global::com.codename1.charts.views.PieMapper) _r3_o)._fmPieSegmentList;
+    _r1_o = ((global::java.util.List) _r1_o).iterator();
     label6:;
-    _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
+    _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label26;
-    _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2.i = ((global::com.codename1.charts.views.PieSegment) _r1_o).getDataIndex();
+    _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r0_o = _r0_o;
+    _r2.i = ((global::com.codename1.charts.views.PieSegment) _r0_o).getDataIndex();
     if (_r4.i != _r2.i) goto label6;
-    _r2_o = _r1_o;
+    _r1_o = _r0_o;
     label25:;
-    return (global::com.codename1.charts.views.PieSegment) _r2_o;
+    return (global::com.codename1.charts.views.PieSegment) _r1_o;
     label26:;
-    _r2_o = null;
+    _r1_o = null;
     goto label25;
 //XMLVM_END_WRAPPER[com.codename1.charts.views.PieMapper: com.codename1.charts.views.PieSegment getSegment(int)]
 }
 
 public virtual global::System.Object getSegmentShape(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.PieMapper: com.codename1.ui.geom.Shape getSegmentShape(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.views.PieMapper) _r2_o).getSegment((int) _r3.i);

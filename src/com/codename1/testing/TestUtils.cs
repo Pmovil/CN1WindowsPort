@@ -5,9 +5,11 @@ namespace com.codename1.testing {
 public class TestUtils: global::java.lang.Object {
 private static bool _fverbose;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,6 +19,8 @@ new private void @this(){
 public static void setVerboseMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void setVerboseMode(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.testing.TestUtils._fverbose = 0!=_r0.i;
     return;
@@ -27,8 +31,10 @@ public static void waitFor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void waitFor(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -80,11 +86,15 @@ public static void waitFor(int n1){
 
 public static global::System.Object findByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.Component findByName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r1.i == 0) goto label32;
@@ -121,9 +131,13 @@ public static global::System.Object findByName(global::java.lang.String n1){
 
 public static void selectInList(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void selectInList(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r1_o);
@@ -136,10 +150,15 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void selectListOffset(com.codename1.ui.Component, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.i = n2;
     _r2.i = 0;
@@ -152,6 +171,7 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
     global::com.codename1.testing.TestUtils.assertBool(0!=_r0.i, (global::java.lang.String) _r1_o);
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r0.i == 0) goto label21;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.List) _r3_o).setSelectedIndex((int) _r4.i);
     label18:;
     return;
@@ -161,11 +181,13 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
     label21:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.list.ContainerList)) ? 1 : 0;
     if (_r0.i == 0) goto label31;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.list.ContainerList) _r3_o).setSelectedIndex((int) _r4.i);
     goto label18;
     label31:;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.spinner.GenericSpinner)) ? 1 : 0;
     if (_r0.i == 0) goto label45;
+    _r3_o = _r3_o;
     _r0_o = ((global::com.codename1.ui.spinner.GenericSpinner) _r3_o).getModel();
     ((global::com.codename1.ui.list.ListModel) _r0_o).setSelectedIndex((int) _r4.i);
     goto label18;
@@ -186,9 +208,13 @@ private static void selectListOffset(global::com.codename1.ui.Component n1, int 
 
 public static void selectInList(global::org.xmlvm._nArrayAdapter<int> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void selectInList(int[], int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r1_o);
@@ -199,15 +225,23 @@ public static void selectInList(global::org.xmlvm._nArrayAdapter<int> n1, int n2
 
 private static global::System.Object findByName(global::com.codename1.ui.Container n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.Component findByName(com.codename1.ui.Container, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r4.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -246,6 +280,7 @@ private static global::System.Object findByName(global::com.codename1.ui.Contain
     label67:;
     _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r4.i == 0) goto label81;
+    _r0_o = _r0_o;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::com.codename1.ui.Container) _r0_o, (global::java.lang.String) _r7_o);
     if (_r0_o == null) goto label81;
     _r4_o = _r0_o;
@@ -263,8 +298,11 @@ public static global::System.Object findLabelText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.Label findLabelText(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -291,17 +329,27 @@ public static global::System.Object findLabelText(global::java.lang.String n1){
 
 private static global::System.Object findLabelText(global::com.codename1.ui.Container n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.Label findLabelText(com.codename1.ui.Container, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r6.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -333,17 +381,20 @@ private static global::System.Object findLabelText(global::com.codename1.ui.Cont
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r6.i == 0) goto label77;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.Label) _r6_o).getText();
     if (_r5_o == null) goto label91;
     _r6.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r9_o) ? 1 : 0;
     if (_r6.i == 0) goto label91;
+    _r1_o = _r1_o;
     _r6_o = _r1_o;
     label76:;
     return (global::com.codename1.ui.Label) _r6_o;
     label77:;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label91;
+    _r1_o = _r1_o;
     _r4_o = global::com.codename1.testing.TestUtils.findLabelText((global::com.codename1.ui.Container) _r1_o, (global::java.lang.String) _r9_o);
     if (_r4_o == null) goto label91;
     _r6_o = _r4_o;
@@ -359,12 +410,17 @@ private static global::System.Object findLabelText(global::com.codename1.ui.Cont
 
 public static void clickButtonByLabel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void clickButtonByLabel(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r3.i = 20;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -384,6 +440,7 @@ public static void clickButtonByLabel(global::java.lang.String n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label34:;
     _r0_o = global::com.codename1.testing.TestUtils.findLabelText((global::java.lang.String) _r4_o);
+    _r0_o = _r0_o;
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
@@ -395,12 +452,17 @@ public static void clickButtonByLabel(global::java.lang.String n1){
 
 public static void clickButtonByName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void clickButtonByName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r3.i = 20;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -420,6 +482,7 @@ public static void clickButtonByName(global::java.lang.String n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label34:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
+    _r0_o = _r0_o;
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
@@ -432,12 +495,16 @@ public static void clickButtonByName(global::java.lang.String n1){
 private static global::System.Object toString(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String toString(int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     if (_r4_o != null) goto label5;
     // Value=null
@@ -494,12 +561,17 @@ private static global::System.Object toString(global::org.xmlvm._nArrayAdapter<i
 
 public static void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void clickButtonByPath(int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r3.i = 10;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -520,6 +592,7 @@ public static void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label38:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r4_o);
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     global::com.codename1.testing.TestUtils.waitFor((int) _r3.i);
     ((global::com.codename1.ui.Button) _r0_o).released();
@@ -530,12 +603,17 @@ public static void clickButtonByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 
 public static void goBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void goBack()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r2.i == 0) goto label9;
     // Value=goBack()
@@ -573,14 +651,21 @@ public static void goBack(){
 
 public static void clickMenuItem(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void clickMenuItem(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r3.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r3.i == 0) goto label32;
@@ -632,11 +717,15 @@ public static void clickMenuItem(global::java.lang.String n1){
 
 public static void ensureVisible(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void ensureVisible(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r1.i == 0) goto label32;
@@ -665,8 +754,11 @@ public static void ensureVisible(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void ensureVisible(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -694,8 +786,11 @@ public static void ensureVisible(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void ensureVisible(int[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label36;
@@ -724,8 +819,11 @@ public static void waitForFormTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void waitForFormTitle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -764,6 +862,9 @@ private static void waitForFormTitleImpl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void waitForFormTitleImpl(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -800,8 +901,11 @@ public static void waitForFormName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void waitForFormName(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -839,11 +943,18 @@ public static void waitForFormName(global::java.lang.String n1){
 private static void waitForFormNameImpl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void waitForFormNameImpl(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
@@ -903,12 +1014,19 @@ private static void waitForFormNameImpl(global::java.lang.String n1){
 
 public static bool screenshotTest(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: boolean screenshotTest(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
@@ -917,7 +1035,10 @@ public static bool screenshotTest(global::java.lang.String n1){
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = n1;
@@ -1132,8 +1253,11 @@ public static bool screenshotTest(global::java.lang.String n1){
 
 public static void log(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void log(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.testing.TestReporting.getInstance();
     ((global::com.codename1.testing.TestReporting) _r0_o).logMessage((global::java.lang.String) _r1_o);
@@ -1143,8 +1267,11 @@ public static void log(global::java.lang.String n1){
 
 public static void log(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void log(java.lang.Throwable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.testing.TestReporting.getInstance();
     ((global::com.codename1.testing.TestReporting) _r0_o).logException((global::java.lang.Throwable) _r1_o);
@@ -1156,8 +1283,11 @@ public static void keyPress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void keyPress(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1188,8 +1318,11 @@ public static void keyRelease(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void keyRelease(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1223,6 +1356,8 @@ public static void gameKeyPress(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1258,6 +1393,8 @@ public static void gameKeyRelease(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1289,7 +1426,10 @@ public static void gameKeyRelease(int n1){
 public static void pointerPress(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerPress(float, float, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -1297,10 +1437,15 @@ public static void pointerPress(float n1, float n2, global::java.lang.String n3)
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.f = n1;
     _r8.f = n2;
     _r9_o = n3;
@@ -1401,16 +1546,24 @@ public static void pointerPress(float n1, float n2, global::java.lang.String n3)
 public static void pointerRelease(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerRelease(float, float, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = n1;
     _r7.f = n2;
     _r8_o = n3;
@@ -1468,16 +1621,24 @@ public static void pointerRelease(float n1, float n2, global::java.lang.String n
 public static void pointerDrag(float n1, float n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerDrag(float, float, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = n1;
     _r7.f = n2;
     _r8_o = n3;
@@ -1533,16 +1694,24 @@ public static void pointerDrag(float n1, float n2, global::java.lang.String n3){
 public static void pointerPress(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerPress(float, float, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = n1;
     _r7.f = n2;
     _r8_o = n3;
@@ -1601,16 +1770,24 @@ public static void pointerPress(float n1, float n2, global::org.xmlvm._nArrayAda
 public static void pointerRelease(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerRelease(float, float, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = n1;
     _r7.f = n2;
     _r8_o = n3;
@@ -1669,16 +1846,24 @@ public static void pointerRelease(float n1, float n2, global::org.xmlvm._nArrayA
 public static void pointerDrag(float n1, float n2, global::org.xmlvm._nArrayAdapter<int> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void pointerDrag(float, float, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.f = n1;
     _r7.f = n2;
     _r8_o = n3;
@@ -1734,11 +1919,15 @@ public static void pointerDrag(float n1, float n2, global::org.xmlvm._nArrayAdap
 
 public static global::System.Object getComponentByPath(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.Component getComponentByPath(int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r2_o = global::com.codename1.ui.Display.getInstance();
     _r2_o = ((global::com.codename1.ui.Display) _r2_o).getCurrent();
@@ -1747,6 +1936,7 @@ public static global::System.Object getComponentByPath(global::org.xmlvm._nArray
     label13:;
     _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
     if (_r1.i >= _r2.i) goto label27;
+    _r0_o = _r0_o;
     _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r1.i];
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r2.i);
     _r1.i = _r1.i + 1;
@@ -1758,13 +1948,19 @@ public static global::System.Object getComponentByPath(global::org.xmlvm._nArray
 
 public static void setText(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void setText(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r2.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -1791,11 +1987,13 @@ public static void setText(global::java.lang.String n1, global::java.lang.String
     _r1_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r2.i == 0) goto label56;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Label) _r1_o).setText((global::java.lang.String) _r5_o);
     label55:;
     return;
     label56:;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r2_o).setText((global::java.lang.String) _r5_o);
     _r2_o = global::com.codename1.ui.Display.getInstance();
@@ -1806,12 +2004,17 @@ public static void setText(global::java.lang.String n1, global::java.lang.String
 
 public static void setText(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void setText(int[], java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -1839,10 +2042,12 @@ public static void setText(global::org.xmlvm._nArrayAdapter<int> n1, global::jav
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Label)) ? 1 : 0;
     if (_r1.i == 0) goto label60;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.Label) _r0_o).setText((global::java.lang.String) _r4_o);
     label59:;
     return;
     label60:;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.TextArea) _r0_o).setText((global::java.lang.String) _r4_o);
     goto label59;
 //XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void setText(int[], java.lang.String)]
@@ -1852,8 +2057,11 @@ public static void assertBool(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertBool(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1884,9 +2092,13 @@ public static void assertBool(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertBool(boolean, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -1932,6 +2144,7 @@ public static void fail(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void fail()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label9;
     // Value=fail()
@@ -1949,8 +2162,11 @@ public static void fail(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void fail(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -1978,8 +2194,11 @@ public static void assertTrue(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTrue(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -2006,9 +2225,13 @@ public static void assertTrue(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTrue(boolean, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2041,8 +2264,11 @@ public static void assertFalse(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertFalse(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -2075,9 +2301,13 @@ public static void assertFalse(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertFalse(boolean, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1 ? 1 : 0;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2116,8 +2346,11 @@ public static void assertNull(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNull(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -2150,9 +2383,13 @@ public static void assertNull(global::java.lang.Object n1, global::java.lang.Str
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNull(java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2191,8 +2428,11 @@ public static void assertNotNull(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotNull(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -2225,9 +2465,13 @@ public static void assertNotNull(global::java.lang.Object n1, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotNull(java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2266,9 +2510,13 @@ public static void assertSame(global::java.lang.Object n1, global::java.lang.Obj
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertSame(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2307,11 +2555,17 @@ public static void assertSame(global::java.lang.Object n1, global::java.lang.Obj
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertSame(java.lang.Object, java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -2359,9 +2613,13 @@ public static void assertNotSame(global::java.lang.Object n1, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotSame(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2400,11 +2658,17 @@ public static void assertNotSame(global::java.lang.Object n1, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotSame(java.lang.Object, java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -2451,14 +2715,24 @@ public static void assertNotSame(global::java.lang.Object n1, global::java.lang.
 private static void assertRelativeErrorExceeded(float n1, float n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorExceeded(float, float, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.f = n1;
     _r6.f = n2;
     _r7.d = n3;
@@ -2509,14 +2783,30 @@ private static void assertRelativeErrorExceeded(float n1, float n2, double n3){
 private static void assertRelativeErrorExceeded(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorExceeded(double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r10.d = n3;
@@ -2566,15 +2856,26 @@ private static void assertRelativeErrorExceeded(double n1, double n2, double n3)
 private static void assertRelativeErrorExceeded(float n1, float n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorExceeded(float, float, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.f = n1;
     _r6.f = n2;
     _r7.d = n3;
@@ -2631,15 +2932,32 @@ private static void assertRelativeErrorExceeded(float n1, float n2, double n3, g
 private static void assertRelativeErrorExceeded(double n1, double n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorExceeded(double, double, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r10.d = n3;
@@ -2695,14 +3013,24 @@ private static void assertRelativeErrorExceeded(double n1, double n2, double n3,
 private static void assertRelativeErrorNotExceeded(float n1, float n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorNotExceeded(float, float, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.f = n1;
     _r6.f = n2;
     _r7.d = n3;
@@ -2753,14 +3081,30 @@ private static void assertRelativeErrorNotExceeded(float n1, float n2, double n3
 private static void assertRelativeErrorNotExceeded(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorNotExceeded(double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r10.d = n3;
@@ -2810,15 +3154,26 @@ private static void assertRelativeErrorNotExceeded(double n1, double n2, double 
 private static void assertRelativeErrorNotExceeded(float n1, float n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorNotExceeded(float, float, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.f = n1;
     _r6.f = n2;
     _r7.d = n3;
@@ -2875,15 +3230,32 @@ private static void assertRelativeErrorNotExceeded(float n1, float n2, double n3
 private static void assertRelativeErrorNotExceeded(double n1, double n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertRelativeErrorNotExceeded(double, double, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r10.d = n3;
@@ -2940,9 +3312,13 @@ public static void assertEqual(sbyte n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(byte, byte)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -2981,11 +3357,17 @@ public static void assertEqual(sbyte n1, sbyte n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(byte, byte, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3033,9 +3415,13 @@ public static void assertEqual(short n1, short n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(short, short)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3074,11 +3460,17 @@ public static void assertEqual(short n1, short n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(short, short, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3126,9 +3518,13 @@ public static void assertEqual(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3167,11 +3563,17 @@ public static void assertEqual(int n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(int, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3219,9 +3621,17 @@ public static void assertEqual(long n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(long, long)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.l = n1;
     _r4.l = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3261,11 +3671,21 @@ public static void assertEqual(long n1, long n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(long, long, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.l = n1;
     _r5.l = n2;
     _r7_o = n3;
@@ -3314,10 +3734,17 @@ public static void assertEqual(float n1, float n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(float, float, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.f = n1;
     _r3.f = n2;
     _r4.d = n3;
@@ -3354,12 +3781,21 @@ public static void assertEqual(float n1, float n2, double n3, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(float, float, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.f = n1;
     _r4.f = n2;
     _r5.d = n3;
@@ -3405,10 +3841,21 @@ public static void assertEqual(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(double, double, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.d = n1;
     _r4.d = n2;
     _r6.d = n3;
@@ -3445,12 +3892,25 @@ public static void assertEqual(double n1, double n2, double n3, global::java.lan
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(double, double, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.d = n1;
     _r5.d = n2;
     _r7.d = n3;
@@ -3496,9 +3956,13 @@ public static void assertEqual(global::java.lang.Object n1, global::java.lang.Ob
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3532,11 +3996,17 @@ public static void assertEqual(global::java.lang.Object n1, global::java.lang.Ob
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertEqual(java.lang.Object, java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -3579,9 +4049,13 @@ public static void assertNotEqual(sbyte n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(byte, byte)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3620,11 +4094,17 @@ public static void assertNotEqual(sbyte n1, sbyte n2, global::java.lang.String n
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(byte, byte, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3672,9 +4152,13 @@ public static void assertNotEqual(short n1, short n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(short, short)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3713,11 +4197,17 @@ public static void assertNotEqual(short n1, short n2, global::java.lang.String n
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(short, short, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3765,9 +4255,13 @@ public static void assertNotEqual(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -3806,11 +4300,17 @@ public static void assertNotEqual(int n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(int, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
@@ -3860,10 +4360,21 @@ public static void assertNotEqual(long n1, long n2, double n3){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.l = n1;
     _r5.l = n2;
     _r7.d = n3;
@@ -3916,11 +4427,23 @@ public static void assertNotEqual(long n1, long n2, double n3, global::java.lang
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.l = n1;
     _r5.l = n2;
     _r7.d = n3;
@@ -3977,11 +4500,23 @@ public static void assertNotEqual(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(double, double, double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.d = n1;
     _r5.d = n2;
     _r7.d = n3;
@@ -4030,12 +4565,25 @@ public static void assertNotEqual(double n1, double n2, double n3, global::java.
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(double, double, double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.d = n1;
     _r5.d = n2;
     _r7.d = n3;
@@ -4090,9 +4638,13 @@ public static void assertNotEqual(global::java.lang.Object n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -4132,11 +4684,17 @@ public static void assertNotEqual(global::java.lang.Object n1, global::java.lang
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNotEqual(java.lang.Object, java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
@@ -4184,12 +4742,18 @@ public static void assertNotEqual(global::java.lang.Object n1, global::java.lang
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4230,12 +4794,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<short> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(short[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4276,12 +4846,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4322,12 +4898,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<long> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(long[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4368,12 +4950,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<float> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(float[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4414,12 +5002,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(double[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4460,12 +5054,18 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: java.lang.String arrayToString(java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r4.i = 1;
     _r1_o = new global::java.lang.StringBuilder();
@@ -4506,12 +5106,16 @@ private static global::System.Object arrayToString(global::org.xmlvm._nArrayAdap
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(byte[], byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -4560,14 +5164,20 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, 
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(byte[], byte[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -4625,12 +5235,16 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<sbyte> n1, 
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm._nArrayAdapter<short> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(short[], short[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -4679,14 +5293,20 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, 
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm._nArrayAdapter<short> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(short[], short[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -4744,12 +5364,16 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<short> n1, 
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(int[], int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -4798,14 +5422,20 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, gl
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(int[], int[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -4863,13 +5493,22 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<int> n1, gl
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, global::org.xmlvm._nArrayAdapter<long> n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(long[], long[], double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6.d = n3;
@@ -4921,15 +5560,24 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, g
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, global::org.xmlvm._nArrayAdapter<long> n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(long[], long[], double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6.d = n3;
@@ -4990,13 +5638,20 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<long> n1, g
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1, global::org.xmlvm._nArrayAdapter<float> n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(float[], float[], double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.d = n3;
@@ -5046,15 +5701,24 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1, 
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<float> n1, global::org.xmlvm._nArrayAdapter<float> n2, double n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(float[], float[], double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6.d = n3;
@@ -5117,11 +5781,24 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1,
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9.d = n3;
@@ -5177,13 +5854,27 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1,
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10.d = n3;
@@ -5244,12 +5935,16 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<double> n1,
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(java.lang.Object[], java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -5298,14 +5993,20 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::Sys
 public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(java.lang.Object[], java.lang.Object[], java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r6_o = n3;
@@ -5360,12 +6061,260 @@ public static void assertArrayEqual(global::org.xmlvm._nArrayAdapter<global::Sys
 //XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void assertArrayEqual(java.lang.Object[], java.lang.Object[], java.lang.String)]
 }
 
+public static void assertException(global::java.lang.RuntimeException n1, global::java.lang.Runnable n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertException(java.lang.RuntimeException, java.lang.Runnable)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r4_o = n2;
+    _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
+    if (_r1.i == 0) goto label42;
+    _r1_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r1_o).@this();
+    // Value=assertException(
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 40))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r3_o);
+    // Value=, 
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r4_o);
+    // Value=)
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)41))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
+    global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
+    label42:;
+    try {
+    ((global::java.lang.Runnable) _r4_o).run();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.RuntimeException) {
+            _ex = ex;
+            goto label49;
+        }
+        throw ex;
+    } // end catch
+    global::com.codename1.testing.TestUtils.fail();
+    label48:;
+    return;
+    label49:;
+    _r0_o = _ex.getJavaException();
+    _ex = null;
+    _r1_o = ((global::java.lang.Object) _r3_o).getClass();
+    _r2_o = ((global::java.lang.Object) _r0_o).getClass();
+    if (_r1_o == _r2_o) goto label48;
+    global::com.codename1.testing.TestUtils.fail();
+    goto label48;
+//XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void assertException(java.lang.RuntimeException, java.lang.Runnable)]
+}
+
+public static void assertException(global::java.lang.RuntimeException n1, global::java.lang.Runnable n2, global::java.lang.String n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertException(java.lang.RuntimeException, java.lang.Runnable, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = n1;
+    _r5_o = n2;
+    _r6_o = n3;
+    // Value=, 
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32))}));
+    _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
+    if (_r1.i == 0) goto label54;
+    _r1_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r1_o).@this();
+    // Value=assertException(
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 40))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r4_o);
+    // Value=, 
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r3_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r5_o);
+    // Value=, 
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r3_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r6_o);
+    // Value=)
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)41))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
+    global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
+    label54:;
+    try {
+    ((global::java.lang.Runnable) _r5_o).run();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.RuntimeException) {
+            _ex = ex;
+            goto label61;
+        }
+        throw ex;
+    } // end catch
+    global::com.codename1.testing.TestUtils.fail((global::java.lang.String) _r6_o);
+    label60:;
+    return;
+    label61:;
+    _r0_o = _ex.getJavaException();
+    _ex = null;
+    _r1_o = ((global::java.lang.Object) _r4_o).getClass();
+    _r2_o = ((global::java.lang.Object) _r0_o).getClass();
+    if (_r1_o == _r2_o) goto label60;
+    global::com.codename1.testing.TestUtils.fail((global::java.lang.String) _r6_o);
+    goto label60;
+//XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void assertException(java.lang.RuntimeException, java.lang.Runnable, java.lang.String)]
+}
+
+public static void assertNoException(global::java.lang.Runnable n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNoException(java.lang.Runnable)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
+    if (_r1.i == 0) goto label32;
+    _r1_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r1_o).@this();
+    // Value=assertNoException(
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 40))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r3_o);
+    // Value=)
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)41))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
+    global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
+    label32:;
+    try {
+    ((global::java.lang.Runnable) _r3_o).run();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.RuntimeException) {
+            _ex = ex;
+            goto label36;
+        }
+        throw ex;
+    } // end catch
+    label35:;
+    return;
+    label36:;
+    _r0_o = _ex.getJavaException();
+    _ex = null;
+    global::com.codename1.testing.TestUtils.fail();
+    goto label35;
+//XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void assertNoException(java.lang.Runnable)]
+}
+
+public static void assertNoException(global::java.lang.Runnable n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertNoException(java.lang.Runnable, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r4_o = n2;
+    _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
+    if (_r1.i == 0) goto label42;
+    _r1_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r1_o).@this();
+    // Value=assertNoException(
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 40))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.Object) _r3_o);
+    // Value=, 
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)44)), unchecked((char) unchecked((uint) 32))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r4_o);
+    // Value=)
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)41))}));
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
+    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
+    global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
+    label42:;
+    try {
+    ((global::java.lang.Runnable) _r3_o).run();
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.RuntimeException) {
+            _ex = ex;
+            goto label46;
+        }
+        throw ex;
+    } // end catch
+    label45:;
+    return;
+    label46:;
+    _r0_o = _ex.getJavaException();
+    _ex = null;
+    global::com.codename1.testing.TestUtils.fail((global::java.lang.String) _r4_o);
+    goto label45;
+//XMLVM_END_WRAPPER[com.codename1.testing.TestUtils: void assertNoException(java.lang.Runnable, java.lang.String)]
+}
+
 public static void assertTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTitle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r0.i == 0) goto label32;
@@ -5394,15 +6343,23 @@ public static void assertTitle(global::java.lang.String n1){
 
 public static void assertLabel(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertLabel(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r5.i = 1;
@@ -5429,6 +6386,7 @@ public static void assertLabel(global::java.lang.String n1, global::java.lang.St
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label44:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r6_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label119;
     _r1.i = _r5.i;
     label53:;
@@ -5471,15 +6429,23 @@ public static void assertLabel(global::java.lang.String n1, global::java.lang.St
 
 public static void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertLabel(int[], java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r5.i = 1;
@@ -5507,6 +6473,7 @@ public static void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global:
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label48:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r6_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label133;
     _r1.i = _r5.i;
     label57:;
@@ -5554,12 +6521,17 @@ public static void assertLabel(global::org.xmlvm._nArrayAdapter<int> n1, global:
 
 public static void assertLabel(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertLabel(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r1.i == 0) goto label32;
@@ -5599,13 +6571,19 @@ public static void assertLabel(global::java.lang.String n1){
 
 public static void assertTextArea(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTextArea(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -5630,6 +6608,7 @@ public static void assertTextArea(global::java.lang.String n1, global::java.lang
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label42:;
     _r0_o = global::com.codename1.testing.TestUtils.findByName((global::java.lang.String) _r4_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label118;
     _r1.i = 1;
     label51:;
@@ -5668,13 +6647,19 @@ public static void assertTextArea(global::java.lang.String n1, global::java.lang
 
 public static void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTextArea(int[], java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
@@ -5700,6 +6685,7 @@ public static void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, glob
     global::com.codename1.testing.TestUtils.log((global::java.lang.String) _r1_o);
     label46:;
     _r0_o = global::com.codename1.testing.TestUtils.getComponentByPath((global::org.xmlvm._nArrayAdapter<int>) _r4_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label122;
     _r1.i = 1;
     label55:;
@@ -5738,12 +6724,17 @@ public static void assertTextArea(global::org.xmlvm._nArrayAdapter<int> n1, glob
 
 public static void assertTextArea(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void assertTextArea(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r1.i = global::com.codename1.testing.TestUtils._fverbose ? 1 : 0;
     if (_r1.i == 0) goto label32;
@@ -5783,8 +6774,11 @@ public static void assertTextArea(global::java.lang.String n1){
 
 public static global::System.Object findTextAreaText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.TextArea findTextAreaText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getCurrent();
@@ -5795,16 +6789,25 @@ public static global::System.Object findTextAreaText(global::java.lang.String n1
 
 private static global::System.Object findTextAreaText(global::com.codename1.ui.Container n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: com.codename1.ui.TextArea findTextAreaText(com.codename1.ui.Container, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r2.i = ((global::com.codename1.ui.Container) _r7_o).getComponentCount();
@@ -5815,17 +6818,20 @@ private static global::System.Object findTextAreaText(global::com.codename1.ui.C
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r6.i == 0) goto label35;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.TextArea) _r6_o).getText();
     if (_r5_o == null) goto label49;
     _r6.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r8_o) ? 1 : 0;
     if (_r6.i == 0) goto label49;
+    _r1_o = _r1_o;
     _r6_o = _r1_o;
     label34:;
     return (global::com.codename1.ui.TextArea) _r6_o;
     label35:;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r6.i == 0) goto label49;
+    _r1_o = _r1_o;
     _r4_o = global::com.codename1.testing.TestUtils.findTextAreaText((global::com.codename1.ui.Container) _r1_o, (global::java.lang.String) _r8_o);
     if (_r4_o == null) goto label49;
     _r6_o = _r4_o;
@@ -5841,7 +6847,9 @@ private static global::System.Object findTextAreaText(global::com.codename1.ui.C
 
 public static void access_2000(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void access$000(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.testing.TestUtils.waitForFormTitleImpl((global::java.lang.String) _r0_o);
     return;
@@ -5850,7 +6858,9 @@ public static void access_2000(global::java.lang.String n1){
 
 public static void access_2100(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils: void access$100(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.testing.TestUtils.waitForFormNameImpl((global::java.lang.String) _r0_o);
     return;

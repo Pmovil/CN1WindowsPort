@@ -12,9 +12,14 @@ public global::com.codename1.ui.html.CSSParser _fthis_20;
 public void @this(global::com.codename1.ui.html.CSSParser n1, global::java.io.Reader n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser$ExtInputStreamReader: void <init>(com.codename1.ui.html.CSSParser, java.io.Reader)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -29,8 +34,11 @@ public void @this(global::com.codename1.ui.html.CSSParser n1, global::java.io.Re
 
 public virtual void unreadChar(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser$ExtInputStreamReader: void unreadChar(char)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.CSSParser_2ExtInputStreamReader) _r0_o)._flastCharRead = (char) _r1.i;
@@ -41,10 +49,14 @@ public virtual void unreadChar(char n1){
 public virtual char readCharFromReader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser$ExtInputStreamReader: char readCharFromReader()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 65535;
     _r1.i = ((global::com.codename1.ui.html.CSSParser_2ExtInputStreamReader) _r3_o)._flastCharRead;

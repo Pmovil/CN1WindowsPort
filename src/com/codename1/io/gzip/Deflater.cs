@@ -3,29 +3,49 @@
 using org.xmlvm;
 namespace com.codename1.io.gzip {
 public class Deflater: global::com.codename1.io.gzip.ZStream {
+private static int _fMAX_1WBITS = 15;
 
+private static int _fDEF_1WBITS = 15;
 
+private static int _fZ_1NO_1FLUSH = 0;
 
+private static int _fZ_1PARTIAL_1FLUSH = 1;
 
+private static int _fZ_1SYNC_1FLUSH = 2;
 
+private static int _fZ_1FULL_1FLUSH = 3;
 
+private static int _fZ_1FINISH = 4;
 
+private static int _fMAX_1MEM_1LEVEL = 9;
 
+private static int _fZ_1OK = 0;
 
+private static int _fZ_1STREAM_1END = 1;
 
+private static int _fZ_1NEED_1DICT = 2;
 
+private static int _fZ_1ERRNO = -1;
 
+private static int _fZ_1STREAM_1ERROR = -2;
 
+private static int _fZ_1DATA_1ERROR = -3;
 
+private static int _fZ_1MEM_1ERROR = -4;
 
+private static int _fZ_1BUF_1ERROR = -5;
 
+private static int _fZ_1VERSION_1ERROR = -6;
 
 private bool _ffinished;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.io.gzip.ZStream) _r1_o).@this();
     _r0.i = 0;
@@ -37,8 +57,12 @@ new public void @this(){
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 15;
@@ -50,9 +74,14 @@ public void @this(int n1){
 public void @this(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -65,9 +94,14 @@ public void @this(int n1, bool n2){
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -80,14 +114,22 @@ public void @this(int n1, int n2){
 public void @this(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -118,15 +160,24 @@ public void @this(int n1, int n2, bool n3){
 public void @this(int n1, int n2, int n3, global::com.codename1.io.gzip.JZlib_2WrapperType n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int, int, int, com.codename1.io.gzip.JZlib$WrapperType)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -158,14 +209,22 @@ public void @this(int n1, int n2, int n3, global::com.codename1.io.gzip.JZlib_2W
 public void @this(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: void <init>(int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -196,8 +255,12 @@ public void @this(int n1, int n2, int n3){
 public virtual int init(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int init(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 15;
@@ -209,9 +272,14 @@ public virtual int init(int n1){
 public virtual int init(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int init(int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
@@ -224,9 +292,14 @@ public virtual int init(int n1, bool n2){
 public virtual int init(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int init(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -241,11 +314,18 @@ public virtual int init(int n1, int n2, int n3, global::com.codename1.io.gzip.JZ
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -288,10 +368,15 @@ public virtual int init(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int init(int, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -312,10 +397,16 @@ public virtual int init(int n1, int n2, bool n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -340,11 +431,16 @@ public virtual int init(int n1, int n2, bool n3){
 public override int deflate(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int deflate(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 1;
@@ -367,9 +463,12 @@ public override int deflate(int n1){
 public override int end(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int end()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::com.codename1.io.gzip.Deflater) _r2_o)._ffinished = 0!=_r1.i;
@@ -393,9 +492,13 @@ public virtual int @params(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int params(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -415,9 +518,13 @@ public virtual int setDictionary(global::org.xmlvm._nArrayAdapter<sbyte> n1, int
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int setDictionary(byte[], int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -436,7 +543,10 @@ public virtual int setDictionary(global::org.xmlvm._nArrayAdapter<sbyte> n1, int
 public override bool finished(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: boolean finished()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.gzip.Deflater) _r1_o)._ffinished ? 1 : 0;
     return _r0.i!=0;
@@ -446,8 +556,12 @@ public override bool finished(){
 public virtual int copy(global::com.codename1.io.gzip.Deflater n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflater: int copy(com.codename1.io.gzip.Deflater)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.io.gzip.Deflater) _r2_o)._ffinished ? 1 : 0;

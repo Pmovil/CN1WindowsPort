@@ -7,9 +7,13 @@ public global::com.codename1.ui.html.HTMLInputFormat _fthis_20;
 
 public void @this(global::com.codename1.ui.html.HTMLInputFormat n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat$1: void <init>(com.codename1.ui.html.HTMLInputFormat, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -21,7 +25,9 @@ public void @this(global::com.codename1.ui.html.HTMLInputFormat n1, global::java
 
 public override void showSymbolDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat$1: void showSymbolDialog()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLInputFormat$1: void showSymbolDialog()]

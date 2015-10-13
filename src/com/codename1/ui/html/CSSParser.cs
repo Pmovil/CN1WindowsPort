@@ -14,9 +14,11 @@ private static global::com.codename1.ui.html.CSSParser _finstance;
 
 private global::com.codename1.ui.html.CSSParserCallback _fparserCallback;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -25,7 +27,9 @@ new public void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: com.codename1.ui.html.CSSParser getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.html.CSSParser._finstance;
     if (_r0_o != null) goto label11;
     _r0_o = new global::com.codename1.ui.html.CSSParser();
@@ -39,7 +43,9 @@ public static global::System.Object getInstance(){
 
 public static void setCSSSupportedMediaTypes(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void setCSSSupportedMediaTypes(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.html.CSSParser._fSUPPORTED_1MEDIA_1TYPES = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
@@ -49,8 +55,12 @@ public static void setCSSSupportedMediaTypes(global::org.xmlvm._nArrayAdapter<gl
 public static bool isWhiteSpace(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: boolean isWhiteSpace(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r1.i = 10;
     _r0.i = 32;
@@ -74,11 +84,18 @@ public static bool isWhiteSpace(char n1){
 private char handleCSSComment(global::com.codename1.ui.html.CSSParser_2ExtInputStreamReader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: char handleCSSComment(com.codename1.ui.html.CSSParser$ExtInputStreamReader)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 47;
@@ -117,23 +134,38 @@ private char handleCSSComment(global::com.codename1.ui.html.CSSParser_2ExtInputS
 private global::System.Object nextToken(global::com.codename1.ui.html.CSSParser_2ExtInputStreamReader n1, bool n2, bool n3, bool n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: java.lang.String nextToken(com.codename1.ui.html.CSSParser$ExtInputStreamReader, boolean, boolean, boolean, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2 ? 1 : 0;
@@ -316,13 +348,21 @@ private global::System.Object nextToken(global::com.codename1.ui.html.CSSParser_
 
 private void copyAttributes(global::com.codename1.ui.html.CSSElement n1, global::java.util.Vector n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void copyAttributes(com.codename1.ui.html.CSSElement, java.util.Vector, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -336,6 +376,7 @@ private void copyAttributes(global::com.codename1.ui.html.CSSElement n1, global:
     _r2.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label2;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.html.HTMLElement) _r6_o).addChild((global::com.codename1.xml.Element) _r1_o);
     label22:;
     _r2.i = ((global::com.codename1.ui.html.CSSElement) _r1_o).getNumChildren();
@@ -352,10 +393,14 @@ private void copyAttributes(global::com.codename1.ui.html.CSSElement n1, global:
 private bool isMediaTypeSupported(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: boolean isMediaTypeSupported(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -382,12 +427,18 @@ private bool isMediaTypeSupported(global::java.lang.String n1){
 public virtual bool mediaTypeMatches(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: boolean mediaTypeMatches(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 44;
@@ -429,12 +480,18 @@ public virtual bool mediaTypeMatches(global::java.lang.String n1){
 private global::System.Object getImportURLByMediaType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: java.lang.String getImportURLByMediaType(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = _r5_o;
@@ -468,8 +525,11 @@ private global::System.Object getImportURLByMediaType(global::java.lang.String n
 
 private global::System.Object getMediaSegment(global::com.codename1.ui.html.CSSParser_2ExtInputStreamReader n1, global::java.lang.String n2, global::com.codename1.ui.html.HTMLComponent n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: com.codename1.ui.html.CSSParser$ExtInputStreamReader getMediaSegment(com.codename1.ui.html.CSSParser$ExtInputStreamReader, java.lang.String, com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -484,16 +544,28 @@ private global::System.Object getMediaSegment(global::com.codename1.ui.html.CSSP
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
@@ -626,38 +698,63 @@ private global::System.Object getMediaSegment(global::com.codename1.ui.html.CSSP
 
 public virtual global::System.Object parseCSSSegment(global::java.io.Reader n1, global::java.io.InputStream n2, global::com.codename1.ui.html.HTMLComponent n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: com.codename1.ui.html.CSSElement parseCSSSegment(java.io.Reader, java.io.InputStream, com.codename1.ui.html.HTMLComponent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
@@ -881,11 +978,17 @@ public virtual global::System.Object parseCSSSegment(global::java.io.Reader n1, 
 
 public virtual global::System.Object parseCSS(global::java.io.InputStreamReader n1, global::com.codename1.ui.html.HTMLComponent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: com.codename1.ui.html.CSSElement parseCSS(java.io.InputStreamReader, com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -905,46 +1008,81 @@ public virtual global::System.Object parseCSS(global::com.codename1.ui.html.CSSP
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
+    global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
+    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
     global::org.xmlvm._nElement _r34;
+    global::System.Object _r34_o = null;
+    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
+    global::org.xmlvm._nElement _r36;
     global::System.Object _r36_o = null;
+    global::org.xmlvm._nElement _r37;
     global::System.Object _r37_o = null;
+    global::org.xmlvm._nElement _r38;
     global::System.Object _r38_o = null;
+    global::org.xmlvm._nElement _r39;
     global::System.Object _r39_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r35_o = this;
     _r36_o = n1;
     _r37_o = n2;
@@ -1408,16 +1546,26 @@ public virtual global::System.Object parseCSS(global::com.codename1.ui.html.CSSP
 private bool addShorthandAttribute(global::java.lang.String n1, int n2, global::com.codename1.ui.html.CSSElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: boolean addShorthandAttribute(java.lang.String, int, com.codename1.ui.html.CSSElement)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -1465,15 +1613,24 @@ private bool addShorthandAttribute(global::java.lang.String n1, int n2, global::
 private bool addCollatableAttribute(global::java.lang.String n1, int n2, global::com.codename1.ui.html.CSSElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: boolean addCollatableAttribute(java.lang.String, int, com.codename1.ui.html.CSSElement)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -1509,17 +1666,29 @@ private bool addCollatableAttribute(global::java.lang.String n1, int n2, global:
 
 private int addAttributeTo(global::com.codename1.ui.html.CSSElement n1, int n2, global::java.lang.String n3, global::com.codename1.ui.html.HTMLComponent n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: int addAttributeTo(com.codename1.ui.html.CSSElement, int, java.lang.String, com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -1540,17 +1709,29 @@ private int addAttributeTo(global::com.codename1.ui.html.CSSElement n1, int n2, 
 
 private int addAttributeTo(global::com.codename1.ui.html.CSSElement n1, global::java.lang.String n2, global::java.lang.String n3, global::com.codename1.ui.html.HTMLComponent n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: int addAttributeTo(com.codename1.ui.html.CSSElement, java.lang.String, java.lang.String, com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1573,16 +1754,27 @@ private void reportAddAttributeError(int n1, global::com.codename1.ui.html.CSSEl
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8_o = n2;
@@ -1663,19 +1855,33 @@ private void reportAddAttributeError(int n1, global::com.codename1.ui.html.CSSEl
 
 public virtual void notifyError(int n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void notifyError(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9_o = n2;
@@ -1702,8 +1908,11 @@ public virtual void notifyError(int n1, global::java.lang.String n2, global::jav
 
 public virtual void setCSSParserCallback(global::com.codename1.ui.html.CSSParserCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void setCSSParserCallback(com.codename1.ui.html.CSSParserCallback)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.html.CSSParser) _r0_o)._fparserCallback = (global::com.codename1.ui.html.CSSParserCallback) _r1_o;
@@ -1711,12 +1920,15 @@ public virtual void setCSSParserCallback(global::com.codename1.ui.html.CSSParser
 //XMLVM_END_WRAPPER[com.codename1.ui.html.CSSParser: void setCSSParserCallback(com.codename1.ui.html.CSSParserCallback)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CSSParser: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r1.i = 0;

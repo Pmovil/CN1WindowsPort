@@ -59,9 +59,11 @@ public static int _fTYPE_1STRING_1ARRAY = 26;
 
 public static int _fTYPE_1EXTERNALIABLE = 1000;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -70,6 +72,7 @@ new public void @this(){
 
 public static global::System.Object invokeWebserviceSync(global::com.codename1.io.WebServiceProxyCall_2WSDefinition n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall: java.lang.Object invokeWebserviceSync(com.codename1.io.WebServiceProxyCall$WSDefinition, java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -77,8 +80,11 @@ public static global::System.Object invokeWebserviceSync(global::com.codename1.i
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r0_o = new global::com.codename1.io.WebServiceProxyCall_2WSConnection();
@@ -109,11 +115,17 @@ public static global::System.Object invokeWebserviceSync(global::com.codename1.i
 
 public static void invokeWebserviceASync(global::com.codename1.io.WebServiceProxyCall_2WSDefinition n1, global::com.codename1.util.Callback n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall: void invokeWebserviceASync(com.codename1.io.WebServiceProxyCall$WSDefinition, com.codename1.util.Callback, java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
@@ -127,11 +139,17 @@ public static void invokeWebserviceASync(global::com.codename1.io.WebServiceProx
 
 public static global::System.Object defineWebService(global::java.lang.String n1, global::java.lang.String n2, int n3, global::org.xmlvm._nArrayAdapter<int> n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.WebServiceProxyCall: com.codename1.io.WebServiceProxyCall$WSDefinition defineWebService(java.lang.String, java.lang.String, int, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3;

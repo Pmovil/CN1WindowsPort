@@ -26,11 +26,17 @@ private static global::java.lang.Object _fLOCK;
 
 private void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: void <init>(java.lang.String, byte[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -46,10 +52,16 @@ private void @this(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter
 private void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: void <init>(java.lang.String, com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -64,7 +76,9 @@ private void @this(global::java.lang.String n1, global::com.codename1.ui.Image n
 
 public override void resetCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: void resetCache()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.resetCache();
     return;
@@ -75,7 +89,9 @@ public override global::System.Object getInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: com.codename1.ui.Image getInternal()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.FileEncodedImageAsync) _r1_o)._fimageData;
     if (_r0_o != null) goto label14;
@@ -96,10 +112,13 @@ public override global::System.Object getInternal(){
 
 public override global::System.Object getImageData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: byte[] getImageData()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -176,8 +195,12 @@ public override global::System.Object getImageData(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0.i = ((global::com.codename1.components.FileEncodedImageAsync) _r2_o)._fchangePending ? 1 : 0;
@@ -198,7 +221,10 @@ public override bool animate(){
 public override bool isAnimation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean isAnimation()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -207,11 +233,17 @@ public override bool isAnimation(){
 
 public static global::System.Object create(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: com.codename1.components.FileEncodedImageAsync create(java.lang.String, byte[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3;
@@ -224,9 +256,13 @@ public static global::System.Object create(global::java.lang.String n1, global::
 
 public static global::System.Object create(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: com.codename1.components.FileEncodedImageAsync create(java.lang.String, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::com.codename1.components.FileEncodedImageAsync();
@@ -237,8 +273,11 @@ public static global::System.Object create(global::java.lang.String n1, global::
 
 public static global::System.Object access_2000(global::com.codename1.components.FileEncodedImageAsync n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: java.lang.String access$000(com.codename1.components.FileEncodedImageAsync)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.FileEncodedImageAsync) _r1_o)._ffileName;
     return (global::java.lang.String) _r0_o;
@@ -247,8 +286,11 @@ public static global::System.Object access_2000(global::com.codename1.components
 
 public static global::System.Object access_2102(global::com.codename1.components.FileEncodedImageAsync n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: byte[] access$102(com.codename1.components.FileEncodedImageAsync, byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.components.FileEncodedImageAsync) _r0_o)._fimageData = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
@@ -258,8 +300,11 @@ public static global::System.Object access_2102(global::com.codename1.components
 
 public static bool access_2202(global::com.codename1.components.FileEncodedImageAsync n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean access$202(com.codename1.components.FileEncodedImageAsync, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.FileEncodedImageAsync) _r0_o)._fchangePending = 0!=_r1.i;
@@ -269,8 +314,11 @@ public static bool access_2202(global::com.codename1.components.FileEncodedImage
 
 public static bool access_2302(global::com.codename1.components.FileEncodedImageAsync n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean access$302(com.codename1.components.FileEncodedImageAsync, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.FileEncodedImageAsync) _r0_o)._fimageCreated = 0!=_r1.i;
@@ -280,8 +328,11 @@ public static bool access_2302(global::com.codename1.components.FileEncodedImage
 
 public static bool access_2402(global::com.codename1.components.FileEncodedImageAsync n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean access$402(com.codename1.components.FileEncodedImageAsync, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.FileEncodedImageAsync) _r0_o)._fqueued = 0!=_r1.i;
@@ -289,9 +340,11 @@ public static bool access_2402(global::com.codename1.components.FileEncodedImage
 //XMLVM_END_WRAPPER[com.codename1.components.FileEncodedImageAsync: boolean access$402(com.codename1.components.FileEncodedImageAsync, boolean)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.FileEncodedImageAsync: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::java.lang.Object();
     ((global::java.lang.Object) _r0_o).@this();
     global::com.codename1.components.FileEncodedImageAsync._fLOCK = (global::java.lang.Object) _r0_o;

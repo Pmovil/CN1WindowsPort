@@ -152,8 +152,12 @@ public static int _fREPLACE_1BACKREFERENCES = 2;
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -164,10 +168,15 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -182,9 +191,14 @@ public void @this(global::java.lang.String n1, int n2){
 public void @this(global::com.codename1.util.regex.REProgram n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>(com.codename1.util.regex.REProgram, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -200,8 +214,12 @@ public void @this(global::com.codename1.util.regex.REProgram n1, int n2){
 public void @this(global::com.codename1.util.regex.REProgram n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>(com.codename1.util.regex.REProgram)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -210,13 +228,18 @@ public void @this(global::com.codename1.util.regex.REProgram n1){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void <init>(com.codename1.util.regex.REProgram)]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = null;
+    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::com.codename1.util.regex.RE) _r2_o).@this((global::com.codename1.util.regex.REProgram) _r0_o, (int) _r1.i);
     return;
@@ -225,12 +248,17 @@ new public void @this(){
 
 public static global::System.Object simplePatternToFullRegularExpression(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String simplePatternToFullRegularExpression(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r0_o = new global::java.lang.StringBuffer();
     ((global::java.lang.StringBuffer) _r0_o).@this();
@@ -273,13 +301,17 @@ public static global::System.Object simplePatternToFullRegularExpression(global:
     label37:;
     _r3_o = ((global::java.lang.StringBuffer) _r0_o).toString();
     return (global::java.lang.String) _r3_o;
+    label42:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: java.lang.String simplePatternToFullRegularExpression(java.lang.String)]
 }
 
 public virtual void setMatchFlags(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void setMatchFlags(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.util.regex.RE) _r0_o)._fmatchFlags = _r1.i;
@@ -290,7 +322,10 @@ public virtual void setMatchFlags(int n1){
 public virtual int getMatchFlags(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int getMatchFlags()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.util.regex.RE) _r1_o)._fmatchFlags;
     return _r0.i;
@@ -300,9 +335,14 @@ public virtual int getMatchFlags(){
 public virtual void setProgram(global::com.codename1.util.regex.REProgram n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void setProgram(com.codename1.util.regex.REProgram)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.util.regex.RE) _r2_o)._fprogram = (global::com.codename1.util.regex.REProgram) _r3_o;
@@ -323,8 +363,11 @@ public virtual void setProgram(global::com.codename1.util.regex.REProgram n1){
 
 public virtual global::System.Object getProgram(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: com.codename1.util.regex.REProgram getProgram()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.util.regex.RE) _r1_o)._fprogram;
     return (global::com.codename1.util.regex.REProgram) _r0_o;
@@ -334,7 +377,10 @@ public virtual global::System.Object getProgram(){
 public virtual int getParenCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int getParenCount()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.util.regex.RE) _r1_o)._fparenCount;
     return _r0.i;
@@ -344,11 +390,16 @@ public virtual int getParenCount(){
 public virtual global::System.Object getParen(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String getParen(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1.i = ((global::com.codename1.util.regex.RE) _r3_o)._fparenCount;
@@ -370,8 +421,11 @@ public virtual int getParenStart(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int getParenStart(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.util.regex.RE) _r1_o)._fparenCount;
@@ -401,6 +455,7 @@ public virtual int getParenStart(int n1){
     label28:;
     _r0.i = -1;
     goto label18;
+    label30:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int getParenStart(int)]
 }
 
@@ -408,8 +463,11 @@ public virtual int getParenEnd(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int getParenEnd(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.util.regex.RE) _r1_o)._fparenCount;
@@ -439,15 +497,21 @@ public virtual int getParenEnd(int n1){
     label28:;
     _r0.i = -1;
     goto label18;
+    label30:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int getParenEnd(int)]
 }
 
 public virtual int getParenLength(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int getParenLength(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.util.regex.RE) _r2_o)._fparenCount;
@@ -467,9 +531,13 @@ public virtual void setParenStart(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void setParenStart(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -497,6 +565,7 @@ public virtual void setParenStart(int n1, int n2){
     label25:;
     ((global::com.codename1.util.regex.RE) _r1_o)._fstart2 = _r3.i;
     goto label18;
+    label28:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void setParenStart(int, int)]
 }
 
@@ -504,9 +573,13 @@ public virtual void setParenEnd(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void setParenEnd(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -534,16 +607,23 @@ public virtual void setParenEnd(int n1, int n2){
     label25:;
     ((global::com.codename1.util.regex.RE) _r1_o)._fend2 = _r3.i;
     goto label18;
+    label28:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: void setParenEnd(int, int)]
 }
 
 public virtual void internalError(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void internalError(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::java.lang.Error();
@@ -563,10 +643,14 @@ public virtual void internalError(global::java.lang.String n1){
 private void allocParens(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: void allocParens()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = -1;
     _r1.i = ((global::com.codename1.util.regex.RE) _r3_o)._fmaxParen;
@@ -597,40 +681,72 @@ public virtual int matchNodes(int n1, int n2, int n3){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
     global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
+    global::System.Object _r32_o = null;
     global::org.xmlvm._nElement _r33;
+    global::System.Object _r33_o = null;
     global::org.xmlvm._nElement _r34;
+    global::System.Object _r34_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r31_o = this;
     _r32.i = n1;
     _r33.i = n2;
@@ -1681,19 +1797,32 @@ public virtual int matchNodes(int n1, int n2, int n3){
     ((global::com.codename1.util.regex.RE) _r0_o).internalError((global::java.lang.String) _r1_o);
     _r28.i = -1;
     goto label105;
+    label1800:;
+    label1894:;
+    label1928:;
+    label1954:;
+    label2012:;
+    label2024:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RE: int matchNodes(int, int, int)]
 }
 
 public virtual bool matchAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: boolean matchAt(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r1_o = null;
@@ -1739,9 +1868,13 @@ public virtual bool match(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: boolean match(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -1755,20 +1888,34 @@ public virtual bool match(global::java.lang.String n1, int n2){
 public virtual bool match(global::com.codename1.util.regex.CharacterIterator n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: boolean match(com.codename1.util.regex.CharacterIterator, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13.i = n2;
@@ -1898,8 +2045,12 @@ public virtual bool match(global::com.codename1.util.regex.CharacterIterator n1,
 public virtual bool match(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: boolean match(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1911,17 +2062,28 @@ public virtual bool match(global::java.lang.String n1){
 public virtual global::System.Object split(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String[] split(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 0;
@@ -1964,9 +2126,13 @@ public virtual global::System.Object subst(global::java.lang.String n1, global::
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String subst(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1979,21 +2145,36 @@ public virtual global::System.Object subst(global::java.lang.String n1, global::
 public virtual global::System.Object subst(global::java.lang.String n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String subst(java.lang.String, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -2078,13 +2259,20 @@ public virtual global::System.Object subst(global::java.lang.String n1, global::
 public virtual global::System.Object grep(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: java.lang.String[] grep(java.lang.Object[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3_o = new global::java.util.ArrayList();
@@ -2112,10 +2300,14 @@ public virtual global::System.Object grep(global::org.xmlvm._nArrayAdapter<globa
 private bool isNewline(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: boolean isNewline(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1_o = ((global::com.codename1.util.regex.RE) _r2_o)._fsearch;
@@ -2143,10 +2335,16 @@ private bool isNewline(int n1){
 private int compareChars(char n1, char n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RE: int compareChars(char, char, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;

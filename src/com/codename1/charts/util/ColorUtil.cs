@@ -26,9 +26,11 @@ public static int _fMAGENTA;
 
 public static int _fGRAY;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -37,12 +39,19 @@ new public void @this(){
 
 public static int argb(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int argb(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -56,9 +65,13 @@ public static int argb(int n1, int n2, int n3, int n4){
 
 public static int alpha(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int alpha(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0_o = new global::com.codename1.charts.util.ColorUtil_2IColor();
     ((global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o).@this((int) _r2.i);
@@ -69,9 +82,13 @@ public static int alpha(int n1){
 
 public static int red(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int red(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0_o = new global::com.codename1.charts.util.ColorUtil_2IColor();
     ((global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o).@this((int) _r2.i);
@@ -82,9 +99,13 @@ public static int red(int n1){
 
 public static int green(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int green(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0_o = new global::com.codename1.charts.util.ColorUtil_2IColor();
     ((global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o).@this((int) _r2.i);
@@ -95,9 +116,13 @@ public static int green(int n1){
 
 public static int blue(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int blue(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0_o = new global::com.codename1.charts.util.ColorUtil_2IColor();
     ((global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o).@this((int) _r2.i);
@@ -108,11 +133,17 @@ public static int blue(int n1){
 
 public static int rgb(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: int rgb(int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -123,10 +154,11 @@ public static int rgb(int n1, int n2, int n3){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.ColorUtil: int rgb(int, int, int)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.ColorUtil: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.charts.util.ColorUtil_2IColor._fLightGray;
     _r0.i = ((global::com.codename1.charts.util.ColorUtil_2IColor) _r0_o)._fargb;
     global::com.codename1.charts.util.ColorUtil._fLTGRAY = _r0.i;

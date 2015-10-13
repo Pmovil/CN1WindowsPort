@@ -11,10 +11,15 @@ public global::com.codename1.cloud.CloudListModel _fthis_20;
 
 public void @this(global::com.codename1.cloud.CloudListModel n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudListModel$1: void <init>(com.codename1.cloud.CloudListModel, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -30,14 +35,18 @@ public void @this(global::com.codename1.cloud.CloudListModel n1, int n2, int n3)
 public virtual void onSuccess(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudListModel$1: void onSuccess(com.codename1.cloud.CloudObject[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -64,9 +73,13 @@ public virtual void onSuccess(global::org.xmlvm._nArrayAdapter<global::System.Ob
 
 public virtual void onError(global::com.codename1.cloud.CloudException n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudListModel$1: void onError(com.codename1.cloud.CloudException)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudListModel_21) _r1_o)._fthis_20;
@@ -77,10 +90,14 @@ public virtual void onError(global::com.codename1.cloud.CloudException n1){
 
 public virtual void onSuccess(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudListModel$1: void onSuccess(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
+    _r1_o = _r1_o;
     ((global::com.codename1.cloud.CloudListModel_21) _r0_o).onSuccess((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudListModel$1: void onSuccess(java.lang.Object)]

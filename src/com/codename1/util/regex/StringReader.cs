@@ -3,6 +3,7 @@
 using org.xmlvm;
 namespace com.codename1.util.regex {
 public class StringReader: global::java.io.Reader {
+private static char _fNEW_1LINE = (char)10;
 
 private global::java.lang.String _fstr;
 
@@ -11,8 +12,12 @@ private int _fpointer;
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.StringReader: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.Reader) _r1_o).@this();
@@ -30,7 +35,10 @@ public override int read(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::com.codename1.util.regex.StringReader) _r3_o)._fpointer;
     _r1_o = ((global::com.codename1.util.regex.StringReader) _r3_o)._fstr;
@@ -52,16 +60,26 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.StringReader: int read(char[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -100,7 +118,9 @@ public override int read(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int 
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.StringReader: void close()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.StringReader: void close()]
@@ -109,13 +129,18 @@ public override void close(){
 public virtual global::System.Object readLine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.StringReader: java.lang.String readLine()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r2.i = ((global::com.codename1.util.regex.StringReader) _r5_o)._fpointer;
     _r3_o = ((global::com.codename1.util.regex.StringReader) _r5_o)._fstr;
@@ -147,9 +172,12 @@ public virtual global::System.Object readLine(){
 public override bool ready(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.StringReader: boolean ready()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.util.regex.StringReader) _r2_o)._fpointer;
     _r1_o = ((global::com.codename1.util.regex.StringReader) _r2_o)._fstr;

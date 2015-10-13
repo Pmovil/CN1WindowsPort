@@ -3,8 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class Tabs_2SwipeListener: global::java.lang.Object,global::com.codename1.ui.events.ActionListener {
+private static int _fPRESS = 0;
 
+private static int _fDRAG = 1;
 
+private static int _fRELEASE = 2;
 
 private int _ftype;
 
@@ -16,9 +19,13 @@ public global::com.codename1.ui.Tabs _fthis_20;
 
 public void @this(global::com.codename1.ui.Tabs n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs$SwipeListener: void <init>(com.codename1.ui.Tabs, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -31,25 +38,39 @@ public void @this(global::com.codename1.ui.Tabs n1, int n2){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs$SwipeListener: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
@@ -70,7 +91,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     switch (_r11.i) {
     case 0: goto label39;
     case 1: goto label187;
-    case 2: goto label404;
+    case 2: goto label411;
     }
     goto label24;
     label39:;
@@ -156,7 +177,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     if (_r11.i != 0) goto label213;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = ((global::com.codename1.ui.Tabs) _r11_o).isEagerSwipeMode() ? 1 : 0;
-    if (_r11.i == 0) goto label295;
+    if (_r11.i == 0) goto label302;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = 1;
     global::com.codename1.ui.Tabs.access_21702((global::com.codename1.ui.Tabs) _r11_o, 0!=_r12.i);
@@ -177,13 +198,16 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r11.i = global::com.codename1.ui.Tabs.access_21700((global::com.codename1.ui.Tabs) _r11_o) ? 1 : 0;
     if (_r11.i == 0) goto label24;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
-    global::com.codename1.ui.Tabs.access_21412((global::com.codename1.ui.Tabs) _r11_o, (int) _r2.i);
+    _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
+    _r12.i = global::com.codename1.ui.Tabs.access_21400((global::com.codename1.ui.Tabs) _r12_o);
+    _r12.i = _r12.i + _r2.i;
+    global::com.codename1.ui.Tabs.access_21402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r11_o);
     _r6.i = ((global::com.codename1.ui.Container) _r11_o).getComponentCount();
     _r5.i = 0;
-    label268:;
-    if (_r5.i >= _r6.i) goto label397;
+    label275:;
+    if (_r5.i >= _r6.i) goto label404;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r11_o);
     _r0_o = ((global::com.codename1.ui.Container) _r11_o).getComponentAt((int) _r5.i);
@@ -193,10 +217,10 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r11.i = 0;
     ((global::com.codename1.ui.Component) _r0_o).paintLock(0!=_r11.i);
     _r5.i = _r5.i + 1;
-    goto label268;
-    label295:;
+    goto label275;
+    label302:;
     _r11.i = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._friskySwipe ? 1 : 0;
-    if (_r11.i == 0) goto label361;
+    if (_r11.i == 0) goto label368;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_21500((global::com.codename1.ui.Tabs) _r11_o);
     _r11.i = _r9.i - _r11.i;
@@ -215,15 +239,15 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r13_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r13_o);
     _r13.i = ((global::com.codename1.ui.Container) _r13_o).getWidth();
     _r13.i = _r13.i / 5;
-    if (_r12.i <= _r13.i) goto label359;
+    if (_r12.i <= _r13.i) goto label366;
     _r12.i = 1;
-    label354:;
+    label361:;
     global::com.codename1.ui.Tabs.access_21702((global::com.codename1.ui.Tabs) _r11_o, 0!=_r12.i);
     goto label213;
-    label359:;
+    label366:;
     _r12.i = 0;
-    goto label354;
-    label361:;
+    goto label361;
+    label368:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = global::com.codename1.ui.Tabs.access_21500((global::com.codename1.ui.Tabs) _r12_o);
@@ -233,22 +257,22 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r13_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r13_o);
     _r13.i = ((global::com.codename1.ui.Container) _r13_o).getWidth();
     _r13.i = _r13.i / 8;
-    if (_r12.i <= _r13.i) goto label395;
+    if (_r12.i <= _r13.i) goto label402;
     _r12.i = 1;
-    label390:;
+    label397:;
     global::com.codename1.ui.Tabs.access_21702((global::com.codename1.ui.Tabs) _r11_o, 0!=_r12.i);
     goto label213;
-    label395:;
+    label402:;
     _r12.i = 0;
-    goto label390;
-    label397:;
+    goto label397;
+    label404:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     ((global::com.codename1.ui.Tabs) _r11_o).repaint();
     goto label24;
-    label404:;
+    label411:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_21000((global::com.codename1.ui.Tabs) _r11_o) ? 1 : 0;
-    if (_r11.i == 0) goto label441;
+    if (_r11.i == 0) goto label448;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     ((global::com.codename1.ui.Tabs) _r11_o).initTabsContainerStyle();
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
@@ -259,32 +283,32 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.Tabs.access_2200((global::com.codename1.ui.Tabs) _r11_o);
     ((global::com.codename1.ui.Container) _r11_o).repaint();
-    label441:;
+    label448:;
     _r11.i = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fblockSwipe ? 1 : 0;
     if (_r11.i != 0) goto label24;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_21500((global::com.codename1.ui.Tabs) _r11_o);
     _r12.i = -1;
-    if (_r11.i == _r12.i) goto label591;
+    if (_r11.i == _r12.i) goto label598;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_21500((global::com.codename1.ui.Tabs) _r11_o);
     _r1.i = _r9.i - _r11.i;
-    if (_r1.i == 0) goto label591;
+    if (_r1.i == 0) goto label598;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_21700((global::com.codename1.ui.Tabs) _r11_o) ? 1 : 0;
-    if (_r11.i == 0) goto label591;
+    if (_r11.i == 0) goto label598;
     _r11.i = global::java.lang.Math.abs((int) _r1.i);
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r12_o);
     _r12.i = ((global::com.codename1.ui.Container) _r12_o).getWidth();
     _r12.i = _r12.i / 6;
-    if (_r11.i <= _r12.i) goto label529;
+    if (_r11.i <= _r12.i) goto label536;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = ((global::com.codename1.ui.Tabs) _r11_o).isRTL() ? 1 : 0;
-    if (_r11.i == 0) goto label500;
+    if (_r11.i == 0) goto label507;
     _r1.i = _r1.i * -1;
-    label500:;
-    if (_r1.i <= 0) goto label611;
+    label507:;
+    if (_r1.i <= 0) goto label618;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = global::com.codename1.ui.Tabs.access_2800((global::com.codename1.ui.Tabs) _r12_o);
@@ -293,11 +317,11 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::com.codename1.ui.Tabs.access_2402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11.i = global::com.codename1.ui.Tabs.access_2400((global::com.codename1.ui.Tabs) _r11_o);
-    if (_r11.i >= 0) goto label529;
+    if (_r11.i >= 0) goto label536;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = 0;
     global::com.codename1.ui.Tabs.access_2402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
-    label529:;
+    label536:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r11_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r11_o);
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
@@ -315,12 +339,12 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     ((global::com.codename1.ui.animations.Motion) _r11_o).start();
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r4_o = ((global::com.codename1.ui.Tabs) _r11_o).getComponentForm();
-    if (_r4_o == null) goto label588;
+    if (_r4_o == null) goto label595;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     ((global::com.codename1.ui.Form) _r4_o).registerAnimatedInternal((global::com.codename1.ui.animations.Animation) _r11_o);
-    label588:;
+    label595:;
     ((global::com.codename1.ui.events.ActionEvent) _r15_o).consume();
-    label591:;
+    label598:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = -1;
     global::com.codename1.ui.Tabs.access_21402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
@@ -331,7 +355,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r12.i = 0;
     global::com.codename1.ui.Tabs.access_21702((global::com.codename1.ui.Tabs) _r11_o, 0!=_r12.i);
     goto label24;
-    label611:;
+    label618:;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12.i = global::com.codename1.ui.Tabs.access_2800((global::com.codename1.ui.Tabs) _r12_o);
@@ -342,7 +366,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r12_o);
     _r12.i = ((global::com.codename1.ui.Container) _r12_o).getComponentCount();
-    if (_r11.i < _r12.i) goto label529;
+    if (_r11.i < _r12.i) goto label536;
     _r11_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = ((global::com.codename1.ui.Tabs_2SwipeListener) _r14_o)._fthis_20;
     _r12_o = global::com.codename1.ui.Tabs.access_2300((global::com.codename1.ui.Tabs) _r12_o);
@@ -350,7 +374,8 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r13.i = 1;
     _r12.i = _r12.i - _r13.i;
     global::com.codename1.ui.Tabs.access_2402((global::com.codename1.ui.Tabs) _r11_o, (int) _r12.i);
-    goto label529;
+    goto label536;
+    label668:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs$SwipeListener: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

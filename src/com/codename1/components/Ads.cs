@@ -91,15 +91,21 @@ public static int _fERROR_1CSS_1NOT_1FOUND = com.codename1.ui.html._iCSSParserCa
 
 public static int _fERROR_1CSS_1NO_1BASE_1URL = com.codename1.ui.html._iCSSParserCallback._fERROR_1CSS_1NO_1BASE_1URL;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     ((global::com.codename1.ui.Container) _r5_o).@this();
@@ -144,8 +150,12 @@ new public void @this(){
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -156,10 +166,15 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void <init>(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -176,8 +191,11 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r2_o)._fservice;
     if (_r0_o == null) goto label30;
@@ -203,7 +221,9 @@ public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void deinitialize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.Ads) _r1_o)._frefreshAd ? 1 : 0;
     if (_r0.i == 0) goto label11;
@@ -216,8 +236,11 @@ public override void deinitialize(){
 
 private void requestAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void requestAd()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fservice;
     ((global::com.codename1.ads.AdsService) _r0_o).requestAd();
@@ -227,11 +250,23 @@ private void requestAd(){
 
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: boolean animate()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r7_o).getComponentForm();
     if (_r0_o == null) goto label12;
@@ -263,8 +298,12 @@ public override void keyReleased(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -281,9 +320,14 @@ public override void keyReleased(int n1){
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -298,23 +342,34 @@ public override void pointerReleased(int n1, int n2){
 
 private void launchAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void launchAd()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r8.i = 0;
     _r1_o = ((global::com.codename1.components.Ads) _r9_o).getComponentAt((int) _r8.i);
     _r7.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.html.HTMLComponent)) ? 1 : 0;
     if (_r7.i == 0) goto label54;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r7.i = 1;
     ((global::com.codename1.ui.html.HTMLComponent) _r4_o).setSupressExceptions(0!=_r7.i);
@@ -326,6 +381,7 @@ private void launchAd(){
     _r7.i = ((global::java.util.Vector) _r6_o).size();
     if (_r7.i <= 0) goto label54;
     _r3_o = ((global::java.util.Vector) _r6_o).elementAt((int) _r8.i);
+    _r3_o = _r3_o;
     // Value=href
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102))}));
@@ -340,8 +396,11 @@ private void launchAd(){
 
 public virtual global::System.Object getAd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getAd()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fad;
     return (global::java.lang.String) _r0_o;
@@ -350,13 +409,19 @@ public virtual global::System.Object getAd(){
 
 public virtual void setAd(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setAd(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -397,7 +462,10 @@ public virtual void setAd(global::java.lang.String n1){
 public virtual int getUpdateDuration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: int getUpdateDuration()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.Ads) _r1_o)._fupdateDuration;
     return _r0.i;
@@ -406,8 +474,11 @@ public virtual int getUpdateDuration(){
 
 public virtual void setUpdateDuration(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setUpdateDuration(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.components.Ads) _r0_o)._fupdateDuration = _r1.i;
@@ -417,9 +488,13 @@ public virtual void setUpdateDuration(int n1){
 
 public virtual void titleUpdated(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void titleUpdated(com.codename1.ui.html.HTMLComponent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -431,10 +506,15 @@ public virtual void pageStatusChanged(global::com.codename1.ui.html.HTMLComponen
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void pageStatusChanged(com.codename1.ui.html.HTMLComponent, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -455,13 +535,21 @@ public virtual void pageStatusChanged(global::com.codename1.ui.html.HTMLComponen
 
 private void unfocus(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void unfocus(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -474,6 +562,7 @@ private void unfocus(global::com.codename1.ui.Container n1){
     _r0_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r1.i);
     _r3.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r3.i == 0) goto label30;
+    _r0_o = _r0_o;
     ((global::com.codename1.components.Ads) _r5_o).unfocus((global::com.codename1.ui.Container) _r0_o);
     label27:;
     _r1.i = _r1.i + 1;
@@ -489,14 +578,23 @@ private void unfocus(global::com.codename1.ui.Container n1){
 
 public virtual global::System.Object fieldSubmitted(global::com.codename1.ui.html.HTMLComponent n1, global::com.codename1.ui.TextArea n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, int n6, global::java.lang.String n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String fieldSubmitted(com.codename1.ui.html.HTMLComponent, com.codename1.ui.TextArea, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -511,11 +609,17 @@ public virtual global::System.Object fieldSubmitted(global::com.codename1.ui.htm
 
 public virtual global::System.Object getAutoComplete(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getAutoComplete(com.codename1.ui.html.HTMLComponent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -530,9 +634,14 @@ public virtual global::System.Object getAutoComplete(global::com.codename1.ui.ht
 public virtual int getLinkProperties(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: int getLinkProperties(com.codename1.ui.html.HTMLComponent, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -544,9 +653,14 @@ public virtual int getLinkProperties(global::com.codename1.ui.html.HTMLComponent
 public virtual bool linkClicked(global::com.codename1.ui.html.HTMLComponent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: boolean linkClicked(com.codename1.ui.html.HTMLComponent, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -558,10 +672,15 @@ public virtual bool linkClicked(global::com.codename1.ui.html.HTMLComponent n1, 
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void actionPerformed(com.codename1.ui.events.ActionEvent, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -572,10 +691,15 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void focusGained(global::com.codename1.ui.Component n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void focusGained(com.codename1.ui.Component, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -586,10 +710,15 @@ public virtual void focusGained(global::com.codename1.ui.Component n1, global::c
 
 public virtual void focusLost(global::com.codename1.ui.Component n1, global::com.codename1.ui.html.HTMLComponent n2, global::com.codename1.ui.html.HTMLElement n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void focusLost(com.codename1.ui.Component, com.codename1.ui.html.HTMLComponent, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -600,12 +729,19 @@ public virtual void focusLost(global::com.codename1.ui.Component n1, global::com
 
 public virtual void dataChanged(int n1, int n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.TextField n4, global::com.codename1.ui.html.HTMLElement n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void dataChanged(int, int, com.codename1.ui.html.HTMLComponent, com.codename1.ui.TextField, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -619,12 +755,20 @@ public virtual void dataChanged(int n1, int n2, global::com.codename1.ui.html.HT
 public virtual bool parsingError(int n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: boolean parsingError(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -638,12 +782,19 @@ public virtual bool parsingError(int n1, global::java.lang.String n2, global::ja
 
 public virtual void selectionChanged(int n1, int n2, global::com.codename1.ui.html.HTMLComponent n3, global::com.codename1.ui.List n4, global::com.codename1.ui.html.HTMLElement n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void selectionChanged(int, int, com.codename1.ui.html.HTMLComponent, com.codename1.ui.List, com.codename1.ui.html.HTMLElement)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -656,15 +807,21 @@ public virtual void selectionChanged(int n1, int n2, global::com.codename1.ui.ht
 
 public override void setHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setHeight(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r2.f = (float) _r6.i;
@@ -708,8 +865,11 @@ public virtual void setAppID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setAppID(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.Ads) _r1_o)._fappId = (global::java.lang.String) _r2_o;
@@ -727,8 +887,11 @@ public virtual void setAppID(global::java.lang.String n1){
 
 public virtual global::System.Object getAppID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getAppID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fappId;
     return (global::java.lang.String) _r0_o;
@@ -737,8 +900,11 @@ public virtual global::System.Object getAppID(){
 
 public virtual void setGender(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setGender(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads) _r0_o)._fgender = (global::java.lang.String) _r1_o;
@@ -748,8 +914,11 @@ public virtual void setGender(global::java.lang.String n1){
 
 public virtual void setKeywords(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setKeywords(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads) _r0_o)._fkeywords = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
@@ -759,8 +928,11 @@ public virtual void setKeywords(global::org.xmlvm._nArrayAdapter<global::System.
 
 public virtual global::System.Object getAge(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getAge()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fage;
     return (global::java.lang.String) _r0_o;
@@ -769,8 +941,11 @@ public virtual global::System.Object getAge(){
 
 public virtual global::System.Object getGender(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getGender()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fgender;
     return (global::java.lang.String) _r0_o;
@@ -779,8 +954,11 @@ public virtual global::System.Object getGender(){
 
 public virtual global::System.Object getKeywords(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String[] getKeywords()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fkeywords;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -789,8 +967,11 @@ public virtual global::System.Object getKeywords(){
 
 public virtual void setAge(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setAge(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads) _r0_o)._fage = (global::java.lang.String) _r1_o;
@@ -800,8 +981,11 @@ public virtual void setAge(global::java.lang.String n1){
 
 public virtual void setCategory(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setCategory(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads) _r0_o)._fcategory = (global::java.lang.String) _r1_o;
@@ -811,8 +995,11 @@ public virtual void setCategory(global::java.lang.String n1){
 
 public virtual global::System.Object getCategory(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getCategory()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._fcategory;
     return (global::java.lang.String) _r0_o;
@@ -821,8 +1008,11 @@ public virtual global::System.Object getCategory(){
 
 public virtual void setLocation(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: void setLocation(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads) _r0_o)._flocation = (global::java.lang.String) _r1_o;
@@ -832,8 +1022,11 @@ public virtual void setLocation(global::java.lang.String n1){
 
 public virtual global::System.Object getLocation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String getLocation()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.Ads) _r1_o)._flocation;
     return (global::java.lang.String) _r0_o;
@@ -845,8 +1038,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 7;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -891,6 +1088,7 @@ public override global::System.Object getPropertyNames(){
 
 public override global::System.Object getPropertyTypes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.Class[] getPropertyTypes()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -898,8 +1096,11 @@ public override global::System.Object getPropertyTypes(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3.i = 0;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
@@ -935,9 +1136,14 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=String
     _r3_o = new global::java.lang.String();
@@ -988,8 +1194,12 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=appId
@@ -1060,10 +1270,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1073,6 +1288,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setAppID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1083,6 +1299,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label35;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Integer) _r4_o).intValue();
     ((global::com.codename1.components.Ads) _r2_o).setUpdateDuration((int) _r0.i);
     _r0_o = _r1_o;
@@ -1093,6 +1310,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label50;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setAge((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1102,6 +1320,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label65;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setGender((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1111,6 +1330,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label80;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setCategory((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1120,6 +1340,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label95;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setLocation((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1129,6 +1350,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label112;
+    _r4_o = _r4_o;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.Ads) _r2_o).setKeywords((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     _r0_o = _r1_o;
     goto label15;

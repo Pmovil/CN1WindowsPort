@@ -9,9 +9,13 @@ private global::java.lang.String _flocale;
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: void <init>(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -24,8 +28,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public virtual global::System.Object getLanguage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String getLanguage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.l10n.L10NManager) _r1_o)._flanguage;
     return (global::java.lang.String) _r0_o;
@@ -34,9 +41,13 @@ public virtual global::System.Object getLanguage(){
 
 public virtual void setLocale(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: void setLocale(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -48,10 +59,15 @@ public virtual void setLocale(global::java.lang.String n1, global::java.lang.Str
 
 public virtual global::System.Object format(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String format(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -68,10 +84,17 @@ public virtual global::System.Object format(int n1){
 
 public virtual global::System.Object format(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String format(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -88,10 +111,17 @@ public virtual global::System.Object format(double n1){
 
 public virtual global::System.Object formatCurrency(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatCurrency(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -108,8 +138,11 @@ public virtual global::System.Object formatCurrency(double n1){
 
 public virtual global::System.Object getCurrencySymbol(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String getCurrencySymbol()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=$
     _r0_o = new global::java.lang.String();
@@ -120,9 +153,13 @@ public virtual global::System.Object getCurrencySymbol(){
 
 public virtual global::System.Object formatDateLongStyle(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatDateLongStyle(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Date) _r2_o).toString();
@@ -132,9 +169,13 @@ public virtual global::System.Object formatDateLongStyle(global::java.util.Date 
 
 public virtual global::System.Object formatDateShortStyle(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatDateShortStyle(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Date) _r2_o).toString();
@@ -144,9 +185,13 @@ public virtual global::System.Object formatDateShortStyle(global::java.util.Date
 
 public virtual global::System.Object formatDateTime(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatDateTime(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Date) _r2_o).toString();
@@ -156,9 +201,13 @@ public virtual global::System.Object formatDateTime(global::java.util.Date n1){
 
 public virtual global::System.Object formatDateTimeMedium(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatDateTimeMedium(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Date) _r2_o).toString();
@@ -168,9 +217,13 @@ public virtual global::System.Object formatDateTimeMedium(global::java.util.Date
 
 public virtual global::System.Object formatDateTimeShort(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String formatDateTimeShort(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.util.Date) _r2_o).toString();
@@ -182,8 +235,11 @@ public virtual bool isRTLLocale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: boolean isRTLLocale()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=iw
     _r0_o = new global::java.lang.String();
@@ -209,8 +265,11 @@ public virtual bool isRTLLocale(){
 
 public virtual global::System.Object getLocale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String getLocale()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.l10n.L10NManager) _r1_o)._flocale;
     return (global::java.lang.String) _r0_o;
@@ -219,7 +278,9 @@ public virtual global::System.Object getLocale(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: com.codename1.l10n.L10NManager getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getLocalizationManager();
     return (global::com.codename1.l10n.L10NManager) _r0_o;
@@ -228,10 +289,17 @@ public static global::System.Object getInstance(){
 
 public virtual global::System.Object format(double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: java.lang.String format(double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r4.i = n2;
@@ -243,8 +311,14 @@ public virtual global::System.Object format(double n1, int n2){
 public virtual double parseDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: double parseDouble(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r3_o);
@@ -255,8 +329,14 @@ public virtual double parseDouble(global::java.lang.String n1){
 public virtual long parseLong(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: long parseLong(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.l = global::java.lang.Long.parseLong((global::java.lang.String) _r3_o);
@@ -267,8 +347,12 @@ public virtual long parseLong(global::java.lang.String n1){
 public virtual int parseInt(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: int parseInt(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r2_o);
@@ -278,14 +362,23 @@ public virtual int parseInt(global::java.lang.String n1){
 
 public virtual double parseCurrency(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.L10NManager: double parseCurrency(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r0_o = new global::java.lang.StringBuilder();

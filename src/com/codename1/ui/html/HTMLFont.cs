@@ -36,26 +36,39 @@ private global::org.xmlvm._nArrayAdapter<global::System.Object> _fcounterpartFon
 
 private static global::org.xmlvm._nArrayAdapter<int> _fSPECIAL_1FONT_1TAGS_1ID;
 
+private static char _fTOKEN = (char)46;
 
 public static global::java.util.Vector _fSPECIAL_1FONT_1TAGS;
 
 public void @this(global::java.lang.String n1, global::com.codename1.ui.Font n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: void <init>(java.lang.String, com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
@@ -255,7 +268,10 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Font n2)
 public virtual bool isSystemFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isSystemFont()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._fsystemFont ? 1 : 0;
     return _r0.i!=0;
@@ -265,7 +281,10 @@ public virtual bool isSystemFont(){
 public virtual bool isBold(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isBold()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._fbold ? 1 : 0;
     return _r0.i!=0;
@@ -275,7 +294,10 @@ public virtual bool isBold(){
 public virtual bool isItalic(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isItalic()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._fitalic ? 1 : 0;
     return _r0.i!=0;
@@ -285,9 +307,14 @@ public virtual bool isItalic(){
 public virtual bool isCounterpart(int n1, global::com.codename1.ui.html.HTMLFont n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isCounterpart(int, com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -312,6 +339,7 @@ public virtual bool isCounterpart(int n1, global::com.codename1.ui.html.HTMLFont
     label20:;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o).isSmallCounterpart((global::com.codename1.ui.html.HTMLFont) _r3_o) ? 1 : 0;
     goto label4;
+    label26:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isCounterpart(int, com.codename1.ui.html.HTMLFont)]
 }
 
@@ -319,9 +347,13 @@ public virtual bool isSameFamily(global::com.codename1.ui.html.HTMLFont n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isSameFamily(com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r2_o)._ffamily;
@@ -344,10 +376,16 @@ public virtual bool isSameFamily(global::com.codename1.ui.html.HTMLFont n1){
 private bool isBigCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isBigCounterpart(com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -374,10 +412,16 @@ private bool isBigCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 private bool isSmallCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isSmallCounterpart(com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -404,10 +448,16 @@ private bool isSmallCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 private bool isBoldCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isBoldCounterpart(com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -436,10 +486,16 @@ private bool isBoldCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 private bool isItalicCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: boolean isItalicCounterpart(com.codename1.ui.html.HTMLFont)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -467,8 +523,11 @@ private bool isItalicCounterpart(global::com.codename1.ui.html.HTMLFont n1){
 
 public virtual global::System.Object getFamily(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: java.lang.String getFamily()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._ffamily;
     return (global::java.lang.String) _r0_o;
@@ -477,8 +536,11 @@ public virtual global::System.Object getFamily(){
 
 public virtual global::System.Object getFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: com.codename1.ui.Font getFont()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._ffont;
     return (global::com.codename1.ui.Font) _r0_o;
@@ -488,6 +550,7 @@ public virtual global::System.Object getFont(){
 public virtual global::System.Object getCounterpartFont(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: com.codename1.ui.html.HTMLFont getCounterpartFont(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -495,10 +558,16 @@ public virtual global::System.Object getCounterpartFont(int n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r4.i = 16;
@@ -578,15 +647,21 @@ public virtual global::System.Object getCounterpartFont(int n1){
     label132:;
     _r0.i = _r3.i;
     goto label110;
+    label134:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: com.codename1.ui.html.HTMLFont getCounterpartFont(int)]
 }
 
 public virtual void setCounterpartFont(int n1, global::com.codename1.ui.html.HTMLFont n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: void setCounterpartFont(int, com.codename1.ui.html.HTMLFont)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -600,7 +675,9 @@ public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._ffont;
     _r0.i = ((global::com.codename1.ui.Font) _r0_o).getHeight();
@@ -612,8 +689,11 @@ public virtual int stringWidth(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: int stringWidth(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._ffont;
@@ -626,7 +706,9 @@ public virtual int getFace(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: int getFace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._ffont;
     _r0.i = ((global::com.codename1.ui.Font) _r0_o).getFace();
@@ -637,7 +719,10 @@ public virtual int getFace(){
 public virtual int getStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: int getStyle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._fstyle;
     return _r0.i;
@@ -647,7 +732,10 @@ public virtual int getStyle(){
 public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: int getSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r1_o)._fsize;
     return _r0.i;
@@ -659,7 +747,10 @@ public virtual int getSizeInPixels(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLFont) _r2_o)._fsystemFont ? 1 : 0;
     if (_r0.i == 0) goto label13;
@@ -675,14 +766,17 @@ public virtual int getSizeInPixels(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: int getSizeInPixels()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLFont: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 15;
     _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r1.i]);
     _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{13, 26, 11, 10, 24, 20, 27, 9, 14, 15, 16, 17, 18, 19, 64});
@@ -705,6 +799,7 @@ new public static void @static(){
     goto label17;
     label38:;
     return;
+    label40:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLFont: void <clinit>()]
 }
 

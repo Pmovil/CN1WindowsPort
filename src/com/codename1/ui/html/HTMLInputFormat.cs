@@ -20,13 +20,19 @@ private global::java.util.Vector _fformatConstraints;
 
 public static global::System.Object getInputFormat(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: com.codename1.ui.html.HTMLInputFormat getInputFormat(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
@@ -81,11 +87,17 @@ public static global::System.Object getInputFormat(global::java.lang.String n1){
 private void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
@@ -93,8 +105,12 @@ private void @this(global::java.lang.String n1){
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = -2147483648;
@@ -226,20 +242,33 @@ private void @this(global::java.lang.String n1){
 
 public virtual global::System.Object applyConstraints(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: com.codename1.ui.TextArea applyConstraints(com.codename1.ui.TextArea)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     // Value=abc
@@ -258,6 +287,7 @@ public virtual global::System.Object applyConstraints(global::com.codename1.ui.T
     _r6.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r6.i == 0) goto label39;
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r1_o = _r1_o;
     _r3.i = 1;
     label26:;
     _r6.i = 16;
@@ -285,6 +315,7 @@ public virtual global::System.Object applyConstraints(global::com.codename1.ui.T
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r6.i == 0) goto label109;
     _r0_o = _r12_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r6.i = _r5.i & 8;
     if (_r6.i != 0) goto label96;
@@ -348,16 +379,25 @@ public virtual global::System.Object applyConstraints(global::com.codename1.ui.T
 
 private void excludeInputMode(global::com.codename1.ui.TextField n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: void excludeInputMode(com.codename1.ui.TextField, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -392,17 +432,28 @@ private void excludeInputMode(global::com.codename1.ui.TextField n1, global::jav
 public virtual bool verifyString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: boolean verifyString(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = -2147483648;
@@ -431,6 +482,7 @@ public virtual bool verifyString(global::java.lang.String n1){
     _r5.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label104;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
+    _r2_o = _r2_o;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._fcount;
     if (_r5.i != _r8.i) goto label79;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._ftype;
@@ -473,6 +525,7 @@ public virtual bool verifyString(global::java.lang.String n1){
     _r5.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label145;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
+    _r2_o = _r2_o;
     _r5.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r2_o)._fcount;
     if (_r5.i != _r8.i) goto label127;
     _r5.i = _r7.i;
@@ -486,12 +539,20 @@ public virtual bool verifyString(global::java.lang.String n1){
 private bool verifyChar(char n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: boolean verifyChar(char, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -545,19 +606,29 @@ private bool verifyChar(char n1, int n2){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r9.i = -1;
     // Value=
@@ -577,6 +648,7 @@ public override global::System.Object toString(){
     _r7.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label147;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
+    _r0_o = _r0_o;
     _r7.i = ((global::com.codename1.ui.html.HTMLInputFormat_2FormatConstraint) _r0_o)._fcount;
     _r8.i = -2147483648;
     if (_r7.i != _r8.i) goto label85;
@@ -648,10 +720,13 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLInputFormat: java.lang.String toString()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLInputFormat: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = 8;
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[_r1.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<char>(new char[]{(char)97, (char)65, (char)110, (char)78, (char)120, (char)88, (char)109, (char)77});
@@ -660,6 +735,8 @@ new public static void @static(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{9, 10, 12, 4, 13, 14, 17, 18});
     global::com.codename1.ui.html.HTMLInputFormat._fliteralConstraints = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
+    label18:;
+    label30:;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLInputFormat: void <clinit>()]
 }
 

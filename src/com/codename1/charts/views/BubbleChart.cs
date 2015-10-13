@@ -12,23 +12,32 @@ static BubbleChart() {
 
 public static global::java.lang.String _fTYPE;
 
+private static int _fSHAPE_1WIDTH = 10;
 
+private static int _fMIN_1BUBBLE_1SIZE = 2;
 
+private static int _fMAX_1BUBBLE_1SIZE = 20;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.charts.views.XYChart) _r0_o).@this();
     return;
 //XMLVM_END_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>()]
 }
 
-new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
+public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -39,31 +48,57 @@ new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDatase
 
 public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, global::com.codename1.charts.compat.Paint n2, global::java.util.List n3, global::com.codename1.charts.renderers.XYSeriesRenderer n4, float n5, int n6, int n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void drawSeries(com.codename1.charts.compat.Canvas, com.codename1.charts.compat.Paint, java.util.List, com.codename1.charts.renderers.XYSeriesRenderer, float, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19_o = n2;
@@ -87,6 +122,7 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r2_o;
     _r1.i = _r23.i;
     _r14_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r0_o).getSeriesAt((int) _r1.i);
+    _r14_o = _r14_o;
     _r12.d = ((global::com.codename1.charts.models.XYValueSeries) _r14_o).getMaxValue();
     _r2.d = 20.0D;
     _r8.d = _r2.d / _r12.d;
@@ -102,11 +138,13 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r20_o;
     _r1.i = _r10.i;
     _r21_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r21_o = _r21_o;
     _r5.f = ((global::java.lang.Float) _r21_o).floatValue();
     _r2.i = _r10.i + 1;
     _r0_o = _r20_o;
     _r1.i = _r2.i;
     _r21_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r21_o = _r21_o;
     _r6.f = ((global::java.lang.Float) _r21_o).floatValue();
     _r7.f = (float) _r15.d;
     _r2_o = _r17_o;
@@ -125,30 +163,56 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r22_o = n2;
@@ -162,6 +226,7 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r2_o;
     _r1.i = _r24.i;
     _r17_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r0_o).getSeriesAt((int) _r1.i);
+    _r17_o = _r17_o;
     _r14.d = ((global::com.codename1.charts.models.XYValueSeries) _r17_o).getMaxValue();
     _r2.d = 20.0D;
     _r10.d = _r2.d / _r14.d;
@@ -185,6 +250,7 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r2.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -195,6 +261,7 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r4.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r4.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -204,6 +271,7 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r6.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -214,6 +282,7 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r21_o;
     _r1.i = _r8.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r8.f = ((global::java.lang.Float) _r20_o).floatValue();
     _r0.d = _r18.d;
     _r0.f = (float) _r0.d;
@@ -224,11 +293,13 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
     _r0_o = _r22_o;
     _r1.i = _r12.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r4.d = ((global::java.lang.Double) _r20_o).doubleValue();
     _r2.i = _r12.i + 1;
     _r0_o = _r22_o;
     _r1.i = _r2.i;
     _r20_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r20_o = _r20_o;
     _r6.d = ((global::java.lang.Double) _r20_o).doubleValue();
     _r2_o = _r15_o;
     ((global::com.codename1.charts.views.ClickableArea) _r2_o).@this((global::com.codename1.ui.geom.Rectangle2D) _r3_o, (double) _r4.d, (double) _r6.d);
@@ -243,8 +314,12 @@ public override global::System.Object clickableAreasForPoints(global::java.util.
 public override int getLegendShapeWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: int getLegendShapeWidth(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 10;
@@ -256,18 +331,31 @@ public override void drawLegendShape(global::com.codename1.charts.compat.Canvas 
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void drawLegendShape(com.codename1.charts.compat.Canvas, com.codename1.charts.renderers.SimpleSeriesRenderer, float, float, int, com.codename1.charts.compat.Paint)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -291,12 +379,19 @@ public override void drawLegendShape(global::com.codename1.charts.compat.Canvas 
 
 private void drawCircle(global::com.codename1.charts.compat.Canvas n1, global::com.codename1.charts.compat.Paint n2, float n3, float n4, float n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: void drawCircle(com.codename1.charts.compat.Canvas, com.codename1.charts.compat.Paint, float, float, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -310,8 +405,11 @@ private void drawCircle(global::com.codename1.charts.compat.Canvas n1, global::c
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.BubbleChart: java.lang.String getChartType()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=Bubble
     _r0_o = new global::java.lang.String();

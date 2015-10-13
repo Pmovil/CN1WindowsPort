@@ -13,8 +13,11 @@ public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$LinkInfo: void <init>(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -30,15 +33,21 @@ public void @this(int n1){
 
 public virtual void add(global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$LinkInfo: void add(com.codename1.ui.layouts.GroupLayout$ComponentInfo)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o)._faxis;
@@ -64,6 +73,7 @@ public virtual void add(global::com.codename1.ui.layouts.GroupLayout_2ComponentI
     if (_r2.i >= _r3.i) goto label19;
     _r3_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r1_o)._flinked;
     _r0_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
+    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o)._faxis;
     global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo.access_21400((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o, (int) _r3.i, (global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o);
     _r2.i = _r2.i + 1;
@@ -76,9 +86,14 @@ public virtual void remove(global::com.codename1.ui.layouts.GroupLayout_2Compone
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;
@@ -93,6 +108,7 @@ public virtual void remove(global::com.codename1.ui.layouts.GroupLayout_2Compone
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r3_o)._flinked;
     _r1.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r1.i);
+    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r3_o)._faxis;
     global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo.access_21400((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o, (int) _r1.i, (global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r2_o);
     label34:;
@@ -104,7 +120,10 @@ public virtual void remove(global::com.codename1.ui.layouts.GroupLayout_2Compone
 public virtual void clearCachedSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$LinkInfo: void clearCachedSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -2147483648;
     ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r1_o)._fsize = _r0.i;
@@ -115,9 +134,14 @@ public virtual void clearCachedSize(){
 public virtual int getSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$LinkInfo: int getSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r2_o)._fsize;
@@ -134,13 +158,20 @@ public virtual int getSize(int n1){
 private int calculateLinkedSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$LinkInfo: int calculateLinkedSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r2.i = 0;
@@ -151,6 +182,7 @@ private int calculateLinkedSize(int n1){
     if (_r0.i >= _r4.i) goto label37;
     _r4_o = ((global::com.codename1.ui.layouts.GroupLayout_2LinkInfo) _r5_o)._flinked;
     _r1_o = ((global::java.util.ArrayList) _r4_o).get((int) _r0.i);
+    _r1_o = _r1_o;
     _r4.i = 1;
     if (_r6.i != _r4.i) goto label34;
     _r3_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fhorizontalSpring;

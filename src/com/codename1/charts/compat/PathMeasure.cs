@@ -10,9 +10,14 @@ public bool _fforceClosed;
 public void @this(global::com.codename1.ui.geom.GeneralPath n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.PathMeasure: void <init>(com.codename1.ui.geom.GeneralPath, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
@@ -28,7 +33,10 @@ public void @this(global::com.codename1.ui.geom.GeneralPath n1, bool n2){
 public virtual float getLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.PathMeasure: float getLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = (float)10.0D;
     return _r0.f;
@@ -37,10 +45,15 @@ public virtual float getLength(){
 
 public virtual void getPosTan(int n1, global::org.xmlvm._nArrayAdapter<float> n2, global::org.xmlvm._nArrayAdapter<float> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.PathMeasure: void getPosTan(int, float[], float[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;

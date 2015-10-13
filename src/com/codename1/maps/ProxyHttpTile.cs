@@ -9,16 +9,23 @@ private global::java.lang.String _f_1url;
 
 public void @this(global::com.codename1.ui.geom.Dimension n1, global::com.codename1.maps.BoundingBox n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.ProxyHttpTile: void <init>(com.codename1.ui.geom.Dimension, com.codename1.maps.BoundingBox, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -82,8 +89,11 @@ public override bool paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.ProxyHttpTile: boolean paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.maps.ProxyHttpTile) _r1_o)._f_1tile;
@@ -100,8 +110,11 @@ public override bool paint(global::com.codename1.ui.Graphics n1){
 
 public static global::System.Object access_2002(global::com.codename1.maps.ProxyHttpTile n1, global::com.codename1.maps.Tile n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.ProxyHttpTile: com.codename1.maps.Tile access$002(com.codename1.maps.ProxyHttpTile, com.codename1.maps.Tile)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.maps.ProxyHttpTile) _r0_o)._f_1tile = (global::com.codename1.maps.Tile) _r1_o;

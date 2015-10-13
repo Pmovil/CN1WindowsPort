@@ -28,10 +28,13 @@ public bool _fscrollListenerArray;
 
 private static bool _ffireStyleEventsOnNonEDT;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 0;
@@ -43,6 +46,8 @@ new public void @this(){
 public static void setFireStyleEventsOnNonEDT(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void setFireStyleEventsOnNonEDT(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.util.EventDispatcher._ffireStyleEventsOnNonEDT = 0!=_r0.i;
     return;
@@ -53,7 +58,9 @@ public virtual void addListener(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void addListener(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -106,9 +113,13 @@ public virtual void addListener(global::java.lang.Object n1){
 
 public virtual global::System.Object getListenerVector(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: java.util.Vector getListenerVector()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.util.Vector();
     _r1_o = ((global::com.codename1.ui.util.EventDispatcher) _r2_o)._flisteners;
@@ -119,8 +130,11 @@ public virtual global::System.Object getListenerVector(){
 
 public virtual global::System.Object getListenerCollection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: java.util.Collection getListenerCollection()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r1_o)._flisteners;
     return (global::java.util.Collection) _r0_o;
@@ -129,8 +143,11 @@ public virtual global::System.Object getListenerCollection(){
 
 public virtual void removeListener(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void removeListener(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -164,18 +181,28 @@ public virtual void removeListener(global::java.lang.Object n1){
 
 public virtual void fireDataChangeEvent(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireDataChangeEvent(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
@@ -198,6 +225,7 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.DataChangedListener) _r0_o).dataChanged((int) _r10.i, (int) _r9.i);
     goto label14;
     label45:;
@@ -223,6 +251,7 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -292,19 +321,29 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireBindTargetChange(com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
@@ -343,6 +382,7 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     if (_r7.i >= _r0.i) goto label40;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
+    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r0_o;
     _r7.i = _r7.i + 1;
     goto label24;
@@ -423,14 +463,22 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
 private void fireBindTargetChangeSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.ui.Component n2, global::java.lang.String n3, global::java.lang.Object n4, global::java.lang.Object n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireBindTargetChangeSync(com.codename1.cloud.BindTarget[], com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -452,17 +500,27 @@ private void fireBindTargetChangeSync(global::org.xmlvm._nArrayAdapter<global::S
 
 public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::com.codename1.ui.plaf.Style n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireStyleChangeEvent(java.lang.String, com.codename1.ui.plaf.Style)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
@@ -486,6 +544,7 @@ public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::co
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.StyleListener) _r0_o).styleChanged((global::java.lang.String) _r9_o, (global::com.codename1.ui.plaf.Style) _r10_o);
     goto label14;
     label45:;
@@ -511,6 +570,7 @@ public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::co
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -575,12 +635,18 @@ public virtual void fireStyleChangeEvent(global::java.lang.String n1, global::co
 private void fireDataChangeSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireDataChangeSync(com.codename1.ui.events.DataChangedListener[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -601,12 +667,18 @@ private void fireDataChangeSync(global::org.xmlvm._nArrayAdapter<global::System.
 private void fireStyleChangeSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::java.lang.String n2, global::com.codename1.ui.plaf.Style n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireStyleChangeSync(com.codename1.ui.events.StyleListener[], java.lang.String, com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -627,12 +699,18 @@ private void fireStyleChangeSync(global::org.xmlvm._nArrayAdapter<global::System
 private void fireSelectionSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireSelectionSync(com.codename1.ui.events.SelectionListener[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -653,14 +731,22 @@ private void fireSelectionSync(global::org.xmlvm._nArrayAdapter<global::System.O
 private void fireScrollSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireScrollSync(com.codename1.ui.events.ScrollListener[], int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -682,15 +768,23 @@ private void fireScrollSync(global::org.xmlvm._nArrayAdapter<global::System.Obje
 
 public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireActionEvent(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -713,6 +807,7 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r6.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.ActionListener) _r0_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r8_o);
     goto label13;
     label45:;
@@ -738,6 +833,7 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -801,18 +897,28 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void fireSelectionEvent(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireSelectionEvent(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
@@ -835,6 +941,7 @@ public virtual void fireSelectionEvent(int n1, int n2){
     if (_r5.i != _r6.i) goto label45;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.events.SelectionListener) _r0_o).selectionChanged((int) _r9.i, (int) _r10.i);
     goto label14;
     label45:;
@@ -860,6 +967,7 @@ public virtual void fireSelectionEvent(int n1, int n2){
     if (_r4.i >= _r5.i) goto label71;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label55;
@@ -929,20 +1037,34 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireScrollEvent(int, int, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.i = n1;
@@ -967,6 +1089,7 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     if (_r0.i != _r2.i) goto label45;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
     _r6_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
+    _r6_o = _r6_o;
     ((global::com.codename1.ui.events.ScrollListener) _r6_o).scrollChanged((int) _r11.i, (int) _r12.i, (int) _r13.i, (int) _r14.i);
     goto label14;
     label45:;
@@ -992,6 +1115,7 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     if (_r9.i >= _r0.i) goto label71;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r9.i);
+    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r9.i] = _r0_o;
     _r9.i = _r9.i + 1;
     goto label55;
@@ -1069,11 +1193,16 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
 private void fireActionSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireActionSync(com.codename1.ui.events.ActionListener[], com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1097,15 +1226,23 @@ private void fireActionSync(global::org.xmlvm._nArrayAdapter<global::System.Obje
 
 public virtual void fireFocus(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireFocus(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -1128,6 +1265,7 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r6.i = 0;
     _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
+    _r0_o = _r0_o;
     _r5.i = ((global::com.codename1.ui.Component) _r8_o).hasFocus() ? 1 : 0;
     if (_r5.i == 0) goto label51;
     ((global::com.codename1.ui.events.FocusListener) _r0_o).focusGained((global::com.codename1.ui.Component) _r8_o);
@@ -1158,6 +1296,7 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     if (_r4.i >= _r5.i) goto label81;
     _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
     _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r5_o = _r5_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
     _r4.i = _r4.i + 1;
     goto label65;
@@ -1222,11 +1361,16 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
 private void fireFocusSync(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireFocusSync(com.codename1.ui.events.FocusListener[], com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1258,7 +1402,9 @@ public virtual bool hasListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: boolean hasListeners()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r1_o)._flisteners;
     if (_r0_o == null) goto label14;
@@ -1277,7 +1423,10 @@ public virtual bool hasListeners(){
 public virtual bool isBlocking(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: boolean isBlocking()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.util.EventDispatcher) _r1_o)._fblocking ? 1 : 0;
     return _r0.i!=0;
@@ -1286,8 +1435,11 @@ public virtual bool isBlocking(){
 
 public virtual void setBlocking(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void setBlocking(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o)._fblocking = 0!=_r1.i;
@@ -1297,10 +1449,15 @@ public virtual void setBlocking(bool n1){
 
 public static void access_2000(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.lang.String n3, global::com.codename1.ui.plaf.Style n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$000(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.StyleListener[], java.lang.String, com.codename1.ui.plaf.Style)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1312,9 +1469,13 @@ public static void access_2000(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2100(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.ui.events.ActionEvent n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$100(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.ActionListener[], com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1325,9 +1486,13 @@ public static void access_2100(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2200(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.ui.Component n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$200(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.FocusListener[], com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1338,10 +1503,15 @@ public static void access_2200(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2300(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$300(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.DataChangedListener[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2.i = n3;
@@ -1353,10 +1523,15 @@ public static void access_2300(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2400(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$400(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.SelectionListener[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2.i = n3;
@@ -1368,12 +1543,19 @@ public static void access_2400(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2500(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, int n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$500(com.codename1.ui.util.EventDispatcher, com.codename1.ui.events.ScrollListener[], int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2.i = n3;
@@ -1387,12 +1569,19 @@ public static void access_2500(global::com.codename1.ui.util.EventDispatcher n1,
 
 public static void access_2600(global::com.codename1.ui.util.EventDispatcher n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.ui.Component n3, global::java.lang.String n4, global::java.lang.Object n5, global::java.lang.Object n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$600(com.codename1.ui.util.EventDispatcher, com.codename1.cloud.BindTarget[], com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1404,9 +1593,11 @@ public static void access_2600(global::com.codename1.ui.util.EventDispatcher n1,
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void access$600(com.codename1.ui.util.EventDispatcher, com.codename1.cloud.BindTarget[], com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EventDispatcher: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.ui.util.EventDispatcher._ffireStyleEventsOnNonEDT = 0!=_r0.i;
     return;

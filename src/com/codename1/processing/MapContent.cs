@@ -9,8 +9,11 @@ private global::com.codename1.processing.StructuredContent _fparent;
 
 public void @this(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.util.Map)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -21,12 +24,19 @@ public void @this(global::java.util.Map n1){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=UTF-8
@@ -50,10 +60,15 @@ public void @this(global::java.lang.String n1){
 
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::com.codename1.io.JSONParser();
@@ -68,9 +83,13 @@ public void @this(global::java.io.InputStream n1){
 
 public void @this(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.io.Reader)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.io.JSONParser();
@@ -83,9 +102,13 @@ public void @this(global::java.io.Reader n1){
 
 public void @this(global::java.lang.Object n1, global::com.codename1.processing.StructuredContent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void <init>(java.lang.Object, com.codename1.processing.StructuredContent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -100,9 +123,13 @@ public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String toString()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     // Value=ROOT
     _r2_o = new global::java.lang.String();
@@ -111,21 +138,25 @@ public override global::System.Object toString(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.util.Map)) ? 1 : 0;
     if (_r0.i == 0) goto label46;
     _r0_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
+    _r0_o = _r0_o;
     // Value=ROOT
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84))}));
     _r0.i = ((global::java.util.Map) _r0_o).containsKey((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r0.i == 0) goto label37;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
+    _r3_o = _r3_o;
     // Value=ROOT
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 84))}));
     _r3_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r2_o);
+    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.Map) _r3_o);
     label36:;
     return (global::java.lang.String) _r0_o;
     label37:;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
+    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.Map) _r3_o);
     goto label36;
     label46:;
@@ -133,6 +164,7 @@ public override global::System.Object toString(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label61;
     _r3_o = ((global::com.codename1.processing.MapContent) _r3_o)._froot;
+    _r3_o = _r3_o;
     _r0_o = global::com.codename1.processing.PrettyPrinter.print((global::java.util.List) _r3_o);
     goto label36;
     label61:;
@@ -146,7 +178,9 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._froot;
     _r0.i = ((global::java.lang.Object) _r0_o).hashCode();
@@ -159,8 +193,12 @@ public override bool equals(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
@@ -178,13 +216,19 @@ public override bool equals(global::java.lang.Object n1){
 
 private global::System.Object _1asStructuredContentArray(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List _asStructuredContentArray(java.util.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     if (_r5_o != null) goto label4;
@@ -205,6 +249,7 @@ private global::System.Object _1asStructuredContentArray(global::java.util.List 
     _r3.i = ((_r2_o != null) && (_r2_o is global::java.util.Map)) ? 1 : 0;
     if (_r3.i == 0) goto label48;
     _r3_o = new global::com.codename1.processing.MapContent();
+    _r2_o = _r2_o;
     ((global::com.codename1.processing.MapContent) _r3_o).@this((global::java.lang.Object) _r2_o, (global::com.codename1.processing.StructuredContent) _r4_o);
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r3_o);
     goto label17;
@@ -227,17 +272,27 @@ private global::System.Object _1asStructuredContentArray(global::java.util.List 
 
 public virtual global::System.Object getChildren(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List getChildren(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r6_o = ((global::com.codename1.processing.MapContent) _r8_o)._froot;
@@ -259,6 +314,7 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     _r6.i = ((_r3_o != null) && (_r3_o is global::java.util.List)) ? 1 : 0;
     if (_r6.i == 0) goto label79;
     _r5_o = null;
+    _r3_o = _r3_o;
     _r2_o = ((global::java.util.List) _r3_o).iterator();
     label33:;
     _r6.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
@@ -267,6 +323,7 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     _r6.i = ((_r5_o != null) && (_r5_o is global::java.util.Map)) ? 1 : 0;
     if (_r6.i == 0) goto label71;
     _r0_o = _r5_o;
+    _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6.i = ((global::java.util.Map) _r6_o).containsKey((global::java.lang.Object) _r9_o) ? 1 : 0;
     if (_r6.i == 0) goto label71;
@@ -289,6 +346,7 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     ((global::java.util.ArrayList) _r6_o).@this();
     goto label11;
     label79:;
+    _r3_o = _r3_o;
     _r3_o = ((global::java.util.Map) _r3_o).get((global::java.lang.Object) _r9_o);
     if (_r3_o != null) goto label101;
     if (_r4.i == 0) goto label95;
@@ -302,6 +360,7 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     label101:;
     _r6.i = ((_r3_o != null) && (_r3_o is global::java.util.List)) ? 1 : 0;
     if (_r6.i == 0) goto label112;
+    _r3_o = _r3_o;
     _r6_o = ((global::com.codename1.processing.MapContent) _r8_o)._1asStructuredContentArray((global::java.util.List) _r3_o);
     goto label11;
     label112:;
@@ -313,6 +372,7 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
     ((global::java.util.Vector) _r1_o).@this();
     label125:;
     _r6_o = new global::com.codename1.processing.MapContent();
+    _r3_o = _r3_o;
     ((global::com.codename1.processing.MapContent) _r6_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.processing.StructuredContent) _r8_o);
     ((global::java.util.List) _r1_o).add((global::java.lang.Object) _r6_o);
     _r6_o = _r1_o;
@@ -344,15 +404,23 @@ public virtual global::System.Object getChildren(global::java.lang.String n1){
 
 public virtual global::System.Object getChild(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: com.codename1.processing.StructuredContent getChild(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r4_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
@@ -360,6 +428,7 @@ public virtual global::System.Object getChild(int n1){
     if (_r4.i == 0) goto label21;
     _r5_o = new global::com.codename1.processing.MapContent();
     _r4_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
+    _r4_o = _r4_o;
     _r4_o = ((global::java.util.List) _r4_o).get((int) _r7.i);
     ((global::com.codename1.processing.MapContent) _r5_o).@this((global::java.lang.Object) _r4_o, (global::com.codename1.processing.StructuredContent) _r6_o);
     _r4_o = _r5_o;
@@ -367,6 +436,7 @@ public virtual global::System.Object getChild(int n1){
     return (global::com.codename1.processing.StructuredContent) _r4_o;
     label21:;
     _r1_o = ((global::com.codename1.processing.MapContent) _r6_o)._froot;
+    _r1_o = _r1_o;
     if (_r7.i < 0) goto label33;
     _r4.i = ((global::java.util.Map) _r1_o).size();
     if (_r7.i < _r4.i) goto label35;
@@ -392,11 +462,15 @@ public virtual global::System.Object getChild(int n1){
 
 public virtual global::System.Object getDescendants(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.List getDescendants(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
@@ -413,6 +487,7 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r1.i == 0) goto label37;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r2_o)._1findByName((global::java.util.List) _r0_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r3_o);
     label30:;
     return (global::java.util.List) _r0_o;
@@ -425,6 +500,7 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r1.i == 0) goto label30;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r2_o)._1findByName((global::java.util.List) _r0_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r3_o);
     goto label30;
 //XMLVM_END_WRAPPER[com.codename1.processing.MapContent: java.util.List getDescendants(java.lang.String)]
@@ -433,12 +509,20 @@ public virtual global::System.Object getDescendants(global::java.lang.String n1)
 private void _1findByName(global::java.util.List n1, global::java.util.List n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void _findByName(java.util.List, java.util.List, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -450,6 +534,7 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
     _r1_o = ((global::java.util.List) _r5_o).get((int) _r0.i);
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r2.i == 0) goto label23;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r3_o)._1findByName((global::java.util.List) _r4_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r6_o);
     label20:;
     _r0.i = _r0.i + 1;
@@ -457,6 +542,7 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
     label23:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r2.i == 0) goto label20;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r3_o)._1findByName((global::java.util.List) _r4_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r6_o);
     goto label20;
     label33:;
@@ -466,15 +552,23 @@ private void _1findByName(global::java.util.List n1, global::java.util.List n2, 
 
 private void _1findByName(global::java.util.List n1, global::java.util.Map n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: void _findByName(java.util.List, java.util.Map, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -484,6 +578,7 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     _r1_o = ((global::java.util.Map) _r6_o).get((global::java.lang.Object) _r7_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r2.i == 0) goto label47;
+    _r1_o = _r1_o;
     ((global::java.util.List) _r5_o).add((global::java.lang.Object) _r1_o);
     label19:;
     _r2_o = ((global::java.util.Map) _r6_o).values();
@@ -494,6 +589,7 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     _r1_o = ((global::java.util.Iterator) _r0_o).next();
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.List)) ? 1 : 0;
     if (_r2.i == 0) goto label61;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r4_o)._1findByName((global::java.util.List) _r5_o, (global::java.util.List) _r1_o, (global::java.lang.String) _r7_o);
     goto label27;
     label47:;
@@ -506,6 +602,7 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
     label61:;
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Map)) ? 1 : 0;
     if (_r2.i == 0) goto label27;
+    _r1_o = _r1_o;
     ((global::com.codename1.processing.MapContent) _r4_o)._1findByName((global::java.util.List) _r5_o, (global::java.util.Map) _r1_o, (global::java.lang.String) _r7_o);
     goto label27;
     label71:;
@@ -515,9 +612,13 @@ private void _1findByName(global::java.util.List n1, global::java.util.Map n2, g
 
 public virtual global::System.Object getAttribute(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String getAttribute(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -527,8 +628,11 @@ public virtual global::System.Object getAttribute(global::java.lang.String n1){
 
 public virtual global::System.Object getAttributes(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.util.Map getAttributes()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     return (global::java.util.Map) _r0_o;
@@ -537,8 +641,11 @@ public virtual global::System.Object getAttributes(){
 
 public virtual global::System.Object getParent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: com.codename1.processing.StructuredContent getParent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._fparent;
     if (_r0_o != null) goto label6;
@@ -553,15 +660,19 @@ public virtual global::System.Object getParent(){
 
 public virtual global::System.Object getText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.String getText()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label12;
     _r2_o = ((global::com.codename1.processing.MapContent) _r2_o)._froot;
+    _r2_o = _r2_o;
     _r1_o = _r2_o;
     label11:;
     return (global::java.lang.String) _r1_o;
@@ -576,6 +687,7 @@ public virtual global::System.Object getText(){
     _r1.i = ((_r1_o != null) && (_r1_o is global::java.lang.String)) ? 1 : 0;
     if (_r1.i == 0) goto label37;
     _r2_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getNativeRoot();
+    _r2_o = _r2_o;
     _r1_o = _r2_o;
     goto label11;
     label37:;
@@ -586,8 +698,11 @@ public virtual global::System.Object getText(){
 
 public virtual global::System.Object getNativeRoot(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.MapContent: java.lang.Object getNativeRoot()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.MapContent) _r1_o)._froot;
     return (global::java.lang.Object) _r0_o;

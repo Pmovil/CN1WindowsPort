@@ -17,10 +17,15 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 
 public void @this(global::com.codename1.ui.html.HTMLEventsListener n1, global::com.codename1.ui.html.HTMLElement n2, global::com.codename1.ui.TextField n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener$2: void <init>(com.codename1.ui.html.HTMLEventsListener, com.codename1.ui.html.HTMLElement, com.codename1.ui.TextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -35,17 +40,25 @@ public void @this(global::com.codename1.ui.html.HTMLEventsListener n1, global::c
 
 public virtual void dataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLEventsListener$2: void dataChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
