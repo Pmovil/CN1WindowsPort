@@ -11,11 +11,15 @@ private int _farrowWidth;
 
 private int _farrowHeight;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.maps.Mercator();
     ((global::com.codename1.maps.Mercator) _r0_o).@this();
@@ -27,11 +31,15 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void <init>()]
 }
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::com.codename1.maps.Mercator();
@@ -41,12 +49,17 @@ new public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void <init>(java.lang.String)]
 }
 
-new public void @this(global::com.codename1.maps.Projection n1, global::java.lang.String n2){
+public void @this(global::com.codename1.maps.Projection n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void <init>(com.codename1.maps.Projection, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -69,32 +82,61 @@ public override void paintSegment(global::com.codename1.ui.Graphics n1, global::
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r25_o = this;
     _r26_o = n1;
     _r27_o = n2;
@@ -356,15 +398,28 @@ public override void paintSegment(global::com.codename1.ui.Graphics n1, global::
 private void drawArrow(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Point n2, global::com.codename1.ui.geom.Point n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void drawArrow(com.codename1.ui.Graphics, com.codename1.ui.geom.Point, com.codename1.ui.geom.Point)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -421,12 +476,20 @@ private void drawArrow(global::com.codename1.ui.Graphics n1, global::com.codenam
 private int calculateLength(global::com.codename1.ui.geom.Point n1, global::com.codename1.ui.geom.Point n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: int calculateLength(com.codename1.ui.geom.Point, com.codename1.ui.geom.Point)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -450,8 +513,16 @@ private int calculateLength(global::com.codename1.ui.geom.Point n1, global::com.
 private double sqr(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: double sqr(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r0.d = _r3.d * _r3.d;
@@ -462,7 +533,10 @@ private double sqr(double n1){
 public virtual int getArrowHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: int getArrowHeight()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.maps.layers.ArrowLinesLayer) _r1_o)._farrowHeight;
     return _r0.i;
@@ -471,8 +545,11 @@ public virtual int getArrowHeight(){
 
 public virtual void setArrowHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void setArrowHeight(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.maps.layers.ArrowLinesLayer) _r0_o)._farrowHeight = _r1.i;
@@ -483,7 +560,10 @@ public virtual void setArrowHeight(int n1){
 public virtual int getArrowSegmentLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: int getArrowSegmentLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.maps.layers.ArrowLinesLayer) _r1_o)._farrowSegmentLength;
     return _r0.i;
@@ -492,8 +572,11 @@ public virtual int getArrowSegmentLength(){
 
 public virtual void setArrowSegmentLength(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void setArrowSegmentLength(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.maps.layers.ArrowLinesLayer) _r0_o)._farrowSegmentLength = _r1.i;
@@ -504,7 +587,10 @@ public virtual void setArrowSegmentLength(int n1){
 public virtual int getArrowWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: int getArrowWidth()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.maps.layers.ArrowLinesLayer) _r1_o)._farrowWidth;
     return _r0.i;
@@ -513,8 +599,11 @@ public virtual int getArrowWidth(){
 
 public virtual void setArrowWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.layers.ArrowLinesLayer: void setArrowWidth(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.maps.layers.ArrowLinesLayer) _r0_o)._farrowWidth = _r1.i;

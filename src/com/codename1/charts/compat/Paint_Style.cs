@@ -20,10 +20,13 @@ public static global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint$Style: com.codename1.charts.compat.Paint$Style[] values()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 0;
     _r0_o = global::com.codename1.charts.compat.Paint_2Style._f_2VALUES;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -38,20 +41,28 @@ public static global::System.Object values(){
 
 public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint$Style: com.codename1.charts.compat.Paint$Style valueOf(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.charts.compat.Paint_2Style));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.charts.compat.Paint_2Style) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.compat.Paint$Style: com.codename1.charts.compat.Paint$Style valueOf(java.lang.String)]
 }
 
-new private void @this(global::java.lang.String n1, int n2){
+private void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint$Style: void <init>(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -60,14 +71,19 @@ new private void @this(global::java.lang.String n1, int n2){
 //XMLVM_END_WRAPPER[com.codename1.charts.compat.Paint$Style: void <init>(java.lang.String, int)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.compat.Paint$Style: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = 2;
     _r3.i = 1;
     _r2.i = 0;

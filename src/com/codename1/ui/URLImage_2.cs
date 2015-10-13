@@ -3,9 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class URLImage_22: global::java.lang.Object,global::com.codename1.ui.URLImage_2ImageAdapter {
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$2: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -17,9 +19,14 @@ public virtual global::System.Object adaptImage(global::com.codename1.ui.Encoded
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -44,7 +51,10 @@ public virtual global::System.Object adaptImage(global::com.codename1.ui.Encoded
 public virtual bool isAsyncAdapter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage$2: boolean isAsyncAdapter()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;

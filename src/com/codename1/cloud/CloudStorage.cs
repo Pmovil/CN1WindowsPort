@@ -41,11 +41,15 @@ private global::java.util.Vector _fstorageQueue;
 
 private global::java.util.Vector _fpendingRefreshes;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = global::com.codename1.io.Storage.getInstance();
@@ -53,6 +57,7 @@ new private void @this(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 81)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r1_o);
+    _r0_o = _r0_o;
     ((global::com.codename1.cloud.CloudStorage) _r2_o)._fstorageQueue = (global::java.util.Vector) _r0_o;
     _r0_o = ((global::com.codename1.cloud.CloudStorage) _r2_o)._fstorageQueue;
     if (_r0_o != null) goto label28;
@@ -66,7 +71,9 @@ new private void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudStorage getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.cloud.CloudStorage._fINSTANCE;
     if (_r0_o != null) goto label11;
     _r0_o = new global::com.codename1.cloud.CloudStorage();
@@ -82,9 +89,13 @@ public virtual void save(global::com.codename1.cloud.CloudObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void save(com.codename1.cloud.CloudObject)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -142,9 +153,13 @@ public virtual void delete(global::com.codename1.cloud.CloudObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void delete(com.codename1.cloud.CloudObject)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -184,9 +199,13 @@ public virtual void delete(global::com.codename1.cloud.CloudObject n1){
 
 public virtual void refresh(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.cloud.CloudResponse n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void refresh(com.codename1.cloud.CloudObject[], com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -199,9 +218,13 @@ public virtual void refreshAsync(global::com.codename1.cloud.CloudObject n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void refreshAsync(com.codename1.cloud.CloudObject)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudStorage) _r2_o)._fpendingRefreshes;
@@ -225,6 +248,8 @@ public virtual void refreshAsync(global::com.codename1.cloud.CloudObject n1){
 private int refreshImpl(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.cloud.CloudResponse n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int refreshImpl(com.codename1.cloud.CloudObject[], com.codename1.cloud.CloudResponse)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -232,10 +257,17 @@ private int refreshImpl(global::org.xmlvm._nArrayAdapter<global::System.Object> 
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -332,8 +364,11 @@ public virtual int refresh(global::org.xmlvm._nArrayAdapter<global::System.Objec
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int refresh(com.codename1.cloud.CloudObject[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -345,13 +380,20 @@ public virtual int refresh(global::org.xmlvm._nArrayAdapter<global::System.Objec
 public virtual global::System.Object fetch(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] fetch(java.lang.String[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
@@ -382,13 +424,20 @@ public virtual global::System.Object fetch(global::org.xmlvm._nArrayAdapter<glob
 public virtual void fetch(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.cloud.CloudResponse n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void fetch(java.lang.String[], com.codename1.cloud.CloudResponse)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -416,26 +465,47 @@ public virtual void fetch(global::org.xmlvm._nArrayAdapter<global::System.Object
 
 public virtual global::System.Object queryEquals(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryEquals(java.lang.String, int, java.lang.String, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -457,32 +527,55 @@ public virtual global::System.Object queryEquals(global::java.lang.String n1, in
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryEquals(java.lang.String, int, java.lang.String, int, int, int)]
 }
 
 public virtual global::System.Object querySorted(global::java.lang.String n1, int n2, bool n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] querySorted(java.lang.String, int, boolean, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -504,32 +597,55 @@ public virtual global::System.Object querySorted(global::java.lang.String n1, in
     _r8.i = _r15.i;
     _r9.i = _r16.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] querySorted(java.lang.String, int, boolean, int, int, int)]
 }
 
 public virtual global::System.Object querySortedKeys(global::java.lang.String n1, int n2, bool n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] querySortedKeys(java.lang.String, int, boolean, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -551,32 +667,55 @@ public virtual global::System.Object querySortedKeys(global::java.lang.String n1
     _r8.i = _r15.i;
     _r9.i = _r16.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] querySortedKeys(java.lang.String, int, boolean, int, int, int)]
 }
 
 public virtual global::System.Object queryEqualsKeys(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] queryEqualsKeys(java.lang.String, int, java.lang.String, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -598,6 +737,8 @@ public virtual global::System.Object queryEqualsKeys(global::java.lang.String n1
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String[] queryEqualsKeys(java.lang.String, int, java.lang.String, int, int, int)]
 }
@@ -606,23 +747,41 @@ public virtual int queryEqualsCount(global::java.lang.String n1, int n2, global:
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int queryEqualsCount(java.lang.String, int, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -642,6 +801,7 @@ public virtual int queryEqualsCount(global::java.lang.String n1, int n2, global:
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryEqualsCount(java.lang.String, int, java.lang.String, int)]
@@ -651,23 +811,41 @@ public virtual int queryGreaterThanCount(global::java.lang.String n1, int n2, gl
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int queryGreaterThanCount(java.lang.String, int, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -687,6 +865,7 @@ public virtual int queryGreaterThanCount(global::java.lang.String n1, int n2, gl
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryGreaterThanCount(java.lang.String, int, java.lang.String, int)]
@@ -696,23 +875,41 @@ public virtual int queryLessThanCount(global::java.lang.String n1, int n2, globa
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int queryLessThanCount(java.lang.String, int, java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -732,6 +929,7 @@ public virtual int queryLessThanCount(global::java.lang.String n1, int n2, globa
     _r3.i = _r15.i;
     _r6.i = _r17.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
     _r0.i = ((global::java.lang.Integer) _r13_o).intValue();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: int queryLessThanCount(java.lang.String, int, java.lang.String, int)]
@@ -739,26 +937,47 @@ public virtual int queryLessThanCount(global::java.lang.String n1, int n2, globa
 
 public virtual global::System.Object queryGreaterThan(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryGreaterThan(java.lang.String, int, java.lang.String, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -780,32 +999,55 @@ public virtual global::System.Object queryGreaterThan(global::java.lang.String n
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryGreaterThan(java.lang.String, int, java.lang.String, int, int, int)]
 }
 
 public virtual global::System.Object queryLessThan(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryLessThan(java.lang.String, int, java.lang.String, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2;
@@ -827,6 +1069,8 @@ public virtual global::System.Object queryLessThan(global::java.lang.String n1, 
     _r5.i = _r18.i;
     _r6.i = _r19.i;
     _r13_o = ((global::com.codename1.cloud.CloudStorage) _r0_o).queryImpl((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, 0!=_r9.i, 0!=_r10.i, 0!=_r11.i, (global::com.codename1.cloud.CloudResponse) _r12_o);
+    _r13_o = _r13_o;
+    _r13_o = _r13_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: com.codename1.cloud.CloudObject[] queryLessThan(java.lang.String, int, java.lang.String, int, int, int)]
 }
@@ -835,27 +1079,45 @@ private global::System.Object queryImpl(global::java.lang.String n1, global::jav
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.Object queryImpl(java.lang.String, java.lang.String, int, int, int, int, int, int, boolean, boolean, boolean, com.codename1.cloud.CloudResponse)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -1061,29 +1323,53 @@ private global::System.Object queryImpl(global::java.lang.String n1, global::jav
 
 public virtual void querySorted(global::java.lang.String n1, int n2, bool n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void querySorted(java.lang.String, int, boolean, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1133,29 +1419,53 @@ public virtual void querySorted(global::java.lang.String n1, int n2, bool n3, in
 
 public virtual void queryEquals(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryEquals(java.lang.String, int, java.lang.String, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1205,27 +1515,49 @@ public virtual void queryEquals(global::java.lang.String n1, int n2, global::jav
 
 public virtual void queryEqualsCount(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, global::com.codename1.cloud.CloudResponse n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryEqualsCount(java.lang.String, int, java.lang.String, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1273,27 +1605,49 @@ public virtual void queryEqualsCount(global::java.lang.String n1, int n2, global
 
 public virtual void queryGreaterThanCount(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, global::com.codename1.cloud.CloudResponse n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryGreaterThanCount(java.lang.String, int, java.lang.String, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1341,29 +1695,53 @@ public virtual void queryGreaterThanCount(global::java.lang.String n1, int n2, g
 
 public virtual void querySortedKeys(global::java.lang.String n1, int n2, bool n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void querySortedKeys(java.lang.String, int, boolean, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1413,29 +1791,53 @@ public virtual void querySortedKeys(global::java.lang.String n1, int n2, bool n3
 
 public virtual void queryEqualsKeys(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryEqualsKeys(java.lang.String, int, java.lang.String, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1485,27 +1887,49 @@ public virtual void queryEqualsKeys(global::java.lang.String n1, int n2, global:
 
 public virtual void queryLessThanCount(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, global::com.codename1.cloud.CloudResponse n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryLessThanCount(java.lang.String, int, java.lang.String, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1553,29 +1977,53 @@ public virtual void queryLessThanCount(global::java.lang.String n1, int n2, glob
 
 public virtual void queryGreaterThan(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryGreaterThan(java.lang.String, int, java.lang.String, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1625,29 +2073,53 @@ public virtual void queryGreaterThan(global::java.lang.String n1, int n2, global
 
 public virtual void queryLessThan(global::java.lang.String n1, int n2, global::java.lang.String n3, int n4, int n5, int n6, global::com.codename1.cloud.CloudResponse n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void queryLessThan(java.lang.String, int, java.lang.String, int, int, int, com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
@@ -1697,11 +2169,17 @@ public virtual void queryLessThan(global::java.lang.String n1, int n2, global::j
 
 public virtual global::System.Object uploadCloudFile(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String uploadCloudFile(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1714,12 +2192,19 @@ public virtual global::System.Object uploadCloudFile(global::java.lang.String n1
 
 public virtual global::System.Object uploadCloudFile(global::java.lang.String n1, global::java.lang.String n2, global::java.io.InputStream n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String uploadCloudFile(java.lang.String, java.lang.String, java.io.InputStream, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1736,8 +2221,11 @@ private global::System.Object uploadCloudFileImpl(global::java.lang.String n1, g
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
@@ -1745,20 +2233,35 @@ private global::System.Object uploadCloudFileImpl(global::java.lang.String n1, g
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19_o = n2;
@@ -1898,14 +2401,19 @@ private global::System.Object uploadCloudFileImpl(global::java.lang.String n1, g
 
 public virtual bool deleteCloudFile(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: boolean deleteCloudFile(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;
@@ -1955,13 +2463,19 @@ public virtual bool deleteCloudFile(global::java.lang.String n1){
 
 public virtual void deleteAllCloudFilesForUser(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void deleteAllCloudFilesForUser()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r1_o = global::com.codename1.cloud.CloudPersona.getCurrentPersona();
     _r1_o = ((global::com.codename1.cloud.CloudPersona) _r1_o).getToken();
@@ -2005,15 +2519,25 @@ public virtual void deleteAllCloudFilesForUser(){
 
 public virtual void deleteAllCloudFilesBefore(long n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void deleteAllCloudFilesBefore(long, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.l = n1;
     _r7_o = n2;
@@ -2062,10 +2586,15 @@ public virtual void deleteAllCloudFilesBefore(long n1, global::java.lang.String 
 
 public virtual global::System.Object getUrlForCloudFileId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.lang.String getUrlForCloudFileId(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -2083,10 +2612,14 @@ public virtual global::System.Object getUrlForCloudFileId(global::java.lang.Stri
 public virtual int commit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: int commit()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -2162,11 +2695,15 @@ public virtual int commit(){
 
 public virtual void commit(global::com.codename1.cloud.CloudResponse n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void commit(com.codename1.cloud.CloudResponse)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.cloud.CloudStorage) _r2_o)._fstorageQueue;
@@ -2199,8 +2736,11 @@ public virtual void commit(global::com.codename1.cloud.CloudResponse n1){
 
 public virtual void rollback(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void rollback()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -2235,8 +2775,11 @@ public virtual void rollback(){
 
 public static global::System.Object access_2000(global::com.codename1.cloud.CloudStorage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.util.Vector access$000(com.codename1.cloud.CloudStorage)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudStorage) _r1_o)._fpendingRefreshes;
     return (global::java.util.Vector) _r0_o;
@@ -2245,8 +2788,11 @@ public static global::System.Object access_2000(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2002(global::com.codename1.cloud.CloudStorage n1, global::java.util.Vector n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.util.Vector access$002(com.codename1.cloud.CloudStorage, java.util.Vector)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.cloud.CloudStorage) _r0_o)._fpendingRefreshes = (global::java.util.Vector) _r1_o;
@@ -2256,18 +2802,24 @@ public static global::System.Object access_2002(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2100(global::com.codename1.cloud.CloudStorage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: java.util.Vector access$100(com.codename1.cloud.CloudStorage)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudStorage) _r1_o)._fstorageQueue;
     return (global::java.util.Vector) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudStorage: java.util.Vector access$100(com.codename1.cloud.CloudStorage)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=CloudObject
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 106)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116))}));

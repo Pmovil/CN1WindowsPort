@@ -13,11 +13,17 @@ private global::java.lang.Object _fweak;
 
 private void @this(global::java.lang.String n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: void <init>(java.lang.String, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -32,13 +38,19 @@ private void @this(global::java.lang.String n1, int n2, int n3, bool n4){
 
 public override global::System.Object getImageData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: byte[] getImageData()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3_o = ((global::com.codename1.components.StorageImage) _r5_o)._fdata;
     if (_r3_o == null) goto label7;
@@ -51,7 +63,9 @@ public override global::System.Object getImageData(){
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = ((global::com.codename1.components.StorageImage) _r5_o)._fweak;
     _r3_o = ((global::com.codename1.ui.Display) _r3_o).extractHardRef((global::java.lang.Object) _r4_o);
+    _r3_o = _r3_o;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o == null) goto label31;
     _r3_o = _r1_o;
@@ -60,7 +74,9 @@ public override global::System.Object getImageData(){
     _r3_o = global::com.codename1.io.Storage.getInstance();
     _r4_o = ((global::com.codename1.components.StorageImage) _r5_o)._ffileName;
     _r3_o = ((global::com.codename1.io.Storage) _r3_o).readObject((global::java.lang.String) _r4_o);
+    _r3_o = _r3_o;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3.i = ((global::com.codename1.components.StorageImage) _r5_o)._fkeep ? 1 : 0;
     if (_r3.i == 0) goto label55;
@@ -81,10 +97,16 @@ public static global::System.Object create(global::java.lang.String n1, global::
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3;
@@ -107,11 +129,17 @@ public static global::System.Object create(global::java.lang.String n1, global::
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: com.codename1.components.StorageImage create(java.lang.String, byte[], int, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3;
@@ -132,12 +160,19 @@ public static global::System.Object create(global::java.lang.String n1, global::
 
 public static global::System.Object create(global::java.lang.String n1, global::java.io.InputStream n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: com.codename1.components.StorageImage create(java.lang.String, java.io.InputStream, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3;
@@ -151,11 +186,17 @@ public static global::System.Object create(global::java.lang.String n1, global::
 
 public static global::System.Object create(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: com.codename1.components.StorageImage create(java.lang.String, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -168,11 +209,17 @@ public static global::System.Object create(global::java.lang.String n1, int n2, 
 
 public static global::System.Object create(global::java.lang.String n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImage: com.codename1.components.StorageImage create(java.lang.String, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r3.i = n3;

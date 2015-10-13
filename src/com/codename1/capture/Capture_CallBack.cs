@@ -11,10 +11,13 @@ private int _ftargetWidth;
 
 private int _ftargetHeight;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.capture.Capture$CallBack: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -28,7 +31,9 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 //XMLVM_BEGIN_WRAPPER[com.codename1.capture.Capture$CallBack: void actionPerformed(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -68,6 +73,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     label14:;
     try {
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
+    _r0_o = _r0_o;
     ((global::com.codename1.capture.Capture_2CallBack) _r1_o)._furl = (global::java.lang.String) _r0_o;
     }
     catch (global::System.Exception e) {
@@ -90,10 +96,13 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.capture.Capture$CallBack: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -101,8 +110,11 @@ public virtual void run(){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
@@ -275,8 +287,11 @@ public virtual void run(){
 
 public static int access_2002(global::com.codename1.capture.Capture_2CallBack n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.capture.Capture$CallBack: int access$002(com.codename1.capture.Capture$CallBack, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.capture.Capture_2CallBack) _r0_o)._ftargetWidth = _r1.i;
@@ -286,8 +301,11 @@ public static int access_2002(global::com.codename1.capture.Capture_2CallBack n1
 
 public static int access_2102(global::com.codename1.capture.Capture_2CallBack n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.capture.Capture$CallBack: int access$102(com.codename1.capture.Capture$CallBack, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.capture.Capture_2CallBack) _r0_o)._ftargetHeight = _r1.i;

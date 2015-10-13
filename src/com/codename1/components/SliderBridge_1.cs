@@ -17,11 +17,17 @@ public int _fval_2portionPerSource;
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::java.util.Vector n2, global::com.codename1.ui.Slider n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SliderBridge$1: void <init>(com.codename1.io.ConnectionRequest[], java.util.Vector, com.codename1.ui.Slider, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -38,17 +44,25 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, gl
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SliderBridge$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 1;
@@ -63,6 +77,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     return;
     label19:;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3.i = ((global::com.codename1.io.NetworkEvent) _r1_o).getProgressType();
     switch (_r3.i) {
@@ -119,6 +134,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = ((global::com.codename1.components.SliderBridge_21) _r7_o)._fval_2s;
     ((global::com.codename1.ui.Slider) _r3_o).setInfinite(0!=_r6.i);
     goto label18;
+    label124:;
 //XMLVM_END_WRAPPER[com.codename1.components.SliderBridge$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }
 

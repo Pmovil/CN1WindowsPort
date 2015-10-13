@@ -8,63 +8,117 @@ static Deflate() {
     @static();
 }
 
+private static int _fMAX_1MEM_1LEVEL = 9;
 
+private static int _fZ_1DEFAULT_1COMPRESSION = -1;
 
+private static int _fMAX_1WBITS = 15;
 
+private static int _fDEF_1MEM_1LEVEL = 8;
 
+private static int _fSTORED = 0;
 
+private static int _fFAST = 1;
 
+private static int _fSLOW = 2;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fconfig_1table;
 
 private static global::org.xmlvm._nArrayAdapter<global::System.Object> _fz_1errmsg;
 
+private static int _fNeedMore = 0;
 
+private static int _fBlockDone = 1;
 
+private static int _fFinishStarted = 2;
 
+private static int _fFinishDone = 3;
 
+private static int _fPRESET_1DICT = 32;
 
+private static int _fZ_1FILTERED = 1;
 
+private static int _fZ_1HUFFMAN_1ONLY = 2;
 
+private static int _fZ_1DEFAULT_1STRATEGY = 0;
 
+private static int _fZ_1NO_1FLUSH = 0;
 
+private static int _fZ_1PARTIAL_1FLUSH = 1;
 
+private static int _fZ_1SYNC_1FLUSH = 2;
 
+private static int _fZ_1FULL_1FLUSH = 3;
 
+private static int _fZ_1FINISH = 4;
 
+private static int _fZ_1OK = 0;
 
+private static int _fZ_1STREAM_1END = 1;
 
+private static int _fZ_1NEED_1DICT = 2;
 
+private static int _fZ_1ERRNO = -1;
 
+private static int _fZ_1STREAM_1ERROR = -2;
 
+private static int _fZ_1DATA_1ERROR = -3;
 
+private static int _fZ_1MEM_1ERROR = -4;
 
+private static int _fZ_1BUF_1ERROR = -5;
 
+private static int _fZ_1VERSION_1ERROR = -6;
 
+private static int _fINIT_1STATE = 42;
 
+private static int _fBUSY_1STATE = 113;
 
+private static int _fFINISH_1STATE = 666;
 
+private static int _fZ_1DEFLATED = 8;
 
+private static int _fSTORED_1BLOCK = 0;
 
+private static int _fSTATIC_1TREES = 1;
 
+private static int _fDYN_1TREES = 2;
 
+private static int _fZ_1BINARY = 0;
 
+private static int _fZ_1ASCII = 1;
 
+private static int _fZ_1UNKNOWN = 2;
 
+private static int _fBuf_1size = 16;
 
+private static int _fREP_13_16 = 16;
 
+private static int _fREPZ_13_110 = 17;
 
+private static int _fREPZ_111_1138 = 18;
 
+private static int _fMIN_1MATCH = 3;
 
+private static int _fMAX_1MATCH = 258;
 
+private static int _fMIN_1LOOKAHEAD = 262;
 
+private static int _fMAX_1BITS = 15;
 
+private static int _fD_1CODES = 30;
 
+private static int _fBL_1CODES = 19;
 
+private static int _fLENGTH_1CODES = 29;
 
+private static int _fLITERALS = 256;
 
+private static int _fL_1CODES = 286;
 
+private static int _fHEAP_1SIZE = 573;
 
+private static int _fEND_1BLOCK = 256;
 
 public global::com.codename1.io.gzip.ZStream _fstrm;
 
@@ -189,9 +243,14 @@ public void @this(global::com.codename1.io.gzip.ZStream n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 573;
@@ -235,12 +294,18 @@ public void @this(global::com.codename1.io.gzip.ZStream n1){
 public virtual void lm_1init(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void lm_init()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 1;
     _r3.i = 0;
@@ -297,9 +362,13 @@ public virtual void tr_1init(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void tr_init()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fl_1desc;
@@ -332,12 +401,18 @@ public virtual void tr_1init(){
 public virtual void init_1block(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void init_block()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r0.i = 0;
@@ -385,15 +460,22 @@ public virtual void init_1block(){
 public virtual void pqdownheap(global::org.xmlvm._nArrayAdapter<short> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void pqdownheap(short[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -438,13 +520,22 @@ public virtual void pqdownheap(global::org.xmlvm._nArrayAdapter<short> n1, int n
 public static bool smaller(global::org.xmlvm._nArrayAdapter<short> n1, int n2, int n3, global::org.xmlvm._nArrayAdapter<sbyte> n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: boolean smaller(short[], int, int, byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
@@ -471,19 +562,32 @@ public static bool smaller(global::org.xmlvm._nArrayAdapter<short> n1, int n2, i
 public virtual void scan_1tree(global::org.xmlvm._nArrayAdapter<short> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void scan_tree(short[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -583,11 +687,14 @@ public virtual void scan_1tree(global::org.xmlvm._nArrayAdapter<short> n1, int n
 public virtual int build_1bl_1tree(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int build_bl_tree()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fdyn_1ltree;
     _r2_o = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fl_1desc;
@@ -629,16 +736,24 @@ public virtual int build_1bl_1tree(){
 public virtual void send_1all_1trees(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void send_all_trees(int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -680,20 +795,32 @@ public virtual void send_1all_1trees(int n1, int n2, int n3){
 public virtual void send_1tree(global::org.xmlvm._nArrayAdapter<short> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void send_tree(short[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12.i = n2;
@@ -787,10 +914,16 @@ public virtual void put_1byte(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -807,11 +940,17 @@ public virtual void put_1byte(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2
 
 public virtual void put_1byte(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void put_byte(byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0_o = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fpending_1buf;
@@ -826,8 +965,12 @@ public virtual void put_1byte(sbyte n1){
 public virtual void put_1short(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void put_short(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = (_r2.i << 24) >> 24;
@@ -842,8 +985,12 @@ public virtual void put_1short(int n1){
 public virtual void putShortMSB(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void putShortMSB(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = _r2.i >> (0x1f & 8);
@@ -858,12 +1005,20 @@ public virtual void putShortMSB(int n1){
 public virtual void send_1code(int n1, global::org.xmlvm._nArrayAdapter<short> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void send_code(int, short[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -882,14 +1037,24 @@ public virtual void send_1code(int n1, global::org.xmlvm._nArrayAdapter<short> n
 public virtual void send_1bits(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void send_bits(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -940,10 +1105,16 @@ public virtual void _1tr_1align(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 256;
     _r3.i = 3;
@@ -973,8 +1144,11 @@ public virtual void _1tr_1align(){
 public virtual bool _1tr_1tally(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: boolean _tr_tally(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -982,13 +1156,24 @@ public virtual bool _1tr_1tally(int n1, int n2){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r14.i = n2;
@@ -1106,19 +1291,30 @@ public virtual bool _1tr_1tally(int n1, int n2){
 public virtual void compress_1block(global::org.xmlvm._nArrayAdapter<short> n1, global::org.xmlvm._nArrayAdapter<short> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void compress_block(short[], short[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -1191,12 +1387,18 @@ public virtual void compress_1block(global::org.xmlvm._nArrayAdapter<short> n1, 
 public virtual void set_1data_1type(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void set_data_type()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r2.i = 0;
     _r0.i = 0;
@@ -1245,10 +1447,16 @@ public virtual void set_1data_1type(){
 public virtual void bi_1flush(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void bi_flush()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 8;
     _r2.i = 0;
@@ -1281,9 +1489,14 @@ public virtual void bi_1flush(){
 public virtual void bi_1windup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void bi_windup()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0.i = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fbi_1valid;
@@ -1308,12 +1521,18 @@ public virtual void bi_1windup(){
 public virtual void copy_1block(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void copy_block(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1340,9 +1559,14 @@ public virtual void flush_1block_1only(bool n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fblock_1start;
@@ -1367,16 +1591,26 @@ public virtual void flush_1block_1only(bool n1){
 public virtual int deflate_1stored(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflate_stored(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r3.i = 5;
@@ -1468,12 +1702,20 @@ public virtual int deflate_1stored(int n1){
 public virtual void _1tr_1stored_1block(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void _tr_stored_block(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -1496,19 +1738,30 @@ public virtual void _1tr_1stored_1block(int n1, int n2, bool n3){
 public virtual void _1tr_1flush_1block(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void _tr_flush_block(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -1596,9 +1849,13 @@ public virtual void _1tr_1flush_1block(int n1, int n2, bool n3){
 public virtual void fill_1window(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void fill_window()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -1606,10 +1863,16 @@ public virtual void fill_1window(){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 65535;
     _r9.i = 262;
@@ -1747,7 +2010,9 @@ public virtual void fill_1window(){
 public virtual int deflate_1fast(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflate_fast(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
@@ -1755,13 +2020,22 @@ public virtual int deflate_1fast(int n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12.i = n1;
     _r10.i = 262;
@@ -1969,8 +2243,11 @@ public virtual int deflate_1fast(int n1){
 public virtual int deflate_1slow(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflate_slow(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -1978,13 +2255,22 @@ public virtual int deflate_1slow(int n1){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13.i = n1;
     _r11.i = 4;
@@ -2226,23 +2512,38 @@ public virtual int deflate_1slow(int n1){
 public virtual int longest_1match(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int longest_match(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15.i = n1;
     _r1.i = ((global::com.codename1.io.gzip.Deflate) _r14_o)._fmax_1chain_1length;
@@ -2414,14 +2715,24 @@ public virtual int deflateInit(int n1, int n2, int n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -2442,13 +2753,22 @@ public virtual int deflateInit(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -2466,8 +2786,12 @@ public virtual int deflateInit(int n1, int n2){
 public virtual int deflateInit(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateInit(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 15;
@@ -2479,18 +2803,30 @@ public virtual int deflateInit(int n1){
 private int deflateInit(int n1, int n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateInit(int, int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -2602,8 +2938,14 @@ public virtual int deflateReset(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r0_o = ((global::com.codename1.io.gzip.Deflate) _r5_o)._fstrm;
@@ -2646,10 +2988,16 @@ public virtual int deflateReset(){
 public virtual int deflateEnd(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateEnd()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 113;
     _r2_o = null;
@@ -2682,14 +3030,22 @@ public virtual int deflateEnd(){
 public virtual int deflateParams(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateParams(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -2759,8 +3115,11 @@ public virtual int deflateParams(int n1, int n2){
 public virtual int deflateSetDictionary(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateSetDictionary(byte[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -2768,11 +3127,18 @@ public virtual int deflateSetDictionary(global::org.xmlvm._nArrayAdapter<sbyte> 
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.i = n2;
@@ -2860,18 +3226,32 @@ public virtual int deflateSetDictionary(global::org.xmlvm._nArrayAdapter<sbyte> 
 public virtual int deflate(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflate(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12.i = n1;
     _r7.i = 4;
@@ -3210,6 +3590,7 @@ public virtual int deflate(int n1){
     label543:;
     _r7.i = 1;
     goto label6;
+    label546:;
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Deflate: int deflate(int)]
 }
 
@@ -3217,12 +3598,17 @@ public static int deflateCopy(global::com.codename1.io.gzip.ZStream n1, global::
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int deflateCopy(com.codename1.io.gzip.ZStream, com.codename1.io.gzip.ZStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r3.i = 0;
@@ -3277,6 +3663,7 @@ public static int deflateCopy(global::com.codename1.io.gzip.ZStream n1, global::
     ((global::com.codename1.io.gzip.ZStream) _r4_o)._fadler = (global::com.codename1.io.gzip.Checksum) _r0_o;
     _r0_o = ((global::com.codename1.io.gzip.ZStream) _r5_o)._fdstate;
     _r0_o = ((global::com.codename1.io.gzip.Deflate) _r0_o).clone();
+    _r0_o = _r0_o;
     ((global::com.codename1.io.gzip.ZStream) _r4_o)._fdstate = (global::com.codename1.io.gzip.Deflate) _r0_o;
     _r0_o = ((global::com.codename1.io.gzip.ZStream) _r4_o)._fdstate;
     ((global::com.codename1.io.gzip.Deflate) _r0_o)._fstrm = (global::com.codename1.io.gzip.ZStream) _r4_o;
@@ -3287,10 +3674,15 @@ public static int deflateCopy(global::com.codename1.io.gzip.ZStream n1, global::
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: java.lang.Object clone()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.io.gzip.Deflate();
     _r1_o = ((global::com.codename1.io.gzip.Deflate) _r3_o)._fstrm;
@@ -3341,6 +3733,7 @@ public override global::System.Object clone(){
     if (_r1_o == null) goto label127;
     _r1_o = ((global::com.codename1.io.gzip.Deflate) _r0_o)._fgheader;
     _r3_o = ((global::com.codename1.io.gzip.GZIPHeader) _r1_o).clone();
+    _r3_o = _r3_o;
     ((global::com.codename1.io.gzip.Deflate) _r0_o)._fgheader = (global::com.codename1.io.gzip.GZIPHeader) _r3_o;
     label127:;
     return (global::java.lang.Object) _r0_o;
@@ -3349,11 +3742,17 @@ public override global::System.Object clone(){
 
 private global::System.Object dup(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: byte[] dup(byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -3367,11 +3766,17 @@ private global::System.Object dup(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 
 private global::System.Object dup(global::org.xmlvm._nArrayAdapter<short> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: short[] dup(short[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -3385,11 +3790,17 @@ private global::System.Object dup(global::org.xmlvm._nArrayAdapter<short> n1){
 
 private global::System.Object dup(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: int[] dup(int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -3403,7 +3814,9 @@ private global::System.Object dup(global::org.xmlvm._nArrayAdapter<int> n1){
 
 public virtual global::System.Object getGZIPHeader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: com.codename1.io.gzip.GZIPHeader getGZIPHeader()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -3447,7 +3860,7 @@ public virtual global::System.Object getGZIPHeader(){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.Deflate: com.codename1.io.gzip.GZIPHeader getGZIPHeader()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.Deflate: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -3456,16 +3869,26 @@ new public static void @static(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12.i = 32;
     _r11.i = 8;
     _r1.i = 0;

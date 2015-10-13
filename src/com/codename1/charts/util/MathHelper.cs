@@ -12,9 +12,11 @@ public static double _fNULL_1VALUE = 0.0D;
 
 private static global::com.codename1.charts.util.NumberFormat _fFORMAT;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -24,15 +26,30 @@ new private void @this(){
 public static global::System.Object minmax(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: double[] minmax(java.util.List)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r10.i = 2;
     _r9.i = 0;
@@ -43,6 +60,7 @@ public static global::System.Object minmax(global::java.util.List n1){
     return (global::org.xmlvm._nArrayAdapter<double>) _r8_o;
     label11:;
     _r8_o = ((global::java.util.List) _r11_o).get((int) _r9.i);
+    _r8_o = _r8_o;
     _r4.d = ((global::java.lang.Double) _r8_o).doubleValue();
     _r2.d = _r4.d;
     _r1.i = ((global::java.util.List) _r11_o).size();
@@ -50,6 +68,7 @@ public static global::System.Object minmax(global::java.util.List n1){
     label27:;
     if (_r0.i >= _r1.i) goto label50;
     _r8_o = ((global::java.util.List) _r11_o).get((int) _r0.i);
+    _r8_o = _r8_o;
     _r6.d = ((global::java.lang.Double) _r8_o).doubleValue();
     _r4.d = global::java.lang.Math.min((double) _r4.d, (double) _r6.d);
     _r2.d = global::java.lang.Math.max((double) _r2.d, (double) _r6.d);
@@ -66,19 +85,26 @@ public static global::System.Object minmax(global::java.util.List n1){
 
 public static global::System.Object getLabels(double n1, double n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: java.util.List getLabels(double, double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.d = n1;
     _r7.d = n2;
@@ -147,18 +173,28 @@ public static global::System.Object getLabels(double n1, double n2, int n3){
 private static global::System.Object computeLabels(double n1, double n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: double[] computeLabels(double, double, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6.d = n1;
     _r8.d = n2;
     _r10.i = n3;
@@ -186,6 +222,7 @@ private static global::System.Object computeLabels(double n1, double n2, int n3)
     _r9.i = _r0.d > _r6.d ? 1 : (_r0.d == _r6.d ? 0 : -1);
     if (_r9.i <= 0) goto label100;
     _r2.i = 1;
+    _r0.d = _r0.d;
     _r8.d = _r6.d;
     _r6.d = _r0.d;
     _r0.i = _r2.i;
@@ -236,10 +273,24 @@ private static global::System.Object computeLabels(double n1, double n2, int n3)
 private static double roundUp(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: double roundUp(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7.d = n1;
     _r5.d = 10.0D;
     _r3.d = global::com.codename1.util.MathUtil.log10((double) _r7.d);
@@ -273,9 +324,11 @@ private static double roundUp(double n1){
 //XMLVM_END_WRAPPER[com.codename1.charts.util.MathHelper: double roundUp(double)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.util.MathHelper: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.charts.util.NumberFormat.getNumberInstance();
     global::com.codename1.charts.util.MathHelper._fFORMAT = (global::com.codename1.charts.util.NumberFormat) _r0_o;
     return;

@@ -5,13 +5,17 @@ namespace com.codename1.components {
 public class SliderBridge: global::com.codename1.ui.Slider {
 private global::org.xmlvm._nArrayAdapter<global::System.Object> _fsources;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SliderBridge: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Slider) _r1_o).@this();
     _r0_o = null;
+    _r0_o = _r0_o;
     global::com.codename1.components.SliderBridge.bindProgress((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::com.codename1.ui.Slider) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.SliderBridge: void <init>()]
@@ -22,12 +26,17 @@ public static void bindProgress(global::com.codename1.io.ConnectionRequest n1, g
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     if (_r2_o != null) goto label9;
     _r2_o = null;
+    _r2_o = _r2_o;
     global::com.codename1.components.SliderBridge.bindProgress((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::com.codename1.ui.Slider) _r3_o);
     label8:;
     return;
@@ -44,15 +53,24 @@ public static void bindProgress(global::com.codename1.io.ConnectionRequest n1, g
 public static void bindProgress(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::com.codename1.ui.Slider n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SliderBridge: void bindProgress(com.codename1.io.ConnectionRequest[], com.codename1.ui.Slider)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r4_o = null;
@@ -87,8 +105,12 @@ public void @this(global::com.codename1.io.ConnectionRequest n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.Slider) _r2_o).@this();
@@ -107,8 +129,11 @@ public void @this(global::com.codename1.io.ConnectionRequest n1){
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SliderBridge: void <init>(com.codename1.io.ConnectionRequest[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Slider) _r0_o).@this();

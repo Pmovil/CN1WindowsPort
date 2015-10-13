@@ -13,9 +13,13 @@ private global::java.util.List _fmValues;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -35,12 +39,17 @@ public void @this(global::java.lang.String n1){
 
 public virtual void add(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<double> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: void add(java.lang.String[], double[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -61,11 +70,17 @@ public virtual void add(global::org.xmlvm._nArrayAdapter<global::System.Object> 
 
 public virtual void add(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::org.xmlvm._nArrayAdapter<double> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: void add(java.lang.String, java.lang.String[], double[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -82,9 +97,13 @@ public virtual void add(global::java.lang.String n1, global::org.xmlvm._nArrayAd
 
 public virtual void remove(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: void remove(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmCategories;
@@ -99,8 +118,11 @@ public virtual void remove(int n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: void clear()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmCategories;
     ((global::java.util.List) _r0_o).clear();
@@ -114,26 +136,36 @@ public virtual void clear(){
 
 public virtual global::System.Object getValues(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: double[] getValues(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmValues;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<double>) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: double[] getValues(int)]
 }
 
 public virtual global::System.Object getCategory(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: java.lang.String getCategory(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmCategories;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     return (global::java.lang.String) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: java.lang.String getCategory(int)]
 }
@@ -142,7 +174,9 @@ public virtual int getCategoriesCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: int getCategoriesCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmCategories;
     _r0.i = ((global::java.util.List) _r0_o).size();
@@ -154,12 +188,16 @@ public virtual int getItemCount(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: int getItemCount(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmValues;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: int getItemCount(int)]
@@ -167,22 +205,31 @@ public virtual int getItemCount(int n1){
 
 public virtual global::System.Object getTitles(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: java.lang.String[] getTitles(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r1_o)._fmTitles;
     _r1_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: java.lang.String[] getTitles(int)]
 }
 
 public virtual global::System.Object toXYSeries(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.MultipleCategorySeries: com.codename1.charts.models.XYSeries toXYSeries()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.charts.models.XYSeries();
     _r1_o = ((global::com.codename1.charts.models.MultipleCategorySeries) _r2_o)._fmTitle;

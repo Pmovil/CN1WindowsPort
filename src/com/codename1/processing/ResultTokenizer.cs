@@ -17,8 +17,11 @@ public void @this(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 0;
@@ -44,15 +47,24 @@ public void @this(global::java.lang.String n1){
 public virtual global::System.Object tokenize(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: java.util.List tokenize(java.util.Map)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 0;
@@ -73,6 +85,7 @@ public virtual global::System.Object tokenize(global::java.util.Map n1){
     if (_r0.i == _r4.i) goto label64;
     _r4_o = ((global::java.lang.String) _r2_o).substring((int) _r6.i, (int) _r0.i);
     _r1_o = ((global::java.util.Map) _r8_o).get((global::java.lang.Object) _r4_o);
+    _r1_o = _r1_o;
     if (_r1_o == null) goto label64;
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
@@ -92,12 +105,18 @@ public virtual global::System.Object tokenize(global::java.util.Map n1){
 private global::System.Object getPredicate(global::java.lang.StringBuffer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: java.lang.String getPredicate(java.lang.StringBuffer)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2.i = 1;
@@ -133,13 +152,20 @@ private global::System.Object getPredicate(global::java.lang.StringBuffer n1){
 private global::System.Object next(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: java.lang.String next()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r3_o = new global::java.lang.StringBuffer();
     ((global::java.lang.StringBuffer) _r3_o).@this();
@@ -213,7 +239,10 @@ private global::System.Object next(){
 public static bool isSubscript(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: boolean isSubscript(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     switch (_r1.i) {
     case 91: goto label5;
@@ -225,13 +254,17 @@ public static bool isSubscript(char n1){
     label5:;
     _r0.i = 1;
     goto label4;
+    label8:;
 //XMLVM_END_WRAPPER[com.codename1.processing.ResultTokenizer: boolean isSubscript(char)]
 }
 
 public static bool isSeparator(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: boolean isSeparator(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 47;
     if (_r1.i != _r0.i) goto label6;
@@ -247,7 +280,10 @@ public static bool isSeparator(char n1){
 public static bool isDelimiter(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.ResultTokenizer: boolean isDelimiter(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::com.codename1.processing.ResultTokenizer.isSubscript((char) _r1.i) ? 1 : 0;
     if (_r0.i != 0) goto label12;

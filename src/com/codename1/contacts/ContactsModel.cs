@@ -7,11 +7,15 @@ private global::java.util.Hashtable _fcontactsCache;
 
 private global::com.codename1.ui.Image _fplaceHolder;
 
-new public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void <init>(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
@@ -24,8 +28,11 @@ new public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1
 
 public virtual void setPlaceHolderImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void setPlaceHolderImage(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.contacts.ContactsModel) _r0_o)._fplaceHolder = (global::com.codename1.ui.Image) _r1_o;
@@ -35,18 +42,28 @@ public virtual void setPlaceHolderImage(global::com.codename1.ui.Image n1){
 
 public override global::System.Object getItemAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.lang.Object getItemAt(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r2_o = base.getItemAt((int) _r6.i);
+    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r1_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     if (_r1_o != null) goto label40;
     _r3_o = null;
     _r0_o = ((global::com.codename1.contacts.ContactsModel) _r5_o).getContactAsHashtable((global::com.codename1.contacts.Contact) _r3_o);
@@ -67,14 +84,21 @@ public override global::System.Object getItemAt(int n1){
 
 public override void addItem(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void addItem(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=id
@@ -89,13 +113,16 @@ public override void addItem(global::java.lang.Object n1){
     _r1.i = ((_r6_o != null) && (_r6_o is global::com.codename1.contacts.Contact)) ? 1 : 0;
     if (_r1.i == 0) goto label45;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.contacts.Contact) _r1_o).getId();
     base.addItem((global::java.lang.Object) _r1_o);
     _r2_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.contacts.Contact) _r1_o).getId();
+    _r6_o = _r6_o;
     _r3_o = ((global::com.codename1.contacts.ContactsModel) _r5_o).getContactAsHashtable((global::com.codename1.contacts.Contact) _r6_o);
     ((global::java.util.Hashtable) _r2_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r3_o);
     goto label9;
@@ -103,6 +130,7 @@ public override void addItem(global::java.lang.Object n1){
     _r1.i = ((_r6_o != null) && (_r6_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     // Value=id
     _r2_o = new global::java.lang.String();
@@ -111,6 +139,7 @@ public override void addItem(global::java.lang.Object n1){
     base.addItem((global::java.lang.Object) _r1_o);
     _r2_o = ((global::com.codename1.contacts.ContactsModel) _r5_o)._fcontactsCache;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     // Value=id
     _r3_o = new global::java.lang.String();
@@ -123,13 +152,19 @@ public override void addItem(global::java.lang.Object n1){
 
 public override void removeItem(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void removeItem(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = base.getItemAt((int) _r3.i);
+    _r0_o = _r0_o;
     base.removeItem((int) _r3.i);
     _r1_o = ((global::com.codename1.contacts.ContactsModel) _r2_o)._fcontactsCache;
     ((global::java.util.Hashtable) _r1_o).remove((global::java.lang.Object) _r0_o);
@@ -139,17 +174,29 @@ public override void removeItem(int n1){
 
 private global::System.Object getContactAsHashtable(global::com.codename1.contacts.Contact n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.util.Hashtable getContactAsHashtable(com.codename1.contacts.Contact)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r7_o = new global::java.util.Hashtable();
@@ -225,10 +272,15 @@ private global::System.Object getContactAsHashtable(global::com.codename1.contac
 
 private void addAttribute(global::java.util.Hashtable n1, global::java.lang.String n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: void addAttribute(java.util.Hashtable, java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -245,12 +297,17 @@ private void addAttribute(global::java.util.Hashtable n1, global::java.lang.Stri
 
 private global::System.Object getContactPhoneNumber(global::com.codename1.contacts.Contact n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.lang.String getContactPhoneNumber(com.codename1.contacts.Contact)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.contacts.Contact) _r4_o).getPrimaryPhoneNumber();
@@ -265,7 +322,9 @@ private global::System.Object getContactPhoneNumber(global::com.codename1.contac
     if (_r2.i <= 0) goto label41;
     _r2_o = ((global::java.util.Hashtable) _r1_o).keys();
     _r0_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r0_o = _r0_o;
     _r3_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r0_o);
+    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label10;
     label41:;
@@ -276,12 +335,17 @@ private global::System.Object getContactPhoneNumber(global::com.codename1.contac
 
 private global::System.Object getContactEmail(global::com.codename1.contacts.Contact n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.lang.String getContactEmail(com.codename1.contacts.Contact)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.contacts.Contact) _r4_o).getPrimaryEmail();
@@ -296,7 +360,9 @@ private global::System.Object getContactEmail(global::com.codename1.contacts.Con
     if (_r2.i <= 0) goto label41;
     _r2_o = ((global::java.util.Hashtable) _r0_o).keys();
     _r1_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r1_o = _r1_o;
     _r3_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r3_o = _r3_o;
     _r2_o = _r3_o;
     goto label10;
     label41:;
@@ -307,9 +373,13 @@ private global::System.Object getContactEmail(global::com.codename1.contacts.Con
 
 public static global::System.Object access_2000(global::com.codename1.contacts.ContactsModel n1, global::com.codename1.contacts.Contact n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.util.Hashtable access$000(com.codename1.contacts.ContactsModel, com.codename1.contacts.Contact)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = ((global::com.codename1.contacts.ContactsModel) _r1_o).getContactAsHashtable((global::com.codename1.contacts.Contact) _r2_o);
@@ -319,8 +389,11 @@ public static global::System.Object access_2000(global::com.codename1.contacts.C
 
 public static global::System.Object access_2100(global::com.codename1.contacts.ContactsModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.contacts.ContactsModel: java.util.Hashtable access$100(com.codename1.contacts.ContactsModel)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.contacts.ContactsModel) _r1_o)._fcontactsCache;
     return (global::java.util.Hashtable) _r0_o;

@@ -34,9 +34,13 @@ private global::java.util.Map _fnamespaceAliases;
 
 public static global::System.Object fromContent(global::com.codename1.processing.StructuredContent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(com.codename1.processing.StructuredContent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     if (_r2_o != null) goto label10;
     _r0_o = new global::java.lang.IllegalArgumentException();
@@ -54,10 +58,15 @@ public static global::System.Object fromContent(global::com.codename1.processing
 
 private void @this(global::com.codename1.processing.StructuredContent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: void <init>(com.codename1.processing.StructuredContent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -83,11 +92,17 @@ private void @this(global::com.codename1.processing.StructuredContent n1){
 
 public static global::System.Object fromContent(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
@@ -148,13 +163,19 @@ public static global::System.Object fromContent(global::java.lang.String n1, glo
 
 public static global::System.Object fromContent(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(java.io.InputStream, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     if (_r4_o != null) goto label10;
@@ -209,13 +230,19 @@ public static global::System.Object fromContent(global::java.io.InputStream n1, 
 
 public static global::System.Object fromContent(global::java.io.Reader n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(java.io.Reader, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     if (_r4_o != null) goto label10;
@@ -270,9 +297,13 @@ public static global::System.Object fromContent(global::java.io.Reader n1, globa
 
 public static global::System.Object fromContent(global::com.codename1.xml.Element n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(com.codename1.xml.Element)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     if (_r2_o != null) goto label10;
     _r0_o = new global::java.lang.IllegalArgumentException();
@@ -291,9 +322,13 @@ public static global::System.Object fromContent(global::com.codename1.xml.Elemen
 
 public static global::System.Object fromContent(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: com.codename1.processing.Result fromContent(java.util.Map)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     if (_r2_o != null) goto label10;
     _r0_o = new global::java.lang.IllegalArgumentException();
@@ -314,7 +349,9 @@ public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: int hashCode()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.Result) _r1_o)._froot;
     _r0.i = ((global::java.lang.Object) _r0_o).hashCode();
@@ -326,8 +363,11 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r1_o)._froot;
@@ -338,8 +378,11 @@ public override bool equals(global::java.lang.Object n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.processing.Result) _r1_o)._froot;
     _r0_o = ((global::java.lang.Object) _r0_o).toString();
@@ -349,13 +392,19 @@ public override global::System.Object toString(){
 
 public virtual bool getAsBoolean(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: boolean getAsBoolean(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -389,11 +438,17 @@ public virtual bool getAsBoolean(global::java.lang.String n1){
 
 public virtual int getAsInteger(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: int getAsInteger(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r3_o).getAsString((global::java.lang.String) _r4_o);
@@ -417,10 +472,17 @@ public virtual int getAsInteger(global::java.lang.String n1){
 
 public virtual long getAsLong(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: long getAsLong(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r3_o).getAsString((global::java.lang.String) _r4_o);
@@ -436,10 +498,17 @@ public virtual long getAsLong(global::java.lang.String n1){
 
 public virtual double getAsDouble(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: double getAsDouble(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r3_o).getAsString((global::java.lang.String) _r4_o);
@@ -455,20 +524,26 @@ public virtual double getAsDouble(global::java.lang.String n1){
 
 public virtual global::System.Object getAsString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.lang.String getAsString(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGet((global::java.lang.String) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getText();
     label14:;
     return (global::java.lang.String) _r1_o;
     label15:;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.processing.Result: java.lang.String getAsString(java.lang.String)]
@@ -476,16 +551,21 @@ public virtual global::System.Object getAsString(global::java.lang.String n1){
 
 public virtual global::System.Object get(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.lang.Object get(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGet((global::java.lang.String) _r3_o);
     _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r1.i == 0) goto label15;
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getNativeRoot();
     label14:;
     return (global::java.lang.Object) _r1_o;
@@ -497,11 +577,15 @@ public virtual global::System.Object get(global::java.lang.String n1){
 
 private global::System.Object _1internalGet(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.lang.Object _internalGet(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGetAsArray((global::java.lang.String) _r3_o);
@@ -521,10 +605,15 @@ private global::System.Object _1internalGet(global::java.lang.String n1){
 
 public virtual int getSizeOfArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: int getSizeOfArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r2_o)._1internalGetAsArray((global::java.lang.String) _r3_o);
@@ -540,14 +629,21 @@ public virtual int getSizeOfArray(global::java.lang.String n1){
 
 public virtual global::System.Object getAsStringArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.lang.String[] getAsStringArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3_o = ((global::com.codename1.processing.Result) _r5_o)._1internalGetAsArray((global::java.lang.String) _r6_o);
@@ -560,6 +656,7 @@ public virtual global::System.Object getAsStringArray(global::java.lang.String n
     _r4.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r4.i) goto label33;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r4_o;
     _r2.i = _r2.i + 1;
@@ -574,14 +671,23 @@ public virtual global::System.Object getAsStringArray(global::java.lang.String n
 
 public virtual global::System.Object getAsIntegerArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: int[] getAsIntegerArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3_o = ((global::com.codename1.processing.Result) _r6_o)._1internalGetAsArray((global::java.lang.String) _r7_o);
@@ -594,6 +700,7 @@ public virtual global::System.Object getAsIntegerArray(global::java.lang.String 
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r5.i;
@@ -609,14 +716,25 @@ public virtual global::System.Object getAsIntegerArray(global::java.lang.String 
 
 public virtual global::System.Object getAsLongArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: long[] getAsLongArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r3_o = ((global::com.codename1.processing.Result) _r7_o)._1internalGetAsArray((global::java.lang.String) _r8_o);
@@ -629,6 +747,7 @@ public virtual global::System.Object getAsLongArray(global::java.lang.String n1)
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.l = global::java.lang.Long.parseLong((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<long>) _r0_o)[_r2.i] = _r5.l;
@@ -644,14 +763,25 @@ public virtual global::System.Object getAsLongArray(global::java.lang.String n1)
 
 public virtual global::System.Object getAsDoubleArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: double[] getAsDoubleArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r3_o = ((global::com.codename1.processing.Result) _r7_o)._1internalGetAsArray((global::java.lang.String) _r8_o);
@@ -664,6 +794,7 @@ public virtual global::System.Object getAsDoubleArray(global::java.lang.String n
     _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r5.i) goto label37;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.processing.StructuredContent) _r1_o).getText();
     _r5.d = global::java.lang.Double.parseDouble((global::java.lang.String) _r4_o);
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r2.i] = _r5.d;
@@ -679,16 +810,25 @@ public virtual global::System.Object getAsDoubleArray(global::java.lang.String n
 
 public virtual global::System.Object getAsBooleanArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: boolean[] getAsBooleanArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r4_o = ((global::com.codename1.processing.Result) _r7_o)._1internalGetAsArray((global::java.lang.String) _r8_o);
@@ -701,6 +841,7 @@ public virtual global::System.Object getAsBooleanArray(global::java.lang.String 
     _r6.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r3.i >= _r6.i) goto label53;
     _r2_o = ((global::java.util.List) _r4_o).get((int) _r3.i);
+    _r2_o = _r2_o;
     _r5_o = ((global::com.codename1.processing.StructuredContent) _r2_o).getText();
     _r1.i = 0;
     // Value=true
@@ -731,12 +872,17 @@ public virtual global::System.Object getAsBooleanArray(global::java.lang.String 
 
 public virtual global::System.Object getAsArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.util.List getAsArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.processing.Result) _r3_o)._1internalGetAsArray((global::java.lang.String) _r4_o);
@@ -745,6 +891,7 @@ public virtual global::System.Object getAsArray(global::java.lang.String n1){
     _r2.i = ((global::java.util.List) _r0_o).size();
     if (_r1.i >= _r2.i) goto label27;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     _r2_o = ((global::com.codename1.processing.StructuredContent) _r3_o).getNativeRoot();
     ((global::java.util.List) _r0_o).set((int) _r1.i, (global::java.lang.Object) _r2_o);
     _r1.i = _r1.i + 1;
@@ -756,20 +903,31 @@ public virtual global::System.Object getAsArray(global::java.lang.String n1){
 
 private global::System.Object _1internalGetAsArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: java.util.List _internalGetAsArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r9.i = 0;
@@ -794,6 +952,7 @@ private global::System.Object _1internalGetAsArray(global::java.lang.String n1){
     _r5.i = ((global::java.util.List) _r3_o).size();
     _r5.i = _r5.i - _r8.i;
     _r1_o = ((global::java.util.List) _r3_o).get((int) _r5.i);
+    _r1_o = _r1_o;
     _r5.i = ((global::java.util.List) _r3_o).size();
     if (_r5.i <= _r8.i) goto label75;
     _r5_o = global::com.codename1.processing.Result._fSELECT_1GLOB;
@@ -846,323 +1005,362 @@ private global::System.Object apply(global::com.codename1.processing.StructuredC
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r4_o = null;
-    global::System.Object _r5_o = null;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::org.xmlvm._nElement _r8;
-    global::System.Object _r9_o = null;
-    global::org.xmlvm._nElement _r10;
-    global::System.Object _r11_o = null;
-    global::System.Object _r12_o = null;
-    global::System.Object _r13_o = null;
-    global::org.xmlvm._nElement _r14;
-    global::System.Object _r14_o = null;
-    global::System.Object _r15_o = null;
-    global::System.Object _r16_o = null;
-    global::System.Object _r17_o = null;
-    global::System.Object _r18_o = null;
-    global::System.Object _r19_o = null;
-    global::System.Object _r20_o = null;
-    global::org.xmlvm._nElement _r21;
-    global::System.Object _r21_o = null;
-    global::org.xmlvm._nElement _r22;
-    global::System.Object _r22_o = null;
-    global::System.Object _r23_o = null;
-    global::System.Object _r24_o = null;
-    global::System.Object _r25_o = null;
-    global::System.Object _r26_o = null;
-    global::org.xmlvm._nElement _r27;
-    _r24_o = this;
-    _r25_o = n1;
-    _r26_o = n2;
-    _r27.i = n3;
-    if (_r25_o != null) goto label5;
-    _r21_o = null;
-    label4:;
-    return (global::com.codename1.processing.StructuredContent) _r21_o;
-    label5:;
-    _r10.i = ((global::java.util.List) _r26_o).size();
-    _r0.i = _r27.i;
-    _r1.i = _r10.i;
-    if (_r0.i < _r1.i) goto label17;
-    _r21_o = _r25_o;
-    goto label4;
-    label17:;
-    _r7.i = 0;
-    _r8.i = _r27.i;
-    label20:;
-    if (_r8.i >= _r10.i) goto label548;
-    _r0_o = _r26_o;
-    _r1.i = _r8.i;
-    _r15_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21.i = ((global::java.lang.String) _r15_o).length();
-    _r22.i = 1;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i != _r1.i) goto label61;
-    _r21.i = 0;
-    _r0_o = _r15_o;
-    _r1.i = _r21.i;
-    _r21.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
-    _r21.i = global::com.codename1.processing.ResultTokenizer.isDelimiter((char) _r21.i) ? 1 : 0;
-    if (_r21.i == 0) goto label61;
-    label58:;
-    _r8.i = _r8.i + 1;
-    goto label20;
-    label61:;
-    _r21.i = ((global::java.lang.String) _r15_o).length();
-    _r22.i = 2;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i != _r1.i) goto label116;
-    _r21_o = global::com.codename1.processing.Result._fSELECT_1GLOB;
-    _r0_o = _r15_o;
-    _r1_o = _r21_o;
-    _r21.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r21.i == 0) goto label86;
-    _r7.i = 1;
-    goto label58;
-    label86:;
-    _r21_o = global::com.codename1.processing.Result._fSELECT_1PARENT;
-    _r0_o = _r15_o;
-    _r1_o = _r21_o;
-    _r21.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
-    if (_r21.i == 0) goto label116;
-    _r21_o = ((global::com.codename1.processing.StructuredContent) _r25_o).getParent();
-    _r22.i = _r8.i + 1;
-    _r0_o = _r24_o;
-    _r1_o = _r21_o;
-    _r2_o = _r26_o;
-    _r3.i = _r22.i;
-    _r21_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
-    goto label4;
-    label116:;
-    _r21.i = _r8.i + 1;
-    _r0.i = _r21.i;
-    _r1.i = _r10.i;
-    if (_r0.i < _r1.i) goto label126;
-    _r21_o = _r25_o;
-    goto label4;
-    label126:;
-    _r21.i = _r8.i + 1;
-    _r0_o = _r26_o;
-    _r1.i = _r21.i;
-    _r16_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21.i = 0;
-    _r0_o = _r16_o;
-    _r1.i = _r21.i;
-    _r14.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
-    switch (_r14.i) {
-    case 47: goto label152;
-    case 91: goto label205;
-    }
-    goto label58;
-    label152:;
-    if (_r7.i == 0) goto label193;
-    _r0_o = _r25_o;
-    _r1_o = _r15_o;
-    _r5_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getDescendants((global::java.lang.String) _r1_o);
-    label161:;
-    _r21.i = ((global::java.util.List) _r5_o).size();
-    if (_r21.i <= 0) goto label201;
-    _r21_o = new global::com.codename1.processing.SubContent();
-    _r0_o = _r21_o;
-    _r1_o = _r5_o;
-    _r2_o = _r25_o;
-    ((global::com.codename1.processing.SubContent) _r0_o).@this((global::java.util.List) _r1_o, (global::com.codename1.processing.StructuredContent) _r2_o);
-    _r22.i = _r8.i + 2;
-    _r0_o = _r24_o;
-    _r1_o = _r21_o;
-    _r2_o = _r26_o;
-    _r3.i = _r22.i;
-    _r21_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
-    goto label4;
-    label193:;
-    _r0_o = _r25_o;
-    _r1_o = _r15_o;
-    _r5_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getChildren((global::java.lang.String) _r1_o);
-    goto label161;
-    label201:;
-    _r21_o = null;
-    goto label4;
-    label205:;
-    _r21.i = _r8.i + 2;
-    _r0.i = _r21.i;
-    _r1.i = _r10.i;
-    if (_r0.i < _r1.i) goto label240;
-    _r21_o = new global::java.lang.IllegalArgumentException();
-    _r22_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r22_o).@this();
-    // Value=Syntax error: array must be followed by a dimension: 
-    _r23_o = new global::java.lang.String();
-    ((global::java.lang.String)_r23_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).append((global::java.lang.String) _r23_o);
-    _r0_o = _r22_o;
-    _r1_o = _r15_o;
-    _r22_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r21_o).@this((global::java.lang.String) _r22_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r21_o);
-    label240:;
-    _r21.i = _r8.i + 2;
-    _r0_o = _r26_o;
-    _r1.i = _r21.i;
-    _r17_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r6_o = global::com.codename1.processing.EvaluatorFactory.createEvaluator((global::java.lang.String) _r17_o);
-    _r21.i = _r8.i + 3;
-    _r0.i = _r21.i;
-    _r1.i = _r10.i;
-    if (_r0.i < _r1.i) goto label292;
-    _r21_o = new global::java.lang.IllegalArgumentException();
-    _r22_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r22_o).@this();
-    // Value=Syntax error: array dimension must be closed: 
-    _r23_o = new global::java.lang.String();
-    ((global::java.lang.String)_r23_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).append((global::java.lang.String) _r23_o);
-    _r0_o = _r22_o;
-    _r1_o = _r17_o;
-    _r22_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r21_o).@this((global::java.lang.String) _r22_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r21_o);
-    label292:;
-    _r21.i = _r8.i + 3;
-    _r0_o = _r26_o;
-    _r1.i = _r21.i;
-    _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21.i = ((global::java.lang.String) _r18_o).length();
-    _r22.i = 1;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i == _r1.i) goto label363;
-    _r21.i = 0;
-    _r0_o = _r18_o;
-    _r1.i = _r21.i;
-    _r21.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
-    _r22.i = 93;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i == _r1.i) goto label363;
-    _r21_o = new global::java.lang.IllegalArgumentException();
-    _r22_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r22_o).@this();
-    // Value=Syntax error: illegal close of array dimension: 
-    _r23_o = new global::java.lang.String();
-    ((global::java.lang.String)_r23_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).append((global::java.lang.String) _r23_o);
-    _r0_o = _r22_o;
-    _r1_o = _r18_o;
-    _r22_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r21_o).@this((global::java.lang.String) _r22_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r21_o);
-    label363:;
-    _r8.i = _r8.i + 4;
-    if (_r8.i >= _r10.i) goto label435;
-    _r0_o = _r26_o;
-    _r1.i = _r8.i;
-    _r19_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
-    _r21.i = ((global::java.lang.String) _r19_o).length();
-    _r22.i = 1;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i == _r1.i) goto label435;
-    _r21.i = 0;
-    _r0_o = _r19_o;
-    _r1.i = _r21.i;
-    _r21.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
-    _r22.i = 47;
-    _r0.i = _r21.i;
-    _r1.i = _r22.i;
-    if (_r0.i == _r1.i) goto label435;
-    _r21_o = new global::java.lang.IllegalArgumentException();
-    _r22_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r22_o).@this();
-    // Value=Syntax error: illegal separator after array: 
-    _r23_o = new global::java.lang.String();
-    ((global::java.lang.String)_r23_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).append((global::java.lang.String) _r23_o);
-    _r0_o = _r22_o;
-    _r1_o = _r18_o;
-    _r22_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
-    _r22_o = ((global::java.lang.StringBuilder) _r22_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r21_o).@this((global::java.lang.String) _r22_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r21_o);
-    label435:;
-    if (_r7.i == 0) goto label472;
-    _r0_o = _r25_o;
-    _r1_o = _r15_o;
-    _r4_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getDescendants((global::java.lang.String) _r1_o);
-    label444:;
-    _r13_o = ((global::com.codename1.processing.Evaluator) _r6_o).evaluate((global::java.util.List) _r4_o);
-    _r0_o = _r13_o;
-    _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
-    _r21.i = _r0.i;
-    if (_r21.i == 0) goto label480;
-    _r21.i = _r8.i + 1;
-    _r0_o = _r24_o;
-    _r1_o = _r13_o;
-    _r2_o = _r26_o;
-    _r3.i = _r21.i;
-    _r21_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
-    goto label4;
-    label472:;
-    _r0_o = _r25_o;
-    _r1_o = _r15_o;
-    _r4_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getChildren((global::java.lang.String) _r1_o);
-    goto label444;
-    label480:;
-    if (_r13_o == null) goto label58;
-    _r0_o = _r13_o;
-    _r14_o = _r0_o;
-    _r21.i = ((global::java.util.List) _r14_o).size();
-    if (_r21.i <= 0) goto label58;
-    _r20_o = new global::java.util.Vector();
-    ((global::java.util.Vector) _r20_o).@this();
-    _r9_o = ((global::java.util.List) _r13_o).iterator();
-    label503:;
-    _r21.i = ((global::java.util.Iterator) _r9_o).hasNext() ? 1 : 0;
-    if (_r21.i == 0) goto label535;
-    _r11_o = ((global::java.util.Iterator) _r9_o).next();
-    _r21.i = _r8.i + 1;
-    _r0_o = _r24_o;
-    _r1_o = _r11_o;
-    _r2_o = _r26_o;
-    _r3.i = _r21.i;
-    _r12_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
-    _r0_o = _r20_o;
-    _r1_o = _r12_o;
-    ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r1_o);
-    goto label503;
-    label535:;
-    _r21_o = new global::com.codename1.processing.SubContent();
-    _r0_o = _r21_o;
-    _r1_o = _r20_o;
-    _r2_o = _r25_o;
-    ((global::com.codename1.processing.SubContent) _r0_o).@this((global::java.util.List) _r1_o, (global::com.codename1.processing.StructuredContent) _r2_o);
-    goto label4;
-    label548:;
-    _r21_o = _r25_o;
-    goto label4;
-//XMLVM_END_WRAPPER[com.codename1.processing.Result: com.codename1.processing.StructuredContent apply(com.codename1.processing.StructuredContent, java.util.List, int)]
-}
-
-public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.lang.String n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: void mapNamespaceAlias(java.lang.String, java.lang.String)]
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r23_o = this;
+    _r24_o = n1;
+    _r25_o = n2;
+    _r26.i = n3;
+    if (_r24_o != null) goto label5;
+    _r20_o = null;
+    label4:;
+    return (global::com.codename1.processing.StructuredContent) _r20_o;
+    label5:;
+    _r9.i = ((global::java.util.List) _r25_o).size();
+    _r0.i = _r26.i;
+    _r1.i = _r9.i;
+    if (_r0.i < _r1.i) goto label17;
+    _r20_o = _r24_o;
+    goto label4;
+    label17:;
+    _r7.i = 0;
+    _r8.i = _r26.i;
+    label20:;
+    if (_r8.i >= _r9.i) goto label547;
+    _r0_o = _r25_o;
+    _r1.i = _r8.i;
+    _r14_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r14_o = _r14_o;
+    _r20.i = ((global::java.lang.String) _r14_o).length();
+    _r21.i = 1;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i != _r1.i) goto label61;
+    _r20.i = 0;
+    _r0_o = _r14_o;
+    _r1.i = _r20.i;
+    _r20.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
+    _r20.i = global::com.codename1.processing.ResultTokenizer.isDelimiter((char) _r20.i) ? 1 : 0;
+    if (_r20.i == 0) goto label61;
+    label58:;
+    _r8.i = _r8.i + 1;
+    goto label20;
+    label61:;
+    _r20.i = ((global::java.lang.String) _r14_o).length();
+    _r21.i = 2;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i != _r1.i) goto label116;
+    _r20_o = global::com.codename1.processing.Result._fSELECT_1GLOB;
+    _r0_o = _r14_o;
+    _r1_o = _r20_o;
+    _r20.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r20.i == 0) goto label86;
+    _r7.i = 1;
+    goto label58;
+    label86:;
+    _r20_o = global::com.codename1.processing.Result._fSELECT_1PARENT;
+    _r0_o = _r14_o;
+    _r1_o = _r20_o;
+    _r20.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r1_o) ? 1 : 0;
+    if (_r20.i == 0) goto label116;
+    _r20_o = ((global::com.codename1.processing.StructuredContent) _r24_o).getParent();
+    _r21.i = _r8.i + 1;
+    _r0_o = _r23_o;
+    _r1_o = _r20_o;
+    _r2_o = _r25_o;
+    _r3.i = _r21.i;
+    _r20_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
+    goto label4;
+    label116:;
+    _r20.i = _r8.i + 1;
+    _r0.i = _r20.i;
+    _r1.i = _r9.i;
+    if (_r0.i < _r1.i) goto label126;
+    _r20_o = _r24_o;
+    goto label4;
+    label126:;
+    _r20.i = _r8.i + 1;
+    _r0_o = _r25_o;
+    _r1.i = _r20.i;
+    _r15_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r15_o = _r15_o;
+    _r20.i = 0;
+    _r0_o = _r15_o;
+    _r1.i = _r20.i;
+    _r13.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
+    switch (_r13.i) {
+    case 47: goto label151;
+    case 91: goto label204;
+    }
+    goto label58;
+    label151:;
+    if (_r7.i == 0) goto label192;
+    _r0_o = _r24_o;
+    _r1_o = _r14_o;
+    _r5_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getDescendants((global::java.lang.String) _r1_o);
+    label160:;
+    _r20.i = ((global::java.util.List) _r5_o).size();
+    if (_r20.i <= 0) goto label200;
+    _r20_o = new global::com.codename1.processing.SubContent();
+    _r0_o = _r20_o;
+    _r1_o = _r5_o;
+    _r2_o = _r24_o;
+    ((global::com.codename1.processing.SubContent) _r0_o).@this((global::java.util.List) _r1_o, (global::com.codename1.processing.StructuredContent) _r2_o);
+    _r21.i = _r8.i + 2;
+    _r0_o = _r23_o;
+    _r1_o = _r20_o;
+    _r2_o = _r25_o;
+    _r3.i = _r21.i;
+    _r20_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
+    goto label4;
+    label192:;
+    _r0_o = _r24_o;
+    _r1_o = _r14_o;
+    _r5_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getChildren((global::java.lang.String) _r1_o);
+    goto label160;
+    label200:;
+    _r20_o = null;
+    goto label4;
+    label204:;
+    _r20.i = _r8.i + 2;
+    _r0.i = _r20.i;
+    _r1.i = _r9.i;
+    if (_r0.i < _r1.i) goto label239;
+    _r20_o = new global::java.lang.IllegalArgumentException();
+    _r21_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r21_o).@this();
+    // Value=Syntax error: array must be followed by a dimension: 
+    _r22_o = new global::java.lang.String();
+    ((global::java.lang.String)_r22_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).append((global::java.lang.String) _r22_o);
+    _r0_o = _r21_o;
+    _r1_o = _r14_o;
+    _r21_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r20_o).@this((global::java.lang.String) _r21_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r20_o);
+    label239:;
+    _r20.i = _r8.i + 2;
+    _r0_o = _r25_o;
+    _r1.i = _r20.i;
+    _r16_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r16_o = _r16_o;
+    _r6_o = global::com.codename1.processing.EvaluatorFactory.createEvaluator((global::java.lang.String) _r16_o);
+    _r20.i = _r8.i + 3;
+    _r0.i = _r20.i;
+    _r1.i = _r9.i;
+    if (_r0.i < _r1.i) goto label291;
+    _r20_o = new global::java.lang.IllegalArgumentException();
+    _r21_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r21_o).@this();
+    // Value=Syntax error: array dimension must be closed: 
+    _r22_o = new global::java.lang.String();
+    ((global::java.lang.String)_r22_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).append((global::java.lang.String) _r22_o);
+    _r0_o = _r21_o;
+    _r1_o = _r16_o;
+    _r21_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r20_o).@this((global::java.lang.String) _r21_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r20_o);
+    label291:;
+    _r20.i = _r8.i + 3;
+    _r0_o = _r25_o;
+    _r1.i = _r20.i;
+    _r17_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r17_o = _r17_o;
+    _r20.i = ((global::java.lang.String) _r17_o).length();
+    _r21.i = 1;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i == _r1.i) goto label362;
+    _r20.i = 0;
+    _r0_o = _r17_o;
+    _r1.i = _r20.i;
+    _r20.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
+    _r21.i = 93;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i == _r1.i) goto label362;
+    _r20_o = new global::java.lang.IllegalArgumentException();
+    _r21_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r21_o).@this();
+    // Value=Syntax error: illegal close of array dimension: 
+    _r22_o = new global::java.lang.String();
+    ((global::java.lang.String)_r22_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).append((global::java.lang.String) _r22_o);
+    _r0_o = _r21_o;
+    _r1_o = _r17_o;
+    _r21_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r20_o).@this((global::java.lang.String) _r21_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r20_o);
+    label362:;
+    _r8.i = _r8.i + 4;
+    if (_r8.i >= _r9.i) goto label434;
+    _r0_o = _r25_o;
+    _r1.i = _r8.i;
+    _r18_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r18_o = _r18_o;
+    _r20.i = ((global::java.lang.String) _r18_o).length();
+    _r21.i = 1;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i == _r1.i) goto label434;
+    _r20.i = 0;
+    _r0_o = _r18_o;
+    _r1.i = _r20.i;
+    _r20.i = ((global::java.lang.String) _r0_o).charAt((int) _r1.i);
+    _r21.i = 47;
+    _r0.i = _r20.i;
+    _r1.i = _r21.i;
+    if (_r0.i == _r1.i) goto label434;
+    _r20_o = new global::java.lang.IllegalArgumentException();
+    _r21_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r21_o).@this();
+    // Value=Syntax error: illegal separator after array: 
+    _r22_o = new global::java.lang.String();
+    ((global::java.lang.String)_r22_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).append((global::java.lang.String) _r22_o);
+    _r0_o = _r21_o;
+    _r1_o = _r17_o;
+    _r21_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
+    _r21_o = ((global::java.lang.StringBuilder) _r21_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r20_o).@this((global::java.lang.String) _r21_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r20_o);
+    label434:;
+    if (_r7.i == 0) goto label471;
+    _r0_o = _r24_o;
+    _r1_o = _r14_o;
+    _r4_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getDescendants((global::java.lang.String) _r1_o);
+    label443:;
+    _r12_o = ((global::com.codename1.processing.Evaluator) _r6_o).evaluate((global::java.util.List) _r4_o);
+    _r0_o = _r12_o;
+    _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
+    _r20.i = _r0.i;
+    if (_r20.i == 0) goto label479;
+    _r12_o = _r12_o;
+    _r20.i = _r8.i + 1;
+    _r0_o = _r23_o;
+    _r1_o = _r12_o;
+    _r2_o = _r25_o;
+    _r3.i = _r20.i;
+    _r20_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
+    goto label4;
+    label471:;
+    _r0_o = _r24_o;
+    _r1_o = _r14_o;
+    _r4_o = ((global::com.codename1.processing.StructuredContent) _r0_o).getChildren((global::java.lang.String) _r1_o);
+    goto label443;
+    label479:;
+    if (_r12_o == null) goto label58;
+    _r0_o = _r12_o;
+    _r0_o = _r0_o;
+    _r13_o = _r0_o;
+    _r20.i = ((global::java.util.List) _r13_o).size();
+    if (_r20.i <= 0) goto label58;
+    _r19_o = new global::java.util.Vector();
+    ((global::java.util.Vector) _r19_o).@this();
+    _r12_o = _r12_o;
+    _r20_o = ((global::java.util.List) _r12_o).iterator();
+    label502:;
+    _r21.i = ((global::java.util.Iterator) _r20_o).hasNext() ? 1 : 0;
+    if (_r21.i == 0) goto label534;
+    _r10_o = ((global::java.util.Iterator) _r20_o).next();
+    _r10_o = _r10_o;
+    _r21.i = _r8.i + 1;
+    _r0_o = _r23_o;
+    _r1_o = _r10_o;
+    _r2_o = _r25_o;
+    _r3.i = _r21.i;
+    _r11_o = ((global::com.codename1.processing.Result) _r0_o).apply((global::com.codename1.processing.StructuredContent) _r1_o, (global::java.util.List) _r2_o, (int) _r3.i);
+    _r0_o = _r19_o;
+    _r1_o = _r11_o;
+    ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r1_o);
+    goto label502;
+    label534:;
+    _r20_o = new global::com.codename1.processing.SubContent();
+    _r0_o = _r20_o;
+    _r1_o = _r19_o;
+    _r2_o = _r24_o;
+    ((global::com.codename1.processing.SubContent) _r0_o).@this((global::java.util.List) _r1_o, (global::com.codename1.processing.StructuredContent) _r2_o);
+    goto label4;
+    label547:;
+    _r20_o = _r24_o;
+    goto label4;
+    label552:;
+//XMLVM_END_WRAPPER[com.codename1.processing.Result: com.codename1.processing.StructuredContent apply(com.codename1.processing.StructuredContent, java.util.List, int)]
+}
+
+public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: void mapNamespaceAlias(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1180,6 +1378,7 @@ public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label13;
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
+    _r2_o = _r2_o;
     // Value=xmlns:
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)120)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 58))}));
@@ -1202,9 +1401,11 @@ public virtual void mapNamespaceAlias(global::java.lang.String n1, global::java.
 //XMLVM_END_WRAPPER[com.codename1.processing.Result: void mapNamespaceAlias(java.lang.String, java.lang.String)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.Result: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=//
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)47)), unchecked((char) unchecked((uint) 47))}));

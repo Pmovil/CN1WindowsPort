@@ -83,10 +83,13 @@ private double _fmZoomInLimitX;
 
 private double _fmZoomInLimitY;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).@this((int) _r0.i);
@@ -99,12 +102,22 @@ public void @this(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r6.i = 5;
@@ -166,12 +179,18 @@ public void @this(int n1){
 public virtual void initAxesRange(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void initAxesRange(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 200;
@@ -218,17 +237,27 @@ public virtual void initAxesRange(int n1){
 
 public virtual void initAxesRangeForScale(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void initAxesRangeForScale(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r7.i = 4;
@@ -282,8 +311,11 @@ public virtual void initAxesRangeForScale(int n1){
 
 public virtual global::System.Object getOrientation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation getOrientation()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmOrientation;
     return (global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation) _r0_o;
@@ -292,8 +324,11 @@ public virtual global::System.Object getOrientation(){
 
 public virtual void setOrientation(global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setOrientation(com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmOrientation = (global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation) _r1_o;
@@ -303,8 +338,11 @@ public virtual void setOrientation(global::com.codename1.charts.renderers.XYMult
 
 public virtual global::System.Object getXTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getXTitle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXTitle;
     return (global::java.lang.String) _r0_o;
@@ -313,8 +351,11 @@ public virtual global::System.Object getXTitle(){
 
 public virtual void setXTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXTitle(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXTitle = (global::java.lang.String) _r1_o;
@@ -326,7 +367,9 @@ public virtual global::System.Object getYTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getYTitle()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).getYTitle((int) _r0.i);
@@ -336,9 +379,13 @@ public virtual global::System.Object getYTitle(){
 
 public virtual global::System.Object getYTitle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getYTitle(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYTitle;
@@ -350,8 +397,12 @@ public virtual global::System.Object getYTitle(int n1){
 public virtual void setYTitle(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYTitle(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -362,10 +413,15 @@ public virtual void setYTitle(global::java.lang.String n1){
 
 public virtual void setYTitle(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYTitle(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -378,7 +434,10 @@ public virtual void setYTitle(global::java.lang.String n1, int n2){
 public virtual float getAxisTitleTextSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getAxisTitleTextSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmAxisTitleTextSize;
     return _r0.f;
@@ -387,8 +446,11 @@ public virtual float getAxisTitleTextSize(){
 
 public virtual void setAxisTitleTextSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setAxisTitleTextSize(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmAxisTitleTextSize = _r1.f;
@@ -399,8 +461,12 @@ public virtual void setAxisTitleTextSize(float n1){
 public virtual void setAxisTitleTextFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setAxisTitleTextFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Font) _r2_o).getHeight();
@@ -413,7 +479,12 @@ public virtual void setAxisTitleTextFont(global::com.codename1.ui.Font n1){
 public virtual double getXAxisMin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getXAxisMin()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o).getXAxisMin((int) _r0.i);
@@ -424,8 +495,14 @@ public virtual double getXAxisMin(){
 public virtual void setXAxisMin(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXAxisMin(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0.i = 0;
@@ -437,7 +514,10 @@ public virtual void setXAxisMin(double n1){
 public virtual bool isMinXSet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMinXSet()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isMinXSet((int) _r0.i) ? 1 : 0;
@@ -448,7 +528,12 @@ public virtual bool isMinXSet(){
 public virtual double getXAxisMax(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getXAxisMax()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o).getXAxisMax((int) _r0.i);
@@ -459,8 +544,14 @@ public virtual double getXAxisMax(){
 public virtual void setXAxisMax(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXAxisMax(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0.i = 0;
@@ -472,7 +563,10 @@ public virtual void setXAxisMax(double n1){
 public virtual bool isMaxXSet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMaxXSet()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isMaxXSet((int) _r0.i) ? 1 : 0;
@@ -483,7 +577,12 @@ public virtual bool isMaxXSet(){
 public virtual double getYAxisMin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getYAxisMin()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o).getYAxisMin((int) _r0.i);
@@ -494,8 +593,14 @@ public virtual double getYAxisMin(){
 public virtual void setYAxisMin(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYAxisMin(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0.i = 0;
@@ -507,7 +612,10 @@ public virtual void setYAxisMin(double n1){
 public virtual bool isMinYSet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMinYSet()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isMinYSet((int) _r0.i) ? 1 : 0;
@@ -518,7 +626,12 @@ public virtual bool isMinYSet(){
 public virtual double getYAxisMax(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getYAxisMax()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o).getYAxisMax((int) _r0.i);
@@ -529,8 +642,14 @@ public virtual double getYAxisMax(){
 public virtual void setYAxisMax(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYAxisMax(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0.i = 0;
@@ -542,7 +661,10 @@ public virtual void setYAxisMax(double n1){
 public virtual bool isMaxYSet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMaxYSet()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isMaxYSet((int) _r0.i) ? 1 : 0;
@@ -554,8 +676,13 @@ public virtual double getXAxisMin(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getXAxisMin(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmMinX;
@@ -570,9 +697,15 @@ public virtual void setXAxisMin(double n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.i = n2;
@@ -581,6 +714,7 @@ public virtual void setXAxisMin(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1.i = 0;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -594,9 +728,17 @@ public virtual bool isMinXSet(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMinXSet(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r4_o)._fmMinX;
@@ -617,8 +759,13 @@ public virtual double getXAxisMax(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getXAxisMax(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmMaxX;
@@ -633,9 +780,15 @@ public virtual void setXAxisMax(double n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.i = n2;
@@ -644,6 +797,7 @@ public virtual void setXAxisMax(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1.i = 1;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -657,9 +811,17 @@ public virtual bool isMaxXSet(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMaxXSet(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r4_o)._fmMaxX;
@@ -680,8 +842,13 @@ public virtual double getYAxisMin(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getYAxisMin(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmMinY;
@@ -696,9 +863,15 @@ public virtual void setYAxisMin(double n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.i = n2;
@@ -707,6 +880,7 @@ public virtual void setYAxisMin(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1.i = 2;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -720,9 +894,17 @@ public virtual bool isMinYSet(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMinYSet(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r4_o)._fmMinY;
@@ -743,8 +925,13 @@ public virtual double getYAxisMax(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getYAxisMax(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmMaxY;
@@ -759,9 +946,15 @@ public virtual void setYAxisMax(double n1, int n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.i = n2;
@@ -770,6 +963,7 @@ public virtual void setYAxisMax(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1.i = 3;
     ((global::org.xmlvm._nArrayAdapter<double>) _r0_o)[_r1.i] = _r3.d;
     label21:;
@@ -783,9 +977,17 @@ public virtual bool isMaxYSet(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isMaxYSet(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r4_o)._fmMaxY;
@@ -805,7 +1007,10 @@ public virtual bool isMaxYSet(int n1){
 public virtual int getXLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getXLabels()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXLabels;
     return _r0.i;
@@ -814,8 +1019,11 @@ public virtual int getXLabels(){
 
 public virtual void setXLabels(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabels(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXLabels = _r1.i;
@@ -825,9 +1033,15 @@ public virtual void setXLabels(int n1){
 
 public virtual void addTextLabel(double n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void addTextLabel(double, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3_o = n2;
@@ -838,10 +1052,17 @@ public virtual void addTextLabel(double n1, global::java.lang.String n2){
 
 public virtual void addXTextLabel(double n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void addXTextLabel(double, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -874,10 +1095,16 @@ public virtual void addXTextLabel(double n1, global::java.lang.String n2){
 
 public virtual void removeXTextLabel(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void removeXTextLabel(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
@@ -908,8 +1135,11 @@ public virtual void removeXTextLabel(double n1){
 
 public virtual global::System.Object getXTextLabel(global::java.lang.Double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getXTextLabel(java.lang.Double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -918,6 +1148,7 @@ public virtual global::System.Object getXTextLabel(global::java.lang.Double n1){
     try {
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXTextLabels;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -940,9 +1171,11 @@ public virtual global::System.Object getXTextLabel(global::java.lang.Double n1){
 
 public virtual global::System.Object getXTextLabelLocations(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.Double[] getXTextLabelLocations()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -955,6 +1188,7 @@ public virtual global::System.Object getXTextLabelLocations(){
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmXTextLabels;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1_o = ((global::java.util.Set) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -977,7 +1211,9 @@ public virtual global::System.Object getXTextLabelLocations(){
 
 public virtual void clearTextLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void clearTextLabels()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o).clearXTextLabels();
     return;
@@ -986,7 +1222,9 @@ public virtual void clearTextLabels(){
 
 public virtual void clearXTextLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void clearXTextLabels()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -1017,7 +1255,10 @@ public virtual void clearXTextLabels(){
 public virtual bool isXRoundedLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isXRoundedLabels()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXRoundedLabels ? 1 : 0;
     return _r0.i!=0;
@@ -1026,8 +1267,11 @@ public virtual bool isXRoundedLabels(){
 
 public virtual void setXRoundedLabels(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXRoundedLabels(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXRoundedLabels = 0!=_r1.i;
@@ -1038,9 +1282,16 @@ public virtual void setXRoundedLabels(bool n1){
 public virtual void addYTextLabel(double n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void addYTextLabel(double, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r4_o = n2;
@@ -1053,8 +1304,14 @@ public virtual void addYTextLabel(double n1, global::java.lang.String n2){
 public virtual void removeYTextLabel(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void removeYTextLabel(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r0.i = 0;
@@ -1065,12 +1322,20 @@ public virtual void removeYTextLabel(double n1){
 
 public virtual void addYTextLabel(double n1, global::java.lang.String n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void addYTextLabel(double, java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
@@ -1081,6 +1346,7 @@ public virtual void addYTextLabel(double n1, global::java.lang.String n2, int n3
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r6.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1_o = global::java.lang.Double.valueOf((double) _r3.d);
     ((global::java.util.Map) _r0_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r5_o);
     }
@@ -1105,11 +1371,18 @@ public virtual void addYTextLabel(double n1, global::java.lang.String n2, int n3
 
 public virtual void removeYTextLabel(double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void removeYTextLabel(double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
@@ -1119,6 +1392,7 @@ public virtual void removeYTextLabel(double n1, int n2){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r5.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r1_o = global::java.lang.Double.valueOf((double) _r3.d);
     ((global::java.util.Map) _r0_o).remove((global::java.lang.Object) _r1_o);
     }
@@ -1145,8 +1419,11 @@ public virtual global::System.Object getYTextLabel(global::java.lang.Double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getYTextLabel(java.lang.Double)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1157,11 +1434,16 @@ public virtual global::System.Object getYTextLabel(global::java.lang.Double n1){
 
 public virtual global::System.Object getYTextLabel(global::java.lang.Double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.String getYTextLabel(java.lang.Double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
@@ -1171,7 +1453,9 @@ public virtual global::System.Object getYTextLabel(global::java.lang.Double n1, 
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1196,7 +1480,9 @@ public virtual global::System.Object getYTextLabelLocations(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.Double[] getYTextLabelLocations()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).getYTextLabelLocations((int) _r0.i);
@@ -1206,12 +1492,16 @@ public virtual global::System.Object getYTextLabelLocations(){
 
 public virtual global::System.Object getYTextLabelLocations(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: java.lang.Double[] getYTextLabelLocations(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
@@ -1220,14 +1510,17 @@ public virtual global::System.Object getYTextLabelLocations(int n1){
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r3_o)._fmYTextLabels;
     _r2_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1.i = ((global::java.util.Set) _r1_o).size();
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r3_o)._fmYTextLabels;
     _r2_o = global::java.lang.Integer.valueOf((int) _r4.i);
     _r1_o = ((global::java.util.Map) _r1_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Map) _r1_o).keySet();
     _r1_o = ((global::java.util.Set) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1251,7 +1544,10 @@ public virtual global::System.Object getYTextLabelLocations(int n1){
 public virtual void clearYTextLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void clearYTextLabels()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).clearYTextLabels((int) _r0.i);
@@ -1261,10 +1557,14 @@ public virtual void clearYTextLabels(){
 
 public virtual void clearYTextLabels(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void clearYTextLabels(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
@@ -1273,6 +1573,7 @@ public virtual void clearYTextLabels(int n1){
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmYTextLabels;
     _r1_o = global::java.lang.Integer.valueOf((int) _r3.i);
     _r0_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
     ((global::java.util.Map) _r0_o).clear();
     }
     catch (global::System.Exception e) {
@@ -1297,7 +1598,10 @@ public virtual void clearYTextLabels(int n1){
 public virtual int getYLabels(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getYLabels()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabels;
     return _r0.i;
@@ -1306,8 +1610,11 @@ public virtual int getYLabels(){
 
 public virtual void setYLabels(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabels(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmYLabels = _r1.i;
@@ -1318,7 +1625,10 @@ public virtual void setYLabels(int n1){
 public virtual float getBarWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getBarWidth()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmBarWidth;
     return _r0.f;
@@ -1327,8 +1637,11 @@ public virtual float getBarWidth(){
 
 public virtual void setBarWidth(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setBarWidth(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmBarWidth = _r1.f;
@@ -1339,7 +1652,10 @@ public virtual void setBarWidth(float n1){
 public override bool isPanEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isPanEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isPanXEnabled() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -1358,7 +1674,10 @@ public override bool isPanEnabled(){
 public virtual bool isPanXEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isPanXEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmPanXEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1368,7 +1687,10 @@ public virtual bool isPanXEnabled(){
 public virtual bool isPanYEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isPanYEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmPanYEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1377,9 +1699,13 @@ public virtual bool isPanYEnabled(){
 
 public virtual void setPanEnabled(bool n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setPanEnabled(boolean, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2.i = n2 ? 1 : 0;
@@ -1391,8 +1717,11 @@ public virtual void setPanEnabled(bool n1, bool n2){
 
 public override void setPanEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setPanEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o).setPanEnabled(0!=_r1.i, 0!=_r1.i);
@@ -1403,7 +1732,10 @@ public override void setPanEnabled(bool n1){
 public override bool isZoomEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isZoomEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isZoomXEnabled() ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -1422,7 +1754,10 @@ public override bool isZoomEnabled(){
 public virtual bool isZoomXEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isZoomXEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmZoomXEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1432,7 +1767,10 @@ public virtual bool isZoomXEnabled(){
 public virtual bool isZoomYEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isZoomYEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmZoomYEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1441,9 +1779,13 @@ public virtual bool isZoomYEnabled(){
 
 public virtual void setZoomEnabled(bool n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setZoomEnabled(boolean, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     _r2.i = n2 ? 1 : 0;
@@ -1456,7 +1798,12 @@ public virtual void setZoomEnabled(bool n1, bool n2){
 public virtual double getBarsSpacing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getBarsSpacing()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o).getBarSpacing();
     return _r0.d;
@@ -1466,7 +1813,12 @@ public virtual double getBarsSpacing(){
 public virtual double getBarSpacing(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getBarSpacing()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmBarSpacing;
     return _r0.d;
@@ -1475,8 +1827,13 @@ public virtual double getBarSpacing(){
 
 public virtual void setBarSpacing(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setBarSpacing(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmBarSpacing = _r1.d;
@@ -1487,7 +1844,10 @@ public virtual void setBarSpacing(double n1){
 public virtual int getMarginsColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getMarginsColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmMarginsColor;
     return _r0.i;
@@ -1496,8 +1856,11 @@ public virtual int getMarginsColor(){
 
 public virtual void setMarginsColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setMarginsColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmMarginsColor = _r1.i;
@@ -1509,8 +1872,11 @@ public virtual int getGridColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getGridColor(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmGridColors;
@@ -1522,8 +1888,12 @@ public virtual int getGridColor(int n1){
 public virtual void setGridColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setGridColor(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1534,10 +1904,15 @@ public virtual void setGridColor(int n1){
 
 public virtual void setGridColor(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setGridColor(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1549,8 +1924,11 @@ public virtual void setGridColor(int n1, int n2){
 
 public virtual global::System.Object getPanLimits(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getPanLimits()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmPanLimits;
     return (global::org.xmlvm._nArrayAdapter<double>) _r0_o;
@@ -1559,8 +1937,11 @@ public virtual global::System.Object getPanLimits(){
 
 public virtual void setPanLimits(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setPanLimits(double[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmPanLimits = (global::org.xmlvm._nArrayAdapter<double>) _r1_o;
@@ -1570,8 +1951,11 @@ public virtual void setPanLimits(global::org.xmlvm._nArrayAdapter<double> n1){
 
 public virtual global::System.Object getZoomLimits(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getZoomLimits()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmZoomLimits;
     return (global::org.xmlvm._nArrayAdapter<double>) _r0_o;
@@ -1580,8 +1964,11 @@ public virtual global::System.Object getZoomLimits(){
 
 public virtual void setZoomLimits(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setZoomLimits(double[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmZoomLimits = (global::org.xmlvm._nArrayAdapter<double>) _r1_o;
@@ -1592,7 +1979,10 @@ public virtual void setZoomLimits(global::org.xmlvm._nArrayAdapter<double> n1){
 public virtual float getXLabelsAngle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getXLabelsAngle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXLabelsAngle;
     return _r0.f;
@@ -1601,8 +1991,11 @@ public virtual float getXLabelsAngle(){
 
 public virtual void setXLabelsAngle(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabelsAngle(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXLabelsAngle = _r1.f;
@@ -1613,7 +2006,10 @@ public virtual void setXLabelsAngle(float n1){
 public virtual float getYLabelsAngle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getYLabelsAngle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabelsAngle;
     return _r0.f;
@@ -1622,8 +2018,11 @@ public virtual float getYLabelsAngle(){
 
 public virtual void setYLabelsAngle(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsAngle(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmYLabelsAngle = _r1.f;
@@ -1634,7 +2033,10 @@ public virtual void setYLabelsAngle(float n1){
 public virtual float getPointSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getPointSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmPointSize;
     return _r0.f;
@@ -1643,8 +2045,11 @@ public virtual float getPointSize(){
 
 public virtual void setPointSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setPointSize(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmPointSize = _r1.f;
@@ -1655,8 +2060,12 @@ public virtual void setPointSize(float n1){
 public virtual void setRange(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setRange(double[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1668,9 +2077,16 @@ public virtual void setRange(global::org.xmlvm._nArrayAdapter<double> n1){
 public virtual void setRange(global::org.xmlvm._nArrayAdapter<double> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setRange(double[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -1693,7 +2109,10 @@ public virtual void setRange(global::org.xmlvm._nArrayAdapter<double> n1, int n2
 public virtual bool isInitialRangeSet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isInitialRangeSet()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).isInitialRangeSet((int) _r0.i) ? 1 : 0;
@@ -1705,9 +2124,13 @@ public virtual bool isInitialRangeSet(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: boolean isInitialRangeSet(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
@@ -1727,7 +2150,9 @@ public virtual global::System.Object getInitialRange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getInitialRange()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).getInitialRange((int) _r0.i);
@@ -1737,15 +2162,21 @@ public virtual global::System.Object getInitialRange(){
 
 public virtual global::System.Object getInitialRange(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getInitialRange(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._finitialRange;
     _r1_o = global::java.lang.Integer.valueOf((int) _r3.i);
     _r2_o = ((global::java.util.Map) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<double>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double[] getInitialRange(int)]
 }
@@ -1753,8 +2184,12 @@ public virtual global::System.Object getInitialRange(int n1){
 public virtual void setInitialRange(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setInitialRange(double[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -1765,11 +2200,17 @@ public virtual void setInitialRange(global::org.xmlvm._nArrayAdapter<double> n1)
 
 public virtual void setInitialRange(global::org.xmlvm._nArrayAdapter<double> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setInitialRange(double[], int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -1783,7 +2224,10 @@ public virtual void setInitialRange(global::org.xmlvm._nArrayAdapter<double> n1,
 public virtual int getXLabelsColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getXLabelsColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXLabelsColor;
     return _r0.i;
@@ -1794,8 +2238,11 @@ public virtual int getYLabelsColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getYLabelsColor(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabelsColor;
@@ -1806,8 +2253,11 @@ public virtual int getYLabelsColor(int n1){
 
 public virtual void setXLabelsColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabelsColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXLabelsColor = _r1.i;
@@ -1817,10 +2267,15 @@ public virtual void setXLabelsColor(int n1){
 
 public virtual void setYLabelsColor(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsColor(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1833,7 +2288,10 @@ public virtual void setYLabelsColor(int n1, int n2){
 public virtual int getXLabelsAlign(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getXLabelsAlign()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fxLabelsAlign;
     return _r0.i;
@@ -1842,8 +2300,11 @@ public virtual int getXLabelsAlign(){
 
 public virtual void setXLabelsAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabelsAlign(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fxLabelsAlign = _r1.i;
@@ -1855,8 +2316,11 @@ public virtual int getYLabelsAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getYLabelsAlign(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fyLabelsAlign;
@@ -1868,8 +2332,12 @@ public virtual int getYLabelsAlign(int n1){
 public virtual void setYLabelsAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsAlign(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1882,8 +2350,11 @@ public virtual int getYAxisAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getYAxisAlign(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fyAxisAlign;
@@ -1894,10 +2365,15 @@ public virtual int getYAxisAlign(int n1){
 
 public virtual void setYAxisAlign(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYAxisAlign(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1909,10 +2385,15 @@ public virtual void setYAxisAlign(int n1, int n2){
 
 public virtual void setYLabelsAlign(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsAlign(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1925,7 +2406,10 @@ public virtual void setYLabelsAlign(int n1, int n2){
 public virtual float getXLabelsPadding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getXLabelsPadding()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXLabelsPadding;
     return _r0.f;
@@ -1934,8 +2418,11 @@ public virtual float getXLabelsPadding(){
 
 public virtual void setXLabelsPadding(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabelsPadding(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXLabelsPadding = _r1.f;
@@ -1946,7 +2433,10 @@ public virtual void setXLabelsPadding(float n1){
 public virtual float getYLabelsPadding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getYLabelsPadding()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabelsPadding;
     return _r0.f;
@@ -1955,8 +2445,11 @@ public virtual float getYLabelsPadding(){
 
 public virtual void setYLabelsVerticalPadding(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsVerticalPadding(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmYLabelsVerticalPadding = _r1.f;
@@ -1967,7 +2460,10 @@ public virtual void setYLabelsVerticalPadding(float n1){
 public virtual float getYLabelsVerticalPadding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: float getYLabelsVerticalPadding()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabelsVerticalPadding;
     return _r0.f;
@@ -1976,8 +2472,11 @@ public virtual float getYLabelsVerticalPadding(){
 
 public virtual void setYLabelsPadding(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelsPadding(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmYLabelsPadding = _r1.f;
@@ -1987,8 +2486,11 @@ public virtual void setYLabelsPadding(float n1){
 
 public virtual global::System.Object getLabelFormat(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: com.codename1.charts.util.NumberFormat getLabelFormat()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o).getXLabelFormat();
     return (global::com.codename1.charts.util.NumberFormat) _r0_o;
@@ -1997,8 +2499,11 @@ public virtual global::System.Object getLabelFormat(){
 
 public virtual void setLabelFormat(global::com.codename1.charts.util.NumberFormat n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setLabelFormat(com.codename1.charts.util.NumberFormat)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o).setXLabelFormat((global::com.codename1.charts.util.NumberFormat) _r1_o);
@@ -2008,8 +2513,11 @@ public virtual void setLabelFormat(global::com.codename1.charts.util.NumberForma
 
 public virtual global::System.Object getXLabelFormat(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: com.codename1.charts.util.NumberFormat getXLabelFormat()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmXLabelFormat;
     return (global::com.codename1.charts.util.NumberFormat) _r0_o;
@@ -2018,8 +2526,11 @@ public virtual global::System.Object getXLabelFormat(){
 
 public virtual void setXLabelFormat(global::com.codename1.charts.util.NumberFormat n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setXLabelFormat(com.codename1.charts.util.NumberFormat)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmXLabelFormat = (global::com.codename1.charts.util.NumberFormat) _r1_o;
@@ -2029,9 +2540,13 @@ public virtual void setXLabelFormat(global::com.codename1.charts.util.NumberForm
 
 public virtual global::System.Object getYLabelFormat(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: com.codename1.charts.util.NumberFormat getYLabelFormat(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fmYLabelFormat;
@@ -2042,10 +2557,15 @@ public virtual global::System.Object getYLabelFormat(int n1){
 
 public virtual void setYLabelFormat(global::com.codename1.charts.util.NumberFormat n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setYLabelFormat(com.codename1.charts.util.NumberFormat, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -2058,7 +2578,12 @@ public virtual void setYLabelFormat(global::com.codename1.charts.util.NumberForm
 public virtual double getZoomInLimitX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getZoomInLimitX()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmZoomInLimitX;
     return _r0.d;
@@ -2067,8 +2592,13 @@ public virtual double getZoomInLimitX(){
 
 public virtual void setZoomInLimitX(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setZoomInLimitX(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmZoomInLimitX = _r1.d;
@@ -2079,7 +2609,12 @@ public virtual void setZoomInLimitX(double n1){
 public virtual double getZoomInLimitY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: double getZoomInLimitY()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r2_o)._fmZoomInLimitY;
     return _r0.d;
@@ -2088,8 +2623,13 @@ public virtual double getZoomInLimitY(){
 
 public virtual void setZoomInLimitY(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: void setZoomInLimitY(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r0_o)._fmZoomInLimitY = _r1.d;
@@ -2100,7 +2640,10 @@ public virtual void setZoomInLimitY(double n1){
 public virtual int getScalesCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer: int getScalesCount()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer) _r1_o)._fscalesCount;
     return _r0.i;

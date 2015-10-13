@@ -7,8 +7,11 @@ public global::java.lang.String _fval_2title;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils$2: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.testing.TestUtils_22) _r0_o)._fval_2title = (global::java.lang.String) _r1_o;
@@ -19,8 +22,11 @@ public void @this(global::java.lang.String n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils$2: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.testing.TestUtils_22) _r1_o)._fval_2title;
     global::com.codename1.testing.TestUtils.access_2000((global::java.lang.String) _r0_o);

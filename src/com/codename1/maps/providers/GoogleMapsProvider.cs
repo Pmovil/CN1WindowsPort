@@ -27,6 +27,8 @@ public static int _fHYBRID = 2;
 public static int getTileSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: int getTileSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.maps.providers.GoogleMapsProvider._ftileSize;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: int getTileSize()]
@@ -35,6 +37,8 @@ public static int getTileSize(){
 public static void setTileSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setTileSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.maps.providers.GoogleMapsProvider._ftileSize = _r0.i;
     return;
@@ -43,13 +47,21 @@ public static void setTileSize(int n1){
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=http://maps.googleapis.com/maps/api/staticmap?
@@ -69,8 +81,11 @@ public void @this(global::java.lang.String n1){
 
 public virtual void setMapType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setMapType(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.maps.providers.GoogleMapsProvider) _r0_o)._ftype = _r1.i;
@@ -81,7 +96,10 @@ public virtual void setMapType(int n1){
 public override int maxZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: int maxZoomLevel()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 18;
     return _r0.i;
@@ -90,8 +108,11 @@ public override int maxZoomLevel(){
 
 public override global::System.Object attribution(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: java.lang.String attribution()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=Google
     _r0_o = new global::java.lang.String();
@@ -106,17 +127,35 @@ public override global::System.Object tileFor(global::com.codename1.maps.Boundin
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r5.i = 1;
@@ -226,8 +265,11 @@ public override global::System.Object tileFor(global::com.codename1.maps.Boundin
 
 public virtual global::System.Object getLanguage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: java.lang.String getLanguage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.providers.GoogleMapsProvider) _r1_o)._flanguage;
     return (global::java.lang.String) _r0_o;
@@ -236,8 +278,11 @@ public virtual global::System.Object getLanguage(){
 
 public virtual void setLanguage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setLanguage(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maps.providers.GoogleMapsProvider) _r0_o)._flanguage = (global::java.lang.String) _r1_o;
@@ -248,7 +293,10 @@ public virtual void setLanguage(global::java.lang.String n1){
 public virtual bool isSensor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: boolean isSensor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.maps.providers.GoogleMapsProvider) _r1_o)._fsensor ? 1 : 0;
     return _r0.i!=0;
@@ -257,8 +305,11 @@ public virtual bool isSensor(){
 
 public virtual void setSensor(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setSensor(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.maps.providers.GoogleMapsProvider) _r0_o)._fsensor = 0!=_r1.i;
@@ -266,9 +317,11 @@ public virtual void setSensor(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void setSensor(boolean)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.GoogleMapsProvider: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 256;
     global::com.codename1.maps.providers.GoogleMapsProvider._ftileSize = _r0.i;
     return;

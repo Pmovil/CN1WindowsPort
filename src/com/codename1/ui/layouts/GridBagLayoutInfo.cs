@@ -9,9 +9,13 @@ public global::org.xmlvm._nArrayAdapter<int> _fheights;
 
 public void @this(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayoutInfo: void <init>(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -24,9 +28,13 @@ public void @this(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._n
 
 public virtual void update(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayoutInfo: void update(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

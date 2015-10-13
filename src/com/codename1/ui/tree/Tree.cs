@@ -43,18 +43,27 @@ private int _fdepthIndent;
 
 private bool _fmultilineMode;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 3;
     _r6.i = 2;
@@ -128,7 +137,10 @@ new public void @this(){
 public virtual bool isMultilineMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: boolean isMultilineMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.tree.Tree) _r1_o)._fmultilineMode ? 1 : 0;
     return _r0.i!=0;
@@ -137,8 +149,11 @@ public virtual bool isMultilineMode(){
 
 public virtual void setMultilineMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setMultilineMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.tree.Tree) _r0_o)._fmultilineMode = 0!=_r1.i;
@@ -151,8 +166,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -170,8 +189,12 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -187,8 +210,12 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -205,8 +232,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=data
@@ -215,6 +245,7 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fmodel;
+    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.tree.Tree_2StringArrayTreeModel) _r1_o)._farr;
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -228,9 +259,13 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -240,6 +275,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label22;
     _r0_o = new global::com.codename1.ui.tree.Tree_2StringArrayTreeModel();
+    _r3_o = _r3_o;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.tree.Tree_2StringArrayTreeModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     ((global::com.codename1.ui.tree.Tree) _r1_o).setModel((global::com.codename1.ui.tree.TreeModel) _r0_o);
     _r0_o = null;
@@ -257,8 +294,11 @@ public void @this(global::com.codename1.ui.tree.TreeModel n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.Container) _r2_o).@this();
@@ -311,8 +351,11 @@ public void @this(global::com.codename1.ui.tree.TreeModel n1){
 
 public virtual global::System.Object getModel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.tree.TreeModel getModel()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fmodel;
     return (global::com.codename1.ui.tree.TreeModel) _r0_o;
@@ -321,10 +364,15 @@ public virtual global::System.Object getModel(){
 
 public virtual void setModel(global::com.codename1.ui.tree.TreeModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setModel(com.codename1.ui.tree.TreeModel)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.tree.Tree) _r2_o)._fmodel = (global::com.codename1.ui.tree.TreeModel) _r3_o;
@@ -338,7 +386,9 @@ public virtual void setModel(global::com.codename1.ui.tree.TreeModel n1){
 
 public static void setFolderIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setFolderIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.tree.Tree._ffolder = (global::com.codename1.ui.Image) _r0_o;
     return;
@@ -347,7 +397,9 @@ public static void setFolderIcon(global::com.codename1.ui.Image n1){
 
 public static void setFolderOpenIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setFolderOpenIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.tree.Tree._fopenFolder = (global::com.codename1.ui.Image) _r0_o;
     return;
@@ -356,51 +408,64 @@ public static void setFolderOpenIcon(global::com.codename1.ui.Image n1){
 
 public static void setNodeIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setNodeIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.tree.Tree._fnodeImage = (global::com.codename1.ui.Image) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void setNodeIcon(com.codename1.ui.Image)]
 }
 
-private global::System.Object expandNode(global::com.codename1.ui.Component n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(com.codename1.ui.Component)]
+private global::System.Object expandNode(bool n1, global::com.codename1.ui.Component n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(boolean, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r1.i = 1;
-    _r0.i = 300;
-    _r0_o = global::com.codename1.ui.animations.CommonTransitions.createSlide((int) _r1.i, 0!=_r1.i, (int) _r0.i);
-    _r0_o = ((global::com.codename1.ui.tree.Tree) _r2_o).expandNode((global::com.codename1.ui.Component) _r3_o, (global::com.codename1.ui.animations.Transition) _r0_o);
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2.i = n1 ? 1 : 0;
+    _r3_o = n2;
+    _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o).expandNodeImpl(0!=_r2.i, (global::com.codename1.ui.Component) _r3_o);
     return (global::com.codename1.ui.Container) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(com.codename1.ui.Component)]
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(boolean, com.codename1.ui.Component)]
 }
 
-private global::System.Object expandNode(global::com.codename1.ui.Component n1, global::com.codename1.ui.animations.Transition n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(com.codename1.ui.Component, com.codename1.ui.animations.Transition)]
+private global::System.Object expandNodeImpl(bool n1, global::com.codename1.ui.Component n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNodeImpl(boolean, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
-    _r8_o = n1;
+    _r8.i = n1 ? 1 : 0;
     _r9_o = n2;
-    _r5_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
+    _r5_o = ((global::com.codename1.ui.Component) _r9_o).getParent();
     _r3_o = ((global::com.codename1.ui.Container) _r5_o).getLeadParent();
     if (_r3_o == null) goto label11;
-    _r8_o = _r3_o;
+    _r9_o = _r3_o;
     label11:;
     // Value=TREE_NODE_EXPANDED
     _r5_o = new global::java.lang.String();
@@ -408,19 +473,20 @@ private global::System.Object expandNode(global::com.codename1.ui.Component n1, 
     // Value=true
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
-    ((global::com.codename1.ui.Component) _r8_o).putClientProperty((global::java.lang.String) _r5_o, (global::java.lang.Object) _r6_o);
+    ((global::com.codename1.ui.Component) _r9_o).putClientProperty((global::java.lang.String) _r5_o, (global::java.lang.Object) _r6_o);
     _r5_o = global::com.codename1.ui.tree.Tree._fopenFolder;
-    ((global::com.codename1.ui.tree.Tree) _r7_o).setNodeIcon((global::com.codename1.ui.Image) _r5_o, (global::com.codename1.ui.Component) _r8_o);
+    ((global::com.codename1.ui.tree.Tree) _r7_o).setNodeIcon((global::com.codename1.ui.Image) _r5_o, (global::com.codename1.ui.Component) _r9_o);
     // Value=TREE_DEPTH
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 72))}));
-    _r5_o = ((global::com.codename1.ui.Component) _r8_o).getClientProperty((global::java.lang.String) _r5_o);
+    _r5_o = ((global::com.codename1.ui.Component) _r9_o).getClientProperty((global::java.lang.String) _r5_o);
+    _r5_o = _r5_o;
     _r0.i = ((global::java.lang.Integer) _r5_o).intValue();
-    _r4_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
+    _r4_o = ((global::com.codename1.ui.Component) _r9_o).getParent();
     // Value=TREE_OBJECT
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 74)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 84))}));
-    _r2_o = ((global::com.codename1.ui.Component) _r8_o).getClientProperty((global::java.lang.String) _r5_o);
+    _r2_o = ((global::com.codename1.ui.Component) _r9_o).getClientProperty((global::java.lang.String) _r5_o);
     _r1_o = new global::com.codename1.ui.Container();
     _r5_o = new global::com.codename1.ui.layouts.BoxLayout();
     _r6.i = 2;
@@ -431,23 +497,33 @@ private global::System.Object expandNode(global::com.codename1.ui.Component n1, 
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     ((global::com.codename1.ui.Container) _r4_o).addComponent((global::java.lang.Object) _r5_o, (global::com.codename1.ui.Component) _r1_o);
     ((global::com.codename1.ui.tree.Tree) _r7_o).buildBranch((global::java.lang.Object) _r2_o, (int) _r0.i, (global::com.codename1.ui.Container) _r1_o);
+    _r5.i = ((global::com.codename1.ui.tree.Tree) _r7_o).isInitialized() ? 1 : 0;
+    if (_r5.i == 0) goto label85;
+    if (_r8.i == 0) goto label85;
     _r5.i = 300;
     ((global::com.codename1.ui.Container) _r4_o).animateHierarchyAndWait((int) _r5.i);
     _r5.i = ((global::com.codename1.ui.tree.Tree) _r7_o)._fmultilineMode ? 1 : 0;
-    if (_r5.i == 0) goto label76;
+    if (_r5.i == 0) goto label84;
     ((global::com.codename1.ui.tree.Tree) _r7_o).revalidate();
-    label76:;
+    label84:;
     return (global::com.codename1.ui.Container) _r1_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNode(com.codename1.ui.Component, com.codename1.ui.animations.Transition)]
+    label85:;
+    ((global::com.codename1.ui.Container) _r4_o).revalidate();
+    goto label84;
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandNodeImpl(boolean, com.codename1.ui.Component)]
 }
 
 private bool isExpanded(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: boolean isExpanded(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=TREE_NODE_EXPANDED
@@ -469,69 +545,91 @@ private bool isExpanded(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: boolean isExpanded(com.codename1.ui.Component)]
 }
 
-private global::System.Object expandPathNode(global::com.codename1.ui.Container n1, global::java.lang.Object n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandPathNode(com.codename1.ui.Container, java.lang.Object)]
+private global::System.Object expandPathNode(bool n1, global::com.codename1.ui.Container n2, global::java.lang.Object n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandPathNode(boolean, com.codename1.ui.Container, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
-    _r7_o = this;
-    _r8_o = n1;
-    _r9_o = n2;
-    _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r6_o = this;
+    _r7.i = n1 ? 1 : 0;
+    _r8_o = n2;
+    _r9_o = n3;
     _r1.i = ((global::com.codename1.ui.Container) _r8_o).getComponentCount();
     _r3.i = 0;
-    label6:;
-    if (_r3.i >= _r1.i) goto label64;
+    label5:;
+    if (_r3.i >= _r1.i) goto label63;
     _r2_o = ((global::com.codename1.ui.Container) _r8_o).getComponentAt((int) _r3.i);
     _r5.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r5.i == 0) goto label61;
+    if (_r5.i == 0) goto label60;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getLayout();
+    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getNorth();
     // Value=TREE_OBJECT
     _r5_o = new global::java.lang.String();
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 74)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 84))}));
     _r4_o = ((global::com.codename1.ui.Component) _r2_o).getClientProperty((global::java.lang.String) _r5_o);
-    if (_r4_o == null) goto label61;
+    if (_r4_o == null) goto label60;
     _r5.i = ((global::java.lang.Object) _r4_o).equals((global::java.lang.Object) _r9_o) ? 1 : 0;
-    if (_r5.i == 0) goto label61;
-    _r5.i = ((global::com.codename1.ui.tree.Tree) _r7_o).isExpanded((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
-    if (_r5.i == 0) goto label56;
-    _r7_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getCenter();
-    _r5_o = _r7_o;
-    label55:;
-    return (global::com.codename1.ui.Container) _r5_o;
-    label56:;
-    _r5_o = ((global::com.codename1.ui.tree.Tree) _r7_o).expandNode((global::com.codename1.ui.Component) _r2_o, (global::com.codename1.ui.animations.Transition) _r6_o);
-    goto label55;
-    label61:;
-    _r3.i = _r3.i + 1;
-    goto label6;
-    label64:;
+    if (_r5.i == 0) goto label60;
+    _r5.i = ((global::com.codename1.ui.tree.Tree) _r6_o).isExpanded((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
+    if (_r5.i == 0) goto label55;
+    _r6_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getCenter();
+    _r6_o = _r6_o;
     _r5_o = _r6_o;
-    goto label55;
-//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandPathNode(com.codename1.ui.Container, java.lang.Object)]
+    label54:;
+    return (global::com.codename1.ui.Container) _r5_o;
+    label55:;
+    _r5_o = ((global::com.codename1.ui.tree.Tree) _r6_o).expandNodeImpl(0!=_r7.i, (global::com.codename1.ui.Component) _r2_o);
+    goto label54;
+    label60:;
+    _r3.i = _r3.i + 1;
+    goto label5;
+    label63:;
+    _r5_o = null;
+    goto label54;
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container expandPathNode(boolean, com.codename1.ui.Container, java.lang.Object)]
 }
 
 private void collapsePathNode(global::com.codename1.ui.Container n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void collapsePathNode(com.codename1.ui.Container, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -542,7 +640,9 @@ private void collapsePathNode(global::com.codename1.ui.Container n1, global::jav
     _r2_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r3.i);
     _r5.i = ((global::com.codename1.ui.tree.Tree) _r6_o).isExpanded((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     if (_r5.i == 0) goto label54;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Container) _r2_o).getLayout();
+    _r0_o = _r0_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).getNorth();
     // Value=TREE_OBJECT
     _r5_o = new global::java.lang.String();
@@ -565,55 +665,89 @@ private void collapsePathNode(global::com.codename1.ui.Container n1, global::jav
 
 public virtual void expandPath(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void expandPath(java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::System.Object _r3_o = null;
-    global::System.Object _r4_o = null;
-    _r3_o = this;
-    _r4_o = n1;
-    _r0_o = _r3_o;
-    _r1.i = 0;
-    label2:;
-    _r2.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    if (_r1.i >= _r2.i) goto label14;
-    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
-    _r0_o = ((global::com.codename1.ui.tree.Tree) _r3_o).expandPathNode((global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r2_o);
-    _r1.i = _r1.i + 1;
-    goto label2;
-    label14:;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0.i = ((global::com.codename1.ui.tree.Tree) _r1_o).isInitialized() ? 1 : 0;
+    ((global::com.codename1.ui.tree.Tree) _r1_o).expandPath(0!=_r0.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void expandPath(java.lang.Object[])]
 }
 
-public virtual void collapsePath(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void collapsePath(java.lang.Object[])]
+public virtual void expandPath(bool n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void expandPath(boolean, java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    _r4_o = this;
-    _r5_o = n1;
-    _r3.i = 1;
-    _r0_o = _r4_o;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r4.i = n1 ? 1 : 0;
+    _r5_o = n2;
+    _r0_o = _r3_o;
+    _r1.i = 0;
+    label2:;
+    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    if (_r1.i >= _r2.i) goto label14;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
+    _r0_o = ((global::com.codename1.ui.tree.Tree) _r3_o).expandPathNode(0!=_r4.i, (global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r2_o);
+    _r1.i = _r1.i + 1;
+    goto label2;
+    label14:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void expandPath(boolean, java.lang.Object[])]
+}
+
+public virtual void collapsePath(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void collapsePath(java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r5_o = this;
+    _r6_o = n1;
+    _r4.i = 1;
+    _r0_o = _r5_o;
     _r1.i = 0;
     label3:;
-    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    _r2.i = _r2.i - _r3.i;
-    if (_r1.i >= _r2.i) goto label16;
-    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
-    _r0_o = ((global::com.codename1.ui.tree.Tree) _r4_o).expandPathNode((global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r2_o);
+    _r2.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
+    _r2.i = _r2.i - _r4.i;
+    if (_r1.i >= _r2.i) goto label20;
+    _r2.i = ((global::com.codename1.ui.tree.Tree) _r5_o).isInitialized() ? 1 : 0;
+    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r1.i];
+    _r0_o = ((global::com.codename1.ui.tree.Tree) _r5_o).expandPathNode(0!=_r2.i, (global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r3_o);
     _r1.i = _r1.i + 1;
     goto label3;
-    label16:;
-    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    _r2.i = _r2.i - _r3.i;
-    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r2.i];
-    ((global::com.codename1.ui.tree.Tree) _r4_o).collapsePathNode((global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r2_o);
+    label20:;
+    _r2.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
+    _r2.i = _r2.i - _r4.i;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r2.i];
+    ((global::com.codename1.ui.tree.Tree) _r5_o).collapsePathNode((global::com.codename1.ui.Container) _r0_o, (global::java.lang.Object) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void collapsePath(java.lang.Object[])]
 }
@@ -623,9 +757,14 @@ private void collapseNode(global::com.codename1.ui.Component n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 1;
@@ -639,17 +778,25 @@ private void collapseNode(global::com.codename1.ui.Component n1){
 
 private void collapseNode(global::com.codename1.ui.Component n1, global::com.codename1.ui.animations.Transition n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void collapseNode(com.codename1.ui.Component, com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -688,9 +835,13 @@ private void collapseNode(global::com.codename1.ui.Component n1, global::com.cod
 
 public virtual global::System.Object getSelectedItem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: java.lang.Object getSelectedItem()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.tree.Tree) _r2_o).getComponentForm();
     _r0_o = ((global::com.codename1.ui.Form) _r1_o).getFocused();
@@ -709,19 +860,31 @@ public virtual global::System.Object getSelectedItem(){
 
 private void buildBranch(global::java.lang.Object n1, int n2, global::com.codename1.ui.Container n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void buildBranch(java.lang.Object, int, com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -779,12 +942,17 @@ private void buildBranch(global::java.lang.Object n1, int n2, global::com.codena
 
 public virtual global::System.Object createNodeComponent(global::java.lang.Object n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Button createNodeComponent(java.lang.Object, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -818,18 +986,25 @@ public virtual global::System.Object createNodeComponent(global::java.lang.Objec
 public virtual void bindNodeListener(global::com.codename1.ui.events.ActionListener n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void bindNodeListener(com.codename1.ui.events.ActionListener, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     label9:;
     return;
     label10:;
+    _r3_o = _r3_o;
     ((global::com.codename1.components.SpanButton) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void bindNodeListener(com.codename1.ui.events.ActionListener, com.codename1.ui.Component)]
@@ -838,18 +1013,25 @@ public virtual void bindNodeListener(global::com.codename1.ui.events.ActionListe
 public virtual void setNodeIcon(global::com.codename1.ui.Image n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void setNodeIcon(com.codename1.ui.Image, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r0.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
     if (_r0.i == 0) goto label10;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.Button) _r3_o).setIcon((global::com.codename1.ui.Image) _r2_o);
     label9:;
     return;
     label10:;
+    _r3_o = _r3_o;
     ((global::com.codename1.components.SpanButton) _r3_o).setIcon((global::com.codename1.ui.Image) _r2_o);
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void setNodeIcon(com.codename1.ui.Image, com.codename1.ui.Component)]
@@ -857,13 +1039,19 @@ public virtual void setNodeIcon(global::com.codename1.ui.Image n1, global::com.c
 
 public virtual global::System.Object createNode(global::java.lang.Object n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Component createNode(java.lang.Object, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -911,10 +1099,16 @@ public virtual global::System.Object createNode(global::java.lang.Object n1, int
 private void updateNodeComponentStyle(global::com.codename1.ui.plaf.Style n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void updateNodeComponentStyle(com.codename1.ui.plaf.Style, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -928,9 +1122,13 @@ private void updateNodeComponentStyle(global::com.codename1.ui.plaf.Style n1, in
 
 public virtual global::System.Object childToDisplayLabel(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: java.lang.String childToDisplayLabel(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::java.lang.Object) _r2_o).toString();
@@ -940,9 +1138,13 @@ public virtual global::System.Object childToDisplayLabel(global::java.lang.Objec
 
 public virtual void addLeafListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void addLeafListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fleafListener;
@@ -953,9 +1155,13 @@ public virtual void addLeafListener(global::com.codename1.ui.events.ActionListen
 
 public virtual void removeLeafListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void removeLeafListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fleafListener;
@@ -967,16 +1173,22 @@ public virtual void removeLeafListener(global::com.codename1.ui.events.ActionLis
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.geom.Dimension calcPreferredSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r1_o = base.calcPreferredSize();
     _r0.i = ((global::com.codename1.ui.tree.Tree) _r7_o).getComponentCount();
@@ -1021,8 +1233,11 @@ public override global::System.Object calcPreferredSize(){
 
 public static global::System.Object access_2000(global::com.codename1.ui.tree.Tree n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.util.EventDispatcher access$000(com.codename1.ui.tree.Tree)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o)._fleafListener;
     return (global::com.codename1.ui.util.EventDispatcher) _r0_o;
@@ -1031,8 +1246,11 @@ public static global::System.Object access_2000(global::com.codename1.ui.tree.Tr
 
 public static void access_2100(global::com.codename1.ui.tree.Tree n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: void access$100(com.codename1.ui.tree.Tree, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.tree.Tree) _r0_o).collapseNode((global::com.codename1.ui.Component) _r1_o);
@@ -1040,16 +1258,36 @@ public static void access_2100(global::com.codename1.ui.tree.Tree n1, global::co
 //XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: void access$100(com.codename1.ui.tree.Tree, com.codename1.ui.Component)]
 }
 
-public static global::System.Object access_2200(global::com.codename1.ui.tree.Tree n1, global::com.codename1.ui.Component n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container access$200(com.codename1.ui.tree.Tree, com.codename1.ui.Component)]
+public static bool access_2200(global::com.codename1.ui.tree.Tree n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: boolean access$200(com.codename1.ui.tree.Tree)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
-    _r2_o = n2;
-    _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o).expandNode((global::com.codename1.ui.Component) _r2_o);
+    _r0.i = ((global::com.codename1.ui.tree.Tree) _r1_o).isInitialized() ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: boolean access$200(com.codename1.ui.tree.Tree)]
+}
+
+public static global::System.Object access_2300(global::com.codename1.ui.tree.Tree n1, bool n2, global::com.codename1.ui.Component n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container access$300(com.codename1.ui.tree.Tree, boolean, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r2.i = n2 ? 1 : 0;
+    _r3_o = n3;
+    _r0_o = ((global::com.codename1.ui.tree.Tree) _r1_o).expandNode(0!=_r2.i, (global::com.codename1.ui.Component) _r3_o);
     return (global::com.codename1.ui.Container) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container access$200(com.codename1.ui.tree.Tree, com.codename1.ui.Component)]
+//XMLVM_END_WRAPPER[com.codename1.ui.tree.Tree: com.codename1.ui.Container access$300(com.codename1.ui.tree.Tree, boolean, com.codename1.ui.Component)]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.tree.Tree]

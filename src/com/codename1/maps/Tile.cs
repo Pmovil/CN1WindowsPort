@@ -26,13 +26,21 @@ private static bool _fpaintLoading;
 
 public void @this(global::com.codename1.ui.geom.Dimension n1, global::com.codename1.maps.BoundingBox n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void <init>(com.codename1.ui.geom.Dimension, com.codename1.maps.BoundingBox, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -62,16 +70,31 @@ public void @this(global::com.codename1.ui.geom.Dimension n1, global::com.codena
 
 public virtual global::System.Object pointPosition(global::com.codename1.maps.Coord n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: com.codename1.ui.geom.Point pointPosition(com.codename1.maps.Coord)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r0_o = ((global::com.codename1.maps.Tile) _r10_o)._fdimension;
@@ -108,12 +131,30 @@ public virtual global::System.Object pointPosition(global::com.codename1.maps.Co
 private int position(int n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: int position(int, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.d = n2;
@@ -132,10 +173,24 @@ private int position(int n1, double n2, double n3, double n4){
 private double coord(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: double coord(double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.d = n2;
@@ -152,14 +207,32 @@ public virtual global::System.Object position(int n1, int n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12.i = n1;
     _r13.i = n2;
@@ -204,8 +277,11 @@ public virtual global::System.Object position(int n1, int n2){
 
 public virtual global::System.Object dimension(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: com.codename1.ui.geom.Dimension dimension()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.Tile) _r1_o)._fdimension;
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -214,8 +290,11 @@ public virtual global::System.Object dimension(){
 
 public virtual global::System.Object getBoundingBox(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: com.codename1.maps.BoundingBox getBoundingBox()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.Tile) _r1_o)._fbbox;
     return (global::com.codename1.maps.BoundingBox) _r0_o;
@@ -227,8 +306,12 @@ public virtual bool paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 0;
@@ -248,11 +331,18 @@ public virtual bool paint(global::com.codename1.ui.Graphics n1){
 public virtual void paint(global::com.codename1.ui.Graphics n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void paint(com.codename1.ui.Graphics, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -273,9 +363,13 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, int n2, int n3){
 
 public virtual void paintTileLoading(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void paintTileLoading(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.maps.Tile._ftileLoadingImage;
@@ -291,8 +385,10 @@ public virtual void paintTileLoading(global::com.codename1.ui.Graphics n1){
 
 private void paintLoadingText(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void paintLoadingText(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
@@ -300,8 +396,12 @@ private void paintLoadingText(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r4.i = 0;
@@ -337,11 +437,16 @@ private void paintLoadingText(global::com.codename1.ui.Graphics n1){
 private void paintLoadingImage(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void paintLoadingImage(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = 0;
@@ -373,6 +478,8 @@ private void paintLoadingImage(global::com.codename1.ui.Graphics n1){
 public static void setPaintLoading(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void setPaintLoading(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.maps.Tile._fpaintLoading = 0!=_r0.i;
     return;
@@ -381,7 +488,9 @@ public static void setPaintLoading(bool n1){
 
 public static void setTileLoadingImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void setTileLoadingImage(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.maps.Tile._ftileLoadingImage = (global::com.codename1.ui.Image) _r0_o;
     return;
@@ -390,7 +499,9 @@ public static void setTileLoadingImage(global::com.codename1.ui.Image n1){
 
 public static void setTileLoadingText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void setTileLoadingText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.maps.Tile._ftileLoadingText = (global::java.lang.String) _r0_o;
     return;
@@ -399,8 +510,11 @@ public static void setTileLoadingText(global::java.lang.String n1){
 
 public virtual void setsTileReadyListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void setsTileReadyListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maps.Tile) _r0_o)._flistener = (global::com.codename1.ui.events.ActionListener) _r1_o;
@@ -410,9 +524,13 @@ public virtual void setsTileReadyListener(global::com.codename1.ui.events.Action
 
 public virtual void fireReady(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void fireReady()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.maps.Tile) _r2_o)._flistener;
     if (_r0_o == null) goto label10;
@@ -426,9 +544,13 @@ public virtual void fireReady(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -452,12 +574,15 @@ public override global::System.Object toString(){
 //XMLVM_END_WRAPPER[com.codename1.maps.Tile: java.lang.String toString()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.Tile: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=Loading...
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)76)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 46))}));

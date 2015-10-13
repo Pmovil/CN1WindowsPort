@@ -7,10 +7,13 @@ public global::java.lang.String _ffile;
 
 public global::com.codename1.io.tar.TarHeader _fheader;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = null;
@@ -24,9 +27,13 @@ new private void @this(){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void <init>(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -39,8 +46,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
 
 public void @this(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void <init>(byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.tar.TarEntry) _r0_o).@this();
@@ -53,9 +63,13 @@ public virtual bool equals(global::com.codename1.io.tar.TarEntry n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: boolean equals(com.codename1.io.tar.TarEntry)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r2_o)._fheader;
@@ -73,9 +87,13 @@ public virtual bool isDescendent(global::com.codename1.io.tar.TarEntry n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: boolean isDescendent(com.codename1.io.tar.TarEntry)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r3_o)._fheader;
@@ -91,8 +109,11 @@ public virtual bool isDescendent(global::com.codename1.io.tar.TarEntry n1){
 
 public virtual global::System.Object getHeader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: com.codename1.io.tar.TarHeader getHeader()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     return (global::com.codename1.io.tar.TarHeader) _r0_o;
@@ -101,8 +122,11 @@ public virtual global::System.Object getHeader(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: java.lang.String getName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     _r0_o = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fname;
@@ -113,10 +137,15 @@ public virtual global::System.Object getName(){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r2_o)._fheader;
@@ -131,7 +160,9 @@ public virtual int getUserId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: int getUserId()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     _r0.i = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fuserId;
@@ -141,9 +172,13 @@ public virtual int getUserId(){
 
 public virtual void setUserId(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setUserId(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
@@ -156,7 +191,9 @@ public virtual int getGroupId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: int getGroupId()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     _r0.i = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fgroupId;
@@ -166,9 +203,13 @@ public virtual int getGroupId(){
 
 public virtual void setGroupId(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setGroupId(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
@@ -179,8 +220,11 @@ public virtual void setGroupId(int n1){
 
 public virtual global::System.Object getUserName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: java.lang.String getUserName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     _r0_o = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fuserName;
@@ -191,10 +235,15 @@ public virtual global::System.Object getUserName(){
 
 public virtual void setUserName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setUserName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r2_o)._fheader;
@@ -207,8 +256,11 @@ public virtual void setUserName(global::java.lang.String n1){
 
 public virtual global::System.Object getGroupName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: java.lang.String getGroupName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
     _r0_o = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fgroupName;
@@ -219,10 +271,15 @@ public virtual global::System.Object getGroupName(){
 
 public virtual void setGroupName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setGroupName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r2_o)._fheader;
@@ -235,9 +292,13 @@ public virtual void setGroupName(global::java.lang.String n1){
 
 public virtual void setIds(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setIds(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -249,10 +310,19 @@ public virtual void setIds(int n1, int n2){
 
 public virtual void setModTime(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setModTime(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.l = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r3_o)._fheader;
@@ -265,11 +335,21 @@ public virtual void setModTime(long n1){
 
 public virtual void setModTime(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setModTime(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r5_o)._fheader;
@@ -283,11 +363,19 @@ public virtual void setModTime(global::java.util.Date n1){
 
 public virtual global::System.Object getModTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: java.util.Date getModTime()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = new global::java.util.Date();
     _r1_o = ((global::com.codename1.io.tar.TarEntry) _r5_o)._fheader;
@@ -301,8 +389,11 @@ public virtual global::System.Object getModTime(){
 
 public virtual global::System.Object getFile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: java.lang.String getFile()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._ffile;
     return (global::java.lang.String) _r0_o;
@@ -313,7 +404,11 @@ public virtual long getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: long getSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r2_o)._fheader;
     _r0.l = ((global::com.codename1.io.tar.TarHeader) _r0_o)._fsize;
@@ -323,9 +418,15 @@ public virtual long getSize(){
 
 public virtual void setSize(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void setSize(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r1_o)._fheader;
@@ -341,7 +442,10 @@ public virtual bool isDirectory(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r0_o = ((global::com.codename1.io.tar.TarEntry) _r3_o)._ffile;
@@ -379,20 +483,33 @@ public virtual bool isDirectory(){
 
 public virtual void extractTarHeader(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void extractTarHeader(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r8.l = 0L;
@@ -478,10 +595,20 @@ public virtual void extractTarHeader(global::java.lang.String n1){
 public virtual long computeCheckSum(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: long computeCheckSum(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r1.l = 0L;
@@ -503,19 +630,38 @@ public virtual long computeCheckSum(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 public virtual void writeEntryHeader(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void writeEntryHeader(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r13.i = 100;
@@ -597,16 +743,28 @@ public virtual void writeEntryHeader(global::org.xmlvm._nArrayAdapter<sbyte> n1)
 public virtual void parseTarHeader(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarEntry: void parseTarHeader(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 100;

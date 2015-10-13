@@ -19,20 +19,46 @@ private bool _finvert;
 
 private global::java.lang.String _fgroup;
 
-new public void @this(){
-//XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void <init>()]
+public void @this(global::java.lang.String n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    ((global::com.codename1.components.MultiButton) _r0_o).@this();
+    ((global::com.codename1.components.MultiButton) _r0_o).setTextLine1((global::java.lang.String) _r1_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.components.MultiButton: void <init>(java.lang.String)]
+}
+
+public void @this(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void <init>()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     // Value=MultiButton
     _r9_o = new global::java.lang.String();
@@ -195,8 +221,11 @@ new public void @this(){
 
 public virtual global::System.Object getIconComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: com.codename1.ui.Label getIconComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
     return (global::com.codename1.ui.Label) _r0_o;
@@ -205,16 +234,25 @@ public virtual global::System.Object getIconComponent(){
 
 public virtual void setCheckBox(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setCheckBox(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1 ? 1 : 0;
     _r5.i = ((global::com.codename1.components.MultiButton) _r7_o).isCheckBox() ? 1 : 0;
@@ -234,6 +272,7 @@ public virtual void setCheckBox(bool n1){
     _r6_o = ((global::com.codename1.ui.Button) _r3_o).getName();
     ((global::com.codename1.ui.Button) _r5_o).setName((global::java.lang.String) _r6_o);
     _r0_o = ((global::com.codename1.ui.Button) _r3_o).getListeners();
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label78;
     _r2.i = 0;
     label50:;
@@ -241,6 +280,7 @@ public virtual void setCheckBox(bool n1){
     if (_r2.i >= _r5.i) goto label78;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r5_o = _r5_o;
     ((global::com.codename1.ui.Button) _r6_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     _r2.i = _r2.i + 1;
     goto label50;
@@ -286,9 +326,13 @@ public virtual void setCheckBox(bool n1){
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void addActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
@@ -299,9 +343,13 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void removeActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
@@ -312,11 +360,17 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 
 public virtual void setCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setCommand(com.codename1.ui.Command)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1_o = ((global::com.codename1.components.MultiButton) _r3_o)._femblem;
@@ -336,8 +390,11 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
 
 public virtual global::System.Object getCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: com.codename1.ui.Command getCommand()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0_o = ((global::com.codename1.ui.Button) _r0_o).getCommand();
@@ -349,7 +406,9 @@ public virtual bool isCheckBox(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: boolean isCheckBox()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
@@ -359,16 +418,25 @@ public virtual bool isCheckBox(){
 
 public virtual void setRadioButton(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setRadioButton(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1 ? 1 : 0;
     _r5.i = ((global::com.codename1.components.MultiButton) _r7_o).isRadioButton() ? 1 : 0;
@@ -383,6 +451,7 @@ public virtual void setRadioButton(bool n1){
     _r5_o = ((global::com.codename1.components.MultiButton) _r7_o)._fgroup;
     if (_r5_o == null) goto label36;
     _r5_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
+    _r5_o = _r5_o;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._fgroup;
     ((global::com.codename1.ui.RadioButton) _r5_o).setGroup((global::java.lang.String) _r6_o);
     label36:;
@@ -393,6 +462,7 @@ public virtual void setRadioButton(bool n1){
     _r6_o = ((global::com.codename1.ui.Button) _r3_o).getUIID();
     ((global::com.codename1.ui.Button) _r5_o).setUIID((global::java.lang.String) _r6_o);
     _r0_o = ((global::com.codename1.ui.Button) _r3_o).getListeners();
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label91;
     _r2.i = 0;
     label63:;
@@ -400,6 +470,7 @@ public virtual void setRadioButton(bool n1){
     if (_r2.i >= _r5.i) goto label91;
     _r6_o = ((global::com.codename1.components.MultiButton) _r7_o)._femblem;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r5_o = _r5_o;
     ((global::com.codename1.ui.Button) _r6_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r5_o);
     _r2.i = _r2.i + 1;
     goto label63;
@@ -437,7 +508,9 @@ public virtual bool isRadioButton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: boolean isRadioButton()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
@@ -449,7 +522,9 @@ public virtual bool isSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: boolean isSelected()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
@@ -474,14 +549,18 @@ public virtual void setSelected(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setSelected(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r0.i == 0) goto label14;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.RadioButton) _r1_o).setSelected(0!=_r2.i);
     label13:;
     return;
@@ -490,6 +569,7 @@ public virtual void setSelected(bool n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
     if (_r0.i == 0) goto label13;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.CheckBox) _r1_o).setSelected(0!=_r2.i);
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: void setSelected(boolean)]
@@ -497,13 +577,19 @@ public virtual void setSelected(bool n1){
 
 public virtual void setHorizontalLayout(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setHorizontalLayout(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1 ? 1 : 0;
     _r2.i = ((global::com.codename1.components.MultiButton) _r4_o).isHorizontalLayout() ? 1 : 0;
@@ -548,7 +634,9 @@ public virtual bool isHorizontalLayout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: boolean isHorizontalLayout()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getParent();
@@ -560,12 +648,17 @@ public virtual bool isHorizontalLayout(){
 
 public virtual void setInvertFirstTwoEntries(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setInvertFirstTwoEntries(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r1.i = ((global::com.codename1.components.MultiButton) _r3_o)._finvert ? 1 : 0;
@@ -599,7 +692,10 @@ public virtual void setInvertFirstTwoEntries(bool n1){
 public virtual bool isInvertFirstTwoEntries(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: boolean isInvertFirstTwoEntries()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.MultiButton) _r1_o)._finvert ? 1 : 0;
     return _r0.i!=0;
@@ -608,9 +704,13 @@ public virtual bool isInvertFirstTwoEntries(){
 
 public virtual void setTextLine1(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setTextLine1(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
@@ -621,8 +721,11 @@ public virtual void setTextLine1(global::java.lang.String n1){
 
 public virtual global::System.Object getTextLine1(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getTextLine1()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -632,9 +735,13 @@ public virtual global::System.Object getTextLine1(){
 
 public virtual void setNameLine1(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setNameLine1(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
@@ -645,8 +752,11 @@ public virtual void setNameLine1(global::java.lang.String n1){
 
 public virtual global::System.Object getNameLine1(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getNameLine1()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getName();
@@ -656,9 +766,13 @@ public virtual global::System.Object getNameLine1(){
 
 public virtual void setUIIDLine1(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setUIIDLine1(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
@@ -669,8 +783,11 @@ public virtual void setUIIDLine1(global::java.lang.String n1){
 
 public virtual global::System.Object getUIIDLine1(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getUIIDLine1()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ffirstRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -680,9 +797,13 @@ public virtual global::System.Object getUIIDLine1(){
 
 public virtual void setTextLine2(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setTextLine2(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
@@ -693,8 +814,11 @@ public virtual void setTextLine2(global::java.lang.String n1){
 
 public virtual global::System.Object getTextLine2(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getTextLine2()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -704,9 +828,13 @@ public virtual global::System.Object getTextLine2(){
 
 public virtual void setNameLine2(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setNameLine2(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
@@ -717,8 +845,11 @@ public virtual void setNameLine2(global::java.lang.String n1){
 
 public virtual global::System.Object getNameLine2(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getNameLine2()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getName();
@@ -728,9 +859,13 @@ public virtual global::System.Object getNameLine2(){
 
 public virtual void setUIIDLine2(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setUIIDLine2(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
@@ -741,8 +876,11 @@ public virtual void setUIIDLine2(global::java.lang.String n1){
 
 public virtual global::System.Object getUIIDLine2(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getUIIDLine2()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fsecondRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -752,9 +890,13 @@ public virtual global::System.Object getUIIDLine2(){
 
 public virtual void setTextLine3(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setTextLine3(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
@@ -765,8 +907,11 @@ public virtual void setTextLine3(global::java.lang.String n1){
 
 public virtual global::System.Object getTextLine3(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getTextLine3()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -776,9 +921,13 @@ public virtual global::System.Object getTextLine3(){
 
 public virtual void setNameLine3(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setNameLine3(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
@@ -789,8 +938,11 @@ public virtual void setNameLine3(global::java.lang.String n1){
 
 public virtual global::System.Object getNameLine3(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getNameLine3()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getName();
@@ -800,9 +952,13 @@ public virtual global::System.Object getNameLine3(){
 
 public virtual void setUIIDLine3(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setUIIDLine3(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
@@ -813,8 +969,11 @@ public virtual void setUIIDLine3(global::java.lang.String n1){
 
 public virtual global::System.Object getUIIDLine3(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getUIIDLine3()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fthirdRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -824,9 +983,13 @@ public virtual global::System.Object getUIIDLine3(){
 
 public virtual void setTextLine4(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setTextLine4(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
@@ -837,8 +1000,11 @@ public virtual void setTextLine4(global::java.lang.String n1){
 
 public virtual global::System.Object getTextLine4(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getTextLine4()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getText();
@@ -848,9 +1014,13 @@ public virtual global::System.Object getTextLine4(){
 
 public virtual void setNameLine4(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setNameLine4(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
@@ -861,8 +1031,11 @@ public virtual void setNameLine4(global::java.lang.String n1){
 
 public virtual global::System.Object getNameLine4(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getNameLine4()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getName();
@@ -872,9 +1045,13 @@ public virtual global::System.Object getNameLine4(){
 
 public virtual void setUIIDLine4(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setUIIDLine4(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
@@ -885,8 +1062,11 @@ public virtual void setUIIDLine4(global::java.lang.String n1){
 
 public virtual global::System.Object getUIIDLine4(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getUIIDLine4()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fforthRow;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -896,9 +1076,13 @@ public virtual global::System.Object getUIIDLine4(){
 
 public virtual void setIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
@@ -909,8 +1093,11 @@ public virtual void setIcon(global::com.codename1.ui.Image n1){
 
 public virtual global::System.Object getIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: com.codename1.ui.Image getIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getIcon();
@@ -920,9 +1107,13 @@ public virtual global::System.Object getIcon(){
 
 public virtual void setEmblem(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setEmblem(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
@@ -933,8 +1124,11 @@ public virtual void setEmblem(global::com.codename1.ui.Image n1){
 
 public virtual global::System.Object getEmblem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: com.codename1.ui.Image getEmblem()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0_o = ((global::com.codename1.ui.Button) _r0_o).getIcon();
@@ -944,12 +1138,17 @@ public virtual global::System.Object getEmblem(){
 
 public virtual void setIconPosition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setIconPosition(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1_o = ((global::com.codename1.components.MultiButton) _r3_o).getEmblemPosition();
@@ -977,26 +1176,36 @@ public virtual void setIconPosition(global::java.lang.String n1){
 
 public virtual global::System.Object getIconPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getIconPosition()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r2_o).getLayout();
     _r1_o = ((global::com.codename1.components.MultiButton) _r2_o)._ficon;
     _r1_o = ((global::com.codename1.ui.Label) _r1_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.Layout) _r0_o).getComponentConstraint((global::com.codename1.ui.Component) _r1_o);
+    _r2_o = _r2_o;
     return (global::java.lang.String) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: java.lang.String getIconPosition()]
 }
 
 public virtual void setEmblemPosition(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setEmblemPosition(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1_o = ((global::com.codename1.components.MultiButton) _r3_o).getIconPosition();
@@ -1024,23 +1233,32 @@ public virtual void setEmblemPosition(global::java.lang.String n1){
 
 public virtual global::System.Object getEmblemPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getEmblemPosition()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r2_o).getLayout();
     _r1_o = ((global::com.codename1.components.MultiButton) _r2_o)._femblem;
     _r1_o = ((global::com.codename1.ui.Button) _r1_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.Layout) _r0_o).getComponentConstraint((global::com.codename1.ui.Component) _r1_o);
+    _r2_o = _r2_o;
     return (global::java.lang.String) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.MultiButton: java.lang.String getEmblemPosition()]
 }
 
 public virtual void setIconName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setIconName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
@@ -1051,8 +1269,11 @@ public virtual void setIconName(global::java.lang.String n1){
 
 public virtual global::System.Object getIconName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getIconName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getName();
@@ -1062,9 +1283,13 @@ public virtual global::System.Object getIconName(){
 
 public virtual void setIconUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setIconUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
@@ -1075,8 +1300,11 @@ public virtual void setIconUIID(global::java.lang.String n1){
 
 public virtual global::System.Object getIconUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getIconUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUIID();
@@ -1086,9 +1314,13 @@ public virtual global::System.Object getIconUIID(){
 
 public virtual void setEmblemName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setEmblemName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
@@ -1099,8 +1331,11 @@ public virtual void setEmblemName(global::java.lang.String n1){
 
 public virtual global::System.Object getEmblemName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getEmblemName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0_o = ((global::com.codename1.ui.Button) _r0_o).getName();
@@ -1110,9 +1345,13 @@ public virtual global::System.Object getEmblemName(){
 
 public virtual void setEmblemUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setEmblemUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
@@ -1123,8 +1362,11 @@ public virtual void setEmblemUIID(global::java.lang.String n1){
 
 public virtual global::System.Object getEmblemUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getEmblemUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
     _r0_o = ((global::com.codename1.ui.Button) _r0_o).getUIID();
@@ -1137,8 +1379,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 27;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1286,11 +1532,18 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Image));
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
@@ -1386,8 +1639,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=line1
@@ -1641,10 +1897,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1654,6 +1915,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1664,6 +1926,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1673,6 +1936,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label46;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1682,6 +1946,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label61;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setTextLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1691,6 +1956,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label76;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1700,6 +1966,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label91;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1709,6 +1976,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label106;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1718,6 +1986,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label121;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setNameLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1727,6 +1996,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 49))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label136;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine1((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1736,6 +2006,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 50))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label152;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine2((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1745,6 +2016,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 51))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label168;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine3((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1754,6 +2026,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 52))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label184;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setUIIDLine4((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1763,6 +2036,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label200;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIcon((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1772,6 +2046,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label216;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1781,6 +2056,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label232;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1790,6 +2066,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label248;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setIconPosition((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1799,6 +2076,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label264;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblem((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1808,6 +2086,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label280;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1817,6 +2096,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label296;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1826,6 +2106,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label312;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setEmblemPosition((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1835,6 +2116,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label332;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setHorizontalLayout(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1845,6 +2127,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label352;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setInvertFirstTwoEntries(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1855,6 +2138,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label372;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setCheckBox(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1865,6 +2149,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label392;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setRadioButton(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1875,6 +2160,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label408;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setGroup((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1884,6 +2170,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label428;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.MultiButton) _r2_o).setSelected(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1894,6 +2181,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label444;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.MultiButton) _r2_o).setMaskName((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1905,8 +2193,11 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public virtual global::System.Object getGroup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getGroup()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._fgroup;
     return (global::java.lang.String) _r0_o;
@@ -1917,8 +2208,11 @@ public virtual void setGroup(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setGroup(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.components.MultiButton) _r1_o)._fgroup = (global::java.lang.String) _r2_o;
@@ -1926,6 +2220,7 @@ public virtual void setGroup(global::java.lang.String n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.components.MultiButton) _r1_o)._femblem;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.RadioButton) _r1_o).setGroup((global::java.lang.String) _r2_o);
     label15:;
     return;
@@ -1934,8 +2229,11 @@ public virtual void setGroup(global::java.lang.String n1){
 
 public virtual global::System.Object getMaskName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: java.lang.String getMaskName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getMaskName();
@@ -1945,9 +2243,13 @@ public virtual global::System.Object getMaskName(){
 
 public virtual void setMaskName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.MultiButton: void setMaskName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.MultiButton) _r1_o)._ficon;

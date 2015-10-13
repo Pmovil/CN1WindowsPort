@@ -7,8 +7,11 @@ public global::com.codename1.maps.ProxyHttpTile _fthis_20;
 
 public void @this(global::com.codename1.maps.ProxyHttpTile n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.ProxyHttpTile$1: void <init>(com.codename1.maps.ProxyHttpTile)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.maps.ProxyHttpTile_21) _r0_o)._fthis_20 = (global::com.codename1.maps.ProxyHttpTile) _r1_o;
@@ -19,18 +22,29 @@ public void @this(global::com.codename1.maps.ProxyHttpTile n1){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.ProxyHttpTile$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r3_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;
     _r4_o = new global::com.codename1.maps.Tile();
@@ -39,6 +53,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r2_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;
     _r6_o = ((global::com.codename1.maps.ProxyHttpTile) _r2_o).getBoundingBox();
     _r2_o = ((global::com.codename1.io.NetworkEvent) _r1_o).getMetaData();
+    _r2_o = _r2_o;
     ((global::com.codename1.maps.Tile) _r4_o).@this((global::com.codename1.ui.geom.Dimension) _r5_o, (global::com.codename1.maps.BoundingBox) _r6_o, (global::com.codename1.ui.Image) _r2_o);
     global::com.codename1.maps.ProxyHttpTile.access_2002((global::com.codename1.maps.ProxyHttpTile) _r3_o, (global::com.codename1.maps.Tile) _r4_o);
     _r2_o = ((global::com.codename1.maps.ProxyHttpTile_21) _r7_o)._fthis_20;

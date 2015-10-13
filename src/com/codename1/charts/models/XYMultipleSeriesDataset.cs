@@ -5,10 +5,13 @@ namespace com.codename1.charts.models {
 public class XYMultipleSeriesDataset: global::java.lang.Object {
 private global::java.util.List _fmSeries;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -20,8 +23,11 @@ new public void @this(){
 
 public virtual void addSeries(global::com.codename1.charts.models.XYSeries n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void addSeries(com.codename1.charts.models.XYSeries)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -52,9 +58,13 @@ public virtual void addSeries(global::com.codename1.charts.models.XYSeries n1){
 
 public virtual void addSeries(int n1, global::com.codename1.charts.models.XYSeries n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void addSeries(int, com.codename1.charts.models.XYSeries)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -86,8 +96,11 @@ public virtual void addSeries(int n1, global::com.codename1.charts.models.XYSeri
 
 public virtual void addAllSeries(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void addAllSeries(java.util.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -118,9 +131,12 @@ public virtual void addAllSeries(global::java.util.List n1){
 
 public virtual void removeSeries(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void removeSeries(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
@@ -150,8 +166,11 @@ public virtual void removeSeries(int n1){
 
 public virtual void removeSeries(global::com.codename1.charts.models.XYSeries n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void removeSeries(com.codename1.charts.models.XYSeries)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -182,7 +201,9 @@ public virtual void removeSeries(global::com.codename1.charts.models.XYSeries n1
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: void clear()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -212,9 +233,12 @@ public virtual void clear(){
 
 public virtual global::System.Object getSeriesAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: com.codename1.charts.models.XYSeries getSeriesAt(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
@@ -222,6 +246,7 @@ public virtual global::System.Object getSeriesAt(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r1_o)._fmSeries;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r2.i);
+    _r0_o = _r0_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -246,6 +271,7 @@ public virtual int getSeriesCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: int getSeriesCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -275,9 +301,11 @@ public virtual int getSeriesCount(){
 
 public virtual global::System.Object getSeries(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYMultipleSeriesDataset: com.codename1.charts.models.XYSeries[] getSeries()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -288,6 +316,7 @@ public virtual global::System.Object getSeries(){
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r1_o = ((global::com.codename1.charts.models.XYMultipleSeriesDataset) _r2_o)._fmSeries;
     _r1_o = ((global::java.util.List) _r1_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
+    _r1_o = _r1_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());

@@ -9,10 +9,13 @@ public int _fbuffOffset;
 
 public int _fbuffSize;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser$ReaderClass: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = -1;
@@ -24,13 +27,18 @@ new public void @this(){
 public virtual int read(global::java.io.Reader n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.JSONParser$ReaderClass: int read(java.io.Reader)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 0;

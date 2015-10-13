@@ -38,9 +38,14 @@ public static int _fERROR_1ENCODING = com.codename1.xml._iParserCallback._fERROR
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1.i = 1;
@@ -60,9 +65,14 @@ public void @this(global::java.lang.String n1){
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -77,10 +87,16 @@ public void @this(global::java.lang.String n1, int n2){
 public void @this(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: void <init>(java.lang.String, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -101,30 +117,51 @@ public override void readResponse(global::java.io.InputStream n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
@@ -288,12 +325,14 @@ public override void readResponse(global::java.io.InputStream n1){
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r8_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
+    _r8_o = _r8_o;
     // Value=description
     _r21_o = new global::java.lang.String();
     ((global::java.lang.String)_r21_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = _r8_o;
     _r1_o = _r21_o;
     _r18_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r18_o = _r18_o;
     if (_r18_o == null) goto label416;
     // Value=details
     _r21_o = new global::java.lang.String();
@@ -339,6 +378,7 @@ public override void readResponse(global::java.io.InputStream n1){
     _r0_o = _r17_o;
     _r1.i = _r9.i;
     _r25_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
+    _r25_o = _r25_o;
     _r21_o = ((global::com.codename1.xml.Element) _r25_o).getText();
     _r0_o = _r7_o;
     _r1_o = _r21_o;
@@ -387,8 +427,11 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public virtual global::System.Object getResults(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: java.util.Vector getResults()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.RSSService) _r1_o)._fresults;
     return (global::java.util.Vector) _r0_o;
@@ -399,14 +442,23 @@ public virtual bool parsingError(int n1, global::java.lang.String n2, global::ja
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: boolean parsingError(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -430,7 +482,10 @@ public virtual bool parsingError(int n1, global::java.lang.String n2, global::ja
 public virtual bool hasMore(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: boolean hasMore()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.services.RSSService) _r1_o)._fhasMore ? 1 : 0;
     return _r0.i!=0;
@@ -440,7 +495,10 @@ public virtual bool hasMore(){
 public virtual bool isCreatePlainTextDetails(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: boolean isCreatePlainTextDetails()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.services.RSSService) _r1_o)._fcreatePlainTextDetails ? 1 : 0;
     return _r0.i!=0;
@@ -449,8 +507,11 @@ public virtual bool isCreatePlainTextDetails(){
 
 public virtual void setCreatePlainTextDetails(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: void setCreatePlainTextDetails(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.services.RSSService) _r0_o)._fcreatePlainTextDetails = 0!=_r1.i;
@@ -460,8 +521,11 @@ public virtual void setCreatePlainTextDetails(bool n1){
 
 public virtual global::System.Object getIconPlaceholder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: com.codename1.ui.Image getIconPlaceholder()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.RSSService) _r1_o)._ficonPlaceholder;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -470,8 +534,11 @@ public virtual global::System.Object getIconPlaceholder(){
 
 public virtual void setIconPlaceholder(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: void setIconPlaceholder(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.RSSService) _r0_o)._ficonPlaceholder = (global::com.codename1.ui.Image) _r1_o;
@@ -482,7 +549,10 @@ public virtual void setIconPlaceholder(global::com.codename1.ui.Image n1){
 public static int access_2000(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: int access$000(com.codename1.io.services.RSSService)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.io.services.RSSService) _r1_o)._fstartOffset;
     return _r0.i;
@@ -491,8 +561,11 @@ public static int access_2000(global::com.codename1.io.services.RSSService n1){
 
 public static global::System.Object access_2100(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: com.codename1.ui.Image access$100(com.codename1.io.services.RSSService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.services.RSSService) _r1_o)._ficonPlaceholder;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -502,8 +575,12 @@ public static global::System.Object access_2100(global::com.codename1.io.service
 public static int access_2010(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: int access$010(com.codename1.io.services.RSSService)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.io.services.RSSService) _r2_o)._fstartOffset;
     _r1.i = 1;
@@ -515,8 +592,11 @@ public static int access_2010(global::com.codename1.io.services.RSSService n1){
 
 public static global::System.Object access_2200(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: java.util.Vector access$200(com.codename1.io.services.RSSService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.services.RSSService) _r1_o)._fresults;
     return (global::java.util.Vector) _r0_o;
@@ -526,7 +606,10 @@ public static global::System.Object access_2200(global::com.codename1.io.service
 public static int access_2300(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService: int access$300(com.codename1.io.services.RSSService)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.io.services.RSSService) _r1_o)._flimit;
     return _r0.i;

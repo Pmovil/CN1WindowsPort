@@ -13,10 +13,15 @@ private global::java.util.Hashtable _finProgress;
 
 public void @this(global::java.lang.String n1, global::com.codename1.ui.EncodedImage n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: void <init>(java.lang.String, com.codename1.ui.EncodedImage)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -32,9 +37,13 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.EncodedI
 
 private global::System.Object getCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: com.codename1.io.CacheMap getCache()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.cloud.CloudImageProperty._fcloudImageCache;
     if (_r0_o != null) goto label13;
@@ -52,21 +61,31 @@ private global::System.Object getCache(){
 
 public virtual global::System.Object propertyValue(global::com.codename1.cloud.CloudObject n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: java.lang.Object propertyValue(com.codename1.cloud.CloudObject, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._fidProperty;
     _r2_o = ((global::com.codename1.cloud.CloudObject) _r7_o).getObject((global::java.lang.String) _r5_o);
+    _r2_o = _r2_o;
     if (_r2_o != null) goto label13;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._fplaceholderImage;
     label12:;
@@ -74,9 +93,11 @@ public virtual global::System.Object propertyValue(global::com.codename1.cloud.C
     label13:;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o).getCache();
     _r1_o = ((global::com.codename1.io.CacheMap) _r5_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     if (_r1_o != null) goto label77;
     _r5_o = ((global::com.codename1.cloud.CloudImageProperty) _r6_o)._finProgress;
     _r3_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
+    _r3_o = _r3_o;
     if (_r3_o == null) goto label37;
     _r5_o = _r3_o;
     goto label12;
@@ -104,8 +125,11 @@ public virtual global::System.Object propertyValue(global::com.codename1.cloud.C
 
 public static global::System.Object access_2000(global::com.codename1.cloud.CloudImageProperty n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: com.codename1.ui.EncodedImage access$000(com.codename1.cloud.CloudImageProperty)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudImageProperty) _r1_o)._fplaceholderImage;
     return (global::com.codename1.ui.EncodedImage) _r0_o;
@@ -114,8 +138,11 @@ public static global::System.Object access_2000(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2100(global::com.codename1.cloud.CloudImageProperty n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: com.codename1.io.CacheMap access$100(com.codename1.cloud.CloudImageProperty)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudImageProperty) _r1_o).getCache();
     return (global::com.codename1.io.CacheMap) _r0_o;
@@ -124,8 +151,11 @@ public static global::System.Object access_2100(global::com.codename1.cloud.Clou
 
 public static global::System.Object access_2200(global::com.codename1.cloud.CloudImageProperty n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudImageProperty: java.util.Hashtable access$200(com.codename1.cloud.CloudImageProperty)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.cloud.CloudImageProperty) _r1_o)._finProgress;
     return (global::java.util.Hashtable) _r0_o;

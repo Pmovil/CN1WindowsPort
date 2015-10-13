@@ -11,10 +11,15 @@ public global::com.codename1.cloud.CloudObject _fthis_20;
 
 public void @this(global::com.codename1.cloud.CloudObject n1, int n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject$1: void <init>(com.codename1.cloud.CloudObject, int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -31,13 +36,21 @@ public virtual void propertyChanged(global::com.codename1.ui.Component n1, globa
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudObject$1: void propertyChanged(com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -85,6 +98,7 @@ public virtual void propertyChanged(global::com.codename1.ui.Component n1, globa
     _r1_o = ((global::com.codename1.cloud.CloudObject_21) _r3_o)._fthis_20;
     ((global::com.codename1.cloud.CloudStorage) _r0_o).save((global::com.codename1.cloud.CloudObject) _r1_o);
     goto label6;
+    label80:;
 //XMLVM_END_WRAPPER[com.codename1.cloud.CloudObject$1: void propertyChanged(com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
 }
 

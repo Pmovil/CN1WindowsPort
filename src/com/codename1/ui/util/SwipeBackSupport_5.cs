@@ -7,8 +7,11 @@ public global::com.codename1.ui.util.SwipeBackSupport _fthis_20;
 
 public void @this(global::com.codename1.ui.util.SwipeBackSupport n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$5: void <init>(com.codename1.ui.util.SwipeBackSupport)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.SwipeBackSupport_25) _r0_o)._fthis_20 = (global::com.codename1.ui.util.SwipeBackSupport) _r1_o;
@@ -19,25 +22,36 @@ public void @this(global::com.codename1.ui.util.SwipeBackSupport n1){
 
 public virtual global::System.Object get(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.SwipeBackSupport$5: com.codename1.ui.animations.Motion get(java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0_o = new global::com.codename1.ui.util.SwipeBackSupport_2ManualMotion();
     _r1_o = ((global::com.codename1.ui.util.SwipeBackSupport_25) _r5_o)._fthis_20;
     _r2.i = 0;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r2.i];
+    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r3.i = 1;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r3.i];
+    _r5_o = _r5_o;
     _r3.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r4.i = 2;
     _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r4.i];
+    _r5_o = _r5_o;
     _r4.i = ((global::java.lang.Integer) _r5_o).intValue();
     ((global::com.codename1.ui.util.SwipeBackSupport_2ManualMotion) _r0_o).@this((global::com.codename1.ui.util.SwipeBackSupport) _r1_o, (int) _r2.i, (int) _r3.i, (int) _r4.i);
     return (global::com.codename1.ui.animations.Motion) _r0_o;

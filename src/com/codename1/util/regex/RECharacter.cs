@@ -66,9 +66,11 @@ public static sbyte _fOTHER_1SYMBOL = 28;
 
 public static global::org.xmlvm._nArrayAdapter<sbyte> _fCHAR_1CLASSES;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -78,7 +80,10 @@ new public void @this(){
 public static char toLowerCase(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: char toLowerCase(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.toLowerCase((char) _r1.i);
     return (char) _r0.i;
@@ -88,7 +93,10 @@ public static char toLowerCase(char n1){
 public static char toUpperCase(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: char toUpperCase(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::java.lang.Character.toUpperCase((char) _r1.i);
     return (char) _r0.i;
@@ -98,11 +106,18 @@ public static char toUpperCase(char n1){
 public static bool isWhitespace(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isWhitespace(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r4.i = 13;
     _r3.i = 12;
@@ -149,8 +164,12 @@ public static bool isWhitespace(char n1){
 public static bool isDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isDigit(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.util.regex.RECharacter.getType((char) _r2.i);
     _r1.i = 9;
@@ -167,9 +186,14 @@ public static bool isDigit(char n1){
 public static bool isLetter(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isLetter(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = n1;
     _r2.i = 1;
     _r0.i = global::com.codename1.util.regex.RECharacter.getType((char) _r3.i);
@@ -193,7 +217,10 @@ public static bool isLetter(char n1){
 public static bool isLetterOrDigit(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isLetterOrDigit(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::com.codename1.util.regex.RECharacter.isDigit((char) _r1.i) ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -212,8 +239,12 @@ public static bool isLetterOrDigit(char n1){
 public static bool isSpaceChar(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isSpaceChar(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.util.regex.RECharacter.getType((char) _r2.i);
     _r1.i = 12;
@@ -235,8 +266,12 @@ public static bool isSpaceChar(char n1){
 public static bool isJavaIdentifierStart(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isJavaIdentifierStart(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r0.i = global::com.codename1.util.regex.RECharacter.getType((char) _r2.i);
     _r1.i = global::com.codename1.util.regex.RECharacter.isLetter((char) _r2.i) ? 1 : 0;
@@ -260,7 +295,10 @@ public static bool isJavaIdentifierStart(char n1){
 public static bool isJavaIdentifierPart(char n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: boolean isJavaIdentifierPart(char)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = global::com.codename1.util.regex.RECharacter.isJavaIdentifierStart((char) _r1.i) ? 1 : 0;
     if (_r0.i != 0) goto label12;
@@ -281,6 +319,8 @@ public static sbyte getType(char n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.util.regex.RECharacter._fCHAR_1CLASSES;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -295,15 +335,17 @@ public static sbyte getType(char n1){
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECharacter: byte getType(char)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.RECharacter: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 256;
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r0.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[]{15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 12, 23, 23, 23, 25, 23, 23, 23, 20, 21, 23, 24, 23, 19, 23, 23, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 23, 23, 24, 24, 24, 23, 23, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 23, 21, 26, 22, 26, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 20, 24, 21, 24, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 12, 23, 25, 25, 25, 25, 27, 27, 26, 27, 2, 28, 24, 16, 27, 26, 27, 24, 11, 11, 26, 2, 27, 23, 26, 11, 2, 29, 11, 11, 11, 23, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 24, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 24, 2, 2, 2, 2, 2, 2, 2, 2});
     global::com.codename1.util.regex.RECharacter._fCHAR_1CLASSES = (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
     return;
+    label10:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.RECharacter: void <clinit>()]
 }
 

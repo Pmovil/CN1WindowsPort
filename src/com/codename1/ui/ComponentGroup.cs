@@ -13,11 +13,15 @@ private bool _fuiidsDirty;
 
 private bool _fforceGroup;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.ui.layouts.BoxLayout();
     _r1.i = 2;
@@ -46,12 +50,17 @@ new public void @this(){
 private void reverseRadio(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void reverseRadio(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.ComboBox)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
+    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.ui.ComponentGroup) _r1_o)._fuiidsDirty ? 1 : 0;
     ((global::com.codename1.ui.ComboBox) _r2_o).setActAsSpinnerDialog(0!=_r0.i);
     label11:;
@@ -61,9 +70,13 @@ private void reverseRadio(global::com.codename1.ui.Component n1){
 
 public override void insertComponentAt(int n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void insertComponentAt(int, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -76,13 +89,20 @@ public override void insertComponentAt(int n1, global::com.codename1.ui.Componen
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void refreshTheme(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1 ? 1 : 0;
     _r4.i = 0;
@@ -113,10 +133,15 @@ public override void refreshTheme(bool n1){
 
 public override void removeComponentImpl(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void removeComponentImpl(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     base.removeComponentImpl((global::com.codename1.ui.Component) _r3_o);
@@ -125,6 +150,7 @@ public override void removeComponentImpl(global::com.codename1.ui.Component n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
     if (_r0_o == null) goto label16;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r0_o);
     label16:;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).updateUIIDs();
@@ -134,10 +160,15 @@ public override void removeComponentImpl(global::com.codename1.ui.Component n1){
 
 private global::System.Object elementPrefix(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: java.lang.String elementPrefix(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::java.lang.Object) _r3_o).getClass();
@@ -154,15 +185,23 @@ private global::System.Object elementPrefix(global::com.codename1.ui.Component n
 
 private void updateUIIDs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void updateUIIDs()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 0;
     _r5.i = 1;
@@ -230,12 +269,19 @@ private void updateUIIDs(){
 
 private void updateUIID(global::java.lang.String n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void updateUIID(java.lang.String, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -261,16 +307,22 @@ private void updateUIID(global::java.lang.String n1, global::com.codename1.ui.Co
 
 private void restoreUIID(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void restoreUIID(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=$origUIID
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)36)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label13;
     ((global::com.codename1.ui.Component) _r3_o).setUIID((global::java.lang.String) _r0_o);
     label13:;
@@ -284,13 +336,17 @@ public virtual bool isHorizontal(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0_o = ((global::com.codename1.ui.ComponentGroup) _r2_o).getLayout();
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.layouts.BoxLayout)) ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r2_o = ((global::com.codename1.ui.ComponentGroup) _r2_o).getLayout();
+    _r2_o = _r2_o;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r2_o).getAxis();
     if (_r0.i != _r1.i) goto label23;
     _r0.i = _r1.i;
@@ -307,10 +363,16 @@ public virtual void setHorizontal(bool n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1 ? 1 : 0;
     // Value=GroupElement
@@ -369,8 +431,11 @@ public virtual void setHorizontal(bool n1){
 
 public virtual global::System.Object getElementUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: java.lang.String getElementUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.ComponentGroup) _r1_o)._felementUIID;
     return (global::java.lang.String) _r0_o;
@@ -379,8 +444,11 @@ public virtual global::System.Object getElementUIID(){
 
 public virtual void setElementUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void setElementUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.ComponentGroup) _r0_o)._felementUIID = (global::java.lang.String) _r1_o;
@@ -395,8 +463,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 5;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -434,10 +506,16 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
@@ -466,8 +544,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=elementUIID
@@ -522,10 +603,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -535,6 +621,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).setElementUIID((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -545,6 +632,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 122)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label35;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.ComponentGroup) _r2_o).setHorizontal(0!=_r0.i);
     _r0_o = _r1_o;
@@ -565,6 +653,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 112))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label68;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.ComponentGroup) _r2_o)._fforceGroup = 0!=_r0.i;
     _r0_o = _r1_o;
@@ -577,8 +666,11 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public virtual global::System.Object getGroupFlag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: java.lang.String getGroupFlag()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.ComponentGroup) _r1_o)._fgroupFlag;
     return (global::java.lang.String) _r0_o;
@@ -587,8 +679,11 @@ public virtual global::System.Object getGroupFlag(){
 
 public virtual void setGroupFlag(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void setGroupFlag(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.ComponentGroup) _r0_o)._fgroupFlag = (global::java.lang.String) _r1_o;
@@ -599,7 +694,10 @@ public virtual void setGroupFlag(global::java.lang.String n1){
 public virtual bool isForceGroup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: boolean isForceGroup()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.ComponentGroup) _r1_o)._fforceGroup ? 1 : 0;
     return _r0.i!=0;
@@ -608,8 +706,11 @@ public virtual bool isForceGroup(){
 
 public virtual void setForceGroup(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void setForceGroup(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.ComponentGroup) _r0_o)._fforceGroup = 0!=_r1.i;

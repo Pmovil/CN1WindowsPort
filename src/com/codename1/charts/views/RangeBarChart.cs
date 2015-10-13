@@ -10,21 +10,26 @@ static RangeBarChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)82)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114))}));
 }
 
-new public static global::java.lang.String _fTYPE;
+public static global::java.lang.String _fTYPE;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.charts.views.BarChart) _r0_o).@this();
     return;
 //XMLVM_END_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>()]
 }
 
-new public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
+public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.views.BarChart$Type)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.views.BarChart) _r0_o).@this((global::com.codename1.charts.views.BarChart_2Type) _r1_o);
@@ -32,12 +37,17 @@ new public void @this(global::com.codename1.charts.views.BarChart_2Type n1){
 //XMLVM_END_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.views.BarChart$Type)]
 }
 
-new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2, global::com.codename1.charts.views.BarChart_2Type n3){
+public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2, global::com.codename1.charts.views.BarChart_2Type n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer, com.codename1.charts.views.BarChart$Type)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -49,35 +59,57 @@ new public void @this(global::com.codename1.charts.models.XYMultipleSeriesDatase
 
 public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, global::com.codename1.charts.compat.Paint n2, global::java.util.List n3, global::com.codename1.charts.renderers.XYSeriesRenderer n4, float n5, int n6, int n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void drawSeries(com.codename1.charts.compat.Canvas, com.codename1.charts.compat.Paint, java.util.List, com.codename1.charts.renderers.XYSeriesRenderer, float, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18_o = n1;
     _r19_o = n2;
@@ -117,21 +149,25 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r20_o;
     _r1.i = _r14.i;
     _r22_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r22_o = _r22_o;
     _r6.f = ((global::java.lang.Float) _r22_o).floatValue();
     _r4.i = _r14.i + 1;
     _r0_o = _r20_o;
     _r1.i = _r4.i;
     _r22_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r22_o = _r22_o;
     _r7.f = ((global::java.lang.Float) _r22_o).floatValue();
     _r4.i = _r14.i + 2;
     _r0_o = _r20_o;
     _r1.i = _r4.i;
     _r22_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r22_o = _r22_o;
     _r8.f = ((global::java.lang.Float) _r22_o).floatValue();
     _r4.i = _r14.i + 3;
     _r0_o = _r20_o;
     _r1.i = _r4.i;
     _r22_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r22_o = _r22_o;
     _r9.f = ((global::java.lang.Float) _r22_o).floatValue();
     _r4_o = _r17_o;
     _r5_o = _r18_o;
@@ -152,11 +188,14 @@ public override void drawSeries(global::com.codename1.charts.compat.Canvas n1, g
 
 public override void drawChartValuesText(global::com.codename1.charts.compat.Canvas n1, global::com.codename1.charts.models.XYSeries n2, global::com.codename1.charts.renderers.XYSeriesRenderer n3, global::com.codename1.charts.compat.Paint n4, global::java.util.List n5, int n6, int n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: void drawChartValuesText(com.codename1.charts.compat.Canvas, com.codename1.charts.models.XYSeries, com.codename1.charts.renderers.XYSeriesRenderer, com.codename1.charts.compat.Paint, java.util.List, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -164,22 +203,40 @@ public override void drawChartValuesText(global::com.codename1.charts.compat.Can
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
     _r17_o = n1;
     _r18_o = n2;
@@ -211,6 +268,7 @@ public override void drawChartValuesText(global::com.codename1.charts.compat.Can
     _r0_o = _r21_o;
     _r1.i = _r12.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r4_o = _r4_o;
     _r7.f = ((global::java.lang.Float) _r4_o).floatValue();
     _r0_o = _r16_o;
     _r0_o = ((global::com.codename1.charts.views.RangeBarChart) _r0_o)._fmType;
@@ -251,6 +309,7 @@ public override void drawChartValuesText(global::com.codename1.charts.compat.Can
     _r0_o = _r21_o;
     _r1.i = _r4.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r4_o = _r4_o;
     _r4.f = ((global::java.lang.Float) _r4_o).floatValue();
     _r5.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r19_o).getChartValuesSpacing();
     _r8.f = _r4.f - _r5.f;
@@ -282,6 +341,7 @@ public override void drawChartValuesText(global::com.codename1.charts.compat.Can
     _r0_o = _r21_o;
     _r1.i = _r4.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r4_o = _r4_o;
     _r4.f = ((global::java.lang.Float) _r4_o).floatValue();
     _r5.f = ((global::com.codename1.charts.renderers.XYSeriesRenderer) _r19_o).getChartValuesTextSize();
     _r4.f = _r4.f + _r5.f;
@@ -305,7 +365,10 @@ public override void drawChartValuesText(global::com.codename1.charts.compat.Can
 public override float getCoeficient(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: float getCoeficient()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = (float)0.5D;
     return _r0.f;
@@ -314,8 +377,11 @@ public override float getCoeficient(){
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RangeBarChart: java.lang.String getChartType()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=RangeBar
     _r0_o = new global::java.lang.String();

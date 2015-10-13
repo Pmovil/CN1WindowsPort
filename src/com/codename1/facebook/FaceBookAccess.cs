@@ -33,10 +33,13 @@ private static global::java.lang.String _fTEMP_1STORAGE;
 
 private static global::java.lang.String _fapiVersion;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.Vector();
@@ -48,13 +51,15 @@ new private void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.FaceBookAccess getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.facebook.FaceBookAccess._finstance;
     return (global::com.codename1.facebook.FaceBookAccess) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.FaceBookAccess getInstance()]
 }
 
-private global::System.Object createOAuth(){
+public virtual global::System.Object createOAuth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.io.Oauth2 createOAuth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
@@ -62,15 +67,25 @@ private global::System.Object createOAuth(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     // Value=display
     _r5_o = new global::java.lang.String();
@@ -173,10 +188,15 @@ private global::System.Object createOAuth(){
 
 public virtual global::System.Object createAuthComponent(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.ui.Component createAuthComponent(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r2_o).createOAuth();
@@ -189,10 +209,15 @@ public virtual global::System.Object createAuthComponent(global::com.codename1.u
 
 public virtual void showAuthentication(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void showAuthentication(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r2_o).createOAuth();
@@ -207,7 +232,9 @@ public virtual bool isAuthenticated(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: boolean isAuthenticated()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.facebook.FaceBookAccess._ftoken;
     if (_r0_o == null) goto label6;
@@ -224,8 +251,11 @@ private void checkAuthentication(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void checkAuthentication()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.facebook.FaceBookAccess) _r2_o).isAuthenticated() ? 1 : 0;
     if (_r0.i != 0) goto label14;
@@ -242,8 +272,11 @@ private void checkAuthentication(){
 
 public virtual void setProgress(global::com.codename1.ui.Slider n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setProgress(com.codename1.ui.Slider)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FaceBookAccess) _r0_o)._fslider = (global::com.codename1.ui.Slider) _r1_o;
@@ -253,15 +286,23 @@ public virtual void setProgress(global::com.codename1.ui.Slider n1){
 
 public virtual void getFaceBookObject(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getFaceBookObject(java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -288,6 +329,7 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
     if (_r1.i >= _r2.i) goto label53;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label31;
@@ -301,17 +343,27 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
 
 public virtual void getFaceBookObject(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, bool n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getFaceBookObject(java.lang.String, com.codename1.ui.events.ActionListener, boolean, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -342,6 +394,7 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
     if (_r1.i >= _r2.i) goto label55;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label33;
@@ -361,19 +414,31 @@ public virtual void getFaceBookObject(global::java.lang.String n1, global::com.c
 
 public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.list.DefaultListModel n3, global::java.util.Hashtable n4, global::com.codename1.ui.events.ActionListener n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getFaceBookObjectItems(java.lang.String, java.lang.String, com.codename1.ui.list.DefaultListModel, java.util.Hashtable, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -395,7 +460,9 @@ public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::
     _r4.i = ((global::java.util.Enumeration) _r3_o).hasMoreElements() ? 1 : 0;
     if (_r4.i == 0) goto label50;
     _r2_o = ((global::java.util.Enumeration) _r3_o).nextElement();
+    _r2_o = _r2_o;
     _r4_o = ((global::java.util.Hashtable) _r10_o).get((global::java.lang.Object) _r2_o);
+    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r4_o);
     goto label28;
     label50:;
@@ -411,6 +478,7 @@ public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::
     if (_r1.i >= _r4.i) goto label82;
     _r4_o = ((global::com.codename1.facebook.FaceBookAccess) _r6_o)._fresponseCodeListeners;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r1.i);
+    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r4_o);
     _r1.i = _r1.i + 1;
     goto label60;
@@ -424,12 +492,19 @@ public virtual void getFaceBookObjectItems(global::java.lang.String n1, global::
 
 public virtual void getUser(global::java.lang.String n1, global::com.codename1.facebook.User n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUser(java.lang.String, com.codename1.facebook.User, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -449,8 +524,11 @@ public virtual void getUser(global::java.lang.String n1, global::com.codename1.f
 
 public virtual global::System.Object getUser(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.User getUser(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
@@ -459,8 +537,12 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 0;
@@ -487,6 +569,7 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
     _r7_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r6.i);
+    _r7_o = _r7_o;
     _r5.i = ((global::com.codename1.io.NetworkEvent) _r7_o).getResponseCode();
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((int) _r5.i);
     // Value=: 
@@ -494,6 +577,7 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
     ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r7_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r6.i);
+    _r7_o = _r7_o;
     _r5_o = ((global::com.codename1.io.NetworkEvent) _r7_o).getMessage();
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r5_o);
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).toString();
@@ -506,16 +590,23 @@ public virtual global::System.Object getUser(global::java.lang.String n1){
 
 public virtual global::System.Object getPage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.Page getPage(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 0;
@@ -535,6 +626,7 @@ public virtual global::System.Object getPage(global::java.lang.String n1){
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -542,6 +634,7 @@ public virtual global::System.Object getPage(global::java.lang.String n1){
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -554,11 +647,17 @@ public virtual global::System.Object getPage(global::java.lang.String n1){
 
 public virtual void getPost(global::java.lang.String n1, global::com.codename1.facebook.Post n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPost(java.lang.String, com.codename1.facebook.Post, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -572,17 +671,25 @@ public virtual void getPost(global::java.lang.String n1, global::com.codename1.f
 
 public virtual global::System.Object getPost(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.Post getPost(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
@@ -603,6 +710,7 @@ public virtual global::System.Object getPost(global::java.lang.String n1, bool n
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -610,6 +718,7 @@ public virtual global::System.Object getPost(global::java.lang.String n1, bool n
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -622,11 +731,17 @@ public virtual global::System.Object getPost(global::java.lang.String n1, bool n
 
 public virtual void getPhoto(global::java.lang.String n1, global::com.codename1.facebook.Photo n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPhoto(java.lang.String, com.codename1.facebook.Photo, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -640,17 +755,25 @@ public virtual void getPhoto(global::java.lang.String n1, global::com.codename1.
 
 public virtual global::System.Object getPhoto(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.Photo getPhoto(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
@@ -671,6 +794,7 @@ public virtual global::System.Object getPhoto(global::java.lang.String n1, bool 
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -678,6 +802,7 @@ public virtual global::System.Object getPhoto(global::java.lang.String n1, bool 
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -690,11 +815,17 @@ public virtual global::System.Object getPhoto(global::java.lang.String n1, bool 
 
 public virtual void getAlbum(global::java.lang.String n1, global::com.codename1.facebook.Album n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getAlbum(java.lang.String, com.codename1.facebook.Album, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -708,17 +839,25 @@ public virtual void getAlbum(global::java.lang.String n1, global::com.codename1.
 
 public virtual global::System.Object getAlbum(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.facebook.Album getAlbum(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
@@ -739,6 +878,7 @@ public virtual global::System.Object getAlbum(global::java.lang.String n1, bool 
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
     _r6_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4.i = ((global::com.codename1.io.NetworkEvent) _r6_o).getResponseCode();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((int) _r4.i);
     // Value=: 
@@ -746,6 +886,7 @@ public virtual global::System.Object getAlbum(global::java.lang.String n1, bool 
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)58)), unchecked((char) unchecked((uint) 32))}));
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r6_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r5.i);
+    _r6_o = _r6_o;
     _r4_o = ((global::com.codename1.io.NetworkEvent) _r6_o).getMessage();
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
@@ -759,10 +900,16 @@ public virtual global::System.Object getAlbum(global::java.lang.String n1, bool 
 public virtual void getNewsFeed(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getNewsFeed(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -775,17 +922,29 @@ public virtual void getNewsFeed(global::java.lang.String n1, global::com.codenam
 
 public virtual void getNewsFeed(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, int n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getNewsFeed(java.lang.String, com.codename1.ui.list.DefaultListModel, int, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -818,10 +977,16 @@ public virtual void getNewsFeed(global::java.lang.String n1, global::com.codenam
 public virtual void getWallFeed(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getWallFeed(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -834,17 +999,29 @@ public virtual void getWallFeed(global::java.lang.String n1, global::com.codenam
 
 public virtual void getWallFeed(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, int n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getWallFeed(java.lang.String, com.codename1.ui.list.DefaultListModel, int, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -877,10 +1054,16 @@ public virtual void getWallFeed(global::java.lang.String n1, global::com.codenam
 public virtual void getWallPosts(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getWallPosts(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -893,17 +1076,29 @@ public virtual void getWallPosts(global::java.lang.String n1, global::com.codena
 
 public virtual void getWallPosts(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, int n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getWallPosts(java.lang.String, com.codename1.ui.list.DefaultListModel, int, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -935,19 +1130,29 @@ public virtual void getWallPosts(global::java.lang.String n1, global::com.codena
 
 public virtual void getPicture(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::com.codename1.ui.geom.Dimension n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPicture(java.lang.String, com.codename1.ui.Label, com.codename1.ui.geom.Dimension, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1021,19 +1226,29 @@ public virtual void getPicture(global::java.lang.String n1, global::com.codename
 
 public virtual void getPicture(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, global::com.codename1.ui.geom.Dimension n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPicture(java.lang.String, com.codename1.ui.events.ActionListener, com.codename1.ui.geom.Dimension, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1107,17 +1322,24 @@ public virtual void getPicture(global::java.lang.String n1, global::com.codename
 
 public virtual global::System.Object getPictureAndWait(global::java.lang.String n1, global::com.codename1.ui.geom.Dimension n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.ui.EncodedImage getPictureAndWait(java.lang.String, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
     _r0_o = new global::com.codename1.io.services.ImageDownloadService();
     _r1_o = ((global::com.codename1.facebook.FaceBookAccess) _r2_o).getImageURL((global::java.lang.String) _r3_o, (global::com.codename1.ui.geom.Dimension) _r4_o);
     _r2_o = null;
+    _r2_o = _r2_o;
     ((global::com.codename1.io.services.ImageDownloadService) _r0_o).@this((global::java.lang.String) _r1_o, (global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1_o = global::com.codename1.io.NetworkManager.getInstance();
     ((global::com.codename1.io.NetworkManager) _r1_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r0_o);
@@ -1128,14 +1350,21 @@ public virtual global::System.Object getPictureAndWait(global::java.lang.String 
 
 public virtual global::System.Object getImageURL(global::java.lang.String n1, global::com.codename1.ui.geom.Dimension n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String getImageURL(java.lang.String, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -1247,21 +1476,35 @@ public virtual void getPicture(global::java.lang.String n1, global::com.codename
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPicture(java.lang.String, com.codename1.ui.Component, int, java.lang.String, com.codename1.ui.geom.Dimension, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -1342,16 +1585,25 @@ public virtual void getPicture(global::java.lang.String n1, global::com.codename
 
 public virtual void getPhotoThumbnail(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPhotoThumbnail(java.lang.String, com.codename1.ui.events.ActionListener, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1391,17 +1643,27 @@ public virtual void getPhotoThumbnail(global::java.lang.String n1, global::com.c
 
 public virtual void getPhotoThumbnail(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::com.codename1.ui.geom.Dimension n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPhotoThumbnail(java.lang.String, com.codename1.ui.Label, com.codename1.ui.geom.Dimension, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1442,16 +1704,27 @@ public virtual void getPhotoThumbnail(global::java.lang.String n1, global::com.c
 
 public virtual void getUserFriends(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUserFriends(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1469,16 +1742,27 @@ public virtual void getUserFriends(global::java.lang.String n1, global::com.code
 
 public virtual void getUserAlbums(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUserAlbums(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1496,18 +1780,31 @@ public virtual void getUserAlbums(global::java.lang.String n1, global::com.coden
 
 public virtual void getAlbumPhotos(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, int n3, int n4, global::com.codename1.ui.events.ActionListener n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getAlbumPhotos(java.lang.String, com.codename1.ui.list.DefaultListModel, int, int, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1559,9 +1856,13 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
@@ -1569,21 +1870,35 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r18_o = this;
     _r19_o = n1;
     _r20_o = n2;
@@ -1674,6 +1989,7 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r0_o = _r6_o;
     _r1.i = _r17.i;
     _r20_o = ((global::java.util.Vector) _r0_o).elementAt((int) _r1.i);
+    _r20_o = _r20_o;
     _r0_o = _r15_o;
     _r1_o = _r20_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r1_o);
@@ -1690,12 +2006,14 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r6.i = global::java.lang.Math.min((int) _r0.i, (int) _r1.i);
     if (_r10.i >= _r6.i) goto label227;
     _r16_o = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getItemAt((int) _r10.i);
+    _r16_o = _r16_o;
     // Value=photo
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111))}));
     _r0_o = _r16_o;
     _r1_o = _r6_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r8_o = _r8_o;
     // Value=photo
     _r11_o = new global::java.lang.String();
     ((global::java.lang.String)_r11_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111))}));
@@ -1707,6 +2025,7 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
     _r0_o = _r16_o;
     _r1_o = _r7_o;
     _r18_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r18_o = _r18_o;
     _r0_o = _r6_o;
     _r1_o = _r18_o;
     _r6_o = ((global::java.lang.StringBuilder) _r0_o).append((global::java.lang.String) _r1_o);
@@ -1727,16 +2046,27 @@ private global::System.Object getAlbumPhotos(global::com.codename1.ui.Component 
 
 public virtual void getPostComments(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getPostComments(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1754,17 +2084,29 @@ public virtual void getPostComments(global::java.lang.String n1, global::com.cod
 
 public virtual void getUserInboxThreads(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, int n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUserInboxThreads(java.lang.String, com.codename1.ui.list.DefaultListModel, int, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1796,10 +2138,15 @@ public virtual void getUserInboxThreads(global::java.lang.String n1, global::com
 
 public virtual void postOnWall(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postOnWall(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1811,9 +2158,13 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
 
 public virtual void postLike(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postLike(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -1824,10 +2175,15 @@ public virtual void postLike(global::java.lang.String n1){
 
 public virtual void postComment(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postComment(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1839,11 +2195,17 @@ public virtual void postComment(global::java.lang.String n1, global::java.lang.S
 
 public virtual void createNote(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void createNote(java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -1856,17 +2218,25 @@ public virtual void createNote(global::java.lang.String n1, global::java.lang.St
 
 public virtual void postOnWall(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postOnWall(java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1904,6 +2274,7 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label77;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label55;
@@ -1917,21 +2288,35 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
 
 public virtual void postOnWall(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::com.codename1.ui.events.ActionListener n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postOnWall(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -1998,6 +2383,7 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label95;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label73;
@@ -2011,15 +2397,23 @@ public virtual void postOnWall(global::java.lang.String n1, global::java.lang.St
 
 public virtual void postLike(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postLike(java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -2044,6 +2438,7 @@ public virtual void postLike(global::java.lang.String n1, global::com.codename1.
     if (_r1.i >= _r2.i) goto label53;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label31;
@@ -2057,17 +2452,25 @@ public virtual void postLike(global::java.lang.String n1, global::com.codename1.
 
 public virtual void postComment(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void postComment(java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -2105,6 +2508,7 @@ public virtual void postComment(global::java.lang.String n1, global::java.lang.S
     if (_r1.i >= _r2.i) goto label77;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label55;
@@ -2118,19 +2522,29 @@ public virtual void postComment(global::java.lang.String n1, global::java.lang.S
 
 public virtual void createNote(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void createNote(java.lang.String, java.lang.String, java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -2184,6 +2598,7 @@ public virtual void createNote(global::java.lang.String n1, global::java.lang.St
     if (_r1.i >= _r2.i) goto label103;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r6_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label81;
@@ -2200,18 +2615,29 @@ public virtual void createNote(global::java.lang.String n1, global::java.lang.St
 
 public virtual void getUserNotifications(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::com.codename1.ui.list.DefaultListModel n4, global::com.codename1.ui.events.ActionListener n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUserNotifications(java.lang.String, java.lang.String, boolean, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -2260,6 +2686,7 @@ public virtual void getUserNotifications(global::java.lang.String n1, global::ja
     if (_r1.i >= _r2.i) goto label82;
     _r2_o = ((global::com.codename1.facebook.FaceBookAccess) _r5_o)._fresponseCodeListeners;
     _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     _r1.i = _r1.i + 1;
     goto label60;
@@ -2273,19 +2700,31 @@ public virtual void getUserNotifications(global::java.lang.String n1, global::ja
 
 public virtual void getUsersDetails(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUsersDetails(java.lang.String[], java.lang.String[], com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -2367,6 +2806,7 @@ public virtual void getUsersDetails(global::org.xmlvm._nArrayAdapter<global::Sys
     if (_r2.i >= _r4.i) goto label140;
     _r4_o = ((global::com.codename1.facebook.FaceBookAccess) _r8_o)._fresponseCodeListeners;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r2.i);
+    _r4_o = _r4_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o).addResponseCodeListener((global::com.codename1.ui.events.ActionListener) _r4_o);
     _r2.i = _r2.i + 1;
     goto label118;
@@ -2380,16 +2820,27 @@ public virtual void getUsersDetails(global::org.xmlvm._nArrayAdapter<global::Sys
 
 public virtual void getUserEvents(global::java.lang.String n1, global::com.codename1.ui.list.DefaultListModel n2, global::com.codename1.ui.events.ActionListener n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void getUserEvents(java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -2407,17 +2858,29 @@ public virtual void getUserEvents(global::java.lang.String n1, global::com.coden
 
 public virtual void search(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.ui.list.DefaultListModel n3, global::com.codename1.ui.events.ActionListener n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void search(java.lang.String, java.lang.String, com.codename1.ui.list.DefaultListModel, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -2449,8 +2912,11 @@ public virtual void search(global::java.lang.String n1, global::java.lang.String
 
 public virtual void killCurrentRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void killCurrentRequest()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r1_o)._fcurrent;
     ((global::com.codename1.io.ConnectionRequest) _r0_o).kill();
@@ -2460,9 +2926,13 @@ public virtual void killCurrentRequest(){
 
 public virtual void addResponseCodeListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void addResponseCodeListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r1_o)._fresponseCodeListeners;
@@ -2473,9 +2943,13 @@ public virtual void addResponseCodeListener(global::com.codename1.ui.events.Acti
 
 public virtual void removeResponseCodeListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void removeResponseCodeListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r1_o)._fresponseCodeListeners;
@@ -2487,12 +2961,20 @@ public virtual void removeResponseCodeListener(global::com.codename1.ui.events.A
 public static global::System.Object createObjectsModel(global::com.codename1.ui.list.DefaultListModel n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: com.codename1.ui.list.DefaultListModel createObjectsModel(com.codename1.ui.list.DefaultListModel, java.lang.Class)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r1_o = new global::com.codename1.ui.list.DefaultListModel();
@@ -2502,7 +2984,9 @@ public static global::System.Object createObjectsModel(global::com.codename1.ui.
     _r4.i = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getSize();
     if (_r0.i >= _r4.i) goto label33;
     _r3_o = ((global::com.codename1.ui.list.DefaultListModel) _r5_o).getItemAt((int) _r0.i);
+    _r3_o = _r3_o;
     _r2_o = ((global::java.lang.Class) _r6_o).newInstance();
+    _r2_o = _r2_o;
     ((global::com.codename1.facebook.FBObject) _r2_o).copy((global::java.util.Hashtable) _r3_o);
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).addItem((global::java.lang.Object) _r2_o);
     _r0.i = _r0.i + 1;
@@ -2514,12 +2998,17 @@ public static global::System.Object createObjectsModel(global::com.codename1.ui.
 
 public virtual void cleanTempStorage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void cleanTempStorage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::com.codename1.io.Storage.getInstance();
     _r0_o = ((global::com.codename1.io.Storage) _r3_o).listEntries();
@@ -2545,7 +3034,9 @@ public virtual void cleanTempStorage(){
 
 public static void setClientId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setClientId(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._fclientId = (global::java.lang.String) _r0_o;
     return;
@@ -2554,7 +3045,9 @@ public static void setClientId(global::java.lang.String n1){
 
 public static void setClientSecret(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setClientSecret(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._fclientSecret = (global::java.lang.String) _r0_o;
     return;
@@ -2563,7 +3056,9 @@ public static void setClientSecret(global::java.lang.String n1){
 
 public static void setPermissions(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setPermissions(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._fpermissions = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
     return;
@@ -2572,7 +3067,9 @@ public static void setPermissions(global::org.xmlvm._nArrayAdapter<global::Syste
 
 public static void setRedirectURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setRedirectURI(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._fredirectURI = (global::java.lang.String) _r0_o;
     return;
@@ -2581,19 +3078,34 @@ public static void setRedirectURI(global::java.lang.String n1){
 
 public static void setToken(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setToken(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._ftoken = (global::java.lang.String) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: void setToken(java.lang.String)]
 }
 
+public static global::System.Object getToken(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String getToken()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = global::com.codename1.facebook.FaceBookAccess._ftoken;
+    return (global::java.lang.String) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String getToken()]
+}
+
 public static void logOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void logOut()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.io.ConnectionRequest();
     ((global::com.codename1.io.ConnectionRequest) _r0_o).@this();
     _r1.i = 0;
@@ -2624,14 +3136,19 @@ public static void logOut(){
 
 public static void anonymousLogin(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void anonymousLogin(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5_o = n2;
     _r0_o = new global::com.codename1.io.ConnectionRequest();
@@ -2679,7 +3196,9 @@ public static void anonymousLogin(global::java.lang.String n1, global::java.lang
 
 public static global::System.Object getApiVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String getApiVersion()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.facebook.FaceBookAccess._fapiVersion;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String getApiVersion()]
@@ -2689,8 +3208,11 @@ public static void setApiVersion(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void setApiVersion(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     // Value=1.0
     _r0_o = new global::java.lang.String();
@@ -2730,7 +3252,9 @@ public static void setApiVersion(global::java.lang.String n1){
 
 public static global::System.Object access_2002(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String access$002(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.facebook.FaceBookAccess._ftoken = (global::java.lang.String) _r0_o;
     return (global::java.lang.String) _r0_o;
@@ -2739,7 +3263,9 @@ public static global::System.Object access_2002(global::java.lang.String n1){
 
 public static global::System.Object access_2000(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String access$000()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.facebook.FaceBookAccess._ftoken;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: java.lang.String access$000()]
@@ -2747,20 +3273,26 @@ public static global::System.Object access_2000(){
 
 public static global::System.Object access_2100(global::com.codename1.facebook.FaceBookAccess n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: java.util.Vector access$100(com.codename1.facebook.FaceBookAccess)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.facebook.FaceBookAccess) _r1_o)._fresponseCodeListeners;
     return (global::java.util.Vector) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FaceBookAccess: java.util.Vector access$100(com.codename1.facebook.FaceBookAccess)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FaceBookAccess: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=132970916828080
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)49)), unchecked((char) unchecked((uint) 51)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 55)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 57)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 54)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 56)), unchecked((char) unchecked((uint) 48))}));

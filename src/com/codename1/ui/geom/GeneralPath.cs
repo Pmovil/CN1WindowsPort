@@ -14,7 +14,9 @@ public static int _fWIND_1EVEN_1ODD = 0;
 
 public static int _fWIND_1NON_1ZERO = 1;
 
+private static int _fBUFFER_1SIZE = 10;
 
+private static int _fBUFFER_1CAPACITY = 10;
 
 private global::org.xmlvm._nArrayAdapter<sbyte> _ftypes;
 
@@ -28,11 +30,15 @@ private int _frule;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fpointShift;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 1;
     _r1.i = 10;
@@ -44,8 +50,12 @@ new public void @this(){
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 10;
@@ -58,9 +68,13 @@ public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -79,11 +93,17 @@ public void @this(int n1, int n2){
 
 public void @this(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>(com.codename1.ui.geom.Shape)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = 1;
@@ -100,20 +120,31 @@ public void @this(global::com.codename1.ui.geom.Shape n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 2;
     _r8.i = 1;
@@ -284,6 +315,7 @@ public override global::System.Object toString(){
     label298:;
     _r4_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     return (global::java.lang.String) _r4_o;
+    label304:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: java.lang.String toString()]
 }
 
@@ -291,9 +323,13 @@ public virtual void setWindingRule(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void setWindingRule(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 1;
@@ -315,7 +351,10 @@ public virtual void setWindingRule(int n1){
 public virtual int getWindingRule(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: int getWindingRule()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._frule;
     return _r0.i;
@@ -324,15 +363,21 @@ public virtual int getWindingRule(){
 
 private void checkBuf(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void checkBuf(int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2 ? 1 : 0;
@@ -381,10 +426,20 @@ private void checkBuf(int n1, bool n2){
 public virtual void moveTo(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void moveTo(double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.d = n2;
@@ -400,12 +455,20 @@ public virtual void moveTo(float n1, float n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.f = n1;
     _r7.f = n2;
@@ -454,10 +517,20 @@ public virtual void moveTo(float n1, float n2){
 public virtual void lineTo(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void lineTo(double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5.d = n2;
@@ -473,11 +546,18 @@ public virtual void lineTo(float n1, float n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.f = n1;
     _r6.f = n2;
@@ -507,14 +587,32 @@ public virtual void lineTo(float n1, float n2){
 public virtual void quadTo(double n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void quadTo(double, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.d = n1;
     _r7.d = n2;
@@ -534,13 +632,22 @@ public virtual void quadTo(float n1, float n2, float n3, float n4){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.f = n1;
     _r6.f = n2;
@@ -583,20 +690,50 @@ public virtual void quadTo(float n1, float n2, float n3, float n4){
 public virtual void curveTo(double n1, double n2, double n3, double n4, double n5, double n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void curveTo(double, double, double, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.d = n1;
     _r12.d = n2;
@@ -627,15 +764,26 @@ public virtual void curveTo(float n1, float n2, float n3, float n4, float n5, fl
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.f = n1;
     _r6.f = n2;
@@ -690,142 +838,388 @@ public virtual void curveTo(float n1, float n2, float n3, float n4, float n5, fl
 public virtual void arc(float n1, float n2, float n3, float n4, float n5, float n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(float, float, float, float, float, float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r8_o = this;
+    _r9.f = n1;
+    _r10.f = n2;
+    _r11.f = n3;
+    _r12.f = n4;
+    _r13.f = n5;
+    _r14.f = n6;
+    _r7.i = 0;
+    _r0_o = _r8_o;
+    _r1.f = _r9.f;
+    _r2.f = _r10.f;
+    _r3.f = _r11.f;
+    _r4.f = _r12.f;
+    _r5.f = _r13.f;
+    _r6.f = _r14.f;
+    ((global::com.codename1.ui.geom.GeneralPath) _r0_o).arc((float) _r1.f, (float) _r2.f, (float) _r3.f, (float) _r4.f, (float) _r5.f, (float) _r6.f, 0!=_r7.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(float, float, float, float, float, float)]
+}
+
+public virtual void arc(float n1, float n2, float n3, float n4, float n5, float n6, bool n7){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(float, float, float, float, float, float, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
-    _r12_o = this;
-    _r13.f = n1;
-    _r14.f = n2;
-    _r15.f = n3;
-    _r16.f = n4;
-    _r17.f = n5;
-    _r18.f = n6;
-    _r3.f = (float)2.0D;
-    _r3.f = _r15.f / _r3.f;
-    _r1.f = _r13.f + _r3.f;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r13_o = this;
+    _r14.f = n1;
+    _r15.f = n2;
+    _r16.f = n3;
+    _r17.f = n4;
+    _r18.f = n5;
+    _r19.f = n6;
+    _r20.i = n7 ? 1 : 0;
     _r3.f = (float)2.0D;
     _r3.f = _r16.f / _r3.f;
-    _r2.f = _r14.f + _r3.f;
+    _r1.f = _r14.f + _r3.f;
     _r3.f = (float)2.0D;
-    _r3.f = _r15.f / _r3.f;
+    _r3.f = _r17.f / _r3.f;
+    _r2.f = _r15.f + _r3.f;
+    _r3.f = (float)2.0D;
+    _r3.f = _r16.f / _r3.f;
     _r4.f = (float)2.0D;
-    _r4.f = _r16.f / _r4.f;
-    _r0.f = _r17.f;
+    _r4.f = _r17.f / _r4.f;
+    _r0.f = _r18.f;
     _r0.f = -_r0.f;
     _r5.f = _r0.f;
     _r5.d = (double) _r5.f;
-    _r0.f = _r18.f;
+    _r0.f = _r19.f;
     _r0.f = -_r0.f;
     _r7.f = _r0.f;
     _r7.d = (double) _r7.f;
     _r9.i = 4;
     _r10.i = 0;
-    _r11_o = _r12_o;
-    global::com.codename1.ui.geom.GeneralPath.createBezierArcRadians((float) _r1.f, (float) _r2.f, (float) _r3.f, (float) _r4.f, (double) _r5.d, (double) _r7.d, (int) _r9.i, 0!=_r10.i, (global::com.codename1.ui.geom.GeneralPath) _r11_o);
+    _r11_o = _r13_o;
+    _r12.i = _r20.i;
+    global::com.codename1.ui.geom.GeneralPath.createBezierArcRadians((float) _r1.f, (float) _r2.f, (float) _r3.f, (float) _r4.f, (double) _r5.d, (double) _r7.d, (int) _r9.i, 0!=_r10.i, (global::com.codename1.ui.geom.GeneralPath) _r11_o, 0!=_r12.i);
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(float, float, float, float, float, float)]
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(float, float, float, float, float, float, boolean)]
 }
 
 public virtual void arc(double n1, double n2, double n3, double n4, double n5, double n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(double, double, double, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r14_o = this;
+    _r15.d = n1;
+    _r17.d = n2;
+    _r19.d = n3;
+    _r21.d = n4;
+    _r23.d = n5;
+    _r25.d = n6;
+    _r13.i = 0;
+    _r0_o = _r14_o;
+    _r1.d = _r15.d;
+    _r3.d = _r17.d;
+    _r5.d = _r19.d;
+    _r7.d = _r21.d;
+    _r9.d = _r23.d;
+    _r11.d = _r25.d;
+    ((global::com.codename1.ui.geom.GeneralPath) _r0_o).arc((double) _r1.d, (double) _r3.d, (double) _r5.d, (double) _r7.d, (double) _r9.d, (double) _r11.d, 0!=_r13.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(double, double, double, double, double, double)]
+}
+
+public virtual void arc(double n1, double n2, double n3, double n4, double n5, double n6, bool n7){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(double, double, double, double, double, double, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
-    _r17_o = this;
-    _r18.d = n1;
-    _r20.d = n2;
-    _r22.d = n3;
-    _r24.d = n4;
-    _r26.d = n5;
-    _r28.d = n6;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r18_o = this;
+    _r19.d = n1;
+    _r21.d = n2;
+    _r23.d = n3;
+    _r25.d = n4;
+    _r27.d = n5;
+    _r29.d = n6;
+    _r31.i = n7 ? 1 : 0;
     _r2.d = 2.0D;
-    _r2.d = _r22.d / _r2.d;
-    _r13.d = _r18.d + _r2.d;
+    _r2.d = _r23.d / _r2.d;
+    _r14.d = _r19.d + _r2.d;
     _r2.d = 2.0D;
-    _r2.d = _r24.d / _r2.d;
-    _r15.d = _r20.d + _r2.d;
-    _r2.f = (float) _r13.d;
-    _r3.f = (float) _r15.d;
-    _r0.d = _r22.d;
+    _r2.d = _r25.d / _r2.d;
+    _r16.d = _r21.d + _r2.d;
+    _r2.f = (float) _r14.d;
+    _r0.d = _r16.d;
+    _r0.f = (float) _r0.d;
+    _r3.f = _r0.f;
+    _r0.d = _r23.d;
     _r0.f = (float) _r0.d;
     _r4.f = _r0.f;
     _r5.f = (float)2.0D;
     _r4.f = _r4.f / _r5.f;
-    _r0.d = _r24.d;
+    _r0.d = _r25.d;
     _r0.f = (float) _r0.d;
     _r5.f = _r0.f;
     _r6.f = (float)2.0D;
     _r5.f = _r5.f / _r6.f;
-    _r0.d = _r26.d;
+    _r0.d = _r27.d;
     _r0.d = -_r0.d;
     _r6.d = _r0.d;
-    _r0.d = _r28.d;
+    _r0.d = _r29.d;
     _r0.d = -_r0.d;
     _r8.d = _r0.d;
     _r10.i = 4;
     _r11.i = 0;
-    _r12_o = _r17_o;
-    global::com.codename1.ui.geom.GeneralPath.createBezierArcRadians((float) _r2.f, (float) _r3.f, (float) _r4.f, (float) _r5.f, (double) _r6.d, (double) _r8.d, (int) _r10.i, 0!=_r11.i, (global::com.codename1.ui.geom.GeneralPath) _r12_o);
+    _r12_o = _r18_o;
+    _r13.i = _r31.i;
+    global::com.codename1.ui.geom.GeneralPath.createBezierArcRadians((float) _r2.f, (float) _r3.f, (float) _r4.f, (float) _r5.f, (double) _r6.d, (double) _r8.d, (int) _r10.i, 0!=_r11.i, (global::com.codename1.ui.geom.GeneralPath) _r12_o, 0!=_r13.i);
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(double, double, double, double, double, double)]
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void arc(double, double, double, double, double, double, boolean)]
 }
 
 private static void addBezierArcToPath(global::com.codename1.ui.geom.GeneralPath n1, double n2, double n3, double n4, double n5, double n6, double n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void addBezierArcToPath(com.codename1.ui.geom.GeneralPath, double, double, double, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r18_o = n1;
     _r19.d = n2;
     _r21.d = n3;
@@ -966,31 +1360,71 @@ private static void addBezierArcToPath(global::com.codename1.ui.geom.GeneralPath
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void addBezierArcToPath(com.codename1.ui.geom.GeneralPath, double, double, double, double, double, double)]
 }
 
-private static void createBezierArcRadians(float n1, float n2, float n3, float n4, double n5, double n6, int n7, bool n8, global::com.codename1.ui.geom.GeneralPath n9){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void createBezierArcRadians(float, float, float, float, double, double, int, boolean, com.codename1.ui.geom.GeneralPath)]
+private static void createBezierArcRadians(float n1, float n2, float n3, float n4, double n5, double n6, int n7, bool n8, global::com.codename1.ui.geom.GeneralPath n9, bool n10){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void createBezierArcRadians(float, float, float, float, double, double, int, boolean, com.codename1.ui.geom.GeneralPath, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r19.f = n1;
     _r20.f = n2;
     _r21.f = n3;
@@ -1000,6 +1434,7 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r27.i = n7;
     _r28.i = n8 ? 1 : 0;
     _r29_o = n9;
+    _r30.i = n10 ? 1 : 0;
     _r2_o = _r29_o;
     _r3.d = 0.0D;
     _r29.i = _r25.d > _r3.d ? 1 : (_r25.d == _r3.d ? 0 : -1);
@@ -1012,7 +1447,7 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r21.i = 1;
     _r0.i = _r27.i;
     _r1.i = _r21.i;
-    if (_r0.i < _r1.i) goto label296;
+    if (_r0.i < _r1.i) goto label294;
     _r21.d = 6.283185307179586D;
     _r0.i = _r27.i;
     _r0.d = (double) _r0.i;
@@ -1020,62 +1455,63 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r16.d = _r21.d / _r3.d;
     _r21.d = global::java.lang.Math.abs((double) _r25.d);
     _r21.i = _r21.d > _r16.d ? 1 : (_r21.d == _r16.d ? 0 : -1);
-    if (_r21.i <= 0) goto label296;
+    if (_r21.i <= 0) goto label294;
     _r21.d = global::com.codename1.ui.geom.GeneralPath.normalizeRadians((double) _r23.d);
-    _r0.f = _r19.f;
-    _r0.d = (double) _r0.f;
-    _r23.d = _r0.d;
-    _r3.d = (double) _r15.f;
-    _r5.d = global::java.lang.Math.cos((double) _r21.d);
-    _r3.d = _r3.d * _r5.d;
-    _r7.d = _r23.d + _r3.d;
-    _r0.f = _r20.f;
-    _r0.d = (double) _r0.f;
-    _r23.d = _r0.d;
-    _r3.d = (double) _r15.f;
-    _r5.d = global::java.lang.Math.sin((double) _r21.d);
-    _r3.d = _r3.d * _r5.d;
-    _r0.f = _r18.f;
-    _r0.d = (double) _r0.f;
-    _r5.d = _r0.d;
-    _r3.d = _r3.d * _r5.d;
-    _r9.d = _r23.d + _r3.d;
-    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).moveTo((double) _r7.d, (double) _r9.d);
-    if (_r28.i == 0) goto label217;
-    _r23.d = 0.0D;
-    _r23.i = _r25.d > _r23.d ? 1 : (_r25.d == _r23.d ? 0 : -1);
-    if (_r23.i <= 0) goto label178;
-    _r23.i = 1;
-    _r27.i = _r23.i;
-    label90:;
-    _r23.d = _r21.d + _r25.d;
-    label92:;
-    if (_r27.i == 0) goto label183;
-    _r25.d = _r21.d / _r16.d;
-    _r25.d = global::java.lang.Math.ceil((double) _r25.d);
-    label100:;
-    _r25.d = _r25.d * _r16.d;
-    _r28.i = _r21.d > _r25.d ? 1 : (_r21.d == _r25.d ? 0 : -1);
-    if (_r28.i != 0) goto label401;
-    if (_r27.i == 0) goto label190;
-    _r28.d = 1.0D;
-    label110:;
-    _r28.d = _r28.d * _r16.d;
-    _r25.d = _r25.d + _r28.d;
-    _r28.d = _r25.d;
-    label116:;
-    if (_r27.i == 0) goto label196;
-    _r25.i = _r23.d > _r28.d ? 1 : (_r23.d == _r28.d ? 0 : -1);
-    if (_r25.i > 0) goto label193;
-    _r25.i = 1;
-    label124:;
     _r0.f = _r19.f;
     _r0.d = (double) _r0.f;
     _r3.d = _r0.d;
     _r5.d = (double) _r15.f;
-    if (_r25.i == 0) goto label206;
-    _r11.d = _r23.d;
-    label133:;
+    _r7.d = global::java.lang.Math.cos((double) _r21.d);
+    _r5.d = _r5.d * _r7.d;
+    _r7.d = _r3.d + _r5.d;
+    _r0.f = _r20.f;
+    _r0.d = (double) _r0.f;
+    _r3.d = _r0.d;
+    _r5.d = (double) _r15.f;
+    _r9.d = global::java.lang.Math.sin((double) _r21.d);
+    _r5.d = _r5.d * _r9.d;
+    _r0.f = _r18.f;
+    _r0.d = (double) _r0.f;
+    _r9.d = _r0.d;
+    _r5.d = _r5.d * _r9.d;
+    _r9.d = _r3.d + _r5.d;
+    if (_r30.i == 0) goto label176;
+    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).lineTo((double) _r7.d, (double) _r9.d);
+    label78:;
+    if (_r28.i == 0) goto label217;
+    _r27.d = 0.0D;
+    _r27.i = _r25.d > _r27.d ? 1 : (_r25.d == _r27.d ? 0 : -1);
+    if (_r27.i <= 0) goto label180;
+    _r27.i = 1;
+    label88:;
+    _r25.d = _r25.d + _r21.d;
+    label90:;
+    if (_r27.i == 0) goto label183;
+    _r28.d = _r21.d / _r16.d;
+    _r28.d = global::java.lang.Math.ceil((double) _r28.d);
+    label98:;
+    _r28.d = _r28.d * _r16.d;
+    _r30.i = _r21.d > _r28.d ? 1 : (_r21.d == _r28.d ? 0 : -1);
+    if (_r30.i != 0) goto label409;
+    if (_r27.i == 0) goto label190;
+    _r3.d = 1.0D;
+    label108:;
+    _r3.d = _r3.d * _r16.d;
+    _r28.d = _r28.d + _r3.d;
+    _r29.d = _r28.d;
+    label114:;
+    if (_r27.i == 0) goto label196;
+    _r28.i = _r25.d > _r29.d ? 1 : (_r25.d == _r29.d ? 0 : -1);
+    if (_r28.i > 0) goto label193;
+    _r28.i = 1;
+    label122:;
+    _r0.f = _r19.f;
+    _r0.d = (double) _r0.f;
+    _r3.d = _r0.d;
+    _r5.d = (double) _r15.f;
+    if (_r28.i == 0) goto label206;
+    _r11.d = _r25.d;
+    label131:;
     _r11.d = global::java.lang.Math.cos((double) _r11.d);
     _r5.d = _r5.d * _r11.d;
     _r11.d = _r3.d + _r5.d;
@@ -1083,9 +1519,9 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r0.d = (double) _r0.f;
     _r3.d = _r0.d;
     _r5.d = (double) _r15.f;
-    if (_r25.i == 0) goto label209;
-    _r13.d = _r23.d;
-    label149:;
+    if (_r28.i == 0) goto label209;
+    _r13.d = _r25.d;
+    label147:;
     _r13.d = global::java.lang.Math.sin((double) _r13.d);
     _r5.d = _r5.d * _r13.d;
     _r0.f = _r18.f;
@@ -1100,77 +1536,79 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r0.d = (double) _r0.f;
     _r5.d = _r0.d;
     global::com.codename1.ui.geom.GeneralPath.addBezierArcToPath((global::com.codename1.ui.geom.GeneralPath) _r2_o, (double) _r3.d, (double) _r5.d, (double) _r7.d, (double) _r9.d, (double) _r11.d, (double) _r13.d);
-    if (_r25.i == 0) goto label212;
+    if (_r28.i == 0) goto label212;
     _r19.d = _r21.d;
     goto label8;
-    label178:;
-    _r23.i = 0;
-    _r27.i = _r23.i;
-    goto label90;
+    label176:;
+    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).moveTo((double) _r7.d, (double) _r9.d);
+    goto label78;
+    label180:;
+    _r27.i = 0;
+    goto label88;
     label183:;
-    _r25.d = _r21.d / _r16.d;
-    _r25.d = global::java.lang.Math.floor((double) _r25.d);
-    goto label100;
+    _r28.d = _r21.d / _r16.d;
+    _r28.d = global::java.lang.Math.floor((double) _r28.d);
+    goto label98;
     label190:;
-    _r28.d = -1.0D;
-    goto label110;
+    _r3.d = -1.0D;
+    goto label108;
     label193:;
-    _r25.i = 0;
-    goto label124;
+    _r28.i = 0;
+    goto label122;
     label196:;
-    _r25.i = _r23.d > _r28.d ? 1 : (_r23.d == _r28.d ? 0 : -1);
-    if (_r25.i < 0) goto label203;
-    _r25.i = 1;
-    goto label124;
+    _r28.i = _r25.d > _r29.d ? 1 : (_r25.d == _r29.d ? 0 : -1);
+    if (_r28.i < 0) goto label203;
+    _r28.i = 1;
+    goto label122;
     label203:;
-    _r25.i = 0;
-    goto label124;
+    _r28.i = 0;
+    goto label122;
     label206:;
-    _r11.d = _r28.d;
-    goto label133;
+    _r11.d = _r29.d;
+    goto label131;
     label209:;
-    _r13.d = _r28.d;
-    goto label149;
+    _r13.d = _r29.d;
+    goto label147;
     label212:;
-    _r21.d = _r28.d;
+    _r21.d = _r29.d;
     _r7.d = _r11.d;
     _r9.d = _r13.d;
-    goto label92;
+    goto label90;
     label217:;
-    _r23.d = _r25.d / _r16.d;
-    _r23.d = global::java.lang.Math.ceil((double) _r23.d);
-    _r0.d = _r23.d;
+    _r27.d = _r25.d / _r16.d;
+    _r27.d = global::java.lang.Math.ceil((double) _r27.d);
+    _r0.d = _r27.d;
     _r0.i = (int) _r0.d;
-    _r23.i = _r0.i;
-    _r24.i = global::java.lang.Math.abs((int) _r23.i);
-    _r0.i = _r24.i;
+    _r27.i = _r0.i;
+    _r27.i = global::java.lang.Math.abs((int) _r27.i);
+    _r0.i = _r27.i;
     _r0.d = (double) _r0.i;
-    _r27.d = _r0.d;
-    _r25.d = _r25.d / _r27.d;
-    _r23.i = 0;
+    _r28.d = _r0.d;
+    _r28.d = _r25.d / _r28.d;
+    _r25.i = 0;
     label241:;
-    _r0.i = _r23.i;
-    _r1.i = _r24.i;
-    if (_r0.i >= _r1.i) goto label397;
-    _r21.d = _r21.d + _r25.d;
+    _r0.i = _r25.i;
+    _r1.i = _r27.i;
+    if (_r0.i >= _r1.i) goto label405;
+    _r21.d = _r21.d + _r28.d;
     _r0.f = _r19.f;
     _r0.d = (double) _r0.f;
-    _r27.d = _r0.d;
-    _r3.d = (double) _r15.f;
-    _r5.d = global::java.lang.Math.cos((double) _r21.d);
-    _r3.d = _r3.d * _r5.d;
-    _r11.d = _r27.d + _r3.d;
+    _r3.d = _r0.d;
+    _r5.d = (double) _r15.f;
+    _r11.d = global::java.lang.Math.cos((double) _r21.d);
+    _r5.d = _r5.d * _r11.d;
+    _r11.d = _r3.d + _r5.d;
     _r0.f = _r20.f;
     _r0.d = (double) _r0.f;
-    _r27.d = _r0.d;
-    _r3.d = (double) _r15.f;
-    _r5.d = global::java.lang.Math.sin((double) _r21.d);
-    _r3.d = _r3.d * _r5.d;
+    _r3.d = _r0.d;
+    _r5.d = (double) _r15.f;
+    _r13.d = global::java.lang.Math.sin((double) _r21.d);
+    _r5.d = _r5.d * _r13.d;
     _r0.f = _r18.f;
     _r0.d = (double) _r0.f;
-    _r5.d = _r0.d;
-    _r3.d = _r3.d * _r5.d;
-    _r13.d = _r27.d + _r3.d;
+    _r13.d = _r0.d;
+    _r5.d = _r5.d * _r13.d;
+    _r13.d = _r3.d + _r5.d;
     _r0.f = _r19.f;
     _r0.d = (double) _r0.f;
     _r3.d = _r0.d;
@@ -1178,11 +1616,12 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r0.d = (double) _r0.f;
     _r5.d = _r0.d;
     global::com.codename1.ui.geom.GeneralPath.addBezierArcToPath((global::com.codename1.ui.geom.GeneralPath) _r2_o, (double) _r3.d, (double) _r5.d, (double) _r7.d, (double) _r9.d, (double) _r11.d, (double) _r13.d);
-    _r23.i = _r23.i + 1;
+    _r25.i = _r25.i + 1;
     _r7.d = _r11.d;
     _r9.d = _r13.d;
     goto label241;
-    label296:;
+    label294:;
+    _r23.d = global::com.codename1.ui.geom.GeneralPath.normalizeRadians((double) _r23.d);
     _r0.f = _r19.f;
     _r0.d = (double) _r0.f;
     _r21.d = _r0.d;
@@ -1221,15 +1660,17 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r0.f = _r15.f;
     _r0.d = (double) _r0.f;
     _r27.d = _r0.d;
-    _r23.d = _r23.d + _r25.d;
-    _r23.d = global::java.lang.Math.sin((double) _r23.d);
-    _r23.d = _r23.d * _r27.d;
+    _r25.d = _r25.d + _r23.d;
+    _r25.d = global::java.lang.Math.sin((double) _r25.d);
+    _r25.d = _r25.d * _r27.d;
     _r0.f = _r18.f;
     _r0.d = (double) _r0.f;
-    _r25.d = _r0.d;
-    _r23.d = _r23.d * _r25.d;
-    _r13.d = _r21.d + _r23.d;
-    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).moveTo((double) _r7.d, (double) _r9.d);
+    _r27.d = _r0.d;
+    _r25.d = _r25.d * _r27.d;
+    _r13.d = _r21.d + _r25.d;
+    if (_r30.i == 0) goto label401;
+    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).lineTo((double) _r7.d, (double) _r9.d);
+    label388:;
     _r0.f = _r19.f;
     _r0.d = (double) _r0.f;
     _r3.d = _r0.d;
@@ -1238,20 +1679,33 @@ private static void createBezierArcRadians(float n1, float n2, float n3, float n
     _r5.d = _r0.d;
     global::com.codename1.ui.geom.GeneralPath.addBezierArcToPath((global::com.codename1.ui.geom.GeneralPath) _r2_o, (double) _r3.d, (double) _r5.d, (double) _r7.d, (double) _r9.d, (double) _r11.d, (double) _r13.d);
     goto label8;
-    label397:;
+    label401:;
+    ((global::com.codename1.ui.geom.GeneralPath) _r2_o).moveTo((double) _r7.d, (double) _r9.d);
+    goto label388;
+    label405:;
     _r19.d = _r21.d;
     goto label8;
-    label401:;
-    _r28.d = _r25.d;
-    goto label116;
-//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void createBezierArcRadians(float, float, float, float, double, double, int, boolean, com.codename1.ui.geom.GeneralPath)]
+    label409:;
+    _r29.d = _r28.d;
+    goto label114;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void createBezierArcRadians(float, float, float, float, double, double, int, boolean, com.codename1.ui.geom.GeneralPath, boolean)]
 }
 
 private static double normalizeRadians(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: double normalizeRadians(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.d = n1;
     _r0.d = 6.283185307179586D;
       throw new global::org.xmlvm._nNotYetImplementedException("dex:rem-double-2addr");
@@ -1272,23 +1726,49 @@ public virtual void arcTo(float n1, float n2, float n3, float n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arcTo(float, float, float, float)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = this;
     _r18.f = n1;
     _r19.f = n2;
@@ -1349,14 +1829,32 @@ public virtual void arcTo(float n1, float n2, float n3, float n4){
 public virtual void arcTo(double n1, double n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void arcTo(double, double, double, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.d = n1;
     _r7.d = n2;
@@ -1376,10 +1874,16 @@ public virtual void closePath(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 4;
     _r3.i = 1;
@@ -1406,11 +1910,17 @@ public virtual void closePath(){
 
 public virtual void append(global::com.codename1.ui.geom.Shape n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void append(com.codename1.ui.geom.Shape, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -1427,20 +1937,36 @@ public virtual void append(global::com.codename1.ui.geom.PathIterator n1, bool n
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r15.i = n2 ? 1 : 0;
@@ -1524,14 +2050,18 @@ public virtual void append(global::com.codename1.ui.geom.PathIterator n1, bool n
     label117:;
     ((global::com.codename1.ui.geom.GeneralPath) _r13_o)._fdirty = 0!=_r8.i;
     return;
+    label120:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void append(com.codename1.ui.geom.PathIterator, boolean)]
 }
 
 public virtual global::System.Object getCurrentPoint(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: float[] getCurrentPoint()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
@@ -1539,7 +2069,10 @@ public virtual global::System.Object getCurrentPoint(){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6.i = 1;
     _r5.i = 2;
@@ -1587,7 +2120,10 @@ public virtual global::System.Object getCurrentPoint(){
 public virtual void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void reset()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._ftypeSize = _r0.i;
@@ -1601,18 +2137,30 @@ public virtual void reset(){
 public virtual global::System.Object getBounds2D(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: float[] getBounds2D()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 1;
     _r8.i = ((global::com.codename1.ui.geom.GeneralPath) _r11_o)._fpointSize;
@@ -1677,17 +2225,27 @@ public virtual global::System.Object getBounds2D(){
 
 public virtual global::System.Object getBounds(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.Rectangle getBounds()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r8.i = 1;
     _r7.i = 0;
@@ -1724,22 +2282,39 @@ public virtual global::System.Object getBounds(){
 
 public virtual bool isRectangle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean isRectangle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     _r14.i = 4;
     _r13.i = 1;
@@ -1880,13 +2455,17 @@ public virtual bool isRectangle(){
     label220:;
     _r10.i = _r12.i;
     goto label35;
+    label224:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean isRectangle()]
 }
 
 public virtual global::System.Object getPathIterator(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.PathIterator getPathIterator()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.geom.GeneralPath_2Iterator();
     ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r0_o).@this((global::com.codename1.ui.geom.GeneralPath) _r1_o, (global::com.codename1.ui.geom.GeneralPath) _r1_o);
@@ -1896,12 +2475,17 @@ public virtual global::System.Object getPathIterator(){
 
 public virtual global::System.Object getPathIterator(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.PathIterator getPathIterator(com.codename1.ui.Transform)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r1_o).getPathIterator();
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r0_o)._ftransform = (global::com.codename1.ui.Transform) _r2_o;
     return (global::com.codename1.ui.geom.PathIterator) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.PathIterator getPathIterator(com.codename1.ui.Transform)]
@@ -1909,11 +2493,17 @@ public virtual global::System.Object getPathIterator(global::com.codename1.ui.Tr
 
 public virtual global::System.Object createTransformedShape(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.Shape createTransformedShape(com.codename1.ui.Transform)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.ui.geom.GeneralPath();
@@ -1927,14 +2517,21 @@ public virtual global::System.Object createTransformedShape(global::com.codename
 
 public virtual void intersect(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void intersect(com.codename1.ui.geom.Shape)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.geom.Rectangle)) ? 1 : 0;
@@ -1947,8 +2544,10 @@ public virtual void intersect(global::com.codename1.ui.geom.Shape n1){
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.RuntimeException) _r3_o);
     label12:;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = global::com.codename1.ui.geom.GeneralPath_2ShapeUtil.intersection((global::com.codename1.ui.geom.Rectangle) _r1_o, (global::com.codename1.ui.geom.Shape) _r5_o);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.geom.GeneralPath) _r5_o).reset();
     _r3.i = 0;
     ((global::com.codename1.ui.geom.GeneralPath) _r5_o).append((global::com.codename1.ui.geom.Shape) _r2_o, 0!=_r3.i);
@@ -1958,9 +2557,13 @@ public virtual void intersect(global::com.codename1.ui.geom.Shape n1){
 
 public virtual global::System.Object intersection(global::com.codename1.ui.geom.Rectangle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: com.codename1.ui.geom.Shape intersection(com.codename1.ui.geom.Rectangle)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.ui.geom.GeneralPath_2ShapeUtil.intersection((global::com.codename1.ui.geom.Rectangle) _r2_o, (global::com.codename1.ui.geom.Shape) _r1_o);
@@ -1971,9 +2574,14 @@ public virtual global::System.Object intersection(global::com.codename1.ui.geom.
 public virtual bool isInside(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean isInside(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r2_o)._frule;
@@ -1991,10 +2599,20 @@ public virtual bool isInside(int n1){
 public virtual bool contains(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean contains(float, float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.f = n1;
     _r6.f = n2;
@@ -2009,10 +2627,16 @@ public virtual bool contains(float n1, float n2){
 public virtual bool contains(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: boolean contains(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -2026,7 +2650,10 @@ public virtual bool contains(int n1, int n2){
 public static int access_2000(global::com.codename1.ui.geom.GeneralPath n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: int access$000(com.codename1.ui.geom.GeneralPath)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._ftypeSize;
     return _r0.i;
@@ -2035,8 +2662,11 @@ public static int access_2000(global::com.codename1.ui.geom.GeneralPath n1){
 
 public static global::System.Object access_2100(global::com.codename1.ui.geom.GeneralPath n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: byte[] access$100(com.codename1.ui.geom.GeneralPath)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._ftypes;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -2045,7 +2675,9 @@ public static global::System.Object access_2100(global::com.codename1.ui.geom.Ge
 
 public static global::System.Object access_2200(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: int[] access$200()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.geom.GeneralPath._fpointShift;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: int[] access$200()]
@@ -2053,23 +2685,28 @@ public static global::System.Object access_2200(){
 
 public static global::System.Object access_2300(global::com.codename1.ui.geom.GeneralPath n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: float[] access$300(com.codename1.ui.geom.GeneralPath)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._fpoints;
     return (global::org.xmlvm._nArrayAdapter<float>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: float[] access$300(com.codename1.ui.geom.GeneralPath)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 5;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[]{2, 2, 4, 6, 0});
     global::com.codename1.ui.geom.GeneralPath._fpointShift = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     return;
+    label10:;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void <clinit>()]
 }
 

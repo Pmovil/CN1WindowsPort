@@ -27,10 +27,13 @@ private global::java.util.Vector _fimages;
 
 private global::java.util.Vector _fcomments;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.facebook.FBObject) _r1_o).@this();
     _r0_o = new global::com.codename1.facebook.User();
@@ -40,11 +43,15 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.facebook.Photo: void <init>()]
 }
 
-new public void @this(global::java.util.Hashtable n1){
+public void @this(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void <init>(java.util.Hashtable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.facebook.FBObject) _r1_o).@this((global::java.util.Hashtable) _r2_o);
@@ -58,8 +65,11 @@ new public void @this(global::java.util.Hashtable n1){
 
 public virtual global::System.Object getCreated_1time(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getCreated_time()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fcreated_1time;
     return (global::java.lang.String) _r0_o;
@@ -68,8 +78,11 @@ public virtual global::System.Object getCreated_1time(){
 
 public virtual global::System.Object getFrom(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: com.codename1.facebook.User getFrom()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._ffrom;
     return (global::com.codename1.facebook.User) _r0_o;
@@ -79,7 +92,10 @@ public virtual global::System.Object getFrom(){
 public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: int getHeight()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.Photo) _r1_o)._fheight;
     return _r0.i;
@@ -88,8 +104,11 @@ public virtual int getHeight(){
 
 public virtual global::System.Object getIconUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getIconUrl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._ficonUrl;
     return (global::java.lang.String) _r0_o;
@@ -98,8 +117,11 @@ public virtual global::System.Object getIconUrl(){
 
 public virtual global::System.Object getLink(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getLink()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._flink;
     return (global::java.lang.String) _r0_o;
@@ -108,8 +130,11 @@ public virtual global::System.Object getLink(){
 
 public virtual global::System.Object getPictureUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getPictureUrl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fpictureUrl;
     return (global::java.lang.String) _r0_o;
@@ -119,7 +144,10 @@ public virtual global::System.Object getPictureUrl(){
 public virtual int getPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: int getPosition()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.Photo) _r1_o)._fposition;
     return _r0.i;
@@ -128,8 +156,11 @@ public virtual int getPosition(){
 
 public virtual global::System.Object getSourceUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getSourceUrl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fsourceUrl;
     return (global::java.lang.String) _r0_o;
@@ -138,8 +169,11 @@ public virtual global::System.Object getSourceUrl(){
 
 public virtual global::System.Object getUpdated_1time(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.lang.String getUpdated_time()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fupdated_1time;
     return (global::java.lang.String) _r0_o;
@@ -149,7 +183,10 @@ public virtual global::System.Object getUpdated_1time(){
 public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: int getWidth()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.Photo) _r1_o)._fwidth;
     return _r0.i;
@@ -158,8 +195,11 @@ public virtual int getWidth(){
 
 public virtual global::System.Object getImages(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.util.Vector getImages()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fimages;
     return (global::java.util.Vector) _r0_o;
@@ -168,8 +208,11 @@ public virtual global::System.Object getImages(){
 
 public virtual global::System.Object getComments(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: java.util.Vector getComments()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.Photo) _r1_o)._fcomments;
     return (global::java.util.Vector) _r0_o;
@@ -178,8 +221,11 @@ public virtual global::System.Object getComments(){
 
 public override void copy(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void copy(java.util.Hashtable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.copy((global::java.util.Hashtable) _r1_o);
@@ -190,19 +236,31 @@ public override void copy(global::java.util.Hashtable n1){
 
 private void init(global::java.util.Hashtable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.Photo: void init(java.util.Hashtable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     base.copy((global::java.util.Hashtable) _r11_o);
@@ -210,6 +268,7 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109))}));
     _r3_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r3_o = _r3_o;
     if (_r3_o == null) goto label18;
     _r9_o = ((global::com.codename1.facebook.Photo) _r10_o)._ffrom;
     ((global::com.codename1.facebook.User) _r9_o).copy((global::java.util.Hashtable) _r3_o);
@@ -218,21 +277,25 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._ficonUrl = (global::java.lang.String) _r9_o;
     // Value=picture
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._fpictureUrl = (global::java.lang.String) _r9_o;
     // Value=source
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._fsourceUrl = (global::java.lang.String) _r9_o;
     // Value=height
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 116))}));
     _r4_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r4_o = _r4_o;
     if (_r4_o == null) goto label64;
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r4_o);
     ((global::com.codename1.facebook.Photo) _r10_o)._fheight = _r9.i;
@@ -241,6 +304,7 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
     _r8_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r8_o = _r8_o;
     if (_r8_o == null) goto label80;
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r8_o);
     ((global::com.codename1.facebook.Photo) _r10_o)._fwidth = _r9.i;
@@ -249,21 +313,25 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 107))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._flink = (global::java.lang.String) _r9_o;
     // Value=created_time
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._fcreated_1time = (global::java.lang.String) _r9_o;
     // Value=updated_time
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._fupdated_1time = (global::java.lang.String) _r9_o;
     // Value=position
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r7_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r7_o = _r7_o;
     if (_r7_o == null) goto label126;
     _r9.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r7_o);
     ((global::com.codename1.facebook.Photo) _r10_o)._fposition = _r9.i;
@@ -272,11 +340,13 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r9_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r9_o = _r9_o;
     ((global::com.codename1.facebook.Photo) _r10_o)._fimages = (global::java.util.Vector) _r9_o;
     // Value=comments
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115))}));
     _r2_o = ((global::java.util.Hashtable) _r11_o).get((global::java.lang.Object) _r9_o);
+    _r2_o = _r2_o;
     if (_r2_o == null) goto label190;
     _r9_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r9_o).@this();
@@ -285,11 +355,13 @@ private void init(global::java.util.Hashtable n1){
     _r9_o = new global::java.lang.String();
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97))}));
     _r1_o = ((global::java.util.Hashtable) _r2_o).get((global::java.lang.Object) _r9_o);
+    _r1_o = _r1_o;
     _r5.i = 0;
     label162:;
     _r9.i = ((global::java.util.Vector) _r1_o).size();
     if (_r5.i >= _r9.i) goto label190;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r5.i);
+    _r0_o = _r0_o;
     _r6_o = new global::com.codename1.facebook.Post();
     ((global::com.codename1.facebook.Post) _r6_o).@this();
     ((global::com.codename1.facebook.Post) _r6_o).copy((global::java.util.Hashtable) _r0_o);

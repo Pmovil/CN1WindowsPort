@@ -14,8 +14,12 @@ public int _fcount;
 public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: void <init>(char[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.io.Reader) _r1_o).@this();
@@ -31,12 +35,18 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 public void @this(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: void <init>(char[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -73,9 +83,11 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: void close()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -133,7 +145,9 @@ private bool isOpen(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: boolean isOpen()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.CharArrayReader) _r1_o)._fbuf;
     if (_r0_o == null) goto label6;
@@ -150,7 +164,9 @@ private bool isClosed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: boolean isClosed()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.CharArrayReader) _r1_o)._fbuf;
     if (_r0_o != null) goto label6;
@@ -165,12 +181,16 @@ private bool isClosed(){
 
 public override void mark(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: void mark(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
@@ -233,7 +253,10 @@ public override void mark(int n1){
 public override bool markSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: boolean markSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -249,6 +272,8 @@ public override int read(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -346,15 +371,21 @@ public override int read(){
 public override int read(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: int read(char[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
@@ -502,10 +533,13 @@ public override int read(global::org.xmlvm._nArrayAdapter<char> n1, int n2, int 
 
 public override bool ready(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: boolean ready()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -581,10 +615,13 @@ public override bool ready(){
 
 public override void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: void reset()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -662,13 +699,23 @@ public override void reset(){
 public override long skip(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.CharArrayReader: long skip(long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.l = n1;

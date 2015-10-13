@@ -9,9 +9,13 @@ private global::com.codename1.ui.html.MultiComboBox_2MultiListModel _fmodel;
 
 public void @this(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void <init>(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = null;
@@ -22,16 +26,25 @@ public void @this(bool n1){
 
 public void @this(global::com.codename1.ui.list.ListModel n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void <init>(com.codename1.ui.list.ListModel, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
@@ -69,6 +82,7 @@ public void @this(global::com.codename1.ui.list.ListModel n1, bool n2){
     _r4.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Component)) ? 1 : 0;
     if (_r4.i == 0) goto label92;
     _r0_o = ((global::com.codename1.ui.html.MultiComboBox) _r6_o).getRenderer();
+    _r0_o = _r0_o;
     // Value=ComboBoxItem
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
@@ -98,10 +112,13 @@ public void @this(global::com.codename1.ui.list.ListModel n1, bool n2){
 
 public virtual global::System.Object getSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: java.util.Vector getSelected()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = ((global::com.codename1.ui.html.MultiComboBox) _r2_o)._fmultiple ? 1 : 0;
     if (_r1.i == 0) goto label13;
@@ -129,14 +146,19 @@ public virtual global::System.Object getSelected(){
 public override void addItem(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void addItem(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.addItem((global::java.lang.Object) _r2_o);
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label17;
     _r1_o = ((global::com.codename1.ui.html.MultiComboBox) _r1_o).getRenderer();
+    _r1_o = _r1_o;
     _r0.i = 1;
     ((global::com.codename1.ui.html.MultiComboBox_2MultiCellRenderer) _r1_o).setOptgroup(0!=_r0.i);
     label17:;
@@ -146,9 +168,13 @@ public override void addItem(global::java.lang.Object n1){
 
 public override void setSelectedItem(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void setSelectedItem(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.setSelectedItem((global::java.lang.Object) _r2_o);
@@ -160,10 +186,13 @@ public override void setSelectedItem(global::java.lang.Object n1){
 
 public override void fireActionEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void fireActionEvent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = ((global::com.codename1.ui.html.MultiComboBox) _r2_o)._fmultiple ? 1 : 0;
     if (_r1.i == 0) goto label14;
@@ -181,11 +210,16 @@ public override void fireActionEvent(){
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2_o = global::com.codename1.ui.Display.getInstance();
@@ -210,8 +244,12 @@ public override void keyReleased(int n1){
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void fireClicked()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.html.MultiComboBox) _r2_o).handlesInput() ? 1 : 0;
     _r1.i = ((global::com.codename1.ui.html.MultiComboBox) _r2_o)._fmultiple ? 1 : 0;
@@ -235,17 +273,28 @@ public override void fireClicked(){
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.MultiComboBox: void keyPressed(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.i = n1;
     _r8.i = 2;

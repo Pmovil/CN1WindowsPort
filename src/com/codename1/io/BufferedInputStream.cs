@@ -50,8 +50,11 @@ private int _fmarklimit;
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: java.lang.String getName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -60,10 +63,15 @@ public virtual global::System.Object getName(){
 
 private global::System.Object getInIfOpen(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: java.io.InputStream getInIfOpen()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r3_o)._fin;
     if (_r0_o != null) goto label12;
@@ -80,10 +88,15 @@ private global::System.Object getInIfOpen(){
 
 private global::System.Object getBufIfOpen(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: byte[] getBufIfOpen()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r3_o)._fbuf;
     if (_r0_o != null) goto label12;
@@ -101,8 +114,12 @@ private global::System.Object getBufIfOpen(){
 public void @this(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void <init>(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = global::com.codename1.io.BufferedInputStream._fdefaultBufferSize;
@@ -114,9 +131,14 @@ public void @this(global::java.io.InputStream n1){
 public void @this(global::java.io.InputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void <init>(java.io.InputStream, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -128,10 +150,15 @@ public void @this(global::java.io.InputStream n1, global::java.lang.String n2){
 
 public void @this(global::java.io.InputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void <init>(java.io.InputStream, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -150,10 +177,16 @@ public void @this(global::java.io.InputStream n1, int n2, global::java.lang.Stri
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -189,19 +222,29 @@ public void @this(global::java.io.InputStream n1, int n2, global::java.lang.Stri
 
 private void fill(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void fill()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r9.i = -1;
     _r8.i = 0;
@@ -280,8 +323,11 @@ private void fill(){
 
 public virtual global::System.Object getInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: java.io.InputStream getInternal()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fin;
     return (global::java.io.InputStream) _r0_o;
@@ -291,10 +337,14 @@ public virtual global::System.Object getInternal(){
 public override int read(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int read()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
@@ -420,9 +470,13 @@ public override int read(){
 
 private void fireProgress(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void fireProgress()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r2_o)._fprogressListener;
     if (_r0_o == null) goto label11;
@@ -437,17 +491,26 @@ private void fireProgress(){
 private int read1(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int read1(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -514,9 +577,18 @@ private int read1(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 private void yieldTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void yieldTime()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -553,20 +625,30 @@ private void yieldTime(){
 
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int read(byte[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
@@ -811,14 +893,31 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int
 public override long skip(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: long skip(long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.l = n1;
@@ -967,7 +1066,10 @@ public override int available(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
@@ -1019,8 +1121,10 @@ public override void mark(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void mark(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
@@ -1053,7 +1157,9 @@ public override void reset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void reset()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1106,7 +1212,9 @@ public override bool markSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: boolean markSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fin;
     _r0.i = ((global::java.io.InputStream) _r0_o).markSupported() ? 1 : 0;
@@ -1116,9 +1224,11 @@ public override bool markSupported(){
 
 private int superAvailable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int superAvailable()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
@@ -1175,15 +1285,23 @@ private int superAvailable(){
 
 public override void close(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void close()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r6_o = null;
     _r5.i = 1;
@@ -1225,7 +1343,12 @@ public override void close(){
 public virtual long getLastActivityTime(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: long getLastActivityTime()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.io.BufferedInputStream) _r2_o)._flastActivityTime;
     return _r0.l;
@@ -1235,7 +1358,10 @@ public virtual long getLastActivityTime(){
 public virtual int getTotalBytesRead(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int getTotalBytesRead()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.BufferedInputStream) _r1_o)._ftotalBytesRead;
     return _r0.i;
@@ -1244,8 +1370,11 @@ public virtual int getTotalBytesRead(){
 
 public virtual void setProgressListener(global::com.codename1.io.IOProgressListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setProgressListener(com.codename1.io.IOProgressListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.BufferedInputStream) _r0_o)._fprogressListener = (global::com.codename1.io.IOProgressListener) _r1_o;
@@ -1256,9 +1385,14 @@ public virtual void setProgressListener(global::com.codename1.io.IOProgressListe
 public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int read(byte[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = 0;
@@ -1271,6 +1405,8 @@ public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 public static int getDefaultBufferSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int getDefaultBufferSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.BufferedInputStream._fdefaultBufferSize;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.io.BufferedInputStream: int getDefaultBufferSize()]
@@ -1279,6 +1415,8 @@ public static int getDefaultBufferSize(){
 public static void setDefaultBufferSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setDefaultBufferSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.io.BufferedInputStream._fdefaultBufferSize = _r0.i;
     return;
@@ -1287,8 +1425,11 @@ public static void setDefaultBufferSize(int n1){
 
 public virtual global::System.Object getConnection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: java.lang.Object getConnection()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fconnection;
     return (global::java.lang.Object) _r0_o;
@@ -1297,8 +1438,11 @@ public virtual global::System.Object getConnection(){
 
 public virtual void setConnection(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setConnection(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.BufferedInputStream) _r0_o)._fconnection = (global::java.lang.Object) _r1_o;
@@ -1309,7 +1453,10 @@ public virtual void setConnection(global::java.lang.Object n1){
 public virtual bool isDisableBuffering(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: boolean isDisableBuffering()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fdisableBuffering ? 1 : 0;
     return _r0.i!=0;
@@ -1318,8 +1465,11 @@ public virtual bool isDisableBuffering(){
 
 public virtual void setDisableBuffering(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setDisableBuffering(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.BufferedInputStream) _r0_o)._fdisableBuffering = 0!=_r1.i;
@@ -1330,7 +1480,10 @@ public virtual void setDisableBuffering(bool n1){
 public virtual bool isPrintInput(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: boolean isPrintInput()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fprintInput ? 1 : 0;
     return _r0.i!=0;
@@ -1339,8 +1492,11 @@ public virtual bool isPrintInput(){
 
 public virtual void setPrintInput(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setPrintInput(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.BufferedInputStream) _r0_o)._fprintInput = 0!=_r1.i;
@@ -1351,7 +1507,10 @@ public virtual void setPrintInput(bool n1){
 public virtual int getYield(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: int getYield()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.BufferedInputStream) _r1_o)._fyield;
     return _r0.i;
@@ -1360,8 +1519,11 @@ public virtual int getYield(){
 
 public virtual void setYield(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void setYield(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.io.BufferedInputStream) _r0_o)._fyield = _r1.i;
@@ -1372,7 +1534,10 @@ public virtual void setYield(int n1){
 public virtual void stop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void stop()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.io.BufferedInputStream) _r1_o)._fstopped = 0!=_r0.i;
@@ -1380,9 +1545,11 @@ public virtual void stop(){
 //XMLVM_END_WRAPPER[com.codename1.io.BufferedInputStream: void stop()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.BufferedInputStream: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.io.BufferedInputStream._fstreamCount = _r0.i;
     _r0.i = 8192;

@@ -7,7 +7,9 @@ private float _fzoom;
 
 private float _fcurrentZoom;
 
+private static int _fMIN_1ZOOM = 1;
 
+private static int _fMAX_1ZOOM = 10;
 
 private global::com.codename1.ui.Image _fimage;
 
@@ -57,13 +59,17 @@ private bool _fcycleLeft;
 
 private bool _fcycleRight;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.f = (float)1.0D;
     _r0.f = (float)0.5D;
@@ -92,7 +98,10 @@ new public void @this(){
 public override void resetFocusable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void resetFocusable()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.components.ImageViewer) _r1_o).setFocusable(0!=_r0.i);
@@ -105,8 +114,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 4;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -137,7 +150,10 @@ public override global::System.Object getPropertyNames(){
 public override bool shouldBlockSideSwipe(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean shouldBlockSideSwipe()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -149,9 +165,14 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Image));
     _r0.i = 4;
@@ -177,9 +198,14 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=Image
     _r3_o = new global::java.lang.String();
@@ -212,13 +238,19 @@ public override global::System.Object getPropertyTypeNames(){
 
 public override global::System.Object getPropertyValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: java.lang.Object getPropertyValue(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3_o = null;
@@ -263,6 +295,7 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     if (_r1.i >= _r2.i) goto label79;
     _r2_o = ((global::com.codename1.components.ImageViewer) _r4_o).getImageList();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r2_o).getItemAt((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i] = _r2_o;
     _r1.i = _r1.i + 1;
     goto label61;
@@ -287,10 +320,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -301,6 +339,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label27;
     if (_r4_o == null) goto label25;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label25;
     _r0.i = 1;
@@ -318,6 +357,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label42;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.ImageViewer) _r2_o).setImage((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label24;
@@ -334,6 +374,8 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     goto label24;
     label57:;
     _r0_o = new global::com.codename1.ui.list.DefaultListModel();
+    _r4_o = _r4_o;
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.DefaultListModel) _r0_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o);
     ((global::com.codename1.components.ImageViewer) _r2_o).setImageList((global::com.codename1.ui.list.ListModel) _r0_o);
     goto label55;
@@ -343,6 +385,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label85;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.ImageViewer) _r2_o).setSwipePlaceholder((global::com.codename1.ui.Image) _r4_o);
     _r0_o = _r1_o;
     goto label24;
@@ -357,7 +400,10 @@ public override void initComponent(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 50;
     base.initComponent();
@@ -378,12 +424,17 @@ public override void initComponent(){
 
 private void eagerLock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void eagerLock()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.i = ((global::com.codename1.components.ImageViewer) _r4_o)._feagerLock ? 1 : 0;
     if (_r2.i == 0) goto label52;
@@ -424,7 +475,10 @@ private void eagerUnlock(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r2_o)._feagerLock ? 1 : 0;
     if (_r0.i == 0) goto label31;
@@ -446,7 +500,10 @@ private void eagerUnlock(){
 public virtual int getImageX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: int getImageX()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._fimageX;
     return _r0.i;
@@ -456,7 +513,10 @@ public virtual int getImageX(){
 public virtual int getImageY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: int getImageY()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._fimageY;
     return _r0.i;
@@ -465,8 +525,11 @@ public virtual int getImageY(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.deinitialize();
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o)._fimage;
@@ -478,8 +541,11 @@ public override void deinitialize(){
 
 public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void <init>(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o).@this();
@@ -491,14 +557,20 @@ public void @this(global::com.codename1.ui.Image n1){
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r3.i = 5;
@@ -547,9 +619,14 @@ public override void keyReleased(int n1){
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -563,13 +640,18 @@ public override void pointerPressed(int n1, int n2){
 
 private global::System.Object getImageRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageRight()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r1.i = ((global::com.codename1.components.ImageViewer) _r2_o).getImageRightPos();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
+    _r2_o = _r2_o;
     return (global::com.codename1.ui.Image) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageRight()]
 }
@@ -580,7 +662,9 @@ private int getImageRightPos(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r0.i = ((global::com.codename1.ui.list.ListModel) _r0_o).getSelectedIndex();
@@ -595,10 +679,14 @@ private int getImageRightPos(){
 private int getImageLeftPos(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: int getImageLeftPos()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r1_o = ((global::com.codename1.components.ImageViewer) _r3_o)._fswipeableImages;
@@ -618,13 +706,18 @@ private int getImageLeftPos(){
 
 private global::System.Object getImageLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageLeft()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r1.i = ((global::com.codename1.components.ImageViewer) _r2_o).getImageLeftPos();
     _r2_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
+    _r2_o = _r2_o;
     return (global::com.codename1.ui.Image) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImageLeft()]
 }
@@ -638,12 +731,20 @@ public override void pointerReleased(int n1, int n2){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -710,16 +811,26 @@ public override void pointerReleased(int n1, int n2){
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void pointerDragged(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -841,7 +952,9 @@ public override void pointerDragged(int n1, int n2){
 
 public override void laidOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void laidOut()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.laidOut();
     ((global::com.codename1.components.ImageViewer) _r0_o).updatePositions();
@@ -852,10 +965,16 @@ public override void laidOut(){
 public override bool pinch(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean pinch(float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r2.f = (float)10.0D;
@@ -884,18 +1003,32 @@ public override bool pinch(float n1){
 private void imageAspectCalc(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void imageAspectCalc(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r10.i = 1;
@@ -965,18 +1098,30 @@ private void imageAspectCalc(global::com.codename1.ui.Image n1){
 private void updatePositions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void updatePositions()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r10.i = 1;
     _r9.i = 0;
@@ -1071,12 +1216,15 @@ private void updatePositions(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r3_o)._fimage;
     if (_r0_o == null) goto label22;
@@ -1102,9 +1250,12 @@ public override global::System.Object calcPreferredSize(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r1_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fimage;
@@ -1132,6 +1283,7 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1142,14 +1294,24 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r6.i = 3;
@@ -1276,6 +1438,8 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     ((global::com.codename1.ui.Image) _r3_o).@lock();
     goto label218;
     label254:;
+    _r0_o = ((global::com.codename1.components.ImageViewer) _r13_o)._fimage;
+    if (_r0_o == null) goto label124;
     _r5_o = ((global::com.codename1.components.ImageViewer) _r13_o)._fimage;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r13_o).getX();
     _r2.i = ((global::com.codename1.components.ImageViewer) _r13_o)._fimageX;
@@ -1294,9 +1458,14 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 public override void paintBackground(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void paintBackground(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r2_o)._fimageDrawWidth;
@@ -1314,8 +1483,11 @@ public override void paintBackground(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object getImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o)._fimage;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -1327,21 +1499,32 @@ public virtual void setImage(global::com.codename1.ui.Image n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r1.f = (float)0.5D;
-    _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fimage;
-    if (_r0_o == _r3_o) goto label22;
-    ((global::com.codename1.components.ImageViewer) _r2_o)._fpanPositionX = _r1.f;
-    ((global::com.codename1.components.ImageViewer) _r2_o)._fpanPositionY = _r1.f;
-    _r0.f = (float)1.0D;
-    ((global::com.codename1.components.ImageViewer) _r2_o)._fzoom = _r0.f;
-    ((global::com.codename1.components.ImageViewer) _r2_o)._fimage = (global::com.codename1.ui.Image) _r3_o;
-    ((global::com.codename1.components.ImageViewer) _r2_o).updatePositions();
-    ((global::com.codename1.components.ImageViewer) _r2_o).repaint();
-    label22:;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r4_o = n1;
+    _r2.f = (float)0.5D;
+    _r1_o = ((global::com.codename1.components.ImageViewer) _r3_o)._fimage;
+    if (_r1_o == _r4_o) goto label37;
+    ((global::com.codename1.components.ImageViewer) _r3_o)._fpanPositionX = _r2.f;
+    ((global::com.codename1.components.ImageViewer) _r3_o)._fpanPositionY = _r2.f;
+    _r1.f = (float)1.0D;
+    ((global::com.codename1.components.ImageViewer) _r3_o)._fzoom = _r1.f;
+    ((global::com.codename1.components.ImageViewer) _r3_o)._fimage = (global::com.codename1.ui.Image) _r4_o;
+    ((global::com.codename1.components.ImageViewer) _r3_o).updatePositions();
+    ((global::com.codename1.components.ImageViewer) _r3_o).repaint();
+    _r1.i = ((global::com.codename1.ui.Image) _r4_o).isAnimation() ? 1 : 0;
+    if (_r1.i == 0) goto label37;
+    _r0_o = ((global::com.codename1.components.ImageViewer) _r3_o).getComponentForm();
+    if (_r0_o == null) goto label37;
+    ((global::com.codename1.ui.Form) _r0_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r3_o);
+    label37:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: void setImage(com.codename1.ui.Image)]
 }
@@ -1350,9 +1533,13 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setImageList(com.codename1.ui.list.ListModel)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label8;
@@ -1365,6 +1552,7 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     if (_r0_o != null) goto label22;
     _r0.i = 0;
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r3_o).getItemAt((int) _r0.i);
+    _r0_o = _r0_o;
     ((global::com.codename1.components.ImageViewer) _r2_o)._fimage = (global::com.codename1.ui.Image) _r0_o;
     label22:;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
@@ -1374,10 +1562,12 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     ((global::com.codename1.ui.list.ListModel) _r0_o).removeDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r1_o);
     _r1_o = ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r1_o).removeSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     label54:;
     ((global::com.codename1.components.ImageViewer) _r2_o)._fswipeableImages = (global::com.codename1.ui.list.ListModel) _r3_o;
@@ -1389,6 +1579,7 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addDataChangedListener((global::com.codename1.ui.events.DataChangedListener) _r0_o);
     _r0_o = ((global::com.codename1.components.ImageViewer) _r2_o)._flistListener;
+    _r0_o = _r0_o;
     ((global::com.codename1.ui.list.ListModel) _r3_o).addSelectionListener((global::com.codename1.ui.events.SelectionListener) _r0_o);
     goto label54;
 //XMLVM_END_WRAPPER[com.codename1.components.ImageViewer: void setImageList(com.codename1.ui.list.ListModel)]
@@ -1396,8 +1587,11 @@ public virtual void setImageList(global::com.codename1.ui.list.ListModel n1){
 
 public virtual global::System.Object getImageList(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.list.ListModel getImageList()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o)._fswipeableImages;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -1407,7 +1601,10 @@ public virtual global::System.Object getImageList(){
 public virtual float getZoom(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float getZoom()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.components.ImageViewer) _r1_o)._fzoom;
     return _r0.f;
@@ -1416,8 +1613,11 @@ public virtual float getZoom(){
 
 public virtual void setZoom(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setZoom(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fzoom = _r1.f;
@@ -1429,8 +1629,11 @@ public virtual void setZoom(float n1){
 
 public virtual global::System.Object getSwipePlaceholder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image getSwipePlaceholder()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o)._fswipePlaceholder;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -1439,8 +1642,11 @@ public virtual global::System.Object getSwipePlaceholder(){
 
 public virtual void setSwipePlaceholder(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setSwipePlaceholder(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fswipePlaceholder = (global::com.codename1.ui.Image) _r1_o;
@@ -1451,7 +1657,10 @@ public virtual void setSwipePlaceholder(global::com.codename1.ui.Image n1){
 public virtual bool isEagerLock(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean isEagerLock()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._feagerLock ? 1 : 0;
     return _r0.i!=0;
@@ -1460,8 +1669,11 @@ public virtual bool isEagerLock(){
 
 public virtual void setEagerLock(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setEagerLock(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.ImageViewer) _r0_o)._feagerLock = 0!=_r1.i;
@@ -1472,7 +1684,10 @@ public virtual void setEagerLock(bool n1){
 public virtual bool isCycleLeft(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean isCycleLeft()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._fcycleLeft ? 1 : 0;
     return _r0.i!=0;
@@ -1481,8 +1696,11 @@ public virtual bool isCycleLeft(){
 
 public virtual void setCycleLeft(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setCycleLeft(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fcycleLeft = 0!=_r1.i;
@@ -1493,7 +1711,10 @@ public virtual void setCycleLeft(bool n1){
 public virtual bool isCycleRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean isCycleRight()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._fcycleRight ? 1 : 0;
     return _r0.i!=0;
@@ -1502,8 +1723,11 @@ public virtual bool isCycleRight(){
 
 public virtual void setCycleRight(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setCycleRight(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fcycleRight = 0!=_r1.i;
@@ -1514,7 +1738,10 @@ public virtual void setCycleRight(bool n1){
 public virtual float getSwipeThreshold(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float getSwipeThreshold()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.components.ImageViewer) _r1_o)._fswipeThreshold;
     return _r0.f;
@@ -1523,8 +1750,11 @@ public virtual float getSwipeThreshold(){
 
 public virtual void setSwipeThreshold(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setSwipeThreshold(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fswipeThreshold = _r1.f;
@@ -1534,8 +1764,11 @@ public virtual void setSwipeThreshold(float n1){
 
 public virtual void setImageInitialPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void setImageInitialPosition(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fimageInitialPosition = _r1.i;
@@ -1546,7 +1779,10 @@ public virtual void setImageInitialPosition(int n1){
 public static bool access_2000(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean access$000(com.codename1.components.ImageViewer)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._fselectLock ? 1 : 0;
     return _r0.i!=0;
@@ -1555,8 +1791,11 @@ public static bool access_2000(global::com.codename1.components.ImageViewer n1){
 
 public static global::System.Object access_2100(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.list.ListModel access$100(com.codename1.components.ImageViewer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o)._fswipeableImages;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -1566,7 +1805,10 @@ public static global::System.Object access_2100(global::com.codename1.components
 public static float access_2200(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float access$200(com.codename1.components.ImageViewer)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.f = ((global::com.codename1.components.ImageViewer) _r1_o)._fpanPositionX;
     return _r0.f;
@@ -1575,8 +1817,11 @@ public static float access_2200(global::com.codename1.components.ImageViewer n1)
 
 public static float access_2202(global::com.codename1.components.ImageViewer n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float access$202(com.codename1.components.ImageViewer, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.f = n2;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fpanPositionX = _r1.f;
@@ -1587,7 +1832,10 @@ public static float access_2202(global::com.codename1.components.ImageViewer n1,
 public static bool access_2300(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean access$300(com.codename1.components.ImageViewer)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.components.ImageViewer) _r1_o)._feagerLock ? 1 : 0;
     return _r0.i!=0;
@@ -1596,8 +1844,11 @@ public static bool access_2300(global::com.codename1.components.ImageViewer n1){
 
 public static global::System.Object access_2400(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image access$400(com.codename1.components.ImageViewer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o).getImageLeft();
     return (global::com.codename1.ui.Image) _r0_o;
@@ -1606,8 +1857,11 @@ public static global::System.Object access_2400(global::com.codename1.components
 
 public static global::System.Object access_2500(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: com.codename1.ui.Image access$500(com.codename1.components.ImageViewer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.components.ImageViewer) _r1_o).getImageRight();
     return (global::com.codename1.ui.Image) _r0_o;
@@ -1616,8 +1870,11 @@ public static global::System.Object access_2500(global::com.codename1.components
 
 public static bool access_2002(global::com.codename1.components.ImageViewer n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: boolean access$002(com.codename1.components.ImageViewer, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fselectLock = 0!=_r1.i;
@@ -1627,7 +1884,9 @@ public static bool access_2002(global::com.codename1.components.ImageViewer n1, 
 
 public static void access_2600(global::com.codename1.components.ImageViewer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: void access$600(com.codename1.components.ImageViewer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.components.ImageViewer) _r0_o).eagerLock();
     return;
@@ -1636,8 +1895,11 @@ public static void access_2600(global::com.codename1.components.ImageViewer n1){
 
 public static float access_2702(global::com.codename1.components.ImageViewer n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float access$702(com.codename1.components.ImageViewer, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.f = n2;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fpanPositionY = _r1.f;
@@ -1647,8 +1909,11 @@ public static float access_2702(global::com.codename1.components.ImageViewer n1,
 
 public static float access_2802(global::com.codename1.components.ImageViewer n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ImageViewer: float access$802(com.codename1.components.ImageViewer, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.f = n2;
     ((global::com.codename1.components.ImageViewer) _r0_o)._fzoom = _r1.f;

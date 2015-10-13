@@ -15,10 +15,15 @@ private global::com.codename1.ui.geom.Dimension _fdim;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: void <init>(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r1.i = 0;
@@ -36,29 +41,50 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r22_o = n1;
     _r17.i = ((global::com.codename1.ui.Container) _r22_o).getLayoutWidth();
@@ -104,7 +130,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r10.i = _r15.i;
     _r9.i = 0;
     label120:;
-    if (_r9.i >= _r11.i) goto label670;
+    if (_r9.i >= _r11.i) goto label676;
     _r0_o = _r22_o;
     _r1.i = _r9.i;
     _r3_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r1.i);
@@ -114,7 +140,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r17.i = _r0.i;
     switch (_r17.i) {
     case 2: goto label272;
-    case 3: goto label438;
+    case 3: goto label444;
     }
     _r6.i = _r14.i;
     _r7.i = ((global::com.codename1.ui.Component) _r3_o).getPreferredW();
@@ -125,9 +151,9 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r2.i = _r18.i;
     _r17.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getMargin(0!=_r1.i, (int) _r2.i);
     _r15.i = _r15.i + _r17.i;
-    if (_r15.i < _r6.i) goto label625;
+    if (_r15.i < _r6.i) goto label631;
     _r17.i = ((global::com.codename1.ui.Container) _r22_o).isScrollableX() ? 1 : 0;
-    if (_r17.i != 0) goto label625;
+    if (_r17.i != 0) goto label631;
     _r7.i = 0;
     label171:;
     ((global::com.codename1.ui.Component) _r3_o).setWidth((int) _r7.i);
@@ -148,7 +174,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r0_o = _r3_o;
     _r1.i = _r17.i;
     ((global::com.codename1.ui.Component) _r0_o).setHeight((int) _r1.i);
-    if (_r12.i == 0) goto label665;
+    if (_r12.i == 0) goto label671;
     _r17.i = _r14.i + _r10.i;
     _r18.i = _r15.i - _r10.i;
     _r17.i = _r17.i - _r18.i;
@@ -247,6 +273,8 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r0.i = _r17.i;
     _r1.i = _r4.i;
     if (_r0.i <= _r1.i) goto label344;
+    _r17.i = ((global::com.codename1.ui.Container) _r22_o).isScrollableY() ? 1 : 0;
+    if (_r17.i != 0) goto label344;
     _r17.i = _r4.i - _r16.i;
     _r18.i = 0;
     _r19.i = 2;
@@ -256,7 +284,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r18.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getMargin(0!=_r1.i, (int) _r2.i);
     _r5.i = _r17.i - _r18.i;
     goto label344;
-    label438:;
+    label444:;
     _r6.i = _r14.i;
     _r17_o = ((global::com.codename1.ui.layouts.BoxLayout) _r21_o).getPreferredSize((global::com.codename1.ui.Container) _r22_o);
     _r17.i = ((global::com.codename1.ui.geom.Dimension) _r17_o).getHeight();
@@ -271,11 +299,11 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r2.i = _r18.i;
     _r17.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getMargin(0!=_r1.i, (int) _r2.i);
     _r15.i = _r15.i + _r17.i;
-    if (_r15.i < _r6.i) goto label581;
+    if (_r15.i < _r6.i) goto label587;
     _r17.i = ((global::com.codename1.ui.Container) _r22_o).isScrollableX() ? 1 : 0;
-    if (_r17.i != 0) goto label581;
+    if (_r17.i != 0) goto label587;
     _r7.i = 0;
-    label482:;
+    label488:;
     ((global::com.codename1.ui.Component) _r3_o).setWidth((int) _r7.i);
     _r17.i = 0;
     _r18.i = 0;
@@ -294,7 +322,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r0_o = _r3_o;
     _r1.i = _r17.i;
     ((global::com.codename1.ui.Component) _r0_o).setHeight((int) _r1.i);
-    if (_r12.i == 0) goto label621;
+    if (_r12.i == 0) goto label627;
     _r17.i = _r14.i + _r10.i;
     _r18.i = _r15.i - _r10.i;
     _r17.i = _r17.i - _r18.i;
@@ -302,7 +330,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r0_o = _r3_o;
     _r1.i = _r17.i;
     ((global::com.codename1.ui.Component) _r0_o).setX((int) _r1.i);
-    label537:;
+    label543:;
     _r17.i = 0;
     _r18.i = 0;
     _r0_o = _r13_o;
@@ -323,7 +351,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r17.i = _r17.i + _r18.i;
     _r15.i = _r15.i + _r17.i;
     goto label268;
-    label581:;
+    label587:;
     _r17.i = _r15.i + _r7.i;
     _r18_o = ((global::com.codename1.ui.Container) _r22_o).getStyle();
     _r19.i = 0;
@@ -332,7 +360,7 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r17.i = _r17.i - _r18.i;
     _r0.i = _r17.i;
     _r1.i = _r6.i;
-    if (_r0.i <= _r1.i) goto label482;
+    if (_r0.i <= _r1.i) goto label488;
     _r17.i = _r6.i - _r15.i;
     _r18.i = 0;
     _r19.i = 3;
@@ -341,11 +369,11 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r2.i = _r19.i;
     _r18.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getMargin(0!=_r1.i, (int) _r2.i);
     _r7.i = _r17.i - _r18.i;
-    goto label482;
-    label621:;
+    goto label488;
+    label627:;
     ((global::com.codename1.ui.Component) _r3_o).setX((int) _r15.i);
-    goto label537;
-    label625:;
+    goto label543;
+    label631:;
     _r17.i = _r15.i + _r7.i;
     _r18_o = ((global::com.codename1.ui.Container) _r22_o).getStyle();
     _r19.i = 0;
@@ -364,24 +392,33 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r18.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getMargin(0!=_r1.i, (int) _r2.i);
     _r7.i = _r17.i - _r18.i;
     goto label171;
-    label665:;
+    label671:;
     ((global::com.codename1.ui.Component) _r3_o).setX((int) _r15.i);
     goto label226;
-    label670:;
+    label676:;
     return;
+    label678:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout: void layoutContainer(com.codename1.ui.Container)]
 }
 
 public override global::System.Object getPreferredSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
@@ -389,10 +426,16 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r13.i = 3;
@@ -463,7 +506,10 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
 public virtual int getAxis(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: int getAxis()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r1_o)._faxis;
     return _r0.i;
@@ -475,7 +521,10 @@ public override global::System.Object toString(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r2_o)._faxis;
     _r1.i = 1;
@@ -496,14 +545,20 @@ public override global::System.Object toString(){
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: boolean equals(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = base.equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
     _r0.i = ((global::com.codename1.ui.layouts.BoxLayout) _r2_o)._faxis;
+    _r3_o = _r3_o;
     _r1.i = ((global::com.codename1.ui.layouts.BoxLayout) _r3_o)._faxis;
     if (_r0.i != _r1.i) goto label16;
     _r0.i = 1;

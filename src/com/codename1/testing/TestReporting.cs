@@ -7,10 +7,13 @@ private static global::com.codename1.testing.TestReporting _finstance;
 
 private global::java.util.Hashtable _ftestsExecuted;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.Hashtable();
@@ -22,7 +25,9 @@ new public void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: com.codename1.testing.TestReporting getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.testing.TestReporting._finstance;
     if (_r0_o != null) goto label11;
     _r0_o = new global::com.codename1.testing.TestReporting();
@@ -36,7 +41,9 @@ public static global::System.Object getInstance(){
 
 public static void setInstance(global::com.codename1.testing.TestReporting n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void setInstance(com.codename1.testing.TestReporting)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.testing.TestReporting._finstance = (global::com.codename1.testing.TestReporting) _r0_o;
     return;
@@ -45,10 +52,15 @@ public static void setInstance(global::com.codename1.testing.TestReporting n1){
 
 public virtual void startingTestCase(global::com.codename1.testing.UnitTest n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void startingTestCase(com.codename1.testing.UnitTest)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.StringBuilder();
@@ -68,8 +80,11 @@ public virtual void startingTestCase(global::com.codename1.testing.UnitTest n1){
 
 public virtual void logMessage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void logMessage(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.io.Log.p((global::java.lang.String) _r1_o);
@@ -79,8 +94,11 @@ public virtual void logMessage(global::java.lang.String n1){
 
 public virtual void logException(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void logException(java.lang.Throwable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     global::com.codename1.io.Log.e((global::java.lang.Throwable) _r1_o);
@@ -90,12 +108,19 @@ public virtual void logException(global::java.lang.Throwable n1){
 
 public virtual void finishedTestCase(global::com.codename1.testing.UnitTest n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void finishedTestCase(com.codename1.testing.UnitTest, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -141,14 +166,21 @@ public virtual void finishedTestCase(global::com.codename1.testing.UnitTest n1, 
 
 public virtual void writeReport(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void writeReport(java.io.OutputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3_o = ((global::com.codename1.testing.TestReporting) _r5_o)._ftestsExecuted;
@@ -157,8 +189,10 @@ public virtual void writeReport(global::java.io.OutputStream n1){
     _r3.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r3.i == 0) goto label86;
     _r1_o = ((global::java.util.Enumeration) _r0_o).nextElement();
+    _r1_o = _r1_o;
     _r3_o = ((global::com.codename1.testing.TestReporting) _r5_o)._ftestsExecuted;
     _r2_o = ((global::java.util.Hashtable) _r3_o).get((global::java.lang.Object) _r1_o);
+    _r2_o = _r2_o;
     _r3.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     if (_r3.i == 0) goto label59;
     _r3_o = new global::java.lang.StringBuilder();
@@ -191,7 +225,9 @@ public virtual void writeReport(global::java.io.OutputStream n1){
 
 public virtual void testExecutionFinished(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestReporting: void testExecutionFinished()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.testing.TestReporting: void testExecutionFinished()]

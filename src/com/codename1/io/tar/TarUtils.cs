@@ -3,9 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.io.tar {
 public class TarUtils: global::java.lang.Object {
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -15,8 +17,16 @@ new public void @this(){
 public static long calculateTarSize(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long calculateTarSize(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r0.l = global::com.codename1.io.tar.TarUtils.tarSize((global::java.lang.String) _r4_o);
     _r2.l = 1024L;
@@ -27,63 +37,90 @@ public static long calculateTarSize(global::java.lang.String n1){
 
 private static long tarSize(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long tarSize(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
-    global::System.Object _r10_o = null;
-    _r10_o = n1;
-    _r5.l = 0L;
-    _r2_o = global::com.codename1.io.FileSystemStorage.getInstance();
-    _r8.i = ((global::com.codename1.io.FileSystemStorage) _r2_o).isDirectory((global::java.lang.String) _r10_o) ? 1 : 0;
-    if (_r8.i == 0) goto label55;
-    _r7_o = ((global::com.codename1.io.FileSystemStorage) _r2_o).listFiles((global::java.lang.String) _r10_o);
-    if (_r7_o == null) goto label52;
-    _r8.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    if (_r8.i <= 0) goto label52;
-    _r0_o = _r7_o;
-    _r4.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r3.i = 0;
-    label24:;
-    if (_r3.i >= _r4.i) goto label64;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r3.i];
-    _r8.i = ((global::com.codename1.io.FileSystemStorage) _r2_o).isDirectory((global::java.lang.String) _r1_o) ? 1 : 0;
-    if (_r8.i == 0) goto label42;
-    _r8.l = global::com.codename1.io.tar.TarUtils.tarSize((global::java.lang.String) _r1_o);
-    _r5.l = _r5.l + _r8.l;
-    label39:;
-    _r3.i = _r3.i + 1;
-    goto label24;
-    label42:;
-    _r8.l = ((global::com.codename1.io.FileSystemStorage) _r2_o).getLength((global::java.lang.String) _r1_o);
-    _r8.l = global::com.codename1.io.tar.TarUtils.entrySize((long) _r8.l);
-    _r5.l = _r5.l + _r8.l;
-    goto label39;
-    label52:;
-    _r8.l = 512L;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r9_o = n1;
+    _r2.l = 0L;
+    _r1_o = global::com.codename1.io.FileSystemStorage.getInstance();
+    _r5.i = ((global::com.codename1.io.FileSystemStorage) _r1_o).isDirectory((global::java.lang.String) _r9_o) ? 1 : 0;
+    if (_r5.i == 0) goto label54;
+    _r4_o = ((global::com.codename1.io.FileSystemStorage) _r1_o).listFiles((global::java.lang.String) _r9_o);
+    if (_r4_o == null) goto label51;
+    _r5.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    if (_r5.i <= 0) goto label51;
+    _r5.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r6.i = 0;
+    label23:;
+    if (_r6.i >= _r5.i) goto label63;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r6.i];
+    _r7.i = ((global::com.codename1.io.FileSystemStorage) _r1_o).isDirectory((global::java.lang.String) _r0_o) ? 1 : 0;
+    if (_r7.i == 0) goto label41;
+    _r7.l = global::com.codename1.io.tar.TarUtils.tarSize((global::java.lang.String) _r0_o);
+    _r2.l = _r2.l + _r7.l;
+    label38:;
+    _r6.i = _r6.i + 1;
+    goto label23;
+    label41:;
+    _r7.l = ((global::com.codename1.io.FileSystemStorage) _r1_o).getLength((global::java.lang.String) _r0_o);
+    _r7.l = global::com.codename1.io.tar.TarUtils.entrySize((long) _r7.l);
+    _r2.l = _r2.l + _r7.l;
+    goto label38;
+    label51:;
+    _r5.l = 512L;
+    label53:;
+    return _r5.l;
     label54:;
-    return _r8.l;
-    label55:;
-    _r8.l = ((global::com.codename1.io.FileSystemStorage) _r2_o).getLength((global::java.lang.String) _r10_o);
-    _r8.l = global::com.codename1.io.tar.TarUtils.entrySize((long) _r8.l);
-    goto label54;
-    label64:;
-    _r8.l = _r5.l;
-    goto label54;
+    _r5.l = ((global::com.codename1.io.FileSystemStorage) _r1_o).getLength((global::java.lang.String) _r9_o);
+    _r5.l = global::com.codename1.io.tar.TarUtils.entrySize((long) _r5.l);
+    goto label53;
+    label63:;
+    _r5.l = _r2.l;
+    goto label53;
 //XMLVM_END_WRAPPER[com.codename1.io.tar.TarUtils: long tarSize(java.lang.String)]
 }
 
 private static long entrySize(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarUtils: long entrySize(long)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8.l = n1;
     _r6.l = 512L;
     _r2.l = 0L;

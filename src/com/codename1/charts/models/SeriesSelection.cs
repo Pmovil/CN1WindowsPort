@@ -13,11 +13,21 @@ private double _fmValue;
 
 public void @this(int n1, int n2, double n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.SeriesSelection: void <init>(int, int, double, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -35,7 +45,10 @@ public void @this(int n1, int n2, double n3, double n4){
 public virtual int getSeriesIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.SeriesSelection: int getSeriesIndex()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.models.SeriesSelection) _r1_o)._fmSeriesIndex;
     return _r0.i;
@@ -45,7 +58,10 @@ public virtual int getSeriesIndex(){
 public virtual int getPointIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.SeriesSelection: int getPointIndex()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.models.SeriesSelection) _r1_o)._fmPointIndex;
     return _r0.i;
@@ -55,7 +71,12 @@ public virtual int getPointIndex(){
 public virtual double getXValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.SeriesSelection: double getXValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.models.SeriesSelection) _r2_o)._fmXValue;
     return _r0.d;
@@ -65,7 +86,12 @@ public virtual double getXValue(){
 public virtual double getValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.SeriesSelection: double getValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.models.SeriesSelection) _r2_o)._fmValue;
     return _r0.d;

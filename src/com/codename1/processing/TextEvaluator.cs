@@ -12,10 +12,13 @@ static TextEvaluator() {
 
 public static global::java.lang.String _fFUNC_1TEXT;
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.processing.AbstractEvaluator) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -25,15 +28,23 @@ new public void @this(global::java.lang.String n1){
 
 private global::System.Object _1getLeftValue(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: java.lang.String[] _getLeftValue(com.codename1.processing.StructuredContent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -60,16 +71,26 @@ private global::System.Object _1getLeftValue(global::com.codename1.processing.St
 public override global::System.Object evaluateLeftLessRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: java.lang.Object evaluateLeftLessRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -118,16 +139,26 @@ public override global::System.Object evaluateLeftLessRight(global::com.codename
 public override global::System.Object evaluateLeftGreaterRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: java.lang.Object evaluateLeftGreaterRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -176,16 +207,26 @@ public override global::System.Object evaluateLeftGreaterRight(global::com.coden
 public override global::System.Object evaluateLeftEqualsRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: java.lang.Object evaluateLeftEqualsRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -233,13 +274,19 @@ public override global::System.Object evaluateLeftEqualsRight(global::com.codena
 
 public override global::System.Object evaluateSingle(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.TextEvaluator: java.lang.Object evaluateSingle(com.codename1.processing.StructuredContent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;

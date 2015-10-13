@@ -85,15 +85,21 @@ public int _fdevMajor;
 
 public int _fdevMinor;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarHeader: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 31;
     _r3.i = 0;
@@ -135,12 +141,20 @@ new public void @this(){
 public static global::System.Object parseName(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarHeader: java.lang.StringBuffer parseName(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
@@ -166,12 +180,20 @@ public static global::System.Object parseName(global::org.xmlvm._nArrayAdapter<s
 public static int getNameBytes(global::java.lang.StringBuffer n1, global::org.xmlvm._nArrayAdapter<sbyte> n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.tar.TarHeader: int getNameBytes(java.lang.StringBuffer, byte[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.i = n3;

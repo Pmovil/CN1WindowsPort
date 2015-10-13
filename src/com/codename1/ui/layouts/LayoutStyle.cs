@@ -16,9 +16,11 @@ public static int _fINDENT = 3;
 
 private static global::com.codename1.ui.layouts.LayoutStyle _flayoutStyle;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -27,7 +29,9 @@ new public void @this(){
 
 public static void setSharedInstance(global::com.codename1.ui.layouts.LayoutStyle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: void setSharedInstance(com.codename1.ui.layouts.LayoutStyle)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.layouts.LayoutStyle._flayoutStyle = (global::com.codename1.ui.layouts.LayoutStyle) _r0_o;
     return;
@@ -36,7 +40,9 @@ public static void setSharedInstance(global::com.codename1.ui.layouts.LayoutStyl
 
 public static global::System.Object getSharedInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: com.codename1.ui.layouts.LayoutStyle getSharedInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.layouts.LayoutStyle._flayoutStyle;
     return (global::com.codename1.ui.layouts.LayoutStyle) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: com.codename1.ui.layouts.LayoutStyle getSharedInstance()]
@@ -45,18 +51,28 @@ public static global::System.Object getSharedInstance(){
 public virtual int getPreferredGap(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, int n3, int n4, global::com.codename1.ui.Container n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getPreferredGap(com.codename1.ui.Component, com.codename1.ui.Component, int, int, com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -133,10 +149,16 @@ public virtual int getContainerGap(global::com.codename1.ui.Component n1, int n2
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -174,11 +196,18 @@ public virtual int getContainerGap(global::com.codename1.ui.Component n1, int n2
 public virtual int getCBRBPadding(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getCBRBPadding(com.codename1.ui.Component, com.codename1.ui.Component, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -204,10 +233,16 @@ public virtual int getCBRBPadding(global::com.codename1.ui.Component n1, global:
 public virtual int getCBRBPadding(global::com.codename1.ui.Component n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getCBRBPadding(com.codename1.ui.Component, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -224,10 +259,15 @@ public virtual int flipDirection(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int flipDirection(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     switch (_r4.i) {
@@ -260,15 +300,21 @@ public virtual int flipDirection(int n1){
     label34:;
     _r0.i = 3;
     goto label29;
+    label36:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int flipDirection(int)]
 }
 
 private int getCBRBPadding(global::com.codename1.ui.Component n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getCBRBPadding(com.codename1.ui.Component, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -280,18 +326,26 @@ private int getCBRBPadding(global::com.codename1.ui.Component n1, int n2){
 private int getInset(global::com.codename1.ui.Component n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getInset(com.codename1.ui.Component, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -337,15 +391,21 @@ private int getInset(global::com.codename1.ui.Component n1, int n2){
     label70:;
     _r4.i = _r1.i;
     goto label65;
+    label72:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getInset(com.codename1.ui.Component, int)]
 }
 
 public virtual int getButtonChildIndent(global::com.codename1.ui.Component n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getButtonChildIndent(com.codename1.ui.Component, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -354,9 +414,11 @@ public virtual int getButtonChildIndent(global::com.codename1.ui.Component n1, i
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.LayoutStyle: int getButtonChildIndent(com.codename1.ui.Component, int)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.LayoutStyle: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.layouts.LayoutStyle();
     ((global::com.codename1.ui.layouts.LayoutStyle) _r0_o).@this();
     global::com.codename1.ui.layouts.LayoutStyle._flayoutStyle = (global::com.codename1.ui.layouts.LayoutStyle) _r0_o;

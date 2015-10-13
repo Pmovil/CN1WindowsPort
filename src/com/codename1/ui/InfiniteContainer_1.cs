@@ -7,8 +7,11 @@ public global::com.codename1.ui.InfiniteContainer _fthis_20;
 
 public void @this(global::com.codename1.ui.InfiniteContainer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer$1: void <init>(com.codename1.ui.InfiniteContainer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.InfiniteContainer_21) _r0_o)._fthis_20 = (global::com.codename1.ui.InfiniteContainer) _r1_o;
@@ -19,9 +22,13 @@ public void @this(global::com.codename1.ui.InfiniteContainer n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.InfiniteContainer$1: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = new global::com.codename1.ui.InfiniteContainer_21_21();

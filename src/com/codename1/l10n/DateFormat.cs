@@ -17,10 +17,13 @@ private int _fdateStyle;
 
 private int _ftimeStyle;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 3;
     ((global::com.codename1.l10n.DateFormat) _r1_o).@this((int) _r0.i, (int) _r0.i);
@@ -30,9 +33,13 @@ new public void @this(){
 
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: void <init>(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -45,9 +52,13 @@ public void @this(int n1, int n2){
 
 public override global::System.Object format(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.String format(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.StringBuffer();
@@ -59,15 +70,23 @@ public override global::System.Object format(global::java.lang.Object n1){
 
 public virtual global::System.Object format(global::java.lang.Object n1, global::java.lang.StringBuffer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.String format(java.lang.Object, java.lang.StringBuffer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -76,6 +95,7 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     _r4.i = ((_r7_o != null) && (_r7_o is global::java.lang.Long)) ? 1 : 0;
     if (_r4.i == 0) goto label16;
     _r1_o = new global::java.util.Date();
+    _r7_o = _r7_o;
     _r4.l = ((global::java.lang.Long) _r7_o).longValue();
     ((global::java.util.Date) _r1_o).@this((long) _r4.l);
     _r7_o = _r1_o;
@@ -84,6 +104,7 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     _r4.i = ((_r7_o != null) && (_r7_o is global::java.util.Date)) ? 1 : 0;
     if (_r4.i == 0) goto label37;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label25:;
     if (_r3_o != null) goto label67;
@@ -100,6 +121,7 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
     if (_r4.i == 0) goto label25;
     try {
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r3_o = ((global::com.codename1.l10n.DateFormat) _r6_o).parse((global::java.lang.String) _r4_o);
     }
@@ -132,9 +154,13 @@ public virtual global::System.Object format(global::java.lang.Object n1, global:
 
 public virtual global::System.Object format(global::java.util.Date n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.String format(java.util.Date)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.StringBuffer();
@@ -146,10 +172,15 @@ public virtual global::System.Object format(global::java.util.Date n1){
 
 public virtual global::System.Object format(global::java.util.Date n1, global::java.lang.StringBuffer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.String format(java.util.Date, java.lang.StringBuffer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -160,11 +191,17 @@ public virtual global::System.Object format(global::java.util.Date n1, global::j
 
 public override global::System.Object parseObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.Object parseObject(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = new global::com.codename1.l10n.ParseException();
@@ -179,11 +216,15 @@ public override global::System.Object parseObject(global::java.lang.String n1){
 
 public virtual global::System.Object parse(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.util.Date parse(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.l10n.DateFormat) _r0_o).parseObject((global::java.lang.String) _r1_o);
+    _r0_o = _r0_o;
     return (global::java.util.Date) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.l10n.DateFormat: java.util.Date parse(java.lang.String)]
 }
@@ -192,6 +233,7 @@ public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: com.codename1.l10n.DateFormat getInstance()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 3;
     _r0_o = global::com.codename1.l10n.DateFormat.getDateTimeInstance((int) _r0.i, (int) _r0.i);
     return (global::com.codename1.l10n.DateFormat) _r0_o;
@@ -202,6 +244,7 @@ public static global::System.Object getDateInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: com.codename1.l10n.DateFormat getDateInstance()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 3;
     _r0_o = global::com.codename1.l10n.DateFormat.getDateInstance((int) _r0.i);
     return (global::com.codename1.l10n.DateFormat) _r0_o;
@@ -212,6 +255,7 @@ public static global::System.Object getTimeInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: com.codename1.l10n.DateFormat getTimeInstance()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 3;
     _r0_o = global::com.codename1.l10n.DateFormat.getTimeInstance((int) _r0.i);
     return (global::com.codename1.l10n.DateFormat) _r0_o;
@@ -223,6 +267,8 @@ public static global::System.Object getDateInstance(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 2;
     _r0_o = global::com.codename1.l10n.DateFormat.getDateTimeInstance((int) _r1.i, (int) _r0.i);
@@ -235,6 +281,8 @@ public static global::System.Object getTimeInstance(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0.i = 2;
     _r0_o = global::com.codename1.l10n.DateFormat.getDateTimeInstance((int) _r0.i, (int) _r1.i);
@@ -244,9 +292,13 @@ public static global::System.Object getTimeInstance(int n1){
 
 public static global::System.Object getDateTimeInstance(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: com.codename1.l10n.DateFormat getDateTimeInstance(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r2.i = n2;
     _r0_o = new global::com.codename1.l10n.DateFormat();
@@ -258,10 +310,16 @@ public static global::System.Object getDateTimeInstance(int n1, int n2){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: int hashCode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = 31;
     _r1.i = 1;
@@ -277,16 +335,23 @@ public override int hashCode(){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: boolean equals(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 1;
@@ -307,6 +372,7 @@ public override bool equals(global::java.lang.Object n1){
     goto label5;
     label22:;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2.i = ((global::com.codename1.l10n.DateFormat) _r6_o)._fdateStyle;
     _r3.i = ((global::com.codename1.l10n.DateFormat) _r1_o)._fdateStyle;
@@ -327,10 +393,15 @@ public override bool equals(global::java.lang.Object n1){
 
 public override global::System.Object clone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormat: java.lang.Object clone()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::com.codename1.l10n.DateFormat();
     _r1.i = ((global::com.codename1.l10n.DateFormat) _r3_o)._fdateStyle;

@@ -5,9 +5,11 @@ namespace com.codename1.system {
 public class NativeLookup: global::java.lang.Object {
 private static global::java.util.HashMap _finterfaceToClassLookup;
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -16,11 +18,17 @@ new private void @this(){
 
 public static global::System.Object create(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: com.codename1.system.NativeInterface create(java.lang.Class)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
@@ -30,6 +38,7 @@ public static global::System.Object create(global::java.lang.Class n1){
     if (_r2_o == null) goto label25;
     _r2_o = global::com.codename1.system.NativeLookup._finterfaceToClassLookup;
     _r0_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r5_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label17;
     _r2_o = _r4_o;
     }
@@ -58,6 +67,7 @@ public static global::System.Object create(global::java.lang.Class n1){
     label17:;
     try {
     _r5_o = ((global::java.lang.Class) _r0_o).newInstance();
+    _r5_o = _r5_o;
     _r2_o = _r5_o;
     goto label16;
     }
@@ -83,6 +93,7 @@ public static global::System.Object create(global::java.lang.Class n1){
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     _r2_o = global::java.lang.Class.forName((global::java.lang.String) _r2_o);
     _r5_o = ((global::java.lang.Class) _r2_o).newInstance();
+    _r5_o = _r5_o;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -107,9 +118,13 @@ public static global::System.Object create(global::java.lang.Class n1){
 
 public static void register(global::java.lang.Class n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.NativeLookup: void register(java.lang.Class, java.lang.Class)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.system.NativeLookup._finterfaceToClassLookup;

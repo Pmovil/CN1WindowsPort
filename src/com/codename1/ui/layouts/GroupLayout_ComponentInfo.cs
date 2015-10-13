@@ -21,9 +21,13 @@ public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
 public void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void <init>(com.codename1.ui.layouts.GroupLayout, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -37,9 +41,13 @@ public void @this(global::com.codename1.ui.layouts.GroupLayout n1, global::com.c
 
 public virtual void dispose(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void dispose()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r2_o)._fhorizontalSpring;
@@ -64,8 +72,11 @@ public virtual void dispose(){
 
 public virtual void setHonorsVisibility(global::java.lang.Boolean n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void setHonorsVisibility(java.lang.Boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r0_o)._fhonorsVisibility = (global::java.lang.Boolean) _r1_o;
@@ -75,13 +86,18 @@ public virtual void setHonorsVisibility(global::java.lang.Boolean n1){
 
 private void removeSpring(global::com.codename1.ui.layouts.GroupLayout_2Spring n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void removeSpring(com.codename1.ui.layouts.GroupLayout$Spring)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     if (_r2_o == null) goto label13;
     _r1_o = ((global::com.codename1.ui.layouts.GroupLayout_2Spring) _r2_o).getParent();
+    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2Group) _r1_o)._fsprings;
     ((global::java.util.ArrayList) _r0_o).remove((global::java.lang.Object) _r2_o);
     label13:;
@@ -92,7 +108,10 @@ private void removeSpring(global::com.codename1.ui.layouts.GroupLayout_2Spring n
 public virtual bool isVisible(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: boolean isVisible()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fvisible ? 1 : 0;
     return _r0.i!=0;
@@ -102,11 +121,16 @@ public virtual bool isVisible(){
 public virtual bool updateVisibility(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: boolean updateVisibility()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r2_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r4_o)._fhonorsVisibility;
@@ -141,17 +165,28 @@ public virtual bool updateVisibility(){
 public virtual void setBounds(int n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void setBounds(int, int, int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -185,9 +220,13 @@ public virtual void setBounds(int n1, int n2, int n3, bool n4){
 
 public virtual void setComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void setComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fcomponent = (global::com.codename1.ui.Component) _r2_o;
@@ -207,8 +246,11 @@ public virtual void setComponent(global::com.codename1.ui.Component n1){
 
 public virtual global::System.Object getComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: com.codename1.ui.Component getComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fcomponent;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -220,9 +262,14 @@ public virtual bool isLinked(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r2.i = 0;
@@ -250,9 +297,14 @@ public virtual bool isLinked(int n1){
 private void setLinkInfo(int n1, global::com.codename1.ui.layouts.GroupLayout_2LinkInfo n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void setLinkInfo(int, com.codename1.ui.layouts.GroupLayout$LinkInfo)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -271,8 +323,11 @@ public virtual global::System.Object getLinkInfo(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: com.codename1.ui.layouts.GroupLayout$LinkInfo getLinkInfo(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 1;
@@ -283,11 +338,17 @@ public virtual global::System.Object getLinkInfo(int n1){
 
 private global::System.Object getLinkInfo(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: com.codename1.ui.layouts.GroupLayout$LinkInfo getLinkInfo(int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2 ? 1 : 0;
@@ -319,8 +380,11 @@ private global::System.Object getLinkInfo(int n1, bool n2){
 
 public virtual void clearCachedSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void clearCachedSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fhorizontalMaster;
     if (_r0_o == null) goto label9;
@@ -340,9 +404,13 @@ public virtual int getLinkSize(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: int getLinkSize(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -361,8 +429,11 @@ public virtual int getLinkSize(int n1, int n2){
 
 public static global::System.Object access_2000(global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: com.codename1.ui.Component access$000(com.codename1.ui.layouts.GroupLayout$ComponentInfo)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo) _r1_o)._fcomponent;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -371,10 +442,15 @@ public static global::System.Object access_2000(global::com.codename1.ui.layouts
 
 public static global::System.Object access_21300(global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: com.codename1.ui.layouts.GroupLayout$LinkInfo access$1300(com.codename1.ui.layouts.GroupLayout$ComponentInfo, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r3.i = n3 ? 1 : 0;
@@ -385,9 +461,13 @@ public static global::System.Object access_21300(global::com.codename1.ui.layout
 
 public static void access_21400(global::com.codename1.ui.layouts.GroupLayout_2ComponentInfo n1, int n2, global::com.codename1.ui.layouts.GroupLayout_2LinkInfo n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ComponentInfo: void access$1400(com.codename1.ui.layouts.GroupLayout$ComponentInfo, int, com.codename1.ui.layouts.GroupLayout$LinkInfo)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     _r2_o = n3;

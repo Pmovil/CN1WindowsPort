@@ -25,11 +25,15 @@ private bool _fmDisplayBoundingPoints;
 
 private global::com.codename1.charts.util.NumberFormat _fmChartValuesFormat;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::java.lang.Object) _r2_o).@this();
@@ -46,7 +50,10 @@ new public void @this(){
 public virtual int getColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: int getColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmColor;
     return _r0.i;
@@ -55,8 +62,11 @@ public virtual int getColor(){
 
 public virtual void setColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmColor = _r1.i;
@@ -66,8 +76,11 @@ public virtual void setColor(int n1){
 
 public virtual global::System.Object getStroke(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: com.codename1.charts.renderers.BasicStroke getStroke()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmStroke;
     return (global::com.codename1.charts.renderers.BasicStroke) _r0_o;
@@ -76,8 +89,11 @@ public virtual global::System.Object getStroke(){
 
 public virtual void setStroke(global::com.codename1.charts.renderers.BasicStroke n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setStroke(com.codename1.charts.renderers.BasicStroke)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmStroke = (global::com.codename1.charts.renderers.BasicStroke) _r1_o;
@@ -88,7 +104,10 @@ public virtual void setStroke(global::com.codename1.charts.renderers.BasicStroke
 public virtual bool isGradientEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: boolean isGradientEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmGradientEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -97,8 +116,11 @@ public virtual bool isGradientEnabled(){
 
 public virtual void setGradientEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setGradientEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmGradientEnabled = 0!=_r1.i;
@@ -109,7 +131,12 @@ public virtual void setGradientEnabled(bool n1){
 public virtual double getGradientStartValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: double getGradientStartValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r2_o)._fmGradientStartValue;
     return _r0.d;
@@ -119,7 +146,10 @@ public virtual double getGradientStartValue(){
 public virtual int getGradientStartColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: int getGradientStartColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmGradientStartColor;
     return _r0.i;
@@ -128,9 +158,15 @@ public virtual int getGradientStartColor(){
 
 public virtual void setGradientStart(double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setGradientStart(double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.i = n2;
@@ -143,7 +179,12 @@ public virtual void setGradientStart(double n1, int n2){
 public virtual double getGradientStopValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: double getGradientStopValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r2_o)._fmGradientStopValue;
     return _r0.d;
@@ -153,7 +194,10 @@ public virtual double getGradientStopValue(){
 public virtual int getGradientStopColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: int getGradientStopColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmGradientStopColor;
     return _r0.i;
@@ -162,9 +206,15 @@ public virtual int getGradientStopColor(){
 
 public virtual void setGradientStop(double n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setGradientStop(double, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     _r3.i = n2;
@@ -177,7 +227,10 @@ public virtual void setGradientStop(double n1, int n2){
 public virtual bool isShowLegendItem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: boolean isShowLegendItem()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmShowLegendItem ? 1 : 0;
     return _r0.i!=0;
@@ -186,8 +239,11 @@ public virtual bool isShowLegendItem(){
 
 public virtual void setShowLegendItem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setShowLegendItem(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmShowLegendItem = 0!=_r1.i;
@@ -198,7 +254,10 @@ public virtual void setShowLegendItem(bool n1){
 public virtual bool isHighlighted(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: boolean isHighlighted()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmHighlighted ? 1 : 0;
     return _r0.i!=0;
@@ -207,8 +266,11 @@ public virtual bool isHighlighted(){
 
 public virtual void setHighlighted(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setHighlighted(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmHighlighted = 0!=_r1.i;
@@ -219,7 +281,10 @@ public virtual void setHighlighted(bool n1){
 public virtual bool isDisplayBoundingPoints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: boolean isDisplayBoundingPoints()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmDisplayBoundingPoints ? 1 : 0;
     return _r0.i!=0;
@@ -228,8 +293,11 @@ public virtual bool isDisplayBoundingPoints(){
 
 public virtual void setDisplayBoundingPoints(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setDisplayBoundingPoints(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmDisplayBoundingPoints = 0!=_r1.i;
@@ -239,8 +307,11 @@ public virtual void setDisplayBoundingPoints(bool n1){
 
 public virtual global::System.Object getChartValuesFormat(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: com.codename1.charts.util.NumberFormat getChartValuesFormat()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r1_o)._fmChartValuesFormat;
     return (global::com.codename1.charts.util.NumberFormat) _r0_o;
@@ -249,8 +320,11 @@ public virtual global::System.Object getChartValuesFormat(){
 
 public virtual void setChartValuesFormat(global::com.codename1.charts.util.NumberFormat n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.SimpleSeriesRenderer: void setChartValuesFormat(com.codename1.charts.util.NumberFormat)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.renderers.SimpleSeriesRenderer) _r0_o)._fmChartValuesFormat = (global::com.codename1.charts.util.NumberFormat) _r1_o;

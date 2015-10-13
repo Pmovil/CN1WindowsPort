@@ -3,52 +3,55 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class CodenameOneMiGContainerWrapper: global::com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper,global::com.codename1.ui.layouts.mig.ContainerWrapper {
-new public static int _fTYPE_1UNSET = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNSET;
+public static int _fTYPE_1UNSET = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNSET;
 
-new public static int _fTYPE_1UNKNOWN = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNKNOWN;
+public static int _fTYPE_1UNKNOWN = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1UNKNOWN;
 
-new public static int _fTYPE_1CONTAINER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CONTAINER;
+public static int _fTYPE_1CONTAINER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CONTAINER;
 
-new public static int _fTYPE_1LABEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LABEL;
+public static int _fTYPE_1LABEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LABEL;
 
-new public static int _fTYPE_1TEXT_1FIELD = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1FIELD;
+public static int _fTYPE_1TEXT_1FIELD = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1FIELD;
 
-new public static int _fTYPE_1TEXT_1AREA = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1AREA;
+public static int _fTYPE_1TEXT_1AREA = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TEXT_1AREA;
 
-new public static int _fTYPE_1BUTTON = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1BUTTON;
+public static int _fTYPE_1BUTTON = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1BUTTON;
 
-new public static int _fTYPE_1LIST = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LIST;
+public static int _fTYPE_1LIST = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1LIST;
 
-new public static int _fTYPE_1TABLE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABLE;
+public static int _fTYPE_1TABLE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABLE;
 
-new public static int _fTYPE_1SCROLL_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1PANE;
+public static int _fTYPE_1SCROLL_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1PANE;
 
-new public static int _fTYPE_1IMAGE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1IMAGE;
+public static int _fTYPE_1IMAGE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1IMAGE;
 
-new public static int _fTYPE_1PANEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PANEL;
+public static int _fTYPE_1PANEL = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PANEL;
 
-new public static int _fTYPE_1COMBO_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1COMBO_1BOX;
+public static int _fTYPE_1COMBO_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1COMBO_1BOX;
 
-new public static int _fTYPE_1SLIDER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SLIDER;
+public static int _fTYPE_1SLIDER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SLIDER;
 
-new public static int _fTYPE_1SPINNER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SPINNER;
+public static int _fTYPE_1SPINNER = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SPINNER;
 
-new public static int _fTYPE_1PROGRESS_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PROGRESS_1BAR;
+public static int _fTYPE_1PROGRESS_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1PROGRESS_1BAR;
 
-new public static int _fTYPE_1TREE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TREE;
+public static int _fTYPE_1TREE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TREE;
 
-new public static int _fTYPE_1CHECK_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CHECK_1BOX;
+public static int _fTYPE_1CHECK_1BOX = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1CHECK_1BOX;
 
-new public static int _fTYPE_1SCROLL_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1BAR;
+public static int _fTYPE_1SCROLL_1BAR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SCROLL_1BAR;
 
-new public static int _fTYPE_1SEPARATOR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SEPARATOR;
+public static int _fTYPE_1SEPARATOR = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1SEPARATOR;
 
-new public static int _fTYPE_1TABBED_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABBED_1PANE;
+public static int _fTYPE_1TABBED_1PANE = com.codename1.ui.layouts.mig._iComponentWrapper._fTYPE_1TABBED_1PANE;
 
 public void @this(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: void <init>(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.mig.CodenameOneMiGComponentWrapper) _r0_o).@this((global::com.codename1.ui.Component) _r1_o);
@@ -58,15 +61,22 @@ public void @this(global::com.codename1.ui.Container n1){
 
 public virtual global::System.Object getComponents(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: com.codename1.ui.layouts.mig.ComponentWrapper[] getComponents()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r5_o).getComponent();
+    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.Container) _r0_o).getComponentCount();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r3.i]);
     _r2.i = 0;
@@ -87,9 +97,13 @@ public virtual global::System.Object getComponents(){
 public virtual int getComponentCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: int getComponentCount()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
+    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.Container) _r1_o).getComponentCount();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: int getComponentCount()]
@@ -97,10 +111,14 @@ public virtual int getComponentCount(){
 
 public virtual global::System.Object getLayout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: java.lang.Object getLayout()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
+    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.Container) _r1_o).getLayout();
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: java.lang.Object getLayout()]
@@ -109,9 +127,13 @@ public virtual global::System.Object getLayout(){
 public virtual bool isLeftToRight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: boolean isLeftToRight()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r1_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r1_o).getComponent();
+    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.Container) _r1_o).isRTL() ? 1 : 0;
     if (_r0.i != 0) goto label14;
     _r0.i = 1;
@@ -125,19 +147,28 @@ public virtual bool isLeftToRight(){
 
 public virtual void paintDebugCell(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: void paintDebugCell(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
     _r5.i = n3;
     _r6.i = n4;
     _r0_o = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r2_o).getComponent();
+    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
     if (_r1.i != 0) goto label12;
     label12:;
@@ -148,8 +179,12 @@ public virtual void paintDebugCell(int n1, int n2, int n3, int n4){
 public override int getComponentType(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: int getComponentType(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = 1;
@@ -160,8 +195,12 @@ public override int getComponentType(bool n1){
 public override int getLayoutHashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper: int getLayoutHashCode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = base.getLayoutHashCode();
     _r1.i = ((global::com.codename1.ui.layouts.mig.CodenameOneMiGContainerWrapper) _r2_o).isLeftToRight() ? 1 : 0;

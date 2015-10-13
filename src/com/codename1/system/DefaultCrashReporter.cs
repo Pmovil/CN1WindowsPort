@@ -20,7 +20,9 @@ private static global::java.lang.String _fcheckboxText;
 
 public static global::System.Object getErrorText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getErrorText()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.system.DefaultCrashReporter._ferrorText;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getErrorText()]
@@ -28,7 +30,9 @@ public static global::System.Object getErrorText(){
 
 public static void setErrorText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void setErrorText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.system.DefaultCrashReporter._ferrorText = (global::java.lang.String) _r0_o;
     return;
@@ -37,7 +41,9 @@ public static void setErrorText(global::java.lang.String n1){
 
 public static global::System.Object getSendButtonText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getSendButtonText()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.system.DefaultCrashReporter._fsendButtonText;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getSendButtonText()]
@@ -45,7 +51,9 @@ public static global::System.Object getSendButtonText(){
 
 public static void setSendButtonText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void setSendButtonText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.system.DefaultCrashReporter._fsendButtonText = (global::java.lang.String) _r0_o;
     return;
@@ -54,7 +62,9 @@ public static void setSendButtonText(global::java.lang.String n1){
 
 public static global::System.Object getDontSendButtonText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getDontSendButtonText()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.system.DefaultCrashReporter._fdontSendButtonText;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getDontSendButtonText()]
@@ -62,7 +72,9 @@ public static global::System.Object getDontSendButtonText(){
 
 public static void setDontSendButtonText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void setDontSendButtonText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.system.DefaultCrashReporter._fdontSendButtonText = (global::java.lang.String) _r0_o;
     return;
@@ -71,7 +83,9 @@ public static void setDontSendButtonText(global::java.lang.String n1){
 
 public static global::System.Object getCheckboxText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getCheckboxText()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.system.DefaultCrashReporter._fcheckboxText;
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: java.lang.String getCheckboxText()]
@@ -79,17 +93,22 @@ public static global::System.Object getCheckboxText(){
 
 public static void setCheckboxText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void setCheckboxText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.system.DefaultCrashReporter._fcheckboxText = (global::java.lang.String) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: void setCheckboxText(java.lang.String)]
 }
 
-new private void @this(){
+private void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = 0;
@@ -100,17 +119,29 @@ new private void @this(){
 
 public static void init(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void init(boolean, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9.i = n1 ? 1 : 0;
     _r10.i = n2;
     _r4.i = 60000;
@@ -177,21 +208,35 @@ public static void init(bool n1, int n2){
 
 public virtual void exception(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void exception(java.lang.Throwable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     // Value=$CN1_pendingCrash
@@ -287,9 +332,11 @@ public virtual void exception(global::java.lang.Throwable n1){
 //XMLVM_END_WRAPPER[com.codename1.system.DefaultCrashReporter: void exception(java.lang.Throwable)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.system.DefaultCrashReporter: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=The application encountered an error, do you wish to report it?
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 44)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 63))}));

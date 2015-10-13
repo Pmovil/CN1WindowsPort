@@ -13,9 +13,13 @@ public global::com.codename1.ui.SideMenuBar _fthis_20;
 
 public void @this(global::com.codename1.ui.SideMenuBar n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void <init>(com.codename1.ui.SideMenuBar, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,7 +33,10 @@ public void @this(global::com.codename1.ui.SideMenuBar n1, global::java.lang.Str
 public override bool shouldSendPointerReleaseToOtherForm(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: boolean shouldSendPointerReleaseToOtherForm()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -38,19 +45,27 @@ public override bool shouldSendPointerReleaseToOtherForm(){
 
 public override void actionCommandImpl(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void actionCommandImpl(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
     _r2.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.SideMenuBar_2CommandWrapper)) ? 1 : 0;
     if (_r2.i == 0) goto label13;
+    _r5_o = _r5_o;
     _r5_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r5_o)._fcmd;
     _r6_o = new global::com.codename1.ui.events.ActionEvent();
     ((global::com.codename1.ui.events.ActionEvent) _r6_o).@this((global::java.lang.Object) _r5_o);
@@ -67,15 +82,23 @@ public override void actionCommandImpl(global::com.codename1.ui.Command n1, glob
 
 public override void sizeChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void sizeChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -105,9 +128,13 @@ public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -133,11 +160,17 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -179,10 +212,15 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
@@ -190,11 +228,18 @@ public override void pointerReleased(int n1, int n2){
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12.i = n1;
     _r13.i = n2;
@@ -319,8 +364,11 @@ public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$8: void keyReleased(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = global::com.codename1.ui.MenuBar._fleftSK;

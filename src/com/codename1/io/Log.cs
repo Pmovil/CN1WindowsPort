@@ -40,8 +40,11 @@ private int _freporting;
 
 public static void setReportingLevel(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setReportingLevel(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o)._freporting = _r1.i;
@@ -53,17 +56,22 @@ public static int getReportingLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: int getReportingLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     _r0.i = ((global::com.codename1.io.Log) _r0_o)._freporting;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.io.Log: int getReportingLevel()]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0.i = 1;
@@ -82,18 +90,31 @@ new public void @this(){
 
 public static long getUniqueDeviceId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: long getUniqueDeviceId()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.l = 0L;
     _r9.l = -1L;
     // Value=UDeviceId__$
@@ -236,16 +257,195 @@ public static long getUniqueDeviceId(){
 public static void sendLog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void sendLog()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r8_o = null;
+    // Value=
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    // Value=cloudServerURL
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 76))}));
+    _r6_o = ((global::com.codename1.ui.Display) _r6_o).getProperty((global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
+    if (_r6_o == null) goto label19;
+    global::com.codename1.io.Log.sendLogLegacy();
+    label18:;
+    return;
+    label19:;
+    try {
+    _r6.i = global::com.codename1.ui.Display.isInitialized() ? 1 : 0;
+    if (_r6.i == 0) goto label18;
+    _r6_o = global::com.codename1.io.Log._finstance;
+    _r6.i = ((global::com.codename1.io.Log) _r6_o)._flogDirty ? 1 : 0;
+    if (_r6.i == 0) goto label18;
+    _r6_o = global::com.codename1.io.Log._finstance;
+    _r7.i = 0;
+    ((global::com.codename1.io.Log) _r6_o)._flogDirty = 0!=_r7.i;
+    _r0.l = global::com.codename1.io.Log.getUniqueDeviceId();
+    _r6.l = 0L;
+    _r6.i = _r0.l > _r6.l ? 1 : (_r0.l == _r6.l ? 0 : -1);
+    if (_r6.i >= 0) goto label63;
+    // Value=Send Log Error
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
+    // Value=Device Not Registered: Sending a log from an unregistered device is impossible
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
+    // Value=OK
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)79)), unchecked((char) unchecked((uint) 75))}));
+    _r9_o = null;
+    global::com.codename1.ui.Dialog.show((global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Throwable) {
+            _ex = ex;
+            goto label57;
+        }
+        throw ex;
+    } // end catch
+    goto label18;
+    label57:;
+    _r6_o = _ex.getJavaException();
+    _ex = null;
+    _r2_o = _r6_o;
+    ((global::java.lang.Throwable) _r2_o).printStackTrace();
+    goto label18;
+    label63:;
+    try {
+    _r4_o = new global::com.codename1.io.ConnectionRequest();
+    ((global::com.codename1.io.ConnectionRequest) _r4_o).@this();
+    _r6.i = 0;
+    ((global::com.codename1.io.ConnectionRequest) _r4_o).setPost(0!=_r6.i);
+    _r3_o = new global::com.codename1.io.MultipartRequest();
+    ((global::com.codename1.io.MultipartRequest) _r3_o).@this();
+    // Value=https://crashreport.codenameone.com/CrashReporterEmail/sendCrashReport
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.io.MultipartRequest) _r3_o).setUrl((global::java.lang.String) _r6_o);
+    _r6_o = global::com.codename1.io.Storage.getInstance();
+    // Value=CN1Log__$
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 36))}));
+    _r6_o = ((global::com.codename1.io.Storage) _r6_o).createInputStream((global::java.lang.String) _r7_o);
+    _r5_o = global::com.codename1.io.Util.readInputStream((global::java.io.InputStream) _r6_o);
+    // Value=i
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105))}));
+    _r7_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r7_o).@this();
+    // Value=
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r7_o = ((global::java.lang.StringBuilder) _r7_o).append((global::java.lang.String) _r8_o);
+    _r7_o = ((global::java.lang.StringBuilder) _r7_o).append((long) _r0.l);
+    _r7_o = ((global::java.lang.StringBuilder) _r7_o).toString();
+    ((global::com.codename1.io.MultipartRequest) _r3_o).addArgument((global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o);
+    // Value=u
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)117))}));
+    _r7_o = global::com.codename1.ui.Display.getInstance();
+    // Value=built_by_user
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
+    // Value=
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r7_o = ((global::com.codename1.ui.Display) _r7_o).getProperty((global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o);
+    ((global::com.codename1.io.MultipartRequest) _r3_o).addArgument((global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o);
+    // Value=p
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112))}));
+    _r7_o = global::com.codename1.ui.Display.getInstance();
+    // Value=package_name
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
+    // Value=
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r7_o = ((global::com.codename1.ui.Display) _r7_o).getProperty((global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o);
+    ((global::com.codename1.io.MultipartRequest) _r3_o).addArgument((global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o);
+    // Value=v
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118))}));
+    _r7_o = global::com.codename1.ui.Display.getInstance();
+    // Value=AppVersion
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
+    // Value=0.1
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)48)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 49))}));
+    _r7_o = ((global::com.codename1.ui.Display) _r7_o).getProperty((global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o);
+    ((global::com.codename1.io.MultipartRequest) _r3_o).addArgument((global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o);
+    // Value=log
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103))}));
+    // Value=text/plain
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.io.MultipartRequest) _r3_o).addData((global::java.lang.String) _r6_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o, (global::java.lang.String) _r7_o);
+    _r6.i = 1;
+    ((global::com.codename1.io.MultipartRequest) _r3_o).setFailSilently(0!=_r6.i);
+    _r6_o = global::com.codename1.io.NetworkManager.getInstance();
+    ((global::com.codename1.io.NetworkManager) _r6_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r3_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Throwable) {
+            _ex = ex;
+            goto label57;
+        }
+        throw ex;
+    } // end catch
+    goto label18;
+//XMLVM_END_WRAPPER[com.codename1.io.Log: void sendLog()]
+}
+
+private static void sendLogLegacy(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void sendLogLegacy()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=
@@ -426,12 +626,14 @@ public static void sendLog(){
         throw ex;
     } // end catch
     goto label8;
-//XMLVM_END_WRAPPER[com.codename1.io.Log: void sendLog()]
+//XMLVM_END_WRAPPER[com.codename1.io.Log: void sendLogLegacy()]
 }
 
 public static void install(global::com.codename1.io.Log n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void install(com.codename1.io.Log)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.io.Log._finstance = (global::com.codename1.io.Log) _r0_o;
     return;
@@ -441,7 +643,10 @@ public static void install(global::com.codename1.io.Log n1){
 public static void p(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void p(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = 1;
     global::com.codename1.io.Log.p((global::java.lang.String) _r1_o, (int) _r0.i);
@@ -451,9 +656,13 @@ public static void p(global::java.lang.String n1){
 
 public static void p(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void p(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = global::com.codename1.io.Log._finstance;
@@ -464,8 +673,11 @@ public static void p(global::java.lang.String n1, int n2){
 
 public static void e(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void e(java.lang.Throwable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o).logThrowable((global::java.lang.Throwable) _r1_o);
@@ -475,15 +687,23 @@ public static void e(global::java.lang.Throwable n1){
 
 public virtual void logThrowable(global::java.lang.Throwable n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void logThrowable(java.lang.Throwable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -510,9 +730,11 @@ public virtual void logThrowable(global::java.lang.Throwable n1){
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.impl.CodenameOneThread)) ? 1 : 0;
     if (_r4.i == 0) goto label72;
     _r0_o = _r2_o;
+    _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r4.i = ((global::com.codename1.impl.CodenameOneThread) _r4_o).hasStackFrame() ? 1 : 0;
     if (_r4.i == 0) goto label72;
+    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.impl.CodenameOneThread) _r2_o).getStack((global::java.lang.Throwable) _r8_o);
     ((global::com.codename1.io.Log) _r7_o).print((global::java.lang.String) _r4_o, (int) _r6.i);
     label72:;
@@ -596,14 +818,20 @@ public virtual void logThrowable(global::java.lang.Throwable n1){
 
 public virtual void print(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void print(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
@@ -701,14 +929,19 @@ public virtual void print(global::java.lang.String n1, int n2){
 
 public virtual global::System.Object createWriter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer createWriter()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -805,8 +1038,11 @@ public virtual global::System.Object createWriter(){
 
 private global::System.Object getWriter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer getWriter()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._foutput;
     if (_r0_o != null) goto label10;
@@ -821,15 +1057,36 @@ private global::System.Object getWriter(){
 public virtual global::System.Object getThreadAndTimeStamp(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getThreadAndTimeStamp()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r10.l = global::java.lang.System.currentTimeMillis();
     _r12.l = ((global::com.codename1.io.Log) _r14_o)._fzeroTime;
@@ -884,8 +1141,11 @@ public virtual global::System.Object getThreadAndTimeStamp(){
 
 public static void setLevel(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setLevel(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1;
     _r0_o = global::com.codename1.io.Log._finstance;
     ((global::com.codename1.io.Log) _r0_o)._flevel = _r1.i;
@@ -897,6 +1157,7 @@ public static int getLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: int getLevel()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     _r0.i = ((global::com.codename1.io.Log) _r0_o)._flevel;
     return _r0.i;
@@ -905,17 +1166,24 @@ public static int getLevel(){
 
 public static global::System.Object getLogContent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getLogContent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
     // Value=
@@ -1031,15 +1299,22 @@ public static global::System.Object getLogContent(){
 
 public static void showLog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void showLog()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
     _r5_o = global::com.codename1.io.Log.getLogContent();
@@ -1094,7 +1369,9 @@ public static void showLog(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: com.codename1.io.Log getInstance()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Log._finstance;
     return (global::com.codename1.io.Log) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Log: com.codename1.io.Log getInstance()]
@@ -1103,7 +1380,10 @@ public static global::System.Object getInstance(){
 public virtual bool isFileWriteEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: boolean isFileWriteEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Log) _r1_o)._ffileWriteEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -1112,8 +1392,11 @@ public virtual bool isFileWriteEnabled(){
 
 public virtual void setFileWriteEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setFileWriteEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.Log) _r0_o)._ffileWriteEnabled = 0!=_r1.i;
@@ -1123,8 +1406,11 @@ public virtual void setFileWriteEnabled(bool n1){
 
 public virtual global::System.Object getFileURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.lang.String getFileURL()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._ffileURL;
     return (global::java.lang.String) _r0_o;
@@ -1133,8 +1419,11 @@ public virtual global::System.Object getFileURL(){
 
 public virtual void setFileURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void setFileURL(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Log) _r0_o)._ffileURL = (global::java.lang.String) _r1_o;
@@ -1144,9 +1433,13 @@ public virtual void setFileURL(global::java.lang.String n1){
 
 public virtual void trackFileSystem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void trackFileSystem()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.io.Util.getImplementation();
     _r1_o = new global::com.codename1.io.Log_23();
@@ -1158,18 +1451,22 @@ public virtual void trackFileSystem(){
 
 public static global::System.Object access_2000(global::com.codename1.io.Log n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: java.io.Writer access$000(com.codename1.io.Log)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.Log) _r1_o)._foutput;
     return (global::java.io.Writer) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.Log: java.io.Writer access$000(com.codename1.io.Log)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Log: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.io.Log();
     ((global::com.codename1.io.Log) _r0_o).@this();
     global::com.codename1.io.Log._finstance = (global::com.codename1.io.Log) _r0_o;

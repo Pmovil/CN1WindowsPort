@@ -9,9 +9,13 @@ private global::com.codename1.maps.Coord _f_1northEast;
 
 public void @this(global::com.codename1.maps.Coord n1, global::com.codename1.maps.Coord n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: void <init>(com.codename1.maps.Coord, com.codename1.maps.Coord)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -24,8 +28,11 @@ public void @this(global::com.codename1.maps.Coord n1, global::com.codename1.map
 
 public virtual global::System.Object getSouthWest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: com.codename1.maps.Coord getSouthWest()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r1_o)._f_1southWest;
     return (global::com.codename1.maps.Coord) _r0_o;
@@ -34,8 +41,11 @@ public virtual global::System.Object getSouthWest(){
 
 public virtual global::System.Object getNorthEast(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: com.codename1.maps.Coord getNorthEast()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r1_o)._f_1northEast;
     return (global::com.codename1.maps.Coord) _r0_o;
@@ -44,9 +54,13 @@ public virtual global::System.Object getNorthEast(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -71,9 +85,15 @@ public virtual double latitudeDifference(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: double latitudeDifference()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r4_o)._f_1northEast;
     _r0.d = ((global::com.codename1.maps.Coord) _r0_o).getLatitude();
@@ -88,9 +108,15 @@ public virtual double longitudeDifference(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: double longitudeDifference()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r4_o)._f_1northEast;
     _r0.d = ((global::com.codename1.maps.Coord) _r0_o).getLongitude();
@@ -104,12 +130,24 @@ public virtual double longitudeDifference(){
 public virtual bool contains(global::com.codename1.maps.Coord n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: boolean contains(com.codename1.maps.Coord)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 0;
@@ -147,14 +185,21 @@ public virtual bool contains(global::com.codename1.maps.Coord n1){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: boolean equals(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -165,6 +210,7 @@ public override bool equals(global::java.lang.Object n1){
     return _r2.i!=0;
     label7:;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = ((global::com.codename1.maps.BoundingBox) _r5_o)._f_1southWest;
     _r3_o = ((global::com.codename1.maps.BoundingBox) _r1_o)._f_1southWest;
@@ -185,11 +231,14 @@ public override bool equals(global::java.lang.Object n1){
 public override int hashCode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: int hashCode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 5;
     _r1.i = _r0.i * 29;
@@ -209,14 +258,32 @@ public static global::System.Object create(global::org.xmlvm._nArrayAdapter<glob
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r13_o).Length;
     if (_r0.i > 0) goto label11;
@@ -272,11 +339,17 @@ public static global::System.Object create(global::org.xmlvm._nArrayAdapter<glob
 
 public static global::System.Object create(global::java.util.Vector n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: com.codename1.maps.BoundingBox create(java.util.Vector)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = n1;
     _r1.i = ((global::java.util.Vector) _r4_o).size();
     if (_r1.i > 0) goto label14;
@@ -296,18 +369,39 @@ public static global::System.Object create(global::java.util.Vector n1){
 
 public virtual global::System.Object extend(global::com.codename1.maps.BoundingBox n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: com.codename1.maps.BoundingBox extend(com.codename1.maps.BoundingBox)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r14_o).getNorthEast();
@@ -346,7 +440,9 @@ public virtual bool projected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.BoundingBox: boolean projected()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.BoundingBox) _r1_o)._f_1southWest;
     _r0.i = ((global::com.codename1.maps.Coord) _r0_o).isProjected() ? 1 : 0;

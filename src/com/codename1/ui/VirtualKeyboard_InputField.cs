@@ -9,8 +9,11 @@ public void @this(global::com.codename1.ui.TextArea n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: void <init>(com.codename1.ui.TextArea)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.TextField) _r1_o).@this();
@@ -26,7 +29,10 @@ public void @this(global::com.codename1.ui.TextArea n1){
 public override bool hasFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: boolean hasFocus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -35,8 +41,11 @@ public override bool hasFocus(){
 
 public override global::System.Object getUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: java.lang.String getUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=VKBTextInput
     _r0_o = new global::java.lang.String();
@@ -51,7 +60,9 @@ public override void deleteChar(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.deleteChar();
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r2_o)._ffield;
@@ -61,6 +72,7 @@ public override void deleteChar(){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label29;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r2_o)._ffield;
+    _r0_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r2_o).getCursorPosition();
     ((global::com.codename1.ui.TextField) _r0_o).setCursorPosition((int) _r1.i);
     label29:;
@@ -72,8 +84,11 @@ public override void setCursorPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: void setCursorPosition(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     base.setCursorPosition((int) _r2.i);
@@ -87,6 +102,7 @@ public override void setCursorPosition(int n1){
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label32;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r1_o)._ffield;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.TextField) _r1_o).setCursorPosition((int) _r2.i);
     label32:;
     return;
@@ -95,9 +111,13 @@ public override void setCursorPosition(int n1){
 
 public override void setText(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: void setText(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     base.setText((global::java.lang.String) _r2_o);
@@ -114,14 +134,18 @@ public override bool validChar(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.VirtualKeyboard$InputField: boolean validChar(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r1_o)._ffield;
     _r0.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.TextField)) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.VirtualKeyboard_2InputField) _r1_o)._ffield;
+    _r1_o = _r1_o;
     _r0.i = ((global::com.codename1.ui.TextField) _r1_o).validChar((global::java.lang.String) _r2_o) ? 1 : 0;
     label14:;
     return _r0.i!=0;

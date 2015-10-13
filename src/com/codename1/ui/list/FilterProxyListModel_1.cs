@@ -15,9 +15,13 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 
 public void @this(global::com.codename1.ui.List n1, global::com.codename1.ui.TextField n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel$1: void <init>(com.codename1.ui.List, com.codename1.ui.TextField)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -30,13 +34,19 @@ public void @this(global::com.codename1.ui.List n1, global::com.codename1.ui.Tex
 
 public virtual void dataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel$1: void dataChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -46,6 +56,7 @@ public virtual void dataChanged(int n1, int n2){
     if (_r1.i == 0) goto label40;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel_21) _r3_o)._fval_2l;
     _r0_o = ((global::com.codename1.ui.List) _r1_o).getModel();
+    _r0_o = _r0_o;
     label18:;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel_21) _r3_o)._fval_2search;
     _r1_o = ((global::com.codename1.ui.TextField) _r1_o).getText();

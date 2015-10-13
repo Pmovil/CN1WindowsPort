@@ -49,6 +49,8 @@ private static global::com.codename1.ui.util.EventDispatcher _fonErrorListeners;
 public static bool isFastScale(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isFastScale()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.services.ImageDownloadService._ffastScale ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isFastScale()]
@@ -57,6 +59,8 @@ public static bool isFastScale(){
 public static void setFastScale(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setFastScale(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.services.ImageDownloadService._ffastScale = 0!=_r0.i;
     return;
@@ -66,6 +70,8 @@ public static void setFastScale(bool n1){
 public static bool isAlwaysRevalidate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isAlwaysRevalidate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.services.ImageDownloadService._falwaysRevalidate ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isAlwaysRevalidate()]
@@ -74,6 +80,8 @@ public static bool isAlwaysRevalidate(){
 public static void setAlwaysRevalidate(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setAlwaysRevalidate(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.services.ImageDownloadService._falwaysRevalidate = 0!=_r0.i;
     return;
@@ -83,6 +91,8 @@ public static void setAlwaysRevalidate(bool n1){
 public static bool isDefaultMaintainAspectRatio(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isDefaultMaintainAspectRatio()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.services.ImageDownloadService._fdefaultMaintainAspectRatio ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isDefaultMaintainAspectRatio()]
@@ -91,6 +101,8 @@ public static bool isDefaultMaintainAspectRatio(){
 public static void setDefaultMaintainAspectRatio(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setDefaultMaintainAspectRatio(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.services.ImageDownloadService._fdefaultMaintainAspectRatio = 0!=_r0.i;
     return;
@@ -100,6 +112,8 @@ public static void setDefaultMaintainAspectRatio(bool n1){
 public static int getDefaultTimeout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: int getDefaultTimeout()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.services.ImageDownloadService._fdefaultTimeout;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: int getDefaultTimeout()]
@@ -108,6 +122,8 @@ public static int getDefaultTimeout(){
 public static void setDefaultTimeout(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setDefaultTimeout(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1;
     global::com.codename1.io.services.ImageDownloadService._fdefaultTimeout = _r0.i;
     return;
@@ -116,14 +132,21 @@ public static void setDefaultTimeout(int n1){
 
 public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setEntryInListModel(int, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -133,6 +156,7 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     label6:;
     _r2.i = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetOffset;
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
+    _r0_o = _r0_o;
     _r2.i = global::com.codename1.io.services.ImageDownloadService._ffastScale ? 1 : 0;
     if (_r2.i != 0) goto label30;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftoScale;
@@ -145,6 +169,7 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     ((global::java.util.Map) _r0_o).put((global::java.lang.Object) _r2_o, (global::java.lang.Object) _r6_o);
     _r2.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.list.DefaultListModel)) ? 1 : 0;
     if (_r2.i == 0) goto label46;
+    _r1_o = _r1_o;
     _r2.i = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetOffset;
     ((global::com.codename1.ui.list.DefaultListModel) _r1_o).setItem((int) _r2.i, (global::java.lang.Object) _r0_o);
     label46:;
@@ -154,10 +179,12 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.List)) ? 1 : 0;
     if (_r2.i == 0) goto label62;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetList;
+    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.List) _r2_o).getModel();
     goto label6;
     label62:;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._ftargetList;
+    _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.list.ContainerList) _r2_o).getModel();
     goto label6;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: void setEntryInListModel(int, com.codename1.ui.Image)]
@@ -166,14 +193,24 @@ public virtual void setEntryInListModel(int n1, global::com.codename1.ui.Image n
 private static global::System.Object scaleImage(global::com.codename1.ui.Image n1, global::com.codename1.ui.geom.Dimension n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.Image scaleImage(com.codename1.ui.Image, com.codename1.ui.geom.Dimension, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8.i = n3 ? 1 : 0;
@@ -211,9 +248,14 @@ private static global::System.Object scaleImage(global::com.codename1.ui.Image n
 public void @this(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <init>(java.lang.String, com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -231,9 +273,14 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.events.A
 private void init(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void init(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.io.services.ImageDownloadService) _r2_o).setUrl((global::java.lang.String) _r3_o);
@@ -252,11 +299,18 @@ private void init(global::java.lang.String n1){
 public void @this(global::java.lang.String n1, global::com.codename1.ui.Component n2, int n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <init>(java.lang.String, com.codename1.ui.Component, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -278,11 +332,18 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Componen
 public void @this(global::java.lang.String n1, global::com.codename1.ui.List n2, int n3, global::java.lang.String n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <init>(java.lang.String, com.codename1.ui.List, int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -304,9 +365,14 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.List n2,
 public void @this(global::java.lang.String n1, global::com.codename1.ui.Label n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <init>(java.lang.String, com.codename1.ui.Label)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -323,19 +389,33 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Label n2
 
 public static void createImageToFileSystem(global::java.lang.String n1, global::com.codename1.ui.List n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.geom.Dimension n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToFileSystem(java.lang.String, com.codename1.ui.List, int, java.lang.String, java.lang.String, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9.i = n3;
@@ -356,23 +436,41 @@ public static void createImageToFileSystem(global::java.lang.String n1, global::
 
 public static void createImageToFileSystem(global::java.lang.String n1, global::com.codename1.ui.Component n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.geom.Dimension n6, sbyte n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToFileSystem(java.lang.String, com.codename1.ui.Component, int, java.lang.String, java.lang.String, com.codename1.ui.geom.Dimension, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12.i = n3;
@@ -397,23 +495,41 @@ public static void createImageToFileSystem(global::java.lang.String n1, global::
 
 public static void createImageToFileSystem(global::java.lang.String n1, global::com.codename1.ui.Component n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.Image n6, sbyte n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToFileSystem(java.lang.String, com.codename1.ui.Component, int, java.lang.String, java.lang.String, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12.i = n3;
@@ -438,24 +554,43 @@ public static void createImageToFileSystem(global::java.lang.String n1, global::
 
 public static void createImageToFileSystem(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.list.ListModel n3, int n4, global::java.lang.String n5, global::java.lang.String n6, global::com.codename1.ui.Image n7, sbyte n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToFileSystem(java.lang.String, com.codename1.ui.Component, com.codename1.ui.list.ListModel, int, java.lang.String, java.lang.String, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = n1;
     _r11_o = n2;
     _r12_o = n3;
@@ -485,36 +620,57 @@ private static void createImageToFileSystem(global::java.lang.String n1, global:
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r17_o = n1;
     _r18_o = n2;
     _r19_o = n3;
@@ -605,10 +761,15 @@ private static void createImageToFileSystem(global::java.lang.String n1, global:
 
 public override void handleException(global::java.lang.Exception n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void handleException(java.lang.Exception)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = global::com.codename1.io.services.ImageDownloadService._fonErrorListeners;
@@ -624,11 +785,17 @@ public override void handleException(global::java.lang.Exception n1){
 
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void handleErrorResponseCode(int, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -645,8 +812,11 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public static void addErrorListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void addErrorListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.services.ImageDownloadService._fonErrorListeners;
     if (_r0_o != null) goto label11;
@@ -664,7 +834,9 @@ public static void removeErrorListener(global::com.codename1.ui.events.ActionLis
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void removeErrorListener(com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.services.ImageDownloadService._fonErrorListeners;
     if (_r0_o != null) goto label5;
@@ -684,19 +856,33 @@ public static void removeErrorListener(global::com.codename1.ui.events.ActionLis
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.List n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.geom.Dimension n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.List, int, java.lang.String, java.lang.String, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = n1;
     _r8_o = n2;
     _r9.i = n3;
@@ -717,24 +903,43 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Component n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.geom.Dimension n6, sbyte n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Component, int, java.lang.String, java.lang.String, com.codename1.ui.geom.Dimension, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12_o = n2;
     _r13.i = n3;
@@ -760,24 +965,43 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Component n2, int n3, global::java.lang.String n4, global::java.lang.String n5, global::com.codename1.ui.Image n6, sbyte n7){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Component, int, java.lang.String, java.lang.String, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12_o = n2;
     _r13.i = n3;
@@ -803,25 +1027,45 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.list.ListModel n3, int n4, global::java.lang.String n5, global::java.lang.String n6, global::com.codename1.ui.Image n7, sbyte n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Component, com.codename1.ui.list.ListModel, int, java.lang.String, java.lang.String, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12_o = n2;
     _r13_o = n3;
@@ -852,38 +1096,61 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r18_o = n1;
     _r19_o = n2;
     _r20_o = n3;
@@ -980,10 +1247,16 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::java.lang.String n3, global::com.codename1.ui.geom.Dimension n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Label, java.lang.String, com.codename1.ui.geom.Dimension)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -996,19 +1269,33 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::java.lang.String n3, global::com.codename1.ui.geom.Dimension n4, sbyte n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Label, java.lang.String, com.codename1.ui.geom.Dimension, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10_o = n3;
@@ -1029,19 +1316,33 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::java.lang.String n3, global::com.codename1.ui.Image n4, sbyte n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.Label, java.lang.String, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9_o = n2;
     _r10_o = n3;
@@ -1072,26 +1373,39 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = n1;
     _r14_o = n2;
     _r15_o = n3;
@@ -1135,6 +1449,7 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
     _r2.i = _r13.i;
     _r13_o = global::com.codename1.io.services.ImageDownloadService.scaleImage((global::com.codename1.ui.Image) _r0_o, (global::com.codename1.ui.geom.Dimension) _r1_o, 0!=_r2.i);
     label69:;
+    _r13_o = _r13_o;
     _r15_o = global::com.codename1.ui.Display.getInstance();
     _r16_o = new global::com.codename1.io.services.ImageDownloadService_24();
     _r0_o = _r16_o;
@@ -1189,19 +1504,31 @@ private static void createImageToStorage(global::java.lang.String n1, global::co
 
 public static void createImageToFileSystem(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToFileSystem(java.lang.String, com.codename1.ui.events.ActionListener, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r11_o = n3;
@@ -1234,9 +1561,14 @@ public static void createImageToFileSystem(global::java.lang.String n1, global::
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.events.ActionListener, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3_o = n3;
@@ -1248,19 +1580,33 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 public static void createImageToStorage(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2, global::java.lang.String n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void createImageToStorage(java.lang.String, com.codename1.ui.events.ActionListener, java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = n1;
     _r10_o = n2;
     _r11_o = n3;
@@ -1293,24 +1639,41 @@ public static void createImageToStorage(global::java.lang.String n1, global::com
 
 private static global::System.Object cacheImage(global::java.lang.String n1, bool n2, global::java.lang.String n3, global::com.codename1.ui.geom.Dimension n4, global::com.codename1.ui.Image n5, bool n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.Image cacheImage(java.lang.String, boolean, java.lang.String, com.codename1.ui.geom.Dimension, com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = n1;
     _r12.i = n2 ? 1 : 0;
     _r13_o = n3;
@@ -1391,6 +1754,7 @@ private static global::System.Object cacheImage(global::java.lang.String n1, boo
     _r6_o = global::com.codename1.components.StorageImage.create((global::java.lang.String) _r11_o, (int) _r7.i, (int) _r4.i, 0!=_r12.i);
     label144:;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r8_o = _r0_o;
     _r8_o = ((global::com.codename1.components.StorageImage) _r8_o).getImageData();
     if (_r8_o != null) goto label94;
@@ -1407,15 +1771,21 @@ private static global::System.Object cacheImage(global::java.lang.String n1, boo
 
 public override void postResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void postResponse()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     // Value=$imgDSReval
     _r5_o = new global::java.lang.String();
@@ -1506,18 +1876,28 @@ public override void postResponse(){
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void readResponse(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r4.i = -1;
@@ -1584,8 +1964,11 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public virtual global::System.Object getResult(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.EncodedImage getResult()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fresult;
     return (global::com.codename1.ui.EncodedImage) _r0_o;
@@ -1595,7 +1978,10 @@ public virtual global::System.Object getResult(){
 public virtual bool isDownloadToStyles(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isDownloadToStyles()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fdownloadToStyles ? 1 : 0;
     return _r0.i!=0;
@@ -1604,8 +1990,11 @@ public virtual bool isDownloadToStyles(){
 
 public virtual void setDownloadToStyles(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setDownloadToStyles(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.services.ImageDownloadService) _r0_o)._fdownloadToStyles = 0!=_r1.i;
@@ -1615,20 +2004,27 @@ public virtual void setDownloadToStyles(bool n1){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean equals(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.io.services.ImageDownloadService)) ? 1 : 0;
     if (_r1.i == 0) goto label26;
     _r0_o = _r4_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fcacheId;
     if (_r1_o == null) goto label26;
+    _r4_o = _r4_o;
     _r1_o = ((global::com.codename1.io.services.ImageDownloadService) _r4_o)._fcacheId;
     _r2_o = ((global::com.codename1.io.services.ImageDownloadService) _r3_o)._fcacheId;
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
@@ -1645,7 +2041,10 @@ public override bool equals(global::java.lang.Object n1){
 public virtual bool isMaintainAspectRatio(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: boolean isMaintainAspectRatio()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fmaintainAspectRatio ? 1 : 0;
     return _r0.i!=0;
@@ -1654,8 +2053,11 @@ public virtual bool isMaintainAspectRatio(){
 
 public virtual void setMaintainAspectRatio(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void setMaintainAspectRatio(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.services.ImageDownloadService) _r0_o)._fmaintainAspectRatio = 0!=_r1.i;
@@ -1665,16 +2067,27 @@ public virtual void setMaintainAspectRatio(bool n1){
 
 public static void access_2000(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.list.ListModel n3, int n4, global::java.lang.String n5, global::java.lang.String n6, global::com.codename1.ui.geom.Dimension n7, sbyte n8, global::com.codename1.ui.Image n9, bool n10){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void access$000(java.lang.String, com.codename1.ui.Component, com.codename1.ui.list.ListModel, int, java.lang.String, java.lang.String, com.codename1.ui.geom.Dimension, byte, com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1692,17 +2105,29 @@ public static void access_2000(global::java.lang.String n1, global::com.codename
 
 public static void access_2100(global::java.lang.String n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.list.ListModel n3, int n4, global::java.lang.String n5, global::java.lang.String n6, bool n7, global::com.codename1.ui.geom.Dimension n8, sbyte n9, global::com.codename1.ui.Image n10, bool n11){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void access$100(java.lang.String, com.codename1.ui.Component, com.codename1.ui.list.ListModel, int, java.lang.String, java.lang.String, boolean, com.codename1.ui.geom.Dimension, byte, com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1721,14 +2146,23 @@ public static void access_2100(global::java.lang.String n1, global::com.codename
 
 public static void access_2200(global::java.lang.String n1, global::com.codename1.ui.Label n2, global::java.lang.String n3, bool n4, global::com.codename1.ui.geom.Dimension n5, sbyte n6, global::com.codename1.ui.Image n7, bool n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void access$200(java.lang.String, com.codename1.ui.Label, java.lang.String, boolean, com.codename1.ui.geom.Dimension, byte, com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2_o = n3;
@@ -1744,17 +2178,22 @@ public static void access_2200(global::java.lang.String n1, global::com.codename
 
 public static global::System.Object access_2300(global::com.codename1.io.services.ImageDownloadService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.Label access$300(com.codename1.io.services.ImageDownloadService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.io.services.ImageDownloadService) _r1_o)._fparentLabel;
     return (global::com.codename1.ui.Label) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.io.services.ImageDownloadService: com.codename1.ui.Label access$300(com.codename1.io.services.ImageDownloadService)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.ImageDownloadService: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = -1;
     global::com.codename1.io.services.ImageDownloadService._fdefaultTimeout = _r0.i;
     _r0.i = 1;

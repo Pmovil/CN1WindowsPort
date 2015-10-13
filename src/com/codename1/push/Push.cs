@@ -12,9 +12,11 @@ static Push() {
 
 public static global::java.lang.String _fGOOGLE_1PUSH_1KEY;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -23,28 +25,47 @@ new public void @this(){
 
 public static bool sendPushMessage(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = n1;
     _r15_o = n2;
     _r16.i = n3 ? 1 : 0;
@@ -90,20 +111,33 @@ public static bool sendPushMessage(global::java.lang.String n1, global::java.lan
 
 public static bool sendPushMessage(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4_o = n2;
     _r5.i = n3 ? 1 : 0;
@@ -131,27 +165,49 @@ public static bool sendPushMessage(global::java.lang.String n1, global::java.lan
 
 public static void sendPushMessageAsync(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = n1;
     _r16_o = n2;
     _r17.i = n3 ? 1 : 0;
@@ -189,18 +245,31 @@ public static void sendPushMessageAsync(global::java.lang.String n1, global::jav
 
 public static void sendPushMessageAsync(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3 ? 1 : 0;
@@ -220,23 +289,37 @@ public static void sendPushMessageAsync(global::java.lang.String n1, global::jav
 
 private static global::System.Object createPushMessage(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: com.codename1.io.ConnectionRequest createPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = n1;
     _r6_o = n2;
     _r7.i = n3 ? 1 : 0;
@@ -364,10 +447,16 @@ private static global::System.Object createPushMessage(global::java.lang.String 
 public static global::System.Object getDeviceKey(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: java.lang.String getDeviceKey()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.l = -1L;
     // Value=push_id
     _r2_o = new global::java.lang.String();
@@ -389,6 +478,584 @@ public static global::System.Object getDeviceKey(){
     _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.push.Push: java.lang.String getDeviceKey()]
+}
+
+public static global::System.Object getPushKey(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: java.lang.String getPushKey()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = null;
+    // Value=push_key
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 121))}));
+    _r0_o = global::com.codename1.io.Preferences.get((global::java.lang.String) _r2_o, (global::java.lang.String) _r4_o);
+    if (_r0_o == null) goto label51;
+    _r2_o = global::com.codename1.ui.Display.getInstance();
+    // Value=cn1_push_prefix
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 120))}));
+    _r1_o = ((global::com.codename1.ui.Display) _r2_o).getProperty((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
+    if (_r1_o == null) goto label51;
+    _r2_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r2_o).@this();
+    // Value=cn1-
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 45))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r1_o);
+    // Value=-
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)45))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r0_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
+    label50:;
+    return (global::java.lang.String) _r2_o;
+    label51:;
+    _r2_o = _r4_o;
+    goto label50;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: java.lang.String getPushKey()]
+}
+
+public static bool sendPushMessage(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, bool n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r12_o = n1;
+    _r13_o = n2;
+    _r14_o = n3;
+    _r15.i = n4 ? 1 : 0;
+    _r16_o = n5;
+    _r17_o = n6;
+    _r18_o = n7;
+    // Value=
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r10.i = 1;
+    _r0.i = 1;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r0.i = 0;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r14_o;
+    _r0_o = _r12_o;
+    _r1_o = _r13_o;
+    _r2.i = _r15.i;
+    _r3_o = _r16_o;
+    _r4_o = _r17_o;
+    _r5_o = _r18_o;
+    _r12_o = global::com.codename1.push.Push.createPushMessage((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o, 0!=_r2.i, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o, (int) _r10.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    _r13_o = global::com.codename1.io.NetworkManager.getInstance();
+    ((global::com.codename1.io.NetworkManager) _r13_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r12_o);
+    _r12.i = ((global::com.codename1.push.Push_2PushConnection) _r12_o)._fsuccessful ? 1 : 0;
+    return _r12.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+}
+
+public static bool sendPushMessage(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, int n7, global::org.xmlvm._nArrayAdapter<global::System.Object> n8){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r12_o = n1;
+    _r13_o = n2;
+    _r14.i = n3 ? 1 : 0;
+    _r15_o = n4;
+    _r16_o = n5;
+    _r17_o = n6;
+    _r18.i = n7;
+    _r19_o = n8;
+    // Value=
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r0_o = _r12_o;
+    _r1_o = _r13_o;
+    _r2.i = _r14.i;
+    _r3_o = _r15_o;
+    _r4_o = _r16_o;
+    _r5_o = _r17_o;
+    _r10.i = _r18.i;
+    _r11_o = _r19_o;
+    _r12_o = global::com.codename1.push.Push.createPushMessage((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o, 0!=_r2.i, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o, (int) _r10.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    _r13_o = global::com.codename1.io.NetworkManager.getInstance();
+    ((global::com.codename1.io.NetworkManager) _r13_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r12_o);
+    _r12.i = ((global::com.codename1.push.Push_2PushConnection) _r12_o)._fsuccessful ? 1 : 0;
+    return _r12.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String[])]
+}
+
+public static bool sendPushMessage(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, bool n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10, global::java.lang.String n11){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r12_o = n1;
+    _r13_o = n2;
+    _r14_o = n3;
+    _r15.i = n4 ? 1 : 0;
+    _r16_o = n5;
+    _r17_o = n6;
+    _r18_o = n7;
+    _r19_o = n8;
+    _r20_o = n9;
+    _r21_o = n10;
+    _r22_o = n11;
+    _r10.i = 1;
+    _r0.i = 1;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r0.i = 0;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r14_o;
+    _r0_o = _r12_o;
+    _r1_o = _r13_o;
+    _r2.i = _r15.i;
+    _r3_o = _r16_o;
+    _r4_o = _r17_o;
+    _r5_o = _r18_o;
+    _r6_o = _r19_o;
+    _r7_o = _r20_o;
+    _r8_o = _r21_o;
+    _r9_o = _r22_o;
+    _r12_o = global::com.codename1.push.Push.createPushMessage((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o, 0!=_r2.i, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o, (int) _r10.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    _r13_o = global::com.codename1.io.NetworkManager.getInstance();
+    ((global::com.codename1.io.NetworkManager) _r13_o).addToQueueAndWait((global::com.codename1.io.ConnectionRequest) _r12_o);
+    _r12.i = ((global::com.codename1.push.Push_2PushConnection) _r12_o)._fsuccessful ? 1 : 0;
+    return _r12.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: boolean sendPushMessage(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+}
+
+public static void sendPushMessageAsync(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, bool n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r13_o = n1;
+    _r14_o = n2;
+    _r15_o = n3;
+    _r16.i = n4 ? 1 : 0;
+    _r17_o = n5;
+    _r18_o = n6;
+    _r19_o = n7;
+    _r12_o = global::com.codename1.io.NetworkManager.getInstance();
+    // Value=
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r8_o = new global::java.lang.String();
+    ((global::java.lang.String)_r8_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    // Value=
+    _r9_o = new global::java.lang.String();
+    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r10.i = 1;
+    _r0.i = 1;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r0.i = 0;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r15_o;
+    _r0_o = _r13_o;
+    _r1_o = _r14_o;
+    _r2.i = _r16.i;
+    _r3_o = _r17_o;
+    _r4_o = _r18_o;
+    _r5_o = _r19_o;
+    _r13_o = global::com.codename1.push.Push.createPushMessage((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o, 0!=_r2.i, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o, (int) _r10.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    ((global::com.codename1.io.NetworkManager) _r12_o).addToQueue((global::com.codename1.io.ConnectionRequest) _r13_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String)]
+}
+
+public static void sendPushMessageAsync(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, bool n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10, global::java.lang.String n11){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r13_o = n1;
+    _r14_o = n2;
+    _r15_o = n3;
+    _r16.i = n4 ? 1 : 0;
+    _r17_o = n5;
+    _r18_o = n6;
+    _r19_o = n7;
+    _r20_o = n8;
+    _r21_o = n9;
+    _r22_o = n10;
+    _r23_o = n11;
+    _r12_o = global::com.codename1.io.NetworkManager.getInstance();
+    _r10.i = 1;
+    _r0.i = 1;
+    _r11_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
+    _r0.i = 0;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o)[_r0.i] = _r15_o;
+    _r0_o = _r13_o;
+    _r1_o = _r14_o;
+    _r2.i = _r16.i;
+    _r3_o = _r17_o;
+    _r4_o = _r18_o;
+    _r5_o = _r19_o;
+    _r6_o = _r20_o;
+    _r7_o = _r21_o;
+    _r8_o = _r22_o;
+    _r9_o = _r23_o;
+    _r13_o = global::com.codename1.push.Push.createPushMessage((global::java.lang.String) _r0_o, (global::java.lang.String) _r1_o, 0!=_r2.i, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r9_o, (int) _r10.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r11_o);
+    ((global::com.codename1.io.NetworkManager) _r12_o).addToQueue((global::com.codename1.io.ConnectionRequest) _r13_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: void sendPushMessageAsync(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]
+}
+
+private static global::System.Object createPushMessage(global::java.lang.String n1, global::java.lang.String n2, bool n3, global::java.lang.String n4, global::java.lang.String n5, global::java.lang.String n6, global::java.lang.String n7, global::java.lang.String n8, global::java.lang.String n9, global::java.lang.String n10, int n11, global::org.xmlvm._nArrayAdapter<global::System.Object> n12){
+//XMLVM_BEGIN_WRAPPER[com.codename1.push.Push: com.codename1.push.Push$PushConnection createPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4.i = n3 ? 1 : 0;
+    _r5_o = n4;
+    _r6_o = n5;
+    _r7_o = n6;
+    _r8_o = n7;
+    _r9_o = n8;
+    _r10_o = n9;
+    _r11_o = n10;
+    _r12.i = n11;
+    _r13_o = n12;
+    _r0_o = new global::com.codename1.push.Push_2PushConnection();
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).@this();
+    _r1.i = 1;
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).setPost(0!=_r1.i);
+    // Value=https://push.codenameone.com/push/push
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)104)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 47)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).setUrl((global::java.lang.String) _r1_o);
+    // Value=token
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 107)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o);
+    // Value=device
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArguments((global::java.lang.String) _r2_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o);
+    // Value=type
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101))}));
+    _r13_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r13_o).@this();
+    // Value=
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r13_o = ((global::java.lang.StringBuilder) _r13_o).append((global::java.lang.String) _r1_o);
+    _r12_o = ((global::java.lang.StringBuilder) _r13_o).append((int) _r12.i);
+    _r12_o = ((global::java.lang.StringBuilder) _r12_o).toString();
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r12_o);
+    // Value=auth
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r5_o);
+    // Value=certPassword
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r7_o);
+    // Value=cert
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r6_o);
+    // Value=body
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
+    // Value=burl
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 108))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r8_o);
+    // Value=bbAppId
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 100))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r9_o);
+    // Value=bbPass
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 115))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r10_o);
+    // Value=bbPort
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r11_o);
+    if (_r4.i == 0) goto label102;
+    // Value=production
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
+    // Value=true
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
+    label97:;
+    _r2.i = 1;
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).setFailSilently(0!=_r2.i);
+    return (global::com.codename1.push.Push_2PushConnection) _r0_o;
+    label102:;
+    // Value=production
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
+    // Value=false
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101))}));
+    ((global::com.codename1.push.Push_2PushConnection) _r0_o).addArgument((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
+    goto label97;
+//XMLVM_END_WRAPPER[com.codename1.push.Push: com.codename1.push.Push$PushConnection createPushMessage(java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String[])]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.push.Push]

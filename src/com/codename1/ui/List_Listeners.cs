@@ -13,8 +13,11 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 
 private void @this(global::com.codename1.ui.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List$Listeners: void <init>(com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.List_2Listeners) _r0_o)._fthis_20 = (global::com.codename1.ui.List) _r1_o;
@@ -25,10 +28,15 @@ private void @this(global::com.codename1.ui.List n1){
 
 public virtual void dataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List$Listeners: void dataChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -40,10 +48,15 @@ public virtual void dataChanged(int n1, int n2){
 
 public virtual void selectionChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List$Listeners: void selectionChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -57,9 +70,13 @@ public virtual void selectionChanged(int n1, int n2){
 
 public void @this(global::com.codename1.ui.List n1, global::com.codename1.ui.List_21 n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.List$Listeners: void <init>(com.codename1.ui.List, com.codename1.ui.List$1)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

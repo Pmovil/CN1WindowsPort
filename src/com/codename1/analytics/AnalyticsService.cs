@@ -18,9 +18,11 @@ private global::java.lang.String _fdomain;
 
 private static bool _ffailSilently;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -30,6 +32,8 @@ new public void @this(){
 public static bool isFailSilently(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isFailSilently()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.analytics.AnalyticsService._ffailSilently ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isFailSilently()]
@@ -38,6 +42,8 @@ public static bool isFailSilently(){
 public static void setFailSilently(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void setFailSilently(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.analytics.AnalyticsService._ffailSilently = 0!=_r0.i;
     return;
@@ -47,6 +53,8 @@ public static void setFailSilently(bool n1){
 public static bool isAppsMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isAppsMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.analytics.AnalyticsService._fappsMode ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isAppsMode()]
@@ -55,6 +63,8 @@ public static bool isAppsMode(){
 public static void setAppsMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void setAppsMode(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.analytics.AnalyticsService._fappsMode = 0!=_r0.i;
     return;
@@ -65,6 +75,7 @@ public static bool isEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isEnabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.analytics.AnalyticsService._finstance;
     if (_r0_o == null) goto label14;
     _r0_o = global::com.codename1.analytics.AnalyticsService._finstance;
@@ -83,7 +94,9 @@ public virtual bool isAnalyticsEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: boolean isAnalyticsEnabled()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.analytics.AnalyticsService) _r1_o)._fagent;
     if (_r0_o == null) goto label6;
@@ -98,9 +111,13 @@ public virtual bool isAnalyticsEnabled(){
 
 public static void init(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void init(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.analytics.AnalyticsService._finstance;
@@ -119,7 +136,9 @@ public static void init(global::java.lang.String n1, global::java.lang.String n2
 
 public static void init(global::com.codename1.analytics.AnalyticsService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void init(com.codename1.analytics.AnalyticsService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.analytics.AnalyticsService._finstance = (global::com.codename1.analytics.AnalyticsService) _r0_o;
     return;
@@ -128,9 +147,13 @@ public static void init(global::com.codename1.analytics.AnalyticsService n1){
 
 public static void visit(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void visit(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = global::com.codename1.analytics.AnalyticsService._finstance;
@@ -141,20 +164,31 @@ public static void visit(global::java.lang.String n1, global::java.lang.String n
 
 public virtual void visitPage(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void visitPage(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -286,16 +320,25 @@ public virtual void visitPage(global::java.lang.String n1, global::java.lang.Str
 
 public static void sendCrashReport(global::java.lang.Throwable n1, global::java.lang.String n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void sendCrashReport(java.lang.Throwable, java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7_o = n2;
     _r8.i = n3 ? 1 : 0;
@@ -349,11 +392,17 @@ public static void sendCrashReport(global::java.lang.Throwable n1, global::java.
 
 private static global::System.Object GetGARequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: com.codename1.io.ConnectionRequest GetGARequest()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = 1;
     _r0_o = new global::com.codename1.io.ConnectionRequest();
     ((global::com.codename1.io.ConnectionRequest) _r0_o).@this();
@@ -386,9 +435,11 @@ private static global::System.Object GetGARequest(){
 //XMLVM_END_WRAPPER[com.codename1.analytics.AnalyticsService: com.codename1.io.ConnectionRequest GetGARequest()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.analytics.AnalyticsService: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.analytics.AnalyticsService._fappsMode = 0!=_r0.i;
     _r0.i = 1;

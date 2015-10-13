@@ -11,10 +11,13 @@ private global::com.codename1.ui.geom.Dimension _fsize;
 
 private global::com.codename1.ui.geom.GeneralPath _fpath;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::com.codename1.ui.geom.Dimension();
@@ -26,10 +29,15 @@ new public void @this(){
 
 public void @this(int n1, int n2, global::com.codename1.ui.geom.Dimension n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void <init>(int, int, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -44,12 +52,19 @@ public void @this(int n1, int n2, global::com.codename1.ui.geom.Dimension n3){
 
 public void @this(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void <init>(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -68,13 +83,18 @@ public void @this(int n1, int n2, int n3, int n4){
 public void @this(global::com.codename1.ui.geom.Rectangle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void <init>(com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o).getX();
@@ -90,12 +110,19 @@ public void @this(global::com.codename1.ui.geom.Rectangle n1){
 
 public virtual void setBounds(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void setBounds(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -117,7 +144,9 @@ public virtual int getWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: int getWidth()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fsize;
     _r0.i = ((global::com.codename1.ui.geom.Dimension) _r0_o).getWidth();
@@ -127,9 +156,13 @@ public virtual int getWidth(){
 
 public virtual void setWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void setWidth(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fsize;
@@ -142,9 +175,13 @@ public virtual void setWidth(int n1){
 
 public virtual void setHeight(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void setHeight(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fsize;
@@ -159,7 +196,9 @@ public virtual int getHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: int getHeight()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fsize;
     _r0.i = ((global::com.codename1.ui.geom.Dimension) _r0_o).getHeight();
@@ -169,8 +208,11 @@ public virtual int getHeight(){
 
 public virtual global::System.Object getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.Dimension getSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fsize;
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -180,7 +222,10 @@ public virtual global::System.Object getSize(){
 public virtual int getX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: int getX()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fx;
     return _r0.i;
@@ -190,7 +235,10 @@ public virtual int getX(){
 public virtual int getY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: int getY()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fy;
     return _r0.i;
@@ -199,10 +247,13 @@ public virtual int getY(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -231,9 +282,13 @@ public override global::System.Object toString(){
 
 public virtual void setX(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void setX(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fx = _r2.i;
@@ -245,9 +300,13 @@ public virtual void setX(int n1){
 
 public virtual void setY(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void setY(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.geom.Rectangle) _r1_o)._fy = _r2.i;
@@ -260,13 +319,18 @@ public virtual void setY(int n1){
 public virtual bool contains(global::com.codename1.ui.geom.Rectangle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean contains(com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o)._fx;
@@ -283,13 +347,20 @@ public virtual bool contains(global::com.codename1.ui.geom.Rectangle n1){
 public virtual bool contains(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean contains(int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -323,15 +394,26 @@ public virtual bool contains(int n1, int n2, int n3, int n4){
 public static bool contains(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean contains(int, int, int, int, int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -360,11 +442,16 @@ public static bool contains(int n1, int n2, int n3, int n4, int n5, int n6, int 
 public virtual bool contains(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean contains(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -394,21 +481,36 @@ public virtual bool contains(int n1, int n2){
 public virtual global::System.Object intersection(int n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.Rectangle intersection(int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11.i = n1;
     _r12.i = n2;
@@ -460,17 +562,28 @@ public virtual global::System.Object intersection(int n1, int n2, int n3, int n4
 public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8, global::com.codename1.ui.geom.Rectangle n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void intersection(int, int, int, int, int, int, int, int, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2.i = n1;
     _r3.i = n2;
     _r4.i = n3;
@@ -482,6 +595,7 @@ public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, 
     _r10_o = n9;
     _r0.i = _r6.i;
     _r1.i = _r7.i;
+    _r2.i = _r2.i;
     _r6.i = _r3.i;
     _r3.i = _r0.i;
     _r7.i = _r3.i + _r8.i;
@@ -492,13 +606,16 @@ public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, 
     _r4.i = _r6.i;
     _r4.i = _r4.i + _r5.i;
     if (_r0.i >= _r2.i) goto label61;
+    _r2.i = _r2.i;
     label17:;
     if (_r1.i >= _r6.i) goto label59;
     _r5.i = _r6.i;
     label20:;
     if (_r7.i <= _r3.i) goto label57;
+    _r3.i = _r3.i;
     label23:;
     if (_r8.i <= _r4.i) goto label55;
+    _r4.i = _r4.i;
     label26:;
     _r3.i = _r3.i - _r2.i;
     _r4.i = _r4.i - _r5.i;
@@ -537,12 +654,16 @@ public virtual global::System.Object intersection(global::com.codename1.ui.geom.
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o)._fx;
@@ -561,17 +682,30 @@ public virtual bool intersects(int n1, int n2, int n3, int n4){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -595,13 +729,18 @@ public virtual bool intersects(int n1, int n2, int n3, int n4){
 public virtual bool intersects(global::com.codename1.ui.geom.Rectangle n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean intersects(com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o).getX();
@@ -618,18 +757,32 @@ public virtual bool intersects(global::com.codename1.ui.geom.Rectangle n1){
 public static bool intersects(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean intersects(int, int, int, int, int, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5.i = n1;
     _r6.i = n2;
     _r7.i = n3;
@@ -673,14 +826,19 @@ public static bool intersects(int n1, int n2, int n3, int n4, int n5, int n6, in
 
 public virtual global::System.Object getPathIterator(global::com.codename1.ui.Transform n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.PathIterator getPathIterator(com.codename1.ui.Transform)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r4_o)._fpath;
@@ -735,8 +893,11 @@ public virtual global::System.Object getPathIterator(global::com.codename1.ui.Tr
 
 public virtual global::System.Object getPathIterator(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.PathIterator getPathIterator()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = null;
     _r0_o = ((global::com.codename1.ui.geom.Rectangle) _r1_o).getPathIterator((global::com.codename1.ui.Transform) _r0_o);
@@ -746,7 +907,9 @@ public virtual global::System.Object getPathIterator(){
 
 public virtual global::System.Object getBounds(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.Rectangle getBounds()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return (global::com.codename1.ui.geom.Rectangle) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.Rectangle getBounds()]
@@ -757,8 +920,12 @@ public virtual global::System.Object getBounds2D(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 4;
     _r0_o = new global::org.xmlvm._nArrayAdapter<float>(new float[_r0.i]);
@@ -785,7 +952,10 @@ public virtual global::System.Object getBounds2D(){
 public virtual bool isRectangle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: boolean isRectangle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;

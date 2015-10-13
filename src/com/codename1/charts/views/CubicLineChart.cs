@@ -10,7 +10,7 @@ static CubicLineChart() {
     _fTYPE.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99))}));
 }
 
-new public static global::java.lang.String _fTYPE;
+public static global::java.lang.String _fTYPE;
 
 private float _fmFirstMultiplier;
 
@@ -18,11 +18,15 @@ private float _fmSecondMultiplier;
 
 private global::com.codename1.charts.compat.PathMeasure _fmPathMeasure;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CubicLineChart: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::com.codename1.charts.views.LineChart) _r2_o).@this();
     _r0.f = (float)0.33D;
@@ -38,11 +42,18 @@ new public void @this(){
 public void @this(global::com.codename1.charts.models.XYMultipleSeriesDataset n1, global::com.codename1.charts.renderers.XYMultipleSeriesRenderer n2, float n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CubicLineChart: void <init>(com.codename1.charts.models.XYMultipleSeriesDataset, com.codename1.charts.renderers.XYMultipleSeriesRenderer, float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -69,33 +80,57 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r25_o = this;
     _r26_o = n1;
     _r27_o = n2;
@@ -107,11 +142,13 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     _r0_o = _r27_o;
     _r1.i = _r3.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     _r23.f = ((global::java.lang.Float) _r3_o).floatValue();
     _r3.i = 1;
     _r0_o = _r27_o;
     _r1.i = _r3.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     _r24.f = ((global::java.lang.Float) _r3_o).floatValue();
     _r0_o = _r21_o;
     _r1.f = _r23.f;
@@ -155,6 +192,7 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     _r0_o = _r27_o;
     _r1.i = _r7.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     _r3.f = ((global::java.lang.Float) _r3_o).floatValue();
     _r0_o = _r22_o;
     _r1.f = _r3.f;
@@ -163,6 +201,7 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     _r0_o = _r27_o;
     _r1.i = _r3.i;
     _r3_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     _r3.f = ((global::java.lang.Float) _r3_o).floatValue();
     _r0_o = _r22_o;
     _r1.f = _r3.f;
@@ -208,11 +247,13 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     _r0_o = _r27_o;
     _r1.i = _r6.i;
     _r25_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r25_o = _r25_o;
     _r3.f = ((global::java.lang.Float) _r25_o).floatValue();
     _r4.i = _r6.i + 1;
     _r0_o = _r27_o;
     _r1.i = _r4.i;
     _r25_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r25_o = _r25_o;
     _r4.f = ((global::java.lang.Float) _r25_o).floatValue();
     _r0_o = _r21_o;
     _r1.f = _r3.f;
@@ -225,11 +266,13 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
     _r0_o = _r27_o;
     _r1.i = _r3.i;
     _r25_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r25_o = _r25_o;
     _r3.f = ((global::java.lang.Float) _r25_o).floatValue();
     _r4.i = 1;
     _r0_o = _r27_o;
     _r1.i = _r4.i;
     _r25_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r25_o = _r25_o;
     _r4.f = ((global::java.lang.Float) _r25_o).floatValue();
     _r0_o = _r21_o;
     _r1.f = _r3.f;
@@ -247,18 +290,32 @@ public override void drawPath(global::com.codename1.charts.compat.Canvas n1, glo
 private void calc(global::java.util.List n1, global::com.codename1.charts.models.Point n2, int n3, int n4, float n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CubicLineChart: void calc(java.util.List, com.codename1.charts.models.Point, int, int, float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -266,14 +323,18 @@ private void calc(global::java.util.List n1, global::com.codename1.charts.models
     _r11.i = n4;
     _r12.f = n5;
     _r7_o = ((global::java.util.List) _r8_o).get((int) _r10.i);
+    _r7_o = _r7_o;
     _r2.f = ((global::java.lang.Float) _r7_o).floatValue();
     _r6.i = _r10.i + 1;
     _r7_o = ((global::java.util.List) _r8_o).get((int) _r6.i);
+    _r7_o = _r7_o;
     _r3.f = ((global::java.lang.Float) _r7_o).floatValue();
     _r7_o = ((global::java.util.List) _r8_o).get((int) _r11.i);
+    _r7_o = _r7_o;
     _r4.f = ((global::java.lang.Float) _r7_o).floatValue();
     _r6.i = _r11.i + 1;
     _r7_o = ((global::java.util.List) _r8_o).get((int) _r6.i);
+    _r7_o = _r7_o;
     _r5.f = ((global::java.lang.Float) _r7_o).floatValue();
     _r0.f = _r4.f - _r2.f;
     _r1.f = _r5.f - _r3.f;
@@ -293,33 +354,61 @@ public override void drawPoints(global::com.codename1.charts.compat.Canvas n1, g
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r22_o = n1;
     _r23_o = n2;
@@ -365,6 +454,7 @@ public override void drawPoints(global::com.codename1.charts.compat.Canvas n1, g
     _r0_o = _r24_o;
     _r1.i = _r15.i;
     _r4_o = ((global::java.util.List) _r0_o).get((int) _r1.i);
+    _r4_o = _r4_o;
     _r4.f = ((global::java.lang.Float) _r4_o).floatValue();
     _r5.i = 0;
     _r5.f = ((global::org.xmlvm._nArrayAdapter<float>) _r11_o)[_r5.i];
@@ -414,8 +504,11 @@ public override void drawPoints(global::com.codename1.charts.compat.Canvas n1, g
 
 public override global::System.Object getChartType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.CubicLineChart: java.lang.String getChartType()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=Cubic
     _r0_o = new global::java.lang.String();

@@ -32,9 +32,14 @@ private void @this(global::com.codename1.ui.layouts.GridBagLayout_2Grid n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r1.i = 512;
@@ -64,10 +69,15 @@ private void @this(global::com.codename1.ui.layouts.GridBagLayout_2Grid n1){
 
 public virtual void validate(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<int> n2, global::org.xmlvm._nArrayAdapter<double> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void validate(com.codename1.ui.layouts.GridBagLayout$ComponentSide[], int[], double[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -83,7 +93,10 @@ public virtual void validate(global::org.xmlvm._nArrayAdapter<global::System.Obj
 public virtual int getMinLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int getMinLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r1_o)._fminLength;
     return _r0.i;
@@ -93,7 +106,10 @@ public virtual int getMinLength(){
 public virtual int getPrefLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int getPrefLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r1_o)._fprefLength;
     return _r0.i;
@@ -103,15 +119,22 @@ public virtual int getPrefLength(){
 public virtual global::System.Object componentDisplaySide(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: com.codename1.ui.layouts.GridBagLayout$Segment componentDisplaySide(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -139,11 +162,20 @@ public virtual global::System.Object componentDisplaySide(int n1, int n2){
 public virtual void fit2Client(global::com.codename1.ui.layouts.GridBagLayout_2Segment n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void fit2Client(com.codename1.ui.layouts.GridBagLayout$Segment)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2Segment) _r6_o)._fstart;
@@ -182,11 +214,16 @@ public virtual void fit2Client(global::com.codename1.ui.layouts.GridBagLayout_2S
 public virtual global::System.Object getLengths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int[] getLengths()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 512;
     _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r3.i]);
@@ -205,8 +242,11 @@ public virtual global::System.Object getLengths(){
 
 public virtual global::System.Object lookupLengths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int[] lookupLengths()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r1_o)._flengths;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -215,8 +255,11 @@ public virtual global::System.Object lookupLengths(){
 
 public virtual global::System.Object lookupMinLengths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int[] lookupMinLengths()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r1_o)._fminLengths;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -225,8 +268,11 @@ public virtual global::System.Object lookupMinLengths(){
 
 public virtual global::System.Object lookupPrefLengths(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int[] lookupPrefLengths()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r1_o)._fprefLengths;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -236,11 +282,18 @@ public virtual global::System.Object lookupPrefLengths(){
 public virtual global::System.Object getWeights(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: double[] getWeights()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 512;
     _r1_o = new global::org.xmlvm._nArrayAdapter<double>(new double[_r4.i]);
@@ -262,7 +315,10 @@ public virtual int getOrigin(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r2_o)._fcoordinates;
     _r1.i = 0;
@@ -274,13 +330,18 @@ public virtual int getOrigin(){
 public virtual int location(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int location(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 511;
@@ -324,13 +385,18 @@ public virtual int location(int n1){
 private void calculateIntegrals(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void calculateIntegrals()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0.i = 0;
     label1:;
@@ -380,16 +446,26 @@ private void calculateIntegrals(){
 private void applyOverrides(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<double> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void applyOverrides(int[], double[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -452,67 +528,81 @@ private void spreadComponents(global::org.xmlvm._nArrayAdapter<global::System.Ob
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
-    global::System.Object _r14_o = null;
-    _r13_o = this;
-    _r14_o = n1;
-    _r12.i = 1;
-    _r7_o = _r14_o;
-    _r11.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    _r9.i = 0;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r12_o = this;
+    _r13_o = n1;
+    _r11.i = 1;
+    _r10.i = 0;
+    _r6.i = ((global::org.xmlvm._nIArray) _r13_o).Length;
+    _r9.i = _r10.i;
     label4:;
-    if (_r9.i >= _r11.i) goto label37;
-    _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r9.i];
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridLength;
-    if (_r0.i != _r12.i) goto label34;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstart_1inset;
-    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fend_1inset;
-    _r10.i = _r0.i + _r1.i;
-    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fminLength;
-    _r2.i = _r0.i + _r10.i;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fprefLength;
-    _r3.i = _r0.i + _r10.i;
-    _r4.d = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fweight;
-    _r0_o = _r13_o;
+    if (_r9.i >= _r6.i) goto label38;
+    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o)[_r9.i];
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fgridLength;
+    if (_r0.i != _r11.i) goto label34;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fstart_1inset;
+    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fend_1inset;
+    _r8.i = _r0.i + _r1.i;
+    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fgridStart;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fminLength;
+    _r2.i = _r0.i + _r8.i;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fprefLength;
+    _r3.i = _r0.i + _r8.i;
+    _r4.d = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fweight;
+    _r0_o = _r12_o;
     ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r0_o).spreadUnicellularComponent((int) _r1.i, (int) _r2.i, (int) _r3.i, (double) _r4.d);
     label34:;
-    _r9.i = _r9.i + 1;
+    _r0.i = _r9.i + 1;
+    _r9.i = _r0.i;
     goto label4;
-    label37:;
-    _r7_o = _r14_o;
-    _r11.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    _r9.i = 0;
-    label40:;
-    if (_r9.i >= _r11.i) goto label75;
-    _r8_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r9.i];
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridLength;
-    if (_r0.i <= _r12.i) goto label72;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstart_1inset;
-    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fend_1inset;
-    _r10.i = _r0.i + _r1.i;
-    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart;
-    _r2.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridLength;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fminLength;
-    _r3.i = _r0.i + _r10.i;
-    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fprefLength;
-    _r4.i = _r0.i + _r10.i;
-    _r5.d = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fweight;
-    _r0_o = _r13_o;
+    label38:;
+    _r9.i = ((global::org.xmlvm._nIArray) _r13_o).Length;
+    label39:;
+    if (_r10.i >= _r9.i) goto label75;
+    _r7_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r13_o)[_r10.i];
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fgridLength;
+    if (_r0.i <= _r11.i) goto label71;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fstart_1inset;
+    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fend_1inset;
+    _r8.i = _r0.i + _r1.i;
+    _r1.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fgridStart;
+    _r2.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fgridLength;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fminLength;
+    _r3.i = _r0.i + _r8.i;
+    _r0.i = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fprefLength;
+    _r4.i = _r0.i + _r8.i;
+    _r5.d = ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r7_o)._fweight;
+    _r0_o = _r12_o;
     ((global::com.codename1.ui.layouts.GridBagLayout_2Grid_2GridSide) _r0_o).spreadMulticellularComponent((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i, (double) _r5.d);
-    label72:;
-    _r9.i = _r9.i + 1;
-    goto label40;
+    label71:;
+    _r0.i = _r10.i + 1;
+    _r10.i = _r0.i;
+    goto label39;
     label75:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void spreadComponents(com.codename1.ui.layouts.GridBagLayout$ComponentSide[])]
@@ -520,14 +610,25 @@ private void spreadComponents(global::org.xmlvm._nArrayAdapter<global::System.Ob
 
 private void spreadUnicellularComponent(int n1, int n2, int n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void spreadUnicellularComponent(int, int, int, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -554,18 +655,35 @@ private void spreadUnicellularComponent(int n1, int n2, int n3, double n4){
 
 private void spreadMulticellularComponent(int n1, int n2, int n3, int n4, double n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void spreadMulticellularComponent(int, int, int, int, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -596,10 +714,17 @@ private void spreadMulticellularComponent(int n1, int n2, int n3, int n4, double
 
 private void resetCache(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void resetCache()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.d = 0.0D;
     _r1.i = 0;
@@ -622,21 +747,42 @@ private void resetCache(){
 private void spreadComponentLength(global::org.xmlvm._nArrayAdapter<int> n1, int n2, int n3, int n4, double n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void spreadComponentLength(int[], int, int, int, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13.i = n2;
@@ -693,16 +839,34 @@ private void spreadComponentLength(global::org.xmlvm._nArrayAdapter<int> n1, int
 private double spreadComponentWeight(global::org.xmlvm._nArrayAdapter<double> n1, int n2, int n3, double n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: double spreadComponentWeight(double[], int, int, double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -747,17 +911,30 @@ private double spreadComponentWeight(global::org.xmlvm._nArrayAdapter<double> n1
 private void divideExtraWeightyLength(global::com.codename1.ui.layouts.GridBagLayout_2Segment n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void divideExtraWeightyLength(com.codename1.ui.layouts.GridBagLayout$Segment)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r6.i = ((global::com.codename1.ui.layouts.GridBagLayout_2Segment) _r11_o)._flength;
@@ -806,17 +983,30 @@ private void divideExtraWeightyLength(global::com.codename1.ui.layouts.GridBagLa
 private void divideInsufWeightyLength(global::com.codename1.ui.layouts.GridBagLayout_2Segment n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void divideInsufWeightyLength(com.codename1.ui.layouts.GridBagLayout$Segment)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r6.i = ((global::com.codename1.ui.layouts.GridBagLayout_2Segment) _r11_o)._flength;
@@ -865,13 +1055,18 @@ private void divideInsufWeightyLength(global::com.codename1.ui.layouts.GridBagLa
 private int centerSide(global::com.codename1.ui.layouts.GridBagLayout_2Segment n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: int centerSide(com.codename1.ui.layouts.GridBagLayout$Segment)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 0;
@@ -898,15 +1093,26 @@ private int centerSide(global::com.codename1.ui.layouts.GridBagLayout_2Segment n
 private void divideInsufficientLength(global::com.codename1.ui.layouts.GridBagLayout_2Segment n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void divideInsufficientLength(com.codename1.ui.layouts.GridBagLayout$Segment)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 0;
@@ -953,6 +1159,7 @@ private void divideInsufficientLength(global::com.codename1.ui.layouts.GridBagLa
 private void calculateCoordinates(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void calculateCoordinates(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -960,9 +1167,14 @@ private void calculateCoordinates(int n1){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 1;
@@ -991,9 +1203,13 @@ private void calculateCoordinates(int n1){
 
 public void @this(global::com.codename1.ui.layouts.GridBagLayout_2Grid n1, global::com.codename1.ui.layouts.GridBagLayout_21 n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout$Grid$GridSide: void <init>(com.codename1.ui.layouts.GridBagLayout$Grid, com.codename1.ui.layouts.GridBagLayout$1)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

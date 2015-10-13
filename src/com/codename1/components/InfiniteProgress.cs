@@ -13,11 +13,13 @@ private global::com.codename1.ui.util.WeakHashMap _fcache;
 
 private int _ftintColor;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Component) _r1_o).@this();
     _r0.i = 0;
@@ -37,13 +39,19 @@ new public void @this(){
 
 public virtual global::System.Object showInifiniteBlocking(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: com.codename1.ui.Dialog showInifiniteBlocking()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     // Value=Center
     _r4_o = new global::java.lang.String();
@@ -86,9 +94,13 @@ public virtual global::System.Object showInifiniteBlocking(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initComponent();
     _r0_o = ((global::com.codename1.components.InfiniteProgress) _r2_o)._fanimation;
@@ -108,8 +120,11 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.deinitialize();
     _r0_o = ((global::com.codename1.components.InfiniteProgress) _r1_o).getComponentForm();
@@ -121,8 +136,12 @@ public override void deinitialize(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = base.animate() ? 1 : 0;
     if (_r1.i != 0) goto label12;
@@ -146,7 +165,9 @@ public override bool animate(){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -154,7 +175,9 @@ public override global::System.Object calcPreferredSize(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r3.i = 100;
     _r1_o = ((global::com.codename1.components.InfiniteProgress) _r5_o)._fanimation;
@@ -198,17 +221,25 @@ public override global::System.Object calcPreferredSize(){
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void paint(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     base.paint((global::com.codename1.ui.Graphics) _r8_o);
@@ -218,20 +249,23 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     return;
     label8:;
     _r4.i = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fangle;
-    _r3.i = _r4.i + 16;
-    ((global::com.codename1.components.InfiniteProgress) _r7_o)._fangle = _r3.i;
+    _r4.i = _r4.i + 16;
+    ((global::com.codename1.components.InfiniteProgress) _r7_o)._fangle = _r4.i;
+    _r4.i = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fangle;
+    _r3.i = _r4.i % 360;
     _r2_o = ((global::com.codename1.components.InfiniteProgress) _r7_o).getStyle();
     _r0_o = new global::java.lang.Integer();
     ((global::java.lang.Integer) _r0_o).@this((int) _r3.i);
     _r4_o = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fcache;
     _r1_o = ((global::com.codename1.ui.util.WeakHashMap) _r4_o).get((global::java.lang.Object) _r0_o);
-    if (_r1_o != null) goto label48;
+    _r1_o = _r1_o;
+    if (_r1_o != null) goto label52;
     _r4_o = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fanimation;
     _r1_o = ((global::com.codename1.ui.Image) _r4_o).rotate((int) _r3.i);
     _r4_o = ((global::com.codename1.components.InfiniteProgress) _r7_o)._fcache;
     _r5_o = global::java.lang.Integer.valueOf((int) _r3.i);
     ((global::com.codename1.ui.util.WeakHashMap) _r4_o).put((global::java.lang.Object) _r5_o, (global::java.lang.Object) _r1_o);
-    label48:;
+    label52:;
     _r4.i = ((global::com.codename1.components.InfiniteProgress) _r7_o).getX();
     _r5.i = 1;
     _r5.i = ((global::com.codename1.ui.plaf.Style) _r2_o).getPadding((int) _r5.i);
@@ -247,8 +281,11 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 public virtual global::System.Object getAnimation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: com.codename1.ui.Image getAnimation()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.InfiniteProgress) _r1_o)._fanimation;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -257,8 +294,11 @@ public virtual global::System.Object getAnimation(){
 
 public virtual void setAnimation(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void setAnimation(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.InfiniteProgress) _r0_o)._fanimation = (global::com.codename1.ui.Image) _r1_o;
@@ -271,8 +311,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -290,8 +334,12 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -306,8 +354,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=animation
@@ -328,9 +379,13 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -339,6 +394,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label14;
+    _r3_o = _r3_o;
     ((global::com.codename1.components.InfiniteProgress) _r1_o)._fanimation = (global::com.codename1.ui.Image) _r3_o;
     _r0_o = null;
     label13:;
@@ -352,7 +408,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 public virtual int getTintColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: int getTintColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.InfiniteProgress) _r1_o)._ftintColor;
     return _r0.i;
@@ -361,8 +420,11 @@ public virtual int getTintColor(){
 
 public virtual void setTintColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.InfiniteProgress: void setTintColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.components.InfiniteProgress) _r0_o)._ftintColor = _r1.i;

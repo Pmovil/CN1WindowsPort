@@ -41,11 +41,15 @@ private global::com.codename1.ui.Image _fthumbImage;
 
 private global::java.lang.String _ffullUIID;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     // Value=Slider
     _r1_o = new global::java.lang.String();
@@ -61,16 +65,23 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Slider: void <init>()]
 }
 
-new private void @this(global::java.lang.String n1, global::java.lang.String n2){
+private void @this(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void <init>(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -107,8 +118,11 @@ new private void @this(global::java.lang.String n1, global::java.lang.String n2)
 
 public override void setUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     base.setUIID((global::java.lang.String) _r1_o);
@@ -119,12 +133,19 @@ public override void setUIID(global::java.lang.String n1){
 
 private void initStyles(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void initStyles(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=Full
@@ -163,7 +184,10 @@ private void initStyles(global::java.lang.String n1){
 public override bool isStickyDrag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isStickyDrag()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -174,8 +198,11 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r2_o)._finfinite ? 1 : 0;
     if (_r0.i == 0) goto label27;
@@ -196,9 +223,13 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = ((global::com.codename1.ui.Slider) _r2_o)._finfinite ? 1 : 0;
     if (_r1.i == 0) goto label13;
@@ -213,10 +244,16 @@ public override void deinitialize(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.f = (float)-1.0D;
     _r1.i = ((global::com.codename1.ui.Slider) _r4_o)._finfinite ? 1 : 0;
@@ -269,7 +306,10 @@ public override bool animate(){
 public virtual bool isInfinite(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isInfinite()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._finfinite ? 1 : 0;
     return _r0.i!=0;
@@ -280,8 +320,11 @@ public virtual void setInfinite(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setInfinite(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._finfinite ? 1 : 0;
@@ -303,8 +346,11 @@ public virtual void setInfinite(bool n1){
 
 public static global::System.Object createInfinite(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: com.codename1.ui.Slider createInfinite()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = new global::com.codename1.ui.Slider();
     ((global::com.codename1.ui.Slider) _r0_o).@this();
     _r1.i = 1;
@@ -315,9 +361,13 @@ public static global::System.Object createInfinite(){
 
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void refreshTheme(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     base.refreshTheme(0!=_r2.i);
@@ -339,7 +389,10 @@ public override void refreshTheme(bool n1){
 public virtual int getProgress(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: int getProgress()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fvalue;
     return _r0.i;
@@ -349,8 +402,12 @@ public virtual int getProgress(){
 public virtual void setProgress(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setProgress(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fvalue;
@@ -367,8 +424,11 @@ private void setProgressInternal(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setProgressInternal(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.Slider) _r1_o)._fvalue = _r2.i;
@@ -393,10 +453,15 @@ public virtual global::System.Object formattedValue(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: java.lang.String formattedValue(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     // Value=
@@ -439,7 +504,9 @@ public override global::System.Object getStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: com.codename1.ui.plaf.Style getStyle()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fpaintingFull ? 1 : 0;
     if (_r0.i == 0) goto label25;
@@ -465,13 +532,20 @@ public override global::System.Object getStyle(){
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: com.codename1.ui.geom.Dimension calcPreferredSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r4.i = 88;
     _r5.i = 0;
@@ -572,20 +646,35 @@ public override void paintComponentBackground(global::com.codename1.ui.Graphics 
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
@@ -593,8 +682,12 @@ public override void paintComponentBackground(global::com.codename1.ui.Graphics 
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r22_o = n1;
     base.paintComponentBackground((global::com.codename1.ui.Graphics) _r22_o);
@@ -819,7 +912,10 @@ public override void paintComponentBackground(global::com.codename1.ui.Graphics 
 public virtual bool isVertical(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isVertical()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fvertical ? 1 : 0;
     return _r0.i!=0;
@@ -828,8 +924,11 @@ public virtual bool isVertical(){
 
 public virtual void setVertical(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setVertical(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Slider) _r0_o)._fvertical = 0!=_r1.i;
@@ -840,7 +939,10 @@ public virtual void setVertical(bool n1){
 public virtual bool isEditable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isEditable()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._feditable ? 1 : 0;
     return _r0.i!=0;
@@ -849,8 +951,11 @@ public virtual bool isEditable(){
 
 public virtual void setEditable(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setEditable(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Slider) _r0_o)._feditable = 0!=_r1.i;
@@ -862,13 +967,22 @@ public virtual void setEditable(bool n1){
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -951,14 +1065,24 @@ public override void pointerPressed(int n1, int n2){
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void pointerDragged(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -1056,7 +1180,10 @@ public override void pointerDragged(int n1, int n2){
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void fireClicked()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o).handlesInput() ? 1 : 0;
     if (_r0.i != 0) goto label11;
@@ -1073,7 +1200,10 @@ public override void fireClicked(){
 public override bool isSelectableInteraction(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isSelectableInteraction()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._feditable ? 1 : 0;
     return _r0.i!=0;
@@ -1083,10 +1213,16 @@ public override bool isSelectableInteraction(){
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -1105,8 +1241,11 @@ public override void pointerReleased(int n1, int n2){
 
 public override void keyReleased(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void keyReleased(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     base.keyReleased((int) _r1.i);
@@ -1118,14 +1257,22 @@ public override void keyReleased(int n1){
 public override void keyPressed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void keyPressed(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 1;
@@ -1222,13 +1369,17 @@ public override void keyPressed(int n1){
     if (_r1.i != _r2.i) goto label23;
     ((global::com.codename1.ui.Slider) _r6_o).fireClicked();
     goto label23;
+    label182:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Slider: void keyPressed(int)]
 }
 
 public virtual int getIncrements(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: int getIncrements()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fincrements;
     return _r0.i;
@@ -1237,8 +1388,11 @@ public virtual int getIncrements(){
 
 public virtual void setIncrements(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setIncrements(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Slider) _r0_o)._fincrements = _r1.i;
@@ -1248,10 +1402,15 @@ public virtual void setIncrements(int n1){
 
 private void fireDataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void fireDataChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1263,9 +1422,13 @@ private void fireDataChanged(int n1, int n2){
 
 private void fireActionEventImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void fireActionEventImpl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Slider) _r2_o)._factionListeners;
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
@@ -1277,9 +1440,13 @@ private void fireActionEventImpl(){
 
 public virtual void addDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void addDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Slider) _r1_o)._flisteners;
@@ -1290,9 +1457,13 @@ public virtual void addDataChangedListener(global::com.codename1.ui.events.DataC
 
 public virtual void removeDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void removeDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Slider) _r1_o)._flisteners;
@@ -1303,9 +1474,13 @@ public virtual void removeDataChangedListener(global::com.codename1.ui.events.Da
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void addActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Slider) _r1_o)._factionListeners;
@@ -1316,9 +1491,13 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void removeActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Slider) _r1_o)._factionListeners;
@@ -1330,7 +1509,10 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 public virtual bool isRenderPercentageOnTop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isRenderPercentageOnTop()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._frenderPercentageOnTop ? 1 : 0;
     return _r0.i!=0;
@@ -1339,8 +1521,11 @@ public virtual bool isRenderPercentageOnTop(){
 
 public virtual void setRenderPercentageOnTop(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setRenderPercentageOnTop(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Slider) _r0_o)._frenderPercentageOnTop = 0!=_r1.i;
@@ -1351,7 +1536,10 @@ public virtual void setRenderPercentageOnTop(bool n1){
 public virtual bool isRenderValueOnTop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean isRenderValueOnTop()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._frenderValueOnTop ? 1 : 0;
     return _r0.i!=0;
@@ -1360,8 +1548,11 @@ public virtual bool isRenderValueOnTop(){
 
 public virtual void setRenderValueOnTop(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setRenderValueOnTop(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Slider) _r0_o)._frenderValueOnTop = 0!=_r1.i;
@@ -1372,7 +1563,10 @@ public virtual void setRenderValueOnTop(bool n1){
 public virtual int getMaxValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: int getMaxValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fmaxValue;
     return _r0.i;
@@ -1381,8 +1575,11 @@ public virtual int getMaxValue(){
 
 public virtual void setMaxValue(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setMaxValue(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Slider) _r0_o)._fmaxValue = _r1.i;
@@ -1393,7 +1590,10 @@ public virtual void setMaxValue(int n1){
 public virtual int getMinValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: int getMinValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._fminValue;
     return _r0.i;
@@ -1402,8 +1602,11 @@ public virtual int getMinValue(){
 
 public virtual void setMinValue(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setMinValue(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Slider) _r0_o)._fminValue = _r1.i;
@@ -1413,8 +1616,11 @@ public virtual void setMinValue(int n1){
 
 public virtual global::System.Object getThumbImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: com.codename1.ui.Image getThumbImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Slider) _r1_o)._fthumbImage;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -1423,8 +1629,11 @@ public virtual global::System.Object getThumbImage(){
 
 public virtual void setThumbImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: void setThumbImage(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Slider) _r0_o)._fthumbImage = (global::com.codename1.ui.Image) _r1_o;
@@ -1435,7 +1644,10 @@ public virtual void setThumbImage(global::com.codename1.ui.Image n1){
 public override bool shouldBlockSideSwipe(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Slider: boolean shouldBlockSideSwipe()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Slider) _r1_o)._feditable ? 1 : 0;
     if (_r0.i == 0) goto label10;

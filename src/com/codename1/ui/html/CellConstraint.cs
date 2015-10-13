@@ -15,11 +15,15 @@ public int _falign;
 
 public int _fvalign;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0.i = -1;
@@ -38,9 +42,13 @@ public virtual void setVerticalSpan(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setVerticalSpan(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 1;
@@ -61,9 +69,13 @@ public virtual void setHorizontalSpan(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setHorizontalSpan(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = 1;
@@ -82,8 +94,11 @@ public virtual void setHorizontalSpan(int n1){
 
 public virtual void setWidthPercentage(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setWidthPercentage(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o)._fwidth = _r1.i;
@@ -93,8 +108,11 @@ public virtual void setWidthPercentage(int n1){
 
 public virtual void setHeightPercentage(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setHeightPercentage(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o)._fheight = _r1.i;
@@ -104,8 +122,11 @@ public virtual void setHeightPercentage(int n1){
 
 public virtual void setHorizontalAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setHorizontalAlign(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o)._falign = _r1.i;
@@ -115,8 +136,11 @@ public virtual void setHorizontalAlign(int n1){
 
 public virtual void setVerticalAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.CellConstraint: void setVerticalAlign(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o)._fvalign = _r1.i;

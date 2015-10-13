@@ -20,8 +20,12 @@ public int _fmaxParens;
 public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: void <init>(char[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
@@ -33,9 +37,14 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1){
 public void @this(int n1, global::org.xmlvm._nArrayAdapter<char> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: void <init>(int, char[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -49,9 +58,14 @@ public void @this(int n1, global::org.xmlvm._nArrayAdapter<char> n2){
 public void @this(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: void <init>(char[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -65,12 +79,17 @@ public void @this(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 
 public virtual global::System.Object getInstructions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: char[] getInstructions()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1.i = ((global::com.codename1.util.regex.REProgram) _r4_o)._flenInstruction;
@@ -92,18 +111,30 @@ public virtual global::System.Object getInstructions(){
 public virtual void setInstructions(global::org.xmlvm._nArrayAdapter<char> n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: void setInstructions(char[], int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11.i = n2;
@@ -176,18 +207,23 @@ public virtual void setInstructions(global::org.xmlvm._nArrayAdapter<char> n1, i
     ((global::com.codename1.util.regex.REProgram) _r9_o)._fflags = _r4.i;
     label100:;
     return;
+    label102:;
 //XMLVM_END_WRAPPER[com.codename1.util.regex.REProgram: void setInstructions(char[], int)]
 }
 
 public virtual global::System.Object getPrefix(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.util.regex.REProgram: char[] getPrefix()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 0;
     _r1_o = ((global::com.codename1.util.regex.REProgram) _r4_o)._fprefix;

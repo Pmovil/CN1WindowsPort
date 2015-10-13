@@ -5,12 +5,17 @@ namespace com.codename1.share {
 public class FacebookShare: global::com.codename1.share.ShareService {
 private global::java.lang.String _ftoken;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     // Value=Facebook
     _r0_o = new global::java.lang.String();
@@ -29,8 +34,11 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: void actionPerformed(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = global::com.codename1.facebook.FaceBookAccess.getInstance();
@@ -48,6 +56,7 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
     _r0.i = ((_r0_o != null) && (_r0_o is global::java.lang.String)) ? 1 : 0;
     if (_r0.i == 0) goto label42;
     _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r2_o).getSource();
+    _r0_o = _r0_o;
     ((global::com.codename1.share.FacebookShare) _r1_o)._ftoken = (global::java.lang.String) _r0_o;
     label42:;
     base.actionPerformed((global::com.codename1.ui.events.ActionEvent) _r2_o);
@@ -59,18 +68,31 @@ public override void share(global::java.lang.String n1, global::java.lang.String
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: void share(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r11_o = n2;
@@ -117,9 +139,13 @@ public override void share(global::java.lang.String n1, global::java.lang.String
 
 public override void share(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: void share(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -131,7 +157,10 @@ public override void share(global::java.lang.String n1){
 public override bool canShareImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: boolean canShareImage()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -140,8 +169,11 @@ public override bool canShareImage(){
 
 public static global::System.Object access_2000(global::com.codename1.share.FacebookShare n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.FacebookShare: java.lang.String access$000(com.codename1.share.FacebookShare)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.share.FacebookShare) _r1_o)._ftoken;
     return (global::java.lang.String) _r0_o;

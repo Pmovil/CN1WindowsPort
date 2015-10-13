@@ -33,9 +33,13 @@ public void @this(global::com.codename1.ui.geom.GeneralPath n1, global::com.code
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: void <init>(com.codename1.ui.geom.GeneralPath, com.codename1.ui.geom.GeneralPath)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -53,7 +57,9 @@ public virtual int getWindingRule(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: int getWindingRule()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r1_o)._fp;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r0_o).getWindingRule();
@@ -64,9 +70,12 @@ public virtual int getWindingRule(){
 public virtual bool isDone(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: boolean isDone()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r2_o)._ftypeIndex;
     _r1_o = ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r2_o)._fp;
@@ -84,7 +93,10 @@ public virtual bool isDone(){
 public virtual void next(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: void next()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r1_o)._ftypeIndex;
     _r0.i = _r0.i + 1;
@@ -96,14 +108,20 @@ public virtual void next(){
 public virtual int currentSegment(global::org.xmlvm._nArrayAdapter<double> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: int currentSegment(double[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r3.i = ((global::com.codename1.ui.geom.GeneralPath_2Iterator) _r5_o).isDone() ? 1 : 0;
@@ -144,17 +162,26 @@ public virtual int currentSegment(global::org.xmlvm._nArrayAdapter<double> n1){
 public virtual int currentSegment(global::org.xmlvm._nArrayAdapter<float> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath$Iterator: int currentSegment(float[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r7.i = 1;

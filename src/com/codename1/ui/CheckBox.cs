@@ -9,11 +9,15 @@ private bool _foppositeSide;
 
 private global::com.codename1.ui.util.EventDispatcher _fbindListeners;
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -22,10 +26,13 @@ new public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.CheckBox: void <init>(java.lang.String)]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -35,11 +42,15 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.CheckBox: void <init>()]
 }
 
-new public void @this(global::com.codename1.ui.Image n1){
+public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void <init>(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=
@@ -50,13 +61,17 @@ new public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.CheckBox: void <init>(com.codename1.ui.Image)]
 }
 
-new public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
+public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void <init>(java.lang.String, com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -77,7 +92,10 @@ new public void @this(global::java.lang.String n1, global::com.codename1.ui.Imag
 public override bool isSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: boolean isSelected()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.CheckBox) _r1_o)._fselected ? 1 : 0;
     return _r0.i!=0;
@@ -86,8 +104,11 @@ public override bool isSelected(){
 
 public virtual void setSelected(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void setSelected(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.CheckBox) _r0_o)._fselected = 0!=_r1.i;
@@ -99,9 +120,14 @@ public virtual void setSelected(bool n1){
 public override void released(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void released(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -122,12 +148,19 @@ public override void fireActionEvent(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void fireActionEvent(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6.i = n2;
@@ -164,8 +197,11 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.CheckBox) _r1_o).isToggle() ? 1 : 0;
@@ -185,8 +221,11 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.CheckBox) _r1_o).getUIManager();
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
@@ -197,10 +236,13 @@ public override global::System.Object calcPreferredSize(){
 
 public override global::System.Object paramString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: java.lang.String paramString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -219,7 +261,9 @@ public override global::System.Object paramString(){
 
 public override void initComponentImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void initComponentImpl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.initComponentImpl();
     return;
@@ -228,11 +272,15 @@ public override void initComponentImpl(){
 
 private void updateSide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void updateSide()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.CheckBox) _r3_o).getUIManager();
     // Value=checkBoxOppositeSideBool
@@ -249,8 +297,11 @@ private void updateSide(){
 
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void refreshTheme(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     base.refreshTheme(0!=_r1.i);
@@ -262,14 +313,20 @@ public override void refreshTheme(bool n1){
 public override int getAvaliableSpaceForText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: int getAvaliableSpaceForText()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r3.i = ((global::com.codename1.ui.CheckBox) _r6_o).isToggle() ? 1 : 0;
     if (_r3.i == 0) goto label11;
@@ -281,6 +338,7 @@ public override int getAvaliableSpaceForText(){
     _r1_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o).getLookAndFeel();
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.plaf.DefaultLookAndFeel)) ? 1 : 0;
     if (_r3.i == 0) goto label54;
+    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r1_o).getCheckBoxImages();
     if (_r2_o == null) goto label54;
     _r3.i = ((global::com.codename1.ui.CheckBox) _r6_o).isSelected() ? 1 : 0;
@@ -310,7 +368,10 @@ public override int getAvaliableSpaceForText(){
 public override bool isOppositeSide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: boolean isOppositeSide()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.CheckBox) _r1_o)._foppositeSide ? 1 : 0;
     return _r0.i!=0;
@@ -319,8 +380,11 @@ public override bool isOppositeSide(){
 
 public virtual void setOppositeSide(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void setOppositeSide(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.CheckBox) _r0_o)._foppositeSide = 0!=_r1.i;
@@ -333,8 +397,12 @@ public override global::System.Object getBindablePropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -352,8 +420,12 @@ public override global::System.Object getBindablePropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -368,9 +440,13 @@ public override void bindProperty(global::java.lang.String n1, global::com.coden
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void bindProperty(java.lang.String, com.codename1.cloud.BindTarget)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -399,9 +475,13 @@ public override void unbindProperty(global::java.lang.String n1, global::com.cod
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void unbindProperty(java.lang.String, com.codename1.cloud.BindTarget)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -433,8 +513,11 @@ public override global::System.Object getBoundPropertyValue(global::java.lang.St
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: java.lang.Object getBoundPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=selected
@@ -460,9 +543,13 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.CheckBox: void setBoundPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -472,6 +559,7 @@ public override void setBoundPropertyValue(global::java.lang.String n1, global::
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label25;
     if (_r3_o == null) goto label23;
+    _r3_o = _r3_o;
     _r0.i = ((global::java.lang.Boolean) _r3_o).booleanValue() ? 1 : 0;
     if (_r0.i == 0) goto label23;
     _r0.i = 1;
