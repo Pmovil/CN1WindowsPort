@@ -11,9 +11,13 @@ public global::java.lang.Class _fval_2scClass;
 
 public void @this(int n1, global::java.lang.Class n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$1Listener: void <init>(int, java.lang.Class)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
@@ -26,16 +30,21 @@ public void @this(int n1, global::java.lang.Class n2){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$1Listener: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -48,6 +57,7 @@ public virtual void run(){
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).listenSocket((int) _r4.i);
     _r3_o = ((global::com.codename1.io.Socket_21Listener) _r7_o)._fval_2scClass;
     _r2_o = ((global::java.lang.Class) _r3_o).newInstance();
+    _r2_o = _r2_o;
     if (_r0_o == null) goto label72;
     _r3.i = 1;
     ((global::com.codename1.io.SocketConnection) _r2_o).setConnected(0!=_r3.i);
@@ -107,7 +117,10 @@ public virtual void run(){
 public virtual void stop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Socket$1Listener: void stop()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.io.Socket_21Listener) _r1_o)._fstopped = 0!=_r0.i;

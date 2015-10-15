@@ -13,8 +13,11 @@ public global::com.codename1.cloud.CloudStorage _fthis_20;
 
 public void @this(global::com.codename1.cloud.CloudStorage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$RefreshConnection: void <init>(com.codename1.cloud.CloudStorage)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.cloud.CloudStorage_2RefreshConnection) _r0_o)._fthis_20 = (global::com.codename1.cloud.CloudStorage) _r1_o;
@@ -27,9 +30,13 @@ public override void postResponse(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$RefreshConnection: void postResponse()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.cloud.CloudStorage_2RefreshConnection) _r3_o)._fresponse;
     if (_r0_o == null) goto label20;
@@ -55,9 +62,14 @@ public override void postResponse(){
 public override void handleErrorResponseCode(int n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$RefreshConnection: void handleErrorResponseCode(int, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -69,14 +81,21 @@ public override void handleErrorResponseCode(int n1, global::java.lang.String n2
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.cloud.CloudStorage$RefreshConnection: void readResponse(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
@@ -98,6 +117,7 @@ public override void readResponse(global::java.io.InputStream n1){
     _r3_o = ((global::com.codename1.cloud.CloudStorage_2RefreshConnection) _r6_o)._fobjects;
     _r4_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r2.i];
     _r3_o = global::com.codename1.io.Util.readObject((global::java.io.DataInputStream) _r0_o);
+    _r3_o = _r3_o;
     ((global::com.codename1.cloud.CloudObject) _r4_o).setValues((global::java.util.Hashtable) _r3_o);
     }
     catch (global::System.Exception e) {

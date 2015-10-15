@@ -3,9 +3,13 @@
 using org.xmlvm;
 namespace com.codename1.ui.html {
 public class HTMLComponent_2HTMLBullet: global::com.codename1.ui.html.HTMLListItem {
+private static int _fBULLET_1NONE = 0;
 
+private static int _fBULLET_1DISC = 1;
 
+private static int _fBULLET_1CIRCLE = 2;
 
+private static int _fBULLET_1SQUARE = 3;
 
 public int _flevel;
 
@@ -19,14 +23,23 @@ public global::com.codename1.ui.html.HTMLComponent _fthis_20;
 
 public void @this(global::com.codename1.ui.html.HTMLComponent n1, int n2, int n3, int n4, global::com.codename1.ui.html.HTMLComponent n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent$HTMLBullet: void <init>(com.codename1.ui.html.HTMLComponent, int, int, int, com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -50,8 +63,12 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1, int n2, int n3
 public override void setStyleType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent$HTMLBullet: void setStyleType(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = -1;
@@ -67,10 +84,15 @@ public override void setStyleType(int n1){
 
 public override void setImage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLComponent$HTMLBullet: void setImage(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o == null) goto label17;
@@ -89,13 +111,22 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 360;
@@ -170,8 +201,12 @@ public override global::System.Object calcPreferredSize(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLComponent_2HTMLBullet) _r3_o).getIcon();
     if (_r0_o == null) goto label11;

@@ -7,13 +7,15 @@ private global::java.util.ArrayList _fcList;
 
 private int _fcurIx;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     ((global::java.lang.Object) _r2_o).@this();
     _r0_o = new global::java.util.ArrayList();
@@ -32,61 +34,67 @@ new public void @this(){
 
 public virtual global::System.Object getConstaints(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.DimConstraint[] getConstaints()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.AC) _r2_o)._fcList;
     _r1_o = ((global::com.codename1.ui.layouts.mig.AC) _r2_o)._fcList;
     _r1.i = ((global::java.util.ArrayList) _r1_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r1.i]);
     _r2_o = ((global::java.util.ArrayList) _r0_o).toArray((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
+    _r2_o = _r2_o;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.DimConstraint[] getConstaints()]
 }
 
 public virtual void setConstaints(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: void setConstaints(com.codename1.ui.layouts.mig.DimConstraint[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::System.Object _r6_o = null;
-    global::System.Object _r7_o = null;
-    _r6_o = this;
-    _r7_o = n1;
-    _r5.i = 1;
-    if (_r7_o == null) goto label6;
-    _r4.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    if (_r4.i >= _r5.i) goto label16;
-    label6:;
-    _r7_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
-    _r4.i = 0;
-    _r5_o = new global::com.codename1.ui.layouts.mig.DimConstraint();
-    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r5_o).@this();
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r7_o)[_r4.i] = _r5_o;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r2.i = 1;
+    _r3.i = 0;
+    if (_r5_o == null) goto label7;
+    _r1.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    if (_r1.i >= _r2.i) goto label16;
+    label7:;
+    _r5_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
+    _r1_o = new global::com.codename1.ui.layouts.mig.DimConstraint();
+    ((global::com.codename1.ui.layouts.mig.DimConstraint) _r1_o).@this();
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r3.i] = _r1_o;
     label16:;
-    _r4_o = ((global::com.codename1.ui.layouts.mig.AC) _r6_o)._fcList;
-    ((global::java.util.ArrayList) _r4_o).clear();
-    _r4_o = ((global::com.codename1.ui.layouts.mig.AC) _r6_o)._fcList;
-    _r5.i = ((global::org.xmlvm._nIArray) _r7_o).Length;
-    ((global::java.util.ArrayList) _r4_o).ensureCapacity((int) _r5.i);
-    _r0_o = _r7_o;
-    _r3.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r2.i = 0;
-    label30:;
-    if (_r2.i >= _r3.i) goto label42;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r4_o = ((global::com.codename1.ui.layouts.mig.AC) _r6_o)._fcList;
-    ((global::java.util.ArrayList) _r4_o).add((global::java.lang.Object) _r1_o);
+    _r1_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
+    ((global::java.util.ArrayList) _r1_o).clear();
+    _r1_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
+    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    ((global::java.util.ArrayList) _r1_o).ensureCapacity((int) _r2.i);
+    _r1.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    _r2.i = _r3.i;
+    label29:;
+    if (_r2.i >= _r1.i) goto label41;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r2.i];
+    _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
+    ((global::java.util.ArrayList) _r3_o).add((global::java.lang.Object) _r0_o);
     _r2.i = _r2.i + 1;
-    goto label30;
-    label42:;
+    goto label29;
+    label41:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.mig.AC: void setConstaints(com.codename1.ui.layouts.mig.DimConstraint[])]
 }
@@ -95,7 +103,9 @@ public virtual int getCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: int getCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.mig.AC) _r1_o)._fcList;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
@@ -105,8 +115,11 @@ public virtual int getCount(){
 
 public virtual global::System.Object count(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC count(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.layouts.mig.AC) _r0_o).makeSize((int) _r1.i);
@@ -119,8 +132,12 @@ public virtual global::System.Object noGrid(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
@@ -135,12 +152,18 @@ public virtual global::System.Object noGrid(){
 public virtual global::System.Object noGrid(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC noGrid(int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -152,6 +175,7 @@ public virtual global::System.Object noGrid(global::org.xmlvm._nArrayAdapter<int
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setNoGrid(0!=_r3.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -162,8 +186,11 @@ public virtual global::System.Object noGrid(global::org.xmlvm._nArrayAdapter<int
 
 public virtual global::System.Object index(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC index(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.layouts.mig.AC) _r0_o).makeSize((int) _r1.i);
@@ -177,8 +204,12 @@ public virtual global::System.Object fill(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 1;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
@@ -193,12 +224,18 @@ public virtual global::System.Object fill(){
 public virtual global::System.Object fill(global::org.xmlvm._nArrayAdapter<int> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC fill(int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -210,6 +247,7 @@ public virtual global::System.Object fill(global::org.xmlvm._nArrayAdapter<int> 
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setFill(0!=_r3.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -220,12 +258,17 @@ public virtual global::System.Object fill(global::org.xmlvm._nArrayAdapter<int> 
 
 public virtual global::System.Object sizeGroup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC sizeGroup()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -245,9 +288,14 @@ public virtual global::System.Object sizeGroup(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 1;
@@ -263,13 +311,20 @@ public virtual global::System.Object sizeGroup(global::java.lang.String n1){
 public virtual global::System.Object sizeGroup(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC sizeGroup(java.lang.String, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -282,6 +337,7 @@ public virtual global::System.Object sizeGroup(global::java.lang.String n1, glob
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setSizeGroup((global::java.lang.String) _r5_o);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -295,9 +351,14 @@ public virtual global::System.Object size(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 1;
@@ -312,15 +373,23 @@ public virtual global::System.Object size(global::java.lang.String n1){
 
 public virtual global::System.Object size(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC size(java.lang.String, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -335,6 +404,7 @@ public virtual global::System.Object size(global::java.lang.String n1, global::o
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setSize((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
     _r1.i = _r1.i + -1;
     goto label9;
@@ -346,7 +416,10 @@ public virtual global::System.Object size(global::java.lang.String n1, global::o
 public virtual global::System.Object gap(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC gap()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.layouts.mig.AC) _r1_o)._fcurIx;
     _r0.i = _r0.i + 1;
@@ -360,10 +433,16 @@ public virtual global::System.Object gap(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0.i = 1;
@@ -380,15 +459,23 @@ public virtual global::System.Object gap(global::java.lang.String n1){
 
 public virtual global::System.Object gap(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC gap(java.lang.String, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -406,6 +493,7 @@ public virtual global::System.Object gap(global::java.lang.String n1, global::or
     if (_r0_o == null) goto label31;
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setGapAfter((global::com.codename1.ui.layouts.mig.BoundSize) _r0_o);
     label31:;
     _r1.i = _r1.i + -1;
@@ -424,9 +512,14 @@ public virtual global::System.Object align(global::java.lang.String n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.i = 1;
@@ -441,15 +534,23 @@ public virtual global::System.Object align(global::java.lang.String n1){
 
 public virtual global::System.Object align(global::java.lang.String n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC align(java.lang.String, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -467,6 +568,7 @@ public virtual global::System.Object align(global::java.lang.String n1, global::
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setAlign((global::com.codename1.ui.layouts.mig.UnitValue) _r0_o);
     _r1.i = _r1.i + -1;
     goto label15;
@@ -480,9 +582,14 @@ public virtual global::System.Object growPrio(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = 1;
@@ -498,13 +605,20 @@ public virtual global::System.Object growPrio(int n1){
 public virtual global::System.Object growPrio(int n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC growPrio(int, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -517,6 +631,7 @@ public virtual global::System.Object growPrio(int n1, global::org.xmlvm._nArrayA
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setGrowPriority((int) _r5.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -532,8 +647,12 @@ public virtual global::System.Object grow(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.f = (float)1.0D;
     _r1.i = 1;
@@ -551,9 +670,14 @@ public virtual global::System.Object grow(float n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r0.i = 1;
@@ -568,15 +692,23 @@ public virtual global::System.Object grow(float n1){
 
 public virtual global::System.Object grow(float n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC grow(float, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.f = n1;
     _r7_o = n2;
@@ -591,6 +723,7 @@ public virtual global::System.Object grow(float n1, global::org.xmlvm._nArrayAda
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r2.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r2.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setGrow((global::java.lang.Float) _r0_o);
     _r1.i = _r1.i + -1;
     goto label9;
@@ -604,9 +737,14 @@ public virtual global::System.Object shrinkPrio(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r0.i = 1;
@@ -622,13 +760,20 @@ public virtual global::System.Object shrinkPrio(int n1){
 public virtual global::System.Object shrinkPrio(int n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC shrinkPrio(int, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r6_o = n2;
@@ -641,6 +786,7 @@ public virtual global::System.Object shrinkPrio(int n1, global::org.xmlvm._nArra
     ((global::com.codename1.ui.layouts.mig.AC) _r4_o).makeSize((int) _r1.i);
     _r2_o = ((global::com.codename1.ui.layouts.mig.AC) _r4_o)._fcList;
     _r2_o = ((global::java.util.ArrayList) _r2_o).get((int) _r1.i);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r2_o).setShrinkPriority((int) _r5.i);
     _r0.i = _r0.i + -1;
     goto label4;
@@ -656,8 +802,12 @@ public virtual global::System.Object shrink(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.f = (float)100.0D;
     _r1.i = 1;
@@ -675,9 +825,14 @@ public virtual global::System.Object shrink(float n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.f = n1;
     _r0.i = 1;
@@ -693,14 +848,22 @@ public virtual global::System.Object shrink(float n1){
 public virtual global::System.Object shrink(float n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC shrink(float, int[])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.f = n1;
     _r7_o = n2;
@@ -715,6 +878,7 @@ public virtual global::System.Object shrink(float n1, global::org.xmlvm._nArrayA
     ((global::com.codename1.ui.layouts.mig.AC) _r5_o).makeSize((int) _r1.i);
     _r3_o = ((global::com.codename1.ui.layouts.mig.AC) _r5_o)._fcList;
     _r3_o = ((global::java.util.ArrayList) _r3_o).get((int) _r1.i);
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.layouts.mig.DimConstraint) _r3_o).setShrink((global::java.lang.Float) _r2_o);
     _r0.i = _r0.i + -1;
     goto label9;
@@ -725,9 +889,13 @@ public virtual global::System.Object shrink(float n1, global::org.xmlvm._nArrayA
 
 public virtual global::System.Object shrinkWeight(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC shrinkWeight(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.AC) _r1_o).shrink((float) _r2.f);
@@ -737,10 +905,15 @@ public virtual global::System.Object shrinkWeight(float n1){
 
 public virtual global::System.Object shrinkWeight(float n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: com.codename1.ui.layouts.mig.AC shrinkWeight(float, int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r3_o = n2;
@@ -752,11 +925,16 @@ public virtual global::System.Object shrinkWeight(float n1, global::org.xmlvm._n
 private void makeSize(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.AC: void makeSize(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1_o = ((global::com.codename1.ui.layouts.mig.AC) _r3_o)._fcList;

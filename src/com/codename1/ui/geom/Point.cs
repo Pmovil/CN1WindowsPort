@@ -9,9 +9,13 @@ private int _fy;
 
 public void @this(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: void <init>(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -25,7 +29,10 @@ public void @this(int n1, int n2){
 public virtual int getX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: int getX()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.Point) _r1_o)._fx;
     return _r0.i;
@@ -35,7 +42,10 @@ public virtual int getX(){
 public virtual int getY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: int getY()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.geom.Point) _r1_o)._fy;
     return _r0.i;
@@ -44,8 +54,11 @@ public virtual int getY(){
 
 public virtual void setX(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: void setX(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.geom.Point) _r0_o)._fx = _r1.i;
@@ -55,8 +68,11 @@ public virtual void setX(int n1){
 
 public virtual void setY(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: void setY(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.geom.Point) _r0_o)._fy = _r1.i;
@@ -66,10 +82,13 @@ public virtual void setY(int n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Point: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

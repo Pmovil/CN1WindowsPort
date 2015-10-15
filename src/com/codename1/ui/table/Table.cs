@@ -35,17 +35,27 @@ private int _fcellAlignment;
 
 private bool _fpotentiallyDirtyModel;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 2;
     _r6.i = 1;
@@ -92,9 +102,14 @@ public void @this(global::com.codename1.ui.table.TableModel n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 0;
@@ -129,10 +144,16 @@ public void @this(global::com.codename1.ui.table.TableModel n1, bool n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2 ? 1 : 0;
@@ -166,10 +187,15 @@ public void @this(global::com.codename1.ui.table.TableModel n1, bool n2){
 
 public virtual int getSelectedRow(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getSelectedRow()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.table.Table) _r3_o).getComponentForm();
     if (_r1_o == null) goto label17;
@@ -184,12 +210,30 @@ public virtual int getSelectedRow(){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table: int getSelectedRow()]
 }
 
+public virtual bool includeNullValues(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: boolean includeNullValues()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.Table: boolean includeNullValues()]
+}
+
 public virtual int getSelectedColumn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getSelectedColumn()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.table.Table) _r3_o).getComponentForm();
     if (_r1_o == null) goto label17;
@@ -213,28 +257,44 @@ private void updateModel(){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r17.i = -1;
     _r16.i = -1;
@@ -322,10 +382,10 @@ private void updateModel(){
     _r19.i = ((global::com.codename1.ui.table.TableModel) _r19_o).getRowCount();
     _r0.i = _r15.i;
     _r1.i = _r19.i;
-    if (_r0.i >= _r1.i) goto label258;
+    if (_r0.i >= _r1.i) goto label264;
     _r5.i = 0;
     label178:;
-    if (_r5.i >= _r7.i) goto label282;
+    if (_r5.i >= _r7.i) goto label288;
     _r0_o = _r21_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r0_o)._fmodel;
     _r19_o = _r0_o;
@@ -333,7 +393,10 @@ private void updateModel(){
     _r1.i = _r15.i;
     _r2.i = _r5.i;
     _r18_o = ((global::com.codename1.ui.table.TableModel) _r0_o).getValueAt((int) _r1.i, (int) _r2.i);
-    if (_r18_o == null) goto label279;
+    if (_r18_o != null) goto label202;
+    _r19.i = ((global::com.codename1.ui.table.Table) _r21_o).includeNullValues() ? 1 : 0;
+    if (_r19.i == 0) goto label285;
+    label202:;
     _r0_o = _r21_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r0_o)._fmodel;
     _r19_o = _r0_o;
@@ -347,13 +410,14 @@ private void updateModel(){
     _r3.i = _r5.i;
     _r4.i = _r10.i;
     _r6_o = ((global::com.codename1.ui.table.Table) _r0_o).createCellImpl((global::java.lang.Object) _r1_o, (int) _r2.i, (int) _r3.i, 0!=_r4.i);
-    if (_r6_o == null) goto label279;
+    if (_r6_o == null) goto label285;
     _r0_o = _r21_o;
     _r1_o = _r18_o;
     _r2.i = _r15.i;
     _r3.i = _r5.i;
     _r8_o = ((global::com.codename1.ui.table.Table) _r0_o).createCellConstraint((global::java.lang.Object) _r1_o, (int) _r2.i, (int) _r3.i);
     _r9_o = ((global::com.codename1.ui.table.Table) _r21_o).getLayout();
+    _r9_o = _r9_o;
     _r9.i = ((global::com.codename1.ui.table.TableLayout) _r9_o).getNextRow();
     _r0_o = _r21_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r0_o)._fmodel;
@@ -361,25 +425,25 @@ private void updateModel(){
     _r19.i = ((global::com.codename1.ui.table.TableModel) _r19_o).getRowCount();
     _r0.i = _r15.i;
     _r1.i = _r19.i;
-    if (_r0.i <= _r1.i) goto label259;
-    label258:;
+    if (_r0.i <= _r1.i) goto label265;
+    label264:;
     return;
-    label259:;
+    label265:;
     _r0_o = _r21_o;
     _r1_o = _r8_o;
     _r2_o = _r6_o;
     ((global::com.codename1.ui.table.Table) _r0_o).addComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r2_o);
     _r0.i = _r15.i;
     _r1.i = _r17.i;
-    if (_r0.i != _r1.i) goto label279;
+    if (_r0.i != _r1.i) goto label285;
     _r0.i = _r5.i;
     _r1.i = _r16.i;
-    if (_r0.i != _r1.i) goto label279;
+    if (_r0.i != _r1.i) goto label285;
     ((global::com.codename1.ui.Component) _r6_o).requestFocus();
-    label279:;
+    label285:;
     _r5.i = _r5.i + 1;
     goto label178;
-    label282:;
+    label288:;
     _r15.i = _r15.i + 1;
     goto label162;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table: void updateModel()]
@@ -390,37 +454,66 @@ public override void paintGlass(global::com.codename1.ui.Graphics n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r29_o = this;
     _r30_o = n1;
     _r0_o = _r29_o;
@@ -457,6 +550,7 @@ public override void paintGlass(global::com.codename1.ui.Graphics n1){
     _r1.i = _r25.i;
     ((global::com.codename1.ui.Graphics) _r0_o).setColor((int) _r1.i);
     _r19_o = ((global::com.codename1.ui.table.Table) _r29_o).getLayout();
+    _r19_o = _r19_o;
     _r25.i = ((global::com.codename1.ui.table.Table) _r29_o).getWidth();
     _r26_o = ((global::com.codename1.ui.table.Table) _r29_o).getScrollDimension();
     _r26.i = ((global::com.codename1.ui.geom.Dimension) _r26_o).getWidth();
@@ -887,21 +981,33 @@ public override void paintGlass(global::com.codename1.ui.Graphics n1){
 
 private global::System.Object createCellImpl(global::java.lang.Object n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.Component createCellImpl(java.lang.Object, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -924,6 +1030,7 @@ private global::System.Object createCellImpl(global::java.lang.Object n1, int n2
     _r3.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
     if (_r3.i == 0) goto label38;
     _r0_o = _r1_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.table.Table) _r8_o)._flistener;
     ((global::com.codename1.ui.TextArea) _r3_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r4_o);
@@ -956,21 +1063,33 @@ private global::System.Object createCellImpl(global::java.lang.Object n1, int n2
 
 public virtual global::System.Object createCell(global::java.lang.Object n1, int n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.Component createCell(java.lang.Object, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -986,6 +1105,7 @@ public virtual global::System.Object createCell(global::java.lang.Object n1, int
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     if (_r10.i != _r4.i) goto label64;
     _r1_o = new global::com.codename1.ui.Label();
+    _r9_o = _r9_o;
     ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r9_o);
     _r2_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r2_o).@this();
@@ -1070,8 +1190,11 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r2_o)._fpotentiallyDirtyModel ? 1 : 0;
     if (_r0.i == 0) goto label10;
@@ -1090,8 +1213,11 @@ public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void deinitialize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).isVirtualKeyboardShowing() ? 1 : 0;
@@ -1112,8 +1238,11 @@ public override void deinitialize(){
 
 public virtual void setModel(global::com.codename1.ui.table.TableModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setModel(com.codename1.ui.table.TableModel)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.table.Table) _r0_o)._fmodel = (global::com.codename1.ui.table.TableModel) _r1_o;
@@ -1125,8 +1254,11 @@ public virtual void setModel(global::com.codename1.ui.table.TableModel n1){
 
 public virtual global::System.Object getModel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.table.TableModel getModel()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
     return (global::com.codename1.ui.table.TableModel) _r0_o;
@@ -1136,7 +1268,10 @@ public virtual global::System.Object getModel(){
 public virtual bool isDrawBorder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: boolean isDrawBorder()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fdrawBorder ? 1 : 0;
     return _r0.i!=0;
@@ -1146,8 +1281,12 @@ public virtual bool isDrawBorder(){
 public virtual void setDrawBorder(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setDrawBorder(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fdrawBorder ? 1 : 0;
@@ -1164,9 +1303,13 @@ public virtual void setInnerBorderMode(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setInnerBorderMode(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i < 0) goto label5;
@@ -1193,7 +1336,10 @@ public virtual void setInnerBorderMode(int n1){
 public virtual int getInnerBorderMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getInnerBorderMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._finnerBorder;
     return _r0.i;
@@ -1203,8 +1349,12 @@ public virtual int getInnerBorderMode(){
 public virtual bool shouldDrawInnerBorderAfterRow(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: boolean shouldDrawInnerBorderAfterRow(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 1;
@@ -1215,8 +1365,12 @@ public virtual bool shouldDrawInnerBorderAfterRow(int n1){
 public virtual void setCollapseBorder(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setCollapseBorder(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fcollapseBorder ? 1 : 0;
@@ -1237,8 +1391,11 @@ public virtual void setCollapseBorder(bool n1){
 
 public virtual void setDrawEmptyCellsBorder(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setDrawEmptyCellsBorder(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.table.Table) _r0_o)._fdrawEmptyCellsBorder = 0!=_r1.i;
@@ -1249,9 +1406,13 @@ public virtual void setDrawEmptyCellsBorder(bool n1){
 
 public virtual void setBorderSpacing(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setBorderSpacing(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -1264,22 +1425,33 @@ public virtual void setBorderSpacing(int n1, int n2){
 
 private void updateMargins(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void updateMargins()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r9.i = 0;
     _r5_o = ((global::com.codename1.ui.table.Table) _r10_o).getLayout();
+    _r5_o = _r5_o;
     _r2.i = ((global::com.codename1.ui.table.Table) _r10_o)._fhorizontalBorderSpacing;
     _r7.i = ((global::com.codename1.ui.table.Table) _r10_o)._fverticalBorderSpacing;
     _r8.i = ((global::com.codename1.ui.table.Table) _r10_o)._fcollapseBorder ? 1 : 0;
@@ -1349,7 +1521,10 @@ private void updateMargins(){
 public virtual int getTitleAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getTitleAlignment()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._ftitleAlignment;
     return _r0.i;
@@ -1358,29 +1533,53 @@ public virtual int getTitleAlignment(){
 
 public virtual void setTitleAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setTitleAlignment(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    _r0_o = this;
-    _r1.i = n1;
-    ((global::com.codename1.ui.table.Table) _r0_o)._ftitleAlignment = _r1.i;
-    ((global::com.codename1.ui.table.Table) _r0_o).repaint();
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r4.i = n1;
+    ((global::com.codename1.ui.table.Table) _r3_o)._ftitleAlignment = _r4.i;
+    _r0.i = 0;
+    label3:;
+    _r1_o = ((global::com.codename1.ui.table.Table) _r3_o)._fmodel;
+    _r1.i = ((global::com.codename1.ui.table.TableModel) _r1_o).getColumnCount();
+    if (_r0.i >= _r1.i) goto label20;
+    _r1_o = ((global::com.codename1.ui.table.Table) _r3_o)._flistener;
+    _r2.i = -1;
+    ((global::com.codename1.ui.table.Table_2Listener) _r1_o).dataChanged((int) _r2.i, (int) _r0.i);
+    _r0.i = _r0.i + 1;
+    goto label3;
+    label20:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table: void setTitleAlignment(int)]
 }
 
 public virtual int getCellColumn(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getCellColumn(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=column
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 110))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label15;
     _r1.i = ((global::java.lang.Integer) _r0_o).intValue();
     label14:;
@@ -1393,17 +1592,22 @@ public virtual int getCellColumn(global::com.codename1.ui.Component n1){
 
 public virtual int getCellRow(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getCellRow(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=row
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
     _r0_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r1_o);
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label15;
     _r1.i = ((global::java.lang.Integer) _r0_o).intValue();
     label14:;
@@ -1417,7 +1621,10 @@ public virtual int getCellRow(global::com.codename1.ui.Component n1){
 public virtual int getCellAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: int getCellAlignment()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fcellAlignment;
     return _r0.i;
@@ -1426,8 +1633,11 @@ public virtual int getCellAlignment(){
 
 public virtual void setCellAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setCellAlignment(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.table.Table) _r0_o)._fcellAlignment = _r1.i;
@@ -1439,7 +1649,10 @@ public virtual void setCellAlignment(int n1){
 public virtual bool isIncludeHeader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: boolean isIncludeHeader()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fincludeHeader ? 1 : 0;
     return _r0.i!=0;
@@ -1448,8 +1661,11 @@ public virtual bool isIncludeHeader(){
 
 public virtual void setIncludeHeader(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: void setIncludeHeader(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.table.Table) _r0_o)._fincludeHeader = 0!=_r1.i;
@@ -1460,13 +1676,19 @@ public virtual void setIncludeHeader(bool n1){
 
 public virtual global::System.Object createCellConstraint(global::java.lang.Object n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.table.TableLayout$Constraint createCellConstraint(java.lang.Object, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -1476,6 +1698,7 @@ public virtual global::System.Object createCellConstraint(global::java.lang.Obje
     _r4.i = _r4.i + 1;
     label6:;
     _r0_o = ((global::com.codename1.ui.table.Table) _r2_o).getLayout();
+    _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.table.TableLayout) _r0_o).createConstraint((int) _r4.i, (int) _r5.i);
     return (global::com.codename1.ui.table.TableLayout_2Constraint) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.table.TableLayout$Constraint createCellConstraint(java.lang.Object, int, int)]
@@ -1486,8 +1709,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1510,8 +1737,12 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1530,8 +1761,12 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 2;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1553,8 +1788,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=data
@@ -1563,6 +1801,7 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label15;
     _r1_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
+    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fdata;
     label14:;
     return (global::java.lang.Object) _r0_o;
@@ -1573,6 +1812,7 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label30;
     _r1_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
+    _r1_o = _r1_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fcolumnNames;
     goto label14;
     label30:;
@@ -1585,11 +1825,17 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1601,7 +1847,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     if (_r0.i == 0) goto label29;
     _r1_o = new global::com.codename1.ui.table.DefaultTableModel();
     _r0_o = ((global::com.codename1.ui.table.Table) _r3_o)._fmodel;
+    _r0_o = _r0_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r0_o)._fcolumnNames;
+    _r5_o = _r5_o;
+    _r5_o = _r5_o;
     ((global::com.codename1.ui.table.DefaultTableModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o);
     ((global::com.codename1.ui.table.Table) _r3_o).setModel((global::com.codename1.ui.table.TableModel) _r1_o);
     _r0_o = _r2_o;
@@ -1614,7 +1863,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0.i = ((global::java.lang.String) _r4_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label57;
     _r1_o = new global::com.codename1.ui.table.DefaultTableModel();
+    _r5_o = _r5_o;
+    _r5_o = _r5_o;
     _r0_o = ((global::com.codename1.ui.table.Table) _r3_o)._fmodel;
+    _r0_o = _r0_o;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r0_o)._fdata;
     ((global::com.codename1.ui.table.DefaultTableModel) _r1_o).@this((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o);
     ((global::com.codename1.ui.table.Table) _r3_o).setModel((global::com.codename1.ui.table.TableModel) _r1_o);
@@ -1628,8 +1880,11 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public static global::System.Object access_2000(global::com.codename1.ui.table.Table n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.table.TableModel access$000(com.codename1.ui.table.Table)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.table.Table) _r1_o)._fmodel;
     return (global::com.codename1.ui.table.TableModel) _r0_o;
@@ -1638,12 +1893,19 @@ public static global::System.Object access_2000(global::com.codename1.ui.table.T
 
 public static global::System.Object access_2100(global::com.codename1.ui.table.Table n1, global::java.lang.Object n2, int n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: com.codename1.ui.Component access$100(com.codename1.ui.table.Table, java.lang.Object, int, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r3.i = n3;
@@ -1657,7 +1919,10 @@ public static global::System.Object access_2100(global::com.codename1.ui.table.T
 public static bool access_2200(global::com.codename1.ui.table.Table n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table: boolean access$200(com.codename1.ui.table.Table)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.table.Table) _r1_o)._fincludeHeader ? 1 : 0;
     return _r0.i!=0;

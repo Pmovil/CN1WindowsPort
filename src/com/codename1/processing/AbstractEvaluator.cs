@@ -7,8 +7,11 @@ private global::java.lang.String _fexpr;
 
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.lang.Object) _r0_o).@this();
@@ -19,9 +22,13 @@ public void @this(global::java.lang.String n1){
 
 public virtual global::System.Object evaluate(global::com.codename1.processing.StructuredContent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluate(com.codename1.processing.StructuredContent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._1evaluate((global::java.lang.Object) _r2_o);
@@ -31,9 +38,13 @@ public virtual global::System.Object evaluate(global::com.codename1.processing.S
 
 public virtual global::System.Object evaluate(global::java.util.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluate(java.util.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._1evaluate((global::java.lang.Object) _r2_o);
@@ -44,11 +55,18 @@ public virtual global::System.Object evaluate(global::java.util.List n1){
 private global::System.Object _1evaluate(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluate(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = -1;
@@ -101,13 +119,22 @@ private global::System.Object _1evaluate(global::java.lang.Object n1){
 private global::System.Object _1evaluate(global::java.lang.Object n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluate(java.lang.Object, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -142,6 +169,7 @@ private global::System.Object _1evaluate(global::java.lang.Object n1, int n2){
     label49:;
     _r3_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o)._1evaluateLeftContainsRight((global::java.lang.Object) _r6_o, (global::java.lang.String) _r1_o, (global::java.lang.String) _r2_o);
     goto label33;
+    label54:;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluate(java.lang.Object, int)]
 }
 
@@ -149,20 +177,27 @@ private global::System.Object _1evaluateLeftLessRight(global::java.lang.Object n
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftLessRight(java.lang.Object, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftLessRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftLessRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftLessRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -172,20 +207,27 @@ private global::System.Object _1evaluateLeftGreaterRight(global::java.lang.Objec
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftGreaterRight(java.lang.Object, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftGreaterRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftGreaterRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftGreaterRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -195,20 +237,27 @@ private global::System.Object _1evaluateLeftEqualsRight(global::java.lang.Object
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftEqualsRight(java.lang.Object, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftEqualsRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftEqualsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftEqualsRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -218,20 +267,27 @@ private global::System.Object _1evaluateLeftContainsRight(global::java.lang.Obje
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftContainsRight(java.lang.Object, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label11;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftContainsRight((global::java.util.List) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     label10:;
     return (global::java.lang.Object) _r0_o;
     label11:;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateLeftContainsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     goto label10;
 //XMLVM_END_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateLeftContainsRight(java.lang.Object, java.lang.String, java.lang.String)]
@@ -241,17 +297,22 @@ private global::System.Object _1evaluateSingle(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object _evaluateSingle(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((_r2_o != null) && (_r2_o is global::java.util.List)) ? 1 : 0;
     if (_r0.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._fexpr;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateSingle((global::java.util.List) _r2_o, (global::java.lang.String) _r0_o);
     label12:;
     return (global::java.lang.Object) _r0_o;
     label13:;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o)._fexpr;
     _r0_o = ((global::com.codename1.processing.AbstractEvaluator) _r1_o).evaluateSingle((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r0_o);
     goto label12;
@@ -261,9 +322,14 @@ private global::System.Object _1evaluateSingle(global::java.lang.Object n1){
 public virtual bool isNumeric(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: boolean isNumeric(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r3_o = ((global::java.lang.String) _r3_o).trim();
@@ -288,13 +354,19 @@ public virtual bool isNumeric(global::java.lang.String n1){
 
 public virtual global::System.Object stripQuotes(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.String stripQuotes(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r0_o = new global::java.lang.StringBuffer();
@@ -320,14 +392,21 @@ public virtual global::System.Object stripQuotes(global::java.lang.String n1){
 
 public virtual global::System.Object explode(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.String[] explode(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -368,10 +447,15 @@ public virtual global::System.Object explode(global::java.lang.String n1){
 
 public virtual global::System.Object evaluateSingle(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateSingle(com.codename1.processing.StructuredContent, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -382,15 +466,23 @@ public virtual global::System.Object evaluateSingle(global::com.codename1.proces
 
 public virtual global::System.Object evaluateSingle(global::java.util.List n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateSingle(java.util.List, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -406,6 +498,7 @@ public virtual global::System.Object evaluateSingle(global::java.util.List n1, g
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateSingle((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -420,6 +513,7 @@ public virtual global::System.Object evaluateSingle(global::java.util.List n1, g
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -431,16 +525,25 @@ public virtual global::System.Object evaluateSingle(global::java.util.List n1, g
 
 public virtual global::System.Object evaluateLeftLessRight(global::java.util.List n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftLessRight(java.util.List, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -457,6 +560,7 @@ public virtual global::System.Object evaluateLeftLessRight(global::java.util.Lis
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftLessRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -471,6 +575,7 @@ public virtual global::System.Object evaluateLeftLessRight(global::java.util.Lis
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -482,11 +587,17 @@ public virtual global::System.Object evaluateLeftLessRight(global::java.util.Lis
 
 public virtual global::System.Object evaluateLeftLessRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftLessRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -498,16 +609,25 @@ public virtual global::System.Object evaluateLeftLessRight(global::com.codename1
 
 public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.List n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftGreaterRight(java.util.List, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -524,6 +644,7 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftGreaterRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -538,6 +659,7 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -549,11 +671,17 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::java.util.
 
 public virtual global::System.Object evaluateLeftGreaterRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftGreaterRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -565,16 +693,25 @@ public virtual global::System.Object evaluateLeftGreaterRight(global::com.codena
 
 public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.List n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftEqualsRight(java.util.List, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -591,6 +728,7 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.L
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftEqualsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -605,6 +743,7 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.L
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -616,11 +755,17 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::java.util.L
 
 public virtual global::System.Object evaluateLeftEqualsRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftEqualsRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -632,16 +777,25 @@ public virtual global::System.Object evaluateLeftEqualsRight(global::com.codenam
 
 public virtual global::System.Object evaluateLeftContainsRight(global::java.util.List n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftContainsRight(java.util.List, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -658,6 +812,7 @@ public virtual global::System.Object evaluateLeftContainsRight(global::java.util
     _r2_o = ((global::java.util.Iterator) _r1_o).next();
     _r3.i = ((_r2_o != null) && (_r2_o is global::com.codename1.processing.StructuredContent)) ? 1 : 0;
     if (_r3.i == 0) goto label13;
+    _r2_o = _r2_o;
     _r2_o = ((global::com.codename1.processing.AbstractEvaluator) _r5_o).evaluateLeftContainsRight((global::com.codename1.processing.StructuredContent) _r2_o, (global::java.lang.String) _r7_o, (global::java.lang.String) _r8_o);
     if (_r2_o == null) goto label13;
     ((global::java.util.List) _r0_o).add((global::java.lang.Object) _r2_o);
@@ -672,6 +827,7 @@ public virtual global::System.Object evaluateLeftContainsRight(global::java.util
     if (_r3.i != _r4.i) goto label61;
     _r3.i = 0;
     _r5_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r5_o = _r5_o;
     _r3_o = _r5_o;
     label60:;
     return (global::java.lang.Object) _r3_o;
@@ -683,11 +839,17 @@ public virtual global::System.Object evaluateLeftContainsRight(global::java.util
 
 public virtual global::System.Object evaluateLeftContainsRight(global::com.codename1.processing.StructuredContent n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.AbstractEvaluator: java.lang.Object evaluateLeftContainsRight(com.codename1.processing.StructuredContent, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

@@ -14,9 +14,14 @@ private bool _feditable;
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: void <init>(java.lang.String[], java.lang.Object[][])]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -28,11 +33,17 @@ public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, gl
 
 public void @this(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: void <init>(java.lang.String[], java.lang.Object[][], boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -52,7 +63,9 @@ public virtual int getRowCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: int getRowCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fdata;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -64,7 +77,9 @@ public virtual int getColumnCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: int getColumnCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fcolumnNames;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -74,9 +89,13 @@ public virtual int getColumnCount(){
 
 public virtual global::System.Object getColumnName(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: java.lang.String getColumnName(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fcolumnNames;
@@ -88,9 +107,14 @@ public virtual global::System.Object getColumnName(int n1){
 public virtual bool isCellEditable(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: boolean isCellEditable(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -101,11 +125,16 @@ public virtual bool isCellEditable(int n1, int n2){
 
 public virtual global::System.Object getValueAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: java.lang.Object getValueAt(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
@@ -139,11 +168,17 @@ public virtual global::System.Object getValueAt(int n1, int n2){
 
 public virtual void setValueAt(int n1, int n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: void setValueAt(int, int, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -159,9 +194,13 @@ public virtual void setValueAt(int n1, int n2, global::java.lang.Object n3){
 
 public virtual void addDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: void addDataChangeListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fdispatcher;
@@ -172,9 +211,13 @@ public virtual void addDataChangeListener(global::com.codename1.ui.events.DataCh
 
 public virtual void removeDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.DefaultTableModel: void removeDataChangeListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.table.DefaultTableModel) _r1_o)._fdispatcher;

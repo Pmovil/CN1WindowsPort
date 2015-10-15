@@ -5,14 +5,17 @@ namespace com.codename1.ui.layouts {
 public class GroupLayout_2ContainerAutopaddingSpring: global::com.codename1.ui.layouts.GroupLayout_2AutopaddingSpring {
 private global::java.util.ArrayList _ftargets;
 
-new public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
+public global::com.codename1.ui.layouts.GroupLayout _fthis_20;
 
-new public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
+public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r1_o)._fthis_20 = (global::com.codename1.ui.layouts.GroupLayout) _r2_o;
@@ -24,13 +27,19 @@ new public void @this(global::com.codename1.ui.layouts.GroupLayout n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout)]
 }
 
-new public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n3){
+public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void <init>(com.codename1.ui.layouts.GroupLayout, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -45,11 +54,17 @@ new public void @this(global::com.codename1.ui.layouts.GroupLayout n1, int n2, i
 
 public override void addTarget(global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void addTarget(com.codename1.ui.layouts.GroupLayout$ComponentSpring, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -69,18 +84,28 @@ public override void addTarget(global::com.codename1.ui.layouts.GroupLayout_2Com
 public override void calculatePadding(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: void calculatePadding(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.i = n1;
     _r8.i = 1;
@@ -104,6 +129,7 @@ public override void calculatePadding(int n1){
     if (_r0.i < 0) goto label140;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._ftargets;
     _r6_o = ((global::java.util.ArrayList) _r7_o).get((int) _r0.i);
+    _r6_o = _r6_o;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r6_o).getComponent();
     _r8_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._fthis_20;
     _r8_o = global::com.codename1.ui.layouts.GroupLayout.access_2900((global::com.codename1.ui.layouts.GroupLayout) _r8_o);
@@ -138,6 +164,7 @@ public override void calculatePadding(int n1){
     if (_r0.i < 0) goto label140;
     _r7_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o)._fsources;
     _r5_o = ((global::java.util.ArrayList) _r7_o).get((int) _r0.i);
+    _r5_o = _r5_o;
     _r7.i = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r9_o).updateSize((global::com.codename1.ui.layouts.LayoutStyle) _r2_o, (global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring) _r5_o, (int) _r4.i);
     _r1.i = global::java.lang.Math.max((int) _r1.i, (int) _r7.i);
     _r0.i = _r0.i + -1;
@@ -170,16 +197,24 @@ public override void calculatePadding(int n1){
 private int updateSize(global::com.codename1.ui.layouts.LayoutStyle n1, global::com.codename1.ui.layouts.GroupLayout_2ComponentSpring n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: int updateSize(com.codename1.ui.layouts.LayoutStyle, com.codename1.ui.layouts.GroupLayout$ComponentSpring, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -206,9 +241,13 @@ private int updateSize(global::com.codename1.ui.layouts.LayoutStyle n1, global::
 
 public override global::System.Object getMatchDescription(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GroupLayout$ContainerAutopaddingSpring: java.lang.String getMatchDescription()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.layouts.GroupLayout_2ContainerAutopaddingSpring) _r2_o)._ftargets;
     if (_r0_o == null) goto label30;

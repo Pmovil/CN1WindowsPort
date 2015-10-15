@@ -7,8 +7,11 @@ public global::com.codename1.javascript.JavascriptContext _fthis_20;
 
 private void @this(global::com.codename1.javascript.JavascriptContext n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptContext$NavigationCallback: void <init>(com.codename1.javascript.JavascriptContext)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.javascript.JavascriptContext_2NavigationCallback) _r0_o)._fthis_20 = (global::com.codename1.javascript.JavascriptContext) _r1_o;
@@ -21,8 +24,11 @@ public virtual bool shouldNavigate(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptContext$NavigationCallback: boolean shouldNavigate(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=cn1command:
@@ -45,9 +51,13 @@ public virtual bool shouldNavigate(global::java.lang.String n1){
 
 public void @this(global::com.codename1.javascript.JavascriptContext n1, global::com.codename1.javascript.JavascriptContext_21 n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.javascript.JavascriptContext$NavigationCallback: void <init>(com.codename1.javascript.JavascriptContext, com.codename1.javascript.JavascriptContext$1)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;

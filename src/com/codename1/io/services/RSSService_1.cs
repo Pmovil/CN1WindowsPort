@@ -7,13 +7,17 @@ private global::java.lang.String _flastTag;
 
 private global::java.util.Hashtable _fcurrent;
 
+private global::java.lang.String _furl;
 
 public global::com.codename1.io.services.RSSService _fthis_20;
 
 public void @this(global::com.codename1.io.services.RSSService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService$1: void <init>(com.codename1.io.services.RSSService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.services.RSSService_21) _r0_o)._fthis_20 = (global::com.codename1.io.services.RSSService) _r1_o;
@@ -26,11 +30,17 @@ public override bool startTag(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService$1: boolean startTag(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -76,11 +86,17 @@ public override void attribute(global::java.lang.String n1, global::java.lang.St
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService$1: void attribute(java.lang.String, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -131,9 +147,13 @@ public override void textElement(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.services.RSSService$1: void textElement(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.io.services.RSSService_21) _r2_o)._flastTag;
@@ -180,9 +200,13 @@ public override void endTag(global::java.lang.String n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = null;

@@ -7,8 +7,11 @@ public global::com.codename1.components.WebBrowser _fthis_20;
 
 public void @this(global::com.codename1.components.WebBrowser n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4: void <init>(com.codename1.components.WebBrowser)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.WebBrowser_24) _r0_o)._fthis_20 = (global::com.codename1.components.WebBrowser) _r1_o;
@@ -19,11 +22,17 @@ public void @this(global::com.codename1.components.WebBrowser n1){
 
 public override global::System.Object createConnectionRequest(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4: com.codename1.io.ConnectionRequest createConnectionRequest(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback, java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -36,7 +45,9 @@ public override global::System.Object createConnectionRequest(global::com.codena
 
 public static global::System.Object access_2000(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4: java.lang.Object access$000()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.components.WebBrowser_24._fLOCK;
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser$4: java.lang.Object access$000()]
@@ -44,7 +55,9 @@ public static global::System.Object access_2000(){
 
 public static global::System.Object access_2100(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$4: java.lang.Object access$100()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.components.WebBrowser_24._fLOCK;
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.components.WebBrowser$4: java.lang.Object access$100()]

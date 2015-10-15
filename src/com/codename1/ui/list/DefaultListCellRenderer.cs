@@ -20,13 +20,17 @@ private bool _frightAlignNumbers;
 
 private bool _falwaysRenderSelection;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     // Value=
@@ -59,8 +63,12 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     base.initLaf((global::com.codename1.ui.plaf.UIManager) _r3_o);
@@ -79,9 +87,13 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void refreshTheme(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     base.refreshTheme(0!=_r2.i);
@@ -94,8 +106,12 @@ public override void refreshTheme(bool n1){
 public void @this(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void <init>(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o).@this();
@@ -108,24 +124,39 @@ public void @this(bool n1){
 
 public virtual global::System.Object getCellRendererComponent(global::com.codename1.ui.Component n1, global::java.lang.Object n2, global::java.lang.Object n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: com.codename1.ui.Component getCellRendererComponent(com.codename1.ui.Component, java.lang.Object, java.lang.Object, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -161,6 +192,7 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r2_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r7_o);
     if (_r2_o == null) goto label69;
     _r0_o = _r2_o;
+    _r0_o = _r0_o;
     _r5_o = _r0_o;
     label69:;
     _r7.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).isRTL() ? 1 : 0;
@@ -180,9 +212,11 @@ public virtual global::System.Object getCellRendererComponent(global::com.codena
     _r7.i = ((_r13_o != null) && (_r13_o is global::com.codename1.ui.Command)) ? 1 : 0;
     if (_r7.i == 0) goto label127;
     _r0_o = _r13_o;
+    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r7_o = ((global::com.codename1.ui.Command) _r7_o).getIcon();
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).setIcon((global::com.codename1.ui.Image) _r7_o);
+    _r13_o = _r13_o;
     _r7.i = ((global::com.codename1.ui.Command) _r13_o).isEnabled() ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r10_o).setEnabled(0!=_r7.i);
     label127:;
@@ -237,7 +271,9 @@ public override global::System.Object getStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: com.codename1.ui.plaf.Style getStyle()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._falwaysRenderSelection ? 1 : 0;
     if (_r0.i == 0) goto label15;
@@ -254,17 +290,29 @@ public override global::System.Object getStyle(){
 
 public virtual global::System.Object getListCellRendererComponent(global::com.codename1.ui.List n1, global::java.lang.Object n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -283,9 +331,13 @@ public virtual global::System.Object getListCellRendererComponent(global::com.co
 
 public virtual global::System.Object getListFocusComponent(global::com.codename1.ui.List n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: com.codename1.ui.Component getListFocusComponent(com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._ffocusComponent;
@@ -295,7 +347,9 @@ public virtual global::System.Object getListFocusComponent(global::com.codename1
 
 public override void repaint(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void repaint()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void repaint()]
@@ -304,7 +358,10 @@ public override void repaint(){
 public virtual bool isShowNumbers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: boolean isShowNumbers()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._fshowNumbers ? 1 : 0;
     return _r0.i!=0;
@@ -314,8 +371,12 @@ public virtual bool isShowNumbers(){
 public virtual void setShowNumbers(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setShowNumbers(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._fshowNumbers = 0!=_r2.i;
@@ -329,7 +390,9 @@ public virtual int getSelectionTransparency(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: int getSelectionTransparency()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._ffocusComponent;
     _r0_o = ((global::com.codename1.ui.Label) _r0_o).getUnselectedStyle();
@@ -341,9 +404,13 @@ public virtual int getSelectionTransparency(){
 
 public virtual void setSelectionTransparency(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setSelectionTransparency(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._ffocusComponent;
@@ -356,6 +423,8 @@ public virtual void setSelectionTransparency(int n1){
 public static void setShowNumbersDefault(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setShowNumbersDefault(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.list.DefaultListCellRenderer._fshowNumbersDefault = 0!=_r0.i;
     return;
@@ -365,6 +434,8 @@ public static void setShowNumbersDefault(bool n1){
 public static bool isShowNumbersDefault(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: boolean isShowNumbersDefault()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.list.DefaultListCellRenderer._fshowNumbersDefault ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: boolean isShowNumbersDefault()]
@@ -372,9 +443,13 @@ public static bool isShowNumbersDefault(){
 
 public virtual global::System.Object getFocusComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: com.codename1.ui.Component getFocusComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._ffocusComponent;
@@ -385,7 +460,10 @@ public virtual global::System.Object getFocusComponent(global::com.codename1.ui.
 public virtual bool isRightAlignNumbers(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: boolean isRightAlignNumbers()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._frightAlignNumbers ? 1 : 0;
     return _r0.i!=0;
@@ -394,8 +472,11 @@ public virtual bool isRightAlignNumbers(){
 
 public virtual void setRightAlignNumbers(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setRightAlignNumbers(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r0_o)._frightAlignNumbers = 0!=_r1.i;
@@ -406,7 +487,10 @@ public virtual void setRightAlignNumbers(bool n1){
 public virtual bool isAlwaysRenderSelection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: boolean isAlwaysRenderSelection()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.DefaultListCellRenderer) _r1_o)._falwaysRenderSelection ? 1 : 0;
     return _r0.i!=0;
@@ -415,8 +499,11 @@ public virtual bool isAlwaysRenderSelection(){
 
 public virtual void setAlwaysRenderSelection(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setAlwaysRenderSelection(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r0_o)._falwaysRenderSelection = 0!=_r1.i;
@@ -424,9 +511,11 @@ public virtual void setAlwaysRenderSelection(bool n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void setAlwaysRenderSelection(boolean)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.DefaultListCellRenderer: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.ui.list.DefaultListCellRenderer._fshowNumbersDefault = 0!=_r0.i;
     return;

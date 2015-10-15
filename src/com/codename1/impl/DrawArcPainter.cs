@@ -15,9 +15,10 @@ namespace com.codename1.impl
         private int h;
         private int color;
         private int alpha;
-        private Microsoft.Graphics.Canvas.Geometry.CanvasGeometry arc;
+        private int startAngle;
+        private int arcAngle;
 
-        public DrawArcPainter(Rectangle clip, int x, int y, int w, int h, int color, int alpha, Microsoft.Graphics.Canvas.Geometry.CanvasGeometry arc)
+        public DrawArcPainter(Rectangle clip, int x, int y, int w, int h, int color, int alpha, int startAngle, int arcAngle)
             : base(clip)
         {
             this.clip = clip;
@@ -27,13 +28,14 @@ namespace com.codename1.impl
             this.h = h;
             this.color = color;
             this.alpha = alpha;
-            this.arc = arc;
+            this.startAngle = startAngle;
+            this.arcAngle = arcAngle;
         }
         public override void execute(WindowsGraphics underlying)
         {
             underlying.setColor(color);
             underlying.setAlpha(alpha);
-            underlying.drawArc(x, y, w, h, arc);
+            underlying.drawArc(x, y, w, h, startAngle, arcAngle);
         }
 
       

@@ -7,8 +7,11 @@ public global::com.codename1.share.SMSShare_21_22 _fthis_22;
 
 public void @this(global::com.codename1.share.SMSShare_21_22 n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.SMSShare$1$2$1: void <init>(com.codename1.share.SMSShare$1$2)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.share.SMSShare_21_22_21) _r0_o)._fthis_22 = (global::com.codename1.share.SMSShare_21_22) _r1_o;
@@ -21,16 +24,27 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.SMSShare$1$2$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 0;
@@ -39,6 +53,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r0_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r0_o = ((global::com.codename1.share.SMSShare_21_22) _r0_o)._fval_2contacts;
     _r6_o = ((global::com.codename1.ui.List) _r0_o).getSelectedItem();
+    _r6_o = _r6_o;
     _r0_o = new global::com.codename1.share.ShareForm();
     _r1_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r1_o = ((global::com.codename1.share.SMSShare_21_22) _r1_o)._fthis_21;
@@ -50,6 +65,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
     _r3_o = ((global::java.util.Hashtable) _r6_o).get((global::java.lang.Object) _r3_o);
+    _r3_o = _r3_o;
     _r4_o = ((global::com.codename1.share.SMSShare_21_22_21) _r9_o)._fthis_22;
     _r4_o = ((global::com.codename1.share.SMSShare_21_22) _r4_o)._fthis_21;
     _r4_o = ((global::com.codename1.share.SMSShare_21) _r4_o)._fval_2toShare;

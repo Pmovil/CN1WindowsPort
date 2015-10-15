@@ -19,9 +19,13 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 
 public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void <init>(com.codename1.ui.list.ListModel)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -38,8 +42,11 @@ private int getFilterOffset(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: int getFilterOffset(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._ffilter;
@@ -53,6 +60,7 @@ private int getFilterOffset(int n1){
     if (_r0.i <= _r2.i) goto label27;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._ffilter;
     _r1_o = ((global::java.util.ArrayList) _r0_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     goto label5;
     label27:;
@@ -65,16 +73,25 @@ public virtual void sort(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void sort(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1 ? 1 : 0;
     _r3.i = 0;
@@ -98,6 +115,7 @@ public virtual void sort(bool n1){
     if (_r7.i >= _r0.i) goto label48;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r8_o)._ffilter;
     _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
+    _r0_o = _r0_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r0_o;
     _r7.i = _r7.i + 1;
     goto label27;
@@ -134,18 +152,26 @@ private int compareObj(global::java.lang.Object n1, global::java.lang.Object n2,
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
     _r6.i = n3 ? 1 : 0;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o)._funderlying;
+    _r4_o = _r4_o;
     _r1.i = ((global::java.lang.Integer) _r4_o).intValue();
     _r0_o = ((global::com.codename1.ui.list.ListModel) _r0_o).getItemAt((int) _r1.i);
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o)._funderlying;
+    _r5_o = _r5_o;
     _r2.i = ((global::java.lang.Integer) _r5_o).intValue();
     _r1_o = ((global::com.codename1.ui.list.ListModel) _r1_o).getItemAt((int) _r2.i);
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r3_o).compare((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r1_o, 0!=_r6.i);
@@ -155,16 +181,25 @@ private int compareObj(global::java.lang.Object n1, global::java.lang.Object n2,
 
 public virtual int compare(global::java.lang.Object n1, global::java.lang.Object n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: int compare(java.lang.Object, java.lang.Object, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -175,8 +210,10 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     _r3.i = ((_r6_o != null) && (_r6_o is global::java.lang.String)) ? 1 : 0;
     if (_r3.i == 0) goto label29;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     label14:;
     _r1_o = ((global::java.lang.String) _r1_o).toUpperCase();
@@ -186,14 +223,18 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
     label28:;
     return _r3.i;
     label29:;
+    _r6_o = _r6_o;
     // Value=name
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.util.Map) _r6_o).get((global::java.lang.Object) _r4_o);
+    _r1_o = _r1_o;
+    _r7_o = _r7_o;
     // Value=name
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101))}));
     _r2_o = ((global::java.util.Map) _r7_o).get((global::java.lang.Object) _r4_o);
+    _r2_o = _r2_o;
     goto label14;
     label50:;
     _r3.i = ((global::java.lang.String) _r1_o).compareTo((global::java.lang.String) _r2_o);
@@ -204,12 +245,19 @@ public virtual int compare(global::java.lang.Object n1, global::java.lang.Object
 
 private void swap(global::org.xmlvm._nArrayAdapter<global::System.Object> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void swap(java.lang.Object[], int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -231,33 +279,58 @@ private void mergeSort(global::org.xmlvm._nArrayAdapter<global::System.Object> n
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r22_o = this;
     _r23_o = n1;
     _r24_o = n2;
@@ -390,9 +463,13 @@ private int getUnderlyingOffset(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: int getUnderlyingOffset(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._ffilter;
@@ -411,8 +488,11 @@ private int getUnderlyingOffset(int n1){
 
 public virtual global::System.Object getUnderlying(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: com.codename1.ui.list.ListModel getUnderlying()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._funderlying;
     return (global::com.codename1.ui.list.ListModel) _r0_o;
@@ -422,12 +502,18 @@ public virtual global::System.Object getUnderlying(){
 private void filterImpl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void filterImpl(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = new global::java.util.ArrayList();
@@ -458,16 +544,25 @@ private void filterImpl(global::java.lang.String n1){
 
 public virtual bool check(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: boolean check(java.lang.Object, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -475,6 +570,7 @@ public virtual bool check(global::java.lang.Object n1, global::java.lang.String 
     _r3.i = ((_r7_o != null) && (_r7_o is global::java.util.Map)) ? 1 : 0;
     if (_r3.i == 0) goto label23;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     // Value=name
     _r3_o = new global::java.lang.String();
@@ -512,11 +608,18 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -525,6 +628,7 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r4_o)._fstartsWithMode ? 1 : 0;
     if (_r0.i == 0) goto label24;
     if (_r5_o == null) goto label22;
+    _r5_o = _r5_o;
     _r0_o = ((global::java.lang.String) _r5_o).toUpperCase();
     _r0.i = ((global::java.lang.String) _r0_o).startsWith((global::java.lang.String) _r6_o) ? 1 : 0;
     if (_r0.i == 0) goto label22;
@@ -536,6 +640,7 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
     goto label21;
     label24:;
     if (_r5_o == null) goto label41;
+    _r5_o = _r5_o;
     _r0_o = ((global::java.lang.String) _r5_o).toUpperCase();
     _r0.i = ((global::java.lang.String) _r0_o).indexOf((global::java.lang.String) _r6_o);
     _r1.i = -1;
@@ -551,9 +656,14 @@ private bool comp(global::java.lang.Object n1, global::java.lang.String n2){
 public virtual void filter(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void filter(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o).filterImpl((global::java.lang.String) _r3_o);
@@ -566,10 +676,15 @@ public virtual void filter(global::java.lang.String n1){
 
 public virtual global::System.Object getItemAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: java.lang.Object getItemAt(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._funderlying;
@@ -583,7 +698,9 @@ public virtual int getSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: int getSize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._ffilter;
     if (_r0_o != null) goto label11;
@@ -601,9 +718,12 @@ public virtual int getSize(){
 public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = 0;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._funderlying;
@@ -616,10 +736,15 @@ public virtual int getSelectedIndex(){
 
 public virtual void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void setSelectedIndex(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i >= 0) goto label8;
@@ -637,9 +762,13 @@ public virtual void setSelectedIndex(int n1){
 
 public virtual void addDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void addDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._flisteners;
@@ -650,9 +779,13 @@ public virtual void addDataChangedListener(global::com.codename1.ui.events.DataC
 
 public virtual void removeDataChangedListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void removeDataChangedListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._flisteners;
@@ -663,9 +796,13 @@ public virtual void removeDataChangedListener(global::com.codename1.ui.events.Da
 
 public virtual void addSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void addSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._funderlying;
@@ -676,9 +813,13 @@ public virtual void addSelectionListener(global::com.codename1.ui.events.Selecti
 
 public virtual void removeSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void removeSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._funderlying;
@@ -689,9 +830,13 @@ public virtual void removeSelectionListener(global::com.codename1.ui.events.Sele
 
 public virtual void addItem(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void addItem(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._funderlying;
@@ -702,10 +847,15 @@ public virtual void addItem(global::java.lang.Object n1){
 
 public virtual void removeItem(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void removeItem(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._funderlying;
@@ -718,11 +868,16 @@ public virtual void removeItem(int n1){
 public virtual void dataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void dataChanged(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -740,6 +895,7 @@ public virtual void dataChanged(int n1, int n2){
     if (_r0.i >= _r1.i) goto label9;
     _r1_o = ((global::com.codename1.ui.list.FilterProxyListModel) _r2_o)._flisteners;
     _r1_o = ((global::java.util.ArrayList) _r1_o).get((int) _r0.i);
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.events.DataChangedListener) _r1_o).dataChanged((int) _r3.i, (int) _r4.i);
     _r0.i = _r0.i + 1;
     goto label11;
@@ -748,9 +904,13 @@ public virtual void dataChanged(int n1, int n2){
 
 public static void install(global::com.codename1.ui.TextField n1, global::com.codename1.ui.List n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void install(com.codename1.ui.TextField, com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::com.codename1.ui.list.FilterProxyListModel_21();
@@ -762,9 +922,13 @@ public static void install(global::com.codename1.ui.TextField n1, global::com.co
 
 public static void install(global::com.codename1.ui.TextField n1, global::com.codename1.ui.list.ContainerList n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void install(com.codename1.ui.TextField, com.codename1.ui.list.ContainerList)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     _r0_o = new global::com.codename1.ui.list.FilterProxyListModel_22();
@@ -777,7 +941,10 @@ public static void install(global::com.codename1.ui.TextField n1, global::com.co
 public virtual bool isStartsWithMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: boolean isStartsWithMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.list.FilterProxyListModel) _r1_o)._fstartsWithMode ? 1 : 0;
     return _r0.i!=0;
@@ -786,8 +953,11 @@ public virtual bool isStartsWithMode(){
 
 public virtual void setStartsWithMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.FilterProxyListModel: void setStartsWithMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.list.FilterProxyListModel) _r0_o)._fstartsWithMode = 0!=_r1.i;

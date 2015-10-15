@@ -11,13 +11,21 @@ public global::com.codename1.maps.CacheProviderProxy _fthis_20;
 
 public void @this(global::com.codename1.maps.CacheProviderProxy n1, global::com.codename1.maps.Tile n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy$AgeableTile: void <init>(com.codename1.maps.CacheProviderProxy, com.codename1.maps.Tile, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -37,8 +45,11 @@ public override bool paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.CacheProviderProxy$AgeableTile: boolean paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.maps.CacheProviderProxy_2AgeableTile) _r1_o)._ftile;

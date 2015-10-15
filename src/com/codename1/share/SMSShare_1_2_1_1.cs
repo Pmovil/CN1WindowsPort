@@ -11,10 +11,15 @@ public global::com.codename1.share.SMSShare_21_22_21 _fthis_23;
 
 public void @this(global::com.codename1.share.SMSShare_21_22_21 n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2, global::java.util.Hashtable n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.SMSShare$1$2$1$1: void <init>(com.codename1.share.SMSShare$1$2$1, com.codename1.share.ShareForm[], java.util.Hashtable)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -29,14 +34,19 @@ public void @this(global::com.codename1.share.SMSShare_21_22_21 n1, global::org.
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.SMSShare$1$2$1$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -86,6 +96,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101))}));
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r4_o);
+    _r1_o = _r1_o;
     _r1_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r1_o);
     _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
     ((global::java.io.PrintStream) _r2_o).println((global::java.lang.String) _r1_o);

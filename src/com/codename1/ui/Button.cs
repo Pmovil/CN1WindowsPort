@@ -29,10 +29,13 @@ private int _freleaseRadius;
 
 private bool _fautoRelease;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=
     _r0_o = new global::java.lang.String();
@@ -42,11 +45,15 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void <init>()]
 }
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -59,9 +66,13 @@ public void @this(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.Command) _r3_o).getCommandName();
@@ -78,8 +89,11 @@ public void @this(global::com.codename1.ui.Command n1){
 
 private void updateCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void updateCommand()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fcmd;
     _r0_o = ((global::com.codename1.ui.Command) _r0_o).getRolloverIcon();
@@ -98,8 +112,11 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setCommand(com.codename1.ui.Command)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fcmd;
@@ -120,11 +137,15 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void setCommand(com.codename1.ui.Command)]
 }
 
-new public void @this(global::com.codename1.ui.Image n1){
+public void @this(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=
@@ -139,11 +160,17 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void <init>(java.lang.String, com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -176,7 +203,10 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2
 public override void resetFocusable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void resetFocusable()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Button) _r1_o).setFocusable(0!=_r0.i);
@@ -187,8 +217,12 @@ public override void resetFocusable(){
 public override void focusGainedInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void focusGainedInternal()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.focusGainedInternal();
     _r0.i = ((global::com.codename1.ui.Button) _r2_o)._fstate;
@@ -204,7 +238,10 @@ public override void focusGainedInternal(){
 public override void focusLostInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void focusLostInternal()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.focusLostInternal();
     _r0.i = 2;
@@ -216,7 +253,10 @@ public override void focusLostInternal(){
 public virtual int getState(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: int getState()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Button) _r1_o)._fstate;
     return _r0.i;
@@ -225,8 +265,11 @@ public virtual int getState(){
 
 public virtual void setState(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setState(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Button) _r0_o)._fstate = _r1.i;
@@ -236,8 +279,11 @@ public virtual void setState(int n1){
 
 public virtual global::System.Object getPressedIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getPressedIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fpressedIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -246,8 +292,11 @@ public virtual global::System.Object getPressedIcon(){
 
 public virtual global::System.Object getRolloverPressedIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getRolloverPressedIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._frolloverPressedIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -256,8 +305,11 @@ public virtual global::System.Object getRolloverPressedIcon(){
 
 public virtual void setRolloverPressedIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setRolloverPressedIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Button) _r0_o)._frolloverPressedIcon = (global::com.codename1.ui.Image) _r1_o;
@@ -267,8 +319,11 @@ public virtual void setRolloverPressedIcon(global::com.codename1.ui.Image n1){
 
 public virtual global::System.Object getDisabledIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getDisabledIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fdisabledIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -277,8 +332,11 @@ public virtual global::System.Object getDisabledIcon(){
 
 public virtual global::System.Object getRolloverIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getRolloverIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._frolloverIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -288,8 +346,12 @@ public virtual global::System.Object getRolloverIcon(){
 public virtual void setRolloverIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setRolloverIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Button) _r1_o)._frolloverIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -304,8 +366,12 @@ public virtual void setRolloverIcon(global::com.codename1.ui.Image n1){
 public virtual void setPressedIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setPressedIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Button) _r1_o)._fpressedIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -320,8 +386,12 @@ public virtual void setPressedIcon(global::com.codename1.ui.Image n1){
 public virtual void setDisabledIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setDisabledIcon(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Button) _r1_o)._fdisabledIcon = (global::com.codename1.ui.Image) _r2_o;
@@ -335,10 +405,13 @@ public virtual void setDisabledIcon(global::com.codename1.ui.Image n1){
 
 public override void checkAnimation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void checkAnimation()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.checkAnimation();
     _r1_o = ((global::com.codename1.ui.Button) _r2_o)._fpressedIcon;
@@ -369,9 +442,13 @@ public override void checkAnimation(){
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void addActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fdispatcher;
@@ -382,9 +459,13 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void removeActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fdispatcher;
@@ -395,8 +476,11 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 
 public virtual global::System.Object getActionListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: java.util.Vector getActionListeners()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerVector();
@@ -406,8 +490,11 @@ public virtual global::System.Object getActionListeners(){
 
 public virtual global::System.Object getListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: java.util.Collection getListeners()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerCollection();
@@ -417,10 +504,13 @@ public virtual global::System.Object getListeners(){
 
 public override global::System.Object getIconFromState(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getIconFromState()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getMaskedIcon();
     _r1.i = ((global::com.codename1.ui.Button) _r2_o).isEnabled() ? 1 : 0;
@@ -466,20 +556,29 @@ public override global::System.Object getIconFromState(){
     if (_r0_o != null) goto label56;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getMaskedIcon();
     goto label56;
+    label90:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Image getIconFromState()]
 }
 
 public virtual void fireActionEvent(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void fireActionEvent(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     _r7.i = n2;
@@ -519,7 +618,10 @@ public virtual void fireActionEvent(int n1, int n2){
 public virtual void pressed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pressed()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Button) _r1_o)._fstate = _r0.i;
@@ -531,7 +633,10 @@ public virtual void pressed(){
 public virtual void released(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void released()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     ((global::com.codename1.ui.Button) _r1_o).released((int) _r0.i, (int) _r0.i);
@@ -542,9 +647,14 @@ public virtual void released(){
 public virtual void released(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void released(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -561,8 +671,12 @@ public override void keyPressed(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -580,8 +694,12 @@ public override void keyReleased(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -596,8 +714,11 @@ public override void keyReleased(int n1){
 
 public override void keyRepeated(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void keyRepeated(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     return;
@@ -606,7 +727,9 @@ public override void keyRepeated(int n1){
 
 public override void fireClicked(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void fireClicked()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.ui.Button) _r0_o).pressed();
     ((global::com.codename1.ui.Button) _r0_o).released();
@@ -617,7 +740,10 @@ public override void fireClicked(){
 public override bool isSelectableInteraction(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean isSelectableInteraction()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -626,9 +752,13 @@ public override bool isSelectableInteraction(){
 
 public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pointerHover(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -639,9 +769,13 @@ public override void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, glob
 
 public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> n1, global::org.xmlvm._nArrayAdapter<int> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pointerHoverReleased(int[], int[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -652,12 +786,17 @@ public override void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> 
 
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pointerPressed(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
@@ -682,13 +821,19 @@ public override void pointerPressed(int n1, int n2){
 
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pointerReleased(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -719,7 +864,9 @@ public override void dragInitiated(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void dragInitiated()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).shouldRenderSelection((global::com.codename1.ui.Component) _r1_o) ? 1 : 0;
@@ -738,9 +885,13 @@ public override void dragInitiated(){
 
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void pointerDragged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -751,9 +902,13 @@ public override void pointerDragged(int n1, int n2){
 
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void paint(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o).getUIManager();
@@ -765,8 +920,11 @@ public override void paint(global::com.codename1.ui.Graphics n1){
 
 public override global::System.Object calcPreferredSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.geom.Dimension calcPreferredSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o).getUIManager();
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
@@ -777,8 +935,11 @@ public override global::System.Object calcPreferredSize(){
 
 public override global::System.Object getBorder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.plaf.Border getBorder()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o).getStyle();
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r0_o).getBorder();
@@ -791,8 +952,12 @@ public override bool isPressedStyle(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r1.i = 1;
@@ -827,8 +992,11 @@ public override bool isPressedStyle(){
 
 public virtual global::System.Object getCommand(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: com.codename1.ui.Command getCommand()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Button) _r1_o)._fcmd;
     return (global::com.codename1.ui.Command) _r0_o;
@@ -838,7 +1006,10 @@ public virtual global::System.Object getCommand(){
 public virtual bool isSelected(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean isSelected()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -847,9 +1018,13 @@ public virtual bool isSelected(){
 
 public override void setAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setAlignment(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     base.setAlignment((int) _r2.i);
@@ -862,7 +1037,10 @@ public override void setAlignment(int n1){
 public virtual bool isToggle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean isToggle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Button) _r1_o)._ftoggle ? 1 : 0;
     return _r0.i!=0;
@@ -873,9 +1051,13 @@ public virtual void setToggle(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setToggle(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Button) _r2_o)._ftoggle = 0!=_r3.i;
@@ -906,11 +1088,16 @@ public virtual void setToggle(bool n1){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3.i = 1;
     _r2.i = 0;
@@ -977,13 +1164,17 @@ public override bool animate(){
     label94:;
     _r0.i = _r2.i;
     goto label93;
+    label96:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: boolean animate()]
 }
 
 public virtual bool isOppositeSide(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean isOppositeSide()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -993,7 +1184,10 @@ public virtual bool isOppositeSide(){
 public virtual int getReleaseRadius(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: int getReleaseRadius()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Button) _r1_o)._freleaseRadius;
     return _r0.i;
@@ -1002,8 +1196,11 @@ public virtual int getReleaseRadius(){
 
 public virtual void setReleaseRadius(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setReleaseRadius(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.Button) _r0_o)._freleaseRadius = _r1.i;
@@ -1014,7 +1211,10 @@ public virtual void setReleaseRadius(int n1){
 public virtual bool isAutoRelease(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: boolean isAutoRelease()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Button) _r1_o)._fautoRelease ? 1 : 0;
     return _r0.i!=0;
@@ -1023,8 +1223,11 @@ public virtual bool isAutoRelease(){
 
 public virtual void setAutoRelease(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void setAutoRelease(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Button) _r0_o)._fautoRelease = 0!=_r1.i;

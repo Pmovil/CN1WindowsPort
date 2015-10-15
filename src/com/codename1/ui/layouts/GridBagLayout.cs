@@ -25,11 +25,15 @@ public global::org.xmlvm._nArrayAdapter<int> _frowHeights;
 
 private global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo _flastParentInfo;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = null;
     ((global::com.codename1.ui.layouts.Layout) _r2_o).@this();
@@ -51,17 +55,27 @@ new public void @this(){
 
 public override void addLayoutComponent(global::java.lang.Object n1, global::com.codename1.ui.Component n2, global::com.codename1.ui.Container n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void addLayoutComponent(java.lang.Object, com.codename1.ui.Component, com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -77,9 +91,11 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r4_o);
     label14:;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label18:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o).clone();
+    _r2_o = _r2_o;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o)._fcomptable;
     ((global::java.util.Hashtable) _r4_o).put((global::java.lang.Object) _r8_o, (global::java.lang.Object) _r2_o);
     _r3_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
@@ -97,11 +113,17 @@ public override void addLayoutComponent(global::java.lang.Object n1, global::com
 
 public override void removeLayoutComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void removeLayoutComponent(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0_o = ((global::com.codename1.ui.Component) _r4_o).getParent();
@@ -120,45 +142,65 @@ public override void removeLayoutComponent(global::com.codename1.ui.Component n1
 
 public override global::System.Object getComponentConstraint(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: java.lang.Object getComponentConstraint(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label23;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fdefaultConstraints;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r0_o).clone();
+    _r2_o = _r2_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r3_o, (global::java.lang.Object) _r2_o);
     label23:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r0_o).clone();
+    _r2_o = _r2_o;
     return (global::java.lang.Object) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: java.lang.Object getComponentConstraint(com.codename1.ui.Component)]
 }
 
 public virtual void setConstraints(global::com.codename1.ui.Component n1, global::com.codename1.ui.layouts.GridBagConstraints n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void setConstraints(com.codename1.ui.Component, com.codename1.ui.layouts.GridBagConstraints)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r8_o).clone();
+    _r1_o = _r1_o;
     _r4_o = ((global::com.codename1.ui.Component) _r7_o).getParent();
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o).getParentInfo((global::com.codename1.ui.Container) _r4_o);
     if (_r2_o == null) goto label40;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r6_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r7_o);
+    _r0_o = _r0_o;
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r2_o)._fallConstraints;
     _r5_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r2_o)._fconsTable;
     _r5_o = ((global::java.util.HashMap) _r5_o).get((global::java.lang.Object) _r0_o);
@@ -182,10 +224,15 @@ public virtual void setConstraints(global::com.codename1.ui.Component n1, global
 
 public virtual void invalidateLayout(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void invalidateLayout(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     if (_r3_o != null) goto label3;
@@ -201,9 +248,13 @@ public virtual void invalidateLayout(global::com.codename1.ui.Container n1){
 
 public override global::System.Object getPreferredSize(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.geom.Dimension getPreferredSize(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
@@ -212,8 +263,12 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
@@ -286,13 +341,19 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
 
 public override void layoutContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void layoutContainer(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -338,12 +399,17 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
 
 public virtual global::System.Object getLayoutDimensions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int[][] getLayoutDimensions()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r1.i = 2;
     _r3.i = 1;
@@ -379,7 +445,9 @@ public virtual global::System.Object getLayoutWeights(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 0;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r3_o)._flastParentInfo;
@@ -403,13 +471,19 @@ public virtual global::System.Object getLayoutWeights(){
 
 public virtual void ArrangeGrid(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void ArrangeGrid(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
@@ -454,17 +528,24 @@ public virtual void ArrangeGrid(global::com.codename1.ui.Container n1){
 
 public virtual global::System.Object lookupConstraints(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.layouts.GridBagConstraints lookupConstraints(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fcomptable;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label18;
     _r1_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r2_o)._fdefaultConstraints;
     _r0_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o).clone();
+    _r0_o = _r0_o;
     label18:;
     return (global::com.codename1.ui.layouts.GridBagConstraints) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.layouts.GridBagConstraints lookupConstraints(com.codename1.ui.Component)]
@@ -472,9 +553,13 @@ public virtual global::System.Object lookupConstraints(global::com.codename1.ui.
 
 public virtual void adjustForGravity(global::com.codename1.ui.layouts.GridBagConstraints n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void adjustForGravity(com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Rectangle)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -485,8 +570,11 @@ public virtual void adjustForGravity(global::com.codename1.ui.layouts.GridBagCon
 
 public virtual void arrangeGrid(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void arrangeGrid(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.layouts.GridBagLayout) _r0_o).ArrangeGrid((global::com.codename1.ui.Container) _r1_o);
@@ -498,20 +586,33 @@ public virtual void AdjustForGravity(global::com.codename1.ui.layouts.GridBagCon
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void AdjustForGravity(com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r13_o = n2;
@@ -524,6 +625,7 @@ public virtual void AdjustForGravity(global::com.codename1.ui.layouts.GridBagCon
     return;
     label10:;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagConstraints) _r12_o).clone();
+    _r2_o = _r2_o;
     _r0.i = 1;
     ((global::com.codename1.ui.layouts.GridBagConstraints) _r2_o)._ffill = _r0.i;
     _r1_o = new global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide();
@@ -552,11 +654,17 @@ public virtual void AdjustForGravity(global::com.codename1.ui.layouts.GridBagCon
 
 private global::System.Object getParentInfo(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.layouts.GridBagLayout$ParentInfo getParentInfo(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=cn1$gridBagLayoutData
@@ -571,6 +679,7 @@ private global::System.Object getParentInfo(global::com.codename1.ui.Container n
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97))}));
     _r0_o = ((global::com.codename1.ui.Container) _r4_o).getClientProperty((global::java.lang.String) _r2_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label26;
     _r0_o = new global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r0_o).@this((global::com.codename1.ui.layouts.GridBagLayout) _r3_o);
@@ -586,14 +695,21 @@ private global::System.Object getParentInfo(global::com.codename1.ui.Container n
 
 private void arrangeGridImpl(global::com.codename1.ui.Container n1, global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void arrangeGridImpl(com.codename1.ui.Container, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -612,14 +728,20 @@ private void arrangeGridImpl(global::com.codename1.ui.Container n1, global::com.
 private void setComponentsBounds(global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void setComponentsBounds(com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0.i = 0;
@@ -662,15 +784,25 @@ private void setComponentsBounds(global::com.codename1.ui.layouts.GridBagLayout_
 
 private void calculateComponentBounds(global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n1, global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n2, global::com.codename1.ui.geom.Rectangle n3, global::com.codename1.ui.layouts.GridBagLayout_2Grid n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void calculateComponentBounds(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.geom.Rectangle, com.codename1.ui.layouts.GridBagLayout$Grid)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -700,11 +832,18 @@ private void calculateComponentBounds(global::com.codename1.ui.layouts.GridBagLa
 private int fillDisplaySide(int n1, global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int fillDisplaySide(int, com.codename1.ui.layouts.GridBagLayout$ComponentSide)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5_o = n2;
@@ -732,16 +871,28 @@ private int fillDisplaySide(int n1, global::com.codename1.ui.layouts.GridBagLayo
 private int anchorComponentSide(int n1, int n2, global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int anchorComponentSide(int, int, com.codename1.ui.layouts.GridBagLayout$ComponentSide, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2;
@@ -787,25 +938,39 @@ private int anchorComponentSide(int n1, int n2, global::com.codename1.ui.layouts
     _r3.i = (int) _r3.f;
     _r3.i = _r3.i + _r7.i;
     goto label20;
+    label50:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int anchorComponentSide(int, int, com.codename1.ui.layouts.GridBagLayout$ComponentSide, int)]
 }
 
 private void initHorCompSide(global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n1, global::com.codename1.ui.layouts.GridBagConstraints n2, global::com.codename1.ui.geom.Dimension n3, global::com.codename1.ui.geom.Dimension n4, global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initHorCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -817,6 +982,7 @@ private void initHorCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Com
     _r4.i = 1;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r12_o)._fconsTable;
     _r1_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r9_o);
+    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
     _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getX();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart = _r2.i;
@@ -877,25 +1043,39 @@ private void initHorCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Com
     label101:;
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstretch = 0!=_r5.i;
     goto label74;
+    label104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initHorCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
 }
 
 private void initVertCompSide(global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide n1, global::com.codename1.ui.layouts.GridBagConstraints n2, global::com.codename1.ui.geom.Dimension n3, global::com.codename1.ui.geom.Dimension n4, global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initVertCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -907,6 +1087,7 @@ private void initVertCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Co
     _r4.i = 1;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo) _r12_o)._fconsTable;
     _r1_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r9_o);
+    _r1_o = _r1_o;
     _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout_2MixedConstraints) _r1_o)._fmapped;
     _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r2_o).getY();
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fgridStart = _r2.i;
@@ -967,20 +1148,31 @@ private void initVertCompSide(global::com.codename1.ui.layouts.GridBagLayout_2Co
     label101:;
     ((global::com.codename1.ui.layouts.GridBagLayout_2ComponentSide) _r8_o)._fstretch = 0!=_r5.i;
     goto label73;
+    label104:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initVertCompSide(com.codename1.ui.layouts.GridBagLayout$ComponentSide, com.codename1.ui.layouts.GridBagConstraints, com.codename1.ui.geom.Dimension, com.codename1.ui.geom.Dimension, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
 }
 
 private int translateRelativeAnchor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int translateRelativeAnchor(int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2 ? 1 : 0;
@@ -1058,11 +1250,13 @@ private int translateRelativeAnchor(int n1, bool n2){
     label59:;
     _r0.i = _r4.i;
     goto label58;
+    label62:;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int translateRelativeAnchor(int, boolean)]
 }
 
 private void validate(global::com.codename1.ui.Container n1, global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void validate(com.codename1.ui.Container, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -1070,9 +1264,13 @@ private void validate(global::com.codename1.ui.Container n1, global::com.codenam
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -1121,16 +1319,27 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void initCompSides(com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8_o = null;
@@ -1149,6 +1358,7 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r9_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r6_o);
+    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r4_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r0_o = _r9_o;
@@ -1162,6 +1372,7 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
     _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r7.i];
     _r0_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r9_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r6_o);
+    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r4_o = ((global::com.codename1.ui.Component) _r6_o).getPreferredSize();
     _r0_o = _r9_o;
@@ -1176,36 +1387,51 @@ private void initCompSides(global::com.codename1.ui.layouts.GridBagLayout_2Paren
 
 private global::System.Object initCompsArray(global::com.codename1.ui.Container n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.geom.Dimension initCompsArray(com.codename1.ui.Container, com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
     _r9.i = -1;
-    _r6.i = 0;
     _r5.i = 0;
+    _r4.i = 0;
     _r2.i = 0;
-    _r7_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r10_o)._fcomptable;
-    _r7_o = ((global::java.util.Hashtable) _r7_o).keySet();
-    _r4_o = ((global::java.util.Set) _r7_o).iterator();
+    _r6_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r10_o)._fcomptable;
+    _r6_o = ((global::java.util.Hashtable) _r6_o).keySet();
+    _r6_o = ((global::java.util.Set) _r6_o).iterator();
     label14:;
-    _r7.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
+    _r7.i = ((global::java.util.Iterator) _r6_o).hasNext() ? 1 : 0;
     if (_r7.i == 0) goto label78;
-    _r0_o = ((global::java.util.Iterator) _r4_o).next();
+    _r0_o = ((global::java.util.Iterator) _r6_o).next();
+    _r0_o = _r0_o;
     _r7_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r10_o)._fcomptable;
     _r1_o = ((global::java.util.Hashtable) _r7_o).get((global::java.lang.Object) _r0_o);
+    _r1_o = _r1_o;
     _r7_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     if (_r7_o != _r11_o) goto label51;
     _r7.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
@@ -1221,38 +1447,45 @@ private global::System.Object initCompsArray(global::com.codename1.ui.Container 
     _r7.i = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o)._fgridx;
     _r8.i = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o)._fgridwidth;
     _r7.i = _r7.i + _r8.i;
-    _r6.i = global::java.lang.Math.max((int) _r6.i, (int) _r7.i);
+    _r5.i = global::java.lang.Math.max((int) _r5.i, (int) _r7.i);
     _r7.i = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o)._fgridy;
     _r8.i = ((global::com.codename1.ui.layouts.GridBagConstraints) _r1_o)._fgridheight;
     _r7.i = _r7.i + _r8.i;
-    _r5.i = global::java.lang.Math.max((int) _r5.i, (int) _r7.i);
+    _r4.i = global::java.lang.Math.max((int) _r4.i, (int) _r7.i);
     goto label14;
     label78:;
-    _r7_o = new global::com.codename1.ui.geom.Dimension();
-    ((global::com.codename1.ui.geom.Dimension) _r7_o).@this((int) _r6.i, (int) _r5.i);
-    return (global::com.codename1.ui.geom.Dimension) _r7_o;
+    _r6_o = new global::com.codename1.ui.geom.Dimension();
+    ((global::com.codename1.ui.geom.Dimension) _r6_o).@this((int) _r5.i, (int) _r4.i);
+    return (global::com.codename1.ui.geom.Dimension) _r6_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.GridBagLayout: com.codename1.ui.geom.Dimension initCompsArray(com.codename1.ui.Container, com.codename1.ui.Component[])]
 }
 
 private int getComponentsNumber(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: int getComponentsNumber(com.codename1.ui.Container)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r1.i = 0;
-    _r3_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r4_o)._fcomptable;
-    _r3_o = ((global::java.util.Hashtable) _r3_o).keySet();
-    _r2_o = ((global::java.util.Set) _r3_o).iterator();
+    _r2_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r4_o)._fcomptable;
+    _r2_o = ((global::java.util.Hashtable) _r2_o).keySet();
+    _r2_o = ((global::java.util.Set) _r2_o).iterator();
     label11:;
     _r3.i = ((global::java.util.Iterator) _r2_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label38;
     _r0_o = ((global::java.util.Iterator) _r2_o).next();
+    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Component) _r0_o).getParent();
     if (_r3_o != _r5_o) goto label11;
     _r3.i = ((global::com.codename1.ui.Component) _r0_o).isVisible() ? 1 : 0;
@@ -1267,10 +1500,16 @@ private int getComponentsNumber(global::com.codename1.ui.Container n1){
 private void resetCache(global::com.codename1.ui.Container n1, global::com.codename1.ui.layouts.GridBagLayout_2ParentInfo n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void resetCache(com.codename1.ui.Container, com.codename1.ui.layouts.GridBagLayout$ParentInfo)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1288,13 +1527,19 @@ private void resetCache(global::com.codename1.ui.Container n1, global::com.coden
 
 private void updateParentInfo(global::com.codename1.ui.Container n1, global::com.codename1.ui.layouts.GridBagConstraints n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void updateParentInfo(com.codename1.ui.Container, com.codename1.ui.layouts.GridBagConstraints)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1319,12 +1564,20 @@ private void updateParentInfo(global::com.codename1.ui.Container n1, global::com
 private void updateParentInfo(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.GridBagLayout: void updateParentInfo(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r0.i = ((global::com.codename1.ui.Container) _r6_o).getComponentCount();
@@ -1334,6 +1587,7 @@ private void updateParentInfo(global::com.codename1.ui.Container n1){
     _r1_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r3.i);
     _r4_o = ((global::com.codename1.ui.layouts.GridBagLayout) _r5_o)._fcomptable;
     _r2_o = ((global::java.util.Hashtable) _r4_o).get((global::java.lang.Object) _r1_o);
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.layouts.GridBagLayout) _r5_o).updateParentInfo((global::com.codename1.ui.Container) _r6_o, (global::com.codename1.ui.layouts.GridBagConstraints) _r2_o);
     _r3.i = _r3.i + 1;
     goto label5;

@@ -7,8 +7,11 @@ public global::com.codename1.components.Ads _fthis_20;
 
 public void @this(global::com.codename1.components.Ads n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads$2: void <init>(com.codename1.components.Ads)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.Ads_22) _r0_o)._fthis_20 = (global::com.codename1.components.Ads) _r1_o;
@@ -19,13 +22,19 @@ public void @this(global::com.codename1.components.Ads n1){
 
 public override global::System.Object createConnectionRequest(global::com.codename1.ui.html.DocumentInfo n1, global::com.codename1.ui.html.IOCallback n2, global::org.xmlvm._nArrayAdapter<global::System.Object> n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.Ads$2: com.codename1.io.ConnectionRequest createConnectionRequest(com.codename1.ui.html.DocumentInfo, com.codename1.ui.html.IOCallback, java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

@@ -20,9 +20,14 @@ public bool _fautoCalculateCenter;
 public void @this(global::com.codename1.charts.models.CategorySeries n1, global::com.codename1.charts.renderers.DefaultRenderer n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: void <init>(com.codename1.charts.models.CategorySeries, com.codename1.charts.renderers.DefaultRenderer)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -44,16 +49,27 @@ public virtual void drawTitle(global::com.codename1.charts.compat.Canvas n1, int
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2;
@@ -92,8 +108,12 @@ public virtual void drawTitle(global::com.codename1.charts.compat.Canvas n1, int
 public override int getLegendShapeWidth(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: int getLegendShapeWidth(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 10;
@@ -106,17 +126,30 @@ public override void drawLegendShape(global::com.codename1.charts.compat.Canvas 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -139,8 +172,11 @@ public override void drawLegendShape(global::com.codename1.charts.compat.Canvas 
 
 public virtual global::System.Object getRenderer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: com.codename1.charts.renderers.DefaultRenderer getRenderer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.views.RoundChart) _r1_o)._fmRenderer;
     return (global::com.codename1.charts.renderers.DefaultRenderer) _r0_o;
@@ -150,7 +186,10 @@ public virtual global::System.Object getRenderer(){
 public virtual int getCenterX(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: int getCenterX()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.views.RoundChart) _r1_o)._fmCenterX;
     return _r0.i;
@@ -160,7 +199,10 @@ public virtual int getCenterX(){
 public virtual int getCenterY(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: int getCenterY()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.views.RoundChart) _r1_o)._fmCenterY;
     return _r0.i;
@@ -169,8 +211,11 @@ public virtual int getCenterY(){
 
 public virtual void setCenterX(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: void setCenterX(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.views.RoundChart) _r0_o)._fmCenterX = _r1.i;
@@ -180,8 +225,11 @@ public virtual void setCenterX(int n1){
 
 public virtual void setCenterY(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: void setCenterY(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.charts.views.RoundChart) _r0_o)._fmCenterY = _r1.i;
@@ -191,8 +239,11 @@ public virtual void setCenterY(int n1){
 
 public virtual void setAutocalculateCenter(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: void setAutocalculateCenter(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.charts.views.RoundChart) _r0_o)._fautoCalculateCenter = 0!=_r1.i;
@@ -203,7 +254,10 @@ public virtual void setAutocalculateCenter(bool n1){
 public virtual bool isAutocalculateCenter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.views.RoundChart: boolean isAutocalculateCenter()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.views.RoundChart) _r1_o)._fautoCalculateCenter ? 1 : 0;
     return _r0.i!=0;

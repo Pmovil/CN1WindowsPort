@@ -25,11 +25,15 @@ private int _fcurrentMinute;
 
 private bool _fcurrentMeridiem;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     ((global::com.codename1.ui.spinner.BaseSpinner) _r2_o).@this();
@@ -49,18 +53,27 @@ new public void @this(){
 
 public override void initSpinner(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void initSpinner()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r7.i = 2;
     _r6.i = 1;
@@ -87,6 +100,7 @@ public override void initSpinner(){
     label43:;
     _r2_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r9_o)._fhour;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r2_o).getRenderer();
+    _r2_o = _r2_o;
     ((global::com.codename1.ui.list.DefaultListCellRenderer) _r2_o).setRightAlignNumbers(0!=_r6.i);
     _r1_o = new global::com.codename1.ui.spinner.TimeSpinner_21();
     ((global::com.codename1.ui.spinner.TimeSpinner_21) _r1_o).@this((global::com.codename1.ui.spinner.TimeSpinner) _r9_o);
@@ -129,7 +143,9 @@ public virtual void addComponents(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void addComponents()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._famPM;
     if (_r0_o == null) goto label37;
@@ -155,8 +171,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 6;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -199,10 +219,16 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Integer));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
@@ -235,8 +261,12 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     // Value=durationMode
@@ -318,10 +348,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -365,6 +400,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label83;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setCurrentMeridiem(0!=_r0.i);
     _r0_o = _r1_o;
@@ -375,6 +411,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 109))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label102;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setShowMeridiem(0!=_r0.i);
     _r0_o = _r1_o;
@@ -385,6 +422,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)100)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label121;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o).setDurationMode(0!=_r0.i);
     _r0_o = _r1_o;
@@ -398,7 +436,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 public virtual int getMinuteStep(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getMinuteStep()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminuteStep;
     return _r0.i;
@@ -407,13 +448,21 @@ public virtual int getMinuteStep(){
 
 public virtual void setMinuteStep(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setMinuteStep(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r5_o)._fminuteStep = _r6.i;
@@ -434,7 +483,10 @@ public virtual void setMinuteStep(int n1){
 public virtual bool isShowMeridiem(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: boolean isShowMeridiem()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fshowMeridiem ? 1 : 0;
     if (_r0.i == 0) goto label10;
@@ -453,13 +505,21 @@ public virtual void setShowMeridiem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setShowMeridiem(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1 ? 1 : 0;
     _r5.i = 1;
@@ -504,12 +564,15 @@ public virtual int getCurrentHour(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getCurrentHour()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fhour;
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fhour;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
+    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -521,10 +584,15 @@ public virtual int getCurrentHour(){
 
 public virtual void setCurrentHour(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentHour(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fcurrentHour = _r3.i;
@@ -543,12 +611,15 @@ public virtual int getCurrentMinute(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: int getCurrentMinute()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminute;
     if (_r0_o == null) goto label17;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fminute;
     _r1_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
+    _r1_o = _r1_o;
     _r0.i = ((global::java.lang.Integer) _r1_o).intValue();
     label16:;
     return _r0.i;
@@ -560,10 +631,15 @@ public virtual int getCurrentMinute(){
 
 public virtual void setCurrentMinute(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentMinute(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fcurrentMinute = _r3.i;
@@ -583,7 +659,10 @@ public virtual bool isCurrentMeridiem(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._fdurationMode ? 1 : 0;
@@ -596,6 +675,7 @@ public virtual bool isCurrentMeridiem(){
     if (_r0_o == null) goto label29;
     _r0_o = ((global::com.codename1.ui.spinner.TimeSpinner) _r2_o)._famPM;
     _r2_o = ((global::com.codename1.ui.spinner.Spinner) _r0_o).getValue();
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     if (_r0.i == 0) goto label27;
     _r0.i = 1;
@@ -613,10 +693,15 @@ public virtual void setCurrentMeridiem(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setCurrentMeridiem(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r3_o)._fdurationMode ? 1 : 0;
@@ -647,7 +732,10 @@ public virtual void setCurrentMeridiem(bool n1){
 public virtual bool isDurationMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: boolean isDurationMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.spinner.TimeSpinner) _r1_o)._fdurationMode ? 1 : 0;
     return _r0.i!=0;
@@ -657,10 +745,16 @@ public virtual bool isDurationMode(){
 public virtual void setDurationMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner: void setDurationMode(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r2.i = 24;

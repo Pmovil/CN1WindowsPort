@@ -44,7 +44,9 @@ private int _fexpectedContentType;
 
 public static void setDefaultEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setDefaultEncoding(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.html.DocumentInfo._fDEFAULT_1ENCODING = (global::java.lang.String) _r0_o;
     return;
@@ -55,8 +57,11 @@ public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::java.lang.Object) _r1_o).@this();
@@ -73,9 +78,13 @@ public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -94,10 +103,15 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, bool
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void <init>(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -116,8 +130,11 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, bool
 
 public virtual global::System.Object getUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String getUrl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fpageURL;
     return (global::java.lang.String) _r0_o;
@@ -128,8 +145,11 @@ public virtual global::System.Object getFullUrl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String getFullUrl()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.html.DocumentInfo) _r2_o)._fpostRequest ? 1 : 0;
     if (_r0.i != 0) goto label18;
@@ -164,16 +184,24 @@ public virtual global::System.Object getFullUrl(){
 public virtual void setUrl(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setUrl(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r6.i = 47;
@@ -261,7 +289,10 @@ public virtual void setUrl(global::java.lang.String n1){
 public virtual int getExpectedContentType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: int getExpectedContentType()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fexpectedContentType;
     return _r0.i;
@@ -270,8 +301,11 @@ public virtual int getExpectedContentType(){
 
 public virtual void setExpectedContentType(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setExpectedContentType(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.html.DocumentInfo) _r0_o)._fexpectedContentType = _r1.i;
@@ -282,7 +316,10 @@ public virtual void setExpectedContentType(int n1){
 public virtual bool isPostRequest(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: boolean isPostRequest()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fpostRequest ? 1 : 0;
     return _r0.i!=0;
@@ -291,8 +328,11 @@ public virtual bool isPostRequest(){
 
 public virtual void setPostRequest(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setPostRequest(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.html.DocumentInfo) _r0_o)._fpostRequest = 0!=_r1.i;
@@ -302,8 +342,11 @@ public virtual void setPostRequest(bool n1){
 
 public virtual global::System.Object getParams(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String getParams()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fparams;
     return (global::java.lang.String) _r0_o;
@@ -312,8 +355,11 @@ public virtual global::System.Object getParams(){
 
 public virtual void setParams(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setParams(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.html.DocumentInfo) _r0_o)._fparams = (global::java.lang.String) _r1_o;
@@ -323,8 +369,11 @@ public virtual void setParams(global::java.lang.String n1){
 
 public virtual global::System.Object getEncoding(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String getEncoding()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fencoding;
     return (global::java.lang.String) _r0_o;
@@ -333,8 +382,11 @@ public virtual global::System.Object getEncoding(){
 
 public virtual void setEncoding(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setEncoding(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.html.DocumentInfo) _r0_o)._fencoding = (global::java.lang.String) _r1_o;
@@ -349,7 +401,10 @@ public static bool isAbsoluteURL(global::java.lang.String n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r2.i = 0;
     _r0.i = 10;
@@ -374,16 +429,24 @@ public static bool isAbsoluteURL(global::java.lang.String n1){
 public virtual global::System.Object convertURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String convertURL(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r5.i = 0;
@@ -525,8 +588,11 @@ public virtual global::System.Object convertURL(global::java.lang.String n1){
 
 public virtual global::System.Object getBaseURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: java.lang.String getBaseURL()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.DocumentInfo) _r1_o)._fbaseURL;
     return (global::java.lang.String) _r0_o;
@@ -535,8 +601,11 @@ public virtual global::System.Object getBaseURL(){
 
 public virtual void setBaseURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void setBaseURL(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.html.DocumentInfo) _r0_o)._fbaseURL = (global::java.lang.String) _r1_o;
@@ -544,10 +613,11 @@ public virtual void setBaseURL(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.html.DocumentInfo: void setBaseURL(java.lang.String)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.DocumentInfo: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 0;
     global::com.codename1.ui.html.DocumentInfo._fTYPE_1HTML = _r0.i;
     _r0.i = 1;

@@ -67,9 +67,13 @@ public void @this(bool n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void <init>(boolean, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r3_o = n2;
@@ -96,15 +100,23 @@ public void @this(bool n1, global::java.lang.String n2){
 
 public void @this(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void <init>(java.lang.String, java.lang.String, java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -154,10 +166,15 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, bool
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void <init>(java.lang.String, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -190,13 +207,19 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2, bool
 
 public virtual void setQuery(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void setQuery(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     // Value=https://graph.facebook.com/
@@ -235,8 +258,11 @@ public virtual void setQuery(global::java.lang.String n1){
 
 public virtual global::System.Object requestURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: java.lang.String requestURL()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.FacebookRESTService) _r1_o).createRequestURL();
     return (global::java.lang.String) _r0_o;
@@ -245,20 +271,29 @@ public virtual global::System.Object requestURL(){
 
 public override void readResponse(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void readResponse(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r3.i = ((_r7_o != null) && (_r7_o is global::com.codename1.io.BufferedInputStream)) ? 1 : 0;
-    if (_r3.i == 0) goto label46;
+    if (_r3.i == 0) goto label49;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     label8:;
     _r3.i = -1;
@@ -269,18 +304,19 @@ public override void readResponse(global::java.io.InputStream n1){
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)85)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 56))}));
     ((global::java.io.InputStreamReader) _r2_o).@this((global::java.io.InputStream) _r1_o, (global::java.lang.String) _r3_o);
     global::com.codename1.io.JSONParser.parse((global::java.io.Reader) _r2_o, (global::com.codename1.io.JSONParseCallback) _r6_o);
+    global::com.codename1.io.Util.cleanup((global::java.lang.Object) _r2_o);
     _r3_o = ((global::com.codename1.facebook.FacebookRESTService) _r6_o)._fstack;
     _r3.i = ((global::java.util.Vector) _r3_o).size();
-    if (_r3.i <= 0) goto label45;
+    if (_r3.i <= 0) goto label48;
     _r3_o = new global::com.codename1.io.NetworkEvent();
     _r4_o = ((global::com.codename1.facebook.FacebookRESTService) _r6_o)._fstack;
     _r5.i = 0;
     _r4_o = ((global::java.util.Vector) _r4_o).elementAt((int) _r5.i);
     ((global::com.codename1.io.NetworkEvent) _r3_o).@this((global::com.codename1.io.ConnectionRequest) _r6_o, (global::java.lang.Object) _r4_o);
     ((global::com.codename1.facebook.FacebookRESTService) _r6_o).fireResponseListener((global::com.codename1.ui.events.ActionEvent) _r3_o);
-    label45:;
+    label48:;
     return;
-    label46:;
+    label49:;
     _r1_o = new global::com.codename1.io.BufferedInputStream();
     ((global::com.codename1.io.BufferedInputStream) _r1_o).@this((global::java.io.InputStream) _r7_o);
     goto label8;
@@ -289,8 +325,11 @@ public override void readResponse(global::java.io.InputStream n1){
 
 public virtual void setConnectionType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void setConnectionType(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o)._fconnectionType = (global::java.lang.String) _r1_o;
@@ -300,8 +339,11 @@ public virtual void setConnectionType(global::java.lang.String n1){
 
 public virtual global::System.Object getConnectionType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: java.lang.String getConnectionType()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fconnectionType;
     return (global::java.lang.String) _r0_o;
@@ -310,15 +352,21 @@ public virtual global::System.Object getConnectionType(){
 
 public virtual void startBlock(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void startBlock(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     // Value=paging
@@ -357,6 +405,7 @@ public virtual void startBlock(global::java.lang.String n1){
     ((global::java.util.Hashtable) _r0_o).@this();
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r2.i == 0) goto label92;
+    _r1_o = _r1_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r6_o, (global::java.lang.Object) _r0_o);
     label69:;
     _r2_o = ((global::com.codename1.facebook.FacebookRESTService) _r5_o)._fstack;
@@ -372,6 +421,7 @@ public virtual void startBlock(global::java.lang.String n1){
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
     goto label55;
     label92:;
+    _r1_o = _r1_o;
     ((global::java.util.Vector) _r1_o).addElement((global::java.lang.Object) _r0_o);
     goto label69;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void startBlock(java.lang.String)]
@@ -379,15 +429,21 @@ public virtual void startBlock(global::java.lang.String n1){
 
 public virtual void startArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void startArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -419,12 +475,14 @@ public virtual void startArray(global::java.lang.String n1){
     _r1_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r3.i);
     _r2.i = ((_r1_o != null) && (_r1_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r2.i == 0) goto label69;
+    _r1_o = _r1_o;
     ((global::java.util.Hashtable) _r1_o).put((global::java.lang.Object) _r6_o, (global::java.lang.Object) _r0_o);
     label63:;
     _r2_o = ((global::com.codename1.facebook.FacebookRESTService) _r5_o)._fstack;
     ((global::java.util.Vector) _r2_o).addElement((global::java.lang.Object) _r0_o);
     goto label9;
     label69:;
+    _r1_o = _r1_o;
     ((global::java.util.Vector) _r1_o).addElement((global::java.lang.Object) _r0_o);
     goto label63;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void startArray(java.lang.String)]
@@ -432,14 +490,19 @@ public virtual void startArray(global::java.lang.String n1){
 
 public virtual void endArray(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void endArray(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -466,6 +529,7 @@ public virtual void endArray(global::java.lang.String n1){
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
+    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r4_o)._fcurrentData = (global::java.util.Hashtable) _r0_o;
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void endArray(java.lang.String)]
@@ -473,14 +537,19 @@ public virtual void endArray(global::java.lang.String n1){
 
 public virtual void endBlock(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void endBlock(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -505,6 +574,7 @@ public virtual void endBlock(global::java.lang.String n1){
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r2.i);
     _r1.i = ((_r0_o != null) && (_r0_o is global::java.util.Hashtable)) ? 1 : 0;
     if (_r1.i == 0) goto label9;
+    _r0_o = _r0_o;
     ((global::com.codename1.facebook.FacebookRESTService) _r4_o)._fcurrentData = (global::java.util.Hashtable) _r0_o;
     goto label9;
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: void endBlock(java.lang.String)]
@@ -512,8 +582,11 @@ public virtual void endBlock(global::java.lang.String n1){
 
 public virtual void stringToken(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void stringToken(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -522,8 +595,13 @@ public virtual void stringToken(global::java.lang.String n1){
 
 public virtual void numericToken(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void numericToken(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     return;
@@ -532,10 +610,15 @@ public virtual void numericToken(double n1){
 
 public virtual void keyValue(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void keyValue(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -553,8 +636,11 @@ public virtual void keyValue(global::java.lang.String n1, global::java.lang.Stri
 
 public virtual global::System.Object getCurrent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: java.util.Hashtable getCurrent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fcurrentData;
     if (_r0_o != null) goto label11;
@@ -569,8 +655,11 @@ public virtual global::System.Object getCurrent(){
 
 public virtual void setResponseDestination(global::com.codename1.ui.list.DefaultListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void setResponseDestination(com.codename1.ui.list.DefaultListModel)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o)._fresponseDestination = (global::com.codename1.ui.list.DefaultListModel) _r1_o;
@@ -581,7 +670,10 @@ public virtual void setResponseDestination(global::com.codename1.ui.list.Default
 public virtual bool isAlive(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: boolean isAlive()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.FacebookRESTService) _r1_o).isKilled() ? 1 : 0;
     if (_r0.i != 0) goto label8;
@@ -597,7 +689,10 @@ public virtual bool isAlive(){
 public override int getYield(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: int getYield()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     return _r0.i;
@@ -607,7 +702,10 @@ public override int getYield(){
 public virtual int getResponseOffset(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: int getResponseOffset()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fresponseOffset;
     return _r0.i;
@@ -616,8 +714,11 @@ public virtual int getResponseOffset(){
 
 public virtual void setResponseOffset(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void setResponseOffset(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o)._fresponseOffset = _r1.i;
@@ -627,8 +728,11 @@ public virtual void setResponseOffset(int n1){
 
 public virtual global::System.Object getImageKey(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: java.lang.String getImageKey()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fimageKey;
     return (global::java.lang.String) _r0_o;
@@ -637,8 +741,11 @@ public virtual global::System.Object getImageKey(){
 
 public virtual void setImageKey(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void setImageKey(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.facebook.FacebookRESTService) _r0_o)._fimageKey = (global::java.lang.String) _r1_o;
@@ -648,8 +755,13 @@ public virtual void setImageKey(global::java.lang.String n1){
 
 public virtual void longToken(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void longToken(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     return;
@@ -658,8 +770,11 @@ public virtual void longToken(long n1){
 
 public static global::System.Object access_2000(global::com.codename1.facebook.FacebookRESTService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: com.codename1.ui.list.DefaultListModel access$000(com.codename1.facebook.FacebookRESTService)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fresponseDestination;
     return (global::com.codename1.ui.list.DefaultListModel) _r0_o;
@@ -669,7 +784,10 @@ public static global::System.Object access_2000(global::com.codename1.facebook.F
 public static int access_2100(global::com.codename1.facebook.FacebookRESTService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: int access$100(com.codename1.facebook.FacebookRESTService)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.facebook.FacebookRESTService) _r1_o)._fresponseOffset;
     return _r0.i;
@@ -679,8 +797,12 @@ public static int access_2100(global::com.codename1.facebook.FacebookRESTService
 public static int access_2108(global::com.codename1.facebook.FacebookRESTService n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: int access$108(com.codename1.facebook.FacebookRESTService)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.facebook.FacebookRESTService) _r2_o)._fresponseOffset;
     _r1.i = _r0.i + 1;
@@ -689,9 +811,11 @@ public static int access_2108(global::com.codename1.facebook.FacebookRESTService
 //XMLVM_END_WRAPPER[com.codename1.facebook.FacebookRESTService: int access$108(com.codename1.facebook.FacebookRESTService)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.facebook.FacebookRESTService: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=picture
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101))}));

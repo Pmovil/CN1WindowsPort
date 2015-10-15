@@ -41,6 +41,8 @@ public static sbyte _fMAGIC_1HEADER = -1;
 
 public static sbyte _fMAGIC_1PASSWORD = -2;
 
+private static global::com.codename1.ui.util.Resources _fglobalResources;
+
 public short _fmajorVersion;
 
 public short _fminorVersion;
@@ -93,6 +95,8 @@ private static global::java.lang.Object _fcachedResource;
 
 private static global::java.lang.String _flastLoadedName;
 
+private static int _flastLoadedDPI;
+
 private static bool _fruntimeMultiImages;
 
 private static global::java.lang.String _fsystemResourceLocation;
@@ -112,6 +116,8 @@ public int _fkeyOffset;
 public static bool isFailOnMissingTruetype(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isFailOnMissingTruetype()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.ui.util.Resources._ffailOnMissingTruetype ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: boolean isFailOnMissingTruetype()]
@@ -120,6 +126,8 @@ public static bool isFailOnMissingTruetype(){
 public static void setFailOnMissingTruetype(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setFailOnMissingTruetype(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.util.Resources._ffailOnMissingTruetype = 0!=_r0.i;
     return;
@@ -129,6 +137,8 @@ public static void setFailOnMissingTruetype(bool n1){
 public static void setRuntimeMultiImageEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setRuntimeMultiImageEnabled(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.ui.util.Resources._fruntimeMultiImages = 0!=_r0.i;
     return;
@@ -137,18 +147,22 @@ public static void setRuntimeMultiImageEnabled(bool n1){
 
 public static void setClassLoader(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setClassLoader(java.lang.Class)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     global::com.codename1.ui.util.Resources._fclassLoader = (global::java.lang.Class) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: void setClassLoader(java.lang.Class)]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0.i = -1;
@@ -167,9 +181,13 @@ public void @this(global::java.io.InputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void <init>(java.io.InputStream, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -192,7 +210,9 @@ public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void clear()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.util.Resources) _r1_o)._fmajorVersion = (short) _r0.i;
@@ -216,38 +236,66 @@ public virtual global::System.Object readTimeline(global::java.io.DataInputStrea
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
     global::System.Object _r31_o = null;
+    global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r31_o = this;
     _r32_o = n1;
     _r21.i = ((global::java.io.DataInputStream) _r32_o).readInt();
@@ -381,9 +429,13 @@ public virtual global::System.Object readTimeline(global::java.io.DataInputStrea
 
 public virtual void startingEntry(global::java.lang.String n1, sbyte n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void startingEntry(java.lang.String, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -393,8 +445,11 @@ public virtual void startingEntry(global::java.lang.String n1, sbyte n2){
 
 public virtual void @override(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void override(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.Resources) _r0_o).openFileImpl((global::java.io.InputStream) _r1_o);
@@ -404,8 +459,11 @@ public virtual void @override(global::java.io.InputStream n1){
 
 public virtual void openFile(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void openFile(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.Resources) _r0_o).clear();
@@ -416,22 +474,33 @@ public virtual void openFile(global::java.io.InputStream n1){
 
 private void openFileImpl(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void openFileImpl(java.io.InputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r8_o = new global::java.io.DataInputStream();
@@ -589,13 +658,17 @@ private void openFileImpl(global::java.io.InputStream n1){
     goto label121;
     label250:;
     return;
+    label252:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: void openFileImpl(java.io.InputStream)]
 }
 
 public static void setPassword(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setPassword(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
@@ -656,12 +729,18 @@ public static void setPassword(global::java.lang.String n1){
 public virtual void checkKey(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void checkKey(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2_o = global::com.codename1.ui.util.Resources._fkey;
@@ -703,8 +782,11 @@ private int decode(int n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = global::com.codename1.ui.util.Resources._fkey;
@@ -728,11 +810,16 @@ private int decode(int n1){
 private void readHeader(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void readHeader()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = ((global::com.codename1.ui.util.Resources) _r4_o)._finput;
     _r1.i = ((global::java.io.DataInputStream) _r2_o).readShort();
@@ -765,7 +852,10 @@ private void readHeader(){
 public virtual int getMajorVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: int getMajorVersion()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.util.Resources) _r1_o)._fmajorVersion;
     return _r0.i;
@@ -775,7 +865,10 @@ public virtual int getMajorVersion(){
 public virtual int getMinorVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: int getMinorVersion()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.util.Resources) _r1_o)._fminorVersion;
     return _r0.i;
@@ -784,8 +877,11 @@ public virtual int getMinorVersion(){
 
 public virtual global::System.Object getMetaData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getMetaData()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fmetaData;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -794,12 +890,17 @@ public virtual global::System.Object getMetaData(){
 
 public virtual global::System.Object getResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getResourceNames()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = ((global::com.codename1.ui.util.Resources) _r4_o)._fresourceTypes;
     _r3.i = ((global::java.util.HashMap) _r3_o).size();
@@ -812,6 +913,7 @@ public virtual global::System.Object getResourceNames(){
     _r3.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     if (_r2.i >= _r3.i) goto label33;
     _r4_o = ((global::java.util.Iterator) _r1_o).next();
+    _r4_o = _r4_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r4_o;
     _r2.i = _r2.i + 1;
     goto label19;
@@ -824,7 +926,9 @@ public virtual global::System.Object getDataResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getDataResourceNames()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -6;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o).getResourceTypeNames((sbyte) _r0.i);
@@ -836,7 +940,9 @@ public virtual global::System.Object getUIResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getUIResourceNames()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -18;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o).getResourceTypeNames((sbyte) _r0.i);
@@ -846,12 +952,19 @@ public virtual global::System.Object getUIResourceNames(){
 
 public virtual void setResource(global::java.lang.String n1, sbyte n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setResource(java.lang.String, byte, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2;
@@ -878,7 +991,9 @@ public virtual global::System.Object getL10NResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getL10NResourceNames()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -7;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o).getResourceTypeNames((sbyte) _r0.i);
@@ -888,12 +1003,17 @@ public virtual global::System.Object getL10NResourceNames(){
 
 public virtual global::System.Object getFontResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getFontResourceNames()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r2_o).@this();
@@ -904,6 +1024,7 @@ public virtual global::System.Object getFontResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isFont((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -916,12 +1037,17 @@ public virtual global::System.Object getFontResourceNames(){
 
 public virtual global::System.Object getThemeResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getThemeResourceNames()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r2_o).@this();
@@ -932,6 +1058,7 @@ public virtual global::System.Object getThemeResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isTheme((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -944,12 +1071,17 @@ public virtual global::System.Object getThemeResourceNames(){
 
 public virtual global::System.Object getImageResourceNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getImageResourceNames()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r2_o).@this();
@@ -960,6 +1092,7 @@ public virtual global::System.Object getImageResourceNames(){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label37;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r0_o = _r0_o;
     _r3.i = ((global::com.codename1.ui.util.Resources) _r4_o).isImage((global::java.lang.String) _r0_o) ? 1 : 0;
     if (_r3.i == 0) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -972,15 +1105,20 @@ public virtual global::System.Object getImageResourceNames(){
 
 public virtual sbyte getResourceType(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: byte getResourceType(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r0_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label12;
     _r1.i = 0;
     label11:;
@@ -993,13 +1131,19 @@ public virtual sbyte getResourceType(global::java.lang.String n1){
 
 private global::System.Object getResourceTypeNames(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] getResourceTypeNames(byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r2_o = new global::java.util.ArrayList();
@@ -1011,8 +1155,10 @@ private global::System.Object getResourceTypeNames(sbyte n1){
     _r3.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r3.i == 0) goto label45;
     _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r0_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.util.Resources) _r4_o)._fresourceTypes;
     _r3_o = ((global::java.util.HashMap) _r3_o).get((global::java.lang.Object) _r0_o);
+    _r3_o = _r3_o;
     _r3.i = ((global::java.lang.Byte) _r3_o).byteValue();
     if (_r3.i != _r5.i) goto label15;
     ((global::java.util.ArrayList) _r2_o).add((global::java.lang.Object) _r0_o);
@@ -1026,10 +1172,14 @@ private global::System.Object getResourceTypeNames(sbyte n1){
 private static global::System.Object toStringArray(global::java.util.ArrayList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] toStringArray(java.util.ArrayList)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r2.i = ((global::java.util.ArrayList) _r3_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
@@ -1038,6 +1188,7 @@ private static global::System.Object toStringArray(global::java.util.ArrayList n
     _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r0.i >= _r2.i) goto label21;
     _r2_o = ((global::java.util.ArrayList) _r3_o).get((int) _r0.i);
+    _r2_o = _r2_o;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label7;
@@ -1049,14 +1200,19 @@ private static global::System.Object toStringArray(global::java.util.ArrayList n
 public virtual bool isL10N(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isL10N(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -7;
     if (_r0.i != _r1.i) goto label17;
@@ -1072,14 +1228,19 @@ public virtual bool isL10N(global::java.lang.String n1){
 public virtual bool isTheme(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isTheme(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -9;
     if (_r0.i == _r1.i) goto label20;
@@ -1098,14 +1259,19 @@ public virtual bool isTheme(global::java.lang.String n1){
 public virtual bool isFont(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isFont(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -4;
     if (_r0.i == _r1.i) goto label22;
@@ -1126,14 +1292,19 @@ public virtual bool isFont(global::java.lang.String n1){
 public virtual bool isAnimation(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isAnimation(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -8;
     if (_r0.i != _r1.i) goto label17;
@@ -1149,14 +1320,19 @@ public virtual bool isAnimation(global::java.lang.String n1){
 public virtual bool isData(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isData(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -6;
     if (_r0.i != _r1.i) goto label17;
@@ -1172,14 +1348,19 @@ public virtual bool isData(global::java.lang.String n1){
 public virtual bool isUI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isUI(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -18;
     if (_r0.i != _r1.i) goto label18;
@@ -1195,14 +1376,19 @@ public virtual bool isUI(global::java.lang.String n1){
 public virtual bool isImage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: boolean isImage(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._fresourceTypes;
     _r2_o = ((global::java.util.HashMap) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Byte) _r2_o).byteValue();
     _r1.i = -13;
     if (_r0.i == _r1.i) goto label30;
@@ -1228,7 +1414,9 @@ public static global::System.Object openLayered(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources openLayered(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = -1;
     _r0_o = global::com.codename1.ui.util.Resources.openLayered((global::java.lang.String) _r1_o, (int) _r0.i);
@@ -1240,7 +1428,9 @@ public static global::System.Object open(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources open(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = -1;
     _r0_o = global::com.codename1.ui.util.Resources.open((global::java.lang.String) _r1_o, (int) _r0.i);
@@ -1252,7 +1442,9 @@ public static global::System.Object open(global::java.io.InputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources open(java.io.InputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = -1;
     _r0_o = global::com.codename1.ui.util.Resources.open((global::java.io.InputStream) _r1_o, (int) _r0.i);
@@ -1262,17 +1454,27 @@ public static global::System.Object open(global::java.io.InputStream n1){
 
 public static global::System.Object openLayered(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources openLayered(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = n1;
     _r9.i = n2;
     _r4_o = new global::java.lang.StringBuilder();
@@ -1320,39 +1522,49 @@ public static global::System.Object openLayered(global::java.lang.String n1, int
 
 public static global::System.Object open(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources open(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r7.i = n2;
     try {
     _r3_o = global::com.codename1.ui.util.Resources._flastLoadedName;
-    if (_r3_o == null) goto label27;
+    if (_r3_o == null) goto label31;
     _r3_o = global::com.codename1.ui.util.Resources._flastLoadedName;
     _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r6_o) ? 1 : 0;
-    if (_r3.i == 0) goto label27;
+    if (_r3.i == 0) goto label31;
+    _r3.i = global::com.codename1.ui.util.Resources._flastLoadedDPI;
+    if (_r3.i != _r7.i) goto label31;
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = global::com.codename1.ui.util.Resources._fcachedResource;
     _r2_o = ((global::com.codename1.ui.Display) _r3_o).extractHardRef((global::java.lang.Object) _r4_o);
-    if (_r2_o == null) goto label27;
+    _r2_o = _r2_o;
+    if (_r2_o == null) goto label31;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.RuntimeException) {
             _ex = ex;
-            goto label64;
+            goto label68;
         }
         throw ex;
     } // end catch
-    label26:;
+    label30:;
     try {
     return (global::com.codename1.ui.util.Resources) _r2_o;
     }
@@ -1361,16 +1573,16 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.RuntimeException) {
             _ex = ex;
-            goto label64;
+            goto label68;
         }
         throw ex;
     } // end catch
-    label27:;
+    label31:;
     try {
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r4_o = global::com.codename1.ui.util.Resources._fclassLoader;
     _r1_o = ((global::com.codename1.ui.Display) _r3_o).getResourceAsStream((global::java.lang.Class) _r4_o, (global::java.lang.String) _r6_o);
-    if (_r1_o != null) goto label79;
+    if (_r1_o != null) goto label83;
     _r3_o = new global::java.io.IOException();
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
@@ -1388,11 +1600,11 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.RuntimeException) {
             _ex = ex;
-            goto label64;
+            goto label68;
         }
         throw ex;
     } // end catch
-    label64:;
+    label68:;
     _r3_o = _ex.getJavaException();
     _ex = null;
     _r0_o = _r3_o;
@@ -1401,7 +1613,7 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
     _r4_o = ((global::java.lang.RuntimeException) _r0_o).getMessage();
     ((global::java.io.IOException) _r3_o).@this((global::java.lang.String) _r4_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r3_o);
-    label79:;
+    label83:;
     try {
     _r2_o = new global::com.codename1.ui.util.Resources();
     ((global::com.codename1.ui.util.Resources) _r2_o).@this((global::java.io.InputStream) _r1_o, (int) _r7.i);
@@ -1410,7 +1622,8 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)47)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r6_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
-    if (_r3.i != 0) goto label26;
+    if (_r3.i != 0) goto label30;
+    global::com.codename1.ui.util.Resources._flastLoadedDPI = _r7.i;
     global::com.codename1.ui.util.Resources._flastLoadedName = (global::java.lang.String) _r6_o;
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r3_o = ((global::com.codename1.ui.Display) _r3_o).createSoftWeakRef((global::java.lang.Object) _r2_o);
@@ -1421,19 +1634,23 @@ public static global::System.Object open(global::java.lang.String n1, int n2){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.RuntimeException) {
             _ex = ex;
-            goto label64;
+            goto label68;
         }
         throw ex;
     } // end catch
-    goto label26;
+    goto label30;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources open(java.lang.String, int)]
 }
 
 public static global::System.Object open(global::java.io.InputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources open(java.io.InputStream, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = new global::com.codename1.ui.util.Resources();
@@ -1444,29 +1661,42 @@ public static global::System.Object open(global::java.io.InputStream n1, int n2)
 
 public virtual global::System.Object getImage(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image getImage(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.ui.Image) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image getImage(java.lang.String)]
 }
 
 public virtual global::System.Object getData(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.io.InputStream getData(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.ui.util.Resources) _r3_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r3_o = _r3_o;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o != null) goto label16;
     _r2_o = null;
@@ -1481,16 +1711,24 @@ public virtual global::System.Object getData(global::java.lang.String n1){
 
 public virtual global::System.Object getUi(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.io.InputStream getUi(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2_o = ((global::com.codename1.ui.util.Resources) _r3_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r4_o);
+    _r3_o = _r3_o;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     if (_r1_o != null) goto label16;
     _r2_o = null;
@@ -1505,29 +1743,41 @@ public virtual global::System.Object getUi(global::java.lang.String n1){
 
 public virtual global::System.Object getL10N(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable getL10N(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     _r1_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r1_o = _r1_o;
     return (global::java.util.Hashtable) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable getL10N(java.lang.String, java.lang.String)]
 }
 
 public virtual global::System.Object listL10NLocales(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.util.Enumeration listL10NLocales(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Hashtable) _r1_o).keys();
     return (global::java.util.Enumeration) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Enumeration listL10NLocales(java.lang.String)]
@@ -1535,13 +1785,18 @@ public virtual global::System.Object listL10NLocales(global::java.lang.String n1
 
 public virtual global::System.Object l10NLocaleSet(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.util.Collection l10NLocaleSet(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     _r0_o = ((global::java.util.Hashtable) _r1_o).keySet();
     return (global::java.util.Collection) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Collection l10NLocaleSet(java.lang.String)]
@@ -1549,35 +1804,55 @@ public virtual global::System.Object l10NLocaleSet(global::java.lang.String n1){
 
 public virtual global::System.Object getFont(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font getFont(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
     _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.ui.Font) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font getFont(java.lang.String)]
 }
 
 public virtual global::System.Object getTheme(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable getTheme(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     // Value=uninitialized
@@ -1594,6 +1869,7 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)70)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100))}));
     _r7_o = ((global::com.codename1.ui.util.Resources) _r13_o)._fresources;
     _r3_o = ((global::java.util.HashMap) _r7_o).get((global::java.lang.Object) _r14_o);
+    _r3_o = _r3_o;
     if (_r3_o == null) goto label290;
     // Value=uninitialized
     _r7_o = new global::java.lang.String();
@@ -1605,6 +1881,7 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     _r7.i = ((global::java.util.Enumeration) _r2_o).hasMoreElements() ? 1 : 0;
     if (_r7.i == 0) goto label285;
     _r4_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r4_o = _r4_o;
     // Value=font
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
@@ -1643,6 +1920,7 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
     _r7.i = ((global::java.lang.String) _r4_o).endsWith((global::java.lang.String) _r10_o) ? 1 : 0;
     if (_r7.i == 0) goto label154;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r7_o = _r0_o;
     _r5_o = ((global::com.codename1.ui.util.Resources) _r13_o).getImage((global::java.lang.String) _r7_o);
     label117:;
@@ -1733,17 +2011,27 @@ public virtual global::System.Object getTheme(global::java.lang.String n1){
 
 private global::System.Object confirmBorder(global::java.util.Hashtable n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border confirmBorder(java.util.Hashtable, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9_o = n2;
@@ -1755,7 +2043,9 @@ private global::System.Object confirmBorder(global::java.util.Hashtable n1, glob
     label8:;
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.plaf.Border)) ? 1 : 0;
     if (_r4.i != 0) goto label51;
+    _r2_o = _r2_o;
     _r0_o = _r2_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     if (_r3_o != null) goto label45;
     _r4_o = new global::java.lang.IllegalArgumentException();
@@ -1774,6 +2064,7 @@ private global::System.Object confirmBorder(global::java.util.Hashtable n1, glob
     _r4_o = _r1_o;
     goto label7;
     label51:;
+    _r2_o = _r2_o;
     _r4_o = _r2_o;
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border confirmBorder(java.util.Hashtable, java.lang.String)]
@@ -1783,6 +2074,7 @@ private global::System.Object createImageBorder(global::org.xmlvm._nArrayAdapter
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border createImageBorder(java.lang.String[])]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1798,10 +2090,15 @@ private global::System.Object createImageBorder(global::org.xmlvm._nArrayAdapter
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r6.i = 4;
@@ -1936,14 +2233,19 @@ private global::System.Object createImageBorder(global::org.xmlvm._nArrayAdapter
     _r8_o = null;
     _r0_o = global::com.codename1.ui.plaf.Border.createImageBorder((global::com.codename1.ui.Image) _r0_o, (global::com.codename1.ui.Image) _r1_o, (global::com.codename1.ui.Image) _r2_o, (global::com.codename1.ui.Image) _r3_o, (global::com.codename1.ui.Image) _r4_o, (global::com.codename1.ui.Image) _r5_o, (global::com.codename1.ui.Image) _r6_o, (global::com.codename1.ui.Image) _r7_o, (global::com.codename1.ui.Image) _r8_o);
     goto label37;
+    label230:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.plaf.Border createImageBorder(java.lang.String[])]
 }
 
 public virtual global::System.Object getResourceObject(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object getResourceObject(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._fresources;
@@ -1954,8 +2256,11 @@ public virtual global::System.Object getResourceObject(global::java.lang.String 
 
 public virtual global::System.Object createImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image createImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o)._finput;
     _r0_o = ((global::com.codename1.ui.util.Resources) _r1_o).createImage((global::java.io.DataInputStream) _r0_o);
@@ -1972,27 +2277,46 @@ public virtual global::System.Object createImage(global::java.io.DataInputStream
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r22_o = n1;
     _r0_o = _r21_o;
@@ -2230,15 +2554,21 @@ public virtual global::System.Object createImage(global::java.io.DataInputStream
     _r14_o = ((global::com.codename1.ui.util.Resources) _r21_o).readTimeline((global::java.io.DataInputStream) _r22_o);
     _r17_o = _r14_o;
     goto label45;
+    label448:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image createImage(java.io.DataInputStream)]
 }
 
 public virtual global::System.Object createSVG(bool n1, global::org.xmlvm._nArrayAdapter<sbyte> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image createSVG(boolean, byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r3_o = n2;
@@ -2252,8 +2582,11 @@ private global::System.Object readMultiImage(global::java.io.DataInputStream n1)
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image readMultiImage(java.io.DataInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -2269,26 +2602,48 @@ public virtual global::System.Object readMultiImage(global::java.io.DataInputStr
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r22.i = n2 ? 1 : 0;
@@ -2433,8 +2788,11 @@ public virtual global::System.Object readMultiImage(global::java.io.DataInputStr
 
 public virtual void loadSVGRatios(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void loadSVGRatios(java.io.DataInputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.DataInputStream) _r1_o).readFloat();
@@ -2445,10 +2803,13 @@ public virtual void loadSVGRatios(global::java.io.DataInputStream n1){
 
 private global::System.Object createData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: byte[] createData()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r2_o)._finput;
     _r1.i = ((global::java.io.DataInputStream) _r1_o).readInt();
@@ -2463,31 +2824,55 @@ public virtual global::System.Object loadFont(global::java.io.DataInputStream n1
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font loadFont(java.io.DataInputStream, java.lang.String, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r21_o = this;
     _r22_o = n1;
     _r23_o = n2;
@@ -2570,8 +2955,11 @@ public virtual global::System.Object loadFont(global::java.io.DataInputStream n1
 
 public virtual void readRenderingHint(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void readRenderingHint(java.io.DataInputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::java.io.DataInputStream) _r1_o).readByte();
@@ -2581,19 +2969,31 @@ public virtual void readRenderingHint(global::java.io.DataInputStream n1){
 
 public virtual global::System.Object loadBitmapFont(global::java.io.DataInputStream n1, global::java.lang.String n2, global::com.codename1.ui.Font n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font loadBitmapFont(java.io.DataInputStream, java.lang.String, com.codename1.ui.Font)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -2639,18 +3039,28 @@ public virtual global::System.Object loadBitmapFont(global::java.io.DataInputStr
 
 public virtual global::System.Object createTrueTypeFont(global::com.codename1.ui.Font n1, global::java.lang.String n2, global::java.lang.String n3, float n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font createTrueTypeFont(com.codename1.ui.Font, java.lang.String, java.lang.String, float, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
@@ -2723,6 +3133,7 @@ public virtual global::System.Object createTrueTypeFont(global::com.codename1.ui
     _r2.i = ((global::com.codename1.ui.Font) _r6_o).getStyle();
     _r1_o = ((global::com.codename1.ui.Font) _r1_o).derive((float) _r9.f, (int) _r2.i);
     goto label22;
+    label94:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Font createTrueTypeFont(com.codename1.ui.Font, java.lang.String, java.lang.String, float, int)]
 }
 
@@ -2745,33 +3156,62 @@ public virtual global::System.Object loadTheme(global::java.lang.String n1, bool
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
     global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
+    global::System.Object _r32_o = null;
+    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
+    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
     global::org.xmlvm._nElement _r35;
+    global::System.Object _r35_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r33_o = this;
     _r34_o = n1;
     _r35.i = n2 ? 1 : 0;
@@ -3139,6 +3579,7 @@ public virtual global::System.Object loadTheme(global::java.lang.String n1, bool
     _r0_o = _r3_o;
     _r1_o = _r17_o;
     _r4_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r4_o = _r4_o;
     if (_r4_o != null) goto label785;
     _r0_o = _r31_o;
     _r1_o = _r23_o;
@@ -3651,20 +4092,29 @@ public virtual global::System.Object loadTheme(global::java.lang.String n1, bool
     throw new global::org.xmlvm._nExceptionAdapter((global::java.io.IOException) _r3_o);
     label1641:;
     return (global::java.util.Hashtable) _r31_o;
+    label1642:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable loadTheme(java.lang.String, boolean)]
 }
 
 private global::System.Object createBorder(global::java.io.DataInputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -3774,21 +4224,31 @@ private global::System.Object createBorder(global::java.io.DataInputStream n1, i
     label212:;
     _r1_o = ((global::com.codename1.ui.util.Resources) _r5_o).readScaledImageBorder((global::java.io.DataInputStream) _r6_o);
     goto label4;
+    label218:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, int)]
 }
 
 private global::System.Object createBorder(global::java.io.DataInputStream n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8.i = n2 ? 1 : 0;
@@ -3885,19 +4345,27 @@ private global::System.Object createBorder(global::java.io.DataInputStream n1, b
     label202:;
     _r2_o = _r0_o;
     goto label8;
+    label206:;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: java.lang.Object createBorder(java.io.DataInputStream, boolean)]
 }
 
 private global::System.Object readImageBorder(global::java.io.DataInputStream n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] readImageBorder(java.io.DataInputStream, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -3919,14 +4387,21 @@ private global::System.Object readImageBorder(global::java.io.DataInputStream n1
 
 private global::System.Object readScaledImageBorder(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] readScaledImageBorder(java.io.DataInputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 0;
@@ -3947,12 +4422,19 @@ private global::System.Object readScaledImageBorder(global::java.io.DataInputStr
 
 private global::System.Object readImageBorder(global::java.io.DataInputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.lang.String[] readImageBorder(java.io.DataInputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2.i = ((global::java.io.DataInputStream) _r5_o).readByte();
@@ -3971,18 +4453,31 @@ private global::System.Object readImageBorder(global::java.io.DataInputStream n1
 
 private global::System.Object loadL10N(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: java.util.Hashtable loadL10N()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r5_o = new global::java.util.Hashtable();
     ((global::java.util.Hashtable) _r5_o).@this();
@@ -4027,17 +4522,27 @@ private global::System.Object loadL10N(){
 
 private global::System.Object createPackedImage8(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.Image createPackedImage8()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r6_o = ((global::com.codename1.ui.util.Resources) _r9_o)._finput;
     _r6.i = ((global::java.io.DataInputStream) _r6_o).readByte();
@@ -4073,7 +4578,9 @@ private global::System.Object createPackedImage8(){
 
 public static global::System.Object getSystemResource(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources getSystemResource()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     try {
@@ -4103,10 +4610,32 @@ public static global::System.Object getSystemResource(){
 //XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources getSystemResource()]
 }
 
-new public static void @static(){
+public static void setGlobalResources(global::com.codename1.ui.util.Resources n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void setGlobalResources(com.codename1.ui.util.Resources)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = n1;
+    global::com.codename1.ui.util.Resources._fglobalResources = (global::com.codename1.ui.util.Resources) _r0_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: void setGlobalResources(com.codename1.ui.util.Resources)]
+}
+
+public static global::System.Object getGlobalResources(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources getGlobalResources()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = global::com.codename1.ui.util.Resources._fglobalResources;
+    return (global::com.codename1.ui.util.Resources) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.util.Resources: com.codename1.ui.util.Resources getGlobalResources()]
+}
+
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.Resources: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.util.Resources));
     global::com.codename1.ui.util.Resources._fclassLoader = (global::java.lang.Class) _r0_o;
     _r0.i = 1;

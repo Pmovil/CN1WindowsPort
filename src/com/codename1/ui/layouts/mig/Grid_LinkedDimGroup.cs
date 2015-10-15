@@ -3,8 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.ui.layouts.mig {
 public class Grid_2LinkedDimGroup: global::java.lang.Object {
+private static int _fTYPE_1SERIAL = 0;
 
+private static int _fTYPE_1PARALLEL = 1;
 
+private static int _fTYPE_1BASELINE = 2;
 
 private global::java.lang.String _flinkCtx;
 
@@ -24,15 +27,25 @@ private int _flSize;
 
 private void @this(global::java.lang.String n1, int n2, int n3, bool n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void <init>(java.lang.String, int, int, boolean, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -58,9 +71,13 @@ private void @this(global::java.lang.String n1, int n2, int n3, bool n4, bool n5
 
 private void addCompWrap(global::com.codename1.ui.layouts.mig.Grid_2CompWrap n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void addCompWrap(com.codename1.ui.layouts.mig.Grid$CompWrap)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._f_1compWraps;
@@ -71,9 +88,13 @@ private void addCompWrap(global::com.codename1.ui.layouts.mig.Grid_2CompWrap n1)
 
 private void setCompWraps(global::java.util.ArrayList n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void setCompWraps(java.util.ArrayList)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._f_1compWraps;
@@ -89,21 +110,33 @@ private void setCompWraps(global::java.util.ArrayList n1){
 
 private void layout(global::com.codename1.ui.layouts.mig.DimConstraint n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void layout(com.codename1.ui.layouts.mig.DimConstraint, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10.i = n2;
@@ -121,6 +154,7 @@ private void layout(global::com.codename1.ui.layouts.mig.DimConstraint n1, int n
     _r1_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r8_o)._f_1compWraps;
     _r2.i = 0;
     _r1_o = ((global::java.util.ArrayList) _r1_o).get((int) _r2.i);
+    _r1_o = _r1_o;
     _r1_o = global::com.codename1.ui.layouts.mig.Grid_2CompWrap.access_21000((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o);
     _r0_o = ((global::com.codename1.ui.layouts.mig.ComponentWrapper) _r1_o).getParent();
     _r1.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r8_o)._flinkType;
@@ -159,16 +193,25 @@ private void layout(global::com.codename1.ui.layouts.mig.DimConstraint n1, int n
 
 private global::System.Object getMinPrefMax(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: int[] getMinPrefMax()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r7.i = 2;
     _r6.i = 0;
@@ -217,7 +260,10 @@ private global::System.Object getMinPrefMax(){
 public static int access_21800(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: int access$1800(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._flStart;
     return _r0.i;
@@ -227,7 +273,10 @@ public static int access_21800(global::com.codename1.ui.layouts.mig.Grid_2Linked
 public static bool access_21900(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: boolean access$1900(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._ffromEnd ? 1 : 0;
     return _r0.i!=0;
@@ -237,7 +286,10 @@ public static bool access_21900(global::com.codename1.ui.layouts.mig.Grid_2Linke
 public static int access_22000(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: int access$2000(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._flSize;
     return _r0.i;
@@ -246,8 +298,11 @@ public static int access_22000(global::com.codename1.ui.layouts.mig.Grid_2Linked
 
 public static global::System.Object access_22400(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: java.util.ArrayList access$2400(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._f_1compWraps;
     return (global::java.util.ArrayList) _r0_o;
@@ -257,7 +312,10 @@ public static global::System.Object access_22400(global::com.codename1.ui.layout
 public static int access_22900(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: int access$2900(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._fspan;
     return _r0.i;
@@ -266,11 +324,17 @@ public static int access_22900(global::com.codename1.ui.layouts.mig.Grid_2Linked
 
 public static void access_23000(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1, global::com.codename1.ui.layouts.mig.DimConstraint n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void access$3000(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup, com.codename1.ui.layouts.mig.DimConstraint, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     _r2.i = n3;
@@ -283,8 +347,11 @@ public static void access_23000(global::com.codename1.ui.layouts.mig.Grid_2Linke
 
 public static global::System.Object access_23300(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: int[] access$3300(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o).getMinPrefMax();
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
@@ -293,13 +360,21 @@ public static global::System.Object access_23300(global::com.codename1.ui.layout
 
 public void @this(global::java.lang.String n1, int n2, int n3, bool n4, bool n5, global::com.codename1.ui.layouts.mig.Grid_21 n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void <init>(java.lang.String, int, int, boolean, boolean, com.codename1.ui.layouts.mig.Grid$1)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
@@ -314,8 +389,11 @@ public void @this(global::java.lang.String n1, int n2, int n3, bool n4, bool n5,
 
 public static void access_23600(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1, global::java.util.ArrayList n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void access$3600(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup, java.util.ArrayList)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r0_o).setCompWraps((global::java.util.ArrayList) _r1_o);
@@ -325,8 +403,11 @@ public static void access_23600(global::com.codename1.ui.layouts.mig.Grid_2Linke
 
 public static global::System.Object access_23800(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: java.lang.String access$3800(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r1_o)._flinkCtx;
     return (global::java.lang.String) _r0_o;
@@ -335,8 +416,11 @@ public static global::System.Object access_23800(global::com.codename1.ui.layout
 
 public static void access_23900(global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup n1, global::com.codename1.ui.layouts.mig.Grid_2CompWrap n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.mig.Grid$LinkedDimGroup: void access$3900(com.codename1.ui.layouts.mig.Grid$LinkedDimGroup, com.codename1.ui.layouts.mig.Grid$CompWrap)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.layouts.mig.Grid_2LinkedDimGroup) _r0_o).addCompWrap((global::com.codename1.ui.layouts.mig.Grid_2CompWrap) _r1_o);

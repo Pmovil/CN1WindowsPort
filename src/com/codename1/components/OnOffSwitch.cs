@@ -33,10 +33,13 @@ private global::com.codename1.ui.util.EventDispatcher _fdispatcher;
 
 private bool _fanimationLock;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::com.codename1.ui.Container) _r1_o).@this();
     // Value=ON
@@ -67,7 +70,9 @@ public override global::System.Object calcPreferredSize(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r3_o)._fiosMode ? 1 : 0;
     if (_r0.i == 0) goto label22;
@@ -88,7 +93,10 @@ public override global::System.Object calcPreferredSize(){
 public override void resetFocusable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void resetFocusable()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.components.OnOffSwitch) _r1_o).setFocusable(0!=_r0.i);
@@ -98,15 +106,21 @@ public override void resetFocusable(){
 
 private void initialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void initialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;
@@ -212,7 +226,10 @@ private void initialize(){
 public override bool isStickyDrag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: boolean isStickyDrag()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -221,9 +238,13 @@ public override bool isStickyDrag(){
 
 public virtual void addActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void addActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdispatcher;
@@ -234,9 +255,13 @@ public virtual void addActionListener(global::com.codename1.ui.events.ActionList
 
 public virtual void removeActionListener(global::com.codename1.ui.events.ActionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void removeActionListener(com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdispatcher;
@@ -247,8 +272,11 @@ public virtual void removeActionListener(global::com.codename1.ui.events.ActionL
 
 public virtual global::System.Object getActionListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.util.Vector getActionListeners()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerVector();
@@ -258,8 +286,11 @@ public virtual global::System.Object getActionListeners(){
 
 public virtual global::System.Object getListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.util.Collection getListeners()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdispatcher;
     _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r0_o).getListenerCollection();
@@ -269,11 +300,15 @@ public virtual global::System.Object getListeners(){
 
 private void fireActionEvent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void fireActionEvent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.components.OnOffSwitch) _r3_o)._fdispatcher;
     _r2_o = new global::com.codename1.ui.events.ActionEvent();
@@ -294,22 +329,36 @@ private void fireActionEvent(){
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r13_o = this;
     _r14_o = n1;
     _r10.i = ((global::com.codename1.components.OnOffSwitch) _r13_o)._fiosMode ? 1 : 0;
@@ -498,9 +547,14 @@ private void updateButton(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 3;
     _r3.i = 1;
@@ -543,7 +597,10 @@ private void updateButton(){
 private void flip(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void flip()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fvalue ? 1 : 0;
     if (_r0.i != 0) goto label9;
@@ -559,7 +616,9 @@ private void flip(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.initComponent();
     return;
@@ -568,7 +627,9 @@ public override void initComponent(){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     base.deinitialize();
     return;
@@ -578,9 +639,14 @@ public override void deinitialize(){
 public override void pointerPressed(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void pointerPressed(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -596,17 +662,26 @@ public override void pointerPressed(int n1, int n2){
 public override void pointerDragged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void pointerDragged(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -666,16 +741,23 @@ public override void pointerDragged(int n1, int n2){
 
 private void animateTo(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void animateTo(boolean, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1 ? 1 : 0;
     _r7.i = n2;
@@ -713,19 +795,30 @@ private void animateTo(bool n1, int n2){
 public override void pointerReleased(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void pointerReleased(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10.i = n1;
     _r11.i = n2;
@@ -833,8 +926,11 @@ public override void pointerReleased(int n1, int n2){
 
 public virtual global::System.Object getOn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.lang.String getOn()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fon;
     return (global::java.lang.String) _r0_o;
@@ -843,8 +939,11 @@ public virtual global::System.Object getOn(){
 
 public virtual void setOn(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void setOn(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.OnOffSwitch) _r0_o)._fon = (global::java.lang.String) _r1_o;
@@ -855,8 +954,11 @@ public virtual void setOn(global::java.lang.String n1){
 
 public virtual global::System.Object getOff(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.lang.String getOff()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.OnOffSwitch) _r1_o)._foff;
     return (global::java.lang.String) _r0_o;
@@ -865,8 +967,11 @@ public virtual global::System.Object getOff(){
 
 public virtual void setOff(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void setOff(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.OnOffSwitch) _r0_o)._foff = (global::java.lang.String) _r1_o;
@@ -878,7 +983,10 @@ public virtual void setOff(global::java.lang.String n1){
 public virtual bool isValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: boolean isValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fvalue ? 1 : 0;
     return _r0.i!=0;
@@ -888,12 +996,18 @@ public virtual bool isValue(){
 public virtual void setValue(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void setValue(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1 ? 1 : 0;
     _r3.i = 1;
@@ -936,8 +1050,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 3;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -964,7 +1082,9 @@ public override global::System.Object getComponentState(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.lang.Object getComponentState()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fvalue ? 1 : 0;
     if (_r0.i == 0) goto label7;
@@ -980,10 +1100,15 @@ public override global::System.Object getComponentState(){
 public override void setComponentState(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void setComponentState(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Boolean) _r2_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r1_o)._fvalue = 0!=_r0.i;
     return;
@@ -995,9 +1120,14 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
     _r0.i = 3;
@@ -1019,8 +1149,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=on
@@ -1062,10 +1195,15 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1075,6 +1213,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 110))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label16;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setOn((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     label15:;
@@ -1085,6 +1224,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 102))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label31;
+    _r4_o = _r4_o;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setOff((global::java.lang.String) _r4_o);
     _r0_o = _r1_o;
     goto label15;
@@ -1094,6 +1234,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101))}));
     _r0.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label50;
+    _r4_o = _r4_o;
     _r0.i = ((global::java.lang.Boolean) _r4_o).booleanValue() ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r2_o).setValue(0!=_r0.i);
     _r0_o = _r1_o;
@@ -1107,7 +1248,10 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 public virtual bool isNoTextMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: boolean isNoTextMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fnoTextMode ? 1 : 0;
     return _r0.i!=0;
@@ -1116,8 +1260,11 @@ public virtual bool isNoTextMode(){
 
 public virtual void setNoTextMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void setNoTextMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r0_o)._fnoTextMode = 0!=_r1.i;
@@ -1127,7 +1274,9 @@ public virtual void setNoTextMode(bool n1){
 
 public static void access_2000(global::com.codename1.components.OnOffSwitch n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: void access$000(com.codename1.components.OnOffSwitch)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.components.OnOffSwitch) _r0_o).flip();
     return;
@@ -1136,8 +1285,11 @@ public static void access_2000(global::com.codename1.components.OnOffSwitch n1){
 
 public static int access_2102(global::com.codename1.components.OnOffSwitch n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: int access$102(com.codename1.components.OnOffSwitch, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.components.OnOffSwitch) _r0_o)._fdeltaX = _r1.i;
@@ -1145,24 +1297,26 @@ public static int access_2102(global::com.codename1.components.OnOffSwitch n1, i
 //XMLVM_END_WRAPPER[com.codename1.components.OnOffSwitch: int access$102(com.codename1.components.OnOffSwitch, int)]
 }
 
-public static int access_2128(global::com.codename1.components.OnOffSwitch n1, int n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: int access$128(com.codename1.components.OnOffSwitch, int)]
+public static int access_2100(global::com.codename1.components.OnOffSwitch n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: int access$100(com.codename1.components.OnOffSwitch)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
-    _r2.i = n2;
     _r0.i = ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdeltaX;
-    _r0.i = _r0.i * _r2.i;
-    ((global::com.codename1.components.OnOffSwitch) _r1_o)._fdeltaX = _r0.i;
     return _r0.i;
-//XMLVM_END_WRAPPER[com.codename1.components.OnOffSwitch: int access$128(com.codename1.components.OnOffSwitch, int)]
+//XMLVM_END_WRAPPER[com.codename1.components.OnOffSwitch: int access$100(com.codename1.components.OnOffSwitch)]
 }
 
 public static bool access_2202(global::com.codename1.components.OnOffSwitch n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.OnOffSwitch: boolean access$202(com.codename1.components.OnOffSwitch, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.components.OnOffSwitch) _r0_o)._fdragged = 0!=_r1.i;

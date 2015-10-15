@@ -9,9 +9,13 @@ private global::com.codename1.ui.geom.Dimension _f_1tileSize;
 
 public void @this(global::com.codename1.maps.Projection n1, global::com.codename1.ui.geom.Dimension n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: void <init>(com.codename1.maps.Projection, com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -24,8 +28,11 @@ public void @this(global::com.codename1.maps.Projection n1, global::com.codename
 
 public virtual void tileSize(global::com.codename1.ui.geom.Dimension n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: void tileSize(com.codename1.ui.geom.Dimension)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -41,7 +48,10 @@ public abstract int maxZoomLevel();
 public virtual int minZoomLevel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: int minZoomLevel()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i;
@@ -52,16 +62,31 @@ public abstract global::System.Object scale(int n1);
 
 public virtual global::System.Object translate(global::com.codename1.maps.Coord n1, int n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: com.codename1.maps.Coord translate(com.codename1.maps.Coord, int, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r9.i = n2;
@@ -81,8 +106,11 @@ public virtual global::System.Object translate(global::com.codename1.maps.Coord 
 
 public virtual global::System.Object projection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: com.codename1.maps.Projection projection()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r1_o)._f_1projection;
     return (global::com.codename1.maps.Projection) _r0_o;
@@ -91,8 +119,11 @@ public virtual global::System.Object projection(){
 
 public virtual global::System.Object tileSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: com.codename1.ui.geom.Dimension tileSize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.maps.providers.MapProvider) _r1_o)._f_1tileSize;
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
@@ -104,16 +135,34 @@ public abstract global::System.Object attribution();
 public virtual int maxZoomFor(global::com.codename1.maps.Tile n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.maps.providers.MapProvider: int maxZoomFor(com.codename1.maps.Tile)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r12_o = this;
     _r13_o = n1;
     _r8_o = ((global::com.codename1.maps.Tile) _r13_o).dimension();

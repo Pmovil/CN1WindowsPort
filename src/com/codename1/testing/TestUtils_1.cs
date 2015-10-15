@@ -7,8 +7,11 @@ public int _fval_2millis;
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils$1: void <init>(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.testing.TestUtils_21) _r0_o)._fval_2millis = _r1.i;
@@ -21,6 +24,9 @@ public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.testing.TestUtils$1: void run()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;

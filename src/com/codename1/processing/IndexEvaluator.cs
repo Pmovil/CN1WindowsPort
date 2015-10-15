@@ -12,10 +12,13 @@ public static global::java.lang.String _fFUNC_1LAST;
 
 public static global::java.lang.String _fFUNC_1POSITION;
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: void <init>(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.processing.AbstractEvaluator) _r0_o).@this((global::java.lang.String) _r1_o);
@@ -25,13 +28,19 @@ new public void @this(global::java.lang.String n1){
 
 private global::System.Object _1getByPositionLess(global::java.util.List n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: java.util.List _getByPositionLess(java.util.List, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -69,13 +78,19 @@ private global::System.Object _1getByPositionLess(global::java.util.List n1, int
 
 private global::System.Object _1getByPositionGreater(global::java.util.List n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: java.util.List _getByPositionGreater(java.util.List, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -115,16 +130,24 @@ private global::System.Object _1getByPositionGreater(global::java.util.List n1, 
 private global::System.Object _1getByLast(global::java.util.List n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: com.codename1.processing.StructuredContent _getByLast(java.util.List, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -160,6 +183,7 @@ private global::System.Object _1getByLast(global::java.util.List n1, global::jav
     return (global::com.codename1.processing.StructuredContent) _r3_o;
     label60:;
     _r6_o = ((global::java.util.List) _r7_o).get((int) _r0.i);
+    _r6_o = _r6_o;
     _r3_o = _r6_o;
     goto label59;
 //XMLVM_END_WRAPPER[com.codename1.processing.IndexEvaluator: com.codename1.processing.StructuredContent _getByLast(java.util.List, java.lang.String)]
@@ -168,13 +192,20 @@ private global::System.Object _1getByLast(global::java.util.List n1, global::jav
 public override global::System.Object evaluateSingle(global::java.util.List n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: java.lang.Object evaluateSingle(java.util.List, java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -191,6 +222,7 @@ public override global::System.Object evaluateSingle(global::java.util.List n1, 
     return (global::java.lang.Object) _r1_o;
     label21:;
     _r4_o = ((global::java.util.List) _r5_o).get((int) _r0.i);
+    _r4_o = _r4_o;
     _r1_o = _r4_o;
     goto label20;
     label29:;
@@ -206,6 +238,7 @@ public override global::System.Object evaluateSingle(global::java.util.List n1, 
     _r2.i = 1;
     _r1.i = _r1.i - _r2.i;
     _r4_o = ((global::java.util.List) _r5_o).get((int) _r1.i);
+    _r4_o = _r4_o;
     _r1_o = _r4_o;
     goto label20;
     label59:;
@@ -231,10 +264,15 @@ public override global::System.Object evaluateLeftLessRight(global::java.util.Li
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: java.lang.Object evaluateLeftLessRight(java.util.List, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -256,10 +294,15 @@ public override global::System.Object evaluateLeftGreaterRight(global::java.util
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: java.lang.Object evaluateLeftGreaterRight(java.util.List, java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -277,9 +320,11 @@ public override global::System.Object evaluateLeftGreaterRight(global::java.util
 //XMLVM_END_WRAPPER[com.codename1.processing.IndexEvaluator: java.lang.Object evaluateLeftGreaterRight(java.util.List, java.lang.String, java.lang.String)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.processing.IndexEvaluator: void <clinit>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=last()
     _r0_o = new global::java.lang.String();
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 40)), unchecked((char) unchecked((uint) 41))}));

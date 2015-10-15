@@ -47,9 +47,11 @@ public static global::java.lang.String _fVERBOSE_1TIME;
 
 public static global::java.lang.String _fVERBOSE_1TIMESTAMP;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.l10n.DateFormatPatterns: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;

@@ -9,9 +9,13 @@ public global::com.codename1.share.EmailShare_21 _fthis_21;
 
 public void @this(global::com.codename1.share.EmailShare_21 n1, global::com.codename1.ui.List n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare$1$2: void <init>(com.codename1.share.EmailShare$1, com.codename1.ui.List)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -24,11 +28,17 @@ public void @this(global::com.codename1.share.EmailShare_21 n1, global::com.code
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.share.EmailShare$1$2: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r1_o = ((global::com.codename1.share.EmailShare_21_22) _r4_o)._fval_2contacts;
     _r2_o = new global::com.codename1.share.EmailShare_21_22_21();

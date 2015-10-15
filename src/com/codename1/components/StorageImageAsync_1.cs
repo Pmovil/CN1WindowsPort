@@ -7,8 +7,11 @@ public global::com.codename1.components.StorageImageAsync _fthis_20;
 
 public void @this(global::com.codename1.components.StorageImageAsync n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImageAsync$1: void <init>(com.codename1.components.StorageImageAsync)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.components.StorageImageAsync_21) _r0_o)._fthis_20 = (global::com.codename1.components.StorageImageAsync) _r1_o;
@@ -19,13 +22,21 @@ public void @this(global::com.codename1.components.StorageImageAsync n1){
 
 public virtual void run(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.StorageImageAsync$1: void run()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
@@ -36,7 +47,9 @@ public virtual void run(){
     _r5_o = ((global::com.codename1.components.StorageImageAsync_21) _r7_o)._fthis_20;
     _r5_o = global::com.codename1.components.StorageImageAsync.access_2000((global::com.codename1.components.StorageImageAsync) _r5_o);
     _r4_o = ((global::com.codename1.io.Storage) _r4_o).readObject((global::java.lang.String) _r5_o);
+    _r4_o = _r4_o;
     _r0_o = _r4_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     _r4_o = global::com.codename1.ui.Display.getInstance();
     _r5_o = new global::com.codename1.components.StorageImageAsync_21_21();

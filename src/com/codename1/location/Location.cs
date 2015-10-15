@@ -19,9 +19,11 @@ private float _fvelocity;
 
 private long _ftimeStamp;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -31,7 +33,10 @@ new public void @this(){
 public virtual float getAccuracy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: float getAccuracy()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.location.Location) _r1_o)._faccuracy;
     return _r0.f;
@@ -41,7 +46,12 @@ public virtual float getAccuracy(){
 public virtual double getAltitude(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: double getAltitude()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.location.Location) _r2_o)._faltitude;
     return _r0.d;
@@ -51,7 +61,10 @@ public virtual double getAltitude(){
 public virtual float getDirection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: float getDirection()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.location.Location) _r1_o)._fdirection;
     return _r0.f;
@@ -61,7 +74,12 @@ public virtual float getDirection(){
 public virtual double getLatitude(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: double getLatitude()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.location.Location) _r2_o)._flatitude;
     return _r0.d;
@@ -71,7 +89,12 @@ public virtual double getLatitude(){
 public virtual double getLongitude(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: double getLongitude()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.location.Location) _r2_o)._flongitude;
     return _r0.d;
@@ -81,7 +104,12 @@ public virtual double getLongitude(){
 public virtual double getLongtitude(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: double getLongtitude()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.location.Location) _r2_o)._flongitude;
     return _r0.d;
@@ -91,7 +119,10 @@ public virtual double getLongtitude(){
 public virtual int getStatus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: int getStatus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.location.Location) _r1_o)._fstatus;
     return _r0.i;
@@ -101,7 +132,12 @@ public virtual int getStatus(){
 public virtual long getTimeStamp(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: long getTimeStamp()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.location.Location) _r2_o)._ftimeStamp;
     return _r0.l;
@@ -111,7 +147,10 @@ public virtual long getTimeStamp(){
 public virtual float getVelocity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: float getVelocity()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.f = ((global::com.codename1.location.Location) _r1_o)._fvelocity;
     return _r0.f;
@@ -121,8 +160,12 @@ public virtual float getVelocity(){
 public virtual void setAccuracy(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setAccuracy(float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.f = global::System.Single.NaN;
@@ -136,8 +179,13 @@ public virtual void setAccuracy(float n1){
 
 public virtual void setAltitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setAltitude(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.location.Location) _r0_o)._faltitude = _r1.d;
@@ -147,8 +195,11 @@ public virtual void setAltitude(double n1){
 
 public virtual void setDirection(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setDirection(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.location.Location) _r0_o)._fdirection = _r1.f;
@@ -158,8 +209,13 @@ public virtual void setDirection(float n1){
 
 public virtual void setLatitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setLatitude(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.location.Location) _r0_o)._flatitude = _r1.d;
@@ -169,8 +225,13 @@ public virtual void setLatitude(double n1){
 
 public virtual void setLongitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setLongitude(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.location.Location) _r0_o)._flongitude = _r1.d;
@@ -180,8 +241,13 @@ public virtual void setLongitude(double n1){
 
 public virtual void setLongtitude(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setLongtitude(double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.d = n1;
     ((global::com.codename1.location.Location) _r0_o)._flongitude = _r1.d;
@@ -191,8 +257,11 @@ public virtual void setLongtitude(double n1){
 
 public virtual void setStatus(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setStatus(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.location.Location) _r0_o)._fstatus = _r1.i;
@@ -202,8 +271,13 @@ public virtual void setStatus(int n1){
 
 public virtual void setTimeStamp(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setTimeStamp(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     ((global::com.codename1.location.Location) _r0_o)._ftimeStamp = _r1.l;
@@ -213,8 +287,11 @@ public virtual void setTimeStamp(long n1){
 
 public virtual void setVelocity(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: void setVelocity(float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.f = n1;
     ((global::com.codename1.location.Location) _r0_o)._fvelocity = _r1.f;
@@ -224,10 +301,15 @@ public virtual void setVelocity(float n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.location.Location: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();

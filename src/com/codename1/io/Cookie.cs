@@ -26,11 +26,15 @@ private static bool _fautoStored;
 
 public static global::java.lang.String _fSTORAGE_1NAME;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 0;
     ((global::java.lang.Object) _r2_o).@this();
@@ -46,8 +50,11 @@ new public void @this(){
 
 public virtual global::System.Object getName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String getName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Cookie) _r1_o)._fname;
     return (global::java.lang.String) _r0_o;
@@ -56,8 +63,11 @@ public virtual global::System.Object getName(){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Cookie) _r0_o)._fname = (global::java.lang.String) _r1_o;
@@ -67,8 +77,11 @@ public virtual void setName(global::java.lang.String n1){
 
 public virtual void setSecure(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setSecure(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.Cookie) _r0_o)._fsecure = 0!=_r1.i;
@@ -79,7 +92,10 @@ public virtual void setSecure(bool n1){
 public virtual bool isSecure(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: boolean isSecure()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Cookie) _r1_o)._fsecure ? 1 : 0;
     return _r0.i!=0;
@@ -88,8 +104,11 @@ public virtual bool isSecure(){
 
 public virtual void setHttpOnly(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setHttpOnly(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.Cookie) _r0_o)._fhttpOnly = 0!=_r1.i;
@@ -100,7 +119,10 @@ public virtual void setHttpOnly(bool n1){
 public virtual bool isHttpOnly(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: boolean isHttpOnly()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.Cookie) _r1_o)._fhttpOnly ? 1 : 0;
     return _r0.i!=0;
@@ -109,8 +131,11 @@ public virtual bool isHttpOnly(){
 
 public virtual void setPath(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setPath(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Cookie) _r0_o)._fpath = (global::java.lang.String) _r1_o;
@@ -120,8 +145,11 @@ public virtual void setPath(global::java.lang.String n1){
 
 public virtual global::System.Object getPath(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String getPath()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Cookie) _r1_o)._fpath;
     return (global::java.lang.String) _r0_o;
@@ -130,8 +158,11 @@ public virtual global::System.Object getPath(){
 
 public virtual global::System.Object getValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String getValue()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Cookie) _r1_o)._fvalue;
     return (global::java.lang.String) _r0_o;
@@ -140,8 +171,11 @@ public virtual global::System.Object getValue(){
 
 public virtual void setValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setValue(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Cookie) _r0_o)._fvalue = (global::java.lang.String) _r1_o;
@@ -151,8 +185,11 @@ public virtual void setValue(global::java.lang.String n1){
 
 public virtual global::System.Object getDomain(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String getDomain()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.Cookie) _r1_o)._fdomain;
     return (global::java.lang.String) _r0_o;
@@ -161,8 +198,11 @@ public virtual global::System.Object getDomain(){
 
 public virtual void setDomain(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setDomain(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.io.Cookie) _r0_o)._fdomain = (global::java.lang.String) _r1_o;
@@ -173,7 +213,12 @@ public virtual void setDomain(global::java.lang.String n1){
 public virtual long getExpires(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: long getExpires()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.io.Cookie) _r2_o)._fexpires;
     return _r0.l;
@@ -182,8 +227,13 @@ public virtual long getExpires(){
 
 public virtual void setExpires(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setExpires(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     ((global::com.codename1.io.Cookie) _r0_o)._fexpires = _r1.l;
@@ -194,7 +244,10 @@ public virtual void setExpires(long n1){
 public virtual int getVersion(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: int getVersion()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i;
@@ -206,9 +259,14 @@ public virtual void externalize(global::java.io.DataOutputStream n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r2.i = 1;
@@ -243,9 +301,15 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void internalize(int, java.io.DataInputStream)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4_o = n2;
@@ -269,8 +333,11 @@ public virtual void internalize(int n1, global::java.io.DataInputStream n2){
 
 public virtual global::System.Object getObjectId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String getObjectId()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     // Value=Cookie
     _r0_o = new global::java.lang.String();
@@ -281,9 +348,13 @@ public virtual global::System.Object getObjectId(){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r0_o).@this();
@@ -313,6 +384,8 @@ public override global::System.Object toString(){
 public static void setAutoStored(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void setAutoStored(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.Cookie._fautoStored = 0!=_r0.i;
     return;
@@ -322,6 +395,8 @@ public static void setAutoStored(bool n1){
 public static bool isAutoStored(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: boolean isAutoStored()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = global::com.codename1.io.Cookie._fautoStored ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.io.Cookie: boolean isAutoStored()]
@@ -331,7 +406,9 @@ public static void clearCookiesFromStorage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void clearCookiesFromStorage()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Storage.getInstance();
     _r1_o = global::com.codename1.io.Cookie._fSTORAGE_1NAME;
     _r0.i = ((global::com.codename1.io.Storage) _r0_o).exists((global::java.lang.String) _r1_o) ? 1 : 0;
@@ -346,11 +423,13 @@ public static void clearCookiesFromStorage(){
 //XMLVM_END_WRAPPER[com.codename1.io.Cookie: void clearCookiesFromStorage()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Cookie: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.io.Cookie._fautoStored = 0!=_r0.i;
     // Value=Cookies

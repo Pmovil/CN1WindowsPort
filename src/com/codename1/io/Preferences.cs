@@ -5,9 +5,11 @@ namespace com.codename1.io {
 public class Preferences: global::java.lang.Object {
 private static global::java.util.Hashtable _fp;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -18,8 +20,11 @@ private static global::System.Object get(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: java.util.Hashtable get()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     // Value=CN1Preferences
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
@@ -36,6 +41,7 @@ private static global::System.Object get(){
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 78)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r0_o = ((global::com.codename1.io.Storage) _r0_o).readObject((global::java.lang.String) _r2_o);
+    _r0_o = _r0_o;
     global::com.codename1.io.Preferences._fp = (global::java.util.Hashtable) _r0_o;
     _r0_o = global::com.codename1.io.Preferences._fp;
     if (_r0_o != null) goto label43;
@@ -55,9 +61,13 @@ private static global::System.Object get(){
 
 private static void save(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void save()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Storage.getInstance();
     // Value=CN1Preferences
     _r1_o = new global::java.lang.String();
@@ -70,9 +80,13 @@ private static void save(){
 
 private static void set(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2_o = n2;
     if (_r2_o != null) goto label13;
@@ -90,8 +104,11 @@ private static void set(global::java.lang.String n1, global::java.lang.Object n2
 
 public static void set(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     global::com.codename1.io.Preferences.set((global::java.lang.String) _r0_o, (global::java.lang.Object) _r1_o);
@@ -101,9 +118,13 @@ public static void set(global::java.lang.String n1, global::java.lang.String n2)
 
 public static void set(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2;
     _r0_o = new global::java.lang.Integer();
@@ -115,9 +136,15 @@ public static void set(global::java.lang.String n1, int n2){
 
 public static void set(global::java.lang.String n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.l = n2;
     _r0_o = new global::java.lang.Long();
@@ -129,9 +156,15 @@ public static void set(global::java.lang.String n1, long n2){
 
 public static void set(global::java.lang.String n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.d = n2;
     _r0_o = new global::java.lang.Double();
@@ -143,9 +176,13 @@ public static void set(global::java.lang.String n1, double n2){
 
 public static void set(global::java.lang.String n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.f = n2;
     _r0_o = new global::java.lang.Float();
@@ -157,8 +194,11 @@ public static void set(global::java.lang.String n1, float n2){
 
 public static void delete(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void delete(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::com.codename1.io.Preferences.get();
     ((global::java.util.Hashtable) _r0_o).remove((global::java.lang.Object) _r1_o);
@@ -169,7 +209,9 @@ public static void delete(global::java.lang.String n1){
 
 public static void clearAll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void clearAll()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.io.Preferences.get();
     ((global::java.util.Hashtable) _r0_o).clear();
     global::com.codename1.io.Preferences.save();
@@ -179,9 +221,13 @@ public static void clearAll(){
 
 public static void set(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: void set(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r2.i = n2 ? 1 : 0;
     if (_r2.i == 0) goto label8;
@@ -198,10 +244,15 @@ public static void set(global::java.lang.String n1, bool n2){
 
 public static global::System.Object get(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: java.lang.String get(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
@@ -218,15 +269,20 @@ public static global::System.Object get(global::java.lang.String n1, global::jav
 
 public static int get(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: int get(java.lang.String, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.i = _r3.i;
     label13:;
@@ -239,15 +295,24 @@ public static int get(global::java.lang.String n1, int n2){
 
 public static long get(global::java.lang.String n1, long n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: long get(java.lang.String, long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.l = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.l = _r4.l;
     label13:;
@@ -260,15 +325,24 @@ public static long get(global::java.lang.String n1, long n2){
 
 public static double get(global::java.lang.String n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: double get(java.lang.String, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = n1;
     _r4.d = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.d = _r4.d;
     label13:;
@@ -281,15 +355,20 @@ public static double get(global::java.lang.String n1, double n2){
 
 public static float get(global::java.lang.String n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: float get(java.lang.String, float)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.f = n2;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.f = _r3.f;
     label13:;
@@ -302,15 +381,20 @@ public static float get(global::java.lang.String n1, float n2){
 
 public static bool get(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.Preferences: boolean get(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     _r1_o = global::com.codename1.io.Preferences.get();
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r2_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label14;
     _r1.i = _r3.i;
     label13:;

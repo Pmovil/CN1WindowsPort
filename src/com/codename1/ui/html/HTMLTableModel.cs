@@ -37,11 +37,13 @@ public static int _fSEGMENT_1TBODY = 1;
 
 public static int _fSEGMENT_1TFOOT = 2;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.Vector();
@@ -74,10 +76,16 @@ public virtual void addCell(global::com.codename1.ui.Component n1, bool n2, glob
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -106,13 +114,19 @@ public virtual void addCell(global::com.codename1.ui.Component n1, bool n2, glob
 
 public virtual void setAlignToAll(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void setAlignToAll(boolean, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r5.i = n2;
@@ -122,6 +136,7 @@ public virtual void setAlignToAll(bool n1, int n2){
     _r2.i = ((global::java.util.Enumeration) _r1_o).hasMoreElements() ? 1 : 0;
     if (_r2.i == 0) goto label28;
     _r0_o = ((global::java.util.Enumeration) _r1_o).nextElement();
+    _r0_o = _r0_o;
     if (_r4.i == 0) goto label24;
     ((global::com.codename1.ui.html.CellConstraint) _r0_o).setHorizontalAlign((int) _r5.i);
     goto label6;
@@ -135,13 +150,18 @@ public virtual void setAlignToAll(bool n1, int n2){
 
 public virtual global::System.Object getConstraint(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: com.codename1.ui.html.CellConstraint getConstraint(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fconstraints;
     _r1_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.ui.html.CellConstraint) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.html.HTMLTableModel: com.codename1.ui.html.CellConstraint getConstraint(java.lang.Object)]
 }
@@ -150,8 +170,11 @@ public virtual bool isHeader(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: boolean isHeader(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fheaders;
@@ -167,8 +190,12 @@ public virtual void commitRow(){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLTableModel) _r4_o)._frowInsretionPos;
     _r1.i = -1;
@@ -205,7 +232,9 @@ public virtual void commitRowIfNotEmpty(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void commitRowIfNotEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fcurrentRow;
     _r0.i = ((global::java.util.Vector) _r0_o).size();
@@ -219,11 +248,18 @@ public virtual void commitRowIfNotEmpty(){
 public virtual void startSegment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void startSegment(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r3.i = 2;
@@ -258,8 +294,11 @@ public virtual void endSegment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void endSegment()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._flastCommittedRow;
     if (_r0_o == null) goto label22;
@@ -285,7 +324,9 @@ public virtual int getRowCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: int getRowCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._frows;
     _r0.i = ((global::java.util.Vector) _r0_o).size();
@@ -296,7 +337,10 @@ public virtual int getRowCount(){
 public virtual int getColumnCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: int getColumnCount()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fmaxColumn;
     return _r0.i;
@@ -305,9 +349,13 @@ public virtual int getColumnCount(){
 
 public virtual global::System.Object getColumnName(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: java.lang.String getColumnName(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     // Value=
@@ -320,9 +368,14 @@ public virtual global::System.Object getColumnName(int n1){
 public virtual bool isCellEditable(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: boolean isCellEditable(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -333,13 +386,19 @@ public virtual bool isCellEditable(int n1, int n2){
 
 public virtual global::System.Object getValueAt(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: java.lang.Object getValueAt(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r5.i = n2;
@@ -353,6 +412,7 @@ public virtual global::System.Object getValueAt(int n1, int n2){
     label11:;
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r3_o)._frows;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r4.i);
+    _r0_o = _r0_o;
     _r1.i = ((global::java.util.Vector) _r0_o).size();
     if (_r5.i < _r1.i) goto label27;
     _r1_o = _r2_o;
@@ -365,18 +425,26 @@ public virtual global::System.Object getValueAt(int n1, int n2){
 
 public virtual void setValueAt(int n1, int n2, global::java.lang.Object n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void setValueAt(int, int, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
     _r5_o = n3;
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._frows;
     _r0_o = ((global::java.util.Vector) _r1_o).elementAt((int) _r3.i);
+    _r0_o = _r0_o;
     ((global::java.util.Vector) _r0_o).removeElementAt((int) _r4.i);
     ((global::java.util.Vector) _r0_o).setElementAt((global::java.lang.Object) _r5_o, (int) _r4.i);
     _r1_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._fdispatcher;
@@ -387,9 +455,13 @@ public virtual void setValueAt(int n1, int n2, global::java.lang.Object n3){
 
 public virtual void addDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void addDataChangeListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fdispatcher;
@@ -400,9 +472,13 @@ public virtual void addDataChangeListener(global::com.codename1.ui.events.DataCh
 
 public virtual void removeDataChangeListener(global::com.codename1.ui.events.DataChangedListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: void removeDataChangeListener(com.codename1.ui.events.DataChangedListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r1_o)._fdispatcher;
@@ -415,9 +491,13 @@ public virtual bool isSegmentEnd(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLTableModel: boolean isSegmentEnd(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0_o = ((global::com.codename1.ui.html.HTMLTableModel) _r2_o)._fsegmentEnds;

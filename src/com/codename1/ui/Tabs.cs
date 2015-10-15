@@ -63,10 +63,13 @@ private global::java.lang.String _ftabUIID;
 
 private bool _fanimateTabSelection;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void <init>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = -1;
     ((global::com.codename1.ui.Tabs) _r1_o).@this((int) _r0.i);
@@ -76,16 +79,23 @@ new public void @this(){
 
 public void @this(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void <init>(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r5.i = 1;
@@ -161,6 +171,7 @@ public void @this(int n1){
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 115))}));
     ((global::com.codename1.ui.Tabs) _r6_o).setUIID((global::java.lang.String) _r1_o);
     _r0_o = base.getLayout();
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label161;
     _r1_o = global::com.codename1.ui.plaf.UIManager.getInstance();
     // Value=tabsOnTopBool
@@ -183,15 +194,21 @@ public void @this(int n1){
 
 private void checkTabsCanBeSeen(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void checkTabsCanBeSeen()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 2;
     _r2_o = global::com.codename1.ui.plaf.UIManager.getInstance();
@@ -227,15 +244,23 @@ private void checkTabsCanBeSeen(){
 
 public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initLaf(com.codename1.ui.plaf.UIManager)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r5.i = 3;
@@ -262,6 +287,7 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
     _r2.i = ((global::com.codename1.ui.plaf.UIManager) _r7_o).isThemeConstant((global::java.lang.String) _r2_o, 0!=_r3.i) ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r6_o)._fchangeTabOnFocus = 0!=_r2.i;
     _r0_o = base.getLayout();
+    _r0_o = _r0_o;
     if (_r0_o == null) goto label64;
     // Value=tabsOnTopBool
     _r2_o = new global::java.lang.String();
@@ -290,11 +316,15 @@ public override void initLaf(global::com.codename1.ui.plaf.UIManager n1){
 
 public override void initComponentImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initComponentImpl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     base.initComponentImpl();
     _r1_o = ((global::com.codename1.ui.Tabs) _r3_o).getComponentForm();
@@ -323,9 +353,13 @@ public override void initComponentImpl(){
 
 public override void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void refreshTheme(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     _r0_o = null;
@@ -338,9 +372,13 @@ public override void refreshTheme(bool n1){
 
 public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r2_o).getComponentForm();
     if (_r0_o == null) goto label21;
@@ -358,10 +396,13 @@ public override void deinitialize(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initComponent();
     _r0_o = ((global::com.codename1.ui.Tabs) _r2_o).getComponentForm();
@@ -382,16 +423,26 @@ public override void initComponent(){
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r0.i = base.animate() ? 1 : 0;
     _r7_o = ((global::com.codename1.ui.Tabs) _r9_o)._fslideToDestMotion;
@@ -467,10 +518,13 @@ public override bool animate(){
 
 public override void deregisterAnimatedInternal(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void deregisterAnimatedInternal()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1_o = ((global::com.codename1.ui.Tabs) _r2_o)._fslideToDestMotion;
     if (_r1_o == null) goto label12;
@@ -489,12 +543,18 @@ public override void deregisterAnimatedInternal(){
 public virtual void setTabTextPosition(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabTextPosition(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
     _r1.i = 1;
@@ -533,12 +593,17 @@ public virtual void setTabTextPosition(int n1){
 
 public virtual void setTextPosition(global::com.codename1.ui.Component n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTextPosition(com.codename1.ui.Component, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2.i = n2;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).setTextPosition((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void setTextPosition(com.codename1.ui.Component, int)]
@@ -547,7 +612,10 @@ public virtual void setTextPosition(global::com.codename1.ui.Component n1, int n
 public virtual int getTabTextPosition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int getTabTextPosition()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._ftextPosition;
     return _r0.i;
@@ -561,8 +629,12 @@ public virtual void setTabPlacement(int n1){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     _r1.i = 2;
@@ -637,10 +709,15 @@ public virtual void addTab(global::java.lang.String n1, global::com.codename1.ui
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void addTab(java.lang.String, com.codename1.ui.Image, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -654,12 +731,17 @@ public virtual void addTab(global::java.lang.String n1, global::com.codename1.ui
 
 public virtual void addTab(global::java.lang.String n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void addTab(java.lang.String, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -675,9 +757,13 @@ public virtual void addTab(global::com.codename1.ui.Button n1, global::com.coden
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void addTab(com.codename1.ui.Button, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -690,16 +776,23 @@ public virtual void addTab(global::com.codename1.ui.Button n1, global::com.coden
 
 public virtual global::System.Object createTab(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Component createTab(java.lang.String, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -760,13 +853,21 @@ public virtual global::System.Object createTab(global::java.lang.String n1, glob
 
 public virtual void insertTab(global::java.lang.String n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Component n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void insertTab(java.lang.String, com.codename1.ui.Image, com.codename1.ui.Component, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -788,16 +889,25 @@ public virtual void insertTab(global::java.lang.String n1, global::com.codename1
 
 public virtual void insertTab(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void insertTab(com.codename1.ui.Component, com.codename1.ui.Component, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7_o = n2;
@@ -820,6 +930,7 @@ public virtual void insertTab(global::com.codename1.ui.Component n1, global::com
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label38;
     _r0_o = _r7_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     ((global::com.codename1.ui.Container) _r2_o).setBlockFocus(0!=_r4.i);
     label38:;
@@ -837,6 +948,7 @@ public virtual void insertTab(global::com.codename1.ui.Component n1, global::com
     ((global::com.codename1.ui.Tabs) _r5_o)._fselectedTab = (global::com.codename1.ui.Component) _r2_o;
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r2.i == 0) goto label78;
+    _r7_o = _r7_o;
     ((global::com.codename1.ui.Container) _r7_o).setBlockFocus(0!=_r3.i);
     label78:;
     ((global::com.codename1.ui.Tabs) _r5_o).initTabsFocus();
@@ -848,12 +960,17 @@ public virtual void insertTab(global::com.codename1.ui.Component n1, global::com
 
 public virtual void bindTabActionListener(global::com.codename1.ui.Component n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void bindTabActionListener(com.codename1.ui.Component, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void bindTabActionListener(com.codename1.ui.Component, com.codename1.ui.events.ActionListener)]
@@ -861,11 +978,17 @@ public virtual void bindTabActionListener(global::com.codename1.ui.Component n1,
 
 public virtual void setTabTitle(global::java.lang.String n1, global::com.codename1.ui.Image n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabTitle(java.lang.String, com.codename1.ui.Image, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -880,17 +1003,25 @@ public virtual void setTabTitle(global::java.lang.String n1, global::com.codenam
 
 public virtual void setTabTitle(global::com.codename1.ui.Component n1, global::java.lang.String n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabTitle(com.codename1.ui.Component, java.lang.String, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
     _r5_o = n3;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.Button) _r1_o).setText((global::java.lang.String) _r4_o);
     ((global::com.codename1.ui.Button) _r1_o).setIcon((global::com.codename1.ui.Image) _r5_o);
@@ -900,9 +1031,13 @@ public virtual void setTabTitle(global::com.codename1.ui.Component n1, global::j
 
 public virtual global::System.Object getTabTitle(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String getTabTitle(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.Tabs) _r1_o).checkIndex((int) _r2.i);
@@ -915,11 +1050,16 @@ public virtual global::System.Object getTabTitle(int n1){
 
 public virtual global::System.Object getTabTitle(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String getTabTitle(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getText();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: java.lang.String getTabTitle(com.codename1.ui.Component)]
@@ -927,11 +1067,16 @@ public virtual global::System.Object getTabTitle(global::com.codename1.ui.Compon
 
 public virtual global::System.Object getTabIcon(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabIcon(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getIcon();
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabIcon(com.codename1.ui.Component)]
@@ -939,9 +1084,13 @@ public virtual global::System.Object getTabIcon(global::com.codename1.ui.Compone
 
 public virtual global::System.Object getTabIcon(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabIcon(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.Tabs) _r1_o).checkIndex((int) _r2.i);
@@ -954,11 +1103,16 @@ public virtual global::System.Object getTabIcon(int n1){
 
 public virtual global::System.Object getTabSelectedIcon(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabSelectedIcon(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
+    _r2_o = _r2_o;
     _r0_o = ((global::com.codename1.ui.Button) _r2_o).getPressedIcon();
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabSelectedIcon(com.codename1.ui.Component)]
@@ -966,9 +1120,13 @@ public virtual global::System.Object getTabSelectedIcon(global::com.codename1.ui
 
 public virtual global::System.Object getTabSelectedIcon(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Image getTabSelectedIcon(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.Tabs) _r1_o).checkIndex((int) _r2.i);
@@ -981,10 +1139,15 @@ public virtual global::System.Object getTabSelectedIcon(int n1){
 
 public virtual void setTabSelectedIcon(int n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabSelectedIcon(int, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3_o = n2;
@@ -998,12 +1161,17 @@ public virtual void setTabSelectedIcon(int n1, global::com.codename1.ui.Image n2
 
 public virtual void setTabSelectedIcon(global::com.codename1.ui.Component n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabSelectedIcon(com.codename1.ui.Component, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
+    _r1_o = _r1_o;
     ((global::com.codename1.ui.Button) _r1_o).setPressedIcon((global::com.codename1.ui.Image) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: void setTabSelectedIcon(com.codename1.ui.Component, com.codename1.ui.Image)]
@@ -1012,13 +1180,20 @@ public virtual void setTabSelectedIcon(global::com.codename1.ui.Component n1, gl
 public virtual void removeTabAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void removeTabAt(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6.i = n1;
     ((global::com.codename1.ui.Tabs) _r5_o).checkIndex((int) _r6.i);
@@ -1044,9 +1219,13 @@ public virtual void removeTabAt(int n1){
 
 public virtual global::System.Object getTabComponentAt(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Component getTabComponentAt(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.ui.Tabs) _r1_o).checkIndex((int) _r2.i);
@@ -1060,10 +1239,15 @@ private void checkIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void checkIndex(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1;
     if (_r4.i < 0) goto label10;
@@ -1091,8 +1275,11 @@ public virtual int indexOfComponent(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int indexOfComponent(com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fcontentPane;
@@ -1105,7 +1292,9 @@ public virtual int getTabCount(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int getTabCount()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsContainer;
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).getComponentCount();
@@ -1117,7 +1306,9 @@ public virtual int getSelectedIndex(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int getSelectedIndex()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsContainer;
     if (_r0_o == null) goto label7;
@@ -1133,9 +1324,12 @@ public virtual int getSelectedIndex(){
 public virtual global::System.Object getSelectedComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Component getSelectedComponent()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r2_o).getSelectedIndex();
     _r1.i = -1;
@@ -1151,9 +1345,13 @@ public virtual global::System.Object getSelectedComponent(){
 
 public virtual void addTabsFocusListener(global::com.codename1.ui.events.FocusListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void addTabsFocusListener(com.codename1.ui.events.FocusListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ffocusListeners;
@@ -1170,9 +1368,13 @@ public virtual void addTabsFocusListener(global::com.codename1.ui.events.FocusLi
 
 public virtual void removeTabsFocusListener(global::com.codename1.ui.events.FocusListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void removeTabsFocusListener(com.codename1.ui.events.FocusListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ffocusListeners;
@@ -1186,9 +1388,13 @@ public virtual void removeTabsFocusListener(global::com.codename1.ui.events.Focu
 
 public virtual void addSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void addSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fselectionListener;
@@ -1205,9 +1411,13 @@ public virtual void addSelectionListener(global::com.codename1.ui.events.Selecti
 
 public virtual void removeSelectionListener(global::com.codename1.ui.events.SelectionListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void removeSelectionListener(com.codename1.ui.events.SelectionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fselectionListener;
@@ -1221,12 +1431,15 @@ public virtual void removeSelectionListener(global::com.codename1.ui.events.Sele
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::java.lang.Object) _r3_o).getClass();
     _r0_o = ((global::java.lang.Class) _r1_o).getName();
@@ -1291,7 +1504,10 @@ public override global::System.Object toString(){
 public virtual int getTabPlacement(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int getTabPlacement()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._ftabPlacement;
     return _r0.i;
@@ -1300,8 +1516,11 @@ public virtual int getTabPlacement(){
 
 public virtual global::System.Object getContentPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Container getContentPane()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fcontentPane;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -1310,8 +1529,11 @@ public virtual global::System.Object getContentPane(){
 
 public virtual global::System.Object getTabsContainer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Container getTabsContainer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsContainer;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -1321,17 +1543,24 @@ public virtual global::System.Object getTabsContainer(){
 public virtual void setSelectedIndex(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setSelectedIndex(int, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r8.i = n2 ? 1 : 0;
@@ -1398,13 +1627,19 @@ public virtual void setSelectedIndex(int n1, bool n2){
 
 public virtual void selectTab(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void selectTab(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = _r3_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     ((global::com.codename1.ui.Button) _r1_o).fireClicked();
     ((global::com.codename1.ui.Button) _r1_o).requestFocus();
@@ -1415,8 +1650,12 @@ public virtual void selectTab(global::com.codename1.ui.Component n1){
 public virtual void setSelectedIndex(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setSelectedIndex(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1427,8 +1666,11 @@ public virtual void setSelectedIndex(int n1){
 
 public virtual void hideTabs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void hideTabs()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsContainer;
     ((global::com.codename1.ui.Tabs) _r1_o).removeComponent((global::com.codename1.ui.Component) _r0_o);
@@ -1440,8 +1682,12 @@ public virtual void hideTabs(){
 public virtual void showTabs(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void showTabs()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r2_o)._ftabPlacement;
     _r1.i = -1;
@@ -1455,7 +1701,10 @@ public virtual void showTabs(){
 public virtual bool isSwipeActivated(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean isSwipeActivated()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fswipeActivated ? 1 : 0;
     return _r0.i!=0;
@@ -1464,8 +1713,11 @@ public virtual bool isSwipeActivated(){
 
 public virtual void setSwipeActivated(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setSwipeActivated(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._fswipeActivated = 0!=_r1.i;
@@ -1476,11 +1728,16 @@ public virtual void setSwipeActivated(bool n1){
 private void initTabsFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initTabsFocus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0.i = 0;
     label1:;
@@ -1502,11 +1759,17 @@ private void initTabsFocus(){
 
 private void initTabFocus(global::com.codename1.ui.Component n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initTabFocus(com.codename1.ui.Component, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1517,6 +1780,7 @@ private void initTabFocus(global::com.codename1.ui.Component n1, global::com.cod
     label8:;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Container)) ? 1 : 0;
     if (_r1.i == 0) goto label18;
+    _r4_o = _r4_o;
     _r0_o = ((global::com.codename1.ui.Container) _r4_o).findFirstFocusable();
     label18:;
     return;
@@ -1526,7 +1790,10 @@ private void initTabFocus(global::com.codename1.ui.Component n1, global::com.cod
 public virtual bool isChangeTabOnFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean isChangeTabOnFocus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fchangeTabOnFocus ? 1 : 0;
     return _r0.i!=0;
@@ -1535,8 +1802,11 @@ public virtual bool isChangeTabOnFocus(){
 
 public virtual void setChangeTabOnFocus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setChangeTabOnFocus(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._fchangeTabOnFocus = 0!=_r1.i;
@@ -1547,7 +1817,10 @@ public virtual void setChangeTabOnFocus(bool n1){
 public virtual bool isChangeTabContainerStyleOnFocus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean isChangeTabContainerStyleOnFocus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fchangeTabContainerStyleOnFocus ? 1 : 0;
     return _r0.i!=0;
@@ -1556,8 +1829,11 @@ public virtual bool isChangeTabContainerStyleOnFocus(){
 
 public virtual void setChangeTabContainerStyleOnFocus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setChangeTabContainerStyleOnFocus(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._fchangeTabContainerStyleOnFocus = 0!=_r1.i;
@@ -1567,10 +1843,15 @@ public virtual void setChangeTabContainerStyleOnFocus(bool n1){
 
 public virtual void setTabsContentGap(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabsContentGap(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     if (_r3.i >= 0) goto label10;
@@ -1588,15 +1869,23 @@ public virtual void setTabsContentGap(int n1){
 
 private void setTabsLayout(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabsLayout(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7.i = n1;
     _r3.i = 2;
@@ -1661,8 +1950,11 @@ private void setTabsLayout(int n1){
 
 public virtual global::System.Object getTabUIID(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String getTabUIID()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabUIID;
     return (global::java.lang.String) _r0_o;
@@ -1671,8 +1963,11 @@ public virtual global::System.Object getTabUIID(){
 
 public virtual void setTabUIID(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setTabUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Tabs) _r0_o)._ftabUIID = (global::java.lang.String) _r1_o;
@@ -1683,7 +1978,10 @@ public virtual void setTabUIID(global::java.lang.String n1){
 public virtual bool isEagerSwipeMode(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean isEagerSwipeMode()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._feagerSwipeMode ? 1 : 0;
     return _r0.i!=0;
@@ -1692,8 +1990,11 @@ public virtual bool isEagerSwipeMode(){
 
 public virtual void setEagerSwipeMode(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setEagerSwipeMode(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._feagerSwipeMode = 0!=_r1.i;
@@ -1704,7 +2005,10 @@ public virtual void setEagerSwipeMode(bool n1){
 public virtual bool isAnimateTabSelection(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean isAnimateTabSelection()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fanimateTabSelection ? 1 : 0;
     return _r0.i!=0;
@@ -1713,8 +2017,11 @@ public virtual bool isAnimateTabSelection(){
 
 public virtual void setAnimateTabSelection(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void setAnimateTabSelection(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._fanimateTabSelection = 0!=_r1.i;
@@ -1724,8 +2031,11 @@ public virtual void setAnimateTabSelection(bool n1){
 
 public virtual void initTabsContainerStyle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void initTabsContainerStyle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._foriginalTabsContainerSelected;
     if (_r0_o != null) goto label20;
@@ -1744,9 +2054,13 @@ public virtual global::System.Object createTabSlideMotion(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.animations.Motion createTabSlideMotion(int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1761,8 +2075,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 3;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1790,8 +2108,12 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 3;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -1813,9 +2135,14 @@ public override global::System.Object getPropertyTypeNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     // Value=Image[]
     _r3_o = new global::java.lang.String();
@@ -1844,11 +2171,16 @@ public override global::System.Object getPropertyTypeNames(){
 public override global::System.Object getPropertyValue(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     // Value=titles
@@ -1916,17 +2248,25 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 
 public override global::System.Object setPropertyValue(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1936,7 +2276,9 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label41;
+    _r8_o = _r8_o;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label16:;
@@ -1959,7 +2301,9 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label81;
+    _r8_o = _r8_o;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label56:;
@@ -1981,7 +2325,9 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115))}));
     _r3.i = ((global::java.lang.String) _r7_o).equals((global::java.lang.Object) _r3_o) ? 1 : 0;
     if (_r3.i == 0) goto label117;
+    _r8_o = _r8_o;
     _r0_o = _r8_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = 0;
     label96:;
@@ -2004,8 +2350,11 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
 
 public static global::System.Object access_2000(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Component access$000(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fselectedTab;
     return (global::com.codename1.ui.Component) _r0_o;
@@ -2014,8 +2363,11 @@ public static global::System.Object access_2000(global::com.codename1.ui.Tabs n1
 
 public static global::System.Object access_2100(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: java.lang.String access$100(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabUIID;
     return (global::java.lang.String) _r0_o;
@@ -2024,8 +2376,11 @@ public static global::System.Object access_2100(global::com.codename1.ui.Tabs n1
 
 public static global::System.Object access_2200(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Container access$200(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsContainer;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -2034,8 +2389,11 @@ public static global::System.Object access_2200(global::com.codename1.ui.Tabs n1
 
 public static global::System.Object access_2300(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Container access$300(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fcontentPane;
     return (global::com.codename1.ui.Container) _r0_o;
@@ -2044,8 +2402,11 @@ public static global::System.Object access_2300(global::com.codename1.ui.Tabs n1
 
 public static int access_2402(global::com.codename1.ui.Tabs n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$402(com.codename1.ui.Tabs, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._factive = _r1.i;
@@ -2056,7 +2417,10 @@ public static int access_2402(global::com.codename1.ui.Tabs n1, int n2){
 public static int access_2400(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$400(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._factive;
     return _r0.i;
@@ -2066,7 +2430,10 @@ public static int access_2400(global::com.codename1.ui.Tabs n1){
 public static bool access_2500(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean access$500(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fanimateTabSelection ? 1 : 0;
     return _r0.i!=0;
@@ -2075,7 +2442,9 @@ public static bool access_2500(global::com.codename1.ui.Tabs n1){
 
 public static void access_2600(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: void access$600(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     ((global::com.codename1.ui.Tabs) _r0_o).initTabsFocus();
     return;
@@ -2084,8 +2453,11 @@ public static void access_2600(global::com.codename1.ui.Tabs n1){
 
 public static global::System.Object access_2002(global::com.codename1.ui.Tabs n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.Component access$002(com.codename1.ui.Tabs, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._fselectedTab = (global::com.codename1.ui.Component) _r1_o;
@@ -2096,7 +2468,10 @@ public static global::System.Object access_2002(global::com.codename1.ui.Tabs n1
 public static int access_2700(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$700(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._ftabsGap;
     return _r0.i;
@@ -2106,7 +2481,10 @@ public static int access_2700(global::com.codename1.ui.Tabs n1){
 public static int access_2800(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$800(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._factiveComponent;
     return _r0.i;
@@ -2115,8 +2493,11 @@ public static int access_2800(global::com.codename1.ui.Tabs n1){
 
 public static global::System.Object access_2900(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.util.EventDispatcher access$900(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._ffocusListeners;
     return (global::com.codename1.ui.util.EventDispatcher) _r0_o;
@@ -2126,7 +2507,10 @@ public static global::System.Object access_2900(global::com.codename1.ui.Tabs n1
 public static bool access_21000(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean access$1000(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fchangeTabContainerStyleOnFocus ? 1 : 0;
     return _r0.i!=0;
@@ -2135,8 +2519,11 @@ public static bool access_21000(global::com.codename1.ui.Tabs n1){
 
 public static global::System.Object access_21100(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.plaf.Style access$1100(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._foriginalTabsContainerSelected;
     return (global::com.codename1.ui.plaf.Style) _r0_o;
@@ -2145,8 +2532,11 @@ public static global::System.Object access_21100(global::com.codename1.ui.Tabs n
 
 public static global::System.Object access_21200(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.plaf.Style access$1200(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._foriginalTabsContainerUnselected;
     return (global::com.codename1.ui.plaf.Style) _r0_o;
@@ -2156,7 +2546,10 @@ public static global::System.Object access_21200(global::com.codename1.ui.Tabs n
 public static bool access_21300(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean access$1300(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fswipeActivated ? 1 : 0;
     return _r0.i!=0;
@@ -2165,8 +2558,11 @@ public static bool access_21300(global::com.codename1.ui.Tabs n1){
 
 public static int access_21402(global::com.codename1.ui.Tabs n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1402(com.codename1.ui.Tabs, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._flastX = _r1.i;
@@ -2176,8 +2572,11 @@ public static int access_21402(global::com.codename1.ui.Tabs n1, int n2){
 
 public static int access_21502(global::com.codename1.ui.Tabs n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1502(com.codename1.ui.Tabs, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._finitialX = _r1.i;
@@ -2187,8 +2586,11 @@ public static int access_21502(global::com.codename1.ui.Tabs n1, int n2){
 
 public static int access_21602(global::com.codename1.ui.Tabs n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1602(com.codename1.ui.Tabs, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._finitialY = _r1.i;
@@ -2198,8 +2600,11 @@ public static int access_21602(global::com.codename1.ui.Tabs n1, int n2){
 
 public static bool access_21702(global::com.codename1.ui.Tabs n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean access$1702(com.codename1.ui.Tabs, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.ui.Tabs) _r0_o)._fdragStarted = 0!=_r1.i;
@@ -2210,7 +2615,10 @@ public static bool access_21702(global::com.codename1.ui.Tabs n1, bool n2){
 public static bool access_21700(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: boolean access$1700(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._fdragStarted ? 1 : 0;
     return _r0.i!=0;
@@ -2220,7 +2628,10 @@ public static bool access_21700(global::com.codename1.ui.Tabs n1){
 public static int access_21500(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1500(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._finitialX;
     return _r0.i;
@@ -2230,7 +2641,10 @@ public static int access_21500(global::com.codename1.ui.Tabs n1){
 public static int access_21600(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1600(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._finitialY;
     return _r0.i;
@@ -2240,31 +2654,23 @@ public static int access_21600(global::com.codename1.ui.Tabs n1){
 public static int access_21400(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1400(com.codename1.ui.Tabs)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._flastX;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Tabs: int access$1400(com.codename1.ui.Tabs)]
 }
 
-public static int access_21412(global::com.codename1.ui.Tabs n1, int n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: int access$1412(com.codename1.ui.Tabs, int)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    _r1_o = n1;
-    _r2.i = n2;
-    _r0.i = ((global::com.codename1.ui.Tabs) _r1_o)._flastX;
-    _r0.i = _r0.i + _r2.i;
-    ((global::com.codename1.ui.Tabs) _r1_o)._flastX = _r0.i;
-    return _r0.i;
-//XMLVM_END_WRAPPER[com.codename1.ui.Tabs: int access$1412(com.codename1.ui.Tabs, int)]
-}
-
 public static global::System.Object access_21802(global::com.codename1.ui.Tabs n1, global::com.codename1.ui.animations.Motion n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.animations.Motion access$1802(com.codename1.ui.Tabs, com.codename1.ui.animations.Motion)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.ui.Tabs) _r0_o)._fslideToDestMotion = (global::com.codename1.ui.animations.Motion) _r1_o;
@@ -2274,8 +2680,11 @@ public static global::System.Object access_21802(global::com.codename1.ui.Tabs n
 
 public static global::System.Object access_21800(global::com.codename1.ui.Tabs n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Tabs: com.codename1.ui.animations.Motion access$1800(com.codename1.ui.Tabs)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Tabs) _r1_o)._fslideToDestMotion;
     return (global::com.codename1.ui.animations.Motion) _r0_o;

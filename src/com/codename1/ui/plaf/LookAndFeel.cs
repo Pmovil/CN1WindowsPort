@@ -95,10 +95,17 @@ public void @this(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void <init>(com.codename1.ui.plaf.UIManager)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r3.i = 1;
@@ -136,8 +143,11 @@ public void @this(global::com.codename1.ui.plaf.UIManager n1){
 
 public virtual void bind(global::com.codename1.ui.Component n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void bind(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -146,7 +156,9 @@ public virtual void bind(global::com.codename1.ui.Component n1){
 
 public virtual void uninstall(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void uninstall()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void uninstall()]
@@ -193,7 +205,9 @@ public virtual void drawVerticalScroll(global::com.codename1.ui.Graphics n1, glo
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -203,27 +217,48 @@ public virtual void drawVerticalScroll(global::com.codename1.ui.Graphics n1, glo
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
     _r25_o = n1;
     _r26_o = n2;
@@ -407,30 +442,53 @@ public virtual void drawVerticalScroll(global::com.codename1.ui.Graphics n1, glo
 
 private global::System.Object generateFadeImage(int n1, int n2, int n3, bool n4, int n5, int n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.Image generateFadeImage(int, int, int, boolean, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r16_o = this;
     _r17.i = n1;
     _r18.i = n2;
@@ -474,7 +532,9 @@ public virtual void drawHorizontalScroll(global::com.codename1.ui.Graphics n1, g
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -482,28 +542,50 @@ public virtual void drawHorizontalScroll(global::com.codename1.ui.Graphics n1, g
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
     global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
     global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r24_o = this;
     _r25_o = n1;
     _r26_o = n2;
@@ -686,35 +768,66 @@ private void drawScroll(global::com.codename1.ui.Graphics n1, global::com.codena
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
     global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
     global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
     global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
     global::System.Object _r31_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r20_o = this;
     _r21_o = n1;
     _r22_o = n2;
@@ -945,12 +1058,17 @@ private void drawScroll(global::com.codename1.ui.Graphics n1, global::com.codena
 
 public virtual void setFG(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.Component n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFG(com.codename1.ui.Graphics, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -965,14 +1083,21 @@ public virtual void setFG(global::com.codename1.ui.Graphics n1, global::com.code
 
 public virtual int getVerticalScrollWidth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getVerticalScrollWidth()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 3;
     _r4.i = 1;
@@ -996,13 +1121,19 @@ public virtual int getVerticalScrollWidth(){
 
 public virtual int getHorizontalScrollHeight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getHorizontalScrollHeight()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 2;
     _r3.i = 0;
@@ -1025,17 +1156,29 @@ public virtual int getHorizontalScrollHeight(){
 
 public virtual void drawBorder(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.Component n2, int n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void drawBorder(com.codename1.ui.Graphics, com.codename1.ui.Component, int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -1055,14 +1198,24 @@ public virtual void drawBorder(global::com.codename1.ui.Graphics n1, global::com
 public virtual void drawBorder(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.Component n2, int n3, int n4, int n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void drawBorder(com.codename1.ui.Graphics, com.codename1.ui.Component, int, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5_o = n2;
@@ -1099,8 +1252,11 @@ public virtual void drawBorder(global::com.codename1.ui.Graphics n1, global::com
 
 public virtual global::System.Object getDefaultFormTransitionIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultFormTransitionIn()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultFormTransitionIn;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1109,8 +1265,11 @@ public virtual global::System.Object getDefaultFormTransitionIn(){
 
 public virtual void setDefaultFormTransitionIn(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultFormTransitionIn(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultFormTransitionIn = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1120,8 +1279,11 @@ public virtual void setDefaultFormTransitionIn(global::com.codename1.ui.animatio
 
 public virtual global::System.Object getDefaultFormTransitionOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultFormTransitionOut()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultFormTransitionOut;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1130,8 +1292,11 @@ public virtual global::System.Object getDefaultFormTransitionOut(){
 
 public virtual void setDefaultFormTransitionOut(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultFormTransitionOut(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultFormTransitionOut = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1141,8 +1306,11 @@ public virtual void setDefaultFormTransitionOut(global::com.codename1.ui.animati
 
 public virtual global::System.Object getDefaultMenuTransitionIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultMenuTransitionIn()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultMenuTransitionIn;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1151,8 +1319,11 @@ public virtual global::System.Object getDefaultMenuTransitionIn(){
 
 public virtual void setDefaultMenuTransitionIn(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultMenuTransitionIn(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultMenuTransitionIn = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1162,8 +1333,11 @@ public virtual void setDefaultMenuTransitionIn(global::com.codename1.ui.animatio
 
 public virtual global::System.Object getDefaultMenuTransitionOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultMenuTransitionOut()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultMenuTransitionOut;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1172,8 +1346,11 @@ public virtual global::System.Object getDefaultMenuTransitionOut(){
 
 public virtual void setDefaultMenuTransitionOut(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultMenuTransitionOut(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultMenuTransitionOut = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1183,8 +1360,11 @@ public virtual void setDefaultMenuTransitionOut(global::com.codename1.ui.animati
 
 public virtual global::System.Object getDefaultDialogTransitionIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultDialogTransitionIn()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultDialogTransitionIn;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1193,8 +1373,11 @@ public virtual global::System.Object getDefaultDialogTransitionIn(){
 
 public virtual void setDefaultDialogTransitionIn(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultDialogTransitionIn(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultDialogTransitionIn = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1204,8 +1387,11 @@ public virtual void setDefaultDialogTransitionIn(global::com.codename1.ui.animat
 
 public virtual global::System.Object getDefaultDialogTransitionOut(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getDefaultDialogTransitionOut()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultDialogTransitionOut;
     return (global::com.codename1.ui.animations.Transition) _r0_o;
@@ -1214,8 +1400,11 @@ public virtual global::System.Object getDefaultDialogTransitionOut(){
 
 public virtual void setDefaultDialogTransitionOut(global::com.codename1.ui.animations.Transition n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultDialogTransitionOut(com.codename1.ui.animations.Transition)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultDialogTransitionOut = (global::com.codename1.ui.animations.Transition) _r1_o;
@@ -1226,7 +1415,10 @@ public virtual void setDefaultDialogTransitionOut(global::com.codename1.ui.anima
 public virtual int getDefaultFormTintColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getDefaultFormTintColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultFormTintColor;
     return _r0.i;
@@ -1235,8 +1427,11 @@ public virtual int getDefaultFormTintColor(){
 
 public virtual void setDefaultFormTintColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultFormTintColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultFormTintColor = _r1.i;
@@ -1247,7 +1442,10 @@ public virtual void setDefaultFormTintColor(int n1){
 public virtual int getDisableColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getDisableColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdisableColor;
     return _r0.i;
@@ -1256,8 +1454,11 @@ public virtual int getDisableColor(){
 
 public virtual void setDisableColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDisableColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdisableColor = _r1.i;
@@ -1268,7 +1469,10 @@ public virtual void setDisableColor(int n1){
 public virtual bool isDefaultSmoothScrolling(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultSmoothScrolling()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultSmoothScrolling ? 1 : 0;
     return _r0.i!=0;
@@ -1277,8 +1481,11 @@ public virtual bool isDefaultSmoothScrolling(){
 
 public virtual void setDefaultSmoothScrolling(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultSmoothScrolling(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultSmoothScrolling = 0!=_r1.i;
@@ -1289,7 +1496,10 @@ public virtual void setDefaultSmoothScrolling(bool n1){
 public virtual int getDefaultSmoothScrollingSpeed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getDefaultSmoothScrollingSpeed()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultSmoothScrollingSpeed;
     return _r0.i;
@@ -1298,8 +1508,11 @@ public virtual int getDefaultSmoothScrollingSpeed(){
 
 public virtual void setDefaultSmoothScrollingSpeed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultSmoothScrollingSpeed(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultSmoothScrollingSpeed = _r1.i;
@@ -1310,7 +1523,10 @@ public virtual void setDefaultSmoothScrollingSpeed(int n1){
 public virtual bool isReverseSoftButtons(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isReverseSoftButtons()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._freverseSoftButtons ? 1 : 0;
     return _r0.i!=0;
@@ -1319,8 +1535,11 @@ public virtual bool isReverseSoftButtons(){
 
 public virtual void setReverseSoftButtons(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setReverseSoftButtons(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._freverseSoftButtons = 0!=_r1.i;
@@ -1330,8 +1549,11 @@ public virtual void setReverseSoftButtons(bool n1){
 
 public virtual global::System.Object getMenuBarClass(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: java.lang.Class getMenuBarClass()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fmenuBar;
     return (global::java.lang.Class) _r0_o;
@@ -1340,8 +1562,11 @@ public virtual global::System.Object getMenuBarClass(){
 
 public virtual void setMenuBarClass(global::java.lang.Class n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setMenuBarClass(java.lang.Class)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fmenuBar = (global::java.lang.Class) _r1_o;
@@ -1351,8 +1576,11 @@ public virtual void setMenuBarClass(global::java.lang.Class n1){
 
 public virtual global::System.Object getMenuRenderer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.list.ListCellRenderer getMenuRenderer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fmenuRenderer;
     return (global::com.codename1.ui.list.ListCellRenderer) _r0_o;
@@ -1361,8 +1589,11 @@ public virtual global::System.Object getMenuRenderer(){
 
 public virtual void setMenuRenderer(global::com.codename1.ui.list.ListCellRenderer n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setMenuRenderer(com.codename1.ui.list.ListCellRenderer)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fmenuRenderer = (global::com.codename1.ui.list.ListCellRenderer) _r1_o;
@@ -1372,12 +1603,19 @@ public virtual void setMenuRenderer(global::com.codename1.ui.list.ListCellRender
 
 public virtual void setMenuIcons(global::com.codename1.ui.Image n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.Image n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setMenuIcons(com.codename1.ui.Image, com.codename1.ui.Image, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -1397,8 +1635,11 @@ public virtual void setMenuIcons(global::com.codename1.ui.Image n1, global::com.
 
 public virtual global::System.Object getMenuIcons(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.Image[] getMenuIcons()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fmenuIcons;
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
@@ -1408,7 +1649,12 @@ public virtual global::System.Object getMenuIcons(){
 public virtual long getTickerSpeed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: long getTickerSpeed()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.ui.plaf.LookAndFeel) _r2_o)._ftickerSpeed;
     return _r0.l;
@@ -1417,8 +1663,13 @@ public virtual long getTickerSpeed(){
 
 public virtual void setTickerSpeed(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setTickerSpeed(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.l = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ftickerSpeed = _r1.l;
@@ -1428,9 +1679,13 @@ public virtual void setTickerSpeed(long n1){
 
 private void initScroll(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void initScroll()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::com.codename1.ui.Label();
     ((global::com.codename1.ui.Label) _r0_o).@this();
@@ -1472,6 +1727,7 @@ public virtual void refreshTheme(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void refreshTheme(boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
@@ -1484,41 +1740,77 @@ public virtual void refreshTheme(bool n1){
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
     global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
     global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
     global::System.Object _r24_o = null;
     global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
     global::System.Object _r27_o = null;
+    global::org.xmlvm._nElement _r28;
     global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
     global::System.Object _r29_o = null;
+    global::org.xmlvm._nElement _r30;
     global::System.Object _r30_o = null;
     global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
     global::org.xmlvm._nElement _r32;
+    global::System.Object _r32_o = null;
+    global::org.xmlvm._nElement _r33;
     global::System.Object _r33_o = null;
+    global::org.xmlvm._nElement _r34;
     global::System.Object _r34_o = null;
+    global::org.xmlvm._nElement _r35;
     global::System.Object _r35_o = null;
+    global::org.xmlvm._nElement _r36;
     global::System.Object _r36_o = null;
     global::org.xmlvm._nElement _r37;
+    global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
+    global::System.Object _r38_o = null;
+    global::org.xmlvm._nElement _r39;
     global::System.Object _r39_o = null;
     global::org.xmlvm._nElement _r40;
+    global::System.Object _r40_o = null;
+    global::org.xmlvm._nElement _r41;
     global::System.Object _r41_o = null;
     global::org.xmlvm._nElement _r42;
+    global::System.Object _r42_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r41_o = this;
     _r42.i = n1 ? 1 : 0;
@@ -1551,6 +1843,7 @@ public virtual void refreshTheme(bool n1){
     _r0_o = _r41_o;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fmenuRenderer;
     _r3_o = _r0_o;
+    _r3_o = _r3_o;
     ((global::com.codename1.ui.Component) _r3_o).refreshTheme();
     label53:;
     _r3_o = global::com.codename1.ui.Display.getInstance();
@@ -2084,9 +2377,14 @@ private void initCommandBehaviorConstant(global::java.lang.String n1, bool n2){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -2184,21 +2482,35 @@ private void initCommandBehaviorConstant(global::java.lang.String n1, bool n2){
 
 private global::System.Object getTransitionConstant(global::com.codename1.ui.animations.Transition n1, global::java.lang.String n2, global::java.lang.String n3, int n4, bool n5){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.animations.Transition getTransitionConstant(com.codename1.ui.animations.Transition, java.lang.String, java.lang.String, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
@@ -2336,10 +2648,14 @@ private global::System.Object getTransitionConstant(global::com.codename1.ui.ani
 public virtual bool isTouchMenus(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isTouchMenus()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     _r1_o = global::com.codename1.ui.Display.getInstance();
@@ -2362,10 +2678,15 @@ public virtual bool isTouchMenus(){
 
 public virtual void setTouchMenus(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setTouchMenus(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     if (_r3.i == 0) goto label11;
@@ -2387,8 +2708,12 @@ public virtual void setRTL(bool n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r0.i = global::com.codename1.ui.plaf.UIManager._flocaleAccessible ? 1 : 0;
@@ -2406,7 +2731,10 @@ public virtual void setRTL(bool n1){
 public virtual bool isRTL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isRTL()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._frtl ? 1 : 0;
     return _r0.i!=0;
@@ -2416,7 +2744,10 @@ public virtual bool isRTL(){
 public virtual int getTactileTouchDuration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getTactileTouchDuration()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ftactileTouchDuration;
     return _r0.i;
@@ -2425,8 +2756,11 @@ public virtual int getTactileTouchDuration(){
 
 public virtual void setTactileTouchDuration(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setTactileTouchDuration(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ftactileTouchDuration = _r1.i;
@@ -2437,7 +2771,10 @@ public virtual void setTactileTouchDuration(int n1){
 public virtual bool isDefaultEndsWith3Points(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultEndsWith3Points()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultEndsWith3Points ? 1 : 0;
     return _r0.i!=0;
@@ -2446,8 +2783,11 @@ public virtual bool isDefaultEndsWith3Points(){
 
 public virtual void setDefaultEndsWith3Points(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultEndsWith3Points(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultEndsWith3Points = 0!=_r1.i;
@@ -2458,7 +2798,10 @@ public virtual void setDefaultEndsWith3Points(bool n1){
 public virtual bool isDefaultTensileDrag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultTensileDrag()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultTensileDrag ? 1 : 0;
     return _r0.i!=0;
@@ -2467,8 +2810,11 @@ public virtual bool isDefaultTensileDrag(){
 
 public virtual void setDefaultTensileDrag(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultTensileDrag(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultTensileDrag = 0!=_r1.i;
@@ -2479,7 +2825,10 @@ public virtual void setDefaultTensileDrag(bool n1){
 public virtual bool isFocusScrolling(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isFocusScrolling()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ffocusScrolling ? 1 : 0;
     return _r0.i!=0;
@@ -2488,8 +2837,11 @@ public virtual bool isFocusScrolling(){
 
 public virtual void setFocusScrolling(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFocusScrolling(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ffocusScrolling = 0!=_r1.i;
@@ -2500,7 +2852,10 @@ public virtual void setFocusScrolling(bool n1){
 public virtual bool isFadeScrollEdge(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isFadeScrollEdge()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ffadeScrollEdge ? 1 : 0;
     return _r0.i!=0;
@@ -2509,8 +2864,11 @@ public virtual bool isFadeScrollEdge(){
 
 public virtual void setFadeScrollEdge(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFadeScrollEdge(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ffadeScrollEdge = 0!=_r1.i;
@@ -2521,7 +2879,10 @@ public virtual void setFadeScrollEdge(bool n1){
 public virtual bool isFadeScrollBar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isFadeScrollBar()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ffadeScrollBar ? 1 : 0;
     return _r0.i!=0;
@@ -2530,8 +2891,11 @@ public virtual bool isFadeScrollBar(){
 
 public virtual void setFadeScrollBar(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFadeScrollBar(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ffadeScrollBar = 0!=_r1.i;
@@ -2542,7 +2906,10 @@ public virtual void setFadeScrollBar(bool n1){
 public virtual int getFadeScrollEdgeLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getFadeScrollEdgeLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ffadeScrollEdgeLength;
     return _r0.i;
@@ -2551,8 +2918,11 @@ public virtual int getFadeScrollEdgeLength(){
 
 public virtual void setFadeScrollEdgeLength(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFadeScrollEdgeLength(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ffadeScrollEdgeLength = _r1.i;
@@ -2563,7 +2933,10 @@ public virtual void setFadeScrollEdgeLength(int n1){
 public virtual int getTextFieldCursorColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getTextFieldCursorColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ftextFieldCursorColor;
     return _r0.i;
@@ -2572,8 +2945,11 @@ public virtual int getTextFieldCursorColor(){
 
 public virtual void setTextFieldCursorColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setTextFieldCursorColor(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ftextFieldCursorColor = _r1.i;
@@ -2584,7 +2960,10 @@ public virtual void setTextFieldCursorColor(int n1){
 public virtual bool isDefaultSnapToGrid(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultSnapToGrid()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultSnapToGrid ? 1 : 0;
     return _r0.i!=0;
@@ -2593,8 +2972,11 @@ public virtual bool isDefaultSnapToGrid(){
 
 public virtual void setDefaultSnapToGrid(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultSnapToGrid(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultSnapToGrid = 0!=_r1.i;
@@ -2605,7 +2987,10 @@ public virtual void setDefaultSnapToGrid(bool n1){
 public virtual bool isDefaultAlwaysTensile(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultAlwaysTensile()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultAlwaysTensile ? 1 : 0;
     return _r0.i!=0;
@@ -2614,8 +2999,11 @@ public virtual bool isDefaultAlwaysTensile(){
 
 public virtual void setDefaultAlwaysTensile(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setDefaultAlwaysTensile(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fdefaultAlwaysTensile = 0!=_r1.i;
@@ -2626,7 +3014,10 @@ public virtual void setDefaultAlwaysTensile(bool n1){
 public virtual bool isDefaultTensileHighlight(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isDefaultTensileHighlight()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fdefaultTensileHighlight ? 1 : 0;
     return _r0.i!=0;
@@ -2635,30 +3026,47 @@ public virtual bool isDefaultTensileHighlight(){
 
 public virtual void paintTensileHighlight(global::com.codename1.ui.Component n1, global::com.codename1.ui.Graphics n2, bool n3, int n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void paintTensileHighlight(com.codename1.ui.Component, com.codename1.ui.Graphics, boolean, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
     global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
     global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r15_o = this;
     _r16_o = n1;
     _r17_o = n2;
@@ -2792,8 +3200,11 @@ public virtual void paintTensileHighlight(global::com.codename1.ui.Component n1,
 
 public virtual global::System.Object getUIManager(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: com.codename1.ui.plaf.UIManager getUIManager()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fmanager;
     return (global::com.codename1.ui.plaf.UIManager) _r0_o;
@@ -2803,7 +3214,10 @@ public virtual global::System.Object getUIManager(){
 public virtual int getFadeScrollBarSpeed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: int getFadeScrollBarSpeed()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._ffadeScrollBarSpeed;
     return _r0.i;
@@ -2812,8 +3226,11 @@ public virtual int getFadeScrollBarSpeed(){
 
 public virtual void setFadeScrollBarSpeed(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setFadeScrollBarSpeed(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._ffadeScrollBarSpeed = _r1.i;
@@ -2824,7 +3241,10 @@ public virtual void setFadeScrollBarSpeed(int n1){
 public virtual bool isBackgroundImageDetermineSize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: boolean isBackgroundImageDetermineSize()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r1_o)._fbackgroundImageDetermineSize ? 1 : 0;
     return _r0.i!=0;
@@ -2833,8 +3253,11 @@ public virtual bool isBackgroundImageDetermineSize(){
 
 public virtual void setBackgroundImageDetermineSize(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.LookAndFeel: void setBackgroundImageDetermineSize(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o)._fbackgroundImageDetermineSize = 0!=_r1.i;

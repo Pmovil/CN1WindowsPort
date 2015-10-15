@@ -15,8 +15,11 @@ private global::com.codename1.ui.events.BrowserNavigationCallback _fbrowserNavig
 
 public virtual void setBrowserNavigationCallback(global::com.codename1.ui.events.BrowserNavigationCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setBrowserNavigationCallback(com.codename1.ui.events.BrowserNavigationCallback)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.BrowserComponent) _r0_o)._fbrowserNavigationCallback = (global::com.codename1.ui.events.BrowserNavigationCallback) _r1_o;
@@ -26,22 +29,30 @@ public virtual void setBrowserNavigationCallback(global::com.codename1.ui.events
 
 public virtual global::System.Object getBrowserNavigationCallback(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: com.codename1.ui.events.BrowserNavigationCallback getBrowserNavigationCallback()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.BrowserComponent) _r1_o)._fbrowserNavigationCallback;
     return (global::com.codename1.ui.events.BrowserNavigationCallback) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.BrowserComponent: com.codename1.ui.events.BrowserNavigationCallback getBrowserNavigationCallback()]
 }
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.i = 1;
     _r3.i = 0;
@@ -80,6 +91,7 @@ public static bool isNativeBrowserSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: boolean isNativeBrowserSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeBrowserComponentSupported() ? 1 : 0;
@@ -89,11 +101,17 @@ public static bool isNativeBrowserSupported(){
 
 public virtual void setProperty(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setProperty(java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -107,9 +125,13 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
 
 public virtual global::System.Object getTitle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: java.lang.String getTitle()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -121,9 +143,13 @@ public virtual global::System.Object getTitle(){
 
 public virtual global::System.Object getURL(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: java.lang.String getURL()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -135,10 +161,15 @@ public virtual global::System.Object getURL(){
 
 public virtual void setURL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setURL(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -151,10 +182,15 @@ public virtual void setURL(global::java.lang.String n1){
 
 public virtual void setURLHierarchy(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setURLHierarchy(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -167,9 +203,13 @@ public virtual void setURLHierarchy(global::java.lang.String n1){
 
 public virtual void reload(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void reload()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -183,8 +223,11 @@ public virtual bool hasBack(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: boolean hasBack()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -198,8 +241,11 @@ public virtual bool hasForward(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: boolean hasForward()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -211,9 +257,13 @@ public virtual bool hasForward(){
 
 public virtual void back(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void back()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -225,9 +275,13 @@ public virtual void back(){
 
 public virtual void forward(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void forward()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -239,9 +293,13 @@ public virtual void forward(){
 
 public virtual void clearHistory(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void clearHistory()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -253,10 +311,15 @@ public virtual void clearHistory(){
 
 public virtual void setPinchToZoomEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setPinchToZoomEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.BrowserComponent) _r2_o)._fpinchToZoom = 0!=_r3.i;
@@ -271,7 +334,10 @@ public virtual void setPinchToZoomEnabled(bool n1){
 public virtual bool isPinchToZoomEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: boolean isPinchToZoomEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.BrowserComponent) _r1_o)._fpinchToZoom ? 1 : 0;
     return _r0.i!=0;
@@ -280,10 +346,15 @@ public virtual bool isPinchToZoomEnabled(){
 
 public virtual void setNativeScrollingEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setNativeScrollingEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.BrowserComponent) _r2_o)._fnativeScrolling = 0!=_r3.i;
@@ -298,7 +369,10 @@ public virtual void setNativeScrollingEnabled(bool n1){
 public virtual bool isNativeScrollingEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: boolean isNativeScrollingEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.BrowserComponent) _r1_o)._fnativeScrolling ? 1 : 0;
     return _r0.i!=0;
@@ -307,11 +381,17 @@ public virtual bool isNativeScrollingEnabled(){
 
 public virtual void setPage(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void setPage(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -325,11 +405,17 @@ public virtual void setPage(global::java.lang.String n1, global::java.lang.Strin
 
 private global::System.Object getEventDispatcher(global::java.lang.String n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: com.codename1.ui.util.EventDispatcher getEventDispatcher(java.lang.String, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4.i = n2 ? 1 : 0;
@@ -352,6 +438,7 @@ private global::System.Object getEventDispatcher(global::java.lang.String n1, bo
     label27:;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._flisteners;
     _r0_o = ((global::java.util.Hashtable) _r1_o).get((global::java.lang.Object) _r3_o);
+    _r0_o = _r0_o;
     if (_r0_o != null) goto label49;
     if (_r4.i == 0) goto label49;
     _r0_o = new global::com.codename1.ui.util.EventDispatcher();
@@ -368,9 +455,13 @@ public virtual void addWebEventListener(global::java.lang.String n1, global::com
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void addWebEventListener(java.lang.String, com.codename1.ui.events.ActionListener)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -383,12 +474,17 @@ public virtual void addWebEventListener(global::java.lang.String n1, global::com
 
 public virtual void removeWebEventListener(global::java.lang.String n1, global::com.codename1.ui.events.ActionListener n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void removeWebEventListener(java.lang.String, com.codename1.ui.events.ActionListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -407,9 +503,13 @@ public virtual void removeWebEventListener(global::java.lang.String n1, global::
 
 public virtual void stop(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void stop()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -421,9 +521,13 @@ public virtual void stop(){
 
 public virtual void destroy(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void destroy()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
@@ -435,11 +539,17 @@ public virtual void destroy(){
 
 public virtual void fireWebEvent(global::java.lang.String n1, global::com.codename1.ui.events.ActionEvent n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void fireWebEvent(java.lang.String, com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -454,10 +564,15 @@ public virtual void fireWebEvent(global::java.lang.String n1, global::com.codena
 
 public virtual void execute(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void execute(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -470,10 +585,15 @@ public virtual void execute(global::java.lang.String n1){
 
 public virtual global::System.Object executeAndReturnString(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: java.lang.String executeAndReturnString(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -486,11 +606,17 @@ public virtual global::System.Object executeAndReturnString(global::java.lang.St
 
 public virtual void exposeInJavaScript(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.BrowserComponent: void exposeInJavaScript(java.lang.Object, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;

@@ -3,9 +3,11 @@
 using org.xmlvm;
 namespace com.codename1.payment {
 public abstract class Purchase: global::java.lang.Object {
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::java.lang.Object) _r0_o).@this();
     return;
@@ -15,7 +17,10 @@ new public void @this(){
 public virtual bool isManualPaymentSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isManualPaymentSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -25,7 +30,10 @@ public virtual bool isManualPaymentSupported(){
 public virtual bool isManagedPaymentSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isManagedPaymentSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -34,11 +42,19 @@ public virtual bool isManagedPaymentSupported(){
 
 public virtual global::System.Object pay(double n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: java.lang.String pay(double, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r5_o = n2;
@@ -53,11 +69,19 @@ public virtual global::System.Object pay(double n1, global::java.lang.String n2)
 
 public virtual global::System.Object pay(double n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: java.lang.String pay(double, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.d = n1;
     _r4_o = n2;
@@ -70,7 +94,10 @@ public virtual global::System.Object pay(double n1, global::java.lang.String n2,
 public virtual bool isItemListingSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isItemListingSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -79,10 +106,15 @@ public virtual bool isItemListingSupported(){
 
 public virtual global::System.Object getProducts(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: com.codename1.payment.Product[] getProducts(java.lang.String[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -96,10 +128,15 @@ public virtual global::System.Object getProducts(global::org.xmlvm._nArrayAdapte
 
 public virtual bool wasPurchased(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean wasPurchased(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -113,10 +150,15 @@ public virtual bool wasPurchased(global::java.lang.String n1){
 
 public virtual void purchase(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void purchase(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -130,10 +172,15 @@ public virtual void purchase(global::java.lang.String n1){
 
 public virtual void subscribe(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void subscribe(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -147,10 +194,15 @@ public virtual void subscribe(global::java.lang.String n1){
 
 public virtual void unsubscribe(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void unsubscribe(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -165,8 +217,12 @@ public virtual void unsubscribe(global::java.lang.String n1){
 public virtual bool isRefundable(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isRefundable(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -176,8 +232,11 @@ public virtual bool isRefundable(global::java.lang.String n1){
 
 public virtual void refund(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void refund(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -186,7 +245,9 @@ public virtual void refund(global::java.lang.String n1){
 
 public static global::System.Object getInAppPurchase(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: com.codename1.payment.Purchase getInAppPurchase()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getInAppPurchase();
     return (global::com.codename1.payment.Purchase) _r0_o;
@@ -195,8 +256,11 @@ public static global::System.Object getInAppPurchase(){
 
 public static global::System.Object getInAppPurchase(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: com.codename1.payment.Purchase getInAppPurchase(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1.i = n1 ? 1 : 0;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0_o = ((global::com.codename1.ui.Display) _r0_o).getInAppPurchase();
@@ -207,7 +271,10 @@ public static global::System.Object getInAppPurchase(bool n1){
 public virtual bool isSubscriptionSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isSubscriptionSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -217,7 +284,10 @@ public virtual bool isSubscriptionSupported(){
 public virtual bool isUnsubscribeSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isUnsubscribeSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.payment.Purchase) _r1_o).isSubscriptionSupported() ? 1 : 0;
     return _r0.i!=0;
@@ -227,7 +297,10 @@ public virtual bool isUnsubscribeSupported(){
 public virtual bool isRestoreSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: boolean isRestoreSupported()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -236,7 +309,9 @@ public virtual bool isRestoreSupported(){
 
 public virtual void restore(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.payment.Purchase: void restore()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.payment.Purchase: void restore()]

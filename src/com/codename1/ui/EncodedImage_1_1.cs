@@ -9,9 +9,13 @@ public global::com.codename1.ui.EncodedImage_21 _fthis_21;
 
 public void @this(global::com.codename1.ui.EncodedImage_21 n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.EncodedImage$1$1: void <init>(com.codename1.ui.EncodedImage$1, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -28,8 +32,11 @@ public virtual void run(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0_o = ((global::com.codename1.ui.EncodedImage_21_21) _r3_o)._fthis_21;
     _r0_o = ((global::com.codename1.ui.EncodedImage_21) _r0_o)._fthis_20;

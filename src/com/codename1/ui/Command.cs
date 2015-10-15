@@ -24,8 +24,12 @@ private global::java.util.HashMap _fclientProperties;
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 1;
@@ -40,9 +44,14 @@ public void @this(global::java.lang.String n1){
 public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void <init>(java.lang.String, com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -59,9 +68,14 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2
 public void @this(global::java.lang.String n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void <init>(java.lang.String, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -78,10 +92,16 @@ public void @this(global::java.lang.String n1, int n2){
 public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void <init>(java.lang.String, com.codename1.ui.Image, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -100,7 +120,10 @@ public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2
 public virtual int getId(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: int getId()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Command) _r1_o)._fcommandId;
     return _r0.i;
@@ -109,8 +132,11 @@ public virtual int getId(){
 
 public virtual global::System.Object getCommandName(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: java.lang.String getCommandName()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._fcommand;
     return (global::java.lang.String) _r0_o;
@@ -119,8 +145,11 @@ public virtual global::System.Object getCommandName(){
 
 public virtual void setCommandName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setCommandName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Command) _r0_o)._fcommand = (global::java.lang.String) _r1_o;
@@ -130,8 +159,11 @@ public virtual void setCommandName(global::java.lang.String n1){
 
 public virtual global::System.Object getIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: com.codename1.ui.Image getIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._ficon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -140,8 +172,11 @@ public virtual global::System.Object getIcon(){
 
 public virtual void setIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Command) _r0_o)._ficon = (global::com.codename1.ui.Image) _r1_o;
@@ -151,8 +186,11 @@ public virtual void setIcon(global::com.codename1.ui.Image n1){
 
 public override global::System.Object toString(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: java.lang.String toString()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o).getCommandName();
     return (global::java.lang.String) _r0_o;
@@ -161,8 +199,11 @@ public override global::System.Object toString(){
 
 public virtual global::System.Object getPressedIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: com.codename1.ui.Image getPressedIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._fpressedIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -171,8 +212,11 @@ public virtual global::System.Object getPressedIcon(){
 
 public virtual global::System.Object getDisabledIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: com.codename1.ui.Image getDisabledIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._fdisabledIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -181,8 +225,11 @@ public virtual global::System.Object getDisabledIcon(){
 
 public virtual global::System.Object getRolloverIcon(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: com.codename1.ui.Image getRolloverIcon()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._frolloverIcon;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -191,8 +238,11 @@ public virtual global::System.Object getRolloverIcon(){
 
 public virtual void setRolloverIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setRolloverIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Command) _r0_o)._frolloverIcon = (global::com.codename1.ui.Image) _r1_o;
@@ -202,8 +252,11 @@ public virtual void setRolloverIcon(global::com.codename1.ui.Image n1){
 
 public virtual void setPressedIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setPressedIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Command) _r0_o)._fpressedIcon = (global::com.codename1.ui.Image) _r1_o;
@@ -213,8 +266,11 @@ public virtual void setPressedIcon(global::com.codename1.ui.Image n1){
 
 public virtual void setDisabledIcon(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setDisabledIcon(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.Command) _r0_o)._fdisabledIcon = (global::com.codename1.ui.Image) _r1_o;
@@ -224,15 +280,21 @@ public virtual void setDisabledIcon(global::com.codename1.ui.Image n1){
 
 public override bool equals(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: boolean equals(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r4.i = 1;
@@ -244,6 +306,7 @@ public override bool equals(global::java.lang.Object n1){
     return _r1.i!=0;
     label8:;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._fcommand;
     if (_r1_o != null) goto label82;
@@ -254,23 +317,27 @@ public override bool equals(global::java.lang.Object n1){
     _r1_o = ((global::com.codename1.ui.Command) _r5_o)._fcommand;
     if (_r1_o != null) goto label80;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._ficon;
     _r2_o = ((global::com.codename1.ui.Command) _r5_o)._ficon;
     if (_r1_o != _r2_o) goto label80;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.Command) _r1_o)._fcommandId;
     _r2.i = ((global::com.codename1.ui.Command) _r5_o)._fcommandId;
     if (_r1.i != _r2.i) goto label80;
     _r2_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._fclientProperties;
     if (_r2_o == _r1_o) goto label78;
     _r1_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
     if (_r1_o == null) goto label80;
     _r1_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
+    _r6_o = _r6_o;
     _r2_o = ((global::com.codename1.ui.Command) _r6_o)._fclientProperties;
     _r1.i = ((global::java.util.HashMap) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r1.i == 0) goto label80;
@@ -286,29 +353,34 @@ public override bool equals(global::java.lang.Object n1){
     _r2_o = ((global::java.lang.Object) _r5_o).getClass();
     if (_r1_o != _r2_o) goto label157;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._fcommand;
     _r2_o = ((global::com.codename1.ui.Command) _r5_o)._fcommand;
     _r1.i = ((global::java.lang.String) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r1.i == 0) goto label157;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._ficon;
     _r2_o = ((global::com.codename1.ui.Command) _r5_o)._ficon;
     if (_r1_o != _r2_o) goto label157;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1.i = ((global::com.codename1.ui.Command) _r1_o)._fcommandId;
     _r2.i = ((global::com.codename1.ui.Command) _r5_o)._fcommandId;
     if (_r1.i != _r2.i) goto label157;
     _r2_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.Command) _r1_o)._fclientProperties;
     if (_r2_o == _r1_o) goto label154;
     _r1_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
     if (_r1_o == null) goto label157;
     _r1_o = ((global::com.codename1.ui.Command) _r5_o)._fclientProperties;
+    _r6_o = _r6_o;
     _r2_o = ((global::com.codename1.ui.Command) _r6_o)._fclientProperties;
     _r1.i = ((global::java.util.HashMap) _r1_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r1.i == 0) goto label157;
@@ -326,7 +398,10 @@ public override int hashCode(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::java.lang.Object) _r2_o).getClass();
     _r0.i = ((global::java.lang.Object) _r0_o).hashCode();
@@ -338,8 +413,11 @@ public override int hashCode(){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     return;
@@ -348,8 +426,11 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
 
 public virtual void setDisposesDialog(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setDisposesDialog(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Command) _r0_o)._fdisposesDialog = 0!=_r1.i;
@@ -360,7 +441,10 @@ public virtual void setDisposesDialog(bool n1){
 public virtual bool isDisposesDialog(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: boolean isDisposesDialog()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Command) _r1_o)._fdisposesDialog ? 1 : 0;
     return _r0.i!=0;
@@ -370,7 +454,10 @@ public virtual bool isDisposesDialog(){
 public virtual bool isEnabled(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: boolean isEnabled()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.Command) _r1_o)._fenabled ? 1 : 0;
     return _r0.i!=0;
@@ -379,8 +466,11 @@ public virtual bool isEnabled(){
 
 public virtual void setEnabled(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void setEnabled(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.Command) _r0_o)._fenabled = 0!=_r1.i;
@@ -390,9 +480,13 @@ public virtual void setEnabled(bool n1){
 
 public virtual global::System.Object getClientProperty(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: java.lang.Object getClientProperty(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Command) _r1_o)._fclientProperties;
@@ -409,10 +503,15 @@ public virtual global::System.Object getClientProperty(global::java.lang.String 
 
 public virtual void putClientProperty(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Command: void putClientProperty(java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;

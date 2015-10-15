@@ -3,11 +3,15 @@
 using org.xmlvm;
 namespace com.codename1.io.gzip {
 public class GZIPOutputStream: global::com.codename1.io.gzip.DeflaterOutputStream {
-new public void @this(global::java.io.OutputStream n1){
+public void @this(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void <init>(java.io.OutputStream)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 512;
@@ -19,9 +23,14 @@ new public void @this(global::java.io.OutputStream n1){
 public void @this(global::java.io.OutputStream n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void <init>(java.io.OutputStream, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -36,11 +45,18 @@ public void @this(global::java.io.OutputStream n1, int n2, bool n3){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r5.i = n2;
@@ -56,13 +72,19 @@ public void @this(global::java.io.OutputStream n1, int n2, bool n3){
 //XMLVM_END_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void <init>(java.io.OutputStream, int, boolean)]
 }
 
-new public void @this(global::java.io.OutputStream n1, global::com.codename1.io.gzip.Deflater n2, int n3, bool n4){
+public void @this(global::java.io.OutputStream n1, global::com.codename1.io.gzip.Deflater n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void <init>(java.io.OutputStream, com.codename1.io.gzip.Deflater, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -79,7 +101,9 @@ private void check(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.gzip.GZIPOutputStream) _r2_o)._fdeflater;
     _r0_o = ((global::com.codename1.io.gzip.Deflater) _r0_o)._fdstate;
@@ -99,9 +123,15 @@ private void check(){
 
 public virtual void setModifiedTime(long n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void setModifiedTime(long)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.l = n1;
     ((global::com.codename1.io.gzip.GZIPOutputStream) _r1_o).check();
@@ -115,9 +145,13 @@ public virtual void setModifiedTime(long n1){
 
 public virtual void setOS(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void setOS(int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     ((global::com.codename1.io.gzip.GZIPOutputStream) _r1_o).check();
@@ -131,9 +165,13 @@ public virtual void setOS(int n1){
 
 public virtual void setName(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void setName(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.io.gzip.GZIPOutputStream) _r1_o).check();
@@ -147,9 +185,13 @@ public virtual void setName(global::java.lang.String n1){
 
 public virtual void setComment(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.gzip.GZIPOutputStream: void setComment(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.io.gzip.GZIPOutputStream) _r1_o).check();
@@ -167,7 +209,9 @@ public virtual long getCRC(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.io.gzip.GZIPOutputStream) _r2_o)._fdeflater;
     _r0_o = ((global::com.codename1.io.gzip.Deflater) _r0_o)._fdstate;

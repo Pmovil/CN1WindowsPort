@@ -13,9 +13,13 @@ private global::com.codename1.charts.models.XYValueSeries _fendVals;
 
 public void @this(global::com.codename1.charts.ChartComponent n1, global::com.codename1.charts.models.XYValueSeries n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: void <init>(com.codename1.charts.ChartComponent, com.codename1.charts.models.XYValueSeries)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -27,9 +31,13 @@ public void @this(global::com.codename1.charts.ChartComponent n1, global::com.co
 
 public override void initTransition(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: void initTransition()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     base.initTransition();
     _r0_o = new global::com.codename1.charts.models.XYValueSeries();
@@ -59,14 +67,30 @@ private void copyValues(global::com.codename1.charts.models.XYValueSeries n1, gl
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r10_o = this;
     _r11_o = n1;
     _r12_o = n2;
@@ -94,8 +118,11 @@ private void copyValues(global::com.codename1.charts.models.XYValueSeries n1, gl
 
 public override void cleanup(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: void cleanup()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.cleanup();
     _r0_o = ((global::com.codename1.charts.transitions.XYValueSeriesTransition) _r1_o)._fcachedSeries;
@@ -109,27 +136,72 @@ public override void update(int n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
     global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
     global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
     global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
     global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
     global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
+    global::org.xmlvm._nElement _r27;
+    global::System.Object _r27_o = null;
     global::org.xmlvm._nElement _r28;
+    global::System.Object _r28_o = null;
+    global::org.xmlvm._nElement _r29;
+    global::System.Object _r29_o = null;
     global::org.xmlvm._nElement _r30;
+    global::System.Object _r30_o = null;
+    global::org.xmlvm._nElement _r31;
+    global::System.Object _r31_o = null;
+    global::org.xmlvm._nElement _r32;
     global::System.Object _r32_o = null;
     global::org.xmlvm._nElement _r33;
+    global::System.Object _r33_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r32_o = this;
     _r33.i = n1;
     _r0.i = _r33.i;
@@ -239,9 +311,13 @@ public override void update(int n1){
 
 public virtual global::System.Object getBuffer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: com.codename1.charts.models.XYValueSeries getBuffer()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.charts.transitions.XYValueSeriesTransition) _r2_o)._fcachedSeries;
     if (_r0_o != null) goto label17;
@@ -258,8 +334,11 @@ public virtual global::System.Object getBuffer(){
 
 public virtual void setBuffer(global::com.codename1.charts.models.XYValueSeries n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: void setBuffer(com.codename1.charts.models.XYValueSeries)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.charts.transitions.XYValueSeriesTransition) _r0_o)._fcachedSeries = (global::com.codename1.charts.models.XYValueSeries) _r1_o;
@@ -269,8 +348,11 @@ public virtual void setBuffer(global::com.codename1.charts.models.XYValueSeries 
 
 public virtual global::System.Object getSeries(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.transitions.XYValueSeriesTransition: com.codename1.charts.models.XYValueSeries getSeries()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.charts.transitions.XYValueSeriesTransition) _r1_o)._fseries;
     return (global::com.codename1.charts.models.XYValueSeries) _r0_o;

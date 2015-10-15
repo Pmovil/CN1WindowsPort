@@ -7,8 +7,11 @@ public global::com.codename1.ui.spinner.TimeSpinner _fthis_20;
 
 public void @this(global::com.codename1.ui.spinner.TimeSpinner n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner$1: void <init>(com.codename1.ui.spinner.TimeSpinner)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.spinner.TimeSpinner_21) _r0_o)._fthis_20 = (global::com.codename1.ui.spinner.TimeSpinner) _r1_o;
@@ -19,16 +22,25 @@ public void @this(global::com.codename1.ui.spinner.TimeSpinner n1){
 
 public override global::System.Object getListCellRendererComponent(global::com.codename1.ui.List n1, global::java.lang.Object n2, int n3, bool n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.spinner.TimeSpinner$1: com.codename1.ui.Component getListCellRendererComponent(com.codename1.ui.List, java.lang.Object, int, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -38,6 +50,7 @@ public override global::System.Object getListCellRendererComponent(global::com.c
     _r2.i = ((_r6_o != null) && (_r6_o is global::java.lang.Integer)) ? 1 : 0;
     if (_r2.i == 0) goto label37;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r1.i = ((global::java.lang.Integer) _r2_o).intValue();
     _r2.i = 10;

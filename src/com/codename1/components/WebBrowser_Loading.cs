@@ -11,10 +11,15 @@ public global::com.codename1.components.WebBrowser _fthis_20;
 
 public void @this(global::com.codename1.components.WebBrowser n1, global::com.codename1.ui.Form n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: void <init>(com.codename1.components.WebBrowser, com.codename1.ui.Form)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -31,14 +36,20 @@ public void @this(global::com.codename1.components.WebBrowser n1, global::com.co
 public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.codename1.ui.geom.Rectangle n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: void paint(com.codename1.ui.Graphics, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -78,7 +89,10 @@ public virtual void paint(global::com.codename1.ui.Graphics n1, global::com.code
 public virtual bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -87,9 +101,13 @@ public virtual bool animate(){
 
 public virtual void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: void paint(com.codename1.ui.Graphics)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -100,8 +118,11 @@ public virtual void paint(global::com.codename1.ui.Graphics n1){
 
 public virtual void install(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: void install()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.components.WebBrowser_2Loading) _r1_o)._ff;
     ((global::com.codename1.ui.Form) _r0_o).setGlassPane((global::com.codename1.ui.Painter) _r1_o);
@@ -113,9 +134,13 @@ public virtual void install(){
 
 public virtual void unInstall(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.WebBrowser$Loading: void unInstall()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.components.WebBrowser_2Loading) _r2_o)._ff;
     _r1_o = null;

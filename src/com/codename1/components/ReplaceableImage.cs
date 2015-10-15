@@ -14,8 +14,12 @@ private void @this(global::com.codename1.ui.EncodedImage n1){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0.i = ((global::com.codename1.ui.EncodedImage) _r3_o).getWidth();
@@ -33,7 +37,9 @@ public override global::System.Object getImageData(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: byte[] getImageData()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.components.ReplaceableImage) _r1_o)._freplaced = 0!=_r0.i;
@@ -46,8 +52,11 @@ public virtual void replace(global::com.codename1.ui.EncodedImage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: void replace(com.codename1.ui.EncodedImage)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.EncodedImage) _r2_o).getImageData();
@@ -61,8 +70,11 @@ public virtual void replace(global::com.codename1.ui.EncodedImage n1){
 
 public static global::System.Object create(global::com.codename1.ui.EncodedImage n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: com.codename1.components.ReplaceableImage create(com.codename1.ui.EncodedImage)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = new global::com.codename1.components.ReplaceableImage();
     ((global::com.codename1.components.ReplaceableImage) _r0_o).@this((global::com.codename1.ui.EncodedImage) _r1_o);
@@ -73,7 +85,10 @@ public static global::System.Object create(global::com.codename1.ui.EncodedImage
 public override bool animate(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: boolean animate()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ReplaceableImage) _r1_o)._freplaced ? 1 : 0;
     if (_r0.i == 0) goto label6;
@@ -89,7 +104,10 @@ public override bool animate(){
 public override bool isAnimation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: boolean isAnimation()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 1;
     return _r0.i!=0;
@@ -99,7 +117,10 @@ public override bool isAnimation(){
 public override bool isOpaque(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.ReplaceableImage: boolean isOpaque()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.components.ReplaceableImage) _r1_o)._fopaque ? 1 : 0;
     return _r0.i!=0;

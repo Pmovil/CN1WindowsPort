@@ -5,10 +5,13 @@ namespace com.codename1.ui.util {
 public class WeakHashMap: global::java.lang.Object,global::java.util.Map {
 private global::java.util.HashMap _fmap;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::java.util.HashMap();
@@ -22,7 +25,9 @@ public virtual int size(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: int size()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.WeakHashMap) _r1_o)._fmap;
     _r0.i = ((global::java.util.HashMap) _r0_o).size();
@@ -34,7 +39,9 @@ public virtual bool isEmpty(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: boolean isEmpty()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.WeakHashMap) _r1_o)._fmap;
     _r0.i = ((global::java.util.HashMap) _r0_o).isEmpty() ? 1 : 0;
@@ -46,8 +53,11 @@ public virtual bool containsKey(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: boolean containsKey(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.util.WeakHashMap) _r1_o)._fmap;
@@ -58,9 +68,13 @@ public virtual bool containsKey(global::java.lang.Object n1){
 
 public virtual bool containsValue(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: boolean containsValue(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -71,10 +85,15 @@ public virtual bool containsValue(global::java.lang.Object n1){
 
 public virtual global::System.Object get(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.lang.Object get(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.WeakHashMap) _r2_o)._fmap;
@@ -92,11 +111,17 @@ public virtual global::System.Object get(global::java.lang.Object n1){
 
 public virtual global::System.Object put(global::java.lang.Object n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.lang.Object put(java.lang.Object, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -110,10 +135,15 @@ public virtual global::System.Object put(global::java.lang.Object n1, global::ja
 
 public virtual global::System.Object remove(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.lang.Object remove(java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r1_o = ((global::com.codename1.ui.util.WeakHashMap) _r2_o)._fmap;
@@ -131,22 +161,27 @@ public virtual global::System.Object remove(global::java.lang.Object n1){
 
 public virtual void putAll(global::java.util.Map n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: void putAll(java.util.Map)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
-    _r2_o = ((global::java.util.Map) _r4_o).keySet();
-    _r0_o = ((global::java.util.Set) _r2_o).iterator();
+    _r1_o = ((global::java.util.Map) _r4_o).keySet();
+    _r1_o = ((global::java.util.Set) _r1_o).iterator();
     label8:;
-    _r2.i = ((global::java.util.Iterator) _r0_o).hasNext() ? 1 : 0;
+    _r2.i = ((global::java.util.Iterator) _r1_o).hasNext() ? 1 : 0;
     if (_r2.i == 0) goto label26;
-    _r1_o = ((global::java.util.Iterator) _r0_o).next();
-    _r2_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r1_o);
-    ((global::com.codename1.ui.util.WeakHashMap) _r3_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r2_o);
+    _r0_o = ((global::java.util.Iterator) _r1_o).next();
+    _r2_o = ((global::java.util.Map) _r4_o).get((global::java.lang.Object) _r0_o);
+    ((global::com.codename1.ui.util.WeakHashMap) _r3_o).put((global::java.lang.Object) _r0_o, (global::java.lang.Object) _r2_o);
     goto label8;
     label26:;
     return;
@@ -155,8 +190,11 @@ public virtual void putAll(global::java.util.Map n1){
 
 public virtual void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: void clear()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.WeakHashMap) _r1_o)._fmap;
     ((global::java.util.HashMap) _r0_o).clear();
@@ -166,8 +204,11 @@ public virtual void clear(){
 
 public virtual global::System.Object keySet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.util.Set keySet()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.WeakHashMap) _r1_o)._fmap;
     _r0_o = ((global::java.util.HashMap) _r0_o).keySet();
@@ -177,8 +218,11 @@ public virtual global::System.Object keySet(){
 
 public virtual global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.util.Collection values()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     ((global::java.lang.RuntimeException) _r0_o).@this();
@@ -188,8 +232,11 @@ public virtual global::System.Object values(){
 
 public virtual global::System.Object entrySet(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.WeakHashMap: java.util.Set entrySet()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     ((global::java.lang.RuntimeException) _r0_o).@this();

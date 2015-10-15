@@ -20,10 +20,13 @@ public static global::System.Object values(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation[] values()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3.i = 0;
     _r0_o = global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation._f_2VALUES;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
@@ -38,11 +41,15 @@ public static global::System.Object values(){
 
 public static global::System.Object valueOf(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation));
     _r1_o = global::java.lang.Enum.valueOf((global::java.lang.Class) _r0_o, (global::java.lang.String) _r1_o);
+    _r1_o = _r1_o;
     return (global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation) _r1_o;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String)]
 }
@@ -50,10 +57,16 @@ public static global::System.Object valueOf(global::java.lang.String n1){
 private void @this(global::java.lang.String n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: void <init>(java.lang.String, int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
@@ -69,21 +82,29 @@ private void @this(global::java.lang.String n1, int n2, int n3){
 public virtual int getAngle(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: int getAngle()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation) _r1_o)._fmAngle;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: int getAngle()]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.renderers.XYMultipleSeriesRenderer$Orientation: void <clinit>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4.i = 1;
     _r3.i = 0;
     _r0_o = new global::com.codename1.charts.renderers.XYMultipleSeriesRenderer_2Orientation();

@@ -18,8 +18,12 @@ public static int _fCHANGED = com.codename1.ui.events._iDataChangedListener._fCH
 public void @this(global::com.codename1.ui.table.Table n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table$Listener: void <init>(com.codename1.ui.table.Table)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = -1;
@@ -33,18 +37,29 @@ public void @this(global::com.codename1.ui.table.Table n1){
 
 public virtual void dataChanged(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table$Listener: void dataChanged(int, int)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r8_o = this;
     _r9.i = n1;
     _r10.i = n2;
@@ -58,23 +73,24 @@ public virtual void dataChanged(int n1, int n2){
     label13:;
     return;
     label14:;
+    if (_r9.i >= 0) goto label89;
+    _r3.i = 0;
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r6_o = global::com.codename1.ui.table.Table.access_2000((global::com.codename1.ui.table.Table) _r6_o);
-    _r5_o = ((global::com.codename1.ui.table.TableModel) _r6_o).getValueAt((int) _r9.i, (int) _r10.i);
-    _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
-    _r6_o = global::com.codename1.ui.table.Table.access_2000((global::com.codename1.ui.table.Table) _r6_o);
-    _r3.i = ((global::com.codename1.ui.table.TableModel) _r6_o).isCellEditable((int) _r9.i, (int) _r10.i) ? 1 : 0;
+    _r5_o = ((global::com.codename1.ui.table.TableModel) _r6_o).getColumnName((int) _r10.i);
+    label27:;
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r1_o = global::com.codename1.ui.table.Table.access_2100((global::com.codename1.ui.table.Table) _r6_o, (global::java.lang.Object) _r5_o, (int) _r9.i, (int) _r10.i, 0!=_r3.i);
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r4_o = ((global::com.codename1.ui.table.Table) _r6_o).getLayout();
+    _r4_o = _r4_o;
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r2_o = ((global::com.codename1.ui.table.Table) _r6_o).createCellConstraint((global::java.lang.Object) _r5_o, (int) _r9.i, (int) _r10.i);
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     _r6.i = global::com.codename1.ui.table.Table.access_2200((global::com.codename1.ui.table.Table) _r6_o) ? 1 : 0;
-    if (_r6.i == 0) goto label64;
+    if (_r6.i == 0) goto label57;
     _r9.i = _r9.i + 1;
-    label64:;
+    label57:;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r4_o).getComponentAt((int) _r9.i, (int) _r10.i);
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     ((global::com.codename1.ui.table.Table) _r6_o).removeComponent((global::com.codename1.ui.Component) _r0_o);
@@ -88,21 +104,38 @@ public virtual void dataChanged(int n1, int n2){
     _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
     ((global::com.codename1.ui.table.Table) _r6_o).revalidate();
     goto label13;
+    label89:;
+    _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
+    _r6_o = global::com.codename1.ui.table.Table.access_2000((global::com.codename1.ui.table.Table) _r6_o);
+    _r5_o = ((global::com.codename1.ui.table.TableModel) _r6_o).getValueAt((int) _r9.i, (int) _r10.i);
+    _r6_o = ((global::com.codename1.ui.table.Table_2Listener) _r8_o)._fthis_20;
+    _r6_o = global::com.codename1.ui.table.Table.access_2000((global::com.codename1.ui.table.Table) _r6_o);
+    _r3.i = ((global::com.codename1.ui.table.TableModel) _r6_o).isCellEditable((int) _r9.i, (int) _r10.i) ? 1 : 0;
+    goto label27;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.Table$Listener: void dataChanged(int, int)]
 }
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.Table$Listener: void actionPerformed(com.codename1.ui.events.ActionEvent)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r2_o = ((global::com.codename1.ui.events.ActionEvent) _r6_o).getSource();
+    _r2_o = _r2_o;
     _r3_o = ((global::com.codename1.ui.table.Table_2Listener) _r5_o)._fthis_20;
     _r1.i = ((global::com.codename1.ui.table.Table) _r3_o).getCellRow((global::com.codename1.ui.Component) _r2_o);
     _r3_o = ((global::com.codename1.ui.table.Table_2Listener) _r5_o)._fthis_20;

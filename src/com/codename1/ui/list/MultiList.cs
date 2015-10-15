@@ -9,16 +9,23 @@ private global::com.codename1.components.MultiButton _funsel;
 
 private global::com.codename1.ui.Image _fplaceholder;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     // Value=more...
     _r5_o = new global::java.lang.String();
@@ -67,10 +74,15 @@ new public void @this(){
 
 public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: void initComponent()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     base.initComponent();
     _r0_o = new global::com.codename1.ui.list.GenericListCellRenderer();
@@ -82,12 +94,38 @@ public override void initComponent(){
 //XMLVM_END_WRAPPER[com.codename1.ui.list.MultiList: void initComponent()]
 }
 
+public override void deinitialize(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: void deinitialize()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    base.deinitialize();
+    _r0_o = ((global::com.codename1.ui.list.MultiList) _r2_o).getRenderer();
+    _r1.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.list.GenericListCellRenderer)) ? 1 : 0;
+    if (_r1.i == 0) goto label16;
+    _r0_o = _r0_o;
+    ((global::com.codename1.ui.list.GenericListCellRenderer) _r0_o).deinitialize((global::com.codename1.ui.List) _r2_o);
+    label16:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.list.MultiList: void deinitialize()]
+}
+
 private static global::System.Object h(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: java.util.Hashtable h(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
     _r3_o = n2;
     _r0_o = new global::java.util.Hashtable();
@@ -106,8 +144,11 @@ private static global::System.Object h(global::java.lang.String n1, global::java
 
 public virtual global::System.Object getSelectedButton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: com.codename1.components.MultiButton getSelectedButton()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.MultiList) _r1_o)._fsel;
     return (global::com.codename1.components.MultiButton) _r0_o;
@@ -116,8 +157,11 @@ public virtual global::System.Object getSelectedButton(){
 
 public virtual global::System.Object getUnselectedButton(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: com.codename1.components.MultiButton getUnselectedButton()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.list.MultiList) _r1_o)._funsel;
     return (global::com.codename1.components.MultiButton) _r0_o;
@@ -129,8 +173,12 @@ public override global::System.Object getPropertyNames(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r0.i = 20;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
@@ -243,10 +291,16 @@ public override global::System.Object getPropertyTypes(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.Boolean));
     _r3_o = global::org.xmlvm._nTIB.getClass(typeof(global::java.lang.String));
@@ -320,8 +374,11 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: java.lang.Object getPropertyValue(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     // Value=placeholder
@@ -341,14 +398,21 @@ public override global::System.Object getPropertyValue(global::java.lang.String 
 
 public override global::System.Object setPropertyValue(global::java.lang.String n1, global::java.lang.Object n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.MultiList: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r6_o = n2;
@@ -357,6 +421,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
     _r2.i = ((global::java.lang.String) _r5_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r2.i == 0) goto label49;
+    _r6_o = _r6_o;
     ((global::com.codename1.ui.list.MultiList) _r4_o)._fplaceholder = (global::com.codename1.ui.Image) _r6_o;
     _r2_o = ((global::com.codename1.ui.list.MultiList) _r4_o)._funsel;
     if (_r2_o == null) goto label30;
@@ -371,6 +436,7 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.list.GenericListCellRenderer)) ? 1 : 0;
     if (_r2.i == 0) goto label47;
     _r4_o = ((global::com.codename1.ui.list.MultiList) _r4_o).getRenderer();
+    _r4_o = _r4_o;
     ((global::com.codename1.ui.list.GenericListCellRenderer) _r4_o).updateIconPlaceholders();
     label47:;
     _r2_o = null;

@@ -31,13 +31,17 @@ private static bool _fcanFlushStream;
 
 private global::java.util.Vector _fignoreEncoding;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.i = 1;
     ((global::com.codename1.io.ConnectionRequest) _r3_o).@this();
@@ -81,8 +85,11 @@ new public void @this(){
 
 public virtual global::System.Object getBoundary(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: java.lang.String getBoundary()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.io.MultipartRequest) _r1_o)._fboundary;
     return (global::java.lang.String) _r0_o;
@@ -91,10 +98,15 @@ public virtual global::System.Object getBoundary(){
 
 public virtual void setBoundary(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void setBoundary(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.io.MultipartRequest) _r2_o)._fboundary = (global::java.lang.String) _r3_o;
@@ -117,8 +129,13 @@ public override void initConnection(global::java.lang.Object n1){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
     _r0.l = ((global::com.codename1.io.MultipartRequest) _r3_o).calculateContentLength();
@@ -140,10 +157,15 @@ public virtual void addData(global::java.lang.String n1, global::org.xmlvm._nArr
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -168,15 +190,27 @@ public virtual void addData(global::java.lang.String n1, global::org.xmlvm._nArr
 
 public virtual void addData(global::java.lang.String n1, global::java.lang.String n2, global::java.lang.String n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void addData(java.lang.String, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r7_o = n1;
     _r8_o = n2;
@@ -197,12 +231,21 @@ public virtual void addData(global::java.lang.String n1, global::java.io.InputSt
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void addData(java.lang.String, java.io.InputStream, long, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
@@ -227,10 +270,15 @@ public virtual void addData(global::java.lang.String n1, global::java.io.InputSt
 
 public virtual void setFilename(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void setFilename(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -244,9 +292,13 @@ public override void addArgumentNoEncoding(global::java.lang.String n1, global::
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void addArgumentNoEncoding(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -268,9 +320,13 @@ public override void addArgument(global::java.lang.String n1, global::java.lang.
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void addArgument(java.lang.String, java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
@@ -290,22 +346,53 @@ public virtual long calculateContentLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: long calculateContentLength()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
     global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
     global::System.Object _r18_o = null;
     global::org.xmlvm._nElement _r19;
     global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
     global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
     global::System.Object _r23_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r23_o = this;
     _r16.l = 0L;
     _r0_o = _r23_o;
@@ -373,6 +460,7 @@ public virtual long calculateContentLength(){
     _r19.i = ((global::java.util.Enumeration) _r14_o).hasMoreElements() ? 1 : 0;
     if (_r19.i == 0) goto label287;
     _r15_o = ((global::java.util.Enumeration) _r14_o).nextElement();
+    _r15_o = _r15_o;
     _r0_o = _r23_o;
     _r0_o = ((global::com.codename1.io.MultipartRequest) _r0_o)._fargs;
     _r19_o = _r0_o;
@@ -396,6 +484,7 @@ public virtual long calculateContentLength(){
     _r1_o = _r15_o;
     _r19.i = ((global::java.util.Vector) _r0_o).contains((global::java.lang.Object) _r1_o) ? 1 : 0;
     if (_r19.i == 0) goto label181;
+    _r18_o = _r18_o;
     _r19.i = ((global::java.lang.String) _r18_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -403,6 +492,7 @@ public virtual long calculateContentLength(){
     _r16.l = _r16.l + _r19.l;
     goto label106;
     label181:;
+    _r18_o = _r18_o;
     _r19_o = global::com.codename1.io.Util.encodeBody((global::java.lang.String) _r18_o);
     _r19.i = ((global::java.lang.String) _r19_o).length();
     _r0.i = _r19.i;
@@ -423,6 +513,7 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r8_o = _r8_o;
     _r19.i = ((global::java.lang.String) _r8_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -434,6 +525,7 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r8_o = _r8_o;
     _r19.i = ((global::java.lang.String) _r8_o).length();
     _r0.i = _r19.i;
     _r0.l = (long) _r0.i;
@@ -445,6 +537,7 @@ public virtual long calculateContentLength(){
     _r0_o = _r19_o;
     _r1_o = _r15_o;
     _r8_o = ((global::java.util.Hashtable) _r0_o).get((global::java.lang.Object) _r1_o);
+    _r8_o = _r8_o;
     _r19.l = global::java.lang.Long.parseLong((global::java.lang.String) _r8_o);
     _r16.l = _r16.l + _r19.l;
     goto label106;
@@ -458,23 +551,39 @@ public virtual long calculateContentLength(){
 
 public override void buildRequestBody(global::java.io.OutputStream n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void buildRequestBody(java.io.OutputStream)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r14_o = this;
     _r15_o = n1;
     // Value=Content-Disposition: form-data; name=\042
@@ -525,6 +634,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     return;
     label73:;
     _r4_o = ((global::java.util.Enumeration) _r2_o).nextElement();
+    _r4_o = _r4_o;
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fargs;
     _r6_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
     // Value=--
@@ -571,6 +681,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fignoreEncoding;
     _r8.i = ((global::java.util.Vector) _r8_o).contains((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r8.i == 0) goto label178;
+    _r6_o = _r6_o;
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r6_o);
     label157:;
     _r8.i = global::com.codename1.io.MultipartRequest._fcanFlushStream ? 1 : 0;
@@ -586,6 +697,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     ((global::java.io.Writer) _r7_o).flush();
     goto label22;
     label178:;
+    _r6_o = _r6_o;
     _r8_o = global::com.codename1.io.Util.encodeBody((global::java.lang.String) _r6_o);
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     goto label157;
@@ -620,6 +732,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     _r8_o = ((global::com.codename1.io.MultipartRequest) _r14_o)._fmimeTypes;
     _r8_o = ((global::java.util.Hashtable) _r8_o).get((global::java.lang.Object) _r4_o);
+    _r8_o = _r8_o;
     ((global::java.io.Writer) _r7_o).write((global::java.lang.String) _r8_o);
     // Value=\015\012
     _r8_o = new global::java.lang.String();
@@ -644,6 +757,7 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     _r8.i = ((_r6_o != null) && (_r6_o is global::java.io.InputStream)) ? 1 : 0;
     if (_r8.i == 0) goto label327;
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r3_o = _r0_o;
     label288:;
     _r8.i = 8192;
@@ -669,7 +783,9 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
     label327:;
     _r3_o = new global::java.io.ByteArrayInputStream();
     _r0_o = _r6_o;
+    _r0_o = _r0_o;
     _r8_o = _r0_o;
+    _r8_o = _r8_o;
     ((global::java.io.ByteArrayInputStream) _r3_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r8_o);
     goto label288;
     label339:;
@@ -687,7 +803,12 @@ public override void buildRequestBody(global::java.io.OutputStream n1){
 public override int getContentLength(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: int getContentLength()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.l = ((global::com.codename1.io.MultipartRequest) _r2_o)._fcontentLength;
     _r0.i = (int) _r0.l;
@@ -698,8 +819,12 @@ public override int getContentLength(){
 public override bool onRedirect(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: boolean onRedirect(java.lang.String)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = ((global::com.codename1.io.MultipartRequest) _r1_o)._fmanualRedirect ? 1 : 0;
@@ -710,7 +835,10 @@ public override bool onRedirect(global::java.lang.String n1){
 public virtual bool isManualRedirect(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: boolean isManualRedirect()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.io.MultipartRequest) _r1_o)._fmanualRedirect ? 1 : 0;
     return _r0.i!=0;
@@ -719,8 +847,11 @@ public virtual bool isManualRedirect(){
 
 public virtual void setManualRedirect(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void setManualRedirect(boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1 ? 1 : 0;
     ((global::com.codename1.io.MultipartRequest) _r0_o)._fmanualRedirect = 0!=_r1.i;
@@ -731,15 +862,19 @@ public virtual void setManualRedirect(bool n1){
 public static void setCanFlushStream(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void setCanFlushStream(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = n1 ? 1 : 0;
     global::com.codename1.io.MultipartRequest._fcanFlushStream = 0!=_r0.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.io.MultipartRequest: void setCanFlushStream(boolean)]
 }
 
-new public static void @static(){
+public static void @static(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.io.MultipartRequest: void <clinit>()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0.i = 1;
     global::com.codename1.io.MultipartRequest._fcanFlushStream = 0!=_r0.i;
     return;

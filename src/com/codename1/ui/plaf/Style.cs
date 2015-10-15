@@ -58,6 +58,8 @@ static Style() {
     _fMARGIN_1UNIT.@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 85)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116))}));
 }
 
+private global::org.xmlvm._nArrayAdapter<global::System.Object> _fproxyTo;
+
 public static global::java.lang.String _fBG_1COLOR;
 
 public static global::java.lang.String _fFG_1COLOR;
@@ -102,6 +104,7 @@ public static sbyte _fBACKGROUND_1IMAGE_1TILE_1VERTICAL = 3;
 
 public static sbyte _fBACKGROUND_1IMAGE_1TILE_1HORIZONTAL = 4;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGNED = 5;
 
 public static sbyte _fBACKGROUND_1IMAGE_1ALIGNED_1TOP = 20;
 
@@ -143,10 +146,15 @@ public static sbyte _fBACKGROUND_1GRADIENT_1LINEAR_1HORIZONTAL = 7;
 
 public static sbyte _fBACKGROUND_1GRADIENT_1RADIAL = 8;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1TOP = -95;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1BOTTOM = -94;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1LEFT = -93;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1RIGHT = -92;
 
+private static sbyte _fBACKGROUND_1IMAGE_1ALIGN_1CENTER = -91;
 
 public static sbyte _fTEXT_1DECORATION_1NONE = 0;
 
@@ -204,34 +212,55 @@ private int _ftextDecoration;
 
 private int _fmodifiedFlag;
 
+private static int _fFG_1COLOR_1MODIFIED = 1;
 
+private static int _fBG_1COLOR_1MODIFIED = 2;
 
+private static int _fFONT_1MODIFIED = 16;
 
+private static int _fBG_1IMAGE_1MODIFIED = 32;
 
+private static int _fTRANSPARENCY_1MODIFIED = 128;
 
+private static int _fPADDING_1MODIFIED = 256;
 
+private static int _fMARGIN_1MODIFIED = 512;
 
+private static int _fBORDER_1MODIFIED = 1024;
 
+private static int _fBACKGROUND_1TYPE_1MODIFIED = 2048;
 
+private static int _fBACKGROUND_1ALIGNMENT_1MODIFIED = 4096;
 
+private static int _fBACKGROUND_1GRADIENT_1MODIFIED = 8192;
 
+private static int _fALIGNMENT_1MODIFIED = 16384;
 
+private static int _fOPACITY_1MODIFIED = 32768;
 
+private static int _fTEXT_1DECORATION_1MODIFIED = 64;
 
 private global::com.codename1.ui.util.EventDispatcher _flisteners;
 
 public global::java.lang.Object _froundRectCache;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = this;
     _r5.i = 1;
     _r4.i = 0;
@@ -265,6 +294,21 @@ new public void @this(){
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void <init>()]
 }
 
+public static global::System.Object createProxyStyle(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.plaf.Style createProxyStyle(com.codename1.ui.plaf.Style[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r0_o = new global::com.codename1.ui.plaf.Style();
+    ((global::com.codename1.ui.plaf.Style) _r0_o).@this();
+    ((global::com.codename1.ui.plaf.Style) _r0_o)._fproxyTo = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
+    return (global::com.codename1.ui.plaf.Style) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.plaf.Style createProxyStyle(com.codename1.ui.plaf.Style[])]
+}
+
 public void @this(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
@@ -274,16 +318,26 @@ public void @this(global::com.codename1.ui.plaf.Style n1){
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
     _r12_o = n1;
     _r10.i = 3;
@@ -351,18 +405,31 @@ public void @this(global::com.codename1.ui.plaf.Style n1){
 
 public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, com.codename1.ui.Font, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.i = n1;
     _r9.i = n2;
@@ -382,15 +449,25 @@ public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4){
 
 private void @this(int n1, int n2, int n3, int n4, global::com.codename1.ui.Font n5, sbyte n6, global::com.codename1.ui.Image n7, bool n8){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, int, int, com.codename1.ui.Font, byte, com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -412,13 +489,21 @@ private void @this(int n1, int n2, int n3, int n4, global::com.codename1.ui.Font
 
 public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4, global::com.codename1.ui.Image n5, sbyte n6){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void <init>(int, int, com.codename1.ui.Font, byte, com.codename1.ui.Image, byte)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2.i = n2;
@@ -440,6 +525,7 @@ public void @this(int n1, int n2, global::com.codename1.ui.Font n3, sbyte n4, gl
 public virtual void merge(global::com.codename1.ui.plaf.Style n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void merge(com.codename1.ui.plaf.Style)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -449,11 +535,18 @@ public virtual void merge(global::com.codename1.ui.plaf.Style n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r9_o = this;
     _r10_o = n1;
     _r8.i = 3;
@@ -582,7 +675,10 @@ public virtual void merge(global::com.codename1.ui.plaf.Style n1){
 public virtual bool isModified(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isModified()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
     if (_r0.i == 0) goto label6;
@@ -598,7 +694,10 @@ public virtual bool isModified(){
 public virtual int getBgColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getBgColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgColor;
     return _r0.i;
@@ -607,8 +706,11 @@ public virtual int getBgColor(){
 
 public virtual global::System.Object getBgImage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Image getBgImage()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgImage;
     return (global::com.codename1.ui.Image) _r0_o;
@@ -618,7 +720,10 @@ public virtual global::System.Object getBgImage(){
 public virtual sbyte getBackgroundType(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte getBackgroundType()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundType;
     return (sbyte) _r0.i;
@@ -628,7 +733,10 @@ public virtual sbyte getBackgroundType(){
 private sbyte getBackgroundAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte getBackgroundAlignment()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundAlignment;
     return (sbyte) _r0.i;
@@ -640,7 +748,10 @@ public virtual int getBackgroundGradientStartColor(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     if (_r0_o == null) goto label22;
@@ -651,6 +762,7 @@ public virtual int getBackgroundGradientStartColor(){
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r1.i = 0;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     label21:;
     return _r0.i;
@@ -665,7 +777,10 @@ public virtual int getBackgroundGradientEndColor(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -675,6 +790,7 @@ public virtual int getBackgroundGradientEndColor(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r2_o = _r2_o;
     _r0.i = ((global::java.lang.Integer) _r2_o).intValue();
     label20:;
     return _r0.i;
@@ -689,7 +805,10 @@ public virtual float getBackgroundGradientRelativeX(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 2;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -699,6 +818,7 @@ public virtual float getBackgroundGradientRelativeX(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -713,7 +833,10 @@ public virtual float getBackgroundGradientRelativeY(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 3;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -723,6 +846,7 @@ public virtual float getBackgroundGradientRelativeY(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -737,7 +861,10 @@ public virtual float getBackgroundGradientRelativeSize(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r1.i = 4;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
@@ -747,6 +874,7 @@ public virtual float getBackgroundGradientRelativeSize(){
     if (_r0.i <= _r1.i) goto label21;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbackgroundGradient;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
+    _r2_o = _r2_o;
     _r0.f = ((global::java.lang.Float) _r2_o).floatValue();
     label20:;
     return _r0.f;
@@ -759,7 +887,10 @@ public virtual float getBackgroundGradientRelativeSize(){
 public virtual int getFgColor(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getFgColor()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffgColor;
     return _r0.i;
@@ -768,8 +899,11 @@ public virtual int getFgColor(){
 
 public virtual global::System.Object getFont(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Font getFont()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont;
     return (global::com.codename1.ui.Font) _r0_o;
@@ -779,8 +913,12 @@ public virtual global::System.Object getFont(){
 public virtual void setBgColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -792,8 +930,12 @@ public virtual void setBgColor(int n1){
 public virtual void setAlignment(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setAlignment(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -806,25 +948,47 @@ public virtual void setAlignment(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setAlignment(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._falign;
-    if (_r0.i == _r2.i) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._falign = _r2.i;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 16384;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setAlignment((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._falign;
+    if (_r1.i == _r5.i) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._falign = _r5.i;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 16384;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
     // Value=align
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setAlignment(int, boolean)]
 }
@@ -832,7 +996,10 @@ public virtual void setAlignment(int n1, bool n2){
 public virtual int getAlignment(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getAlignment()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._falign;
     return _r0.i;
@@ -842,8 +1009,12 @@ public virtual int getAlignment(){
 public virtual void setBgImage(global::com.codename1.ui.Image n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -855,8 +1026,12 @@ public virtual void setBgImage(global::com.codename1.ui.Image n1){
 public virtual void setBackgroundType(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -868,8 +1043,12 @@ public virtual void setBackgroundType(sbyte n1){
 private void setBackgroundAlignment(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -881,8 +1060,12 @@ private void setBackgroundAlignment(sbyte n1){
 public virtual void setBackgroundGradientStartColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientStartColor(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -894,8 +1077,12 @@ public virtual void setBackgroundGradientStartColor(int n1){
 public virtual void setBackgroundGradientEndColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientEndColor(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -907,8 +1094,12 @@ public virtual void setBackgroundGradientEndColor(int n1){
 public virtual void setBackgroundGradientRelativeX(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeX(float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -920,8 +1111,12 @@ public virtual void setBackgroundGradientRelativeX(float n1){
 public virtual void setBackgroundGradientRelativeY(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeY(float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -933,8 +1128,12 @@ public virtual void setBackgroundGradientRelativeY(float n1){
 public virtual void setBackgroundGradientRelativeSize(float n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeSize(float)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.f = n1;
     _r0.i = 0;
@@ -946,8 +1145,12 @@ public virtual void setBackgroundGradientRelativeSize(float n1){
 public virtual void setFgColor(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFgColor(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -959,8 +1162,12 @@ public virtual void setFgColor(int n1){
 public virtual void setFont(global::com.codename1.ui.Font n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFont(com.codename1.ui.Font)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -972,32 +1179,56 @@ public virtual void setFont(global::com.codename1.ui.Font n1){
 public virtual void setUnderline(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setUnderline(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r2_o = this;
-    _r3.i = n1 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isUnderline() ? 1 : 0;
-    if (_r3.i == _r0.i) goto label14;
-    if (_r3.i == 0) goto label15;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i | 1;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    label14:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label32;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setUnderline(0!=_r5.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o).isUnderline() ? 1 : 0;
+    if (_r5.i == _r1.i) goto label32;
+    if (_r5.i == 0) goto label33;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i | 1;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    label32:;
     return;
-    label15:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r1.i = 1;
-    _r0.i = _r0.i - _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label14;
+    label33:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r2.i = 1;
+    _r1.i = _r1.i - _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label32;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setUnderline(boolean)]
 }
 
 public virtual bool isUnderline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isUnderline()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 1;
@@ -1014,60 +1245,105 @@ public virtual bool isUnderline(){
 public virtual void set3DText(bool n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void set3DText(boolean, boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    _r2_o = this;
-    _r3.i = n1 ? 1 : 0;
-    _r4.i = n2 ? 1 : 0;
-    if (_r4.i == 0) goto label31;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isRaised3DText() ? 1 : 0;
-    if (_r3.i == _r0.i) goto label22;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i & -17;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    if (_r3.i == 0) goto label23;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i | 8;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    label22:;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label40;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).set3DText(0!=_r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    if (_r6.i == 0) goto label49;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o).isRaised3DText() ? 1 : 0;
+    if (_r5.i == _r1.i) goto label40;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i & -17;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    if (_r5.i == 0) goto label41;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i | 8;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    label40:;
     return;
-    label23:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r1.i = 8;
-    _r0.i = _r0.i - _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label22;
-    label31:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isLowered3DText() ? 1 : 0;
-    if (_r3.i == _r0.i) goto label22;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i & -9;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    if (_r3.i == 0) goto label52;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i | 16;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label22;
-    label52:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r1.i = 16;
-    _r0.i = _r0.i - _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label22;
+    label41:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r2.i = 8;
+    _r1.i = _r1.i - _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label40;
+    label49:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o).isLowered3DText() ? 1 : 0;
+    if (_r5.i == _r1.i) goto label40;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i & -9;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    if (_r5.i == 0) goto label70;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i | 16;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label40;
+    label70:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r2.i = 16;
+    _r1.i = _r1.i - _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label40;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void set3DText(boolean, boolean)]
 }
 
 public virtual void set3DTextNorth(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void set3DTextNorth(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    _r1_o = this;
-    _r2.i = n1 ? 1 : 0;
-    _r0.i = 32;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration = _r0.i;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label22;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).set3DTextNorth(0!=_r5.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = 32;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    label22:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void set3DTextNorth(boolean)]
 }
@@ -1075,8 +1351,12 @@ public virtual void set3DTextNorth(bool n1){
 public virtual bool is3DTextNorth(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean is3DTextNorth()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
     _r0.i = _r0.i & 32;
@@ -1094,7 +1374,10 @@ public virtual bool is3DTextNorth(){
 public virtual bool isRaised3DText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isRaised3DText()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 8;
@@ -1111,7 +1394,10 @@ public virtual bool isRaised3DText(){
 public virtual bool isLowered3DText(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isLowered3DText()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 16;
@@ -1128,32 +1414,56 @@ public virtual bool isLowered3DText(){
 public virtual void setOverline(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setOverline(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r2_o = this;
-    _r3.i = n1 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isOverline() ? 1 : 0;
-    if (_r3.i == _r0.i) goto label14;
-    if (_r3.i == 0) goto label15;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i | 4;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    label14:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label32;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setOverline(0!=_r5.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o).isOverline() ? 1 : 0;
+    if (_r5.i == _r1.i) goto label32;
+    if (_r5.i == 0) goto label33;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i | 4;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    label32:;
     return;
-    label15:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r1.i = 4;
-    _r0.i = _r0.i - _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label14;
+    label33:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r2.i = 4;
+    _r1.i = _r1.i - _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label32;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setOverline(boolean)]
 }
 
 public virtual bool isOverline(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isOverline()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 4;
@@ -1170,32 +1480,56 @@ public virtual bool isOverline(){
 public virtual void setStrikeThru(bool n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setStrikeThru(boolean)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r2_o = this;
-    _r3.i = n1 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o).isStrikeThru() ? 1 : 0;
-    if (_r3.i == _r0.i) goto label14;
-    if (_r3.i == 0) goto label15;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r0.i = _r0.i | 2;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    label14:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label32;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setStrikeThru(0!=_r5.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o).isStrikeThru() ? 1 : 0;
+    if (_r5.i == _r1.i) goto label32;
+    if (_r5.i == 0) goto label33;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r1.i = _r1.i | 2;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    label32:;
     return;
-    label15:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration;
-    _r1.i = 2;
-    _r0.i = _r0.i - _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftextDecoration = _r0.i;
-    goto label14;
+    label33:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    _r2.i = 2;
+    _r1.i = _r1.i - _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r1.i;
+    goto label32;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setStrikeThru(boolean)]
 }
 
 public virtual bool isStrikeThru(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: boolean isStrikeThru()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     _r0.i = _r0.i & 2;
@@ -1212,7 +1546,10 @@ public virtual bool isStrikeThru(){
 public virtual int getTextDecoration(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getTextDecoration()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
     return _r0.i;
@@ -1222,8 +1559,12 @@ public virtual int getTextDecoration(){
 public virtual void setTextDecoration(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setTextDecoration(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1236,26 +1577,48 @@ public virtual void setTextDecoration(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setTextDecoration(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration = _r2.i;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration;
-    if (_r0.i == _r2.i) goto label21;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._ftextDecoration = _r2.i;
-    if (_r3.i != 0) goto label16;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 64;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label16:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label39;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setTextDecoration((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r5.i;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration;
+    if (_r1.i == _r5.i) goto label39;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftextDecoration = _r5.i;
+    if (_r6.i != 0) goto label34;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 64;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label34:;
     // Value=textDecoration
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label21:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label39:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setTextDecoration(int, boolean)]
 }
@@ -1265,7 +1628,10 @@ public virtual sbyte getBgTransparency(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r2_o)._fbgImage;
     if (_r0_o == null) goto label31;
@@ -1293,9 +1659,14 @@ public virtual sbyte getBgTransparency(){
 public virtual void setBgTransparency(sbyte n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgTransparency(byte)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
     _r0.i = _r3.i & 255;
@@ -1308,7 +1679,10 @@ public virtual void setBgTransparency(sbyte n1){
 public virtual int getOpacity(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getOpacity()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fopacity;
     _r0.i = _r0.i & 255;
@@ -1319,8 +1693,12 @@ public virtual int getOpacity(){
 public virtual void setOpacity(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setOpacity(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1335,39 +1713,59 @@ public virtual void setOpacity(int n1, bool n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    _r2_o = this;
-    _r3.i = n1;
-    _r4.i = n2 ? 1 : 0;
-    if (_r3.i < 0) goto label6;
-    _r0.i = 255;
-    if (_r3.i <= _r0.i) goto label14;
-    label6:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label55;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setOpacity((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    if (_r5.i < 0) goto label24;
+    _r1.i = 255;
+    if (_r5.i <= _r1.i) goto label32;
+    label24:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=valid values are between 0-255
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 53))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label14:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._fopacity;
-    _r1.i = (_r3.i << 24) >> 24;
-    if (_r0.i == _r1.i) goto label37;
-    _r0.i = (_r3.i << 24) >> 24;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._fopacity = (sbyte) _r0.i;
-    if (_r4.i != 0) goto label32;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._fmodifiedFlag;
-    _r1.i = 32768;
-    _r0.i = _r0.i | _r1.i;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._fmodifiedFlag = _r0.i;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 53))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
     label32:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fopacity;
+    _r2.i = (_r5.i << 24) >> 24;
+    if (_r1.i == _r2.i) goto label55;
+    _r1.i = (_r5.i << 24) >> 24;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fopacity = (sbyte) _r1.i;
+    if (_r6.i != 0) goto label50;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r2.i = 32768;
+    _r1.i = _r1.i | _r2.i;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label50:;
     // Value=opacity
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121))}));
-    ((global::com.codename1.ui.plaf.Style) _r2_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label37:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 121))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label55:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setOpacity(int, boolean)]
 }
@@ -1375,8 +1773,12 @@ public virtual void setOpacity(int n1, bool n2){
 public virtual void setBgTransparency(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgTransparency(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 0;
@@ -1392,63 +1794,85 @@ public virtual void setPadding(int n1, int n2, int n3, int n4){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    _r5_o = this;
-    _r6.i = n1;
-    _r7.i = n2;
-    _r8.i = n3;
-    _r9.i = n4;
-    _r4.i = 3;
-    _r3.i = 2;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r6_o = this;
+    _r7.i = n1;
+    _r8.i = n2;
+    _r9.i = n3;
+    _r10.i = n4;
+    _r5.i = 3;
+    _r4.i = 2;
     _r2.i = 1;
-    _r1.i = 0;
-    if (_r6.i < 0) goto label12;
-    if (_r8.i < 0) goto label12;
-    if (_r9.i < 0) goto label12;
-    if (_r7.i >= 0) goto label20;
-    label12:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    _r3.i = 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fproxyTo;
+    if (_r1_o == null) goto label21;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    label11:;
+    if (_r3.i >= _r2.i) goto label88;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setPadding((int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i);
+    _r3.i = _r3.i + 1;
+    goto label11;
+    label21:;
+    if (_r7.i < 0) goto label29;
+    if (_r9.i < 0) goto label29;
+    if (_r10.i < 0) goto label29;
+    if (_r8.i >= 0) goto label37;
+    label29:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=padding cannot be negative
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label20:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i];
-    if (_r0.i != _r6.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i];
-    if (_r0.i != _r7.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i];
-    if (_r0.i != _r8.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i];
-    if (_r0.i == _r9.i) goto label71;
-    label44:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r6.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i] = _r7.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r8.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fpadding;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i] = _r9.i;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 256;
-    ((global::com.codename1.ui.plaf.Style) _r5_o)._fmodifiedFlag = _r0.i;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label37:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i];
+    if (_r1.i != _r7.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i];
+    if (_r1.i != _r8.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    if (_r1.i != _r9.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
+    if (_r1.i == _r10.i) goto label88;
+    label61:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i] = _r7.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i] = _r8.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r9.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fpadding;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i] = _r10.i;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 256;
+    ((global::com.codename1.ui.plaf.Style) _r6_o)._fmodifiedFlag = _r1.i;
     // Value=padding
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    ((global::com.codename1.ui.plaf.Style) _r5_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label71:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
+    ((global::com.codename1.ui.plaf.Style) _r6_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label88:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int, int, int)]
 }
@@ -1456,9 +1880,14 @@ public virtual void setPadding(int n1, int n2, int n3, int n4){
 public virtual void setPadding(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1475,63 +1904,85 @@ public virtual void setMargin(int n1, int n2, int n3, int n4){
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
-    _r5_o = this;
-    _r6.i = n1;
-    _r7.i = n2;
-    _r8.i = n3;
-    _r9.i = n4;
-    _r4.i = 3;
-    _r3.i = 2;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r6_o = this;
+    _r7.i = n1;
+    _r8.i = n2;
+    _r9.i = n3;
+    _r10.i = n4;
+    _r5.i = 3;
+    _r4.i = 2;
     _r2.i = 1;
-    _r1.i = 0;
-    if (_r6.i < 0) goto label12;
-    if (_r8.i < 0) goto label12;
-    if (_r9.i < 0) goto label12;
-    if (_r7.i >= 0) goto label20;
-    label12:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    _r3.i = 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fproxyTo;
+    if (_r1_o == null) goto label21;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    label11:;
+    if (_r3.i >= _r2.i) goto label88;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setMargin((int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i);
+    _r3.i = _r3.i + 1;
+    goto label11;
+    label21:;
+    if (_r7.i < 0) goto label29;
+    if (_r9.i < 0) goto label29;
+    if (_r10.i < 0) goto label29;
+    if (_r8.i >= 0) goto label37;
+    label29:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=margin cannot be negative
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label20:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i];
-    if (_r0.i != _r6.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i];
-    if (_r0.i != _r7.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i];
-    if (_r0.i != _r8.i) goto label44;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i];
-    if (_r0.i == _r9.i) goto label71;
-    label44:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r6.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i] = _r7.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r8.i;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmargin;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i] = _r9.i;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r5_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 512;
-    ((global::com.codename1.ui.plaf.Style) _r5_o)._fmodifiedFlag = _r0.i;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label37:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i];
+    if (_r1.i != _r7.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i];
+    if (_r1.i != _r8.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    if (_r1.i != _r9.i) goto label61;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
+    if (_r1.i == _r10.i) goto label88;
+    label61:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i] = _r7.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i] = _r8.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r9.i;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmargin;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i] = _r10.i;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r6_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 512;
+    ((global::com.codename1.ui.plaf.Style) _r6_o)._fmodifiedFlag = _r1.i;
     // Value=margin
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110))}));
-    ((global::com.codename1.ui.plaf.Style) _r5_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label71:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.ui.plaf.Style) _r6_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label88:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int, int, int)]
 }
@@ -1539,9 +1990,14 @@ public virtual void setMargin(int n1, int n2, int n3, int n4){
 public virtual void setMargin(int n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2;
@@ -1555,11 +2011,17 @@ public virtual int getPaddingValue(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingValue(boolean, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r5.i = n2;
@@ -1594,17 +2056,23 @@ public virtual int getPaddingValue(bool n1, int n2){
     label42:;
     _r5.i = 1;
     goto label35;
+    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingValue(boolean, int)]
 }
 
 public virtual int getPadding(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPadding(boolean, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4.i = n2;
@@ -1618,15 +2086,24 @@ public virtual int getPadding(bool n1, int n2){
 private int convertUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int convertUnit(byte[], int, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
     _r7.i = n2;
@@ -1680,6 +2157,7 @@ private int convertUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int 
     label66:;
     _r2.i = _r7.i;
     goto label11;
+    label68:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int convertUnit(byte[], int, int)]
 }
 
@@ -1687,8 +2165,11 @@ public virtual int getPadding(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPadding(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
@@ -1703,8 +2184,11 @@ public virtual int getMargin(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMargin(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
@@ -1718,11 +2202,16 @@ public virtual int getMargin(int n1){
 public virtual int getMargin(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMargin(boolean, int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     _r4.i = n2;
@@ -1737,11 +2226,17 @@ public virtual int getMarginValue(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMarginValue(boolean, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4.i = n1 ? 1 : 0;
     _r5.i = n2;
@@ -1776,119 +2271,13 @@ public virtual int getMarginValue(bool n1, int n2){
     label42:;
     _r5.i = 1;
     goto label35;
+    label44:;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getMarginValue(boolean, int)]
 }
 
 public virtual void setBgColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgColor;
-    if (_r0.i == _r2.i) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgColor = _r2.i;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 2;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
-    // Value=bgColor
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
-    return;
-//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int, boolean)]
-}
-
-public virtual void setBgImage(global::com.codename1.ui.Image n1, bool n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image, boolean)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2_o = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgImage;
-    if (_r0_o == _r2_o) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgImage = (global::com.codename1.ui.Image) _r2_o;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 32;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
-    // Value=bgImage
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
-    return;
-//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image, boolean)]
-}
-
-public virtual void setBackgroundType(sbyte n1, bool n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte, boolean)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundType;
-    if (_r0.i == _r2.i) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundType = (sbyte) _r2.i;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 2048;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
-    // Value=bgType
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
-    return;
-//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte, boolean)]
-}
-
-private void setBackgroundAlignment(sbyte n1, bool n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte, boolean)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundAlignment;
-    if (_r0.i == _r2.i) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fbackgroundAlignment = (sbyte) _r2.i;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 4096;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
-    // Value=bgAlign
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
-    return;
-//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte, boolean)]
-}
-
-public virtual global::System.Object getBackgroundGradient(){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: java.lang.Object[] getBackgroundGradient()]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -1897,7 +2286,206 @@ public virtual global::System.Object getBackgroundGradient(){
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBgColor((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fbgColor;
+    if (_r1.i == _r5.i) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fbgColor = _r5.i;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 2;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
+    // Value=bgColor
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgColor(int, boolean)]
+}
+
+public virtual void setBgImage(global::com.codename1.ui.Image n1, bool n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBgImage((global::com.codename1.ui.Image) _r5_o, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fbgImage;
+    if (_r1_o == _r5_o) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fbgImage = (global::com.codename1.ui.Image) _r5_o;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 32;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
+    // Value=bgImage
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgImage(com.codename1.ui.Image, boolean)]
+}
+
+public virtual void setBackgroundType(sbyte n1, bool n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundType((sbyte) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fbackgroundType;
+    if (_r1.i == _r5.i) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fbackgroundType = (sbyte) _r5.i;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 2048;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
+    // Value=bgType
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundType(byte, boolean)]
+}
+
+private void setBackgroundAlignment(sbyte n1, bool n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundAlignment((sbyte) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fbackgroundAlignment;
+    if (_r1.i == _r5.i) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fbackgroundAlignment = (sbyte) _r5.i;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 4096;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
+    // Value=bgAlign
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundAlignment(byte, boolean)]
+}
+
+public virtual global::System.Object getBackgroundGradient(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: java.lang.Object[] getBackgroundGradient()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r4.i = 0;
     _r1_o = ((global::com.codename1.ui.plaf.Style) _r5_o)._fbackgroundGradient;
@@ -1933,8 +2521,11 @@ public virtual global::System.Object getBackgroundGradient(){
 
 public virtual void setBackgroundGradient(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradient(java.lang.Object[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.plaf.Style) _r0_o)._fbackgroundGradient = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
@@ -1946,33 +2537,53 @@ public virtual void setBackgroundGradientStartColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientStartColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    _r3_o = this;
-    _r4.i = n1;
-    _r5.i = n2 ? 1 : 0;
-    _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
-    if (_r0.i == _r4.i) goto label39;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r1_o = new global::java.lang.Integer();
-    ((global::java.lang.Integer) _r1_o).@this((int) _r4.i);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r1_o;
-    if (_r5.i != 0) goto label34;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 8192;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
-    label34:;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r3.i = 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    label8:;
+    if (_r3.i >= _r2.i) goto label56;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundGradientStartColor((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    _r1_o = _r1_o;
+    _r1.i = ((global::java.lang.Integer) _r1_o).intValue();
+    if (_r1.i == _r5.i) goto label56;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r2_o = new global::java.lang.Integer();
+    ((global::java.lang.Integer) _r2_o).@this((int) _r5.i);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i] = _r2_o;
+    if (_r6.i != 0) goto label51;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 8192;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label51:;
     // Value=bgGradient
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label39:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label56:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientStartColor(int, boolean)]
 }
@@ -1981,33 +2592,54 @@ public virtual void setBackgroundGradientEndColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientEndColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    _r3_o = this;
-    _r4.i = n1;
-    _r5.i = n2 ? 1 : 0;
-    _r2.i = 1;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0.i = ((global::java.lang.Integer) _r0_o).intValue();
-    if (_r0.i == _r4.i) goto label39;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r1_o = new global::java.lang.Integer();
-    ((global::java.lang.Integer) _r1_o).@this((int) _r4.i);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r1_o;
-    if (_r5.i != 0) goto label34;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 8192;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
-    label34:;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r3.i = 1;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label19;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label9:;
+    if (_r3.i >= _r2.i) goto label57;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundGradientEndColor((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label9;
+    label19:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    _r1_o = _r1_o;
+    _r1.i = ((global::java.lang.Integer) _r1_o).intValue();
+    if (_r1.i == _r5.i) goto label57;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r2_o = new global::java.lang.Integer();
+    ((global::java.lang.Integer) _r2_o).@this((int) _r5.i);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i] = _r2_o;
+    if (_r6.i != 0) goto label52;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 8192;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label52:;
     // Value=bgGradient
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label39:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label57:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientEndColor(int, boolean)]
 }
@@ -2016,34 +2648,55 @@ public virtual void setBackgroundGradientRelativeX(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeX(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    _r3_o = this;
-    _r4.f = n1;
-    _r5.i = n2 ? 1 : 0;
-    _r2.i = 2;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
-    _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
-    if (_r0.i == 0) goto label41;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r1_o = new global::java.lang.Float();
-    ((global::java.lang.Float) _r1_o).@this((float) _r4.f);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r1_o;
-    if (_r5.i != 0) goto label36;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 8192;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
-    label36:;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.f = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r3.i = 2;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label19;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label9:;
+    if (_r3.i >= _r2.i) goto label59;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundGradientRelativeX((float) _r5.f, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label9;
+    label19:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    _r1_o = _r1_o;
+    _r1.f = ((global::java.lang.Float) _r1_o).floatValue();
+    _r1.i = _r1.f > _r5.f ? 1 : (_r1.f == _r5.f ? 0 : -1);
+    if (_r1.i == 0) goto label59;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r2_o = new global::java.lang.Float();
+    ((global::java.lang.Float) _r2_o).@this((float) _r5.f);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i] = _r2_o;
+    if (_r6.i != 0) goto label54;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 8192;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label54:;
     // Value=bgGradient
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label41:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label59:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeX(float, boolean)]
 }
@@ -2052,34 +2705,55 @@ public virtual void setBackgroundGradientRelativeY(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeY(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    _r3_o = this;
-    _r4.f = n1;
-    _r5.i = n2 ? 1 : 0;
-    _r2.i = 3;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
-    _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
-    if (_r0.i == 0) goto label41;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r1_o = new global::java.lang.Float();
-    ((global::java.lang.Float) _r1_o).@this((float) _r4.f);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r1_o;
-    if (_r5.i != 0) goto label36;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 8192;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
-    label36:;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.f = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r3.i = 3;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label19;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label9:;
+    if (_r3.i >= _r2.i) goto label59;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundGradientRelativeY((float) _r5.f, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label9;
+    label19:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    _r1_o = _r1_o;
+    _r1.f = ((global::java.lang.Float) _r1_o).floatValue();
+    _r1.i = _r1.f > _r5.f ? 1 : (_r1.f == _r5.f ? 0 : -1);
+    if (_r1.i == 0) goto label59;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r2_o = new global::java.lang.Float();
+    ((global::java.lang.Float) _r2_o).@this((float) _r5.f);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i] = _r2_o;
+    if (_r6.i != 0) goto label54;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 8192;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label54:;
     // Value=bgGradient
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label41:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label59:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeY(float, boolean)]
 }
@@ -2088,34 +2762,55 @@ public virtual void setBackgroundGradientRelativeSize(float n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeSize(float, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    _r3_o = this;
-    _r4.f = n1;
-    _r5.i = n2 ? 1 : 0;
-    _r2.i = 4;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i];
-    _r0.f = ((global::java.lang.Float) _r0_o).floatValue();
-    _r0.i = _r0.f > _r4.f ? 1 : (_r0.f == _r4.f ? 0 : -1);
-    if (_r0.i == 0) goto label41;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getBackgroundGradient();
-    _r1_o = new global::java.lang.Float();
-    ((global::java.lang.Float) _r1_o).@this((float) _r4.f);
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r1_o;
-    if (_r5.i != 0) goto label36;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 8192;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
-    label36:;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.f = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r3.i = 4;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label19;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label9:;
+    if (_r3.i >= _r2.i) goto label59;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBackgroundGradientRelativeSize((float) _r5.f, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label9;
+    label19:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    _r1_o = _r1_o;
+    _r1.f = ((global::java.lang.Float) _r1_o).floatValue();
+    _r1.i = _r1.f > _r5.f ? 1 : (_r1.f == _r5.f ? 0 : -1);
+    if (_r1.i == 0) goto label59;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getBackgroundGradient();
+    _r2_o = new global::java.lang.Float();
+    ((global::java.lang.Float) _r2_o).@this((float) _r5.f);
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i] = _r2_o;
+    if (_r6.i != 0) goto label54;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 8192;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label54:;
     // Value=bgGradient
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label41:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 71)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label59:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBackgroundGradientRelativeSize(float, boolean)]
 }
@@ -2124,25 +2819,47 @@ public virtual void setFgColor(int n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFgColor(int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffgColor;
-    if (_r0.i == _r2.i) goto label19;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._ffgColor = _r2.i;
-    if (_r3.i != 0) goto label14;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 1;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label14:;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label37;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setFgColor((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ffgColor;
+    if (_r1.i == _r5.i) goto label37;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ffgColor = _r5.i;
+    if (_r6.i != 0) goto label32;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 1;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label32:;
     // Value=fgColor
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label19:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label37:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setFgColor(int, boolean)]
 }
@@ -2151,33 +2868,55 @@ public virtual void setFont(global::com.codename1.ui.Font n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setFont(com.codename1.ui.Font, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2_o = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont;
-    if (_r0_o != null) goto label6;
-    if (_r2_o != null) goto label18;
-    label6:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont;
-    if (_r0_o == null) goto label33;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont;
-    _r0.i = ((global::com.codename1.ui.Font) _r0_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
-    if (_r0.i != 0) goto label33;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label51;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setFont((global::com.codename1.ui.Font) _r5_o, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
     label18:;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._ffont = (global::com.codename1.ui.Font) _r2_o;
-    if (_r3.i != 0) goto label28;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 16;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label28:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._ffont;
+    if (_r1_o != null) goto label24;
+    if (_r5_o != null) goto label36;
+    label24:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._ffont;
+    if (_r1_o == null) goto label51;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._ffont;
+    _r1.i = ((global::com.codename1.ui.Font) _r1_o).equals((global::java.lang.Object) _r5_o) ? 1 : 0;
+    if (_r1.i != 0) goto label51;
+    label36:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ffont = (global::com.codename1.ui.Font) _r5_o;
+    if (_r6.i != 0) goto label46;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 16;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label46:;
     // Value=font
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label33:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label51:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setFont(com.codename1.ui.Font, boolean)]
 }
@@ -2188,38 +2927,58 @@ public virtual void setBgTransparency(int n1, bool n2){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
-    _r2_o = this;
-    _r3.i = n1;
-    _r4.i = n2 ? 1 : 0;
-    if (_r3.i < 0) goto label6;
-    _r0.i = 255;
-    if (_r3.i <= _r0.i) goto label14;
-    label6:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label53;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBgTransparency((int) _r5.i, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    if (_r5.i < 0) goto label24;
+    _r1.i = 255;
+    if (_r5.i <= _r1.i) goto label32;
+    label24:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=valid values are between 0-255
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 53))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label14:;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._ftransparency;
-    _r1.i = (_r3.i << 24) >> 24;
-    if (_r0.i == _r1.i) goto label35;
-    _r0.i = (_r3.i << 24) >> 24;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._ftransparency = (sbyte) _r0.i;
-    if (_r4.i != 0) goto label30;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r2_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 128;
-    ((global::com.codename1.ui.plaf.Style) _r2_o)._fmodifiedFlag = _r0.i;
-    label30:;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 48)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 50)), unchecked((char) unchecked((uint) 53)), unchecked((char) unchecked((uint) 53))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label32:;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._ftransparency;
+    _r2.i = (_r5.i << 24) >> 24;
+    if (_r1.i == _r2.i) goto label53;
+    _r1.i = (_r5.i << 24) >> 24;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._ftransparency = (sbyte) _r1.i;
+    if (_r6.i != 0) goto label48;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 128;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label48:;
     // Value=transparency
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 121))}));
-    ((global::com.codename1.ui.plaf.Style) _r2_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label35:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 121))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label53:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgTransparency(int, boolean)]
 }
@@ -2228,55 +2987,76 @@ public virtual void setPadding(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    _r3_o = this;
-    _r4.i = n1;
-    _r5.i = n2;
-    _r6.i = n3 ? 1 : 0;
-    if (_r4.i < 0) goto label5;
-    _r0.i = 3;
-    if (_r4.i <= _r0.i) goto label30;
-    label5:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
-    _r1_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r1_o).@this();
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2;
+    _r7.i = n3 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label81;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setPadding((int) _r5.i, (int) _r6.i, 0!=_r7.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    if (_r5.i < 0) goto label23;
+    _r1.i = 3;
+    if (_r5.i <= _r1.i) goto label48;
+    label23:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
+    _r2_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r2_o).@this();
     // Value=wrong orientation 
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((int) _r4.i);
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label30:;
-    if (_r5.i >= 0) goto label40;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((int) _r5.i);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label48:;
+    if (_r6.i >= 0) goto label58;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=padding cannot be negative
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label40:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpadding;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i];
-    if (_r0.i == _r5.i) goto label63;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpadding;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i] = _r5.i;
-    if (_r6.i != 0) goto label58;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 256;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
     label58:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
+    if (_r1.i == _r6.i) goto label81;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i] = _r6.i;
+    if (_r7.i != 0) goto label76;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 256;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label76:;
     // Value=padding
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label63:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label81:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setPadding(int, int, boolean)]
 }
@@ -2285,64 +3065,89 @@ public virtual void setMargin(int n1, int n2, bool n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
-    _r3_o = this;
-    _r4.i = n1;
-    _r5.i = n2;
-    _r6.i = n3 ? 1 : 0;
-    if (_r4.i < 0) goto label5;
-    _r0.i = 3;
-    if (_r4.i <= _r0.i) goto label30;
-    label5:;
-    _r0_o = new global::java.lang.IllegalArgumentException();
-    _r1_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r1_o).@this();
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2;
+    _r7.i = n3 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label81;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setMargin((int) _r5.i, (int) _r6.i, 0!=_r7.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    if (_r5.i < 0) goto label23;
+    _r1.i = 3;
+    if (_r5.i <= _r1.i) goto label48;
+    label23:;
+    _r1_o = new global::java.lang.IllegalArgumentException();
+    _r2_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r2_o).@this();
     // Value=wrong orientation 
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((global::java.lang.String) _r2_o);
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).append((int) _r4.i);
-    _r1_o = ((global::java.lang.StringBuilder) _r1_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label30:;
-    if (_r5.i >= 0) goto label40;
-    _r0_o = new global::java.lang.IllegalArgumentException();
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)119)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((int) _r5.i);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label48:;
+    if (_r6.i >= 0) goto label58;
+    _r1_o = new global::java.lang.IllegalArgumentException();
     // Value=margin cannot be negative
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
-    ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
-    label40:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmargin;
-    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i];
-    if (_r0.i == _r5.i) goto label63;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmargin;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i] = _r5.i;
-    if (_r6.i != 0) goto label58;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 512;
-    ((global::com.codename1.ui.plaf.Style) _r3_o)._fmodifiedFlag = _r0.i;
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101))}));
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
     label58:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
+    if (_r1.i == _r6.i) goto label81;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmargin;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i] = _r6.i;
+    if (_r7.i != 0) goto label76;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 512;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label76:;
     // Value=margin
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110))}));
-    ((global::com.codename1.ui.plaf.Style) _r3_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label63:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label81:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setMargin(int, int, boolean)]
 }
 
 private void firePropertyChanged(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void firePropertyChanged(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = null;
@@ -2360,9 +3165,13 @@ private void firePropertyChanged(global::java.lang.String n1){
 
 public virtual void addStyleListener(global::com.codename1.ui.events.StyleListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void addStyleListener(com.codename1.ui.events.StyleListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
@@ -2379,9 +3188,13 @@ public virtual void addStyleListener(global::com.codename1.ui.events.StyleListen
 
 public virtual void removeStyleListener(global::com.codename1.ui.events.StyleListener n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void removeStyleListener(com.codename1.ui.events.StyleListener)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
@@ -2395,8 +3208,11 @@ public virtual void removeStyleListener(global::com.codename1.ui.events.StyleLis
 
 public virtual void removeListeners(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void removeListeners()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._flisteners;
     if (_r0_o == null) goto label7;
@@ -2410,7 +3226,10 @@ public virtual void removeListeners(){
 public virtual void resetModifiedFlag(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void resetModifiedFlag()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
@@ -2421,8 +3240,12 @@ public virtual void resetModifiedFlag(){
 public virtual void setBorder(global::com.codename1.ui.plaf.Border n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBorder(com.codename1.ui.plaf.Border)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     _r0.i = 0;
@@ -2435,41 +3258,66 @@ public virtual void setBorder(global::com.codename1.ui.plaf.Border n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBorder(com.codename1.ui.plaf.Border, boolean)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    _r1_o = this;
-    _r2_o = n1;
-    _r3.i = n2 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder;
-    if (_r0_o != null) goto label6;
-    if (_r2_o != null) goto label18;
-    label6:;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder;
-    if (_r0_o == null) goto label33;
-    _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder;
-    _r0.i = ((global::com.codename1.ui.plaf.Border) _r0_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
-    if (_r0.i != 0) goto label33;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r6.i = n2 ? 1 : 0;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label51;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBorder((global::com.codename1.ui.plaf.Border) _r5_o, 0!=_r6.i);
+    _r3.i = _r3.i + 1;
+    goto label8;
     label18:;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder = (global::com.codename1.ui.plaf.Border) _r2_o;
-    if (_r3.i != 0) goto label28;
-    _r0.i = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag;
-    _r0.i = _r0.i | 1024;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fmodifiedFlag = _r0.i;
-    label28:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fborder;
+    if (_r1_o != null) goto label24;
+    if (_r5_o != null) goto label36;
+    label24:;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fborder;
+    if (_r1_o == null) goto label51;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fborder;
+    _r1.i = ((global::com.codename1.ui.plaf.Border) _r1_o).equals((global::java.lang.Object) _r5_o) ? 1 : 0;
+    if (_r1.i != 0) goto label51;
+    label36:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fborder = (global::com.codename1.ui.plaf.Border) _r5_o;
+    if (_r6.i != 0) goto label46;
+    _r1.i = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag;
+    _r1.i = _r1.i | 1024;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmodifiedFlag = _r1.i;
+    label46:;
     // Value=border
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
-    label33:;
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)98)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label51:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBorder(com.codename1.ui.plaf.Border, boolean)]
 }
 
 public virtual global::System.Object getBorder(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.plaf.Border getBorder()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fborder;
     return (global::com.codename1.ui.plaf.Border) _r0_o;
@@ -2478,8 +3326,11 @@ public virtual global::System.Object getBorder(){
 
 public virtual global::System.Object getBgPainter(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: com.codename1.ui.Painter getBgPainter()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgPainter;
     return (global::com.codename1.ui.Painter) _r0_o;
@@ -2488,24 +3339,50 @@ public virtual global::System.Object getBgPainter(){
 
 public virtual void setBgPainter(global::com.codename1.ui.Painter n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setBgPainter(com.codename1.ui.Painter)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    _r1_o = this;
-    _r2_o = n1;
-    ((global::com.codename1.ui.plaf.Style) _r1_o)._fbgPainter = (global::com.codename1.ui.Painter) _r2_o;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label25;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setBgPainter((global::com.codename1.ui.Painter) _r5_o);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fbgPainter = (global::com.codename1.ui.Painter) _r5_o;
     // Value=painter
-    _r0_o = new global::java.lang.String();
-    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
-    ((global::com.codename1.ui.plaf.Style) _r1_o).firePropertyChanged((global::java.lang.String) _r0_o);
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
+    ((global::com.codename1.ui.plaf.Style) _r4_o).firePropertyChanged((global::java.lang.String) _r1_o);
+    label25:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setBgPainter(com.codename1.ui.Painter)]
 }
 
 public virtual global::System.Object getPaddingUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte[] getPaddingUnit()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fpaddingUnit;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -2514,19 +3391,46 @@ public virtual global::System.Object getPaddingUnit(){
 
 public virtual void setPaddingUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setPaddingUnit(byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    _r0_o = this;
-    _r1_o = n1;
-    ((global::com.codename1.ui.plaf.Style) _r0_o)._fpaddingUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label20;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setPaddingUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fpaddingUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o;
+    label20:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setPaddingUnit(byte[])]
 }
 
 public virtual global::System.Object getMarginUnit(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: byte[] getMarginUnit()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.plaf.Style) _r1_o)._fmarginUnit;
     return (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o;
@@ -2535,11 +3439,35 @@ public virtual global::System.Object getMarginUnit(){
 
 public virtual void setMarginUnit(global::org.xmlvm._nArrayAdapter<sbyte> n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: void setMarginUnit(byte[])]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    _r0_o = this;
-    _r1_o = n1;
-    ((global::com.codename1.ui.plaf.Style) _r0_o)._fmarginUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    if (_r1_o == null) goto label18;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fproxyTo;
+    _r2.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r3.i = 0;
+    label8:;
+    if (_r3.i >= _r2.i) goto label20;
+    _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r3.i];
+    ((global::com.codename1.ui.plaf.Style) _r0_o).setMarginUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o);
+    _r3.i = _r3.i + 1;
+    goto label8;
+    label18:;
+    ((global::com.codename1.ui.plaf.Style) _r4_o)._fmarginUnit = (global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o;
+    label20:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: void setMarginUnit(byte[])]
 }

@@ -5,10 +5,13 @@ namespace com.codename1.ui.util {
 public class EmbeddedContainer: global::com.codename1.ui.Container {
 private global::java.lang.String _fembed;
 
-new public void @this(){
+public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EmbeddedContainer: void <init>()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
     ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
@@ -19,8 +22,11 @@ new public void @this(){
 
 public virtual global::System.Object getEmbed(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EmbeddedContainer: java.lang.String getEmbed()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.util.EmbeddedContainer) _r1_o)._fembed;
     return (global::java.lang.String) _r0_o;
@@ -29,8 +35,11 @@ public virtual global::System.Object getEmbed(){
 
 public virtual void setEmbed(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.EmbeddedContainer: void setEmbed(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.ui.util.EmbeddedContainer) _r0_o)._fembed = (global::java.lang.String) _r1_o;

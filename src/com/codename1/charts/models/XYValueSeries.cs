@@ -9,12 +9,17 @@ private double _fmMinValue;
 
 private double _fmMaxValue;
 
-new public void @this(global::java.lang.String n1){
+public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     ((global::com.codename1.charts.models.XYSeries) _r2_o).@this((global::java.lang.String) _r3_o);
@@ -31,12 +36,24 @@ new public void @this(global::java.lang.String n1){
 
 public virtual void add(double n1, double n2, double n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void add(double, double, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
@@ -72,9 +89,16 @@ public virtual void add(double n1, double n2, double n3){
 private void initRange(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void initRange()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r2.d = 0.0D;
     ((global::com.codename1.charts.models.XYValueSeries) _r4_o)._fmMinValue = _r2.d;
@@ -95,8 +119,16 @@ private void initRange(){
 private void updateRange(double n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void updateRange(double)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.d = n1;
     _r0.d = ((global::com.codename1.charts.models.XYValueSeries) _r2_o)._fmMinValue;
@@ -111,13 +143,30 @@ private void updateRange(double n1){
 
 public override void add(double n1, double n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void add(double, double)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8.d = n1;
@@ -152,10 +201,17 @@ public override void add(double n1, double n2){
 public override void remove(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void remove(int)]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5.i = n1;
@@ -164,6 +220,7 @@ public override void remove(int n1){
     base.remove((int) _r5.i);
     _r2_o = ((global::com.codename1.charts.models.XYValueSeries) _r4_o)._fmValue;
     _r2_o = ((global::java.util.List) _r2_o).remove((int) _r5.i);
+    _r2_o = _r2_o;
     _r0.d = ((global::java.lang.Double) _r2_o).doubleValue();
     _r2.d = ((global::com.codename1.charts.models.XYValueSeries) _r4_o)._fmMinValue;
     _r2.i = _r0.d > _r2.d ? 1 : (_r0.d == _r2.d ? 0 : -1);
@@ -207,7 +264,9 @@ public override void remove(int n1){
 
 public override void clear(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: void clear()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
@@ -241,8 +300,12 @@ public virtual double getValue(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: double getValue(int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
@@ -250,6 +313,7 @@ public virtual double getValue(int n1){
     try {
     _r0_o = ((global::com.codename1.charts.models.XYValueSeries) _r2_o)._fmValue;
     _r0_o = ((global::java.util.List) _r0_o).get((int) _r3.i);
+    _r0_o = _r0_o;
     _r0.d = ((global::java.lang.Double) _r0_o).doubleValue();
     }
     catch (global::System.Exception e) {
@@ -274,7 +338,12 @@ public virtual double getValue(int n1){
 public virtual double getMinValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: double getMinValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.models.XYValueSeries) _r2_o)._fmMinValue;
     return _r0.d;
@@ -284,7 +353,12 @@ public virtual double getMinValue(){
 public virtual double getMaxValue(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.charts.models.XYValueSeries: double getMaxValue()]
     global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.d = ((global::com.codename1.charts.models.XYValueSeries) _r2_o)._fmMaxValue;
     return _r0.d;

@@ -9,9 +9,13 @@ public global::com.codename1.ui.html.HTMLComponent _fhtmlC;
 
 public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLImageMap: void <init>(com.codename1.ui.html.HTMLComponent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
     ((global::com.codename1.ui.Button) _r1_o).@this();
@@ -27,17 +31,25 @@ public void @this(global::com.codename1.ui.html.HTMLComponent n1){
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.html.HTMLImageMap: void actionPerformed(com.codename1.ui.events.ActionEvent)]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
     _r8_o = n1;
     _r5_o = ((global::com.codename1.ui.html.HTMLImageMap) _r7_o)._fmapData;
@@ -56,6 +68,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r5.i = ((global::java.util.Enumeration) _r0_o).hasMoreElements() ? 1 : 0;
     if (_r5.i == 0) goto label77;
     _r2_o = ((global::java.util.Enumeration) _r0_o).nextElement();
+    _r2_o = _r2_o;
     _r5.i = ((global::com.codename1.ui.html.HTMLImageMap) _r7_o).getAbsoluteX();
     _r5.i = _r3.i - _r5.i;
     _r6.i = ((global::com.codename1.ui.html.HTMLImageMap) _r7_o).getAbsoluteY();
@@ -65,6 +78,7 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     _r5_o = ((global::com.codename1.ui.html.HTMLImageMap) _r7_o)._fmapData;
     _r5_o = ((global::com.codename1.ui.html.ImageMapData) _r5_o)._fareas;
     _r1_o = ((global::java.util.Hashtable) _r5_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
     if (_r1_o == null) goto label76;
     _r5_o = ((global::com.codename1.ui.html.HTMLImageMap) _r7_o)._fhtmlC;
     global::com.codename1.ui.html.HTMLLink.processLink((global::com.codename1.ui.html.HTMLComponent) _r5_o, (global::java.lang.String) _r1_o);
