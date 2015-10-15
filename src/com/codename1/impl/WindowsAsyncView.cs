@@ -165,9 +165,9 @@ namespace com.codename1.impl
                 return font;
             }
 
-            internal override void drawRect(int x, int y, int w, int h)
+            internal override void drawRect(int x, int y, int w, int h, int stroke)
             {
-                pendingRenderingOperations.Add(new DrawRectPainter(clip, x, y, w, h, color, alpha));
+                pendingRenderingOperations.Add(new DrawRectPainter(clip, x, y, w, h, stroke, color, alpha));
             }
 
             internal override void fillRect(int x, int y, int w, int h)
@@ -189,14 +189,19 @@ namespace com.codename1.impl
                 pendingRenderingOperations.Add(new FillRoundRectPainter(clip, x, y, w, h, color, alpha, arcW, arcH));
             }
 
-            internal override void drawArc(int x, int y, int w, int h, CanvasGeometry arc)
+            internal override void fillPolygon(int[] p1, int[] p2)
             {
-                pendingRenderingOperations.Add(new DrawArcPainter(clip, x, y, w, h, color, alpha, arc));
+                pendingRenderingOperations.Add(new FillPolygonPainter(clip, p1, p2, color, alpha));
             }
 
-            internal override void fillArc(int x, int y, int w, int h, CanvasGeometry arc)
+            internal override void drawArc(int x, int y, int w, int h, int startAngle, int arcAngle)
             {
-                pendingRenderingOperations.Add(new FillArcPainter(clip, x, y, w, h, color, alpha, arc));
+                pendingRenderingOperations.Add(new DrawArcPainter(clip, x, y, w, h, color, alpha, startAngle, arcAngle));
+            }
+
+            internal override void fillArc(int x, int y, int w, int h, int startAngle, int arcAngle)
+            {
+                pendingRenderingOperations.Add(new FillArcPainter(clip, x, y, w, h, color, alpha, startAngle, arcAngle));
             }
 
             internal override void drawString(string str, int x, int y)

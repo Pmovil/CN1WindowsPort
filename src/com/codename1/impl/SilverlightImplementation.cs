@@ -73,6 +73,7 @@ namespace com.codename1.impl
         private MediaCapture mediaCapture = new MediaCapture();
         public static IList<PointerPoint> points;
         public static int[] x, y;
+        int i = 0;
        
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
@@ -764,32 +765,134 @@ namespace com.codename1.impl
             return false;
         }
 
+        public override void fillLinearGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7, bool n8)
+        {
+            base.fillLinearGradient(n1, n2, n3, n4, n5, n6, n7, n8);
+        }
+
+        public override void fillRadialGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7)
+        {
+            base.fillRadialGradient(n1, n2, n3, n4, n5, n6, n7);
+        }
+
+        public override void fillRectRadialGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7, float n8, float n9, float n10)
+        {
+            base.fillRectRadialGradient(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);
+        }
+
+        public override void releaseImage(java.lang.Object n1)
+        {
+            CodenameOneImage ci = (CodenameOneImage)n1;
+            ci.image.Dispose();
+        }
+
+        public override int convertToPixels(int mm, bool horizontal)
+        {
+            // 55.5mm ~ 400dip
+            return screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round);
+        }
+
+        public override void fillTriangle(java.lang.Object graphics, int x1, int y1, int x2, int y2, int x3, int y3)
+        {
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.fillPolygon(new int[] { x1, x2, x3 }, new int[] { y1, y2, y3 });
+        }
+
+        public override void fillPolygon(java.lang.Object graphics, _nArrayAdapter<int> xPoints, _nArrayAdapter<int> yPoints, int nPoints)
+        {
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.fillPolygon(xPoints.getCSharpArray(), yPoints.getCSharpArray());
+        }
+
+        public override object flipImageHorizontally(ui.Image n1, bool n2)
+        {
+            return base.flipImageHorizontally(n1, n2);
+        }
+
+        public override object flipImageVertically(ui.Image n1, bool n2)
+        {
+            return base.flipImageVertically(n1, n2);
+        }
+
+        public override bool isTransformSupported()
+        {
+            return base.isTransformSupported();
+        }
+
+        public override bool isTransformSupported(java.lang.Object n1)
+        {
+            return base.isTransformSupported(n1);
+        }
+
+        public override bool isTranslationSupported()
+        {
+            return base.isTranslationSupported();
+        }
+
+        public override void rotate(java.lang.Object n1, float n2)
+        {
+            base.rotate(n1, n2);
+        }
+
+        public override void rotate(java.lang.Object n1, float n2, int n3, int n4)
+        {
+            base.rotate(n1, n2, n3, n4);
+        }
+
+        public override object rotate180Degrees(ui.Image n1, bool n2)
+        {
+            return base.rotate180Degrees(n1, n2);
+        }
+
+        public override object rotate270Degrees(ui.Image n1, bool n2)
+        {
+            return base.rotate270Degrees(n1, n2);
+        }
+
+        public override object rotate90Degrees(ui.Image n1, bool n2)
+        {
+            return base.rotate90Degrees(n1, n2);
+        }
+
+        public override void scale(java.lang.Object n1, float n2, float n3)
+        {
+            base.scale(n1, n2, n3);
+        }
+
+        public override void setTransform(java.lang.Object n1, ui.Transform n2)
+        {
+            base.setTransform(n1, n2);
+        }
+
+        public override void translate(java.lang.Object n1, int n2, int n3)
+        {
+            base.translate(n1, n2, n3);
+        }
+
+        public override void setAntiAliased(java.lang.Object n1, bool n2)
+        { 
+            base.setAntiAliased(n1, n2);
+        }
+
+        public override bool isRotationDrawingSupported()
+        {
+            return false;
+        }
+ 
         public override object createImage(_nArrayAdapter<int> n1, int n2, int n3)
         {
-            CodenameOneImage ci = new CodenameOneImage();
-            ci.@this();
+            CodenameOneImage ci = (CodenameOneImage)createMutableImage(n2, n3, 0);
             byte[] buf = new byte[n1.Length * 4];
             for (int pos = 0; pos < n1.Length; pos++)
             {
                 buf[4 * pos] = (byte)(n1[pos] & 0xff);
                 buf[4 * pos + 1] = (byte)((n1[pos] >> 8) & 0xff);
                 buf[4 * pos + 2] = (byte)((n1[pos] >> 16) & 0xff);
-                buf[4 * pos + 3] = (byte)(0xff); // no alpha
-                //                buf[4 * pos + 3] = (byte)((n1[pos] >> 24) & 0xff);
+                buf[4 * pos + 3] = (byte)((n1[pos] >> 24) & 0xff);
             }
-            // no alpha
-            ci.opaque = true;
             // TODO - verify if pixelFormat below is the correct one
             CanvasBitmap cb = CanvasBitmap.CreateFromBytes(screen, buf, n2, n3, pixelFormat);
-            CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cb.Size.Width, (float)cb.Size.Height, cb.Dpi);
-            using (var ds = cr.CreateDrawingSession())
-            {
-                ds.Clear(Colors.White);
-                // ds.DrawImage();
-            }
-            ci.image = cr;
             ci.graphics.destination.drawImage(cb, 0, 0);
-
             return ci;
         }
 
@@ -1354,12 +1457,11 @@ namespace com.codename1.impl
         {
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
-            ci.setSize(width, height);
-            CanvasRenderTarget cr = new CanvasRenderTarget(screen, screen.ConvertPixelsToDips(width), screen.ConvertPixelsToDips(height), screen.Dpi);
-            ci.image = cr;
-            ci.graphics.destination.setAlpha(0xff);
+            ci.mutable = true;
+            ci.image = new CanvasRenderTarget(screen, screen.ConvertPixelsToDips(width), screen.ConvertPixelsToDips(height));
             ci.graphics.destination.setColor(color);
-            ci.graphics.destination.clear();
+            ci.graphics.destination.setAlpha((color >> 24) & 0xff);
+            //ci.graphics.destination.clear();
             return ci;
         }
 
@@ -1562,9 +1664,13 @@ namespace com.codename1.impl
         public override void drawRect(java.lang.Object graphics, int x, int y, int w, int h)
         {
 
+            drawRect(graphics, x, y, w, h, 1);
+        }
+
+        public override void drawRect(java.lang.Object graphics, int x, int y, int w, int h, int stroke)
+        {
             NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawRect(x, y, w, h);
-            // Debug.WriteLine("drawRect " + x + " " + y + " " + w + " " + h);
+            ng.destination.drawRect(x, y, w, h, stroke);
         }
 
         public override void drawRoundRect(java.lang.Object graphics, int x, int y, int w, int h, int arcW, int arcH)
@@ -1583,16 +1689,14 @@ namespace com.codename1.impl
 
         public override void fillArc(java.lang.Object graphics, int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            // Debug.WriteLine("fillArc " + x + " " + y + " " + w + " " + h + " " + startAngle + " " + arcAngle);
             NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillArc(x, y, w, h, null); // TODO
+            ng.destination.fillArc(x, y, w, h, startAngle, arcAngle);
         }
 
         public override void drawArc(java.lang.Object graphics, int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            //Debug.WriteLine("drawArc " + x + " " + y + " " + w + " " + h + " " + startAngle + " " + arcAngle);
             NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawArc(x, y, w, h, null); // TODO
+            ng.destination.drawArc(x, y, w, h, startAngle, arcAngle);
         }
 
         public override void drawString(java.lang.Object graphics, java.lang.String str, int x, int y)
@@ -2404,6 +2508,7 @@ namespace com.codename1.impl
         public long lastAccess = System.DateTime.Now.Ticks;
         public string name;
         public bool opaque = false;
+        public bool mutable = false;
         private CanvasRenderTarget actualImage;
         public CanvasRenderTarget image
         {
@@ -2413,8 +2518,14 @@ namespace com.codename1.impl
                 actualImage = value;
                 width = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Width));
                 height = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Height));
-                graphics.destination = new WindowsGraphics(value.CreateDrawingSession());
-
+                if (mutable)
+                {
+                    graphics.destination = new WindowsMutableGraphics(value);
+                }
+                else
+                {
+                    graphics.destination = new WindowsGraphics(value.CreateDrawingSession());
+                }
             }
 
             get { return actualImage; }

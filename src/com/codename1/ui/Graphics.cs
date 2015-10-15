@@ -2450,9 +2450,7 @@ public virtual bool isAffineSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Graphics: boolean isAffineSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Graphics) _r1_o)._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isAffineSupported() ? 1 : 0;
@@ -2462,15 +2460,10 @@ public virtual bool isAffineSupported(){
 
 public virtual void resetAffine(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Graphics: void resetAffine()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r2.f = (float)1.0D;
     _r0_o = ((global::com.codename1.ui.Graphics) _r3_o)._fimpl;
@@ -2484,9 +2477,7 @@ public virtual void resetAffine(){
 
 public virtual void scale(float n1, float n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Graphics: void scale(float, float)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
