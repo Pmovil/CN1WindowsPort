@@ -233,6 +233,15 @@ namespace com.codename1.impl
             {
                 pendingRenderingOperations.Add(new ClearColorPainter(clip, color, alpha));
             }
+
+            internal override void fillLinearGradient(int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
+            {
+                pendingRenderingOperations.Add(new FillLinearGradientPainter(clip, startColor, endColor, x, y, width, height, horizontal));
+            }
+            internal override void fillRadialGradient(int startColor, int endColor, int x, int y, int width, int height)
+            {
+                pendingRenderingOperations.Add(new FillRadialGradientPainter(clip, startColor, endColor, x, y, width, height));
+            }
         }
     }
 }

@@ -759,19 +759,28 @@ namespace com.codename1.impl
             return false;
         }
 
-        public override void fillLinearGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7, bool n8)
+        public override void fillLinearGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
         {
-            base.fillLinearGradient(n1, n2, n3, n4, n5, n6, n7, n8);
+
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.fillLinearGradient(startColor, endColor, x, y, width, height, horizontal);
         }
 
-        public override void fillRadialGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7)
+        public override void fillRadialGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height)
         {
-            base.fillRadialGradient(n1, n2, n3, n4, n5, n6, n7);
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.fillRadialGradient(endColor, startColor, x, y, width, height); // win2d start and end color are inverted
         }
 
-        public override void fillRectRadialGradient(java.lang.Object n1, int n2, int n3, int n4, int n5, int n6, int n7, float n8, float n9, float n10)
+        public override void fillRectRadialGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, float relativeX, float relativeY, float relativeSize)
         {
-            base.fillRectRadialGradient(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);
+            int centerX = (int)(width * (1 - relativeX));
+            int centerY = (int)(height * (1 - relativeY));
+            int size = (int)(Math.Min(width, height) * relativeSize);
+            int x2 = (int)(width / 2 - (size * relativeX));
+            int y2 = (int)(height / 2 - (size * relativeY));
+            NativeGraphics ng = (NativeGraphics)graphics;
+            ng.destination.fillRadialGradient(endColor, startColor, x + x2, y + y2, size, size); // win2d start and end color are inverted
         }
 
         public override void releaseImage(java.lang.Object n1)
@@ -1552,7 +1561,6 @@ namespace com.codename1.impl
 
         public override void setColor(java.lang.Object graphics, int RGB)
         {
-            // Debug.WriteLine("setColor " + RGB);
             try
             {
 

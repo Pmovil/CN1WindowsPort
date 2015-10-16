@@ -213,5 +213,54 @@ namespace com.codename1.impl
         {
             return c.A;
         }
+
+        internal virtual void fillLinearGradient( int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
+        {
+            var starcolor = new Color() { A = (byte)(0xff), B = (byte)(startColor & 0xff), G = (byte)((startColor >> 8) & 0xff), R = (byte)((startColor >> 16) & 0xff) };
+            var endcolor = new Color() { A = (byte)(0xff), B = (byte)(endColor & 0xff), G = (byte)((endColor >> 8) & 0xff), R = (byte)((endColor >> 16) & 0xff) };
+
+            CanvasLinearGradientBrush brush = new CanvasLinearGradientBrush(graphics, starcolor, endcolor);
+            brush.StartPoint = new Vector2()
+            {
+                X = x,
+                Y = y,
+            };
+            if (horizontal)
+            {
+                brush.EndPoint = new Vector2()
+                {
+                    X = x + width,
+                    Y = y,
+                };
+            }
+            else
+            {
+                brush.EndPoint = new Vector2()
+                {
+                    X = x,
+                    Y = y + height,
+                };
+            }
+            graphics.FillRectangle(x, y, width, height, brush);
+        }
+
+        internal virtual void fillRadialGradient(int startColor, int endColor, int x, int y, int width, int height)
+        {
+            var startcolor = new Color() { A = (byte)(0xff), B = (byte)(startColor & 0xff), G = (byte)((startColor >> 8) & 0xff), R = (byte)((startColor >> 16) & 0xff) };
+            var endcolor = new Color() { A = (byte)(0xff), B = (byte)(endColor & 0xff), G = (byte)((endColor >> 8) & 0xff), R = (byte)((endColor >> 16) & 0xff) };
+
+            CanvasRadialGradientBrush brush = new CanvasRadialGradientBrush(graphics, startcolor, endcolor);
+            brush.Center = new Vector2()
+            {
+                X =  x + width / 2,
+                Y =  y + height/ 2,
+            };
+            brush.RadiusX = width / 2;
+            brush.RadiusY = height / 2;
+
+            graphics.FillRectangle(x, y, width, height, brush);
+            
+        }
+
     }
 }

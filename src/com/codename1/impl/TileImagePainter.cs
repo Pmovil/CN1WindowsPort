@@ -18,7 +18,6 @@ namespace com.codename1.impl
 
         public TileImagePainter(Rectangle clip, Microsoft.Graphics.Canvas.CanvasBitmap canvasBitmap, int x, int y, int w, int h, int alpha) : base(clip)
         {
-            // TODO: Complete member initialization
             this.clip = clip;
             this.canvasBitmap = canvasBitmap;
             this.x = x;
