@@ -2226,11 +2226,12 @@ namespace com.codename1.impl
         }
         public override global::System.Object listStorageEntries()
         {
-            IReadOnlyList<StorageFile> filesInFolder = store.GetFilesAsync().AsTask().GetAwaiter().GetResult();
+            IReadOnlyList<StorageFile> filesInFolder = store.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+
             string[] ss = new string[filesInFolder.Count];
             for (int i = 0; i < filesInFolder.Count; i++)
             {
-                ss[i] = filesInFolder.ElementAt(i).DisplayName;
+                ss[i] = filesInFolder.ElementAt(i).Name;
             }
             return convertArray(ss);
         }
@@ -2264,12 +2265,12 @@ namespace com.codename1.impl
         }
         public override object listFiles(java.lang.String directory)
         {
-            string[] dirnames = null;
+           
             IReadOnlyList<StorageFolder> directoryNames = store.GetFoldersAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-
+            string[] dirnames = new string[directoryNames.Count];
             for (int i = 0; i < directoryNames.Count; i++)
             {
-                dirnames[i] = directoryNames.ToString();
+                dirnames[i] = directoryNames.ElementAt(i).Name;
             }
             for (int N = dirnames.Length, i = 0; i < N; i++)
             {
@@ -2279,11 +2280,12 @@ namespace com.codename1.impl
                 }
             }
             //string[] filenames = await store.GetFileNames(nativePath(directory) + "\\*.*");
-            string[] filenames = null;
+            
             IReadOnlyList<StorageFile> fileNames = store.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            string[] filenames = new string[fileNames.Count];
             for (int i = 0; i < fileNames.Count; i++)
             {
-                filenames[i] = fileNames.ToString();
+                filenames[i] = fileNames.ElementAt(i).Name;
             }
             string[] all = new string[dirnames.Length + filenames.Length];
             dirnames.CopyTo(all, 0);
