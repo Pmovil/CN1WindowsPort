@@ -49,7 +49,7 @@ using Windows.ApplicationModel.Store;
 using System.Collections.Concurrent;
 using System.Numerics;
 using Windows.System;
-
+using Windows.ApplicationModel.Activation;
 
 namespace com.codename1.impl
 {
@@ -3554,4 +3554,17 @@ new         public void @this()
             { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
         };
     }
+    /// <summary>
+    /// Implement this interface if your page invokes the file open picker
+    /// API.
+    /// </summary>
+    interface IFileOpenPickerContinuable
+    {
+        /// <summary>
+        /// This method is invoked when the file open picker returns picked
+        /// files
+        /// </summary>
+        /// <param name="args">Activated event args object that contains returned files from file open picker</param>
+        void ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args);
+    }  	
 } // end of namespace: com.codename1.impl
