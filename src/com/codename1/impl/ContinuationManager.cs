@@ -8,6 +8,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 #if WINDOWS_PHONE_APP
+
 /// <summary>
 /// ContinuationManager is used to detect if the most recent activation was due
 /// to a continuation such as the FileOpenPicker or WebAuthenticationBroker

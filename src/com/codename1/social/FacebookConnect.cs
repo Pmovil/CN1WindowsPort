@@ -14,12 +14,8 @@ public void @this(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     ((global::com.codename1.social.Login) _r3_o).@this();
     _r0.i = 3;
@@ -50,9 +46,7 @@ public void @this(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: com.codename1.social.FacebookConnect getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = global::com.codename1.social.FacebookConnect._finstance;
@@ -81,12 +75,12 @@ public static global::System.Object getInstance(){
     _r1_o = _ex.getJavaException();
     _ex = null;
     _r0_o = _r1_o;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;
     label31:;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;
@@ -96,10 +90,7 @@ public static global::System.Object getInstance(){
 public virtual bool isFacebookSDKSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isFacebookSDKSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -108,13 +99,9 @@ public virtual bool isFacebookSDKSupported(){
 
 public virtual void login(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void login()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native facebook unsupported
@@ -128,10 +115,7 @@ public virtual void login(){
 public override void doLogout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void doLogout()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     base.doLogout();
     _r0.i = ((global::com.codename1.social.FacebookConnect) _r1_o).isNativeLoginSupported() ? 1 : 0;
@@ -144,17 +128,11 @@ public override void doLogout(){
 
 public override global::System.Object getAccessToken(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: com.codename1.io.AccessToken getAccessToken()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r0_o = base.getAccessToken();
     if (_r0_o == null) goto label8;
@@ -172,13 +150,9 @@ public override global::System.Object getAccessToken(){
 
 public virtual bool isLoggedIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isLoggedIn()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native facebook unsupported, if you are running on the Simulator use isUserLoggedIn
@@ -191,13 +165,9 @@ public virtual bool isLoggedIn(){
 
 public virtual global::System.Object getToken(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: java.lang.String getToken()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native facebook unsupported, if you are running on the Simulator use getAccessToken
@@ -210,13 +180,9 @@ public virtual global::System.Object getToken(){
 
 public virtual void logout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void logout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native facebook unsupported, if you are running on the Simulator use doLogout
@@ -229,15 +195,10 @@ public virtual void logout(){
 
 public virtual void askPublishPermissions(global::com.codename1.social.LoginCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void askPublishPermissions(com.codename1.social.LoginCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
     _r0_o = new global::java.lang.RuntimeException();
@@ -251,13 +212,9 @@ public virtual void askPublishPermissions(global::com.codename1.social.LoginCall
 
 public virtual bool hasPublishPermissions(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean hasPublishPermissions()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native facebook unsupported
@@ -271,10 +228,7 @@ public virtual bool hasPublishPermissions(){
 public override bool isNativeLoginSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isNativeLoginSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.social.FacebookConnect) _r1_o).isFacebookSDKSupported() ? 1 : 0;
     return _r0.i!=0;
@@ -283,11 +237,8 @@ public override bool isNativeLoginSupported(){
 
 public override global::System.Object createOauth2(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: com.codename1.io.Oauth2 createOauth2()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.social.FacebookConnect) _r1_o)._fclientId;
     global::com.codename1.facebook.FaceBookAccess.setClientId((global::java.lang.String) _r0_o);
@@ -305,9 +256,7 @@ public override global::System.Object createOauth2(){
 
 public override void nativelogin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void nativelogin()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.social.FacebookConnect) _r0_o).login();
     return;
@@ -316,9 +265,7 @@ public override void nativelogin(){
 
 public override void nativeLogout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void nativeLogout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     ((global::com.codename1.social.FacebookConnect) _r0_o).logout();
     return;
@@ -328,10 +275,7 @@ public override void nativeLogout(){
 public override bool nativeIsLoggedIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean nativeIsLoggedIn()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.social.FacebookConnect) _r1_o).isLoggedIn() ? 1 : 0;
     return _r0.i!=0;
@@ -340,13 +284,9 @@ public override bool nativeIsLoggedIn(){
 
 public virtual void inviteFriends(global::java.lang.String n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void inviteFriends(java.lang.String, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -356,15 +296,10 @@ public virtual void inviteFriends(global::java.lang.String n1, global::java.lang
 
 public virtual void inviteFriends(global::java.lang.String n1, global::java.lang.String n2, global::com.codename1.util.Callback n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: void inviteFriends(java.lang.String, java.lang.String, com.codename1.util.Callback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
@@ -376,10 +311,7 @@ public virtual void inviteFriends(global::java.lang.String n1, global::java.lang
 public virtual bool isInviteFriendsSupported(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isInviteFriendsSupported()]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = 0;
     return _r0.i!=0;
@@ -388,19 +320,13 @@ public virtual bool isInviteFriendsSupported(){
 
 public override bool validateToken(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean validateToken(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     _r5_o = n1;
     _r2.i = 1;

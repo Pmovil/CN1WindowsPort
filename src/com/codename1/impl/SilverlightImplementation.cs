@@ -730,7 +730,10 @@ namespace com.codename1.impl
                 ((CodenameOneImage)n1).name = toCSharp(n2);
             }
         }
-
+        public override void clipRect(java.lang.Object n1, Rectangle n2)
+        {
+            base.clipRect(n1, n2);
+        }
         public override object rotate(java.lang.Object img, int degrees)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
@@ -758,7 +761,7 @@ namespace com.codename1.impl
         {
             return false;
         }
-
+       
         public override void fillLinearGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
         {
 
@@ -831,7 +834,10 @@ namespace com.codename1.impl
         {
             return base.isTranslationSupported();
         }
-
+        public override float getDragSpeed(_nArrayAdapter<float> n1, _nArrayAdapter<long> n2, int n3, int n4)
+        {
+            return base.getDragSpeed(n1, n2, n3, n4);
+        }
         public override void rotate(java.lang.Object n1, float n2)
         {
             base.rotate(n1, n2);

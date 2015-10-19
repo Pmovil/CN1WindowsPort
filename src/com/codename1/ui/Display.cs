@@ -345,7 +345,6 @@ private void @this(){
 public static void init(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void init(java.lang.Object)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
@@ -355,10 +354,7 @@ public static void init(global::java.lang.Object n1){
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r6_o = n1;
     _r5.i = 0;
     _r4.i = 1;
@@ -524,7 +520,6 @@ public static void init(global::java.lang.Object n1){
 
 public static void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void deinitialize()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
@@ -572,7 +567,6 @@ public static bool isInitialized(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: boolean isInitialized()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display._fINSTANCE;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fcodenameOneRunning ? 1 : 0;
     if (_r0.i == 0) goto label12;
@@ -595,9 +589,7 @@ public static bool isInitialized(){
 
 public static global::System.Object getInstance(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: com.codename1.ui.Display getInstance()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Display._fINSTANCE;
     return (global::com.codename1.ui.Display) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.ui.Display getInstance()]
@@ -607,9 +599,7 @@ public virtual int getDragStartPercentage(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: int getDragStartPercentage()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getDragStartPercentage();
@@ -619,13 +609,9 @@ public virtual int getDragStartPercentage(){
 
 public virtual void setDragStartPercentage(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void setDragStartPercentage(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
@@ -636,11 +622,8 @@ public virtual void setDragStartPercentage(int n1){
 
 public virtual global::System.Object getImplementation(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: com.codename1.impl.CodenameOneImplementation getImplementation()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
     return (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
@@ -650,12 +633,8 @@ public virtual global::System.Object getImplementation(){
 public virtual void setFramerate(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void setFramerate(int)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0.i = 1000;
@@ -667,13 +646,9 @@ public virtual void setFramerate(int n1){
 
 public virtual void vibrate(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void vibrate(int)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
     _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
