@@ -2220,11 +2220,11 @@ namespace com.codename1.impl
         }
         public override global::System.Object listStorageEntries()
         {
-            IReadOnlyList<StorageFile> file = store.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            string[] ss = null;
-            for (int i = 0; i < file.Count; i++)
+            IReadOnlyList<StorageFile> filesInFolder = store.GetFilesAsync().AsTask().GetAwaiter().GetResult();
+            string[] ss = new string[filesInFolder.Count];
+            for (int i = 0; i < filesInFolder.Count; i++)
             {
-                ss[i] = file.ToString();
+                ss[i] = filesInFolder.ElementAt(i).DisplayName;
             }
             return convertArray(ss);
         }
