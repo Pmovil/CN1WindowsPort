@@ -3,33 +3,23 @@
 using org.xmlvm;
 namespace com.codename1.social {
 public abstract class Login: global::java.lang.Object {
+
 public global::com.codename1.social.LoginCallback _fcallback;
-
 private global::com.codename1.social.LoginCallback _floginCallback;
-
 private bool _fcallbackEnabled;
-
 private global::java.lang.String _fvalidateErr;
-
 private global::com.codename1.io.AccessToken _ftoken;
-
 public global::java.lang.String _foauth2URL;
-
 public global::java.lang.String _fclientId;
-
 public global::java.lang.String _fredirectURI;
-
 public global::java.lang.String _fclientSecret;
-
 public global::java.lang.String _fscope;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void <init>()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
     _r0_o = new global::com.codename1.social.Login_2LoginCallBackProxy();
@@ -45,15 +35,11 @@ public void @this(){
 
 public virtual void doLogin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void doLogin()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1.i = ((global::com.codename1.social.Login) _r3_o).isNativeLoginSupported() ? 1 : 0;
     if (_r1.i == 0) goto label10;
@@ -109,11 +95,8 @@ public virtual void doLogout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void doLogout()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0.i = ((global::com.codename1.social.Login) _r2_o).isNativeLoginSupported() ? 1 : 0;
     if (_r0.i == 0) goto label40;
@@ -142,9 +125,7 @@ public virtual bool isUserLoggedIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: boolean isUserLoggedIn()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0.i = ((global::com.codename1.social.Login) _r1_o).isNativeLoginSupported() ? 1 : 0;
     if (_r0.i == 0) goto label11;
@@ -164,13 +145,9 @@ public virtual bool isUserLoggedIn(){
 
 public virtual bool nativeIsLoggedIn(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: boolean nativeIsLoggedIn()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native isLoggedIn not implemented
@@ -183,13 +160,9 @@ public virtual bool nativeIsLoggedIn(){
 
 public virtual void nativelogin(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void nativelogin()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native login not implemented
@@ -202,13 +175,9 @@ public virtual void nativelogin(){
 
 public virtual void nativeLogout(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void nativeLogout()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r0_o = new global::java.lang.RuntimeException();
     // Value=Native logout not implemented
@@ -223,11 +192,8 @@ public abstract bool isNativeLoginSupported();
 
 public virtual global::System.Object getAccessToken(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: com.codename1.io.AccessToken getAccessToken()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.social.Login) _r1_o)._ftoken;
     return (global::com.codename1.io.AccessToken) _r0_o;
@@ -236,15 +202,11 @@ public virtual global::System.Object getAccessToken(){
 
 public virtual void validateToken(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void validateToken()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r1_o).@this();
@@ -290,11 +252,8 @@ public abstract bool validateToken(global::java.lang.String n1);
 
 public virtual void setAccessToken(global::com.codename1.io.AccessToken n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setAccessToken(com.codename1.io.AccessToken)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._ftoken = (global::com.codename1.io.AccessToken) _r1_o;
@@ -304,11 +263,8 @@ public virtual void setAccessToken(global::com.codename1.io.AccessToken n1){
 
 public virtual void setCallback(global::com.codename1.social.LoginCallback n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setCallback(com.codename1.social.LoginCallback)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._floginCallback = (global::com.codename1.social.LoginCallback) _r1_o;
@@ -318,11 +274,8 @@ public virtual void setCallback(global::com.codename1.social.LoginCallback n1){
 
 public virtual void setClientId(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setClientId(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._fclientId = (global::java.lang.String) _r1_o;
@@ -332,11 +285,8 @@ public virtual void setClientId(global::java.lang.String n1){
 
 public virtual void setClientSecret(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setClientSecret(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._fclientSecret = (global::java.lang.String) _r1_o;
@@ -346,11 +296,8 @@ public virtual void setClientSecret(global::java.lang.String n1){
 
 public virtual void setRedirectURI(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setRedirectURI(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._fredirectURI = (global::java.lang.String) _r1_o;
@@ -360,11 +307,8 @@ public virtual void setRedirectURI(global::java.lang.String n1){
 
 public virtual void setScope(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setScope(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._fscope = (global::java.lang.String) _r1_o;
@@ -374,11 +318,8 @@ public virtual void setScope(global::java.lang.String n1){
 
 public virtual void setOauth2URL(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: void setOauth2URL(java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1_o = n1;
     ((global::com.codename1.social.Login) _r0_o)._foauth2URL = (global::java.lang.String) _r1_o;
@@ -388,19 +329,12 @@ public virtual void setOauth2URL(global::java.lang.String n1){
 
 public virtual global::System.Object createOauth2(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: com.codename1.io.Oauth2 createOauth2()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r0_o = new global::com.codename1.io.Oauth2();
     _r1_o = ((global::com.codename1.social.Login) _r5_o)._foauth2URL;
@@ -415,10 +349,7 @@ public virtual global::System.Object createOauth2(){
 public static bool access_2000(global::com.codename1.social.Login n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: boolean access$000(com.codename1.social.Login)]
     global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0.i = ((global::com.codename1.social.Login) _r1_o)._fcallbackEnabled ? 1 : 0;
     return _r0.i!=0;
@@ -427,11 +358,8 @@ public static bool access_2000(global::com.codename1.social.Login n1){
 
 public static global::System.Object access_2100(global::com.codename1.social.Login n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: com.codename1.social.LoginCallback access$100(com.codename1.social.Login)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
     _r0_o = ((global::com.codename1.social.Login) _r1_o)._floginCallback;
     return (global::com.codename1.social.LoginCallback) _r0_o;
@@ -440,11 +368,8 @@ public static global::System.Object access_2100(global::com.codename1.social.Log
 
 public static bool access_2002(global::com.codename1.social.Login n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: boolean access$002(com.codename1.social.Login, boolean)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1.i = n2 ? 1 : 0;
     ((global::com.codename1.social.Login) _r0_o)._fcallbackEnabled = 0!=_r1.i;
@@ -454,11 +379,8 @@ public static bool access_2002(global::com.codename1.social.Login n1, bool n2){
 
 public static global::System.Object access_2202(global::com.codename1.social.Login n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.social.Login: java.lang.String access$202(com.codename1.social.Login, java.lang.String)]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = n1;
     _r1_o = n2;
     ((global::com.codename1.social.Login) _r0_o)._fvalidateErr = (global::java.lang.String) _r1_o;

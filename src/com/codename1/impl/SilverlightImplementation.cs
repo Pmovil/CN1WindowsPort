@@ -60,12 +60,14 @@ namespace com.codename1.impl
         public static SilverlightImplementation instance;
         public static Canvas cl;
         private int displayWidth = -1, displayHeight = -1;
+        private CanvasTextFormat defaulFontCanvas;
         private NativeFont defaultFont;
         public com.codename1.ui.TextArea currentlyEditing;
         public static Control textInputInstance;
         public static Page app;
         public static CanvasControl screen;
         public static double scaleFactor = 1;
+        private static float logicalDpi = 0;
         public static CoreDispatcher dispatcher;
         public static StorageFolder store;
         private static Windows.UI.Xaml.Controls.Image imagePreveiw = new Windows.UI.Xaml.Controls.Image();
@@ -80,6 +82,7 @@ namespace com.codename1.impl
             cl = LayoutRoot;
             app = page;
             scaleFactor = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
+            logicalDpi = DisplayInformation.GetForCurrentView().LogicalDpi;
             screen = new CanvasControl();
             cl.Children.Add(screen);
             screen.Width = cl.ActualWidth * scaleFactor;
@@ -238,7 +241,15 @@ namespace com.codename1.impl
         {
             return true;
         }
-
+        public override void drawImageArea(java.lang.Object n1, java.lang.Object n2, int n3, int n4, int n5, int n6, int n7, int n8)
+        {
+            base.drawImageArea(n1, n2, n3, n4, n5, n6, n7, n8);
+        }
+        public override void drawPolygon(java.lang.Object n1, _nArrayAdapter<int> n2, _nArrayAdapter<int> n3, int n4)
+        {
+            base.drawPolygon(n1, n2, n3, n4);
+        }
+ 
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
 
@@ -730,7 +741,10 @@ namespace com.codename1.impl
                 ((CodenameOneImage)n1).name = toCSharp(n2);
             }
         }
-
+        public override void clipRect(java.lang.Object n1, Rectangle n2)
+        {
+            base.clipRect(n1, n2);
+        }
         public override object rotate(java.lang.Object img, int degrees)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
@@ -758,7 +772,7 @@ namespace com.codename1.impl
         {
             return false;
         }
-
+       
         public override void fillLinearGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
         {
 
@@ -831,7 +845,10 @@ namespace com.codename1.impl
         {
             return base.isTranslationSupported();
         }
-
+        public override float getDragSpeed(_nArrayAdapter<float> n1, _nArrayAdapter<long> n2, int n3, int n4)
+        {
+            return base.getDragSpeed(n1, n2, n3, n4);
+        }
         public override void rotate(java.lang.Object n1, float n2)
         {
             base.rotate(n1, n2);
@@ -1512,7 +1529,6 @@ namespace com.codename1.impl
             ci.graphics.destination.dispose();
             return ci;
         }
-    
 
         public override int getSoftkeyCount()
         {
@@ -1600,6 +1616,21 @@ namespace com.codename1.impl
             ((NativeGraphics)graphics).font = f;
         }
 
+    
+        public override bool isBaselineTextSupported()
+        {
+ 	      return true;
+        }
+        public override int getFontAscent(java.lang.Object nativeFont)
+        {
+            CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
+            return (int)-Math.Round(font.FontSize);
+        }
+        public override int getFontDescent(java.lang.Object nativeFont)
+        {
+            CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
+            return (int)Math.Abs(Math.Round(font.FontSize));
+        }
         public override int getClipX(java.lang.Object graphics)
         {
             return ((NativeGraphics)graphics).getClipX();
@@ -1766,7 +1797,7 @@ namespace com.codename1.impl
             s.@this(n2, n3, n4);
             return stringWidth(n1, s);
         }
-
+    
         public override int stringWidth(java.lang.Object n1, java.lang.String n2)
         {
             NativeFont font = f(n1);
@@ -2400,6 +2431,7 @@ namespace com.codename1.impl
         public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
         private NativeGraphics globalGraphics;
         private Windows.Foundation.Point point;
+       
 
         public override object getImageIO()
         {
@@ -2575,25 +2607,8 @@ new         public void @this()
             {
                 if (actualHeight < 0)
                 {
-                    //CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, "Mg", font, 0.0f, 0.0f);
-                    //actualHeight = SilverlightImplementation.screen.ConvertDipsToPixels((float)Math.Ceiling(fontLayout.DrawBounds.Height));
-                    //Debug.WriteLine("height (dips): " + fontLayout.DrawBounds.Height);
-                    //Debug.WriteLine("height (pixels): " + actualHeight);
-
-                    using (AutoResetEvent are = new AutoResetEvent(false))
-                    {
-                        SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                        {
-                            TextBlock tb = new TextBlock();
-                            tb.FontSize = font.FontSize;
-                            tb.Text = "Mg";
-                            tb.Measure(new Size(1000000, 1000000));
-                            actualHeight = Convert.ToInt32(Math.Ceiling(tb.ActualHeight));
-                            //Debug.WriteLine("height (tb): " + tb.ActualHeight);
-                            are.Set();
-                        }).AsTask().ConfigureAwait(false).GetAwaiter();
-                        are.WaitOne();
-                    }
+                    CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, "Mg", font, 0.0f, 0.0f);
+                    actualHeight = Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Height));
                 }
                 return actualHeight;
             }
@@ -2636,7 +2651,7 @@ new         public void @this()
         internal int getStringWidth(string str)
         {
             CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, 0.0f, 0.0f);
-            return Convert.ToInt32(Math.Ceiling(fontLayout.DrawBounds.Width));
+            return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width));
         }
     }
 
