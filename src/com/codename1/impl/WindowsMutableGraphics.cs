@@ -20,7 +20,6 @@ namespace com.codename1.impl
         internal override void setClip(ui.geom.Rectangle clip)
         {
             this.clip = clip;
-            //base.setClip(clip); // TODO
         }
 
         internal override void fillRect(int x, int y, int w, int h)
@@ -113,8 +112,8 @@ namespace com.codename1.impl
         internal override void drawRect(int x, int y, int w, int h, int stroke)
         {
             setGraphics(canvas.CreateDrawingSession());
-            base.drawRect(x, y, w, h, stroke);
             base.setClip(clip);
+            base.drawRect(x, y, w, h, stroke);
             base.removeClip();
             dispose();
         }
