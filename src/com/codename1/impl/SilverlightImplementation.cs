@@ -76,8 +76,8 @@ namespace com.codename1.impl
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
-                    
-            store = ApplicationData.Current.LocalCacheFolder;
+
+            store = ApplicationData.Current.LocalFolder; // LocalCacheFolder;
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
             app = page;
@@ -1782,7 +1782,7 @@ namespace com.codename1.impl
         public override object getNativeGraphics(java.lang.Object img)
         {
             CodenameOneImage image = (CodenameOneImage)img;
-            if (image.graphics == null)
+            if (image.graphics == null||image.graphics.destination.isDisposed())
             {
                 image.image = new CanvasRenderTarget(screen, image.getImageWidth(), image.getImageHeight(), screen.Dpi);
             }
@@ -2079,7 +2079,7 @@ namespace com.codename1.impl
         {
             if (connection is java.lang.String)
             {
-                Stream s = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).GetAwaiter().GetResult();
+                Stream s = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection),CreationCollisionOption.OpenIfExists)).GetAwaiter().GetResult();
                 return new OutputStreamProxy(s);
             }
             NetworkOperation n = (NetworkOperation)connection;
@@ -2092,7 +2092,7 @@ namespace com.codename1.impl
 
             if (connection is java.lang.String)
             {
-                Stream stream = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).ConfigureAwait(false).GetAwaiter().GetResult();
+                Stream stream = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection), CreationCollisionOption.OpenIfExists)).ConfigureAwait(false).GetAwaiter().GetResult();
                 stream.Seek(offset, SeekOrigin.Current);
                 return new OutputStreamProxy(stream);
             }
@@ -2199,8 +2199,9 @@ namespace com.codename1.impl
 
         public override int getStorageEntrySize(java.lang.String name)
         {
-            StorageFile s = store.GetFileAsync(nativePath(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
-            if (s.Name != nativePath(name))
+            string f = nativePath(name);
+            StorageFile s = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
+            if (s == null) //.Name != nativePath(name))
             {
                 return 0;
             }
@@ -2337,12 +2338,21 @@ namespace com.codename1.impl
             store.CreateFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
-        public override void deleteFile(java.lang.String file)
+        public override void deleteFile(java.lang.String file) //or Folder
         {
+            string f = nativePath(file);
+
             try
             {
-                var file1 = store.GetFileAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                file1.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                var folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                if (folder != null) { //.Name.Equals(f)) {
+                    folder.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                    return;
+                }
+            } catch { }
+            try {
+                    var file1 = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                    file1.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
             {
@@ -2368,8 +2378,16 @@ namespace com.codename1.impl
 
         public override bool isDirectory(java.lang.String file)
         {
-            var ss = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            return ss.Name.Equals(nativePath(file));
+            try
+            {
+                var ss = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                return ss != null; //.Name.Equals(nativePath(file));
+            }
+            catch
+            {
+                return false;
+
+            }
         }
 
         public override bool exists(java.lang.String file)
